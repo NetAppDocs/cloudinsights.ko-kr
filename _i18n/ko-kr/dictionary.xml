@@ -8508,4 +8508,12 @@
   <block id="399bd1ee587245ecac6f39beaa99886f" category="sidebar">PostgreSQL</block>
   <block id="14590850b4107a6f92feb1af739b82eb" category="sidebar">인형</block>
   <block id="15ec8934d96530d4c5f4a3b0f701f745" category="sidebar">RethinkDB를 참조하십시오</block>
+  <block id="e229d51ca45046e23340982a0d911a30" category="section-title">감사 데이터 보존</block>
+  <block id="c5ba523259d5f0a8abbc98e09089879a" category="paragraph">Cloud Insights이 감사 데이터를 보존하는 시간은 귀하의 에디션을 기준으로 합니다.</block>
+  <block id="6140d54709a2f0707aaa20367fd479a2" category="list-text">Basic Edition: 감사 데이터는 30일 동안 보존됩니다</block>
+  <block id="ef14a516a82a51d74eaeb8e2193667cb" category="list-text">Standard 및 Premium Edition: 감사 데이터는 1년 + 1일 동안 보존됩니다</block>
+  <block id="7ad87c3be379b9de0a9009199fb5401c" category="paragraph">보존 시간보다 오래된 감사 항목은 자동으로 제거됩니다. 사용자 조작이 필요하지 않습니다.</block>
+  <block id="c0e7fce2cca0be472d3098957e2a4864" category="paragraph">여기에서 감사 관련 문제를 해결할 수 있는 제안 사항을 찾을 수 있습니다.</block>
+  <block id="3e31734df6f02c9ad9cd0dc7c1f65a98" category="cell">모니터를 내보냈다는 감사 메시지가 표시됩니다.</block>
+  <block id="256a0ce1cb9ac99794371e404aa7446e" category="cell">맞춤형 모니터 구성의 내보내기는 일반적으로 새 기능을 개발 및 테스트하는 동안 NetApp 엔지니어가 사용합니다. 이 메시지가 표시되지 않을 것으로 예상되면 감사 대상 작업에 명명된 사용자의 작업을 탐색하거나 지원 부서에 문의하십시오.</block>
 </blocks>

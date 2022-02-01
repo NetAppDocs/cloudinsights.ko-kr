@@ -222,6 +222,8 @@ sidebar:
         url: "/forensic_user_overview.html"
     - title: 자동 응답 정책
       url: "/cs_automated_response_policies.html"
+    - title: 사용자 액세스를 제한합니다
+      url: "/cs_restrict_user_access.html"
     - title: 랜섬웨어 공격 시뮬레이션
       url: "/concept_cs_attack_simulator.html"
     - title: 알림
