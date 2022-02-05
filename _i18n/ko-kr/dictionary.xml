@@ -8516,4 +8516,16 @@
   <block id="c0e7fce2cca0be472d3098957e2a4864" category="paragraph">여기에서 감사 관련 문제를 해결할 수 있는 제안 사항을 찾을 수 있습니다.</block>
   <block id="3e31734df6f02c9ad9cd0dc7c1f65a98" category="cell">모니터를 내보냈다는 감사 메시지가 표시됩니다.</block>
   <block id="256a0ce1cb9ac99794371e404aa7446e" category="cell">맞춤형 모니터 구성의 내보내기는 일반적으로 새 기능을 개발 및 테스트하는 동안 NetApp 엔지니어가 사용합니다. 이 메시지가 표시되지 않을 것으로 예상되면 감사 대상 작업에 명명된 사용자의 작업을 탐색하거나 지원 부서에 문의하십시오.</block>
+  <block id="9209b4ae424c71673a607557c64f7eb8" category="section-title">2022년 2월</block>
+  <block id="ecf4e9e3c38358de05561be5ed03f5d0" category="section-title">피처 미리보기</block>
+  <block id="2240ee7d4e56b8ba7ac49b14311cdeed" category="inline-link-macro">NetApp 세일즈 팀</block>
+  <block id="c8d0b8a6f32511af92bc09ceb0fccb0d" category="paragraph">Cloud Insights는 다양하고 흥미로운 새 미리보기 기능을 강조합니다. 이러한 기능 중 하나 이상을 미리 보려면 에 문의하십시오 <block ref="16ff11ed878ec2cb7f479192bb9f1a7d" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="5fa0ef8fc40e60003288942e2da3e300" category="cell">* 피처 *</block>
+  <block id="aeaf81dc6547412bdc24df519c65a5ba" category="cell">사용자 액세스 자동 응답 작업 제한</block>
+  <block id="decbe415d8accca7c2c16d48a79ee934" category="inline-link-macro">자세히 보기</block>
+  <block id="f763810a8ec0d5862e0f288795932956" category="cell">공격이 감지되면 Cloud Secure는 파일 시스템에 대한 사용자 액세스를 제한함으로써 공격을 차단할 수 있습니다(전체 블록 또는 읽기 전용 액세스로 설정). 자동 응답 정책을 사용하거나 알림 또는 사용자 세부 정보 페이지에서 수동으로 액세스를 제한할 수 있습니다.<block ref="e8dc9c29c76388404a63bbf729dac2fd" category="inline-link-macro-rx"></block></block>
+  <block id="ecd6006dc9161e21cc393e8aee8b161a" category="cell">데이터 삭제 - 파일 삭제 공격 탐지</block>
+  <block id="802e1838a460af6f9b00de358ee4fd50" category="cell">비정상적인 대규모 파일 삭제 작업을 감지하고, 악의적인 사용자의 악의적인 파일 액세스를 차단하고, 자동 응답 정책을 통해 자동 스냅샷을 생성합니다.</block>
+  <block id="f1e906bd3edd784d1978ed7c4566e64c" category="cell">스트레스 상태의 공유 리소스</block>
+  <block id="9f854307bc74ec4b140a63a4e38f1e83" category="cell">스트레스 분석 하의 공유 리소스를 통해 공유 리소스의 워크로드 요구 및 영향을 받는 하나 이상의 개별 워크로드에서 높은 수요가 요구되어 스트레스를 받고 있는 공유 스토리지 리소스를 확인할 수 있습니다<block ref="b97265367ad52c02d31fa7522e26571d" category="inline-link-macro-rx"></block></block>
 </blocks>
