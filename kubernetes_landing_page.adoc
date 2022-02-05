@@ -55,6 +55,8 @@ image:Kubernetes_Node_Pod_Status.png["노드 및 Pod 상태"]
 
 화면 오른쪽에는 각 클러스터에서 사용되는 상위 3개의 네임스페이스 목록이 있습니다. 클러스터의 모든 네임스페이스를 보려면 * All * 링크를 클릭하십시오.
 
+네임스페이스를 클릭하면 네임스페이스 세부 정보 페이지가 열립니다.
+
 image:Kubernetes_Namespaces.png["네임스페이스"]
 
 
