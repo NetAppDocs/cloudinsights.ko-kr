@@ -25,7 +25,7 @@ Cloud Insights에서 사용할 수 있는 기능과 기능은 구독하는 버�
 * * Basic Edition * 은 NetApp 지원 계정이 활성 상태인 기존 NetApp 고객에게 무료로 제공됩니다.
 +
 
-WARNING: 비활성 Cloud Insights Basic Edition 환경이 삭제되고 해당 리소스가 회수됩니다. 90일 연속 사용자 활동이 없는 경우 환경은 비활성 상태로 간주됩니다.
+WARNING: 비활성 Cloud Insights Basic Edition 환경이 삭제되고 해당 리소스가 회수됩니다. 연속 7일 동안 수집된 데이터가 없는 경우, 연속으로 30일 동안 사용자 활동이 없는 경우 환경은 비활성 상태로 간주됩니다. Cloud Insights는 알림을 전송하고 환경이 삭제되기 4일 전에 유예 기간을 제공합니다.
 
 +
 

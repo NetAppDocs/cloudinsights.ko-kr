@@ -6562,7 +6562,6 @@
   <block id="40a5834e83975621427553254177c0ab" category="section-title">버전</block>
   <block id="e5357ca832e310fe2d063fed63521e4d" category="paragraph">Cloud Insights에서 사용할 수 있는 기능과 기능은 구독하는 버전에 따라 다릅니다. 사용 가능한 에디션은 여기에서 설명합니다.</block>
   <block id="1dd24ddc8bdc4a8ad7940369b2db779f" category="list-text">* Basic Edition * 은 NetApp 지원 계정이 활성 상태인 기존 NetApp 고객에게 무료로 제공됩니다.</block>
-  <block id="551580b22ed2599ef32a07489113307b" category="admonition">비활성 Cloud Insights Basic Edition 환경이 삭제되고 해당 리소스가 회수됩니다. 90일 연속 사용자 활동이 없는 경우 환경은 비활성 상태로 간주됩니다.</block>
   <block id="ffec407b7dac5bde197f9fa34cee89d5" category="admonition">Cloud Insights Basic Edition에서 수집된 기능, 데이터 보존 시간, 객체 또는 메트릭은 통지 여부에 따라 변경될 수 있습니다.</block>
   <block id="b0bb53aca4f0808da1b4e8c638bf67a0" category="list-text">* Standard Edition * 은 서브스크립션을 통해 제공되며 Basic Edition의 모든 기능과 그 이상의 기능을 제공합니다.</block>
   <block id="ad7d493af34fa73fe95bf075712a5ec3" category="list-text">* 프리미엄 에디션 * 은 비즈니스 인텔리전스 및 보고와 Cloud Secure 감사 및 위협 감지와 같은 추가 이점을 제공합니다.</block>
@@ -8554,4 +8553,5 @@
   <block id="f8a3f6c3840b144728e1066d84db53ec" category="section-title">선형 차트 보간</block>
   <block id="d1458c295da095c4f0b8cdf2e41ceaf6" category="paragraph">여러 데이터 수집기는 서로 다른 간격으로 데이터를 폴링합니다. 예를 들어, 데이터 수집기 A는 15분마다 폴링하는 반면 데이터 수집기 B는 5분마다 폴링합니다. 선형 차트 위젯(스플라인, 영역 및 누적 영역형 차트)이 여러 데이터 수집기에서 단일 선으로 이 데이터를 집계하는 경우(예: 위젯이 "모두"로 그룹화되는 경우) 그리고 5분마다 라인을 새로 고치면 수집기 B의 데이터가 정확하게 표시될 수 있으며 콜렉터 A의 데이터에 차이가 있을 수 있으므로 콜렉터 A가 다시 폴링을 할 때까지 집계에 영향을 줄 수 있습니다.</block>
   <block id="ccf8880e1018ebb2fd1bb2e959e62092" category="paragraph">이를 완화하기 위해 Cloud Insights는 집계 시 데이터를 보간하고, 데이터 수집기가 다시 폴링할 때까지 주변 데이터 요소를 사용하여 데이터를 "최상의 추측"으로 만듭니다. 위젯의 그룹화를 조정하여 언제든지 각 데이터 수집기의 개체 데이터를 개별적으로 볼 수 있습니다.</block>
+  <block id="c33b15606594c79bf9d409ec6f7e05b0" category="admonition">비활성 Cloud Insights Basic Edition 환경이 삭제되고 해당 리소스가 회수됩니다. 연속 7일 동안 수집된 데이터가 없는 경우, 연속으로 30일 동안 사용자 활동이 없는 경우 환경은 비활성 상태로 간주됩니다. Cloud Insights는 알림을 전송하고 환경이 삭제되기 4일 전에 유예 기간을 제공합니다.</block>
 </blocks>
