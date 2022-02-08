@@ -28,29 +28,25 @@ CIFS에 대해 SVM이 4개, NFS용으로 구성된 SVM이 1개 있고, 나머지
 
 NFS의 경우 내보내기 정책이 기본적으로 구성됩니다. 기본적으로, SVM에서 NFS 서비스를 생성할 때 엑스포트 정책이 생성됩니다. SMB의 경우 내보내기 정책을 구성해야 합니다.
 
-NFS와 SMB 모두에 대해 _csroles_를 올바르게 구성해야 합니다. 고객은 에 설명된 대로 ONTAP SVM 데이터 소스 수집기를 설정할 때 _csrole_(아직 구성하지 않은 경우)을 구성해야 합니다 link:task_add_collector_svm.html#a-note-about-permissions["데이터 수집기 권한"] 문서화:
+고객이 클러스터 자격 증명을 사용하지 않고 CsUser를 사용하는 경우 사용자 액세스 제한을 지원하려면 다음 단계를 따라야 합니다.
 
-클러스터 IP를 사용하여 데이터 수집기를 구성하는 경우 ONTAP 명령줄에서 다음을 수행합니다.
+클러스터 IP를 사용하여 데이터 수집기(CsUser와 함께)를 구성하는 경우 ONTAP 명령줄에서 다음을 수행합니다.
 
  security login role create -role csrole -cmddirname "vserver export-policy rule" -access all
-서버 IP를 사용하여 데이터 수집기를 구성하는 경우 ONTAP 명령줄에서 다음을 수행하여 올바른 _<vservername>_을(를) 삽입합니다.
+SVM IP를 사용하여 데이터 수집기(CsUser와 함께)를 구성하는 경우 ONTAP 명령 행에서 다음을 수행하여 올바른 _<vservername>_을(를) 삽입하십시오.
 
  security login role create -vserver <vservername> -role csrole -cmddirname "vserver export-policy rule" -access all
 기본적으로 SVM에서 NFS 서비스를 생성할 때 엑스포트 정책이 생성됩니다.
 
 다음은 내보내기 정책을 구성하는 명령입니다. 아래 명령을 텍스트 편집기에 복사하고 <vserver> 이름을 가상 서버의 이름으로 바꾸십시오. 그런 다음 각 라인을 한 번에 하나씩 복사하고 ONTAP 콘솔에서 실행합니다. 참고: 명령을 실행하기 전에 먼저 고급 모드로 전환해야 합니다.
 
+클러스터 모드에서 CsUser를 사용하는 경우:
 
-TIP: 이 기능은 PoC를 실행하는 데 특히 유용합니다. 테스트할 시스템에서 SMB는 아래와 같이 구성할 수 있습니다. PoC 중에 Data Source Collector에서 SMB/CIFS 프로토콜만 사용하도록 설정하고 NFS 프로토콜을 해제합니다.
+ security login role create -role csrole -cmddirname "vserver export-policy rule" -access all
+SVM 모드에서 CsUser를 사용하는 경우:
 
-클러스터 모드를 사용하는 경우:
-
- security login role create -role csrole -cmddirname "vserver export-policy rule" -access all -query "-policyname cloudsecure_*"
-SVM 모드를 사용하는 경우:
-
-보안 로그인 역할 create -vserver <vservername> -role csrole -cmddirname "vserver export -policy rule" -access all-query" -policyname cloudsecure_ *"
-
-두 모드 모두에서 다음 명령을 실행합니다.
+ security login role create -vserver <vservername> -role csrole -cmddirname "vserver export-policy rule" -access all
+두 모드 모두에서 클러스터 모드와 SVM 모드를 사용할 경우, SMB 전용으로 다음 명령을 실행합니다.
 
 ....
 set -privilege advanced
@@ -120,6 +116,51 @@ export-policy rule show -policyname default -vserver <vserver>
 
 
 
+=== IP를 수동으로 복원합니다
+
+Cloud Secure 평가판이 만료되거나 에이전트/수집기가 중단된 경우 다음 단계를 사용하여 ONTAP에서 IP를 수동으로 복원합니다.
+
+. SVM에 모든 엑스포트 정책을 나열하십시오.
++
+....
+contrail-qa-fas8020::> export-policy rule show -vserver <svm name>
+             Policy          Rule    Access   Client                RO
+Vserver      Name            Index   Protocol Match                 Rule
+------------ --------------- ------  -------- --------------------- ---------
+svm_s_____a default         1       nfs3,    cloudsecure_rule,     never
+                                     nfs4,    10.19.12.216
+                                     cifs
+svm_s_____a default         4       cifs,    0.0.0.0/0             any
+                                     nfs
+svm_s_____a test            1       nfs3,    cloudsecure_rule,     never
+                                     nfs4,    10.19.12.216
+                                     cifs
+svm_s_____a test            3       cifs,    0.0.0.0/0             any
+                                     nfs,
+                                     flexcache
+4 entries were displayed.
+....
+. 각 RuleIndex를 지정하여 "cloudsecure_rule"이 Client Match인 SVM의 모든 정책에 걸쳐 모든 규칙을 삭제합니다. CloudSecure 규칙은 일반적으로 1이 됩니다.
++
+ contrail-qa-fas8020::*> export-policy rule delete -vserver <svm name> -policyname * -ruleindex 1
+. cloudsecure 규칙이 삭제되었는지 확인(선택적 단계 확인)
++
+....
+contrail-qa-fas8020::*> export-policy rule show -vserver <svm name>
+             Policy          Rule    Access   Client                RO
+Vserver      Name            Index   Protocol Match                 Rule
+------------ --------------- ------  -------- --------------------- ---------
+svm_suchitra default         4       cifs,    0.0.0.0/0             any
+                                     nfs
+svm_suchitra test            3       cifs,    0.0.0.0/0             any
+                                     nfs,
+                                     flexcache
+2 entries were displayed.
+....
+
+
+
+
 == 문제 해결
 
 |===
@@ -129,7 +170,7 @@ export-policy rule show -policyname default -vserver <vserver>
 | 일부 사용자는 공격이 있어도 제한을 받지 않습니다. | SVM용 Data Collector 및 Agent가 _Running_상태인지 확인합니다. 데이터 수집기 및 에이전트가 중지된 경우 Cloud Secure에서 명령을 전송할 수 없습니다. 이는 사용자가 이전에 사용되지 않은 새 IP가 있는 시스템에서 스토리지에 액세스했을 수 있기 때문입니다. 제한은 사용자가 스토리지에 액세스하는 데 사용하는 호스트의 IP 주소를 통해 수행됩니다. 제한된 IP 주소 목록을 보려면 UI(알림 세부 정보 > 이 사용자의 액세스 제한 기록 > 영향을 받는 IP)를 확인하십시오. 사용자가 제한된 IP와 다른 IP를 가진 호스트에서 스토리지에 액세스하는 경우 사용자는 여전히 제한되지 않은 IP를 통해 스토리지를 액세스할 수 있습니다. 사용자가 IP가 제한된 호스트에서 액세스를 시도하는 경우 스토리지를 액세스할 수 없습니다. 
 
 
-| 액세스 제한을 수동으로 클릭하면 “작업에 대한 사용자 IP가 없습니다.”가 나타납니다. | 제한할 IP가 이미 다른 사용자로부터 제한되어 있습니다. 
+| 액세스 제한을 수동으로 클릭하면 "이 사용자의 IP 주소가 이미 제한되었습니다"라는 메시지가 나타납니다. | 제한할 IP가 이미 다른 사용자로부터 제한되어 있습니다. 
 
 
 | "SMB 프로토콜의 내보내기 정책 사용이 SVM에 대해 비활성화되었습니다."라는 경고와 함께 액세스 제한 이 실패합니다. 사용자 액세스 제한 기능을 사용하도록 엑스포트 정책 사용 허용" | 필수 구성 요소에 설명된 대로 가상 서버에 대해 -is-exportpolicy-enabled 옵션이 true 인지 확인합니다. 

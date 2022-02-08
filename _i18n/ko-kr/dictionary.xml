@@ -7380,18 +7380,8 @@
   <block id="1c86226deccf9173a843b3d83a50b7e4" category="section-title">사용자 액세스 제한을 위한 필수 구성 요소</block>
   <block id="4625d3b7cfc602f8dda70ae516128ac1" category="paragraph">이 기능을 사용하려면 고객은 SMB 및 NFS에 대한 엑스포트 정책을 구성해야 합니다. Data Source Collector에서 NFS 및 SMB가 구성된 경우 아래 단계를 따르십시오.</block>
   <block id="736a9d0a6c8a973d0fc55e15bec4f867" category="paragraph">NFS의 경우 내보내기 정책이 기본적으로 구성됩니다. 기본적으로, SVM에서 NFS 서비스를 생성할 때 엑스포트 정책이 생성됩니다. SMB의 경우 내보내기 정책을 구성해야 합니다.</block>
-  <block id="626812abc4a8fdb2dd02487a9302150b" category="inline-link-macro">데이터 수집기 권한</block>
-  <block id="c3c19a07296aa9f669c655127fb6e617" category="paragraph">NFS와 SMB 모두에 대해 _csroles_를 올바르게 구성해야 합니다. 고객은 에 설명된 대로 ONTAP SVM 데이터 소스 수집기를 설정할 때 _csrole_(아직 구성하지 않은 경우)을 구성해야 합니다 <block ref="b2b2b0ccbf010b48a5c08e47d75252e9" category="inline-link-macro-rx"></block> 문서화:</block>
-  <block id="09c94b9432079689154a18242f283b8f" category="paragraph">클러스터 IP를 사용하여 데이터 수집기를 구성하는 경우 ONTAP 명령줄에서 다음을 수행합니다.</block>
-  <block id="2af796c4413341d560aef2af386307ea" category="paragraph">서버 IP를 사용하여 데이터 수집기를 구성하는 경우 ONTAP 명령줄에서 다음을 수행하여 올바른 _&lt;vservername&gt;_을(를) 삽입합니다.</block>
   <block id="619f88c7ecb7dc067cac591110557971" category="paragraph">기본적으로 SVM에서 NFS 서비스를 생성할 때 엑스포트 정책이 생성됩니다.</block>
   <block id="5b80f2727c0cb6c0ec0f55e11fc807fb" category="paragraph">다음은 내보내기 정책을 구성하는 명령입니다. 아래 명령을 텍스트 편집기에 복사하고 &lt;vserver&gt; 이름을 가상 서버의 이름으로 바꾸십시오. 그런 다음 각 라인을 한 번에 하나씩 복사하고 ONTAP 콘솔에서 실행합니다. 참고: 명령을 실행하기 전에 먼저 고급 모드로 전환해야 합니다.</block>
-  <block id="dfb0bf3f02c7a96b047762240862b59d" category="admonition">이 기능은 PoC를 실행하는 데 특히 유용합니다. 테스트할 시스템에서 SMB는 아래와 같이 구성할 수 있습니다. PoC 중에 Data Source Collector에서 SMB/CIFS 프로토콜만 사용하도록 설정하고 NFS 프로토콜을 해제합니다.</block>
-  <block id="ebe71a0f2c742e9f41b569a9c4c0f781" category="paragraph">클러스터 모드를 사용하는 경우:</block>
-  <block id="3aef1fa1559480e8342d9e450068392c" category="paragraph">SVM 모드를 사용하는 경우:</block>
-  <block id="a0a22a3661d87ec62675853ac74a612b" category="paragraph">보안 로그인 역할 create -vserver &lt;vservername&gt; -role csrole -cmddirname "vserver export -policy rule" -access all-query" -policyname cloudsecure_ *"</block>
-  <block id="2122c7467f3c492bc888c3ad1b34ccb4" category="paragraph">두 모드 모두에서 다음 명령을 실행합니다.</block>
-  <block id="5404ae00cde93cccb947d68c27a3c123" category="paragraph">exportpolicy_and_exportpolicy rule_이(가) 올바르게 구성되었는지 확인하려면 위의 명령을 실행한 후 다음 명령을 실행합니다.</block>
   <block id="5a648726ddefbfa82103a1d9ad7f888d" category="section-title">이 기능을 활성화하는 방법은 무엇입니까?</block>
   <block id="87ec0cfaa84f34c3c1bd7e7a9573acd3" category="list-text">Cloud Secure에서 * 관리자 &gt; 자동 응답 정책 &gt; 응답 정책 설정 &gt; 액세스 제한 * 으로 이동합니다.</block>
   <block id="ff3c40d658e508545278698eddf6f64f" category="list-text">"사용자 액세스 제한 활성화"를 _ENABLED_로 설정합니다.</block>
@@ -7418,7 +7408,6 @@
   <block id="d62cebbd54827b8db7ecf72f7e55fa9a" category="paragraph">이 기능은 모든 페이지에서 숨겨집니다.</block>
   <block id="2ab997129d2c5216ff0d477e12280e8a" category="cell">일부 사용자는 공격이 있어도 제한을 받지 않습니다.</block>
   <block id="e90c2e3184d693395feccdf9a3d863a1" category="cell">SVM용 Data Collector 및 Agent가 _Running_상태인지 확인합니다. 데이터 수집기 및 에이전트가 중지된 경우 Cloud Secure에서 명령을 전송할 수 없습니다. 이는 사용자가 이전에 사용되지 않은 새 IP가 있는 시스템에서 스토리지에 액세스했을 수 있기 때문입니다. 제한은 사용자가 스토리지에 액세스하는 데 사용하는 호스트의 IP 주소를 통해 수행됩니다. 제한된 IP 주소 목록을 보려면 UI(알림 세부 정보 &gt; 이 사용자의 액세스 제한 기록 &gt; 영향을 받는 IP)를 확인하십시오. 사용자가 제한된 IP와 다른 IP를 가진 호스트에서 스토리지에 액세스하는 경우 사용자는 여전히 제한되지 않은 IP를 통해 스토리지를 액세스할 수 있습니다. 사용자가 IP가 제한된 호스트에서 액세스를 시도하는 경우 스토리지를 액세스할 수 없습니다.</block>
-  <block id="6b7a5ef59cd0d78debed9516f04d7350" category="cell">액세스 제한을 수동으로 클릭하면 “작업에 대한 사용자 IP가 없습니다.”가 나타납니다.</block>
   <block id="9d9d839297abd5b6559ef681c302109c" category="cell">제한할 IP가 이미 다른 사용자로부터 제한되어 있습니다.</block>
   <block id="59b7bceceaf271dc23260e1c30098a18" category="cell">"SMB 프로토콜의 내보내기 정책 사용이 SVM에 대해 비활성화되었습니다."라는 경고와 함께 액세스 제한 이 실패합니다. 사용자 액세스 제한 기능을 사용하도록 엑스포트 정책 사용 허용"</block>
   <block id="637e226349512d2d7a553322411b83f0" category="cell">필수 구성 요소에 설명된 대로 가상 서버에 대해 -is-exportpolicy-enabled 옵션이 true 인지 확인합니다.</block>
@@ -8557,4 +8546,17 @@
   <block id="c1f58328aeef13bbe14c188aa6c895ea" category="paragraph">다음은 보고와 관련된 문제 해결을 위한 제안 사항입니다.</block>
   <block id="f6742e49587a771a1225e7c6e472c682" category="cell">이메일을 통해 보고서를 보내도록 예약하는 경우 로그인한 사용자의 이름이 이메일의 "받는 사람" 필드에 미리 채워집니다. 그러나 이름은 "성 이름"(이름, 공백, 성) 형식입니다. 이 주소는 유효한 이메일 주소가 아니므로 예약된 보고서가 실행될 때 이메일이 전송되지 않습니다.</block>
   <block id="155db2ed9995e9882b3be492b37935dc" category="cell">이메일을 통해 보고서를 보내도록 예약할 때 미리 채워진 이름을 지우고 "받는 사람" 필드에 올바른 형식의 유효한 이메일 주소를 입력합니다.</block>
+  <block id="2ab8b1c842d8f5963816f664491e75da" category="paragraph">고객이 클러스터 자격 증명을 사용하지 않고 CsUser를 사용하는 경우 사용자 액세스 제한을 지원하려면 다음 단계를 따라야 합니다.</block>
+  <block id="90a8b0d40ba9bed66c3574312f0e54bd" category="paragraph">클러스터 IP를 사용하여 데이터 수집기(CsUser와 함께)를 구성하는 경우 ONTAP 명령줄에서 다음을 수행합니다.</block>
+  <block id="9a165d00ac2421482aebc6c5d626bf4e" category="paragraph">SVM IP를 사용하여 데이터 수집기(CsUser와 함께)를 구성하는 경우 ONTAP 명령 행에서 다음을 수행하여 올바른 _&lt;vservername&gt;_을(를) 삽입하십시오.</block>
+  <block id="78433a38c746e1646f4d885da42f7742" category="paragraph">클러스터 모드에서 CsUser를 사용하는 경우:</block>
+  <block id="c8bdf163f0c6fa0482e3a436c8286e7c" category="paragraph">SVM 모드에서 CsUser를 사용하는 경우:</block>
+  <block id="fd6b6801723e56fea99a681e03dcaf4f" category="paragraph">두 모드 모두에서 클러스터 모드와 SVM 모드를 사용할 경우, SMB 전용으로 다음 명령을 실행합니다.</block>
+  <block id="1e68e39ff63876126f3972751ed432bf" category="paragraph">exportpolicy_and_exportpolicy rule_이(가) 올바르게 구성되었는지 확인하려면 위의 명령을 실행한 후 다음 명령을 실행합니다.</block>
+  <block id="669c97c4b794abc0f280d4892a3a503d" category="section-title">IP를 수동으로 복원합니다</block>
+  <block id="9a77156daa8e3ba32694334a614ff511" category="paragraph">Cloud Secure 평가판이 만료되거나 에이전트/수집기가 중단된 경우 다음 단계를 사용하여 ONTAP에서 IP를 수동으로 복원합니다.</block>
+  <block id="6dbbd623c3a6977270c54a9833844b28" category="list-text">SVM에 모든 엑스포트 정책을 나열하십시오.</block>
+  <block id="23e8d668fcbe8c5dfe19d7e5be73ea0a" category="list-text">각 RuleIndex를 지정하여 "cloudsecure_rule"이 Client Match인 SVM의 모든 정책에 걸쳐 모든 규칙을 삭제합니다. CloudSecure 규칙은 일반적으로 1이 됩니다.</block>
+  <block id="6c1214115a59d3b11b800993d5bb40fb" category="list-text">cloudsecure 규칙이 삭제되었는지 확인(선택적 단계 확인)</block>
+  <block id="316d81dde3628e46f8db6067cc55e287" category="cell">액세스 제한을 수동으로 클릭하면 "이 사용자의 IP 주소가 이미 제한되었습니다"라는 메시지가 나타납니다.</block>
 </blocks>
