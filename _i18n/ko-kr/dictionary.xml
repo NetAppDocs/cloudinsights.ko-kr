@@ -8559,4 +8559,5 @@
   <block id="6c1214115a59d3b11b800993d5bb40fb" category="list-text">cloudsecure 규칙이 삭제되었는지 확인(선택적 단계 확인)</block>
   <block id="316d81dde3628e46f8db6067cc55e287" category="cell">액세스 제한을 수동으로 클릭하면 "이 사용자의 IP 주소가 이미 제한되었습니다"라는 메시지가 나타납니다.</block>
   <block id="76b8dd35599916d229b53d3ec6a40bb7" category="paragraph">예를 들어 logs.netapp.ems 소스에서 "object.store.unavailable" 메시지 유형을 필터링하도록 선택할 수 있습니다.</block>
+  <block id="bef090ff3d523fedde21921ae6a366fd" category="paragraph">대량 삭제 작업에서 _Save_를 클릭하거나 대량 삭제 작업에서 _Remove_를 클릭하면 Cloud Insights에서 작업이 다소 시간이 걸릴 것임을 알려줍니다. 이 메시지를 해제할 수 있습니다. 작업은 백그라운드에서 계속됩니다.</block>
 </blocks>
