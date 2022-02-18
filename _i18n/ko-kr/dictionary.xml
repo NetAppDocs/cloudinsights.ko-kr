@@ -6598,7 +6598,6 @@
   <block id="c23cd2c1b4017692f424447c29e0e94a" category="paragraph">무료 평가판이 만료되었지만 아직 Cloud Insights에 가입하지 않은 경우, 구독할 때까지 기능이 제한됩니다.</block>
   <block id="6dfeca588bd5c0da6ea024447ccdb31c" category="section-title">구독 옵션</block>
   <block id="91817940c8ccf98f5864299e8c3db4d7" category="paragraph">구독하려면 * 관리자 &gt; 구독 * 으로 이동하십시오. * Subscribe * 버튼 외에도 설치된 데이터 수집기를 보고 예상 가격을 계산할 수 있습니다. 일반적인 환경의 경우 셀프 서비스 AWS Marketplace * 구독 신청 * 버튼을 클릭하면 됩니다. 사용자 환경에 1,000개 이상의 관리되는 단위가 포함되거나 포함될 것으로 예상되는 경우 볼륨 가격 책정을 이용할 수 있습니다.</block>
-  <block id="ddfb49e4f93a6d4f76ab72bdd9f3c260" category="paragraph"><block ref="ddfb49e4f93a6d4f76ab72bdd9f3c260" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e22ac25b066b201473de7aa700ef5d92" category="section-title">가격</block>
   <block id="5fc2de3da890d5a9abd4414ec9849028" category="paragraph">Cloud Insights의 가격은 * 관리형 단위 * 입니다. 관리되는 유닛의 사용은 인프라 환경에서 관리되는 * 호스트 또는 가상 머신 * 수와 * 포맷되지 않은 용량 * 의 양에 따라 계산됩니다.</block>
   <block id="6cede1cfde12fc6d88ad1d8b6636a977" category="inline-xref">아래에 있습니다</block>
@@ -8546,4 +8545,6 @@
   <block id="c43280f80a1f0bcdf120e5ebc1478afa" category="paragraph">여기에서 로그 쿼리 문제 해결을 위한 제안 사항을 찾을 수 있습니다.</block>
   <block id="a2b7ba428c90a214e64dd3650b09c2d7" category="cell">로그 쿼리에 "디버그" 메시지가 표시되지 않습니다</block>
   <block id="dda93de8aa98136e7b08d865d96faa86" category="cell">디버그 로그 메시징이 수집되지 않았습니다. 원하는 메시지를 캡처하려면 관련 메시지 심각도를 _INFORMATIONAL, ERROR, ALERT, EMERGENCY, _ 또는 _NOTICE_LEVEL로 변경합니다.</block>
+  <block id="650dff57aace2bf498b38f129e337c25" category="paragraph"><block ref="650dff57aace2bf498b38f129e337c25" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dc3f15e1a26ca80a17b59bb6db783b8a" category="list-text">1 관리 유닛 = 4TiB의 물리적 디스크 또는 가상 디스크 포맷 안 됨 용량</block>
 </blocks>
