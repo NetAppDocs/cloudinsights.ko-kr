@@ -8547,4 +8547,7 @@
   <block id="dda93de8aa98136e7b08d865d96faa86" category="cell">디버그 로그 메시징이 수집되지 않았습니다. 원하는 메시지를 캡처하려면 관련 메시지 심각도를 _INFORMATIONAL, ERROR, ALERT, EMERGENCY, _ 또는 _NOTICE_LEVEL로 변경합니다.</block>
   <block id="650dff57aace2bf498b38f129e337c25" category="paragraph"><block ref="650dff57aace2bf498b38f129e337c25" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dc3f15e1a26ca80a17b59bb6db783b8a" category="list-text">1 관리 유닛 = 4TiB의 물리적 디스크 또는 가상 디스크 포맷 안 됨 용량</block>
+  <block id="659ff9500b9dfbdb242e7c46c8777782" category="list-text">Azure OAuth 2.0 리디렉션 URI(login.microsoftonline.com)</block>
+  <block id="7fe84062654c2f7953a6b3832d467cfb" category="list-text">Azure Resource Manager IP(management.core.windows.net)</block>
+  <block id="3b2e8fc35def670e931c7dad789c4510" category="paragraph">계정이 올바르게 구성되고 Azure에 애플리케이션을 등록하면 Cloud Insights로 Azure 인스턴스를 검색하는 데 필요한 자격 증명이 제공됩니다. 다음 링크에서는 검색을 위해 계정을 설정하는 방법에 대해 설명합니다.<block ref="e57a159da4fbdd6739e41c759d2d3d96" category="inline-link-rx"></block></block>
 </blocks>
