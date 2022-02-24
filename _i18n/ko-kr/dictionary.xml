@@ -3588,7 +3588,6 @@
   <block id="812faed524486085f300f8e0bdba77fe" category="inline-image-macro">모니터 조건을 정의합니다</block>
   <block id="be0ee88944c0674ffaad4c460224553f" category="paragraph"><block ref="be0ee88944c0674ffaad4c460224553f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fb5c635cd1a9c18981a7fac060c1aa9a" category="section-title">로그 모니터</block>
-  <block id="2537071834a07a838e1fbe450ad077ac" category="paragraph">로그 모니터 * 의 사용 가능한 로그 목록에서 모니터링할 로그를 먼저 선택합니다. 그런 다음 위와 같이 사용 가능한 속성을 기준으로 필터링할 수 있습니다.</block>
   <block id="aca15d8fd21dcf5be785b4d359f6563d" category="admonition">로그 모니터 필터는 비워 둘 수 없습니다.</block>
   <block id="2648a1582ae14a77bf852bf4354bdc50" category="inline-image-macro">모니터링할 로그를 선택하고 필터를 설정합니다</block>
   <block id="06601e542f4f628f419d282c214d28c9" category="paragraph"><block ref="06601e542f4f628f419d282c214d28c9" category="inline-image-macro-rx" type="image"></block></block>
@@ -8550,4 +8549,6 @@
   <block id="659ff9500b9dfbdb242e7c46c8777782" category="list-text">Azure OAuth 2.0 리디렉션 URI(login.microsoftonline.com)</block>
   <block id="7fe84062654c2f7953a6b3832d467cfb" category="list-text">Azure Resource Manager IP(management.core.windows.net)</block>
   <block id="3b2e8fc35def670e931c7dad789c4510" category="paragraph">계정이 올바르게 구성되고 Azure에 애플리케이션을 등록하면 Cloud Insights로 Azure 인스턴스를 검색하는 데 필요한 자격 증명이 제공됩니다. 다음 링크에서는 검색을 위해 계정을 설정하는 방법에 대해 설명합니다.<block ref="e57a159da4fbdd6739e41c759d2d3d96" category="inline-link-rx"></block></block>
+  <block id="115369a1ed62b7bc3a2d447559a26c19" category="paragraph">로그 모니터 * 를 만들 때는 먼저 사용 가능한 로그 목록에서 모니터링할 로그를 선택합니다. 그런 다음 위와 같이 사용 가능한 속성을 기준으로 필터링할 수 있습니다.</block>
+  <block id="4c98e9aaa4cbb7fc1c457ed76c2a0f21" category="paragraph">모니터 오른쪽에 있는 메뉴를 클릭하고 * Pause * (일시 중지 *)를 선택하여 개체 유형의 모니터링을 일시적으로 일시 중지할 수 있습니다. 모니터링을 다시 시작할 준비가 되면 * Resume * (재개 *)을 클릭합니다.</block>
 </blocks>
