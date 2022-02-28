@@ -6849,7 +6849,6 @@
   <block id="a747294b29bc071d7eeb89e1d1bd67f9" category="summary">ONTAP 데이터 수집기</block>
   <block id="502e3fe5bd184d230783f4a0c914f87d" category="doc">NetApp ONTAP 데이터 관리 소프트웨어 데이터 수집기</block>
   <block id="2a284e8a68616d8db553ebefd9761c30" category="paragraph">이 데이터 수집기는 ONTAP 계정에서 읽기 전용 API 호출을 사용하여 ONTAP를 실행하는 스토리지 시스템에서 인벤토리 및 성능 데이터를 가져옵니다. 또한 이 데이터 수집기는 지원을 가속화하기 위해 클러스터 응용 프로그램 레지스트리에 레코드를 만듭니다.</block>
-  <block id="fd3a8e3a47c3fee35fa518456dc6307b" category="admonition">2021년 11월부터 ONTAP 고급 카운터 데이터 수집은 기본적으로 활성화됩니다. 이 기능은 점진적으로 롤아웃되며, 시간이 지나면 대시보드에서 고급 데이터를 볼 수 있습니다. 고급 데이터 수집을 비활성화하려면 ONTAP 데이터 수집기를 편집하고 '고급 카운터 데이터 수집 롤아웃에 대한 옵트인' 확인란의 선택을 취소합니다.</block>
   <block id="4868ecf4f32b85b520ca5ab6c7552007" category="paragraph">Cloud Insights는 ONTAP 데이터 수집기에서 인벤토리 및 성능 데이터를 가져옵니다. 획득한 각 자산 유형에 대해 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.</block>
   <block id="4871762556ae50b97d72765830827f1b" category="section-title">ONTAP 데이터 관리 용어</block>
   <block id="97f3d835bed845103b7b3588084a2de2" category="paragraph">다음 용어는 ONTAP 데이터 관리 스토리지 자산 랜딩 페이지에서 찾을 수 있는 오브젝트 또는 참조에 적용됩니다. 이러한 용어 중 다수는 다른 데이터 수집기에도 적용됩니다.</block>
@@ -7076,7 +7075,6 @@
   <block id="010e8a3ade245a1718e7c4b5540ac2e3" category="cell">오류: "섀시 IP 주소가 일치하지 않습니다."</block>
   <block id="e73a974e5f64b7f2d040fb59fd2aafcd" category="cell">섀시 IP 주소를 사용하도록 데이터 소스 구성을 변경합니다.</block>
   <block id="04eb81d16943e8c8a6314aaac38a4f4b" category="cell">Access Gateway 포트에 두 개 이상의 노드가 로그인되었다는 메시지를 받습니다</block>
-  <block id="45584247f153a6738f901d94b5c8cade" category="summary">Cloud Insights는 통합 데이터 수집을 위한 에이전트로 Telegrafrafts를 지원하며 Windows, Linux, macOS 및 Kubernetes에서 구성할 수 있습니다.</block>
   <block id="7e25453d6939c3c3ab0bd1656d5fcad2" category="doc">Agent가 데이터를 수집하도록 구성</block>
   <block id="bdb9a31f361d8d3be1c6915647e92d4d" category="inline-link-macro">텔레그라프</block>
   <block id="863fe9f23689919336be1a2467bf51a4" category="paragraph">Cloud Insights는 을 사용합니다 <block ref="3ac325f799d62e3e7cf39c0bf919731c" category="inline-link-macro-rx"></block> 통합 데이터 수집을 위한 에이전트로 사용됩니다. Telegraf는 메트릭, 이벤트 및 로그를 수집 및 보고하는 데 사용할 수 있는 플러그인 기반 서버 에이전트입니다. 입력 플러그인은 시스템/OS에 직접 액세스하거나 타사 API를 호출하거나 구성된 스트림(예 Kafka, statsd 등). 출력 플러그인은 에이전트에서 Cloud Insights로 수집된 메트릭, 이벤트 및 로그를 전송하는 데 사용됩니다.</block>
@@ -8553,4 +8551,5 @@
   <block id="15ac0cdbe87a38b3f0c5588fd122123c" category="list-text">* 노이즈 감소 * - 사용자가 최근 2시간 내에 생성한 파일을 필터링합니다. 사용자가 액세스하는 임시 파일(예: .tmp 파일)을 필터링하는 데에도 사용됩니다.</block>
   <block id="65524feb61d50c77bb7ba2638a763f8e" category="cell">일부 NFS 이벤트는 UI에서 표시되지 않습니다.</block>
   <block id="57312d53719f5635163cdff04dd88136" category="cell">다음을 확인하십시오. 1. POSIX 속성이 설정된 AD 서버의 사용자 디렉토리 수집기는 UI에서 활성화된 unixid 속성으로 실행해야 합니다. 2.NFS 액세스를 수행하는 모든 사용자는 UI 3의 사용자 페이지에서 검색할 때 표시됩니다. 원시 이벤트(사용자가 아직 검색되지 않은 이벤트)는 NFS 4에서 지원되지 않습니다. NFS 내보내기에 대한 익명 액세스는 모니터링되지 않습니다. NFS 버전이 NFS4.1 보다 적게 사용되었는지 확인합니다.</block>
+  <block id="37cfac15ae1ab98b21f905d72c337d9e" category="summary">Cloud Insights는 통합 데이터 수집을 위한 에이전트로 Teleraf를 지원하며 Windows, Linux, macOS 및 Kubernetes에서 구성할 수 있습니다.</block>
 </blocks>
