@@ -8568,4 +8568,5 @@
   <block id="33eb2eac94cfbe6aa148fd041d121e27" category="paragraph">이 데이터 수집기의 경우:</block>
   <block id="92d3290a1afbd21d7ba484ec66073bda" category="cell">Azure CVO에 연결하는 동안 "브로커/관리자 CA 서비스에 대한 인증서 서명 요청이 완료되지 않았습니다."라는 오류가 표시됩니다.</block>
   <block id="53d0d22fc59191f4037e101562c4dae2" category="cell">Cloud Manager 프록시 설정이 Cloud Manager 프라이빗 IP로 설정되어 있는지 확인합니다. Cloud Manager 설치는 다른 프록시를 설정할 수 있습니다. 프록시가 올바른 IP로 설정되고 클라우드 커넥터 대화 상자에서 프록시를 참조하면 Cloud Insights에 성공적으로 연결됩니다.</block>
+  <block id="bbd58b68ee3e3e9c95c32ae30a226786" category="admonition">Cloud Insights가 SCP 기반 파일 복제본을 통해 검색하는 .csv 파일 및 로그를 채우려면 VPLEX 클러스터에서 Cloud Insights의 성능 수집 기능을 사용하려면 성능 아카이브 서비스가 작동해야 합니다. NetApp은 많은 VPLEX 펌웨어 업그레이드/관리 스테이션 업데이트로 인해 이 기능이 작동하지 않는 것을 목격했습니다. 이러한 업그레이드를 계획 중인 고객은 계획된 업그레이드로 인해 이 기능이 작동 불능 상태가 될 수 있는지 사전에 Dell/EMC에 문의할 수 있으며, 그러한 경우 성능 가시성의 차이를 최소화하기 위해 어떻게 다시 활성화할 수 있습니까? Cloud Insight의 VPLEX 성능 코드는 각 폴에서 예상되는 모든 파일이 있는지, 그리고 파일이 제대로 업데이트되고 있는지 여부를 평가합니다. 파일이 누락되었거나 오래된 경우 Cloud Insights에서 성능 수집 장애를 기록합니다.</block>
 </blocks>
