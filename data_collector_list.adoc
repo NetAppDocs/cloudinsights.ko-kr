@@ -212,7 +212,7 @@ Cloud Insights에서 지원하는 데이터 수집기 목록 사전순:
 | link:task_dc_na_cloud_volumes.html["AWS용 NetApp Cloud Volumes Services"] | 검토할 수 있습니다 
 
 
-| link:task_dc_na_cloud_agent.html["ONTAP 9.9 이상을 위한 NetApp 클라우드 연결"] | 검토할 수 있습니다 
+| link:task_dc_na_cloud_connection.html["ONTAP 9.9 이상을 위한 NetApp 클라우드 연결"] | 검토할 수 있습니다 
 
 
 | link:task_dc_na_7mode.html["NetApp Data ONTAP 7-Mode 를 참조하십시오"] | 검토할 수 있습니다 
