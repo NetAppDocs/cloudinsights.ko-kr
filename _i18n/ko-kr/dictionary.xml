@@ -8563,4 +8563,6 @@
   <block id="9a8ef118d165349829d8c21e084de814" category="list-text">Critical에서 Non-triggered로 교차 - Resolved Alert 전송</block>
   <block id="77b2881850cae0e5dc1c7b60af0bc9b6" category="cell">"하트비트 오류: 메시지가 표시됩니다</block>
   <block id="e2284f166fb986bff4a211a1598659c8" category="cell">이 오류는 획득 장치와 Cloud Insights 환경 간의 통신을 1분 이상 중단시키는 네트워크 중단이 있는 경우에 발생할 수 있습니다. AU와 Cloud Insights 사이의 연결이 안정적이고 활성 상태인지 확인합니다.</block>
+  <block id="f06aba11198bdba5f39e2cabfd82871d" category="cell">CloudWatch Agent 메트릭 네임스페이스</block>
+  <block id="4a508608b5d5c22a19b0ff3e12d1bc61" category="cell">데이터를 수집할 EC2/EBS의 네임스페이스입니다. 이 네임스페이스에 있는 기본 메트릭의 이름이 변경되면 Cloud Insights에서 이름이 변경된 데이터를 수집하지 못할 수 있습니다. 기본 메트릭 이름은 그대로 두는 것이 좋습니다.</block>
 </blocks>
