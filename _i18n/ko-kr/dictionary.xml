@@ -7337,7 +7337,6 @@
   <block id="0ccd64b2e6202fbb544d22cd48a872b2" category="inline-link-macro">이 GitHub 기사를 참조하십시오</block>
   <block id="8f176f657f418586c2a4828045ab0c37" category="cell">이는 알려진 문제입니다. 을 참조하십시오 <block ref="23bd9a1f0b26414ad35f4299a95464f0" category="inline-link-macro-rx"></block> 를 참조하십시오. Telegraf가 실행 중인 경우 사용자는 이러한 오류 메시지를 무시할 수 있습니다.</block>
   <block id="9aab00e938cede2932654042bc507309" category="cell">Kubernetes에서 Telegraf 포드가 "mountstats 정보 처리 중 오류: mountstats 파일을 열지 못했습니다. /hostfs/proc/1/mountstats, 오류: open/hostfs/proc/1/mountstats: 사용 권한이 거부되었습니다." 오류를 보고합니다.</block>
-  <block id="111b2478c731e7f769050b7a9f8506c6" category="cell">SELinux가 설정되어 있고 강제 적용되는 경우 Telegraf 포드가 Kubernetes 노드의 /proc/1/mountstats 파일에 액세스하지 못할 수 있습니다. 이 제한 사항을 완화하려면 다음 중 하나를 수행합니다. • Telegraf가 실행 중인 각 Kubernetes 노드에서 "chcon-RT container_runtime_t/proc/1/mountstats"를 실행합니다. • Telegraf가 실행 중인 각 Kubernetes 노드에서 SELinux 보안 정책을 "Enforcing"에서 "Perforcive"로 변경합니다. • Telegraf DemonSet를 편집하고 spec.containers.securityContext.privileged "true"로 설정합니다.</block>
   <block id="99f1acff1d2f1ebc7fdf8742d4379f66" category="summary">Slack의 성능 또는 인벤토리 임계값에 대한 알림을 보낼 웹 후크를 만듭니다</block>
   <block id="24b87c1b869473ea3ff363d0080b7620" category="doc">Slack 의 Webhook 예제</block>
   <block id="4bee282a8c22686bb3e6595e1333fbdc" category="paragraph">Webhook을 사용하면 사용자 지정된 Webhook 채널을 사용하여 다양한 응용 프로그램에 경고 알림을 보낼 수 있습니다. 이 페이지에서는 Slack에 대한 Webhook을 설정하는 예를 제공합니다.</block>
@@ -8552,4 +8551,5 @@
   <block id="65524feb61d50c77bb7ba2638a763f8e" category="cell">일부 NFS 이벤트는 UI에서 표시되지 않습니다.</block>
   <block id="57312d53719f5635163cdff04dd88136" category="cell">다음을 확인하십시오. 1. POSIX 속성이 설정된 AD 서버의 사용자 디렉토리 수집기는 UI에서 활성화된 unixid 속성으로 실행해야 합니다. 2.NFS 액세스를 수행하는 모든 사용자는 UI 3의 사용자 페이지에서 검색할 때 표시됩니다. 원시 이벤트(사용자가 아직 검색되지 않은 이벤트)는 NFS 4에서 지원되지 않습니다. NFS 내보내기에 대한 익명 액세스는 모니터링되지 않습니다. NFS 버전이 NFS4.1 보다 적게 사용되었는지 확인합니다.</block>
   <block id="37cfac15ae1ab98b21f905d72c337d9e" category="summary">Cloud Insights는 통합 데이터 수집을 위한 에이전트로 Teleraf를 지원하며 Windows, Linux, macOS 및 Kubernetes에서 구성할 수 있습니다.</block>
+  <block id="73f1df4b50034876b992ea5afa05d7c8" category="cell">SELinux가 설정되어 있고 강제 적용되는 경우 Telegraf 포드가 Kubernetes 노드의 /proc/1/mountstats 파일에 액세스하지 못할 수 있습니다. 이러한 제한을 완화하려면 다음 중 하나를 수행합니다. • 스크립트 기반 설치의 경우 Telegraf DS('kubctl edit DS Telegraf-DS')를 편집하고 "privileged:false"를 "privileged:true"로 변경합니다. • 운영자 기반 설치의 경우 에이전트('kubctl edit agent-monitoring-NetApp')를 편집하고 "특별 권한 모드"를 "false"로 변경합니다.</block>
 </blocks>
