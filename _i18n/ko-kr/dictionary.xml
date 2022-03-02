@@ -7292,7 +7292,6 @@
   <block id="71342d32523395c97fae80cc75bd023d" category="paragraph">모니터링 네임스페이스를 Telegraf 전용으로 사용하는 경우:</block>
   <block id="e940152e87eec8b40c6335f4aac3e4b7" category="paragraph">모니터링 네임스페이스를 Telegraf(전신) 외에 다른 용도로 사용하는 경우:</block>
   <block id="aca5f422c992e53669a31d99958653bc" category="paragraph">작업자 기반 설치의 경우 다음 명령을 실행합니다.</block>
-  <block id="4419ae7806803f11d5bd8d5d040e7961" category="paragraph">이전에 Telegraf에 대해 보안 컨텍스트 제약 조건이 생성된 경우:</block>
   <block id="37fa33c86fdccdaa2b45e4dbf0cc8be1" category="list-text">기존 구성 백업:</block>
   <block id="2dae4ebf3cd52678b8e5d2465189428c" category="list-text">Agent를 제거합니다(지침은 위 참조).</block>
   <block id="74f5c6d32f2296f5957491bc1daf425c" category="list-text"><block ref="46fff369b4d49c060bdfe983d9141e8d" category="inline-link-macro-rx"></block>.</block>
@@ -8552,4 +8551,5 @@
   <block id="57312d53719f5635163cdff04dd88136" category="cell">다음을 확인하십시오. 1. POSIX 속성이 설정된 AD 서버의 사용자 디렉토리 수집기는 UI에서 활성화된 unixid 속성으로 실행해야 합니다. 2.NFS 액세스를 수행하는 모든 사용자는 UI 3의 사용자 페이지에서 검색할 때 표시됩니다. 원시 이벤트(사용자가 아직 검색되지 않은 이벤트)는 NFS 4에서 지원되지 않습니다. NFS 내보내기에 대한 익명 액세스는 모니터링되지 않습니다. NFS 버전이 NFS4.1 보다 적게 사용되었는지 확인합니다.</block>
   <block id="37cfac15ae1ab98b21f905d72c337d9e" category="summary">Cloud Insights는 통합 데이터 수집을 위한 에이전트로 Teleraf를 지원하며 Windows, Linux, macOS 및 Kubernetes에서 구성할 수 있습니다.</block>
   <block id="73f1df4b50034876b992ea5afa05d7c8" category="cell">SELinux가 설정되어 있고 강제 적용되는 경우 Telegraf 포드가 Kubernetes 노드의 /proc/1/mountstats 파일에 액세스하지 못할 수 있습니다. 이러한 제한을 완화하려면 다음 중 하나를 수행합니다. • 스크립트 기반 설치의 경우 Telegraf DS('kubctl edit DS Telegraf-DS')를 편집하고 "privileged:false"를 "privileged:true"로 변경합니다. • 운영자 기반 설치의 경우 에이전트('kubctl edit agent-monitoring-NetApp')를 편집하고 "특별 권한 모드"를 "false"로 변경합니다.</block>
+  <block id="4a0bdf868a5617c0d6fdd80292b7ffbc" category="paragraph">스크립트 기반 Telegraf 설치를 위해 보안 컨텍스트 제약 조건을 이전에 수동으로 만든 경우:</block>
 </blocks>
