@@ -8565,4 +8565,7 @@
   <block id="e2284f166fb986bff4a211a1598659c8" category="cell">이 오류는 획득 장치와 Cloud Insights 환경 간의 통신을 1분 이상 중단시키는 네트워크 중단이 있는 경우에 발생할 수 있습니다. AU와 Cloud Insights 사이의 연결이 안정적이고 활성 상태인지 확인합니다.</block>
   <block id="f06aba11198bdba5f39e2cabfd82871d" category="cell">CloudWatch Agent 메트릭 네임스페이스</block>
   <block id="4a508608b5d5c22a19b0ff3e12d1bc61" category="cell">데이터를 수집할 EC2/EBS의 네임스페이스입니다. 이 네임스페이스에 있는 기본 메트릭의 이름이 변경되면 Cloud Insights에서 이름이 변경된 데이터를 수집하지 못할 수 있습니다. 기본 메트릭 이름은 그대로 두는 것이 좋습니다.</block>
+  <block id="33eb2eac94cfbe6aa148fd041d121e27" category="paragraph">이 데이터 수집기의 경우:</block>
+  <block id="92d3290a1afbd21d7ba484ec66073bda" category="cell">Azure CVO에 연결하는 동안 "브로커/관리자 CA 서비스에 대한 인증서 서명 요청이 완료되지 않았습니다."라는 오류가 표시됩니다.</block>
+  <block id="53d0d22fc59191f4037e101562c4dae2" category="cell">Cloud Manager 프록시 설정이 Cloud Manager 프라이빗 IP로 설정되어 있는지 확인합니다. Cloud Manager 설치는 다른 프록시를 설정할 수 있습니다. 프록시가 올바른 IP로 설정되고 클라우드 커넥터 대화 상자에서 프록시를 참조하면 Cloud Insights에 성공적으로 연결됩니다.</block>
 </blocks>

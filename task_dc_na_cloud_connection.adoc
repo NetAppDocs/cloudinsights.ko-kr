@@ -40,4 +40,13 @@ image:Cloud_Agent_Step_Waiting.png["연결을 기다리는 중입니다"]
 
 == 문제 해결
 
+이 데이터 수집기의 경우:
+
+[cols="2*"]
+|===
+| 문제: | 다음을 시도해 보십시오. 
+
+
+| Azure CVO에 연결하는 동안 "브로커/관리자 CA 서비스에 대한 인증서 서명 요청이 완료되지 않았습니다."라는 오류가 표시됩니다. | Cloud Manager 프록시 설정이 Cloud Manager 프라이빗 IP로 설정되어 있는지 확인합니다. Cloud Manager 설치는 다른 프록시를 설정할 수 있습니다. 프록시가 올바른 IP로 설정되고 클라우드 커넥터 대화 상자에서 프록시를 참조하면 Cloud Insights에 성공적으로 연결됩니다. 
+|===
 이 Data Collector에 대한 추가 정보는 에서 확인할 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].
