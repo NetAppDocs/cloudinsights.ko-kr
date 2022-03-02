@@ -41,6 +41,9 @@ keywords: AU, acquisition unit, trioubleshooting
 
 
 | 상태: 하트비트 실패 | 획득 장치(AU)는 임대를 갱신하기 위해 60초마다 Cloud Insights에 하트비트를 전송합니다. 네트워크 문제 또는 응답하지 않는 Cloud Insights로 인해 하트비트 통화가 실패할 경우 AU의 임대 시간이 업데이트되지 않습니다. AU의 임대 시간이 만료되면 Cloud Insights에 "하트비트 실패" 상태가 표시됩니다. 문제 해결 단계: * 획득 장치 서버와 CloudInsights 사이의 네트워크 연결을 확인합니다. * 획득 장치 서비스가 실행 중인지 확인합니다. 서비스가 실행되고 있지 않으면 서비스를 시작합니다. * 획득 장치 로그(<설치 디렉토리>:\Program Files\Cloud Insights\Acquisition Unit\log\acq.log)를 확인하여 오류가 있는지 확인합니다. 
+
+
+| "하트비트 오류: 메시지가 표시됩니다 | 이 오류는 획득 장치와 Cloud Insights 환경 간의 통신을 1분 이상 중단시키는 네트워크 중단이 있는 경우에 발생할 수 있습니다. AU와 Cloud Insights 사이의 연결이 안정적이고 활성 상태인지 확인합니다. 
 |===
 
 
