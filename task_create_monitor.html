@@ -1919,7 +1919,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-03-02 18:24:31 +0000">03/02/2022</time>
+    <time datetime="2022-03-02 18:39:16 +0000">03/02/2022</time>
     
   
 
@@ -2124,6 +2124,34 @@
 </div>
 <div class="paragraph">
 <p><span class="image"><img src="Webhook_Monitor_Notifications.png" alt="웹 후크 알림"></span></p>
+</div>
+<div class="sect3">
+<h4 id="경고-대-중대-vs-해결된-경고">경고 대 중대 vs 해결된 경고</h4>
+<div class="paragraph">
+<p>모니터에서 경고, 위험 또는 해결된 경고 알림을 보낼지 여부는 어느 임계값을 넘었는지에 따라 달라집니다.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>트리거되지 않은 경고에서 경고로 교차 - 경고 알림 보내기</p>
+</li>
+<li>
+<p>트리거되지 않은 경고에서 심각한 경고로 교차합니다</p>
+</li>
+<li>
+<p>경고에서 위험(Critical)으로 교차 - 중요 경고를 보냅니다</p>
+</li>
+<li>
+<p>심각 경고에서 경고로 교차 - 경고 경고 전송</p>
+</li>
+<li>
+<p>경고에서 트리거되지 않은 경고로 교차 - 해결된 경고 보내기</p>
+</li>
+<li>
+<p>Critical에서 Non-triggered로 교차 - Resolved Alert 전송</p>
+</li>
+</ul>
+</div>
 </div>
 </div>
 <div class="sect2">
