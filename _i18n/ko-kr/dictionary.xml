@@ -8058,8 +8058,6 @@
   <block id="c5cc340934b797d2f0bbc7777b820964" category="paragraph">동일한 메뉴를 사용하여 그룹의 이름을 바꾸거나 그룹을 삭제합니다. 그룹을 삭제해도 Cloud Insights에서 모니터가 삭제되지는 않으며, _ALL Monitors_에서 계속 사용할 수 있습니다.</block>
   <block id="6af18ae8f301c79fa391e8e18308336c" category="inline-image-macro">그룹을 일시 중지합니다</block>
   <block id="da61284a90b4338613015a46e7ac0c53" category="paragraph"><block ref="da61284a90b4338613015a46e7ac0c53" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="20a28be528da8febfe3a95f2e81c374b" category="paragraph">2021년 10월부터 Cloud Insights에는 메트릭 및 로그 모두에 대한 다수의 시스템 정의 모니터가 포함되어 있습니다.</block>
-  <block id="dbd05015602851a439c2b0c12269644d" category="paragraph">에 대해 자세히 알아보십시오 <block ref="c48a3e56f23a81aaf8fad75ccfbc3d89" category="inline-link-macro-rx"></block>Cloud Insights에 포함된 모니터에 대한 설명을 포함합니다.</block>
   <block id="2feda95a3fa7c2b2fe1a5823227a38d4" category="summary">Dell EMC RecoverPoint 데이터 수집기 구성</block>
   <block id="b7580029151bf8be03d47ebe21aae5d2" category="doc">Dell EMC RecoverPoint 데이터 수집기</block>
   <block id="2d0536ed48dc3aedf9eae91c758cc1aa" category="paragraph">EMC RecoverPoint 데이터 수집기는 EMC RecoverPoint 스토리지에서 인벤토리 정보를 수집합니다. 구성을 위해 데이터 수집기는 스토리지 프로세서의 IP 주소와 읽기 전용 사용자 이름 및 암호를 필요로 합니다.</block>
@@ -8548,4 +8546,5 @@
   <block id="4c98e9aaa4cbb7fc1c457ed76c2a0f21" category="paragraph">모니터 오른쪽에 있는 메뉴를 클릭하고 * Pause * (일시 중지 *)를 선택하여 개체 유형의 모니터링을 일시적으로 일시 중지할 수 있습니다. 모니터링을 다시 시작할 준비가 되면 * Resume * (재개 *)을 클릭합니다.</block>
   <block id="a73980f5bc00482a343096d1a40143fb" category="list-text">* 모든 모니터 * 는 모든 모니터를 나열합니다.</block>
   <block id="48fa35194daf9f1bd37c243905808afa" category="list-text">* 사용자 지정 모니터 * 는 사용자가 생성한 모니터만 나열합니다.</block>
+  <block id="f78abd66dd2da46aaad72238500300b7" category="paragraph">를 봅니다 <block ref="c48a3e56f23a81aaf8fad75ccfbc3d89" category="inline-link-macro-rx"></block> Cloud Insights에 포함된 모니터에 대한 설명을 보려면 페이지를 참조하십시오.</block>
 </blocks>
