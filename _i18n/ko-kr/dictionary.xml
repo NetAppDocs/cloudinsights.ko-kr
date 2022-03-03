@@ -3596,7 +3596,6 @@
   <block id="ec53a8c4f07baed5d8825072c89799be" category="list-text">상태</block>
   <block id="4c5b101f347b58f86395cf1a2e001ac3" category="list-text">객체/메트릭이 모니터링되고 있습니다</block>
   <block id="80d050a497bb54c9b64ac9c69c1ca376" category="list-text">모니터 상태</block>
-  <block id="a2786365bad51d811f1602d581fb9374" category="paragraph">모니터 오른쪽에 있는 메뉴를 클릭하고 * Pause * (일시 중지 *)를 선택하여 개체 유형의 모니터링을 일시적으로 중단할 수 있습니다. 모니터링을 다시 시작할 준비가 되면 * Resume * (재개 *)을 클릭합니다.</block>
   <block id="11a8d5beba27513c507b302b1ef0545d" category="paragraph">메뉴에서 * 복제 * 를 선택하여 모니터를 복사할 수 있습니다. 그런 다음 새 모니터를 수정하고 객체/메트릭, 필터, 조건, 이메일 수신자 등을 변경할 수 있습니다</block>
   <block id="785af682b2cf8712cbb6039f68f0b952" category="paragraph">모니터가 더 이상 필요하지 않은 경우 메뉴에서 * Delete * 를 선택하여 삭제할 수 있습니다.</block>
   <block id="b45ed04a71b5c6121028894bed24bfe0" category="paragraph">기본적으로 두 그룹이 표시됩니다.</block>
@@ -8044,23 +8043,9 @@
   <block id="de1246f2ba95371b711d65f46fa80725" category="paragraph">모니터를 사용하면 스토리지, VM, EC2 및 포트와 같은 "인프라" 오브젝트뿐만 아니라 Kubernetes, ONTAP 고급 메트릭, Telegraf 플러그인으로 수집된 "통합" 데이터에도 임계값을 설정할 수 있습니다. 임계값을 초과할 때 알림을 모니터링하여 경고 수준 경고, 위험 수준 경고 또는 둘 모두에 대한 임계값을 설정할 수 있습니다.</block>
   <block id="b18c8095ec7b7cd0c63a4e28b715f6c1" category="inline-link-macro">시스템 정의 모니터</block>
   <block id="a1a0b877038a8779cc93f4cbc4a6b3e3" category="paragraph">의 를 참조하십시오 <block ref="a0423879c34ca2a3017b3959874444e4" category="inline-link-macro-rx"></block> 문서화:</block>
-  <block id="839c283c68f2ef98e768a7975afd5e37" category="section-title">모니터 생성</block>
-  <block id="dfbbb6ad7733d63b680f9238f7dce10b" category="paragraph">아래 예에서는 _ 볼륨 노드 NFS 쓰기 지연 시간이 200ms에 도달하거나 초과할 때 경고 알림을 제공하고, 400ms에 도달하거나 초과할 경우 긴급 알림을 제공하는 모니터를 생성합니다. 임계값 중 하나라도 15분 이상 연속으로 초과되는 경우에만 알림을 받고 싶습니다.</block>
-  <block id="41072a21a5aa3d5e2d1c4423269fe77e" category="list-text">통합 데이터를 수집하도록 Cloud Insights를 구성해야 하며 해당 데이터가 수집되고 있습니다.</block>
-  <block id="c98c015f4f0e82c2ed50d1fa3f1ddb9b" category="list-text">모니터를 추가하려면 * + Monitor * 를 클릭합니다. 기존 모니터를 수정하려면 목록에서 모니터 이름을 클릭합니다.</block>
-  <block id="9b6aa409281581c32384a54312ef9422" category="paragraph">모니터 구성 대화 상자가 표시됩니다.</block>
-  <block id="e01bb84eddf46370a6fc520159f703b2" category="list-text">드롭다운에서 모니터링할 객체 유형 및 메트릭을 검색하여 선택합니다(예: _NetApp_ONTAP_volume_node_NFS_write_latency_).</block>
-  <block id="4919fae5496230ab8ec4548d4c50c09b" category="list-text">Warning_level의 경우 200을 입력합니다. 이 경고 수준을 나타내는 파선이 예제 그래프에 표시됩니다.</block>
-  <block id="850762088c3c4c1f8b8fbd3a6391adf8" category="inline-image-macro">조건 정의</block>
-  <block id="d678a6c1fad6d1a3decc8bc885eec2ca" category="paragraph"><block ref="d678a6c1fad6d1a3decc8bc885eec2ca" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2e67f2e161843cbb570102912ea3cae7" category="paragraph">필터링을 할 때 입력을 시작하면 현재 텍스트를 기반으로 * 와일드카드 필터 * 를 만들 수 있는 옵션이 표시됩니다. 이 옵션을 선택하면 와일드카드 식과 일치하는 모든 결과가 반환됩니다. NOT 또는 OR을 사용하여 * 식 * 을 만들거나 "없음" 옵션을 선택하여 필드의 null 값을 필터링할 수도 있습니다.</block>
-  <block id="39a314abc65bf7d64ebaaee9846c7fb6" category="paragraph"><block ref="39a314abc65bf7d64ebaaee9846c7fb6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="66aeedbda698450efad722126ebd8f7e" category="inline-image-macro">모니터에 대한 활성 경고를 표시하는 아이콘입니다</block>
-  <block id="17c7b5b8572d25de3ba213dc8154a40d" category="paragraph">모니터 이름 옆에 있는 "벨" 아이콘을 클릭하여 모니터와 관련된 활성 경고를 볼 수 있습니다.<block ref="be97aacfa5a3607bff376896033db0e0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="97e0d834bc800959e3bd09edcaa9de7e" category="section-title">모니터 그룹</block>
   <block id="03beff1464928590c48c07d06198e305" category="paragraph">그룹화를 사용하면 관련 모니터를 보고 관리할 수 있습니다. 예를 들어 사용자 환경의 스토리지 전용 모니터 그룹을 사용하거나 특정 수신자 목록과 관련된 모니터를 사용할 수 있습니다.</block>
   <block id="9c639a1450f6874f6897e1393bc7e090" category="paragraph">그룹에 포함된 모니터 수가 그룹 이름 옆에 표시됩니다.</block>
-  <block id="861cce966793d64acfe10deceab95b98" category="paragraph">새 그룹을 생성하려면 * "+" Create New Monitor Group * 버튼을 클릭합니다. 그룹 이름을 입력하고 * 그룹 생성 * 을 클릭합니다. 해당 이름으로 빈 그룹이 생성됩니다.</block>
   <block id="7c886a234bf4d8691074a08c126c8625" category="paragraph">그룹에 모니터를 추가하려면 _All Monitors_group(권장)으로 이동하여 다음 중 하나를 수행합니다.</block>
   <block id="b1fff7b254bfcb153bd679158818bf82" category="list-text">단일 모니터를 추가하려면 모니터 오른쪽에 있는 메뉴를 클릭하고 _Add to Group_을 선택합니다. 모니터를 추가할 그룹을 선택합니다.</block>
   <block id="0afe02aafcb932fbc2c281b9036adebd" category="list-text">모니터 이름을 클릭하여 모니터의 편집 보기를 열고 _Associate to a monitor group_ 섹션에서 그룹을 선택합니다.</block>
@@ -8069,7 +8054,6 @@
   <block id="a0b50fe45cd95fd9bc311360d50f6366" category="paragraph">그룹을 클릭하고 메뉴에서 _Remove from Group_을 선택하여 모니터를 제거합니다. 모든 모니터 또는 _Custom Monitors_그룹에서 모니터를 제거할 수 없습니다. 이러한 그룹에서 모니터를 삭제하려면 모니터 자체를 삭제해야 합니다.</block>
   <block id="e30c931a1dd5474d9e4ca4e7c88580c7" category="admonition">그룹에서 모니터를 제거해도 Cloud Insights에서 모니터가 삭제되지는 않습니다. 모니터를 완전히 제거하려면 모니터를 선택하고 _Delete_를 클릭합니다. 또한 이 작업은 해당 그룹이 속한 그룹에서 제거되며 더 이상 모든 사용자가 사용할 수 없습니다.</block>
   <block id="cdd3916c98efbf8a767744185462ffec" category="paragraph">또한 _ Move to Group _ 을(를) 선택하여 같은 방식으로 모니터를 다른 그룹으로 이동할 수도 있습니다.</block>
-  <block id="4cd1a4d2d0079954614c21e4318c8a2a" category="admonition">각 모니터는 특정 시간에 하나의 그룹에만 속할 수 있습니다.</block>
   <block id="9f69190cb4874f8723dbc78ca0008d65" category="paragraph">그룹의 모든 모니터를 한 번에 일시 중지하거나 다시 시작하려면 해당 그룹의 메뉴를 선택하고 _Pause_or_Resume_을 클릭합니다.</block>
   <block id="c5cc340934b797d2f0bbc7777b820964" category="paragraph">동일한 메뉴를 사용하여 그룹의 이름을 바꾸거나 그룹을 삭제합니다. 그룹을 삭제해도 Cloud Insights에서 모니터가 삭제되지는 않으며, _ALL Monitors_에서 계속 사용할 수 있습니다.</block>
   <block id="6af18ae8f301c79fa391e8e18308336c" category="inline-image-macro">그룹을 일시 중지합니다</block>
@@ -8520,14 +8504,6 @@
   <block id="bca1a19f88eb685d9344ee1f28f51dd2" category="inline-link-macro">대신 이 페이지를 참조하십시오</block>
   <block id="32b322f0c18e116c5d878598d8fedae2" category="cell"><block ref="32b322f0c18e116c5d878598d8fedae2" category="inline-link-macro-rx"></block></block>
   <block id="f57612bca660c9f1bc786c2d822f16a1" category="paragraph">이 페이지는 사용되지 않으며 업데이트되지 않습니다. 로 이동하십시오 <block ref="c5c1ccfedff026e54c070cb8b94b3e05" category="inline-link-macro-rx"></block>.</block>
-  <block id="eca6c1d25244ba63719b304531bddef1" category="section-title">경고 대 중대 vs 해결된 경고</block>
-  <block id="923c3cf6fbd418a123c8ebed052a57c2" category="paragraph">모니터에서 경고, 위험 또는 해결된 경고 알림을 보낼지 여부는 어느 임계값을 넘었는지에 따라 달라집니다.</block>
-  <block id="dd79419ccedc558e5791cee0d2f316ba" category="list-text">트리거되지 않은 경고에서 경고로 교차 - 경고 알림 보내기</block>
-  <block id="675f6f761966f8fa689b2b7048ae2e6e" category="list-text">트리거되지 않은 경고에서 심각한 경고로 교차합니다</block>
-  <block id="eba47cd4406c3d262fae2bbfc7b02691" category="list-text">경고에서 위험(Critical)으로 교차 - 중요 경고를 보냅니다</block>
-  <block id="b574b2030f0f6245566ee094ff55bb41" category="list-text">심각 경고에서 경고로 교차 - 경고 경고 전송</block>
-  <block id="72a32144305d760749f3bb911d5250ba" category="list-text">경고에서 트리거되지 않은 경고로 교차 - 해결된 경고 보내기</block>
-  <block id="9a8ef118d165349829d8c21e084de814" category="list-text">Critical에서 Non-triggered로 교차 - Resolved Alert 전송</block>
   <block id="77b2881850cae0e5dc1c7b60af0bc9b6" category="cell">"하트비트 오류: 메시지가 표시됩니다</block>
   <block id="e2284f166fb986bff4a211a1598659c8" category="cell">이 오류는 획득 장치와 Cloud Insights 환경 간의 통신을 1분 이상 중단시키는 네트워크 중단이 있는 경우에 발생할 수 있습니다. AU와 Cloud Insights 사이의 연결이 안정적이고 활성 상태인지 확인합니다.</block>
   <block id="f06aba11198bdba5f39e2cabfd82871d" category="cell">CloudWatch Agent 메트릭 네임스페이스</block>
@@ -8539,4 +8515,37 @@
   <block id="c11e8aa2beadf4aa3a198eadf152646e" category="admonition">사용자 지정 모니터는 일시 중지, 재개, 삭제 또는 다른 그룹으로 이동할 수 있습니다. 시스템 정의 모니터는 일시 중지 및 재개할 수 있지만 삭제하거나 이동할 수는 없습니다.</block>
   <block id="a2eb48cf8052d219817c9aad3b08ee2a" category="section-title">사용자 지정 모니터 그룹</block>
   <block id="46823a39af1ef1aeeeec87c034852563" category="paragraph">새 사용자 정의 모니터 그룹을 생성하려면 * "+"새 모니터 그룹 생성 * 버튼을 클릭합니다. 그룹 이름을 입력하고 * 그룹 생성 * 을 클릭합니다. 해당 이름으로 빈 그룹이 생성됩니다.</block>
+  <block id="18c9f77aeb499c7dba30bf110efc7428" category="list-text">기존 모니터를 수정하려면 목록에서 모니터 이름을 클릭합니다.</block>
+  <block id="ab8f2caed7bd8dd082843b17dd59b109" category="list-text">모니터를 추가하려면 * + Monitor * 를 클릭합니다.</block>
+  <block id="65117c1214622a1ce8c32b4de0f6dedc" category="inline-image-macro">시스템 또는 로그 모니터를 선택합니다</block>
+  <block id="3aff4942a9a35d98c6fdcb7dee853d59" category="paragraph"><block ref="3aff4942a9a35d98c6fdcb7dee853d59" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c58ee317c84221459556bf1d8e52753f" category="paragraph">새 모니터를 추가하면 메트릭 모니터 또는 로그 모니터를 생성하라는 메시지가 표시됩니다.</block>
+  <block id="fc2f22eed1d01c032a18cfe4cba78d61" category="list-text">_Metric_monitor 인프라스트럭처 또는 성능 관련 트리거에 대한 경고</block>
+  <block id="a0974f4b9ee8ae7e61310df23d207909" category="list-text">_Log_는 로그 관련 작업에 대한 경고를 모니터링합니다</block>
+  <block id="684fd3873f49a70f4bba03d396531c40" category="paragraph">모니터 유형을 선택하면 모니터 구성 대화 상자가 표시됩니다.</block>
+  <block id="269c9bcd9ea3883a3a121a1b88af9e34" category="section-title">메트릭 모니터</block>
+  <block id="313acdf9633421e44aea4a9be12b5071" category="list-text">드롭다운에서 모니터링할 객체 유형 및 메트릭을 검색하고 선택합니다.</block>
+  <block id="734f668bd72716899c84bbaedc8d2564" category="list-text">Warning_level의 경우 예에서는 200을 입력합니다. 이 경고 수준을 나타내는 파선이 예제 그래프에 표시됩니다.</block>
+  <block id="812faed524486085f300f8e0bdba77fe" category="inline-image-macro">모니터 조건을 정의합니다</block>
+  <block id="be0ee88944c0674ffaad4c460224553f" category="paragraph"><block ref="be0ee88944c0674ffaad4c460224553f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fb5c635cd1a9c18981a7fac060c1aa9a" category="section-title">로그 모니터</block>
+  <block id="115369a1ed62b7bc3a2d447559a26c19" category="paragraph">로그 모니터 * 를 만들 때는 먼저 사용 가능한 로그 목록에서 모니터링할 로그를 선택합니다. 그런 다음 위와 같이 사용 가능한 속성을 기준으로 필터링할 수 있습니다.</block>
+  <block id="76b8dd35599916d229b53d3ec6a40bb7" category="paragraph">예를 들어 logs.netapp.ems 소스에서 "object.store.unavailable" 메시지 유형을 필터링하도록 선택할 수 있습니다.</block>
+  <block id="aca15d8fd21dcf5be785b4d359f6563d" category="admonition">로그 모니터 필터는 비워 둘 수 없습니다.</block>
+  <block id="2648a1582ae14a77bf852bf4354bdc50" category="inline-image-macro">모니터링할 로그를 선택하고 필터를 설정합니다</block>
+  <block id="06601e542f4f628f419d282c214d28c9" category="paragraph"><block ref="06601e542f4f628f419d282c214d28c9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="454176c970e70022beb38f8813bea495" category="section-title">경고 동작을 정의합니다</block>
+  <block id="cce8c43ff15076e2a47a1be2c1993164" category="paragraph">로그 경고가 트리거될 때 알림 방법을 선택합니다. 위에서 설정한 필터 조건에 따라 _Warning_, _Critical_ 또는 _Informational_severity를 사용하여 경고를 보내도록 모니터를 설정할 수 있습니다.</block>
+  <block id="842f9b92217e385fb4514d9f0467d53e" category="inline-image-macro">모니터링할 로그 동작을 정의합니다</block>
+  <block id="1b1f71445d1920c9625e6c1f2018a229" category="paragraph"><block ref="1b1f71445d1920c9625e6c1f2018a229" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0625f5fb5e60f291ab595c8261238b23" category="section-title">경고 해결 동작을 정의합니다</block>
+  <block id="5e5c54ebd8c197b5e4372aff434134f5" category="paragraph">로그 모니터 알림의 해결 방법을 선택할 수 있습니다. 세 가지 선택 사항이 있습니다.</block>
+  <block id="5b9f5e9161724c93f9ca0032b82722d5" category="list-text">즉시 해결 *: 추가 조치 없이 즉시 경고가 해결됩니다</block>
+  <block id="0eab361e279540d56cc831a9ffb6892c" category="list-text">* 시간 기준 해결 *: 지정된 시간이 경과한 후 경고가 해결됩니다</block>
+  <block id="f7cb011afb94ace20c314d609b593ced" category="list-text">* 로그 항목에 따라 해결 *: 후속 로그 작업이 발생하면 경고가 해결됩니다. 예를 들어, 개체가 "사용 가능"으로 기록된 경우</block>
+  <block id="8728ea9412d646983052607068b25d61" category="inline-image-macro">경고 해결</block>
+  <block id="0267d15c881fe01be2ed5e9baa605285" category="paragraph"><block ref="0267d15c881fe01be2ed5e9baa605285" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4c98e9aaa4cbb7fc1c457ed76c2a0f21" category="paragraph">모니터 오른쪽에 있는 메뉴를 클릭하고 * Pause * (일시 중지 *)를 선택하여 개체 유형의 모니터링을 일시적으로 일시 중지할 수 있습니다. 모니터링을 다시 시작할 준비가 되면 * Resume * (재개 *)을 클릭합니다.</block>
+  <block id="a73980f5bc00482a343096d1a40143fb" category="list-text">* 모든 모니터 * 는 모든 모니터를 나열합니다.</block>
+  <block id="48fa35194daf9f1bd37c243905808afa" category="list-text">* 사용자 지정 모니터 * 는 사용자가 생성한 모니터만 나열합니다.</block>
 </blocks>
