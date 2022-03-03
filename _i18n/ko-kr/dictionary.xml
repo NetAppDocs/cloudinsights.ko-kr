@@ -3220,16 +3220,13 @@
   <block id="e47707bad3d8c571eb585885b9d8e5ea" category="list-text">API 토큰 관리는 관리자 역할을 가진 Cloud Insights 사용자가 수행합니다.</block>
   <block id="76090d35c59f1912752ed0abdd2b8feb" category="section-title">API 설명서(Swagger)</block>
   <block id="cbc8f04159b7864cfdf1f3f9a0639b83" category="paragraph">최신 API 정보는 Cloud Insights에 로그인하고 * 관리자 &gt; API 액세스 * 로 이동하여 확인할 수 있습니다. API Documentation * 링크를 클릭합니다.</block>
-  <block id="47d7b551b40becb326c406f74238150a" category="paragraph">API 설명서는 Swagger 기반의 API에 대한 간단한 설명과 사용 정보를 제공하며, 사용자 환경에서 사용할 수 있습니다.</block>
   <block id="cbb70567b5f7ab27a565172b8e1bc114" category="inline-image-macro">API Swagger 예</block>
   <block id="fc7607d363ea08dec8a8340a1030dd17" category="paragraph"><block ref="fc7607d363ea08dec8a8340a1030dd17" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2dc554f3bbe39578deadcf21e6d30345" category="section-title">API 액세스 토큰</block>
-  <block id="1281391af6f060d6074a70718d4fe3ea" category="paragraph">Cloud Insights API를 사용하기 전에 하나 이상의 * API 액세스 토큰 * 을 만들어야 합니다. 액세스 토큰은 지정된 API 범주에 사용되며 읽기 및/또는 쓰기 권한을 부여할 수 있습니다. 각 액세스 토큰의 만료일을 설정할 수도 있습니다. 지정된 범주에 속하는 모든 API가 액세스 토큰에 대해 유효합니다. 각 토큰은 사용자 이름 또는 암호의 무효입니다.</block>
   <block id="6059fa099fb833766b1f8431a3926056" category="paragraph">액세스 토큰을 만들려면 다음을 수행합니다.</block>
   <block id="fecbf5d2c0c13cc8b95b8e609a0f7fe2" category="list-text">Admin &gt; API Access * 를 클릭합니다</block>
   <block id="2eddd89969bc8a926181a1791b09cfd0" category="list-text">API 액세스 토큰 * 을 클릭합니다</block>
   <block id="bb0b4db3f730b0e00e3f2d490deb6dc0" category="list-text">토큰 이름을 입력하십시오</block>
-  <block id="360146f659bd725b350b271d6c503e19" category="list-text">API Categories를 선택합니다</block>
   <block id="7c6b7bcc37f76961d2189f2184466a34" category="list-text">이 API 액세스에 대해 부여된 권한을 지정합니다</block>
   <block id="36422fc03146f715dd2ebf157cb2b018" category="list-text">토큰 만료 지정</block>
   <block id="df7e1abab84c88ca59b75d8179052a13" category="admonition">토큰은 클립보드로 복사하고 생성 과정 중에 저장하는 경우에만 사용할 수 있습니다. 토큰을 만든 후에는 검색할 수 없으므로 토큰을 복사하여 안전한 위치에 저장하는 것이 좋습니다. 토큰 생성 화면을 닫기 전에 * API 액세스 토큰 복사 * 버튼을 클릭하라는 메시지가 표시됩니다.</block>
@@ -3239,19 +3236,12 @@
   <block id="695278b2df4ef830f797b2b85728cd20" category="paragraph">액세스 토큰이 전달되는 HTTP 헤더는 * X-CloudInsights-ApiKey: * 입니다.</block>
   <block id="a3edb14694b58a006156d05e3c4b6d5b" category="paragraph">예를 들어, 다음을 사용하여 스토리지 자산을 검색할 수 있습니다.</block>
   <block id="eceeec5380f54a75da4fa160c300d56b" category="paragraph">여기서 _&lt;API_Access_Token&gt;_은 API 액세스 키를 생성하는 동안 저장한 토큰입니다.</block>
-  <block id="98fbc8e7d31cedd912f33ee6a89818dc" category="section-title">API 범주</block>
-  <block id="c7fb26bb2d197a98dd4605353de8b5fd" category="paragraph">Cloud Insights API는 범주 기반이며 현재 다음 범주가 포함되어 있습니다.</block>
-  <block id="2f90612b2de30393cb574a8125f3b83c" category="list-text">자산 범주에는 자산, 쿼리 및 검색 API가 포함됩니다.</block>
   <block id="bf9403ca9242451b7ef055feae5711bb" category="list-text">자산: 최상위 객체를 열거하고 특정 오브젝트 또는 오브젝트 계층을 검색합니다.</block>
   <block id="8a471bf409138f673b99273d8183156b" category="list-text">쿼리: Cloud Insights 쿼리 검색 및 관리</block>
   <block id="c9de14b5a5af8684e29a00e86f5ea9f1" category="list-text">가져오기: 주석이나 응용 프로그램을 가져와 개체에 할당합니다</block>
   <block id="cfce3085ae85f2087671061798f85476" category="list-text">검색: 개체의 고유 ID 또는 전체 이름을 모르는 상태에서 특정 개체를 찾습니다.</block>
-  <block id="19d579e8bdc0964ff6c1b98d9f4077d2" category="list-text">데이터 수집 범주는 데이터 수집기를 검색하고 관리하는 데 사용됩니다.</block>
-  <block id="2e3e1cf2be708126495ee0409de4ffdc" category="list-text">데이터 수집 범주는 텔레그라프 에이전트와 같은 수집 데이터와 사용자 지정 메트릭을 검색 및 관리하는 데 사용됩니다</block>
   <block id="c99f25325f86d3f0c79c43f7e35c908e" category="inline-link-macro">API Swagger 문서</block>
-  <block id="66f4e9202f5d9c4adb625559f7dd6e37" category="paragraph">시간이 지나면 추가 범주 및/또는 API를 사용할 수 있습니다. 최신 API 정보는 에서 확인할 수 있습니다 <block ref="26737cef142923769504b229d3be204d" category="inline-link-macro-rx"></block>.</block>
   <block id="7bc31a95e4a1ee6f8948af20440df0c6" category="inline-link-macro">사용자 역할</block>
-  <block id="8c4783224d2aaf78624ed6e1d1bc6bc1" category="paragraph">사용자가 액세스할 수 있는 API 범주도 에 따라 다릅니다 <block ref="ead2141fb682d81a2f0b1deca7bb95c5" category="inline-link-macro-rx"></block> 각 Cloud Insights 기능 세트(모니터링, Cloud Secure, 보고)에 있습니다.</block>
   <block id="f62c375c71b04a523593c5019e4aa100" category="section-title">재고 탐색</block>
   <block id="f4f1eb3a3565596e151b069fef518185" category="paragraph">이 섹션에서는 Cloud Insights 개체의 계층 구조를 이동하는 방법을 설명합니다.</block>
   <block id="c22744ffcc9ee65a97cb166bcf41b4f4" category="section-title">상위 수준 개체</block>
@@ -3278,7 +3268,6 @@
   <block id="2103fdff3f83cde5feb37c19095d5b93" category="list-text">StoragePoolPerformance</block>
   <block id="358c65aac4f24ec63cc1575e33da13c1" category="list-text">PortPerformance(포트 성능)</block>
   <block id="30b8ec388c3a122cf003beb59b6a428b" category="list-text">디스크 성능</block>
-  <block id="d1d72189f00074c010ad5cdaa0e7efe1" category="paragraph">성능 메트릭에는 설명 및 범주가 있으며 성능 요약 모음이 포함되어 있습니다. 예: 지연 시간, 트래픽 및 속도.</block>
   <block id="14342261b2648dd695d327dadfdc7c9b" category="paragraph">성능 요약에는 시간 범위(1시간, 24시간, 3일 등)에 대해 단일 성능 카운터를 사용하여 계산된 설명, 단위, 샘플 시작 시간, 샘플 종료 시간 및 요약된 값(현재, 최소, 최대, 평균 등)의 모음이 있습니다.</block>
   <block id="b3e848961f638d04022e0d810ded842a" category="inline-image-macro">API 성능 예</block>
   <block id="379ee6ecdf21cb4dc0ca4a4c6bd911a7" category="paragraph"><block ref="379ee6ecdf21cb4dc0ca4a4c6bd911a7" category="inline-image-macro-rx" type="image"></block></block>
@@ -3286,7 +3275,6 @@
   <block id="0412de4a6d9fc6ce32676395cdbe7041" category="list-text">"self"는 개체의 고유 URL입니다</block>
   <block id="424af895bc123ba13a95c03efd8c3169" category="list-text">"기록"은 카운터 값의 타임 스탬프 및 맵 쌍 목록입니다</block>
   <block id="592193e048fbca7e89bbb5d2002328f7" category="list-text">다른 모든 사전 키("diskThroughput" 등)는 성능 메트릭의 이름입니다.</block>
-  <block id="9291545b28f5f21e3694eb57db45da2c" category="paragraph">각 성능 데이터 오브젝트 유형에는 고유한 성능 메트릭 세트가 있습니다. 예를 들어, 가상 머신 성능 개체는 성능 메트릭으로 "diskThroughput"을 지원합니다. 지원되는 각 성능 메트릭은 메트릭 사전에 나와 있는 특정 "성능 범주"입니다. Cloud Insights는 이 문서의 뒷부분에 나열된 몇 가지 성능 메트릭 범주를 지원합니다. 각 성능 메트릭 사전에는 이 성능 메트릭에 대한 사람이 읽을 수 있는 설명과 성능 요약 카운터 항목 집합인 "설명" 필드도 있습니다.</block>
   <block id="5dbe2140a5eccbbcda4fa6164a08c479" category="paragraph">성능 요약 카운터는 성능 카운터의 요약입니다. 카운터에 대한 최소, 최대 및 평균 등의 일반적인 집계 값과 최근 관찰 값, 요약 데이터에 대한 시간 범위, 카운터에 대한 단위 유형 및 데이터에 대한 임계값을 제공합니다. 임계값은 선택 사항이므로 나머지 속성은 필수입니다.</block>
   <block id="502bc43530a89d32bddc256e33becd06" category="paragraph">성능 요약은 다음 유형의 카운터에 사용할 수 있습니다.</block>
   <block id="274c3d5b2a32834eedd5b2684b3cc752" category="list-text">읽기 – 읽기 작업에 대한 요약입니다</block>
@@ -3314,7 +3302,6 @@
   <block id="85aa7a55c03d4a7d205562096674066a" category="inline-image-macro">스토리지 풀 용량 예</block>
   <block id="6f0ac10b550f7a116f9d902d16213da3" category="paragraph"><block ref="6f0ac10b550f7a116f9d902d16213da3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="109d056fe4a5bfafadc37d21bc6e5654" category="section-title">검색을 사용하여 개체를 검색합니다</block>
-  <block id="780b9434cb2ebb62e93b92701c3b13b0" category="paragraph">검색 API는 시스템에 대한 간단한 진입점입니다. API에 대한 유일한 입력 매개 변수는 자유 형식 문자열이며 결과 JSON에는 분류된 결과 목록이 포함되어 있습니다. 범주는 저장소, 호스트, 데이터 저장소 등과 같이 인벤토리에서 서로 다른 자산 유형입니다. 각 범주에는 검색 조건과 일치하는 범주 유형의 개체 목록이 포함됩니다.</block>
   <block id="01ebbdd0a50dbc56d987ceb25032be7b" category="paragraph">Cloud Insights는 타사 오케스트레이션, 비즈니스 관리, 변경 제어 및 티켓 시스템과 사용자 정의 CMDB 통합을 지원하는 확장 가능한 개방형 솔루션입니다.</block>
   <block id="b64fa7905e81fd64c5b00971051ce0f8" category="paragraph">Cloud Insight의 RESTful API는 데이터를 간단하고 효과적으로 이동할 수 있을 뿐 아니라 사용자가 데이터에 원활하게 액세스할 수 있도록 하는 기본적인 통합 지점입니다.</block>
   <block id="03b8f305db2c82bc6a850a57ec12d044" category="summary">Agent로 사용하는 서버 또는 VM은 최소 요구 사항을 충족해야 합니다</block>
@@ -4219,8 +4206,6 @@
   <block id="725fa6cc31a68ca7f439fce948043027" category="cell">Cloud Secure</block>
   <block id="305de530147912d72a50568ee4d65d26" category="cell">계정 소유자</block>
   <block id="b754159e4e957eec4566aef2214ed483" category="cell">구독을 수정하고, 청구 및 사용 정보를 보고, 모니터링 및 최적화, Cloud Secure 및 보고에 대한 모든 관리자 기능을 수행할 수 있습니다. 또한 소유자는 사용자를 초대하고 관리할 수 있을 뿐 아니라 SSO 인증 및 ID 페더레이션 설정을 관리할 수 있습니다. 첫 번째 계정 소유자는 Cloud Insights에 등록할 때 생성됩니다. 각 Cloud Insights 환경에 대해 계정 소유자를 두 명 이상 두는 것이 좋습니다. </block>
-  <block id="44b70724be7ec840b9d0d29c9f2451a3" category="cell">모든 모니터링 및 최적화 기능, 모든 사용자 기능, 데이터 수집기, API 키 및 알림 관리를 수행할 수 있습니다. 관리자는 다른 사용자를 초대할 수도 있지만 Monitor 및 Optimize 역할만 할당할 수 있습니다.</block>
-  <block id="844adbc2fbc9a63340cee63b3801153a" category="cell">는 모든 사용자/작성자 기능과 보고서 구성과 같은 모든 관리 작업, 보고 작업의 종료 및 다시 시작을 수행할 수 있습니다. 관리자는 다른 사용자를 초대할 수도 있지만 보고 역할만 할당할 수 있습니다.</block>
   <block id="9912eb0cfbb27a071ceaf89334fe4dbc" category="cell">대시보드, 쿼리, 알림, 주석, 주석 규칙, 장치 해상도를 관리할 수 있습니다.</block>
   <block id="d4b92ffff3f3199f4cb5dc53c8c0cf84" category="cell">알림을 확인 및 관리하고 Forensics를 볼 수 있습니다. 사용자 역할은 알림 상태를 변경하고, 메모를 추가하고, 스냅샷을 수동으로 생성하고, 사용자 액세스 제한을 관리할 수 있습니다.</block>
   <block id="70fb52e38580a301b191eb366ac4d029" category="cell">모든 게스트/소비자 기능을 수행할 수 있을 뿐 아니라 보고서 및 대시보드를 생성 및 관리할 수 있습니다.</block>
@@ -8559,4 +8544,31 @@
   <block id="2ca57dbd75b94a950c199a1c12cf85b9" category="cell">경고 및 경고 알림을 별도의 수신자에게 전송하여 올바른 팀이 정보를 계속 받을 수 있도록 합니다</block>
   <block id="222414ee53d0c57a1870d9446ce7b005" category="paragraph">Telegraf 통합 데이터 수집용 에이전트가 성능 및 보안 향상을 통해 버전 * 1.21.2 * 로 업데이트되었습니다. 업데이트를 원하는 사용자는 의 해당 업그레이드 섹션을 참조할 수 있습니다 <block ref="7eca75c9707898b05c3a8b3fe84d7968" category="inline-link-macro-rx"></block> 문서화: 이전 버전의 에이전트는 사용자 작업 없이 계속 작동합니다.</block>
   <block id="3d64508ab84203107071583e56c26993" category="list-text">Broadcom Fibre Channel 스위치 데이터 수집기는 각 인벤토리 폴링에서 실행되는 CLI 명령 수를 줄이도록 최적화되었습니다.</block>
+  <block id="4199b6880b46eaef66e8d25adefc1ac2" category="cell">모든 모니터링 및 최적화 기능, 모든 사용자 기능, 데이터 수집기 관리, 모니터링 및 최적화 API 토큰 및 알림을 수행할 수 있습니다. 관리자는 다른 사용자를 초대할 수도 있지만 Monitor 및 Optimize 역할만 할당할 수 있습니다.</block>
+  <block id="6d02b22d35efda9cc53c8bd1d5c2d8c5" category="cell">알림, 포렌식, 데이터 수집기, 자동화된 응답 정책 및 Cloud Secure용 API 토큰을 포함한 모든 Cloud Secure 기능을 수행할 수 있습니다. 관리자는 다른 사용자를 초대할 수도 있지만 Cloud Secure 역할만 할당할 수 있습니다.</block>
+  <block id="ceecc9f892b56b1081be5d007d545aab" category="cell">보고 API 토큰 관리, 보고서 구성, 보고 작업 종료 및 재시작 등의 모든 관리 작업을 포함한 모든 사용자/작성자 기능을 수행할 수 있습니다. 관리자는 다른 사용자를 초대할 수도 있지만 보고 역할만 할당할 수 있습니다.</block>
+  <block id="45268bdcc9ffe3a5807e75085e768efb" category="cell">API 유형</block>
+  <block id="c73695e7529146d82731a287d36e3f1d" category="cell">로그 수집</block>
+  <block id="dc1a2dd04ef0a485bbca321805f8ea84" category="inline-link-macro">기능 세트 역할</block>
+  <block id="9229d75b73e189809aaf32ca1941e5cb" category="paragraph">Cloud Insights도 있습니다 <block ref="ca56f933f1431ce18e092150c84b745d" category="inline-link-macro-rx"></block> 에서 액세스할 수 있는 API를 결정합니다. 사용자 및 게스트 역할은 관리자 역할보다 권한이 적습니다. 예를 들어 Monitor and Optimize에서 관리자 역할이 있지만 Reporting에서 사용자 역할은 데이터 웨어하우스를 제외한 모든 API 유형을 관리할 수 있습니다.</block>
+  <block id="990550983c2107ed5ccd87b4a6690b0a" category="inline-image-macro">API 유형</block>
+  <block id="e86bb8cbf77ec00646c7b5fe6b42e633" category="paragraph"><block ref="e86bb8cbf77ec00646c7b5fe6b42e633" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f229a25d4d4958d97a50dc8a836a921f" category="paragraph">API 설명서는 Swagger 기반의 API에 대한 간단한 설명과 사용 정보를 제공하며, 사용자 환경에서 사용할 수 있습니다. 사용자 역할 및/또는 Cloud Insights 버전에 따라 사용 가능한 API 유형이 다를 수 있습니다.</block>
+  <block id="9bda043a75ddd802178719c5bb4e0e71" category="paragraph">Cloud Insights API를 사용하기 전에 하나 이상의 * API 액세스 토큰 * 을 만들어야 합니다. 액세스 토큰은 지정된 API 유형에 사용되며 읽기 및/또는 쓰기 권한을 부여할 수 있습니다. 각 액세스 토큰의 만료일을 설정할 수도 있습니다. 지정된 유형의 모든 API는 액세스 토큰에 대해 유효합니다. 각 토큰은 사용자 이름 또는 암호의 무효입니다.</block>
+  <block id="815a8361cf9eb2836d28b11b65b2dc3b" category="list-text">API 유형을 선택합니다</block>
+  <block id="9eaefcbfb99d876f3642ba3d021c04d6" category="paragraph">Cloud Insights API는 범주 기반이며 현재 다음 유형이 포함되어 있습니다.</block>
+  <block id="16d532fd527f8b9de1c866f621fb7569" category="list-text">자산 유형에 자산, 쿼리 및 검색 API가 포함되어 있습니다.</block>
+  <block id="c7ff46f17aacbcc8f9caba752c2fd410" category="list-text">데이터 수집 형식은 데이터 수집기를 검색하고 관리하는 데 사용됩니다.</block>
+  <block id="c13a40ffc26f5f762f6de126cf232cf5" category="list-text">데이터 수집 유형은 텔레그라프 에이전트와 같은 수집 데이터와 사용자 지정 메트릭을 검색 및 관리하는 데 사용됩니다</block>
+  <block id="e2838ba9f29d27f412035bd037388732" category="list-text">로그 수집은 로그 데이터를 검색하고 관리하는 데 사용됩니다</block>
+  <block id="133f61531451649a036c6c806600058c" category="paragraph">시간이 지나면 추가 유형 및/또는 API를 사용할 수 있습니다. 최신 API 정보는 에서 확인할 수 있습니다 <block ref="26737cef142923769504b229d3be204d" category="inline-link-macro-rx"></block>.</block>
+  <block id="5288b4109c2d4a86ed612074d0baed37" category="paragraph">사용자가 액세스할 수 있는 API 유형도 에 따라 다릅니다 <block ref="ead2141fb682d81a2f0b1deca7bb95c5" category="inline-link-macro-rx"></block> 각 Cloud Insights 기능 세트(모니터링, Cloud Secure, 보고)에 있습니다.</block>
+  <block id="8811c3ab0c7b0cc46d2ac67e164d0fc9" category="paragraph">성능 메트릭에는 설명 및 유형이 있으며 성능 요약 컬렉션이 포함되어 있습니다. 예: 지연 시간, 트래픽 및 속도.</block>
+  <block id="2bf7ed4a0e334f4b972f700945f47a56" category="paragraph">각 성능 데이터 오브젝트 유형에는 고유한 성능 메트릭 세트가 있습니다. 예를 들어, 가상 머신 성능 개체는 성능 메트릭으로 "diskThroughput"을 지원합니다. 지원되는 각 성능 메트릭은 메트릭 사전에 나와 있는 특정 "성능 범주"입니다. Cloud Insights는 이 문서 뒷부분의 여러 성능 메트릭 유형을 지원합니다. 각 성능 메트릭 사전에는 이 성능 메트릭에 대한 사람이 읽을 수 있는 설명과 성능 요약 카운터 항목 집합인 "설명" 필드도 있습니다.</block>
+  <block id="9d31f56324b0322ffe68df1873845bca" category="paragraph">검색 API는 시스템에 대한 간단한 진입점입니다. API에 대한 유일한 입력 매개 변수는 자유 형식 문자열이며 결과 JSON에는 분류된 결과 목록이 포함되어 있습니다. 유형은 스토리지, 호스트, 데이터 저장소 등과 같이 인벤토리에서 서로 다른 자산 유형입니다. 각 형식에는 검색 조건과 일치하는 형식의 개체 목록이 포함됩니다.</block>
+  <block id="20fdb910f7dde76d54b3392d04f062a5" category="section-title">API 토큰 비활성화 또는 해지</block>
+  <block id="e5f3c9e3c596a48a99e4d03c8e19c62a" category="paragraph">API 토큰을 일시적으로 비활성화하려면 API 토큰 목록 페이지에서 API에 대한 "점 3개" 메뉴를 클릭하고 _Disable_을 선택합니다. 언제든지 같은 메뉴를 사용하여 _Enable_을 선택하여 토큰을 다시 활성화할 수 있습니다.</block>
+  <block id="794a9d57da2bd5b4b16e0d11525d4f16" category="paragraph">API 토큰을 영구적으로 제거하려면 메뉴에서 "해지"를 선택합니다. 해지된 토큰은 다시 사용할 수 없습니다. 새 토큰을 만들어야 합니다.</block>
+  <block id="57d4e87edd35e992f8e4d3c6326ac8d8" category="inline-image-macro">API 토큰을 비활성화하거나 해제합니다</block>
+  <block id="209d3712889d6411bf67708e93ef6c63" category="paragraph"><block ref="209d3712889d6411bf67708e93ef6c63" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
