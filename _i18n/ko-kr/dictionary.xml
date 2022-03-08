@@ -7332,9 +7332,6 @@
   <block id="19e54e03824e649096b70d3644fd0e5f" category="paragraph">CIFS에 대해 SVM이 4개, NFS용으로 구성된 SVM이 1개 있고, 나머지 2개는 NFS와 CIFS 모두에 대해 구성된 경우 4개의 SVM 중 하나에서 공격이 발생하면 모든 SVM이 차단됩니다.</block>
   <block id="1c86226deccf9173a843b3d83a50b7e4" category="section-title">사용자 액세스 제한을 위한 필수 구성 요소</block>
   <block id="4625d3b7cfc602f8dda70ae516128ac1" category="paragraph">이 기능을 사용하려면 고객은 SMB 및 NFS에 대한 엑스포트 정책을 구성해야 합니다. Data Source Collector에서 NFS 및 SMB가 구성된 경우 아래 단계를 따르십시오.</block>
-  <block id="736a9d0a6c8a973d0fc55e15bec4f867" category="paragraph">NFS의 경우 내보내기 정책이 기본적으로 구성됩니다. 기본적으로, SVM에서 NFS 서비스를 생성할 때 엑스포트 정책이 생성됩니다. SMB의 경우 내보내기 정책을 구성해야 합니다.</block>
-  <block id="619f88c7ecb7dc067cac591110557971" category="paragraph">기본적으로 SVM에서 NFS 서비스를 생성할 때 엑스포트 정책이 생성됩니다.</block>
-  <block id="5b80f2727c0cb6c0ec0f55e11fc807fb" category="paragraph">다음은 내보내기 정책을 구성하는 명령입니다. 아래 명령을 텍스트 편집기에 복사하고 &lt;vserver&gt; 이름을 가상 서버의 이름으로 바꾸십시오. 그런 다음 각 라인을 한 번에 하나씩 복사하고 ONTAP 콘솔에서 실행합니다. 참고: 명령을 실행하기 전에 먼저 고급 모드로 전환해야 합니다.</block>
   <block id="5a648726ddefbfa82103a1d9ad7f888d" category="section-title">이 기능을 활성화하는 방법은 무엇입니까?</block>
   <block id="87ec0cfaa84f34c3c1bd7e7a9573acd3" category="list-text">Cloud Secure에서 * 관리자 &gt; 자동 응답 정책 &gt; 응답 정책 설정 &gt; 액세스 제한 * 으로 이동합니다.</block>
   <block id="ff3c40d658e508545278698eddf6f64f" category="list-text">"사용자 액세스 제한 활성화"를 _ENABLED_로 설정합니다.</block>
@@ -8465,12 +8462,6 @@
   <block id="c1f58328aeef13bbe14c188aa6c895ea" category="paragraph">다음은 보고와 관련된 문제 해결을 위한 제안 사항입니다.</block>
   <block id="f6742e49587a771a1225e7c6e472c682" category="cell">이메일을 통해 보고서를 보내도록 예약하는 경우 로그인한 사용자의 이름이 이메일의 "받는 사람" 필드에 미리 채워집니다. 그러나 이름은 "성 이름"(이름, 공백, 성) 형식입니다. 이 주소는 유효한 이메일 주소가 아니므로 예약된 보고서가 실행될 때 이메일이 전송되지 않습니다.</block>
   <block id="155db2ed9995e9882b3be492b37935dc" category="cell">이메일을 통해 보고서를 보내도록 예약할 때 미리 채워진 이름을 지우고 "받는 사람" 필드에 올바른 형식의 유효한 이메일 주소를 입력합니다.</block>
-  <block id="2ab8b1c842d8f5963816f664491e75da" category="paragraph">고객이 클러스터 자격 증명을 사용하지 않고 CsUser를 사용하는 경우 사용자 액세스 제한을 지원하려면 다음 단계를 따라야 합니다.</block>
-  <block id="90a8b0d40ba9bed66c3574312f0e54bd" category="paragraph">클러스터 IP를 사용하여 데이터 수집기(CsUser와 함께)를 구성하는 경우 ONTAP 명령줄에서 다음을 수행합니다.</block>
-  <block id="9a165d00ac2421482aebc6c5d626bf4e" category="paragraph">SVM IP를 사용하여 데이터 수집기(CsUser와 함께)를 구성하는 경우 ONTAP 명령 행에서 다음을 수행하여 올바른 _&lt;vservername&gt;_을(를) 삽입하십시오.</block>
-  <block id="78433a38c746e1646f4d885da42f7742" category="paragraph">클러스터 모드에서 CsUser를 사용하는 경우:</block>
-  <block id="c8bdf163f0c6fa0482e3a436c8286e7c" category="paragraph">SVM 모드에서 CsUser를 사용하는 경우:</block>
-  <block id="fd6b6801723e56fea99a681e03dcaf4f" category="paragraph">두 모드 모두에서 클러스터 모드와 SVM 모드를 사용할 경우, SMB 전용으로 다음 명령을 실행합니다.</block>
   <block id="1e68e39ff63876126f3972751ed432bf" category="paragraph">exportpolicy_and_exportpolicy rule_이(가) 올바르게 구성되었는지 확인하려면 위의 명령을 실행한 후 다음 명령을 실행합니다.</block>
   <block id="669c97c4b794abc0f280d4892a3a503d" category="section-title">IP를 수동으로 복원합니다</block>
   <block id="9a77156daa8e3ba32694334a614ff511" category="paragraph">Cloud Secure 평가판이 만료되거나 에이전트/수집기가 중단된 경우 다음 단계를 사용하여 ONTAP에서 IP를 수동으로 복원합니다.</block>
@@ -8547,4 +8538,12 @@
   <block id="48fa35194daf9f1bd37c243905808afa" category="list-text">* 사용자 지정 모니터 * 는 사용자가 생성한 모니터만 나열합니다.</block>
   <block id="f78abd66dd2da46aaad72238500300b7" category="paragraph">를 봅니다 <block ref="c48a3e56f23a81aaf8fad75ccfbc3d89" category="inline-link-macro-rx"></block> Cloud Insights에 포함된 모니터에 대한 설명을 보려면 페이지를 참조하십시오.</block>
   <block id="b94799ea1a34279467ca857a3bdb03d8" category="list-text">* 노이즈 감소 * - 사용자가 생성한 새로 생성된 파일(예: 최근 2시간)을 필터링합니다. 사용자가 액세스하는 임시 파일(예: .tmp 파일)을 필터링하는 데에도 사용됩니다.</block>
+  <block id="d2b60d6c86ebcc57140ad12f7fd12e7e" category="paragraph">NFS의 경우 내보내기 정책이 기본적으로 구성됩니다. 기본적으로, SVM에서 NFS 서비스를 생성할 때 엑스포트 정책이 생성됩니다.</block>
+  <block id="26d70199dca829297ed6a32343711ea8" category="paragraph">SMB의 경우 내보내기 정책을 구성해야 합니다.</block>
+  <block id="97b3d67371c3225085bdd60c4186b650" category="paragraph">클러스터/svm 자격 증명을 사용하지 않고 CsUser를 사용하는 경우 먼저 다음 단계를 수행하여 Cloud Secure에서 사용자 지정 엑스포트 정책 규칙을 생성할 수 있도록 합니다.</block>
+  <block id="22c7df611bbc787fa84ac34fdd9613e0" category="paragraph">클러스터 자격 증명이 있는 CsUser의 경우 ONTAP 명령줄에서 다음을 수행하십시오.</block>
+  <block id="62e6cfdd88bd2f09782128a89fe25b0b" category="paragraph">SVM 자격 증명이 있는 CsUser의 경우 ONTAP 명령줄에서 올바른 &lt;vservername&gt;을(를) 삽입합니다.</block>
+  <block id="fa77163b4c273ad38c4b189f407a970b" category="paragraph">다음은 기본 엑스포트 정책을 구성하는 명령입니다. 명령을 텍스트 편집기에 복사하고 &lt;vserver&gt; 이름을 가상 서버의 이름으로 바꿉니다. 그런 다음 각 라인을 한 번에 하나씩 복사하고 ONTAP 콘솔에서 실행합니다. 명령을 실행하기 전에 먼저 고급 모드로 전환해야 합니다.</block>
+  <block id="dfb0bf3f02c7a96b047762240862b59d" category="admonition">이 기능은 PoC를 실행하는 데 특히 유용합니다. 테스트할 시스템에서 SMB는 아래와 같이 구성할 수 있습니다. PoC 중에 Data Source Collector에서 SMB/CIFS 프로토콜만 사용하도록 설정하고 NFS 프로토콜을 해제합니다.</block>
+  <block id="db386e038002cc8473226f0494cef95f" category="admonition">clientmatch는 특정 주소 또는 서브넷(예: 10.0.3.212 또는 192.168.5.0/24), 호스트 이름 또는 netgroup(예: @netgroup) 입니다. 가능한 모든 IP4 주소에 내보내기 정책을 적용하려면 clientmatch 를 0.0.0.0/0으로 설정합니다.</block>
 </blocks>
