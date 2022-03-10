@@ -20,7 +20,7 @@ Cloud Insights는 Cisco FC 스위치 데이터 수집기에서 다음 인벤토�
 
 [cols="2*"]
 |===
-| 필드에 입력합니다 | 설명 
+| 공급업체/모델 기간 | Cloud Insights 용어입니다 
 
 
 | 스위치 | 스위치 
