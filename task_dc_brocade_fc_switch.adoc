@@ -18,6 +18,9 @@ Cloud Insights는 Brocade FC 스위치 데이터 수집기에서 다음과 같�
 
 [cols="2*"]
 |===
+| 공급업체/모델 기간 | Cloud Insights 용어입니다 
+
+
 | 스위치 | 스위치 
 
 
