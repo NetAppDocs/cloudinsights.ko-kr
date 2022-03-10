@@ -6089,7 +6089,6 @@
   <block id="caa44442950fc55280b06c8cedc9483c" category="cell">기본값은 3입니다</block>
   <block id="98196464d4c2c123b9a3591724c6d1bc" category="cell">통신 포트</block>
   <block id="755d3a152497d4bd8cf5072c3539fcc9" category="cell">장치 목록 필터링...</block>
-  <block id="832ba929e26e6883830b8a8143167c3b" category="cell">이 목록은 정확히 일치하는 문자열을 구성해야 합니다. ESX_HOST로 필터링하려는 경우 Cloud Insights 및 vSphere에 모두 보고되는 대로 ESX 호스트의 정확한 "이름"을 쉼표로 구분된 목록으로 작성해야 합니다. 이러한 "이름"은 IP 주소, 단순 호스트 이름 또는 FQDN(정규화된 도메인 이름)일 수 있습니다. 이는 해당 호스트가 vSphere에 처음 추가될 때 이름이 어떻게 지정되었는지 기준으로 결정됩니다</block>
   <block id="e0f5686eae793a61b84a5406a52d0550" category="cell">기본값은 300입니다</block>
   <block id="7dc9c11b2ca6f5ce9dff88c5115c9f6a" category="cell">오류: VM을 필터링하는 포함 목록은 비워 둘 수 없습니다</block>
   <block id="d432bdad5ae50e18b5e44b4cf082dbfb" category="cell">포함 목록을 선택한 경우 유효한 데이터 센터, 클러스터 또는 호스트 이름을 나열하여 VM을 필터링합니다</block>
@@ -8342,7 +8341,6 @@
   <block id="93933c6ca68705cf2c6eee19987428b0" category="sidebar">Broadcom의</block>
   <block id="0fd95facb681ca997fc73f6a94deca25" category="sidebar">Brocade 네트워크 자문업체</block>
   <block id="413cdf3c9d7f8e63cf5e98c30d03dde2" category="sidebar">파이버 채널 스위치</block>
-  <block id="9ef9ac4a14f1ba2a121f57b42ecf4e5e" category="sidebar">Ceph</block>
   <block id="7b1d1185b835814de783483f686e9825" category="sidebar">Cisco의</block>
   <block id="ab2724d10b490217916b1bcc56aef48f" category="sidebar">Dell</block>
   <block id="c24155c400371d139928f6e0f1fbb144" category="sidebar">XC 시리즈</block>
@@ -8546,4 +8544,5 @@
   <block id="fa77163b4c273ad38c4b189f407a970b" category="paragraph">다음은 기본 엑스포트 정책을 구성하는 명령입니다. 명령을 텍스트 편집기에 복사하고 &lt;vserver&gt; 이름을 가상 서버의 이름으로 바꿉니다. 그런 다음 각 라인을 한 번에 하나씩 복사하고 ONTAP 콘솔에서 실행합니다. 명령을 실행하기 전에 먼저 고급 모드로 전환해야 합니다.</block>
   <block id="dfb0bf3f02c7a96b047762240862b59d" category="admonition">이 기능은 PoC를 실행하는 데 특히 유용합니다. 테스트할 시스템에서 SMB는 아래와 같이 구성할 수 있습니다. PoC 중에 Data Source Collector에서 SMB/CIFS 프로토콜만 사용하도록 설정하고 NFS 프로토콜을 해제합니다.</block>
   <block id="db386e038002cc8473226f0494cef95f" category="admonition">clientmatch는 특정 주소 또는 서브넷(예: 10.0.3.212 또는 192.168.5.0/24), 호스트 이름 또는 netgroup(예: @netgroup) 입니다. 가능한 모든 IP4 주소에 내보내기 정책을 적용하려면 clientmatch 를 0.0.0.0/0으로 설정합니다.</block>
+  <block id="f7d642fa886f4ad115e6600d3a187925" category="cell">이 목록은 정확히 일치하는 문자열을 구성해야 합니다. ESX_HOST로 필터링하려는 경우 Cloud Insights 및 vSphere에 모두 보고되는 대로 ESX 호스트의 정확한 "이름"을 쉼표로 구분된 목록으로 작성해야 합니다. 이러한 "이름"은 IP 주소, 단순 호스트 이름 또는 FQDN(정규화된 도메인 이름)일 수 있습니다. 이는 해당 호스트가 vSphere에 처음 추가될 때 이름이 어떻게 지정되었는지 기준으로 결정됩니다. 클러스터별로 필터링할 경우 하이퍼바이저에서 CI가 보고한 CI 스타일 클러스터 이름을 사용합니다. CI는 vSphere 클러스터 이름을 vSphere 데이터 센터 이름과 백슬래시로 추가합니다. "DC1\clusterA"는 CI가 데이터 센터 DC1 내의 클러스터 A에서 하이퍼바이저에 보고하는 클러스터 이름입니다</block>
 </blocks>
