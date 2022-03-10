@@ -18,6 +18,9 @@ Cloud Insights는 Brocade Network Advisor 데이터 수집기에서 다음 인�
 
 [cols="2*"]
 |===
+| 공급업체/모델 기간 | Cloud Insights 용어입니다 
+
+
 | 스위치 | 스위치 
 
 
