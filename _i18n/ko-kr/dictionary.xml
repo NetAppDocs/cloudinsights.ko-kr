@@ -1015,9 +1015,6 @@
   <block id="e8a0ae6a975a5b0b5682da12aecbad5d" category="inline-link-macro">* Data Collector 지원 매트릭스 *</block>
   <block id="2c7946be5550b6b9eea9fc71634c0a3a" category="paragraph"><block ref="2c7946be5550b6b9eea9fc71634c0a3a" category="inline-link-macro-rx"></block></block>
   <block id="ef4bf6f0faac05bfc1b9c6d8660008c2" category="summary">VNX Data Collector 구성</block>
-  <block id="5dd8fec2f3419b311df4a52aba6e8d71" category="doc">EMC VNX Unified 데이터 수집기 구성</block>
-  <block id="7f5c08046412547c25f5d5b32150c69d" category="paragraph">구성을 위해 EMC VNX Unified(SSH) 데이터 수집기는 Control Station의 IP 주소와 읽기 전용 사용자 이름 및 암호가 필요합니다.</block>
-  <block id="9824037158f7f3ff96d24e3abc2ec1f5" category="paragraph">Cloud Insights는 EMC VNX Unified 데이터 수집기에서 다음과 같은 인벤토리 정보를 가져옵니다. Cloud Insights에서 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.</block>
   <block id="444d4c127af1a977c6edbecdc0165c56" category="cell">디스크 폴더</block>
   <block id="c1ebc925cf4e0a09ee827da58d2b58c5" category="cell">디스크 그룹</block>
   <block id="53b936091a984a22f4042eeb94499891" category="cell">파일 시스템</block>
@@ -7379,7 +7376,6 @@
   <block id="9a6f1c698cc1e100926a6444a2a7f560" category="summary">Lenovo 데이터 수집기 구성 중.</block>
   <block id="b8e7dba3eebb606afc2cdea5e550fae8" category="doc">Lenovo 데이터 수집기</block>
   <block id="b7550fa0abbe6f770a66125cfc4f1ea4" category="paragraph">Cloud Insights는 Lenovo 데이터 수집기를 사용하여 Lenovo HX 스토리지 시스템의 인벤토리 및 성능 데이터를 검색합니다.</block>
-  <block id="23880582533f727d2fb6ae300166d972" category="paragraph">Cloud Insights는 Lenovo 데이터 수집기에서 다음 재고 정보를 가져옵니다. Cloud Insights에서 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.</block>
   <block id="ca64cbe5ecbf364909413a596766fbc8" category="list-text">TCP 포트 요구 사항: 9440</block>
   <block id="49c74cfc814defdf4c6e66676f86702d" category="cell">어레이에 연결하는 데 사용되는 TCP 포트입니다. 기본값은 9440입니다.</block>
   <block id="65e6065f91f7e03659d071a3c7789f6e" category="summary">Cisco MDS ablic Switch 데이터 수집기 구성.</block>
@@ -8545,4 +8541,6 @@
   <block id="dfb0bf3f02c7a96b047762240862b59d" category="admonition">이 기능은 PoC를 실행하는 데 특히 유용합니다. 테스트할 시스템에서 SMB는 아래와 같이 구성할 수 있습니다. PoC 중에 Data Source Collector에서 SMB/CIFS 프로토콜만 사용하도록 설정하고 NFS 프로토콜을 해제합니다.</block>
   <block id="db386e038002cc8473226f0494cef95f" category="admonition">clientmatch는 특정 주소 또는 서브넷(예: 10.0.3.212 또는 192.168.5.0/24), 호스트 이름 또는 netgroup(예: @netgroup) 입니다. 가능한 모든 IP4 주소에 내보내기 정책을 적용하려면 clientmatch 를 0.0.0.0/0으로 설정합니다.</block>
   <block id="31f2d1341b001f9e4ba9f04b36b9fbd1" category="cell">이 목록은 정확히 일치하는 문자열을 구성해야 합니다. ESX_HOST로 필터링하려는 경우 Cloud Insights 및 vSphere에 모두 보고되는 대로 ESX 호스트의 정확한 "이름"을 쉼표로 구분된 목록으로 작성해야 합니다. 이러한 "이름"은 IP 주소, 단순 호스트 이름 또는 FQDN(정규화된 도메인 이름)일 수 있습니다. 이는 해당 호스트가 vSphere에 처음 추가될 때 이름이 어떻게 지정되었는지 기준으로 결정됩니다. 클러스터로 필터링할 경우 하이퍼바이저에서 CI에 의해 보고된 Cloud Insights 스타일 클러스터 이름을 사용합니다. Cloud Insights는 vSphere 클러스터 이름을 vSphere 데이터 센터 이름 앞에 배치하고 백슬래시를 추가합니다. "DC1\clusterA"는 Cloud Insights이 데이터 센터 DC1 내의 클러스터 A에서 하이퍼바이저에 대해 보고하는 클러스터 이름입니다</block>
+  <block id="b3d5b2b9a23a5d11e154dd02b6d8f1d0" category="doc">Dell EMC VNX Unified 데이터 수집기 구성</block>
+  <block id="3b4918cfceb6d22dc06a39882714f272" category="paragraph">구성을 위해 Dell EMC VNX Unified(SSH) 데이터 수집기는 Control Station의 IP 주소와 읽기 전용 사용자 이름 및 암호를 필요로 합니다.</block>
 </blocks>

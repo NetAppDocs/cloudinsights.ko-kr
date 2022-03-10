@@ -1,24 +1,24 @@
 ---
 sidebar: sidebar 
 permalink: task_dc_emc_vnx_unified.html 
-keywords: data collector, VNX, EMC 
+keywords: data collector, VNX, EMC, Dell 
 summary: VNX Data Collector 구성 
 ---
-= EMC VNX Unified 데이터 수집기 구성
+= Dell EMC VNX Unified 데이터 수집기 구성
 
 
 [role="lead"]
-구성을 위해 EMC VNX Unified(SSH) 데이터 수집기는 Control Station의 IP 주소와 읽기 전용 사용자 이름 및 암호가 필요합니다.
+구성을 위해 Dell EMC VNX Unified(SSH) 데이터 수집기는 Control Station의 IP 주소와 읽기 전용 사용자 이름 및 암호를 필요로 합니다.
 
 
 
 == 용어
 
-Cloud Insights는 EMC VNX Unified 데이터 수집기에서 다음과 같은 인벤토리 정보를 가져옵니다. Cloud Insights에서 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
+Cloud Insights는 이 데이터 수집기에서 다음 인벤토리 정보를 가져옵니다. Cloud Insights에서 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
 
 [cols="2*"]
 |===
-| 필드에 입력합니다 | 설명 
+| 공급업체/모델 기간 | Cloud Insights 용어입니다 
 
 
 | 디스크 | 디스크 
