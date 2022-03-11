@@ -8543,4 +8543,9 @@
   <block id="31f2d1341b001f9e4ba9f04b36b9fbd1" category="cell">이 목록은 정확히 일치하는 문자열을 구성해야 합니다. ESX_HOST로 필터링하려는 경우 Cloud Insights 및 vSphere에 모두 보고되는 대로 ESX 호스트의 정확한 "이름"을 쉼표로 구분된 목록으로 작성해야 합니다. 이러한 "이름"은 IP 주소, 단순 호스트 이름 또는 FQDN(정규화된 도메인 이름)일 수 있습니다. 이는 해당 호스트가 vSphere에 처음 추가될 때 이름이 어떻게 지정되었는지 기준으로 결정됩니다. 클러스터로 필터링할 경우 하이퍼바이저에서 CI에 의해 보고된 Cloud Insights 스타일 클러스터 이름을 사용합니다. Cloud Insights는 vSphere 클러스터 이름을 vSphere 데이터 센터 이름 앞에 배치하고 백슬래시를 추가합니다. "DC1\clusterA"는 Cloud Insights이 데이터 센터 DC1 내의 클러스터 A에서 하이퍼바이저에 대해 보고하는 클러스터 이름입니다</block>
   <block id="b3d5b2b9a23a5d11e154dd02b6d8f1d0" category="doc">Dell EMC VNX Unified 데이터 수집기 구성</block>
   <block id="3b4918cfceb6d22dc06a39882714f272" category="paragraph">구성을 위해 Dell EMC VNX Unified(SSH) 데이터 수집기는 Control Station의 IP 주소와 읽기 전용 사용자 이름 및 암호를 필요로 합니다.</block>
+  <block id="5c478d648857e82323360d2328b3dc12" category="paragraph">다음 데이터 수집기는 다른 Raw TiB에서 관리되는 Unit Rate로 측정된다는 점에 유의하십시오. 이러한 데이터 수집기에서 40TiB의 포맷되지 않은 용량마다 1MU(Managed Unit)로 충전됩니다.</block>
+  <block id="e7289067e05f71335c1c33ab4cb274b5" category="list-text">Dell EMC ECS를 참조하십시오</block>
+  <block id="de9af54682ac41397db654efb63c031a" category="list-text">Hitachi 컨텐츠 플랫폼</block>
+  <block id="3228838520c4e897de47c1133cf36394" category="list-text">IBM Cleversafe</block>
+  <block id="7f0f78f6c5c0c1767395318a59e0e62a" category="list-text">NetApp StorageGRID를 참조하십시오</block>
 </blocks>
