@@ -3556,7 +3556,6 @@
   <block id="bfbb887958da2dfcfde3e14473a0a3d3" category="paragraph">Cloud Insights에는 메트릭 및 로그 모두에 대해 다수의 시스템 정의 모니터가 포함됩니다. 모니터 인터페이스에는 이러한 시스템 모니터를 수용하는 여러 가지 변경 사항이 포함됩니다. 이 섹션에 설명되어 있습니다.</block>
   <block id="65ac9349c49d4dc9ceeb30daad295f0f" category="inline-image-macro">ONTAP에 대한 고급 카운터 및 EMS 로그 수집 활성화</block>
   <block id="5c8c2ca1685c9247d4c87edc2fa024f4" category="admonition">시스템 모니터는 기본적으로 _Paused_상태입니다. 모니터를 다시 시작하기 전에 Data Collector에서 _Advanced Counter Data Collection_ 및 _Enable ONTAP EMS log collection_이 활성화되어 있는지 확인해야 합니다. 이러한 옵션은 _고급 구성_ 아래의 ONTAP 데이터 수집기에서 찾을 수 있습니다.<block ref="c9fb5b808ac97b65ea1073e21fb359f9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8d5905c4fc039f80da9bafa3d4cc6555" category="section-title">모니터를 생성합니다</block>
   <block id="4dacc229b0bc4d687a0aceeaa94b8095" category="list-text">Cloud Insights 메뉴에서 * 경고 &gt; 모니터 관리 * 를 클릭합니다</block>
   <block id="7a4d7843cd0dfc634c2485f99960f485" category="paragraph">모니터 목록 페이지가 표시되고 현재 구성된 모니터가 표시됩니다.</block>
   <block id="0afd1ac0e8283e24d8739752316dccba" category="paragraph">모니터링할 객체 속성 또는 메트릭을 좁히도록 필터를 설정할 수 있습니다.</block>
@@ -8031,10 +8030,7 @@
   <block id="8fc612555698ad539923a2cdd22dbbb6" category="cell">트랩 사이의 최소 시간(초)</block>
   <block id="f60c6ac1e23b041f6405b995ba051e43" category="cell">트랩에 의해 트리거된 획득 시도 사이의 최소 시간입니다. 기본값은 10초입니다.</block>
   <block id="a0fb87896105c24e490432fa6ee285d3" category="paragraph">모니터를 생성하여 네트워크 리소스와 관련된 문제를 알리기 위해 알림을 트리거하는 임계값을 설정합니다. 예를 들어, 다양한 프로토콜에 대해 _ node write latency _ 에 대해 경고하는 모니터를 생성할 수 있습니다.</block>
-  <block id="f2be52b4efc2ef40ce2e8e30d38bcac1" category="paragraph">모니터링되는 임계값 및 조건에 도달하거나 이를 초과하면 Cloud Insights에서 경고가 생성됩니다. 모니터는 _Warning_threshold, _Critical_threshold 또는 둘 모두를 가질 수 있습니다.</block>
-  <block id="de1246f2ba95371b711d65f46fa80725" category="paragraph">모니터를 사용하면 스토리지, VM, EC2 및 포트와 같은 "인프라" 오브젝트뿐만 아니라 Kubernetes, ONTAP 고급 메트릭, Telegraf 플러그인으로 수집된 "통합" 데이터에도 임계값을 설정할 수 있습니다. 임계값을 초과할 때 알림을 모니터링하여 경고 수준 경고, 위험 수준 경고 또는 둘 모두에 대한 임계값을 설정할 수 있습니다.</block>
   <block id="b18c8095ec7b7cd0c63a4e28b715f6c1" category="inline-link-macro">시스템 정의 모니터</block>
-  <block id="a1a0b877038a8779cc93f4cbc4a6b3e3" category="paragraph">의 를 참조하십시오 <block ref="a0423879c34ca2a3017b3959874444e4" category="inline-link-macro-rx"></block> 문서화:</block>
   <block id="97e0d834bc800959e3bd09edcaa9de7e" category="section-title">모니터 그룹</block>
   <block id="03beff1464928590c48c07d06198e305" category="paragraph">그룹화를 사용하면 관련 모니터를 보고 관리할 수 있습니다. 예를 들어 사용자 환경의 스토리지 전용 모니터 그룹을 사용하거나 특정 수신자 목록과 관련된 모니터를 사용할 수 있습니다.</block>
   <block id="9c639a1450f6874f6897e1393bc7e090" category="paragraph">그룹에 포함된 모니터 수가 그룹 이름 옆에 표시됩니다.</block>
@@ -8504,7 +8500,6 @@
   <block id="c58ee317c84221459556bf1d8e52753f" category="paragraph">새 모니터를 추가하면 메트릭 모니터 또는 로그 모니터를 생성하라는 메시지가 표시됩니다.</block>
   <block id="fc2f22eed1d01c032a18cfe4cba78d61" category="list-text">_Metric_monitor 인프라스트럭처 또는 성능 관련 트리거에 대한 경고</block>
   <block id="a0974f4b9ee8ae7e61310df23d207909" category="list-text">_Log_는 로그 관련 작업에 대한 경고를 모니터링합니다</block>
-  <block id="684fd3873f49a70f4bba03d396531c40" category="paragraph">모니터 유형을 선택하면 모니터 구성 대화 상자가 표시됩니다.</block>
   <block id="269c9bcd9ea3883a3a121a1b88af9e34" category="section-title">메트릭 모니터</block>
   <block id="313acdf9633421e44aea4a9be12b5071" category="list-text">드롭다운에서 모니터링할 객체 유형 및 메트릭을 검색하고 선택합니다.</block>
   <block id="734f668bd72716899c84bbaedc8d2564" category="list-text">Warning_level의 경우 예에서는 200을 입력합니다. 이 경고 수준을 나타내는 파선이 예제 그래프에 표시됩니다.</block>
@@ -8548,4 +8543,21 @@
   <block id="3228838520c4e897de47c1133cf36394" category="list-text">IBM Cleversafe</block>
   <block id="7f0f78f6c5c0c1767395318a59e0e62a" category="list-text">NetApp StorageGRID를 참조하십시오</block>
   <block id="2fb85e5bf896399f61e79b4b39655b2b" category="cell">이 목록은 정확히 일치하는 문자열을 구성해야 합니다. ESX_HOST로 필터링하려는 경우 Cloud Insights 및 vSphere에 모두 보고되는 대로 ESX 호스트의 정확한 "이름"을 쉼표로 구분된 목록으로 작성해야 합니다. 이러한 "이름"은 IP 주소, 단순 호스트 이름 또는 FQDN(정규화된 도메인 이름)일 수 있습니다. 이는 해당 호스트가 vSphere에 처음 추가될 때 이름이 어떻게 지정되었는지 기준으로 결정됩니다. 클러스터로 필터링할 경우 하이퍼바이저에서 CI에 의해 보고된 Cloud Insights 스타일 클러스터 이름 사용 - Cloud Insights는 vSphere 클러스터 이름을 vSphere 데이터 센터 이름으로 미리 지정하고 슬래시 - "DC1/clusterA"는 Cloud Insights가 데이터 센터 DC1 내의 clusterA에서 하이퍼바이저에 대해 보고하는 클러스터 이름입니다</block>
+  <block id="3f5fb2a45a144339f9591a104342f79b" category="paragraph">모니터를 사용하면 스토리지, VM, EC2 및 포트와 같은 "인프라" 객체에서 생성되는 메트릭과 Kubernetes, ONTAP 고급 메트릭, Teleraf 플러그인과 같이 "통합" 데이터에 대한 임계값을 설정할 수 있습니다. 이러한 _metric_monitor는 경고 수준 또는 위험 수준 임계값을 초과할 때 사용자에게 경고합니다.</block>
+  <block id="e730b9c349889018dc9deaccaa5a438b" category="paragraph">또한 지정된_log events_가 감지되면 경고를 트리거하는 모니터를 생성할 수도 있습니다.</block>
+  <block id="9fbe6c7c1c16d6c2079f167ca8001516" category="paragraph">Cloud Insights는 의 수를 제공합니다 <block ref="c48a3e56f23a81aaf8fad75ccfbc3d89" category="inline-link-macro-rx"></block> 또한 고객의 환경을 기반으로 합니다.</block>
+  <block id="4712a61ef2a234a93ba9db41c631d5b8" category="section-title">메트릭 또는 로그 모니터?</block>
+  <block id="30d058d2916c7c827bc5728654ad1a8d" category="paragraph">모니터 유형을 선택하면 모니터 구성 대화 상자가 표시됩니다. 구성은 생성 중인 모니터 유형에 따라 다릅니다.</block>
+  <block id="f9014555d08521285ca544350f9dc25a" category="paragraph">다음과 같은 모니터 그룹이 표시됩니다. 그룹에 포함된 모니터 수가 그룹 이름 옆에 표시됩니다.</block>
+  <block id="d9e85911262ba37a5d999e863491d888" category="list-text">* 사용자 지정 모니터 * 는 사용자가 생성한 모든 모니터를 나열합니다.</block>
+  <block id="70d96c6a41afb254c16b7b9540d18895" category="list-text">* Suspended Monitors * 는 Cloud Insights에서 일시 중지된 모든 시스템 모니터를 나열합니다.</block>
+  <block id="6dc06af3fe625c90d8b00610f4a3bf8e" category="inline-link-macro">시스템 정의 모니터</block>
+  <block id="69a8fd4125eb679015842f32069fd971" category="list-text">또한 Cloud Insights에는 하나 이상의 그룹을 나열하는 여러 * 시스템 모니터 그룹 * 이 표시됩니다 <block ref="870b37862b5d06f18770c24f68255a0a" category="inline-link-macro-rx"></block>ONTAP 인프라 및 워크로드 모니터를 포함합니다.</block>
+  <block id="c3c2ba86297c67abf1cd56f0d77e8cac" category="section-title">일시 중지된 모니터</block>
+  <block id="1f4408604ff975de8817060ea3a7330a" category="paragraph">이 그룹은 Cloud Insights에 하나 이상의 모니터가 일시 중지된 경우에만 표시됩니다. 과도한 또는 지속적인 경고를 생성하는 경우 모니터가 일시 중단될 수 있습니다. 모니터가 사용자 지정 모니터인 경우 상태를 변경하여 연속 경고를 방지한 다음 모니터를 다시 시작합니다. 서스펜션의 원인이 되는 문제가 해결되면 모니터가 Suspended Monitors 그룹에서 제거됩니다.</block>
+  <block id="5f8a706a9be7411e7b652c8139cb2a37" category="paragraph">이러한 그룹은 환경에 모니터에 필요한 장치 및/또는 로그 가용성이 포함되어 있는 경우 Cloud Insights에서 제공하는 모니터를 표시합니다.</block>
+  <block id="fc077d90413e1ab9ea5eb4777a02ade3" category="paragraph">시스템 정의 모니터는 수정하거나 다른 그룹으로 이동하거나 삭제할 수 없습니다. 그러나 시스템 모니터를 복제하고 복제본을 수정하거나 이동할 수 있습니다.</block>
+  <block id="57eed663adf466f4dcd0ba0a3a24dac5" category="paragraph">시스템 모니터에는 ONTAP 인프라(스토리지, 볼륨 등) 또는 워크로드(예: 로그 모니터) 또는 기타 그룹의 모니터가 포함될 수 있습니다. NetApp은 고객의 필요와 제품 기능을 지속적으로 평가하고 있으며 필요에 따라 시스템 모니터 및 그룹을 업데이트하거나 추가합니다.</block>
+  <block id="17364dd4c2252b12bb9eb895bd6e949b" category="paragraph">필요에 따라 모니터를 포함할 그룹을 직접 만들 수 있습니다. 예를 들어 모든 스토리지 관련 모니터에 대해 그룹을 설정할 수 있습니다.</block>
+  <block id="82f4f788b410ddeadb8f7768592f9864" category="list-text">* Suspended Monitors * 는 시스템에 의해 모니터가 일시 중단된 경우에만 표시됩니다.</block>
 </blocks>
