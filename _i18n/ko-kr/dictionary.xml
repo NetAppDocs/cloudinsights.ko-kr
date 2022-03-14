@@ -8571,4 +8571,9 @@
   <block id="794a9d57da2bd5b4b16e0d11525d4f16" category="paragraph">API 토큰을 영구적으로 제거하려면 메뉴에서 "해지"를 선택합니다. 해지된 토큰은 다시 사용할 수 없습니다. 새 토큰을 만들어야 합니다.</block>
   <block id="57d4e87edd35e992f8e4d3c6326ac8d8" category="inline-image-macro">API 토큰을 비활성화하거나 해제합니다</block>
   <block id="209d3712889d6411bf67708e93ef6c63" category="paragraph"><block ref="209d3712889d6411bf67708e93ef6c63" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5c478d648857e82323360d2328b3dc12" category="paragraph">다음 데이터 수집기는 다른 Raw TiB에서 관리되는 Unit Rate로 측정된다는 점에 유의하십시오. 이러한 데이터 수집기에서 40TiB의 포맷되지 않은 용량마다 1MU(Managed Unit)로 충전됩니다.</block>
+  <block id="e7289067e05f71335c1c33ab4cb274b5" category="list-text">Dell EMC ECS를 참조하십시오</block>
+  <block id="de9af54682ac41397db654efb63c031a" category="list-text">Hitachi 컨텐츠 플랫폼</block>
+  <block id="3228838520c4e897de47c1133cf36394" category="list-text">IBM Cleversafe</block>
+  <block id="7f0f78f6c5c0c1767395318a59e0e62a" category="list-text">NetApp StorageGRID를 참조하십시오</block>
 </blocks>
