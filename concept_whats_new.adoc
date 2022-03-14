@@ -11,6 +11,70 @@ NetApp은 제품과 서비스를 지속적으로 개선 및 개선하고 있습�
 
 
 
+=== 2022년 3월
+
+
+
+==== ONTAP 9.9+용 클라우드 연결
+
+를 클릭합니다 link:task_dc_na_cloud_agent.html["ONTAP 9.9 이상을 위한 NetApp 클라우드 연결"] 데이터 수집기는 외부 수집 장치를 설치할 필요가 없으므로 문제 해결, 유지 관리 및 초기 배포를 간소화할 수 있습니다.
+
+
+
+==== NetApp ONTAP 모니터를 위한 새로운 FSx
+
+새로운 를 사용하면 NetApp ONTAP 환경을 위한 FSx를 쉽게 모니터링할 수 있습니다 link:task_system_monitors.html["시스템 정의 모니터"] 인프라(메트릭)와 워크로드(로그) 모두에 대해
+
+image:FSx_System_Monitors_Metrics.png["FSX는 인프라를 모니터링합니다"]
+image:FSx_System_Monitors_Workloads.png["FSX는 워크로드를 모니터링합니다"]
+
+
+
+==== 새로운 Cloud Secure 기능을 모두 사용할 수 있습니다
+
+다음과 같은 Cloud Secure 기능을 통해 이전보다 훨씬 더 안전한 환경을 구현할 수 있습니다.
+
+|===
+
+
+| * 피처 * | * 설명 * 
+
+
+| 데이터 삭제 - 파일 삭제 공격 탐지 | 비정상적인 대규모 파일 삭제 작업을 감지하고, 악의적인 사용자의 악의적인 파일 액세스를 차단하고, 자동 응답 정책을 통해 자동 스냅샷을 생성합니다. 
+
+
+| 경고 및 경고에 대한 별도의 알림 | 경고 및 경고 알림을 별도의 수신자에게 전송하여 올바른 팀이 정보를 계속 받을 수 있도록 합니다 
+|===
+
+
+==== Telegraf 에이전트를 업데이트했습니다
+
+Telegraf 통합 데이터 수집용 에이전트가 성능 및 보안 향상을 통해 버전 * 1.21.2 * 로 업데이트되었습니다. 업데이트를 원하는 사용자는 의 해당 업그레이드 섹션을 참조할 수 있습니다 link:task_config_telegraf_agent.html["Agent 설치"] 문서화: 이전 버전의 에이전트는 사용자 작업 없이 계속 작동합니다.
+
+
+
+==== Data Collector 업데이트
+
+* Broadcom Fibre Channel 스위치 데이터 수집기는 각 인벤토리 폴링에서 실행되는 CLI 명령 수를 줄이도록 최적화되었습니다.
+
+
+
+
+==== 피처 미리보기
+
+Cloud Insights는 다양하고 흥미로운 새 미리보기 기능을 강조합니다. 이러한 기능 중 하나 이상을 미리 보려면 에 문의하십시오 link:https://www.netapp.com/us/forms/sales-inquiry/cloud-insights-sales-inquiries.aspx["NetApp 세일즈 팀"] 를 참조하십시오.
+
+|===
+
+
+| * 피처 * | * 설명 * 
+
+
+| 스트레스 상태의 공유 리소스 | 스트레스 분석 하의 공유 리소스를 통해 공유 리소스의 워크로드 요구 및 영향을 받는 하나 이상의 개별 워크로드에서 높은 수요가 요구되어 스트레스를 받고 있는 공유 스토리지 리소스를 확인할 수 있습니다link:https://docs.netapp.com/us-en/cloudinsights/insights_shared_resources_under_stress.html["자세히 보기"] 
+|===
+'''
+
+
 === 2022년 2월
 
 
