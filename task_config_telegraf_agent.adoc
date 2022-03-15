@@ -451,10 +451,11 @@ NOTE: NetApp Kubernetes 모니터링 오퍼레이터 설치는_Preview_feature�
 최상의 결과를 얻으려면 이러한 명령을 경로에 추가하십시오.
 
 * Kudbe-state-metrics를 설치해야 합니다. 자세한 내용은 아래를 참조하십시오. Kudbe-state-metrics는 운영자 기반 설치와 함께 자동으로 설치됩니다.
+* OpenShift 4.6-4.8에서 실행 중인 경우 아래의 * OpenShift Instructions * 를 따라야 합니다.
 * 프록시를 사용하고 있는 경우 * Kubernetes * 용 프록시 지원 구성 섹션의 지침을 따르십시오.
 * 보안 컨텍스트 제약 조건이 필요한 Kubernetes 버전을 실행 중인 경우 * Kubernetes * 에서 데이터를 수집하도록 에이전트 구성 섹션의 지침을 따르십시오. 사용자 기반 설치 시 자동으로 설치됩니다.
 * Kubernetes 클러스터 역할 및 역할 바인딩을 생성할 수 있는 권한이 있어야 합니다.
-* NetApp Kubernetes Monitoring Operator 설치가 테스트되었으며 AWS EKS 1.18, OpenShift 3.11 및 Rancher 2.6과 함께 사용할 것으로 예상됩니다.
+* NetApp Kubernetes Monitoring Operator의 설치는 테스트를 거쳤으며 AWS EKS 1.18-1.21, OpenShift 4.6-4.8 및 Rancher 2.4-2.6과 함께 작동할 것으로 예상됩니다.
 
 
 
@@ -485,6 +486,15 @@ image:Kubernetes_Operator_Agent_Instructions.png["작업자 기반 설치"]
 . 스니펫을 _bash_window에 붙여 넣고 실행합니다.
 . 설치가 자동으로 진행됩니다. 완료되면 _COMPLETE Setup_ 단추를 클릭합니다.
 
+
+
+
+==== OpenShift 지침
+
+OpenShift 4.6-4.8에서 실행 중인 경우 "특별 권한 모드" 설정을 변경해야 합니다. 다음 명령을 실행하여 편집할 에이전트를 엽니다. "NetApp-monitoring" 이외의 네임스페이스를 사용하는 경우 명령줄에서 해당 네임스페이스를 지정합니다.
+
+ kubectl edit agent agent-monitoring-netapp -n netapp-monitoring
+파일에서 _privileged-mode:false_to_privileged-mode:true_를 변경합니다
 
 
 
