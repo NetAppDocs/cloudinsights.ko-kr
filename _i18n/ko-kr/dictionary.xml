@@ -8484,11 +8484,6 @@
   <block id="b3d5b2b9a23a5d11e154dd02b6d8f1d0" category="doc">Dell EMC VNX Unified 데이터 수집기 구성</block>
   <block id="3b4918cfceb6d22dc06a39882714f272" category="paragraph">구성을 위해 Dell EMC VNX Unified(SSH) 데이터 수집기는 Control Station의 IP 주소와 읽기 전용 사용자 이름 및 암호를 필요로 합니다.</block>
   <block id="31f2d1341b001f9e4ba9f04b36b9fbd1" category="cell">이 목록은 정확히 일치하는 문자열을 구성해야 합니다. ESX_HOST로 필터링하려는 경우 Cloud Insights 및 vSphere에 모두 보고되는 대로 ESX 호스트의 정확한 "이름"을 쉼표로 구분된 목록으로 작성해야 합니다. 이러한 "이름"은 IP 주소, 단순 호스트 이름 또는 FQDN(정규화된 도메인 이름)일 수 있습니다. 이는 해당 호스트가 vSphere에 처음 추가될 때 이름이 어떻게 지정되었는지 기준으로 결정됩니다. 클러스터로 필터링할 경우 하이퍼바이저에서 CI에 의해 보고된 Cloud Insights 스타일 클러스터 이름을 사용합니다. Cloud Insights는 vSphere 클러스터 이름을 vSphere 데이터 센터 이름 앞에 배치하고 백슬래시를 추가합니다. "DC1\clusterA"는 Cloud Insights이 데이터 센터 DC1 내의 클러스터 A에서 하이퍼바이저에 대해 보고하는 클러스터 이름입니다</block>
-  <block id="f2be52b4efc2ef40ce2e8e30d38bcac1" category="paragraph">모니터링되는 임계값 및 조건에 도달하거나 이를 초과하면 Cloud Insights에서 경고가 생성됩니다. 모니터는 _Warning_threshold, _Critical_threshold 또는 둘 모두를 가질 수 있습니다.</block>
-  <block id="de1246f2ba95371b711d65f46fa80725" category="paragraph">모니터를 사용하면 스토리지, VM, EC2 및 포트와 같은 "인프라" 오브젝트뿐만 아니라 Kubernetes, ONTAP 고급 메트릭, Telegraf 플러그인으로 수집된 "통합" 데이터에도 임계값을 설정할 수 있습니다. 임계값을 초과할 때 알림을 모니터링하여 경고 수준 경고, 위험 수준 경고 또는 둘 모두에 대한 임계값을 설정할 수 있습니다.</block>
-  <block id="a1a0b877038a8779cc93f4cbc4a6b3e3" category="paragraph">의 를 참조하십시오 <block ref="a0423879c34ca2a3017b3959874444e4" category="inline-link-macro-rx"></block> 문서화:</block>
-  <block id="8d5905c4fc039f80da9bafa3d4cc6555" category="section-title">모니터를 생성합니다</block>
-  <block id="684fd3873f49a70f4bba03d396531c40" category="paragraph">모니터 유형을 선택하면 모니터 구성 대화 상자가 표시됩니다.</block>
   <block id="e50e258ecc9eaa88d6c653c3a24cb319" category="section-title">2022년 3월</block>
   <block id="6051317bfc603cd4488e0e5a5946f64c" category="inline-link-macro">ONTAP 9.9 이상을 위한 NetApp 클라우드 연결</block>
   <block id="81b63bcf37c281fa62b348f70cb153a7" category="paragraph">를 클릭합니다 <block ref="abed7fb19b7000e31d7e181bcda0de86" category="inline-link-macro-rx"></block> 데이터 수집기는 외부 수집 장치를 설치할 필요가 없으므로 문제 해결, 유지 관리 및 초기 배포를 간소화할 수 있습니다.</block>
@@ -8596,4 +8591,20 @@
   <block id="bde543e95a082d314b18ec0dd4054254" category="cell">중요 임계값이 위반될 경우 서비스 중단을 최소화하기 위해 즉각적인 조치가 필요합니다.… 1. 스냅숏 예비 공간이 가득 찼을 때 볼륨의 데이터 공간을 사용하도록 스냅숏을 구성하는 것이 좋습니다. 2. 공간을 확보하기 위해 더 이상 필요하지 않을 수 있는 오래된 스냅샷을 일부 삭제하는 것을 고려하십시오… 경고 임계값이 위반될 경우 다음 작업을 곧 수행하십시오 : 1. 증가량을 수용하기 위해 볼륨 내에서 스냅숏 예비 공간을 늘리는 것을 고려하십시오. 2. 스냅숏 예비 공간이 가득 찼을 때 볼륨의 데이터 공간을 사용하도록 스냅숏을 구성하는 것이 좋습니다</block>
   <block id="478d052d4cfb6a52aa1167cc91369a53" category="cell">FSX 볼륨 캐시 비적중 비율입니다</block>
   <block id="3285dee4815080320066f09ef70efdc0" category="cell">중요 임계값이 위반되면 서비스 중단을 최소화하기 위해 즉각적인 조치를 취해야 합니다. 1. 일부 워크로드를 볼륨 노드에서 이동하여 IO 로드를 줄입니다 2. QoS 제한을 통해 동일한 노드에서 낮은 우선 순위 워크로드의 요구를 줄입니다. 경고 임계값이 위반될 때 즉시 조치를 고려하십시오. 1. 일부 워크로드를 볼륨 노드에서 이동하여 IO 로드를 줄입니다 2. QoS 제한을 통해 동일한 노드에서 낮은 우선 순위 워크로드의 요구를 줄입니다 3. 워크로드 특성 변경(블록 크기, 애플리케이션 캐싱 등)</block>
+  <block id="3f5fb2a45a144339f9591a104342f79b" category="paragraph">모니터를 사용하면 스토리지, VM, EC2 및 포트와 같은 "인프라" 객체에서 생성되는 메트릭과 Kubernetes, ONTAP 고급 메트릭, Teleraf 플러그인과 같이 "통합" 데이터에 대한 임계값을 설정할 수 있습니다. 이러한 _metric_monitor는 경고 수준 또는 위험 수준 임계값을 초과할 때 사용자에게 경고합니다.</block>
+  <block id="e730b9c349889018dc9deaccaa5a438b" category="paragraph">또한 지정된_log events_가 감지되면 경고를 트리거하는 모니터를 생성할 수도 있습니다.</block>
+  <block id="9fbe6c7c1c16d6c2079f167ca8001516" category="paragraph">Cloud Insights는 의 수를 제공합니다 <block ref="c48a3e56f23a81aaf8fad75ccfbc3d89" category="inline-link-macro-rx"></block> 또한 고객의 환경을 기반으로 합니다.</block>
+  <block id="4712a61ef2a234a93ba9db41c631d5b8" category="section-title">메트릭 또는 로그 모니터?</block>
+  <block id="30d058d2916c7c827bc5728654ad1a8d" category="paragraph">모니터 유형을 선택하면 모니터 구성 대화 상자가 표시됩니다. 구성은 생성 중인 모니터 유형에 따라 다릅니다.</block>
+  <block id="f9014555d08521285ca544350f9dc25a" category="paragraph">다음과 같은 모니터 그룹이 표시됩니다. 그룹에 포함된 모니터 수가 그룹 이름 옆에 표시됩니다.</block>
+  <block id="d9e85911262ba37a5d999e863491d888" category="list-text">* 사용자 지정 모니터 * 는 사용자가 생성한 모든 모니터를 나열합니다.</block>
+  <block id="70d96c6a41afb254c16b7b9540d18895" category="list-text">* Suspended Monitors * 는 Cloud Insights에서 일시 중지된 모든 시스템 모니터를 나열합니다.</block>
+  <block id="69a8fd4125eb679015842f32069fd971" category="list-text">또한 Cloud Insights에는 하나 이상의 그룹을 나열하는 여러 * 시스템 모니터 그룹 * 이 표시됩니다 <block ref="870b37862b5d06f18770c24f68255a0a" category="inline-link-macro-rx"></block>ONTAP 인프라 및 워크로드 모니터를 포함합니다.</block>
+  <block id="c3c2ba86297c67abf1cd56f0d77e8cac" category="section-title">일시 중지된 모니터</block>
+  <block id="1f4408604ff975de8817060ea3a7330a" category="paragraph">이 그룹은 Cloud Insights에 하나 이상의 모니터가 일시 중지된 경우에만 표시됩니다. 과도한 또는 지속적인 경고를 생성하는 경우 모니터가 일시 중단될 수 있습니다. 모니터가 사용자 지정 모니터인 경우 상태를 변경하여 연속 경고를 방지한 다음 모니터를 다시 시작합니다. 서스펜션의 원인이 되는 문제가 해결되면 모니터가 Suspended Monitors 그룹에서 제거됩니다.</block>
+  <block id="5f8a706a9be7411e7b652c8139cb2a37" category="paragraph">이러한 그룹은 환경에 모니터에 필요한 장치 및/또는 로그 가용성이 포함되어 있는 경우 Cloud Insights에서 제공하는 모니터를 표시합니다.</block>
+  <block id="fc077d90413e1ab9ea5eb4777a02ade3" category="paragraph">시스템 정의 모니터는 수정하거나 다른 그룹으로 이동하거나 삭제할 수 없습니다. 그러나 시스템 모니터를 복제하고 복제본을 수정하거나 이동할 수 있습니다.</block>
+  <block id="57eed663adf466f4dcd0ba0a3a24dac5" category="paragraph">시스템 모니터에는 ONTAP 인프라(스토리지, 볼륨 등) 또는 워크로드(예: 로그 모니터) 또는 기타 그룹의 모니터가 포함될 수 있습니다. NetApp은 고객의 필요와 제품 기능을 지속적으로 평가하고 있으며 필요에 따라 시스템 모니터 및 그룹을 업데이트하거나 추가합니다.</block>
+  <block id="17364dd4c2252b12bb9eb895bd6e949b" category="paragraph">필요에 따라 모니터를 포함할 그룹을 직접 만들 수 있습니다. 예를 들어 모든 스토리지 관련 모니터에 대해 그룹을 설정할 수 있습니다.</block>
+  <block id="82f4f788b410ddeadb8f7768592f9864" category="list-text">* Suspended Monitors * 는 시스템에 의해 모니터가 일시 중단된 경우에만 표시됩니다.</block>
 </blocks>
