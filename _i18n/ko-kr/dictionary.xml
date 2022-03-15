@@ -3073,8 +3073,6 @@
   <block id="2e59af567907cf6ad1ae87c0cac8e6dd" category="cell"><block ref="2e59af567907cf6ad1ae87c0cac8e6dd" category="inline-link-macro-rx"></block></block>
   <block id="0311befd4f8a4eb64d5f02957a8b1d99" category="inline-link-macro">NetApp E-Series를 통해 비즈니스 이점을 제공합니다</block>
   <block id="263caec9c413672e1829ba1b317a5b42" category="cell"><block ref="263caec9c413672e1829ba1b317a5b42" category="inline-link-macro-rx"></block></block>
-  <block id="f41274c1ce20e5e73cc8aff93a484f51" category="inline-link-macro">FSX - NetApp</block>
-  <block id="47b5a4776ee0e5c60f02b4cbf9af7b50" category="cell"><block ref="47b5a4776ee0e5c60f02b4cbf9af7b50" category="inline-link-macro-rx"></block></block>
   <block id="26e26b065cc722431f57c96d11ea22d1" category="inline-link-macro">NetApp HCI 가상 센터</block>
   <block id="f5fa6b6f336bef260c86d90c3548c122" category="cell"><block ref="f5fa6b6f336bef260c86d90c3548c122" category="inline-link-macro-rx"></block></block>
   <block id="3d37acd6a731956d535e04c6d8f7ae0c" category="inline-link-macro">NetApp ONTAP 데이터 관리 소프트웨어</block>
@@ -8613,4 +8611,11 @@
   <block id="90e3576ed0e73e03c00705419f3411a3" category="section-title">OpenShift 지침</block>
   <block id="17fe4b51b71c74ed46456e14017c7422" category="paragraph">OpenShift 4.6-4.8에서 실행 중인 경우 "특별 권한 모드" 설정을 변경해야 합니다. 다음 명령을 실행하여 편집할 에이전트를 엽니다. "NetApp-monitoring" 이외의 네임스페이스를 사용하는 경우 명령줄에서 해당 네임스페이스를 지정합니다.</block>
   <block id="7413b27c2a74484b9a0ae0a20c26cd28" category="paragraph">파일에서 _privileged-mode:false_to_privileged-mode:true_를 변경합니다</block>
+  <block id="4d82a1ec1af02725042c8c785564ee7a" category="inline-link-macro">NetApp ONTAP용 Amazon FSx</block>
+  <block id="2399abbf605913dd52d0a8667ed0a87a" category="cell"><block ref="2399abbf605913dd52d0a8667ed0a87a" category="inline-link-macro-rx"></block></block>
+  <block id="71071f9eeb8b3ff7f4a52f9927b52da4" category="section-title">호스트 영역</block>
+  <block id="2c5e620943b15b31c38df4433ca50af9" category="paragraph">호스트 영역은 다음과 같습니다.</block>
+  <block id="b4d0aea9805f5f0f557898d9ea7247df" category="list-text">미국: 동쪽편 - 1</block>
+  <block id="566a4c81478be8a9ccd7d6589cefe57c" category="list-text">EMEA: EU-CENTRAL-1</block>
+  <block id="7b1afe899e5efa6ba9f4935be9f98d92" category="list-text">APAC: AP-남동-2</block>
 </blocks>

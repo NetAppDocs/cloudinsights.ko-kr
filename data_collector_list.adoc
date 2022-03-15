@@ -221,7 +221,7 @@ Cloud Insights에서 지원하는 데이터 수집기 목록 사전순:
 | link:task_dc_na_eseries.html["NetApp E-Series를 통해 비즈니스 이점을 제공합니다"] | 검토할 수 있습니다 
 
 
-| link:task_dc_na_fsx-netapp.html["FSX - NetApp"] | 검토할 수 있습니다 
+| link:task_dc_na_amazon_fsx.html["NetApp ONTAP용 Amazon FSx"] | 검토할 수 있습니다 
 
 
 | link:task_dc_na_hci.html["NetApp HCI 가상 센터"] | 검토할 수 있습니다 
