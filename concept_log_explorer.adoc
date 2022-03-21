@@ -2,24 +2,24 @@
 sidebar: sidebar 
 permalink: concept_log_explorer.html 
 keywords: logs, monitors, alerts, 
-summary: 로그 탐색기는 문제를 조사할 수 있는 강력한 도구입니다. 
+summary: 로그 탐색기는 다양한 시스템 로그를 통해 문제를 조사할 수 있는 강력한 도구입니다. 
 ---
 = 로그 탐색기
 
 
 [role="lead"]
-Cloud Insights 로그 탐색기는 EMS 및 Kubernetes 로그를 쿼리하는 강력한 도구입니다. 또한 조사를 돕는 것 외에도 로그 트리거를 활성화할 때 경고를 제공하기 위해 로그 쿼리를 모니터에 저장할 수 있습니다.
+Cloud Insights 로그 탐색기는 시스템 로그를 쿼리하는 강력한 도구입니다. 또한 조사에 도움이 될 뿐 아니라 특정 로그 트리거가 활성화될 때 경고를 제공하기 위해 로그 쿼리를 모니터에 저장할 수도 있습니다.
 
 로그 탐색을 시작하려면 * 쿼리 > + 새 로그 쿼리 * 를 클릭합니다.
 
-image:LogExplorerMenu.png["로그 쿼리 메뉴"]
+image:LogExplorerMenu.png["로그 쿼리 메뉴, 640"]
 
 목록에서 사용 가능한 로그를 선택합니다. 이 목록은 현재 Cloud Insights 환경 구성에 따라 다를 수 있습니다.
 
 image:LogExplorer_ChooseLog.png["로그를 선택합니다"]
 
 
-NOTE: Preview를 위해 선택한 로그 세트에 액세스할 수 있으며 시간이 지나면 추가 로그를 사용할 수 있습니다.
+NOTE: 쿼리에 사용할 수 있는 로그 유형은 사용자 환경에 따라 다를 수 있습니다. 시간이 지남에 따라 추가 로그 유형을 추가할 수 있습니다.
 
 필터를 설정하여 쿼리 결과를 세부적으로 조정할 수 있습니다. 예를 들어, 오류를 표시하는 모든 로그 메시지를 찾으려면 "failed"라는 단어가 포함된 _messages_에 대한 필터를 설정합니다.
 
