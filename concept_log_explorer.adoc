@@ -12,9 +12,9 @@ Cloud Insights 로그 탐색기는 시스템 로그를 쿼리하는 강력한 �
 
 로그 탐색을 시작하려면 * 쿼리 > + 새 로그 쿼리 * 를 클릭합니다.
 
-image:LogExplorerMenu.png["로그 쿼리 메뉴, 640"]
+image:LogExplorerMenu.png["로그 쿼리 메뉴, 480"]
 
-목록에서 사용 가능한 로그를 선택합니다. 이 목록은 현재 Cloud Insights 환경 구성에 따라 다를 수 있습니다.
+목록에서 사용 가능한 로그를 선택합니다.
 
 image:LogExplorer_ChooseLog.png["로그를 선택합니다"]
 

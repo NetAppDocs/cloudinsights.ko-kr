@@ -43,7 +43,6 @@
   <block id="1f24e0feac1342d8f35a49c9b98224e8" category="paragraph">에 액세스하려면 * 활동 세부 정보 보기 * 를 클릭합니다 <block ref="d61797bb6c27515ec1bccae4d136d0a1" category="inline-link-macro-rx"></block> 검사 중인 사용자의</block>
   <block id="f605eb6ac9043e9f1502d006629b9dc3" category="doc">로그 탐색기</block>
   <block id="72ab1611127dabda382ded8d35eabd5f" category="paragraph">로그 탐색을 시작하려면 * 쿼리 &gt; + 새 로그 쿼리 * 를 클릭합니다.</block>
-  <block id="f6ed4a34f2dd3f6ee334d4bce6755dc2" category="paragraph">목록에서 사용 가능한 로그를 선택합니다. 이 목록은 현재 Cloud Insights 환경 구성에 따라 다를 수 있습니다.</block>
   <block id="0aa526404a7affc36dc5d2429d255945" category="inline-image-macro">로그를 선택합니다</block>
   <block id="907f85b0ae170f8312420eb89d567ed5" category="paragraph"><block ref="907f85b0ae170f8312420eb89d567ed5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="32daa822b566f93b5c95aa039268049d" category="paragraph">필터를 설정하여 쿼리 결과를 세부적으로 조정할 수 있습니다. 예를 들어, 오류를 표시하는 모든 로그 메시지를 찾으려면 "failed"라는 단어가 포함된 _messages_에 대한 필터를 설정합니다.</block>
@@ -8615,7 +8614,8 @@
   <block id="7b1afe899e5efa6ba9f4935be9f98d92" category="list-text">APAC: AP-남동-2</block>
   <block id="a042a0a750858e6060db4dfe64a00752" category="summary">로그 탐색기는 다양한 시스템 로그를 통해 문제를 조사할 수 있는 강력한 도구입니다.</block>
   <block id="8525c63db9fcf944b97e51df898b6440" category="paragraph">Cloud Insights 로그 탐색기는 시스템 로그를 쿼리하는 강력한 도구입니다. 또한 조사에 도움이 될 뿐 아니라 특정 로그 트리거가 활성화될 때 경고를 제공하기 위해 로그 쿼리를 모니터에 저장할 수도 있습니다.</block>
-  <block id="d12e6aa737bd25ac8fe55681d55277f3" category="inline-image-macro">로그 쿼리 메뉴, 640</block>
-  <block id="8a6dd50ddfea8f64b33ecdec002efa14" category="paragraph"><block ref="8a6dd50ddfea8f64b33ecdec002efa14" category="inline-image-macro-rx" type="image"></block></block>
   <block id="20d54bcfce082123adf73a66c93e11f1" category="admonition">쿼리에 사용할 수 있는 로그 유형은 사용자 환경에 따라 다를 수 있습니다. 시간이 지남에 따라 추가 로그 유형을 추가할 수 있습니다.</block>
+  <block id="5e618eb9ef1c438e7d5d6afda86417f3" category="inline-image-macro">로그 쿼리 메뉴, 480</block>
+  <block id="d93346d5cd40cfc415b92ee8b9831053" category="paragraph"><block ref="d93346d5cd40cfc415b92ee8b9831053" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bf74dd0ba8bacde3d960739103ba63c6" category="paragraph">목록에서 사용 가능한 로그를 선택합니다.</block>
 </blocks>
