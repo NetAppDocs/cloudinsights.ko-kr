@@ -4933,7 +4933,6 @@
   <block id="5f91ed17b8047c7b5edcefb2ccbf9c31" category="list-text">기본 계정 ID가 하위 계정에서 EC2 세부 정보에 액세스할 수 있도록 각 하위 계정에 AWS 역할을 구성해야 합니다.</block>
   <block id="98482dc1cce9d71c67ebfa7ff809b927" category="list-text">각 하위 계정에는 동일한 문자열로 구성된 역할 이름이 있어야 합니다.</block>
   <block id="4958486522e50fce2c551c641596f488" category="list-text">Cloud Insights AWS 데이터 수집기 * 고급 구성 * 섹션의 * 교차 계정 역할 * 필드에 이 역할 이름 문자열을 입력합니다.</block>
-  <block id="98bbedb2706de61b5c0be7e50c2c37e2" category="paragraph">모범 사례: ECS 기본 계정에 AWS Predefined_AmazonEC2ReadOnlyAccess_policy를 할당하는 것이 좋습니다. 또한 데이터 소스에서 구성된 사용자는 AWS를 쿼리하기 위해 미리 정의된 _AWSOrganizationReadOnlyAccess_policy 이상을 할당해야 합니다.</block>
   <block id="0480ce83888d887777a524ddc8b1bedc" category="paragraph">Cloud Insights가 AWS 하위 계정에서 수집하도록 환경을 구성하는 방법에 대한 자세한 내용은 다음을 참조하십시오.</block>
   <block id="49645f86648e4b388d0f150580f47459" category="inline-link-macro">자습서: IAM 역할을 사용하여 AWS 계정 전체에서 대리인 액세스</block>
   <block id="fbd6536a125dfe45754701dabe1891e2" category="paragraph"><block ref="fbd6536a125dfe45754701dabe1891e2" category="inline-link-macro-rx"></block></block>
@@ -8618,4 +8617,5 @@
   <block id="5e618eb9ef1c438e7d5d6afda86417f3" category="inline-image-macro">로그 쿼리 메뉴, 480</block>
   <block id="d93346d5cd40cfc415b92ee8b9831053" category="paragraph"><block ref="d93346d5cd40cfc415b92ee8b9831053" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bf74dd0ba8bacde3d960739103ba63c6" category="paragraph">목록에서 사용 가능한 로그를 선택합니다.</block>
+  <block id="d64c94573b121a79214c7bf24c4a546d" category="paragraph">모범 사례: AWS Predefined_AmazonEC2ReadOnlyAccess_policy를 EC2 기본 계정에 할당하는 것이 좋습니다. 또한 데이터 소스에서 구성된 사용자는 AWS를 쿼리하기 위해 미리 정의된 _AWSOrganizationReadOnlyAccess_policy 이상을 할당해야 합니다.</block>
 </blocks>
