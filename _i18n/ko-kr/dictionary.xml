@@ -906,8 +906,6 @@
   <block id="8a684cc8084b02b93384f0bfc436d63c" category="list-text">The_potential attack_type(예: 랜섬웨어 또는 태업)</block>
   <block id="b81879140b6197b1eee86a1d325a0a81" category="list-text">잠재적 공격이 _ 탐지된 날짜 및 시간입니다 _</block>
   <block id="5efe06a62d35c2fe7354ce05b69e8db6" category="list-text">알림의 _ 상태 _:</block>
-  <block id="17ca445149f5daf4135fa66ee7989d5e" category="list-text">새 알림(새 알림의 기본 설정)</block>
-  <block id="c9413dd7682a45da9ecc9efa8cea47d7" category="list-text">진행 중</block>
   <block id="dd67ee05c982c60e1a69e9ad946a2e63" category="paragraph">관리자는 알림의 상태를 변경하고 조사에 도움이 되는 메모를 추가할 수 있습니다.</block>
   <block id="60325a285b1c8cf507846bc035e0f925" category="inline-image-macro">경고 상태 변경</block>
   <block id="371302059ed6513f69430d5d61531649" category="paragraph"><block ref="371302059ed6513f69430d5d61531649" category="inline-image-macro-rx" type="image"></block></block>
@@ -8618,4 +8616,9 @@
   <block id="d93346d5cd40cfc415b92ee8b9831053" category="paragraph"><block ref="d93346d5cd40cfc415b92ee8b9831053" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bf74dd0ba8bacde3d960739103ba63c6" category="paragraph">목록에서 사용 가능한 로그를 선택합니다.</block>
   <block id="d64c94573b121a79214c7bf24c4a546d" category="paragraph">모범 사례: AWS Predefined_AmazonEC2ReadOnlyAccess_policy를 EC2 기본 계정에 할당하는 것이 좋습니다. 또한 데이터 소스에서 구성된 사용자는 AWS를 쿼리하기 위해 미리 정의된 _AWSOrganizationReadOnlyAccess_policy 이상을 할당해야 합니다.</block>
+  <block id="f0617472d6b597b6d93003c4c1003ad6" category="list-text">* New * (새로 만들기 *): 새 경고의 기본값입니다.</block>
+  <block id="124bb595dee29c483fb214a5dfd6be2a" category="list-text">* 진행 중 *: 팀 구성원 또는 구성원이 알림을 조사 중입니다.</block>
+  <block id="ac5ce495bc5231774a8d1baa382ee7e1" category="list-text">* 해결됨 *: 팀 구성원이 경고를 해결됨으로 표시했습니다.</block>
+  <block id="10b1c70c9f5425c76de374b73edb3311" category="list-text">* 해제됨 *: 경고가 해제되었으며 더 이상 활성 상태가 아닙니다.</block>
+  <block id="dc102c5c05c2c1199e156360b71b6081" category="list-text">알림의 _Status_(신규, 진행 중 등)</block>
 </blocks>
