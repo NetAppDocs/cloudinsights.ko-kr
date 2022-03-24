@@ -8623,4 +8623,17 @@
   <block id="bbf3d6c7f63841c53e523ee9bd1f6985" category="list-text">Rancher 2.4 - 2.6.</block>
   <block id="e2c9709b9d8f51841ea22d5bb63af5db" category="list-text">OpenShift 4.6-4.8에서 실행 중인 경우, 이러한 필수 구성 요소가 충족되도록 하기 위해 아래의 * OpenShift Instructions * 를 따라야 합니다.</block>
   <block id="51749c7a45a2b7fcc4461d9a50cc9b22" category="list-text">_curl_, _sudo_, _openssl_, _sha256sum_ 및 _kubbctl_ 명령을 사용할 수 있어야 합니다. 최상의 결과를 얻으려면 이러한 명령을 경로에 추가하십시오.</block>
+  <block id="c75d4b042f6604bc016e5b15ff4dea18" category="summary">Cloud Insights는 Kubernetes에서 통합 데이터를 수집하는 에이전트로 Teleraf를 지원합니다.</block>
+  <block id="f09825d109ed4681880410bb47684198" category="doc">Kubernetes에서 Agent 구성</block>
+  <block id="4b0a31d3afe47e26997b3d6c99c37152" category="inline-link-macro">* 여기로 이동 *</block>
+  <block id="f043e0e94a86a741ec3cfa80a7184063" category="admonition">이 페이지는 현재 진행 중입니다. Kubernetes에 에이전트를 설치하는 방법에 대한 최신 지침은 <block ref="697dca91101784dbecc7595d7733df90" category="inline-link-macro-rx"></block>.</block>
+  <block id="990b78672b6335498977a301125673d5" category="admonition">Agent를 설치하기 전에 설치 파일을 확인하려면 정보 를 참조하십시오 <block ref="1d9f3d6343939e76574c60762a7f2fae" category="inline-xref-macro-rx"></block>.</block>
+  <block id="ae8396b4c25ba8af80c0396cbac8dbb2" category="paragraph">Kubernetes에 에이전트를 설치하려면 먼저 다음을 수행해야 합니다.</block>
+  <block id="8270d1410ea5852ae1772fd6e21a5b85" category="list-text">호스트에 대한 Kubernetes 플랫폼을 선택합니다</block>
+  <block id="9be51db2ab39984556571e44a8cd71ff" category="list-text">나머지 단계를 따릅니다.</block>
+  <block id="9ac0dd27d420b7b48ca72e463ae95e18" category="inline-link-macro">참조하십시오</block>
+  <block id="6981ef377139f8296f4ae0aa44bc108d" category="paragraph">Windows, Linux 또는 Mac에 에이전트를 설치하려면 을 따릅니다 <block ref="bd07fc5e27e6fac57c0afecd246768d9" category="inline-link-macro-rx"></block>.</block>
+  <block id="4399aa6f1f3bf7573a388f265d2ad7ca" category="section-title">Kubernetes에 Agent 설치</block>
+  <block id="f997e79142f159c33823b9deeab809eb" category="cell">Kubernetes에서 Telegraf ReplicaSet Pod가 다음 오류를 보고합니다: inputs.prometheus] [플러그인 오류: keypair /etc/Kubernetes/PKI/etcd/server.crt: /etc/Kubernetes/PKI/etcd/server.key: open /etc/cubs/pi/etcd/server.crt: 해당 파일 또는 디렉토리가 없습니다</block>
+  <block id="9df12d675c4f61381132e45173ef90d0" category="cell">Telegraf ReplicaSet POD는 마스터나 etcd로 지정된 노드에서 실행되도록 설계되었습니다. ReplicaSet 포드가 이러한 노드 중 하나에서 실행되고 있지 않으면 이러한 오류가 발생합니다. 마스터/etcd 노드에 문제가 있는지 확인합니다. 만약 그렇다면, 텔레그라프 ReplicaSet, 텔레그라프-RS에 필요한 내약성을 추가한다. 예를 들어 ReplicaSet...kubtl을 편집하여 RS Telegraf-RS...를 편집하고 사양에 적절한 내약성을 추가합니다. 그런 다음 ReplicaSet 포드를 다시 시작합니다.</block>
 </blocks>
