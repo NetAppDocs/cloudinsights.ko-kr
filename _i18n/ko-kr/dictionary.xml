@@ -8615,7 +8615,6 @@
   <block id="f0617472d6b597b6d93003c4c1003ad6" category="list-text">* New * (새로 만들기 *): 새 경고의 기본값입니다.</block>
   <block id="124bb595dee29c483fb214a5dfd6be2a" category="list-text">* 진행 중 *: 팀 구성원 또는 구성원이 알림을 조사 중입니다.</block>
   <block id="ac5ce495bc5231774a8d1baa382ee7e1" category="list-text">* 해결됨 *: 팀 구성원이 경고를 해결됨으로 표시했습니다.</block>
-  <block id="10b1c70c9f5425c76de374b73edb3311" category="list-text">* 해제됨 *: 경고가 해제되었으며 더 이상 활성 상태가 아닙니다.</block>
   <block id="dc102c5c05c2c1199e156360b71b6081" category="list-text">알림의 _Status_(신규, 진행 중 등)</block>
   <block id="2cda05c10c4aa09279fe99d24fc57ae8" category="list-text">NetApp Kubernetes Monitoring Operator 설치가 테스트되었으며 다음 구성 요소에 대해 작동할 것으로 예상됩니다.</block>
   <block id="1293dad52aae23a70414cecab911c5c5" category="list-text">AWS EKS 1.18-1.21</block>
@@ -8636,4 +8635,5 @@
   <block id="4399aa6f1f3bf7573a388f265d2ad7ca" category="section-title">Kubernetes에 Agent 설치</block>
   <block id="f997e79142f159c33823b9deeab809eb" category="cell">Kubernetes에서 Telegraf ReplicaSet Pod가 다음 오류를 보고합니다: inputs.prometheus] [플러그인 오류: keypair /etc/Kubernetes/PKI/etcd/server.crt: /etc/Kubernetes/PKI/etcd/server.key: open /etc/cubs/pi/etcd/server.crt: 해당 파일 또는 디렉토리가 없습니다</block>
   <block id="9df12d675c4f61381132e45173ef90d0" category="cell">Telegraf ReplicaSet POD는 마스터나 etcd로 지정된 노드에서 실행되도록 설계되었습니다. ReplicaSet 포드가 이러한 노드 중 하나에서 실행되고 있지 않으면 이러한 오류가 발생합니다. 마스터/etcd 노드에 문제가 있는지 확인합니다. 만약 그렇다면, 텔레그라프 ReplicaSet, 텔레그라프-RS에 필요한 내약성을 추가한다. 예를 들어 ReplicaSet...kubtl을 편집하여 RS Telegraf-RS...를 편집하고 사양에 적절한 내약성을 추가합니다. 그런 다음 ReplicaSet 포드를 다시 시작합니다.</block>
+  <block id="08c320e9abdbb73b135ebdf6b73de8ef" category="list-text">* 해제됨 *: 경고가 거짓 긍정 또는 예상된 동작으로 무시되었습니다.</block>
 </blocks>
