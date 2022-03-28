@@ -8343,7 +8343,6 @@
   <block id="9209b4ae424c71673a607557c64f7eb8" category="section-title">2022년 2월</block>
   <block id="ecf4e9e3c38358de05561be5ed03f5d0" category="section-title">피처 미리보기</block>
   <block id="2240ee7d4e56b8ba7ac49b14311cdeed" category="inline-link-macro">NetApp 세일즈 팀</block>
-  <block id="c8d0b8a6f32511af92bc09ceb0fccb0d" category="paragraph">Cloud Insights는 다양하고 흥미로운 새 미리보기 기능을 강조합니다. 이러한 기능 중 하나 이상을 미리 보려면 에 문의하십시오 <block ref="16ff11ed878ec2cb7f479192bb9f1a7d" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="5fa0ef8fc40e60003288942e2da3e300" category="cell">* 피처 *</block>
   <block id="aeaf81dc6547412bdc24df519c65a5ba" category="cell">사용자 액세스 자동 응답 작업 제한</block>
   <block id="decbe415d8accca7c2c16d48a79ee934" category="inline-link-macro">자세히 보기</block>
@@ -8636,4 +8635,5 @@
   <block id="f997e79142f159c33823b9deeab809eb" category="cell">Kubernetes에서 Telegraf ReplicaSet Pod가 다음 오류를 보고합니다: inputs.prometheus] [플러그인 오류: keypair /etc/Kubernetes/PKI/etcd/server.crt: /etc/Kubernetes/PKI/etcd/server.key: open /etc/cubs/pi/etcd/server.crt: 해당 파일 또는 디렉토리가 없습니다</block>
   <block id="9df12d675c4f61381132e45173ef90d0" category="cell">Telegraf ReplicaSet POD는 마스터나 etcd로 지정된 노드에서 실행되도록 설계되었습니다. ReplicaSet 포드가 이러한 노드 중 하나에서 실행되고 있지 않으면 이러한 오류가 발생합니다. 마스터/etcd 노드에 문제가 있는지 확인합니다. 만약 그렇다면, 텔레그라프 ReplicaSet, 텔레그라프-RS에 필요한 내약성을 추가한다. 예를 들어 ReplicaSet...kubtl을 편집하여 RS Telegraf-RS...를 편집하고 사양에 적절한 내약성을 추가합니다. 그런 다음 ReplicaSet 포드를 다시 시작합니다.</block>
   <block id="08c320e9abdbb73b135ebdf6b73de8ef" category="list-text">* 해제됨 *: 경고가 거짓 긍정 또는 예상된 동작으로 무시되었습니다.</block>
+  <block id="876a3f6e99a6a623eff957c61ab96f8a" category="paragraph">Cloud Insights는 다양하고 흥미로운 새로운 미리 보기 기능을 정기적으로 강조하고 있습니다. 이러한 기능 중 하나 이상을 미리 보려면 에 문의하십시오 <block ref="16ff11ed878ec2cb7f479192bb9f1a7d" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
 </blocks>
