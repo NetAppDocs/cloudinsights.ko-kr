@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: API_Overview.html 
-keywords: API, customer API, premium, JSON, Swagger, Access Token, token 
+keywords: API, customer API, premium, JSON, Swagger, Access Token, token, key 
 summary: Cloud Insights API를 사용하면 모니터링 및 보고 시스템과 같은 다른 애플리케이션과 통합할 수 있습니다. 
 ---
 = Cloud Insights API를 참조하십시오
@@ -80,7 +80,7 @@ NOTE: 토큰은 클립보드로 복사하고 생성 과정 중에 저장하는 �
 
 토큰을 비활성화, 활성화 및 취소할 수 있습니다. 비활성화된 토큰을 활성화할 수 있습니다.
 
-토큰은 고객의 관점에서 API에 대한 범용 액세스를 허용하며, 자신의 테넌트의 범위에서 API에 대한 액세스를 관리합니다. 고객 관리자는 Cloud Insights 백 엔드 직원의 직접적인 개입 없이 이러한 키를 부여 및 취소할 수 있습니다.
+토큰은 고객의 관점에서 API에 대한 범용 액세스를 허용하며, 자신의 테넌트의 범위에서 API에 대한 액세스를 관리합니다. 고객 관리자는 Cloud Insights 백 엔드 직원의 직접적인 개입 없이 이러한 토큰을 부여 및 취소할 수 있습니다.
 
 응용 프로그램은 사용자가 액세스를 성공적으로 인증 및 승인한 후 액세스 토큰을 받은 다음 대상 API를 호출할 때 액세스 토큰을 자격 증명으로 전달합니다. 전달된 토큰은 API에 토큰의 베어러가 API에 액세스할 수 있는 권한이 있음을 알리고 권한 부여 중에 부여된 범위에 의해 지정된 특정 작업을 수행하도록 합니다.
 
@@ -89,7 +89,7 @@ NOTE: 토큰은 클립보드로 복사하고 생성 과정 중에 저장하는 �
 예를 들어, 다음을 사용하여 스토리지 자산을 검색할 수 있습니다.
 
  curl https://<tenant_host_name>/rest/v1/assets/storages -H 'X-CloudInsights-ApiKey: <API_Access_Token>'
-여기서 _<API_Access_Token>_은 API 액세스 키를 생성하는 동안 저장한 토큰입니다.
+여기서 _<API_Access_Token>_은 API 액세스 생성 중에 저장한 토큰입니다.
 
 
 
