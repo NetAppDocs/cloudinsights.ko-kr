@@ -8468,7 +8468,6 @@
   <block id="31f2d1341b001f9e4ba9f04b36b9fbd1" category="cell">이 목록은 정확히 일치하는 문자열을 구성해야 합니다. ESX_HOST로 필터링하려는 경우 Cloud Insights 및 vSphere에 모두 보고되는 대로 ESX 호스트의 정확한 "이름"을 쉼표로 구분된 목록으로 작성해야 합니다. 이러한 "이름"은 IP 주소, 단순 호스트 이름 또는 FQDN(정규화된 도메인 이름)일 수 있습니다. 이는 해당 호스트가 vSphere에 처음 추가될 때 이름이 어떻게 지정되었는지 기준으로 결정됩니다. 클러스터로 필터링할 경우 하이퍼바이저에서 CI에 의해 보고된 Cloud Insights 스타일 클러스터 이름을 사용합니다. Cloud Insights는 vSphere 클러스터 이름을 vSphere 데이터 센터 이름 앞에 배치하고 백슬래시를 추가합니다. "DC1\clusterA"는 Cloud Insights이 데이터 센터 DC1 내의 클러스터 A에서 하이퍼바이저에 대해 보고하는 클러스터 이름입니다</block>
   <block id="e50e258ecc9eaa88d6c653c3a24cb319" category="section-title">2022년 3월</block>
   <block id="6051317bfc603cd4488e0e5a5946f64c" category="inline-link-macro">ONTAP 9.9 이상을 위한 NetApp 클라우드 연결</block>
-  <block id="81b63bcf37c281fa62b348f70cb153a7" category="paragraph">를 클릭합니다 <block ref="abed7fb19b7000e31d7e181bcda0de86" category="inline-link-macro-rx"></block> 데이터 수집기는 외부 수집 장치를 설치할 필요가 없으므로 문제 해결, 유지 관리 및 초기 배포를 간소화할 수 있습니다.</block>
   <block id="2e9faf5215aa3ecfef89358ec3693874" category="section-title">NetApp ONTAP 모니터를 위한 새로운 FSx</block>
   <block id="6dc06af3fe625c90d8b00610f4a3bf8e" category="inline-link-macro">시스템 정의 모니터</block>
   <block id="bcd1e57acea622ff5f6c7b621a37241c" category="paragraph">새로운 를 사용하면 NetApp ONTAP 환경을 위한 FSx를 쉽게 모니터링할 수 있습니다 <block ref="870b37862b5d06f18770c24f68255a0a" category="inline-link-macro-rx"></block> 인프라(메트릭)와 워크로드(로그) 모두에 대해</block>
@@ -8637,4 +8636,5 @@
   <block id="876a3f6e99a6a623eff957c61ab96f8a" category="paragraph">Cloud Insights는 다양하고 흥미로운 새로운 미리 보기 기능을 정기적으로 강조하고 있습니다. 이러한 기능 중 하나 이상을 미리 보려면 에 문의하십시오 <block ref="16ff11ed878ec2cb7f479192bb9f1a7d" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="0c352b5d8cf5928163a8ab955706157d" category="paragraph">토큰은 고객의 관점에서 API에 대한 범용 액세스를 허용하며, 자신의 테넌트의 범위에서 API에 대한 액세스를 관리합니다. 고객 관리자는 Cloud Insights 백 엔드 직원의 직접적인 개입 없이 이러한 토큰을 부여 및 취소할 수 있습니다.</block>
   <block id="827fb03d4709eeb5398e14962ee560c2" category="paragraph">여기서 _&lt;API_Access_Token&gt;_은 API 액세스 생성 중에 저장한 토큰입니다.</block>
+  <block id="cc259063b1a06b482634601b8fc9068b" category="paragraph">를 클릭합니다 <block ref="4379d12a92ab7b417b2efd216b13a5b7" category="inline-link-macro-rx"></block> 데이터 수집기는 외부 수집 장치를 설치할 필요가 없으므로 문제 해결, 유지 관리 및 초기 배포를 간소화할 수 있습니다.</block>
 </blocks>
