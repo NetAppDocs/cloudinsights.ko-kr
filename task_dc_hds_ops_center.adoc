@@ -2,13 +2,13 @@
 sidebar: sidebar 
 permalink: task_dc_hds_ops_center.html 
 keywords: data collector, Hitachi Ops Center 
-summary: HDS COPS Center 데이터 수집기 구성. 
+summary: HDS Ops Center 데이터 수집기 구성 
 ---
 = Hitachi Ops Center 데이터 수집기
 
 
 [role="lead"]
-이 데이터 수집기는 Hitachi Ops Center의 통합 애플리케이션 제품군을 사용하여 여러 스토리지 디바이스의 인벤토리 및 성능 데이터에 액세스합니다.
+이 데이터 수집기는 Hitachi Ops Center의 통합 애플리케이션 제품군을 사용하여 여러 스토리지 디바이스의 인벤토리 및 성능 데이터에 액세스합니다. 인벤토리 및 용량 검색을 위해 Ops Center 설치에는 "공통 서비스" 및 "관리자" 구성 요소가 모두 포함되어야 합니다. 성능 수집을 위해 "Analyzer"를 추가로 구축해야 합니다.
 
 
 
@@ -68,7 +68,7 @@ Cloud Insights는 이 데이터 수집기에서 다음 인벤토리 정보를 �
 | 필드에 입력합니다 | 설명 
 
 
-| Hitachi Ops Center IP 주소입니다 | Ops Center 서버의 IP 주소 또는 정규화된 도메인 이름입니다 
+| Hitachi Ops Center IP 주소입니다 | "공통 서비스" 구성 요소를 호스팅하는 Ops Center 서버의 IP 주소 또는 정규화된 도메인 이름입니다 
 
 
 | 사용자 이름 | Ops Center 서버의 사용자 이름입니다. 

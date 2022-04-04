@@ -4282,9 +4282,7 @@
   <block id="057865fdced8cf279cb948d9a000b58a" category="paragraph">응용 프로그램은 사용자가 액세스를 성공적으로 인증 및 승인한 후 액세스 토큰을 받은 다음 대상 API를 호출할 때 액세스 토큰을 자격 증명으로 전달합니다. 전달된 토큰은 API에 토큰의 베어러가 API에 액세스할 수 있는 권한이 있음을 알리고 권한 부여 중에 부여된 범위에 따라 특정 작업을 수행하도록 합니다.</block>
   <block id="4885bebed0a488d050e9e3b9016b3fda" category="paragraph">액세스 토큰이 전달되는 HTTP 헤더는 * X-CloudInsights-ApiKey: * 입니다</block>
   <block id="b9250c46598db43daf799f07c7d996da" category="paragraph">자세한 정보는 * Admin &gt; API Access * 의 _API Documentation_link에서 확인할 수 있습니다.</block>
-  <block id="10bcebae483fccb445d5bb08f8e21b57" category="summary">HDS COPS Center 데이터 수집기 구성.</block>
   <block id="edfa0366cb6c25de6aa46576a0e54251" category="doc">Hitachi Ops Center 데이터 수집기</block>
-  <block id="00a13db56b8dd9cf1ca9ce114eaa262d" category="paragraph">이 데이터 수집기는 Hitachi Ops Center의 통합 애플리케이션 제품군을 사용하여 여러 스토리지 디바이스의 인벤토리 및 성능 데이터에 액세스합니다.</block>
   <block id="5c6ab1284b6b7a5a7102854a969c99be" category="cell">스토리지 시스템</block>
   <block id="6fa6e2299a829e04bba19b10e38dc56c" category="cell">패리티 그룹</block>
   <block id="7f47ab518e59deb2aed009c3db49ddbd" category="cell">스토리지 풀(RAID), 디스크 그룹</block>
@@ -4299,7 +4297,6 @@
   <block id="3d9fdded41d1c4003ba59b29e1faef21" category="list-text">Ops Center 서버의 IP 주소입니다</block>
   <block id="2d9bdba47e7ef41afea9893477c6c1b1" category="list-text">Ops Center 소프트웨어 및 피어 권한에 대한 읽기 전용 사용자 이름 및 암호입니다</block>
   <block id="8f4ab816532074b60c2865f1089b6d38" category="cell">Hitachi Ops Center IP 주소입니다</block>
-  <block id="08ae6fd45d8b805f01549b8a7d5ba93a" category="cell">Ops Center 서버의 IP 주소 또는 정규화된 도메인 이름입니다</block>
   <block id="8db0f231405345684c1dab98cc049f52" category="cell">Ops Center 서버의 사용자 이름입니다.</block>
   <block id="18bf6f2c111fb8ac2dbe99d3445cbadd" category="cell">Ops Center 서버에 사용되는 암호입니다.</block>
   <block id="bc742a3b20c159bc11ea844e4d798e34" category="cell">기본값은 HTTPS(포트 443)입니다</block>
@@ -7901,7 +7898,6 @@
   <block id="da61284a90b4338613015a46e7ac0c53" category="paragraph"><block ref="da61284a90b4338613015a46e7ac0c53" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2feda95a3fa7c2b2fe1a5823227a38d4" category="summary">Dell EMC RecoverPoint 데이터 수집기 구성</block>
   <block id="b7580029151bf8be03d47ebe21aae5d2" category="doc">Dell EMC RecoverPoint 데이터 수집기</block>
-  <block id="2d0536ed48dc3aedf9eae91c758cc1aa" category="paragraph">EMC RecoverPoint 데이터 수집기는 EMC RecoverPoint 스토리지에서 인벤토리 정보를 수집합니다. 구성을 위해 데이터 수집기는 스토리지 프로세서의 IP 주소와 읽기 전용 사용자 이름 및 암호를 필요로 합니다.</block>
   <block id="3846db481899e198743ded5cfb08f1e5" category="paragraph">EMC RecoverPoint 데이터 수집기는 RecoverPoint가 다른 스토리지 시스템 간에 조정하는 볼륨 간 복제 관계를 수집합니다. Cloud Insights는 각 RecoverPoint 클러스터의 스토리지 시스템을 보여 주며 해당 클러스터의 노드 및 스토리지 포트에 대한 인벤토리 데이터를 수집합니다. 스토리지 풀 또는 볼륨 데이터가 수집되지 않습니다.</block>
   <block id="e19668f1f8c943db0e13c92639c909cc" category="list-text">포트 443을 통한 REST API 액세스</block>
   <block id="9b3974cdf2a58a6fea8e4c5aa1cc78eb" category="cell">RecoverPoint의 주소입니다</block>
@@ -8658,4 +8654,9 @@
   <block id="55c82b601deae028c1c5e87fd820923d" category="cell">3.0</block>
   <block id="2b7c53bace6e76127dd80fffa6f4f898" category="cell">11.5</block>
   <block id="bca66716b9ca2d13a4c28be69b276777" category="cell">3.3</block>
+  <block id="8020d56a67ade967a3254ada824b1406" category="summary">HDS Ops Center 데이터 수집기 구성</block>
+  <block id="317ca49a534ef6dc0317a60fdf058fef" category="paragraph">이 데이터 수집기는 Hitachi Ops Center의 통합 애플리케이션 제품군을 사용하여 여러 스토리지 디바이스의 인벤토리 및 성능 데이터에 액세스합니다. 인벤토리 및 용량 검색을 위해 Ops Center 설치에는 "공통 서비스" 및 "관리자" 구성 요소가 모두 포함되어야 합니다. 성능 수집을 위해 "Analyzer"를 추가로 구축해야 합니다.</block>
+  <block id="211ba4facc37bc8a85949c753a2fcfbd" category="cell">"공통 서비스" 구성 요소를 호스팅하는 Ops Center 서버의 IP 주소 또는 정규화된 도메인 이름입니다</block>
+  <block id="8aaf0c3eec33a08ba4aa512a66667baf" category="paragraph">EMC RecoverPoint 데이터 수집기의 주요 활용 사례는 RecoverPoint 스토리지 어플라이언스가 제공하는 볼륨 간 복제 관계를 검색하는 것입니다. 이 Collector는 RecoverPoint 어플라이언스 자체를 검색합니다. Dell/EMC는 이 수집기에서 지원하지 않는 VM을 위한 VMware 백업 솔루션, 즉 "VM을 위한 RecoverPoint"를 판매합니다</block>
+  <block id="77b03d5ff356126537320c25f40d3644" category="paragraph">구성을 위해 데이터 수집기는 스토리지 프로세서의 IP 주소와 읽기 전용 사용자 이름 및 암호를 필요로 합니다.</block>
 </blocks>
