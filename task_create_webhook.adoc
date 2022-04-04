@@ -77,4 +77,4 @@ image:Webhook_Monitor_Notify.png["Webhook 모니터 알림"]
 
 == Webhook 예:
 
-에 대한 Webhook link:task_webhook_example_slack.html["슬랙"]에 대한 Webhook 에 대한 Webhook 에 대한 Webhook 
+에 대한 Webhook link:task_webhook_example_slack.html["슬랙"]에 대한 Webhook link:task_webhook_example_pagerduty.html["PagerDuty"]에 대한 Webhook link:task_webhook_example_teams.html["팀"]에 대한 Webhook link:task_webhook_example_discord.html["불화"]
