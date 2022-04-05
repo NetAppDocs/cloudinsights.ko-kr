@@ -5375,7 +5375,6 @@
   <block id="0062c1fbde704d862293af74f9c341ee" category="paragraph">+ 응용 프로그램 추가 대화 상자가 표시됩니다.</block>
   <block id="b32a7920a5087ed62d85b129fb5ce33b" category="list-text">응용 프로그램의 고유한 이름을 입력합니다.</block>
   <block id="c418529bd36204e932f103b225c97cb8" category="list-text">응용 프로그램의 우선 순위를 선택합니다.</block>
-  <block id="791e1dfec485a22a41ff378f2bff756c" category="paragraph">애플리케이션을 정의한 후 자산에 할당할 수 있습니다.</block>
   <block id="9bf2dd1afa4d073358de477920a2956b" category="section-title">자산에 애플리케이션 할당</block>
   <block id="b93ef263c781b779a9342ab97ac1011e" category="paragraph">이 절차에서는 호스트에 애플리케이션을 예로 할당합니다. 호스트, 가상 머신, 볼륨 또는 내부 볼륨을 애플리케이션에 할당할 수 있습니다.</block>
   <block id="11db6ea59a00e33ecd2cdfae80620a9a" category="list-text">응용 프로그램에 할당할 자산을 찾습니다.</block>
@@ -6626,8 +6625,6 @@
   <block id="d5712dd84650ff1cb4915da1c121ffbb" category="paragraph">정보는 에서 찾을 수 있습니다 <block ref="d34993add17c6dd464dba2ccd7f99cbb" category="inline-link-macro-rx"></block> 페이지.</block>
   <block id="4715797e850d7872546c22d0a379ca4f" category="summary">쿼리를 사용하여 여러 응용 프로그램 또는 주석을 개체에 할당하거나 개체에서 여러 응용 프로그램 또는 주석을 제거할 수 있습니다.</block>
   <block id="de1cabd167f3864b78d24d3da683bd0c" category="doc">자산에 여러 애플리케이션을 할당하거나 자산에서 여러 애플리케이션을 제거합니다</block>
-  <block id="ddb4e3be26b56b7ae03a903c61fba413" category="paragraph">수동으로 할당하거나 제거할 필요 없이 쿼리를 사용하여 여러 응용 프로그램을 자산에 할당하거나 자산에서 제거할 수 있습니다.</block>
-  <block id="ed447659cd503ecad81ff432937f36db" category="admonition">이 단계를 사용하여 같은 방법으로 주석을 추가하거나 제거할 수 있습니다.</block>
   <block id="930ebcf0e051fb5a1e36f9ff9248a750" category="paragraph">편집할 모든 자산을 찾는 쿼리를 이미 만들어야 합니다.</block>
   <block id="4bdc13a05f4739df7fb7100c4c7a4f0a" category="paragraph">쿼리 페이지가 표시됩니다.</block>
   <block id="4ce096e29e33c848d69cb1b5108fca19" category="list-text">자산을 찾는 쿼리의 이름을 클릭합니다.</block>
@@ -8659,4 +8656,10 @@
   <block id="211ba4facc37bc8a85949c753a2fcfbd" category="cell">"공통 서비스" 구성 요소를 호스팅하는 Ops Center 서버의 IP 주소 또는 정규화된 도메인 이름입니다</block>
   <block id="8aaf0c3eec33a08ba4aa512a66667baf" category="paragraph">EMC RecoverPoint 데이터 수집기의 주요 활용 사례는 RecoverPoint 스토리지 어플라이언스가 제공하는 볼륨 간 복제 관계를 검색하는 것입니다. 이 Collector는 RecoverPoint 어플라이언스 자체를 검색합니다. Dell/EMC는 이 수집기에서 지원하지 않는 VM을 위한 VMware 백업 솔루션, 즉 "VM을 위한 RecoverPoint"를 판매합니다</block>
   <block id="77b03d5ff356126537320c25f40d3644" category="paragraph">구성을 위해 데이터 수집기는 스토리지 프로세서의 IP 주소와 읽기 전용 사용자 이름 및 암호를 필요로 합니다.</block>
+  <block id="71a388d251263451b6a429a35f18c534" category="paragraph">애플리케이션을 정의한 후 자산에 할당할 수 있습니다.</block>
+  <block id="46152eb4e0d7febe5ed5ec5aa51b068f" category="admonition">관련 자산이 많은 환경의 경우 해당 자산에 대한 애플리케이션 할당 상속에 몇 분이 걸릴 수 있습니다. 관련 자산이 많은 경우 상속에 더 많은 시간을 할애하십시오.</block>
+  <block id="b5fba9ff24d0045d1377a05a46b32f68" category="inline-link-macro">응용 프로그램</block>
+  <block id="a4dc3c56fe7e26b25b470b6a7c15badc" category="paragraph">여러 개를 할당할 수 있습니다 <block ref="2a4b6454a635dd6d2517e4f81c46cc23" category="inline-link-macro-rx"></block> 수동으로 할당하거나 제거할 필요 없이 쿼리를 사용하여 자산에서 여러 응용 프로그램을 제거하거나 제거할 수 있습니다.</block>
+  <block id="4ab6864fc58ecd8b598ee10dfe2ac311" category="inline-link-macro">주석</block>
+  <block id="9d0068916fee0d45d023af017221e708" category="admonition">다음 단계를 사용하여 추가하거나 제거할 수 있습니다 <block ref="5ee10a6642913576d2747e5e8b69f77c" category="inline-link-macro-rx"></block> 같은 방법으로.</block>
 </blocks>
