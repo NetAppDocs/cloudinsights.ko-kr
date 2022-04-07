@@ -8663,4 +8663,17 @@
   <block id="4ab6864fc58ecd8b598ee10dfe2ac311" category="inline-link-macro">주석</block>
   <block id="9d0068916fee0d45d023af017221e708" category="admonition">다음 단계를 사용하여 추가하거나 제거할 수 있습니다 <block ref="5ee10a6642913576d2747e5e8b69f77c" category="inline-link-macro-rx"></block> 같은 방법으로.</block>
   <block id="76b98091ce8fe8a7a83d21d8c94371fd" category="list-text">시작하기 전에 _관리자_계정으로 ONTAP에 로그인해야 하며 _DIAGNOSTIC-LEVEL 명령_ 을 활성화해야 합니다.</block>
+  <block id="47d7b551b40becb326c406f74238150a" category="paragraph">API 설명서는 Swagger 기반의 API에 대한 간단한 설명과 사용 정보를 제공하며, 사용자 환경에서 사용할 수 있습니다.</block>
+  <block id="1281391af6f060d6074a70718d4fe3ea" category="paragraph">Cloud Insights API를 사용하기 전에 하나 이상의 * API 액세스 토큰 * 을 만들어야 합니다. 액세스 토큰은 지정된 API 범주에 사용되며 읽기 및/또는 쓰기 권한을 부여할 수 있습니다. 각 액세스 토큰의 만료일을 설정할 수도 있습니다. 지정된 범주에 속하는 모든 API가 액세스 토큰에 대해 유효합니다. 각 토큰은 사용자 이름 또는 암호의 무효입니다.</block>
+  <block id="360146f659bd725b350b271d6c503e19" category="list-text">API Categories를 선택합니다</block>
+  <block id="c702f9ec1de747488ae69091e4b44640" category="paragraph">토큰은 고객의 관점에서 API에 대한 범용 액세스를 허용하며, 자신의 테넌트의 범위에서 API에 대한 액세스를 관리합니다. 고객 관리자는 Cloud Insights 백 엔드 직원의 직접적인 개입 없이 이러한 키를 부여 및 취소할 수 있습니다.</block>
+  <block id="98fbc8e7d31cedd912f33ee6a89818dc" category="section-title">API 범주</block>
+  <block id="c7fb26bb2d197a98dd4605353de8b5fd" category="paragraph">Cloud Insights API는 범주 기반이며 현재 다음 범주가 포함되어 있습니다.</block>
+  <block id="2f90612b2de30393cb574a8125f3b83c" category="list-text">자산 범주에는 자산, 쿼리 및 검색 API가 포함됩니다.</block>
+  <block id="19d579e8bdc0964ff6c1b98d9f4077d2" category="list-text">데이터 수집 범주는 데이터 수집기를 검색하고 관리하는 데 사용됩니다.</block>
+  <block id="2e3e1cf2be708126495ee0409de4ffdc" category="list-text">데이터 수집 범주는 텔레그라프 에이전트와 같은 수집 데이터와 사용자 지정 메트릭을 검색 및 관리하는 데 사용됩니다</block>
+  <block id="66f4e9202f5d9c4adb625559f7dd6e37" category="paragraph">시간이 지나면 추가 범주 및/또는 API를 사용할 수 있습니다. 최신 API 정보는 에서 확인할 수 있습니다 <block ref="26737cef142923769504b229d3be204d" category="inline-link-macro-rx"></block>.</block>
+  <block id="d1d72189f00074c010ad5cdaa0e7efe1" category="paragraph">성능 메트릭에는 설명 및 범주가 있으며 성능 요약 모음이 포함되어 있습니다. 예: 지연 시간, 트래픽 및 속도.</block>
+  <block id="9291545b28f5f21e3694eb57db45da2c" category="paragraph">각 성능 데이터 오브젝트 유형에는 고유한 성능 메트릭 세트가 있습니다. 예를 들어, 가상 머신 성능 개체는 성능 메트릭으로 "diskThroughput"을 지원합니다. 지원되는 각 성능 메트릭은 메트릭 사전에 나와 있는 특정 "성능 범주"입니다. Cloud Insights는 이 문서의 뒷부분에 나열된 몇 가지 성능 메트릭 범주를 지원합니다. 각 성능 메트릭 사전에는 이 성능 메트릭에 대한 사람이 읽을 수 있는 설명과 성능 요약 카운터 항목 집합인 "설명" 필드도 있습니다.</block>
+  <block id="780b9434cb2ebb62e93b92701c3b13b0" category="paragraph">검색 API는 시스템에 대한 간단한 진입점입니다. API에 대한 유일한 입력 매개 변수는 자유 형식 문자열이며 결과 JSON에는 분류된 결과 목록이 포함되어 있습니다. 범주는 저장소, 호스트, 데이터 저장소 등과 같이 인벤토리에서 서로 다른 자산 유형입니다. 각 범주에는 검색 조건과 일치하는 범주 유형의 개체 목록이 포함됩니다.</block>
 </blocks>
