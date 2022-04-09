@@ -6430,14 +6430,7 @@
   <block id="7ad3a84f1fcb16f2e949410059075192" category="paragraph">AWS 가입 프로세스가 완료되면 Cloud Insights 환경으로 되돌아갑니다. 또는 환경이 더 이상 활성 상태가 아니면(예: 로그아웃됨) Cloud Central 로그인 페이지로 이동합니다. Cloud Insights에 다시 로그인하면 구독이 활성화됩니다.</block>
   <block id="5d3063371ceaf93b149242b0ae0e859e" category="admonition">AWS Marketplace 페이지에서 * 계정 설정 * 을 클릭한 후 1시간 이내에 AWS 가입 프로세스를 완료해야 합니다. 1시간 이내에 완료하지 않으면 * 계정 설정 * 을 다시 클릭하여 프로세스를 완료해야 합니다.</block>
   <block id="adeb6d7dca380a78c632dade1cb64bd9" category="paragraph">문제가 있고 가입 프로세스가 제대로 완료되지 않으면 환경에 로그인할 때 "평가판 버전" 배너가 계속 표시됩니다. 이 경우 * Admin &gt; Subscription * 으로 이동하여 구독 프로세스를 반복할 수 있습니다.</block>
-  <block id="ed5935cc32dade0b2d244107f7aa5fe6" category="section-title">가입 모드</block>
-  <block id="308bc3a6204b284eb17c88c0c26b6a38" category="paragraph">가입이 활성화되면 * 관리자 &gt; 구독 * 페이지에서 구독 상태 및 관리되는 유닛 사용을 확인할 수 있습니다.</block>
-  <block id="2931ce8ce932ee92d44cb8feec0f64e7" category="inline-image-macro">구독 상태</block>
-  <block id="86ddc8a835d6340583cf61eac98ab055" category="paragraph"><block ref="86ddc8a835d6340583cf61eac98ab055" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3c08374568b73748e7ca5cdc1ce644f6" category="paragraph">구독 상태 페이지에는 다음이 표시됩니다.</block>
   <block id="6d9a2e2290d3df63014b18bdb7da2212" category="list-text">현재 구독 또는 활성 버전</block>
-  <block id="bfda71e564df94a83ed197513095a98d" category="list-text">구독에 대한 세부 정보</block>
-  <block id="7c038313ceaf745a74cf959d5459722f" category="list-text">호스트 및 용량에 대한 분석 수를 포함한 현재 관리되는 유닛 사용량</block>
   <block id="2d5c36fcd4687378b85e14d41941a80f" category="admonition">Unformatted Capacity Managed Unit 수는 환경의 총 물리적 용량의 합계를 반영하며 가장 가까운 관리되는 단위로 반올림됩니다.</block>
   <block id="cbeff837b5b145559373d2d49dde5efb" category="section-title">구독 사용량을 초과하면 어떻게 됩니까?</block>
   <block id="8014c42068ef58c63a245dfd8cb969f3" category="paragraph">관리되는 장치 사용량이 전체 구독 금액의 80%, 90% 및 100%를 초과하면 경고가 표시됩니다.</block>
@@ -6449,13 +6442,6 @@
   <block id="96be5547ac122332a0bde6fd0939dc1a" category="cell">경고 배너가 표시됩니다. 구독한 관리 단위 수를 늘릴 수 있습니다.</block>
   <block id="8bc50a0b28a2cb63377733efc9b75798" category="cell">* 100% *</block>
   <block id="13b6624916681c7d00ae8634971f8cd8" category="cell">오류 배너가 표시되고 다음 중 하나를 수행할 때까지 기능이 제한됩니다. * 구독한 관리 단위 수를 늘리도록 구독 수정 * 관리되는 유닛 사용량이 구독한 금액 이하가 되도록 데이터 수집기 제거</block>
-  <block id="b004ed546334ca156d79ca28948f895f" category="section-title">설치된 데이터 수집기</block>
-  <block id="44dbec7be84a5fd30603c50945d16fe9" category="paragraph">데이터 수집기 보기 * 버튼을 클릭하여 설치된 데이터 수집기 목록을 확장합니다.</block>
-  <block id="fc533a9ce62a8d90d1518c1f6483e105" category="inline-image-macro">데이터 수집기</block>
-  <block id="36c8ca827a0042c6cc4fdd697b9e4556" category="paragraph"><block ref="36c8ca827a0042c6cc4fdd697b9e4556" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5b1d644346a4becd2467f5d6388a0b61" category="paragraph">Data Collector 섹션에는 사용자 환경에 설치된 Data Collector와 각 장치에 대한 관리 유닛 내역이 표시됩니다.</block>
-  <block id="284e300b68f9744a057424d324471ec9" category="admonition">관리 단위의 합계는 상태 섹션의 데이터 수집기 수와 약간 다를 수 있습니다. 관리 단위 수가 가장 가까운 관리 단위로 반올림되기 때문입니다. Data Collector 목록에서 이러한 숫자의 합계는 상태 섹션의 총 관리 단위 수보다 약간 높을 수 있습니다. 상태 섹션에는 구독에 대한 실제 관리 단위 수가 반영됩니다.</block>
-  <block id="55c42dee624892077410178265bb666a" category="paragraph">사용량이 구독 금액을 거의 또는 초과하는 경우 "점 3개" 메뉴를 클릭하고 * 삭제 * 를 선택하여 이 목록의 데이터 수집기를 삭제할 수 있습니다.</block>
   <block id="9abc552e8e9480b60ac735a93fa16b7c" category="section-title">직접 구독하고 평가판을 건너뛰십시오</block>
   <block id="cab27dc53edb571cac663ce2e16450dc" category="inline-link-macro">AWS 마켓플레이스 를 참조하십시오</block>
   <block id="ba90132b61afa4afdc494902547c62bf" category="paragraph">에서 직접 Cloud Insights를 구독할 수도 있습니다 <block ref="71bf9afbc646fc95bce99ca169e1cd95" category="inline-link-macro-rx"></block>를 선택합니다. 가입이 완료되고 환경이 설정되면 즉시 가입됩니다.</block>
@@ -7540,24 +7526,18 @@
   <block id="d7eb8ab1e688454eec9d83c8277b00fe" category="section-title">그룹화 및 집계</block>
   <block id="3d0486264987eff198cb8489a591c919" category="section-title">그룹화(압연)</block>
   <block id="e251f9ae37a0914ac3ed0861aee9d003" category="paragraph">위젯에 표시되는 데이터는 획득 중에 수집된 기본 데이터 포인트로부터 그룹화됩니다(롤업이라고도 함). 예를 들어, 시간에 따른 스토리지 IOPS를 보여 주는 선형 차트 위젯이 있는 경우 각 데이터 센터에 대해 별도의 줄을 표시하여 빠르게 비교할 수 있습니다. 다음 방법 중 하나로 이 데이터를 그룹화할 수 있습니다.</block>
-  <block id="5feea3e3ac58d9b39ba942eb579a4dc5" category="list-text">* Avg *: 각 행을 기본 데이터의 _average_로 표시합니다.</block>
-  <block id="d1433dcb6902e9ac41f53ed861b62f32" category="list-text">* Max *: 각 행을 내부 데이터의 _maximum_으로 표시합니다.</block>
-  <block id="e83206d12cc1b2bd55081384b71f9020" category="list-text">* Min *: 각 행을 내부 데이터의 _minimum_으로 표시합니다.</block>
   <block id="1a284984e082a2cc2ceecd12b5c25e50" category="list-text">* Sum *: 각 행을 원본 데이터의 _sum_으로 표시합니다.</block>
   <block id="419981855bdd80d78c67ae74ed237d6c" category="list-text">* Count *: 지정된 기간 내에 데이터를 보고한 개체의 _ count_을 표시합니다. 대시보드 시간 범위(또는 대시보드 시간을 재정의하도록 설정된 경우 위젯 시간 범위)에 의해 결정되는 _전체 시간 창_ 또는 선택한 _사용자 정의 시간 창_을 선택할 수 있습니다.</block>
   <block id="d186cba97a995601fc12d97defd879c7" category="paragraph">그룹화 방법을 설정하려면 다음을 실행합니다.</block>
   <block id="0886591e8bd637066947802b2c681da8" category="list-text">위젯의 쿼리에서 자산 유형 및 메트릭(예: _Storage_) 및 메트릭(예: _Performance IOPS Total_)을 선택합니다.</block>
-  <block id="575c1cd09111ba05a1eb5cc5312dd4e8" category="list-text">Group * 의 경우 롤업 방법(예: _Avg_)을 선택하고 데이터를 롤업할 특성 또는 메트릭을 선택합니다(예: _Data Center_).</block>
   <block id="5545e86f2a092d7eeeeae79320003a7a" category="paragraph">위젯이 자동으로 업데이트되고 각 데이터 센터의 데이터가 표시됩니다.</block>
   <block id="9b3328ae96bacd8c344b3f781d9113c0" category="paragraph">또한 원본으로 사용하는 데이터의 _ALL_을 차트 또는 테이블로 그룹화할 수도 있습니다. 이 경우 위젯의 각 쿼리에 대해 하나의 줄이 표시됩니다. 이 라인은 모든 기본 자산에 대해 선택한 메트릭 또는 메트릭의 평균, 최소, 최대, 합계 또는 개수를 표시합니다.</block>
   <block id="28c428ed363d0e9575a830fcfb080fe3" category="paragraph">데이터가 "모두"로 그룹화된 위젯에 대한 범례를 클릭하면 위젯에 사용된 첫 번째 쿼리의 결과를 보여주는 쿼리 페이지가 열립니다.</block>
   <block id="12d9c21e855587068144e1be92c3bc96" category="paragraph">쿼리에 대한 필터를 설정한 경우 데이터는 필터링된 데이터를 기준으로 그룹화됩니다.</block>
   <block id="4bb74590cbf2f4d72c628f06e53c55b9" category="paragraph">모든 필드(예: _Model_)별로 위젯을 그룹화하도록 선택한 경우에도 차트 또는 테이블에 해당 필드의 데이터를 올바르게 표시하려면 해당 필드를 기준으로 필터링해야 합니다.</block>
   <block id="d86c1c1f96efbca023a6312f2655cdd2" category="section-title">데이터 집계</block>
-  <block id="1d6802d615bce70ad97c362dcc6d5c40" category="paragraph">데이터 포인트를 분, 시간 또는 일 단위로 집계하여 속성(선택한 경우)에 의해 데이터가 롤업되기 전에 시계열 차트(선, 영역 등)를 추가로 정렬할 수 있습니다. 선택한 간격 동안 수집한 _Avg, Max, Min 또는 Sum_ 또는 _last_데이터 포인트에 따라 데이터 포인트를 집계하도록 선택할 수 있습니다. 집계 방법을 선택하려면 위젯의 쿼리 섹션에서 * 추가 옵션 * 을 클릭합니다.</block>
   <block id="a10dce4cf3b20fcc81ffdd73fff68459" category="paragraph">긴 시간 범위와 함께 작은 간격이 있을 경우 "집계 간격 때문에 데이터 요소가 너무 많습니다." 경고가 나타날 수 있습니다. 간격이 작고 대시보드 기간을 7일로 늘릴 경우 이 내용이 표시될 수 있습니다. 이 경우 Insight는 더 작은 기간을 선택할 때까지 집계 간격을 일시적으로 늘립니다.</block>
   <block id="6d984d3ac5f53bc70c9ce3bedb56f658" category="paragraph">막대 차트 위젯과 단일 값 위젯에서 데이터를 집계할 수도 있습니다.</block>
-  <block id="161e11bf628a1fd670e3e0b9eedf29cb" category="paragraph">대부분의 자산 카운터는 기본적으로 _Avg_로 집계됩니다. 일부 카운터는 기본적으로 _Max, Min_ 또는 _Sum_으로 집계됩니다. 예를 들어 포트 오류는 기본적으로 _Sum_으로 집계되며, 여기서 스토리지 IOPS는 _Avg_로 집계됩니다.</block>
   <block id="806da624ec9d79eaa05cce82c4860377" category="section-title">위/아래 결과 표시</block>
   <block id="30481770dde0dcefc7b5810b7184ac11" category="paragraph">차트 위젯에서 롤업 데이터에 대한 * 상위 * 또는 * 하위 * 결과를 표시하고 제공된 드롭다운 목록에서 결과 수를 선택할 수 있습니다. 표 위젯에서 모든 열을 기준으로 정렬할 수 있습니다.</block>
   <block id="bf2502f9bc2110da9954bdce06de9421" category="section-title">차트 위젯 위/아래</block>
@@ -7581,7 +7561,6 @@
   <block id="4f185713961f3f486e96a04d3b9dc1a6" category="paragraph">이제 표에는 총 IOPS가 1보다 크거나 같은 모든 VM이 표시됩니다. 테이블에 그룹이 없습니다. 모든 VM이 표시됩니다.</block>
   <block id="a1966740b980e92a9d3c265e43f730b5" category="list-text">Group By [+] * 버튼을 클릭합니다.</block>
   <block id="a782b7666bdf1c1cb7056c8a2638fe4d" category="paragraph">표시된 속성 또는 주석별로 그룹화할 수 있습니다. 모든 VM을 단일 그룹에 표시하려면 _ALL_을 선택합니다.</block>
-  <block id="b254adcada979c6c2e6c887199085285" category="paragraph">성능 메트릭에 대한 열 머리글은 * 롤업 * 옵션이 포함된 "세 점" 메뉴를 표시합니다. 기본 롤업 방법은 _ Avg _ 입니다. 즉, 그룹에 표시된 숫자는 그룹 내의 각 VM에 대해 보고된 총 IOPS의 평균입니다. 이 열을 _Avg, Sum, Min_or_Max_로 롤업하도록 선택할 수 있습니다. 성능 메트릭이 포함된 모든 열을 개별적으로 롤업할 수 있습니다.</block>
   <block id="f7a8c2039d39ba896bfa4934788580f5" category="inline-image-macro">롤업합니다</block>
   <block id="2202d4997fd5aa526a219fbba3683a62" category="paragraph"><block ref="2202d4997fd5aa526a219fbba3683a62" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b38d94a5cfd2541af6801a9dc46fd618" category="list-text">ALL_을 클릭하고 _하이퍼바이저 이름_을 선택합니다.</block>
@@ -8260,13 +8239,10 @@
   <block id="ecf4e9e3c38358de05561be5ed03f5d0" category="section-title">피처 미리보기</block>
   <block id="2240ee7d4e56b8ba7ac49b14311cdeed" category="inline-link-macro">NetApp 세일즈 팀</block>
   <block id="5fa0ef8fc40e60003288942e2da3e300" category="cell">* 피처 *</block>
-  <block id="aeaf81dc6547412bdc24df519c65a5ba" category="cell">사용자 액세스 자동 응답 작업 제한</block>
   <block id="decbe415d8accca7c2c16d48a79ee934" category="inline-link-macro">자세히 보기</block>
-  <block id="f763810a8ec0d5862e0f288795932956" category="cell">공격이 감지되면 Cloud Secure는 파일 시스템에 대한 사용자 액세스를 제한함으로써 공격을 차단할 수 있습니다(전체 블록 또는 읽기 전용 액세스로 설정). 자동 응답 정책을 사용하거나 알림 또는 사용자 세부 정보 페이지에서 수동으로 액세스를 제한할 수 있습니다.<block ref="e8dc9c29c76388404a63bbf729dac2fd" category="inline-link-macro-rx"></block></block>
   <block id="ecd6006dc9161e21cc393e8aee8b161a" category="cell">데이터 삭제 - 파일 삭제 공격 탐지</block>
   <block id="802e1838a460af6f9b00de358ee4fd50" category="cell">비정상적인 대규모 파일 삭제 작업을 감지하고, 악의적인 사용자의 악의적인 파일 액세스를 차단하고, 자동 응답 정책을 통해 자동 스냅샷을 생성합니다.</block>
   <block id="f1e906bd3edd784d1978ed7c4566e64c" category="cell">스트레스 상태의 공유 리소스</block>
-  <block id="9f854307bc74ec4b140a63a4e38f1e83" category="cell">스트레스 분석 하의 공유 리소스를 통해 공유 리소스의 워크로드 요구 및 영향을 받는 하나 이상의 개별 워크로드에서 높은 수요가 요구되어 스트레스를 받고 있는 공유 스토리지 리소스를 확인할 수 있습니다<block ref="b97265367ad52c02d31fa7522e26571d" category="inline-link-macro-rx"></block></block>
   <block id="e58aeb679b2b8a9e7a899a6123bac66e" category="section-title">Cloud Insights는 Apache log4j 취약점을 해결합니다</block>
   <block id="671a3bde6499a097bb904b76a2924a9f" category="paragraph">고객 보안은 NetApp의 최우선 과제입니다. Cloud Insights는 최신 Apache log4j 취약점을 해결하기 위한 소프트웨어 라이브러리 업데이트를 포함합니다.</block>
   <block id="288805c2814f50aec1c5cc8239cd2bd7" category="paragraph">NetApp 제품 보안 권고 웹 사이트에서 다음을 참조하십시오.</block>
@@ -8694,4 +8670,51 @@
   <block id="7e07c1b11f24151c7ec5fb952780452c" category="cell">WAFL 할당량 목록이 초과되었습니다</block>
   <block id="46faf95e309bd2826b383287323b8088" category="cell">이 이벤트는 볼륨에서 트리 할당량이 초과되었을 때 발생합니다. 이 이벤트는 지정된 시간 동안 또는 "할당량 크기 조정"이 수행될 때까지 이 트리에 대해 반복되지 않습니다. 시간은 "quota logmsg" 명령으로 지정됩니다.</block>
   <block id="ef50e307d2e9be873ea2971a14d5b95b" category="cell">이 트리에서 사용량을 줄이거나 할당량을 늘이고 "quota resize" 명령을 실행합니다.</block>
+  <block id="7a523464a7ffeacc5aafdfd0de3ab1aa" category="section-title">구독 상태를 확인하십시오</block>
+  <block id="4d71df4f1ca4df08ff676034d4f602c1" category="paragraph">가입이 활성화되면 * 관리자 &gt; 구독 * 페이지에서 구독 상태 및 관리되는 유닛 사용량을 확인할 수 있습니다.</block>
+  <block id="cf9f7d335ccf63f9afafb03e9bccbb83" category="inline-image-macro">가입 서비스 보기</block>
+  <block id="5b5d45532915c043e48d673f375857ab" category="paragraph"><block ref="5b5d45532915c043e48d673f375857ab" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a6d1c39ffb1db427cb7afbe60b68ee43" category="paragraph">구독 세부 정보 탭에는 다음이 표시됩니다.</block>
+  <block id="a62d98f1bf3d70795bcdab761b572ade" category="list-text">구독에 대한 세부 정보입니다</block>
+  <block id="2f40f378178c238fe365dfbf4f50ca13" category="list-text">구독 수정 또는 비용 변경 예측 링크</block>
+  <block id="3252142ff4dd2ca67a9bff6f0a7fd71b" category="section-title">사용 관리 를 봅니다</block>
+  <block id="6a69ffe6b718764ce315d48cbbb46266" category="paragraph">Usage Management 탭에는 관리되는 장치 사용에 대한 개요와 사용자 환경에 설치된 Data Collector 목록 및 각 장치에 대한 관리되는 유닛 분석 정보가 표시됩니다.</block>
+  <block id="17290f60a5d0cd57f090b90688a390a3" category="admonition">관리되는 유닛의 합계는 요약 섹션의 데이터 수집기 수와 약간 다를 수 있습니다. 관리 단위 수가 가장 가까운 관리 단위로 반올림되기 때문입니다. Data Collector 목록에서 이러한 숫자의 합계는 상태 섹션의 총 관리 단위 수보다 약간 높을 수 있습니다. 요약 섹션에는 구독에 대한 실제 관리 단위 수가 반영됩니다.</block>
+  <block id="844a228971d8fd3d04326401af09bab1" category="paragraph">사용량이 구독 금액을 거의 또는 초과하는 경우 "점 3개" 메뉴를 클릭하고 _Delete_를 선택하여 이 목록에서 데이터 수집기를 삭제할 수 있습니다.</block>
+  <block id="88ae2467b83e5d292b18e19eaae1852d" category="list-text">NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 1.17 이상에서 지원됩니다. Docker 컨테이너 런타임과 함께 사용할 경우 Cloud Insights는 NFS 및 iSCSI에 대한 POD-PV-스토리지 매핑을 표시할 수 있으며, 다른 런타임에서는 iSCSI만 표시합니다.</block>
+  <block id="36098c0d1c3de71d8727b1543bace633" category="section-title">2022년 4월</block>
+  <block id="259a90b9586b985b7c26543c1f883472" category="section-title">귀하의 의견을 공유해 주십시오!</block>
+  <block id="42f99e1fd22e64a04ef5b09421665517" category="inline-link-macro">* 지금 등록하십시오 *</block>
+  <block id="4d9ad51ad70c2642ecea9935d81a1695" category="paragraph">Cloud Insights를 형성하는 데 도움이 되는 정보를 제공해 주십시오. NetApp의 * Insights to Action * 프로그램에 참여하시면 포인트와 상품을 드립니다. <block ref="ab6e19fe26503d1ed4ce099411562a46" category="inline-link-macro-rx"></block>!</block>
+  <block id="52072c34765837d5e6badb6caf288f6a" category="section-title">업데이트된 대시보드 편집기</block>
+  <block id="cc7c0620453431e468812aace5e77151" category="paragraph">대시보드 생성 도구를 더욱 쉽게 데이터를 보다 빠르게 시각화할 수 있도록 개편했습니다. Cloud Insights의 "대시보드" 페이지로 이동하여 기존 대시보드를 편집하거나 대시보드 갤러리에서 대시보드를 추가하거나 자신의 대시보드를 새로 만들어 확인할 수 있습니다.</block>
+  <block id="fa1ab12277f3f7697de9ade37c5612c4" category="inline-image-macro">위젯 편집기의 레이아웃 개선</block>
+  <block id="5b17f0ef6e1e7f78e5bb8a85dadb4852" category="paragraph"><block ref="5b17f0ef6e1e7f78e5bb8a85dadb4852" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a48efe329568d1e14e89d768038fc44d" category="paragraph">새로운 Count 집계 메서드도 도입되었습니다. 가로 막대형 차트, 세로 막대형 차트 및 원형 차트 위젯에서 데이터를 그룹화하면 선택한 메트릭에 대한 관련 개체의 수를 쉽고 빠르게 표시할 수 있습니다.</block>
+  <block id="b4c3ffa7b1e054afcfeb3eb4b9347c21" category="inline-image-macro">집계 드롭다운에 개수 가 표시됩니다</block>
+  <block id="fa7034d945953ab347c4367d8fa3a51f" category="paragraph"><block ref="fa7034d945953ab347c4367d8fa3a51f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d55cb88c50b339df6b23026d70f4851" category="section-title">Kubernetes Infrastructure에 대한 모니터링 개선</block>
+  <block id="6e8d08f021f143c0380bcfda2a0d8e35" category="paragraph">Cloud Insights는 Pod, 데모 세트, 복제 및 복제를 생성 또는 제거할 때와 새 구축이 생성될 때 알림을 보내 Kubernetes 환경의 변경 사항을 계속 파악할 수 있습니다. Kubernetes에서는 기본적으로 _paused_state 가 모니터링되므로 필요한 특정 상태만 사용하도록 설정해야 합니다.</block>
+  <block id="8cadb794eedb13cda455ddab4f27297a" category="section-title">사용자 관리를 위한 새로운 API</block>
+  <block id="f8592e1ae5377bf3bb9b19a0a5eedfaf" category="paragraph">API를 사용하여 사용자를 관리하고 초대하는 것은 매우 간단합니다. 사용자를 초대하고 원하는 Cloud Insights 기능 집합을 기반으로 모니터 및 최적화, Cloud Secure 또는 보고 기능을 사용하여 역할을 할당할 수 있습니다.</block>
+  <block id="25e271d2558ae8aca95f77cf3064f9f4" category="cell">내부 볼륨 및 볼륨 용량 시간 대 전체 예측</block>
+  <block id="6327e04265ebac4957d88ad9cb76d168" category="cell">Cloud Insights는 각 내부 볼륨 및 모니터링되는 볼륨에 대한 용량이 소진될 때까지 일 수를 늘릴 수 있습니다. 이 값은 운영 중단의 위험을 크게 줄이는 데 도움이 될 수 있습니다.</block>
+  <block id="e90c4ace721cc2fab5257871d711796d" category="cell">Cloud Secure – 공격에 대한 사용자 액세스를 제한합니다</block>
+  <block id="e353c2255e0d23456f0d04e774cc242c" category="cell">공격이 감지될 때 사용자 액세스를 제한하는 기능을 통해 업무상 중요한 데이터를 더욱 안전하게 보호할 수 있습니다. 자동 응답 정책을 사용하거나 알림 또는 사용자 세부 정보 페이지에서 수동으로 액세스를 제한할 수 있습니다.<block ref="e8dc9c29c76388404a63bbf729dac2fd" category="inline-link-macro-rx"></block></block>
+  <block id="58114ec5d8ca1494b408777c1a724eef" category="cell">스트레스 분석 아래의 공유 리소스는 AI/ML을 사용하여 리소스 경합이 사용자 환경에서 성능 저하를 일으키는 위치를 자동으로 식별하고, 해당 환경의 영향을 받는 워크로드를 강조 표시하고, 문제 해결을 위한 권장 조치를 제공하여 성능 문제를 보다 신속하게 해결합니다.<block ref="b97265367ad52c02d31fa7522e26571d" category="inline-link-macro-rx"></block></block>
+  <block id="9fc31ce4550c4f68c1ea81f5a37335aa" category="section-title">새 데이터 수집기</block>
+  <block id="d0112aff81f4571da224986557628445" category="list-text">* Cohesity Smart Files * - 이 REST API 기반 수집기는 Cohesity 클러스터를 획득하여 "뷰"(CI 내부 볼륨)와 다양한 노드를 검색하고 성능 메트릭을 수집합니다.</block>
+  <block id="01ec768781d34379b5889a634c19e5cc" category="section-title">기타 Data Collector 업데이트</block>
+  <block id="cd96347d3d125d14ec06afe0adbac82a" category="paragraph">다음 데이터 수집기에서 성능 데이터의 수집 및 표시가 향상되었습니다.</block>
+  <block id="03a00cff615471538bae5d9ab8cc669e" category="list-text">Brocade CLI를 사용합니다</block>
+  <block id="ff117c121f3e342cdfe3ace24674c883" category="list-text">Dell/EMC VPLEX, PowerStore, Isilon/PowerScale, VNX Block/CLARiX CLI, XtremIO, Unity/VNXe</block>
+  <block id="1269dd27efe1530411a746e3f4686a54" category="list-text">Pure FlashArray입니다</block>
+  <block id="68d79c5dc5038c00a5ac6dae9671b5ee" category="paragraph">이러한 성능 향상 기능은 VMware 및 Cisco와 모든 NetApp 데이터 수집기에서 이미 제공되며 향후 몇 개월 동안 다른 모든 데이터 수집기에 제공될 예정입니다.</block>
+  <block id="fec05a93bc2859fa296e20fb09a6d339" category="list-text">* Average *: 각 행을 내부 데이터의 _average_로 표시합니다.</block>
+  <block id="c4006c924bdf8bc80ddcd09bd46d0666" category="list-text">* Maximum * (최대 *): 각 행을 기본 데이터의 _maximum_으로 표시합니다.</block>
+  <block id="fdf509d52d13201cead39e938712c689" category="list-text">* 최소 *: 각 행을 내부 데이터의 _최소_로 표시합니다.</block>
+  <block id="843784684ad8439aa0ddfe813cac8e16" category="list-text">Group * 의 경우 롤업 방법(예: _Average_)을 선택하고 데이터를 롤업할 특성 또는 메트릭을 선택합니다(예: _Data Center_).</block>
+  <block id="757a30a76f00d417fdea69085d4444a4" category="paragraph">데이터 포인트를 분, 시간 또는 일 단위로 집계하여 속성(선택한 경우)에 의해 데이터가 롤업되기 전에 시계열 차트(선, 영역 등)를 추가로 정렬할 수 있습니다. 데이터 요소를 _Average, Maximum, Minimum, Sum_ 또는 _Count_에 따라 집계하도록 선택할 수 있습니다.</block>
+  <block id="abbc6ae3194254cb0a6cd47c50a20631" category="paragraph">대부분의 자산 카운터는 기본적으로 _Average_로 집계됩니다. 일부 카운터는 기본적으로 _Max, Min_ 또는 _Sum_으로 집계됩니다. 예를 들어 포트 오류는 기본적으로 _Sum_으로 집계되며, 여기서 스토리지 IOPS는 _Average_로 집계됩니다.</block>
+  <block id="958e53a8b3265badb6ae993dbe9c447a" category="paragraph">성능 메트릭에 대한 열 머리글은 * 롤업 * 옵션이 포함된 "세 점" 메뉴를 표시합니다. 기본 롤업 방법은 _ Average _ 입니다. 즉, 그룹에 표시된 숫자는 그룹 내의 각 VM에 대해 보고된 총 IOPS의 평균입니다. 이 열을 _Average, Sum, Minimum_or_Maximum_으로 롤업하도록 선택할 수 있습니다. 성능 메트릭이 포함된 모든 열을 개별적으로 롤업할 수 있습니다.</block>
 </blocks>

@@ -11,6 +11,81 @@ NetApp은 제품과 서비스를 지속적으로 개선 및 개선하고 있습�
 
 
 
+=== 2022년 4월
+
+
+
+==== 귀하의 의견을 공유해 주십시오!
+
+Cloud Insights를 형성하는 데 도움이 되는 정보를 제공해 주십시오. NetApp의 * Insights to Action * 프로그램에 참여하시면 포인트와 상품을 드립니다. link:https://netapp.co1.qualtrics.com/jfe/form/SV_2aVWcE58J7oIDs1["* 지금 등록하십시오 *"]!
+
+
+
+==== 업데이트된 대시보드 편집기
+
+대시보드 생성 도구를 더욱 쉽게 데이터를 보다 빠르게 시각화할 수 있도록 개편했습니다. Cloud Insights의 "대시보드" 페이지로 이동하여 기존 대시보드를 편집하거나 대시보드 갤러리에서 대시보드를 추가하거나 자신의 대시보드를 새로 만들어 확인할 수 있습니다.
+
+image:DashboardWidgetEditorScreen.png["위젯 편집기의 레이아웃 개선"]
+
+새로운 Count 집계 메서드도 도입되었습니다. 가로 막대형 차트, 세로 막대형 차트 및 원형 차트 위젯에서 데이터를 그룹화하면 선택한 메트릭에 대한 관련 개체의 수를 쉽고 빠르게 표시할 수 있습니다.
+
+image:CountAggregationExample1.png["집계 드롭다운에 개수 가 표시됩니다"]
+
+
+
+==== Kubernetes Infrastructure에 대한 모니터링 개선
+
+Cloud Insights는 Pod, 데모 세트, 복제 및 복제를 생성 또는 제거할 때와 새 구축이 생성될 때 알림을 보내 Kubernetes 환경의 변경 사항을 계속 파악할 수 있습니다. Kubernetes에서는 기본적으로 _paused_state 가 모니터링되므로 필요한 특정 상태만 사용하도록 설정해야 합니다.
+
+
+
+==== 사용자 관리를 위한 새로운 API
+
+API를 사용하여 사용자를 관리하고 초대하는 것은 매우 간단합니다. 사용자를 초대하고 원하는 Cloud Insights 기능 집합을 기반으로 모니터 및 최적화, Cloud Secure 또는 보고 기능을 사용하여 역할을 할당할 수 있습니다.
+
+
+
+==== 피처 미리보기
+
+Cloud Insights는 다양하고 흥미로운 새로운 미리 보기 기능을 정기적으로 강조하고 있습니다. 이러한 기능 중 하나 이상을 미리 보려면 에 문의하십시오 link:https://www.netapp.com/us/forms/sales-inquiry/cloud-insights-sales-inquiries.aspx["NetApp 세일즈 팀"] 를 참조하십시오.
+
+|===
+
+
+| * 피처 * | * 설명 * 
+
+
+| 내부 볼륨 및 볼륨 용량 시간 대 전체 예측 | Cloud Insights는 각 내부 볼륨 및 모니터링되는 볼륨에 대한 용량이 소진될 때까지 일 수를 늘릴 수 있습니다. 이 값은 운영 중단의 위험을 크게 줄이는 데 도움이 될 수 있습니다. 
+
+
+| Cloud Secure – 공격에 대한 사용자 액세스를 제한합니다 | 공격이 감지될 때 사용자 액세스를 제한하는 기능을 통해 업무상 중요한 데이터를 더욱 안전하게 보호할 수 있습니다. 자동 응답 정책을 사용하거나 알림 또는 사용자 세부 정보 페이지에서 수동으로 액세스를 제한할 수 있습니다.link:https://docs.netapp.com/us-en/cloudinsights/cs_automated_response_policies.html["자세히 보기"] 
+
+
+| 스트레스 상태의 공유 리소스 | 스트레스 분석 아래의 공유 리소스는 AI/ML을 사용하여 리소스 경합이 사용자 환경에서 성능 저하를 일으키는 위치를 자동으로 식별하고, 해당 환경의 영향을 받는 워크로드를 강조 표시하고, 문제 해결을 위한 권장 조치를 제공하여 성능 문제를 보다 신속하게 해결합니다.link:https://docs.netapp.com/us-en/cloudinsights/insights_shared_resources_under_stress.html["자세히 보기"] 
+|===
+
+
+==== 새 데이터 수집기
+
+* * Cohesity Smart Files * - 이 REST API 기반 수집기는 Cohesity 클러스터를 획득하여 "뷰"(CI 내부 볼륨)와 다양한 노드를 검색하고 성능 메트릭을 수집합니다.
+
+
+
+
+==== 기타 Data Collector 업데이트
+
+다음 데이터 수집기에서 성능 데이터의 수집 및 표시가 향상되었습니다.
+
+* Brocade CLI를 사용합니다
+* Dell/EMC VPLEX, PowerStore, Isilon/PowerScale, VNX Block/CLARiX CLI, XtremIO, Unity/VNXe
+* Pure FlashArray입니다
+
+
+이러한 성능 향상 기능은 VMware 및 Cisco와 모든 NetApp 데이터 수집기에서 이미 제공되며 향후 몇 개월 동안 다른 모든 데이터 수집기에 제공될 예정입니다.
+
+'''
+
+
 === 2022년 3월
 
 
@@ -58,23 +133,6 @@ Telegraf 통합 데이터 수집용 에이전트가 성능 및 보안 향상을 
 * Broadcom Fibre Channel 스위치 데이터 수집기는 각 인벤토리 폴링에서 실행되는 CLI 명령 수를 줄이도록 최적화되었습니다.
 
 
-
-
-==== 피처 미리보기
-
-Cloud Insights는 다양하고 흥미로운 새로운 미리 보기 기능을 정기적으로 강조하고 있습니다. 이러한 기능 중 하나 이상을 미리 보려면 에 문의하십시오 link:https://www.netapp.com/us/forms/sales-inquiry/cloud-insights-sales-inquiries.aspx["NetApp 세일즈 팀"] 를 참조하십시오.
-
-|===
-
-
-| * 피처 * | * 설명 * 
-
-
-| 사용자 액세스 자동 응답 작업 제한 | 공격이 감지되면 Cloud Secure는 파일 시스템에 대한 사용자 액세스를 제한함으로써 공격을 차단할 수 있습니다(전체 블록 또는 읽기 전용 액세스로 설정). 자동 응답 정책을 사용하거나 알림 또는 사용자 세부 정보 페이지에서 수동으로 액세스를 제한할 수 있습니다.link:https://docs.netapp.com/us-en/cloudinsights/cs_automated_response_policies.html["자세히 보기"] 
-
-
-| 스트레스 상태의 공유 리소스 | 스트레스 분석 하의 공유 리소스를 통해 공유 리소스의 워크로드 요구 및 영향을 받는 하나 이상의 개별 워크로드에서 높은 수요가 요구되어 스트레스를 받고 있는 공유 스토리지 리소스를 확인할 수 있습니다link:https://docs.netapp.com/us-en/cloudinsights/insights_shared_resources_under_stress.html["자세히 보기"] 
-|===
 '''
 
 
