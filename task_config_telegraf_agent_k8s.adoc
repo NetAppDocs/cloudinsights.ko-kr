@@ -65,13 +65,7 @@ image:Kubernetes_Operator_Tile_Choices.png["Kubernetes 설치 선택 사항"]
 NOTE: NetApp Kubernetes 모니터링 오퍼레이터 설치는_Preview_feature로 간주되므로 변경될 수 있습니다.
 
 .전제 조건:
-* NetApp Kubernetes Monitoring Operator 설치가 테스트되었으며 다음 구성 요소에 대해 작동할 것으로 예상됩니다.
-+
-** AWS EKS 1.18-1.21
-** OpenShift 4.6-4.8
-** Rancher 2.4 - 2.6.
-
-
+* NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 1.17 이상에서 지원됩니다. Docker 컨테이너 런타임과 함께 사용할 경우 Cloud Insights는 NFS 및 iSCSI에 대한 POD-PV-스토리지 매핑을 표시할 수 있으며, 다른 런타임에서는 iSCSI만 표시합니다.
 * OpenShift 4.6-4.8에서 실행 중인 경우, 이러한 필수 구성 요소가 충족되도록 하기 위해 아래의 * OpenShift Instructions * 를 따라야 합니다.
 * _curl_, _sudo_, _openssl_, _sha256sum_ 및 _kubbctl_ 명령을 사용할 수 있어야 합니다. 최상의 결과를 얻으려면 이러한 명령을 경로에 추가하십시오.
 * Kudbe-state-metrics를 설치해야 합니다. 자세한 내용은 아래를 참조하십시오. Kudbe-state-metrics는 운영자 기반 설치와 함께 자동으로 설치됩니다.
