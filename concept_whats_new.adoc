@@ -39,12 +39,6 @@ Cloud Insights는 Pod, 데모 세트, 복제 및 복제를 생성 또는 제거�
 
 
 
-==== 사용자 관리를 위한 새로운 API
-
-API를 사용하여 사용자를 관리하고 초대하는 것은 매우 간단합니다. 사용자를 초대하고 원하는 Cloud Insights 기능 집합을 기반으로 모니터 및 최적화, Cloud Secure 또는 보고 기능을 사용하여 역할을 할당할 수 있습니다.
-
-
-
 ==== 피처 미리보기
 
 Cloud Insights는 다양하고 흥미로운 새로운 미리 보기 기능을 정기적으로 강조하고 있습니다. 이러한 기능 중 하나 이상을 미리 보려면 에 문의하십시오 link:https://www.netapp.com/us/forms/sales-inquiry/cloud-insights-sales-inquiries.aspx["NetApp 세일즈 팀"] 를 참조하십시오.
