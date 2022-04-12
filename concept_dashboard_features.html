@@ -2013,7 +2013,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-09 02:12:48 +0000">04/09/2022</time>
+    <time datetime="2022-04-12 14:51:21 +0000">04/12/2022</time>
     
   
 
@@ -3333,6 +3333,45 @@ NetApp Cloud Central은 사용자 로그인 시간 제한이 7일이므로 Cloud
 </div>
 <div class="paragraph">
 <p>이를 완화하기 위해 Cloud Insights는 집계 시 데이터를 보간하고, 데이터 수집기가 다시 폴링할 때까지 주변 데이터 요소를 사용하여 데이터를 "최상의 추측"으로 만듭니다. 위젯의 그룹화를 조정하여 언제든지 각 데이터 수집기의 개체 데이터를 개별적으로 볼 수 있습니다.</p>
+</div>
+<div class="sect2">
+<h3 id="보간-방법">보간 방법</h3>
+<div class="paragraph">
+<p>선형 차트(또는 스플라인, 영역 또는 누적 영역형 차트)를 만들거나 수정할 때 보간 방법을 세 가지 유형 중 하나로 설정할 수 있습니다. "그룹화 기준" 섹션에서 원하는 보간을 선택합니다.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/Interpolation_Methods.png" alt="세 가지 보간 방법을 보여 주는 위젯 편집기의 그룹화 섹션"></span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>* 없음 *: 아무 것도 하지 않습니다. 즉, 사이에 점을 생성하지 마십시오.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/Interpolation_None.png" alt="데이터 점 사이에 보간이 없는 단순한 직선 각진 선"></span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>* 계단 *: 이전 점 값에서 점이 생성됩니다. 직진 시 일반적인 "계단" 레이아웃으로 표시됩니다.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/Interpolation_Stair.png" alt="계단 보간을 보여주는 간단한 직선"></span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>* 선형 *: 두 점 사이의 값으로 점이 생성됩니다. 두 점을 연결하는 선과 같지만 추가(보간) 데이터 점이 있는 선을 생성합니다.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/Interpolation_Linear.png" alt="각 원본 지점 사이에 추가 데이터 점이 있는 선형 보간을 보여주는 단순한 직선"></span></p>
+</div>
 </div>
 </div>
 </div>
