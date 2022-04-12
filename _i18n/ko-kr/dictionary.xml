@@ -8455,10 +8455,6 @@
   <block id="124bb595dee29c483fb214a5dfd6be2a" category="list-text">* 진행 중 *: 팀 구성원 또는 구성원이 알림을 조사 중입니다.</block>
   <block id="ac5ce495bc5231774a8d1baa382ee7e1" category="list-text">* 해결됨 *: 팀 구성원이 경고를 해결됨으로 표시했습니다.</block>
   <block id="dc102c5c05c2c1199e156360b71b6081" category="list-text">알림의 _Status_(신규, 진행 중 등)</block>
-  <block id="2cda05c10c4aa09279fe99d24fc57ae8" category="list-text">NetApp Kubernetes Monitoring Operator 설치가 테스트되었으며 다음 구성 요소에 대해 작동할 것으로 예상됩니다.</block>
-  <block id="1293dad52aae23a70414cecab911c5c5" category="list-text">AWS EKS 1.18-1.21</block>
-  <block id="001571f4a9b36eecb51a7241b4a1de90" category="list-text">OpenShift 4.6-4.8</block>
-  <block id="bbf3d6c7f63841c53e523ee9bd1f6985" category="list-text">Rancher 2.4 - 2.6.</block>
   <block id="e2c9709b9d8f51841ea22d5bb63af5db" category="list-text">OpenShift 4.6-4.8에서 실행 중인 경우, 이러한 필수 구성 요소가 충족되도록 하기 위해 아래의 * OpenShift Instructions * 를 따라야 합니다.</block>
   <block id="51749c7a45a2b7fcc4461d9a50cc9b22" category="list-text">_curl_, _sudo_, _openssl_, _sha256sum_ 및 _kubbctl_ 명령을 사용할 수 있어야 합니다. 최상의 결과를 얻으려면 이러한 명령을 경로에 추가하십시오.</block>
   <block id="c75d4b042f6604bc016e5b15ff4dea18" category="summary">Cloud Insights는 Kubernetes에서 통합 데이터를 수집하는 에이전트로 Teleraf를 지원합니다.</block>
@@ -8695,8 +8691,6 @@
   <block id="fa7034d945953ab347c4367d8fa3a51f" category="paragraph"><block ref="fa7034d945953ab347c4367d8fa3a51f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0d55cb88c50b339df6b23026d70f4851" category="section-title">Kubernetes Infrastructure에 대한 모니터링 개선</block>
   <block id="6e8d08f021f143c0380bcfda2a0d8e35" category="paragraph">Cloud Insights는 Pod, 데모 세트, 복제 및 복제를 생성 또는 제거할 때와 새 구축이 생성될 때 알림을 보내 Kubernetes 환경의 변경 사항을 계속 파악할 수 있습니다. Kubernetes에서는 기본적으로 _paused_state 가 모니터링되므로 필요한 특정 상태만 사용하도록 설정해야 합니다.</block>
-  <block id="8cadb794eedb13cda455ddab4f27297a" category="section-title">사용자 관리를 위한 새로운 API</block>
-  <block id="f8592e1ae5377bf3bb9b19a0a5eedfaf" category="paragraph">API를 사용하여 사용자를 관리하고 초대하는 것은 매우 간단합니다. 사용자를 초대하고 원하는 Cloud Insights 기능 집합을 기반으로 모니터 및 최적화, Cloud Secure 또는 보고 기능을 사용하여 역할을 할당할 수 있습니다.</block>
   <block id="25e271d2558ae8aca95f77cf3064f9f4" category="cell">내부 볼륨 및 볼륨 용량 시간 대 전체 예측</block>
   <block id="6327e04265ebac4957d88ad9cb76d168" category="cell">Cloud Insights는 각 내부 볼륨 및 모니터링되는 볼륨에 대한 용량이 소진될 때까지 일 수를 늘릴 수 있습니다. 이 값은 운영 중단의 위험을 크게 줄이는 데 도움이 될 수 있습니다.</block>
   <block id="e90c4ace721cc2fab5257871d711796d" category="cell">Cloud Secure – 공격에 대한 사용자 액세스를 제한합니다</block>
@@ -8717,4 +8711,17 @@
   <block id="757a30a76f00d417fdea69085d4444a4" category="paragraph">데이터 포인트를 분, 시간 또는 일 단위로 집계하여 속성(선택한 경우)에 의해 데이터가 롤업되기 전에 시계열 차트(선, 영역 등)를 추가로 정렬할 수 있습니다. 데이터 요소를 _Average, Maximum, Minimum, Sum_ 또는 _Count_에 따라 집계하도록 선택할 수 있습니다.</block>
   <block id="abbc6ae3194254cb0a6cd47c50a20631" category="paragraph">대부분의 자산 카운터는 기본적으로 _Average_로 집계됩니다. 일부 카운터는 기본적으로 _Max, Min_ 또는 _Sum_으로 집계됩니다. 예를 들어 포트 오류는 기본적으로 _Sum_으로 집계되며, 여기서 스토리지 IOPS는 _Average_로 집계됩니다.</block>
   <block id="958e53a8b3265badb6ae993dbe9c447a" category="paragraph">성능 메트릭에 대한 열 머리글은 * 롤업 * 옵션이 포함된 "세 점" 메뉴를 표시합니다. 기본 롤업 방법은 _ Average _ 입니다. 즉, 그룹에 표시된 숫자는 그룹 내의 각 VM에 대해 보고된 총 IOPS의 평균입니다. 이 열을 _Average, Sum, Minimum_or_Maximum_으로 롤업하도록 선택할 수 있습니다. 성능 메트릭이 포함된 모든 열을 개별적으로 롤업할 수 있습니다.</block>
+  <block id="1f5856d00cce4934e631e22ed97f045c" category="section-title">보간 방법</block>
+  <block id="781155d86ba8c2427651b7999f7bd765" category="paragraph">선형 차트(또는 스플라인, 영역 또는 누적 영역형 차트)를 만들거나 수정할 때 보간 방법을 세 가지 유형 중 하나로 설정할 수 있습니다. "그룹화 기준" 섹션에서 원하는 보간을 선택합니다.</block>
+  <block id="12f89e8efd48bd2ae722ca38259c8483" category="inline-image-macro">세 가지 보간 방법을 보여 주는 위젯 편집기의 그룹화 섹션</block>
+  <block id="e0cf5468a14db4a1e9107f69147d9f8f" category="paragraph"><block ref="e0cf5468a14db4a1e9107f69147d9f8f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="54aa8353f51517d446e3ebcb7b7683de" category="list-text">* 없음 *: 아무 것도 하지 않습니다. 즉, 사이에 점을 생성하지 마십시오.</block>
+  <block id="28e821cf57d55c851e5cccaf665d1ded" category="inline-image-macro">데이터 점 사이에 보간이 없는 단순한 직선 각진 선</block>
+  <block id="37e25884e2dc85d5077e992279c18559" category="paragraph"><block ref="37e25884e2dc85d5077e992279c18559" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="286d41b895867a19647c6e18ab998b7d" category="list-text">* 계단 *: 이전 점 값에서 점이 생성됩니다. 직진 시 일반적인 "계단" 레이아웃으로 표시됩니다.</block>
+  <block id="19243f86c15cb607b665522b55c4a7a6" category="inline-image-macro">계단 보간을 보여주는 간단한 직선</block>
+  <block id="6c345f365221ffd4d8cd2a2a0b15b228" category="paragraph"><block ref="6c345f365221ffd4d8cd2a2a0b15b228" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e1e3817c54607481fd77cff67b3d62bf" category="list-text">* 선형 *: 두 점 사이의 값으로 점이 생성됩니다. 두 점을 연결하는 선과 같지만 추가(보간) 데이터 점이 있는 선을 생성합니다.</block>
+  <block id="ccd695c5d6bdf7e28aefe86c7867a7a9" category="inline-image-macro">각 원본 지점 사이에 추가 데이터 점이 있는 선형 보간을 보여주는 단순한 직선</block>
+  <block id="7be18bdce3683fe5cad25aaa844df56d" category="paragraph"><block ref="7be18bdce3683fe5cad25aaa844df56d" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
