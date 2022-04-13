@@ -8459,7 +8459,6 @@
   <block id="c75d4b042f6604bc016e5b15ff4dea18" category="summary">Cloud Insights는 Kubernetes에서 통합 데이터를 수집하는 에이전트로 Teleraf를 지원합니다.</block>
   <block id="f09825d109ed4681880410bb47684198" category="doc">Kubernetes에서 Agent 구성</block>
   <block id="4b0a31d3afe47e26997b3d6c99c37152" category="inline-link-macro">* 여기로 이동 *</block>
-  <block id="ae8396b4c25ba8af80c0396cbac8dbb2" category="paragraph">Kubernetes에 에이전트를 설치하려면 먼저 다음을 수행해야 합니다.</block>
   <block id="8270d1410ea5852ae1772fd6e21a5b85" category="list-text">호스트에 대한 Kubernetes 플랫폼을 선택합니다</block>
   <block id="9be51db2ab39984556571e44a8cd71ff" category="list-text">나머지 단계를 따릅니다.</block>
   <block id="9ac0dd27d420b7b48ca72e463ae95e18" category="inline-link-macro">참조하십시오</block>
@@ -8728,4 +8727,5 @@
   <block id="737f024effb455f30b04c7091e2d8667" category="section-title">Kubernetes Agent 설치 문제 해결</block>
   <block id="64cc432c57095555eeb8d95b2c8523f6" category="sidebar">Agent 구성(Windows/Linux/Mac)</block>
   <block id="4e94322aa6275968b1c9422851fb7f86" category="sidebar">에이전트(Kubernetes) 구성</block>
+  <block id="9da0861aa96415448a45043409b3c6a2" category="paragraph">에이전트를 설치하려면 먼저 다음을 수행해야 합니다.</block>
 </blocks>
