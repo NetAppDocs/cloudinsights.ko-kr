@@ -5,6 +5,7 @@ summary: 무료 평가판 사용 기간 중 언제든지 Cloud Insights에 가�
 keywords: subscribe, trial, subscription, contract, raw capacity, region 
 ---
 = Cloud Insights 구독
+:allow-uri-read: 
 
 
 Cloud Insights를 시작하는 것은 간단한 3단계를 통해 매우 간단합니다.

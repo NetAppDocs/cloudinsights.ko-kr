@@ -5,6 +5,7 @@ summary: Cloud Secure 시작하기.
 keywords: invite, roles, data collector, agent 
 ---
 = Cloud Secure 시작하기
+:allow-uri-read: 
 
 
 Cloud Secure에 등록하고 처음으로 환경에 로그인한 후에는 데이터 액세스 정보의 수집 및 분석을 시작하기 전에 완료해야 하는 구성 단계가 있습니다.

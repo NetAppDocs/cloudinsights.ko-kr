@@ -4,6 +4,7 @@ permalink: index.html
 summary: Cloud Insights 설명서 포털에 오신 것을 환영합니다. 
 ---
 = Cloud Insights 설명서
+:allow-uri-read: 
 
 
 [role="lead"]

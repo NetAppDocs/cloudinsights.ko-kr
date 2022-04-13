@@ -6979,7 +6979,6 @@
   <block id="90997e8d0c35126fbf3794f175f2f0f3" category="paragraph">설치 지침은 선택한 환경에 따라 다릅니다.</block>
   <block id="e973aa335528494c3881ffe9a6be0e81" category="inline-image-macro">Kubernetes 설치 선택 사항</block>
   <block id="b81ec4ed4165242831d809ec7e442e82" category="paragraph"><block ref="b81ec4ed4165242831d809ec7e442e82" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7851bfe0f67f9341140f846ee10fd94d" category="admonition">NetApp Kubernetes 모니터링 오퍼레이터 설치는_Preview_feature로 간주되므로 변경될 수 있습니다.</block>
   <block id="c464aab0e1d91c1e20dba1868d499f0e" category="list-text">Kudbe-state-metrics를 설치해야 합니다. 자세한 내용은 아래를 참조하십시오. Kudbe-state-metrics는 운영자 기반 설치와 함께 자동으로 설치됩니다.</block>
   <block id="80c0723b28b89c49ac0b2c207486cf90" category="list-text">프록시를 사용하고 있는 경우 * Kubernetes * 용 프록시 지원 구성 섹션의 지침을 따르십시오.</block>
   <block id="37c93461ccb3b9d32a460c02b4fc8ce6" category="list-text">보안 컨텍스트 제약 조건이 필요한 Kubernetes 버전을 실행 중인 경우 * Kubernetes * 에서 데이터를 수집하도록 에이전트 구성 섹션의 지침을 따르십시오. 사용자 기반 설치 시 자동으로 설치됩니다.</block>
@@ -8460,8 +8459,6 @@
   <block id="c75d4b042f6604bc016e5b15ff4dea18" category="summary">Cloud Insights는 Kubernetes에서 통합 데이터를 수집하는 에이전트로 Teleraf를 지원합니다.</block>
   <block id="f09825d109ed4681880410bb47684198" category="doc">Kubernetes에서 Agent 구성</block>
   <block id="4b0a31d3afe47e26997b3d6c99c37152" category="inline-link-macro">* 여기로 이동 *</block>
-  <block id="f043e0e94a86a741ec3cfa80a7184063" category="admonition">이 페이지는 현재 진행 중입니다. Kubernetes에 에이전트를 설치하는 방법에 대한 최신 지침은 <block ref="697dca91101784dbecc7595d7733df90" category="inline-link-macro-rx"></block>.</block>
-  <block id="990b78672b6335498977a301125673d5" category="admonition">Agent를 설치하기 전에 설치 파일을 확인하려면 정보 를 참조하십시오 <block ref="1d9f3d6343939e76574c60762a7f2fae" category="inline-xref-macro-rx"></block>.</block>
   <block id="ae8396b4c25ba8af80c0396cbac8dbb2" category="paragraph">Kubernetes에 에이전트를 설치하려면 먼저 다음을 수행해야 합니다.</block>
   <block id="8270d1410ea5852ae1772fd6e21a5b85" category="list-text">호스트에 대한 Kubernetes 플랫폼을 선택합니다</block>
   <block id="9be51db2ab39984556571e44a8cd71ff" category="list-text">나머지 단계를 따릅니다.</block>
@@ -8724,4 +8721,11 @@
   <block id="e1e3817c54607481fd77cff67b3d62bf" category="list-text">* 선형 *: 두 점 사이의 값으로 점이 생성됩니다. 두 점을 연결하는 선과 같지만 추가(보간) 데이터 점이 있는 선을 생성합니다.</block>
   <block id="ccd695c5d6bdf7e28aefe86c7867a7a9" category="inline-image-macro">각 원본 지점 사이에 추가 데이터 점이 있는 선형 보간을 보여주는 단순한 직선</block>
   <block id="7be18bdce3683fe5cad25aaa844df56d" category="paragraph"><block ref="7be18bdce3683fe5cad25aaa844df56d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4f34579ac6d99e36b83ddd35d80ebb6d" category="admonition">이 페이지의 Kubernetes 지침이 새 페이지로 이동합니다. 제발 <block ref="6efc317b80350dcbc0248481605e2f47" category="inline-link-macro-rx"></block> 최신 Kubernetes 에이전트 지침을 보려면</block>
+  <block id="664a8070ae98149df4b2438dabea2160" category="admonition">Agent를 설치하기 전에 설치 파일을 확인하려면 정보 를 참조하십시오 <block ref="80fd3363e39e5f2a536c9cf5d81a1f0a" category="inline-xref-macro-rx"></block>.</block>
+  <block id="1f7b055a94f5e05d9c08683890d73b5e" category="list-text">기존의 스크립트 기반 에이전트 설치(권장하지 않음)</block>
+  <block id="342761835c95d3618833ced82b6260ac" category="section-title">Kubernetes 체크섬 확인 중</block>
+  <block id="737f024effb455f30b04c7091e2d8667" category="section-title">Kubernetes Agent 설치 문제 해결</block>
+  <block id="64cc432c57095555eeb8d95b2c8523f6" category="sidebar">Agent 구성(Windows/Linux/Mac)</block>
+  <block id="4e94322aa6275968b1c9422851fb7f86" category="sidebar">에이전트(Kubernetes) 구성</block>
 </blocks>

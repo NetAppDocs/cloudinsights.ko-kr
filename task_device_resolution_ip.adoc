@@ -5,6 +5,7 @@ keywords: Automatic, AR, AHR, Host, automatic device resolution, FC, Identify
 summary:  
 ---
 = IP 장치 해상도
+:allow-uri-read: 
 
 
 [role="lead"]

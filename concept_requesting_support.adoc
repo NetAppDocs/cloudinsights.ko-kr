@@ -5,6 +5,7 @@ summary: 기술 자료 문서를 보거나 NetApp 커뮤니티에 연결하거�
 keywords: support, knowledgebase, documentation, community, chat, videos, help, contact 
 ---
 = 지원을 요청하는 중입니다
+:allow-uri-read: 
 
 
 

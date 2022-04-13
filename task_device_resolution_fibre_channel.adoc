@@ -5,6 +5,7 @@ keywords: Automatic, AR, AHR, Host, automatic device resolution, FC, Identify
 summary:  
 ---
 = 파이버 채널 장치 해상도
+:allow-uri-read: 
 
 
 [role="lead"]

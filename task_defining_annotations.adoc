@@ -5,6 +5,7 @@ keywords: annotations, monitor, notes, tags
 summary: 주석을 사용하여 데이터를 추적합니다. 
 ---
 = 주석 정의
+:allow-uri-read: 
 
 
 [role="lead"]

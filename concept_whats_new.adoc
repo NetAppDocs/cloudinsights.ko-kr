@@ -5,6 +5,7 @@ summary: Cloud Insights에서 사용할 수 있는 새로운 기능
 keywords: features 
 ---
 = Cloud Insights의 새로운 기능
+:allow-uri-read: 
 
 
 NetApp은 제품과 서비스를 지속적으로 개선 및 개선하고 있습니다. 다음은 Cloud Insights에서 사용할 수 있는 몇 가지 최신 기능입니다.
