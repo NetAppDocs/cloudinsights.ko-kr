@@ -8462,7 +8462,6 @@
   <block id="8270d1410ea5852ae1772fd6e21a5b85" category="list-text">호스트에 대한 Kubernetes 플랫폼을 선택합니다</block>
   <block id="9be51db2ab39984556571e44a8cd71ff" category="list-text">나머지 단계를 따릅니다.</block>
   <block id="9ac0dd27d420b7b48ca72e463ae95e18" category="inline-link-macro">참조하십시오</block>
-  <block id="6981ef377139f8296f4ae0aa44bc108d" category="paragraph">Windows, Linux 또는 Mac에 에이전트를 설치하려면 을 따릅니다 <block ref="bd07fc5e27e6fac57c0afecd246768d9" category="inline-link-macro-rx"></block>.</block>
   <block id="4399aa6f1f3bf7573a388f265d2ad7ca" category="section-title">Kubernetes에 Agent 설치</block>
   <block id="f997e79142f159c33823b9deeab809eb" category="cell">Kubernetes에서 Telegraf ReplicaSet Pod가 다음 오류를 보고합니다: inputs.prometheus] [플러그인 오류: keypair /etc/Kubernetes/PKI/etcd/server.crt: /etc/Kubernetes/PKI/etcd/server.key: open /etc/cubs/pi/etcd/server.crt: 해당 파일 또는 디렉토리가 없습니다</block>
   <block id="9df12d675c4f61381132e45173ef90d0" category="cell">Telegraf ReplicaSet POD는 마스터나 etcd로 지정된 노드에서 실행되도록 설계되었습니다. ReplicaSet 포드가 이러한 노드 중 하나에서 실행되고 있지 않으면 이러한 오류가 발생합니다. 마스터/etcd 노드에 문제가 있는지 확인합니다. 만약 그렇다면, 텔레그라프 ReplicaSet, 텔레그라프-RS에 필요한 내약성을 추가한다. 예를 들어 ReplicaSet...kubtl을 편집하여 RS Telegraf-RS...를 편집하고 사양에 적절한 내약성을 추가합니다. 그런 다음 ReplicaSet 포드를 다시 시작합니다.</block>
@@ -8728,4 +8727,5 @@
   <block id="64cc432c57095555eeb8d95b2c8523f6" category="sidebar">Agent 구성(Windows/Linux/Mac)</block>
   <block id="4e94322aa6275968b1c9422851fb7f86" category="sidebar">에이전트(Kubernetes) 구성</block>
   <block id="9da0861aa96415448a45043409b3c6a2" category="paragraph">에이전트를 설치하려면 먼저 다음을 수행해야 합니다.</block>
+  <block id="a95cbadf1a8e88fa4b87395252563d2d" category="paragraph">Windows, Linux 또는 Mac에 에이전트를 설치하려면 을 따릅니다 <block ref="f33ea093256a0807c19ae442b3c6fe9a" category="inline-link-macro-rx"></block>.</block>
 </blocks>

@@ -30,7 +30,7 @@ NOTE: Agent를 설치하기 전에 설치 파일을 확인하려면 정보 를 �
 . 나머지 단계를 따릅니다.
 
 
-Windows, Linux 또는 Mac에 에이전트를 설치하려면 을 따릅니다 link:/task_config_telegraf_agent.html["참조하십시오"].
+Windows, Linux 또는 Mac에 에이전트를 설치하려면 을 따릅니다 link:task_config_telegraf_agent.html["참조하십시오"].
 
 
 NOTE: 호스트에 에이전트를 설치한 후에는 해당 호스트에 에이전트를 다시 설치할 필요가 없습니다.
