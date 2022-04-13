@@ -453,6 +453,8 @@
 
 
 
+
+
           
         </li>
       </ul>
@@ -1525,7 +1527,9 @@
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/cloudinsights/task_configure_acquisition_unit.html">
         획득 장치 구성
       </a></li><li class="  active "><a class="na-navbar-padding" href="/ko-kr/cloudinsights/task_config_telegraf_agent.html">
-        Agent 구성
+        Agent 구성(Windows/Linux/Mac)
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/cloudinsights/task_config_telegraf_agent_k8s.html">
+        에이전트(Kubernetes) 구성
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/cloudinsights/task_configure_data_collectors.html">
         데이터 수집기 구성
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/cloudinsights/concept_determining_data_collector_acq_status.html">
@@ -2013,7 +2017,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-09 02:12:48 +0000">04/09/2022</time>
+    <time datetime="2022-04-13 20:05:31 +0000">04/13/2022</time>
     
   
 
@@ -2774,6 +2778,18 @@ sudo /tmp/uninstall</pre>
 </div>
 <div class="sect2">
 <h3 id="쿠버네티스">쿠버네티스</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/cloudinsights/images/note.svg" alt="참고">
+</td>
+<td class="content">
+이 페이지의 Kubernetes 지침이 새 페이지로 이동합니다. 제발 <a href="task_config_telegraf_agent_k8s.html">"* 여기로 이동 *"</a> 최신 Kubernetes 에이전트 지침을 보려면
+</td>
+</tr>
+</table>
+</div>
 <div class="paragraph">
 <p>Kubernetes에서는 두 가지 방법으로 데이터를 수집할 수 있습니다.</p>
 </div>
@@ -2792,18 +2808,6 @@ sudo /tmp/uninstall</pre>
 </div>
 <div class="paragraph">
 <p><span class="image"><img src="Kubernetes_Operator_Tile_Choices.png" alt="Kubernetes 설치 선택 사항"></span></p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<img src="/us-en/cloudinsights/images/note.svg" alt="참고">
-</td>
-<td class="content">
-NetApp Kubernetes 모니터링 오퍼레이터 설치는_Preview_feature로 간주되므로 변경될 수 있습니다.
-</td>
-</tr>
-</table>
 </div>
 <div class="ulist">
 <div class="title">전제 조건:</div>
@@ -3618,34 +3622,6 @@ kubectl delete clusterrolebinding agent-manager-rolebinding agent-proxy-rolebind
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">이미 에이전트가 설치되었지만 Cloud Insights 설치 프로그램을 사용하지 않습니다</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">올바른 기본 구성 파일 설정을 위해 이전 에이전트를 제거하고 Cloud Insights 에이전트 설치를 실행합니다. 완료되면 * 계속 * 또는 * 마침 * 을 클릭합니다.</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Kubernetes 영구 볼륨과 해당 백엔드 스토리지 장치 간의 하이퍼링크/연결이 표시되지 않습니다. 내 Kubernetes 영구 볼륨은 스토리지 서버의 호스트 이름을 사용하여 구성됩니다.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">기존 Telegraf 에이전트를 제거한 다음 최신 Telegraf 에이전트를 다시 설치하는 단계를 따릅니다. Telegraf 버전 2.0 이상을 사용해야 합니다.</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">E0901 15:21:39.962145 1 리플렉터.go:178]k8s.io/kbe-state-metrics/internal/store/builder.go:352: * v1.목록에 실패했습니다. MutatingWebhookConfiguration: 서버에서 요청된 리소스 E0901 15:21:43.168352.kIs.tu2o.tu2352: revm.u2352.u2352.u2o.testimeu2352.u2n.u2352.u2o.u2o.u2352.testime-ve-v</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">이러한 메시지는 Kubernetes 버전 1.17 이하에서 kube-state-metrics 버전 2.0.0 이상을 실행하는 경우 발생할 수 있습니다. 쿠버네티스 버전을 얻으려면: _kubbctl version_kubbe-state-metrics 버전:_kubbectl deploy/kube-state-metrics-o jsonpath='{..image}'_이러한 메시지가 발생하지 않도록 사용자는 kube-state-metrics 구축을 수정하여 다음 Lallase를 비활성화할 수 있습니다._muthookconfigurations_webhookconfigurettal_configuretedconfig_webvalidateCLI_webvalidateusetausetausetauseusetausetauseuse 리소스 = certificationesigningrequests, configmap, crontobs, demonset, 배포, 끝점, 수평 포드자동크기, 링스, 작업, reflodritranges, namespaces, networkpolicies, nistentvolumes, persistentpersistent volumes, podin예산, replicatingfasts, repliceters, replicatingreallets, replicets, replicets, repliceties, replicenets, replicatingreenets, replicets, replicenets, replicets, service.networksets, service.sets, service.sets, vistenets, visteneties, replicaturies.networksets, service.sets, reseties.networksets, replicaturies, inations, replicaticaturies, replicaturies, replicaturies, inations validingwebhookconfigurations, volumeAttachments"</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Kubernetes에 Telegraf를 설치 또는 업그레이드했지만 Telegraf Pod가 시작되지 않았습니다. Telegraf ReplicaSet 또는 DemonSet에서 다음과 같은 오류를 보고합니다. 오류 생성: POD "Telegraf-RS -"가 금지되었습니다. 보안 컨텍스트 제약 조건을 기준으로 유효성을 검사할 수 없습니다. [SPEC.volumes [2]: 잘못된 값: "hostPath": hostPath 볼륨을 사용할 수 없습니다.]</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">보안 컨텍스트 제약 조건(위의 Kubernetes에서 데이터를 수집하도록 에이전트 구성 섹션 참조)이 없는 경우 이를 생성합니다. Security Context Constraint 에 지정된 네임스페이스 및 서비스 계정이 Telegraf ReplicaSet 및 DemonSet의 네임스페이스 및 서비스 계정과 일치하는지 확인합니다. KUBeck은 SCC Telegraf-hostaccess</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">grep ServiceAccount kubtl -n CI-monitoring&#8201;&#8212;&#8201;RS Telegraf-RS</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">grep-i "Namespace:"kubbeck-n CI-monitoring RS Telegraf-RS</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">grep-i "Service Account:"를 설명합니다. dS Telegraf-dS -dS -dl -dS -dl -dS -dl -dl -dS -dl -dl -dl -dl -dl</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Telegraf의 오류 메시지는 다음과 유사하지만 Telegraf가 시작되고 실행됩니다. Oct 11 14:23:41 IP-172-31-39-47 시스템[1]: 플러그인 기반 서버 에이전트를 시작하여 메트릭을 영향력 있는 xDB에 보고합니다. 10월 11일 14:23:41 IP-172-31-39-47 Telegraf[1827]: time="2021-10-11T14:23:41Z" level=error msg="캐시 디렉토리를 만들지 못했습니다. /etc/Telegraf/.cache/눈송이, 오류: mkdir /etc/Telegraf/.ca che: 사용 권한이 거부되었습니다. ignored\n" func="gosnowflake.(* defaultLogger).Errorf" file="log.go:120" Oct 11 14:23:41 IP-172-31-39-47 Telegraf[1827]: time="2021-10-11T14:23:41Z" level=error msg="를 열지 못했습니다. 무시되었습니다. 열기 /etc/telgraf/.cache/눈송이/OCSP_response_cache.json: 해당 파일 또는 디렉토리가 없습니다. \n" func="nowhosflake.(* defaultLogger).Errorf" 파일="log.go:120" Oct 11 14:23:41 IP-172-31-39-47 Telegraf[1827] 1131-41123:1121-41123: 텔레그라프 1.19.3 시작</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">이는 알려진 문제입니다. 을 참조하십시오 <a href="https://github.com/influxdata/telegraf/issues/9407">"이 GitHub 기사를 참조하십시오"</a> 를 참조하십시오. Telegraf가 실행 중인 경우 사용자는 이러한 오류 메시지를 무시할 수 있습니다.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Kubernetes에서 Telegraf 포드가 "mountstats 정보 처리 중 오류: mountstats 파일을 열지 못했습니다. /hostfs/proc/1/mountstats, 오류: open/hostfs/proc/1/mountstats: 사용 권한이 거부되었습니다." 오류를 보고합니다.</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">SELinux가 설정되어 있고 강제 적용되는 경우 Telegraf 포드가 Kubernetes 노드의 /proc/1/mountstats 파일에 액세스하지 못할 수 있습니다. 이러한 제한을 완화하려면 다음 중 하나를 수행합니다. • 스크립트 기반 설치의 경우 Telegraf DS('kubctl edit DS Telegraf-DS')를 편집하고 "privileged:false"를 "privileged:true"로 변경합니다. • 운영자 기반 설치의 경우 에이전트('kubctl edit agent-monitoring-NetApp')를 편집하고 "특별 권한 모드"를 "false"로 변경합니다.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Kubernetes에서 Telegraf ReplicaSet Pod가 다음 오류를 보고합니다: inputs.prometheus] [플러그인 오류: keypair /etc/Kubernetes/PKI/etcd/server.crt: /etc/Kubernetes/PKI/etcd/server.key: open /etc/cubs/pi/etcd/server.crt: 해당 파일 또는 디렉토리가 없습니다</p></td>
 </tr>
 </tbody>
 </table>
