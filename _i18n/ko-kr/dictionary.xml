@@ -3530,7 +3530,6 @@
   <block id="91771bf0d5be307a250d706e57df1eb1" category="summary">성능 또는 인벤토리 임계값과 메트릭 또는 로그 조건에 대해 경고하는 모니터를 생성합니다.</block>
   <block id="7d5581330314d1ed3096701515939e9d" category="doc">시스템 모니터</block>
   <block id="65ac9349c49d4dc9ceeb30daad295f0f" category="inline-image-macro">ONTAP에 대한 고급 카운터 및 EMS 로그 수집 활성화</block>
-  <block id="5c8c2ca1685c9247d4c87edc2fa024f4" category="admonition">시스템 모니터는 기본적으로 _Paused_상태입니다. 모니터를 다시 시작하기 전에 Data Collector에서 _Advanced Counter Data Collection_ 및 _Enable ONTAP EMS log collection_이 활성화되어 있는지 확인해야 합니다. 이러한 옵션은 _고급 구성_ 아래의 ONTAP 데이터 수집기에서 찾을 수 있습니다.<block ref="c9fb5b808ac97b65ea1073e21fb359f9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4dacc229b0bc4d687a0aceeaa94b8095" category="list-text">Cloud Insights 메뉴에서 * 경고 &gt; 모니터 관리 * 를 클릭합니다</block>
   <block id="7a4d7843cd0dfc634c2485f99960f485" category="paragraph">모니터 목록 페이지가 표시되고 현재 구성된 모니터가 표시됩니다.</block>
   <block id="0afd1ac0e8283e24d8739752316dccba" category="paragraph">모니터링할 객체 속성 또는 메트릭을 좁히도록 필터를 설정할 수 있습니다.</block>
@@ -3570,152 +3569,6 @@
   <block id="11a8d5beba27513c507b302b1ef0545d" category="paragraph">메뉴에서 * 복제 * 를 선택하여 모니터를 복사할 수 있습니다. 그런 다음 새 모니터를 수정하고 객체/메트릭, 필터, 조건, 이메일 수신자 등을 변경할 수 있습니다</block>
   <block id="785af682b2cf8712cbb6039f68f0b952" category="paragraph">모니터가 더 이상 필요하지 않은 경우 메뉴에서 * Delete * 를 선택하여 삭제할 수 있습니다.</block>
   <block id="b45ed04a71b5c6121028894bed24bfe0" category="paragraph">기본적으로 두 그룹이 표시됩니다.</block>
-  <block id="007cc9547ae8884ad597cd92ba505422" category="cell">심각도입니다</block>
-  <block id="7650364136ffbfe1cfd659068e6c1327" category="cell">수정 조치</block>
-  <block id="99cd1c61610c76a57cb8d10d6df6b870" category="cell">심각</block>
-  <block id="e2600ee10a370308a427638d9891da2a" category="cell">Qtree 용량 하드 제한입니다</block>
-  <block id="5ee0fc799fda7fd7a07c81cd1d94046e" category="cell">Qtree 용량 소프트 제한값</block>
-  <block id="059e9861e0400dfbe05c98a841f3f96b" category="cell">경고</block>
-  <block id="ad5eaf84e8cc27b4eee693ef570a635b" category="cell">Qtree 파일 하드 제한입니다</block>
-  <block id="243f1fea3e2338e1716baecbee305c68" category="cell">Qtree 파일 소프트 제한값</block>
-  <block id="d6a2a00b450971f882ec854a09aad1eb" category="cell">애플리케이션 및 고객 데이터를 저장하려면 볼륨의 스토리지 용량이 필요합니다. 스냅샷 예약 공간이라고 하는 이 공간의 일부는 데이터를 로컬로 보호할 수 있는 스냅샷을 저장하는 데 사용됩니다. ONTAP 볼륨에 새로 저장되거나 업데이트된 데이터가 많을수록 더 많은 스냅샷 용량이 사용되며 향후 새 데이터 또는 업데이트된 데이터에 더 적은 스냅샷 스토리지 용량을 사용할 수 있습니다. 볼륨 내의 스냅샷 데이터 용량이 전체 스냅숏 예비 공간에 도달하면 고객이 새 스냅숏 데이터를 저장할 수 없게 되고 볼륨의 데이터에 대한 보호 수준이 감소할 수 있습니다. 사용된 볼륨 스냅샷 용량을 모니터링하면 데이터 서비스의 연속성이 보장됩니다.</block>
-  <block id="ceb1cc2256839013af7a760f6f0fb2b4" category="cell">스토리지 용량 제한</block>
-  <block id="f5ae90fdb331775a72189e50b3cf0431" category="cell">스토리지 성능 제한</block>
-  <block id="6f020841b73e150f652a53c82807c34c" category="cell">사용자 할당량 용량 하드 제한입니다</block>
-  <block id="e89c167818c91da4b65948a699087631" category="cell">사용자 할당량 용량 소프트 제한입니다</block>
-  <block id="b4377e0135c3410c9594eae5882bfb8e" category="cell">애플리케이션 및 고객 데이터를 저장하려면 볼륨의 스토리지 용량이 필요합니다. ONTAP 볼륨에 더 많은 데이터를 저장할수록 이후 데이터에 대한 스토리지 가용성이 줄어듭니다. 볼륨 내의 데이터 스토리지 용량이 총 스토리지 용량에 도달하면 스토리지 용량 부족으로 인해 고객이 데이터를 저장할 수 없게 될 수 있습니다. 사용된 볼륨 스토리지 용량을 모니터링하면 데이터 서비스의 연속성이 보장됩니다.</block>
-  <block id="fbc825226ae4d8f31c0f222df5d96f7a" category="cell">볼륨 inode 제한</block>
-  <block id="3d1affb26fae65c3500845f1205462c8" category="cell">노드 높은 지연 시간</block>
-  <block id="0936dc5961f478a8e9deebd7949d6b66" category="cell">노드 지연 시간이 노드의 애플리케이션 성능에 영향을 줄 수 있는 수준에 도달했습니다. 노드 지연 시간이 짧아 애플리케이션의 일관된 성능을 보장할 수 있습니다. 미디어 유형에 따른 예상 지연 시간은 SSD 최대 1-2밀리초, SAS 최대 8-10밀리초, SATA HDD 17-20 밀리초입니다.</block>
-  <block id="62ec8f018fb1fc9656ffdab107197105" category="cell">노드 성능 제한</block>
-  <block id="bd338ab6f1cef5b238ac1e60af984f7e" category="cell">노드 성능 활용률은 입출력 및 노드에서 지원하는 애플리케이션의 성능에 영향을 줄 수 있는 수준에 도달했습니다. 낮은 노드 성능 활용으로 애플리케이션의 일관된 성능을 보장합니다.</block>
-  <block id="afe6e49330908b656c16f3833ee87bf5" category="cell">스토리지 VM 높은 지연 시간</block>
-  <block id="8167ecdcf804b345b6cdfb41b7a605a6" category="cell">스토리지 VM(SVM)의 지연 시간이 스토리지 VM의 애플리케이션 성능에 영향을 줄 수 있는 수준에 도달했습니다. 스토리지 VM 지연 시간이 짧아 애플리케이션의 일관된 성능이 보장됩니다. 미디어 유형에 따른 예상 지연 시간은 SSD 최대 1-2밀리초, SAS 최대 8-10밀리초, SATA HDD 17-20 밀리초입니다.</block>
-  <block id="89487f64f6357385ab0f3d0e4a017cf4" category="cell">사용자 할당량 파일 하드 제한입니다</block>
-  <block id="79363c2ed0907e48b3c1ce4ebc79a2ce" category="cell">볼륨 내에서 생성된 파일 수가 중요 한도에 도달했으며 추가 파일을 생성할 수 없습니다. 저장된 파일 수를 모니터링하면 사용자가 중단 없는 데이터 서비스를 받을 수 있습니다.</block>
-  <block id="554ae6075f09ac17db492480733bbc3f" category="cell">사용자 할당량 파일 소프트 제한입니다</block>
-  <block id="b1cba2c862f0b40c1bd34845542e54ab" category="cell">볼륨 내에서 생성된 파일 수가 할당량의 임계값 제한에 도달했으며 심각한 한도에 근접했습니다. 할당량이 위험 제한에 도달하면 추가 파일을 생성할 수 없습니다. 사용자가 저장한 파일 수를 모니터링하면 사용자가 중단 없는 데이터 서비스를 받을 수 있습니다.</block>
-  <block id="3ebcb9d1d86ba400a3781b84940118a5" category="cell">볼륨 캐시 비적중 비율입니다</block>
-  <block id="018c3d241ac4914c7226d78d884c3cbf" category="cell">볼륨 캐시 비적중 비율은 캐시에서 반환되지 않고 디스크에서 반환된 클라이언트 애플리케이션의 읽기 요청 비율입니다. 즉, 볼륨이 설정된 임계값에 도달했음을 의미합니다.</block>
-  <block id="6a330cc3d1dd1f4ba2997354a3f21845" category="cell">볼륨 Qtree 할당량 오버커밋</block>
-  <block id="fb7354d1ae8b5435bfa69884ef47da15" category="cell">볼륨 Qtree 할당량 오버 커밋은 qtree 할당량에 의해 볼륨이 초과 커밋된 것으로 간주되는 비율을 지정합니다. 볼륨에 대해 qtree 할당량의 설정 임계값에 도달했습니다. 볼륨 qtree 할당량 초과 할당을 모니터링하면 사용자가 무중단 데이터 서비스를 받을 수 있습니다.</block>
-  <block id="b8de81d6f52d224f773817fe81217dad" category="cell">AWS 자격 증명이 초기화되지 않았습니다</block>
-  <block id="551b723eafd6a31d444fcb2f5920fbd3" category="cell">정보</block>
-  <block id="1d66554c78febceda1243e001f9eb24a" category="cell">이 이벤트는 모듈이 초기화되기 전에 클라우드 자격 증명 스레드에서 AWS(Amazon Web Services) IAM(Identity and Access Management) 역할 기반 자격 증명에 액세스하려고 할 때 발생합니다.</block>
-  <block id="a146f13e0af345143ecc33ea983a5c06" category="cell">클라우드 계층에 연결할 수 없습니다</block>
-  <block id="34cd9019bbd8c57317268ed06f95dc66" category="cell">스토리지 노드가 클라우드 계층 오브젝트 저장소 API에 연결할 수 없습니다. 일부 데이터에 액세스할 수 없습니다.</block>
-  <block id="029f2c939400c57163aca6fd2dc822ba" category="cell">디스크 사용 중단</block>
-  <block id="a54845325eb752184d2bec973b7963de" category="cell">이 이벤트는 디스크에 장애가 발생했거나, 제거 중이거나, 유지보수 센터에 진입했기 때문에 디스크가 서비스에서 제거된 경우에 발생합니다.</block>
-  <block id="fe21120bc14577f268d4d2be20edc1f7" category="cell">FlexGroup 볼륨 내의 구성요소가 가득 차면 서비스가 중단될 수 있습니다. FlexGroup 볼륨에서 파일을 생성하거나 확장할 수 있습니다. 그러나 구성요소에 저장된 파일은 수정할 수 없습니다. 결과적으로 FlexGroup 볼륨에 대해 쓰기 작업을 수행하려고 할 때 예기치 않은 공간 부족 오류가 나타날 수 있습니다.</block>
-  <block id="1c5e1ca65bf95c63d58c93315f4ae493" category="cell">FlexGroup 구성 요소 거의 가득 참</block>
-  <block id="66ccb0b236d70f106eac0f0966f5bea0" category="cell">FlexGroup 볼륨 내의 구성요소에 공간이 거의 부족하기 때문에 서비스가 중단될 수 있습니다. 파일을 만들고 확장할 수 있습니다. 그러나 구성 요소 공간이 부족한 경우 구성 요소에서 파일을 추가하거나 수정하지 못할 수 있습니다.</block>
-  <block id="e8d1207b204af89970bbd6c3fcd0f62c" category="cell">FlexGroup 볼륨 내의 구성요소는 inode에 거의 포함되어 있지 않습니다. 이로 인해 서비스가 중단될 수 있습니다. 구성요소에서 평균 보다 적은 생성 요청을 받습니다. 이 요청은 더 많은 inode가 있는 구성 요소에게 라우팅되므로 FlexGroup 볼륨의 전반적인 성능에 영향을 줄 수 있습니다.</block>
-  <block id="acb497ea0eac56962d6a2c8e5af21065" category="cell">FlexGroup 볼륨의 구성요소에 inode가 부족하기 때문에 서비스가 중단될 수 있습니다. 이 구성요소에는 새 파일을 생성할 수 없습니다. 이로 인해 FlexGroup 볼륨 전체에 걸쳐 콘텐츠의 전체적인 균형이 맞지 않을 수 있습니다.</block>
-  <block id="d4bd8d52d9f5248461eab65877c33cd4" category="cell">LUN을 오프라인 상태로 전환합니다</block>
-  <block id="03867f916783d279d2e18bebd13cd956" category="cell">LUN을 다시 온라인 상태로 전환합니다.</block>
-  <block id="7e2ea473b4d692f312fdafa6a4dab4d8" category="cell">본체 팬 고장</block>
-  <block id="76eeadb484fdebb878895dcc33f0b1f5" category="cell">장애가 발생한 팬을 재장착합니다. 오류가 지속되면 교체합니다.</block>
-  <block id="1eb5bfc5bab8f3a50b9a8477412d8f19" category="cell">주 장치 팬이 경고 상태입니다</block>
-  <block id="20b6be82c9564e602e5cc241f05c1273" category="cell">이 이벤트는 하나 이상의 메인 유니트 팬이 경고 상태에 있을 때 발생합니다.</block>
-  <block id="d102c04ae84b00d946f024f5a6fd34f0" category="cell">과열되지 않도록 표시된 팬을 교체합니다.</block>
-  <block id="fb973d4258ae588d5d24c45dddfdf7ca" category="cell">NVRAM 배터리가 부족합니다</block>
-  <block id="9c6ad5ed6fb9625d863e1ec1e8ea9b78" category="cell">서비스 프로세서가 구성되지 않았습니다</block>
-  <block id="55b92b3d765f8c3e143cd8143b5f3142" category="cell">이 이벤트는 서비스 프로세서(SP)를 구성하도록 알리기 위해 매주 발생합니다. SP는 시스템에 통합되어 원격 액세스 및 원격 관리 기능을 제공하는 물리적 디바이스입니다. SP의 전체 기능을 사용하도록 구성해야 합니다.</block>
-  <block id="0b7a641d1d319fdb4c77401df9d2f87c" category="cell">서비스 프로세서가 오프라인 상태입니다</block>
-  <block id="792b071d459d79421597bd9259dfd4c1" category="cell">표시된 냉각 팬 또는 쉘프 팬 모듈에 장애가 발생했습니다. 쉘프 내의 디스크가 냉각 공기 흐름이 충분하지 않아 디스크 장애가 발생할 수 있습니다.</block>
-  <block id="f96ea6956e87428787f316c02a3e369a" category="cell">메인 장치 팬 오류로 인해 시스템을 작동할 수 없습니다</block>
-  <block id="8d2eae179b53fdbd72efd13ea4abb62d" category="cell">하나 이상의 메인 유니트 팬에 장애가 발생하여 시스템 작동이 중단되었습니다. 이로 인해 데이터가 손실될 수 있습니다.</block>
-  <block id="01be3ab019ddde1879838930070e7694" category="cell">결함이 있는 팬을 교체합니다.</block>
-  <block id="c3a767bd8fbb8085e22929b47fd36414" category="cell">할당되지 않은 디스크</block>
-  <block id="254fb8d955e04a3313ad5e5301e71f5b" category="cell">시스템에 할당되지 않은 디스크가 있습니다. 용량이 낭비되고 있으며 시스템의 구성 오류 또는 부분 구성 변경이 적용될 수 있습니다.</block>
-  <block id="d4411ca6d33212a8fab721627ea4d2cd" category="cell">바이러스 백신 서버 사용 중</block>
-  <block id="126d1014fbd870e17193834ac299c745" category="cell">바이러스 백신 서버가 너무 바빠서 새 검사 요청을 수락할 수 없습니다.</block>
-  <block id="a57337ce0f147fe22e39d1fe02938402" category="cell">이 메시지가 자주 발생하는 경우 SVM에서 생성되는 바이러스 검사 로드를 처리할 수 있는 바이러스 백신 서버가 충분한지 확인합니다.</block>
-  <block id="ab27250fc621dbbe9bb3edf28f15fee2" category="cell">IAM 역할에 대한 AWS 자격 증명이 만료되었습니다</block>
-  <block id="dbd82e900e7f931231765a575e41c4fd" category="cell">Cloud Volume ONTAP에 액세스할 수 없습니다. IAM(Identity and Access Management) 역할 기반 자격 증명이 만료되었습니다. 이 자격 증명은 AWS(Amazon Web Services) 메타데이터 서버에서 IAM 역할을 사용하여 수집되며 Amazon S3(Amazon Simple Storage Service)에 API 요청을 서명하는 데 사용됩니다.</block>
-  <block id="5952410b375cc3067e6d0ef3b28f1433" category="cell">IAM 역할에 대한 AWS 자격 증명을 찾을 수 없습니다</block>
-  <block id="f560f2c2d5394664365584bd33273a35" category="cell">IAM 역할에 대한 AWS 자격 증명이 잘못되었습니다</block>
-  <block id="21af85151e41c66c81d5ca235a15cca6" category="cell">IAM(Identity and Access Management) 역할 기반 자격 증명이 유효하지 않습니다. 이 자격 증명은 AWS(Amazon Web Services) 메타데이터 서버에서 IAM 역할을 사용하여 수집되며 Amazon S3(Amazon Simple Storage Service)에 API 요청을 서명하는 데 사용됩니다. Cloud Volume ONTAP에 액세스할 수 없습니다.</block>
-  <block id="5a06a34fcbd977025335aaa2ea158cc0" category="cell">AWS IAM 역할을 찾을 수 없습니다</block>
-  <block id="ee4aa5d18a274f092d67e773a3491e33" category="cell">AWS IAM 역할이 잘못되었습니다</block>
-  <block id="57381bcfb8909c42cd334a5f9033e407" category="cell">AWS 메타데이터 서버 연결에 실패했습니다</block>
-  <block id="909a3974ecbd6f6ccecfcb1229be41ec" category="cell">FabricPool 공간 사용 제한에 거의 도달했습니다</block>
-  <block id="6e0e35b111c3fb1c61bbb320ea1087f9" category="cell">용량 라이센스 공급자가 사용하는 오브젝트 저장소의 전체 클러스터 전체 FabricPool 공간 사용이 라이센스 한도에 거의 도달했습니다.</block>
-  <block id="330d541d831c0c8ca3957fb4856fbfbe" category="cell">FabricPool 공간 사용 제한에 도달했습니다</block>
-  <block id="828d6635aab125bf04a3bee0c8763889" category="cell">용량 라이센스가 있는 공급자의 오브젝트 저장소에 대한 전체 클러스터 전체 FabricPool 공간 사용량이 라이센스 제한에 도달했습니다.</block>
-  <block id="4c5698d5f23adf829fb938340349bc52" category="cell">Aggregate에 대한 반환에 실패했습니다</block>
-  <block id="90ef3b1aa5a2888ebadddd69b5d4a207" category="cell">이 이벤트는 대상 노드가 오브젝트 저장소에 연결할 수 없을 때 스토리지 페일오버(SFO) 반환의 일부로 애그리게이트를 마이그레이션하는 동안 발생합니다.</block>
-  <block id="26997d5e5bb912bba50e3a785b892e17" category="cell">HA 인터커넥트 다운</block>
-  <block id="f9445ae9855ebeef721419708e337e16" category="cell">고가용성(HA) 인터커넥트가 다운되었습니다. 페일오버를 사용할 수 없는 경우 서비스 중단 위험이 있습니다.</block>
-  <block id="00a84dca1905c9620649f9e0304672cf" category="cell">사용자당 최대 세션 수가 초과되었습니다</block>
-  <block id="9325ae691f043557e7818c5003b61982" category="cell">파일당 열기 최대 시간이 초과되었습니다</block>
-  <block id="471330bb5ed463dc3625da00fcd62ea1" category="cell">NetBIOS 이름이 충돌합니다</block>
-  <block id="9d3a9adfff2351c04fd85c84d8b443b4" category="cell">NetBIOS 이름 서비스가 원격 컴퓨터에서 이름 등록 요청에 대해 부정적인 응답을 받았습니다. 일반적으로 NetBIOS 이름 또는 별칭의 충돌로 인해 발생합니다. 따라서 클라이언트가 클러스터에 있는 올바른 데이터 서비스 노드에 연결하거나 데이터에 액세스하지 못할 수 있습니다.</block>
-  <block id="51fcddf4ee42bd93e5420112e4bf01cc" category="cell">NFSv4 저장소 풀이 소진되었습니다</block>
-  <block id="cdf99ae80e417997181ede0d4fef830a" category="cell">NFSv4 저장소 풀이 모두 소모되었습니다.</block>
-  <block id="e62fee05b4b7685251859a997912f60f" category="cell">이 이벤트 후 NFS 서버가 10분 이상 응답하지 않는 경우 NetApp 기술 지원 팀에 문의하십시오.</block>
-  <block id="e858aae181c5fcc40ecd1977d18c6628" category="cell">등록된 스캔 엔진이 없습니다</block>
-  <block id="e41adb9ffdd7722c0b00ee52f75b0cc6" category="cell">바이러스 백신 커넥터가 ONTAP에 등록된 검사 엔진이 없다는 알림을 표시합니다. "scan-mandatory(스캔-필수)" 옵션이 활성화된 경우 데이터를 사용할 수 없게 될 수 있습니다.</block>
-  <block id="c576f1a7fa90d159408d5566e9d576dd" category="cell">Vscan 연결이 없습니다</block>
-  <block id="1cdd8df232d26e035c3fb7e2a7b2b73c" category="cell">ONTAP에는 바이러스 스캔 요청에 대한 Vscan 연결이 없습니다. "scan-mandatory(스캔-필수)" 옵션이 활성화된 경우 데이터를 사용할 수 없게 될 수 있습니다.</block>
-  <block id="e739a669b26e5d1aef081e00d6ba17ef" category="cell">스캐너 풀이 올바르게 구성되어 있고 바이러스 백신 서버가 활성화되어 있고 ONTAP에 연결되어 있는지 확인합니다.</block>
-  <block id="e0bedba1770474c339e3bb99bb280727" category="cell">노드 루트 볼륨 공간이 부족합니다</block>
-  <block id="57809707286113c78b658d7b3d19d3c2" category="cell">시스템에서 루트 볼륨의 공간이 위험할 정도로 부족하다는 것을 감지했습니다. 노드가 완전히 작동하지 않습니다. 데이터 LIF는 노드에서 NFS 및 CIFS 액세스가 제한되므로 클러스터 내에서 페일오버되었을 수 있습니다. 관리 기능은 노드에서 루트 볼륨의 공간을 지우는 로컬 복구 절차로 제한됩니다.</block>
-  <block id="80e37f57649f826f2df1a246807a3fcd" category="cell">존재하지 않는 관리자 공유</block>
-  <block id="21892f8d46de451009a6de8481671d71" category="cell">Vscan 문제: 클라이언트가 존재하지 않는 ONTAP_admin$ 공유에 연결하려고 했습니다.</block>
-  <block id="a23e935da71a915576bca59142704cc4" category="cell">Vscan이 언급된 SVM ID에 대해 활성화되어 있는지 확인합니다. SVM에서 Vscan을 활성화하면 SVM에 대해 ONTAP_admin$ 공유가 자동으로 생성됩니다.</block>
-  <block id="174eaebe2f811ec526b3319ed5cd94b4" category="cell">NVMe 네임스페이스 공간 부족</block>
-  <block id="6e3884381c11734fb36fc457ab836213" category="cell">공간 부족으로 인한 쓰기 실패로 인해 NVMe 네임스페이스가 오프라인 상태로 전환되었습니다.</block>
-  <block id="0435182b9ddbd0229c40b478ef141b40" category="cell">볼륨에 공간을 추가한 다음 "vserver NVMe namespace modify" 명령을 사용하여 NVMe 네임스페이스를 온라인으로 전환합니다.</block>
-  <block id="d7a4b2066d2c4da4f3d6f49662d12570" category="cell">NVMe - 유예 기간 활성</block>
-  <block id="9d2cb7cbb953a478326fe27e52285b93" category="cell">이 이벤트는 NVMe-oF(NVMe over Fabrics) 프로토콜이 사용 중일 때 라이센스의 유예 기간이 활성 상태일 때 매일 발생합니다. NVMe-oF의 경우, 라이센스 유예 기간이 만료된 후 라이센스가 필요합니다. 라이센스 유예 기간이 끝나면 NVMe-oF 기능이 비활성화됩니다.</block>
-  <block id="65312caab35004589d4b8d533ab5e233" category="cell">세일즈 담당자에게 문의하여 NVMe-oF 라이센스를 얻은 후 클러스터에 추가하거나 클러스터에서 모든 NVMe-oF 구성 인스턴스를 제거하십시오.</block>
-  <block id="164be969f890fc7fa4da2230c1657b18" category="cell">NVMe - 유예 기간이 만료되었습니다</block>
-  <block id="456afcff497af1aa5208c6956c56e81b" category="cell">NVMe-oF(NVMe over Fabrics) 라이센스 유예 기간이 끝났고 NVMe-of 기능이 비활성화되었습니다.</block>
-  <block id="0c462b6a96423feb2ea0671d7b661539" category="cell">NVMe-oF 라이센스를 얻고 클러스터에 추가하려면 세일즈 담당자에게 문의하십시오.</block>
-  <block id="79b5e6aa571bc2e88eec585f40c44448" category="cell">NVMe - 유예 기간 시작</block>
-  <block id="e524afebf6849768adb779a12a127949" category="cell">ONTAP 9.5 소프트웨어로 업그레이드하는 동안 NVMe-oF(NVMe over Fabrics) 구성이 감지되었습니다. NVMe-oF의 경우, 라이센스 유예 기간이 만료된 후 라이센스가 필요합니다.</block>
-  <block id="21028ac85c66603bccdb5e36033eed7e" category="cell">객체 저장소 호스트를 확인할 수 없습니다</block>
-  <block id="ed8d632e2bfb1dcc2b90c037d417fdd6" category="cell">오브젝트 저장소 서버 호스트 이름은 IP 주소로 확인할 수 없습니다. 오브젝트 저장소 클라이언트는 IP 주소로 확인하지 않으면 오브젝트 저장소 서버와 통신할 수 없습니다. 따라서 데이터에 액세스할 수 없습니다.</block>
-  <block id="a4303548289dc377461a6569b3e3202b" category="cell">DNS 구성을 확인하여 호스트 이름이 IP 주소로 올바르게 구성되었는지 확인합니다.</block>
-  <block id="a1af817579f1c480921a83d476d3c871" category="cell">오브젝트 저장소 클러스터 간 LIF가 다운되었습니다</block>
-  <block id="672ce8284336b8a5566e233b9875d72c" category="cell">오브젝트 저장소 클라이언트는 오브젝트 저장소 서버와 통신할 운영 LIF를 찾을 수 없습니다. 인터클러스터 LIF가 작동할 때까지 노드가 오브젝트 저장소 클라이언트 트래픽을 허용하지 않습니다. 따라서 데이터에 액세스할 수 없습니다.</block>
-  <block id="414c80c85ed86e6514d583fd45ecfe01" category="cell">오브젝트 저장소 서명 불일치</block>
-  <block id="eafd60291a50538b65d8ca26d54be783" category="cell">오브젝트 저장소 서버로 전송된 요청 서명이 클라이언트가 계산한 서명과 일치하지 않습니다. 따라서 데이터에 액세스할 수 없습니다.</block>
-  <block id="70747775f2e7a73423a18990710dd62c" category="cell">비밀 액세스 키가 올바르게 구성되었는지 확인합니다. 올바르게 구성된 경우 NetApp 기술 지원 팀에 지원을 문의하십시오.</block>
-  <block id="5d68db61b8ccb746a85eef15b994d95f" category="cell">readdir 시간 초과</block>
-  <block id="94d0326ee69d027aaf3d34c3aa17f8d8" category="cell">readdir 파일 작업이 WAFL에서 실행할 수 있는 시간 제한을 초과했습니다. 이는 디렉토리가 매우 크거나 희소하기 때문일 수 있습니다. 수정 조치를 권장합니다.</block>
-  <block id="935da7f818cfdec6c28d2e6f6ff9453f" category="cell">집계 재배치에 실패했습니다</block>
-  <block id="e7dc75d0e3386bfcaad6722ce16d8cae" category="cell">이 이벤트는 대상 노드가 오브젝트 저장소에 연결할 수 없을 때 애그리게이트의 재배치 중에 발생합니다.</block>
-  <block id="9773ab800993af6a5bc6195645c6c910" category="cell">섀도 복사본 실패</block>
-  <block id="a10998a7f3800275c03bc02460ccc15e" category="cell">Microsoft Server 백업 및 복원 서비스 작업인 VSS(Volume Shadow Copy Service)가 실패했습니다.</block>
-  <block id="9baa3a6ca808bee4abc357514fae992c" category="cell">스토리지 스위치 전원 공급 장치에 장애가 발생했습니다</block>
-  <block id="78d8a70d2642b1b1891d8ae54860bbe2" category="cell">클러스터 스위치에 전원 공급 장치가 없습니다. 중복성이 감소되어 정전 위험이 있으며 추가적인 전원 장애가 발생할 수 있습니다.</block>
-  <block id="f305d93c62db0fee59da1ccd0c9308e0" category="cell">CIFS 인증이 너무 많습니다</block>
-  <block id="abdc4b50677580d19bd6f2940902ac18" category="cell">많은 인증 협상이 동시에 발생했습니다. 이 클라이언트의 불완전한 새 세션 요청이 256개 있습니다.</block>
-  <block id="4a16f2a733bc2de1ccb5dc26b1501c90" category="cell">클라이언트가 256개 이상의 새 연결 요청을 생성한 이유를 조사합니다. 오류가 발생한 이유를 확인하려면 클라이언트 또는 애플리케이션의 공급업체에 문의해야 할 수 있습니다.</block>
-  <block id="7471015399371780c905ab24ae453266" category="cell">관리자 공유에 대한 권한이 없는 사용자 액세스</block>
-  <block id="17213470d73b7a2bda90c1a35cfca324" category="cell">로그인한 사용자가 허용되지 않더라도 클라이언트가 권한이 있는 ONTAP_admin$ 공유에 연결을 시도했습니다.</block>
-  <block id="204c2306ca4f4bb7c09f85d28fdc95cb" category="cell">바이러스가 검색되었습니다</block>
-  <block id="39a107762943f2a3b73c54078d50973e" category="cell">"syslog" 이벤트에 보고된 Vscan 서버의 로그를 확인하여 감염된 파일을 성공적으로 정리, 격리 또는 삭제할 수 있는지 확인하십시오. 이 작업을 수행할 수 없는 경우 시스템 관리자가 파일을 수동으로 삭제해야 할 수 있습니다.</block>
-  <block id="c12ff3bdc3e1fc7c28ce63919dce056b" category="cell">스토리지 VM 안티 랜섬웨어 모니터링 비활성화됨</block>
-  <block id="9a523419a0c32dc42c28aa6f4c8e8514" category="cell">스토리지 VM의 랜섬웨어 방지 모니터링은 비활성화되어 있습니다. 스토리지 VM을 보호하기 위해 랜섬웨어 방지 기능을 활성화합니다.</block>
-  <block id="bc64ead7cff239a27defee7e82f07dd8" category="cell">스토리지 VM 안티 랜섬웨어 모니터링 활성화(학습 모드)</block>
-  <block id="1f85f76d505221f52f326cbf5c47ff8d" category="cell">스토리지 VM의 랜섬웨어 방지 모니터링은 학습 모드에서 활성화됩니다.</block>
-  <block id="887dc131866209437f8ef2fc6e1a9871" category="cell">Volume Anti-랜섬웨어 모니터링 활성화</block>
-  <block id="dc9bfcde970906b121a72ccab49848ab" category="cell">볼륨에 대한 랜섬웨어 방지 모니터링이 활성화됩니다.</block>
-  <block id="c11f4f33bc154ce6cc134feb8a5f30b0" category="cell">볼륨 안티 랜섬웨어 모니터링 비활성화됨</block>
-  <block id="8c716e2406cc2ec123958a8e9ea7518c" category="cell">볼륨에 대한 랜섬웨어 방지 모니터링이 비활성화됩니다. 랜섬웨어를 차단 하여 볼륨을 보호합니다.</block>
-  <block id="d47e41061de388e6ea7551ca54087e71" category="cell">볼륨에 대한 랜섬웨어 방지 모니터링은 학습 모드에서 활성화됩니다.</block>
-  <block id="2b2d7665885d726aedd194cbe39ae249" category="cell">볼륨 안티 랜섬웨어 모니터링 일시 중지(학습 모드)</block>
-  <block id="b9c546aa4eea00e189d53e70fbc0c1be" category="cell">볼륨에 대한 랜섬웨어 방지 모니터링은 학습 모드에서 일시 중지됩니다.</block>
-  <block id="797ee57f9a436b032308d5bc2fe5a936" category="cell">볼륨 안티 랜섬웨어 모니터링이 일시 중지되었습니다</block>
-  <block id="78def16693e2c4a722ebac8e699f660d" category="cell">볼륨에 대한 랜섬웨어 방지 모니터링이 일시 중지됩니다.</block>
-  <block id="7fc69e8650940f98c56d06aa6d0eae5e" category="cell">Volume Anti-랜섬웨어 모니터링 비활성화</block>
-  <block id="65652770553c5af0ce1157394fb5dd58" category="cell">볼륨에 대한 랜섬웨어 방지 모니터링이 비활성화되어 있습니다.</block>
-  <block id="091ec35ab95f861018fde1a0588e00ab" category="cell">랜섬웨어 활동이 감지되었습니다</block>
-  <block id="ad588b8a579bb8400cdcd8ad5b889cf7" category="cell">랜섬웨어 활동을 개선하려면 "final-document-name"을 참조하십시오.</block>
-  <block id="8cd7f8db9d150a04184b8fd02d5f5a6d" category="cell">클러스터 용량이 가득 찼습니다</block>
   <block id="b724fba8ffec757b004a0fd1f0662764" category="inline-link-macro">경고 보기 및 해제</block>
   <block id="24b2e6934ffdb3b416b798e02d2fca63" category="list-text"><block ref="24b2e6934ffdb3b416b798e02d2fca63" category="inline-link-macro-rx"></block></block>
   <block id="576796aa6755029663125a73907c3a77" category="summary">Lenovo HX 데이터 수집기 구성.</block>
@@ -8403,15 +8256,6 @@
   <block id="de9af54682ac41397db654efb63c031a" category="list-text">Hitachi 컨텐츠 플랫폼</block>
   <block id="3228838520c4e897de47c1133cf36394" category="list-text">IBM Cleversafe</block>
   <block id="7f0f78f6c5c0c1767395318a59e0e62a" category="list-text">NetApp StorageGRID를 참조하십시오</block>
-  <block id="30dd052b2b6fccfb70805897145d250e" category="cell">Fibre Channel 포트 사용률 높음</block>
-  <block id="8b551bcd4b6776e5d62acbdc748dcb67" category="cell">LUN 지연 시간 높음</block>
-  <block id="0b0a371d4b04aed08b8959ae740e641a" category="cell">네트워크 포트 사용률 높음</block>
-  <block id="a71197461ef3e713873abf9b366f6751" category="cell">NVMe 네임스페이스 지연 시간 높음</block>
-  <block id="0d17497fa9b8ef0cde0a62988bccde05" category="cell">Qtree 용량 꽉 참</block>
-  <block id="d4b3601252ad96057bec1deba64d176c" category="cell">스냅숏 예비 공간이 가득 찼습니다</block>
-  <block id="990945c07589d2bf493f67e88351098b" category="cell">스토리지 풀(애그리게이트)이 가득 차는 경우 I/O 작업의 속도가 느려지고 결국 중지되어 스토리지 운영 중단이 발생합니다. 경고 알림은 최소 여유 공간을 복원하기 위해 계획된 작업을 곧 수행해야 함을 나타냅니다. 긴급 경고는 서비스 중단이 임박했음을 나타내며, 서비스 연속성을 보장하기 위해 공간을 확보하기 위해 긴급 조치를 취해야 합니다.</block>
-  <block id="8529803ba620a2efc230bf5e3f41dd5f" category="cell">볼륨 지연 시간 높음</block>
-  <block id="e22f96f4c78ae5a5a73fa7bb9bb9e606" category="cell">볼륨은 DevOps 애플리케이션, 홈 디렉토리, 데이터베이스를 비롯한 성능에 민감한 애플리케이션에서 주로 발생하는 I/O 트래픽을 처리하는 객체입니다. 볼륨 지연 시간이 길다는 것은 애플리케이션 자체에서 문제를 겪고 있으며 작업을 수행할 수 없음을 의미합니다. 볼륨 지연 시간을 모니터링하는 것은 애플리케이션의 일관된 성능을 유지하는 데 매우 중요합니다. 다음은 미디어 유형-SSD에서 최대 1-2밀리초, SAS에서 최대 8-10밀리초, SATA HDD에서 17-20밀리초를 기준으로 한 예상 지연 시간 입니다.</block>
   <block id="3f5fb2a45a144339f9591a104342f79b" category="paragraph">모니터를 사용하면 스토리지, VM, EC2 및 포트와 같은 "인프라" 객체에서 생성되는 메트릭과 Kubernetes, ONTAP 고급 메트릭, Teleraf 플러그인과 같이 "통합" 데이터에 대한 임계값을 설정할 수 있습니다. 이러한 _metric_monitor는 경고 수준 또는 위험 수준 임계값을 초과할 때 사용자에게 경고합니다.</block>
   <block id="e730b9c349889018dc9deaccaa5a438b" category="paragraph">또한 지정된_log events_가 감지되면 경고를 트리거하는 모니터를 생성할 수도 있습니다.</block>
   <block id="9fbe6c7c1c16d6c2079f167ca8001516" category="paragraph">Cloud Insights는 의 수를 제공합니다 <block ref="c48a3e56f23a81aaf8fad75ccfbc3d89" category="inline-link-macro-rx"></block> 또한 고객의 환경을 기반으로 합니다.</block>
@@ -8526,140 +8370,6 @@
   <block id="055b68154c8f4eb3a25e737cdda9407c" category="admonition">그룹에서 모니터를 제거해도 Cloud Insights에서 모니터가 삭제되지는 않습니다. 모니터를 완전히 제거하려면 모니터를 선택하고 _Delete_를 클릭합니다. 또한 이 작업은 해당 그룹이 속해 있는 그룹에서 제거되며 모든 사용자가 더 이상 사용할 수 없습니다.</block>
   <block id="d70e5ec52835f4afc8248970529b23ae" category="paragraph">또한 _ Move to Group _ 을(를) 선택하여 같은 방식으로 모니터를 다른 그룹으로 이동할 수도 있습니다. 시스템 정의 모니터 그룹에서 모니터를 이동할 수 없습니다. 이러한 그룹 중 하나에서 모니터를 이동하려면 먼저 모니터를 _Duplicate_한 다음 복제된 모니터를 원하는 그룹으로 이동해야 합니다.</block>
   <block id="f34c3caaf8a92f20f7de07f4154108f1" category="paragraph">동일한 메뉴를 사용하여 그룹의 이름을 바꾸거나 그룹을 삭제합니다. 그룹을 삭제해도 Cloud Insights에서 모니터가 삭제되지는 않으며, _ALL Monitors_에서 계속 사용할 수 있습니다. 시스템 정의 모니터 그룹은 삭제할 수 없습니다.</block>
-  <block id="bc97afed4d2212ed66bf0ca6c4da269b" category="paragraph">볼륨의 글로벌 볼륨 IOPS|중요|IOPS 임계값은 볼륨이 사전 정의된 성능 기대치를 초과할 때 관리자에게 경고하고 다른 볼륨에 잠재적으로 영향을 줄 수 있습니다. 이 모니터를 활성화하면 AFF 시스템에서 볼륨의 일반적인 IOPS 프로필에 적합한 알림이 생성됩니다. 이 모니터는 사용자 환경의 모든 볼륨을 포괄합니다. 경고 및 임계 임계값은 이 모니터를 복제해 보고 FAS, CVO 및 ONTAP Select에 적합한 임계값을 설정하여 모니터링 목표에 따라 조정할 수 있습니다. 이중화 모니터는 환경의 클러스터, SVM 또는 특정 볼륨의 하위 세트에 더욱 타겟으로 지정할 수 있습니다.|중요 임계값이 위반되면 서비스 중단을 최소화하기 위해 즉각적인 조치가 필요합니다. 1. 볼륨 2에 대한 QoS IOPS 한도를 소개합니다. 볼륨에서 워크로드의 이상 상황을 유도하는 애플리케이션을 검토합니다. 경고 임계값이 위반될 경우 즉시 다음 조치를 취하도록 계획하십시오. 1. 볼륨 2에 대한 QoS IOPS 한도를 소개합니다. 볼륨에서 워크로드를 구동하는 애플리케이션의 이상 현상 검토 | Global Volume Throughput | Critical | MBps 볼륨의 임계값을 사용하면 볼륨이 사전 정의된 성능 기대치를 초과할 때 관리자에게 알림을 보낼 수 있으며, 이로 인해 다른 볼륨에 영향을 줄 수 있습니다. 이 모니터를 활성화하면 AFF 시스템에서 볼륨의 일반적인 처리량 프로필에 적합한 알림이 생성됩니다. 이 모니터는 사용자 환경의 모든 볼륨을 포괄합니다. 경고 및 임계 임계값은 이 모니터를 복제해 보고 FAS, CVO 및 ONTAP Select에 적합한 임계값을 설정하여 모니터링 목표에 따라 조정할 수 있습니다. 이중화 모니터는 환경의 클러스터, SVM 또는 특정 볼륨의 하위 세트에 더욱 타겟으로 지정할 수 있습니다.|중요 임계값이 위반되면 서비스 중단을 최소화하기 위해 즉각적인 조치가 필요합니다. 1. 볼륨 2에 대한 QoS MBps 제한을 소개합니다. 볼륨에서 워크로드의 이상 상황을 유도하는 애플리케이션을 검토합니다. 경고 임계값이 위반될 경우 즉시 다음 조치를 취하도록 계획하십시오. 1. 볼륨 2에 대한 QoS MBps 제한을 소개합니다. 볼륨에서 워크로드를 구동하는 애플리케이션에 이상이 있는지 검토합니다</block>
-  <block id="6cd2b2d43c0b9e8c978dfa0e9ff52dae" category="cell">획득 장치에 실패했습니다</block>
-  <block id="45d90c114fca41b51b569220607ee16c" category="cell">획득 장치 오류를 감지하는 모니터</block>
-  <block id="db8d9ccfe5ecea7583ec770b7ba8b68f" category="cell">획득 장치 종료</block>
-  <block id="67e36ad678d5b65d6a44042a976fe1dd" category="cell">획득 장치가 종료될 때 감지하는 모니터입니다. 획득 장치가 다시 온라인 상태가 되면 이 문제가 해결됩니다.</block>
-  <block id="fec2e15f0269b59140a365985acd29c7" category="cell">ADS 볼륨 용량 꽉 참</block>
-  <block id="274b1ba128671bd2910bc188b52bbc6d" category="cell">볼륨에는 애플리케이션 및 고객 데이터가 저장됩니다. 클러스터 볼륨에 저장된 데이터가 많을수록 향후 데이터에 사용할 수 있는 스토리지 용량은 줄어듭니다. 볼륨의 데이터 저장 용량이 총 저장 용량에 도달하면 볼륨에 더 많은 데이터를 저장할 수 없습니다. 사용된 스토리지 용량에 대한 볼륨을 모니터링하면 데이터 서비스의 연속성을 보장할 수 있습니다.</block>
-  <block id="3783b9e7a5178a9c39d84964f46f482e" category="cell">중요 임계값이 위반될 때 서비스 중단을 최소화하기 위해 취할 조치는 다음과 같습니다.1. 볼륨 2 의 공간을 늘립니다. 경고 임계값이 위반될 경우 원치 않는 데이터를 삭제한 다음, 즉시 볼륨의 공간을 늘려 성장에 맞춰 크기를 조절하십시오.</block>
-  <block id="4fa38ba5c71a1889ae5460a06c9e51a8" category="cell">다음을 수행합니다. 1. AWS EC2 관리 콘솔에 로그인합니다. 인스턴스 페이지로 이동합니다. Cloud Volumes ONTAP 배포의 인스턴스를 찾아 상태를 확인합니다. 인스턴스와 관련된 AWS IAM 역할이 유효하고 인스턴스에 적절한 권한이 부여되었는지 확인합니다.</block>
-  <block id="454043ebe4f3dd197e594fc09cc47efb" category="cell">클라우드 자격 증명 스레드는 AWS 메타데이터 서버에서 AWS(Amazon Web Services) IAM(Identity and Access Management) 역할 기반 자격 증명을 획득할 수 없습니다. 자격 증명은 Amazon S3(Amazon Simple Storage Service)에 API 요청을 서명하는 데 사용됩니다. Cloud Volume ONTAP에 액세스할 수 없습니다.</block>
-  <block id="022283655943a5c21da77c44c6831396" category="cell">클라우드 자격 증명 스레드와 시스템이 초기화를 완료할 때까지 기다립니다.</block>
-  <block id="f388fa07ad955f55fe0cd8a7ae865492" category="cell">IAM(Identity and Access Management) 역할 스레드는 AWS 메타데이터 서버에서 AWS(Amazon Web Services) IAM 역할을 찾을 수 없습니다. IAM 역할은 Amazon S3(Amazon Simple Storage Service)에 API 요청을 서명하는 데 사용되는 역할 기반 자격 증명을 취득해야 합니다. Cloud Volume ONTAP에 액세스할 수 없습니다.</block>
-  <block id="90849191979785d85d4a587908fdf543" category="cell">다음을 수행합니다. 1. AWS EC2 관리 콘솔에 로그인합니다. 인스턴스 페이지로 이동합니다. Cloud Volumes ONTAP 배포의 인스턴스를 찾아 상태를 확인합니다. 인스턴스와 관련된 AWS IAM 역할이 유효한지 확인합니다.</block>
-  <block id="01ba1bac732d301aa10bef2ea2cd436c" category="cell">AWS 메타데이터 서버에서 AWS(Amazon Web Services) IAM(ID 및 액세스 관리) 역할이 잘못되었습니다. Cloud Volume ONTAP에 액세스할 수 없습니다.</block>
-  <block id="4980e1ae0ec2aef9207284c70b5280ba" category="cell">IAM(Identity and Access Management) 역할 스레드는 AWS(Amazon Web Services) 메타데이터 서버와 통신 링크를 설정할 수 없습니다. Amazon S3(Amazon Simple Storage Service)에 API 요청을 서명하는 데 사용되는 AWS IAM 역할 기반 자격 증명을 입수하기 위해 통신을 설정해야 합니다. Cloud Volume ONTAP에 액세스할 수 없습니다.</block>
-  <block id="d4329ba86711134e5014718673a50308" category="cell">다음을 수행합니다. 1. AWS EC2 관리 콘솔에 로그인합니다. 인스턴스 페이지로 이동합니다. Cloud Volumes ONTAP 배포의 인스턴스를 찾아 상태를 확인합니다.</block>
-  <block id="27c17ec54a11dafb06dfed42f235602c" category="cell">온프레미스 제품을 사용하는 경우 다음 수정 조치를 수행하십시오. 1. "network interface show" 명령을 사용하여 인터클러스터 LIF가 온라인이고 작동하는지 확인합니다. 대상 노드 인터클러스터 LIF에서 "ping" 명령을 사용하여 오브젝트 저장소 서버에 대한 네트워크 연결을 확인합니다. 다음을 확인합니다. a. 오브젝트 저장소 구성이 변경되지 않았습니다. b. 로그인 및 연결 정보는 여전히 유효합니다. 문제가 지속되면 NetApp 기술 지원 팀에 문의하십시오. Cloud Volumes ONTAP를 사용하는 경우 다음 수정 조치를 수행하십시오. 1. 오브젝트 저장소 구성이 변경되지 않았는지 확인합니다. 로그인 및 연결 정보가 여전히 유효한지 확인합니다. 문제가 지속되면 NetApp 기술 지원 팀에 문의하십시오.</block>
-  <block id="d753fba7feebfdd08731c5704e3be0b7" category="cell">ADS 클러스터는 애플리케이션 및 고객 데이터를 저장합니다. 클러스터에 저장된 데이터가 많을수록 향후 데이터에 대한 스토리지 가용성이 줄어듭니다. 스토리지 용량이 총 클러스터 용량에 도달하면 클러스터에서 더 많은 데이터를 저장할 수 없습니다. 클러스터 용량을 모니터링하여 데이터 서비스의 연속성을 보장합니다.</block>
-  <block id="0d30b3381bcfd3694c16e52c453ecd5c" category="cell">중요 임계값이 위반될 경우 서비스 중단을 최소화하기 위해 취할 다음 수정 조치를 고려하십시오. 1. 클러스터에 할당된 공간 늘리기 2. 원치 않는 데이터 삭제 임계값 경고가 위반되는 경우 즉시 확장을 수용하기 위해 클러스터에 할당된 공간을 늘리는 것을 고려합니다.</block>
-  <block id="783f60b4168f0ca33c1fed4cff46f1b8" category="cell">Collector 실패</block>
-  <block id="455c0113f0bf63c37a39eae7cef2d826" category="cell">Data Collector 장애를 감지하는 모니터</block>
-  <block id="3e9d81929de3e4d569ffbafc70d57da5" category="cell">수집기 경고</block>
-  <block id="babd2f409f0f03b175427d8489946354" category="cell">다음 교정 조치를 수행합니다. 1. "storage aggregate object-store show-space" 명령을 사용하여 각 FabricPool 스토리지 계층에서 사용하는 라이센스 용량의 백분율을 확인합니다. 계층화 정책 "snapshot" 또는 "backup"이 있는 볼륨에서 "volume snapshot delete" 명령을 사용하여 공간을 지웁니다. 클러스터에 새 라이센스를 설치하여 라이센스 용량을 늘립니다.</block>
-  <block id="cf60233a7909687d8680857f1521b1f5" category="cell">FC 타겟 포트 명령이 초과되었습니다</block>
-  <block id="b07e4ebd90ef9f761db4a8092e019f2b" category="cell">물리적 FC 타겟 포트의 미해결 명령 수가 지원되는 제한을 초과합니다. 포트에 미해결 명령을 위한 충분한 버퍼가 없습니다. 너무 많은 이니시에이터 I/O가 이 I/O를 사용하기 때문에 오버런 또는 팬 인입이 너무 가파릅니다.</block>
-  <block id="3b4c3d6de32ee8bb1c0747d674c4955b" category="cell">다음 교정 조치를 수행합니다. 1. 포트에서 호스트 팬을 평가하고 다음 작업 중 하나를 수행합니다. a. 이 포트에 로그인하는 호스트의 수를 줄입니다. b. 이 포트에 로그인하는 호스트가 액세스하는 LUN 수를 줄입니다. c. 호스트 명령 큐 길이를 줄입니다. "fcp_port" cm 개체의 "queue_full" 카운터를 모니터링하여 증가하지 않는지 확인합니다. 예: statistics show -object fcp_port -counter queue_full-instance port.portname -raw 3. 임계값 카운터를 모니터링하여 증가하지 않는지 확인합니다. 예: statistics show -object fcp_port -counter threshold_full-instance port.portname -raw</block>
-  <block id="3e0ac883ab26e707ddb50769a73c84ad" category="cell">Fibre Channel 프로토콜 포트는 고객 호스트 시스템과 ONTAP LUN 간의 SAN 트래픽을 수신하고 전송하는 데 사용됩니다. 포트 사용률이 높으면 병목 현상이 발생하고 Fibre Channel Protocol 워크로드에 민감한 성능에 영향을 주게 됩니다. 경고 알림은 네트워크 트래픽의 균형을 맞추기 위해 계획된 조치를 취해야 함을 나타냅니다. 긴급 경고는 서비스 중단이 임박했음을 나타내며, 서비스 연속성을 보장하기 위해 네트워크 트래픽의 균형을 조정하기 위해 긴급 조치를 취해야 합니다.</block>
-  <block id="95eed17074b41943c35d25c74184e22d" category="cell">중요 임계값이 위반되면 즉각적인 조치를 고려하여 서비스 중단을 최소화하십시오. 1. 사용률이 낮은 다른 FCP 포트로 워크로드 이동 ONTAP의 QoS 정책 또는 호스트 측 구성을 통해 특정 LUN의 트래픽을 필수 작업으로만 제한하면 FCP 포트의 활용도가 높아집니다. 경고 임계값이 위반되면 다음 조치를 취하십시오. 1. 포트 활용률이 더 많은 포트에 분산되도록 데이터 트래픽을 처리하도록 더 많은 FCP 포트를 구성합니다. 사용률이 낮은 다른 FCP 포트로 워크로드 이동 특정 LUN의 트래픽은 ONTAP의 QoS 정책 또는 호스트 측 구성을 통해 필수 작업으로만 제한하면 FCP 포트의 사용률을 가볍게 할 수 있습니다.</block>
-  <block id="33442659146d90bf45c0a926b9899522" category="cell">FlexGroup 구성 요소 꽉 참</block>
-  <block id="d5240cdd71a818647bc97bdc700b39ee" category="cell">"volume modify -files + X" 명령을 사용하여 FlexGroup 볼륨에 용량을 추가하는 것이 좋습니다. 또는 FlexGroup 볼륨에서 파일을 삭제합니다. 그러나 어떤 파일이 구성 요소인지 결정하기는 어렵습니다.</block>
-  <block id="99df88b2bf02a0f79e7287b270abcf1f" category="cell">FlexGroup 구성 요소 inode가 거의 없습니다</block>
-  <block id="3ec5f57ab86800820a23c8935691d2b7" category="cell">FlexGroup 구성 요소 inode가 없습니다</block>
-  <block id="f4b205f620c4c20b9f8cd2acc1f9b8ca" category="cell">다음 교정 조치를 수행합니다. 1. "network interface show" 명령을 사용하여 인터클러스터 LIF가 온라인이고 작동하는지 확인합니다. 대상 노드 인터클러스터 LIF에서 "'ping" 명령을 사용하여 오브젝트 저장소 서버에 대한 네트워크 연결을 확인합니다. 오브젝트 저장소 구성이 변경되지 않았는지, "aggregate object-store config show" 명령을 사용하여 로그인 및 연결 정보가 여전히 정확한지 확인하십시오. 또는 반환 명령의 "파트너 필요 대기" 매개 변수에 대해 false 를 지정하여 오류를 재정의할 수 있습니다. 자세한 정보 또는 지원 정보는 NetApp 기술 지원 부서에 문의하십시오.</block>
-  <block id="6c1bc1ad570393b4989dc35eb6583651" category="cell">수정 조치는 플랫폼에서 지원하는 HA 인터커넥트 링크의 수와 유형, 그리고 인터커넥트가 중단된 이유에 따라 다릅니다. * 링크가 다운된 경우: - HA 쌍의 두 컨트롤러가 모두 작동하는지 확인합니다. 외부 연결 링크의 경우 상호 연결 케이블이 제대로 연결되어 있고, 해당되는 경우 소형 폼 팩터 SFP(Pluggable)가 두 컨트롤러 모두에 제대로 장착되어 있는지 확인합니다. - 내부적으로 연결된 링크의 경우 "IC link off(IC 링크 꺼짐)" 및 "IC link on(IC 링크 켜짐)" 명령을 사용하여 링크를 차례로 비활성화하고 다시 활성화합니다. * 링크가 비활성화된 경우 "IC link on" 명령을 사용하여 링크를 활성화합니다. * 피어가 연결되지 않은 경우 "IC link off(IC 링크 꺼짐)" 및 "IC link on(IC 링크 켜짐)" 명령을 사용하여 링크를 차례로 비활성화하고 다시 활성화합니다. 문제가 지속되면 NetApp 기술 지원 팀에 문의하십시오.</block>
-  <block id="62e125953adc91727621ebbd266a008d" category="cell">LUN이 제거되었습니다</block>
-  <block id="76395740b26f78901b20dcc0394cf6b4" category="cell">이 이벤트는 LUN이 제거될 때 발생합니다.</block>
-  <block id="65f39c631cb17b1eab0a14ebc461b47f" category="cell">LUN은 데이터베이스와 같이 성능에 민감한 애플리케이션에서 주로 발생하는 IO 트래픽을 처리하는 객체입니다. LUN 지연 시간이 길다는 것은 애플리케이션 자체에서 문제를 겪고 있으며 작업을 수행할 수 없음을 의미합니다. 경고 알림은 LUN을 적절한 노드 또는 Aggregate로 이동하기 위해 계획된 작업을 수행해야 함을 나타냅니다. 긴급 경고는 서비스 중단이 임박했음을 나타내며, 서비스 연속성을 보장하기 위해 긴급 조치를 취해야 합니다. 다음은 미디어 유형 SSD에서 최대 1-2밀리초, SAS에서 최대 8-10밀리초, SATA HDD에서 17-20밀리초에 기반한 예상 지연 시간 입니다</block>
-  <block id="ac4240b897ee9afaffeaa2f7900d7aeb" category="cell">중요 임계값이 위반되면 다음과 같은 즉각적인 조치를 수행하여 서비스 중단을 최소화할 수 있습니다. LUN 또는 해당 볼륨에 QoS 정책이 연결되어 있는 경우 임계값 제한을 평가하고 LUN 워크로드가 조절되고 있는지 확인하십시오. 경고 임계값이 위반될 경우 다음 조치를 취하십시오. 1. 애그리게이트에도 높은 사용률이 발생하는 경우 LUN을 다른 애그리게이트로 이동합니다. 2.노드 사용률도 높은 경우 볼륨을 다른 노드로 이동하거나 노드의 총 워크로드를 줄입니다. 3.LUN 또는 해당 볼륨에 연결된 QoS 정책이 있는 경우 임계값 제한을 평가하고 LUN 워크로드가 조절되는 원인이 되는지 확인합니다.</block>
-  <block id="790f5d94cbbd1a9a80e261016c046e89" category="cell">이 메시지는 LUN을 수동으로 오프라인 상태로 전환할 때 발생합니다.</block>
-  <block id="1192eeb21d304c5d169c6e224ed39d25" category="cell">하나 이상의 메인 유니트 팬에 장애가 발생했습니다. 시스템이 계속 작동합니다. 그러나 이 상태가 너무 오래 지속되면 과열 상태가 자동 종료를 트리거할 수 있습니다.</block>
-  <block id="692226afd760c4be1a4f564e2be9d79d" category="cell">TCP 연결을 통해 사용자당 허용되는 최대 세션 수를 초과했습니다. 세션 설정 요청은 일부 세션이 해제될 때까지 거부됩니다.</block>
-  <block id="6bdfb7584c9d443a9d2df891ea8ec18c" category="cell">다음 교정 조치를 수행합니다. 1. 클라이언트에서 실행되는 모든 응용 프로그램을 검사하고 제대로 작동하지 않는 응용 프로그램을 모두 종료합니다. 클라이언트를 재부팅합니다. 문제가 새 응용 프로그램 또는 기존 응용 프로그램으로 인해 발생하는지 확인합니다. a. 애플리케이션을 새로 만든 경우 "cifs option modify -max -Opens -same -file -per -tree" 명령을 사용하여 클라이언트에 대한 임계값을 높게 설정합니다. 클라이언트가 예상대로 작동하지만 더 높은 임계값이 필요한 경우도 있습니다. 클라이언트에 대해 더 높은 임계값을 설정하려면 고급 권한이 있어야 합니다. b. 기존 응용 프로그램으로 인해 문제가 발생한 경우 클라이언트에 문제가 있을 수 있습니다. 자세한 정보 또는 지원 정보는 NetApp 기술 지원 부서에 문의하십시오.</block>
-  <block id="847265cdaf43aafcc51c97db30fe3d41" category="cell">TCP 연결을 통해 파일을 열 수 있는 최대 횟수를 초과했습니다. 이 파일을 열기 위한 모든 요청은 파일의 일부 열린 인스턴스를 닫기 전까지 거부됩니다. 이는 일반적으로 비정상적인 응용 프로그램 동작을 나타냅니다.</block>
-  <block id="0e80e84dca99b8f89ca138ef5d924fbc" category="cell">다음 교정 조치를 수행합니다. 1. 이 TCP 연결을 사용하여 클라이언트에서 실행되는 응용 프로그램을 검사합니다. 응용 프로그램이 실행되고 있기 때문에 클라이언트가 제대로 작동하지 않을 수 있습니다. 클라이언트를 재부팅합니다. 문제가 새 응용 프로그램 또는 기존 응용 프로그램으로 인해 발생하는지 확인합니다. a. 애플리케이션을 새로 만든 경우 "cifs option modify -max -Opens -same -file -per -tree" 명령을 사용하여 클라이언트에 대한 임계값을 높게 설정합니다. 클라이언트가 예상대로 작동하지만 더 높은 임계값이 필요한 경우도 있습니다. 클라이언트에 대해 더 높은 임계값을 설정하려면 고급 권한이 있어야 합니다. b. 기존 응용 프로그램으로 인해 문제가 발생한 경우 클라이언트에 문제가 있을 수 있습니다. 자세한 정보 또는 지원 정보는 NetApp 기술 지원 부서에 문의하십시오.</block>
-  <block id="776e514131cfb22ec9f895aaf06bcf2a" category="cell">다음 수정 조치 중 하나를 수행하십시오. * NetBIOS 이름 또는 별칭에 충돌이 있는 경우 다음 중 하나를 수행합니다. - "vserver cifs delete -alias -vserver vserver vserver" 명령을 사용하여 중복 NetBIOS 별칭을 삭제합니다. - "vserver cifs create-alias alias -vserver vserver" 명령을 사용하여 중복 이름을 삭제하고 새 이름으로 별칭을 추가하여 NetBIOS 별칭 이름을 변경합니다. * 별칭이 구성되지 않고 NetBIOS 이름에 충돌이 있는 경우 "vserver cifs delete -vserver vserver vserver vserver" 및 "vserver cifs create -cifs -server netbiosname" 명령을 사용하여 CIFS 서버의 이름을 변경하십시오. 참고: CIFS 서버를 삭제하면 데이터에 액세스할 수 없습니다. * 원격 컴퓨터에서 NetBIOS 이름을 제거하거나 NetBIOS 이름을 변경합니다.</block>
-  <block id="45fab1d357d536bfd493e525466b4752" category="cell">네트워크 포트는 고객 호스트 시스템과 ONTAP 볼륨 간에 NFS, CIFS 및 iSCSI 프로토콜 트래픽을 수신하고 전송하는 데 사용됩니다. 포트 활용률이 높을 경우 병목 현상이 발생하고 궁극적으로 NFS, CIFS 및 iSCSI 워크로드의 성능에 영향을 줍니다. 경고 알림은 네트워크 트래픽의 균형을 맞추기 위해 계획된 조치를 취해야 함을 나타냅니다. 긴급 경고는 서비스 중단이 임박했음을 나타내며, 서비스 연속성을 보장하기 위해 네트워크 트래픽의 균형을 조정하기 위해 긴급 조치를 취해야 합니다.</block>
-  <block id="f4e0b2123583d3b60dec7f023bbeb31c" category="cell">중요 임계값이 위반되면 다음과 같은 즉각적인 조치를 수행하여 서비스 중단을 최소화하십시오. 1. ONTAP의 QoS 정책 또는 호스트 측 분석을 통해 네트워크 포트 활용률을 감소시키고 특정 볼륨의 트래픽을 필수 작업으로만 제한합니다. 사용률이 낮은 다른 네트워크 포트를 사용하도록 하나 이상의 볼륨을 구성합니다. 경고 임계값이 위반될 경우 다음 조치를 취하십시오. 1. 포트 사용률이 더 많은 포트에 분산되도록 데이터 트래픽을 처리할 네트워크 포트를 더 많이 구성합니다. 사용률이 낮은 다른 네트워크 포트를 사용하도록 하나 이상의 볼륨을 구성합니다.</block>
-  <block id="4ec556ea0c6d62ab4d87476112c32e7a" category="cell">다음 교정 조치를 수행합니다. 1. 바이러스 백신 서버에 설치된 검사 엔진 소프트웨어가 ONTAP와 호환되는지 확인합니다. 로컬 루프백을 통해 바이러스 백신 커넥터에 연결하도록 스캔 엔진 소프트웨어가 실행 중이고 구성되어 있는지 확인합니다.</block>
-  <block id="6de8d2e7d17a7464807dcd310662026e" category="cell">중요 임계값이 위반되면 서비스 중단을 최소화하기 위해 즉각적인 조치를 취해야 합니다. 1. 예약된 작업, 스냅샷 또는 SnapMirror 복제를 일시 중지합니다. 2. QoS 제한을 통해 낮은 우선 순위 워크로드의 요구 감소 3. 중요하지 않은 워크로드를 비활성화할 경우 경고 임계값이 위반될 때 즉시 조치를 고려합니다. 1. 하나 이상의 워크로드를 다른 스토리지 위치로 이동 2. QoS 제한을 통해 낮은 우선 순위 워크로드의 요구 감소 3. 스토리지 노드(AFF) 또는 디스크 쉘프(FAS) 추가 및 워크로드 재배포 4. 워크로드 특성 변경(블록 크기, 애플리케이션 캐싱 등)</block>
-  <block id="84cd62b6bea368f88fabd9879b65fa8e" category="cell">중요 임계값이 위반될 경우 서비스 중단을 최소화하기 위해 즉각적인 조치를 취해야 합니다. 1. 예약된 작업, 스냅샷 또는 SnapMirror 복제를 일시 중지합니다. 2. QoS 제한을 통해 낮은 우선 순위 워크로드의 요구 감소 3. 중요하지 않은 워크로드를 사용하지 않는 경우 경고 임계값이 위반될 경우 다음 작업을 고려하십시오. 1. 하나 이상의 워크로드를 다른 스토리지 위치로 이동 2. QoS 제한을 통해 낮은 우선 순위 워크로드의 요구 감소 3. 스토리지 노드(AFF) 또는 디스크 쉘프(FAS) 추가 및 워크로드 재배포 4. 워크로드 특성 변경(블록 크기, 애플리케이션 캐싱 등)</block>
-  <block id="498b9080713e930d58d6a4be228a6970" category="cell">다음 교정 조치를 수행합니다. 1. 이전 Snapshot 복사본을 삭제하거나, /mroot 디렉토리에서 더 이상 필요하지 않은 파일을 삭제하거나, 루트 볼륨 용량을 확장하여 루트 볼륨의 공간을 확보하십시오. 컨트롤러를 재부팅합니다. 자세한 정보 또는 지원 정보는 NetApp 기술 지원 부서에 문의하십시오.</block>
-  <block id="9752146634a59a9f1a5f70ff1a358220" category="cell">응답하지 않는 바이러스 백신 서버</block>
-  <block id="03fcd847dc1726b2adf9d7caec2470f1" category="cell">이 이벤트는 ONTAP(R)이 응답하지 않는 AV(바이러스 백신) 서버를 감지하여 Vscan 연결을 강제로 닫을 때 발생합니다.</block>
-  <block id="84d79cc8b76b1c87f14f6175d78e942a" category="cell">AV 커넥터에 설치된 AV 서버가 SVM(Storage Virtual Machine)에 연결되어 스캔 요청을 받을 수 있는지 확인합니다.</block>
-  <block id="721fab84bff6414011f3779d88867b2d" category="cell">NVMe 네임스페이스가 제거되었습니다</block>
-  <block id="5e62f05db6de18d76e6a2980c16eb2ec" category="cell">이 이벤트는 NVMe 네임스페이스가 제거될 때 발생합니다.</block>
-  <block id="2a847e02b0c317d82783be5178266c7c" category="cell">NVMe 네임스페이스는 데이터베이스와 같이 성능에 민감한 응용 프로그램에 의해 종종 발생하는 I/O 트래픽을 처리하는 개체입니다. 높은 NVMe 네임스페이스 지연 시간은 응용 프로그램 자체가 어려움을 겪을 수 있으며 작업을 수행할 수 없음을 의미합니다. 경고 알림은 LUN을 적절한 노드 또는 Aggregate로 이동하기 위해 계획된 작업을 수행해야 함을 나타냅니다. 긴급 경고는 서비스 중단이 임박했음을 나타내며, 서비스 연속성을 보장하기 위해 긴급 조치를 취해야 합니다.</block>
-  <block id="e2d5de16747debed005d4168bdffdcd4" category="cell">중요 임계값이 위반되면 즉시 조치를 수행하여 서비스 중단을 최소화하십시오. NVMe 네임스페이스 또는 해당 볼륨에 QoS 정책이 할당된 경우 NVMe 네임스페이스 워크로드의 제한이 유발되는 경우 제한 임계값을 평가해 보십시오. 경고 임계값이 위반되면 다음 조치를 취하십시오. 1. 애그리게이트에도 높은 사용률이 발생하는 경우 LUN을 다른 애그리게이트로 이동합니다. 2.노드 사용률도 높은 경우 볼륨을 다른 노드로 이동하거나 노드의 총 워크로드를 줄입니다. NVMe 네임스페이스 또는 해당 볼륨에 QoS 정책이 할당된 경우 NVMe 네임스페이스 워크로드가 제한되지 않도록 제한 임계값을 평가합니다.</block>
-  <block id="664c37f0ecd058a31c6dcac229532d65" category="cell">NVMe 네임스페이스 오프라인</block>
-  <block id="1752bb5b659936090c8349f33b76c1be" category="cell">이 이벤트는 NVMe 네임스페이스를 수동으로 오프라인 상태로 가져올 때 발생합니다.</block>
-  <block id="46b149ef7b2c99176c0ddf2261efc9b1" category="cell">NVMe 네임스페이스 온라인</block>
-  <block id="5038f23a9607a6f0fd794ac78ad6bc2c" category="cell">이 이벤트는 NVMe 네임스페이스를 수동으로 온라인 상태로 가져올 때 발생합니다.</block>
-  <block id="1ceaaf0785aa06690e62e4a20abf7d07" category="cell">NVRAM 배터리 용량이 매우 부족합니다. 배터리가 방전되면 데이터가 손실될 수 있습니다. 시스템에서 AutoSupport 또는 "Call Home" 메시지를 생성하여 NetApp 기술 지원 부서 및 구성된 대상(구성된 경우)에게 전송합니다. AutoSupport 메시지를 성공적으로 전달하면 문제 확인 및 해결이 크게 향상됩니다.</block>
-  <block id="6c80339ddb45e1ac7e1640cb5c562fab" category="cell">다음 교정 조치를 수행합니다. 1. "system node environment sensors show" 명령을 사용하여 배터리의 현재 상태, 용량 및 충전 상태를 확인합니다. 2.최근에 배터리를 교체했거나 시스템이 오랫동안 작동하지 않는 경우 배터리를 모니터링하여 제대로 충전되고 있는지 확인하십시오. 배터리 작동 시간이 중요 수준 미만으로 계속 감소하고 스토리지 시스템이 자동으로 종료된 경우 NetApp 기술 지원 부서에 문의하십시오.</block>
-  <block id="e6980860d52572dcb1f95f4ed6dbc6ec" category="cell">다음 교정 조치를 수행합니다. 1. "네트워크 인터페이스 show-role 인터클러스터" 명령을 사용하여 인터클러스터 LIF 상태를 확인합니다. 인터클러스터 LIF가 올바르게 구성되고 작동하는지 확인합니다. 인터클러스터 LIF가 구성되지 않은 경우 "네트워크 인터페이스 create-role 인터클러스터" 명령을 사용하여 이를 추가하십시오.</block>
-  <block id="769fced2b5a3129c69f11bd969250729" category="cell">ONTAP 볼륨 용량이 가득 찼습니다</block>
-  <block id="29909017a3499717933b8d2611a8c2e9" category="cell">중요 임계값이 위반되면 다음과 같은 즉각적인 조치를 수행하여 서비스 중단을 최소화하십시오. 1. 성장에 맞춰 볼륨 공간을 늘리십시오. 필요 없는 데이터를 삭제하여 공간을 확보하십시오. 스냅샷 복사본이 스냅샷 예비 공간보다 더 많은 공간을 차지하는 경우 이전 스냅샷을 삭제하거나 볼륨 스냅샷 자동 삭제를 설정합니다. 경고 임계값이 위반되면 다음과 같은 즉각적인 조치를 취하십시오. 1. 성장을 수용하기 위해 볼륨의 공간을 늘립니다. 스냅샷 복사본이 스냅숏 예비 공간보다 더 많은 공간을 차지하는 경우 이전 스냅숏을 삭제하거나 볼륨 스냅숏 자동 삭제 를 활성화합니다.</block>
-  <block id="485e2d4369b8e78f8cfdef946e234930" category="cell">영구 볼륨 용량이 가득 찼습니다</block>
-  <block id="4b62833941261b11e9ec24f35415c18f" category="cell">애플리케이션 및 고객 데이터를 저장하려면 영구 볼륨의 스토리지 용량이 필요합니다. 영구 볼륨에 더 많은 데이터를 저장할수록 향후 데이터에 대한 스토리지 가용성이 줄어듭니다. 영구 볼륨 내의 데이터 스토리지 용량이 총 스토리지 용량에 도달하면 스토리지 용량 부족으로 인해 고객이 데이터를 저장할 수 없게 될 수 있습니다. 영구 볼륨 사용 스토리지 용량을 모니터링하면 데이터 서비스의 연속성이 보장됩니다.</block>
-  <block id="6137cbf5a2c5e9badca118fe2c347fb5" category="cell">중요 임계값이 위반되면 즉각적인 조치를 고려하여 서비스 중단을 최소화하십시오. 1. 성장을 수용하기 위해 볼륨의 공간을 늘립니다. 필요 없는 데이터를 삭제하여 공간을 확보하십시오. 경고 임계값이 위반되면 즉시 증가량을 수용하기 위해 볼륨의 공간을 늘립니다.</block>
-  <block id="b50c21eaa4dde5dcceb05f3d5e10e7c3" category="cell">영구 볼륨 IOPS</block>
-  <block id="6c9ec438e3631bf1c7e8015a59483d79" category="cell">영구 볼륨의 IOPS 임계값은 영구 볼륨이 사전 정의된 성능 기대치를 초과할 때 관리자에게 경고하는 데 사용할 수 있습니다. 이 모니터를 활성화하면 지속성 볼륨의 일반적인 IOPS 프로필에 적합한 알림이 생성됩니다. 이 모니터는 사용자 환경의 모든 영구 볼륨에 적용됩니다. 경고 및 임계 임계값은 이 모니터를 복제한 후 작업 부하에 적합한 임계값을 설정하여 모니터링 목표에 따라 조정할 수 있습니다. 중요 임계값이 위반되면 즉각적인 조치를 계획하여 서비스 중단을 최소화합니다. 1. 볼륨에 대한 QoS IOPS 한도를 소개합니다. 볼륨에서 워크로드의 이상 징후를 유도하는 애플리케이션을 검토합니다. 경고 임계값이 위반되면 다음과 같은 즉각적인 조치를 계획하십시오. 1. 볼륨에 대한 QoS IOPS 한도를 소개합니다. 볼륨에서 워크로드의 이상 징후를 유도하는 애플리케이션을 검토합니다.</block>
-  <block id="a0fc1910fcbc18de2726e16e8e450c0e" category="cell">영구 볼륨 지연 시간 높음</block>
-  <block id="acf1a4cb85a03e701ce12c2b5af1697c" category="cell">높은 영구 볼륨 대기 시간은 애플리케이션 자체에서 문제를 겪고 있으며 작업을 수행할 수 없음을 의미합니다. 애플리케이션의 일관된 성능을 유지하려면 지속적인 볼륨 지연 시간을 모니터링하는 것이 중요합니다. 다음은 미디어 유형-SSD에서 최대 1-2밀리초, SAS에서 최대 8-10밀리초, SATA HDD에서 17-20밀리초를 기준으로 한 예상 지연 시간 입니다.</block>
-  <block id="6e189f6b8dcb323edd360029ef769041" category="cell">중요 임계값이 위반되면 즉각적인 조치를 통해 서비스 중단을 최소화합니다. 볼륨에 QoS 정책이 할당된 경우 볼륨 워크로드의 제한이 조절되는 경우를 대비하여 제한 임계값을 평가합니다. 경고 임계값이 위반되면 다음과 같은 즉각적인 조치를 계획하십시오. 1. 스토리지 풀에서도 사용률이 높은 경우 볼륨을 다른 스토리지 풀로 이동합니다. 볼륨에 QoS 정책이 할당된 경우 볼륨 워크로드의 제한이 발생하는 경우 해당 제한 임계값을 평가합니다. 3.컨트롤러에 사용률도 높은 경우 볼륨을 다른 컨트롤러로 이동하거나 컨트롤러의 총 워크로드를 줄입니다.</block>
-  <block id="5c8d95aa52f5f7fa3c761dc1931f2437" category="cell">영구 볼륨 처리량</block>
-  <block id="84cdbe028107601ea07bb45b41f70605" category="cell">영구 볼륨의 Mbps 임계값은 영구 볼륨이 사전 정의된 성능 기대치를 초과할 때 관리자에게 경고하는 데 사용할 수 있으며, 다른 영구 볼륨에 영향을 줄 수 있습니다. 이 모니터를 활성화하면 SSD의 영구 볼륨의 일반적인 처리량 프로필에 적합한 알림이 생성됩니다. 이 모니터는 사용자 환경의 모든 영구 볼륨에 적용됩니다. 이 모니터를 복제하거나 스토리지 클래스에 적합한 임계값을 설정하여 모니터링 목표에 따라 경고 및 위험 임계값을 조정할 수 있습니다. 이중화 모니터는 사용자 환경에서 영구 볼륨의 하위 세트에 더욱 초점을 맞춤 구성할 수 있습니다.</block>
-  <block id="8c5df3185eea234d084d6983ecb13532" category="cell">중요 임계값이 위반되면 즉각적인 조치를 계획하여 서비스 중단을 최소화합니다. 1. 볼륨에 대한 QoS MBps 제한을 소개합니다. 볼륨에서 워크로드의 이상 징후를 유도하는 애플리케이션을 검토합니다. 경고 임계값이 위반되면 다음과 같은 즉각적인 조치를 취하십시오. 1. 볼륨에 대한 QoS MBps 제한을 소개합니다. 볼륨에서 워크로드의 이상 징후를 유도하는 애플리케이션을 검토합니다.</block>
-  <block id="5afd7a3b86246d7571c9844e9b576764" category="cell">QoS Monitor 메모리 최대 용량</block>
-  <block id="838e98a35aec49a20bcc86fbaec3922c" category="cell">이 이벤트는 QoS 하위 시스템의 동적 메모리가 현재 플랫폼 하드웨어에 대한 제한에 도달할 때 발생합니다. 결과적으로 일부 QoS 기능이 제한된 용량으로 작동할 수 있습니다.</block>
-  <block id="d779b550844ff28eed98d1fdcf0f46bb" category="cell">일부 활성 워크로드 또는 스트림을 삭제하여 메모리를 확보하십시오. "statistics show -object workload -counter ops" 명령을 사용하여 활성 워크로드를 확인합니다. 활성 워크로드는 0이 아닌 작업을 표시합니다. 그런 다음 "workload_name&gt;" 명령을 여러 번 사용하여 특정 워크로드를 제거합니다. 또는 "stream delete -workload &lt;워크로드 이름&gt; * " 명령을 사용하여 활성 작업 부하에서 연결된 스트림을 삭제합니다.</block>
-  <block id="fd9f008e9e7467796abf098d86a9a278" category="cell">qtree는 논리적으로 정의된 파일 시스템으로, 볼륨 내의 루트 디렉토리에 있는 특수 하위 디렉토리로 존재할 수 있습니다. 각 qtree에는 볼륨 용량 내에 트리에 저장되는 데이터의 양을 제한하기 위해 기본 공간 할당량 또는 할당량 정책이 정의하는 할당량이 있습니다. 경고 알림은 공간을 늘리기 위해 계획된 조치를 취해야 함을 나타냅니다. 긴급 경고는 서비스 중단이 임박했음을 나타내며, 서비스 연속성을 보장하기 위해 공간을 확보하기 위해 긴급 조치를 취해야 합니다.</block>
-  <block id="ca003f136dbd84dbf56ed52bcb47ed9a" category="cell">중요 임계값이 위반되면 즉각적인 조치를 고려하여 서비스 중단을 최소화하십시오. 1. 성장을 수용할 수 있도록 qtree의 공간을 늘리십시오. 필요 없는 데이터를 삭제하여 공간을 확보하십시오. 중요 임계값이 위반될 경우 다음과 같은 즉각적인 조치를 취하십시오. 1. 성장을 수용할 수 있도록 qtree의 공간을 늘리십시오. 필요 없는 데이터를 삭제하여 공간을 확보하십시오.</block>
-  <block id="426192bdffaec53b18ac8bd95de8e780" category="cell">qtree는 논리적으로 정의된 파일 시스템으로, 볼륨 내의 루트 디렉토리에 있는 특수 하위 디렉토리로 존재할 수 있습니다. 각 qtree에는 사용자 데이터의 볼륨 증가를 제어하고 총 용량을 초과하지 않도록 데이터를 저장하는 데 사용할 수 있는 공간 할당량이 KBytes 단위로 측정됩니다. qtree는 소프트 스토리지 용량 할당량을 유지하므로, qtree의 총 용량 할당량 제한에 도달하고 더 이상 데이터를 저장할 수 없습니다. Qtree에 저장된 데이터의 양을 모니터링하면 사용자가 무중단 데이터 서비스를 받을 수 있습니다.</block>
-  <block id="ab8981e050d1d661f2b789bcb1d19d4f" category="cell">중요 임계값이 위반되면 즉각적인 조치를 고려하여 서비스 중단을 최소화하십시오. 1. 확장을 수용하기 위해 트리 공간 할당량을 늘립니다. 2.트리에서 불필요한 데이터를 삭제하여 공간을 확보하도록 사용자에게 지시합니다.</block>
-  <block id="89e8f1554443431e2ffbf024ed58ef36" category="cell">경고 임계값이 위반되면 다음과 같은 즉각적인 조치를 고려하십시오. 1. 증가량을 수용하기 위해 트리 공간 할당량을 늘립니다. 2. 사용자에게 트리에서 불필요한 데이터를 삭제하여 공간을 확보하도록 지시합니다</block>
-  <block id="96b6a386e3c58ab038ca787c5d6234d8" category="cell">qtree는 논리적으로 정의된 파일 시스템으로, 볼륨 내의 루트 디렉토리에 있는 특수 하위 디렉토리로 존재할 수 있습니다. 각 qtree에는 볼륨 내에서 관리할 수 있는 파일 시스템 크기를 유지하기 위해 포함할 수 있는 파일 수의 할당량이 있습니다. Qtree는 하드 파일 번호 할당량을 유지하므로 트리에 있는 새 파일이 거부됩니다. Qtree 내에서 파일 수를 모니터링하면 사용자가 무중단 데이터 서비스를 받을 수 있습니다.</block>
-  <block id="636902bce8f40c620503491b34eceaab" category="cell">중요 임계값이 위반되면 즉각적인 조치를 고려하여 서비스 중단을 최소화하십시오. 1. qtree의 파일 수 할당량을 늘립니다. qtree 파일 시스템에서 필요 없는 파일을 삭제합니다.</block>
-  <block id="3b603c15eac4e372e6a5548d32a69721" category="cell">qtree는 논리적으로 정의된 파일 시스템으로, 볼륨 내의 루트 디렉토리에 있는 특수 하위 디렉토리로 존재할 수 있습니다. 각 qtree에는 볼륨 내에서 관리할 수 있는 파일 시스템 크기를 유지하기 위해 포함할 수 있는 파일 수의 할당량이 있습니다. qtree에서 파일 제한에 도달하고 추가 파일을 저장할 수 없도록 하기 전에 사용자에게 사전 경고를 보내기 위해 파일 번호 할당량이 소프트 파일 번호 할당량으로 유지됩니다. Qtree 내에서 파일 수를 모니터링하면 사용자가 무중단 데이터 서비스를 받을 수 있습니다.</block>
-  <block id="7c02bb05383c4cbbdf305cda47fa2967" category="cell">경고 임계값이 위반되면 다음과 같은 즉각적인 조치를 취하십시오. 1. qtree의 파일 수 할당량을 늘립니다. qtree 파일 시스템에서 필요 없는 파일을 삭제합니다.</block>
-  <block id="20d961a704b313f94daf998f5ef1ba32" category="cell">감지된 랜섬웨어로부터 데이터를 보호하기 위해 원래 데이터를 복원하는 데 사용할 수 있는 스냅샷 복사본이 생성되었습니다. 시스템은 AutoSupport 기술 지원 부서 및 구성된 모든 대상으로 또는 "Call Home" 메시지를 생성하고 전송합니다. AutoSupport 메시지는 문제 확인 및 해결을 향상시킵니다.</block>
-  <block id="d3dbf07cff6200218611b7ed62d64fb1" category="cell">다음 교정 조치를 수행합니다. 1. readdir 파일 작업이 만료된 최근 디렉토리와 관련된 정보를 찾으려면 다음 'dag' 권한 nodeswell CLI 명령을 사용합니다. WAFL readdir notice show. 2.디렉토리가 스파스 또는 NOT로 표시되는지 확인합니다. a. 디렉토리가 스파스(Sparse)로 표시되는 경우 디렉토리의 내용을 새 디렉토리에 복사하여 디렉토리 파일의 스파를 제거하는 것이 좋습니다. b. 디렉토리가 스파스(Sparse)로 표시되지 않고 디렉토리가 큰 경우 디렉토리의 파일 항목 수를 줄여 디렉토리 파일의 크기를 줄이는 것이 좋습니다.</block>
-  <block id="26fbb96fe37ace76b8e23fde0055a61a" category="cell">다음 교정 조치를 수행합니다. 1. "network interface show" 명령을 사용하여 인터클러스터 LIF가 온라인이고 작동하는지 확인합니다. 대상 노드 인터클러스터 LIF에서 "'ping" 명령을 사용하여 오브젝트 저장소 서버에 대한 네트워크 연결을 확인합니다. 오브젝트 저장소 구성이 변경되지 않았는지, "aggregate object-store config show" 명령을 사용하여 로그인 및 연결 정보가 여전히 정확한지 확인하십시오. 또는 relocation 명령의 "override-destination-checks" 매개 변수를 사용하여 오류를 재정의할 수 있습니다. 자세한 정보 또는 지원 정보는 NetApp 기술 지원 부서에 문의하십시오.</block>
-  <block id="27a9c8e4c435d56f23c9f2c1cc686537" category="cell">SAN "active-active" 상태가 변경되었습니다</block>
-  <block id="acd0bd203f83c8e246953a17c479099d" category="cell">SAN 경로 지정은 더 이상 대칭이 아닙니다. AFF와 FAS는 모두 비대칭이므로 경로 지정은 ASA에서만 비대칭이어야 합니다.</block>
-  <block id="324c64be74e20c3a53ad8008caff11cc" category="cell">"active-active" 상태를 활성화해 보십시오. 문제가 지속되면 고객 지원 센터에 문의하십시오.</block>
-  <block id="8753f4b8738bc48f6e1974882b7f0e41" category="cell">다음 교정 조치를 수행합니다. 1. "system service-processor network modify" 명령을 사용하여 SP를 구성합니다. "system service-processor network show" 명령을 사용하여 선택적으로 SP의 MAC 주소를 얻습니다. "system service-processor network show" 명령을 사용하여 SP 네트워크 구성을 확인합니다. 4.SP가 "system service-processor AutoSupport invoke" 명령을 사용하여 AutoSupport e-메일을 보낼 수 있는지 확인합니다. 참고: 이 명령을 실행하기 전에 AutoSupport e-메일 호스트 및 수신자를 ONTAP에서 구성해야 합니다.</block>
-  <block id="4b4cbe103b0d0df2dc6bba4ae8a0430e" category="cell">모든 SP 복구 작업이 수행되더라도 ONTAP는 더 이상 서비스 프로세서(SP)로부터 하트비트를 수신하지 않습니다. ONTAP는 SP 없이는 하드웨어 상태를 모니터링할 수 없습니다. 하드웨어 손상 및 데이터 손실을 방지하기 위해 시스템이 종료됩니다. SP가 오프라인이 될 때 즉시 알림을 받을 수 있도록 패닉 알림을 설정합니다.</block>
-  <block id="9dc97cb41e02cafb018a10e82ddfe761" category="cell">다음 작업을 수행하여 시스템 전원을 껐다가 켭니다. 1. 섀시에서 컨트롤러를 당겨 꺼냅니다. 컨트롤러를 다시 밀어 넣습니다. 컨트롤러를 다시 켭니다. 문제가 지속되면 컨트롤러 모듈을 교체합니다.</block>
-  <block id="f95402dfd980ea34e2015a09eca96160" category="cell">이벤트 메시지에 제공된 정보를 사용하여 다음을 확인하십시오. * 섀도 복사본 구성이 활성화되어 있습니까? * 적절한 라이센스가 설치되었습니까? * 섀도 복사본 작업이 수행되는 공유는 무엇입니까? * 공유 이름이 정확합니까? * 공유 경로가 존재합니까? * 섀도 복사본 세트와 섀도 복사본의 상태는 어떻습니까?</block>
-  <block id="15bdba2f70b788ec5d95d638ac4f39f2" category="cell">쉘프 팬 실패</block>
-  <block id="14d8851b516b7ecad8b7dfb87169f046" category="cell">다음 교정 조치를 수행합니다. 1. 팬 모듈이 완전히 장착되고 고정되었는지 확인합니다. 참고: 일부 디스크 쉘프의 전원 공급 장치 모듈에 팬이 통합되어 있습니다. 문제가 지속되면 팬 모듈을 교체합니다. 문제가 지속되면 NetApp 기술 지원 팀에 문의하여 지원을 요청하십시오.</block>
-  <block id="705f553c53a10b3d987f138b81d9b95e" category="cell">SnapMirror 관계가 동기화되지 않았습니다</block>
-  <block id="1815efa407cb7faf4a44c75f19f1caad" category="cell">이 이벤트는 SnapMirror(R) Sync 관계 상태가 "동기화 중"에서 "동기화 중단"으로 변경될 때 발생합니다. 복제 모드에 따라 소스 볼륨에 입출력 제한이 적용됩니다. "strict-sync-mirror" 정책 유형의 관계에 대해서는 볼륨에 대한 클라이언트 읽기 또는 쓰기 액세스가 허용되지 않습니다. 데이터 보호에 영향이 있습니다.</block>
-  <block id="595ad2858891e8eab7c8cb2022daca4c" category="cell">소스 볼륨과 대상 볼륨 간의 네트워크 연결을 확인합니다. "SnapMirror show" 명령을 사용하여 SnapMirror Sync 관계 상태를 모니터링합니다. "자동 재동기화"는 관계를 "동기화 중" 상태로 다시 설정합니다.</block>
-  <block id="b5a54a4b3f357420311ad90346b58b87" category="cell">중요 임계값이 위반되면 즉각적인 조치를 고려하여 서비스 중단을 최소화하십시오. 1. 스냅숏 예비 공간이 가득 찼을 때 볼륨의 데이터 공간을 사용하도록 스냅숏을 구성합니다. 2.오래된 원치 않는 스냅샷을 삭제하여 공간을 확보하십시오. 경고 임계값이 위반되면 다음과 같은 즉각적인 조치를 취하십시오. 1. 증가량을 수용하기 위해 볼륨 내에서 스냅숏 예비 공간을 늘립니다. 스냅숏 예비 공간이 가득 찼을 때 볼륨의 데이터 공간을 사용하도록 스냅숏을 구성합니다.</block>
-  <block id="824204371860f6b6c0f8f696fffe543a" category="cell">중요 임계값이 위반되면 즉시 다음 작업을 고려하여 서비스 중단을 최소화합니다. 1. 중요하지 않은 볼륨에서 스냅샷을 삭제합니다. 2.불필요한 워크로드이고 스토리지 복사본에서 복원할 수 있는 볼륨 또는 LUN을 삭제합니다. 경고 임계값이 위반되면 다음과 같은 즉각적인 조치를 계획하십시오. 1. 하나 이상의 볼륨을 다른 스토리지 위치로 이동합니다. 스토리지 용량을 추가합니다. 3.스토리지 효율성 설정을 변경하거나 비활성 데이터를 클라우드 스토리지로 계층화합니다.</block>
-  <block id="983af71bda3d7013e25f14ed08c62afe" category="cell">스토리지 시스템의 성능 제한이 도달하면 작업이 느려지고 지연 시간이 초과되며 워크로드 및 애플리케이션이 장애를 시작할 수 있습니다. ONTAP는 작업 부하에 따른 스토리지 풀 사용률을 평가하고 사용된 성능 비율을 예측합니다. 경고 알림은 워크로드 피크를 처리할 수 있는 충분한 스토리지 풀 성능을 유지하기 위해 스토리지 풀 로드를 줄이기 위해 계획된 작업을 수행해야 함을 나타냅니다. 중요 알림은 서비스 지속성을 보장하기 위해 스토리지 풀 로드를 줄이기 위해 성능 중단이 임박했음을 나타내며 긴급 조치를 취해야 합니다.</block>
-  <block id="ce7857af3aa9b0297504234a99babf6e" category="cell">중요 임계값이 위반되면 다음과 같은 즉각적인 조치를 수행하여 서비스 중단을 최소화하십시오. 1. 스냅샷 또는 SnapMirror 복제와 같은 예약된 작업을 일시 중단합니다. 2.유휴 비필수 워크로드 경고 임계값이 위반되면 즉시 다음 조치를 취하십시오. 1. 하나 이상의 워크로드를 다른 스토리지 위치로 이동합니다. AFF(스토리지 노드) 또는 FAS(디스크 쉘프)를 더 추가하고 워크로드를 재배포합니다. 워크로드 특성(블록 크기, 애플리케이션 캐싱)을 변경합니다.</block>
-  <block id="76a19a6b16821480bd8444783c92a6f1" category="cell">다음 교정 조치를 수행합니다. 1. 클러스터 스위치에 전원을 공급하는 주 전원이 켜져 있는지 확인합니다. 전원 코드가 전원 공급 장치에 연결되어 있는지 확인합니다. 문제가 지속되면 NetApp 기술 지원 팀에 문의하십시오.</block>
-  <block id="e50235d02821473521421d0f95ed3f20" category="cell">중요 임계값이 위반되면 QoS 정책이 할당된 스토리지 VM의 볼륨에 대한 임계값 제한을 즉시 평가하여 볼륨 워크로드가 조절되는지 확인합니다. 경고 임계값이 위반되면 즉시 다음 작업을 고려하십시오. 1. 애그리게이트에도 높은 사용률이 발생하는 경우 스토리지 VM의 일부 볼륨을 다른 애그리게이트로 이동합니다. QoS 정책이 할당된 스토리지 VM의 볼륨에 대해 볼륨 워크로드가 조절되는 경우 임계값 제한을 평가합니다 3. 노드에 높은 사용률이 발생한 경우 스토리지 VM의 일부 볼륨을 다른 노드로 이동하거나 노드의 총 워크로드를 줄입니다</block>
-  <block id="db35773adeb2242873ed80023c309882" category="cell">다음 교정 조치를 수행합니다. 1. "disk show -n" 명령을 사용하여 할당되지 않은 디스크를 확인합니다. "disk assign" 명령을 사용하여 시스템에 디스크를 할당합니다.</block>
-  <block id="a8d25431aa1f6f6758a1f40a114995a0" category="cell">다음 교정 조치를 수행합니다. 1. 언급된 사용자 이름과 IP 주소가 활성 Vscan 스캐너 풀 중 하나에 구성되어 있는지 확인합니다. "vserver vscan scanner pool show-active" 명령을 사용하여 현재 활성화된 스캐너 풀 구성을 확인합니다.</block>
-  <block id="d6feb3c0a981d2a5f0597271b8faa44f" category="cell">ONTAP는 볼륨 내의 볼륨, 파일 또는 디렉토리에 액세스할 권한이 있는 Unix 또는 Windows 시스템의 사용자를 인식합니다. 따라서 ONTAP를 통해 고객은 Linux 또는 Windows 시스템의 사용자 또는 사용자 그룹에 대한 스토리지 용량을 구성할 수 있습니다. 사용자 또는 그룹 정책 할당량은 사용자가 자신의 데이터에 사용할 수 있는 공간의 양을 제한합니다. 이 할당량의 하드 제한에서는 볼륨 내에서 사용된 용량이 전체 용량 할당량에 도달하기 전에 올바른 용량인지 사용자에게 알릴 수 있습니다. 사용자 또는 그룹 할당량 내에 저장된 데이터의 양을 모니터링하면 사용자가 중단 없는 데이터 서비스를 받을 수 있습니다.</block>
-  <block id="d50e12d0fbfdcd65137964792e0b6b14" category="cell">중요 임계값이 위반되면 다음과 같은 즉각적인 조치를 수행하여 서비스 중단을 최소화하십시오. 1. 확장을 수용하기 위해 사용자 또는 그룹 할당량의 공간을 늘립니다. 사용자 또는 그룹에 원치 않는 데이터를 삭제하여 공간을 확보하도록 지시합니다.</block>
-  <block id="ebd170a4b178144dc3ff103ea326d2b5" category="cell">ONTAP는 볼륨 내의 볼륨, 파일 또는 디렉토리에 액세스할 권한이 있는 Unix 또는 Windows 시스템의 사용자를 인식합니다. 따라서 ONTAP를 통해 고객은 Linux 또는 Windows 시스템의 사용자 또는 사용자 그룹에 대한 스토리지 용량을 구성할 수 있습니다. 사용자 또는 그룹 정책 할당량은 사용자가 자신의 데이터에 사용할 수 있는 공간의 양을 제한합니다. 이 할당량의 소프트 제한값을 사용하면 볼륨 내에서 사용된 용량이 총 용량 할당량에 도달할 때 사용자에게 사전 알림을 보낼 수 있습니다. 사용자 또는 그룹 할당량 내에 저장된 데이터의 양을 모니터링하면 사용자가 중단 없는 데이터 서비스를 받을 수 있습니다.</block>
-  <block id="b6fc831fe75fc6e094c5955ceed09468" category="cell">경고 임계값이 위반되면 다음과 같은 즉각적인 조치를 취하십시오. 1. 확장을 수용하기 위해 사용자 또는 그룹 할당량의 공간을 늘립니다. 필요 없는 데이터를 삭제하여 공간을 확보하십시오.</block>
-  <block id="52819267e5b1f2e2349a978f382334a1" category="cell">중요 임계값이 위반될 경우 서비스 중단을 최소화하기 위해 즉각적인 조치가 필요합니다. 다음 조치를 고려하십시오. 1. 특정 사용자에 대한 파일 개수 할당량을 늘립니다. 2. 필요 없는 파일을 삭제하여 특정 사용자의 파일 할당량에 대한 부담을 줄입니다</block>
-  <block id="6c69b0cec50b2435b436cb5409657acb" category="cell">경고 임계값이 위반될 경우 즉시 조치를 고려하십시오. 1. 특정 사용자 할당량에 대한 파일 개수 할당량을 늘립니다. 2. 필요 없는 파일을 삭제하여 특정 사용자의 파일 할당량에 대한 부담을 줄입니다</block>
-  <block id="aefb09259349a7a63ce0c8499d83d9a6" category="cell">Vscan 서버에서 저장소 시스템에 오류를 보고했습니다. 이는 일반적으로 바이러스가 발견되었음을 나타냅니다. 그러나 Vscan 서버의 다른 오류로 인해 이 이벤트가 발생할 수 있습니다. 파일에 대한 클라이언트 액세스가 거부됩니다. Vscan 서버는 설정 및 구성에 따라 파일을 정리하거나 격리하거나 삭제할 수 있습니다.</block>
-  <block id="6580f06429848e39013c55a236ee5d8b" category="cell">Volume Anti-랜섬웨어 모니터링 활성화(학습 모드)</block>
-  <block id="5c944485181d1e268a758d9ab0938b45" category="cell">볼륨 자동 크기 조정 실패</block>
-  <block id="5136aec052d7a6b07b4c2e8985d1c2bb" category="cell">볼륨의 자동 크기 조정이 실패했습니다. 수정 조치를 수행하지 않으면 볼륨에 공간이 부족할 수 있습니다.</block>
-  <block id="1b72d2996b2c6657cf0df5d699ce7506" category="cell">자동 크기 조정이 실패한 이유 분석: 볼륨이 최대 용량에 도달했습니까? 스토리지 풀(애그리게이트)의 공간이 부족합니까? 볼륨의 크기를 자동으로 조정할 때 볼륨의 최대 용량을 늘립니다.</block>
-  <block id="efc83f7260baf1b3eaf2a294710e5f7c" category="cell">볼륨 자동 크기 조정 성공</block>
-  <block id="02c2fdb35e7a2f9544c659e18f3b7b40" category="cell">이 이벤트는 볼륨의 자동 크기 조정이 성공한 경우에 발생합니다. 이 문제는 "AutoSize grow(자동 크기 조정 증가)" 옵션이 활성화되고 볼륨이 증가 임계값 비율에 도달하면 발생합니다.</block>
-  <block id="d51d3fcb88e949602d7bd11ea0197215" category="cell">중요 임계값이 위반되면 서비스 중단을 최소화하기 위해 즉각적인 조치를 취해야 합니다. 1. 일부 워크로드를 볼륨 노드에서 이동하여 IO 로드를 줄입니다 2. 아직 볼륨 노드에 있지 않은 경우 Flash Cache 3을 구매하여 추가하여 WAFL 캐시를 높입니다. QoS 제한을 통해 동일한 노드에서 낮은 우선 순위 워크로드의 요구를 줄입니다. 경고 임계값이 위반될 때 즉시 조치를 고려하십시오. 1. 일부 워크로드를 볼륨 노드에서 이동하여 IO 로드를 줄입니다 2. 아직 볼륨 노드에 있지 않은 경우 Flash Cache 3을 구매하여 추가하여 WAFL 캐시를 높입니다. QoS 제한을 통해 동일한 노드에서 낮은 우선 순위 워크로드의 요구를 줄입니다 4. 워크로드 특성 변경(블록 크기, 애플리케이션 캐싱 등)</block>
-  <block id="3788ca885d16d8e267fa6e7b9e864e94" category="cell">파일을 저장하는 볼륨은 인덱스 노드(inode)를 사용하여 파일 메타데이터를 저장합니다. 볼륨이 inode 할당을 처리할 때 더 이상 파일을 추가할 수 없습니다. 경고 알림은 사용 가능한 inode 수를 늘리기 위해 계획된 작업을 수행해야 함을 나타냅니다. 위험 경고는 파일 제한 소진이 임박했음을 나타내며, 서비스 연속성을 보장하기 위해 inode를 확보하기 위해 긴급 조치를 취해야 합니다.</block>
-  <block id="81ae5116fdef0e00befd542e640953b0" category="cell">중요 임계값이 위반되면 즉각적인 조치를 고려하여 서비스 중단을 최소화하십시오. 1. 볼륨에 대한 inode 값을 늘립니다. inode 값이 이미 최대값에 있는 경우 파일 시스템이 최대 크기를 초과하여 확장되었기 때문에 볼륨을 두 개 이상의 볼륨으로 분할합니다. FlexGroup를 사용하면 대용량 파일 시스템을 쉽게 수용할 수 있습니다. 경고 임계값이 위반되면 다음과 같은 즉각적인 조치를 취하십시오. 1. 볼륨에 대한 inode 값을 늘립니다. inode 값이 이미 최대값에 있는 경우 파일 시스템이 최대 크기 2를 초과하여 확장되었기 때문에 볼륨을 두 개 이상의 볼륨으로 분할합니다. FlexGroup를 사용하면 대용량 파일 시스템을 쉽게 수용할 수 있습니다.</block>
-  <block id="91bb5da9176999bdbfb47ebdc9ec7919" category="cell">중요 임계값이 위반되면 즉각적인 조치를 통해 서비스 중단을 최소화합니다. 볼륨에 QoS 정책이 할당된 경우 볼륨 워크로드의 제한이 조절되는 경우를 대비하여 제한 임계값을 평가합니다. 경고 임계값이 위반되면 다음과 같은 즉각적인 조치를 고려하십시오. 1. 애그리게이트에도 높은 사용률이 발생하는 경우 볼륨을 다른 애그리게이트로 이동합니다. 볼륨에 QoS 정책이 할당된 경우 볼륨 워크로드의 제한이 발생하는 경우 해당 제한 임계값을 평가합니다. 3.노드 사용률도 높을 경우 볼륨을 다른 노드로 이동하거나 노드의 총 워크로드를 줄입니다.</block>
-  <block id="e294149df98c47cda19cc68dc7fc54af" category="cell">중요 임계값이 위반되면 서비스 중단을 최소화하기 위해 즉각적인 조치를 취해야 합니다. 1. 볼륨 2 의 공간을 늘립니다. 경고 임계값이 위반되면 원치 않는 데이터를 삭제한 다음 볼륨 공간을 늘리는 것이 좋습니다.</block>
-  <block id="7e07c1b11f24151c7ec5fb952780452c" category="cell">WAFL 할당량 목록이 초과되었습니다</block>
-  <block id="46faf95e309bd2826b383287323b8088" category="cell">이 이벤트는 볼륨에서 트리 할당량이 초과되었을 때 발생합니다. 이 이벤트는 지정된 시간 동안 또는 "할당량 크기 조정"이 수행될 때까지 이 트리에 대해 반복되지 않습니다. 시간은 "quota logmsg" 명령으로 지정됩니다.</block>
-  <block id="ef50e307d2e9be873ea2971a14d5b95b" category="cell">이 트리에서 사용량을 줄이거나 할당량을 늘이고 "quota resize" 명령을 실행합니다.</block>
   <block id="7a523464a7ffeacc5aafdfd0de3ab1aa" category="section-title">구독 상태를 확인하십시오</block>
   <block id="4d71df4f1ca4df08ff676034d4f602c1" category="paragraph">가입이 활성화되면 * 관리자 &gt; 구독 * 페이지에서 구독 상태 및 관리되는 유닛 사용량을 확인할 수 있습니다.</block>
   <block id="cf9f7d335ccf63f9afafb03e9bccbb83" category="inline-image-macro">가입 서비스 보기</block>
@@ -8728,4 +8438,5 @@
   <block id="9da0861aa96415448a45043409b3c6a2" category="paragraph">에이전트를 설치하려면 먼저 다음을 수행해야 합니다.</block>
   <block id="a95cbadf1a8e88fa4b87395252563d2d" category="paragraph">Windows, Linux 또는 Mac에 에이전트를 설치하려면 을 따릅니다 <block ref="f33ea093256a0807c19ae442b3c6fe9a" category="inline-link-macro-rx"></block>.</block>
   <block id="1da5ffd366c7914393abacbd5eddb42f" category="doc">데이터 수집을 위한 에이전트 구성(Windows/Linux/Mac)</block>
+  <block id="46df155a798a257bfbc43b89badd64d1" category="admonition">대부분의 시스템 모니터는 기본적으로 _Paused_상태입니다. 모니터를 다시 시작하기 전에 Data Collector에서 _Advanced Counter Data Collection_ 및 _Enable ONTAP EMS log collection_이 활성화되어 있는지 확인해야 합니다. 이러한 옵션은 _고급 구성_ 아래의 ONTAP 데이터 수집기에서 찾을 수 있습니다.<block ref="c9fb5b808ac97b65ea1073e21fb359f9" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
