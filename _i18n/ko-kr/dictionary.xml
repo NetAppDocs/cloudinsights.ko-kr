@@ -6874,7 +6874,6 @@
   <block id="010e8a3ade245a1718e7c4b5540ac2e3" category="cell">오류: "섀시 IP 주소가 일치하지 않습니다."</block>
   <block id="e73a974e5f64b7f2d040fb59fd2aafcd" category="cell">섀시 IP 주소를 사용하도록 데이터 소스 구성을 변경합니다.</block>
   <block id="04eb81d16943e8c8a6314aaac38a4f4b" category="cell">Access Gateway 포트에 두 개 이상의 노드가 로그인되었다는 메시지를 받습니다</block>
-  <block id="7e25453d6939c3c3ab0bd1656d5fcad2" category="doc">Agent가 데이터를 수집하도록 구성</block>
   <block id="bdb9a31f361d8d3be1c6915647e92d4d" category="inline-link-macro">텔레그라프</block>
   <block id="863fe9f23689919336be1a2467bf51a4" category="paragraph">Cloud Insights는 을 사용합니다 <block ref="3ac325f799d62e3e7cf39c0bf919731c" category="inline-link-macro-rx"></block> 통합 데이터 수집을 위한 에이전트로 사용됩니다. Telegraf는 메트릭, 이벤트 및 로그를 수집 및 보고하는 데 사용할 수 있는 플러그인 기반 서버 에이전트입니다. 입력 플러그인은 시스템/OS에 직접 액세스하거나 타사 API를 호출하거나 구성된 스트림(예 Kafka, statsd 등). 출력 플러그인은 에이전트에서 Cloud Insights로 수집된 메트릭, 이벤트 및 로그를 전송하는 데 사용됩니다.</block>
   <block id="ea5b5a50c17a9a63f35695787f45c3e6" category="paragraph">Cloud Insights의 최신 Telegraf 버전은 * 1.19.3 * 입니다.</block>
@@ -8728,4 +8727,5 @@
   <block id="4e94322aa6275968b1c9422851fb7f86" category="sidebar">에이전트(Kubernetes) 구성</block>
   <block id="9da0861aa96415448a45043409b3c6a2" category="paragraph">에이전트를 설치하려면 먼저 다음을 수행해야 합니다.</block>
   <block id="a95cbadf1a8e88fa4b87395252563d2d" category="paragraph">Windows, Linux 또는 Mac에 에이전트를 설치하려면 을 따릅니다 <block ref="f33ea093256a0807c19ae442b3c6fe9a" category="inline-link-macro-rx"></block>.</block>
+  <block id="1da5ffd366c7914393abacbd5eddb42f" category="doc">데이터 수집을 위한 에이전트 구성(Windows/Linux/Mac)</block>
 </blocks>
