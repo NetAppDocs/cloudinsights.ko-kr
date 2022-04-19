@@ -2017,7 +2017,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 21:02:40 +0000">04/13/2022</time>
+    <time datetime="2022-04-19 14:10:20 +0000">04/19/2022</time>
     
   
 
@@ -2926,6 +2926,10 @@ kubectl delete clusterrolebinding agent-manager-rolebinding agent-proxy-rolebind
 </tr>
 </thead>
 <tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">_etcd_가 Kubernetes 클러스터 데이터 저장소가 아닌 클러스터의 경우 Telegraf RS POD에 다음과 같은 메시지가 표시됩니다. [inputs.prometheus] 플러그인 오류: 키 쌍을 로드할 수 없습니다. /etc/Kubernetes/pn/pki/etcd/server.crt: /etc/Kubernetes/pki/etcd/server.key: open/etc/cKubernetes/etcd/server/crt/server.crt 파일 또는 crt 파일 디렉터리</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cloud Insights는 _etcd_를 K8s 데이터 저장소로 모니터링하는 기능만 지원합니다. kubctl -n NetApp 모니터링 편집 에이전트 모니터링 - NetApp 이 파일에서 다음 섹션을 실행하여 에이전트를 수정할 수 있습니다. -name:Prometheus_etcd run-mode: -ReplicaSet</p></td>
+</tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Cloud Insights를 사용하여 이미 에이전트를 설치했습니다</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">호스트/VM에 이미 에이전트를 설치한 경우 에이전트를 다시 설치할 필요가 없습니다. 이 경우 Agent 설치 화면에서 해당 플랫폼 및 키를 선택하고 * 계속 * 또는 * 마침 * 을 클릭합니다.</p></td>
