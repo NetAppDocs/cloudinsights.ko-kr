@@ -11,19 +11,19 @@ keywords: email, notifications, signature, recipient, list, subscription
 [role="lead"]
 구독 관련 알림에 대한 전자 메일 목록과 성능 정책 임계값 위반 알림을 위한 받는 사람의 글로벌 전자 메일 목록을 구성할 수 있습니다.
 
-알림 이메일 수신자 설정을 구성하려면 * 관리자 > 알림 * 페이지로 이동합니다.
+알림 이메일 수신자 설정을 구성하려면 * 관리자 > 알림 * 페이지로 이동하여 _Email_탭을 선택하십시오.
+
+[role="thumb"]
+image:Notifications_email_list.png["이메일 알림"]
 
 
 
 == 구독 알림 수신자
 
-[role="thumb"]
-image:SubscriptionNotificationSection.png["구독 이메일 알림"]
-
 구독 관련 이벤트 알림을 받는 사람을 구성하려면 "구독 알림 받는 사람" 섹션으로 이동하십시오. 구독 관련 이벤트에 대해 다음 수신자 중 일부 또는 전체에 이메일 알림을 보내도록 선택할 수 있습니다.
 
 * 모든 계정 소유자
-* 모든 관리자
+* All_Monitor 및 Optimize_Administrators
 * 사용자가 지정하는 추가 전자 메일 주소입니다
 
 
@@ -52,23 +52,7 @@ image:SubscriptionNotificationSection.png["구독 이메일 알림"]
 
 알림의 전자 메일 알림은 알림의 모든 작업에 대해 알림 받는 사람 목록으로 전송됩니다. 글로벌 수신자 목록에 알림 메시지를 보내도록 선택할 수 있습니다.
 
-글로벌 경고 수신자를 구성하려면 * Admin > Notifications * 를 클릭하고 * Global Monitor Notification Recipients * 섹션에서 원하는 수신자를 선택합니다.
+글로벌 경고 수신자를 구성하려면 * Global Monitor Notification Recipients * 섹션에서 원하는 수신자를 선택합니다.
 
 [role="thumb"]
 모니터를 만들거나 수정할 때 항상 개별 모니터의 전체 수신자 목록을 재정의할 수 있습니다.
-
-
-
-== 성능 정책 알림에 대한 글로벌 받는 사람 목록입니다
-
-[role="thumb"]
-image:PerformancePolicyNotificationSection.png["성능 정책 이메일 알림"]
-
-글로벌 성능 정책 알림 이메일 목록에 수신자를 추가하려면 "글로벌 성능 정책 수신자" 섹션으로 이동하여 이메일 주소를 쉼표로 구분하여 입력합니다. 성능 정책 임계값 위반으로부터 알림으로 전송된 이메일은 목록의 모든 수신자에게 전송됩니다.
-
-실수할 경우 [x]를 클릭하여 목록에서 수신자를 제거할 수 있습니다.
-
-또한 보내는 이메일 알림에 첨부될 선택적 서명 블록을 추가할 수도 있습니다.
-
-
-NOTE: 정책을 구성할 때 특정 정책에 대한 전역 목록을 재정의할 수 있습니다.

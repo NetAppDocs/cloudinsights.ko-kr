@@ -3348,10 +3348,7 @@
   <block id="5f03374d311512ebf488198233e388a3" category="summary">알림에 대한 이메일 주소를 추가하는 중입니다.</block>
   <block id="ff925bdbda92d2e19d76cbd9fa62fcdd" category="doc">이메일 알림 구성</block>
   <block id="30dadf54a791f6dee7ac5fcc771dfc37" category="paragraph">구독 관련 알림에 대한 전자 메일 목록과 성능 정책 임계값 위반 알림을 위한 받는 사람의 글로벌 전자 메일 목록을 구성할 수 있습니다.</block>
-  <block id="81259df23a1c293a09657cbc69c1cff7" category="paragraph">알림 이메일 수신자 설정을 구성하려면 * 관리자 &gt; 알림 * 페이지로 이동합니다.</block>
   <block id="caa57653390758dea3d2e7abd7ccf4ac" category="section-title">구독 알림 수신자</block>
-  <block id="92c5913b4a67d45ed57b46dfd6cc6f30" category="inline-image-macro">구독 이메일 알림</block>
-  <block id="a86449ad080b1966ebbab1b2d2673d4d" category="paragraph"><block ref="a86449ad080b1966ebbab1b2d2673d4d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f68d99a74dcf068e71380966b989bf38" category="paragraph">구독 관련 이벤트 알림을 받는 사람을 구성하려면 "구독 알림 받는 사람" 섹션으로 이동하십시오. 구독 관련 이벤트에 대해 다음 수신자 중 일부 또는 전체에 이메일 알림을 보내도록 선택할 수 있습니다.</block>
   <block id="35fb28a7e719ca2b5efe220007616a15" category="paragraph">다음은 보낼 수 있는 알림 유형과 사용자가 수행할 수 있는 사용자 작업의 예입니다.</block>
   <block id="30a3241f096a2fb5cc17d201c4dd0fc8" category="cell">* 알림: *</block>
@@ -3368,15 +3365,7 @@
   <block id="e89ae227607d5f04ef37a542e59758d5" category="cell">연락처 <block ref="24745b642cc0706e7f0bffb600ab0d70" category="inline-link-macro-rx"></block> 를 클릭하여 구독을 구매합니다</block>
   <block id="8e93b1e0d1805d8655a5ef72cc4c1f73" category="section-title">경고를 위한 글로벌 수신자 목록</block>
   <block id="f80a3af59189fad5d417cb3684841b2f" category="paragraph">알림의 전자 메일 알림은 알림의 모든 작업에 대해 알림 받는 사람 목록으로 전송됩니다. 글로벌 수신자 목록에 알림 메시지를 보내도록 선택할 수 있습니다.</block>
-  <block id="f3b4c8accf68f8bc1e1ad1a189f380f3" category="paragraph">글로벌 경고 수신자를 구성하려면 * Admin &gt; Notifications * 를 클릭하고 * Global Monitor Notification Recipients * 섹션에서 원하는 수신자를 선택합니다.</block>
   <block id="04d99d40563d55904f96d7cf5a364c93" category="paragraph">모니터를 만들거나 수정할 때 항상 개별 모니터의 전체 수신자 목록을 재정의할 수 있습니다.</block>
-  <block id="11b55fb92388d3f4f22d9b74e20fe8cb" category="section-title">성능 정책 알림에 대한 글로벌 받는 사람 목록입니다</block>
-  <block id="d6f8919f7d41780d165bc46e90d861d9" category="inline-image-macro">성능 정책 이메일 알림</block>
-  <block id="504fe2b07eb666ad0da4b0123f533697" category="paragraph"><block ref="504fe2b07eb666ad0da4b0123f533697" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8e8fa76ffeccba446b6ee0c1be7a594c" category="paragraph">글로벌 성능 정책 알림 이메일 목록에 수신자를 추가하려면 "글로벌 성능 정책 수신자" 섹션으로 이동하여 이메일 주소를 쉼표로 구분하여 입력합니다. 성능 정책 임계값 위반으로부터 알림으로 전송된 이메일은 목록의 모든 수신자에게 전송됩니다.</block>
-  <block id="d60bab759d591f556b26484b89016feb" category="paragraph">실수할 경우 [x]를 클릭하여 목록에서 수신자를 제거할 수 있습니다.</block>
-  <block id="baf1c4abff061768e5a4207182de39ce" category="paragraph">또한 보내는 이메일 알림에 첨부될 선택적 서명 블록을 추가할 수도 있습니다.</block>
-  <block id="3bfddc91dfb0eaa6fec68531dbb32e68" category="admonition">정책을 구성할 때 특정 정책에 대한 전역 목록을 재정의할 수 있습니다.</block>
   <block id="a63064d7204d71163cc29721df7202ac" category="summary">Dell EMC VNX Block Storage(이전 CLARiX)를 구성합니다.</block>
   <block id="863037a8aa8edf9bdd65ea00bc2e5f69" category="doc">Dell EMC VNX Block Storage(NaviCLI) 데이터 수집기</block>
   <block id="29283ccf7102b6c8e592c411e57a3364" category="paragraph">Cloud Insights는 Dell EMC VNX 블록 스토리지(NaviSec) 데이터 수집기(이전 CLARiX)를 사용하여 인벤토리 및 성능 데이터를 얻습니다.</block>
@@ -5347,11 +5336,6 @@
   <block id="b82b0cbf50450ff132a18adbb18ad189" category="inline-link-macro">위젯 * 의 특수 변수</block>
   <block id="b7624838ae3358523818a8ce1e7252cb" category="paragraph">을 사용할 수도 있습니다 <block ref="0909c8b5d270efe34a0d9a849c651330" category="inline-link-macro-rx"></block> 랜딩 페이지에 자산 관련 정보를 표시합니다.</block>
   <block id="c87f42b44870bb9fdcbb9ad0386ebd65" category="summary">Cloud Secure 경고 알림을 위한 이메일 주소 추가</block>
-  <block id="8ae97d6bc3533450865148a249850f22" category="doc">경고 이메일 알림 구성</block>
-  <block id="36c6e5d5ba399283fbfde553f8a8a235" category="paragraph">알림의 전자 메일 알림은 알림의 모든 작업에 대해 알림 받는 사람 목록으로 전송됩니다.</block>
-  <block id="7f1f4ef1548a44e4ce8c4500a1d58b4f" category="paragraph">알림 수신자를 구성하려면 * Admin &gt; Notifications * 를 클릭하고 각 수신자의 이메일 주소를 입력합니다.</block>
-  <block id="00a1fb22fe4440874b766144382bfc18" category="inline-image-macro">경고 이메일 알림 수신자 목록</block>
-  <block id="eb602d5d2dcc504fbc5daf710f722df2" category="paragraph"><block ref="eb602d5d2dcc504fbc5daf710f722df2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f675ac1ea34754aba3279d7f93746721" category="summary">Kibana 데이터 수집기 구성</block>
   <block id="d6678652208f4e26109690d4ab6151e5" category="doc">Kibana 데이터 수집기</block>
   <block id="75ac4fff844290c8b306aced90a6ad0d" category="paragraph">Cloud Insights는 이 데이터 수집기를 사용하여 Kibana로부터 메트릭을 수집합니다.</block>
@@ -8736,4 +8720,14 @@
   <block id="a9baf64b936acc58c42a7bde7ce7c95b" category="cell">이 알림은 포드에서 마운트가 실패한 경우에 발생합니다.</block>
   <block id="69a528dde5c160691621956eda156089" category="cell">_etcd_가 Kubernetes 클러스터 데이터 저장소가 아닌 클러스터의 경우 Telegraf RS POD에 다음과 같은 메시지가 표시됩니다. [inputs.prometheus] 플러그인 오류: 키 쌍을 로드할 수 없습니다. /etc/Kubernetes/pn/pki/etcd/server.crt: /etc/Kubernetes/pki/etcd/server.key: open/etc/cKubernetes/etcd/server/crt/server.crt 파일 또는 crt 파일 디렉터리</block>
   <block id="89fbe6835a4bc28cf38fd3cdb8337b18" category="cell">Cloud Insights는 _etcd_를 K8s 데이터 저장소로 모니터링하는 기능만 지원합니다. kubctl -n NetApp 모니터링 편집 에이전트 모니터링 - NetApp 이 파일에서 다음 섹션을 실행하여 에이전트를 수정할 수 있습니다. -name:Prometheus_etcd run-mode: -ReplicaSet</block>
+  <block id="f3eebfbf8459da325ae4a16094567ab0" category="paragraph">알림 이메일 수신자 설정을 구성하려면 * 관리자 &gt; 알림 * 페이지로 이동하여 _Email_탭을 선택하십시오.</block>
+  <block id="3caac88fd2cfb66b30bf5c3bb963e2ae" category="inline-image-macro">이메일 알림</block>
+  <block id="d2b2f74d37176e087c596d1a6ace12a4" category="paragraph"><block ref="d2b2f74d37176e087c596d1a6ace12a4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="998b4e1fe06f3059a9390f884ebd2960" category="list-text">All_Monitor 및 Optimize_Administrators</block>
+  <block id="df43b72d848c482dd610f8178005dbe4" category="paragraph">글로벌 경고 수신자를 구성하려면 * Global Monitor Notification Recipients * 섹션에서 원하는 수신자를 선택합니다.</block>
+  <block id="12c5785c0da06ba105803155a192752d" category="doc">경고, 경고 및 에이전트/데이터 소스 수집기 상태에 대한 이메일 알림 구성</block>
+  <block id="fb2811eb0d80f0dc871a8e892a828518" category="paragraph">Cloud Secure 알림 수신자를 구성하려면 * 관리자 &gt; 알림 * 을 클릭하고 각 수신자의 해당 섹션에 이메일 주소를 입력합니다.</block>
+  <block id="d788a1b203813004b96af5724b63cb70" category="section-title">잠재적 공격 경고 및 경고</block>
+  <block id="0913d37e3bac65fbe05c7263d286ef60" category="paragraph">potential attack_alert 알림을 보내려면 _ Send potential attack Alerts _ 섹션에 받는 사람의 전자 메일 주소를 입력합니다. e-메일 알림은 알림의 모든 작업에 대해 알림 받는 사람 목록으로 전송됩니다.</block>
+  <block id="971a81b1c11c1b1948e93ef28402c3f4" category="paragraph">_Warning_notifications를 보내려면 _Send Warning Alerts_ 섹션에 받는 사람의 이메일 주소를 입력합니다.</block>
 </blocks>
