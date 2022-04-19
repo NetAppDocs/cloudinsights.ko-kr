@@ -32,6 +32,13 @@ image:DashboardWidgetEditorScreen.png["위젯 편집기의 레이아웃 개선"]
 
 image:CountAggregationExample1.png["집계 드롭다운에 개수 가 표시됩니다"]
 
+또한 꺾은선형 차트를 사용하여 세 가지 중 하나를 선택할 수 있습니다 link:concept_dashboard_features.html#line-chart-interpolation["보간"] 방법:
+
+* 없음 - 보간이 수행되지 않습니다
+* 선형 - 기존 점 사이의 데이터 점을 보간합니다
+* 계단 - 이전 데이터 지점을 보간된 데이터 지점으로 사용합니다
+
+
 
 
 ==== Kubernetes Infrastructure에 대한 모니터링 개선

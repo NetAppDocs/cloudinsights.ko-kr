@@ -8730,4 +8730,9 @@
   <block id="d788a1b203813004b96af5724b63cb70" category="section-title">잠재적 공격 경고 및 경고</block>
   <block id="0913d37e3bac65fbe05c7263d286ef60" category="paragraph">potential attack_alert 알림을 보내려면 _ Send potential attack Alerts _ 섹션에 받는 사람의 전자 메일 주소를 입력합니다. e-메일 알림은 알림의 모든 작업에 대해 알림 받는 사람 목록으로 전송됩니다.</block>
   <block id="971a81b1c11c1b1948e93ef28402c3f4" category="paragraph">_Warning_notifications를 보내려면 _Send Warning Alerts_ 섹션에 받는 사람의 이메일 주소를 입력합니다.</block>
+  <block id="cc801bd8b3e2970a29e5346ff2068dc8" category="inline-link-macro">보간</block>
+  <block id="52e11ba38b41752486ae425f250912e7" category="paragraph">또한 꺾은선형 차트를 사용하여 세 가지 중 하나를 선택할 수 있습니다 <block ref="f8a2abff360cff36e1134b6933cea3f7" category="inline-link-macro-rx"></block> 방법:</block>
+  <block id="9cb22571044cfb577ec048458671deab" category="list-text">없음 - 보간이 수행되지 않습니다</block>
+  <block id="b71ed64e04e4fa64be1d827a7f0a608d" category="list-text">선형 - 기존 점 사이의 데이터 점을 보간합니다</block>
+  <block id="d8afe893977b1761d465e261f7f0645c" category="list-text">계단 - 이전 데이터 지점을 보간된 데이터 지점으로 사용합니다</block>
 </blocks>
