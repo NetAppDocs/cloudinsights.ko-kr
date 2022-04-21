@@ -8735,4 +8735,5 @@
   <block id="b71ed64e04e4fa64be1d827a7f0a608d" category="list-text">선형 - 기존 점 사이의 데이터 점을 보간합니다</block>
   <block id="d8afe893977b1761d465e261f7f0645c" category="list-text">계단 - 이전 데이터 지점을 보간된 데이터 지점으로 사용합니다</block>
   <block id="f893ea896ad5f8fd6438a1f100e2334e" category="cell">Cloud Insights는 _etcd_를 K8s 데이터 저장소로 모니터링하는 기능만 지원합니다. 다음 지침에 따라 구성을 변경하여 etcd 데이터를 수집하지 않도록 에이전트를 수정할 수 있습니다. kubctl -n NetApp 모니터링 에이전트 모니터링 편집 에이전트 모니터링 - NetApp 해당 파일에서 다음 섹션을 삭제합니다. -name:Prometheus_etcd run-mode: - ReplicaSet</block>
+  <block id="54a35beb58d95fcc8830c9195faeeb1d" category="list-text">다음 명령을 사용할 수 있어야 합니다. _curl_, _sudo_(스크립트 기반 설치에는 필요하지 않음), _openssl_, _sha256sum_ 및 _kubctl_. 최상의 결과를 얻으려면 이러한 명령을 경로에 추가하십시오.</block>
 </blocks>
