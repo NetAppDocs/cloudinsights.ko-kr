@@ -355,16 +355,10 @@
   <block id="0ead5de583924ac8d48848b85f68e778" category="section-title">셀프 서비스 지원:</block>
   <block id="6c0afebc7e7822e3ca22734d7b5d42c0" category="paragraph">이러한 지원 옵션은 평가판 모드에서 사용할 수 있으며 연중무휴 24시간 무료로 제공됩니다.</block>
   <block id="35799672184c185a5b76dc14b0e32aa7" category="inline-link-macro">기술 자료</block>
-  <block id="cd09a6495ed42d82c9d3f8d57b144266" category="list-text">*<block ref="4474f28d411d3c5eec0d1bd98473c8fc" category="inline-link-macro-rx"></block>*</block>
-  <block id="87267948db0ced187f52b4063c923b63" category="inline-link-macro">방법</block>
-  <block id="6f906132d3c6b88b57225fdcf76f6e71" category="inline-link-macro">FAQ 를 참조하십시오</block>
-  <block id="d11ab61f6f39d4b16da4e01df2d6bb00" category="inline-link-macro">고장 수리</block>
-  <block id="22a89bc96f7b30b1c488a365e8246c50" category="paragraph">이 섹션의 링크를 클릭하면 NetApp Knowledgebase로 이동합니다. 여기에서 문서를 검색할 수 있습니다. <block ref="4ac86f858c7e506682bff87dbbc1d94a" category="inline-link-macro-rx"></block>, <block ref="847223fa7e2223062dab8b81f8f7c3d6" category="inline-link-macro-rx"></block>, 또는 <block ref="e340fe8d4753cf568cf82dfadd386faf" category="inline-link-macro-rx"></block> Cloud Insights 관련 정보입니다.</block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="inline-link-macro">문서화</block>
   <block id="7cef246d709d34533b9dea3e15d3f5a2" category="list-text">*<block ref="2ecfa39652ed0f06ca436cc3b19d2bbb" category="inline-link-macro-rx"></block>*</block>
   <block id="15d10c3fd39c9846221b3ea9c93b55e0" category="paragraph">설명서 링크를 클릭하면 이 설명서 센터로 이동합니다.</block>
   <block id="7d61983c34edc2a8cabbea71c4732f62" category="inline-link-macro">커뮤니티</block>
-  <block id="148cd4dbb868a5c18d55a8733314b7d2" category="list-text">*<block ref="937b796c76b864f08698962d9f7eb8d8" category="inline-link-macro-rx"></block>*</block>
   <block id="a7a9e9720c642358ce4d75836f0323d7" category="paragraph">커뮤니티 링크를 클릭하면 NetApp Cloud Insights 커뮤니티에서 동료 및 전문가와 연결할 수 있습니다.</block>
   <block id="c48730cb532534ed8ded87a7e1e63743" category="inline-link-macro">* 피드백 *</block>
   <block id="1ee12c9d2a4f0460caa4b5f609d4b32e" category="paragraph">또한 링크를 통해 제공할 수 있습니다 <block ref="845d40e8369612c1d8dd285f0ebc254e" category="inline-link-macro-rx"></block> Cloud Insights 개선을 위해 필요한 도움을 드릴 수 있습니다.</block>
@@ -8736,4 +8730,7 @@
   <block id="d8afe893977b1761d465e261f7f0645c" category="list-text">계단 - 이전 데이터 지점을 보간된 데이터 지점으로 사용합니다</block>
   <block id="f893ea896ad5f8fd6438a1f100e2334e" category="cell">Cloud Insights는 _etcd_를 K8s 데이터 저장소로 모니터링하는 기능만 지원합니다. 다음 지침에 따라 구성을 변경하여 etcd 데이터를 수집하지 않도록 에이전트를 수정할 수 있습니다. kubctl -n NetApp 모니터링 에이전트 모니터링 편집 에이전트 모니터링 - NetApp 해당 파일에서 다음 섹션을 삭제합니다. -name:Prometheus_etcd run-mode: - ReplicaSet</block>
   <block id="54a35beb58d95fcc8830c9195faeeb1d" category="list-text">다음 명령을 사용할 수 있어야 합니다. _curl_, _sudo_(스크립트 기반 설치에는 필요하지 않음), _openssl_, _sha256sum_ 및 _kubctl_. 최상의 결과를 얻으려면 이러한 명령을 경로에 추가하십시오.</block>
+  <block id="b68a34f8a928794da0f98d4ee916c271" category="list-text">*<block ref="2fadd2d714be07c05e8b57dea395b60f" category="inline-link-macro-rx"></block>*</block>
+  <block id="0e8f78366da6895d9cdeb4b8ed117539" category="paragraph">이 섹션의 링크를 클릭하면 NetApp Knowledgebase로 이동하고 관련 기사, 방법 등을 검색할 수 있습니다.</block>
+  <block id="f762cf8a3ce13153f8f371a1905bd1ae" category="list-text">*<block ref="70de40644647494a66feddaab5d43f41" category="inline-link-macro-rx"></block>*</block>
 </blocks>

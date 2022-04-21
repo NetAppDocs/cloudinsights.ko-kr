@@ -76,15 +76,17 @@ NetApp은 다양한 방법으로 Cloud Insights를 지원합니다. 기술 자�
 
 이러한 지원 옵션은 평가판 모드에서 사용할 수 있으며 연중무휴 24시간 무료로 제공됩니다.
 
-* *link:https://kb.netapp.com["기술 자료"]*
+* *link:https://mysupport.netapp.com/site/search?q=cloud%20insights&offset=0&searchType=Manual&autocorrect=true&origin=CI_Suppport_KB&filter=%28content_type%3D%3D%22knowledgebase%22;product%3D%3D%22Cloud%20Insights%22%29["기술 자료"]*
 +
-이 섹션의 링크를 클릭하면 NetApp Knowledgebase로 이동합니다. 여기에서 문서를 검색할 수 있습니다. link:https://kb.netapp.com/app/browse/a_status/published/channelRecordID/HOW_TO/currentSelectedID/RN_PRODUCT_473/isProductSelected/true/isRecommendationAllowed/true/pageSize/10/productRecordID/RN_PRODUCT_473/sortColumn/publishDate/sortDirection/DESC/truncate/200/type/browse["방법"], link:https://kb.netapp.com/app/browse/a_status/published/channelRecordID/FAQ/currentSelectedID/RN_PRODUCT_473/isProductSelected/true/isRecommendationAllowed/true/pageSize/10/productRecordID/RN_PRODUCT_473/sortColumn/publishDate/sortDirection/DESC/truncate/200/type/browse["FAQ 를 참조하십시오"], 또는 link:https://kb.netapp.com/app/browse/a_status/published/channelRecordID/BREAK_FIX/currentSelectedID/RN_PRODUCT_473/isProductSelected/true/isRecommendationAllowed/true/pageSize/10/productRecordID/RN_PRODUCT_473/sortColumn/publishDate/sortDirection/DESC/truncate/200/type/browse["고장 수리"] Cloud Insights 관련 정보입니다.
+이 섹션의 링크를 클릭하면 NetApp Knowledgebase로 이동하고 관련 기사, 방법 등을 검색할 수 있습니다.
+
+
 
 * *link:https://docs.netapp.com/us-en/cloudinsights/["문서화"]*
 +
 설명서 링크를 클릭하면 이 설명서 센터로 이동합니다.
 
-* *link:https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS["커뮤니티"]*
+* *link:https://mysupport.netapp.com/site/search?q=cloud%20insights&offset=0&searchType=Manual&autocorrect=true&origin=CI_Support_Community&filter=%28content_type%3D%3D%22community%22;product%3D%3D%22Cloud%20Insights%22%29["커뮤니티"]*
 +
 커뮤니티 링크를 클릭하면 NetApp Cloud Insights 커뮤니티에서 동료 및 전문가와 연결할 수 있습니다.
 
