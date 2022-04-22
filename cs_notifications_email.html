@@ -2017,7 +2017,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-19 15:52:49 +0000">04/19/2022</time>
+    <time datetime="2022-04-22 17:23:13 +0000">04/22/2022</time>
     
   
 
@@ -2038,6 +2038,37 @@
 </div>
 <div class="paragraph">
 <p><em>Warning_notifications를 보내려면 _Send Warning Alerts</em> 섹션에 받는 사람의 이메일 주소를 입력합니다.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="에이전트-및-data-collector-상태-모니터링">에이전트 및 Data Collector 상태 모니터링</h3>
+<div class="paragraph">
+<p>알림을 통해 에이전트 및 데이터 소스의 상태를 모니터링할 수 있습니다.</p>
+</div>
+<div class="paragraph">
+<p>에이전트 또는 데이터 소스 수집기가 작동하지 않는 경우 알림을 받으려면 _ 데이터 수집 상태 경고 _ 섹션에 받는 사람의 전자 메일 주소를 입력합니다.</p>
+</div>
+<div class="paragraph">
+<p>다음 사항에 유의하십시오.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>상태 알림은 에이전트/수집기가 최소 1시간 동안 보고를 중지한 후에만 전송됩니다.</p>
+</li>
+<li>
+<p>특정 24시간 동안 에이전트 또는 데이터 수집기의 연결이 끊어진 경우에도 지정된 수신자에게 하나의 이메일 알림만 전송됩니다.</p>
+</li>
+<li>
+<p>Agent가 고장 날 경우 한 번에 하나의 경고가 전송됩니다(수집기당 1개가 아님). 이메일에는 영향을 받는 모든 SVM의 목록이 포함됩니다.</p>
+</li>
+<li>
+<p>Active Directory 수집 장애는 경고로 보고되며 랜섬웨어 감지에 영향을 주지 않습니다.</p>
+</li>
+<li>
+<p>이제 시작 설정 목록에 새 _Configure email notifications_단계가 포함됩니다.</p>
+</li>
+</ul>
 </div>
 </div>
 
