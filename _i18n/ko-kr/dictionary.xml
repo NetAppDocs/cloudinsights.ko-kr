@@ -8733,4 +8733,12 @@
   <block id="b68a34f8a928794da0f98d4ee916c271" category="list-text">*<block ref="2fadd2d714be07c05e8b57dea395b60f" category="inline-link-macro-rx"></block>*</block>
   <block id="0e8f78366da6895d9cdeb4b8ed117539" category="paragraph">이 섹션의 링크를 클릭하면 NetApp Knowledgebase로 이동하고 관련 기사, 방법 등을 검색할 수 있습니다.</block>
   <block id="f762cf8a3ce13153f8f371a1905bd1ae" category="list-text">*<block ref="70de40644647494a66feddaab5d43f41" category="inline-link-macro-rx"></block>*</block>
+  <block id="8e25d57d22cfdf4cc4f8dd58cabd49ec" category="section-title">에이전트 및 Data Collector 상태 모니터링</block>
+  <block id="26b8d4140c5def55b8efd4966237c999" category="paragraph">알림을 통해 에이전트 및 데이터 소스의 상태를 모니터링할 수 있습니다.</block>
+  <block id="27d9996981ce7dd3eb5e8b3dd72bf26c" category="paragraph">에이전트 또는 데이터 소스 수집기가 작동하지 않는 경우 알림을 받으려면 _ 데이터 수집 상태 경고 _ 섹션에 받는 사람의 전자 메일 주소를 입력합니다.</block>
+  <block id="cfbd8d8f411f08c4641b2905bdc80139" category="list-text">상태 알림은 에이전트/수집기가 최소 1시간 동안 보고를 중지한 후에만 전송됩니다.</block>
+  <block id="c973f23a4328dc0e33a2614912736bb0" category="list-text">특정 24시간 동안 에이전트 또는 데이터 수집기의 연결이 끊어진 경우에도 지정된 수신자에게 하나의 이메일 알림만 전송됩니다.</block>
+  <block id="30a17963216c2665ef68b2a0cba05de6" category="list-text">Agent가 고장 날 경우 한 번에 하나의 경고가 전송됩니다(수집기당 1개가 아님). 이메일에는 영향을 받는 모든 SVM의 목록이 포함됩니다.</block>
+  <block id="6aa9d0b40df0476a0e5d6cba51a44816" category="list-text">Active Directory 수집 장애는 경고로 보고되며 랜섬웨어 감지에 영향을 주지 않습니다.</block>
+  <block id="1c694b0b295603bad9f0fa0c7f151567" category="list-text">이제 시작 설정 목록에 새 _Configure email notifications_단계가 포함됩니다.</block>
 </blocks>
