@@ -2017,7 +2017,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 20:05:31 +0000">04/13/2022</time>
+    <time datetime="2022-04-22 19:18:30 +0000">04/22/2022</time>
     
   
 
@@ -2246,6 +2246,10 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Brocade 데이터 소스의 인벤토리 획득에 실패하고 다음 오류 [com.onaro.sanscreen.acquisition.framework.datasource.BaseDataSource] Error 2 out of 2:&lt;datasource name&gt; [Internal error] - unable to generate the model for device &lt;IP&gt;(2개 중 &lt;날짜&gt;&lt;시간&gt; 오류 [오류 2 of 2: &lt;데이터 소스 이름&gt; [내부 오류] - 장치의 모델을 생성할 수 없습니다.) 프롬프트([Device name&lt;name&gt;]: 장치 &lt;IP&gt;에 대한 모델을 생성할 수 없습니다. 프롬프트 감지 중 오류 발생)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">이 문제는 Brocade 스위치가 프롬프트와 함께 돌아오는데 시간이 너무 오래 걸리고 기본 시간 초과가 5초일 때 발생할 수 있습니다. Cloud Insights의 데이터 수집기의 고급 구성 설정에서 _SSH 배너 대기 시간 제한(초)_을 더 높은 값으로 늘려 보십시오.</p></td>
+</tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">오류: “Cloud Insights가 잘못된 섀시 역할을 수신했습니다.”</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">이 데이터 원본에 구성된 사용자에게 섀시 역할 권한이 부여되었는지 확인합니다.</p></td>
