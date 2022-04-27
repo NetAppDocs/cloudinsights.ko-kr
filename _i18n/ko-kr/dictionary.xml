@@ -8743,4 +8743,17 @@
   <block id="1c694b0b295603bad9f0fa0c7f151567" category="list-text">이제 시작 설정 목록에 새 _Configure email notifications_단계가 포함됩니다.</block>
   <block id="74913ce7e6f1cf7622d0e237b931c50e" category="cell">Brocade 데이터 소스의 인벤토리 획득에 실패하고 다음 오류 [com.onaro.sanscreen.acquisition.framework.datasource.BaseDataSource] Error 2 out of 2:&lt;datasource name&gt; [Internal error] - unable to generate the model for device &lt;IP&gt;(2개 중 &lt;날짜&gt;&lt;시간&gt; 오류 [오류 2 of 2: &lt;데이터 소스 이름&gt; [내부 오류] - 장치의 모델을 생성할 수 없습니다.) 프롬프트([Device name&lt;name&gt;]: 장치 &lt;IP&gt;에 대한 모델을 생성할 수 없습니다. 프롬프트 감지 중 오류 발생)</block>
   <block id="118ca29e0af60dc429c30e9a386e68fa" category="cell">이 문제는 Brocade 스위치가 프롬프트와 함께 돌아오는데 시간이 너무 오래 걸리고 기본 시간 초과가 5초일 때 발생할 수 있습니다. Cloud Insights의 데이터 수집기의 고급 구성 설정에서 _SSH 배너 대기 시간 제한(초)_을 더 높은 값으로 늘려 보십시오.</block>
+  <block id="c2a82bcbfe1a93fec106af67b6b26f3b" category="section-title">만료된 API 액세스 토큰 회전</block>
+  <block id="d981e94161c0ab533162bbea9f1d9e89" category="paragraph">API 액세스 토큰의 만료 날짜가 있습니다. API 액세스 토큰이 만료되면 사용자는 읽기/쓰기 권한이 있는 _Data 수집_ 유형의 새 토큰을 생성하고 만료된 토큰 대신 새로 생성된 토큰을 사용하도록 텔레그라프를 다시 구성해야 합니다. 아래 단계에서는 이 작업을 수행하는 방법을 자세히 설명합니다.</block>
+  <block id="719a89b64a07694e338d45825fcd17f0" category="paragraph">이러한 명령은 기본 네임스페이스 "NetApp-모니터링"을 사용합니다. 고유한 네임스페이스를 설정한 경우 이러한 네임스페이스 및 모든 후속 명령 및 파일로 대체합니다.</block>
+  <block id="85b9da5a8c5c1cce5881111010339cb4" category="list-text">CM(Telegraf ConfigMaps)을 편집하고 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 대체합니다.</block>
+  <block id="865b7c5a0ecd85e73193b19bcb780a4c" category="list-text">DS(Telegraf DemonSet) 및 RS(ReplicaSet)를 편집하고 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 교체합니다.</block>
+  <block id="b56a0b4a07e1bf181b703d8bdf115a4b" category="list-text">Kubernetes 컨트롤러가 자동으로 Telegraf DS Pod를 다시 시작합니다.</block>
+  <block id="c12e3974927f7898f893ba8a9965a9a0" category="list-text">Telegraf RS 포드를 다시 시작합니다</block>
+  <block id="daed7387fa0b0965feb45d4dc3de1704" category="section-title">RHEL/CentOS 및 Debian/Ubuntu</block>
+  <block id="779ce1f6c23a08b510ed7a6c996d255a" category="list-text">Telegraf 구성 파일을 편집하고 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 교체합니다.</block>
+  <block id="e89f4056c39669637fb609320173681a" category="list-text">텔레그라프를 다시 시작합니다.</block>
+  <block id="0a5b7edb55b772c60bfa8af868b679cf" category="section-title">macOS</block>
+  <block id="e31fe47af805d4bd3f7f8847ce8bdf7a" category="list-text">C:\Program Files\Telegraf\Telegraf.d_의 각 Telegraf 구성 파일에 대해 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 교체합니다.</block>
+  <block id="8c4783224d2aaf78624ed6e1d1bc6bc1" category="paragraph">사용자가 액세스할 수 있는 API 범주도 에 따라 다릅니다 <block ref="ead2141fb682d81a2f0b1deca7bb95c5" category="inline-link-macro-rx"></block> 각 Cloud Insights 기능 세트(모니터링, Cloud Secure, 보고)에 있습니다.</block>
 </blocks>

@@ -11,8 +11,28 @@ summary: Cloud Insights API를 사용하면 모니터링 및 보고 시스템과
 [role="lead"]
 Cloud Insights API를 통해 NetApp 고객 및 ISV(독립 소프트웨어 공급업체)는 Cloud Insights를 CMDB 또는 기타 티켓 시스템과 같은 다른 애플리케이션과 통합할 수 있습니다.
 
+Cloud Insights API는 현재 버전을 기반으로 사용할 수 있습니다.
 
-NOTE: Cloud Insights API는 * Cloud Insights 프리미엄 에디션 * 에서 사용할 수 있습니다.
+[cols="<,^s,^s,^s"]
+|===
+| API 범주 | 기본 | 표준 | 프리미엄 
+
+
+| 획득 장치 | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
+
+
+| 데이터 수집 | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
+
+
+| 경고 |  | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
+
+
+| 자산 |  | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
+
+
+| 데이터 수집 |  | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
+|===
+Cloud Insights도 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/concept_user_roles.html#permission-levels["기능 세트 역할"] 에서 액세스할 수 있는 API를 결정합니다. 사용자 및 게스트 역할은 관리자 역할보다 권한이 적습니다. 예를 들어 Monitor and Optimize에서 관리자 역할이 있지만 Reporting에서 사용자 역할은 데이터 웨어하우스를 제외한 모든 API 유형을 관리할 수 있습니다.
 
 
 
@@ -88,6 +108,8 @@ Cloud Insights API는 범주 기반이며 현재 다음 범주가 포함되어 �
 
 
 시간이 지나면 추가 범주 및/또는 API를 사용할 수 있습니다. 최신 API 정보는 에서 확인할 수 있습니다 link:#api-documentation-swagger["API Swagger 문서"].
+
+사용자가 액세스할 수 있는 API 범주도 에 따라 다릅니다 link:concept_user_roles.html["사용자 역할"] 각 Cloud Insights 기능 세트(모니터링, Cloud Secure, 보고)에 있습니다.
 
 
 
