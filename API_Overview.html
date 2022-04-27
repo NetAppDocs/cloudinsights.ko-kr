@@ -292,11 +292,11 @@
           <ul class="n-menu__list">
             <li class="n-menu__list-column">
               <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/cloudinsights/API_Overview.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
                   <a href="https://docs.netapp.com/us-en/cloudinsights/API_Overview.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
                   <a href="https://docs.netapp.com/ja-jp/cloudinsights/API_Overview.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/ko-kr/cloudinsights/API_Overview.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
                   <a href="https://docs.netapp.com/zh-cn/cloudinsights/API_Overview.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
                 </li></ul>
@@ -2017,7 +2017,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 20:05:31 +0000">04/13/2022</time>
+    <time datetime="2022-04-27 14:15:51 +0000">04/27/2022</time>
     
   
 
@@ -2029,17 +2029,59 @@
 <div class="paragraph lead">
 <p>Cloud Insights API를 통해 NetApp 고객 및 ISV(독립 소프트웨어 공급업체)는 Cloud Insights를 CMDB 또는 기타 티켓 시스템과 같은 다른 애플리케이션과 통합할 수 있습니다.</p>
 </div>
-<div class="admonitionblock note">
-<table>
+<div class="paragraph">
+<p>Cloud Insights API는 현재 버전을 기반으로 사용할 수 있습니다.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
 <tr>
-<td class="icon">
-<img src="/us-en/cloudinsights/images/note.svg" alt="참고">
-</td>
-<td class="content">
-Cloud Insights API는 * Cloud Insights 프리미엄 에디션 * 에서 사용할 수 있습니다.
-</td>
+<th class="tableblock halign-left valign-top">API 범주</th>
+<th class="tableblock halign-center valign-top">기본</th>
+<th class="tableblock halign-center valign-top">표준</th>
+<th class="tableblock halign-center valign-top">프리미엄</th>
 </tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">획득 장치</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong><span class="image"><img src="SmallCheckMark.png" alt=""></span></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong><span class="image"><img src="SmallCheckMark.png" alt=""></span></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong><span class="image"><img src="SmallCheckMark.png" alt=""></span></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">데이터 수집</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong><span class="image"><img src="SmallCheckMark.png" alt=""></span></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong><span class="image"><img src="SmallCheckMark.png" alt=""></span></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong><span class="image"><img src="SmallCheckMark.png" alt=""></span></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">경고</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong><span class="image"><img src="SmallCheckMark.png" alt=""></span></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong><span class="image"><img src="SmallCheckMark.png" alt=""></span></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">자산</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong><span class="image"><img src="SmallCheckMark.png" alt=""></span></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong><span class="image"><img src="SmallCheckMark.png" alt=""></span></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">데이터 수집</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong><span class="image"><img src="SmallCheckMark.png" alt=""></span></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong><span class="image"><img src="SmallCheckMark.png" alt=""></span></strong></p></td>
+</tr>
+</tbody>
 </table>
+<div class="paragraph">
+<p>Cloud Insights도 있습니다 <a href="https://docs.netapp.com/us-en/cloudinsights/concept_user_roles.html#permission-levels">"기능 세트 역할"</a> 에서 액세스할 수 있는 API를 결정합니다. 사용자 및 게스트 역할은 관리자 역할보다 권한이 적습니다. 예를 들어 Monitor and Optimize에서 관리자 역할이 있지만 Reporting에서 사용자 역할은 데이터 웨어하우스를 제외한 모든 API 유형을 관리할 수 있습니다.</p>
 </div>
 </div>
 </div>
@@ -2182,6 +2224,9 @@ Cloud Insights API는 * Cloud Insights 프리미엄 에디션 * 에서 사용할
 </div>
 <div class="paragraph">
 <p>시간이 지나면 추가 범주 및/또는 API를 사용할 수 있습니다. 최신 API 정보는 에서 확인할 수 있습니다 <a href="#api-documentation-swagger">"API Swagger 문서"</a>.</p>
+</div>
+<div class="paragraph">
+<p>사용자가 액세스할 수 있는 API 범주도 에 따라 다릅니다 <a href="concept_user_roles.html">"사용자 역할"</a> 각 Cloud Insights 기능 세트(모니터링, Cloud Secure, 보고)에 있습니다.</p>
 </div>
 </div>
 </div>
