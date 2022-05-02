@@ -30,7 +30,7 @@ keywords: AU, acquisition unit, RAU, requirements, sizing
 | 메모리 | 8GB RAM | 동일합니다 
 
 
-| 사용 가능한 디스크 공간입니다 | Linux의 경우 50GB, 디스크 공간은 /opt/NetApp 10GB/var/log/NetApp 40GB로 할당해야 합니다 | 50GB 
+| 사용 가능한 디스크 공간입니다 | Linux의 경우 50GB, 디스크 공간은 다음과 같은 방식으로 할당해야 합니다. /opt/NetApp 10GB/var/log/NetApp 40GB/tmp 설치 시 사용 가능한 최소 1GB | 50GB 
 
 
 | 네트워크 | 100Mbps/1Gbps 이더넷 연결, 정적 IP 주소, 모든 FC 디바이스에 대한 IP 연결 및 Cloud Insights 인스턴스에 대한 필수 포트(80 또는 443). | 동일합니다 
