@@ -8825,4 +8825,13 @@
   <block id="cff2fb2b5c25be825b4648d0960cad38" category="section-title">Config Advisor 대시보드 생성:</block>
   <block id="ffdc0a4c20353f02a36d86c39af145b7" category="section-title">기타 지원</block>
   <block id="fa53b8785b0f7af8203d347d9f3e6edb" category="paragraph">Config Advisor와 관련된 다른 질문은 도움말 -&gt; 지원 티켓 열기를 클릭하여 Config Advisor 도구에서 티켓을 엽니다.</block>
+  <block id="65c0485e35d21a3fdc8097d6270482e7" category="section-title">Collector 모니터</block>
+  <block id="db8d9ccfe5ecea7583ec770b7ba8b68f" category="cell">획득 장치 종료</block>
+  <block id="85501b60becab3cb0e73d274bbab94aa" category="cell">Cloud Insights 획득 장치는 새로운 기능을 도입하기 위해 업그레이드 과정에서 주기적으로 다시 시작됩니다. 이는 일반적인 환경에서 한 달에 한 번 이하 발생합니다. 획득 장치가 종료되었음을 알리는 경고 경고가 표시된 후 즉시 해결 조치가 있어야 합니다. 새로 다시 시작된 획득 장치가 Cloud Insights와 등록을 완료했다는 것을 확인할 수 있습니다. 일반적으로 이 등록 종료 주기는 5~15분 정도 소요됩니다.</block>
+  <block id="c1e22147316e85ab61d0419eba630d75" category="cell">경고가 자주 발생하거나 15분 이상 지속되는 경우 획득 장치, 네트워크 및 AU를 인터넷에 연결하는 모든 프록시를 호스팅하는 시스템의 작동을 확인하십시오.</block>
+  <block id="783f60b4168f0ca33c1fed4cff46f1b8" category="cell">Collector 실패</block>
+  <block id="98f0032b558f695572ee2c60e17e2d6d" category="cell">데이터 수집기의 폴링에 예기치 않은 실패 상황이 발생했습니다.</block>
+  <block id="e8eee7b0a4f287aabb4f4528f8be7038" category="cell">Cloud Insights의 데이터 수집기 페이지를 방문하여 상황에 대해 자세히 알아보십시오.</block>
+  <block id="3e9d81929de3e4d569ffbafc70d57da5" category="cell">수집기 경고</block>
+  <block id="85cbbe353849360cf65793354f09c95b" category="cell">이 경고는 일반적으로 데이터 수집기 또는 대상 시스템의 잘못된 구성 때문에 발생할 수 있습니다. 구성을 재검토하여 향후 경고를 방지합니다. 또한 데이터 수집기가 가능한 모든 데이터를 수집한, 완성도 미만이 아닌 데이터를 검색하는 것이 원인일 수 있습니다. 이는 데이터 수집 중에 상황이 변경되는 경우(예: 데이터 수집 시작 시점에 데이터가 캡처되기 전에 가상 시스템이 삭제된 경우) 발생할 수 있습니다.</block>
 </blocks>
