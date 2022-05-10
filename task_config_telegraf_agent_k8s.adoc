@@ -274,7 +274,7 @@ kubectl delete pod telegraf-rs-*
 ....
 
 
-=== DemonSet, ReplicaSet 및 에이전트를 중지/시작합니다
+== DemonSet, ReplicaSet 및 에이전트를 중지/시작합니다
 
 DemonSet 및 ReplicaSet은 필요한 Telegraf 에이전트/포드를 실행하기 위해 Kubernetes 클러스터에서 생성됩니다. 기본적으로 이러한 Telegraf 에이전트/Pod는 마스터 노드와 비마스터 노드 모두에서 예약됩니다.
 
@@ -298,7 +298,7 @@ kubectl --namespace ci-monitoring apply -f /tmp/telegraf-rs.yaml
 ....
 
 
-=== Kubernetes에서 데이터를 수집하도록 Agent 구성
+== Kubernetes에서 데이터를 수집하도록 Agent 구성
 
 참고: 스크립트 기반 설치의 기본 네임스페이스는 _ci-monitoring_입니다. 운영자 기반 설치의 경우 기본 네임스페이스는 _NetApp-모니터링_입니다. 네임스페이스와 관련된 명령에서 설치에 올바른 네임스페이스를 지정해야 합니다.
 
@@ -352,7 +352,7 @@ kubectl --namespace ci-monitoring apply -f /tmp/telegraf-rs.yaml
 ----
 
 
-=== kubbe-state-metrics 서버 설치
+== kubbe-state-metrics 서버 설치
 
 
 NOTE: 운영자 기반 설치는 kubbe 상태 측정 지표 설치를 처리합니다. 운영자 기반 설치를 수행하는 경우 이 섹션을 건너뛰십시오.
@@ -371,7 +371,7 @@ kubbe-state-metrics 서버를 설치하려면 다음 단계를 따르십시오(�
 
 
 
-=== Kudbe-state-Metrics 카운터
+== Kudbe-state-Metrics 카운터
 
 kubbe 상태 메트릭 카운터에 대한 정보에 액세스하려면 다음 링크를 사용하십시오.
 
@@ -392,7 +392,7 @@ kubbe 상태 메트릭 카운터에 대한 정보에 액세스하려면 다음 �
 
 
 
-=== Agent를 제거합니다
+== Agent를 제거합니다
 
 이러한 명령은 기본 네임스페이스 "CI-모니터링"을 사용합니다. 고유한 네임스페이스를 설정한 경우 이러한 네임스페이스 및 모든 후속 명령 및 파일로 대체합니다.
 
@@ -420,7 +420,7 @@ kubectl delete clusterrolebinding agent-manager-rolebinding agent-proxy-rolebind
  kubectl delete scc telegraf-hostaccess
 
 
-=== Agent 업그레이드 중
+== Agent 업그레이드 중
 
 이러한 명령은 기본 네임스페이스 "CI-모니터링"을 사용합니다. 고유한 네임스페이스를 설정한 경우 이러한 네임스페이스 및 모든 후속 명령 및 파일로 대체합니다.
 
