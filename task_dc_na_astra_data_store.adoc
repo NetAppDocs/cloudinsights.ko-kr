@@ -9,7 +9,7 @@ keywords: data collector, queries, create, astra, data, store,
 
 
 [role="lead"]
-이 데이터 수집기는 단일 Astra Data Store 클러스터에 대한 인벤토리 및 성능 데이터를 가져옵니다. 모니터링 운영자는 데이터 수집기 외에 고급 메트릭을 수집하도록 _Telegraf_를 구성하고 로그를 수집하도록 _Fluent bit_를 구성합니다.
+이 데이터 수집기는 단일 Astra Data Store 클러스터에 대한 인벤토리 및 성능 데이터를 가져옵니다. 모니터링 운영자는 데이터 수집기 외에 고급 메트릭을 수집하고 로그를 수집하도록 _Fluent bit_를 구성합니다.
 
 
 TIP: 이러한 설치 지침 및 추가 정보는 Astra Data Store 문서에서도 확인할 수 있습니다.link:https://docs.netapp.com/us-en/astra-data-store/use/monitor-with-cloud-insights.html["Cloud Insights를 통해 메트릭을 모니터링합니다"]
@@ -68,7 +68,7 @@ Cloud Insights는 이 데이터 수집기에서 인벤토리 및 성능 데이�
 . Kubernetes API 토큰으로 <Kubernetes_token>을 교체하십시오.
 . Enter 키를 누릅니다.
 +
-설치 프로그램 스크립트는 * 모니터링 오퍼레이터가 설치 및 구성되었는지 확인합니다. * Fluent bit 설정 * 텔레그라프 구성. * 획득 장치를 설치합니다. * 획득 장치가 실행되면 Astra Data Store Collector를 설치합니다.
+설치 프로그램 스크립트는 * 모니터링 오퍼레이터가 설치 및 구성되었는지 확인합니다. * Fluent bit 설정 * 획득 장치를 설치합니다. * 획득 장치가 실행되면 Astra Data Store Collector를 설치합니다.
 
 . 설치 완료 _ 를 클릭합니다.
 

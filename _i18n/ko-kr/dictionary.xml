@@ -6119,7 +6119,6 @@
   <block id="543b57bee233b33b15c7e6238bf6cc26" category="list-text">쿼리 이름을 클릭하고 * 저장 * 드롭다운 메뉴에서 * 삭제 * 를 선택합니다.</block>
   <block id="21d6683e9fb00a0e8c451185a0fefc00" category="summary">NetApp Astra Data Store를 구성합니다</block>
   <block id="66857f3f017c56c7d6bc365ead0549cc" category="doc">NetApp Astra Data Store 데이터 수집기</block>
-  <block id="17d0980f445c2a05e39e2cbcbbb44f10" category="paragraph">이 데이터 수집기는 단일 Astra Data Store 클러스터에 대한 인벤토리 및 성능 데이터를 가져옵니다. 모니터링 운영자는 데이터 수집기 외에 고급 메트릭을 수집하도록 _Telegraf_를 구성하고 로그를 수집하도록 _Fluent bit_를 구성합니다.</block>
   <block id="9006a134fd1870aca1877d5e1e68dae9" category="inline-link-macro">Cloud Insights를 통해 메트릭을 모니터링합니다</block>
   <block id="f0b65328b01ef9e6301a81ee7e9ed23f" category="inline-link-macro">Astra Data Store를 빠르게 시작합니다</block>
   <block id="b42189ec86d9beb36690d81d11d4ab47" category="admonition">이러한 설치 지침 및 추가 정보는 Astra Data Store 문서에서도 확인할 수 있습니다.<block ref="e8b9f8414fb0a1622a4d51b962548914" category="inline-link-macro-rx"></block>
@@ -6146,7 +6145,6 @@
   <block id="aaf4db30c94d2b3ecd2df73746b66f60" category="list-text">Kubernetes_IP&gt;를 Kubernetes API 서버의 IP 주소로 바꿉니다.</block>
   <block id="37ee78eaea07b1141db2771004cca6c2" category="list-text">Kubernetes API 토큰으로 &lt;Kubernetes_token&gt;을 교체하십시오.</block>
   <block id="c7e5cc3cd77f2019256afe7266491452" category="list-text">Enter 키를 누릅니다.</block>
-  <block id="d29c6dec2ac17ff8872c354eb3f62aea" category="paragraph">설치 프로그램 스크립트는 * 모니터링 오퍼레이터가 설치 및 구성되었는지 확인합니다. * Fluent bit 설정 * 텔레그라프 구성. * 획득 장치를 설치합니다. * 획득 장치가 실행되면 Astra Data Store Collector를 설치합니다.</block>
   <block id="167fe4db27b48d4d51e6a9656383dbb8" category="list-text">설치 완료 _ 를 클릭합니다.</block>
   <block id="96fab0bdb0ff6d498a516ba05e81b851" category="paragraph">오류로 인해 설치 프로그램 스크립트가 종료되면 오류가 해결되면 다시 실행할 수 있습니다. 설치 프로그램 스크립트는 환경에서 기본 설정을 사용하지 않는 경우 모니터링 운영자 네임스페이스 및 Kubernetes API 서버 포트와 같은 추가 매개 변수를 지원합니다. 사용 가능한 옵션의 전체 목록은 아래에 나와 있습니다.</block>
   <block id="b524f24588085b1e0adf31626117f231" category="section-title">설치 프로그램 스크립트 옵션:</block>
@@ -8825,14 +8823,6 @@
   <block id="cff2fb2b5c25be825b4648d0960cad38" category="section-title">Config Advisor 대시보드 생성:</block>
   <block id="ffdc0a4c20353f02a36d86c39af145b7" category="section-title">기타 지원</block>
   <block id="fa53b8785b0f7af8203d347d9f3e6edb" category="paragraph">Config Advisor와 관련된 다른 질문은 도움말 -&gt; 지원 티켓 열기를 클릭하여 Config Advisor 도구에서 티켓을 엽니다.</block>
-  <block id="65c0485e35d21a3fdc8097d6270482e7" category="section-title">Collector 모니터</block>
-  <block id="db8d9ccfe5ecea7583ec770b7ba8b68f" category="cell">획득 장치 종료</block>
-  <block id="85501b60becab3cb0e73d274bbab94aa" category="cell">Cloud Insights 획득 장치는 새로운 기능을 도입하기 위해 업그레이드 과정에서 주기적으로 다시 시작됩니다. 이는 일반적인 환경에서 한 달에 한 번 이하 발생합니다. 획득 장치가 종료되었음을 알리는 경고 경고가 표시된 후 즉시 해결 조치가 있어야 합니다. 새로 다시 시작된 획득 장치가 Cloud Insights와 등록을 완료했다는 것을 확인할 수 있습니다. 일반적으로 이 등록 종료 주기는 5~15분 정도 소요됩니다.</block>
-  <block id="c1e22147316e85ab61d0419eba630d75" category="cell">경고가 자주 발생하거나 15분 이상 지속되는 경우 획득 장치, 네트워크 및 AU를 인터넷에 연결하는 모든 프록시를 호스팅하는 시스템의 작동을 확인하십시오.</block>
-  <block id="783f60b4168f0ca33c1fed4cff46f1b8" category="cell">Collector 실패</block>
-  <block id="98f0032b558f695572ee2c60e17e2d6d" category="cell">데이터 수집기의 폴링에 예기치 않은 실패 상황이 발생했습니다.</block>
-  <block id="e8eee7b0a4f287aabb4f4528f8be7038" category="cell">Cloud Insights의 데이터 수집기 페이지를 방문하여 상황에 대해 자세히 알아보십시오.</block>
-  <block id="3e9d81929de3e4d569ffbafc70d57da5" category="cell">수집기 경고</block>
-  <block id="85cbbe353849360cf65793354f09c95b" category="cell">이 경고는 일반적으로 데이터 수집기 또는 대상 시스템의 잘못된 구성 때문에 발생할 수 있습니다. 구성을 재검토하여 향후 경고를 방지합니다. 또한 데이터 수집기가 가능한 모든 데이터를 수집한, 완성도 미만이 아닌 데이터를 검색하는 것이 원인일 수 있습니다. 이는 데이터 수집 중에 상황이 변경되는 경우(예: 데이터 수집 시작 시점에 데이터가 캡처되기 전에 가상 시스템이 삭제된 경우) 발생할 수 있습니다.</block>
-  <block id="7072526e0a10a722b0d6d5f262bcc01f" category="cell">데이터 수집기 또는 대상 시스템의 구성을 확인합니다. 이 모니터는 때때로 다른 모니터보다 더 많은 경고를 보낼 수 있으므로 문제 해결을 수행하지 않는 한 이 모니터에 경고 수신자를 설정하지 않는 것이 좋습니다.</block>
+  <block id="cf4b2f0af37857c4f536e3caec893f92" category="paragraph">이 데이터 수집기는 단일 Astra Data Store 클러스터에 대한 인벤토리 및 성능 데이터를 가져옵니다. 모니터링 운영자는 데이터 수집기 외에 고급 메트릭을 수집하고 로그를 수집하도록 _Fluent bit_를 구성합니다.</block>
+  <block id="79c4d7a149c6892512f89196ff442c63" category="paragraph">설치 프로그램 스크립트는 * 모니터링 오퍼레이터가 설치 및 구성되었는지 확인합니다. * Fluent bit 설정 * 획득 장치를 설치합니다. * 획득 장치가 실행되면 Astra Data Store Collector를 설치합니다.</block>
 </blocks>
