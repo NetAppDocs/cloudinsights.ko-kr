@@ -9,15 +9,25 @@ summary: Cloud Insights는 Kubernetes에서 통합 데이터를 수집하는 에
 
 
 [role="lead"]
-Cloud Insights는 을 사용합니다 link:https://docs.influxdata.com/telegraf/v1.19/["텔레그라프"] 통합 데이터 수집을 위한 에이전트로 사용됩니다. Telegraf는 메트릭, 이벤트 및 로그를 수집 및 보고하는 데 사용할 수 있는 플러그인 기반 서버 에이전트입니다. 입력 플러그인은 시스템/OS에 직접 액세스하거나 타사 API를 호출하거나 구성된 스트림(예 Kafka, statsd 등). 출력 플러그인은 에이전트에서 Cloud Insights로 수집된 메트릭, 이벤트 및 로그를 전송하는 데 사용됩니다.
-
-Cloud Insights의 최신 Telegraf 버전은 * 1.19.3 * 입니다.
+Cloud Insights는 을 사용합니다 link:https://docs.influxdata.com/telegraf/["텔레그라프"] 통합 데이터 수집을 위한 에이전트로 사용됩니다. Telegraf는 메트릭, 이벤트 및 로그를 수집 및 보고하는 데 사용할 수 있는 플러그인 기반 서버 에이전트입니다. 입력 플러그인은 시스템/OS에 직접 액세스하거나 타사 API를 호출하거나 구성된 스트림(예 Kafka, statsd 등). 출력 플러그인은 에이전트에서 Cloud Insights로 수집된 메트릭, 이벤트 및 로그를 전송하는 데 사용됩니다.
 
 
 NOTE: 정확한 감사 및 데이터 보고를 위해 * NTP(Network Time Protocol) * 또는 * SNTP(Simple Network Time Protocol) * 를 사용하여 Agent 시스템의 시간을 동기화하는 것이 좋습니다.
 
 
 NOTE: Agent를 설치하기 전에 설치 파일을 확인하려면 정보 를 참조하십시오 <<Verifying Kubernetes Checksums>>.
+
+
+
+== 운영자 기반 설치 또는 스크립트 기반 설치?
+
+Cloud Insights은 고객의 Kubernetes 클러스터를 모니터링하기 위한 Kubernetes Operator를 구축했습니다. NetApp Kubernetes Monitoring Operator(NKMO)는 Cloud Insights에서 제어 가능한 더욱 유연한 모니터링 구성과 고객 중심 구성 개입 감소, K8s 클러스터에서 실행 중인 다른 소프트웨어의 모니터링 기회를 개선할 수 있다는 점에서 스크립트 설치 모니터링 방법보다 향상된 기능입니다.
+
+NKMO는 Cloud Insights로 데이터 수집, 변환 및 전송을 위해 기본 Telegraf 소프트웨어를 계속 사용하고 있습니다. 또한 맞춤형 리소스 정의 및 맞춤형 리소스를 통해 각 K8s 클러스터에 대한 맞춤형 모니터링을 제공합니다.
+
+
+
+== 에이전트 설치 중
 
 서비스 데이터 수집기를 설치하고 아직 Agent를 구성하지 않은 경우 해당 운영 체제에 대한 Agent를 먼저 설치하라는 메시지가 표시됩니다. 이 항목에서는 다음과 같은 운영 체제에 Telegraf 에이전트를 설치하는 지침을 제공합니다.
 
@@ -60,7 +70,7 @@ image:Kubernetes_Operator_Tile_Choices.png["Kubernetes 설치 선택 사항"]
 
 
 * OpenShift 4.6-4.8에서 실행 중인 경우, 이러한 필수 구성 요소가 충족되도록 하기 위해 아래의 * OpenShift Instructions * 를 따라야 합니다.
-* _curl_, _sudo_, _openssl_, _sha256sum_ 및 _kubbctl_ 명령을 사용할 수 있어야 합니다. 최상의 결과를 얻으려면 이러한 명령을 경로에 추가하십시오.
+* 다음 명령을 사용할 수 있어야 합니다. _curl_, _sudo_(스크립트 기반 설치에는 필요하지 않음), _openssl_, _sha256sum_ 및 _kubctl_. 최상의 결과를 얻으려면 이러한 명령을 경로에 추가하십시오.
 * Kudbe-state-metrics를 설치해야 합니다. 자세한 내용은 아래를 참조하십시오. Kudbe-state-metrics는 운영자 기반 설치와 함께 자동으로 설치됩니다.
 * 프록시를 사용하고 있는 경우 * Kubernetes * 용 프록시 지원 구성 섹션의 지침을 따르십시오.
 * 보안 컨텍스트 제약 조건이 필요한 Kubernetes 버전을 실행 중인 경우 * Kubernetes * 에서 데이터를 수집하도록 에이전트 구성 섹션의 지침을 따르십시오. 사용자 기반 설치 시 자동으로 설치됩니다.
@@ -170,14 +180,14 @@ Cloud Insights에서 운영자 Docker 이미지를 가져옵니다.
 모든 오픈 소스 종속성을 전용 Docker 레지스트리에 다운로드합니다. 다음 오픈 소스 이미지를 다운로드해야 합니다.
 
 ....
-docker.io/telegraf:1.19.3
-gcr.io/kubebuilder/kube-rbac-proxy:v0.5.0
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.1.0
+docker.io/telegraf:1.21.4
+gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.3.0
 ....
 Fluent-bit가 활성화된 경우 다음 정보도 다운로드하십시오.
 
 ....
-docker.io/fluent-bit:1.7.8
+docker.io/fluent-bit:1.8.12
 docker.io/kubernetes-event-exporter:0.10
 ....
 새 Docker 저장소 위치를 반영하도록 에이전트 CR을 편집하고 자동 업그레이드를 비활성화합니다(활성화된 경우).
@@ -200,7 +210,47 @@ spec:
 ....
 
 
+=== 스크립트 기반 K8s 모니터링에서 운영자 기반으로 업그레이드
+
+스크립트 기반 Kubernetes 모니터링을 이미 설치한 경우, 다음 단계에 따라 운영자 기반 모니터링으로 업그레이드하십시오.
+
+업그레이드 단계
+
+. 스크립트 기반 모니터링 설치에서 ConfigMap 유지:
++
+ kubectl --namespace ci-monitoring get cm -o yaml > /tmp/telegraf-configs.yaml
+. K8s 운영자 기반 모니터링 솔루션을 설치할 때 사용할 K8s 클러스터 이름을 저장하여 데이터 연속성을 보장합니다.
++
+CI에서 K8s 클러스터의 이름을 잊은 경우 다음 명령줄을 사용하여 저장된 구성에서 추출할 수 있습니다.
+
++
+ cat /tmp/telegraf-configs.yaml | grep kubernetes_cluster | head -2
+. 스크립트 기반 모니터링을 제거합니다
++
+Kubernetes에서 스크립트 기반 에이전트를 제거하려면 다음을 수행합니다.
+
++
+모니터링 네임스페이스를 Telegraf 전용으로 사용하는 경우:
+
++
+ kubectl --namespace ci-monitoring delete ds,rs,cm,sa,clusterrole,clusterrolebinding -l app=ci-telegraf
++
+ kubectl delete ns ci-monitoring
++
+모니터링 네임스페이스를 Telegraf(전신) 외에 다른 용도로 사용하는 경우:
+
++
+ kubectl --namespace ci-monitoring delete ds,rs,cm,sa,clusterrole,clusterrolebinding -l app=ci-telegraf
+
+
+image:KubernetesOperatorTile.png["Kubernetes Operator용 타일"]
+
+
+
 == 스크립트 기반 설치
+
+
+NOTE: 스크립트 기반 설치는 더 이상 사용되지 않습니다. Kubernetes 클러스터를 모니터링하려면 Kubernetes Operator-based collection을 사용하십시오.
 
 image:Kubernetes_Install_Agent_screen.png["스크립트 기반 설치"]
 

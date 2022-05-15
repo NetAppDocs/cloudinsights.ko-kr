@@ -148,6 +148,9 @@ image:email_monitor_alerts.png["이메일 경고 수신자"]
 image:Webhook_Monitor_Notifications.png["웹 후크 알림"]
 
 
+NOTE: ONTAP 데이터 수집기 알림은 클러스터/데이터 수집기와 관련된 특정 모니터 알림보다 우선합니다. Data Collector 자체에 대해 설정한 받는 사람 목록에는 데이터 수집기 경고가 표시됩니다. 활성 데이터 수집기 경고가 없는 경우 모니터에서 생성된 알림이 특정 모니터 수신자에게 전송됩니다.
+
+
 
 === 시정 조치 또는 추가 정보 설정
 

@@ -12,7 +12,7 @@ keywords: support, knowledgebase, documentation, community, chat, videos, help, 
 toc::[]
 Cloud Insights에서 도움말 > 지원 * 을 클릭하여 지원 옵션에 액세스할 수 있습니다. 사용 가능한 지원 옵션은 평가판 모드인지 구독 모드인지에 따라 다릅니다.
 
-image:SupportPageExample-NA.png["지원 페이지"]
+image:Support_with_Chat.png["지원 페이지"]
 
 
 
@@ -109,6 +109,7 @@ NOTE: 에 등록하려면 등록해야 합니다 <<Activating support entitlemen
 
 * link:https://www.netapp.com/us/contact-us/support.aspx["* 전화 *"]
 * link:https://mysupport.netapp.com/portal?_nfpb=true&_st=initialPage=true&_pageLabel=submitcase["* 지원 티켓 *"]
+* * 채팅 * - NetApp 지원 담당자와 연결하여 지원을 받을 수 있습니다(평일에만 해당). 도움말 > 지원 * 페이지의 오른쪽 아래에 있는 버블을 클릭합니다.
 
 
 을 클릭하여 영업 지원을 요청할 수도 있습니다 link:https://www.netapp.com/us/forms/sales-inquiry/cloud-insights-sales-inquiries.aspx["* 영업팀에 문의 *"] 링크.

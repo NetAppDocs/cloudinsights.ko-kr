@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: insights_overview.html 
+keywords: insight, greedy, degraded, impacted, impacting, impactful, impact, resources, consuming, workload, ttf, time to full, k8s, kubernetes, namespace 
+summary: 통찰력을 통해 리소스 사용 및 추세를 파악할 수 있습니다. 
+---
+= 인사이트
+:allow-uri-read: 
+
+
+[role="lead"]
+Insights를 사용하면 리소스 사용량과 이러한 리소스가 다른 리소스에 미치는 영향 또는 전체 분석에 소요되는 시간을 파악할 수 있습니다.
+
+다양한 Insights를 사용할 수 있습니다. 대시보드 > 인사이트 * 로 이동하여 심층 분석을 시작합니다. 기본 탭에서 활성 Insights(현재 발생하고 있는 Insights)를 보거나 _Inactive Insights_탭에서 비활성 Insights를 볼 수 있습니다. Inactive Insights는 이전에 활성화되었지만 더 이상 발생하지 않는 Insights입니다.
+
+
+
+== Insight 유형
+
+
+
+=== 스트레스 상태의 공유 리소스
+
+워크로드가 큰 경우 공유 리소스에 있는 다른 워크로드의 성능이 저하될 수 있습니다. 이렇게 하면 공유 리소스가 스트레스를 받게 됩니다. Cloud Insights는 사용자 환경의 리소스 포화 및 영향을 조사하는 데 도움이 되는 도구를 제공합니다. link:insights_shared_resources_under_stress.html["자세한 정보"]
+
+
+NOTE: 이것은 _Preview_feature 이며 개선 사항이 있을 때 시간이 지남에 따라 변경될 수 있습니다. link:/concept_preview_features.html["자세한 정보"] Cloud Insights 미리보기 기능 정보.
+
+
+
+=== 공간이 부족되는 Kubernetes 네임스페이스
+
+Space Insight가 없는 Kubernetes 네임스페이스 에서는 공간이 부족할 위험이 있는 Kubernetes 네임스페이스의 워크로드를 볼 수 있으며 각 공간이 가득 채워지기 전의 남은 일 수에 대한 추정치가 있습니다. link:insights_k8s_namespaces_running_out_of_space.html["자세한 정보"]
+
+
+NOTE: 이것은 _Preview_feature 이며 개선 사항이 있을 때 시간이 지남에 따라 변경될 수 있습니다. link:/concept_preview_features.html["자세한 정보"] Cloud Insights 미리보기 기능 정보.

@@ -24,6 +24,9 @@ Cloud Insights API는 현재 버전을 기반으로 사용할 수 있습니다.
 | 데이터 수집 | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
 
 
+| 사용자 관리 | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
+
+
 | 경고 |  | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
 
 
@@ -31,6 +34,9 @@ Cloud Insights API는 현재 버전을 기반으로 사용할 수 있습니다.
 
 
 | 데이터 수집 |  | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
+
+
+| 로그 수집 |  | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
 |===
 Cloud Insights도 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/concept_user_roles.html#permission-levels["기능 세트 역할"] 에서 액세스할 수 있는 API를 결정합니다. 사용자 및 게스트 역할은 관리자 역할보다 권한이 적습니다. 예를 들어 Monitor and Optimize에서 관리자 역할이 있지만 Reporting에서 사용자 역할은 데이터 웨어하우스를 제외한 모든 API 유형을 관리할 수 있습니다.
 
@@ -48,7 +54,7 @@ Cloud Insights도 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/
 
 최신 API 정보는 Cloud Insights에 로그인하고 * 관리자 > API 액세스 * 로 이동하여 확인할 수 있습니다. API Documentation * 링크를 클릭합니다.
 
-image:API_Documentation.png["API 설명서"]
+image:APICategoriesApril2022.png["API 범주"]
 
 API 설명서는 Swagger 기반의 API에 대한 간단한 설명과 사용 정보를 제공하며, 사용자 환경에서 사용할 수 있습니다.
 
