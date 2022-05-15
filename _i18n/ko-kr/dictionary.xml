@@ -8913,13 +8913,11 @@
   <block id="ed9854709bd41d275fb8660c2894a4fc" category="paragraph"><block ref="ed9854709bd41d275fb8660c2894a4fc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="541eba6bad0f6bb8c10bec2af8d0388d" category="section-title">Kubernetes 운영자</block>
   <block id="92631a8aee2d30caecb661301eccee48" category="inline-link-macro">NetApp Kubernetes 모니터링 운영자</block>
-  <block id="44e205d6b7f670b4484b5c59a0e047a1" category="paragraph">를 클릭합니다 <block ref="7bfa97fa7d1d00f6d7f973b03d477760" category="inline-link-macro-rx"></block> (NKMO)는 Kubernetes 1.17 이상을 실행하는 모든 환경에서 사용할 수 있으며 Cloud Insights용 Kubernetes를 설치하는 데 권장되는 방법입니다. NKMO는 Cloud Insights에서 제어가 가능한 보다 유연한 모니터링 구성과 고객 중심의 구성 개입을 줄이고 K8s 클러스터에서 실행 중인 다른 소프트웨어를 모니터링할 수 있는 기회를 강화함으로써 스크립트 설치 모니터링 방법에 비해 향상된 기능입니다.</block>
   <block id="b309f54e4f5c6e536fce4de1d83c5553" category="section-title">API를 사용하여 사용자 및 초대를 관리합니다</block>
   <block id="ed39f5bc3223c1b01ac77f72f296192a" category="inline-link-macro">API Swagger 문서</block>
   <block id="11ac41afd372e3478375bc4334741ded" category="paragraph">이제 Cloud Insights의 강력한 API를 사용하여 사용자와 초대를 관리할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="8b90a2a6f600732ad913a4dda50bc415" category="inline-link-macro-rx"></block>.</block>
   <block id="8f586721df71efca42eda16d08885806" category="section-title">데이터 수집 경고</block>
   <block id="16908b0605f2645dfcb4c3a8d248cef3" category="inline-link-macro">이벤트</block>
-  <block id="b3a98c480e653bcb96e30bd853fa73d8" category="paragraph">이제 데이터 수집에 대한 알림을 받을 수 있습니다 <block ref="cd5c9bc76fe8dcbf686501201e710bd1" category="inline-link-macro-rx"></block>:</block>
   <block id="090cf11f8e59f7e005270bc00a8af56b" category="paragraph">이러한 모니터는 기본적으로 _일시 중지됨_이며 알림을 보내기 전에 활성화(재개)해야 합니다.</block>
   <block id="43bd31a2d107dc985aca1295fc25dfe1" category="paragraph">또한 Collector 경고용 모니터는 다른 모니터 유형보다 더 많은 경고를 보낼 수 있으므로 문제 해결 없이는 알림 수신자를 설정하지 않는 것이 좋습니다.</block>
   <block id="81fb83219b34a7b8835cf9be74652d9b" category="section-title">저장소 변경 로그 이벤트에 대한 경고</block>
@@ -8928,4 +8926,6 @@
   <block id="639cd114dad5880c94752e290d36353a" category="cell">Space_Insight에서 실행되는 _Kubernetes 네임스페이스 를 사용하면 공간이 부족할 위험이 있는 Kubernetes 네임스페이스의 워크로드를 볼 수 있으며 각 공간이 가득 채워지기 전의 남은 일 수에 대한 추정치가 있습니다.<block ref="91569d71925d0cb55a46b7a5e8a36cb5" category="inline-link-macro-rx"></block></block>
   <block id="9bfa6f1e81e8e1a4af8a2057b85a0257" category="cell">Stress_insight 아래의 _ 공유 리소스는 AI/ML을 사용하여 리소스 경합이 사용자 환경에서 성능 저하를 일으키는 위치를 자동으로 식별하고, 해당 환경의 영향을 받는 워크로드를 강조 표시하고, 문제 해결을 위한 권장 조치를 제공하여 성능 문제를 보다 빠르게 해결합니다.<block ref="b97265367ad52c02d31fa7522e26571d" category="inline-link-macro-rx"></block></block>
   <block id="fd693ecc46e262de271868b32a2e5366" category="paragraph"><block ref="fd693ecc46e262de271868b32a2e5366" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b90e10e9945ca4933745606f75a304bb" category="paragraph">를 클릭합니다 <block ref="59560f912a73dc2f4cdb9ad27b9948a6" category="inline-link-macro-rx"></block> (NKMO)는 Kubernetes 1.17 이상을 실행하는 모든 환경에서 사용할 수 있으며 Cloud Insights용 Kubernetes를 설치하는 데 권장되는 방법입니다. NKMO는 Cloud Insights에서 제어가 가능한 보다 유연한 모니터링 구성과 고객 중심의 구성 개입을 줄이고 K8s 클러스터에서 실행 중인 다른 소프트웨어를 모니터링할 수 있는 기회를 강화함으로써 스크립트 설치 모니터링 방법에 비해 향상된 기능입니다.</block>
+  <block id="a12dd41aedb5d3e2639e77030a5a0084" category="paragraph">이제 데이터 수집에 대한 알림을 받을 수 있습니다 <block ref="ff2275d535241d8d394c16f909063489" category="inline-link-macro-rx"></block>:</block>
 </blocks>

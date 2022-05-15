@@ -26,7 +26,7 @@ image:ChatIcon.png["파란색 NetApp \"N\"이 웃는 얼굴로 표시된 채팅 
 
 ==== Kubernetes 운영자
 
-를 클릭합니다 link:/task_config_telegraf_agent_k8s.html#operator-based-install-or-script-based-install["NetApp Kubernetes 모니터링 운영자"] (NKMO)는 Kubernetes 1.17 이상을 실행하는 모든 환경에서 사용할 수 있으며 Cloud Insights용 Kubernetes를 설치하는 데 권장되는 방법입니다. NKMO는 Cloud Insights에서 제어가 가능한 보다 유연한 모니터링 구성과 고객 중심의 구성 개입을 줄이고 K8s 클러스터에서 실행 중인 다른 소프트웨어를 모니터링할 수 있는 기회를 강화함으로써 스크립트 설치 모니터링 방법에 비해 향상된 기능입니다.
+를 클릭합니다 link:https://docs.netapp.com/us-en/cloudinsights/task_config_telegraf_agent_k8s.html#operator-based-install-or-script-based-install["NetApp Kubernetes 모니터링 운영자"] (NKMO)는 Kubernetes 1.17 이상을 실행하는 모든 환경에서 사용할 수 있으며 Cloud Insights용 Kubernetes를 설치하는 데 권장되는 방법입니다. NKMO는 Cloud Insights에서 제어가 가능한 보다 유연한 모니터링 구성과 고객 중심의 구성 개입을 줄이고 K8s 클러스터에서 실행 중인 다른 소프트웨어를 모니터링할 수 있는 기회를 강화함으로써 스크립트 설치 모니터링 방법에 비해 향상된 기능입니다.
 
 
 
@@ -38,7 +38,7 @@ image:ChatIcon.png["파란색 NetApp \"N\"이 웃는 얼굴로 표시된 채팅 
 
 ==== 데이터 수집 경고
 
-이제 데이터 수집에 대한 알림을 받을 수 있습니다 link:/task_system_monitors.html#collector-monitors["이벤트"]:
+이제 데이터 수집에 대한 알림을 받을 수 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/task_system_monitors.html#collector-monitors["이벤트"]:
 
 * 획득 장치 종료
 * Collector 실패
