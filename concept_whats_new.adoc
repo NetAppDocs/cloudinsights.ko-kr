@@ -26,7 +26,11 @@ image:ChatIcon.png["파란색 NetApp \"N\"이 웃는 얼굴로 표시된 채팅 
 
 ==== Kubernetes 운영자
 
-를 클릭합니다 link:https://docs.netapp.com/us-en/cloudinsights/task_config_telegraf_agent_k8s.html#operator-based-install-or-script-based-install["NetApp Kubernetes 모니터링 운영자"] (NKMO)는 Kubernetes 1.17 이상을 실행하는 모든 환경에서 사용할 수 있으며 Cloud Insights용 Kubernetes를 설치하는 데 권장되는 방법입니다. NKMO는 Cloud Insights에서 제어가 가능한 보다 유연한 모니터링 구성과 고객 중심의 구성 개입을 줄이고 K8s 클러스터에서 실행 중인 다른 소프트웨어를 모니터링할 수 있는 기회를 강화함으로써 스크립트 설치 모니터링 방법에 비해 향상된 기능입니다.
+Cloud Insights의 고급 Kubernetes 모니터링 및 클러스터 탐색기를 사용하여 쉽게 시작 및 실행할 수 있습니다.
+
+를 클릭합니다 link:https://docs.netapp.com/us-en/cloudinsights/task_config_telegraf_agent_k8s.html#operator-based-install-or-script-based-install["NetApp Kubernetes 모니터링 운영자"] (NKMO)는 Cloud Insights Insights를 위한 Kubernetes를 설치하는 데 권장되는 방법입니다. 더 적은 수의 단계로 보다 유연하게 모니터링을 구성할 수 있을 뿐만 아니라 K8s 클러스터에서 실행 중인 다른 소프트웨어를 모니터링할 수 있는 기회도 더 많아집니다.
+
+자세한 정보와 사전 요구 사항을 보려면 위의 링크를 클릭하십시오
 
 
 
@@ -38,31 +42,17 @@ image:ChatIcon.png["파란색 NetApp \"N\"이 웃는 얼굴로 표시된 채팅 
 
 ==== 데이터 수집 경고
 
-이제 데이터 수집에 대한 알림을 받을 수 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/task_system_monitors.html#collector-monitors["이벤트"]:
+Collector 실패로 인해 중요한 메트릭을 놓치지 마십시오!
 
-* 획득 장치 종료
-* Collector 실패
-* 수집기 경고
-
-
-이러한 모니터는 기본적으로 _일시 중지됨_이며 알림을 보내기 전에 활성화(재개)해야 합니다.
-
-또한 Collector 경고용 모니터는 다른 모니터 유형보다 더 많은 경고를 보낼 수 있으므로 문제 해결 없이는 알림 수신자를 설정하지 않는 것이 좋습니다.
+새로운 을 사용하면 데이터 수집기를 훨씬 쉽게 추적할 수 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/task_system_monitors.html#data-collection-monitors["경고"] 데이터 수집기 및 획득 장치 고장입니다. 이러한 모니터는 기본적으로 _일시 중지됨_입니다. 활성화하려면 모니터 페이지로 이동하여 "획득 장치 종료" 및 "수집기 실패"를 찾아서 재개합니다.
 
 
 
-==== 저장소 변경 로그 이벤트에 대한 경고
+==== ONTAP 스토리지 변경 사항에 대한 알림을 표시합니다
 
-Cloud Insights에서 생성한 스토리지 변경 로그 이벤트(로그 소스 _logs.cloud_insights.change_log.storage_ 사용)에 대한 모니터를 정의할 때 모든 수집 후 스토리지 시스템의 이전 상태와 새 상태를 비교할 때 정보 경고를 수신합니다. 기본 모니터는 다음 이벤트에 대해 ONTAP 저장소에 사용할 수 있습니다.
+예기치 않은 스토리지 변경으로 인해 운영 중단이 발생하는 것을 방지할 수 있습니다.
 
-* 내부 볼륨이 검색되었습니다
-* 내부 볼륨 수정됨
-* 스토리지 노드가 검색되었습니다
-* 스토리지 노드가 제거되었습니다
-* 스토리지 풀이 검색되었습니다
-* 스토리지 가상 머신이 검색되었습니다
-* 스토리지 가상 머신이 수정되었습니다
-
+이제 ONTAP 시스템에서 FlexVols, 노드 및 SVM의 수정 또는 제거가 감지될 때 Cloud Insights를 구성할 수 있습니다.
 
 
 
