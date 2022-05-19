@@ -189,7 +189,7 @@ Cloud Insights는 ONTAP 데이터 수집기에서 인벤토리 및 성능 데이
 ....
 security login role create -role ci_readonly -cmddirname DEFAULT -access readonly
 security login role create -role ci_readonly -cmddirname security -access readonly
-security login role create -role ci_readonly -access all -cmddirname “cluster application-record create”
+security login role create -role ci_readonly -access all -cmddirname {cluster application-record create}
 ....
 . 다음 명령을 사용하여 읽기 전용 사용자를 생성합니다. create 명령을 실행하면 이 사용자의 암호를 입력하라는 메시지가 표시됩니다.
 +
