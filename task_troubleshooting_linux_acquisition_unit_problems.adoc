@@ -20,7 +20,7 @@ keywords: AU, acquisition unit, trioubleshooting
 | 획득 장치 * 탭의 * 관리 > 데이터 수집기 * 페이지에 있는 AU 상태는 "인증서 만료" 또는 "인증서 해지"를 표시합니다. | AU 오른쪽의 메뉴를 클릭하고 * 연결 복원 * 을 선택합니다. 지침에 따라 획득 장치를 복원합니다: 1. 획득 장치(AU) 서비스를 중지합니다. Copy Stop Command _ (복사 중지 명령) 버튼을 클릭하여 명령을 클립보드로 빠르게 복사한 다음, 이 명령을 획득 장치 시스템의 명령 프롬프트에 붙여넣을 수 있습니다. AU의 _/var/lib/netapp/클라우드 볼거리/acq/conf_folder에 "token"이라는 파일을 생성합니다. 3.Copy Token_ 단추를 클릭하고 이 토큰을 만든 파일에 붙여 넣습니다. AU 서비스를 다시 시작합니다. Copy Restart Command _ 버튼을 클릭하고 AU의 명령 프롬프트에 명령을 붙여 넣습니다. 
 
 
-| SELinux에서 설치가 실패합니다 | AU가 SELinux에 설치된 경우 SE를 비활성화하거나 허용 모드로 설정해야 합니다. 설치가 완료되면 Enforcing 모드를 활성화할 수 있습니다. 
+| 획득 장치 서버 서비스를 시작할 때 권한이 거부되었습니다 | AU가 SELinux에 설치된 경우 SE를 _permissive_mode로 설정해야 합니다. _Enforcing_mode는 지원되지 않습니다. SELinux를 허용 모드로 설정한 후 AU 서비스를 다시 시작합니다. link:https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services/Cloud_Insights/Permission_denied_when_starting_the_Cloud_Insight_Acquisition_Unit_Server_Service["자세한 정보"]. 
 
 
 | 서버 요구 사항이 충족되지 않았습니다 | 획득 장치 서버 또는 VM이 을 충족하는지 확인합니다 link:concept_acquisition_unit_requirements.html["요구 사항"] 

@@ -2152,8 +2152,6 @@
   <block id="710c77cfc8d2136c51aad6a8316043b9" category="cell">* 사용해 보세요. *</block>
   <block id="a7179f7901a2f6257761977d760a253d" category="cell">획득 장치 * 탭의 * 관리 &gt; 데이터 수집기 * 페이지에 있는 AU 상태는 "인증서 만료" 또는 "인증서 해지"를 표시합니다.</block>
   <block id="a56fa9c38676d6ae98991340b46ca3ad" category="cell">AU 오른쪽의 메뉴를 클릭하고 * 연결 복원 * 을 선택합니다. 지침에 따라 획득 장치를 복원합니다: 1. 획득 장치(AU) 서비스를 중지합니다. Copy Stop Command _ (복사 중지 명령) 버튼을 클릭하여 명령을 클립보드로 빠르게 복사한 다음, 이 명령을 획득 장치 시스템의 명령 프롬프트에 붙여넣을 수 있습니다. AU의 _/var/lib/netapp/클라우드 볼거리/acq/conf_folder에 "token"이라는 파일을 생성합니다. 3.Copy Token_ 단추를 클릭하고 이 토큰을 만든 파일에 붙여 넣습니다. AU 서비스를 다시 시작합니다. Copy Restart Command _ 버튼을 클릭하고 AU의 명령 프롬프트에 명령을 붙여 넣습니다.</block>
-  <block id="d97d849aedd1b3ccd65327253d0656d3" category="cell">SELinux에서 설치가 실패합니다</block>
-  <block id="cce922f56afc409366f4616547ab9813" category="cell">AU가 SELinux에 설치된 경우 SE를 비활성화하거나 허용 모드로 설정해야 합니다. 설치가 완료되면 Enforcing 모드를 활성화할 수 있습니다.</block>
   <block id="f8c1f64e9a97f83b0f209268bdd07bcb" category="cell">서버 요구 사항이 충족되지 않았습니다</block>
   <block id="b4851e92b19af0c5c82447fc0937709d" category="inline-link-macro">요구 사항</block>
   <block id="1b30be776a2009c2060ad54316282f2f" category="cell">획득 장치 서버 또는 VM이 을 충족하는지 확인합니다 <block ref="e5b1973153b9956f66244f44dc226837" category="inline-link-macro-rx"></block></block>
@@ -8930,4 +8928,6 @@
   <block id="d79ca0965e13425b418413735c2f77b4" category="section-title">ONTAP 스토리지 변경 사항에 대한 알림을 표시합니다</block>
   <block id="3093b62af2aca236846ea1b6c223c129" category="paragraph">예기치 않은 스토리지 변경으로 인해 운영 중단이 발생하는 것을 방지할 수 있습니다.</block>
   <block id="7b4027634c44a41ce42886c7383adeb4" category="paragraph">이제 ONTAP 시스템에서 FlexVols, 노드 및 SVM의 수정 또는 제거가 감지될 때 Cloud Insights를 구성할 수 있습니다.</block>
+  <block id="ba5ed4798f807b143761ea5211f06ea2" category="cell">획득 장치 서버 서비스를 시작할 때 권한이 거부되었습니다</block>
+  <block id="abb32e1da1ad856744ba53e096ef4ba3" category="cell">AU가 SELinux에 설치된 경우 SE를 _permissive_mode로 설정해야 합니다. _Enforcing_mode는 지원되지 않습니다. SELinux를 허용 모드로 설정한 후 AU 서비스를 다시 시작합니다. <block ref="a82c78a8c8abe174de58c3bb493cbdd3" category="inline-link-macro-rx"></block>.</block>
 </blocks>
