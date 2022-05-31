@@ -433,8 +433,7 @@ sudo /tmp/uninstall
 
 === 쿠버네티스
 
-
-NOTE: Kubernetes 지침이 새 페이지로 옮겨졌습니다. 제발 link:task_config_telegraf_agent_k8s.html["* 여기로 이동 *"] 최신 Kubernetes 에이전트 지침을 보려면
+Kubernetes Agent 지침이 새 페이지로 이동했습니다. 제발 link:task_config_telegraf_agent_k8s.html["* 여기로 이동 *"] 최신 Kubernetes 에이전트 지침을 보려면
 
 
 

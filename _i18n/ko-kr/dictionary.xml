@@ -8928,5 +8928,5 @@
   <block id="abb32e1da1ad856744ba53e096ef4ba3" category="cell">AU가 SELinux에 설치된 경우 SE를 _permissive_mode로 설정해야 합니다. _Enforcing_mode는 지원되지 않습니다. SELinux를 허용 모드로 설정한 후 AU 서비스를 다시 시작합니다. <block ref="a82c78a8c8abe174de58c3bb493cbdd3" category="inline-link-macro-rx"></block>.</block>
   <block id="eff09a47f0894badbc59afef03e773cb" category="paragraph">이벤트 속도 검사기는 ONTAP SVM 데이터 수집기를 설치하기 전에 SVM에서 NFS/SMB의 결합된 이벤트 속도를 확인하여 에이전트 시스템 한 대를 모니터링할 수 있는 SVM의 수를 확인하는 데 사용됩니다. Agent는 최대 50개의 데이터 수집기를 지원할 수 있습니다.</block>
   <block id="81b0a686a7f070f4718258f6f1c90eea" category="paragraph">a) 이 표를 일반 사이징 가이드로 사용합니다.</block>
-  <block id="bebdcbd60f7879de52fcd7bcd57c521c" category="admonition">Kubernetes 지침이 새 페이지로 옮겨졌습니다. 제발 <block ref="6efc317b80350dcbc0248481605e2f47" category="inline-link-macro-rx"></block> 최신 Kubernetes 에이전트 지침을 보려면</block>
+  <block id="904be52209f404eb1b403eeef2de5817" category="paragraph">Kubernetes Agent 지침이 새 페이지로 이동했습니다. 제발 <block ref="6efc317b80350dcbc0248481605e2f47" category="inline-link-macro-rx"></block> 최신 Kubernetes 에이전트 지침을 보려면</block>
 </blocks>
