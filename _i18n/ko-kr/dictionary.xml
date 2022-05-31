@@ -6796,7 +6796,6 @@
   <block id="eaca524ca350c2f4a68505fcd46722dc" category="list-text"><block ref="233c0aad358add3bf73c9fdb84825ed1" category="inline-link-macro-rx"></block>.</block>
   <block id="d836a7075094860f48ae2ac37b8ee84a" category="paragraph">Kubernetes에서는 두 가지 방법으로 데이터를 수집할 수 있습니다.</block>
   <block id="c17822d3ce9eb04fef37fc6f007b859e" category="list-text">NetApp Kubernetes 모니터링 오퍼레이터 구성 Kubernetes의 권장 설치 방법입니다.</block>
-  <block id="7b30b1516f4acc31dd26b0ee7b225209" category="list-text">기존의 스크립트 기반 에이전트 설치</block>
   <block id="90997e8d0c35126fbf3794f175f2f0f3" category="paragraph">설치 지침은 선택한 환경에 따라 다릅니다.</block>
   <block id="e973aa335528494c3881ffe9a6be0e81" category="inline-image-macro">Kubernetes 설치 선택 사항</block>
   <block id="b81ec4ed4165242831d809ec7e442e82" category="paragraph"><block ref="b81ec4ed4165242831d809ec7e442e82" category="inline-image-macro-rx" type="image"></block></block>
@@ -8387,7 +8386,6 @@
   <block id="e1e3817c54607481fd77cff67b3d62bf" category="list-text">* 선형 *: 두 점 사이의 값으로 점이 생성됩니다. 두 점을 연결하는 선과 같지만 추가(보간) 데이터 점이 있는 선을 생성합니다.</block>
   <block id="ccd695c5d6bdf7e28aefe86c7867a7a9" category="inline-image-macro">각 원본 지점 사이에 추가 데이터 점이 있는 선형 보간을 보여주는 단순한 직선</block>
   <block id="7be18bdce3683fe5cad25aaa844df56d" category="paragraph"><block ref="7be18bdce3683fe5cad25aaa844df56d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4f34579ac6d99e36b83ddd35d80ebb6d" category="admonition">이 페이지의 Kubernetes 지침이 새 페이지로 이동합니다. 제발 <block ref="6efc317b80350dcbc0248481605e2f47" category="inline-link-macro-rx"></block> 최신 Kubernetes 에이전트 지침을 보려면</block>
   <block id="664a8070ae98149df4b2438dabea2160" category="admonition">Agent를 설치하기 전에 설치 파일을 확인하려면 정보 를 참조하십시오 <block ref="80fd3363e39e5f2a536c9cf5d81a1f0a" category="inline-xref-macro-rx"></block>.</block>
   <block id="1f7b055a94f5e05d9c08683890d73b5e" category="list-text">기존의 스크립트 기반 에이전트 설치(권장하지 않음)</block>
   <block id="342761835c95d3618833ced82b6260ac" category="section-title">Kubernetes 체크섬 확인 중</block>
@@ -8930,4 +8928,5 @@
   <block id="abb32e1da1ad856744ba53e096ef4ba3" category="cell">AU가 SELinux에 설치된 경우 SE를 _permissive_mode로 설정해야 합니다. _Enforcing_mode는 지원되지 않습니다. SELinux를 허용 모드로 설정한 후 AU 서비스를 다시 시작합니다. <block ref="a82c78a8c8abe174de58c3bb493cbdd3" category="inline-link-macro-rx"></block>.</block>
   <block id="eff09a47f0894badbc59afef03e773cb" category="paragraph">이벤트 속도 검사기는 ONTAP SVM 데이터 수집기를 설치하기 전에 SVM에서 NFS/SMB의 결합된 이벤트 속도를 확인하여 에이전트 시스템 한 대를 모니터링할 수 있는 SVM의 수를 확인하는 데 사용됩니다. Agent는 최대 50개의 데이터 수집기를 지원할 수 있습니다.</block>
   <block id="81b0a686a7f070f4718258f6f1c90eea" category="paragraph">a) 이 표를 일반 사이징 가이드로 사용합니다.</block>
+  <block id="bebdcbd60f7879de52fcd7bcd57c521c" category="admonition">Kubernetes 지침이 새 페이지로 옮겨졌습니다. 제발 <block ref="6efc317b80350dcbc0248481605e2f47" category="inline-link-macro-rx"></block> 최신 Kubernetes 에이전트 지침을 보려면</block>
 </blocks>
