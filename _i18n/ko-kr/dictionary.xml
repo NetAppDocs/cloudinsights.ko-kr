@@ -2275,7 +2275,6 @@
   <block id="9a1a396295b55e43a238268cd5378571" category="paragraph">MyComputerName123_HBA1_Symm1_FA1</block>
   <block id="c8d9735981badcae3909dff78f1d657f" category="paragraph">호스트 이름: MyComputerName</block>
   <block id="97b24ca631392b0a444fb266ccf9e85a" category="paragraph">RegExp:(. *?) _. *</block>
-  <block id="59c4da5f3e129e4540ab4ed0809c7648" category="paragraph">예제 9 이 예제에서는 1 _ 다음에 있는 모든 항목을 찾은 다음 두 번째 _ 까지 찾습니다.</block>
   <block id="5fd386bb34f01c8fea9302b4944c3fc0" category="paragraph">* 영역: * Z_MyComputerName_StorageName</block>
   <block id="f7cca9f0fcd660c02b10b4923524cf00" category="paragraph">* 호스트 이름: * MyComputerName</block>
   <block id="934b65d923d9218256bfdfb8a6204b2f" category="paragraph">* RegExp: *. *?_(. *?) _. *?</block>
@@ -8929,4 +8928,7 @@
   <block id="eff09a47f0894badbc59afef03e773cb" category="paragraph">이벤트 속도 검사기는 ONTAP SVM 데이터 수집기를 설치하기 전에 SVM에서 NFS/SMB의 결합된 이벤트 속도를 확인하여 에이전트 시스템 한 대를 모니터링할 수 있는 SVM의 수를 확인하는 데 사용됩니다. Agent는 최대 50개의 데이터 수집기를 지원할 수 있습니다.</block>
   <block id="81b0a686a7f070f4718258f6f1c90eea" category="paragraph">a) 이 표를 일반 사이징 가이드로 사용합니다.</block>
   <block id="904be52209f404eb1b403eeef2de5817" category="paragraph">Kubernetes Agent 지침이 새 페이지로 이동했습니다. 제발 <block ref="6efc317b80350dcbc0248481605e2f47" category="inline-link-macro-rx"></block> 최신 Kubernetes 에이전트 지침을 보려면</block>
+  <block id="ff7c0fcd6a31e735a61c001f75426961" category="section-title">예</block>
+  <block id="f2803148b76b5b63f68b31927cb35d83" category="section-title">예 9</block>
+  <block id="2c9ef91324ec8d07844a54c6151dc4cb" category="paragraph">이 예제에서는 1_ 이후의 모든 것과 두 번째 _ 까지의 모든 것을 찾습니다.</block>
 </blocks>

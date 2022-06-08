@@ -508,7 +508,7 @@ image::SecondaryAxisExplained.png[보조 축 예제]
 
 
 
-==== 변수 유형
+=== 변수 유형
 
 변수는 다음 형식 중 하나일 수 있습니다.
 

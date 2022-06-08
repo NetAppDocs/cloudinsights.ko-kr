@@ -13,7 +13,7 @@ keywords: AU, acquisition unit, RAU, requirements, sizing
 
 
 
-=== 요구 사항
+== 요구 사항
 
 |===
 
@@ -43,14 +43,14 @@ keywords: AU, acquisition unit, RAU, requirements, sizing
 |===
 
 
-=== 추가 권장 사항
+== 추가 권장 사항
 
 * 정확한 감사 및 데이터 보고를 위해 * NTP(Network Time Protocol) * 또는 * SNTP(Simple Network Time Protocol) * 를 사용하여 획득 장치 시스템의 시간을 동기화하는 것이 좋습니다.
 
 
 
 
-=== 사이징 관련
+== 사이징 관련
 
 8GB 메모리와 50GB의 디스크 공간으로 Cloud Insights 획득 장치를 시작할 수 있지만, 대규모 환경에서는 다음과 같은 질문을 스스로에게 해야 합니다.
 

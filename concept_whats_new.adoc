@@ -12,11 +12,11 @@ NetApp은 제품과 서비스를 지속적으로 개선 및 개선하고 있습�
 
 
 
-=== 2022년 5월
+== 2022년 5월
 
 
 
-==== NetApp Support와 실시간 채팅
+=== NetApp Support와 실시간 채팅
 
 이제 NetApp 지원 담당자와 실시간으로 채팅할 수 있습니다. 도움말 > 지원 페이지에서 채팅 아이콘을 클릭하거나 "연락처" 섹션에서 _Chat_를 클릭하여 채팅 세션을 시작합니다. Standard 및 Premium Edition 사용자의 경우 채팅 지원은 미국 평일에 제공됩니다.
 
@@ -24,7 +24,7 @@ image:ChatIcon.png["파란색 NetApp \"N\"이 웃는 얼굴로 표시된 채팅 
 
 
 
-==== Kubernetes 운영자
+=== Kubernetes 운영자
 
 Cloud Insights의 고급 Kubernetes 모니터링 및 클러스터 탐색기를 사용하여 쉽게 시작 및 실행할 수 있습니다.
 
@@ -34,13 +34,13 @@ Cloud Insights의 고급 Kubernetes 모니터링 및 클러스터 탐색기를 �
 
 
 
-==== API를 사용하여 사용자 및 초대를 관리합니다
+=== API를 사용하여 사용자 및 초대를 관리합니다
 
 이제 Cloud Insights의 강력한 API를 사용하여 사용자와 초대를 관리할 수 있습니다. 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/cloudinsights/API_Overview.html["API Swagger 문서"].
 
 
 
-==== 데이터 수집 경고
+=== 데이터 수집 경고
 
 Collector 실패로 인해 중요한 메트릭을 놓치지 마십시오!
 
@@ -48,7 +48,7 @@ Collector 실패로 인해 중요한 메트릭을 놓치지 마십시오!
 
 
 
-==== ONTAP 스토리지 변경 사항에 대한 알림을 표시합니다
+=== ONTAP 스토리지 변경 사항에 대한 알림을 표시합니다
 
 예기치 않은 스토리지 변경으로 인해 운영 중단이 발생하는 것을 방지할 수 있습니다.
 
@@ -56,7 +56,7 @@ Collector 실패로 인해 중요한 메트릭을 놓치지 마십시오!
 
 
 
-==== 피처 미리보기
+=== 피처 미리보기
 
 Cloud Insights는 다양하고 흥미로운 새로운 미리 보기 기능을 정기적으로 강조하고 있습니다. 이러한 기능 중 하나 이상을 미리 보려면 에 문의하십시오 link:https://www.netapp.com/us/forms/sales-inquiry/cloud-insights-sales-inquiries.aspx["NetApp 세일즈 팀"] 를 참조하십시오.
 
@@ -80,17 +80,17 @@ Cloud Insights는 다양하고 흥미로운 새로운 미리 보기 기능을 �
 '''
 
 
-=== 2022년 4월
+== 2022년 4월
 
 
 
-==== 귀하의 의견을 공유해 주십시오!
+=== 귀하의 의견을 공유해 주십시오!
 
 Cloud Insights를 형성하는 데 도움이 되는 정보를 제공해 주십시오. NetApp의 * Insights to Action * 프로그램에 참여하시면 포인트와 상품을 드립니다. link:https://netapp.co1.qualtrics.com/jfe/form/SV_2aVWcE58J7oIDs1["* 지금 등록하십시오 *"]!
 
 
 
-==== 업데이트된 대시보드 편집기
+=== 업데이트된 대시보드 편집기
 
 대시보드 생성 도구를 더욱 쉽게 데이터를 보다 빠르게 시각화할 수 있도록 개편했습니다. Cloud Insights의 "대시보드" 페이지로 이동하여 기존 대시보드를 편집하거나 대시보드 갤러리에서 대시보드를 추가하거나 자신의 대시보드를 새로 만들어 확인할 수 있습니다.
 
@@ -109,13 +109,13 @@ image:CountAggregationExample1.png["집계 드롭다운에 개수 가 표시됩�
 
 
 
-==== Kubernetes Infrastructure에 대한 모니터링 개선
+=== Kubernetes Infrastructure에 대한 모니터링 개선
 
 Cloud Insights는 Pod, 데모 세트, 복제 및 복제를 생성 또는 제거할 때와 새 구축이 생성될 때 알림을 보내 Kubernetes 환경의 변경 사항을 계속 파악할 수 있습니다. Kubernetes에서는 기본적으로 _paused_state 가 모니터링되므로 필요한 특정 상태만 사용하도록 설정해야 합니다.
 
 
 
-==== 피처 미리보기
+=== 피처 미리보기
 
 Cloud Insights는 다양하고 흥미로운 새로운 미리 보기 기능을 정기적으로 강조하고 있습니다. 이러한 기능 중 하나 이상을 미리 보려면 에 문의하십시오 link:https://www.netapp.com/us/forms/sales-inquiry/cloud-insights-sales-inquiries.aspx["NetApp 세일즈 팀"] 를 참조하십시오.
 
@@ -135,14 +135,14 @@ Cloud Insights는 다양하고 흥미로운 새로운 미리 보기 기능을 �
 |===
 
 
-==== 새 데이터 수집기
+=== 새 데이터 수집기
 
 * * Cohesity Smart Files * - 이 REST API 기반 수집기는 Cohesity 클러스터를 획득하여 "뷰"(CI 내부 볼륨)와 다양한 노드를 검색하고 성능 메트릭을 수집합니다.
 
 
 
 
-==== 기타 Data Collector 업데이트
+=== 기타 Data Collector 업데이트
 
 다음 데이터 수집기에서 성능 데이터의 수집 및 표시가 향상되었습니다.
 
@@ -156,17 +156,17 @@ Cloud Insights는 다양하고 흥미로운 새로운 미리 보기 기능을 �
 '''
 
 
-=== 2022년 3월
+== 2022년 3월
 
 
 
-==== ONTAP 9.9+용 클라우드 연결
+=== ONTAP 9.9+용 클라우드 연결
 
 를 클릭합니다 link:task_dc_na_cloud_connection.html["ONTAP 9.9 이상을 위한 NetApp 클라우드 연결"] 데이터 수집기는 외부 수집 장치를 설치할 필요가 없으므로 문제 해결, 유지 관리 및 초기 배포를 간소화할 수 있습니다.
 
 
 
-==== NetApp ONTAP 모니터를 위한 새로운 FSx
+=== NetApp ONTAP 모니터를 위한 새로운 FSx
 
 새로운 를 사용하면 NetApp ONTAP 환경을 위한 FSx를 쉽게 모니터링할 수 있습니다 link:task_system_monitors.html["시스템 정의 모니터"] 인프라(메트릭)와 워크로드(로그) 모두에 대해
 
@@ -175,7 +175,7 @@ image:FSx_System_Monitors_Workloads.png["FSX는 워크로드를 모니터링합�
 
 
 
-==== 새로운 Cloud Secure 기능을 모두 사용할 수 있습니다
+=== 새로운 Cloud Secure 기능을 모두 사용할 수 있습니다
 
 다음과 같은 Cloud Secure 기능을 통해 이전보다 훨씬 더 안전한 환경을 구현할 수 있습니다.
 
@@ -192,13 +192,13 @@ image:FSx_System_Monitors_Workloads.png["FSX는 워크로드를 모니터링합�
 |===
 
 
-==== Telegraf 에이전트를 업데이트했습니다
+=== Telegraf 에이전트를 업데이트했습니다
 
 Telegraf 통합 데이터 수집용 에이전트가 성능 및 보안 향상을 통해 버전 * 1.21.2 * 로 업데이트되었습니다. 업데이트를 원하는 사용자는 의 해당 업그레이드 섹션을 참조할 수 있습니다 link:task_config_telegraf_agent.html["Agent 설치"] 문서화: 이전 버전의 에이전트는 사용자 작업 없이 계속 작동합니다.
 
 
 
-==== Data Collector 업데이트
+=== Data Collector 업데이트
 
 * Broadcom Fibre Channel 스위치 데이터 수집기는 각 인벤토리 폴링에서 실행되는 CLI 명령 수를 줄이도록 최적화되었습니다.
 
@@ -206,11 +206,11 @@ Telegraf 통합 데이터 수집용 에이전트가 성능 및 보안 향상을 
 '''
 
 
-=== 2022년 2월
+== 2022년 2월
 
 
 
-==== Cloud Insights는 Apache log4j 취약점을 해결합니다
+=== Cloud Insights는 Apache log4j 취약점을 해결합니다
 
 고객 보안은 NetApp의 최우선 과제입니다. Cloud Insights는 최신 Apache log4j 취약점을 해결하기 위한 소프트웨어 라이브러리 업데이트를 포함합니다.
 
@@ -224,7 +224,7 @@ link:https://security.netapp.com/advisory/ntap-20211218-0001/["CVE-2021-45105"]
 
 
 
-==== Kubernetes 네임스페이스 세부 정보 페이지
+=== Kubernetes 네임스페이스 세부 정보 페이지
 
 이제 클러스터의 네임스페이스에 대한 정보 상세 페이지를 통해 Kubernetes 환경을 이전보다 효율적으로 탐색할 수 있습니다. 네임스페이스 세부 정보 페이지는 모든 백엔드 스토리지 리소스 및 용량 사용률을 포함하여 네임스페이스에서 사용되는 모든 자산에 대한 요약을 제공합니다.
 
@@ -233,17 +233,17 @@ image:Kubernetes_Namespace_Detail_Example_2.png["Kubernetes 네임스페이스 �
 '''
 
 
-=== 2021년 12월
+== 2021년 12월
 
 
 
-==== ONTAP 시스템을 위한 더욱 긴밀한 통합
+=== ONTAP 시스템을 위한 더욱 긴밀한 통합
 
 NetApp 이벤트 관리 시스템(EMS)과의 새로운 통합으로 ONTAP 하드웨어 장애에 대한 알림을 더욱 간편하게 제공합니다.link:task_system_monitors.html["탐색 및 경고"] Cloud Insights의 낮은 수준의 ONTAP 메시지를 통해 문제 해결 워크플로우를 알리고 개선하고 ONTAP 요소 관리 툴링에 대한 의존도를 더욱 줄입니다.
 
 
 
-==== 로그를 쿼리하는 중입니다
+=== 로그를 쿼리하는 중입니다
 
 ONTAP 시스템의 경우 Cloud Insights 쿼리에는 강력한 기능이 포함되어 있습니다 link:concept_log_explorer.html["로그 탐색기"]EMS 로그 항목을 쉽게 조사하고 문제를 해결할 수 있습니다.
 
@@ -251,13 +251,13 @@ image:LogQueryExplorer.png["로그 쿼리"]
 
 
 
-==== Data Collector 레벨 알림입니다.
+=== Data Collector 레벨 알림입니다.
 
 경고용 시스템 정의 및 사용자 정의 생성 모니터 외에도 ONTAP 데이터 수집기에 대한 알림 알림을 설정할 수 있으므로 다른 모니터 경고와 상관없이 수집기 레벨 알림에 대한 수신자를 지정할 수 있습니다.
 
 
 
-==== Cloud Secure 역할의 유연성 향상
+=== Cloud Secure 역할의 유연성 향상
 
 에 따라 사용자에게 Cloud Secure 기능에 대한 액세스 권한을 부여할 수 있습니다 link:concept_user_roles.html#permission-levels["역할"] 관리자가 설정:
 
@@ -277,13 +277,13 @@ image:LogQueryExplorer.png["로그 쿼리"]
 |===
 
 
-==== 운영 체제 지원
+=== 운영 체제 지원
 
 CentOS 8.x 지원은 * CentOS 8 Stream * 지원으로 대체됩니다. CentOS 8.x는 2021년 12월 31일에 생산이 종료됩니다.
 
 
 
-==== Data Collector 업데이트
+=== Data Collector 업데이트
 
 공급업체 변경 사항을 반영하기 위해 여러 Cloud Insights 데이터 수집기 이름이 추가되었습니다.
 
@@ -304,11 +304,11 @@ CentOS 8.x 지원은 * CentOS 8 Stream * 지원으로 대체됩니다. CentOS 8.
 '''
 
 
-=== 2021년 11월
+== 2021년 11월
 
 
 
-==== Adaptive 대시보드
+=== Adaptive 대시보드
 
 _위젯에서 변수를 사용하는 기능과 속성에 대한 새 변수.
 
@@ -319,13 +319,13 @@ image:Variables_Attribute_Filtering.png[""]
 
 
 
-==== API를 통해 보고 데이터베이스에 액세스합니다
+=== API를 통해 보고 데이터베이스에 액세스합니다
 
 타사 보고, ITSM 및 자동화 툴과의 통합을 위한 향상된 기능: Cloud Insights의 강력한 기능 link:API_Overview.html["API를 참조하십시오"] 사용자가 Cognos 보고 환경을 거치지 않고 Cloud Insights 보고 데이터베이스를 직접 쿼리할 수 있습니다.
 
 
 
-==== VM 랜딩 페이지의 POD 테이블
+=== VM 랜딩 페이지의 POD 테이블
 
 VM과 Kubernetes Pod를 원활하게 탐색할 수 있습니다. 향상된 문제 해결 및 성능 여유 공간 관리를 위해 관련 Kubernetes Pod 테이블이 VM 랜딩 페이지에 표시됩니다.
 
@@ -333,7 +333,7 @@ image:Kubernetes_Pod_Table_on_VM_Page.png["VM 랜딩 페이지의 Kubernetes Pod
 
 
 
-==== Data Collector 업데이트
+=== Data Collector 업데이트
 
 * 이제 ECS가 스토리지 및 노드에 대한 펌웨어를 보고합니다
 * Isilon은 신속한 검색을 개선했습니다
@@ -344,7 +344,7 @@ image:Kubernetes_Pod_Table_on_VM_Page.png["VM 랜딩 페이지의 Kubernetes Pod
 
 
 
-==== 추가 운영 체제가 지원됩니다
+=== 추가 운영 체제가 지원됩니다
 
 Cloud Insights 획득 장치는 이미 지원되는 운영 체제 외에도 다음과 같은 운영 체제를 지원합니다.
 
@@ -356,11 +356,11 @@ Cloud Insights 획득 장치는 이미 지원되는 운영 체제 외에도 다�
 '''
 
 
-=== 2021년 10월
+== 2021년 10월
 
 
 
-==== K8S 탐색기 페이지의 필터
+=== K8S 탐색기 페이지의 필터
 
 link:kubernetes_landing_page.html["Kubernetes 탐색기"] 페이지 필터를 사용하면 Kubernetes 클러스터, 노드 및 포드 탐사에 대해 표시되는 데이터를 집중적으로 제어할 수 있습니다.
 
@@ -368,7 +368,7 @@ image:Filter_Kubernetes_Explorer.png["Kubernetes Explorer 필터링 예"]
 
 
 
-==== 보고를 위한 K8s 데이터
+=== 보고를 위한 K8s 데이터
 
 이제 Kubernetes 데이터를 Reporting에서 사용할 수 있으므로 비용청구 또는 기타 보고서를 생성할 수 있습니다. Kubernetes 차지백 데이터를 리포팅으로 전달하려면 Kubernetes 클러스터 및 해당 백 엔드 스토리지로부터 데이터를 받고 Cloud Insights에 연결되어 있어야 합니다. 백 엔드 스토리지로부터 수신된 데이터가 없는 경우 Cloud Insights는 Kubernetes 오브젝트 데이터를 리포팅으로 보낼 수 없습니다.
 
@@ -376,14 +376,14 @@ image:Kubernetes_ETL_Example.png["Kubernetes 데이터를 비용청구 보고서
 
 
 
-==== 어두운 테마가 도착했습니다
+=== 어두운 테마가 도착했습니다
 
 여러분 중 다수가 어두운 테마를 요청했고, Cloud Insights는 그 해답을 제공해 왔습니다. 밝은 테마와 어두운 테마 간에 전환하려면 사용자 이름 옆에 있는 드롭다운을 클릭합니다.image:DarkModeSwitch.png["사용자 드롭다운에서 어두운 테마로 전환을 사용할 수 있습니다"]
 image:DarkModeDashboard.png["어두운 테마에 표시되는 일반적인 대시보드의 이미지"]
 
 
 
-==== Data Collector 지원
+=== Data Collector 지원
 
 Cloud Insights 데이터 수집기 중 몇 가지 기능이 개선되었습니다. 다음은 몇 가지 주요 사항입니다.
 
@@ -393,17 +393,17 @@ Cloud Insights 데이터 수집기 중 몇 가지 기능이 개선되었습니�
 '''
 
 
-=== 2021년 9월
+== 2021년 9월
 
 
 
-==== 이제 성능 정책이 모니터됩니다
+=== 이제 성능 정책이 모니터됩니다
 
 모니터링 및 경고 기능은 Cloud Insights 전반에 걸쳐 성능 정책과 위반을 대체했습니다. link:task_create_monitor.html["모니터를 통한 경고"] 귀사의 환경에서 잠재적인 문제 또는 동향을 보다 유연하게 파악하고 파악할 수 있습니다.
 
 
 
-==== 모니터의 자동 완성 추천 단어, 와일드카드 및 식
+=== 모니터의 자동 완성 추천 단어, 와일드카드 및 식
 
 경고를 위해 모니터를 생성할 때 필터를 직접 입력할 수 있는 것은 예측 가능한 일이므로 모니터에 대한 메트릭이나 속성을 쉽게 검색하고 찾을 수 있습니다. 또한 입력한 텍스트를 기반으로 와일드카드 필터를 만들 수 있는 옵션이 제공됩니다.
 
@@ -411,13 +411,13 @@ image:Type-Ahead_Monitor_1.png["모니터에 전방 필터를 입력합니다"]
 
 
 
-==== Telegraf 에이전트를 업데이트했습니다
+=== Telegraf 에이전트를 업데이트했습니다
 
 Telegraf 통합 데이터 수집용 에이전트가 버전 * 1.19.3 * 으로 업데이트되었으며 성능 및 보안 기능이 향상되었습니다. 업데이트를 원하는 사용자는 의 해당 업그레이드 섹션을 참조할 수 있습니다 link:task_config_telegraf_agent.html["Agent 설치"] 문서화: 이전 버전의 에이전트는 사용자 작업 없이 계속 작동합니다.
 
 
 
-==== Data Collector 지원
+=== Data Collector 지원
 
 Cloud Insights 데이터 수집기 중 몇 가지 기능이 개선되었습니다. 다음은 몇 가지 주요 사항입니다.
 
@@ -442,17 +442,17 @@ Cloud Insights 데이터 수집기 중 몇 가지 기능이 개선되었습니�
 '''
 
 
-=== 2021년 8월
+== 2021년 8월
 
 
 
-==== 새 감사 페이지 사용자 인터페이스
+=== 새 감사 페이지 사용자 인터페이스
 
 를 클릭합니다 link:concept_audit.html["감사 페이지"] 에서는 더욱 깔끔한 인터페이스를 제공하며 이제 감사 이벤트를 .csv 파일로 내보낼 수 있습니다.
 
 
 
-==== 향상된 사용자 역할 관리
+=== 향상된 사용자 역할 관리
 
 Cloud Insights에서는 이제 사용자 역할 및 액세스 제어를 보다 자유롭게 할당할 수 있습니다. 이제 사용자는 모니터링, 보고 및 Cloud Secure에 대해 개별적으로 세분화된 사용 권한을 할당할 수 있습니다.
 
@@ -463,11 +463,11 @@ link:https://docs.netapp.com/us-en/cloudinsights/concept_user_roles.html["자세
 '''
 
 
-=== 2021년 6월
+== 2021년 6월
 
 
 
-==== 필터의 자동 완성 추천 단어, 와일드카드 및 식
+=== 필터의 자동 완성 추천 단어, 와일드카드 및 식
 
 이 Cloud Insights 릴리스에서는 쿼리 또는 위젯에서 필터링할 수 있는 모든 이름과 값을 알 필요가 없습니다. 필터링을 할 때 간단히 입력을 시작하면 Cloud Insights에서 텍스트를 기반으로 값을 제안합니다. 위젯에 표시할 애플리케이션 이름 또는 Kubernetes 속성을 미리 살펴볼 필요가 없습니다.
 
@@ -481,7 +481,7 @@ image:Type-Ahead-Example-ingest.png["와일드카드 필터"]
 
 
 
-==== Edition에서 사용할 수 있는 API입니다
+=== Edition에서 사용할 수 있는 API입니다
 
 Cloud Insights의 강력한 API는 그 어느 때보다 쉽게 액세스할 수 있으며, 알림 API는 이제 Standard 및 Premium Edition에서 사용할 수 있습니다. 각 에디션에 대해 다음 API를 사용할 수 있습니다.
 
@@ -506,7 +506,7 @@ Cloud Insights의 강력한 API는 그 어느 때보다 쉽게 액세스할 수 
 |===
 
 
-==== Kubernetes PV 및 Pod의 가시성
+=== Kubernetes PV 및 Pod의 가시성
 
 Cloud Insights는 Kubernetes 환경의 백엔드 스토리지에 대한 가시성을 제공하므로 Kubernetes Pod 및 PVS(Persistent Volumes)에 대한 통찰력을 얻을 수 있습니다. 이제 PV 카운터를 통해 단일 Pod에서 PV로, 그리고 백엔드 스토리지 장치로 가는 모든 방법으로 IOPS, 지연 시간 및 처리량과 같은 PV 카운터를 추적할 수 있습니다.
 
@@ -519,7 +519,7 @@ image:Kubernetes_Pod_Table.png["Kubernetes Pod 테이블"]
 
 
 
-==== Kubernetes 노드에서 VM 링크까지
+=== Kubernetes 노드에서 VM 링크까지
 
 이제 Kubernetes 노드 페이지에서 노드의 VM 페이지를 클릭하여 열 수 있습니다. VM 페이지에는 노드 자체에 대한 링크도 포함되어 있습니다.
 
@@ -528,19 +528,19 @@ image:Kubernetes_VM_Page_with_Node_Link.png["노드 링크를 보여주는 Kuber
 
 
 
-==== 성능 정책을 대체하는 경고 모니터
+=== 성능 정책을 대체하는 경고 모니터
 
 여러 임계값, 웹후크 및 이메일 알림 전송, 단일 인터페이스를 사용하는 모든 메트릭의 경고 등의 추가 이점을 제공하기 위해 Cloud Insights는 표준 및 프리미엄 에디션 고객을 * 성능 정책 * 에서 * 모니터 * 로 2021년 7월과 8월 사이에 변환합니다. 에 대해 자세히 알아보십시오 link:https://docs.netapp.com/us-en/cloudinsights/task_create_monitor.html["경고 및 모니터"]그리고 이 흥미로운 변화에 계속 귀를 집중하세요.
 
 
 
-==== Cloud Secure는 NFS를 지원합니다
+=== Cloud Secure는 NFS를 지원합니다
 
 Cloud Secure는 이제 ONTAP 데이터 수집을 위해 NFS를 지원합니다. SMB 및 NFS 사용자 액세스를 모니터링하여 랜섬웨어 공격으로부터 데이터를 보호합니다. 또한 Cloud Secure는 NFS 사용자 특성 수집을 위해 Active-Directory 및 LDAP 사용자 디렉토리를 지원합니다.
 
 
 
-==== Cloud Secure 스냅샷 제거
+=== Cloud Secure 스냅샷 제거
 
 Cloud Secure는 스냅샷 삭제 설정을 기반으로 스냅샷을 자동으로 삭제하여 저장소 공간을 절약하고 수동 스냅샷 삭제 필요성을 줄입니다.
 
@@ -548,26 +548,26 @@ image:CloudSecure_SnapshotPurgeSettings.png["설정 삭제"]
 
 
 
-==== Cloud Secure 데이터 수집 속도
+=== Cloud Secure 데이터 수집 속도
 
 이제 단일 데이터 수집기 에이전트 시스템이 Cloud Secure에 초당 최대 20,000개의 이벤트를 게시할 수 있습니다.
 
 '''
 
 
-=== 2021년 5월
+== 2021년 5월
 
 4월에 적용한 변경 사항은 다음과 같습니다.
 
 
 
-==== Telegraf 에이전트를 업데이트했습니다
+=== Telegraf 에이전트를 업데이트했습니다
 
 Telegraf 통합 데이터 수집용 에이전트가 성능 및 보안 향상을 통해 버전 1.17.3으로 업데이트되었습니다. 업데이트를 원하는 사용자는 의 해당 업그레이드 섹션을 참조할 수 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/task_config_telegraf_agent.html["Agent 설치"] 문서화: 이전 버전의 에이전트는 사용자 작업 없이 계속 작동합니다.
 
 
 
-==== 경고에 정정 조치를 추가합니다
+=== 경고에 정정 조치를 추가합니다
 
 이제 모니터 생성 또는 수정 시 추가 정보 및/또는 수정 조치는 물론 선택적 설명을 추가할 수 있습니다. * 경고 설명 추가 * 섹션을 입력합니다. 설명이 경고와 함께 전송됩니다. insights and corrective actions_field는 경고 처리에 대한 자세한 단계 및 지침을 제공할 수 있으며, 경고 랜딩 페이지의 요약 섹션에 표시됩니다.
 
@@ -575,7 +575,7 @@ image:Monitors_Alert_Description.png["경고 시정 조치 및 설명"]
 
 
 
-==== 모든 에디션용 Cloud Insights API
+=== 모든 에디션용 Cloud Insights API
 
 이제 모든 버전의 Cloud Insights에서 API 액세스를 사용할 수 있습니다. 이제 Basic Edition 사용자는 획득 장치 및 데이터 수집기 작업을 자동화할 수 있으며 Standard Edition 사용자는 메트릭을 쿼리하고 사용자 지정 메트릭을 수집할 수 있습니다. Premium Edition은 모든 API 범주의 모든 사용을 계속 허용합니다.
 
@@ -603,11 +603,11 @@ API 사용에 대한 자세한 내용은 를 참조하십시오 link:https://doc
 '''
 
 
-=== 2021년 4월
+== 2021년 4월
 
 
 
-==== 보다 간편한 모니터 관리
+=== 보다 간편한 모니터 관리
 
 link:https://docs.netapp.com/us-en/cloudinsights/task_create_monitor.html#monitor-grouping["모니터 그룹화"] 환경의 모니터 관리를 간소화합니다. 이제 여러 모니터를 하나로 그룹화하여 일시 중지할 수 있습니다. 예를 들어 인프라 스택에서 업데이트가 발생하는 경우 클릭 한 번으로 모든 장치에서 경고를 일시 중지할 수 있습니다.
 
@@ -617,7 +617,7 @@ image:Monitors_GroupList.png["모니터 그룹화"]
 
 
 
-==== Webhook를 사용한 향상된 경고 옵션
+=== Webhook를 사용한 향상된 경고 옵션
 
 많은 상용 응용 프로그램이 지원됩니다 link:task_create_webhook.html["Webhook"] 표준 입력 인터페이스로 사용 가능합니다. 이제 Cloud Insights는 이러한 다양한 전달 채널을 지원하며 Slack, PagerDuty, Teams 및 AchAN등에 대한 기본 템플릿을 제공할 뿐 아니라 사용자 지정 가능한 일반 웹 후크를 제공하여 다른 많은 애플리케이션을 지원합니다.
 
@@ -625,13 +625,13 @@ image:Webhooks_Notifications_sm.png["Webhook 알림"]
 
 
 
-==== 개선된 장치 식별
+=== 개선된 장치 식별
 
 모니터링 및 문제 해결 기능을 개선하고 정확한 보고 기능을 제공하기 위해 IP 주소 또는 기타 식별자 대신 장치 이름을 이해하는 것이 좋습니다. Cloud Insights는 이제 이라는 규칙 기반 접근 방식을 사용하여 환경에 있는 스토리지 및 물리적 호스트 디바이스의 이름을 식별하는 자동 방법을 통합합니다 link:concept_device_resolution_overview.html["* 장치 해상도 *"], * 관리 * 메뉴에서 사용할 수 있습니다.
 
 
 
-==== 더 많은 것을 요청하셨습니다!
+=== 더 많은 것을 요청하셨습니다!
 
 고객이 자주 사용하는 질문에는 데이터 범위를 시각화하는 기본 옵션이 더 많이 추가되었으므로, 시간 범위 선택을 통해 서비스 전체에서 사용할 수 있는 다음과 같은 다섯 가지 새로운 선택 사항이 추가되었습니다.
 
@@ -644,19 +644,19 @@ image:Webhooks_Notifications_sm.png["Webhook 알림"]
 
 
 
-==== 하나의 Cloud Insights 환경에서 다중 구독
+=== 하나의 Cloud Insights 환경에서 다중 구독
 
 4월 2일부터 Cloud Insights는 단일 Cloud Insights 인스턴스에서 고객에 대해 동일한 에디션 유형의 여러 구독을 지원합니다. 이를 통해 고객은 Cloud Insights 서브스크립션의 일부를 인프라 구매와 상호 연계할 수 있습니다. 여러 서브스크립션에 대한 지원은 NetApp 세일즈 팀에 문의하십시오.
 
 
 
-==== 경로를 선택합니다
+=== 경로를 선택합니다
 
 Cloud Insights를 설정하는 동안 모니터링 및 알림 또는 랜섬웨어 및 내부자 위협 감지로 시작할지 여부를 선택할 수 있습니다. Cloud Insights는 선택한 경로를 기반으로 시작 환경을 구성합니다. 나중에 언제든지 다른 경로를 구성할 수 있습니다.
 
 
 
-==== Cloud Secure 온보딩이 더욱 간편해졌습니다
+=== Cloud Secure 온보딩이 더욱 간편해졌습니다
 
 또한 새로운 단계별 설정 검사 목록을 통해 Cloud Secure 사용을 훨씬 쉽게 시작할 수 있습니다.
 
@@ -667,17 +667,17 @@ image:CloudSecure_SetupChecklist.png["Cloud Secure 점검 목록"]
 '''
 
 
-=== 2021년 2월
+== 2021년 2월
 
 
 
-==== Telegraf 에이전트를 업데이트했습니다
+=== Telegraf 에이전트를 업데이트했습니다
 
 Telegraf 통합 데이터를 수집하는 에이전트가 취약점 및 버그 수정을 포함한 버전 1.17.0으로 업데이트되었습니다.
 
 
 
-==== Cloud Cost Analyzer
+=== Cloud Cost Analyzer
 
 Spot by NetApp의 클라우드 비용 을 통해 자세한 정보를 얻을 수 있습니다 link:http://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_cost.html["비용 분석"] 비용, 비용 및 추정치를 기준으로 현재 환경의 클라우드 사용량을 파악할 수 있습니다. Cloud Cost 대시보드에서는 클라우드 비용을 명확하게 파악하고 개별 워크로드, 계정 및 서비스를 세부적으로 확인할 수 있습니다.
 
@@ -692,7 +692,7 @@ Cloud Cost는 다음과 같은 주요 과제를 해결할 수 있습니다.
 
 
 
-==== 필터를 사용하여 Null 값이 있는 개체를 쿼리합니다
+=== 필터를 사용하여 Null 값이 있는 개체를 쿼리합니다
 
 이제 Cloud Insights에서는 필터를 사용하여 null/none 값을 갖는 속성 및 메트릭을 검색할 수 있습니다. 다음 위치의 모든 속성/메트릭에 대해 이 필터링을 수행할 수 있습니다.
 
@@ -708,7 +708,7 @@ image:Filter_Null_Example.png["드롭다운의 Null 필터"]
 
 
 
-==== 다중 지역 지원
+=== 다중 지역 지원
 
 오늘부터 전 세계 여러 지역에서 Cloud Insights 서비스를 제공하여 미국 이외의 지역에 거주하는 고객의 성능을 향상시키고 보안을 강화합니다. Cloud Insights/Cloud Secure는 환경이 구축된 지역에 따라 정보를 저장합니다.
 
@@ -717,11 +717,11 @@ image:Filter_Null_Example.png["드롭다운의 Null 필터"]
 '''
 
 
-=== 2021년 1월
+== 2021년 1월
 
 
 
-==== 추가 ONTAP 메트릭의 이름이 변경되었습니다
+=== 추가 ONTAP 메트릭의 이름이 변경되었습니다
 
 ONTAP 시스템에서 데이터 수집의 효율성을 높이기 위한 지속적인 노력의 일환으로, 다음과 같은 ONTAP 메트릭의 이름이 변경되었습니다.
 
@@ -862,7 +862,7 @@ ONTAP 시스템에서 데이터 수집의 효율성을 높이기 위한 지속�
 |===
 
 
-==== 새로운 Kubernetes Explorer를 도입했습니다
+=== 새로운 Kubernetes Explorer를 도입했습니다
 
 를 클릭합니다 link:kubernetes_landing_page.html["Kubernetes 탐색기"] 단순한 Kubernetes 클러스터 토폴로지 뷰를 제공하므로 비전문가도 클러스터 레벨에서 컨테이너 및 스토리지에 이르는 문제와 종속성을 빠르게 식별할 수 있습니다.
 
@@ -873,22 +873,22 @@ image:Kubernetes_Cluster_Detail_Example.png["Kubernetes 탐색기"]
 '''
 
 
-=== 2020년 12월
+== 2020년 12월
 
 
 
-==== 단순한 Kubernetes 설치
+=== 단순한 Kubernetes 설치
 
 Kubernetes Agent 설치를 간소화하여 더 적은 수의 사용자 상호 작용이 필요합니다. link:task_config_telegraf_agent.html#kubernetes["Kubernetes Agent 설치 중"] Kubernetes 데이터 수집도 포함됩니다.
 
 '''
 
 
-=== 2020년 11월
+== 2020년 11월
 
 
 
-==== 추가 대시보드
+=== 추가 대시보드
 
 다음과 같은 새로운 ONTAP 중심 대시보드가 갤러리에 추가되었으며 가져올 수 있습니다.
 
@@ -909,7 +909,7 @@ Kubernetes Agent 설치를 간소화하여 더 적은 수의 사용자 상호 �
 
 
 
-==== 테이블 위젯에서 열 이름 바꾸기
+=== 테이블 위젯에서 열 이름 바꾸기
 
 편집 모드에서 위젯을 열고 열 상단의 메뉴를 클릭하여 테이블 위젯의 _Metrics 및 Attributes_ 섹션에서 열 이름을 바꿀 수 있습니다. 새 이름을 입력하고 _Save_를 클릭하거나 _Reset_을 클릭하여 열을 원래 이름으로 다시 설정합니다.
 
@@ -920,34 +920,34 @@ image:Table_Widget_Column_Rename.png["테이블 위젯 열 이름 바꾸기"]
 '''
 
 
-=== 2020년 10월
+== 2020년 10월
 
 
 
-==== 통합 데이터의 기본 확장
+=== 통합 데이터의 기본 확장
 
 이제 테이블 위젯 그룹화를 통해 Kubernetes, ONTAP 고급 데이터 및 에이전트 노드 메트릭의 기본 확장이 가능합니다. 예를 들어, Kubernetes_Nodes_BY_Cluster_를 그룹화할 경우 각 클러스터에 대한 테이블에 행이 표시됩니다. 그런 다음 각 클러스터 행을 확장하여 노드 오브젝트 목록을 볼 수 있습니다.
 
 
 
-==== Basic Edition 기술 지원
+=== Basic Edition 기술 지원
 
 이제 표준 및 프리미엄 버전 외에 Cloud Insights Basic Edition 가입자에 대한 기술 지원을 받을 수 있습니다. 또한 Cloud Insights은 NetApp 지원 티켓 생성을 위한 워크플로우를 간소화했습니다.
 
 
 
-==== Cloud Secure 공용 API
+=== Cloud Secure 공용 API
 
 Cloud Secure 지원 link:concept_cs_api.html["REST API"] 활동 및 경고 정보에 액세스합니다. 이 작업은 Cloud Secure 관리 UI를 통해 생성된 API 액세스 토큰을 사용하여 수행되며, 이 UI는 REST API에 액세스하는 데 사용됩니다. 이러한 REST API에 대한 Swagger 문서는 Cloud Secure와 통합됩니다.
 
 '''
 
 
-=== 2020년 9월
+== 2020년 9월
 
 
 
-==== 통합 데이터가 있는 쿼리 페이지
+=== 통합 데이터가 있는 쿼리 페이지
 
 Cloud Insights 쿼리 페이지는 통합 데이터(예: Kubernetes, ONTAP 고급 메트릭 등)를 지원합니다. 통합 데이터로 작업할 때 쿼리 결과 테이블에는 왼쪽에 개체/그룹화가 있는 "분할 화면" 보기와 오른쪽에 개체 데이터(특성/메트릭)가 표시됩니다. 통합 데이터를 그룹화하기 위해 여러 특성을 선택할 수도 있습니다.
 
@@ -955,7 +955,7 @@ image:QueryPageIntegrationData.png["통합 데이터를 보여 주는 쿼리입�
 
 
 
-==== 테이블 위젯에서 단위 표시 형식
+=== 테이블 위젯에서 단위 표시 형식
 
 이제 메트릭/카운터 데이터(예: 기가바이트, MB/초 등)를 표시하는 열의 테이블 위젯에서 단위 표시 형식을 사용할 수 있습니다. 메트릭의 표시 단위를 변경하려면 열 머리글에서 "점 3개" 메뉴를 클릭하고 "단위 표시"를 선택합니다. 사용 가능한 단위 중에서 선택할 수 있습니다. 사용 가능한 단위는 표시 열의 메트릭 데이터 유형에 따라 달라집니다.
 
@@ -963,19 +963,19 @@ image:TableWidgetUnitManagement1.png["테이블 위젯 장치 관리"]
 
 
 
-==== 획득 장치 세부 정보 페이지
+=== 획득 장치 세부 정보 페이지
 
 이제 획득 장치에 자체 랜딩 페이지가 있어 각 AU에 유용한 세부 정보와 문제 해결에 도움이 되는 정보를 제공합니다. 를 클릭합니다 link:task_configure_acquisition_unit.html#viewing-au-details["AU 세부 정보 페이지"] AU의 데이터 수집기에 대한 링크와 유용한 상태 정보를 제공합니다.
 
 
 
-==== Cloud Secure Docker 종속성이 제거되었습니다
+=== Cloud Secure Docker 종속성이 제거되었습니다
 
 Cloud Secure의 Docker 의존성이 제거되었습니다. Cloud Secure 에이전트를 설치하는 데 Docker가 더 이상 필요하지 않습니다.
 
 
 
-==== 보고 사용자 역할
+=== 보고 사용자 역할
 
 보고 기능이 있는 Cloud Insights 프리미엄 에디션이 있는 경우 사용자 환경의 모든 Cloud Insights 사용자는 보고 응용 프로그램(즉 Cognos). 메뉴에서 * 보고서 * 링크를 클릭하면 자동으로 보고에 로그인됩니다.
 
@@ -1003,18 +1003,18 @@ IMPORTANT: 현재 Premium Edition 고객이고 보고서를 보관하려는 경�
 
 
 
-==== 데이터 수집용 새로운 API 범주입니다
+=== 데이터 수집용 새로운 API 범주입니다
 
 Cloud Insights는 * 데이터 수집 * API 범주를 추가하여 사용자 지정 데이터 및 에이전트를 보다 강력하게 제어할 수 있도록 합니다. 이 API 범주와 기타 API 범주에 대한 자세한 내용은 Cloud Insights에서 * 관리자 > API 액세스 * 로 이동하고 _API Documentation_link를 클릭하여 확인할 수 있습니다. AU 세부 정보 페이지와 AU 목록 페이지에 표시되는 메모 필드에서 AU에 메모를 첨부할 수도 있습니다.
 
 '''
 
 
-=== 2020년 8월
+== 2020년 8월
 
 
 
-==== 모니터링 및 경고
+=== 모니터링 및 경고
 
 현재 스토리지 오브젝트, VM, EC2 및 포트에 대한 성능 정책을 설정하는 기능 외에도 Cloud Insights Standard Edition에는 이제 기능이 포함되어 있습니다 link:task_create_monitor.html["모니터를 구성합니다"] Kubernetes, ONTAP 고급 메트릭 및 Telegraf 플러그인의 통합 데이터 임계치 경고를 트리거할 각 개체 메트릭에 대한 모니터를 만들고, 경고 수준 또는 위험 수준 임계값에 대한 조건을 설정하고, 각 수준에 대해 원하는 이메일 수신자를 지정하기만 하면 됩니다. 그러면 됩니다 link:task_view_and_manage_alerts.html["알림을 보고 관리합니다"] 추세를 추적하거나 문제를 해결합니다.
 
@@ -1023,11 +1023,11 @@ image:define_monitor_conditions_2.png["모니터 조건"]
 '''
 
 
-=== 2020년 7월
+== 2020년 7월
 
 
 
-==== Cloud Secure에서 스냅샷 작업을 합니다
+=== Cloud Secure에서 스냅샷 작업을 합니다
 
 Cloud Secure는 악의적인 활동이 감지되면 스냅샷을 자동으로 생성하여 데이터를 보호하고 데이터가 안전하게 백업되도록 합니다.
 
@@ -1039,7 +1039,7 @@ Cloud Secure는 악의적인 활동이 감지되면 스냅샷을 자동으로 �
 
 
 
-==== 메트릭/카운터 업데이트
+=== 메트릭/카운터 업데이트
 
 Cloud Insights UI 및 REST API에서 사용할 수 있는 용량 카운터는 다음과 같습니다. 이전에는 이러한 카운터는 데이터 웨어하우스/보고에만 사용할 수 있었습니다.
 
@@ -1058,7 +1058,7 @@ Cloud Insights UI 및 REST API에서 사용할 수 있는 용량 카운터는 �
 |===
 
 
-==== Cloud Secure 잠재적 공격 탐지
+=== Cloud Secure 잠재적 공격 탐지
 
 Cloud Secure는 이제 랜섬웨어와 같은 잠재적인 공격을 탐지합니다. 경고 목록 페이지에서 경고를 클릭하여 다음을 보여 주는 세부 정보 페이지를 엽니다.
 
@@ -1074,13 +1074,13 @@ Cloud Secure는 이제 랜섬웨어와 같은 잠재적인 공격을 탐지합�
 
 
 
-==== AWS를 통해 Premium Edition을 구독하십시오
+=== AWS를 통해 Premium Edition을 구독하십시오
 
 Cloud Insights 평가판을 사용하면 됩니다 link:concept_subscribing_to_cloud_insights.html["자체 구독"] AWS Marketplace에서 Cloud Insights Standard Edition 또는 Premium Edition으로 이동합니다. 이전에는 AWS Marketplace를 통해서만 Standard Edition으로 자체 구독할 수 있었습니다.
 
 
 
-==== 향상된 테이블 위젯
+=== 향상된 테이블 위젯
 
 대시보드/자산 페이지 테이블 위젯에는 다음과 같은 개선 사항이 포함되어 있습니다.
 
@@ -1100,7 +1100,7 @@ image:TableWidgetLeftRightPanes.png["왼쪽 및 오른쪽 창을 보여 주는 �
 
 
 
-==== 메트릭 필터링
+=== 메트릭 필터링
 
 이제 위젯에서 객체의 속성을 필터링하는 것 외에도 메트릭을 필터링할 수 있습니다.
 
@@ -1112,7 +1112,7 @@ image:IntegrationMetricFilterExample.png["통합 메트릭 필터링"]
 
 
 
-==== ONTAP 고급 카운터 데이터
+=== ONTAP 고급 카운터 데이터
 
 Cloud Insights는 ONTAP 장치에서 수집된 다양한 카운터 및 메트릭을 제공하는 NetApp의 ONTAP별 * 고급 카운터 데이터 * 를 활용합니다. ONTAP 고급 카운터 데이터는 모든 NetApp ONTAP 고객에게 제공됩니다. 이러한 메트릭을 통해 Cloud Insights 위젯 및 대시보드에서 사용자 지정 및 광범위한 시각화를 수행할 수 있습니다.
 
@@ -1139,13 +1139,13 @@ image:ONTAP_Widget_Example1.png["ONTAP 위젯 예 - CP 읽음"]
 
 
 
-===== 고급 카운터 대시보드
+=== 고급 카운터 대시보드
 
 Cloud Insights에는 _Aggregate 성능_, _볼륨 워크로드_, _프로세서 활동_ 등의 항목에 대한 ONTAP 고급 카운터를 시각화하는 데 도움이 되도록 미리 디자인된 다양한 대시보드가 제공됩니다. ONTAP 데이터 수집기가 하나 이상 구성되어 있는 경우 대시보드 목록 페이지의 대시보드 갤러리에서 가져올 수 있습니다.
 
 
 
-===== 자세한 정보
+=== 자세한 정보
 
 ONTAP 고급 데이터에 대한 자세한 내용은 다음 링크를 참조하십시오.
 
@@ -1155,7 +1155,7 @@ ONTAP 고급 데이터에 대한 자세한 내용은 다음 링크를 참조하�
 
 
 
-==== 정책 및 위반 메뉴
+=== 정책 및 위반 메뉴
 
 성능 정책 및 위반 사항은 * 알림 * 메뉴에서 확인할 수 있습니다. 정책 및 위반 기능은 변경되지 않습니다.
 
@@ -1163,7 +1163,7 @@ image:PoliciesMenuChange.png["정책 및 위반 메뉴"]
 
 
 
-==== Telegraf 에이전트를 업데이트했습니다
+=== Telegraf 에이전트를 업데이트했습니다
 
 Telegraf 통합 데이터 수집용 에이전트가 로 업데이트되었습니다 link:https://docs.influxdata.com/telegraf/v1.14/["버전 1.14"]여기에는 버그 수정, 보안 수정 및 새 플러그인이 포함됩니다.
 
@@ -1195,11 +1195,11 @@ rules:
 '''
 
 
-=== 2020년 6월
+== 2020년 6월
 
 
 
-==== 단순화된 Data Collector 오류 보고
+=== 단순화된 Data Collector 오류 보고
 
 데이터 수집기 페이지의 _Send Error Report_ 단추를 사용하면 데이터 수집기 오류를 쉽게 보고할 수 있습니다. 버튼을 클릭하면 오류에 대한 기본 정보가 NetApp으로 전송되고 문제 조사에 대한 프롬프트가 표시됩니다. 이 버튼을 누르면 Cloud Insights에서 NetApp에 통보되었음을 인정하고 오류 보고서 버튼을 사용하여 해당 데이터 수집기에 대한 오류 보고서를 전송할 수 있음을 표시합니다. 이 버튼은 브라우저 페이지를 새로 고칠 때까지 비활성 상태로 유지됩니다.
 
@@ -1207,7 +1207,7 @@ image:DCErrorReportButton.png["오류 보고서 버튼"]
 
 
 
-==== 위젯 개선
+=== 위젯 개선
 
 대시보드 위젯에서 다음과 같은 개선 사항이 개선되었습니다. 이러한 개선 사항은 미리 보기 기능으로 간주되므로 일부 Cloud Insights 환경에서는 사용하지 못할 수 있습니다.
 
@@ -1224,11 +1224,11 @@ image:MultipleGroupsIntegrationLineChart.png["통합 데이터를 표시할 때 
 '''
 
 
-=== 2020년 5월
+== 2020년 5월
 
 
 
-==== 보고 사용자 역할
+=== 보고 사용자 역할
 
 보고를 위해 다음 역할이 추가되었습니다.
 
@@ -1239,7 +1239,7 @@ image:MultipleGroupsIntegrationLineChart.png["통합 데이터를 표시할 때 
 
 
 
-==== Cloud Secure 업데이트
+=== Cloud Secure 업데이트
 
 Cloud Insights에는 다음과 같은 최근 Cloud Secure 변경 사항이 포함되어 있습니다.
 
@@ -1255,7 +1255,7 @@ image:CSActivityForensicsExample.png["엔터티 페이지 예"]
 
 
 
-==== 대시보드 그룹화
+=== 대시보드 그룹화
 
 대시보드 그룹화를 통해 더 나은 성능을 얻을 수 있습니다 link:concept_dashboard_features.html#dashboard-groups["대시보드 관리"] 대해 알 수 있습니다. 스토리지 또는 가상 머신 등의 "원스톱" 관리를 위해 관련 대시보드를 그룹에 추가할 수 있습니다.
 
@@ -1265,7 +1265,7 @@ image:DashboardGroupNoPin.png["대시보드 그룹"]
 
 
 
-==== 대시보드 고정
+=== 대시보드 고정
 
 즐겨찾기가 항상 목록의 맨 위에 표시되도록 대시보드를 고정할 수 있습니다.
 
@@ -1273,7 +1273,7 @@ image:DashboardPin.png["대시보드 핀"]
 
 
 
-==== TV 모드 및 자동 새로 고침
+=== TV 모드 및 자동 새로 고침
 
 link:concept_dashboard_features.html#tv-mode-and-auto-refresh["TV 모드 및 자동 새로 고침"] 대시보드 또는 자산 페이지에 데이터를 거의 실시간으로 표시할 수 있습니다.
 
@@ -1286,17 +1286,17 @@ TV 모드와 자동 새로 고침이 결합되어 Cloud Insights 데이터를 �
 '''
 
 
-=== 2020년 4월
+== 2020년 4월
 
 
 
-==== 새로운 대시보드 시간 범위 선택
+=== 새로운 대시보드 시간 범위 선택
 
 대시보드 및 기타 Cloud Insights 페이지의 시간 범위 선택에는 _Last 1 Hour_와 _Last 15 Minutes_가 포함됩니다.
 
 
 
-==== Cloud Secure 업데이트
+=== Cloud Secure 업데이트
 
 Cloud Insights에는 다음과 같은 최근 Cloud Secure 변경 사항이 포함되어 있습니다.
 
@@ -1308,13 +1308,13 @@ Cloud Secure는 파일 및 폴더에 대한 모든 사용자 액세스 작업을
 
 
 
-==== 기본 대시보드 시간입니다
+=== 기본 대시보드 시간입니다
 
 이제 대시보드의 기본 시간 범위는 24시간이 아닌 3시간입니다.
 
 
 
-==== 최적화된 집계 시간
+=== 최적화된 집계 시간
 
 최적화 link:concept_dashboard_features.html#aggregating-data["시간 집계"] 시계열 위젯(라인, 스플라인, 면적 및 누적 면적 차트)의 간격이 3시간 및 24시간 대시보드/위젯 시간 범위에 더 자주 표시되므로 데이터를 더 빠르게 차트 작성할 수 있습니다.
 
@@ -1326,7 +1326,7 @@ Cloud Secure는 파일 및 폴더에 대한 모든 사용자 액세스 작업을
 
 
 
-==== 단위 자동 형식을 표시합니다
+=== 단위 자동 형식을 표시합니다
 
 대부분의 위젯에서 Cloud Insights는 값을 표시할 기본 단위를 알고 있습니다(예: _Megabytes_,_수천_,_percentage_,_milliseconds(ms)_, 기타 등등 link:concept_dashboard_features.html#choosing-the-unit-for-displaying-data["자동 서식 지정"] 가장 읽기 쉬운 장치로 위젯입니다. 예를 들어, 1,234,567,890바이트의 데이터 값은 1.23 기비바이트로 자동 포맷됩니다. 대부분의 경우 Cloud Insights는 취득 데이터에 가장 적합한 형식을 알고 있습니다. 최상의 형식을 모르는 경우 또는 자동 서식을 무시하려는 위젯에서 원하는 형식을 선택할 수 있습니다.
 
@@ -1334,7 +1334,7 @@ image:used_memory_in_bytes_gb.png["위젯의 자동 서식, 너비 = 480"]
 
 
 
-==== API를 사용하여 주석을 가져옵니다
+=== API를 사용하여 주석을 가져옵니다
 
 Cloud Insights 프리미엄 에디션의 강력한 API를 통해 지금 바로 사용할 수 있습니다 link:task_annotation_import.html["주석 불러오기"] 그런 다음 .csv 파일을 사용하여 개체에 할당합니다. 같은 방법으로 응용 프로그램을 가져오고 업무 엔티티를 할당할 수도 있습니다.
 
@@ -1342,7 +1342,7 @@ image:api_assets_import.png["주석 불러오기"]
 
 
 
-==== 간단한 위젯 선택기
+=== 간단한 위젯 선택기
 
 모든 위젯 유형을 한 번에 하나의 보기로 표시하는 새로운 위젯 선택기로 대시보드와 자산 랜딩 페이지에 위젯을 추가하는 것이 더 쉬워졌습니다. 따라서 사용자는 더 이상 위젯 유형 목록을 스크롤하여 추가할 위젯을 찾을 필요가 없습니다. 관련 위젯은 새로운 셀렉터에서 가까운 색으로 조정되고 그룹화됩니다.
 
@@ -1351,11 +1351,11 @@ image:NewWidgetPicker.png["새 위젯 선택기"]
 '''
 
 
-=== 2020년 2월
+== 2020년 2월
 
 
 
-==== Premium Edition을 사용하는 API
+=== Premium Edition을 사용하는 API
 
 Cloud Insights 프리미엄 에디션은 와 함께 제공됩니다 link:API_Overview.html["강력한 API"] Cloud Insights를 CMDB 또는 기타 티켓 시스템과 같은 다른 애플리케이션과 통합하는 데 사용할 수 있습니다.
 
@@ -1367,7 +1367,7 @@ image:API_Documentation.png["API 설명서"]
 
 
 
-==== Data Collector 추가 후 초기 폴링
+=== Data Collector 추가 후 초기 폴링
 
 이전에는 새 데이터 수집기를 구성한 후 Cloud Insights는 즉시 데이터 수집기를 폴링하여 _INVENTORY_DATA를 수집하지만 구성된 성능 폴링 간격(일반적으로 15분)이 될 때까지 기다렸다가 initial_performance_data를 수집합니다. 그런 다음 두 번째 성능 폴링을 시작하기 전에 다른 간격을 기다리게 됩니다. 이는 새 데이터 수집기에서 의미 있는 데이터를 획득하기 전에 최대 _30분_이 걸리기 때문입니다.
 
@@ -1377,7 +1377,7 @@ image:API_Documentation.png["API 설명서"]
 
 
 
-==== 간편한 위젯 복제
+=== 간편한 위젯 복제
 
 대시보드 또는 랜딩 페이지에서 위젯의 복사본을 만드는 것이 그 어느 때보다 쉬워졌습니다. 대시보드 편집 모드에서 위젯의 메뉴를 클릭하고 * 복제 * 를 선택합니다. 위젯 편집기가 시작되고, 원래 위젯의 구성이 미리 채워지고 위젯 이름에 "copy" 접미사가 붙습니다. 필요한 사항을 쉽게 변경하고 새 위젯을 저장할 수 있습니다. 위젯은 대시보드 하단에 배치되며 필요에 따라 배치할 수 있습니다. 모든 변경이 완료되면 대시보드를 저장해야 합니다.
 
@@ -1385,7 +1385,7 @@ image:DuplicateWidget.png["위젯을 복제합니다"]
 
 
 
-==== SSO(Single Sign-On)
+=== SSO(Single Sign-On)
 
 Cloud Insights 프리미엄 에디션을 사용하면 관리자가 * 를 활성화할 수 있습니다link:concept_user_roles.html#single-sign-on-sso-accounts["SSO(Single Sign-On)"]개별적으로 초대할 필요 없이 회사 도메인의 모든 사용자에 대해 Cloud Insights에 대한 * (SSO) 액세스. SSO를 사용하면 동일한 도메인 이메일 주소를 가진 모든 사용자가 회사 자격 증명을 사용하여 Cloud Insights에 로그인할 수 있습니다.
 
@@ -1395,17 +1395,17 @@ NOTE: SSO는 Cloud Insights 프리미엄 버전에서만 사용할 수 있으며
 '''
 
 
-=== 2020년 1월
+== 2020년 1월
 
 
 
-==== REST API에 대한 Swagger 문서
+=== REST API에 대한 Swagger 문서
 
 Swagger는 Cloud Insights에서 사용 가능한 REST API를 각각 설명하고 사용 및 구문을 설명합니다. Cloud Insights API에 대한 자세한 내용은 에서 확인할 수 있습니다 link:http://docs.netapp.com/us-en/cloudinsights/API_Overview.html["문서화"].
 
 
 
-==== 기능 자습서 진행률 표시줄
+=== 기능 자습서 진행률 표시줄
 
 기능 자습서 검사 목록이 상단 배너로 이동되었으며 이제 진행률 표시기가 나타납니다. 자습서는 각 사용자가 해제할 때까지 사용할 수 있으며 Cloud Insights에서 항상 사용할 수 있습니다 link:concept_feature_tutorials.html["문서화"].
 
@@ -1413,19 +1413,19 @@ image:TutorialProgress.png["자습서 체크리스트 진행"]
 
 
 
-==== 획득 장치 변경
+=== 획득 장치 변경
 
 이미 설치된 AU와 이름이 같은 호스트 또는 VM에 AU(획득 장치)를 설치할 때 Cloud Insights는 AU 이름을 "_1", "_2"에 추가하여 고유한 이름을 보장합니다. 이는 Cloud Insights에서 먼저 제거하지 않고 동일한 VM에서 AU를 제거하고 다시 설치하는 경우에도 마찬가지입니다. 다른 AU 이름을 모두 원하십니까? 문제 없습니다. 설치 후 AU의 이름을 바꿀 수 있습니다.
 
 
 
-==== 위젯에서 최적화된 시간 집계
+=== 위젯에서 최적화된 시간 집계
 
 위젯에서 설정한 _Optimized_Time 집계 간격이나 _Custom_interval 중에서 선택할 수 있습니다. Optimized Aggregation은 선택한 대시보드 시간 범위(또는 대시보드 시간을 재정의하는 경우 위젯 시간 범위)를 기반으로 올바른 시간 간격을 자동으로 선택합니다. 대시보드 또는 위젯 시간 범위가 변경되면 간격이 동적으로 변경됩니다.
 
 
 
-==== "Cloud Insights 시작하기" 프로세스가 간편해졌습니다
+=== "Cloud Insights 시작하기" 프로세스가 간편해졌습니다
 
 Cloud Insights 사용을 시작하는 프로세스가 간소화되어 처음 설정하는 과정이 보다 원활하고 간편해졌습니다. 초기 데이터 수집기를 선택하고 지침을 따르기만 하면 됩니다. Cloud Insights에서 데이터 수집기 구성 및 필요한 에이전트 또는 획득 장치를 안내합니다. 대부분의 경우 하나 이상의 초기 대시보드를 가져와 환경을 신속하게 파악할 수 있습니다(단, Cloud Insights에서 의미 있는 데이터를 수집하는 데 최대 30분이 소요됩니다).
 
@@ -1444,29 +1444,29 @@ image:Onboarding_Progress.png["진행률 표시줄"]
 '''
 
 
-=== 2019년 12월
+== 2019년 12월
 
 
 
-==== 비즈니스 엔티티는 필터에 사용할 수 있습니다
+=== 비즈니스 엔티티는 필터에 사용할 수 있습니다
 
 비즈니스 엔터티 주석은 쿼리, 위젯, 성능 정책 및 랜딩 페이지의 필터에 사용할 수 있습니다.
 
 
 
-==== 단일 값 및 게이지 위젯과 "모두"에 의해 롤다운된 모든 위젯에 대해 드릴다운 사용 가능
+=== 단일 값 및 게이지 위젯과 "모두"에 의해 롤다운된 모든 위젯에 대해 드릴다운 사용 가능
 
 단일 값 또는 게이지 위젯의 값을 클릭하면 위젯에서 사용된 첫 번째 쿼리의 결과를 보여주는 쿼리 페이지가 열립니다. 또한 데이터가 "모두"에 의해 롤업된 위젯에 대한 범례를 클릭하면 위젯에서 사용된 첫 번째 쿼리의 결과를 보여주는 쿼리 페이지가 열립니다.
 
 
 
-==== 평가 기간이 연장되었습니다
+=== 평가 기간이 연장되었습니다
 
 Cloud Insights 무료 평가판을 신청하는 신규 사용자는 30일 이내에 제품을 평가할 수 있습니다. 이는 이전의 14일 시험 기간에 비해 증가한 것입니다.
 
 
 
-==== 관리 단위 계산
+=== 관리 단위 계산
 
 Cloud Insights의 관리 단위(MU) 계산이 다음과 같이 변경되었습니다.
 
@@ -1479,22 +1479,22 @@ Cloud Insights의 관리 단위(MU) 계산이 다음과 같이 변경되었습�
 '''
 
 
-=== 2019년 11월
+== 2019년 11월
 
 
 
-==== 버전 기능 비교 표
+=== 버전 기능 비교 표
 
 Admin > Subscription * 페이지 link:concept_subscribing_to_cloud_insights.html#key-features["비교 표"] Cloud Insights의 기본, 표준 및 프리미엄 버전에서 사용할 수 있는 기능 집합을 나열하도록 업데이트되었습니다. NetApp은 계속해서 클라우드 서비스를 개선하고 있으므로, 이 페이지를 자주 방문하여 진화하는 비즈니스 요구사항에 맞는 에디션을 찾아보십시오.
 
 '''
 
 
-=== 2019년 10월
+== 2019년 10월
 
 
 
-==== 보고
+=== 보고
 
 link:reporting_overview.html["* Cloud Insights 보고 *"] 은 미리 정의된 보고서를 보거나 사용자 지정 보고서를 만들 수 있는 비즈니스 인텔리전스 도구입니다. 보고를 사용하면 다음 작업을 수행할 수 있습니다.
 
@@ -1521,18 +1521,18 @@ Cloud Insights 보고 기능을 사용하면 비용 청구, 소비 분석 및 �
 
 
 
-==== Active IQ의 향상된 기능
+=== Active IQ의 향상된 기능
 
 link:concept_activeiq.html["Active IQ 위험"] 이제 대시보드 표 위젯에서 사용할 수 있을 뿐만 아니라 쿼리할 수 있는 객체로 사용할 수 있습니다. 다음과 같은 위험 개체 특성이 포함됩니다. * 범주 * 완화 범주 * 잠재적 영향 * 위험 세부 정보 * 심각도 * 소스 * 스토리지 * 스토리지 노드 * UI 범주
 
 '''
 
 
-=== 2019년 9월
+== 2019년 9월
 
 
 
-==== 새 게이지 위젯
+=== 새 게이지 위젯
 
 지정한 임계값을 기준으로 한 시선을 사로잡는 색상으로 대시보드에 단일 값 데이터를 표시하는 데 사용할 수 있는 두 가지 새로운 위젯이 있습니다. 단색 게이지 * 또는 * 글머리 기호 게이지 * 를 사용하여 값을 표시할 수 있습니다. 경고 범위 내에 있는 값은 주황색으로 표시됩니다. 위험 범위의 값은 빨간색으로 표시됩니다. 경고 임계값 미만의 값은 녹색으로 표시됩니다.
 
@@ -1541,7 +1541,7 @@ image:Gauge-Bullet.png["글머리 기호 게이지"]
 
 
 
-==== 단일 값 위젯에 대한 조건부 색 서식
+=== 단일 값 위젯에 대한 조건부 색 서식
 
 이제 설정한 임계값에 따라 배경색이 지정된 단일 값 위젯을 표시할 수 있습니다.
 
@@ -1549,41 +1549,41 @@ image:Single-Value Widgets - Formatted.png["서식이 적용된 단일 값 위�
 
 
 
-==== 온보딩 중 사용자 초대
+=== 온보딩 중 사용자 초대
 
 온보딩 프로세스 중 언제든지 관리자 > 사용자 관리 > + 사용자 를 클릭하여 Cloud Insights 환경에 추가 사용자를 초대할 수 있습니다. Onboarding이 완료되고 데이터가 수집되면 _Guest_or_User_roles를 사용하는 사용자는 더 큰 이점을 누릴 수 있습니다.
 
 
 
-==== Data Collector 상세 페이지 개선
+=== Data Collector 상세 페이지 개선
 
 데이터 수집기 세부 정보 페이지가 읽기 쉬운 형식으로 오류를 표시하도록 개선되었습니다. 이제 오류가 페이지의 개별 테이블에 표시되고, 데이터 수집기에 여러 오류가 발생할 경우 각 오류가 별도의 줄에 표시됩니다.
 
 '''
 
 
-=== 2019년 8월
+== 2019년 8월
 
 
 
-==== 올과 사용 가능한 데이터 수집기
+=== 올과 사용 가능한 데이터 수집기
 
 데이터 수집기를 환경에 추가할 때 구독 수준 또는 모든 데이터 수집기에 따라 사용 가능한 데이터 수집기만 표시하도록 필터를 설정할 수 있습니다.
 
 
 
-==== ActiveIQ 통합
+=== ActiveIQ 통합
 
 Cloud Insights는 NetApp ActiveIQ에서 데이터를 수집하여 NetApp 고객과 고객의 하드웨어/소프트웨어 시스템에 일련의 시각화, 분석 및 기타 지원 관련 서비스를 제공합니다. Cloud Insights는 ONTAP 데이터 관리 시스템과 통합됩니다. 을 참조하십시오 link:concept_activeiq.html["Active IQ"] 를 참조하십시오.
 
 '''
 
 
-=== 2019년 7월
+== 2019년 7월
 
 
 
-==== 대시보드 개선 사항
+=== 대시보드 개선 사항
 
 대시보드와 위젯이 다음과 같은 변경 사항으로 개선되었습니다.
 
@@ -1595,30 +1595,30 @@ Cloud Insights는 NetApp ActiveIQ에서 데이터를 수집하여 NetApp 고객�
 
 
 
-==== 기본 버전으로 다운그레이드
+=== 기본 버전으로 다운그레이드
 
 지난 7일 동안 설문을 성공적으로 완료한 사용 가능한 NetApp 장치가 구성되지 않은 경우 Basic Edition으로 다운그레이드할 수 없으며 오류 메시지가 표시됩니다.
 
 
 
-==== Kubbe-State-Metrics 수집 중
+=== Kubbe-State-Metrics 수집 중
 
 를 클릭합니다 link:task_config_telegraf_kubernetes.html["Kubernetes Data Collector를 참조하십시오"] 이제 kubbe-state-metrics 플러그인에서 객체와 카운터를 수집하여 Cloud Insights에서 모니터링할 수 있는 메트릭의 수와 범위를 크게 확장할 수 있습니다.
 
 '''
 
 
-=== 2019년 6월
+== 2019년 6월
 
 
 
-==== Cloud Insights 에디션
+=== Cloud Insights 에디션
 
 Cloud Insights는 고객의 예산과 비즈니스 요구에 맞게 다양한 버전으로 제공됩니다. NetApp Support 계정이 유효한 기존 NetApp 고객은 무료 * Basic Edition * 을 통해 7일 동안 데이터를 보존하고 NetApp 데이터 수집기에 액세스할 수 있습니다. 또는 * Standard Edition * 을 통해 지원되는 모든 데이터 수집기에 대한 액세스, 전문가 기술 지원 등을 이용할 수 있습니다. 사용 가능한 기능에 대한 자세한 내용은 NetApp을 참조하십시오 link:https://cloud.netapp.com/cloud-insights["Cloud Insights"] 사이트.
 
 
 
-==== 새로운 인프라 데이터 수집기: NetApp HCI
+=== 새로운 인프라 데이터 수집기: NetApp HCI
 
 * link:task_dc_na_hci.html["NetApp HCI 가상 센터"] 인프라 데이터 수집기로 추가되었습니다. HCI 가상 센터 데이터 수집기는 NetApp HCI 호스트 정보를 수집하며 가상 센터 내의 모든 개체에 대해 읽기 전용 권한이 필요합니다.
 
@@ -1628,18 +1628,18 @@ HCI 데이터 수집기는 HCI 가상 센터에서만 가져옵니다. 스토리
 '''
 
 
-=== 2019년 5월
+== 2019년 5월
 
 
 
-==== 새로운 서비스 데이터 수집기: Kapacitor
+=== 새로운 서비스 데이터 수집기: Kapacitor
 
 * link:task_config_telegraf_kapacitor.html["Kapacitor"] 은(는) 서비스를 위한 데이터 수집기로 추가되었습니다.
 
 
 
 
-==== Telegraf를 통한 서비스 통합
+=== Telegraf를 통한 서비스 통합
 
 Cloud Insights는 이제 스위치 및 스토리지와 같은 인프라 장치에서 데이터를 수집하는 것은 물론, 를 사용하여 다양한 운영 체제 및 서비스에서 데이터를 수집합니다 link:task_config_telegraf_agent.html["텔레프도 요원으로 등장했다"] 통합 데이터 수집용. Telegraf는 메트릭을 수집 및 보고하는 데 사용할 수 있는 플러그인 기반 에이전트입니다. 입력 플러그인은 시스템/OS에 직접 액세스하거나 타사 API를 호출하거나 구성된 스트림을 수신함으로써 에이전트로 원하는 정보를 수집하는 데 사용됩니다.
 
@@ -1647,14 +1647,14 @@ Cloud Insights는 이제 스위치 및 스토리지와 같은 인프라 장치�
 
 
 
-==== 스토리지 가상 시스템 자산
+=== 스토리지 가상 시스템 자산
 
 * Cloud Insights에서 SVM(스토리지 가상 머신)을 자산으로 사용할 수 있습니다. SVM에는 자체 자산 랜딩 페이지가 있으며 검색, 쿼리 및 필터에 표시 및 사용할 수 있습니다. SVM은 대시보드 위젯과 주석에도 사용할 수 있습니다.
 
 
 
 
-==== 획득 장치 시스템 요구 사항 감소
+=== 획득 장치 시스템 요구 사항 감소
 
 * 획득 장치(AU) 소프트웨어의 시스템 CPU 및 메모리 요구 사항이 감소했습니다. 새로운 요구 사항은 다음과 같습니다.
 
@@ -1672,7 +1672,7 @@ Cloud Insights는 이제 스위치 및 스토리지와 같은 인프라 장치�
 |===
 
 
-==== 추가 플랫폼 지원
+=== 추가 플랫폼 지원
 
 * 현재 추가된 플랫폼은 다음과 같습니다 link:https://docs.netapp.com/us-en/cloudinsights/concept_acquisition_unit_requirements.html["Cloud Insights에 대해 지원됩니다"]:
 
@@ -1688,11 +1688,11 @@ Cloud Insights는 이제 스위치 및 스토리지와 같은 인프라 장치�
 '''
 
 
-=== 2019년 4월
+== 2019년 4월
 
 
 
-==== 태그별로 가상 머신을 필터링합니다
+=== 태그별로 가상 머신을 필터링합니다
 
 다음 데이터 수집기를 구성할 때 태그 또는 레이블에 따라 데이터 모음에서 가상 컴퓨터를 포함하거나 제외하도록 필터링할 수 있습니다.
 
@@ -1704,11 +1704,11 @@ Cloud Insights는 이제 스위치 및 스토리지와 같은 인프라 장치�
 '''
 
 
-=== 2019년 3월
+== 2019년 3월
 
 
 
-==== 구독 관련 이벤트에 대한 이메일 알림
+=== 구독 관련 이벤트에 대한 이메일 알림
 
 * 이메일을 보낼 수신자를 선택할 수 있습니다 link:concept_notifications_email.html["알림"] 향후 평가판 만료 또는 구독한 계정 변경 등의 구독 관련 이벤트가 발생하는 경우 다음 중 이러한 알림의 수신자를 선택할 수 있습니다.
 +
@@ -1721,7 +1721,7 @@ Cloud Insights는 이제 스위치 및 스토리지와 같은 인프라 장치�
 
 
 
-==== 추가 대시보드
+=== 추가 대시보드
 
 * 다음 새로운 AWS 중심 link:concept_import_from_dashboard_gallery.html["대시보드"] 갤러리에 추가되었으며 가져올 수 있습니다.
 +
@@ -1734,25 +1734,25 @@ Cloud Insights는 이제 스위치 및 스토리지와 같은 인프라 장치�
 '''
 
 
-=== 2019년 2월
+== 2019년 2월
 
 
 
-==== AWS 하위 계정에서 수집 중
+=== AWS 하위 계정에서 수집 중
 
 * Cloud Insights 지원 link:task_dc_amazon_ec2.html#collecting_from_aws_child_accounts["AWS 하위 계정에서 컬렉션"] 단일 데이터 수집기 내에서 Cloud Insights가 하위 계정에서 수집하도록 AWS 환경을 구성해야 합니다.
 
 
 
 
-==== 데이터 수집기 이름 지정
+=== 데이터 수집기 이름 지정
 
 * 이제 Data Collector 이름에는 문자, 숫자 및 밑줄 외에도 마침표(.), 하이픈(-) 및 공백()이 포함될 수 있습니다. 이름은 공백, 마침표 또는 하이픈으로 시작하거나 끝날 수 없습니다.
 
 
 
 
-==== Windows용 획득 장치
+=== Windows용 획득 장치
 
 * Windows 서버/VM에서 Cloud Insights 획득 장치를 구성할 수 있습니다. 창을 검토합니다 link:concept_acquisition_unit_requirements.html["필수 구성 요소"] 를 설치하기 전에 link:task_configure_acquisition_unit.html["획득 장치 소프트웨어"].
 
@@ -1760,18 +1760,18 @@ Cloud Insights는 이제 스위치 및 스토리지와 같은 인프라 장치�
 '''
 
 
-=== 2019년 1월
+== 2019년 1월
 
 
 
-==== "소유자" 필드를 보다 쉽게 읽을 수 있습니다
+=== "소유자" 필드를 보다 쉽게 읽을 수 있습니다
 
 * 대시보드 및 쿼리 목록에서 "소유자" 필드의 데이터는 이전에 사용자에게 친숙한 소유자 이름 대신 인증 ID 문자열이었습니다. 이제 "소유자" 필드에 보다 간단하고 읽기 쉬운 소유자 이름이 표시됩니다.
 
 
 
 
-==== 구독 페이지의 관리 단위 구분
+=== 구독 페이지의 관리 단위 구분
 
 * Admin > Subscription * 페이지에 나열된 각 데이터 수집기에 대해 호스트 및 스토리지에 대한 관리 단위(MU) 수와 총계를 볼 수 있습니다.
 
@@ -1779,18 +1779,18 @@ Cloud Insights는 이제 스위치 및 스토리지와 같은 인프라 장치�
 '''
 
 
-=== 2018년 12월
+== 2018년 12월
 
 
 
-==== UI 로드 시간 개선
+=== UI 로드 시간 개선
 
 * Cloud Insights UI(사용자 인터페이스)의 초기 로딩 시간이 크게 개선되었습니다. UI의 새로 고침 시간은 메타데이터가 로드된 경우에도 이와 같은 개선 효과를 얻을 수 있습니다.
 
 
 
 
-==== 데이터 수집기 대량 편집
+=== 데이터 수집기 대량 편집
 
 * 여러 데이터 수집기에 대한 정보를 동시에 편집할 수 있습니다. Admin > Data Collector * 페이지에서 각 왼쪽의 확인란을 선택하여 수정할 데이터 수집기를 선택하고 * Bulk Actions * 버튼을 클릭합니다. 편집 * 을 선택하고 필요한 필드를 수정합니다.
 +
@@ -1800,7 +1800,7 @@ Cloud Insights는 이제 스위치 및 스토리지와 같은 인프라 장치�
 
 
 
-==== 지원 및 가입 페이지는 온보딩 중에 제공됩니다
+=== 지원 및 가입 페이지는 온보딩 중에 제공됩니다
 
 * 온보딩 워크플로우 중에 * 도움말 > 지원 * 및 * 관리 > 구독 * 페이지로 이동할 수 있습니다. 이 페이지에서 다시 돌아오면 브라우저 탭을 닫지 않은 경우 온보딩 워크플로우로 돌아갑니다.
 
@@ -1808,46 +1808,46 @@ Cloud Insights는 이제 스위치 및 스토리지와 같은 인프라 장치�
 '''
 
 
-=== 2018년 11월
+== 2018년 11월
 
 
 
-==== NetApp 영업 또는 AWS 마켓플레이스를 통해 구독하십시오
+=== NetApp 영업 또는 AWS 마켓플레이스를 통해 구독하십시오
 
 * Cloud Insights 구독 및 청구 기능은 이제 NetApp을 통해 직접 이용할 수 있습니다. 이 외에도 AWS Marketplace를 통해 셀프 서비스 방식으로 구독할 수 있습니다. Admin > Subscription * 페이지에 새로운 * Contact Sales * 링크가 표시됩니다. 환경 하나 또는 하나 이상의 Managed Unit(MU)이 있을 것으로 예상되는 고객의 경우 연락처 영업 링크를 통해 NetApp 세일즈 팀에 문의하는 것이 좋습니다.
 
 
 
 
-==== 텍스트 주석 하이퍼링크
+=== 텍스트 주석 하이퍼링크
 
 * 이제 텍스트 유형 주석에 하이퍼링크를 포함할 수 있습니다.
 
 
 
 
-==== 온보딩 연습
+=== 온보딩 연습
 
 * 이제 Cloud Insights는 새 환경에 로그인하기 위한 첫 번째 사용자(관리자 또는 계정 소유자)의 온보딩 연습을 제공합니다. 이 연습에서는 획득 장치 설치, 초기 데이터 수집기 구성 및 하나 이상의 유용한 대시보드를 선택하는 과정을 안내합니다.
 
 
 
 
-==== 갤러리에서 대시보드를 가져옵니다
+=== 갤러리에서 대시보드를 가져옵니다
 
 * 온보딩 중에 대시보드를 선택하는 것 외에도 * 대시보드 > 모든 대시보드 표시 * 를 통해 대시보드를 가져오고 * + 갤러리 * 에서 * 를 클릭할 수 있습니다.
 
 
 
 
-==== 대시보드 복제
+=== 대시보드 복제
 
 * 대시보드 목록 페이지에 대시보드를 복제하는 기능이 각 대시보드의 옵션 메뉴와 _Save_menu 에서 대시보드의 기본 페이지 자체에 선택 항목으로 추가되었습니다.
 
 
 
 
-==== Cloud Central 제품 메뉴
+=== Cloud Central 제품 메뉴
 
 * 다른 NetApp Cloud Central 제품으로 전환할 수 있는 메뉴가 화면 오른쪽 상단 모서리로 이동했습니다.
 

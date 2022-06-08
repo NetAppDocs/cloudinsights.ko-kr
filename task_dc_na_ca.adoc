@@ -176,12 +176,12 @@ Config Advisor는 다음 운영 체제에서 실행할 수 있습니다. 이 목
 
 ==== 데이터 수집기 설치 및 구성:
 
-video::Config_Advisor_Collector_Part1.mp4[]
+video::Config_Advisor_Collector_Part1.mp4[Installing and Configuring the Config Advisor data collector]
 
 
 ==== Config Advisor 대시보드 생성:
 
-video::Config_Advisor_Collector_Part2.mp4[]
+video::Config_Advisor_Collector_Part2.mp4[Using dashboards to view Config Advisor data]
 
 
 ==== 기타 지원

@@ -72,7 +72,7 @@ B+C는 A보다 작아야 합니다. 그렇지 않으면 Agent 시스템이 모�
  Sum of all Event rate of all Data Source Collectors + Buffer Event rate of 30% < 20000 events/second
 
 
-=== 예
+== 예
 
 SVM이 각각 100개, 200개, 300개의 이벤트를 생성한다고 가정해 보겠습니다.
 

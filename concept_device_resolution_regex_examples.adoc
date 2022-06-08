@@ -13,7 +13,7 @@ summary:
 
 
 
-=== 정규식 서식 지정
+== 정규식 서식 지정
 
 Cloud Insights 자동 확인을 위한 정규식을 만들 때 _format_ 필드에 값을 입력하여 출력 형식을 구성할 수 있습니다.
 
@@ -48,6 +48,10 @@ hostname3-Boston-windows2K
 hostname4-Raleigh-solaris
 ....
 변수 사이의 하이픈은 서식이 지정된 출력에 삽입된 상수 텍스트의 예를 제공합니다.
+
+
+
+== 예
 
 
 
@@ -218,7 +222,11 @@ MyComputerName123_HBA1_Symm1_FA1
 
 RegExp:(. *?) _. *
 
-예제 9 이 예제에서는 1 _ 다음에 있는 모든 항목을 찾은 다음 두 번째 _ 까지 찾습니다.
+
+
+=== 예 9
+
+이 예제에서는 1_ 이후의 모든 것과 두 번째 _ 까지의 모든 것을 찾습니다.
 
 * 영역: * Z_MyComputerName_StorageName
 

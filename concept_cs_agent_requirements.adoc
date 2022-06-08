@@ -42,7 +42,7 @@ keywords: agent, Linux, requirements, docker, browsers, permissions, Network
 |===
 
 
-=== 추가 권장 사항
+== 추가 권장 사항
 
 * NTP(Network Time Protocol) * 또는 * SNTP(Simple Network Time Protocol) * 를 사용하여 ONTAP 시스템과 에이전트 시스템의 시간을 동기화하는 것이 좋습니다.
 
