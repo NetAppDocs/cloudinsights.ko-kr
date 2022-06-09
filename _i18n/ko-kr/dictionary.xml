@@ -6696,7 +6696,6 @@
   <block id="e73a974e5f64b7f2d040fb59fd2aafcd" category="cell">섀시 IP 주소를 사용하도록 데이터 소스 구성을 변경합니다.</block>
   <block id="04eb81d16943e8c8a6314aaac38a4f4b" category="cell">Access Gateway 포트에 두 개 이상의 노드가 로그인되었다는 메시지를 받습니다</block>
   <block id="bdb9a31f361d8d3be1c6915647e92d4d" category="inline-link-macro">텔레그라프</block>
-  <block id="863fe9f23689919336be1a2467bf51a4" category="paragraph">Cloud Insights는 을 사용합니다 <block ref="3ac325f799d62e3e7cf39c0bf919731c" category="inline-link-macro-rx"></block> 통합 데이터 수집을 위한 에이전트로 사용됩니다. Telegraf는 메트릭, 이벤트 및 로그를 수집 및 보고하는 데 사용할 수 있는 플러그인 기반 서버 에이전트입니다. 입력 플러그인은 시스템/OS에 직접 액세스하거나 타사 API를 호출하거나 구성된 스트림(예 Kafka, statsd 등). 출력 플러그인은 에이전트에서 Cloud Insights로 수집된 메트릭, 이벤트 및 로그를 전송하는 데 사용됩니다.</block>
   <block id="ea5b5a50c17a9a63f35695787f45c3e6" category="paragraph">Cloud Insights의 최신 Telegraf 버전은 * 1.19.3 * 입니다.</block>
   <block id="ae2f2b5e87a12f1cd650f0e46b92e4ec" category="admonition">정확한 감사 및 데이터 보고를 위해 * NTP(Network Time Protocol) * 또는 * SNTP(Simple Network Time Protocol) * 를 사용하여 Agent 시스템의 시간을 동기화하는 것이 좋습니다.</block>
   <block id="f97f94f0ff0c35a96686e2fd00940ac8" category="admonition">Agent를 설치하기 전에 설치 파일을 확인하려면 의 아래 섹션을 참조하십시오 <block ref="1d9f3d6343939e76574c60762a7f2fae" category="inline-xref-macro-rx"></block>.</block>
@@ -8931,4 +8930,5 @@
   <block id="ff7c0fcd6a31e735a61c001f75426961" category="section-title">예</block>
   <block id="f2803148b76b5b63f68b31927cb35d83" category="section-title">예 9</block>
   <block id="2c9ef91324ec8d07844a54c6151dc4cb" category="paragraph">이 예제에서는 1_ 이후의 모든 것과 두 번째 _ 까지의 모든 것을 찾습니다.</block>
+  <block id="23da8c24c0f52acdf7f6f9c4a08997c8" category="paragraph">Cloud Insights는 을 사용합니다 <block ref="eed175bcf32f20f81ea47b9c982c2797" category="inline-link-macro-rx"></block> 통합 데이터 수집을 위한 에이전트로 사용됩니다. Telegraf는 메트릭, 이벤트 및 로그를 수집 및 보고하는 데 사용할 수 있는 플러그인 기반 서버 에이전트입니다. 입력 플러그인은 시스템/OS에 직접 액세스하거나 타사 API를 호출하거나 구성된 스트림(예 Kafka, statsd 등). 출력 플러그인은 에이전트에서 Cloud Insights로 수집된 메트릭, 이벤트 및 로그를 전송하는 데 사용됩니다.</block>
 </blocks>
