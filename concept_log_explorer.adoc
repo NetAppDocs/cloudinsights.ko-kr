@@ -17,7 +17,7 @@ image:LogExplorerMenu.png["로그 쿼리 메뉴, 480"]
 
 목록에서 사용 가능한 로그를 선택합니다.
 
-image:LogExplorer_ChooseLog.png["로그를 선택합니다"]
+image:LogExplorer_2022.png["로그를 선택합니다"]
 
 
 NOTE: 쿼리에 사용할 수 있는 로그 유형은 사용자 환경에 따라 다를 수 있습니다. 시간이 지남에 따라 추가 로그 유형을 추가할 수 있습니다.
