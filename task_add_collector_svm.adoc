@@ -13,7 +13,7 @@ Cloud Secure는 데이터 수집기를 사용하여 디바이스에서 파일 �
 
 
 
-=== 시작하기 전에
+== 시작하기 전에
 
 * 이 데이터 수집기는 다음 구성 요소를 통해 지원됩니다.
 +
@@ -68,11 +68,11 @@ SVM 이름, CIFS 서버 이름 및 추가 필드가 반환됩니다.
 
 
 
-=== 사용 권한에 대한 참고 사항
+== 사용 권한에 대한 참고 사항
 
 
 
-==== 클러스터 관리 IP를 통해 추가할 때의 권한:
+=== 클러스터 관리 IP를 통해 추가할 때의 권한:
 
 클러스터 관리 관리자 사용자를 사용하여 Cloud Secure가 ONTAP SVM 데이터 수집기에 액세스할 수 없는 경우 아래 명령에 표시된 역할을 사용하여 "CsUser"라는 새 사용자를 생성할 수 있습니다. 클러스터 관리 IP를 사용하도록 Cloud Secure 데이터 수집기를 구성할 때 "CsUser"의 사용자 이름 "CsUser"와 암호를 사용합니다.
 
@@ -97,7 +97,7 @@ security login role create -role csrole -cmddirname "vserver export-policy rule"
 ....
 
 
-==== Vserver 관리 IP를 통해 추가할 때의 권한:
+=== Vserver 관리 IP를 통해 추가할 때의 권한:
 
 클러스터 관리 관리자 사용자를 사용하여 Cloud Secure가 ONTAP SVM 데이터 수집기에 액세스할 수 없는 경우 아래 명령에 표시된 역할을 사용하여 "CsUser"라는 새 사용자를 생성할 수 있습니다. Cloud Secure 데이터 수집기에서 SVM 관리 IP를 사용하도록 구성할 때 "CsUser"의 사용자 이름 "CsUser"와 암호를 사용합니다.
 
@@ -116,7 +116,7 @@ security login role create -vserver <vservername> -role csrole -cmddirname "vser
 ....
 
 
-=== 데이터 수집기를 구성합니다
+== 데이터 수집기를 구성합니다
 
 .구성 단계
 . Cloud Insights 환경에 관리자 또는 계정 소유자로 로그인합니다.
@@ -178,7 +178,7 @@ ONTAP SVM 구성 페이지가 표시됩니다. 각 필드에 필요한 데이터
 
 
 
-=== 문제 해결
+== 문제 해결
 
 알려진 문제와 해결 방법은 다음 표에 설명되어 있습니다.
 
