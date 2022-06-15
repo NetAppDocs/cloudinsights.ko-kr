@@ -3321,7 +3321,6 @@
   <block id="1b09a58921479be87f9dae639915150f" category="cell">389(LDAP) 636(LDAPS/START-TLS)</block>
   <block id="84caee864977bc98db0b0df24853f63c" category="cell">LDAP 서버 URL입니다</block>
   <block id="b272c206ad7d80ebc1e17385c8d4450c" category="cell">LDAP에 연결합니다</block>
-  <block id="5b44c7f90aeca08b8030b7c60d1e78ed" category="cell">SVM 관리 IP 주소</block>
   <block id="9bf305870fa281c6eff0d16d2e8d6b6d" category="cell">ONTAP와의 API 통신</block>
   <block id="c1d0965e767c67506aa60bc80d5b716e" category="cell">35000-55000</block>
   <block id="2c2ee9a7d99b7adb60d6152c3090a0f0" category="cell">SVM 데이터 LIF IP 주소</block>
@@ -8931,4 +8930,5 @@
   <block id="2c9ef91324ec8d07844a54c6151dc4cb" category="paragraph">이 예제에서는 1_ 이후의 모든 것과 두 번째 _ 까지의 모든 것을 찾습니다.</block>
   <block id="23da8c24c0f52acdf7f6f9c4a08997c8" category="paragraph">Cloud Insights는 을 사용합니다 <block ref="eed175bcf32f20f81ea47b9c982c2797" category="inline-link-macro-rx"></block> 통합 데이터 수집을 위한 에이전트로 사용됩니다. Telegraf는 메트릭, 이벤트 및 로그를 수집 및 보고하는 데 사용할 수 있는 플러그인 기반 서버 에이전트입니다. 입력 플러그인은 시스템/OS에 직접 액세스하거나 타사 API를 호출하거나 구성된 스트림(예 Kafka, statsd 등). 출력 플러그인은 에이전트에서 Cloud Insights로 수집된 메트릭, 이벤트 및 로그를 전송하는 데 사용됩니다.</block>
   <block id="dc2dd49825ec74e1ca580d41456c912b" category="paragraph"><block ref="dc2dd49825ec74e1ca580d41456c912b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c1f82bcb121a82434f4244621860e18e" category="cell">클러스터 또는 SVM 관리 IP 주소(SVM 수집기 구성에 따라 다름)</block>
 </blocks>
