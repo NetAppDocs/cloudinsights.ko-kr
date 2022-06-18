@@ -3402,10 +3402,6 @@
   <block id="93a8152ce7cb1841a4bf2c531cae0884" category="paragraph">에는 기본 자산에 대한 하나 이상의 성능 메트릭과 높은 상관 관계(백분율)가 있는 자산이 나와 있습니다.</block>
   <block id="52e73b46b8c614c95e2d0e115e5ee54c" category="list-text">최고 기여자</block>
   <block id="9d5e6443d723a60535db4b6e588cd979" category="paragraph">기본 자산에 기여하는 자산(백분율)을 표시합니다.</block>
-  <block id="bb6c5ecbef13e567544e5a0068237b25" category="list-text">탐욕심</block>
-  <block id="6c3bac24c8ca8af7b4c02e9947ae939b" category="paragraph">에는 호스트, 네트워크 및 스토리지와 같은 동일한 리소스를 공유하여 자산에서 시스템 리소스를 빼앗는 자산이 나와 있습니다.</block>
-  <block id="aa95669cd5732a57e8f6467705f06642" category="list-text">성능 저하</block>
-  <block id="f67699c23f776601fce199281a6e1781" category="paragraph">이 자산으로 인해 시스템 리소스가 고갈된 자산을 표시합니다.</block>
   <block id="a7fd66167e9a4b5030676f8f2b2ad02f" category="section-title">전문가 보기의 알림</block>
   <block id="ce5f9e14bbd4a967c3c432f4319e1a01" category="paragraph">알림은 자산 랜딩 페이지의 전문가 보기 섹션에도 표시됩니다. 여기에는 알림의 시간과 지속 시간, 알림을 트리거한 모니터 조건이 표시됩니다.</block>
   <block id="22d49532ff07c48997ea5c32826181db" category="paragraph"><block ref="22d49532ff07c48997ea5c32826181db" category="inline-image-macro-rx" type="image"></block></block>
@@ -4567,32 +4563,8 @@
   <block id="5865d512ef44ce9af5c898e3838da358" category="summary">Kubernetes 랜딩 페이지가 설명했습니다</block>
   <block id="e069a872dd6153588f1350dd2d1c2289" category="doc">Kubernetes 클러스터 개요</block>
   <block id="d9ade118c1e64b59921edda821b7e351" category="paragraph">Cloud Insights Kubernetes Explorer는 Kubernetes 클러스터의 전반적인 상태 및 사용을 표시하는 강력한 도구이며 사용자는 조사 영역을 쉽게 드릴다운할 수 있습니다.</block>
-  <block id="0ea12a27609fed8542336693697baa24" category="paragraph">대시보드 &gt; Kubernetes Explorer * 를 클릭하면 Kubernetes 클러스터 개요 페이지가 열립니다. 이 개요 페이지에는 다양한 요약 정보가 포함되어 있습니다.</block>
-  <block id="215baded9b6fa25efea9f80435bbd2c5" category="admonition">이 페이지 및 이후 Kubernetes Explorer 페이지의 여러 섹션에서 파란색으로 표시되는 번호(예: 노드/포드 상태, 네임스페이스 수 등)는 이러한 번호의 기반이 되는 세부 정보를 보여 주는 관련 쿼리 페이지에 대한 링크입니다.</block>
-  <block id="f45d7f4b198d8518dee2fc076b30504b" category="inline-image-macro">Kubernetes 개요</block>
-  <block id="8d6e8c083b564c8aa17abf5c3fa47c4e" category="paragraph"><block ref="8d6e8c083b564c8aa17abf5c3fa47c4e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="496c303b21014573b96d315479efd37c" category="section-title">클러스터 사용 개요</block>
-  <block id="34ab9dcbffff4563653d7b920816a0b1" category="inline-image-macro">클러스터 목록 개요</block>
-  <block id="b86614ff44352dfd7c68b08040ccd30f" category="paragraph"><block ref="b86614ff44352dfd7c68b08040ccd30f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="805da12f17bb46c8370f35e1ec563d4c" category="paragraph">클러스터 목록에는 사용자 환경의 각 클러스터에 대한 다음 사용 정보가 표시됩니다.</block>
-  <block id="07a57e9f5f30f1ff7e51e1e60c37ef3c" category="list-text">CPU: 사용 중인 총 CPU 용량의 백분율입니다</block>
-  <block id="e7accbf7e404528eb22dd30b6c7dd0eb" category="list-text">Memory(메모리): 사용된 총 메모리의 비율입니다</block>
-  <block id="8edffe2b242a5dc12970506737375d6e" category="list-text">스토리지: 사용 중인 총 스토리지 비율입니다</block>
-  <block id="c111d3787dd9237c96846985db0fbaf5" category="paragraph">다음 요소를 기준으로 클러스터 목록을 정렬할 수 있습니다.</block>
-  <block id="715487e39938fd9522fbd2960e4e22e4" category="list-text">노드 및 포드 경고 수준(기본값)</block>
-  <block id="d6ed36bb2b00046e0edf3d24b526b7ad" category="list-text">클러스터 이름</block>
-  <block id="68fa81b998d67f9c69a5d3c1b3d00cb2" category="list-text">노드 수입니다</block>
-  <block id="d9f8b756206a8b48892cbc933b59f7fd" category="list-text">컴퓨팅에서 가장 많이 사용됩니다</block>
-  <block id="d7d604a3c988095c222ce26bd96c0bf1" category="list-text">컴퓨팅에서 가장 적게 사용</block>
-  <block id="d1d54ae931174baedccda327f31b7de6" category="list-text">스토리지에서 가장 많이 활용됨</block>
-  <block id="a24487b554578f150522f68d8802c1cb" category="list-text">스토리지에서 가장 적게 사용</block>
   <block id="84a93a66c16a4163eea2b414b601e0ce" category="inline-link-macro">* 상세 페이지 *</block>
-  <block id="ac61d4df22f68d8ea1cc552d5ee1ab60" category="paragraph">클러스터 이름을 클릭하면 가 열립니다 <block ref="e6b61b13689c2840b60619df8bfe4051" category="inline-link-macro-rx"></block> 클러스터에 대해</block>
-  <block id="20bb5856046b51fcd3f95a3130f443ac" category="section-title">노드 및 Pod 상태</block>
-  <block id="6e793abe2db0b3a1a45549355f350f2d" category="paragraph"><block ref="6e793abe2db0b3a1a45549355f350f2d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="13d28e8dfc702e3456e0767dff9a128a" category="section-title">네임스페이스</block>
-  <block id="fffac5e3e2269fa69215f1167f0dcb2f" category="paragraph">화면 오른쪽에는 각 클러스터에서 사용되는 상위 3개의 네임스페이스 목록이 있습니다. 클러스터의 모든 네임스페이스를 보려면 * All * 링크를 클릭하십시오.</block>
-  <block id="e0d38e0eb9e189bb1ccae25e8b344c8e" category="paragraph"><block ref="e0d38e0eb9e189bb1ccae25e8b344c8e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="20c1070136d4b279e653e88c774414d7" category="section-title">필터 다듬기</block>
   <block id="17296f4349896b7279e58a091c3a382d" category="paragraph">필터링을 할 때 입력을 시작하면 현재 텍스트를 기반으로 * 와일드카드 필터 * 를 만들 수 있는 옵션이 표시됩니다. 이 옵션을 선택하면 와일드카드 식과 일치하는 모든 결과가 반환됩니다. NOT 또는 And를 사용하여 * 식 * 을 만들거나 "없음" 옵션을 선택하여 필드의 null 값을 필터링할 수도 있습니다.</block>
   <block id="1d76e0ea81fa06876e48804ecf1f0d24" category="inline-image-macro">K8S 탐색기에서 와일드카드로 필터링</block>
@@ -5042,18 +5014,6 @@
   <block id="33077f60aa2ab256051c31eb64cc6055" category="list-text">message&gt;는 오류 메시지로 반환된 장치와 상관없이 표시됩니다.</block>
   <block id="5f2b31bafb888e1e6aa37602d2dd9751" category="summary">Kubernetes 세부 정보 페이지는 문제 해결 및 계획에 도움이 되는 정보와 세부 정보를 제공합니다.</block>
   <block id="e3971bbebca9b2f849e520ba01a2f593" category="doc">Kubernetes 클러스터 세부 정보 페이지</block>
-  <block id="4269bb6c19a94f9018fc8b2391d389d6" category="paragraph">Kubernetes 클러스터 세부 정보 페이지에는 Kubernetes 클러스터에 대한 자세한 정보가 표시됩니다.</block>
-  <block id="45839520c79817b3544ea7278498444f" category="paragraph">상세 페이지는 클러스터, 노드 및 POD 정보를 보여 주는 3개의 분리된 연결 랜딩 페이지로 구성됩니다. "리소스 사용량" 섹션이 변경되어 선택한 항목(클러스터, 노드 또는 POD)의 세부 정보가 표시됩니다. 화면 맨 위에 현재 페이지 유형 및 이름이 표시됩니다. 현재 페이지는 _ 사이트 이름/Kubernetes/클러스터/노드/Pod _ 에 표시됩니다. 이 "Breadcrumb" 추적의 아무 부분이나 클릭하여 해당 페이지로 직접 이동할 수 있습니다.</block>
-  <block id="826429035a8a9edc1a04760f1ec377e7" category="inline-image-macro">페이지 이동 경로</block>
-  <block id="4e853d77c8a0f1da8dabbad1a932d14f" category="paragraph"><block ref="4e853d77c8a0f1da8dabbad1a932d14f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="16719f4f1118dc7f0bc249c43c4df67c" category="section-title">클러스터 개요</block>
-  <block id="14282b9f7f0312a2fa708795fe78363f" category="paragraph">클러스터 개요 페이지에서는 다음과 같은 유용한 정보를 한눈에 확인할 수 있습니다.</block>
-  <block id="99719263f96092fedfd6f2402532e320" category="inline-image-macro">주석이 추가된 클러스터 보기</block>
-  <block id="8438aaf79bf17894116d917e847fe2ab" category="paragraph"><block ref="8438aaf79bf17894116d917e847fe2ab" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="313e6b13bbf296445e97ffbff720fc88" category="section-title">노드 및 Pod 수</block>
-  <block id="973d0070d42f76d3bcc7400eac12db71" category="paragraph">페이지 상단의 노드/포드 수는 클러스터의 총 노드 및 포드 수를 보여주며 현재 경고 중이거나 보류 중인 Pod 수에 대한 분석을 보여줍니다.</block>
-  <block id="7b2679f5857ae1f0cc402ba89c63ebfd" category="paragraph"><block ref="7b2679f5857ae1f0cc402ba89c63ebfd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="795ff789c4877d24d232de2509542198" category="admonition">3개의 POD 하위 카운트(정상, 경고, 보류)가 표시된 총 POD 수보다 더 많이 추가될 수 있습니다. 이 문제는 _pending_count에 _all_pending Pod가 포함되어 있고 예약되지 않은 POD와 예약된 POD(즉, 연결되지 않은 POD 및 노드에 연결됨)가 모두 포함되어 있기 때문에 발생할 수 있습니다.</block>
   <block id="5817293ec6fb52e169e7a825ab42de81" category="section-title">클러스터 "휠"</block>
   <block id="a7f1dfb8c02fbef30a0e54df62d243f8" category="inline-image-macro">클러스터 휠</block>
   <block id="b853a854b0614b4da3e776995dee109f" category="paragraph"><block ref="b853a854b0614b4da3e776995dee109f" category="inline-image-macro-rx" type="image"></block></block>
@@ -5071,19 +5031,7 @@
   <block id="0770df85581c38c14cc5a29c2ac0ee05" category="paragraph">노드 요소 위로 마우스를 이동하면 파일 시스템, 메모리 및 CPU 정보를 볼 수 있습니다.</block>
   <block id="aeba0ba92e92fa550526462ee7f15f49" category="inline-image-macro">노드 용량 및 할당</block>
   <block id="505a160b62bc31c8ffa7c7dd25cbf213" category="paragraph"><block ref="505a160b62bc31c8ffa7c7dd25cbf213" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b62f28268f24460a0f4b9910b578af0a" category="section-title">세부 정보 섹션</block>
-  <block id="cde36533718db4476aa09a4e047344d6" category="paragraph">Kubernetes Explorer의 각 페이지에는 CPU, 메모리 및 스토리지가 포함될 수 있는 사용 그래프 세트가 표시됩니다. 이 그래프 아래에는 각 범주의 최상위 개체 요약 및 목록과 기본 세부 정보에 대한 링크가 나와 있습니다. 예를 들어, _Node_는 POD 및 컨테이너를 표시하고_Pod_는 PVC 및 관련 객체 및 컨테이너를 표시합니다. 다음 그림에서는 _Node_PAGE에 대한 자세한 정보의 예를 보여 줍니다.</block>
-  <block id="b3c17e50efb1c9edd02adcbdb514b3ca" category="inline-image-macro">리소스 사용 예</block>
-  <block id="ef00d34afdcf8b03d5a2e1e4d3af0d5a" category="paragraph"><block ref="ef00d34afdcf8b03d5a2e1e4d3af0d5a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="99320250e7bccded117faab7b4abbe23" category="paragraph">경고가 발생한 리소스는 목록 맨 위에 표시됩니다. 자세한 내용을 보려면 영향을 받는 리소스를 클릭하여 해당 리소스로 드릴다운합니다.</block>
   <block id="ed5c4f798b6d55f2a89cb97884f0d548" category="section-title">게이지에 대한 참고 사항</block>
-  <block id="6f757fa99d4ba48eb37bf099f6ce0c94" category="paragraph">Memory 및 CPU 게이지는 _allocatable capacity_와 _total capacity_에 대해 _used_를 표시하기 때문에 세 가지 색상으로 표시됩니다. 저장 게이지는 두 가지 색상만 표시합니다. 단, _TOTAL_에 대해 _used_라는 단일 값 쌍만 표시됩니다.</block>
-  <block id="421a44fa6eeb7e044d9e2dfc48ec3cbb" category="paragraph">게이지를 읽을 때는 다음 사항을 염두에 두십시오.</block>
-  <block id="e95563e1f436a54be789dca93730ae2c" category="paragraph">진한 파란색 띠에는 사용된 양이 표시됩니다.</block>
-  <block id="e01e69dafe6eb339618289cc9c9bc266" category="list-text">연한 파란색 밴드 _ 에 대해 보면 진한 파란색은 할당 가능한 금액의 %로 사용됩니다. 이 값은 표시된 "% of allocatable" 값과 일치합니다(아래 예에서는 81).</block>
-  <block id="1c72c592b8a1e5080b0f1ef0bf3ba3b1" category="list-text">흰색 배경 _ 에 대해 볼 때 진한 파란색은 총 용량의 %로 사용됩니다. 이 값은 표시된 "%의 용량" 값과 일치합니다(이 예에서는 63).</block>
-  <block id="b7ca81e2bb67d9106d1a52bdbc5b9f05" category="inline-image-macro">게이지 번호가 설명되었습니다</block>
-  <block id="f05f3d3deaa32d3eb9419009831a83e7" category="paragraph"><block ref="f05f3d3deaa32d3eb9419009831a83e7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4e2217a1fba6817d301befaa05659074" category="summary">비즈니스 통찰력 질문에 대한 답변을 돕기 위해 권장 대시보드를 가져올 수 있습니다.</block>
   <block id="cfa4bbfe8fe25421b55d6bc77170da89" category="doc">대시보드 갤러리에서 가져오기</block>
   <block id="75ff2ecca247e32bd11a679fc97fbdab" category="paragraph">Cloud Insights는 데이터에 대한 비즈니스 통찰력을 제공하는 다양한 권장 대시보드를 제공합니다. 각 대시보드에는 특정 질문에 답하거나 현재 사용자 환경에서 수집 중인 데이터와 관련된 특정 문제를 해결하는 데 도움이 되도록 설계된 위젯이 포함되어 있습니다.</block>
@@ -6694,7 +6642,6 @@
   <block id="e73a974e5f64b7f2d040fb59fd2aafcd" category="cell">섀시 IP 주소를 사용하도록 데이터 소스 구성을 변경합니다.</block>
   <block id="04eb81d16943e8c8a6314aaac38a4f4b" category="cell">Access Gateway 포트에 두 개 이상의 노드가 로그인되었다는 메시지를 받습니다</block>
   <block id="bdb9a31f361d8d3be1c6915647e92d4d" category="inline-link-macro">텔레그라프</block>
-  <block id="ea5b5a50c17a9a63f35695787f45c3e6" category="paragraph">Cloud Insights의 최신 Telegraf 버전은 * 1.19.3 * 입니다.</block>
   <block id="ae2f2b5e87a12f1cd650f0e46b92e4ec" category="admonition">정확한 감사 및 데이터 보고를 위해 * NTP(Network Time Protocol) * 또는 * SNTP(Simple Network Time Protocol) * 를 사용하여 Agent 시스템의 시간을 동기화하는 것이 좋습니다.</block>
   <block id="f97f94f0ff0c35a96686e2fd00940ac8" category="admonition">Agent를 설치하기 전에 설치 파일을 확인하려면 의 아래 섹션을 참조하십시오 <block ref="1d9f3d6343939e76574c60762a7f2fae" category="inline-xref-macro-rx"></block>.</block>
   <block id="137bac1c26ca6d0b61bc783c9a2fcbbd" category="section-title">Agent 설치</block>
@@ -7827,8 +7774,6 @@
   <block id="1e6f2d5fb7c78a27ba0dc78e9cc7c9b5" category="doc">획득 장치 요구 사항</block>
   <block id="15948ad6c9474a20f044eee0ea809fda" category="paragraph">인프라스트럭처 데이터 수집기(스토리지, VM, 포트, EC2 등)로부터 정보를 가져오려면 획득 장치(AU)를 설치해야 합니다. 획득 장치를 설치하기 전에 운영 체제, CPU, 메모리 및 디스크 공간 요구 사항을 충족하는지 확인해야 합니다.</block>
   <block id="033d64e0352a24070b4d6ba6e37207af" category="cell">Windows 요구 사항</block>
-  <block id="763e7c73a838930a9b9e74b5d349cbd6" category="cell">라이센스 버전 중 하나를 실행하는 컴퓨터 * CentOS(64비트): 7.2 - 7.9, 8.1 - 8.4 * Debian(64비트): 9 및 10 * Oracle Enterprise Linux(64비트): 7.5 - 7.9, 8.1 - 8.4 * Red Hat Enterprise Linux(64비트): 7.2 ~ 7.9, 8.1 ~ 8.4 * Ubuntu 서버: 18.04 및 20.04 LTS 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
-  <block id="35d156c90b71a0fab57ae717b06aecd8" category="cell">다음 중 하나의 라이센스 버전을 실행하는 컴퓨터: * Microsoft Windows 10 64비트 * Microsoft Windows Server 2012 * Microsoft Windows Server 2012 R2 * Microsoft Windows Server 2016 * Microsoft Windows Server 2019 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
   <block id="36b415ace97b614344903d1d039cc60d" category="cell">CPU 코어 2개</block>
   <block id="c90a13d8ec8fe53c6bb33fe10af6f2fe" category="cell">동일합니다</block>
   <block id="83626eda7582435cdf0eb139d5cc8972" category="cell">8GB RAM</block>
@@ -8071,7 +8016,6 @@
   <block id="ec9cf927d91c3ad7664fabdee6472d03" category="section-title">Kubernetes 네임스페이스 세부 정보 페이지</block>
   <block id="92093ab9ea8254ffd952bd6e9cfaff5f" category="paragraph">이제 클러스터의 네임스페이스에 대한 정보 상세 페이지를 통해 Kubernetes 환경을 이전보다 효율적으로 탐색할 수 있습니다. 네임스페이스 세부 정보 페이지는 모든 백엔드 스토리지 리소스 및 용량 사용률을 포함하여 네임스페이스에서 사용되는 모든 자산에 대한 요약을 제공합니다.</block>
   <block id="393ec8728d04ca4c0c87b2259965e9be" category="paragraph"><block ref="393ec8728d04ca4c0c87b2259965e9be" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3de80a4099f2865b8078177e221120f1" category="paragraph">네임스페이스를 클릭하면 네임스페이스 세부 정보 페이지가 열립니다.</block>
   <block id="e8488ef49f6dab9af961495fc93e60c3" category="summary">Kubernetes 네임스페이스 랜딩 페이지에 대해 설명했습니다</block>
   <block id="096b06ed37fdb2ba92846987f8f7a8ed" category="paragraph">Kubernetes 네임스페이스 세부 정보 페이지는 모든 백엔드 스토리지 리소스 및 용량 활용도를 비롯하여 네임스페이스에서 사용되는 모든 자산에 대한 요약을 제공합니다.</block>
   <block id="314f5a139733e879b0d731d8fdad57ee" category="paragraph">Kubernetes Explorer 페이지에서 네임스페이스 링크를 클릭하면 해당 네임스페이스에 대한 세부 정보 페이지가 열립니다.</block>
@@ -8796,7 +8740,6 @@
   <block id="f06798e708a78e76d30364617ea53340" category="paragraph">Cloud Insights는 _Preview_매너 방식으로 새로운 기능과 특징을 강조합니다. 미리 보기 기능은 제한된 환경 또는 제한된 용량에서 사용할 수 있습니다.</block>
   <block id="1faeb81be1b403bf2b660e33e3c7e5f7" category="paragraph">이러한 기능 중 하나 이상을 미리 보려면 에 문의하십시오 <block ref="16ff11ed878ec2cb7f479192bb9f1a7d" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="963905e220923605f4c2bdc8e3d98f6d" category="paragraph">현재 Preview에 포함된 몇 가지 기능은 다음과 같습니다.</block>
-  <block id="6e1effcb952ada801a257429342ccd39" category="cell">Cloud Insights는 각 내부 볼륨 및 모니터링되는 볼륨에 대한 용량이 소진될 때까지 일 수를 늘릴 수 있습니다. 이 값은 운영 중단의 위험을 크게 줄이는 데 도움이 될 수 있습니다. 쿼리, 모니터 또는 대시보드에서 _timeToFull.total_and_timeToFull.simenceInterval_카운터를 사용합니다.</block>
   <block id="aeaf81dc6547412bdc24df519c65a5ba" category="cell">사용자 액세스 자동 응답 작업 제한</block>
   <block id="f763810a8ec0d5862e0f288795932956" category="cell">공격이 감지되면 Cloud Secure는 파일 시스템에 대한 사용자 액세스를 제한함으로써 공격을 차단할 수 있습니다(전체 블록 또는 읽기 전용 액세스로 설정). 자동 응답 정책을 사용하거나 알림 또는 사용자 세부 정보 페이지에서 수동으로 액세스를 제한할 수 있습니다.<block ref="e8dc9c29c76388404a63bbf729dac2fd" category="inline-link-macro-rx"></block></block>
   <block id="9f854307bc74ec4b140a63a4e38f1e83" category="cell">스트레스 분석 하의 공유 리소스를 통해 공유 리소스의 워크로드 요구 및 영향을 받는 하나 이상의 개별 워크로드에서 높은 수요가 요구되어 스트레스를 받고 있는 공유 스토리지 리소스를 확인할 수 있습니다<block ref="b97265367ad52c02d31fa7522e26571d" category="inline-link-macro-rx"></block></block>
@@ -8931,4 +8874,63 @@
   <block id="23da8c24c0f52acdf7f6f9c4a08997c8" category="paragraph">Cloud Insights는 을 사용합니다 <block ref="eed175bcf32f20f81ea47b9c982c2797" category="inline-link-macro-rx"></block> 통합 데이터 수집을 위한 에이전트로 사용됩니다. Telegraf는 메트릭, 이벤트 및 로그를 수집 및 보고하는 데 사용할 수 있는 플러그인 기반 서버 에이전트입니다. 입력 플러그인은 시스템/OS에 직접 액세스하거나 타사 API를 호출하거나 구성된 스트림(예 Kafka, statsd 등). 출력 플러그인은 에이전트에서 Cloud Insights로 수집된 메트릭, 이벤트 및 로그를 전송하는 데 사용됩니다.</block>
   <block id="dc2dd49825ec74e1ca580d41456c912b" category="paragraph"><block ref="dc2dd49825ec74e1ca580d41456c912b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c1f82bcb121a82434f4244621860e18e" category="cell">클러스터 또는 SVM 관리 IP 주소(SVM 수집기 구성에 따라 다름)</block>
+  <block id="a1801a3f5b06f28912e5d6d300bf2760" category="paragraph">대시보드 &gt; Kubernetes Explorer * 를 클릭하면 Kubernetes 클러스터 목록 페이지가 열립니다. 이 개요 페이지에는 사용자 환경의 Kubernetes 클러스터 테이블이 포함되어 있습니다.</block>
+  <block id="33e8a05c91ebabc5e5949786e43cd0d4" category="inline-image-macro">Kubernetes 목록 페이지</block>
+  <block id="c05ca31df34e47f888e486bfaeb3d6a2" category="paragraph"><block ref="c05ca31df34e47f888e486bfaeb3d6a2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3bce0c8bf7435d97c12abc9e1e001859" category="section-title">클러스터 목록</block>
+  <block id="4057c9e17c94439b3336385760492522" category="paragraph">클러스터 목록에는 사용자 환경의 각 클러스터에 대한 다음 정보가 표시됩니다.</block>
+  <block id="df50bf9661097ebc97fcef0583f22715" category="list-text">클러스터 * 이름 *. 클러스터 이름을 클릭하면 가 열립니다 <block ref="e6b61b13689c2840b60619df8bfe4051" category="inline-link-macro-rx"></block> 클러스터에 대해.</block>
+  <block id="8c225c4c4401845b3bd94174e08f0e42" category="list-text">* 채도 * 백분율. 전체 채도란 CPU, 메모리 또는 저장소 채도가 가장 높은 것입니다.</block>
+  <block id="d451db04e9e40d35803034e07a276657" category="list-text">클러스터의 * 노드 수 * 입니다. 이 번호를 클릭하면 노드 목록 페이지가 열립니다.</block>
+  <block id="82803c7a526739de20fc24c17e739d7c" category="list-text">클러스터의 Pod 수 이 번호를 클릭하면 창 목록 페이지가 열립니다.</block>
+  <block id="bed3b3102569672060faa59f92fbb130" category="list-text">클러스터의 * 네임스페이스 * 수입니다. 이 번호를 클릭하면 네임스페이스 목록 페이지가 열립니다.</block>
+  <block id="12a38026906d3d3a51a3538b98e0d002" category="list-text">클러스터에 있는 * 워크로드 * 수. 이 번호를 클릭하면 워크로드 목록 페이지가 열립니다.</block>
+  <block id="abd68946270bbe5e8dd65bc248dfb347" category="cell">시간 대 전체 예측</block>
+  <block id="9b42a670fcbdc4d8fa72c247b7af5785" category="cell">Cloud Insights는 다음 객체에 대한 용량이 소진될 때까지 일 수를 늘릴 수 있습니다. 내부 볼륨 스토리지 풀 볼륨 이러한 예측 값을 사용하면 운영 중단의 위험을 크게 줄일 수 있습니다. 쿼리, 모니터 또는 대시보드에서 _timeToFull.total_and_timeToFull.simenceInterval_카운터를 사용합니다.</block>
+  <block id="dfeced9105a52cdc4ad66bf5d6ef9e5f" category="cell">라이센스 버전 중 하나를 실행하는 컴퓨터: * CentOS(64비트): 7.2 ~ 7.9, Stream 8, Stream 9 * Debian(64비트): 9 및 10 * Oracle Enterprise Linux(64비트): 7.5 ~ 7.9, 8.1 ~ 8.4 * Red Hat Enterprise Linux(64비트): 7.2 ~ 7.9, 8.1 ~ 8.4 * Ubuntu 서버: 18.04 및 20.04 LTS 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
+  <block id="52fe0ed84edd736c538f6ab44e4a643f" category="cell">다음 중 하나의 라이센스 버전을 실행하는 컴퓨터: * Microsoft Windows 10 64비트 * Microsoft Windows Server 2012 * Microsoft Windows Server 2012 R2 * Microsoft Windows Server 2016 * Microsoft Windows Server 2019 * Microsoft Windows Server 2022 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
+  <block id="5878d8d726a0f6915f98c3ad70765e41" category="paragraph">Cloud Insights의 최신 Telegraf 버전은 * 1.22.3 * 입니다.</block>
+  <block id="64643b4abc81cdc6d03a96846188e46e" category="list-text">워크로드 보존</block>
+  <block id="8160f36882be54ea94b2656ab98ca110" category="paragraph">에는 호스트, 네트워크 및 스토리지와 같은 다른 공유 리소스에 영향을 미치거나 영향을 받는 자산이 나와 있습니다. 이러한 리소스를 _greedy_and_degraded_resources 라고 합니다.</block>
+  <block id="95eafe7994082a98ef565bc49b0bd0bc" category="section-title">2022년 6월</block>
+  <block id="f1a19c84617286ffae10ff6a1d32f2bc" category="section-title">Kubernetes 클러스터 포화 및 기타 세부 정보</block>
+  <block id="18c416489bffa32183ac9b677247149e" category="paragraph">Cloud Insights은 채도 세부 정보와 네임스페이스 및 워크로드에 대한 명확한 뷰를 제공하는 향상된 클러스터 세부 정보 페이지를 통해 Kubernetes 환경을 이전보다 쉽게 탐색할 수 있도록 지원합니다.</block>
+  <block id="656b8508960318c503979ad7495d9568" category="inline-image-macro">클러스터 세부 정보 페이지입니다</block>
+  <block id="4ff7187de1db51fb0f4fde4076072ee1" category="paragraph"><block ref="4ff7187de1db51fb0f4fde4076072ee1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0765caa0af74f32ba608b509fa33a627" category="paragraph">또한 클러스터 목록 페이지에서는 노드, Pod, 네임스페이스 및 워크로드 수에 더해 채도를 빠르게 확인할 수 있습니다.</block>
+  <block id="0348dea23766cd47c2feb3b0d9d034e0" category="inline-image-macro">포화 번호가 표시된 클러스터 목록 페이지</block>
+  <block id="6461362766d8aaa5c0248617322c4dd1" category="paragraph"><block ref="6461362766d8aaa5c0248617322c4dd1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f387a81f25d0852180214e3532cd69b7" category="section-title">Kubernetes 클러스터의 사용 중인 지 얼마나 됩니까?</block>
+  <block id="457e2716710d35dcf5c797476aec4453" category="paragraph">클러스터가 이제 막 시작되었습니까, 아니면 오랜 디지털 수명을 경험했습니까? _Age_는 Kubernetes 노드에 대해 수집된 시간 메트릭으로 추가되었습니다.</block>
+  <block id="6b7be3d731a7fe9ca970c889034e1dfb" category="inline-image-macro">기간(일)을 보여 주는 Kubernetes 노드 테이블</block>
+  <block id="d50b69722bf7ada9440fb1892ac9282e" category="paragraph"><block ref="d50b69722bf7ada9440fb1892ac9282e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f81641a704754589795fe3a4d4130ea9" category="section-title">용량 시간 대 전체 예측</block>
+  <block id="8e6160832d0b0d367dcc2b7cc6e3f821" category="paragraph">Cloud Insights는 모니터링되는 각 내부 볼륨에 대해 용량이 소진될 때까지 일 수를 예측하는 대시보드를 제공합니다. 이러한 가치는 중단 위험을 크게 줄이는 데 도움이 될 수 있습니다.</block>
+  <block id="5a1ff4999319d15d3b329a148ce830e2" category="inline-image-macro">내부 볼륨 TTF 예측 대시보드</block>
+  <block id="2b8d5e66c38238b579c8a7f9a4f0deb8" category="paragraph"><block ref="2b8d5e66c38238b579c8a7f9a4f0deb8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5d0288e56a716095eb8a98c5c3943c54" category="paragraph">TTF 카운터는 스토리지, 스토리지 풀 및 볼륨에도 사용할 수 있습니다. 이러한 객체에 대한 추가 대시보드가 필요하면 이 공간을 계속 주시하십시오.</block>
+  <block id="70bda96e0227797cb8002e9bb8d9880d" category="paragraph">전체 예상 소요 시간이 _Preview_에서 벗어났고 모든 고객에게 롤아웃됩니다.</block>
+  <block id="c734c78a6282b21c743d2e94a2fbba82" category="section-title">내 환경에서 변경된 사항은 무엇입니까?</block>
+  <block id="c126f3a900297855b1ec4bc88198f155" category="paragraph">ONTAP 변경 로그 항목은 로그 탐색기에서 볼 수 있습니다.</block>
+  <block id="4c6ad175a17ca3e0294c095f93eefebe" category="inline-image-macro">변경 로그 항목 예를 보여 주는 이미지</block>
+  <block id="71f092ae4722c5826712794003f7d4b8" category="paragraph"><block ref="71f092ae4722c5826712794003f7d4b8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="47c2df3ac4f5eccb5b1440d704677b4d" category="inline-link-macro">이미 지원됩니다</block>
+  <block id="9d6192c5f44176e1b049c0d24bde96db" category="paragraph">Cloud Insights 획득 장치 외에 다음과 같은 운영 체제가 지원됩니다 <block ref="e27610920cf83f6a88b088882e8c727e" category="inline-link-macro-rx"></block>:</block>
+  <block id="8ff4902cc9377035eb3a8dc9fc480e10" category="list-text">CentOS 스트림 9</block>
+  <block id="3ffd22c07b48a1c76b76f941ad1cad96" category="list-text">Windows 2022</block>
+  <block id="c41fe2272c9ff38bed21d6e67f9945cc" category="paragraph">Telegraf 통합 데이터 수집용 에이전트가 버전 * 1.22.3 * 으로 업데이트되어 성능 및 보안이 향상되었습니다. 업데이트를 원하는 사용자는 의 해당 업그레이드 섹션을 참조할 수 있습니다 <block ref="7eca75c9707898b05c3a8b3fe84d7968" category="inline-link-macro-rx"></block> 문서화: 이전 버전의 에이전트는 사용자 작업 없이 계속 작동합니다.</block>
+  <block id="3398e3f6b2ecd1ae749962d864235c59" category="paragraph">Kubernetes 클러스터 세부 정보 페이지에는 Kubernetes 클러스터에 대한 자세한 개요가 표시됩니다.</block>
+  <block id="91babced605f49db75040cb5feaa6082" category="section-title">네임스페이스, 노드 및 Pod 수</block>
+  <block id="91fa5656598f458704b9e697bf298dfd" category="paragraph">페이지 맨 위의 숫자는 클러스터의 네임스페이스, 노드 및 포드의 총 개수와 현재 경고 및 보류 중인 포드의 수를 보여 줍니다.</block>
+  <block id="bbda26214d851fa5314ad7efb7b80f2f" category="section-title">공유 리소스 및 채도</block>
+  <block id="84bd7a2a103c477b4fe611cea9b09adf" category="paragraph">상세 페이지의 오른쪽 위에는 현재 비율로 클러스터 채도가 표시되고, 시간의 경과에 따른 최근 추세를 보여 주는 그래프가 표시됩니다. 클러스터 포화도는 각 시점마다 CPU, 메모리 또는 스토리지 포화도가 가장 높은 것입니다.</block>
+  <block id="ef3c2a7ac487c69bf023b0a642949390" category="paragraph">그 아래 페이지는 기본적으로 CPU, 메모리 및 스토리지 탭이 있는 * 공유 리소스 * 사용을 보여줍니다. 각 탭은 시간에 따른 채도 백분율 및 추세를 추가 사용 세부 정보와 함께 표시합니다. 스토리지의 경우 표시된 값은 독립적으로 계산되는 백엔드 및 파일 시스템 포화도의 값입니다.</block>
+  <block id="66a1f02be46b4ca30febbe3c115a1dc1" category="paragraph">사용량이 가장 높은 장치는 하단의 테이블에 표시됩니다. 이 장치를 탐색하려면 아무 링크나 클릭하십시오.</block>
+  <block id="15cf649caaa7ee8626f6c90fd74178ac" category="paragraph">Namespaces 탭에는 Kubernetes 환경의 모든 네임스페이스 목록이 표시됩니다. 이 목록에는 CPU 및 메모리 사용량과 각 네임스페이스의 워크로드 수가 표시됩니다. 이름 링크를 클릭하여 각 네임스페이스를 탐색합니다.</block>
+  <block id="4bbafa72b08fc9d20496406c7fa9ba65" category="inline-image-macro">K8s 환경의 현재 네임스페이스 목록</block>
+  <block id="07d556c0f49399176a2bae14f135c098" category="paragraph"><block ref="07d556c0f49399176a2bae14f135c098" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="35084d885dea7b061e6894c1cf3036d9" category="section-title">워크로드</block>
+  <block id="fa506eba51d8632b3b598d5694c75a76" category="paragraph">마찬가지로 워크로드 탭에는 각 네임스페이스의 워크로드 목록이 표시되며 CPU 및 메모리 사용량이 표시됩니다. Namespace 를 클릭하면 각 에 드릴이 연결됩니다.</block>
+  <block id="9fa110aa288235e533bb7fb8e74e2d54" category="paragraph"><block ref="9fa110aa288235e533bb7fb8e74e2d54" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="82cd1d20c4551d025cf4cf7661fecb69" category="paragraph">Memory 및 CPU 게이지는 _allocatable capacity_와 _total capacity_에 대해 _used_를 표시하기 때문에 세 가지 색상으로 표시됩니다.</block>
 </blocks>
