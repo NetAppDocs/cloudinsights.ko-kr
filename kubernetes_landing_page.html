@@ -2015,7 +2015,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-06-10 20:24:31 +0000">06/10/2022</time>
+    <time datetime="2022-06-18 02:09:03 +0000">06/18/2022</time>
     
   
 
@@ -2028,100 +2028,39 @@
 <p>Cloud Insights Kubernetes Explorer는 Kubernetes 클러스터의 전반적인 상태 및 사용을 표시하는 강력한 도구이며 사용자는 조사 영역을 쉽게 드릴다운할 수 있습니다.</p>
 </div>
 <div class="paragraph">
-<p>대시보드 &gt; Kubernetes Explorer * 를 클릭하면 Kubernetes 클러스터 개요 페이지가 열립니다. 이 개요 페이지에는 다양한 요약 정보가 포함되어 있습니다.</p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<img src="/us-en/cloudinsights/images/note.svg" alt="참고">
-</td>
-<td class="content">
-이 페이지 및 이후 Kubernetes Explorer 페이지의 여러 섹션에서 파란색으로 표시되는 번호(예: 노드/포드 상태, 네임스페이스 수 등)는 이러한 번호의 기반이 되는 세부 정보를 보여 주는 관련 쿼리 페이지에 대한 링크입니다.
-</td>
-</tr>
-</table>
+<p>대시보드 &gt; Kubernetes Explorer * 를 클릭하면 Kubernetes 클러스터 목록 페이지가 열립니다. 이 개요 페이지에는 사용자 환경의 Kubernetes 클러스터 테이블이 포함되어 있습니다.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="Kubernetes_Cluster_Overview_Page.png" alt="Kubernetes 개요"></span></p>
+<p><span class="image"><img src="Kubernetes_List_Page_new.png" alt="Kubernetes 목록 페이지"></span></p>
 </div>
 </div>
 </div>
-<div class="sect1">
-<h2 id="클러스터-사용-개요">클러스터 사용 개요</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="클러스터-목록">클러스터 목록</h3>
 <div class="paragraph">
-<p><span class="image"><img src="Kubernetes_Cluster_List.png" alt="클러스터 목록 개요"></span></p>
-</div>
-<div class="paragraph">
-<p>클러스터 목록에는 사용자 환경의 각 클러스터에 대한 다음 사용 정보가 표시됩니다.</p>
+<p>클러스터 목록에는 사용자 환경의 각 클러스터에 대한 다음 정보가 표시됩니다.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>CPU: 사용 중인 총 CPU 용량의 백분율입니다</p>
+<p>클러스터 * 이름 <strong>. 클러스터 이름을 클릭하면 가 열립니다 <a href="kubernetes_cluster_detail.html">"</strong> 상세 페이지 *"</a> 클러스터에 대해.</p>
 </li>
 <li>
-<p>Memory(메모리): 사용된 총 메모리의 비율입니다</p>
+<p>* 채도 * 백분율. 전체 채도란 CPU, 메모리 또는 저장소 채도가 가장 높은 것입니다.</p>
 </li>
 <li>
-<p>스토리지: 사용 중인 총 스토리지 비율입니다</p>
+<p>클러스터의 * 노드 수 * 입니다. 이 번호를 클릭하면 노드 목록 페이지가 열립니다.</p>
+</li>
+<li>
+<p>클러스터의 Pod 수 이 번호를 클릭하면 창 목록 페이지가 열립니다.</p>
+</li>
+<li>
+<p>클러스터의 * 네임스페이스 * 수입니다. 이 번호를 클릭하면 네임스페이스 목록 페이지가 열립니다.</p>
+</li>
+<li>
+<p>클러스터에 있는 * 워크로드 * 수. 이 번호를 클릭하면 워크로드 목록 페이지가 열립니다.</p>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p>다음 요소를 기준으로 클러스터 목록을 정렬할 수 있습니다.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>노드 및 포드 경고 수준(기본값)</p>
-</li>
-<li>
-<p>클러스터 이름</p>
-</li>
-<li>
-<p>노드 수입니다</p>
-</li>
-<li>
-<p>컴퓨팅에서 가장 많이 사용됩니다</p>
-</li>
-<li>
-<p>컴퓨팅에서 가장 적게 사용</p>
-</li>
-<li>
-<p>스토리지에서 가장 많이 활용됨</p>
-</li>
-<li>
-<p>스토리지에서 가장 적게 사용</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>클러스터 이름을 클릭하면 가 열립니다 <a href="kubernetes_cluster_detail.html">"* 상세 페이지 *"</a> 클러스터에 대해</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="노드-및-pod-상태">노드 및 Pod 상태</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p><span class="image"><img src="Kubernetes_Node_Pod_Status.png" alt="노드 및 Pod 상태"></span></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="네임스페이스">네임스페이스</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>화면 오른쪽에는 각 클러스터에서 사용되는 상위 3개의 네임스페이스 목록이 있습니다. 클러스터의 모든 네임스페이스를 보려면 * All * 링크를 클릭하십시오.</p>
-</div>
-<div class="paragraph">
-<p>네임스페이스를 클릭하면 네임스페이스 세부 정보 페이지가 열립니다.</p>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="Kubernetes_Namespaces.png" alt="네임스페이스"></span></p>
-</div>
 </div>
 </div>
 <div class="sect1">
