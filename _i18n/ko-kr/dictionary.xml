@@ -8278,7 +8278,6 @@
   <block id="6a69ffe6b718764ce315d48cbbb46266" category="paragraph">Usage Management 탭에는 관리되는 장치 사용에 대한 개요와 사용자 환경에 설치된 Data Collector 목록 및 각 장치에 대한 관리되는 유닛 분석 정보가 표시됩니다.</block>
   <block id="17290f60a5d0cd57f090b90688a390a3" category="admonition">관리되는 유닛의 합계는 요약 섹션의 데이터 수집기 수와 약간 다를 수 있습니다. 관리 단위 수가 가장 가까운 관리 단위로 반올림되기 때문입니다. Data Collector 목록에서 이러한 숫자의 합계는 상태 섹션의 총 관리 단위 수보다 약간 높을 수 있습니다. 요약 섹션에는 구독에 대한 실제 관리 단위 수가 반영됩니다.</block>
   <block id="844a228971d8fd3d04326401af09bab1" category="paragraph">사용량이 구독 금액을 거의 또는 초과하는 경우 "점 3개" 메뉴를 클릭하고 _Delete_를 선택하여 이 목록에서 데이터 수집기를 삭제할 수 있습니다.</block>
-  <block id="88ae2467b83e5d292b18e19eaae1852d" category="list-text">NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 1.17 이상에서 지원됩니다. Docker 컨테이너 런타임과 함께 사용할 경우 Cloud Insights는 NFS 및 iSCSI에 대한 POD-PV-스토리지 매핑을 표시할 수 있으며, 다른 런타임에서는 iSCSI만 표시합니다.</block>
   <block id="36098c0d1c3de71d8727b1543bace633" category="section-title">2022년 4월</block>
   <block id="259a90b9586b985b7c26543c1f883472" category="section-title">귀하의 의견을 공유해 주십시오!</block>
   <block id="42f99e1fd22e64a04ef5b09421665517" category="inline-link-macro">* 지금 등록하십시오 *</block>
@@ -8932,5 +8931,6 @@
   <block id="fa506eba51d8632b3b598d5694c75a76" category="paragraph">마찬가지로 워크로드 탭에는 각 네임스페이스의 워크로드 목록이 표시되며 CPU 및 메모리 사용량이 표시됩니다. Namespace 를 클릭하면 각 에 드릴이 연결됩니다.</block>
   <block id="9fa110aa288235e533bb7fb8e74e2d54" category="paragraph"><block ref="9fa110aa288235e533bb7fb8e74e2d54" category="inline-image-macro-rx" type="image"></block></block>
   <block id="82cd1d20c4551d025cf4cf7661fecb69" category="paragraph">Memory 및 CPU 게이지는 _allocatable capacity_와 _total capacity_에 대해 _used_를 표시하기 때문에 세 가지 색상으로 표시됩니다.</block>
-  <block id="5543c4e9358604e03ae0e327a62bb03f" category="cell">Red Hat Enterprise Linux 7.x, 8.x 64비트 CentOS 7.x 64비트 CentOS 8 Stream Ubuntu 20 및 22 64비트 중 하나를 실행하는 컴퓨터 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
+  <block id="86a12d532c7d028d9b551dea3a2ccd99" category="cell">Red Hat Enterprise Linux 7.x, 8.x 64비트 CentOS 7.x 64비트 CentOS 8 Stream Ubuntu 20 ~ 22 64비트 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
+  <block id="8a3fedbdc9bb9fd90a3104834207e38e" category="list-text">NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 버전 1.19 이상에서 지원됩니다. Docker 컨테이너 런타임과 함께 사용할 경우 Cloud Insights는 NFS 및 iSCSI에 대한 POD-PV-스토리지 매핑을 표시할 수 있으며, 다른 런타임에서는 iSCSI만 표시합니다.</block>
 </blocks>
