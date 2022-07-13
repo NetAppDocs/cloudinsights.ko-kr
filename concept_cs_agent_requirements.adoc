@@ -16,7 +16,7 @@ keywords: agent, Linux, requirements, docker, browsers, permissions, Network
 | 구성 요소 | Linux 요구 사항 
 
 
-| 운영 체제 | Red Hat Enterprise Linux 7.x, 8.x 64비트 CentOS 7.x 64비트 CentOS 8 Stream 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다. 
+| 운영 체제 | Red Hat Enterprise Linux 7.x, 8.x 64비트 CentOS 7.x 64비트 CentOS 8 Stream Ubuntu 20 및 22 64비트 중 하나를 실행하는 컴퓨터 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다. 
 
 
 | 명령 | 설치, 스크립트 실행 및 제거에 'SUDO su –' 명령이 필요합니다. 

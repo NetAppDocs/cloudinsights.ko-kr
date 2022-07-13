@@ -3286,7 +3286,6 @@
   <block id="2cb05e4bb7830be982f0922fed86b4cd" category="cell">구성 요소</block>
   <block id="129f8880167531920bb3396830948e86" category="cell">Linux 요구 사항</block>
   <block id="696c660ff8d9323e55146a6dbd4e4088" category="cell">운영 체제</block>
-  <block id="9de07b55b73b4474c7f2f607db372035" category="cell">Red Hat Enterprise Linux 7.x, 8.x 64비트 CentOS 7.x 64비트 CentOS 8 Stream 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
   <block id="c441ee50c88f6e5e3a7c69fc69dad8b8" category="cell">명령</block>
   <block id="6068dbca35f237e6b23584f701dc4aa1" category="cell">설치, 스크립트 실행 및 제거에 'SUDO su –' 명령이 필요합니다.</block>
   <block id="805053e0ff5abb1e01f2d2ce7d07ad96" category="cell">CPU 코어 4개</block>
@@ -8933,4 +8932,5 @@
   <block id="fa506eba51d8632b3b598d5694c75a76" category="paragraph">마찬가지로 워크로드 탭에는 각 네임스페이스의 워크로드 목록이 표시되며 CPU 및 메모리 사용량이 표시됩니다. Namespace 를 클릭하면 각 에 드릴이 연결됩니다.</block>
   <block id="9fa110aa288235e533bb7fb8e74e2d54" category="paragraph"><block ref="9fa110aa288235e533bb7fb8e74e2d54" category="inline-image-macro-rx" type="image"></block></block>
   <block id="82cd1d20c4551d025cf4cf7661fecb69" category="paragraph">Memory 및 CPU 게이지는 _allocatable capacity_와 _total capacity_에 대해 _used_를 표시하기 때문에 세 가지 색상으로 표시됩니다.</block>
+  <block id="5543c4e9358604e03ae0e327a62bb03f" category="cell">Red Hat Enterprise Linux 7.x, 8.x 64비트 CentOS 7.x 64비트 CentOS 8 Stream Ubuntu 20 및 22 64비트 중 하나를 실행하는 컴퓨터 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
 </blocks>
