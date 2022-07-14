@@ -266,6 +266,8 @@ sidebar:
           url: "/task_dc_brocade_fc_switch.html"
       - title: Cisco의
         url: "/task_dc_cisco_fc_switch.html"
+      - title: Cohesity SmartfFiles를 참조하십시오
+        url: "/task_dc_cohesity_smartfiles.html"
       - title: Dell
         entries:
         - title: XC 시리즈

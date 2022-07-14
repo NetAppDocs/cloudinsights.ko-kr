@@ -218,7 +218,7 @@ Cloud Insights는 다양하고 흥미로운 새로운 미리 보기 기능을 �
 
 === 새 데이터 수집기
 
-* * Cohesity Smart Files * - 이 REST API 기반 수집기는 Cohesity 클러스터를 획득하여 "뷰"(CI 내부 볼륨)와 다양한 노드를 검색하고 성능 메트릭을 수집합니다.
+* * Cohesity SmartFiles * - 이 REST API 기반 수집기는 Cohesity 클러스터를 획득하여 "뷰"(CI 내부 볼륨)와 다양한 노드를 검색하고 성능 메트릭을 수집합니다.
 
 
 

@@ -1,0 +1,51 @@
+= 
+:allow-uri-read: 
+
+
+--
+보조 아이콘: 보조 아이콘 고정 링크: task_dc_cohesity_smartfiles.html
+
+키워드: 데이터 수집기, 점착
+
+요약: Cohesity SmartFiles 데이터 수집기 구성 --
+
+= Cohesity SmartFiles 데이터 수집기
+
+[role="lead"]
+이 REST API 기반 수집기는 Cohesity 클러스터를 획득하여 "보기"(Cloud Insights 내부 볼륨)와 다양한 노드를 검색하고 성능 메트릭을 수집합니다.
+
+== 구성
+
+[cols="2*"]
+|===
+| 필드에 입력합니다 | 설명 
+
+
+| Cohesity 클러스터 IP | Cohesity 클러스터의 IP 주소입니다 
+
+
+| 사용자 이름 | Cohesity 클러스터의 사용자 이름입니다 
+
+
+| 암호 | Cohesity 클러스터에 사용되는 암호입니다 
+|===
+== 고급 구성
+
+[cols="2*"]
+|===
+| 필드에 입력합니다 | 설명 
+
+
+| TCP 포트 | Cohesity 클러스터와의 TCP 통신에 사용되는 포트입니다 
+
+
+| 재고 폴링 간격(분) | 재고 조사 사이의 간격입니다. 기본값은 60분입니다. 
+
+
+| 성능 폴링 간격(분) | 성능 폴링 간격입니다. 기본값은 900초입니다. 
+|===
+= = 문제 해결
+
+추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].
+
+--

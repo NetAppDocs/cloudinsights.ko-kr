@@ -8297,7 +8297,6 @@
   <block id="e353c2255e0d23456f0d04e774cc242c" category="cell">공격이 감지될 때 사용자 액세스를 제한하는 기능을 통해 업무상 중요한 데이터를 더욱 안전하게 보호할 수 있습니다. 자동 응답 정책을 사용하거나 알림 또는 사용자 세부 정보 페이지에서 수동으로 액세스를 제한할 수 있습니다.<block ref="e8dc9c29c76388404a63bbf729dac2fd" category="inline-link-macro-rx"></block></block>
   <block id="58114ec5d8ca1494b408777c1a724eef" category="cell">스트레스 분석 아래의 공유 리소스는 AI/ML을 사용하여 리소스 경합이 사용자 환경에서 성능 저하를 일으키는 위치를 자동으로 식별하고, 해당 환경의 영향을 받는 워크로드를 강조 표시하고, 문제 해결을 위한 권장 조치를 제공하여 성능 문제를 보다 신속하게 해결합니다.<block ref="b97265367ad52c02d31fa7522e26571d" category="inline-link-macro-rx"></block></block>
   <block id="9fc31ce4550c4f68c1ea81f5a37335aa" category="section-title">새 데이터 수집기</block>
-  <block id="d0112aff81f4571da224986557628445" category="list-text">* Cohesity Smart Files * - 이 REST API 기반 수집기는 Cohesity 클러스터를 획득하여 "뷰"(CI 내부 볼륨)와 다양한 노드를 검색하고 성능 메트릭을 수집합니다.</block>
   <block id="01ec768781d34379b5889a634c19e5cc" category="section-title">기타 Data Collector 업데이트</block>
   <block id="cd96347d3d125d14ec06afe0adbac82a" category="paragraph">다음 데이터 수집기에서 성능 데이터의 수집 및 표시가 향상되었습니다.</block>
   <block id="03a00cff615471538bae5d9ab8cc669e" category="list-text">Brocade CLI를 사용합니다</block>
@@ -8934,4 +8933,22 @@
   <block id="86a12d532c7d028d9b551dea3a2ccd99" category="cell">Red Hat Enterprise Linux 7.x, 8.x 64비트 CentOS 7.x 64비트 CentOS 8 Stream Ubuntu 20 ~ 22 64비트 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
   <block id="8a3fedbdc9bb9fd90a3104834207e38e" category="list-text">NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 버전 1.19 이상에서 지원됩니다. Docker 컨테이너 런타임과 함께 사용할 경우 Cloud Insights는 NFS 및 iSCSI에 대한 POD-PV-스토리지 매핑을 표시할 수 있으며, 다른 런타임에서는 iSCSI만 표시합니다.</block>
   <block id="665d63bd09ee670a485ee7ffa3b8a595" category="list-text">NetApp Kubernetes Monitoring Operator 및 해당 종속성(Telegraf, kubbe-state-metrics, fluentbit 등)은 Arm64 아키텍처를 실행하는 노드에서 지원되지 않습니다.</block>
+  <block id="fed2b89570c5c27f515afdba0f485a51" category="inline-link-macro">Cohesity SmartFiles를 참조하십시오</block>
+  <block id="114e1ad704707526c811f7952ae68dac" category="cell"><block ref="114e1ad704707526c811f7952ae68dac" category="inline-link-macro-rx"></block></block>
+  <block id="99449a8a20c724ea6cd587ff41d0672f" category="list-text">* Cohesity SmartFiles * - 이 REST API 기반 수집기는 Cohesity 클러스터를 획득하여 "뷰"(CI 내부 볼륨)와 다양한 노드를 검색하고 성능 메트릭을 수집합니다.</block>
+  <block id="f4801fbbe359436f17e47ed8fb32d603" category="paragraph">보조 아이콘: 보조 아이콘 고정 링크: task_dc_cohesity_smartfiles.html</block>
+  <block id="8616d2c04fe61253f00cfdb24f24a2ad" category="paragraph">키워드: 데이터 수집기, 점착</block>
+  <block id="14603cff16307cd8ca97c19ecdee7b3d" category="paragraph">요약: Cohesity SmartFiles 데이터 수집기 구성 --</block>
+  <block id="02e9f49555c20d5a8f3ca8fb679dc061" category="paragraph">= Cohesity SmartFiles 데이터 수집기</block>
+  <block id="41039a4248a1480d7c02c60628a3dcf5" category="paragraph">이 REST API 기반 수집기는 Cohesity 클러스터를 획득하여 "보기"(Cloud Insights 내부 볼륨)와 다양한 노드를 검색하고 성능 메트릭을 수집합니다.</block>
+  <block id="408d476befad17be036c6ad223d61bf7" category="paragraph">== 구성</block>
+  <block id="b64d455dbfeeda0e192f63a2223b3cc0" category="cell">Cohesity 클러스터 IP</block>
+  <block id="20d32ea251aaa415b54e00ff841f25dc" category="cell">Cohesity 클러스터의 IP 주소입니다</block>
+  <block id="55e588d1f72745ccdd93d782b1efdea0" category="cell">Cohesity 클러스터의 사용자 이름입니다</block>
+  <block id="28068b4914fd700011975ba0b1b872b8" category="cell">Cohesity 클러스터에 사용되는 암호입니다</block>
+  <block id="491c67c11aa49801e2c84f994169a0c0" category="paragraph">== 고급 구성</block>
+  <block id="1d5447258f93b47e09976cc68c7f86d9" category="cell">Cohesity 클러스터와의 TCP 통신에 사용되는 포트입니다</block>
+  <block id="0896c34e1c20bc67d7328f53f406276d" category="cell">성능 폴링 간격입니다. 기본값은 900초입니다.</block>
+  <block id="ed71ade6f4efcaba20f75ab4e1d40313" category="paragraph">= = 문제 해결</block>
+  <block id="dc9945292fe1d6a701729e7b128ed51c" category="sidebar">Cohesity SmartfFiles를 참조하십시오</block>
 </blocks>
