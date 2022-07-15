@@ -6916,43 +6916,18 @@
   <block id="7f2b2fed4f09be699056de8e743955df" category="list-text">오류 처리:<block ref="fb51ab0a51b3a1142c9f3ef825412df8" category="inline-link-rx"></block></block>
   <block id="812d24264002531aa5c33dcfea09ae4f" category="summary">Cloud Secure를 사용하면 사보타업 혐의가 있는 경우 사용자 액세스를 제한할 수 있습니다</block>
   <block id="34f9ae45ea998f4feb8ed8b837da35ce" category="doc">사용자 액세스를 제한합니다</block>
-  <block id="1ef240a15bef296ddbe95040048f5568" category="paragraph">공격이 감지되면 Cloud Secure는 파일 시스템에 대한 사용자 액세스를 제한하여 공격을 차단할 수 있습니다. 자동 응답 정책을 사용하거나 알림 또는 사용자 세부 정보 페이지에서 수동으로 액세스를 제한할 수 있습니다.</block>
-  <block id="15db9edd838695d9e8dfe3cc4d26ce0e" category="paragraph">사용자 액세스를 제한할 때는 액세스 제한 유형(블록 또는 읽기 전용) 및 기간을 정의해야 합니다. 선택한 기간이 끝나면 사용자 액세스가 자동으로 복원됩니다.</block>
-  <block id="197e52f14728da939ea57554da72942d" category="paragraph">액세스 제한은 SMB 및 NFS 프로토콜 모두에 대해 지원됩니다.</block>
-  <block id="c7f4e2255f2d3462f88ebfd46e1df900" category="paragraph">호스트 시스템의 IP 주소를 통해 제한되며, 이는 사용자가 스토리지에 액세스한 컴퓨터를 의미합니다. 이러한 머신 IP 주소는 Cloud Secure에서 모니터링하는 SVM(스토리지 가상 머신)에 액세스하지 못하도록 차단됩니다.</block>
-  <block id="2bf4ce6e35bfc4c6f3801fbf4a98f9ca" category="paragraph">예를 들어, Cloud Secure이 10개의 SVM을 관리하고 4개의 SVM에 대해 자동 응답 정책을 구성한다고 가정해 보겠습니다. 4개의 SVM 중 하나에서 공격이 발생한 경우 10개의 SVM 모두에서 사용자의 액세스가 제한됩니다. 원래 SVM에 대해 스냅샷이 여전히 촬영됩니다.</block>
-  <block id="19e54e03824e649096b70d3644fd0e5f" category="paragraph">CIFS에 대해 SVM이 4개, NFS용으로 구성된 SVM이 1개 있고, 나머지 2개는 NFS와 CIFS 모두에 대해 구성된 경우 4개의 SVM 중 하나에서 공격이 발생하면 모든 SVM이 차단됩니다.</block>
-  <block id="1c86226deccf9173a843b3d83a50b7e4" category="section-title">사용자 액세스 제한을 위한 필수 구성 요소</block>
-  <block id="4625d3b7cfc602f8dda70ae516128ac1" category="paragraph">이 기능을 사용하려면 고객은 SMB 및 NFS에 대한 엑스포트 정책을 구성해야 합니다. Data Source Collector에서 NFS 및 SMB가 구성된 경우 아래 단계를 따르십시오.</block>
   <block id="5a648726ddefbfa82103a1d9ad7f888d" category="section-title">이 기능을 활성화하는 방법은 무엇입니까?</block>
-  <block id="87ec0cfaa84f34c3c1bd7e7a9573acd3" category="list-text">Cloud Secure에서 * 관리자 &gt; 자동 응답 정책 &gt; 응답 정책 설정 &gt; 액세스 제한 * 으로 이동합니다.</block>
-  <block id="ff3c40d658e508545278698eddf6f64f" category="list-text">"사용자 액세스 제한 활성화"를 _ENABLED_로 설정합니다.</block>
-  <block id="1b8e039cca81e12d3c38dc0474f9b680" category="section-title">자동 사용자 액세스 제한을 설정하는 방법은 무엇입니까?</block>
   <block id="9e228488a6769acafe8dbd4abaaa23ff" category="list-text">새 공격 정책을 만들거나 기존 공격 정책을 편집합니다.</block>
   <block id="0791b390bcb1883a8ca3239cf8c8deed" category="list-text">공격 정책을 모니터링해야 하는 SVM을 선택합니다.</block>
-  <block id="a69b7d29acba1026740c17b1314742da" category="list-text">"사용자 IP 파일 액세스 제한" 확인란을 클릭합니다. 이 옵션을 선택하면 기능이 활성화됩니다.</block>
   <block id="d08b030c0ac309193f01c8251798645c" category="list-text">“Limit User Access(사용자 액세스 제한)”에서 적용할 제한 모드를 선택합니다.</block>
-  <block id="f46147cf742d90e9b60b59b73abd3cce" category="list-text">“Time Period(기간)”에서 제한을 적용할 시간을 선택합니다.</block>
   <block id="48247bb102471f1d0e096ff11dc3ce84" category="inline-link-macro">시뮬레이션된 스크립트</block>
-  <block id="25c2a3fab9090e127924dcd73f1ba277" category="list-text">자동 제한을 테스트하려면 을 통해 공격을 시뮬레이션할 수 있습니다 <block ref="c144f5bb29c4478b376c3856feebe3da" category="inline-link-macro-rx"></block>.</block>
-  <block id="ecd9a1503c716dad0163cfa442205dc6" category="section-title">시스템에 제한된 사용자가 있는지 어떻게 알 수 있습니까?</block>
-  <block id="58c5c3c3ae9ddc777df3471cb0d91f15" category="list-text">경고 목록 페이지에서 사용자가 제한되는 경우 화면 상단에 배너가 표시됩니다.</block>
-  <block id="f70812e312d2dcf5bb1030d22300b486" category="list-text">배너를 클릭하면 "사용자" 페이지로 이동합니다. 에서 제한된 사용자 목록을 볼 수 있습니다.</block>
-  <block id="467c6ea6fc7965c01f9c4a37b4097833" category="list-text">“Users(사용자)” 페이지에는 “IP Access(IP 액세스)”라는 열이 있습니다. 이 열에서 현재 사용자 제한 상태가 표시됩니다.</block>
   <block id="40184bc9041969d58ad379b9b3e319cd" category="section-title">사용자 액세스를 수동으로 제한 및 관리합니다</block>
-  <block id="47a27e2a670aec2697933b5787c9b04c" category="list-text">경고 세부 정보 또는 사용자 세부 정보 화면으로 이동한 다음 해당 화면에서 사용자를 수동으로 제한하거나 제한하지 않도록 설정할 수 있습니다.</block>
-  <block id="bc35f531afc4546d2f00d327e39a34bd" category="section-title">사용자가 액세스 기록을 제한합니다</block>
-  <block id="fa2d13a7c1864e6553f454b50bb86fe3" category="paragraph">경고 세부 정보 및 사용자 세부 정보 페이지의 사용자 패널에서 사용자의 액세스 제한 기록(시간, 작업(블록, 읽기 전용, 복원), 기간, 수동/자동 및 영향을 받는 IP에 의해 수행되는 작업입니다.</block>
   <block id="b9a6eedc929b25f1d8a4be77ee9da64b" category="section-title">이 기능을 비활성화하는 방법은 무엇입니까?</block>
   <block id="6efa4058becdd76841666397b456b8bc" category="paragraph">언제든지 이 기능을 비활성화할 수 있습니다. 시스템에 제한된 사용자가 있는 경우 먼저 액세스 권한을 복원해야 합니다.</block>
-  <block id="093cb28dd5afe81970d566b9792edf3c" category="list-text">Cloud Secure에서 * 관리자 &gt; 자동 응답 정책 &gt; 응답 정책 설정 &gt; 액세스 제한 * 으로 이동합니다</block>
-  <block id="badb314ae874abf7996a87ed524a2a2a" category="list-text">"사용자 액세스 제한 활성화"를 선택 해제하여 비활성화합니다.</block>
   <block id="d62cebbd54827b8db7ecf72f7e55fa9a" category="paragraph">이 기능은 모든 페이지에서 숨겨집니다.</block>
   <block id="2ab997129d2c5216ff0d477e12280e8a" category="cell">일부 사용자는 공격이 있어도 제한을 받지 않습니다.</block>
   <block id="e90c2e3184d693395feccdf9a3d863a1" category="cell">SVM용 Data Collector 및 Agent가 _Running_상태인지 확인합니다. 데이터 수집기 및 에이전트가 중지된 경우 Cloud Secure에서 명령을 전송할 수 없습니다. 이는 사용자가 이전에 사용되지 않은 새 IP가 있는 시스템에서 스토리지에 액세스했을 수 있기 때문입니다. 제한은 사용자가 스토리지에 액세스하는 데 사용하는 호스트의 IP 주소를 통해 수행됩니다. 제한된 IP 주소 목록을 보려면 UI(알림 세부 정보 &gt; 이 사용자의 액세스 제한 기록 &gt; 영향을 받는 IP)를 확인하십시오. 사용자가 제한된 IP와 다른 IP를 가진 호스트에서 스토리지에 액세스하는 경우 사용자는 여전히 제한되지 않은 IP를 통해 스토리지를 액세스할 수 있습니다. 사용자가 IP가 제한된 호스트에서 액세스를 시도하는 경우 스토리지를 액세스할 수 없습니다.</block>
   <block id="9d9d839297abd5b6559ef681c302109c" category="cell">제한할 IP가 이미 다른 사용자로부터 제한되어 있습니다.</block>
-  <block id="59b7bceceaf271dc23260e1c30098a18" category="cell">"SMB 프로토콜의 내보내기 정책 사용이 SVM에 대해 비활성화되었습니다."라는 경고와 함께 액세스 제한 이 실패합니다. 사용자 액세스 제한 기능을 사용하도록 엑스포트 정책 사용 허용"</block>
-  <block id="637e226349512d2d7a553322411b83f0" category="cell">필수 구성 요소에 설명된 대로 가상 서버에 대해 -is-exportpolicy-enabled 옵션이 true 인지 확인합니다.</block>
   <block id="fc5aca4e5185f241f9160502eac0b160" category="doc">NetApp ONTAP 데이터 수집기 구성</block>
   <block id="bdde9f578348148335a5c86ea6a0eda9" category="paragraph">Cloud Secure는 데이터 수집기를 사용하여 디바이스에서 파일 및 사용자 액세스 데이터를 수집합니다. 이 데이터는 분석을 위해 Cloud Secure에 제공됩니다.</block>
   <block id="3b37597c3ea4000c791420b6b40843f4" category="list-text">데이터를 수집하도록 에이전트를 구성해야 합니다</block>
@@ -8030,12 +8005,8 @@
   <block id="c1f58328aeef13bbe14c188aa6c895ea" category="paragraph">다음은 보고와 관련된 문제 해결을 위한 제안 사항입니다.</block>
   <block id="f6742e49587a771a1225e7c6e472c682" category="cell">이메일을 통해 보고서를 보내도록 예약하는 경우 로그인한 사용자의 이름이 이메일의 "받는 사람" 필드에 미리 채워집니다. 그러나 이름은 "성 이름"(이름, 공백, 성) 형식입니다. 이 주소는 유효한 이메일 주소가 아니므로 예약된 보고서가 실행될 때 이메일이 전송되지 않습니다.</block>
   <block id="155db2ed9995e9882b3be492b37935dc" category="cell">이메일을 통해 보고서를 보내도록 예약할 때 미리 채워진 이름을 지우고 "받는 사람" 필드에 올바른 형식의 유효한 이메일 주소를 입력합니다.</block>
-  <block id="1e68e39ff63876126f3972751ed432bf" category="paragraph">exportpolicy_and_exportpolicy rule_이(가) 올바르게 구성되었는지 확인하려면 위의 명령을 실행한 후 다음 명령을 실행합니다.</block>
-  <block id="669c97c4b794abc0f280d4892a3a503d" category="section-title">IP를 수동으로 복원합니다</block>
   <block id="9a77156daa8e3ba32694334a614ff511" category="paragraph">Cloud Secure 평가판이 만료되거나 에이전트/수집기가 중단된 경우 다음 단계를 사용하여 ONTAP에서 IP를 수동으로 복원합니다.</block>
   <block id="6dbbd623c3a6977270c54a9833844b28" category="list-text">SVM에 모든 엑스포트 정책을 나열하십시오.</block>
-  <block id="23e8d668fcbe8c5dfe19d7e5be73ea0a" category="list-text">각 RuleIndex를 지정하여 "cloudsecure_rule"이 Client Match인 SVM의 모든 정책에 걸쳐 모든 규칙을 삭제합니다. CloudSecure 규칙은 일반적으로 1이 됩니다.</block>
-  <block id="6c1214115a59d3b11b800993d5bb40fb" category="list-text">cloudsecure 규칙이 삭제되었는지 확인(선택적 단계 확인)</block>
   <block id="316d81dde3628e46f8db6067cc55e287" category="cell">액세스 제한을 수동으로 클릭하면 "이 사용자의 IP 주소가 이미 제한되었습니다"라는 메시지가 나타납니다.</block>
   <block id="bef090ff3d523fedde21921ae6a366fd" category="paragraph">대량 삭제 작업에서 _Save_를 클릭하거나 대량 삭제 작업에서 _Remove_를 클릭하면 Cloud Insights에서 작업이 다소 시간이 걸릴 것임을 알려줍니다. 이 메시지를 해제할 수 있습니다. 작업은 백그라운드에서 계속됩니다.</block>
   <block id="c43280f80a1f0bcdf120e5ebc1478afa" category="paragraph">여기에서 로그 쿼리 문제 해결을 위한 제안 사항을 찾을 수 있습니다.</block>
@@ -8104,14 +8075,7 @@
   <block id="48fa35194daf9f1bd37c243905808afa" category="list-text">* 사용자 지정 모니터 * 는 사용자가 생성한 모니터만 나열합니다.</block>
   <block id="f78abd66dd2da46aaad72238500300b7" category="paragraph">를 봅니다 <block ref="c48a3e56f23a81aaf8fad75ccfbc3d89" category="inline-link-macro-rx"></block> Cloud Insights에 포함된 모니터에 대한 설명을 보려면 페이지를 참조하십시오.</block>
   <block id="b94799ea1a34279467ca857a3bdb03d8" category="list-text">* 노이즈 감소 * - 사용자가 생성한 새로 생성된 파일(예: 최근 2시간)을 필터링합니다. 사용자가 액세스하는 임시 파일(예: .tmp 파일)을 필터링하는 데에도 사용됩니다.</block>
-  <block id="d2b60d6c86ebcc57140ad12f7fd12e7e" category="paragraph">NFS의 경우 내보내기 정책이 기본적으로 구성됩니다. 기본적으로, SVM에서 NFS 서비스를 생성할 때 엑스포트 정책이 생성됩니다.</block>
-  <block id="26d70199dca829297ed6a32343711ea8" category="paragraph">SMB의 경우 내보내기 정책을 구성해야 합니다.</block>
-  <block id="97b3d67371c3225085bdd60c4186b650" category="paragraph">클러스터/svm 자격 증명을 사용하지 않고 CsUser를 사용하는 경우 먼저 다음 단계를 수행하여 Cloud Secure에서 사용자 지정 엑스포트 정책 규칙을 생성할 수 있도록 합니다.</block>
   <block id="22c7df611bbc787fa84ac34fdd9613e0" category="paragraph">클러스터 자격 증명이 있는 CsUser의 경우 ONTAP 명령줄에서 다음을 수행하십시오.</block>
-  <block id="62e6cfdd88bd2f09782128a89fe25b0b" category="paragraph">SVM 자격 증명이 있는 CsUser의 경우 ONTAP 명령줄에서 올바른 &lt;vservername&gt;을(를) 삽입합니다.</block>
-  <block id="fa77163b4c273ad38c4b189f407a970b" category="paragraph">다음은 기본 엑스포트 정책을 구성하는 명령입니다. 명령을 텍스트 편집기에 복사하고 &lt;vserver&gt; 이름을 가상 서버의 이름으로 바꿉니다. 그런 다음 각 라인을 한 번에 하나씩 복사하고 ONTAP 콘솔에서 실행합니다. 명령을 실행하기 전에 먼저 고급 모드로 전환해야 합니다.</block>
-  <block id="dfb0bf3f02c7a96b047762240862b59d" category="admonition">이 기능은 PoC를 실행하는 데 특히 유용합니다. 테스트할 시스템에서 SMB는 아래와 같이 구성할 수 있습니다. PoC 중에 Data Source Collector에서 SMB/CIFS 프로토콜만 사용하도록 설정하고 NFS 프로토콜을 해제합니다.</block>
-  <block id="db386e038002cc8473226f0494cef95f" category="admonition">clientmatch는 특정 주소 또는 서브넷(예: 10.0.3.212 또는 192.168.5.0/24), 호스트 이름 또는 netgroup(예: @netgroup) 입니다. 가능한 모든 IP4 주소에 내보내기 정책을 적용하려면 clientmatch 를 0.0.0.0/0으로 설정합니다.</block>
   <block id="b3d5b2b9a23a5d11e154dd02b6d8f1d0" category="doc">Dell EMC VNX Unified 데이터 수집기 구성</block>
   <block id="3b4918cfceb6d22dc06a39882714f272" category="paragraph">구성을 위해 Dell EMC VNX Unified(SSH) 데이터 수집기는 Control Station의 IP 주소와 읽기 전용 사용자 이름 및 암호를 필요로 합니다.</block>
   <block id="e50e258ecc9eaa88d6c653c3a24cb319" category="section-title">2022년 3월</block>
@@ -8946,4 +8910,34 @@
   <block id="dc9945292fe1d6a701729e7b128ed51c" category="sidebar">Cohesity SmartfFiles를 참조하십시오</block>
   <block id="879c5e9016d012ef4ef799fcd3d67e77" category="summary">Cohesity SmartFiles 데이터 수집기 구성</block>
   <block id="0bf422dd8c3b545a1629a88c7196ec4f" category="doc">Cohesity SmartFiles 데이터 수집기</block>
+  <block id="680aba4527b5f65899e6a3d8b5ef2457" category="doc">사용자 액세스 차단</block>
+  <block id="309db5d77408f61da8eb2be2f90ace37" category="paragraph">공격이 감지되면 Cloud Secure는 파일 시스템에 대한 사용자 액세스를 차단하여 공격을 차단할 수 있습니다. 자동 응답 정책을 사용하거나 알림 또는 사용자 세부 정보 페이지에서 수동으로 액세스를 차단할 수 있습니다.</block>
+  <block id="7aedbe09972610c1d6a6d90587580682" category="paragraph">사용자 액세스를 차단할 때는 차단 기간을 정의해야 합니다. 선택한 기간이 끝나면 사용자 액세스가 자동으로 복원됩니다. 액세스 차단은 SMB 및 NFS 프로토콜 모두에서 지원됩니다.</block>
+  <block id="75e34f78366a0711ad3da9bfc46eba71" category="paragraph">사용자가 SMB 및 호스트 시스템의 IP 주소에 대해 직접 차단되어 NFS에 대한 공격이 차단됩니다. 이러한 머신 IP 주소는 Cloud Secure에서 모니터링하는 SVM(스토리지 가상 머신)에 액세스하지 못하도록 차단됩니다.</block>
+  <block id="cb955e8b752fc732ba5a7f0c6f8fd22b" category="paragraph">예를 들어, Cloud Secure가 10개의 SVM을 관리하고 이러한 4개의 SVM에 대해 자동 응답 정책을 구성한다고 가정해 보겠습니다. 4개의 SVM 중 하나에서 공격이 발생한 경우 10개의 SVM에서 사용자의 액세스가 차단됩니다. 원래 SVM에 대해 스냅샷이 여전히 촬영됩니다.</block>
+  <block id="7dd607950e587603a00a1a965723c7c1" category="paragraph">SMB용으로 구성된 SVM 4개, NFS용으로 구성된 SVM 1개와 NFS 및 SMB용으로 구성된 나머지 2개가 있는 경우 4개의 SVM 중 하나에서 공격이 발생한 경우 모든 SVM이 차단됩니다.</block>
+  <block id="09ea31b2f879daa3575f90741cc1d791" category="section-title">사용자 액세스 차단을 위한 필수 조건</block>
+  <block id="4c03839c4d4987ac81496c7f17d6f092" category="paragraph">이 기능을 사용하려면 클러스터 레벨 자격 증명이 필요합니다.</block>
+  <block id="9a517e6700abab3e080100846703ab51" category="paragraph">클러스터 관리 자격 증명을 사용하는 경우 새 권한이 필요하지 않습니다.</block>
+  <block id="4563a2ec099bb3f18ab52f261f6897e8" category="paragraph">사용자에게 권한이 부여된 CsUser와 같은 사용자 지정 사용자를 사용하는 경우 아래 단계를 따라 CloudSecure에 사용자 차단 권한을 부여합니다.</block>
+  <block id="075530afc57aa5ff8851fb139e2fbbae" category="list-text">Cloud Secure에서 * 관리자 &gt; 자동 응답 정책 &gt; 응답 정책 설정 &gt; 사용자 액세스 차단 * 으로 이동합니다.</block>
+  <block id="d024f8c400c18ed25e7c797f6b13a110" category="list-text">"사용자 액세스 차단 사용"을 _ENABLED_로 설정합니다.</block>
+  <block id="8bdb8cb044f5c9cc0cc87ec310782e1a" category="section-title">자동 사용자 액세스 차단을 설정하는 방법은 무엇입니까?</block>
+  <block id="83fce3228306e4223f72e5a98ed7923e" category="list-text">“Block User File Access(사용자 파일 액세스 차단)” 확인란을 클릭합니다. 이 옵션을 선택하면 기능이 활성화됩니다.</block>
+  <block id="982ff1f57d1f125e6f9bb1f94dcef71e" category="list-text">“Time Period(기간)”에서 차단 적용 기간을 선택합니다.</block>
+  <block id="37ac66ca624ac1ac8ee1db2467276dc8" category="list-text">자동 사용자 차단을 테스트하려면 을 통해 공격을 시뮬레이션할 수 있습니다 <block ref="c144f5bb29c4478b376c3856feebe3da" category="inline-link-macro-rx"></block>.</block>
+  <block id="d1edba47e6c2396ee88015fa8c15727a" category="section-title">시스템에 차단된 사용자가 있는지 어떻게 알 수 있습니까?</block>
+  <block id="0f9abe45676e842ff8c24e11953dc4d8" category="list-text">경고 목록 페이지에서 사용자가 차단된 경우 화면 상단에 배너가 표시됩니다.</block>
+  <block id="7b92d1897511be4fc726b733dbf15d1d" category="list-text">배너를 클릭하면 “Users(사용자)” 페이지로 이동합니다. 여기에서 차단된 사용자 목록을 볼 수 있습니다.</block>
+  <block id="5ac48f975e0a3c60d0b5e5928de5ca49" category="list-text">“Users(사용자)” 페이지에는 “User/IP Access(사용자/IP 액세스)”라는 열이 있습니다. 이 열에서 현재 사용자 차단 상태가 표시됩니다.</block>
+  <block id="f169ac98d63faf28e5387c7068cdc42d" category="list-text">경고 세부 정보 또는 사용자 세부 정보 화면으로 이동한 다음 해당 화면에서 사용자를 수동으로 차단 또는 복원할 수 있습니다.</block>
+  <block id="f21a59e38c0c86324abe189f2666efd8" category="section-title">사용자 액세스 제한 기록</block>
+  <block id="b030dc666e324798ee9403442dd23eb1" category="paragraph">경고 세부 정보 및 사용자 세부 정보 페이지의 사용자 패널에서 사용자의 액세스 제한 기록에 대한 감사(시간, 작업(차단, 차단 해제), 기간, 수행한 작업, NFS에 대한 수동/자동 및 영향을 받는 IP</block>
+  <block id="80ecf7ab5a45356379b3eb7762ec7c38" category="list-text">Cloud Secure에서 * 관리자 &gt; 자동 응답 정책 &gt; 응답 정책 설정 &gt; 사용자 액세스 차단 * 으로 이동합니다</block>
+  <block id="01aa451dc1421e1b9d5fe5148ef31be7" category="list-text">"사용자 액세스 차단 활성화"를 선택 해제하여 비활성화합니다.</block>
+  <block id="fdf597bf8083a921059736ff839ffae8" category="section-title">NFS에 대한 IP를 수동으로 복구합니다</block>
+  <block id="d23f1b27ded70721476d7b5a6ff99f76" category="list-text">각 RuleIndex를 지정하여 "cloudsecure_rule"이 Client match인 SVM의 모든 정책 전반에 걸쳐 규칙을 삭제합니다. Cloud Secure 규칙은 일반적으로 1입니다.</block>
+  <block id="3aba5c3b5ec94e17ca4afc1a38905dbe" category="list-text">Cloud Secure 규칙이 삭제되었는지 확인합니다(선택적 단계 확인).</block>
+  <block id="b368496b943e902a72e3e0bed2267ee2" category="cell">정책을 수정할 수 없습니다. 원인: 해당 명령에 대해 권한이 없습니다.</block>
+  <block id="b0b134473b7922feefa2eaac79b9fb75" category="cell">CsUser 사용 시, 위에서 설명한 대로 사용자에게 권한이 부여되는지 확인</block>
 </blocks>
