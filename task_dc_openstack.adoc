@@ -107,7 +107,7 @@ OpenStack(REST API/KVM) 데이터 수집기는 모든 OpenStack 인스턴스에 
 
 
 
-==== 인벤토리
+=== 인벤토리
 
 [cols="2*"]
 |===

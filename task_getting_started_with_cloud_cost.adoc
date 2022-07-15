@@ -27,7 +27,7 @@ NOTE: Cloud Cost는 미국 지역 Cloud Insights 환경에서만 사용할 수 �
 
 
 
-==== 클라우드 비용 설정
+== 클라우드 비용 설정
 
 Cloud Insights에 로그인하고 * 클라우드 비용 * 메뉴 항목을 처음 클릭하면 시작 화면이 나타나고 클라우드 비용 설정을 시작하라는 메시지가 표시됩니다.
 
@@ -53,13 +53,13 @@ image:Cloud_Cost_Example_Dashboard.png["클라우드 비용 예 대시보드"]
 
 
 
-=== 클라우드 비용에 대해 자세히 알아보십시오
+== 클라우드 비용에 대해 자세히 알아보십시오
 
 Cloud Cost는 Cloud Insights 환경을 의 Cloud Analyzer 기능과 연결합니다 link:https://docs.spot.io/cloud-analyzer/["Spot을 선택합니다"]Cloud Insights에서 클라우드 비용 데이터에 대한 가장 적절한 뷰를 제공합니다. 클라우드 비용 대시보드 오른쪽 위에 있는 _Get Full Analysis_링크를 클릭하면 스폿에서 전체 Cloud Analyzer 대시보드를 열 수 있습니다. 전체 분석을 통해 추가 데이터 및 세부 정보를 제공하여 클라우드 지출에 대한 통찰력을 얻을 수 있습니다.
 
 
 
-=== 문제 해결
+== 문제 해결
 
 문제가 발생할 경우 다음과 같이 시도해 볼 수 있습니다.
 

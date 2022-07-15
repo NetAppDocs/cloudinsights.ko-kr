@@ -5,17 +5,7 @@ keywords: monitors, alerts, log, metric, system-defined, system, metric,
 summary: 성능 또는 인벤토리 임계값과 메트릭 또는 로그 조건에 대해 경고하는 모니터를 생성합니다. 
 ---
 = 모니터를 통한 경고
-:toc: macro
-:hardbreaks:
-:toclevels: 1
 :allow-uri-read: 
-:toc: 
-:toclevels: 1
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
@@ -76,7 +66,7 @@ TIP: 다중 조건 모니터(예: IOPS > X 및 지연 시간 > Y)를 생성하�
 
 
 
-===== 모니터의 조건을 정의합니다.
+==== 모니터의 조건을 정의합니다.
 
 . 모니터링할 개체 및 메트릭을 선택한 후 경고 수준 및/또는 위험 수준 임계값을 설정합니다.
 . Warning_level의 경우 예에서는 200을 입력합니다. 이 경고 수준을 나타내는 파선이 예제 그래프에 표시됩니다.
@@ -253,13 +243,6 @@ NOTE: 그룹에서 모니터를 제거해도 Cloud Insights에서 모니터가 �
 동일한 메뉴를 사용하여 그룹의 이름을 바꾸거나 그룹을 삭제합니다. 그룹을 삭제해도 Cloud Insights에서 모니터가 삭제되지는 않으며, _ALL Monitors_에서 계속 사용할 수 있습니다.
 
 image:Monitors_PauseGroup.png["그룹을 일시 중지합니다"]
-
-기본적으로 두 그룹이 표시됩니다.
-
-* * 모든 모니터 * 는 모든 모니터를 나열합니다.
-* * 사용자 지정 모니터 * 는 사용자가 생성한 모니터만 나열합니다.
-* * Suspended Monitors * 는 시스템에 의해 모니터가 일시 중단된 경우에만 표시됩니다.
-
 
 
 

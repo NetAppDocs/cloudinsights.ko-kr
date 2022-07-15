@@ -40,13 +40,13 @@ Apache의 HTTP Server용 Telegraf 플러그인은 활성화할 'od_status' 모�
 
 
 
-==== 호환성:
+=== 호환성:
 
 Apache의 HTTP Server 버전 2.4.38을 기준으로 구성이 개발되었습니다.
 
 
 
-==== mod_status 활성화:
+=== mod_status 활성화:
 
 'od_status' 모듈을 활성화하고 노출하려면 다음 두 단계를 수행해야 합니다.
 
@@ -56,7 +56,7 @@ Apache의 HTTP Server 버전 2.4.38을 기준으로 구성이 개발되었습니
 
 
 
-==== 활성화 모듈:
+=== 활성화 모듈:
 
 모듈 로딩은 '/usr/local/apache/conf/httpd.conf' 아래의 config 파일에 의해 제어됩니다. 구성 파일을 편집하고 다음 행의 주석을 제거합니다.
 
@@ -64,7 +64,7 @@ Apache의 HTTP Server 버전 2.4.38을 기준으로 구성이 개발되었습니
  Include conf/extra/httpd-info.conf
 
 
-==== 모듈에서 통계 노출:
+=== 모듈에서 통계 노출:
 
 'od_status'의 노출은 '/usr/local/apache2/conf/extra/httpd-info.conf' 아래의 구성 파일에 의해 제어됩니다. 해당 구성 파일에 다음 항목이 있는지 확인합니다(최소한 다른 보호 지침이 있음).
 

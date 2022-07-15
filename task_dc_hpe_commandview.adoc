@@ -157,7 +157,7 @@ Cloud Insights는 HP Enterprise Command View 데이터 수집기에서 다음 �
 
 
 
-==== 인벤토리
+=== 인벤토리
 
 [cols="2*"]
 |===
@@ -174,7 +174,7 @@ Cloud Insights는 HP Enterprise Command View 데이터 수집기에서 다음 �
 |===
 
 
-==== 성능
+=== 성능
 
 [cols="2*"]
 |===

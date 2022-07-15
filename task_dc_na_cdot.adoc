@@ -224,7 +224,7 @@ ci_user     ontapi      password    ci_readonly   no
 
 
 
-==== 인벤토리
+=== 인벤토리
 
 [cols="2*"]
 |===
@@ -256,7 +256,7 @@ ci_user     ontapi      password    ci_readonly   no
 |===
 
 
-==== 성능
+=== 성능
 
 [cols="2*"]
 |===

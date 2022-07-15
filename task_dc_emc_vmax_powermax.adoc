@@ -131,7 +131,7 @@ Cloud Insights는 EMC VMAX/PowerMax 데이터 소스에서 다음 인벤토리 �
 
 
 
-==== 인벤토리
+=== 인벤토리
 
 [cols="2*"]
 |===

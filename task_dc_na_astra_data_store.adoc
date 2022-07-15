@@ -105,7 +105,7 @@ OPTIONS:
 
 
 
-==== Astra Data Store 데이터 수집기
+=== Astra Data Store 데이터 수집기
 
 [cols="2*"]
 |===
@@ -119,7 +119,7 @@ OPTIONS:
 |===
 
 
-==== 설치 스크립트
+=== 설치 스크립트
 
 [cols="2*"]
 |===

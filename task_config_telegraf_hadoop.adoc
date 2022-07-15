@@ -45,17 +45,17 @@ Hadoop 플러그인은 Telegraf의 Jolokia 플러그인을 기반으로 합니�
 
 
 
-==== 호환성
+=== 호환성
 
 Hadoop 버전 2.9.2를 기준으로 구성이 개발되었습니다.
 
 
 
-==== 설정 중입니다
+=== 설정 중입니다
 
 
 
-===== 졸로키아 에이전트 용기
+==== 졸로키아 에이전트 용기
 
 모든 개별 구성 요소의 경우 Jolokia 에이전트 JAR 파일 버전을 다운로드해야 합니다. 에 대해 테스트한 버전은 입니다 link:https://jolokia.org/download.html["졸로키아 에이전트 1.6.0"].
 
@@ -63,7 +63,7 @@ Hadoop 버전 2.9.2를 기준으로 구성이 개발되었습니다.
 
 
 
-===== NameNode입니다
+==== NameNode입니다
 
 Jolokia API를 노출하도록 NameNode를 구성하려면 <Hadoop_HOME>/etc/Hadoop/Hadoop-env.sh에서 다음을 설정할 수 있습니다.
 
@@ -74,7 +74,7 @@ You can choose a different port for JMX (8000 above) and Jolokia (7800). If you 
 ----
 
 
-===== Secondary NameNode입니다
+==== Secondary NameNode입니다
 
 보조 NameNode를 구성하여 Jolokia API를 표시하려면 <Hadoop_HOME>/etc/Hadoop/Hadoop-env.sh에서 다음을 설정할 수 있습니다.
 
@@ -85,7 +85,7 @@ You can choose a different port for JMX (8002 above) and Jolokia (7802). If you 
 ----
 
 
-===== DataNode 를 선택합니다
+==== DataNode 를 선택합니다
 
 Jolokia API를 노출하도록 DataNodes를 구성하려면 <Hadoop_HOME>/etc/Hadoop/Hadoop-env.sh에서 다음을 설정할 수 있습니다.
 
@@ -96,7 +96,7 @@ You can choose a different port for JMX (8001 above) and Jolokia (7801). If you 
 ----
 
 
-===== ResourceManager 를 클릭합니다
+==== ResourceManager 를 클릭합니다
 
 ResourceManager를 구성하여 Jolokia API를 노출하려면 <Hadoop_HOME>/etc/Hadoop/Hadoop-env.sh에서 다음을 설정할 수 있습니다.
 
@@ -107,7 +107,7 @@ You can choose a different port for JMX (8003 above) and Jolokia (7803). If you 
 ----
 
 
-===== NodeManager를 참조하십시오
+==== NodeManager를 참조하십시오
 
 NodeManagers가 Jolokia API를 노출하도록 구성하려면 <Hadoop_HOME>/etc/Hadoop/Hadoop-env.sh에서 다음을 설정할 수 있습니다.
 
@@ -118,7 +118,7 @@ You can choose a different port for JMX (8004 above) and Jolokia (7804). If you 
 ----
 
 
-===== JobHistoryServer를 참조하십시오
+==== JobHistoryServer를 참조하십시오
 
 JobHistoryServer가 Jolokia API를 표시하도록 구성하려면 <Hadoop_Home>/etc/Hadoop/Hadoop-env.sh에서 다음을 설정할 수 있습니다.
 
