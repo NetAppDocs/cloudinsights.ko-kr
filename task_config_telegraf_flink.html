@@ -1955,7 +1955,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 20:05:31 +0000">04/13/2022</time>
+    <time datetime="2022-07-15 16:55:00 +0000">07/15/2022</time>
     
   
 
@@ -2005,16 +2005,16 @@
 <div class="paragraph">
 <p>JobManager: Flink 운영 시스템입니다. 일련의 TaskManager를 조정합니다. High Availability 설정에서 시스템에 JobManager가 두 개 이상 있습니다. TaskManager: Flink 연산자를 실행하는 위치입니다. Flink 플러그인은 Telegraf의 Jolokia 플러그인을 기반으로 합니다. 모든 Flink 구성 요소에서 정보를 수집하는 요구 사항과 같이 JMX는 모든 구성 요소에서 Jolokia를 통해 구성 및 노출되어야 합니다.</p>
 </div>
-<div class="sect3">
-<h4 id="호환성">호환성</h4>
+<div class="sect2">
+<h3 id="호환성">호환성</h3>
 <div class="paragraph">
 <p>구성은 Flink 버전 1.7.0을 기준으로 개발되었습니다.</p>
 </div>
 </div>
+<div class="sect2">
+<h3 id="설정-중입니다">설정 중입니다</h3>
 <div class="sect3">
-<h4 id="설정-중입니다">설정 중입니다</h4>
-<div class="sect4">
-<h5 id="졸로키아-에이전트-용기">졸로키아 에이전트 용기</h5>
+<h4 id="졸로키아-에이전트-용기">졸로키아 에이전트 용기</h4>
 <div class="paragraph">
 <p>모든 개별 구성 요소의 경우 Jolokia 에이전트 JAR 파일 버전을 다운로드해야 합니다. 에 대해 테스트한 버전은 입니다 <a href="https://jolokia.org/download.html">"졸로키아 에이전트 1.6.0"</a>.</p>
 </div>
@@ -2022,8 +2022,8 @@
 <p>아래 지침에서는 다운로드한 jar 파일(jolokia-jvm-1.6.0-agent.jar)이 '/opt/Flink/lib/' 위치에 있다고 가정합니다.</p>
 </div>
 </div>
-<div class="sect4">
-<h5 id="작업-관리자">작업 관리자</h5>
+<div class="sect3">
+<h4 id="작업-관리자">작업 관리자</h4>
 <div class="paragraph">
 <p>JobManager를 구성하여 Jolokia API를 표시하려면 노드에서 다음 환경 변수를 설정한 다음 JobManager를 다시 시작하십시오.</p>
 </div>
@@ -2034,8 +2034,8 @@
 </div>
 </div>
 </div>
-<div class="sect4">
-<h5 id="작업-관리자-2">작업 관리자</h5>
+<div class="sect3">
+<h4 id="작업-관리자-2">작업 관리자</h4>
 <div class="paragraph">
 <p>Jolokia API를 노출하도록 TaskManager를 구성하려면 노드에서 다음 환경 변수를 설정한 다음 TaskManager를 다시 시작해야 합니다.</p>
 </div>

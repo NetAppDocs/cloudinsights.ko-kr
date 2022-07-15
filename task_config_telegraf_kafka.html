@@ -1955,7 +1955,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-13 20:05:31 +0000">04/13/2022</time>
+    <time datetime="2022-07-15 16:55:00 +0000">07/15/2022</time>
     
   
 
@@ -2002,17 +2002,16 @@
 <div class="paragraph">
 <p>Kafka 플러그인은 Telegraf의 Jolokia 플러그인을 기반으로 합니다. 모든 Kafka 브로커로부터 정보를 수집해야 하는 요구 사항과 같이 JMX는 졸로키아를 통해 모든 구성 요소에 대해 구성 및 노출되어야 합니다.</p>
 </div>
-<div class="sect3">
-<h4 id="호환성">호환성</h4>
+<div class="sect2">
+<h3 id="호환성">호환성</h3>
 <div class="paragraph">
 <p>Kafka 버전 0.11.0.2에 따라 구성이 개발되었습니다.</p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="설정-중입니다">설정 중입니다</h4>
+<div class="sect2">
+<h3 id="설정-중입니다">설정 중입니다</h3>
 <div class="paragraph">
 <p>아래의 모든 지침은 Kafka 설치 위치가 '/opt/Kafka&#8217;라고 가정합니다. 설치 위치를 반영하도록 아래 지침을 조정할 수 있습니다.</p>
-</div>
 </div>
 <div class="sect3">
 <h4 id="졸로키아-에이전트-용기">졸로키아 에이전트 용기</h4>
@@ -2040,6 +2039,7 @@ export KAFKA_JMX_OPTS="-javaagent:/opt/kafka/libs/jolokia-jvm-1.6.0-agent.jar=po
 </div>
 <div class="paragraph">
 <p>JMX(위 9999) 및 Jolokia(8778)에 대해 다른 포트를 선택할 수 있습니다. 졸로키아를 잠그기 위한 내부 IP가 있는 경우 "모두 캐치" 0.0.0.0을 자신의 IP로 대체할 수 있습니다. 이 IP는 Telegraf 플러그인에서 액세스할 수 있어야 합니다. 인증을 원하지 않는 경우 '-Dcom.sun.management.jmxremote.authenticate=false' 옵션을 사용할 수 있습니다. 사용에 따르는 위험은 사용자가 부담합니다.</p>
+</div>
 </div>
 </div>
 </div>
