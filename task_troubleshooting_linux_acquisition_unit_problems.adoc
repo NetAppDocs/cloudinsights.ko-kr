@@ -54,7 +54,7 @@ keywords: AU, acquisition unit, trioubleshooting
 |===
 
 
-=== 프록시 및 방화벽에 대한 고려 사항
+== 프록시 및 방화벽에 대한 고려 사항
 
 조직에서 인터넷 액세스를 위해 프록시 사용을 요구하는 경우 조직의 프록시 동작을 이해하고 Cloud Insights가 작동하려면 특정 예외를 찾아야 할 수 있습니다. 다음 사항에 유의하십시오.
 
@@ -76,7 +76,7 @@ Cloud Insights 획득 장치는 물론 Cloud Insights와 웹 브라우저에서 
 
 
 
-==== 프록시 엔드포인트 보기
+=== 프록시 엔드포인트 보기
 
 온보딩 중에 데이터 수집기를 선택할 때 * 프록시 설정 * 링크를 클릭하거나 * 도움말 > 지원 * 페이지의 _프록시 설정_ 아래에 있는 링크를 클릭하여 프록시 끝점을 볼 수 있습니다. 다음과 같은 테이블이 표시됩니다. 환경에 Cloud Secure가 있는 경우 구성된 끝점 URL도 이 목록에 표시됩니다.
 
@@ -84,7 +84,7 @@ image:ProxyEndpoints_NewTable.png["프록시 끝점 테이블"]
 
 
 
-=== 리소스
+== 리소스
 
 추가 문제 해결 팁은 에서 찾을 수 있습니다 link:https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services/Cloud_Insights["NetApp 기술 자료"] (지원 로그인 필요)
 

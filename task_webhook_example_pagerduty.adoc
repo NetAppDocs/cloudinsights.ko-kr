@@ -16,7 +16,7 @@ NOTE: 이 페이지는 변경될 수 있는 타사 지침을 참조합니다. �
 
 
 
-=== PagerDuty 설정:
+== PagerDuty 설정:
 
 . PagerDuty에서 * Services > Service Directory * 로 이동한 다음 * + New Service * buttonsport를 클릭합니다
 . 이름_을 입력하고 _ API directly_를 선택합니다. 서비스 추가 _ 를 클릭합니다.
@@ -34,7 +34,7 @@ image:Webhooks_PagerDutyScreen2.png["PagerDuty 화면"]
 
 
 
-=== Cloud Insights Webhook 생성:
+== Cloud Insights Webhook 생성:
 
 . Cloud Insights에서 * 관리자 > 알림 * 으로 이동하고 * Webhook * 탭을 선택합니다. 새 웹후크를 만들려면 * + 웹후크 * 를 클릭합니다.
 . 웹 후크에 "PagerDuty Trigger"와 같은 의미 있는 이름을 지정합니다. 이 웹 후크는 위험 및 경고 수준의 이벤트에 사용됩니다.
@@ -51,7 +51,7 @@ image:Webhooks_Custom_Secret_Routing_Key.png["라우팅 키 설정"]
 
 
 
-=== PagerDuty에서 Cloud Insights 필드 매핑까지
+== PagerDuty에서 Cloud Insights 필드 매핑까지
 
 다음 표와 이미지는 PagerDuty와 Cloud Insights 사이의 필드 매핑을 보여줍니다.
 
@@ -78,7 +78,7 @@ image:Webhooks-PagerDuty_Fields.png["CI의 PagerDuty 필드"]
 
 
 
-=== Webhook를 통한 알림
+== Webhook를 통한 알림
 
 Webhook를 통해 이벤트에 대해 알리려면 Cloud Insights에서 * 알림 > 모니터 * 로 이동하고 * + 모니터 * 를 클릭하여 새 를 생성합니다 link:task_create_monitor.html["모니터링"].
 

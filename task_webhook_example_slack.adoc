@@ -16,7 +16,7 @@ NOTE: 이 페이지는 변경될 수 있는 타사 지침을 참조합니다. �
 
 
 
-=== 슬랙 예:
+== 슬랙 예:
 
 * 로 이동합니다 https://api.slack.com/apps[] 을 클릭하고 새 앱을 만듭니다 의미 있는 이름을 지정하고 Slack Workspace를 선택합니다.
 +
@@ -31,7 +31,7 @@ image:Webhook_Slack_Config.jpg["슬랙 Webhook URL"]
 
 
 
-=== Cloud Insights Webhook 생성:
+== Cloud Insights Webhook 생성:
 
 . Cloud Insights에서 * 관리자 > 알림 * 으로 이동하고 * Webhook * 탭을 선택합니다. 새 웹후크를 만들려면 * + 웹후크 * 를 클릭합니다.
 . 웹 후크에 "Slack Webhook"과 같은 의미 있는 이름을 지정합니다.
@@ -43,7 +43,7 @@ image:Webhooks-Slack_example.png["슬랙 웹후크 템플릿"]
 
 
 
-=== Webhook를 통한 알림
+== Webhook를 통한 알림
 
 Webhook를 통해 이벤트에 대해 알리려면 Cloud Insights에서 * 알림 > 모니터 * 로 이동하고 * + 모니터 * 를 클릭하여 새 를 생성합니다 link:task_create_monitor.html["모니터링"].
 
