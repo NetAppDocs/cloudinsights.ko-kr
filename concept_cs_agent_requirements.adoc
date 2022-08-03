@@ -28,7 +28,7 @@ keywords: agent, Linux, requirements, docker, browsers, permissions, Network
 | 메모리 | 16GB RAM 
 
 
-| 사용 가능한 디스크 공간입니다 | 디스크 공간은 /opt/NetApp 25-30 GB 와 같은 방식으로 할당해야 합니다 
+| 사용 가능한 디스크 공간입니다 | 디스크 공간은 다음과 같은 방식으로 할당해야 합니다. /opt/NetApp 35GB(최소) 
 
 
 | 네트워크 | 100Mbps~1Gbps 이더넷 연결, 정적 IP 주소, 모든 장치에 대한 IP 연결 및 Cloud Secure 인스턴스에 대한 필수 포트(80 또는 443). 
@@ -105,7 +105,7 @@ APAC 기반 * Cloud Secure 환경의 경우:
 | TCP | 35000-55000 | SVM 데이터 LIF IP 주소 | 인바운드/아웃바운드 | Fpolicy 이벤트에 대한 ONTAP와의 통신 
 
 
-| TCP | 7 | SVM 데이터 LIF IP 주소 | 아웃바운드 | ONTAP와 Cloud Secure 간의 양방향. 에이전트가 SVM 수명에서 ping을 보냅니다. 
+| TCP | 7 | SVM 데이터 LIF IP 주소 | 양방향 | ONTAP와 Cloud Secure 간의 양방향. 에이전트가 SVM 수명에서 ping을 보냅니다. 
 |===
 
 

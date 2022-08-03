@@ -3160,34 +3160,8 @@
   <block id="c5d5d6018c10e2d5a417d69ddb1992bb" category="cell">기본값은 60분입니다</block>
   <block id="dcc8da9a702e26cfc2b4214098866802" category="cell">성능 폴링 간격(초)</block>
   <block id="09dbc445e39eaaa3cef7962d56b08f19" category="cell">기본값은 900초입니다</block>
-  <block id="a3a8ab6593662bf5af921765f1941855" category="summary">포렌식 사용자 데이터</block>
-  <block id="7ca293d65417ae9cf489be8751021320" category="doc">Forensic 사용자 데이터</block>
-  <block id="408845a3dd634fb6974267e5a603424a" category="paragraph">사용자 페이지에서는 Cloud Secure에서 모니터링하는 사용자를 식별합니다.</block>
-  <block id="947ebb461659f7a73d27f2a7a8c4d6bb" category="paragraph">이 페이지에서 사용할 수 있는 데이터에는 다음이 포함됩니다.</block>
   <block id="90b1f6651953fcf8b43ddc0da6760aaf" category="inline-link-macro">사용자 프로필</block>
-  <block id="96d09f2dc2b887e3b423d1b79cd62599" category="list-text">Cloud Secure에서 모니터링하는 각 사용자는 에 대한 링크를 통해 모니터링할 수 있습니다 <block ref="55f5b6b5fddb3d46d73361cc24392e6f" category="inline-link-macro-rx"></block>.</block>
-  <block id="7eed1af6d5e60a7781d911d100ae52ca" category="list-text">사용자가 수행한 작업에 의해 발생하는 경고입니다. 경고 심각도는 다음과 같이 식별됩니다. image::critical.png[Critical]+\image::warning.png[Warning]+\image::low.png[Low]+\</block>
-  <block id="aa442e207a8d7e963a0aa5d7442d8f47" category="list-text">사용자가 마지막으로 수행한 활동입니다.</block>
-  <block id="a6ba690d9231e6ecc5bd081b0e06dd20" category="list-text">사용자의 위치 - 국가 및 주</block>
-  <block id="c736c85a4c864cc9b572640abb256b92" category="list-text">사용자가 속한 커뮤니티 수입니다.</block>
-  <block id="64ffc8d19d49546980dfd40d46804fb9" category="section-title">Forensic 사용자 데이터 필터링</block>
-  <block id="6efc6ed7a55278a9b930ab341ab7a976" category="paragraph">다음과 같이 Forensic 활동 기록 데이터를 필터링할 수 있습니다.</block>
   <block id="6adf97f83acf6453d4a6a4b1070f3754" category="list-text">없음</block>
-  <block id="28d0edd045e05cf5af64e35ae0c4c6ef" category="list-text">낮음</block>
-  <block id="0eaadb4fcb48a0a0ed7bc9868be9fbaa" category="list-text">경고</block>
-  <block id="278d01e5af56273bae1bb99a98b370cd" category="list-text">심각</block>
-  <block id="dc96f42b62a6e61a0f49a6f5ccdfbf8d" category="list-text">관련 커뮤니티</block>
-  <block id="9bc012ef5084b7ef0b32dcf80fa43a9f" category="list-text">커뮤니티 수</block>
-  <block id="89c76c28a62b7c221f9bd4d820491faa" category="list-text">숫자 값 또는 범위입니다</block>
-  <block id="6307dd2f57d3f7f949eca03a2a54f6e0" category="list-text">마지막 활동</block>
-  <block id="e0669ff2bbd8b9e25b0b355beeb65fc0" category="list-text">시간 또는 시간 범위입니다</block>
-  <block id="db60443137b65a2f198625b3db4cfd04" category="list-text">작업이 수행된 IP 주소입니다</block>
-  <block id="a790e175bcd4355b797477dbddb71196" category="list-text">작업이 수행된 IP 주소 *</block>
-  <block id="1edcdad89b3a2245d759a169da1bf5a3" category="list-text">사용자 ID입니다</block>
-  <block id="a0f444d64169fdc0ad0a86c8e7e5ec6d" category="list-text">엔티티가 액세스된 위치입니다</block>
-  <block id="da77770aeded479ed467590ba6712188" category="list-text">요소의 경로입니다</block>
-  <block id="46c3b6b9a12fcd2685c9d6ab083d4074" category="list-text">작업이 발생한 시간입니다</block>
-  <block id="8e1c0aa55e2a24015a4aa31b1525e7ed" category="list-text">작업을 수행하는 사용자입니다</block>
   <block id="137b3f649398a1f9fa1259c39d880c93" category="summary">Cloud Insights API를 사용하면 모니터링 및 보고 시스템과 같은 다른 애플리케이션과 통합할 수 있습니다.</block>
   <block id="2be3c4c4132fe06361d81b1c1784eac3" category="doc">Cloud Insights API를 참조하십시오</block>
   <block id="551279e83d2a3c07e1a53609f28238f1" category="paragraph">Cloud Insights API를 통해 NetApp 고객 및 ISV(독립 소프트웨어 공급업체)는 Cloud Insights를 CMDB 또는 기타 티켓 시스템과 같은 다른 애플리케이션과 통합할 수 있습니다.</block>
@@ -3291,7 +3265,6 @@
   <block id="805053e0ff5abb1e01f2d2ce7d07ad96" category="cell">CPU 코어 4개</block>
   <block id="e706090ac76b3e56523819912497e0f6" category="cell">16GB RAM</block>
   <block id="da65b8cea76748b286bd905feef4a5fa" category="cell">사용 가능한 디스크 공간입니다</block>
-  <block id="75cd5bf9b1dea198b36ca9987682e874" category="cell">디스크 공간은 /opt/NetApp 25-30 GB 와 같은 방식으로 할당해야 합니다</block>
   <block id="eec89088ee408b80387155272b113256" category="cell">네트워크</block>
   <block id="a4c9f60f11d808285b05aa24c83f213b" category="cell">100Mbps~1Gbps 이더넷 연결, 정적 IP 주소, 모든 장치에 대한 IP 연결 및 Cloud Secure 인스턴스에 대한 필수 포트(80 또는 443).</block>
   <block id="9b90ea901c2599518f8cdf3fc6d14a42" category="paragraph">참고: Cloud Secure 에이전트는 Cloud Insights 획득 장치 및/또는 에이전트와 동일한 시스템에 설치할 수 있습니다. 그러나 별도의 컴퓨터에 설치하는 것이 가장 좋습니다. 동일한 시스템에 설치된 경우 아래와 같이 디스크 공간을 할당하십시오.</block>
@@ -3891,7 +3864,6 @@
   <block id="723f73d5b4ee441851ae64cbfe823522" category="cell">데이터 수집기가 오류 중입니다. 이 오류 메시지를 표시합니다. "오류: 커넥터가 오류 상태입니다. 서비스 이름: 감사. 실패 원인: SVM svm_test에서 정책을 구성하지 못했습니다. 이유: ZAPI 필드에 값이 없습니다. 이벤트 “</block>
   <block id="db45b764838c9131ffbab7063103f890" category="cell">NFS 서비스만 구성하여 새로운 SVM으로 시작하십시오. Cloud Secure에서 ONTAP SVM 데이터 수집기 추가 CIFS는 ONTAP에서 Cloud Secure SVM Data Collector를 추가하는 동시에 SVM을 위한 허용된 프로토콜로 구성됩니다. Cloud Secure의 데이터 수집기에서 오류가 표시될 때까지 기다립니다. SVM에 CIFS 서버가 구성되어 있지 않으므로 왼쪽에 표시된 이 오류는 Cloud Secure에 의해 표시됩니다. ONTAP SVM 데이터 수집기를 편집하고 CIFS를 허용된 프로토콜로 선택 취소하십시오. 데이터 수집기를 저장합니다. NFS 프로토콜만 활성화된 상태에서 실행됩니다.</block>
   <block id="1b852bd0522bb1e9abdc5b85f45b2eff" category="cell">Data Collector에 다음과 같은 오류 메시지가 표시됩니다. "오류: 2회 재시도에서 Collector 상태를 확인하지 못했습니다. Collector를 다시 시작하십시오(오류 코드: AGENT008)."</block>
-  <block id="f2e1c8f11a6d114e56889c093ddb4738" category="cell">데이터 수집기 페이지에서 오류가 있는 데이터 수집기의 오른쪽으로 스크롤한 다음 3개의 점 메뉴를 클릭합니다. 편집 _ 을(를) 선택합니다. 데이터 수집기의 암호를 다시 입력합니다. Save _ 버튼을 눌러 데이터 수집기를 저장합니다. Data Collector가 다시 시작되고 오류가 해결되어야 합니다.</block>
   <block id="489efd89349dbbe0899a6a7b922044da" category="paragraph">그래도 문제가 발생하면 * 도움말 &gt; 지원 * 페이지에 나와 있는 지원 링크를 참조하십시오.</block>
   <block id="350ff3e6edca65920342bf3e930281fd" category="summary">Cloud Insights는 여러 사용자 계정에 서로 다른 권한 수준을 제공합니다.</block>
   <block id="11a7aeec2e88edd275331af35166c8ec" category="doc">사용자 계정 및 역할</block>
@@ -4041,9 +4013,6 @@
   <block id="6590f621515d064417bb91bd8f6cb526" category="cell">Nutanix 컨테이너</block>
   <block id="bf61ff29d8ff867a7727b034a7efa26f" category="list-text">포트 요구 사항: HTTPS 443</block>
   <block id="b8b0b769d3e3395123e9c6b52b36b840" category="cell">Nutanix 어레이에 연결하는 데 사용되는 TCP 포트입니다. 기본값은 9440입니다.</block>
-  <block id="8c8b20c16b839b518d90f5b38558a3cb" category="summary">NetApp ONTAP 스트리밍 텔레메트리 로 Cloud Insights를 구성합니다</block>
-  <block id="93254a992ce8a5bbebb5d43f09f243d7" category="doc">NetApp ONTAP 스트리밍 텔레메트리</block>
-  <block id="f1417ae8cdc394cf3e1b04ec57f52d55" category="paragraph">Cloud Insights ONTAP 스트리밍 텔레메트리(Streaming Telemetry)에 관심을 가져주셔서 감사합니다. 이 기능은 현재 비공개 미리보기에 있습니다. 자세한 정보나 액세스를 요청하려면 ng-ci-preview@netapp.com 으로 문의하십시오.</block>
   <block id="aa660f33d4c20ae2b92aa73acb4c5828" category="summary">AWS 데이터 수집기에 NetApp Cloud Volumes Services를 구성합니다</block>
   <block id="6d719c7976115879cdcafb7922e7e5fd" category="doc">AWS용 NetApp Cloud Volumes Services 데이터 수집기</block>
   <block id="85930060216df642a21fd8c262d1cc6c" category="paragraph">이 데이터 수집기는 AWS용 NetApp Cloud Volumes Services 구성의 인벤토리 수집을 지원합니다.</block>
@@ -4407,7 +4376,6 @@
   <block id="8f65024231687a39efcddb86a1e9debb" category="cell">브라우저 설정에서 _ [*.]auth0.com _ 에서 타사 쿠키 수락을 활성화합니다. 예를 들어 Chrome의 익명 모드에서 기본 브라우저 설정은 타사 쿠키를 차단합니다. 브라우저 URL에 "chrome://settings/cookies"를 입력하십시오. "모든 쿠키 허용" 옵션을 선택합니다.</block>
   <block id="e4ff2e59dd571d2bbd5a906b6fad2546" category="cell">Cloud Central 계정이 있지만 Cloud Central에 로그인할 수 없습니다.</block>
   <block id="0659d428df833a806e29e65e632d380a" category="inline-link-macro">NetApp 지원</block>
-  <block id="a1e1a390bdf9bd8ec2847b6827bb051b" category="cell">saas.support@netapp.com 으로 문의하십시오. 특히, Cloud Central 문제 또는 질문을 위한 것입니다. 기타 모든 Cloud Insights 문제는 에 문의하십시오 <block ref="1a8b44ad735b0e8f3f08395032e9cb16" category="inline-link-macro-rx"></block>.</block>
   <block id="6630a98adbdb71bde030ce83a4d0a274" category="cell">Cloud Insights에 초대를 받았는데 "승인되지 않음" 메시지가 나타납니다.</block>
   <block id="199017f1d912993f091b6b969d3442ad" category="cell">Cloud Central 계정에 등록했는지 또는 조직에서 Cloud Central에서 SSO 로그인을 사용하는지 확인합니다. Cloud Central 프로필 이메일 주소가 Cloud Insights 환영 이메일에 표시된 이메일 주소와 일치하는지 확인하십시오. 이메일이 일치하지 않으면 올바른 이메일 주소로 새 초대를 요청하십시오.</block>
   <block id="176f8c6fa466059df49f2717c021d306" category="cell">Cloud Central 또는 Cloud Secure에서 로그아웃하고 Cloud Insights에서 자동으로 로그아웃했습니다.</block>
@@ -5585,7 +5553,6 @@
   <block id="9c760c96232338b3451e1d7fde6ce957" category="paragraph">Cloud Insights에서 사용되는 개체 아이콘에 대한 빠른 참조입니다.</block>
   <block id="390c989aa3d9a6bba33ccfbf291f42d3" category="inline-image-macro">아이콘 참조</block>
   <block id="822c8b943b98c805e2153d211dbe71a8" category="paragraph"><block ref="822c8b943b98c805e2153d211dbe71a8" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e61f983bca84adaf2e9ee840ad6c3d52" category="summary">Cloud Insights API를 사용하여 성가신 및 응용 프로그램을 가져올 수 있습니다.</block>
   <block id="436baafe5ba2d1f2ddce9721d2d3cc11" category="paragraph">Cloud Insights에는 CSV 파일에서 주석이나 응용 프로그램을 가져오고 지정한 개체에 지정하기 위한 API가 포함되어 있습니다.</block>
   <block id="6ea19b77fdbbe887a195870f5398f21f" category="admonition">Cloud Insights API는 * Cloud Insights 프리미엄 에디션 * 에서 사용할 수 있습니다.</block>
   <block id="cd804333d16ac675a7605cf03f787ec6" category="section-title">가져오기</block>
@@ -5716,58 +5683,6 @@
   <block id="be79d6e6a44e0a57d37256e5bc2c0909" category="cell">가능한 해결 방법: * 입력한 자격 증명 및 IP 주소를 확인합니다. * VMware Infrastructure Client를 사용하여 Virtual Center와 통신해 보십시오. * Managed Object Browser(예: MOB)를 사용하여 Virtual Center와 통신해 보십시오.</block>
   <block id="f080098c21c069b292efdde1d8144c61" category="cell">오류: IP의 VirtualCenter에는 JVM에 필요한 일치하지 않는 인증서가 있습니다</block>
   <block id="5c60750a2abc4b9d7aa61cc76e102a94" category="cell">가능한 해결책: * 권장: 더 강력한(예 1024비트) RSA 키. * 권장하지 않음: JDK.certpath 제약 조건을 활용하도록 JVM java.security 구성을 수정하십시오. disabledAlgorithms 512비트 RSA 키를 허용합니다. 에서 JDK 7 업데이트 40 릴리스 노트를 참조하십시오 <block ref="ac06061ee1016775797c99e274153a15" category="inline-link-rx"></block></block>
-  <block id="7d48a0a5ed3c85848832ea7422284955" category="summary">포렌식 개요</block>
-  <block id="3c9a5933dbcf52b832c3bc29602f533e" category="doc">포렌식 정보</block>
-  <block id="c6b06f9d94d6e3d9271189551e74cea0" category="paragraph">Forensic 보기에서는 사용자, 엔티티, 커뮤니티 및 사용자 활동 정보에 액세스할 수 있습니다.</block>
-  <block id="44a46c2660280d286db386102080a441" category="section-title">사용자 정보 검사</block>
-  <block id="28de16ab3be9929caaeaa80b9bcb8cae" category="paragraph">Forensic &gt; User * 를 클릭하여 User 뷰에 액세스합니다.</block>
-  <block id="6ca7bae39d7693f1928b8ed958ec3031" category="paragraph">이 보기에는 일반 사용자 정보가 표시됩니다.</block>
-  <block id="6b37c53b00de653309ddd77e14f6fcb2" category="list-text">사용자에 대한 자세한 정보를 볼 수 있는 링크가 있는 사용자의 이름입니다.</block>
-  <block id="6c9726cf0882d3e1a7a7afe4783da264" category="list-text">사용자의 작업에 의해 발생한 알림입니다</block>
-  <block id="445522ee576a12cf827fa43589a58259" category="list-text">사용자가 속한 커뮤니티 수 커뮤니티 페이지에 대한 링크가 있는 커뮤니티</block>
-  <block id="195c405e622fd0e8a5261128ab24f646" category="list-text">사용자가 마지막으로 액세스한 엔티티입니다</block>
-  <block id="b74597a63b1b4a0fcc6fc3dbf1e6c537" category="inline-link-macro">사용자 개요</block>
-  <block id="a7c9a128617298eaa5ad1cbc07b0fa95" category="paragraph">사용자 이름을 클릭하여 에서 보다 자세한 정보에 액세스합니다 <block ref="3d59fda9ee439a9c317c1e3620febd81" category="inline-link-macro-rx"></block></block>
-  <block id="6ac59d127729a2df605b8a529582fd94" category="paragraph">Forensic &gt; Entity * 를 클릭하여 Entity 뷰에 액세스합니다.</block>
-  <block id="315b80eaca275df566989ef64b720983" category="paragraph">이 페이지에는 사용자가 액세스하는 엔터티에 대한 일반 정보가 표시됩니다.</block>
-  <block id="694d77664575fb0b446ef89342fbc71d" category="list-text">엔터티 이름</block>
-  <block id="51c3943e8749968c80b7744cc55309ca" category="list-text">요소 유형</block>
-  <block id="1739f3571edb57fdab0fea8740bab304" category="list-text">엔티티와의 커뮤니티 관계</block>
-  <block id="95c38092c77409aa34ca740575e3d8a3" category="list-text">도면요소 경로</block>
-  <block id="85d5603a6e68c4c44680e10abf168fa3" category="list-text">마지막 액세스 시간입니다</block>
-  <block id="93fa92f9e5767fd30bf1640775eaafb8" category="list-text">요소 크기</block>
-  <block id="04cf453ee7a9d96ce1163b2e7eb391fb" category="inline-link-macro">요소 개요</block>
-  <block id="e5e48bf4aad9fe1b29f3d7debbfab46d" category="paragraph">엔터티 이름 을 클릭하여 의 자세한 정보에 액세스합니다 <block ref="41d4646ac17a8d86637f2c102393f3d2" category="inline-link-macro-rx"></block></block>
-  <block id="0ba8a1b83ab5f740c25d1a34945740ec" category="paragraph">엔티티가 포함된 커뮤니티를 표시하려면 커뮤니티 수를 클릭합니다.</block>
-  <block id="0ac8ab4c4aa30fdb262dd2eba9a4cee9" category="section-title">커뮤니티 정보 검토</block>
-  <block id="60033bcd0fb7bbabdbf0102bddefef4b" category="paragraph">커뮤니티 페이지에 액세스하려면 * Forensic &gt; Communities * 를 클릭합니다.</block>
-  <block id="e83880b4a1aefd4a24ca942c518a3e31" category="paragraph">이 보기는 다음을 제공합니다.</block>
-  <block id="1d4fe32a02507cbee05a22e2163b19ef" category="list-text">커뮤니티 이름</block>
-  <block id="20063e46ae559ca8c5317550e142db11" category="list-text">커뮤니티와 관련된 알림입니다</block>
-  <block id="f7336e7753dc66e0f7a70cdc32419e67" category="list-text">커뮤니티에 대한 사용자 수입니다</block>
-  <block id="33b77eed26e588d09b61fad390717116" category="list-text">커뮤니티에는 엔티티가 포함됩니다</block>
-  <block id="5526aa3f240fd8aa78b875a31bbd0240" category="paragraph">커뮤니티 이름을 클릭하거나 검색하여 커뮤니티 세부 정보 페이지에 액세스합니다.</block>
-  <block id="213b4a1ab7b919c2b3dc7350a6e507d1" category="list-text">커뮤니티 프로필</block>
-  <block id="f81602367bd918e87be49cc7333aad9d" category="list-text">커뮤니티 사용자 위치 및 기타 가장 가까운 커뮤니티를 나열합니다.</block>
-  <block id="25ec77a3cb61c007c81903e91a83e827" category="list-text">커뮤니티 행동</block>
-  <block id="37c16075756789b73bbb047b6ec3236e" category="list-text">에는 액세스한 엔터티의 수가 나와 있으며 읽기, 쓰기 및 Metea 데이터 액세스 작업을 보여 줍니다.</block>
-  <block id="cc63aa0e41b641e62f5826480be1c9a9" category="list-text">사용자 및 요소</block>
-  <block id="2e9ec39a8903cee2b8bd7e4921a0da67" category="list-text">커뮤니티의 전체 사용자 및 전체 엔티티를 식별합니다.</block>
-  <block id="54fff1a991ed8c2a8759bc6d55fd23c1" category="list-text">커뮤니티 분석</block>
-  <block id="ddf0527a86cec7703cce5c33abbb5c34" category="list-text">커뮤니티 사용자 경향</block>
-  <block id="0c77da7f9ef578c73bcc2abfaa5e17d2" category="list-text">요소에 대해 수행되는 작업입니다</block>
-  <block id="d8e4fa79860720ab4de7678dd1551a7e" category="list-text">경고 추세</block>
-  <block id="3ba0f712de472ad27e352eda11f7ca9c" category="inline-link-macro">커뮤니티 세부 정보</block>
-  <block id="128b0e056d6e9e44e8d5619f67f41be1" category="paragraph">커뮤니티 이름을 클릭하여 에서 자세한 정보를 확인하십시오 <block ref="35be0d791cd3b8bb67fe5dda3b8336a2" category="inline-link-macro-rx"></block></block>
-  <block id="51a06ae1e81a8fa844ac04e18fb5a8c2" category="section-title">사용자 활동 정보 검토</block>
-  <block id="a59c3446cb001170a67fc660476e7122" category="paragraph">Forensic &gt; User Activity * 를 클릭하여 User Activity 뷰에 액세스합니다.</block>
-  <block id="dbbd1a08e400cb6dbbb25944d19aeda7" category="paragraph">모니터링 중인 각 사용자에 대해 이 보기에서는 다음 사항을 설명합니다.</block>
-  <block id="4e29a3c62ae31255758baa02ac804d1a" category="list-text">엔티티 액세스 시간입니다</block>
-  <block id="dd146dad600a7b7548fafddb2f136c7b" category="list-text">사용자 개요에 대한 링크를 사용하여 엔티티에 액세스한 사용자입니다</block>
-  <block id="bf3b9394ae4ebc8ad6fc34bb746e7ff7" category="list-text">수행된 활동:</block>
-  <block id="904a8304056d77e4547744781b7ceb50" category="list-text">이름 바꾸기</block>
-  <block id="35f626d440dca3958f80815ba211e28f" category="inline-link-macro">엔터티 세부 정보</block>
-  <block id="4f7a48a0c11b5b3ef72155cd3f928c11" category="list-text">액세스 위치 사용자 이름을 클릭하여 의 자세한 정보에 액세스합니다 <block ref="43cf20fcbc1ba77da8a65316f0eebb78" category="inline-link-macro-rx"></block></block>
   <block id="0c988482a6ce018da7ef3957b3203859" category="summary">Cloud Secure Active Directory 사용자 디렉터리 수집기 구성</block>
   <block id="0352c19ca21d40072aea36bf372abc1d" category="doc">AD(Active Directory) 사용자 디렉토리 수집기 구성</block>
   <block id="fa9b26040d7c58d713bdcb2d7f3a30dd" category="paragraph">Active Directory 서버에서 사용자 속성을 수집하도록 Cloud Secure를 구성할 수 있습니다.</block>
@@ -6915,7 +6830,6 @@
   <block id="5882e0a510db1ee121819465123210d5" category="list-text">메시지 형식 및 레이아웃을 수정하려면 을 참조하십시오<block ref="aa30c2d9b6458982ed2952984ccf8f5c" category="inline-link-rx"></block></block>
   <block id="7f2b2fed4f09be699056de8e743955df" category="list-text">오류 처리:<block ref="fb51ab0a51b3a1142c9f3ef825412df8" category="inline-link-rx"></block></block>
   <block id="812d24264002531aa5c33dcfea09ae4f" category="summary">Cloud Secure를 사용하면 사보타업 혐의가 있는 경우 사용자 액세스를 제한할 수 있습니다</block>
-  <block id="34f9ae45ea998f4feb8ed8b837da35ce" category="doc">사용자 액세스를 제한합니다</block>
   <block id="5a648726ddefbfa82103a1d9ad7f888d" category="section-title">이 기능을 활성화하는 방법은 무엇입니까?</block>
   <block id="9e228488a6769acafe8dbd4abaaa23ff" category="list-text">새 공격 정책을 만들거나 기존 공격 정책을 편집합니다.</block>
   <block id="0791b390bcb1883a8ca3239cf8c8deed" category="list-text">공격 정책을 모니터링해야 하는 SVM을 선택합니다.</block>
@@ -7752,7 +7666,6 @@
   <block id="c90a13d8ec8fe53c6bb33fe10af6f2fe" category="cell">동일합니다</block>
   <block id="83626eda7582435cdf0eb139d5cc8972" category="cell">8GB RAM</block>
   <block id="6aaa2ffc817cac34a806a149bee36350" category="cell">50GB</block>
-  <block id="47dc5acc8bdc974a72002ca9aa47f325" category="cell">100Mbps/1Gbps 이더넷 연결, 정적 IP 주소, 모든 FC 디바이스에 대한 IP 연결 및 Cloud Insights 인스턴스에 대한 필수 포트(80 또는 443).</block>
   <block id="d08ccf52b4cdd08e41cfb99ec42e0b29" category="cell">권한</block>
   <block id="b121d11a2c041b51e1c63a940169fc95" category="cell">획득 장치 서버의 sudo 권한. /tmp는 Exec 기능과 함께 마운트되어야 합니다.</block>
   <block id="f2675114c7e961125e58746739ce868e" category="cell">획득 장치 서버에 대한 관리자 권한</block>
@@ -8072,7 +7985,6 @@
   <block id="0267d15c881fe01be2ed5e9baa605285" category="paragraph"><block ref="0267d15c881fe01be2ed5e9baa605285" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4c98e9aaa4cbb7fc1c457ed76c2a0f21" category="paragraph">모니터 오른쪽에 있는 메뉴를 클릭하고 * Pause * (일시 중지 *)를 선택하여 개체 유형의 모니터링을 일시적으로 일시 중지할 수 있습니다. 모니터링을 다시 시작할 준비가 되면 * Resume * (재개 *)을 클릭합니다.</block>
   <block id="a73980f5bc00482a343096d1a40143fb" category="list-text">* 모든 모니터 * 는 모든 모니터를 나열합니다.</block>
-  <block id="48fa35194daf9f1bd37c243905808afa" category="list-text">* 사용자 지정 모니터 * 는 사용자가 생성한 모니터만 나열합니다.</block>
   <block id="f78abd66dd2da46aaad72238500300b7" category="paragraph">를 봅니다 <block ref="c48a3e56f23a81aaf8fad75ccfbc3d89" category="inline-link-macro-rx"></block> Cloud Insights에 포함된 모니터에 대한 설명을 보려면 페이지를 참조하십시오.</block>
   <block id="b94799ea1a34279467ca857a3bdb03d8" category="list-text">* 노이즈 감소 * - 사용자가 생성한 새로 생성된 파일(예: 최근 2시간)을 필터링합니다. 사용자가 액세스하는 임시 파일(예: .tmp 파일)을 필터링하는 데에도 사용됩니다.</block>
   <block id="22c7df611bbc787fa84ac34fdd9613e0" category="paragraph">클러스터 자격 증명이 있는 CsUser의 경우 ONTAP 명령줄에서 다음을 수행하십시오.</block>
@@ -8140,7 +8052,6 @@
   <block id="fc077d90413e1ab9ea5eb4777a02ade3" category="paragraph">시스템 정의 모니터는 수정하거나 다른 그룹으로 이동하거나 삭제할 수 없습니다. 그러나 시스템 모니터를 복제하고 복제본을 수정하거나 이동할 수 있습니다.</block>
   <block id="57eed663adf466f4dcd0ba0a3a24dac5" category="paragraph">시스템 모니터에는 ONTAP 인프라(스토리지, 볼륨 등) 또는 워크로드(예: 로그 모니터) 또는 기타 그룹의 모니터가 포함될 수 있습니다. NetApp은 고객의 필요와 제품 기능을 지속적으로 평가하고 있으며 필요에 따라 시스템 모니터 및 그룹을 업데이트하거나 추가합니다.</block>
   <block id="17364dd4c2252b12bb9eb895bd6e949b" category="paragraph">필요에 따라 모니터를 포함할 그룹을 직접 만들 수 있습니다. 예를 들어 모든 스토리지 관련 모니터에 대해 그룹을 설정할 수 있습니다.</block>
-  <block id="82f4f788b410ddeadb8f7768592f9864" category="list-text">* Suspended Monitors * 는 시스템에 의해 모니터가 일시 중단된 경우에만 표시됩니다.</block>
   <block id="a43e9f5999fa1ed59d407736252e625d" category="section-title">상황에 맞는 미리 입력 제안 기능을 통한 고급 텍스트 필터링</block>
   <block id="a8c299f3c69c7a12958c6df554610a93" category="paragraph">위젯 쿼리의 필터링은 _contextual_입니다. 필드에 대한 필터 값 또는 값을 선택하면 해당 쿼리에 대한 다른 필터에 해당 필터와 관련된 값이 표시됩니다. 예를 들어, 특정 object_Name_에 대한 필터를 설정할 때 _Model_에 대해 필터링할 필드는 해당 개체 이름과 관련된 값만 표시합니다.</block>
   <block id="8be0f44cccc6817c6fffc31d9156d3c0" category="paragraph">상황별 필터링은 대시보드 페이지 변수에도 적용됩니다(텍스트 형식 특성 또는 주석에만 해당). 한 변수에 대해 파일러 값을 선택하면 관련 개체를 사용하는 다른 모든 변수는 해당 관련 변수의 컨텍스트에 따라 가능한 필터 값만 표시됩니다.</block>
@@ -8940,4 +8851,11 @@
   <block id="3aba5c3b5ec94e17ca4afc1a38905dbe" category="list-text">Cloud Secure 규칙이 삭제되었는지 확인합니다(선택적 단계 확인).</block>
   <block id="b368496b943e902a72e3e0bed2267ee2" category="cell">정책을 수정할 수 없습니다. 원인: 해당 명령에 대해 권한이 없습니다.</block>
   <block id="b0b134473b7922feefa2eaac79b9fb75" category="cell">CsUser 사용 시, 위에서 설명한 대로 사용자에게 권한이 부여되는지 확인</block>
+  <block id="a9a216fbb1fb9d774e7cedfcf74c00cf" category="cell">에서 티켓을 엽니다<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block>. “cloud.netapp.com &gt; 계정/로그인 문제” 또는 “cloud.netapp.com &gt; 페더레이션 문제”를 선택합니다. 특히, Cloud Central 문제 또는 질문을 위한 것입니다. 기타 모든 Cloud Insights 기술 지원 문제는 에 문의하십시오 <block ref="1a8b44ad735b0e8f3f08395032e9cb16" category="inline-link-macro-rx"></block>.</block>
+  <block id="0f0836a5cbb198e5071126d330de3a88" category="cell">디스크 공간은 다음과 같은 방식으로 할당해야 합니다. /opt/NetApp 35GB(최소)</block>
+  <block id="abd4328c725637aabedbd02d3b7ffd40" category="cell">양방향</block>
+  <block id="8334797b9b3383d4f48d98178b8845ea" category="inline-link-macro">이 페이지</block>
+  <block id="116c0009f8a6c3650a8638213dafb58f" category="cell">Data Collector 페이지에서 오류를 제공하는 데이터 수집기의 오른쪽으로 스크롤하고 3개의 점 메뉴를 클릭합니다. 편집 _ 을(를) 선택합니다. 데이터 수집기의 암호를 다시 입력합니다. Save _ 버튼을 눌러 데이터 수집기를 저장합니다. Data Collector가 다시 시작되고 오류가 해결되어야 합니다. 2.Agent 시스템이 CPU 또는 RAM 여유 공간이 부족할 수 있습니다. 이것이 바로 DSC가 실패하는 이유입니다. 시스템의 에이전트에 추가되는 데이터 수집기 수를 확인하십시오. 20개를 초과하는 경우 Agent 시스템의 CPU 및 RAM 용량을 늘리십시오. CPU와 RAM이 증가되면 DSC가 초기화 중 상태로 전환되었다가 자동으로 실행 상태로 전환됩니다. 의 사이징 가이드를 참조하십시오 <block ref="d78d6535469308a93bd2a6c42408feef" category="inline-link-macro-rx"></block>.</block>
+  <block id="e2bb2679868c6a4cb2113cadeba2c17b" category="summary">Cloud Insights API를 사용하여 주석 및 애플리케이션을 가져올 수 있습니다.</block>
+  <block id="dc32103fc28ea11a068c096412ef6787" category="cell">획득 장치에서 * .cloudinsights.netapp.com 또는 Cloud Insights 환경(예 .c01.cloudinsights.netapp.com) 필수 항목입니다. 획득 장치와 각 Data Collector 사이의 요구 사항은 의 지침을 참조하십시오 <block ref="be56515064596049a4b61d9d1a149cf9" category="inline-link-macro-rx"></block>.</block>
 </blocks>

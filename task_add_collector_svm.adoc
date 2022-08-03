@@ -230,6 +230,6 @@ image:CS_Data_Collector_Error.png[""]
 | 데이터 수집기가 오류 중입니다. 이 오류 메시지를 표시합니다. "오류: 커넥터가 오류 상태입니다. 서비스 이름: 감사. 실패 원인: SVM svm_test에서 정책을 구성하지 못했습니다. 이유: ZAPI 필드에 값이 없습니다. 이벤트 “ | NFS 서비스만 구성하여 새로운 SVM으로 시작하십시오. Cloud Secure에서 ONTAP SVM 데이터 수집기 추가 CIFS는 ONTAP에서 Cloud Secure SVM Data Collector를 추가하는 동시에 SVM을 위한 허용된 프로토콜로 구성됩니다. Cloud Secure의 데이터 수집기에서 오류가 표시될 때까지 기다립니다. SVM에 CIFS 서버가 구성되어 있지 않으므로 왼쪽에 표시된 이 오류는 Cloud Secure에 의해 표시됩니다. ONTAP SVM 데이터 수집기를 편집하고 CIFS를 허용된 프로토콜로 선택 취소하십시오. 데이터 수집기를 저장합니다. NFS 프로토콜만 활성화된 상태에서 실행됩니다. 
 
 
-| Data Collector에 다음과 같은 오류 메시지가 표시됩니다. "오류: 2회 재시도에서 Collector 상태를 확인하지 못했습니다. Collector를 다시 시작하십시오(오류 코드: AGENT008)." | 데이터 수집기 페이지에서 오류가 있는 데이터 수집기의 오른쪽으로 스크롤한 다음 3개의 점 메뉴를 클릭합니다. 편집 _ 을(를) 선택합니다. 데이터 수집기의 암호를 다시 입력합니다. Save _ 버튼을 눌러 데이터 수집기를 저장합니다. Data Collector가 다시 시작되고 오류가 해결되어야 합니다. 
+| Data Collector에 다음과 같은 오류 메시지가 표시됩니다. "오류: 2회 재시도에서 Collector 상태를 확인하지 못했습니다. Collector를 다시 시작하십시오(오류 코드: AGENT008)." | Data Collector 페이지에서 오류를 제공하는 데이터 수집기의 오른쪽으로 스크롤하고 3개의 점 메뉴를 클릭합니다. 편집 _ 을(를) 선택합니다. 데이터 수집기의 암호를 다시 입력합니다. Save _ 버튼을 눌러 데이터 수집기를 저장합니다. Data Collector가 다시 시작되고 오류가 해결되어야 합니다. 2.Agent 시스템이 CPU 또는 RAM 여유 공간이 부족할 수 있습니다. 이것이 바로 DSC가 실패하는 이유입니다. 시스템의 에이전트에 추가되는 데이터 수집기 수를 확인하십시오. 20개를 초과하는 경우 Agent 시스템의 CPU 및 RAM 용량을 늘리십시오. CPU와 RAM이 증가되면 DSC가 초기화 중 상태로 전환되었다가 자동으로 실행 상태로 전환됩니다. 의 사이징 가이드를 참조하십시오 link:https://docs.netapp.com/us-en/cloudinsights/concept_cs_event_rate_checker.html["이 페이지"]. 
 |===
 그래도 문제가 발생하면 * 도움말 > 지원 * 페이지에 나와 있는 지원 링크를 참조하십시오.
