@@ -180,7 +180,7 @@ Cloud Insights에서 운영자 Docker 이미지를 가져옵니다.
  kubectl -n netapp-monitoring get deployment monitoring-operator | grep "image:"
 회사 정책에 따라 운영 Docker 이미지를 프라이빗/로컬/엔터프라이즈 Docker 저장소로 밀어 넣습니다.
 
-모든 오픈 소스 종속성을 전용 Docker 레지스트리에 다운로드합니다. 다음 오픈 소스 이미지를 다운로드해야 합니다.
+모든 오픈 소스 종속성을 전용 Docker 레지스트리에 다운로드합니다. 공용 리포지토리와 동일한 디렉터리 구조를 사용합니다. 다음 오픈 소스 이미지를 다운로드해야 합니다.
 
 ....
 docker.io/telegraf:1.21.4
@@ -211,6 +211,9 @@ spec:
         - key: k8s.gcr.io
           value: <same as "docker-repo" field above>
 ....
+모니터링 운영자 구축을 편집하여 새로운 Docker 저장소 위치를 반영하십시오.
+
+ kubectl -n netapp-monitoring edit deploy monitoring-operator
 
 
 === 스크립트 기반 K8s 모니터링에서 운영자 기반으로 업그레이드
@@ -591,5 +594,8 @@ PEM 파일의 지문이 다음과 같은 것인지 확인하여 PEM 파일을 �
 
 
 | Kubernetes에서 Telegraf ReplicaSet Pod가 다음 오류를 보고합니다: inputs.prometheus] [플러그인 오류: keypair /etc/Kubernetes/PKI/etcd/server.crt: /etc/Kubernetes/PKI/etcd/server.key: open /etc/cubs/pi/etcd/server.crt: 해당 파일 또는 디렉토리가 없습니다 | Telegraf ReplicaSet POD는 마스터나 etcd로 지정된 노드에서 실행되도록 설계되었습니다. ReplicaSet 포드가 이러한 노드 중 하나에서 실행되고 있지 않으면 이러한 오류가 발생합니다. 마스터/etcd 노드에 문제가 있는지 확인합니다. 만약 그렇다면, 텔레그라프 ReplicaSet, 텔레그라프-RS에 필요한 내약성을 추가한다. 예를 들어 ReplicaSet...kubtl을 편집하여 RS Telegraf-RS...를 편집하고 사양에 적절한 내약성을 추가합니다. 그런 다음 ReplicaSet 포드를 다시 시작합니다. 
+
+
+| NetApp Kubernetes Monitoring Operator를 설치한 직후 로그에 다음 내용이 표시됩니다. [inputs.prometheus] 플러그인 오류: HTTP 요청을 \http://kube-state-metrics.<namespace>.svc.cluster.local:8080/metrics: get\http://kube-state-metrics.<namespace>.svc.cluster.local:8080/metrics: 다이얼 TCP: lookup kuby-state-metrics. <namespace>.svc.cluster.local: 해당 호스트가 없습니다 | 이 메시지는 일반적으로 새 오퍼레이터가 설치되어 있고 _Telegraf-RS_POD가 _KSM_POD가 가동되기 전에 작동 중일 때만 표시됩니다. 이러한 메시지는 모든 Pod가 실행되면 중지되어야 합니다. 
 |===
 추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].
