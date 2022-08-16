@@ -214,6 +214,12 @@ spec:
 모니터링 운영자 구축을 편집하여 새로운 Docker 저장소 위치를 반영하십시오.
 
  kubectl -n netapp-monitoring edit deploy monitoring-operator
+다음 행을 교체하십시오...
+
+ image: gcr.io/kubebuilder/kube-rbac-proxy:<kube-rbac-proxy-version>
+다음으로...:
+
+ image: <same as "docker-repo" field above>/kubebuilder/kube-rbac-proxy:<kube-rbac-proxy-version>
 
 
 === 스크립트 기반 K8s 모니터링에서 운영자 기반으로 업그레이드
@@ -597,5 +603,8 @@ PEM 파일의 지문이 다음과 같은 것인지 확인하여 PEM 파일을 �
 
 
 | NetApp Kubernetes Monitoring Operator를 설치한 직후 로그에 다음 내용이 표시됩니다. [inputs.prometheus] 플러그인 오류: HTTP 요청을 \http://kube-state-metrics.<namespace>.svc.cluster.local:8080/metrics: get\http://kube-state-metrics.<namespace>.svc.cluster.local:8080/metrics: 다이얼 TCP: lookup kuby-state-metrics. <namespace>.svc.cluster.local: 해당 호스트가 없습니다 | 이 메시지는 일반적으로 새 오퍼레이터가 설치되어 있고 _Telegraf-RS_POD가 _KSM_POD가 가동되기 전에 작동 중일 때만 표시됩니다. 이러한 메시지는 모든 Pod가 실행되면 중지되어야 합니다. 
+
+
+| 명령을 실행하여 CI 에이전트를 설치하여 Kubernetes 정보를 수집했지만, UI에 내 Kubernetes 정보가 표시되지 않습니다. | 다음 명령을 실행하고 출력을 수집한 다음 NetApp 지원 팀에 문의하십시오. 이러한 명령은 기본 네임스페이스를 사용합니다. 고유한 네임스페이스를 설정한 경우 이러한 명령과 모든 후속 명령에서 해당 네임스페이스를 대체합니다. kubbctl -n NetApp - 모니터링 배포, 에이전트, RS, DS, POD kudtl -n NetApp 모니터링 설명 deploy kubtl -n NetApp - 모니터링 로그 <monitoring-operator pod> -c manager kubbctl -n NetApp - 모니터링 로그 <Telegraf-ds> kebtl -n NetApp - 모니터링 로그 <Telegraf -RS pod> kubbeck -veck -veck -be-log 
 |===
 추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].
