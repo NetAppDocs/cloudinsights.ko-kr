@@ -6074,7 +6074,6 @@
   <block id="48ddfbf9b74c53d0faaa56e85e7f4945" category="cell">클라우드 메트릭</block>
   <block id="c804187aad1ac0e05bfe9734492a853f" category="cell">서비스 메트릭스</block>
   <block id="3e61ac3c29f7cbd9ed1cd4606d9a50e6" category="cell">모니터 및 경고</block>
-  <block id="bbe1851a4bf6476f10ba4c77ec78d11d" category="cell">API 액세스</block>
   <block id="372735448eedd531647388e4231b11e5" category="cell">Cloud Secure 사용자 데이터 액세스 감사</block>
   <block id="296767e345f23610f06a21d1f03e36c6" category="cell">AI/ML을 사용한 Cloud Secure 내부자 위협 감지</block>
   <block id="d618d9be50e37adf260935938e49af96" category="inline-image-macro">자물쇠</block>
@@ -8870,7 +8869,7 @@
   <block id="708a43ca283ea273fda53a8850915ef8" category="cell">명령을 실행하여 CI 에이전트를 설치하여 Kubernetes 정보를 수집했지만, UI에 내 Kubernetes 정보가 표시되지 않습니다.</block>
   <block id="18d024045f482dbcfe27667c416ea5eb" category="cell">다음 명령을 실행하고 출력을 수집한 다음 NetApp 지원 팀에 문의하십시오. 이러한 명령은 기본 네임스페이스를 사용합니다. 고유한 네임스페이스를 설정한 경우 이러한 명령과 모든 후속 명령에서 해당 네임스페이스를 대체합니다. kubbctl -n NetApp - 모니터링 배포, 에이전트, RS, DS, POD kudtl -n NetApp 모니터링 설명 deploy kubtl -n NetApp - 모니터링 로그 &lt;monitoring-operator pod&gt; -c manager kubbctl -n NetApp - 모니터링 로그 &lt;Telegraf-ds&gt; kebtl -n NetApp - 모니터링 로그 &lt;Telegraf -RS pod&gt; kubbeck -veck -veck -be-log</block>
   <block id="c17f94825893615b23fe642f01528d0f" category="cell">캐스트(&amp;A);</block>
-  <block id="cfd5ebf75a4f06628eea1779798f08d5" category="cell">캐스트(&amp;A); 캐스트(&amp;A);</block>
-  <block id="fbcbad09f25603c31425bdbe7347ab04" category="cell">비즈니스 인텔리전스 및 보고 및 캐스트(&amp;A), ast(&amp;A),</block>
-  <block id="78899749f4f598d5c1c70ec3895887bd" category="paragraph">캐스트(&amp;A); 한 번에 5개의 활성 사용자 지정 모니터로 제한(&amp;T); 제한된 API 사용 및 캐스트(&amp;O); 캐스트(&amp;O); 500개 이상의 관리되는 장치에서 사용 가능</block>
+  <block id="e056d3391fc09511bb4b998310f69c58" category="cell">API 액세스 및 추가</block>
+  <block id="d54591f265027d735d3be71d57199e4a" category="cell">비즈니스 인텔리전스 및 보고 및 캐스트(&amp;A),</block>
+  <block id="1331ebfce7b11a352f3117229f7a9f42" category="paragraph">캐스트(&amp;A); 한 번에 5개의 활성 사용자 지정 모니터로 제한(&amp;A); API 액세스는 Edition&amp;ast에 따라 다름; &amp; ast; 500개 이상의 관리되는 장치에서 사용 가능</block>
 </blocks>
