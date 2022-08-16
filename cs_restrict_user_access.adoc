@@ -25,9 +25,12 @@ SMB용으로 구성된 SVM 4개, NFS용으로 구성된 SVM 1개와 NFS 및 SMB�
 
 이 기능을 사용하려면 클러스터 레벨 자격 증명이 필요합니다.
 
+
+NOTE: Amazon FSx 데이터 수집기를 사용하는 경우 SMB에 대한 사용자 차단은 현재 사용자 세션을 종료할 수 없습니다. 를 참조하십시오 <<troubleshooting,문제 해결>> 섹션을 참조하십시오.
+
 클러스터 관리 자격 증명을 사용하는 경우 새 권한이 필요하지 않습니다.
 
-사용자에게 권한이 부여된 CsUser와 같은 사용자 지정 사용자를 사용하는 경우 아래 단계를 따라 CloudSecure에 사용자 차단 권한을 부여합니다.
+사용자에게 부여된 권한으로 사용자 지정 사용자(예: _CsUser_)를 사용하는 경우 아래 단계를 따라 Cloud Secure에 사용자 차단 권한을 부여합니다.
 
 클러스터 자격 증명이 있는 CsUser의 경우 ONTAP 명령줄에서 다음을 수행하십시오.
 
@@ -106,17 +109,17 @@ contrail-qa-fas8020::> export-policy rule show -vserver <svm name>
              Policy          Rule    Access   Client                RO
 Vserver      Name            Index   Protocol Match                 Rule
 ------------ --------------- ------  -------- --------------------- ---------
-svm_s_____a default         1       nfs3,    cloudsecure_rule,     never
-                                     nfs4,    10.11.12.13
-                                     cifs
-svm_s_____a default         4       cifs,    0.0.0.0/0             any
-                                     nfs
-svm_s_____a test            1       nfs3,    cloudsecure_rule,     never
-                                     nfs4,    10.11.12.13
-                                     cifs
-svm_s_____a test            3       cifs,    0.0.0.0/0             any
-                                     nfs,
-                                     flexcache
+svm0        default         1       nfs3,    cloudsecure_rule,     never
+                                    nfs4,    10.11.12.13
+                                    cifs
+svm1        default         4       cifs,    0.0.0.0/0             any
+                                    nfs
+svm2        test            1       nfs3,    cloudsecure_rule,     never
+                                    nfs4,    10.11.12.13
+                                    cifs
+svm3        test            3       cifs,    0.0.0.0/0             any
+                                    nfs,
+                                    flexcache
 4 entries were displayed.
 ....
 . 각 RuleIndex를 지정하여 "cloudsecure_rule"이 Client match인 SVM의 모든 정책 전반에 걸쳐 규칙을 삭제합니다. Cloud Secure 규칙은 일반적으로 1입니다.
@@ -129,14 +132,50 @@ contrail-qa-fas8020::*> export-policy rule show -vserver <svm name>
              Policy          Rule    Access   Client                RO
 Vserver      Name            Index   Protocol Match                 Rule
 ------------ --------------- ------  -------- --------------------- ---------
-svm_suchitra default         4       cifs,    0.0.0.0/0             any
-                                     nfs
-svm_suchitra test            3       cifs,    0.0.0.0/0             any
-                                     nfs,
-                                     flexcache
+svm0         default         4       cifs,    0.0.0.0/0             any
+                                    nfs
+svm2         test            3       cifs,    0.0.0.0/0             any
+                                    nfs,
+                                    flexcache
+2 entries were displayed.
+....
++
+ == Manually Restore Users for SMB
+
+
+Cloud Secure 평가판이 만료되거나 에이전트/수집기가 중단된 경우 다음 단계를 사용하여 ONTAP에서 사용자를 수동으로 복원합니다.
+
+Cloud Secure에서 차단된 사용자 목록을 사용자 목록 페이지에서 가져올 수 있습니다.
+
+. cluster_admin_credentials를 사용하여 ONTAP 클러스터(사용자 차단을 해제할 위치)에 로그인합니다. (Amazon FSx의 경우 FSx 자격 증명으로 로그인합니다.)
+. 다음 명령을 실행하여 모든 SVM에서 Cloud Secure for SMB에 의해 차단된 모든 사용자를 나열합니다.
++
+ vserver name-mapping show -direction win-unix -replacement " "
++
+....
+Vserver:   <vservername>
+Direction: win-unix
+Position Hostname         IP Address/Mask
+-------- ---------------- ----------------
+1       -                 -                   Pattern: CSLAB\\US040
+                                         Replacement:
+2       -                 -                   Pattern: CSLAB\\US030
+                                         Replacement:
 2 entries were displayed.
 ....
 
+
+위 출력에서 두 명의 사용자가 CSLAB 도메인과 함께 차단되었습니다(US030, US040).
+
+. 위 출력에서 위치를 확인한 후 다음 명령을 실행하여 사용자 차단을 해제합니다.
++
+ vserver name-mapping delete -direction win-unix -position <position>
+. 다음 명령을 실행하여 사용자의 차단 해제 여부를 확인합니다.
++
+ vserver name-mapping show -direction win-unix -replacement " "
+
+
+이전에 차단한 사용자에 대해서는 어떤 항목도 표시되지 않아야 합니다.
 
 
 
@@ -153,4 +192,7 @@ svm_suchitra test            3       cifs,    0.0.0.0/0             any
 
 
 | 정책을 수정할 수 없습니다. 원인: 해당 명령에 대해 권한이 없습니다. | CsUser 사용 시, 위에서 설명한 대로 사용자에게 권한이 부여되는지 확인 
+
+
+| svm1: 사용자 도메인에 대한 기존 CIFS 세션이 닫혀있지 않습니다. 이 오류는 경고 세부 정보 페이지의 조치 수행 섹션과 경고 및 사용자 목록 페이지의 액세스 제한 기록에서 나타납니다. 이 오류가 표시되면 사용자의 현재 세션이 닫히지 않지만, bocking 기간이 만료될 때까지 새 세션에 대해 사용자가 차단됩니다. | 이는 Amazon FSx에서 알려진 문제입니다. Cloud Secure는 기존 SMB 세션을 닫을 수 없습니다. 현재 Amazon FSx에 대한 기존 SMB 세션을 차단할 수 있는 해결 방법이 없습니다. 수집기 유형이 CVO 또는 ONTAP인 경우 에 설명된 대로 올바른 권한을 확인합니다 <<prerequisites-for-user-access-blocking,필수 구성 요소>> 섹션을 참조하십시오. 
 |===

@@ -8826,7 +8826,6 @@
   <block id="09ea31b2f879daa3575f90741cc1d791" category="section-title">사용자 액세스 차단을 위한 필수 조건</block>
   <block id="4c03839c4d4987ac81496c7f17d6f092" category="paragraph">이 기능을 사용하려면 클러스터 레벨 자격 증명이 필요합니다.</block>
   <block id="9a517e6700abab3e080100846703ab51" category="paragraph">클러스터 관리 자격 증명을 사용하는 경우 새 권한이 필요하지 않습니다.</block>
-  <block id="4563a2ec099bb3f18ab52f261f6897e8" category="paragraph">사용자에게 권한이 부여된 CsUser와 같은 사용자 지정 사용자를 사용하는 경우 아래 단계를 따라 CloudSecure에 사용자 차단 권한을 부여합니다.</block>
   <block id="075530afc57aa5ff8851fb139e2fbbae" category="list-text">Cloud Secure에서 * 관리자 &gt; 자동 응답 정책 &gt; 응답 정책 설정 &gt; 사용자 액세스 차단 * 으로 이동합니다.</block>
   <block id="d024f8c400c18ed25e7c797f6b13a110" category="list-text">"사용자 액세스 차단 사용"을 _ENABLED_로 설정합니다.</block>
   <block id="8bdb8cb044f5c9cc0cc87ec310782e1a" category="section-title">자동 사용자 액세스 차단을 설정하는 방법은 무엇입니까?</block>
@@ -8872,4 +8871,17 @@
   <block id="e056d3391fc09511bb4b998310f69c58" category="cell">API 액세스 및 추가</block>
   <block id="d54591f265027d735d3be71d57199e4a" category="cell">비즈니스 인텔리전스 및 보고 및 캐스트(&amp;A),</block>
   <block id="1331ebfce7b11a352f3117229f7a9f42" category="paragraph">캐스트(&amp;A); 한 번에 5개의 활성 사용자 지정 모니터로 제한(&amp;A); API 액세스는 Edition&amp;ast에 따라 다름; &amp; ast; 500개 이상의 관리되는 장치에서 사용 가능</block>
+  <block id="e8a2076095c01bcdd41cd90191e01972" category="admonition">Amazon FSx 데이터 수집기를 사용하는 경우 SMB에 대한 사용자 차단은 현재 사용자 세션을 종료할 수 없습니다. 를 참조하십시오 <block ref="330552a095a13e513ece685118db1083" category="inline-xref-macro-rx"></block> 섹션을 참조하십시오.</block>
+  <block id="4c599f70e51d65668c4ce4bd1c33bb95" category="paragraph">사용자에게 부여된 권한으로 사용자 지정 사용자(예: _CsUser_)를 사용하는 경우 아래 단계를 따라 Cloud Secure에 사용자 차단 권한을 부여합니다.</block>
+  <block id="a8ebeed3ca8bbd5dcb31700e343f161c" category="paragraph">Cloud Secure 평가판이 만료되거나 에이전트/수집기가 중단된 경우 다음 단계를 사용하여 ONTAP에서 사용자를 수동으로 복원합니다.</block>
+  <block id="f95989b518510dd543fddfe641a0760e" category="paragraph">Cloud Secure에서 차단된 사용자 목록을 사용자 목록 페이지에서 가져올 수 있습니다.</block>
+  <block id="d429655e140835b91db45b4324358975" category="list-text">cluster_admin_credentials를 사용하여 ONTAP 클러스터(사용자 차단을 해제할 위치)에 로그인합니다. (Amazon FSx의 경우 FSx 자격 증명으로 로그인합니다.)</block>
+  <block id="a450d857f06b830531fe0de70552762d" category="list-text">다음 명령을 실행하여 모든 SVM에서 Cloud Secure for SMB에 의해 차단된 모든 사용자를 나열합니다.</block>
+  <block id="8eb6e3d15a14daab42fbb2f986622059" category="paragraph">위 출력에서 두 명의 사용자가 CSLAB 도메인과 함께 차단되었습니다(US030, US040).</block>
+  <block id="22ee7904617969fe778ac3e28eded28c" category="list-text">위 출력에서 위치를 확인한 후 다음 명령을 실행하여 사용자 차단을 해제합니다.</block>
+  <block id="1f8fcb155f2b517c2c9ae95f65ae3623" category="list-text">다음 명령을 실행하여 사용자의 차단 해제 여부를 확인합니다.</block>
+  <block id="a3b2696b55f3cdfe22afc4ee21f40ac8" category="paragraph">이전에 차단한 사용자에 대해서는 어떤 항목도 표시되지 않아야 합니다.</block>
+  <block id="ccfcbf1e5d2c0e260b83b0caf47be9db" category="cell">svm1: 사용자 도메인에 대한 기존 CIFS 세션이 닫혀있지 않습니다. 이 오류는 경고 세부 정보 페이지의 조치 수행 섹션과 경고 및 사용자 목록 페이지의 액세스 제한 기록에서 나타납니다. 이 오류가 표시되면 사용자의 현재 세션이 닫히지 않지만, bocking 기간이 만료될 때까지 새 세션에 대해 사용자가 차단됩니다.</block>
+  <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="inline-xref">필수 구성 요소</block>
+  <block id="41bcd606fd956d57d1d3104d5f2d27fc" category="cell">이는 Amazon FSx에서 알려진 문제입니다. Cloud Secure는 기존 SMB 세션을 닫을 수 없습니다. 현재 Amazon FSx에 대한 기존 SMB 세션을 차단할 수 있는 해결 방법이 없습니다. 수집기 유형이 CVO 또는 ONTAP인 경우 에 설명된 대로 올바른 권한을 확인합니다 <block ref="6c7a156ba37a843e01c9100eb2f3a3a7" category="inline-xref-macro-rx"></block> 섹션을 참조하십시오.</block>
 </blocks>
