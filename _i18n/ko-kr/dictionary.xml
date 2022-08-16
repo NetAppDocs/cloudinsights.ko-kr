@@ -6077,7 +6077,6 @@
   <block id="bbe1851a4bf6476f10ba4c77ec78d11d" category="cell">API 액세스</block>
   <block id="372735448eedd531647388e4231b11e5" category="cell">Cloud Secure 사용자 데이터 액세스 감사</block>
   <block id="296767e345f23610f06a21d1f03e36c6" category="cell">AI/ML을 사용한 Cloud Secure 내부자 위협 감지</block>
-  <block id="4fe19c14796d667021bad4a9a083aefc" category="cell">비즈니스 인텔리전스 및 보고 *</block>
   <block id="d618d9be50e37adf260935938e49af96" category="inline-image-macro">자물쇠</block>
   <block id="b6dea3b24cc18d2214ac0d7ea31d17ec" category="paragraph">Cloud Insights를 사용하는 동안 자물쇠 아이콘이 표시되는 경우 <block ref="3d68554889a6297f572b65a3534d0ef0" category="inline-image-macro-rx" type="image"></block>즉, 현재 버전에서 이 기능을 사용할 수 없거나 제한된 형식으로 사용할 수 있습니다. 기능에 대한 전체 액세스 권한을 위해 업그레이드하십시오.</block>
   <block id="3a7e4ed6e4843b57080572f28622d665" category="section-title">평가판</block>
@@ -8872,5 +8871,6 @@
   <block id="18d024045f482dbcfe27667c416ea5eb" category="cell">다음 명령을 실행하고 출력을 수집한 다음 NetApp 지원 팀에 문의하십시오. 이러한 명령은 기본 네임스페이스를 사용합니다. 고유한 네임스페이스를 설정한 경우 이러한 명령과 모든 후속 명령에서 해당 네임스페이스를 대체합니다. kubbctl -n NetApp - 모니터링 배포, 에이전트, RS, DS, POD kudtl -n NetApp 모니터링 설명 deploy kubtl -n NetApp - 모니터링 로그 &lt;monitoring-operator pod&gt; -c manager kubbctl -n NetApp - 모니터링 로그 &lt;Telegraf-ds&gt; kebtl -n NetApp - 모니터링 로그 &lt;Telegraf -RS pod&gt; kubbeck -veck -veck -be-log</block>
   <block id="c17f94825893615b23fe642f01528d0f" category="cell">캐스트(&amp;A);</block>
   <block id="cfd5ebf75a4f06628eea1779798f08d5" category="cell">캐스트(&amp;A); 캐스트(&amp;A);</block>
-  <block id="a093ee1a6db03c2791705cf10c177d07" category="paragraph">&amp;#42; 500대 이상의 관리되는 장치 및 대규모 환경에서 사용 가능; 한 번에 5대의 활성 사용자 지정 모니터로 제한;&amp; ast; 제한된 API 사용 가능</block>
+  <block id="fbcbad09f25603c31425bdbe7347ab04" category="cell">비즈니스 인텔리전스 및 보고 및 캐스트(&amp;A), ast(&amp;A),</block>
+  <block id="78899749f4f598d5c1c70ec3895887bd" category="paragraph">캐스트(&amp;A); 한 번에 5개의 활성 사용자 지정 모니터로 제한(&amp;T); 제한된 API 사용 및 캐스트(&amp;O); 캐스트(&amp;O); 500개 이상의 관리되는 장치에서 사용 가능</block>
 </blocks>
