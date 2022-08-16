@@ -8870,7 +8870,7 @@
   <block id="75f51e3422147035b765a5e488f935ab" category="paragraph">다음으로...:</block>
   <block id="708a43ca283ea273fda53a8850915ef8" category="cell">명령을 실행하여 CI 에이전트를 설치하여 Kubernetes 정보를 수집했지만, UI에 내 Kubernetes 정보가 표시되지 않습니다.</block>
   <block id="18d024045f482dbcfe27667c416ea5eb" category="cell">다음 명령을 실행하고 출력을 수집한 다음 NetApp 지원 팀에 문의하십시오. 이러한 명령은 기본 네임스페이스를 사용합니다. 고유한 네임스페이스를 설정한 경우 이러한 명령과 모든 후속 명령에서 해당 네임스페이스를 대체합니다. kubbctl -n NetApp - 모니터링 배포, 에이전트, RS, DS, POD kudtl -n NetApp 모니터링 설명 deploy kubtl -n NetApp - 모니터링 로그 &lt;monitoring-operator pod&gt; -c manager kubbctl -n NetApp - 모니터링 로그 &lt;Telegraf-ds&gt; kebtl -n NetApp - 모니터링 로그 &lt;Telegraf -RS pod&gt; kubbeck -veck -veck -be-log</block>
-  <block id="3389dae361af79b04c9c8e7057f60cc6" category="cell">*</block>
-  <block id="514faf5a71b4f0f67374c388f37aa0d7" category="cell">**</block>
-  <block id="54701d7c6ef5529abe15ceab8c8612cd" category="paragraph">&amp;#42; 500대 이상의 관리되는 장치 환경에서 사용 가능\ * 한 번에 5개의 활성 사용자 정의 모니터로 제한\** 제한적인 API 사용 가능</block>
+  <block id="c17f94825893615b23fe642f01528d0f" category="cell">캐스트(&amp;A);</block>
+  <block id="cfd5ebf75a4f06628eea1779798f08d5" category="cell">캐스트(&amp;A); 캐스트(&amp;A);</block>
+  <block id="a093ee1a6db03c2791705cf10c177d07" category="paragraph">&amp;#42; 500대 이상의 관리되는 장치 및 대규모 환경에서 사용 가능; 한 번에 5대의 활성 사용자 지정 모니터로 제한;&amp; ast; 제한된 API 사용 가능</block>
 </blocks>
