@@ -139,9 +139,11 @@ svm2         test            3       cifs,    0.0.0.0/0             any
                                     flexcache
 2 entries were displayed.
 ....
-+
- == Manually Restore Users for SMB
 
+
+
+
+== SMB용 사용자를 수동으로 복원합니다
 
 Cloud Secure 평가판이 만료되거나 에이전트/수집기가 중단된 경우 다음 단계를 사용하여 ONTAP에서 사용자를 수동으로 복원합니다.
 
