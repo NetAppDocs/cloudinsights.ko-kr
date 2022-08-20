@@ -12,7 +12,7 @@ keywords: support, knowledgebase, documentation, community, chat, videos, help, 
 toc::[]
 Cloud Insights에서 도움말 > 지원 * 을 클릭하여 지원 옵션에 액세스할 수 있습니다. 사용 가능한 지원 옵션은 평가판 모드인지 구독 모드인지에 따라 다릅니다.
 
-image:Support_with_Chat.png["지원 페이지"]
+image:SupportPageWithLearningCenter.png["지원 페이지"]
 
 
 
@@ -127,3 +127,9 @@ image:Support_View_SN.png["지원 SN을 봅니다"]
 == Cloud Insights 데이터 수집기 지원 매트릭스
 
 에서 지원되는 Data Collector에 대한 정보와 세부 정보를 보거나 다운로드할 수 있습니다 link:CloudInsightsDataCollectorSupportMatrix.pdf["* Cloud Insights 데이터 수집기 지원 매트릭스 *, 역할 = "외부""].
+
+
+
+=== 학습 센터
+
+서브스크립션에 관계없이 * 도움말 > 지원 * 은 Cloud Insights를 최대한 활용할 수 있도록 여러 NetApp University 과정 오퍼링에 대한 링크를 제공합니다. 확인해 보세요!

@@ -3869,13 +3869,10 @@
   <block id="11a7aeec2e88edd275331af35166c8ec" category="doc">사용자 계정 및 역할</block>
   <block id="0f9642bcff1dc3cd224f1f3e2f1ca629" category="inline-link-macro">초대되었습니다</block>
   <block id="fc1a24cc0d6d7c3e25a51a3d66a9d033" category="inline-link-macro">SSO(Single Sign-On) 인증</block>
-  <block id="ebbdc244249c4bebdb539839ef825e95" category="paragraph">Cloud Insights는 계정 소유자, 관리자, 사용자 및 게스트의 최대 4개의 사용자 계정 역할을 제공합니다. 각 계정에는 아래 표에 명시된 특정 권한 수준이 할당됩니다. (Cloud Secure 기능에서는 _User_와 _Guest_역할을 사용할 수 없습니다.) 사용자는 둘 중 하나입니다 <block ref="6a05e97c185d2e103748dff93c559f3b" category="inline-link-macro-rx"></block> Cloud Insights에 로그인하여 특정 역할을 할당하거나 을 통해 로그인할 수 있습니다 <block ref="5714c3cacaaaa4fdc97a235dfa644756" category="inline-link-macro-rx"></block> 기본 역할을 사용합니다. SSO 인증은 Cloud Insights 프리미엄 에디션의 기능으로 제공됩니다.</block>
   <block id="4239d1a0d4b43b912ff81e4656377274" category="section-title">사용 권한 수준</block>
   <block id="9e81fe47cff9df70ea875a449221eb62" category="paragraph">관리자 권한이 있는 계정을 사용하여 사용자 계정을 만들거나 수정합니다. 각 사용자 계정에는 다음과 같은 권한 수준에서 각 Cloud Insights 기능에 대한 역할이 할당됩니다.</block>
-  <block id="423e555c5ec3885f2bb5d9d2d6627f63" category="cell">모니터링</block>
   <block id="725fa6cc31a68ca7f439fce948043027" category="cell">Cloud Secure</block>
   <block id="305de530147912d72a50568ee4d65d26" category="cell">계정 소유자</block>
-  <block id="b754159e4e957eec4566aef2214ed483" category="cell">구독을 수정하고, 청구 및 사용 정보를 보고, 모니터링 및 최적화, Cloud Secure 및 보고에 대한 모든 관리자 기능을 수행할 수 있습니다. 또한 소유자는 사용자를 초대하고 관리할 수 있을 뿐 아니라 SSO 인증 및 ID 페더레이션 설정을 관리할 수 있습니다. 첫 번째 계정 소유자는 Cloud Insights에 등록할 때 생성됩니다. 각 Cloud Insights 환경에 대해 계정 소유자를 두 명 이상 두는 것이 좋습니다. </block>
   <block id="9912eb0cfbb27a071ceaf89334fe4dbc" category="cell">대시보드, 쿼리, 알림, 주석, 주석 규칙, 장치 해상도를 관리할 수 있습니다.</block>
   <block id="d4b92ffff3f3199f4cb5dc53c8c0cf84" category="cell">알림을 확인 및 관리하고 Forensics를 볼 수 있습니다. 사용자 역할은 알림 상태를 변경하고, 메모를 추가하고, 스냅샷을 수동으로 생성하고, 사용자 액세스 제한을 관리할 수 있습니다.</block>
   <block id="70fb52e38580a301b191eb366ac4d029" category="cell">모든 게스트/소비자 기능을 수행할 수 있을 뿐 아니라 보고서 및 대시보드를 생성 및 관리할 수 있습니다.</block>
@@ -3899,7 +3896,6 @@
   <block id="bcc3225d741abe003ad8a9f0472f8e0f" category="cell">자산 페이지: 보기</block>
   <block id="e1e6805adf2b0c232077411d5b3c6f84" category="cell">감사: 보기</block>
   <block id="3ad3b94ea7e29fe0f9f1f0a0f4b95640" category="cell">클라우드 비용</block>
-  <block id="83f121ee28583626410ec235e4c3a84a" category="cell">Cloud Secure *</block>
   <block id="d92b97b5bd045f3cc0dd423eb7aad931" category="cell">대시보드: 생성/수정/삭제</block>
   <block id="cbffc03121243a64702f719493c2ece0" category="cell">대시보드: 보기</block>
   <block id="01cbff12e5be125caf82ae0d33bfcd0a" category="cell">데이터 수집기: 추가/수정/폴링/삭제</block>
@@ -3925,7 +3921,6 @@
   <block id="1f8dd0c047e5f2c6c0d3267fff9f2bdb" category="list-text">이메일 주소 또는 여러 주소를 입력하여 초대를 보냅니다.</block>
   <block id="b1e58a6582b4b8cf5f1631eac44903a9" category="paragraph">* 참고: * 여러 주소를 입력하면 모두 동일한 역할로 생성됩니다. 여러 명의 사용자만 동일한 역할로 설정할 수 있습니다.</block>
   <block id="83182dfe9652d91a9dff49ae5051115e" category="list-text">Cloud Insights의 각 기능에 대한 사용자 역할을 선택합니다.</block>
-  <block id="6e8526c3709a72705e37b6942beed39a" category="admonition">선택할 수 있는 기능 및 역할은 특정 관리자 역할에서 액세스할 수 있는 기능에 따라 다릅니다. 예를 들어 보고에만 관리자 역할이 있는 경우 보고에서 사용자를 어떠한 역할에도 할당할 수 있지만 모니터 및 최적화 또는 Cloud Secure에 역할을 할당할 수는 없습니다.</block>
   <block id="0e37aaee59fd92b0c2231a3435ccb705" category="inline-image-macro">사용자 역할 선택</block>
   <block id="be79de8824d9bc14fde4037b481d09cf" category="paragraph"><block ref="be79de8824d9bc14fde4037b481d09cf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3b44544b9d947c143a9cfcb45be1aeff" category="list-text">초대 * 를 클릭합니다</block>
@@ -4702,7 +4697,6 @@
   <block id="137130f586fe8fbaec289a38be336008" category="summary">Insights를 통해 리소스가 사용자 환경의 다른 리소스에 미치는 영향을 파악할 수 있습니다.</block>
   <block id="2d78443087bc495d923e93521efb0c1d" category="doc">인사이트: 부하 상태의 공유 리소스</block>
   <block id="a8ec16373cb24bc082189b278c4cb448" category="paragraph">워크로드가 큰 경우 공유 리소스에 있는 다른 워크로드의 성능이 저하될 수 있습니다. 이렇게 하면 공유 리소스가 스트레스를 받게 됩니다. Cloud Insights는 사용자 환경의 리소스 포화 및 영향을 조사하는 데 도움이 되는 도구를 제공합니다.</block>
-  <block id="f537dec4993300ffaa9674ac2db71a97" category="admonition">Stress_Insight의 _ 공유 리소스는 _ Preview_feature로 간주되므로 변경될 수 있습니다.</block>
   <block id="7f595b1ef82026007f2533413106e7d8" category="paragraph">작업 부하 또는 리소스 영향에 대해 이야기할 때 다음 정의가 유용합니다.</block>
   <block id="cd038a3c036812737c2ee89b0152ce75" category="paragraph">까다로운 * 또는 * 영향 * 리소스는 다른 리소스에 부정적인 영향을 주는 자원입니다. 예를 들어, IOPS가 매우 높은 볼륨은 다른 볼륨(예 _영향받는_또는 _성능이 저하된_리소스). 까다롭고 영향을 받는 리소스는 동일한 공유 리소스(예: 스토리지 풀 또는 볼륨)를 활용하는 "피어"입니다. 까다로운 리소스를 _greedy_resources 라고 합니다.</block>
   <block id="aea124b45b62324984b67a059ea0da7f" category="paragraph">까다로운 워크로드 * 는 현재 공유 스토리지 풀의 다른 리소스에 영향을 미치는 것으로 식별된 워크로드입니다. 이러한 워크로드는 더 높은 IOPS(예:)를 유도하여 영향을 받는 워크로드의 IOPS를 줄입니다. 수요가 많은 워크로드를 _ 이(가) 많이 사용되는 워크로드라고 합니다.</block>
@@ -6648,20 +6642,12 @@
   <block id="1ed754660eab03374442236452ed9e39" category="list-text">Telegraf 에이전트를 제거합니다.</block>
   <block id="eb95277827afbd8e2e2e8f76d8b46c1a" category="list-text">이전 Telegraf 에이전트를 제거합니다.</block>
   <block id="eaca524ca350c2f4a68505fcd46722dc" category="list-text"><block ref="233c0aad358add3bf73c9fdb84825ed1" category="inline-link-macro-rx"></block>.</block>
-  <block id="d836a7075094860f48ae2ac37b8ee84a" category="paragraph">Kubernetes에서는 두 가지 방법으로 데이터를 수집할 수 있습니다.</block>
-  <block id="c17822d3ce9eb04fef37fc6f007b859e" category="list-text">NetApp Kubernetes 모니터링 오퍼레이터 구성 Kubernetes의 권장 설치 방법입니다.</block>
-  <block id="90997e8d0c35126fbf3794f175f2f0f3" category="paragraph">설치 지침은 선택한 환경에 따라 다릅니다.</block>
-  <block id="e973aa335528494c3881ffe9a6be0e81" category="inline-image-macro">Kubernetes 설치 선택 사항</block>
-  <block id="b81ec4ed4165242831d809ec7e442e82" category="paragraph"><block ref="b81ec4ed4165242831d809ec7e442e82" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c464aab0e1d91c1e20dba1868d499f0e" category="list-text">Kudbe-state-metrics를 설치해야 합니다. 자세한 내용은 아래를 참조하십시오. Kudbe-state-metrics는 운영자 기반 설치와 함께 자동으로 설치됩니다.</block>
   <block id="80c0723b28b89c49ac0b2c207486cf90" category="list-text">프록시를 사용하고 있는 경우 * Kubernetes * 용 프록시 지원 구성 섹션의 지침을 따르십시오.</block>
-  <block id="37c93461ccb3b9d32a460c02b4fc8ce6" category="list-text">보안 컨텍스트 제약 조건이 필요한 Kubernetes 버전을 실행 중인 경우 * Kubernetes * 에서 데이터를 수집하도록 에이전트 구성 섹션의 지침을 따르십시오. 사용자 기반 설치 시 자동으로 설치됩니다.</block>
   <block id="4e7860768ab50263cd322fefea021fdc" category="list-text">Kubernetes 클러스터 역할 및 역할 바인딩을 생성할 수 있는 권한이 있어야 합니다.</block>
   <block id="56cb6633aba007c9c91082eb591c6ac6" category="section-title">모니터링은 Linux 노드에만 설치됩니다</block>
   <block id="748fdb05a8ec278d9ce5ea3bde4405f4" category="paragraph">Cloud Insights는 Linux를 실행하는 Kubernetes 노드 모니터링을 지원하며, 이들 플랫폼에서 다음 Kubernetes 레이블을 찾는 Kubernetes 노드 선택기를 지정합니다.</block>
   <block id="419f3742e6de8e0ec4b22cce005e7630" category="cell">플랫폼</block>
   <block id="b021df6aac4654c454f46c77646e745f" category="cell">라벨</block>
-  <block id="fcbb3d16fd787d5bff5935ba723121de" category="cell">Kubernetes v1.17 이상</block>
   <block id="f1f45371fb9bb18dae05a3bbc8c3fbc0" category="cell">Kubernetes.IO/OS = Linux</block>
   <block id="9e2a330d57e085e593849abad3159d54" category="cell">Rancher + Cattle.IO를 오케스트레이션/Kubernetes 플랫폼으로 사용</block>
   <block id="210d6dd076b2d2e1dd1645c99d185fbd" category="cell">Cattle.io/OS = Linux</block>
@@ -6691,30 +6677,7 @@
   <block id="cb43d6ddfc5892dafbf435fffd06e735" category="paragraph">Fluent-bit가 활성화된 경우 다음 정보도 다운로드하십시오.</block>
   <block id="a8de879a7d09bdde6281eb2eb648ad0f" category="paragraph">새 Docker 저장소 위치를 반영하도록 에이전트 CR을 편집하고 자동 업그레이드를 비활성화합니다(활성화된 경우).</block>
   <block id="2f467f6ec28d4dda9efc2d651f82d1b6" category="paragraph">spec:_ 섹션에서 다음과 같이 변경합니다.</block>
-  <block id="54afcf6213f1a3b61770613a9ebc68df" category="section-title">스크립트 기반 설치</block>
-  <block id="2c221df7e5c48bd54511af38bd07dbad" category="inline-image-macro">스크립트 기반 설치</block>
-  <block id="ac80a29f37fb946121c0253c4976bde6" category="paragraph"><block ref="ac80a29f37fb946121c0253c4976bde6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b64f662cc5cf3d2e1684d86487aea6f6" category="list-title">Kubernetes에 스크립트 기반 에이전트를 설치하는 단계:</block>
-  <block id="3c3ac08f88c7317ac9d41d3b669cbc27" category="list-text">설치 대화 상자에서 * Agent Installer Snippet * 복사 버튼을 클릭합니다. 명령 블록을 보려면 _+ Reveal Agent Installer Snippet_ 단추를 클릭할 수도 있습니다.</block>
-  <block id="f5371c459cefaaee7b5b7685e956ff88" category="list-text">명령을 _bash_window에 붙여 넣습니다.</block>
-  <block id="c3e7ae0efafea510710a12fe0f0d609a" category="list-text">필요한 경우 final_./$installerName_ 전에 다음 중 하나 또는 둘 다를 추가하도록 명령 블록을 수정하여 설치 명령의 일부로 네임스페이스를 재정의하거나 클러스터 이름을 제공할 수 있습니다</block>
-  <block id="e1a5dab3e4ad3574b29d38315af67877" category="list-text">cluster_name=&lt;클러스터 이름&gt;</block>
-  <block id="8d452c9dd71946426462bb948da29ba1" category="list-text">Namespace=&lt;Namespace&gt;</block>
-  <block id="2b88b6e768b59c582a319ed7678901c8" category="paragraph">이 명령은 명령 블록에 있습니다.</block>
-  <block id="a16c56e9bf65ad3b7b874edee04a172d" category="admonition">_cluster_name_은 Cloud Insights에서 메트릭을 수집하는 Kubernetes 클러스터의 이름이고, _namespace_는 텔레그라프 에이전트를 구축할 네임스페이스입니다. 지정한 네임스페이스가 없으면 생성됩니다.</block>
-  <block id="a49846985b439fe0226db69fec5a37b3" category="list-text">준비가 되면 명령 블록을 실행합니다.</block>
-  <block id="f8dad256798b9f55db0111e9f6fa89aa" category="list-text">명령은 적절한 에이전트 설치 프로그램을 다운로드하고 설치하고 기본 구성을 설정합니다. _namespace_를 명시적으로 설정하지 않은 경우 이를 입력하라는 메시지가 표시됩니다. 완료되면 스크립트가 에이전트 서비스를 다시 시작합니다. 명령에 고유한 키가 있으며 24시간 동안 유효합니다.</block>
-  <block id="4982b7b8dc760f43a8412361a66b103f" category="list-text">완료되면 * Complete Setup * (설정 완료 *)을 클릭합니다.</block>
-  <block id="44041917404886ef4df8802ca1493c79" category="section-title">Kubernetes용 프록시 지원 구성 - 스크립트 기반</block>
-  <block id="d3f2095232996254a1ce9d2dd9efc5b0" category="paragraph">* Telegraf 에이전트를 설치한 후 적절한 _https_proxy_and/or_http_proxy_environment 변수를 _Telegraf-ds_demonset 및 _Telegraf-RS_replicaset에 추가하고 설정합니다.</block>
-  <block id="fc8f446a9ea6e6bdd7e365563b8c3851" category="paragraph">그런 다음 Telegraf를 다시 시작합니다.</block>
-  <block id="d3eca57feea30c8725375ed32c9285fd" category="section-title">DemonSet, ReplicaSet 및 에이전트를 중지/시작합니다</block>
-  <block id="b48de51edae08102b98dd048f7903a05" category="paragraph">DemonSet 및 ReplicaSet은 필요한 Telegraf 에이전트/포드를 실행하기 위해 Kubernetes 클러스터에서 생성됩니다. 기본적으로 이러한 Telegraf 에이전트/Pod는 마스터 노드와 비마스터 노드 모두에서 예약됩니다.</block>
-  <block id="4d38edd7b7c9375065c0ea7fde2002ce" category="paragraph">에이전트의 중지 및 재시작을 용이하게 하기 위해 다음 명령을 사용하여 Telegraf DemonSet YAML 및 ReplicaSet YAML을 생성합니다. 이러한 명령은 기본 네임스페이스 "CI-모니터링"을 사용합니다. 고유한 네임스페이스를 설정한 경우 다음 명령 및 파일에서 해당 네임스페이스를 대체합니다.</block>
-  <block id="925b82fe7b7df059708510a3af94e2d0" category="paragraph">고유한 네임스페이스를 설정한 경우 다음 명령 및 파일에서 해당 네임스페이스를 대체합니다.</block>
-  <block id="27632d6c587ce664ee73ab41cf584c2d" category="paragraph">그런 다음 다음 다음 명령을 사용하여 Telegraf 서비스를 중지하고 시작할 수 있습니다.</block>
   <block id="1a2ec26374f8d36de076929c5ff28aa8" category="section-title">Kubernetes에서 데이터를 수집하도록 Agent 구성</block>
-  <block id="8c357155c34910d917ac705e248f3417" category="paragraph">참고: 스크립트 기반 설치의 기본 네임스페이스는 _ci-monitoring_입니다. 운영자 기반 설치의 경우 기본 네임스페이스는 _NetApp-모니터링_입니다. 네임스페이스와 관련된 명령에서 설치에 올바른 네임스페이스를 지정해야 합니다.</block>
   <block id="d101f99762aa933eab885ac5a54fb726" category="paragraph">에이전트가 실행되는 POD는 다음 항목에 대한 액세스 권한이 있어야 합니다.</block>
   <block id="f1e81401ee0afe2275193298ef588120" category="list-text">호스트 경로</block>
   <block id="5eeadeea1e2bd82727f9a220408a5f2a" category="list-text">configMap을 클릭합니다</block>
@@ -6722,8 +6685,6 @@
   <block id="16fbf864377203e70ce04c9b7fbcef86" category="paragraph">이러한 Kubernetes 객체는 Cloud Insights UI에 제공된 Kubernetes 에이전트 설치 명령의 일부로 자동으로 생성됩니다. OpenShift와 같은 일부 Kubernetes에서는 이러한 구성요소에 대한 액세스를 차단할 수 있는 강화된 보안 수준을 구현합니다. SecurityContextConstraint_는 Cloud Insights UI에 제공된 Kubernetes 에이전트 설치 명령의 일부로 생성되지 않으며 수동으로 만들어야 합니다. 생성된 후 Telegraf 포드를 다시 시작합니다.</block>
   <block id="708b7f7f18eb293652df29349e867172" category="section-title">kubbe-state-metrics 서버 설치</block>
   <block id="e4f58bd0ebfcc73f188eead8e62fdd51" category="admonition">운영자 기반 설치는 kubbe 상태 측정 지표 설치를 처리합니다. 운영자 기반 설치를 수행하는 경우 이 섹션을 건너뛰십시오.</block>
-  <block id="d9bdb1d7869cec3eaa75aaa48b414845" category="inline-link-macro">Kudbe-state-metrics 문서</block>
-  <block id="f15a3c589417e8499878c4798162a622" category="admonition">Kubernetes 영구 볼륨(PVS)을 백엔드 스토리지 디바이스에 연결하는 기능을 포함하여 전체 기능을 활용하려면 kubbe-state-metrics 버전 2.0 이상을 사용하는 것이 좋습니다. kubbe-state-metrics 버전 2.0 이상에서는 Kubernetes 오브젝트 라벨이 기본적으로 내보내지지 않습니다. Kubernetes 오브젝트 레이블을 내보내려면 메트릭 레이블 "허용" 목록을 지정해야 합니다. 에서 _-- metric-labels-allowlist_옵션을 참조하십시오 <block ref="c9e67904a9f79d0939703fb8530b31c4" category="inline-link-macro-rx"></block>.</block>
   <block id="85d9e7fafd4cca5a1545c9cbf16d8e80" category="paragraph">kubbe-state-metrics 서버를 설치하려면 다음 단계를 따르십시오(스크립트 기반 설치를 수행하는 경우 필요).</block>
   <block id="ba86ea7c2dbdd3f6b9064aa53b496ca9" category="list-text">임시 폴더(예: _/tmp/kuba-state-YAML-files/_)를 만들고 에서 .YAML 파일을 복사합니다<block ref="6c1d035244e82592cca4953c7743d814" category="inline-link-rx"></block> 이 폴더로 이동합니다.</block>
   <block id="abcf7e32baf550db167b82496350d414" category="list-text">kuby-state-metrics를 설치하는 데 필요한 .YAML 파일을 적용하려면 다음 명령을 실행합니다.</block>
@@ -6761,8 +6722,6 @@
   <block id="e940152e87eec8b40c6335f4aac3e4b7" category="paragraph">모니터링 네임스페이스를 Telegraf(전신) 외에 다른 용도로 사용하는 경우:</block>
   <block id="aca5f422c992e53669a31d99958653bc" category="paragraph">작업자 기반 설치의 경우 다음 명령을 실행합니다.</block>
   <block id="37fa33c86fdccdaa2b45e4dbf0cc8be1" category="list-text">기존 구성 백업:</block>
-  <block id="2dae4ebf3cd52678b8e5d2465189428c" category="list-text">Agent를 제거합니다(지침은 위 참조).</block>
-  <block id="74f5c6d32f2296f5957491bc1daf425c" category="list-text"><block ref="46fff369b4d49c060bdfe983d9141e8d" category="inline-link-macro-rx"></block>.</block>
   <block id="99b7973dda927022b1a7232d7b78e926" category="section-title">체크섬을 확인하는 중입니다</block>
   <block id="06da10bf5b15bdaae23d623ecea6b7f6" category="paragraph">Cloud Insights 에이전트 설치 프로그램은 무결성 검사를 수행하지만 일부 사용자는 다운로드한 아티팩트를 설치하거나 적용하기 전에 자체 검증을 수행하려고 할 수 있습니다. 기본 다운로드 및 설치 대신 다운로드 전용 작업을 수행하기 위해 이러한 사용자는 UI에서 가져온 에이전트 설치 명령을 편집하고 뒤에 오는 "설치" 옵션을 제거할 수 있습니다.</block>
   <block id="deadee5e2cfce7600cfd5def40a7d618" category="paragraph">다음 단계를 수행하십시오.</block>
@@ -7933,7 +7892,6 @@
   <block id="65524feb61d50c77bb7ba2638a763f8e" category="cell">일부 NFS 이벤트는 UI에서 표시되지 않습니다.</block>
   <block id="57312d53719f5635163cdff04dd88136" category="cell">다음을 확인하십시오. 1. POSIX 속성이 설정된 AD 서버의 사용자 디렉토리 수집기는 UI에서 활성화된 unixid 속성으로 실행해야 합니다. 2.NFS 액세스를 수행하는 모든 사용자는 UI 3의 사용자 페이지에서 검색할 때 표시됩니다. 원시 이벤트(사용자가 아직 검색되지 않은 이벤트)는 NFS 4에서 지원되지 않습니다. NFS 내보내기에 대한 익명 액세스는 모니터링되지 않습니다. NFS 버전이 NFS4.1 보다 적게 사용되었는지 확인합니다.</block>
   <block id="37cfac15ae1ab98b21f905d72c337d9e" category="summary">Cloud Insights는 통합 데이터 수집을 위한 에이전트로 Teleraf를 지원하며 Windows, Linux, macOS 및 Kubernetes에서 구성할 수 있습니다.</block>
-  <block id="73f1df4b50034876b992ea5afa05d7c8" category="cell">SELinux가 설정되어 있고 강제 적용되는 경우 Telegraf 포드가 Kubernetes 노드의 /proc/1/mountstats 파일에 액세스하지 못할 수 있습니다. 이러한 제한을 완화하려면 다음 중 하나를 수행합니다. • 스크립트 기반 설치의 경우 Telegraf DS('kubctl edit DS Telegraf-DS')를 편집하고 "privileged:false"를 "privileged:true"로 변경합니다. • 운영자 기반 설치의 경우 에이전트('kubctl edit agent-monitoring-NetApp')를 편집하고 "특별 권한 모드"를 "false"로 변경합니다.</block>
   <block id="4a0bdf868a5617c0d6fdd80292b7ffbc" category="paragraph">스크립트 기반 Telegraf 설치를 위해 보안 컨텍스트 제약 조건을 이전에 수동으로 만든 경우:</block>
   <block id="5b02fb8f86f33e62862c6886dbbe655e" category="list-text">volume_groups를 사용하지 않는 한 읽기 전용 사용자 이름 및 암호가 필요합니다. 이 경우 Admin 사용자 이름과 암호가 필요합니다</block>
   <block id="a9d11491cdc145dca25e537c123d978b" category="summary">ONTAP 9.9 이상의 데이터 수집기에 대한 NetApp 클라우드 연결을 구성합니다</block>
@@ -8001,8 +7959,6 @@
   <block id="2ca57dbd75b94a950c199a1c12cf85b9" category="cell">경고 및 경고 알림을 별도의 수신자에게 전송하여 올바른 팀이 정보를 계속 받을 수 있도록 합니다</block>
   <block id="222414ee53d0c57a1870d9446ce7b005" category="paragraph">Telegraf 통합 데이터 수집용 에이전트가 성능 및 보안 향상을 통해 버전 * 1.21.2 * 로 업데이트되었습니다. 업데이트를 원하는 사용자는 의 해당 업그레이드 섹션을 참조할 수 있습니다 <block ref="7eca75c9707898b05c3a8b3fe84d7968" category="inline-link-macro-rx"></block> 문서화: 이전 버전의 에이전트는 사용자 작업 없이 계속 작동합니다.</block>
   <block id="3d64508ab84203107071583e56c26993" category="list-text">Broadcom Fibre Channel 스위치 데이터 수집기는 각 인벤토리 폴링에서 실행되는 CLI 명령 수를 줄이도록 최적화되었습니다.</block>
-  <block id="4199b6880b46eaef66e8d25adefc1ac2" category="cell">모든 모니터링 및 최적화 기능, 모든 사용자 기능, 데이터 수집기 관리, 모니터링 및 최적화 API 토큰 및 알림을 수행할 수 있습니다. 관리자는 다른 사용자를 초대할 수도 있지만 Monitor 및 Optimize 역할만 할당할 수 있습니다.</block>
-  <block id="6d02b22d35efda9cc53c8bd1d5c2d8c5" category="cell">알림, 포렌식, 데이터 수집기, 자동화된 응답 정책 및 Cloud Secure용 API 토큰을 포함한 모든 Cloud Secure 기능을 수행할 수 있습니다. 관리자는 다른 사용자를 초대할 수도 있지만 Cloud Secure 역할만 할당할 수 있습니다.</block>
   <block id="ceecc9f892b56b1081be5d007d545aab" category="cell">보고 API 토큰 관리, 보고서 구성, 보고 작업 종료 및 재시작 등의 모든 관리 작업을 포함한 모든 사용자/작성자 기능을 수행할 수 있습니다. 관리자는 다른 사용자를 초대할 수도 있지만 보고 역할만 할당할 수 있습니다.</block>
   <block id="45268bdcc9ffe3a5807e75085e768efb" category="cell">API 유형</block>
   <block id="c73695e7529146d82731a287d36e3f1d" category="cell">로그 수집</block>
@@ -8096,7 +8052,6 @@
   <block id="fb00f883d7bba803b24e9d29087a3f05" category="list-text">필요에 따라 각 Cloud Insights 기능 세트에서 사용자의 역할을 수정합니다.</block>
   <block id="fbf90baf7d2aee8b9e682b8648241121" category="list-text">변경 내용 저장 _ 을(를) 클릭합니다.</block>
   <block id="45d8ada80e1217d6ce7177e21f1e6c70" category="section-title">보조 계정 소유자를 지정합니다</block>
-  <block id="77ca2cca3bda5b43a70ba6327d64e565" category="paragraph">다른 사용자에게 계정 소유자 역할을 할당하려면 Monitor &amp; Optimize의 계정 소유자로 로그인해야 합니다.</block>
   <block id="9ee18dbf71b3091f256475408a6072d3" category="list-text">관리자 &gt; 사용자 관리 * 를 클릭합니다.</block>
   <block id="208c98f13e768937bc22bc97791e7bb1" category="list-text">사용자 대화 상자에서 * 소유자로 할당 * 을 클릭합니다.</block>
   <block id="08c4f5aee4f8b6cabdcd558ad1452ad2" category="list-text">변경 사항을 저장합니다.</block>
@@ -8195,7 +8150,6 @@
   <block id="ccd695c5d6bdf7e28aefe86c7867a7a9" category="inline-image-macro">각 원본 지점 사이에 추가 데이터 점이 있는 선형 보간을 보여주는 단순한 직선</block>
   <block id="7be18bdce3683fe5cad25aaa844df56d" category="paragraph"><block ref="7be18bdce3683fe5cad25aaa844df56d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="664a8070ae98149df4b2438dabea2160" category="admonition">Agent를 설치하기 전에 설치 파일을 확인하려면 정보 를 참조하십시오 <block ref="80fd3363e39e5f2a536c9cf5d81a1f0a" category="inline-xref-macro-rx"></block>.</block>
-  <block id="1f7b055a94f5e05d9c08683890d73b5e" category="list-text">기존의 스크립트 기반 에이전트 설치(권장하지 않음)</block>
   <block id="342761835c95d3618833ced82b6260ac" category="section-title">Kubernetes 체크섬 확인 중</block>
   <block id="737f024effb455f30b04c7091e2d8667" category="section-title">Kubernetes Agent 설치 문제 해결</block>
   <block id="64cc432c57095555eeb8d95b2c8523f6" category="sidebar">Agent 구성(Windows/Linux/Mac)</block>
@@ -8521,7 +8475,6 @@
   <block id="b71ed64e04e4fa64be1d827a7f0a608d" category="list-text">선형 - 기존 점 사이의 데이터 점을 보간합니다</block>
   <block id="d8afe893977b1761d465e261f7f0645c" category="list-text">계단 - 이전 데이터 지점을 보간된 데이터 지점으로 사용합니다</block>
   <block id="f893ea896ad5f8fd6438a1f100e2334e" category="cell">Cloud Insights는 _etcd_를 K8s 데이터 저장소로 모니터링하는 기능만 지원합니다. 다음 지침에 따라 구성을 변경하여 etcd 데이터를 수집하지 않도록 에이전트를 수정할 수 있습니다. kubctl -n NetApp 모니터링 에이전트 모니터링 편집 에이전트 모니터링 - NetApp 해당 파일에서 다음 섹션을 삭제합니다. -name:Prometheus_etcd run-mode: - ReplicaSet</block>
-  <block id="54a35beb58d95fcc8830c9195faeeb1d" category="list-text">다음 명령을 사용할 수 있어야 합니다. _curl_, _sudo_(스크립트 기반 설치에는 필요하지 않음), _openssl_, _sha256sum_ 및 _kubctl_. 최상의 결과를 얻으려면 이러한 명령을 경로에 추가하십시오.</block>
   <block id="b68a34f8a928794da0f98d4ee916c271" category="list-text">*<block ref="2fadd2d714be07c05e8b57dea395b60f" category="inline-link-macro-rx"></block>*</block>
   <block id="0e8f78366da6895d9cdeb4b8ed117539" category="paragraph">이 섹션의 링크를 클릭하면 NetApp Knowledgebase로 이동하고 관련 기사, 방법 등을 검색할 수 있습니다.</block>
   <block id="f762cf8a3ce13153f8f371a1905bd1ae" category="list-text">*<block ref="70de40644647494a66feddaab5d43f41" category="inline-link-macro-rx"></block>*</block>
@@ -8547,7 +8500,6 @@
   <block id="e89f4056c39669637fb609320173681a" category="list-text">텔레그라프를 다시 시작합니다.</block>
   <block id="0a5b7edb55b772c60bfa8af868b679cf" category="section-title">macOS</block>
   <block id="e31fe47af805d4bd3f7f8847ce8bdf7a" category="list-text">C:\Program Files\Telegraf\Telegraf.d_의 각 Telegraf 구성 파일에 대해 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 교체합니다.</block>
-  <block id="8c4783224d2aaf78624ed6e1d1bc6bc1" category="paragraph">사용자가 액세스할 수 있는 API 범주도 에 따라 다릅니다 <block ref="ead2141fb682d81a2f0b1deca7bb95c5" category="inline-link-macro-rx"></block> 각 Cloud Insights 기능 세트(모니터링, Cloud Secure, 보고)에 있습니다.</block>
   <block id="474b549bf76599f904f9c951a609a127" category="cell">Linux의 경우 50GB, 디스크 공간은 다음과 같은 방식으로 할당해야 합니다. /opt/NetApp 10GB/var/log/NetApp 40GB/tmp 설치 시 사용 가능한 최소 1GB</block>
   <block id="e7e11e47420c10995bd13aa4ca018d9d" category="inline-link-macro">NetApp Config Advisor를 참조하십시오</block>
   <block id="b0dfae0e334f78eb272eea393c0dbe9c" category="cell"><block ref="b0dfae0e334f78eb272eea393c0dbe9c" category="inline-link-macro-rx"></block></block>
@@ -8607,10 +8559,6 @@
   <block id="b865b0f0f94674aa0d7878e2253f2c1b" category="doc">피처 및 기능 미리보기</block>
   <block id="f06798e708a78e76d30364617ea53340" category="paragraph">Cloud Insights는 _Preview_매너 방식으로 새로운 기능과 특징을 강조합니다. 미리 보기 기능은 제한된 환경 또는 제한된 용량에서 사용할 수 있습니다.</block>
   <block id="1faeb81be1b403bf2b660e33e3c7e5f7" category="paragraph">이러한 기능 중 하나 이상을 미리 보려면 에 문의하십시오 <block ref="16ff11ed878ec2cb7f479192bb9f1a7d" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
-  <block id="963905e220923605f4c2bdc8e3d98f6d" category="paragraph">현재 Preview에 포함된 몇 가지 기능은 다음과 같습니다.</block>
-  <block id="aeaf81dc6547412bdc24df519c65a5ba" category="cell">사용자 액세스 자동 응답 작업 제한</block>
-  <block id="f763810a8ec0d5862e0f288795932956" category="cell">공격이 감지되면 Cloud Secure는 파일 시스템에 대한 사용자 액세스를 제한함으로써 공격을 차단할 수 있습니다(전체 블록 또는 읽기 전용 액세스로 설정). 자동 응답 정책을 사용하거나 알림 또는 사용자 세부 정보 페이지에서 수동으로 액세스를 제한할 수 있습니다.<block ref="e8dc9c29c76388404a63bbf729dac2fd" category="inline-link-macro-rx"></block></block>
-  <block id="9f854307bc74ec4b140a63a4e38f1e83" category="cell">스트레스 분석 하의 공유 리소스를 통해 공유 리소스의 워크로드 요구 및 영향을 받는 하나 이상의 개별 워크로드에서 높은 수요가 요구되어 스트레스를 받고 있는 공유 스토리지 리소스를 확인할 수 있습니다<block ref="b97265367ad52c02d31fa7522e26571d" category="inline-link-macro-rx"></block></block>
   <block id="6e1238d84ff9d81dac586bf262a824f6" category="cell">이 목록은 정확히 일치하는 문자열을 구성해야 합니다. ESX_HOST로 필터링하려는 경우 Cloud Insights 및 vSphere에 모두 보고되는 대로 ESX 호스트의 정확한 "이름"을 쉼표로 구분된 목록으로 작성해야 합니다. 이러한 "이름"은 IP 주소, 단순 호스트 이름 또는 FQDN(정규화된 도메인 이름)일 수 있습니다. 이는 해당 호스트가 vSphere에 처음 추가될 때 이름이 어떻게 지정되었는지 기준으로 결정됩니다. 클러스터로 필터링할 경우 하이퍼바이저에서 CI에 의해 보고된 Cloud Insights 스타일 클러스터 이름 사용 - Cloud Insights는 vSphere 클러스터 이름을 vSphere 데이터 센터 이름으로 미리 지정하고 슬래시 "DC1/clusterA"는 Cloud Insights가 데이터 센터 DC1 내의 클러스터 A에서 하이퍼바이저에 보고하는 클러스터 이름입니다.</block>
   <block id="6a9aea5a3e6edbc2fbcfb0b82e833894" category="section-title">지원 및 비디오</block>
   <block id="d8c4d821533431837ec1b03f5fad4fe4" category="paragraph">이 비디오를 통해 데이터 수집기를 설치하고 대시보드를 사용하여 Cloud Insights에서 Config Advisor를 최대한 활용하는 방법을 알아보십시오.</block>
@@ -8657,12 +8605,6 @@
   <block id="3e9d81929de3e4d569ffbafc70d57da5" category="cell">수집기 경고</block>
   <block id="85cbbe353849360cf65793354f09c95b" category="cell">이 경고는 일반적으로 데이터 수집기 또는 대상 시스템의 잘못된 구성 때문에 발생할 수 있습니다. 구성을 재검토하여 향후 경고를 방지합니다. 또한 데이터 수집기가 가능한 모든 데이터를 수집한, 완성도 미만이 아닌 데이터를 검색하는 것이 원인일 수 있습니다. 이는 데이터 수집 중에 상황이 변경되는 경우(예: 데이터 수집 시작 시점에 데이터가 캡처되기 전에 가상 시스템이 삭제된 경우) 발생할 수 있습니다.</block>
   <block id="1879fc114cb19058a792b71aac95cb61" category="paragraph">Cloud Insights는 을 사용합니다 <block ref="603b55048bd80ae5555b5b03845c58cc" category="inline-link-macro-rx"></block> 통합 데이터 수집을 위한 에이전트로 사용됩니다. Telegraf는 메트릭, 이벤트 및 로그를 수집 및 보고하는 데 사용할 수 있는 플러그인 기반 서버 에이전트입니다. 입력 플러그인은 시스템/OS에 직접 액세스하거나 타사 API를 호출하거나 구성된 스트림(예 Kafka, statsd 등). 출력 플러그인은 에이전트에서 Cloud Insights로 수집된 메트릭, 이벤트 및 로그를 전송하는 데 사용됩니다.</block>
-  <block id="938845c86bf6439f2bf6f4fc86fee5cf" category="section-title">운영자 기반 설치 또는 스크립트 기반 설치?</block>
-  <block id="da90f5dd76c952cff43625f8bc75e982" category="paragraph">Cloud Insights은 고객의 Kubernetes 클러스터를 모니터링하기 위한 Kubernetes Operator를 구축했습니다. NetApp Kubernetes Monitoring Operator(NKMO)는 Cloud Insights에서 제어 가능한 더욱 유연한 모니터링 구성과 고객 중심 구성 개입 감소, K8s 클러스터에서 실행 중인 다른 소프트웨어의 모니터링 기회를 개선할 수 있다는 점에서 스크립트 설치 모니터링 방법보다 향상된 기능입니다.</block>
-  <block id="8270372556d5c0c95f3132ca3526b498" category="paragraph">NKMO는 Cloud Insights로 데이터 수집, 변환 및 전송을 위해 기본 Telegraf 소프트웨어를 계속 사용하고 있습니다. 또한 맞춤형 리소스 정의 및 맞춤형 리소스를 통해 각 K8s 클러스터에 대한 맞춤형 모니터링을 제공합니다.</block>
-  <block id="59c020eb3b2fac7b9a29161528b3da48" category="section-title">에이전트 설치 중</block>
-  <block id="51192dad58dd7321468a8557d0452699" category="section-title">스크립트 기반 K8s 모니터링에서 운영자 기반으로 업그레이드</block>
-  <block id="0266610cf3fcbb5ba3b10477aecfe4e1" category="paragraph">스크립트 기반 Kubernetes 모니터링을 이미 설치한 경우, 다음 단계에 따라 운영자 기반 모니터링으로 업그레이드하십시오.</block>
   <block id="a24b05a1dbfc11d6e8c8bae6db339730" category="paragraph">업그레이드 단계</block>
   <block id="38c37951a474215e996d1e567cc4b4d5" category="list-text">스크립트 기반 모니터링 설치에서 ConfigMap 유지:</block>
   <block id="66cdbaeec188ae82c518cbff0c526e02" category="list-text">K8s 운영자 기반 모니터링 솔루션을 설치할 때 사용할 K8s 클러스터 이름을 저장하여 데이터 연속성을 보장합니다.</block>
@@ -8670,7 +8612,6 @@
   <block id="ec3a7e104a572b3d15bab71acde3edfb" category="list-text">스크립트 기반 모니터링을 제거합니다</block>
   <block id="8f0f3f28d66cb57de112b327612b48d4" category="inline-image-macro">Kubernetes Operator용 타일</block>
   <block id="099085e6f245bdfee8ce5ed73ba25890" category="paragraph"><block ref="099085e6f245bdfee8ce5ed73ba25890" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="28fa7dedfef6e24a05f2efea53818499" category="admonition">스크립트 기반 설치는 더 이상 사용되지 않습니다. Kubernetes 클러스터를 모니터링하려면 Kubernetes Operator-based collection을 사용하십시오.</block>
   <block id="6d35f83ec0df4672769520e5d6df1cd5" category="summary">통찰력을 통해 리소스 사용 및 추세를 파악할 수 있습니다.</block>
   <block id="f1c9e9af80bb533618f5bdefe333747d" category="doc">인사이트</block>
   <block id="4e97535a9ad440d2d327ab364bb7a0ec" category="paragraph">Insights를 사용하면 리소스 사용량과 이러한 리소스가 다른 리소스에 미치는 영향 또는 전체 분석에 소요되는 시간을 파악할 수 있습니다.</block>
@@ -8679,10 +8620,8 @@
   <block id="9e9013279f80acdb151d7cad5bc3f7d8" category="section-title">스트레스 상태의 공유 리소스</block>
   <block id="5f002a5fdb5afaacfc165c3a324751d5" category="paragraph">워크로드가 큰 경우 공유 리소스에 있는 다른 워크로드의 성능이 저하될 수 있습니다. 이렇게 하면 공유 리소스가 스트레스를 받게 됩니다. Cloud Insights는 사용자 환경의 리소스 포화 및 영향을 조사하는 데 도움이 되는 도구를 제공합니다. <block ref="de4400096db30b5f709799778e050e2c" category="inline-link-macro-rx"></block></block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link-macro">자세한 정보</block>
-  <block id="3a4ab80b2583f296b4bc5d2e0c2c4b5d" category="admonition">이것은 _Preview_feature 이며 개선 사항이 있을 때 시간이 지남에 따라 변경될 수 있습니다. <block ref="ee58f03d7eaea0665aa8a572992ca1b8" category="inline-link-macro-rx"></block> Cloud Insights 미리보기 기능 정보.</block>
   <block id="c1c7efc58c7b64cc21f3ae15934e8271" category="section-title">공간이 부족되는 Kubernetes 네임스페이스</block>
   <block id="806f6dbcc954f0a88489885f517d1d1d" category="paragraph">Space Insight가 없는 Kubernetes 네임스페이스 에서는 공간이 부족할 위험이 있는 Kubernetes 네임스페이스의 워크로드를 볼 수 있으며 각 공간이 가득 채워지기 전의 남은 일 수에 대한 추정치가 있습니다. <block ref="604196d3b206e62dba15152db76beddc" category="inline-link-macro-rx"></block></block>
-  <block id="5153ae996beb76439018cf032b394d21" category="paragraph"><block ref="5153ae996beb76439018cf032b394d21" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9e7ded308e600f5c72a32aac82868158" category="list-text">* 채팅 * - NetApp 지원 담당자와 연결하여 지원을 받을 수 있습니다(평일에만 해당). 도움말 &gt; 지원 * 페이지의 오른쪽 아래에 있는 버블을 클릭합니다.</block>
   <block id="f9696d5ebb5a2bc3b4e557d0f479e831" category="paragraph">ONTAP 데이터 수집기 * 랜딩 페이지를 볼 때 데이터 수집기 요약 섹션의 "알림" 필드에서 연필 아이콘을 클릭하여 알림을 수정할 수 있습니다.</block>
   <block id="851540d32e033a0c14b63879881da871" category="summary">통찰력은 Kubernetes 공간이 가득 찰 가능성을 예측하는 데 도움이 될 수 있습니다.</block>
@@ -8753,10 +8692,7 @@
   <block id="82803c7a526739de20fc24c17e739d7c" category="list-text">클러스터의 Pod 수 이 번호를 클릭하면 창 목록 페이지가 열립니다.</block>
   <block id="bed3b3102569672060faa59f92fbb130" category="list-text">클러스터의 * 네임스페이스 * 수입니다. 이 번호를 클릭하면 네임스페이스 목록 페이지가 열립니다.</block>
   <block id="12a38026906d3d3a51a3538b98e0d002" category="list-text">클러스터에 있는 * 워크로드 * 수. 이 번호를 클릭하면 워크로드 목록 페이지가 열립니다.</block>
-  <block id="abd68946270bbe5e8dd65bc248dfb347" category="cell">시간 대 전체 예측</block>
-  <block id="9b42a670fcbdc4d8fa72c247b7af5785" category="cell">Cloud Insights는 다음 객체에 대한 용량이 소진될 때까지 일 수를 늘릴 수 있습니다. 내부 볼륨 스토리지 풀 볼륨 이러한 예측 값을 사용하면 운영 중단의 위험을 크게 줄일 수 있습니다. 쿼리, 모니터 또는 대시보드에서 _timeToFull.total_and_timeToFull.simenceInterval_카운터를 사용합니다.</block>
   <block id="dfeced9105a52cdc4ad66bf5d6ef9e5f" category="cell">라이센스 버전 중 하나를 실행하는 컴퓨터: * CentOS(64비트): 7.2 ~ 7.9, Stream 8, Stream 9 * Debian(64비트): 9 및 10 * Oracle Enterprise Linux(64비트): 7.5 ~ 7.9, 8.1 ~ 8.4 * Red Hat Enterprise Linux(64비트): 7.2 ~ 7.9, 8.1 ~ 8.4 * Ubuntu 서버: 18.04 및 20.04 LTS 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
-  <block id="52fe0ed84edd736c538f6ab44e4a643f" category="cell">다음 중 하나의 라이센스 버전을 실행하는 컴퓨터: * Microsoft Windows 10 64비트 * Microsoft Windows Server 2012 * Microsoft Windows Server 2012 R2 * Microsoft Windows Server 2016 * Microsoft Windows Server 2019 * Microsoft Windows Server 2022 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
   <block id="5878d8d726a0f6915f98c3ad70765e41" category="paragraph">Cloud Insights의 최신 Telegraf 버전은 * 1.22.3 * 입니다.</block>
   <block id="64643b4abc81cdc6d03a96846188e46e" category="list-text">워크로드 보존</block>
   <block id="8160f36882be54ea94b2656ab98ca110" category="paragraph">에는 호스트, 네트워크 및 스토리지와 같은 다른 공유 리소스에 영향을 미치거나 영향을 받는 자산이 나와 있습니다. 이러한 리소스를 _greedy_and_degraded_resources 라고 합니다.</block>
@@ -8802,7 +8738,6 @@
   <block id="9fa110aa288235e533bb7fb8e74e2d54" category="paragraph"><block ref="9fa110aa288235e533bb7fb8e74e2d54" category="inline-image-macro-rx" type="image"></block></block>
   <block id="82cd1d20c4551d025cf4cf7661fecb69" category="paragraph">Memory 및 CPU 게이지는 _allocatable capacity_와 _total capacity_에 대해 _used_를 표시하기 때문에 세 가지 색상으로 표시됩니다.</block>
   <block id="86a12d532c7d028d9b551dea3a2ccd99" category="cell">Red Hat Enterprise Linux 7.x, 8.x 64비트 CentOS 7.x 64비트 CentOS 8 Stream Ubuntu 20 ~ 22 64비트 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
-  <block id="8a3fedbdc9bb9fd90a3104834207e38e" category="list-text">NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 버전 1.19 이상에서 지원됩니다. Docker 컨테이너 런타임과 함께 사용할 경우 Cloud Insights는 NFS 및 iSCSI에 대한 POD-PV-스토리지 매핑을 표시할 수 있으며, 다른 런타임에서는 iSCSI만 표시합니다.</block>
   <block id="665d63bd09ee670a485ee7ffa3b8a595" category="list-text">NetApp Kubernetes Monitoring Operator 및 해당 종속성(Telegraf, kubbe-state-metrics, fluentbit 등)은 Arm64 아키텍처를 실행하는 노드에서 지원되지 않습니다.</block>
   <block id="fed2b89570c5c27f515afdba0f485a51" category="inline-link-macro">Cohesity SmartFiles를 참조하십시오</block>
   <block id="114e1ad704707526c811f7952ae68dac" category="cell"><block ref="114e1ad704707526c811f7952ae68dac" category="inline-link-macro-rx"></block></block>
@@ -8885,4 +8820,80 @@
   <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="inline-xref">필수 구성 요소</block>
   <block id="41bcd606fd956d57d1d3104d5f2d27fc" category="cell">이는 Amazon FSx에서 알려진 문제입니다. Cloud Secure는 기존 SMB 세션을 닫을 수 없습니다. 현재 Amazon FSx에 대한 기존 SMB 세션을 차단할 수 있는 해결 방법이 없습니다. 수집기 유형이 CVO 또는 ONTAP인 경우 에 설명된 대로 올바른 권한을 확인합니다 <block ref="6c7a156ba37a843e01c9100eb2f3a3a7" category="inline-xref-macro-rx"></block> 섹션을 참조하십시오.</block>
   <block id="dfb65f9e847424acb7569e9d1d256de5" category="section-title">SMB용 사용자를 수동으로 복원합니다</block>
+  <block id="2a0a63dd16c8b87a179a933b2e9eb92e" category="paragraph"><block ref="2a0a63dd16c8b87a179a933b2e9eb92e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ab7edf5d95e4001229e2908ae791460a" category="section-title">학습 센터</block>
+  <block id="b81816f08eee3d7d65d91572590180d0" category="paragraph">서브스크립션에 관계없이 * 도움말 &gt; 지원 * 은 Cloud Insights를 최대한 활용할 수 있도록 여러 NetApp University 과정 오퍼링에 대한 링크를 제공합니다. 확인해 보세요!</block>
+  <block id="87d26f2a744f5c5f07151656de6a1390" category="summary">ONTAP Essentials는 환경에 대한 자세한 개요를 제공하는 일련의 대시보드와 워크플로우입니다.</block>
+  <block id="f7e8a669ab2a5aca497e3123c1f3935b" category="doc">ONTAP 핵심 요소</block>
+  <block id="7aaa3b04c62b1d6b52635ad40e8ff0a2" category="paragraph">ONTAP Essentials는 ONTAP 인벤토리 및 워크로드를 상세하게 보여주는 대시보드 및 워크플로 집합입니다. ONTAP Essentials에서 작업할 때 사용되는 용어는 다음과 같습니다.</block>
+  <block id="70de8b0d424cdb2d65787ccde2449a8d" category="list-text">인프라/인벤토리: 사용자 데이터에 스토리지/네트워킹 서비스를 제공하는 개체의 보기를 나열합니다</block>
+  <block id="3d46ac68e417d922e47209568ce8e07b" category="list-text">워크로드: 사용자가 데이터를 읽고 쓸 수 있도록 인터페이스를 제공하는 개체의 보기를 나열합니다.</block>
+  <block id="0b91449983387e2b661cde46c2928572" category="list-text">데이터 보호: NetApp 데이터 보호 기술을 사용하여 보호할 수 있는 다양한 개체의 목록 보기입니다</block>
+  <block id="de2952ddd95b7a20bbb88abe0c97e2a6" category="paragraph">ONTAP Essentials를 사용하려면 지난 주에 수집된 데이터를 포함하는 하나 이상의 ONTAP 데이터 수집기가 필요합니다.</block>
+  <block id="a13907a785102ea69b2891d9e6233f6f" category="paragraph">탐색을 시작하려면 기본 Cloud Insights 메뉴에서 * ONTAP Essentials * 를 선택합니다.</block>
+  <block id="da61c5d249c3bbc25d9cee2d6d64b53a" category="inline-image-macro">ONTAP Essentials에 대한 개요 대시보드</block>
+  <block id="f0104a81a8bbf75874c8612df2bea3f7" category="paragraph"><block ref="f0104a81a8bbf75874c8612df2bea3f7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="88c28e828c24faa9cbd8f5219c054d7e" category="paragraph">개요 * 대시보드에는 전체 용량 및 성능 백분율과 함께 사용자 환경의 클러스터 수와 같은 유용한 정보가 표시됩니다. 또한 스토리지 용량 또는 성능 용량이 공간 부족해질 때까지 예상 일 수에 대한 예측 데이터도 볼 수 있습니다. 인프라의 컨트롤러가 고온으로 실행되는 경우 ONTAP Essentials에서 이를 보여 줍니다.</block>
+  <block id="39ef60f7b3d6d0c88b10d90a3775807a" category="paragraph">정보 그래프를 통해 시간 경과에 따른 성능 및 용량 사용량 분석 정보를 확인할 수 있습니다.</block>
+  <block id="192d723a70e1a973bee8e50c84ffa947" category="paragraph">이러한 각 그래프 또는 데이터 요소를 탐색 또는 조사의 시작 지점으로 사용할 수 있습니다.</block>
+  <block id="e8bfd68d700d556e8faa4883b15480df" category="paragraph">참고: "일 대 전체" 숫자 "0"(영)은 전체 일 수가 90일 이상 예상됨을 나타냅니다. 즉, 시스템이 곧 공간이 부족해질 위험이 없습니다.</block>
+  <block id="21a1e68164f738b8be1dae11d5a694b3" category="section-title">데이터 보호</block>
+  <block id="9aeef14e262ec111d94c3cac69cb1847" category="paragraph">SnapMirror 관계를 보려면 * 데이터 보호 * 페이지를 선택하십시오. 원본 또는 대상 볼륨 정보를 클릭하거나 기어 아이콘을 클릭하여 보려는 데이터에 대한 열을 추가합니다.</block>
+  <block id="0b0af87f68e61a9b2546cb02922b8109" category="inline-image-macro">SnapMirror 관계 목록 페이지</block>
+  <block id="ee2e5f4e15830a46863dde8ab0a741a9" category="paragraph"><block ref="ee2e5f4e15830a46863dde8ab0a741a9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e90044aab3d37986ef7b7d7557264d05" category="paragraph">ONTAP Essentials * 인프라 * 페이지에서는 모든 기본 ONTAP 객체에 대해 사전 구축된(추가 사용자 지정 가능) 쿼리를 사용하여 클러스터 상태와 성능을 확인할 수 있습니다. 탐색할 오브젝트 유형(클러스터, 스토리지 풀 등)을 선택하고 상태 또는 성능 정보를 표시할지 여부를 선택합니다. 필터를 설정하여 개별 시스템에 대해 자세히 설명합니다.</block>
+  <block id="4d4ca49abac813e247a4e4e53274fe27" category="inline-image-macro">스토리지 풀에 대한 인프라스트럭처 선택</block>
+  <block id="a2ab7b415e4b437cd221a7275ed38839" category="paragraph"><block ref="a2ab7b415e4b437cd221a7275ed38839" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4643f417b694b85fa8cf7cbd0572c5cd" category="inline-image-macro">검토할 인프라 개체</block>
+  <block id="3e60a504c4f09f36de3a060d1761d279" category="paragraph">클러스터 상태를 보여 주는 인프라 페이지:<block ref="4510f66edf4997b6dc6197eeda5a382e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb2693590d2fee42898b89121aea43bb" category="paragraph">사용자 환경의 LUN/볼륨 또는 qtree에서 워크로드를 확인하고 탐색합니다.</block>
+  <block id="9b487ae015c8109487f87177d5d90403" category="inline-image-macro">워크로드 메뉴</block>
+  <block id="b17cca1084b467c0c42cf2095a7e921b" category="paragraph"><block ref="b17cca1084b467c0c42cf2095a7e921b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="66afae6b95d602c69251c81851ce13af" category="inline-image-macro">워크로드 목록 페이지</block>
+  <block id="34ac3c3d3b008137a073199be9255e04" category="paragraph"><block ref="34ac3c3d3b008137a073199be9255e04" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bc551a8dcf48d42b6ea5cf411242afd9" category="cell">다음 중 하나의 라이센스 버전을 실행하는 컴퓨터: * Microsoft Windows 10 64비트 * Microsoft Windows Server 2012 * Microsoft Windows Server 2012 R2 * Microsoft Windows Server 2016 * Microsoft Windows Server 2019 * Microsoft Windows Server 2022 * Microsoft Windows 11 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
+  <block id="8d72d221ef2d41a0b7eb14afef955069" category="paragraph">Cloud Insights는 계정 소유자, 관리자, 사용자 및 게스트의 최대 4개의 사용자 계정 역할을 제공합니다. 각 계정에는 아래 표에 명시된 특정 권한 수준이 할당됩니다. (보안 기능 세트에는 _User_와 _Guest_역할을 사용할 수 없습니다.) 사용자는 둘 중 하나입니다 <block ref="6a05e97c185d2e103748dff93c559f3b" category="inline-link-macro-rx"></block> Cloud Insights에 로그인하여 특정 역할을 할당하거나 을 통해 로그인할 수 있습니다 <block ref="5714c3cacaaaa4fdc97a235dfa644756" category="inline-link-macro-rx"></block> 기본 역할을 사용합니다. SSO 인증은 Cloud Insights 프리미엄 에디션의 기능으로 제공됩니다.</block>
+  <block id="31fd0c2c8d388a4cd2c6459234743476" category="cell">관찰 가능성</block>
+  <block id="3285ea5e06d78f941361e69f7ae3e762" category="cell">구독을 수정하고, 청구 및 사용 정보를 보고, 관찰 가능성, 보안 및 보고를 위한 모든 관리자 기능을 수행할 수 있습니다. 또한 소유자는 사용자를 초대하고 관리할 수 있을 뿐 아니라 SSO 인증 및 ID 페더레이션 설정을 관리할 수 있습니다. 첫 번째 계정 소유자는 Cloud Insights에 등록할 때 생성됩니다. 각 Cloud Insights 환경에 대해 계정 소유자를 두 명 이상 두는 것이 좋습니다. </block>
+  <block id="84e7e19408ca9cadd7d1a9781e8afe16" category="cell">모든 관찰 가능성 기능, 모든 사용자 기능, 데이터 수집기 관리, 관찰 가능성 API 토큰 및 알림을 수행할 수 있습니다. 관리자는 다른 사용자를 초대할 수도 있지만 관찰 가능성 역할만 할당할 수 있습니다.</block>
+  <block id="364b5d76e543eea85436eecd771ddf9b" category="cell">경고, Forensics, 데이터 수집기, 자동화된 응답 정책 및 보안을 위한 API 토큰을 포함한 모든 보안 기능을 수행할 수 있습니다. 관리자는 다른 사용자를 초대할 수도 있지만 보안 역할만 할당할 수 있습니다.</block>
+  <block id="f69b71669c103a70c3bed015d16ff368" category="admonition">선택할 수 있는 기능 및 역할은 특정 관리자 역할에서 액세스할 수 있는 기능에 따라 다릅니다. 예를 들어 보고에만 관리자 역할이 있는 경우 사용자를 보고의 모든 역할에 할당할 수 있지만 관찰 가능성 또는 보안에 대한 역할을 할당할 수는 없습니다.</block>
+  <block id="fb2292451138606a292cb0cc5fcdeede" category="paragraph">계정 소유자 역할을 다른 사용자에게 할당하려면 관찰 가능성의 계정 소유자로 로그인해야 합니다.</block>
+  <block id="91d6346301930db6ac6ad38d593c51ac" category="section-title">Agent 설치</block>
+  <block id="3ee07d3d3ada1695cfb57786400b0616" category="paragraph">Cloud Insights는 Kubernetes 컬렉션을 위한 * NetApp Kubernetes 모니터링 오퍼레이터 * 를 제공합니다. 데이터 수집기 추가 시 "Kubernetes" 타일을 선택하면 됩니다.</block>
+  <block id="ae26b3d8e556703291282149e3ae894f" category="inline-xref">업그레이드</block>
+  <block id="5bf9f6c5de2d20f82bc6c9fdb01e712d" category="list-text">NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 버전 1.19 이상에서 지원됩니다. Docker 컨테이너 런타임과 함께 사용할 경우 Cloud Insights는 NFS 및 iSCSI에 대한 POD-PV-스토리지 매핑을 표시할 수 있으며, 다른 런타임에서는 iSCSI만 표시합니다. 2022년 8월부터 NetApp Kubernetes Monitoring Operator는 Pod 보안 정책(PSP)을 지원합니다. 반드시 해야 합니다 <block ref="34dd1093a03c958dd7f0e776cfc6867f" category="inline-xref-macro-rx"></block> 해당 환경에서 PSP를 사용하는 경우 최신 NetApp Kubernetes 모니터링 사업자로 이동합니다.</block>
+  <block id="51749c7a45a2b7fcc4461d9a50cc9b22" category="list-text">_curl_, _sudo_, _openssl_, _sha256sum_ 및 _kubbctl_ 명령을 사용할 수 있어야 합니다. 최상의 결과를 얻으려면 이러한 명령을 경로에 추가하십시오.</block>
+  <block id="97ec45388dee131bfffb282394db6fd4" category="list-text">NetApp Kubernetes Monitoring Operator 설치를 통해 Kubbe-state-metrics가 자동으로 설치됩니다.</block>
+  <block id="2314c02816fff0392a5024832e6b446a" category="cell">Kubernetes V1.19 이상</block>
+  <block id="ca32f00a9cb47dc2f19e4412ba43b7b9" category="section-title">스크립트 기반 K8s 모니터링에서 NetApp Kubernetes 모니터링 운영자로 업그레이드</block>
+  <block id="3fd1f3a27386367248e3113008da8829" category="paragraph">이전에 설치된 스크립트 기반 Kubernetes 에이전트에서 NetApp Kubernetes 모니터링 사업자로 업그레이드하는 경우 다음 단계를 수행하십시오.</block>
+  <block id="447ede71efbff97ddd4418212a6b52c9" category="section-title">NetApp Kubernetes Monitoring Operator를 중지하고 시작합니다</block>
+  <block id="450670e2626f71fbb9a492373158ed02" category="paragraph">NetApp Kubernetes Monitoring Operator를 중지하려면 다음을 수행합니다.</block>
+  <block id="c1bdaebddc4968d3e08193cf297db84b" category="paragraph">NetApp Kubernetes Monitoring Operator를 시작하려면 다음을 수행합니다.</block>
+  <block id="3b28dd6c17fea6dd6467fc05ce0cfbd3" category="paragraph">참고: NetApp Kubernetes Monitoring 운영자 기반 설치의 기본 네임스페이스는 _NetApp-모니터링_입니다. 네임스페이스와 관련된 명령에서 설치에 올바른 네임스페이스를 지정해야 합니다.</block>
+  <block id="a945216a5c61e628c867b8948c797454" category="section-title">Kube-state-metrics 정보</block>
+  <block id="3eec57a6a8de996cf634aac9735ace39" category="paragraph">NetApp Kubernetes Monitoring Operator가 자동으로 Kudbe-state-metrics를 설치합니다. 사용자 개입이 필요하지 않으며 이 문서 섹션을 건너뛸 수 있습니다. 호기심에 대한 참조 정보를 제공하기 위해 여기에 포함되어 있습니다.</block>
+  <block id="8afa6952ba928d1f4365c371ab8232bb" category="paragraph">이전에 설치된 스크립트 기반 Kubernetes 에이전트에서 을 실행 중인 경우, 반드시 다음을 수행해야 합니다 <block ref="34dd1093a03c958dd7f0e776cfc6867f" category="inline-xref-macro-rx"></block> NetApp Kubernetes 모니터링 사업자로 이동합니다.</block>
+  <block id="981b5f5c29e0fd86523b31dc51c96b3e" category="section-title">스크립트 기반 에이전트를 제거합니다</block>
+  <block id="0b17bce222385cebd477477b188e6434" category="paragraph">Kubernetes에서 스크립트 기반 에이전트를 제거하려면(예: NetApp Kubernetes Monitoring Operator로 업그레이드할 때) 다음을 수행합니다.</block>
+  <block id="98e7ede570d702984a8e51f5e4f2020c" category="section-title">NetApp Kubernetes Monitoring Operator를 제거하려면</block>
+  <block id="221999955f33800aac7697d68c8a2970" category="admonition">이전에 스크립트 기반 에이전트를 설치한 경우 NetApp Kubernetes 모니터링 사업자로 업그레이드해야 합니다.</block>
+  <block id="ef4dfc875301d9f830ec745c939d757b" category="section-title">스크립트 기반 에이전트에서 NetApp Kubernetes 모니터링 사업자로 업그레이드</block>
+  <block id="05d624845433696752479b6389c8e408" category="list-text">클러스터 이름을 기록해 둡니다. 다음 중 하나를 실행하여 클러스터 이름을 볼 수 있습니다.</block>
+  <block id="eadd7c5194983b4056ca7437aabe6ce5" category="paragraph">운영자:</block>
+  <block id="30abd2203b50ff6e095851497e7951fa" category="paragraph">스크립트 기반:</block>
+  <block id="a27dfe771799a09fd55fea73286eb6ab" category="inline-xref">설치 제거</block>
+  <block id="4e62b8009bb6659f307f322060b87aca" category="list-text"><block ref="7dbbf8ef971711bc54bd144496bfdb76" category="inline-xref-macro-rx"></block> 기존 상담원</block>
+  <block id="349838fb1d851d3e2014b9fe39203275" category="inline-xref">설치합니다</block>
+  <block id="5d570b91fb793e6d7f0e8a1dc96abf37" category="list-text"><block ref="a2dc51b4aefd7c9119674679c63ec4a9" category="inline-xref-macro-rx"></block> 새 상담원].</block>
+  <block id="1c57a8ea17dbb1aebe9f54fccc625688" category="section-title">NetApp Kubernetes Monitoring Operator 업그레이드</block>
+  <block id="01824df579f6f3ad64522dc8298f0c41" category="cell">SELinux가 설정되어 있고 강제 적용되는 경우 Telegraf 포드가 Kubernetes 노드의 /proc/1/mountstats 파일에 액세스하지 못할 수 있습니다. 이 제한 사항을 완화하려면 다음 중 하나를 수행합니다. • 에이전트 편집('kubtl edit agent-monitoring-NetApp')을 하고 "privileged-mode:false"를 "privileged-mode:true"로 변경합니다.</block>
+  <block id="d4f4168ee4529f65ee54ba8b223d6b1e" category="cell">PSP 환경이 있습니다. 이 문제가 모니터링 오퍼레이터에게 영향을 미칩니까?</block>
+  <block id="d11a7a694c023537b8fd43857dd651f7" category="cell">PSP(Pod 보안 정책)를 사용하여 Kubernetes 클러스터를 실행 중인 경우 최신 NetApp Kubernetes 모니터링 사업자로 업그레이드해야 합니다. PSP를 지원하는 현재 NKMO로 업그레이드하려면 다음 단계를 따르십시오. 1. 이전 모니터링 운영자 제거: kubtl delete agent-monitoring -netapp-n netapp-monitoring kubtl delete ns NetApp-monitoring kubctl delete CRD agents.monitoring.netapp.com kubeck delete clusterrole agent-manager-role agent-proxy-role agent-role role agent-rolebinding agent-cluster-admin-rolebinding 2. 최신 버전의 모니터링 연산자를 배포합니다.</block>
+  <block id="2eb2fe69b25b42c01f1dd6ed820e4ef3" category="cell">NKMO를 배포하는 데 문제가 발생했고 PSP를 사용하고 있습니다.</block>
+  <block id="ffc85f5eab15bc118cab588bb4b4d3eb" category="cell">1.kubctl -n &lt;name-space&gt; 에이전트 편집 명령을 사용하여 에이전트를 편집합니다. 2. '보안 - 정책 - 사용'을 '거짓'으로 표시합니다. 그러면 Pos 보안 정책이 비활성화되고 NKMO가 배포될 수 있습니다. 다음 명령을 사용하여 확인합니다. kubbtl get psp (Pod 보안 정책이 제거되었음을 표시해야 함) kubctl all -n &lt;name-space&gt;</block>
+  <block id="641244a546c89759b8e5c60efd75767d" category="paragraph">Cloud Insights도 있습니다 <block ref="ca56f933f1431ce18e092150c84b745d" category="inline-link-macro-rx"></block> 에서 액세스할 수 있는 API를 결정합니다. 사용자 및 게스트 역할은 관리자 역할보다 권한이 적습니다. 예를 들어 관찰 가능성의 관리자 역할이 있지만 보고 시 사용자 역할은 데이터 웨어하우스를 제외한 모든 API 유형을 관리할 수 있습니다.</block>
+  <block id="0661e5cc01fe7da17bc8e2d8e2e34221" category="paragraph">사용자가 액세스할 수 있는 API 범주도 에 따라 다릅니다 <block ref="ead2141fb682d81a2f0b1deca7bb95c5" category="inline-link-macro-rx"></block> 각 Cloud Insights 기능 세트(관찰 가능성, 보안, 보고)에 있습니다.</block>
+  <block id="98d8ebff3e8aa04aa14171f6564f1ec7" category="paragraph">현재 모든 Cloud Insights 기능을 사용할 수 있습니다. 이 공간을 통해 향후 미리 보기를 볼 수 있습니다.</block>
 </blocks>

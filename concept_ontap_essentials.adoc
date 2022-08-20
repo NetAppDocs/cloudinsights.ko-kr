@@ -1,0 +1,63 @@
+---
+sidebar: sidebar 
+permalink: concept_ontap_essentials.html 
+summary: ONTAP Essentials는 환경에 대한 자세한 개요를 제공하는 일련의 대시보드와 워크플로우입니다. 
+keywords: dashboard, widget, ontap, overview, insight 
+---
+= ONTAP 핵심 요소
+:allow-uri-read: 
+
+
+[role="lead"]
+ONTAP Essentials는 ONTAP 인벤토리 및 워크로드를 상세하게 보여주는 대시보드 및 워크플로 집합입니다. ONTAP Essentials에서 작업할 때 사용되는 용어는 다음과 같습니다.
+
+* 인프라/인벤토리: 사용자 데이터에 스토리지/네트워킹 서비스를 제공하는 개체의 보기를 나열합니다
+* 워크로드: 사용자가 데이터를 읽고 쓸 수 있도록 인터페이스를 제공하는 개체의 보기를 나열합니다.
+* 데이터 보호: NetApp 데이터 보호 기술을 사용하여 보호할 수 있는 다양한 개체의 목록 보기입니다
+
+
+ONTAP Essentials를 사용하려면 지난 주에 수집된 데이터를 포함하는 하나 이상의 ONTAP 데이터 수집기가 필요합니다.
+
+
+
+== 개요
+
+탐색을 시작하려면 기본 Cloud Insights 메뉴에서 * ONTAP Essentials * 를 선택합니다.
+
+image:ONTAP_Essentials_Menu_and_screen.png["ONTAP Essentials에 대한 개요 대시보드"]
+
+개요 * 대시보드에는 전체 용량 및 성능 백분율과 함께 사용자 환경의 클러스터 수와 같은 유용한 정보가 표시됩니다. 또한 스토리지 용량 또는 성능 용량이 공간 부족해질 때까지 예상 일 수에 대한 예측 데이터도 볼 수 있습니다. 인프라의 컨트롤러가 고온으로 실행되는 경우 ONTAP Essentials에서 이를 보여 줍니다.
+
+정보 그래프를 통해 시간 경과에 따른 성능 및 용량 사용량 분석 정보를 확인할 수 있습니다.
+
+이러한 각 그래프 또는 데이터 요소를 탐색 또는 조사의 시작 지점으로 사용할 수 있습니다.
+
+참고: "일 대 전체" 숫자 "0"(영)은 전체 일 수가 90일 이상 예상됨을 나타냅니다. 즉, 시스템이 곧 공간이 부족해질 위험이 없습니다.
+
+
+
+== 데이터 보호
+
+SnapMirror 관계를 보려면 * 데이터 보호 * 페이지를 선택하십시오. 원본 또는 대상 볼륨 정보를 클릭하거나 기어 아이콘을 클릭하여 보려는 데이터에 대한 열을 추가합니다.
+
+image:ONTAP_Essentials_data_protection.png["SnapMirror 관계 목록 페이지"]
+
+
+
+== 검토할 수 있습니다
+
+ONTAP Essentials * 인프라 * 페이지에서는 모든 기본 ONTAP 객체에 대해 사전 구축된(추가 사용자 지정 가능) 쿼리를 사용하여 클러스터 상태와 성능을 확인할 수 있습니다. 탐색할 오브젝트 유형(클러스터, 스토리지 풀 등)을 선택하고 상태 또는 성능 정보를 표시할지 여부를 선택합니다. 필터를 설정하여 개별 시스템에 대해 자세히 설명합니다.
+
+image:ONTAP_Essentials_Health_Performance.png["스토리지 풀에 대한 인프라스트럭처 선택"]
+
+클러스터 상태를 보여 주는 인프라 페이지:image:ONTAP_Essentials_Infrastructure_A.png["검토할 인프라 개체"]
+
+
+
+== 워크로드
+
+사용자 환경의 LUN/볼륨 또는 qtree에서 워크로드를 확인하고 탐색합니다.
+
+image:ONTAP_Essentials_Workloads_Menu.png["워크로드 메뉴"]
+
+image:ONTAP_Essentials_Workloads_Page.png["워크로드 목록 페이지"]
