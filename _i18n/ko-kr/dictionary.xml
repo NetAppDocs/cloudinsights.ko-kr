@@ -8119,8 +8119,6 @@
   <block id="6e8d08f021f143c0380bcfda2a0d8e35" category="paragraph">Cloud Insights는 Pod, 데모 세트, 복제 및 복제를 생성 또는 제거할 때와 새 구축이 생성될 때 알림을 보내 Kubernetes 환경의 변경 사항을 계속 파악할 수 있습니다. Kubernetes에서는 기본적으로 _paused_state 가 모니터링되므로 필요한 특정 상태만 사용하도록 설정해야 합니다.</block>
   <block id="25e271d2558ae8aca95f77cf3064f9f4" category="cell">내부 볼륨 및 볼륨 용량 시간 대 전체 예측</block>
   <block id="6327e04265ebac4957d88ad9cb76d168" category="cell">Cloud Insights는 각 내부 볼륨 및 모니터링되는 볼륨에 대한 용량이 소진될 때까지 일 수를 늘릴 수 있습니다. 이 값은 운영 중단의 위험을 크게 줄이는 데 도움이 될 수 있습니다.</block>
-  <block id="e90c4ace721cc2fab5257871d711796d" category="cell">Cloud Secure – 공격에 대한 사용자 액세스를 제한합니다</block>
-  <block id="e353c2255e0d23456f0d04e774cc242c" category="cell">공격이 감지될 때 사용자 액세스를 제한하는 기능을 통해 업무상 중요한 데이터를 더욱 안전하게 보호할 수 있습니다. 자동 응답 정책을 사용하거나 알림 또는 사용자 세부 정보 페이지에서 수동으로 액세스를 제한할 수 있습니다.<block ref="e8dc9c29c76388404a63bbf729dac2fd" category="inline-link-macro-rx"></block></block>
   <block id="58114ec5d8ca1494b408777c1a724eef" category="cell">스트레스 분석 아래의 공유 리소스는 AI/ML을 사용하여 리소스 경합이 사용자 환경에서 성능 저하를 일으키는 위치를 자동으로 식별하고, 해당 환경의 영향을 받는 워크로드를 강조 표시하고, 문제 해결을 위한 권장 조치를 제공하여 성능 문제를 보다 신속하게 해결합니다.<block ref="b97265367ad52c02d31fa7522e26571d" category="inline-link-macro-rx"></block></block>
   <block id="9fc31ce4550c4f68c1ea81f5a37335aa" category="section-title">새 데이터 수집기</block>
   <block id="01ec768781d34379b5889a634c19e5cc" category="section-title">기타 Data Collector 업데이트</block>
@@ -8896,4 +8894,47 @@
   <block id="641244a546c89759b8e5c60efd75767d" category="paragraph">Cloud Insights도 있습니다 <block ref="ca56f933f1431ce18e092150c84b745d" category="inline-link-macro-rx"></block> 에서 액세스할 수 있는 API를 결정합니다. 사용자 및 게스트 역할은 관리자 역할보다 권한이 적습니다. 예를 들어 관찰 가능성의 관리자 역할이 있지만 보고 시 사용자 역할은 데이터 웨어하우스를 제외한 모든 API 유형을 관리할 수 있습니다.</block>
   <block id="0661e5cc01fe7da17bc8e2d8e2e34221" category="paragraph">사용자가 액세스할 수 있는 API 범주도 에 따라 다릅니다 <block ref="ead2141fb682d81a2f0b1deca7bb95c5" category="inline-link-macro-rx"></block> 각 Cloud Insights 기능 세트(관찰 가능성, 보안, 보고)에 있습니다.</block>
   <block id="98d8ebff3e8aa04aa14171f6564f1ec7" category="paragraph">현재 모든 Cloud Insights 기능을 사용할 수 있습니다. 이 공간을 통해 향후 미리 보기를 볼 수 있습니다.</block>
+  <block id="8bab215794a736f6f876eac0eeb23923" category="section-title">2022년 8월</block>
+  <block id="d705154352cfbafc58dfc6d7437fb527" category="section-title">Cloud Insights의 새로운 디자인!</block>
+  <block id="d3d93d4a561aa9307d47023701a0c283" category="paragraph">이번 달부터 "모니터링 및 최적화"는 * 관찰 가능성 * 으로 이름이 바뀌었습니다. 여기에서 대시보드, 쿼리, 알림 및 보고와 같은 자주 사용하는 기능을 모두 찾을 수 있습니다. 또한 새로운 * 보안 * 메뉴에서 Cloud Secure를 찾으십시오. 메뉴만 변경되었으며 기능은 동일하게 유지됩니다.</block>
+  <block id="f3f29af86c9b9c4db0c68765dfa7f051" category="inline-image-macro">새 CI 메뉴</block>
+  <block id="87f2cc206fb1e47d7441af559046dd86" category="paragraph"><block ref="87f2cc206fb1e47d7441af559046dd86" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7b93edf0748e59f362dfa4896c478b93" category="paragraph">도움말 * 메뉴를 찾으십니까?</block>
+  <block id="5c0bfda83c5d90521dd05955a44b1fc7" category="paragraph">이제 화면 오른쪽 상단에 도움을 받을 수 있습니다.</block>
+  <block id="e50f2f4f823dfcb7955ac73ed07dfb02" category="inline-image-macro">도움말 메뉴는 오른쪽 위에 있습니다</block>
+  <block id="1ee9fcbb5f9692177c85538fe0554fc5" category="paragraph"><block ref="1ee9fcbb5f9692177c85538fe0554fc5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="db7ffbe90af5c64ff2e1d0b1a42439dc" category="section-title">어디서부터 시작해야 할지 잘 모르십니까? ONTAP 필수품을 확인해 보세요!</block>
+  <block id="89cb10d77085cf41a426f6c7d7025df0" category="inline-link-macro">* ONTAP 필수 요소 *</block>
+  <block id="2e414b94b1201a3f3cce93eac0021751" category="paragraph"><block ref="223512fb854e2c6568b12f6404a6d95e" category="inline-link-macro-rx"></block> 는 스토리지 용량 및 성능에 대한 완벽한 예측을 비롯하여 NetApp ONTAP 인벤토리, 워크로드 및 데이터 보호에 대한 자세한 보기를 제공하는 대시보드 및 워크플로우 세트입니다. 높은 활용률로 실행 중인 컨트롤러가 있는지 확인할 수도 있습니다. ONTAP 필수 요소 는 NetApp ONTAP의 모든 모니터링 요구를 충족하는 데 이상적인 장소입니다!</block>
+  <block id="318810ea99242f63913a4d0569f6a3e1" category="paragraph">모든 버전에서 제공되는 ONTAP Essentials는 기존 ONTAP 운영자 및 관리자에게 직관적 기능을 제공하도록 설계되어 ActiveIQ Unified Manager에서 서비스 기반 관리 툴로 간편하게 전환할 수 있습니다.</block>
+  <block id="f41594e15ab03658906c309b3fa344fb" category="section-title">스토리지 데이터 제품군이 병합됩니다</block>
+  <block id="4506719f01b92a3f00a232b1f130938b" category="paragraph">여러분이 요청하셨는데, 이제 모든 것이 가능합니다. 이제 스토리지 기본 2 및 기본 10 데이터 유닛이 비트 및 바이트에서 테비비트 및 테라바이트에 이르는 하나의 제품군으로 결합되어 대시보드에 데이터를 쉽게 표시할 수 있습니다. 데이터 전송 속도는 또한 자체 빅 제품군이기도 합니다.</block>
+  <block id="b69c1b6f0730aa5a7c71579ff7cdf146" category="inline-image-macro">base-2 및 base-10 데이터 제품군의 병합을 보여 주는 Drop-dow</block>
+  <block id="6a2b2c80a567a29026c0efe569422fc7" category="paragraph"><block ref="6a2b2c80a567a29026c0efe569422fc7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="62775367d0be8fb85879a7417d1c5f27" category="section-title">내 스토리지에서 사용하는 전력은 얼마나 됩니까?</block>
+  <block id="c460230a0d71f4c2e49713913fd0a01c" category="paragraph">NetApp_ONTAP.storage_shelf, NetApp_ONTAP.system_node, NetApp_ONTAP.cluster(전력 소비만 해당) 메트릭을 사용하여 ONTAP 스토리지 쉘프 및 노드 전력 소비량, 온도 및 팬 속도를 표시하고 모니터링합니다.</block>
+  <block id="c0545994150347fb8590eb6dfe1934ab" category="inline-image-macro">스토리지 전력 소비 메트릭</block>
+  <block id="1b7dea988e626ae19b6022dad8fcffae" category="paragraph"><block ref="1b7dea988e626ae19b6022dad8fcffae" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3280f3cc88209e72bdf5878afe5afec2" category="section-title">미리보기에서 점진 피처</block>
+  <block id="b15e043f2e8db0aa222ae7311e987712" category="paragraph">다음 기능은 미리 보기에서 제외되었으며 현재 모든 고객이 사용할 수 있습니다.</block>
+  <block id="64f0171311f2657dbd0578fca9fb2fa5" category="cell">Cloud Secure – 공격에 대한 사용자 액세스를 차단합니다</block>
+  <block id="6ad1deaea422210384bf8c46adb4027a" category="cell">공격이 감지될 때 사용자 액세스를 차단하는 기능을 통해 업무상 중요한 데이터를 더욱 안전하게 보호할 수 있습니다. 자동 응답 정책을 사용하거나 알림 또는 사용자 세부 정보 페이지에서 수동으로 액세스를 차단할 수 있습니다.<block ref="e8dc9c29c76388404a63bbf729dac2fd" category="inline-link-macro-rx"></block></block>
+  <block id="2d6bee64b9e0e23f822f86b9ef8e0060" category="section-title">데이터 수집 상태는 어떻습니까?</block>
+  <block id="62eb208f255de6653342ec37c0ec229b" category="paragraph">Cloud Insights는 획득 장치에 대해 2개의 새로운 하트비트 모니터와 데이터 수집기 오류를 경고하는 2개의 모니터를 제공합니다. 이러한 정보는 데이터 수집 문제를 신속하게 경고하는 데 사용할 수 있습니다.</block>
+  <block id="b355ccf4f7e6c9eb6dbdec86e748dbf6" category="paragraph">이제 _ Data Collection_monitor 그룹에서 다음 모니터를 사용할 수 있습니다.</block>
+  <block id="f080c7e2db3c941a50244332dcd5aa78" category="list-text">획득 장치 하트비트 - 중요</block>
+  <block id="0fdd65b6d5fd4a7a8433446830711e1c" category="list-text">획득 장치 하트비트 - 경고</block>
+  <block id="a211304a1293c2bf5a11a69b7b8c27be" category="paragraph">이러한 모니터는 기본적으로 _ 일시 중지됨 _ 상태입니다. 데이터 수집 문제에 대한 알림을 받으려면 이 기능을 활성화하십시오.</block>
+  <block id="12f80d401d5ff4d4547512db4d3b2c6c" category="section-title">자동 갱신 API 토큰</block>
+  <block id="27ba6c06585f4077b49dfa97c8d3628b" category="paragraph">이제 API 액세스 토큰을 자동 갱신으로 설정할 수 있습니다. 이 기능을 활성화하면 만료된 토큰에 대해 새/업데이트된 API 액세스 토큰이 자동으로 생성됩니다. 만료 예정인 토큰을 사용하는 Cloud Insights 에이전트는 해당 신규/업데이트된 API 액세스 토큰을 사용하도록 자동으로 업데이트되므로 계속해서 원활하게 작동할 수 있습니다. 토큰을 만들 때 "토큰 자동 갱신" 상자를 선택하기만 하면 됩니다. 이 기능은 현재 Kubernetes 플랫폼에서 최신 NetApp Kubernetes 모니터링 운영자가 있는 Cloud Insights 에이전트에서 지원됩니다.</block>
+  <block id="8f10a9bc5a8ba504bde35cb40a25605d" category="section-title">Basic Edition은 이전보다 더 많은 기능을 제공합니다</block>
+  <block id="8186bdac49bf2abfc340f91e81ee77e3" category="paragraph">평가판 사용 기간이 종료되었지만 구독이 귀하에게 적합한지 아직 확신할 수 없습니다. Basic Edition에서는 항상 현재 ONTAP 데이터 수집기에서 Cloud Insights를 계속 사용할 수 있지만, 이제 VMware 버전, 토폴로지 및 IOPS/처리량/지연 시간 데이터를 계속 캡처할 수 있습니다. 스토리지 시스템에 대한 프리미엄 지원을 받는 NetApp 고객은 Cloud Insights도 지원할 수 있습니다.</block>
+  <block id="332f3415df49d49dabe51fb2d7f62e40" category="section-title">자세한 내용을 원하십니까?</block>
+  <block id="f68b94c43b4b7f0dcab25235f8af5de9" category="paragraph">도움말 &gt; 지원 페이지의 * 학습 센터 * 섹션에서 NetApp University Cloud Insights 과정 오퍼링에 대한 링크를 확인하십시오!</block>
+  <block id="1092735d9c4841e6e9b1620161763b75" category="paragraph">다음 운영 체제는 Cloud Insights 획득 장치 외에 추가로 지원됩니다 <block ref="e27610920cf83f6a88b088882e8c727e" category="inline-link-macro-rx"></block>:</block>
+  <block id="8c4731f1a5288444bb2510ff8d967cc3" category="list-text">Windows 11</block>
+  <block id="2ad48475868a5acf715f48e45c20d2d1" category="cell">Cloud Secure – 공격에 대한 사용자 액세스를 차단합니다</block>
+  <block id="4e28671aa760c1ba504510846bdf520c" category="cell">공격이 감지될 때 사용자 액세스를 차단하는 기능을 통해 업무상 중요한 데이터를 더욱 안전하게 보호할 수 있습니다. 자동 응답 정책을 사용하거나 알림 또는 사용자 세부 정보 페이지에서 수동으로 액세스를 차단할 수 있습니다.<block ref="e8dc9c29c76388404a63bbf729dac2fd" category="inline-link-macro-rx"></block></block>
+  <block id="a78d7cf3a7b4f6fe8edcca9384e823a8" category="cell">알림을 확인 및 관리하고 Forensics를 볼 수 있습니다. 사용자 역할은 알림 상태를 변경하고, 메모를 추가하고, 스냅샷을 수동으로 생성하고, 사용자 액세스를 차단할 수 있습니다.</block>
+  <block id="f9e6fd444a4fd0ec2399b552c8145545" category="cell">알림 및 Forensics를 볼 수 있습니다. 게스트 역할은 알림 상태를 변경하거나, 메모를 추가하거나, 스냅샷을 수동으로 생성하거나, 사용자 액세스를 차단할 수 없습니다.</block>
 </blocks>
