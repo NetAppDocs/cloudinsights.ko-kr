@@ -8937,4 +8937,6 @@
   <block id="4e28671aa760c1ba504510846bdf520c" category="cell">공격이 감지될 때 사용자 액세스를 차단하는 기능을 통해 업무상 중요한 데이터를 더욱 안전하게 보호할 수 있습니다. 자동 응답 정책을 사용하거나 알림 또는 사용자 세부 정보 페이지에서 수동으로 액세스를 차단할 수 있습니다.<block ref="e8dc9c29c76388404a63bbf729dac2fd" category="inline-link-macro-rx"></block></block>
   <block id="a78d7cf3a7b4f6fe8edcca9384e823a8" category="cell">알림을 확인 및 관리하고 Forensics를 볼 수 있습니다. 사용자 역할은 알림 상태를 변경하고, 메모를 추가하고, 스냅샷을 수동으로 생성하고, 사용자 액세스를 차단할 수 있습니다.</block>
   <block id="f9e6fd444a4fd0ec2399b552c8145545" category="cell">알림 및 Forensics를 볼 수 있습니다. 게스트 역할은 알림 상태를 변경하거나, 메모를 추가하거나, 스냅샷을 수동으로 생성하거나, 사용자 액세스를 차단할 수 없습니다.</block>
+  <block id="1262546f0be80170bbf2b78b6352533d" category="cell">useradd를 사용하여 에이전트 설치가 실패했습니다. 디렉토리 /home/cssys를 생성할 수 없습니다</block>
+  <block id="5e430377cda5012c485a4d981bce9d1e" category="cell">이 오류는 권한 부족으로 인해 /home 아래에 사용자의 로그인 디렉토리를 만들 수 없는 경우에 발생할 수 있습니다. 해결 방법은 cssys 사용자를 생성하고 다음 명령을 사용하여 로그인 디렉토리를 수동으로 추가하는 것입니다. _sudo useradd user_name -m -d home_DIR_ -m: 사용자의 홈 디렉토리가 없는 경우 생성합니다. d: 사용자의 로그인 디렉토리 값으로 HOME_DIR을 사용하여 새 사용자가 생성됩니다. 예를 들어, _sudo useradd cssys -m -d /cssys_는 user_cssys_를 추가하고 root 아래에 로그인 디렉토리를 만듭니다.</block>
 </blocks>
