@@ -117,5 +117,8 @@ image::new-agent-detect.png[새로운 약제 감지]
 | Agent가 여전히 SaaS에 연결할 수 없는 경우 NetApp Support로 사례를 여십시오. Cloud Insights 일련 번호를 제공하여 케이스를 열고 기록해 둔 대로 케이스에 로그를 첨부합니다. | 케이스에 로그를 첨부하려면 1. 루트 권한으로 다음 스크립트를 실행하고 출력 파일(cloudsecure-agent-symptoms.zip)을 공유합니다. a. /opt/netapp/cloudsecure/agent/bin/cloudsecure-agent-symptom-collector.sh 2. 루트 권한으로 다음 명령을 하나씩 실행하고 출력을 공유합니다. a. ID cssys b. 그룹 cssys c. CAT/etc/OS - 릴리스 
 
 
+| cloudsecure-agent-symptom-collector.sh 스크립트가 실패하고 다음 오류가 표시됩니다. [root@machine tmp]#/opt/netapp/cloudsecure/agent/bin/cloudsecure-agent-symptom-collector.sh 서비스 로그 수집 애플리케이션 로그 수집 에이전트 상태 스냅샷 생성 에이전트 디렉토리 구조 스냅샷 생성……………… . ………………………… . /opt/netapp/cloudsecure/agent/bin/cloudsecure-agent-symptom-collector.sh:line 52:zip: 명령을 찾을 수 없음 오류: /tmp/cloudsecure-agent-symptoms.zip 생성하지 못했습니다 | zip 도구가 설치되지 않았습니다. "yum install zip" 명령을 실행하여 zip 툴을 설치합니다. 그런 다음 cloudsecure-agent-symptom-collector.sh 를 다시 실행합니다. 
+
+
 | useradd를 사용하여 에이전트 설치가 실패했습니다. 디렉토리 /home/cssys를 생성할 수 없습니다 | 이 오류는 권한 부족으로 인해 /home 아래에 사용자의 로그인 디렉토리를 만들 수 없는 경우에 발생할 수 있습니다. 해결 방법은 cssys 사용자를 생성하고 다음 명령을 사용하여 로그인 디렉토리를 수동으로 추가하는 것입니다. _sudo useradd user_name -m -d home_DIR_ -m: 사용자의 홈 디렉토리가 없는 경우 생성합니다. d: 사용자의 로그인 디렉토리 값으로 HOME_DIR을 사용하여 새 사용자가 생성됩니다. 예를 들어, _sudo useradd cssys -m -d /cssys_는 user_cssys_를 추가하고 root 아래에 로그인 디렉토리를 만듭니다. 
 |===

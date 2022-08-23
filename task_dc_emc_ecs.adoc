@@ -12,6 +12,9 @@ summary: ECS 데이터 수집기 구성.
 이 데이터 수집기는 EMC ECS 스토리지 시스템에서 인벤토리 및 성능 데이터를 가져옵니다. 구성을 위해 데이터 수집기는 ECS 서버의 IP 주소와 관리 수준 도메인 계정을 필요로 합니다.
 
 
+NOTE: Dell EMC ECS는 다른 물리적 TB에서 관리 단위 비율로 측정됩니다. 40TB의 포맷되지 않은 ECS 용량마다 1개의 용량이 충전됩니다 link:concept_subscribing_to_cloud_insights.html#pricing["관리 장치(MU)"].
+
+
 
 == 용어
 
