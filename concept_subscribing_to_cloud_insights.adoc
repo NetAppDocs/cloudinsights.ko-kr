@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept_subscribing_to_cloud_insights.html 
 summary: 무료 평가판 사용 기간 중 언제든지 Cloud Insights에 가입할 수 있습니다. 
-keywords: subscribe, trial, subscription, contract, raw capacity, region 
+keywords: subscribe, trial, subscription, contract, raw capacity, region, data retention, retention, 
 ---
 = Cloud Insights 구독
 :allow-uri-read: 
