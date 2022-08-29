@@ -3769,7 +3769,6 @@
   <block id="6b6a5e540baae01020db6abcb69752a2" category="list-text">이 데이터 수집기는 다음 구성 요소를 통해 지원됩니다.</block>
   <block id="951c04e880867f48ee0c8c023c066950" category="inline-link-macro">이 문제</block>
   <block id="c335e20fcf63e64f7ad3799d0c6d5e4f" category="list-text">Data ONTAP 9.2 이상 버전 최상의 성능을 얻으려면 Data ONTAP 버전을 사용하십시오 <block ref="1a759d0cc6a190cf88e8cd818eb0eba6" category="inline-link-macro-rx"></block> 고정되어 있습니다.</block>
-  <block id="e0f5635cfc022e85fc412c023e2e7759" category="list-text">SMB 프로토콜 버전 3.1 이하</block>
   <block id="a65bf0155aa66d72adb09356ef35ba5b" category="list-text">NFS 프로토콜 버전 4.0 이전 버전</block>
   <block id="ca25fd447f71b95ab21d53b012fa1ddc" category="list-text">FlexGroup는 ONTAP 9.4 이상 버전에서 지원됩니다</block>
   <block id="37f8c5eb442d46d5ec5da0275366c9c8" category="list-text">데이터 유형 SVM만 지원됩니다. 무한 확장 볼륨이 있는 SVM은 지원되지 않습니다.</block>
@@ -8945,4 +8944,5 @@
   <block id="719cb8a818a4675afed135a249f933cf" category="admonition">Hitachi Content Platform은 다른 원시 TB에서 관리 단위 비율로 측정되고 있습니다. 40TB의 포맷되지 않은 HCP 용량은 1로 부과됩니다 <block ref="1802ea889a272a3510701d2ff63bbea6" category="inline-link-macro-rx"></block>.</block>
   <block id="c5718388c9ba089c3e079c5b8598c2f1" category="paragraph">Cloud Insights는 NetApp StorageGRID Collector에서 다음 인벤토리 정보를 가져옵니다. 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.</block>
   <block id="75538d7973020af3db4059fd4aefea12" category="admonition">IBM Cleversafe는 관리 단위 비율과 다른 원시 TB로 측정되었습니다. 40TB의 포맷되지 않은 IBM Cleversafe 용량마다 1로 비용이 청구됩니다 <block ref="1802ea889a272a3510701d2ff63bbea6" category="inline-link-macro-rx"></block>.</block>
+  <block id="8dd7ee5e6653f76a82e4dafafcb16a8f" category="list-text">SMB 프로토콜 버전 3.1 이하 Cloud Secure는 FlexCache를 사용하는 SMB 구성에서는 작동하지 않습니다. ONTAP9.7부터 Fpolicy는 NFS 환경에서만 지원됩니다.</block>
 </blocks>
