@@ -8859,10 +8859,8 @@
   <block id="91d6346301930db6ac6ad38d593c51ac" category="section-title">Agent 설치</block>
   <block id="3ee07d3d3ada1695cfb57786400b0616" category="paragraph">Cloud Insights는 Kubernetes 컬렉션을 위한 * NetApp Kubernetes 모니터링 오퍼레이터 * 를 제공합니다. 데이터 수집기 추가 시 "Kubernetes" 타일을 선택하면 됩니다.</block>
   <block id="ae26b3d8e556703291282149e3ae894f" category="inline-xref">업그레이드</block>
-  <block id="5bf9f6c5de2d20f82bc6c9fdb01e712d" category="list-text">NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 버전 1.19 이상에서 지원됩니다. Docker 컨테이너 런타임과 함께 사용할 경우 Cloud Insights는 NFS 및 iSCSI에 대한 POD-PV-스토리지 매핑을 표시할 수 있으며, 다른 런타임에서는 iSCSI만 표시합니다. 2022년 8월부터 NetApp Kubernetes Monitoring Operator는 Pod 보안 정책(PSP)을 지원합니다. 반드시 해야 합니다 <block ref="34dd1093a03c958dd7f0e776cfc6867f" category="inline-xref-macro-rx"></block> 해당 환경에서 PSP를 사용하는 경우 최신 NetApp Kubernetes 모니터링 사업자로 이동합니다.</block>
   <block id="51749c7a45a2b7fcc4461d9a50cc9b22" category="list-text">_curl_, _sudo_, _openssl_, _sha256sum_ 및 _kubbctl_ 명령을 사용할 수 있어야 합니다. 최상의 결과를 얻으려면 이러한 명령을 경로에 추가하십시오.</block>
   <block id="97ec45388dee131bfffb282394db6fd4" category="list-text">NetApp Kubernetes Monitoring Operator 설치를 통해 Kubbe-state-metrics가 자동으로 설치됩니다.</block>
-  <block id="2314c02816fff0392a5024832e6b446a" category="cell">Kubernetes V1.19 이상</block>
   <block id="ca32f00a9cb47dc2f19e4412ba43b7b9" category="section-title">스크립트 기반 K8s 모니터링에서 NetApp Kubernetes 모니터링 운영자로 업그레이드</block>
   <block id="3fd1f3a27386367248e3113008da8829" category="paragraph">이전에 설치된 스크립트 기반 Kubernetes 에이전트에서 NetApp Kubernetes 모니터링 사업자로 업그레이드하는 경우 다음 단계를 수행하십시오.</block>
   <block id="447ede71efbff97ddd4418212a6b52c9" category="section-title">NetApp Kubernetes Monitoring Operator를 중지하고 시작합니다</block>
@@ -8945,4 +8943,6 @@
   <block id="c5718388c9ba089c3e079c5b8598c2f1" category="paragraph">Cloud Insights는 NetApp StorageGRID Collector에서 다음 인벤토리 정보를 가져옵니다. 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.</block>
   <block id="75538d7973020af3db4059fd4aefea12" category="admonition">IBM Cleversafe는 관리 단위 비율과 다른 원시 TB로 측정되었습니다. 40TB의 포맷되지 않은 IBM Cleversafe 용량마다 1로 비용이 청구됩니다 <block ref="1802ea889a272a3510701d2ff63bbea6" category="inline-link-macro-rx"></block>.</block>
   <block id="8dd7ee5e6653f76a82e4dafafcb16a8f" category="list-text">SMB 프로토콜 버전 3.1 이하 Cloud Secure는 FlexCache를 사용하는 SMB 구성에서는 작동하지 않습니다. ONTAP9.7부터 Fpolicy는 NFS 환경에서만 지원됩니다.</block>
+  <block id="08433787a666ff495df242ff3e1d3c5c" category="list-text">NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 버전 1.20 이상에서 지원됩니다. Docker 컨테이너 런타임과 함께 사용할 경우 Cloud Insights는 NFS 및 iSCSI에 대한 POD-PV-스토리지 매핑을 표시할 수 있으며, 다른 런타임에서는 iSCSI만 표시합니다. 2022년 8월부터 NetApp Kubernetes Monitoring Operator는 Pod 보안 정책(PSP)을 지원합니다. 반드시 해야 합니다 <block ref="34dd1093a03c958dd7f0e776cfc6867f" category="inline-xref-macro-rx"></block> 해당 환경에서 PSP를 사용하는 경우 최신 NetApp Kubernetes 모니터링 사업자로 이동합니다.</block>
+  <block id="95be99c1e2046a974fa1680ffa1b83ed" category="cell">Kubernetes v1.20 이상</block>
 </blocks>
