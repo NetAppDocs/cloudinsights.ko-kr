@@ -8945,4 +8945,40 @@
   <block id="8dd7ee5e6653f76a82e4dafafcb16a8f" category="list-text">SMB 프로토콜 버전 3.1 이하 Cloud Secure는 FlexCache를 사용하는 SMB 구성에서는 작동하지 않습니다. ONTAP9.7부터 Fpolicy는 NFS 환경에서만 지원됩니다.</block>
   <block id="08433787a666ff495df242ff3e1d3c5c" category="list-text">NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 버전 1.20 이상에서 지원됩니다. Docker 컨테이너 런타임과 함께 사용할 경우 Cloud Insights는 NFS 및 iSCSI에 대한 POD-PV-스토리지 매핑을 표시할 수 있으며, 다른 런타임에서는 iSCSI만 표시합니다. 2022년 8월부터 NetApp Kubernetes Monitoring Operator는 Pod 보안 정책(PSP)을 지원합니다. 반드시 해야 합니다 <block ref="34dd1093a03c958dd7f0e776cfc6867f" category="inline-xref-macro-rx"></block> 해당 환경에서 PSP를 사용하는 경우 최신 NetApp Kubernetes 모니터링 사업자로 이동합니다.</block>
   <block id="95be99c1e2046a974fa1680ffa1b83ed" category="cell">Kubernetes v1.20 이상</block>
+  <block id="8c69796d33d9c95e7caf8015cf31ccbe" category="cell">설치 후 에이전트가 실행되고 있지 않습니다. _Systemctl status cloudsecure-agent.service_ 다음과 같이 표시됩니다. [root@demo~]#systemctl status cloudsecure-agent.service agent.service – Cloud Secure Agent Daemon Service loaded: loaded(/usr/lib/systemd/system/cloudsecure-agent.service; enabled; vendor preset: disabled) Active: 활성화(자동 재시작) (결과: 종료 코드) Tue 2021:12:26 PDT; 2s start agent opt /emon pid=25bin/cloudbin: secure agent execbin/service: 25889(code=Exited, status=126), Aug 03 21:12:26 demo systemd [1]: cloudsecure-agent.service: main process 종료, code=Exited, status=126/n/a Aj8 03 21:12:26 demo systemd [1]: unit cloudsecure-agent.service failed state. 8월 03 21:12:26 데모 시스템[1]: cloudsecure-agent.service 실패.</block>
+  <block id="ff6c70aa7cb1a86bff741b99889b8d0b" category="cell">cssys_user에 설치 권한이 없을 수 있으므로 이 작업은 실패할 수 있습니다. /opt/netapp가 NFS 마운트이고 _cssys_user가 이 폴더에 대한 액세스 권한이 없는 경우 설치가 실패합니다. _cssys_는 마운트된 공유에 액세스할 권한이 없는 Cloud Secure 설치 프로그램에서 만든 로컬 사용자입니다. cssys_user를 사용하여 /opt/netapp/cloudsecure/agent/bin/cloudsecure-agent에 액세스하여 이를 확인할 수 있습니다. "사용 권한 거부"를 반환하면 설치 권한이 없는 것입니다. 마운트된 폴더 대신 컴퓨터에 로컬 디렉토리에 설치합니다.</block>
+  <block id="19d8a8363cc18927f8f792b40e752c60" category="section-title">포렌식 페이지의 필터 적용 가능성</block>
+  <block id="33b1e192582408583865dca3abd0c740" category="cell">어떤 필터에 해당됩니까?</block>
+  <block id="8c553135b1cf58374ff9e4c775f2f164" category="cell">어떤 필터에는 적용되지 않습니다</block>
+  <block id="eaaa45bccc15257d9f55e54b64c70aba" category="cell">* (별표)</block>
+  <block id="df292297b638e12c44f52c855ad511fb" category="cell">자동 * 03172022</block>
+  <block id="b95e1188e58582673c69e6683b36a626" category="cell">사용자, 경로, 엔티티 유형, 장치 유형, 볼륨, 원래 경로</block>
+  <block id="de49d77f1ec8a76ce0ab6d070d1a883c" category="cell">"Auto"로 시작하고 "03172022"로 끝나는 모든 리소스를 반환합니다.</block>
+  <block id="3518217f55c95e834c4ea7984f8aa0cd" category="cell">AutoSabotageUser1_03172022?</block>
+  <block id="4e264b37a7e8d68a4e163769aad53d58" category="cell">사용자, 엔티티 유형, 장치, 볼륨</block>
+  <block id="d3d8e64d1f98a044ea17ac6dc3edc1da" category="cell">AutoSabotageUser1_03172022A, AutoSabotageUser1_03172022AB, AutoSabotageUser1_031720225 등을 반환합니다</block>
+  <block id="3adefd54fc738f8196af6304ed8929ac" category="cell">AutoSabotageUser1_03172022 또는 AutoRansomUser4_03162022</block>
+  <block id="815a68f09aeea81a589436dc96205729" category="cell">사용자, 도메인, 사용자 이름, 경로, 엔티티 유형, 장치, 원래 경로</block>
+  <block id="0a01700b4705c6c47c24699ad7d4a4cb" category="cell">AutoSabotageUser1_03172022 또는 AutoRansomUser4_03162022 중 하나를 반환합니다</block>
+  <block id="0ca071eb91357e8d4685daee24bd3360" category="cell">AutoRansomUser4_03162022가 아닙니다</block>
+  <block id="323be35d43a1b0a294bddc8533167538" category="cell">사용자, 도메인, 사용자 이름, 경로, 엔티티 유형, 원래 경로, 볼륨</block>
+  <block id="e0c965c954b5a9fdc33c5b0516799f7d" category="cell">"AutoRansomUser4_03162022"로 시작하지 않는 모든 항목을 반환합니다.</block>
+  <block id="eae639a70006feff484a39363c977e24" category="cell">도메인</block>
+  <block id="012f3ec70fcf8eccc1fce56e4a0b94b6" category="section-title">경로/원래 경로 검색</block>
+  <block id="64048c881c93933680d02730e9d9ce63" category="paragraph">/ 을(를) 사용하거나 사용하지 않고 검색 결과는 다릅니다</block>
+  <block id="cc2d816075324608acf344b23cf3e6bb" category="cell">/AutoDir1/AutoFile 을 선택합니다</block>
+  <block id="7b8af977b90a67e053ff2667a26828fe" category="cell">작동합니다</block>
+  <block id="d8c67b8ac649f41c2a92277fb6c013ce" category="cell">자동 방향1/자동 파일</block>
+  <block id="53ca5edb3205aa3468395e1789114a60" category="cell">작동하지 않습니다</block>
+  <block id="5ccae7957209ff321acad5f697fee3fb" category="cell">/AutoDir1/AutoFile(Dir1)</block>
+  <block id="63f523ece51ecefa957ca39c100af8cb" category="cell">dir1 부분 부분 부분 부분 부분 부분 부분 문자열이 작동하지 않습니다</block>
+  <block id="1d7531d059e4088a0878ea4eb94d32b6" category="cell">"/AutoDir1/AutoFile03242022"</block>
+  <block id="a38f318e70e36e7cc00c72afcc7e5fc0" category="cell">정확한 검색이 가능합니다</block>
+  <block id="7cce9e39c248f665a5808932eb5899ed" category="cell">자동 * 03242022</block>
+  <block id="888f8ecf6256a9875ff5de4f10099453" category="cell">/AutoDir1/AutoFile03242022 또는 /AutoDir1/AutoFile03242022</block>
+  <block id="d87dd477d16107bb862f99dedbcacce4" category="cell">NOT/AutoDir1/AutoFile03242022</block>
+  <block id="867d74d5a7cefddb9c7bc445d7c5b7e1" category="cell">NOT/AutoDir1</block>
+  <block id="137812c306b0ede761fedbc1e1b88824" category="cell">NOT/AutoFile03242022</block>
+  <block id="3389dae361af79b04c9c8e7057f60cc6" category="cell">*</block>
+  <block id="8bc6542329adc040b119d4b8973c0d7f" category="cell">모든 항목을 표시합니다</block>
 </blocks>

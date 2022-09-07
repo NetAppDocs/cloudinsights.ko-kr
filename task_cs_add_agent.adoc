@@ -121,4 +121,7 @@ image::new-agent-detect.png[새로운 약제 감지]
 
 
 | useradd를 사용하여 에이전트 설치가 실패했습니다. 디렉토리 /home/cssys를 생성할 수 없습니다 | 이 오류는 권한 부족으로 인해 /home 아래에 사용자의 로그인 디렉토리를 만들 수 없는 경우에 발생할 수 있습니다. 해결 방법은 cssys 사용자를 생성하고 다음 명령을 사용하여 로그인 디렉토리를 수동으로 추가하는 것입니다. _sudo useradd user_name -m -d home_DIR_ -m: 사용자의 홈 디렉토리가 없는 경우 생성합니다. d: 사용자의 로그인 디렉토리 값으로 HOME_DIR을 사용하여 새 사용자가 생성됩니다. 예를 들어, _sudo useradd cssys -m -d /cssys_는 user_cssys_를 추가하고 root 아래에 로그인 디렉토리를 만듭니다. 
+
+
+| 설치 후 에이전트가 실행되고 있지 않습니다. _Systemctl status cloudsecure-agent.service_ 다음과 같이 표시됩니다. [root@demo~]#systemctl status cloudsecure-agent.service agent.service – Cloud Secure Agent Daemon Service loaded: loaded(/usr/lib/systemd/system/cloudsecure-agent.service; enabled; vendor preset: disabled) Active: 활성화(자동 재시작) (결과: 종료 코드) Tue 2021:12:26 PDT; 2s start agent opt /emon pid=25bin/cloudbin: secure agent execbin/service: 25889(code=Exited, status=126), Aug 03 21:12:26 demo systemd [1]: cloudsecure-agent.service: main process 종료, code=Exited, status=126/n/a Aj8 03 21:12:26 demo systemd [1]: unit cloudsecure-agent.service failed state. 8월 03 21:12:26 데모 시스템[1]: cloudsecure-agent.service 실패. | cssys_user에 설치 권한이 없을 수 있으므로 이 작업은 실패할 수 있습니다. /opt/netapp가 NFS 마운트이고 _cssys_user가 이 폴더에 대한 액세스 권한이 없는 경우 설치가 실패합니다. _cssys_는 마운트된 공유에 액세스할 권한이 없는 Cloud Secure 설치 프로그램에서 만든 로컬 사용자입니다. cssys_user를 사용하여 /opt/netapp/cloudsecure/agent/bin/cloudsecure-agent에 액세스하여 이를 확인할 수 있습니다. "사용 권한 거부"를 반환하면 설치 권한이 없는 것입니다. 마운트된 폴더 대신 컴퓨터에 로컬 디렉토리에 설치합니다. 
 |===
