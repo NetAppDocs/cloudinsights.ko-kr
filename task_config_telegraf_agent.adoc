@@ -56,12 +56,32 @@ NOTE: 프록시를 사용하는 경우 Telegraf 에이전트를 설치하기 전
 
 === Windows
 
-image:AgentInstallWindows.png["Windows Agent 설치"]
 
-.전제 조건:
+
+==== 전제 조건:
+
 * PowerShell을 설치해야 합니다
-* 프록시 뒤에 있는 경우 * Windows*용 프록시 지원 구성 섹션의 지침을 따르십시오.
+* 프록시 뒤에 있는 경우 * Windows*용 프록시 지원 구성 섹션의 지침을 따라야 합니다.
 
+
+
+
+==== Windows에 대한 프록시 지원 구성
+
+
+NOTE: 환경에서 프록시를 사용하는 경우 를 설치하기 전에 이 섹션을 읽어 보십시오.
+
+
+NOTE: 아래 단계에서는 _http_proxy/https_proxy_environment 변수를 설정하는 데 필요한 작업을 간략히 설명합니다. 일부 프록시 환경에서는 _no_proxy 환경_변수를 설정해야 할 수도 있습니다.
+
+프록시 뒤에 있는 시스템의 경우, 다음과 같이 Telegraf 에이전트를 설치하기 전에 _https_proxy_and/or_http_proxy_environment 변수 * 를 설정하십시오.
+
+ [System.Environment]::SetEnvironmentVariable(“https_proxy”, “<proxy_server>:<proxy_port>”, [System.EnvironmentVariableTarget]::Machine)
+
+
+==== 에이전트 설치 중
+
+image:AgentInstallWindows.png["Windows Agent 설치"]
 
 .Windows에서 에이전트를 설치하는 단계:
 . 상담원 액세스 키를 선택합니다.
@@ -78,16 +98,6 @@ image:AgentInstallWindows.png["Windows Agent 설치"]
 Start-Service telegraf
 Stop-Service telegraf
 ....
-
-
-==== Windows에 대한 프록시 지원 구성
-
-
-NOTE: 아래 단계에서는 _http_proxy/https_proxy_environment 변수를 설정하는 데 필요한 작업을 간략히 설명합니다. 일부 프록시 환경에서는 _no_proxy 환경_변수를 설정해야 할 수도 있습니다.
-
-프록시 뒤에 있는 시스템의 경우, 다음과 같이 Telegraf 에이전트를 설치하기 전에 _https_proxy_and/or_http_proxy_environment 변수 * 를 설정하십시오.
-
- [System.Environment]::SetEnvironmentVariable(“https_proxy”, “<proxy_server>:<proxy_port>”, [System.EnvironmentVariableTarget]::Machine)
 
 
 ==== Agent를 제거합니다
@@ -132,12 +142,39 @@ sc.exe delete telegraf
 
 === RHEL 및 CentOS
 
-image:Agent_Requirements_Rhel.png["RHEL/CentOS 에이전트 설치"]
 
-.전제 조건:
+
+==== 전제 조건:
+
 * curl, sudo, ping, sha256sum, openssl, 그리고 디미데드도 있습니다
-* 프록시 뒤에 있는 경우 * RHEL/CentOS*용 프록시 지원 구성 섹션의 지침을 따르십시오.
+* 프록시 뒤에 있는 경우 * RHEL/CentOS * 용 프록시 지원 구성 섹션의 지침을 따라야 합니다.
 
+
+
+
+==== RHEL/CentOS에 대한 프록시 지원 구성
+
+
+NOTE: 환경에서 프록시를 사용하는 경우 를 설치하기 전에 이 섹션을 읽어 보십시오.
+
+
+NOTE: 아래 단계에서는 _http_proxy/https_proxy_environment 변수를 설정하는 데 필요한 작업을 간략히 설명합니다. 일부 프록시 환경에서는 _no_proxy 환경_변수를 설정해야 할 수도 있습니다.
+
+프록시 뒤에 있는 시스템의 경우 Telegraf 에이전트를 설치하기 전에 * 다음 단계를 수행하십시오.
+
+. 현재 사용자에 대한 _https_proxy_and/or_http_proxy_environment 변수를 설정합니다.
++
+ export https_proxy=<proxy_server>:<proxy_port>
+. /etc/default/Telegraf_를 생성하고 _https_proxy_and/or_http_proxy_variable 에 대한 정의를 삽입합니다.
++
+ https_proxy=<proxy_server>:<proxy_port>
+
+
+
+
+==== 에이전트 설치 중
+
+image:Agent_Requirements_Rhel.png["RHEL/CentOS 에이전트 설치"]
 
 .RHEL/CentOS에 에이전트를 설치하는 단계:
 . 상담원 액세스 키를 선택합니다.
@@ -162,23 +199,6 @@ sudo systemctl stop telegraf
 sudo service telegraf start
 sudo service telegraf stop
 ....
-
-
-==== RHEL/CentOS에 대한 프록시 지원 구성
-
-
-NOTE: 아래 단계에서는 _http_proxy/https_proxy_environment 변수를 설정하는 데 필요한 작업을 간략히 설명합니다. 일부 프록시 환경에서는 _no_proxy 환경_변수를 설정해야 할 수도 있습니다.
-
-프록시 뒤에 있는 시스템의 경우 Telegraf 에이전트를 설치하기 전에 * 다음 단계를 수행하십시오.
-
-. 현재 사용자에 대한 _https_proxy_and/or_http_proxy_environment 변수를 설정합니다.
-+
- export https_proxy=<proxy_server>:<proxy_port>
-. /etc/default/Telegraf_를 생성하고 _https_proxy_and/or_http_proxy_variable 에 대한 정의를 삽입합니다.
-+
- https_proxy=<proxy_server>:<proxy_port>
-
-
 
 
 ==== Agent를 제거합니다
@@ -224,12 +244,39 @@ systemctl stop telegraf (If your operating system is using systemd (CentOS 7+ an
 
 === Ubuntu 및 Debian
 
-image:Agent_Requirements_Ubuntu.png["Ubuntu/Debian Agent 설치"]
 
-.전제 조건:
+
+==== 전제 조건:
+
 * curl, sudo, ping, sha256sum, openssl, 그리고 디미데드도 있습니다
-* 프록시 뒤에 있는 경우 Ubuntu/Debian*용 프록시 지원 구성 섹션의 지침을 따르십시오.
+* 프록시 뒤에 있는 경우 Ubuntu/Debian*용 프록시 지원 구성 섹션의 지침을 따라야 합니다.
 
+
+
+
+==== Ubuntu/Debian에 대한 프록시 지원 구성
+
+
+NOTE: 환경에서 프록시를 사용하는 경우 를 설치하기 전에 이 섹션을 읽어 보십시오.
+
+
+NOTE: 아래 단계에서는 _http_proxy/https_proxy_environment 변수를 설정하는 데 필요한 작업을 간략히 설명합니다. 일부 프록시 환경에서는 _no_proxy 환경_변수를 설정해야 할 수도 있습니다.
+
+프록시 뒤에 있는 시스템의 경우 Telegraf 에이전트를 설치하기 전에 * 다음 단계를 수행하십시오.
+
+. 현재 사용자에 대한 _https_proxy_and/or_http_proxy_environment 변수를 설정합니다.
++
+ export https_proxy=<proxy_server>:<proxy_port>
+. /etc/default/telgraf를 만들고 _https_proxy_and/or_http_proxy_variable에 대한 정의를 삽입합니다.
++
+ https_proxy=<proxy_server>:<proxy_port>
+
+
+
+
+==== 에이전트 설치 중
+
+image:Agent_Requirements_Ubuntu.png["Ubuntu/Debian Agent 설치"]
 
 .Debian 또는 Ubuntu에 에이전트를 설치하는 단계:
 . 상담원 액세스 키를 선택합니다.
@@ -254,23 +301,6 @@ sudo systemctl stop telegraf
 sudo service telegraf start
 sudo service telegraf stop
 ....
-
-
-==== Ubuntu/Debian에 대한 프록시 지원 구성
-
-
-NOTE: 아래 단계에서는 _http_proxy/https_proxy_environment 변수를 설정하는 데 필요한 작업을 간략히 설명합니다. 일부 프록시 환경에서는 _no_proxy 환경_변수를 설정해야 할 수도 있습니다.
-
-프록시 뒤에 있는 시스템의 경우 Telegraf 에이전트를 설치하기 전에 * 다음 단계를 수행하십시오.
-
-. 현재 사용자에 대한 _https_proxy_and/or_http_proxy_environment 변수를 설정합니다.
-+
- export https_proxy=<proxy_server>:<proxy_port>
-. /etc/default/telgraf를 만들고 _https_proxy_and/or_http_proxy_variable에 대한 정의를 삽입합니다.
-+
- https_proxy=<proxy_server>:<proxy_port>
-
-
 
 
 ==== Agent를 제거합니다
@@ -316,32 +346,20 @@ systemctl stop telegraf (If your operating system is using systemd)
 
 === macOS
 
-image:Agent_Requirements_Macos.png["macOS 에이전트 설치"]
 
-.전제 조건:
+
+==== 전제 조건:
+
 * curl, sudo, openssl 및 shasum 명령을 사용할 수 있어야 합니다
-* 프록시 뒤에 있는 경우 * macOS * 용 프록시 지원 구성 섹션의 지침을 따르십시오.
+* 프록시 뒤에 있는 경우 * macOS * 용 프록시 지원 구성 섹션의 지침을 따라야 합니다.
 
 
-.macOS에서 에이전트를 설치하는 단계:
-. 상담원 액세스 키를 선택합니다.
-. 에이전트 설치 대화 상자에서 명령 블록을 복사합니다. 클립보드 아이콘을 클릭하여 명령을 빠르게 클립보드에 복사할 수 있습니다.
-. Bash 창을 엽니다
-. Bash 창에 명령을 붙여넣고 Enter 키를 누릅니다.
-. 명령은 적절한 에이전트 설치 프로그램을 다운로드하고 설치하고 기본 구성을 설정합니다. 완료되면 에이전트 서비스가 다시 시작됩니다. 명령에 고유한 키가 있으며 24시간 동안 유효합니다.
-. 이전에 HomeBrew를 사용하여 Telegraf 에이전트를 설치한 경우 설치 제거하라는 메시지가 표시됩니다. 이전에 설치된 Telegraf 에이전트를 제거한 후 위의 5단계에서 명령을 다시 실행합니다.
-. 마침 * 또는 * 계속 * 을 클릭합니다
-
-
-에이전트를 설치한 후 다음 명령을 사용하여 서비스를 시작/중지할 수 있습니다.
-
-....
-sudo launchctl start telegraf
-sudo launchctl stop telegraf
-....
 
 
 ==== macOS에 대한 프록시 지원을 구성합니다
+
+
+NOTE: 환경에서 프록시를 사용하는 경우 를 설치하기 전에 이 섹션을 읽어 보십시오.
 
 
 NOTE: 아래 단계에서는 _http_proxy/https_proxy_environment 변수를 설정하는 데 필요한 작업을 간략히 설명합니다. 일부 프록시 환경에서는 _no_proxy 환경_변수를 설정해야 할 수도 있습니다.
@@ -387,6 +405,28 @@ sudo launchctl stop telegraf
 sudo launchctl unload -w /Library/LaunchDaemons/telegraf.plist
 sudo launchctl load -w /Library/LaunchDaemons/telegraf.plist
 sudo launchctl start telegraf
+....
+
+
+==== 에이전트 설치 중
+
+image:Agent_Requirements_Macos.png["macOS 에이전트 설치"]
+
+.macOS에서 에이전트를 설치하는 단계:
+. 상담원 액세스 키를 선택합니다.
+. 에이전트 설치 대화 상자에서 명령 블록을 복사합니다. 클립보드 아이콘을 클릭하여 명령을 빠르게 클립보드에 복사할 수 있습니다.
+. Bash 창을 엽니다
+. Bash 창에 명령을 붙여넣고 Enter 키를 누릅니다.
+. 명령은 적절한 에이전트 설치 프로그램을 다운로드하고 설치하고 기본 구성을 설정합니다. 완료되면 에이전트 서비스가 다시 시작됩니다. 명령에 고유한 키가 있으며 24시간 동안 유효합니다.
+. 이전에 HomeBrew를 사용하여 Telegraf 에이전트를 설치한 경우 설치 제거하라는 메시지가 표시됩니다. 이전에 설치된 Telegraf 에이전트를 제거한 후 위의 5단계에서 명령을 다시 실행합니다.
+. 마침 * 또는 * 계속 * 을 클릭합니다
+
+
+에이전트를 설치한 후 다음 명령을 사용하여 서비스를 시작/중지할 수 있습니다.
+
+....
+sudo launchctl start telegraf
+sudo launchctl stop telegraf
 ....
 
 
