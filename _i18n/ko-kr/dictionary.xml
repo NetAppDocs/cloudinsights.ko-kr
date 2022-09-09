@@ -8666,7 +8666,6 @@
   <block id="abb32e1da1ad856744ba53e096ef4ba3" category="cell">AU가 SELinux에 설치된 경우 SE를 _permissive_mode로 설정해야 합니다. _Enforcing_mode는 지원되지 않습니다. SELinux를 허용 모드로 설정한 후 AU 서비스를 다시 시작합니다. <block ref="a82c78a8c8abe174de58c3bb493cbdd3" category="inline-link-macro-rx"></block>.</block>
   <block id="eff09a47f0894badbc59afef03e773cb" category="paragraph">이벤트 속도 검사기는 ONTAP SVM 데이터 수집기를 설치하기 전에 SVM에서 NFS/SMB의 결합된 이벤트 속도를 확인하여 에이전트 시스템 한 대를 모니터링할 수 있는 SVM의 수를 확인하는 데 사용됩니다. Agent는 최대 50개의 데이터 수집기를 지원할 수 있습니다.</block>
   <block id="81b0a686a7f070f4718258f6f1c90eea" category="paragraph">a) 이 표를 일반 사이징 가이드로 사용합니다.</block>
-  <block id="904be52209f404eb1b403eeef2de5817" category="paragraph">Kubernetes Agent 지침이 새 페이지로 이동했습니다. 제발 <block ref="6efc317b80350dcbc0248481605e2f47" category="inline-link-macro-rx"></block> 최신 Kubernetes 에이전트 지침을 보려면</block>
   <block id="ff7c0fcd6a31e735a61c001f75426961" category="section-title">예</block>
   <block id="f2803148b76b5b63f68b31927cb35d83" category="section-title">예 9</block>
   <block id="2c9ef91324ec8d07844a54c6151dc4cb" category="paragraph">이 예제에서는 1_ 이후의 모든 것과 두 번째 _ 까지의 모든 것을 찾습니다.</block>
@@ -8983,4 +8982,6 @@
   <block id="5c45aaf7999f2a6de4e86ca7726bce2b" category="list-text">프록시 뒤에 있는 경우 Ubuntu/Debian*용 프록시 지원 구성 섹션의 지침을 따라야 합니다.</block>
   <block id="7cd8046a2d88273b39f65bc570022462" category="list-text">프록시 뒤에 있는 경우 * macOS * 용 프록시 지원 구성 섹션의 지침을 따라야 합니다.</block>
   <block id="eb1d5185404b1a4f21a4da9c88cb536d" category="paragraph">Cloud Insights에 등록하고 환경이 활성화되어 있는 경우 Cloud Insights 30일 무료 평가판에 들어갑니다. 이 시험판 평가 중에 Cloud Insights가 귀사의 환경에서 제공하는 기능을 살펴볼 수 있습니다.</block>
+  <block id="c531b87929a34b77f73b3b8aa968a1dd" category="paragraph">NetApp Kubernetes Monitoring Operator(NKMO)는 Cloud Insights Insights를 위한 Kubernetes를 설치하는 데 권장되는 방법입니다. 더 적은 단계로 보다 유연하게 모니터링을 구성할 수 있을 뿐 아니라 K8s 클러스터에서 실행되는 다른 소프트웨어를 모니터링할 수 있는 기회도 더 많아집니다.</block>
+  <block id="9c6fa8cdb190f5469cb38f0c5dfb9689" category="paragraph">제발 <block ref="6efc317b80350dcbc0248481605e2f47" category="inline-link-macro-rx"></block> NetApp Kubernetes Monitoring Operator에 대한 정보 및 설치 지침을 보려면</block>
 </blocks>

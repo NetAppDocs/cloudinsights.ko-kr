@@ -473,7 +473,9 @@ sudo /tmp/uninstall
 
 === 쿠버네티스
 
-Kubernetes Agent 지침이 새 페이지로 이동했습니다. 제발 link:task_config_telegraf_agent_k8s.html["* 여기로 이동 *"] 최신 Kubernetes 에이전트 지침을 보려면
+NetApp Kubernetes Monitoring Operator(NKMO)는 Cloud Insights Insights를 위한 Kubernetes를 설치하는 데 권장되는 방법입니다. 더 적은 단계로 보다 유연하게 모니터링을 구성할 수 있을 뿐 아니라 K8s 클러스터에서 실행되는 다른 소프트웨어를 모니터링할 수 있는 기회도 더 많아집니다.
+
+제발 link:task_config_telegraf_agent_k8s.html["* 여기로 이동 *"] NetApp Kubernetes Monitoring Operator에 대한 정보 및 설치 지침을 보려면
 
 
 
