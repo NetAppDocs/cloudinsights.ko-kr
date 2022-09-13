@@ -30,12 +30,11 @@ Agent 추가 페이지가 표시됩니다.
 +
 image::Add-agent-1.png[상담원 1을 추가합니다]
 
-. 에이전트를 설치할 운영 체제를 선택합니다.
 . 에이전트 서버가 최소 시스템 요구 사항을 충족하는지 확인합니다.
 . 에이전트 서버가 지원되는 Linux 버전을 실행 중인지 확인하려면 _VERSION SUPPORTED (I) _ 을(를) 클릭합니다.
 . 네트워크에서 프록시 서버를 사용하는 경우 프록시 섹션의 지침에 따라 프록시 서버 세부 정보를 설정하십시오.
 +
-image:CloudSecureAgentWithProxy.png["프록시 메모를 사용하여 에이전트 설치"]
+image:CloudSecureAgentWithProxy_Instructions.png["프록시 메모를 사용하여 에이전트 설치"]
 
 . 클립보드로 복사 아이콘을 클릭하여 설치 명령을 복사합니다.
 . 터미널 창에서 설치 명령을 실행합니다.
@@ -93,7 +92,7 @@ image::new-agent-detect.png[새로운 약제 감지]
 | Agent 설치가 /opt/netapp/cloudsecure/agent/logs/agent.log 폴더를 생성하지 못하고 install.log 파일은 관련 정보를 제공하지 않습니다. | 이 오류는 에이전트의 부트스트래핑 중에 발생합니다. 로그 파일이 로거가 초기화되기 전에 발생하므로 이 오류는 로그 파일에 기록되지 않습니다. 이 오류는 표준 출력으로 리디렉션되고 서비스 로그에서 '저널 - u cloudsecure-agent.service` 명령을 사용하여 확인할 수 있습니다. 이 명령을 사용하여 문제를 더 자세히 해결할 수 있습니다. 
 
 
-| 에이전트 설치가 '이 Linux 배포는 지원되지 않습니다. 설치를 종료하는 중입니다. | Cloud Secure 1.0.0에 지원되는 플랫폼은 RHEL 7.x/CentOS 7.x입니다 RHEL 6.x 또는 CentOS 6.x 시스템에 에이전트를 설치하지 않도록 합니다. 
+| 에이전트 설치가 '이 Linux 배포는 지원되지 않습니다. 설치를 종료하는 중입니다. | 이 오류는 지원되지 않는 시스템에 Agent를 설치하려고 할 때 나타납니다. 을 참조하십시오 link:concept_cs_agent_requirements.html["상담원 요구 사항"]. 
 
 
 | "-bash:unzip:command not found" 오류와 함께 에이전트 설치가 실패했습니다. | 압축을 푼 다음 설치 명령을 다시 실행합니다. 시스템에 Yum이 설치되어 있는 경우 "yum install unzip"을 시도하여 unzip 소프트웨어를 설치합니다. 그런 다음 Agent 설치 UI에서 명령을 다시 복사하여 CLI에 붙여 넣어 설치를 다시 실행합니다. 

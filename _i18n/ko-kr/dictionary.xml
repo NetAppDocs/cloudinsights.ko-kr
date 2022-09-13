@@ -6426,12 +6426,10 @@
   <block id="ba6a231cc4fc57afa76b3f2a42f71f11" category="list-text">Admin &gt; Data Collector &gt; Agents &gt; + Agent * 를 클릭합니다</block>
   <block id="f9eb6ee79f8b49445d9d7860e9a080c0" category="paragraph">Agent 추가 페이지가 표시됩니다.</block>
   <block id="0e9fa577800a5653127fdb5f3d4400aa" category="image-alt">상담원 1을 추가합니다</block>
-  <block id="fa851401541c7d95144ca33b604668b7" category="list-text">에이전트를 설치할 운영 체제를 선택합니다.</block>
   <block id="212db90a8b360d05f82119713ca87853" category="list-text">에이전트 서버가 최소 시스템 요구 사항을 충족하는지 확인합니다.</block>
   <block id="3214e3b147ee224c2ddc92c7445e5bd4" category="list-text">에이전트 서버가 지원되는 Linux 버전을 실행 중인지 확인하려면 _VERSION SUPPORTED (I) _ 을(를) 클릭합니다.</block>
   <block id="8bb9382589d54088894314b485b4650a" category="list-text">네트워크에서 프록시 서버를 사용하는 경우 프록시 섹션의 지침에 따라 프록시 서버 세부 정보를 설정하십시오.</block>
   <block id="f828f889a93c9ae560b6227f2cc5d7fb" category="inline-image-macro">프록시 메모를 사용하여 에이전트 설치</block>
-  <block id="74cb98f58c3a23767424d0d09e83571e" category="paragraph"><block ref="74cb98f58c3a23767424d0d09e83571e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7a10e2f227e4fcc6978cfba86486a764" category="list-text">클립보드로 복사 아이콘을 클릭하여 설치 명령을 복사합니다.</block>
   <block id="635c6559744a9cbe13ef48ca6179175e" category="list-text">터미널 창에서 설치 명령을 실행합니다.</block>
   <block id="80f1bbe9e042c14f0ea154b144e49635" category="list-text">설치가 성공적으로 완료되면 다음과 같은 메시지가 표시됩니다.</block>
@@ -6454,7 +6452,6 @@
   <block id="e71794867788b5cf67da8f5fae629c4c" category="cell">Agent 설치가 /opt/netapp/cloudsecure/agent/logs/agent.log 폴더를 생성하지 못하고 install.log 파일은 관련 정보를 제공하지 않습니다.</block>
   <block id="1d46e6c358fd06d5a1f7a440acc48347" category="cell">이 오류는 에이전트의 부트스트래핑 중에 발생합니다. 로그 파일이 로거가 초기화되기 전에 발생하므로 이 오류는 로그 파일에 기록되지 않습니다. 이 오류는 표준 출력으로 리디렉션되고 서비스 로그에서 '저널 - u cloudsecure-agent.service` 명령을 사용하여 확인할 수 있습니다. 이 명령을 사용하여 문제를 더 자세히 해결할 수 있습니다.</block>
   <block id="0a21e5a6656a19032e65faf86ec69c83" category="cell">에이전트 설치가 '이 Linux 배포는 지원되지 않습니다. 설치를 종료하는 중입니다.</block>
-  <block id="6a4df434fb58ac1c6e9e4f8dd1694643" category="cell">Cloud Secure 1.0.0에 지원되는 플랫폼은 RHEL 7.x/CentOS 7.x입니다 RHEL 6.x 또는 CentOS 6.x 시스템에 에이전트를 설치하지 않도록 합니다.</block>
   <block id="3a7e14f279ad4988e72d190c932c04e4" category="cell">"-bash:unzip:command not found" 오류와 함께 에이전트 설치가 실패했습니다.</block>
   <block id="6ffa35eb057e4e4c2feada5be42e5766" category="cell">압축을 푼 다음 설치 명령을 다시 실행합니다. 시스템에 Yum이 설치되어 있는 경우 "yum install unzip"을 시도하여 unzip 소프트웨어를 설치합니다. 그런 다음 Agent 설치 UI에서 명령을 다시 복사하여 CLI에 붙여 넣어 설치를 다시 실행합니다.</block>
   <block id="a387ff3584e009519afcccd4187aa537" category="cell">에이전트가 설치되어 실행 중입니다. 하지만 상담원이 갑자기 중지되었습니다.</block>
@@ -8773,7 +8770,6 @@
   <block id="b368496b943e902a72e3e0bed2267ee2" category="cell">정책을 수정할 수 없습니다. 원인: 해당 명령에 대해 권한이 없습니다.</block>
   <block id="b0b134473b7922feefa2eaac79b9fb75" category="cell">CsUser 사용 시, 위에서 설명한 대로 사용자에게 권한이 부여되는지 확인</block>
   <block id="a9a216fbb1fb9d774e7cedfcf74c00cf" category="cell">에서 티켓을 엽니다<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block>. “cloud.netapp.com &gt; 계정/로그인 문제” 또는 “cloud.netapp.com &gt; 페더레이션 문제”를 선택합니다. 특히, Cloud Central 문제 또는 질문을 위한 것입니다. 기타 모든 Cloud Insights 기술 지원 문제는 에 문의하십시오 <block ref="1a8b44ad735b0e8f3f08395032e9cb16" category="inline-link-macro-rx"></block>.</block>
-  <block id="0f0836a5cbb198e5071126d330de3a88" category="cell">디스크 공간은 다음과 같은 방식으로 할당해야 합니다. /opt/NetApp 35GB(최소)</block>
   <block id="abd4328c725637aabedbd02d3b7ffd40" category="cell">양방향</block>
   <block id="8334797b9b3383d4f48d98178b8845ea" category="inline-link-macro">이 페이지</block>
   <block id="116c0009f8a6c3650a8638213dafb58f" category="cell">Data Collector 페이지에서 오류를 제공하는 데이터 수집기의 오른쪽으로 스크롤하고 3개의 점 메뉴를 클릭합니다. 편집 _ 을(를) 선택합니다. 데이터 수집기의 암호를 다시 입력합니다. Save _ 버튼을 눌러 데이터 수집기를 저장합니다. Data Collector가 다시 시작되고 오류가 해결되어야 합니다. 2.Agent 시스템이 CPU 또는 RAM 여유 공간이 부족할 수 있습니다. 이것이 바로 DSC가 실패하는 이유입니다. 시스템의 에이전트에 추가되는 데이터 수집기 수를 확인하십시오. 20개를 초과하는 경우 Agent 시스템의 CPU 및 RAM 용량을 늘리십시오. CPU와 RAM이 증가되면 DSC가 초기화 중 상태로 전환되었다가 자동으로 실행 상태로 전환됩니다. 의 사이징 가이드를 참조하십시오 <block ref="d78d6535469308a93bd2a6c42408feef" category="inline-link-macro-rx"></block>.</block>
@@ -8985,4 +8981,9 @@
   <block id="c531b87929a34b77f73b3b8aa968a1dd" category="paragraph">NetApp Kubernetes Monitoring Operator(NKMO)는 Cloud Insights Insights를 위한 Kubernetes를 설치하는 데 권장되는 방법입니다. 더 적은 단계로 보다 유연하게 모니터링을 구성할 수 있을 뿐 아니라 K8s 클러스터에서 실행되는 다른 소프트웨어를 모니터링할 수 있는 기회도 더 많아집니다.</block>
   <block id="9c6fa8cdb190f5469cb38f0c5dfb9689" category="paragraph">제발 <block ref="6efc317b80350dcbc0248481605e2f47" category="inline-link-macro-rx"></block> NetApp Kubernetes Monitoring Operator에 대한 정보 및 설치 지침을 보려면</block>
   <block id="1a8d1392fe9d8d744ef544d30bbaff86" category="paragraph">{Empty} {Empty} {Empty} {Empty} {Empty} {Empty}</block>
+  <block id="1b1cd01c54254af639999400741a0b75" category="list-text">ONTAP Select가 지원됩니다</block>
+  <block id="a1667a4627338ab4bba192e79668af02" category="paragraph"><block ref="a1667a4627338ab4bba192e79668af02" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d37e34400d307dbed8b2907c8c7e8964" category="cell">이 오류는 지원되지 않는 시스템에 Agent를 설치하려고 할 때 나타납니다. 을 참조하십시오 <block ref="7db04bd496cdb9ab394c662c3f00f7ed" category="inline-link-macro-rx"></block>.</block>
+  <block id="e09245effc62059e51f926fad603e413" category="inline-link-macro">문제 해결</block>
+  <block id="64ecfa2ee741849d8a5def32fdb1eef6" category="cell">디스크 공간은 다음과 같은 방식으로 할당해야 합니다. /opt/NetApp 35GB(최소) /opt가 NAS 스토리지의 마운트된 폴더인 경우 로컬 사용자가 이 폴더에 액세스할 수 있는지 확인하십시오. 로컬 사용자에게 이 폴더에 대한 권한이 없는 경우 에이전트 또는 데이터 수집기를 설치하지 못할 수 있습니다. 를 참조하십시오 <block ref="b8e4bfa44cc0a900c6c15b3a86438fdc" category="inline-link-macro-rx"></block> 섹션을 참조하십시오.</block>
 </blocks>

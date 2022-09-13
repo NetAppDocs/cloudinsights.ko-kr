@@ -28,7 +28,7 @@ keywords: agent, Linux, requirements, docker, browsers, permissions, Network
 | 메모리 | 16GB RAM 
 
 
-| 사용 가능한 디스크 공간입니다 | 디스크 공간은 다음과 같은 방식으로 할당해야 합니다. /opt/NetApp 35GB(최소) 
+| 사용 가능한 디스크 공간입니다 | 디스크 공간은 다음과 같은 방식으로 할당해야 합니다. /opt/NetApp 35GB(최소) /opt가 NAS 스토리지의 마운트된 폴더인 경우 로컬 사용자가 이 폴더에 액세스할 수 있는지 확인하십시오. 로컬 사용자에게 이 폴더에 대한 권한이 없는 경우 에이전트 또는 데이터 수집기를 설치하지 못할 수 있습니다. 를 참조하십시오 link:task_cs_add_agent.html#troubleshooting-agent-errors["문제 해결"] 섹션을 참조하십시오. 
 
 
 | 네트워크 | 100Mbps~1Gbps 이더넷 연결, 정적 IP 주소, 모든 장치에 대한 IP 연결 및 Cloud Secure 인스턴스에 대한 필수 포트(80 또는 443). 
