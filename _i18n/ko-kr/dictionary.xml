@@ -1937,27 +1937,13 @@
   <block id="5f5052459ed746a225d85b63238531d1" category="paragraph">Cloud Insights에서 로그아웃하려면 * 사용자 이름 * 을 클릭하고 * 로그아웃 * 을 선택합니다. Cloud Central 로그인 화면으로 돌아갑니다.</block>
   <block id="21648aceb436779ee1938a15ced12e7e" category="admonition">Cloud Insights에서 로그아웃하면 Cloud Central에서 로그아웃됩니다. Cloud Central 로그인을 사용하는 다른 NetApp Cloud 서비스에서도 로그아웃됩니다.</block>
   <block id="f9a73a77fb0b80bd2a6dc48518a3907d" category="summary">Cloud Secure는 데이터 수집기를 사용하여 디바이스에서 파일 및 사용자 액세스 데이터를 수집합니다.</block>
-  <block id="abd9e0bb14f8b22570a2f7f71cda1899" category="doc">NetApp ONTAP용 Amazon FSx 구성</block>
-  <block id="e5444155690679de3490c237e18db0c4" category="paragraph">이 데이터 수집기는 NetApp ONTAP용 Amazon FSx에서 파일 및 사용자 액세스 데이터를 수집합니다. 이 데이터 수집기는 Cloud Insights 서비스 지역 전체에서 점증적으로 사용할 수 있습니다. Cloud Insights 환경에서 이 수집기의 아이콘이 보이지 않으면 영업 담당자에게 문의하십시오.</block>
   <block id="276e994cf948a6c752060d65f4332540" category="section-title">에이전트 시스템 구성</block>
   <block id="d4ed0ce3ae770f112754ea5fdeb0e838" category="paragraph">Cloud Secure 에이전트로 사용할 시스템을 구성하려면 다음 단계를 수행하십시오.</block>
-  <block id="0ee580e185da35a40a1d1984bc4f414a" category="list-text">AWS 콘솔에 로그인하고 EC2-Instances 페이지로 이동한 다음 Launch Instance를 선택합니다.</block>
-  <block id="5beb340d7612e5199a7f1cf1fa8559a6" category="list-text">에 설명된 대로 적절한 버전의 RHEL 또는 CentOS AMI를 선택합니다 <block ref="f14b7add63be60d820928fdd866e56cc" category="inline-link-macro-rx"></block>.</block>
-  <block id="7c197f72661240062d16ebc1d01f474a" category="list-text">NetApp ONTAP 인스턴스의 Amazon FSx가 상주하는 것과 동일한 VPC 및 서브넷에서 에이전트 상자를 생성합니다.</block>
-  <block id="84cdd7b041998cf9db566c8249b20d66" category="paragraph">또는 NetApp ONTAP VPC용 Amazon FSx에 연결되어 있는 VPC에 에이전트 상자가 있어야 합니다.</block>
-  <block id="d390a93ae0bf8ecb5f3eafac479ff1b7" category="paragraph">NetApp ONTAP용 Amazon FSx와 에이전트 간에 양방향 통신이 존재하는지 확인합니다.</block>
-  <block id="244fc1e8ff83d4d166131ec1052c59de" category="list-text">할당된 리소스로 T2.xLarge(vCPU 4개 및 16GB RAM)를 선택합니다.</block>
   <block id="efb10f5a307574138e00f348ca720e50" category="list-text">EC2 인스턴스를 만듭니다.</block>
   <block id="e24a1d497706260167f8a13cf71db79a" category="list-text">YUM 패키지 관리자를 사용하여 필요한 Linux 패키지를 설치합니다.</block>
-  <block id="8b7fcdb58af006bf84d991e49eeebe51" category="list-text">기본 Linux 패키지를 설치하고 압축을 풉니다.</block>
   <block id="1b1575d608c5ac25242b7040b6f4fbf8" category="section-title">Cloud Secure 에이전트를 설치합니다</block>
   <block id="af3e8f1c899e4154e0ef2755c159cbf4" category="list-text">Cloud Insights 환경에 관리자 또는 계정 소유자로 로그인합니다.</block>
-  <block id="d885b39aec33db3575946cc072241a27" category="list-text">Cloud Secure 관리자 &gt; 데이터 수집기 로 이동하고 에이전트 탭을 클릭합니다.</block>
-  <block id="30bfaded2cce7bc8bce0c34aedd60d6a" category="list-text">Agent를 클릭하고 RHEL을 대상 플랫폼으로 지정합니다.</block>
   <block id="1958a7c94a832d37f7a96957c47d39f9" category="list-text">Agent 설치 명령을 복사합니다.</block>
-  <block id="6e9db8c0f07c6f970099588928158b5d" category="list-text">로그인한 RHEL EC2 인스턴스에 Agent Installation 명령을 붙여 넣습니다.</block>
-  <block id="fbdfba9c1edac47c47090ea8623a8231" category="paragraph">이렇게 하면 모든 에이전트 필수 구성 요소가 충족되는 경우 Cloud Secure 에이전트가 설치됩니다.</block>
-  <block id="662c8fe551cd48617d7f1ceaea434408" category="paragraph">자세한 단계는 Cloud Secure를 참조하십시오 <block ref="7902d0521fa6bd726229418f042a3bdf" category="inline-link-macro-rx"></block> 페이지,</block>
   <block id="c516c3bd048a72acd34572d6cfae0477" category="summary">보고서 작성 도구를 사용하여 사용자 지정("임시") 보고서를 만듭니다</block>
   <block id="aa41ad191e6340c80490ee23b9051f65" category="doc">사용자 정의 보고서 작성</block>
   <block id="e807d7ecb04956a12f412e95bc2629ec" category="paragraph">보고서 작성 도구를 사용하여 사용자 정의 보고서를 만들 수 있습니다. 보고서를 만든 후에는 보고서를 저장하고 정기적으로 실행할 수 있습니다. 보고서 결과는 사용자 자신 및 다른 사람에게 이메일로 자동 전송될 수 있습니다.</block>
@@ -6863,7 +6849,6 @@
   <block id="f0d8c216c3a9aaa527ee9abd2f5a5f9a" category="cell">• 장치가 작동 중인지 확인 • IP 주소 및 수신 대기 포트 확인 • 장치에 Ping 수행 • Cisco Device Manager GUI를 사용하여 장치에 로그인 • CLI를 사용하여 장치에 로그인 • SNMP walk 실행</block>
   <block id="79deb14b609e20ab4254e44371a31dd1" category="cell">오류: SNMP v1에서 성능 획득을 지원하지 않습니다</block>
   <block id="61cf21f87693dd829edeec21b6b04d9f" category="cell">• 데이터 소스 편집 및 스위치 성능 비활성화 • SNMP v2 이상을 사용하도록 데이터 소스 및 스위치 구성을 수정합니다</block>
-  <block id="b459bf5b60536c9c03011ff80d55cc91" category="doc">Cloud Volumes ONTAP 데이터 수집기 구성</block>
   <block id="c45671a9389f697917f0b33d12822c51" category="section-title">Cloud Volumes ONTAP 스토리지 구성</block>
   <block id="3760923e63b2ef4cd5a4ef21ab164f35" category="paragraph">OnCommand 에이전트를 호스팅하도록 단일 노드/HA AWS 인스턴스를 구성하려면 Cloud Secure Cloud Manager 설명서를 참조하십시오.<block ref="3a865d6888eced2f74a21bc9d0b68884" category="inline-link-rx"></block></block>
   <block id="60b02ea35fab7476f0f0cf2d8cfc680d" category="paragraph">구성이 완료되면 단계에 따라 SVM을 설정합니다.<block ref="91221d0756e81d23329189ffc4e6701a" category="inline-link-rx"></block></block>
@@ -8986,4 +8971,11 @@
   <block id="e09245effc62059e51f926fad603e413" category="inline-link-macro">문제 해결</block>
   <block id="64ecfa2ee741849d8a5def32fdb1eef6" category="cell">디스크 공간은 다음과 같은 방식으로 할당해야 합니다. /opt/NetApp 35GB(최소) /opt가 NAS 스토리지의 마운트된 폴더인 경우 로컬 사용자가 이 폴더에 액세스할 수 있는지 확인하십시오. 로컬 사용자에게 이 폴더에 대한 권한이 없는 경우 에이전트 또는 데이터 수집기를 설치하지 못할 수 있습니다. 를 참조하십시오 <block ref="b8e4bfa44cc0a900c6c15b3a86438fdc" category="inline-link-macro-rx"></block> 섹션을 참조하십시오.</block>
   <block id="2c766eee635ebf4112370c39ebd34dbf" category="cell">Red Hat Enterprise Linux 7.x, 8.x 64비트 CentOS 7.x 64비트 CentOS 8 Stream Ubuntu 20 ~ 22 64비트 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다. SE(Security Enhanced) Linux는 지원되지 않습니다.</block>
+  <block id="fde8afa3fd65a9f38d9b11377453846e" category="doc">NetApp ONTAP Collector용 Cloud Volumes ONTAP 및 Amazon FSx 구성</block>
+  <block id="4aa02491d3ee690a6a014b190a75060e" category="section-title">지원되는 플랫폼</block>
+  <block id="bf6a182a4bf96601e8aa50ed356b9b9f" category="list-text">Cloud Volumes ONTAP - 사용 가능한 모든 클라우드 서비스 공급자에서 지원됩니다. 예: Amazon, Azure, Google Cloud</block>
+  <block id="37d67556425a480bd771d25cccb64deb" category="list-text">ONTAP 아마존 FSx</block>
+  <block id="0dec2b903302bbd14d95abf2e3a6eb78" category="paragraph">에이전트 시스템은 클라우드 서비스 공급자의 각 서브넷에 구성되어야 합니다. [Agent Requirements] 에서 네트워크 액세스에 대해 자세히 알아보십시오.</block>
+  <block id="608efa70bff9cd8ba64ac8f581eee545" category="paragraph">다음은 AWS에서 Agent를 설치하는 단계입니다. 클라우드 서비스 공급자에 적용되는 것과 동일한 단계를 Azure 또는 Google Cloud에서 설치를 위해 수행할 수 있습니다.</block>
+  <block id="dacbc7c2a597126f4cb9dec110f0684b" category="paragraph">AWS에서 다음 단계를 수행하여 Cloud Secure 에이전트로 사용할 시스템을 구성합니다.</block>
 </blocks>
