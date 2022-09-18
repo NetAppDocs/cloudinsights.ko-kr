@@ -465,6 +465,18 @@ toc::[]
 |===
 
 
+=== 보안 모니터
+
+|===
+
+
+| 모니터 이름 | 설명 | 수정 조치 
+
+
+| FIPS 모드가 비활성화되었습니다 | FIPS 140-2 규정 준수를 활성화하면 TLSv1 및 SSLv3이 비활성화되고 TLSv1.1 및 TLSv1.2만 활성화됩니다. ONTAP는 FIPS 140-2 규정 준수를 사용하는 경우 TLSv1 및 SSLv3을 활성화하지 못하도록 합니다. | 클러스터에서 FIPS 140-2 규정 준수를 활성화하려면 고급 권한 모드에서 ONTAP 명령을 실행하십시오. security config modify -interface ssl -is -FIPS -enabled true입니다 
+|===
+
+
 == 추가 정보
 
 * link:task_view_and_manage_alerts.html["경고 보기 및 해제"]

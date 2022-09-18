@@ -17,7 +17,7 @@ Cloud Insights의 최신 Telegraf 버전은 * 1.22.3 * 입니다.
 NOTE: 정확한 감사 및 데이터 보고를 위해 * NTP(Network Time Protocol) * 또는 * SNTP(Simple Network Time Protocol) * 를 사용하여 Agent 시스템의 시간을 동기화하는 것이 좋습니다.
 
 
-NOTE: Agent를 설치하기 전에 설치 파일을 확인하려면 정보 를 참조하십시오 <<Verifying Kubernetes Checksums>>.
+NOTE: Agent를 설치하기 전에 설치 파일을 확인하려면 정보 를 참조하십시오  Kubernetes Checksums.
 
 
 toc::[]
@@ -52,7 +52,7 @@ NOTE: 프록시를 사용하는 경우 Telegraf 에이전트를 설치하기 전
 Cloud Insights는 Kubernetes 컬렉션을 위한 * NetApp Kubernetes 모니터링 오퍼레이터 * 를 제공합니다. 데이터 수집기 추가 시 "Kubernetes" 타일을 선택하면 됩니다.
 
 .전제 조건:
-* NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 버전 1.20 이상에서 지원됩니다. Docker 컨테이너 런타임과 함께 사용할 경우 Cloud Insights는 NFS 및 iSCSI에 대한 POD-PV-스토리지 매핑을 표시할 수 있으며, 다른 런타임에서는 iSCSI만 표시합니다. 2022년 8월부터 NetApp Kubernetes Monitoring Operator는 Pod 보안 정책(PSP)을 지원합니다. 반드시 해야 합니다 <<upgrading-the-agent,업그레이드>> 해당 환경에서 PSP를 사용하는 경우 최신 NetApp Kubernetes 모니터링 사업자로 이동합니다.
+* NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 버전 1.20 이상에서 지원됩니다. Docker 컨테이너 런타임과 함께 사용할 경우 Cloud Insights는 NFS 및 iSCSI에 대한 POD-PV-스토리지 매핑을 표시할 수 있으며, 다른 런타임에서는 iSCSI만 표시합니다. 2022년 8월부터 NetApp Kubernetes Monitoring Operator는 Pod 보안 정책(PSP)을 지원합니다. 반드시 해야 합니다 ,업그레이드 해당 환경에서 PSP를 사용하는 경우 최신 NetApp Kubernetes 모니터링 사업자로 이동합니다.
 
 
 * OpenShift 4.6-4.8에서 실행 중인 경우, 이러한 필수 구성 요소가 충족되도록 하기 위해 아래의 * OpenShift Instructions * 를 따라야 합니다.
@@ -353,7 +353,7 @@ kubbe 상태 메트릭 카운터에 대한 정보에 액세스하려면 다음 �
 
 == Agent를 제거합니다
 
-이전에 설치된 스크립트 기반 Kubernetes 에이전트에서 을 실행 중인 경우, 반드시 다음을 수행해야 합니다 <<upgrading-the-agent,업그레이드>> NetApp Kubernetes 모니터링 사업자로 이동합니다.
+이전에 설치된 스크립트 기반 Kubernetes 에이전트에서 을 실행 중인 경우, 반드시 다음을 수행해야 합니다 ,업그레이드 NetApp Kubernetes 모니터링 사업자로 이동합니다.
 
 
 
@@ -415,8 +415,8 @@ Telegraf 에이전트를 업그레이드하려면 다음을 수행합니다.
  kubectl --namespace ci-monitoring get cm -o yaml > /tmp/telegraf-configs.yaml
 
 
-* <<uninstalling-the-agent,설치 제거>> 기존 상담원
-* <<installing-the-agent,설치합니다>> 새 상담원].
+* ,설치 제거 기존 상담원
+* ,설치합니다 새 상담원].
 
 
 

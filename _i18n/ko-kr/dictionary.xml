@@ -8596,7 +8596,6 @@
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link-macro">자세한 정보</block>
   <block id="c1c7efc58c7b64cc21f3ae15934e8271" category="section-title">공간이 부족되는 Kubernetes 네임스페이스</block>
   <block id="806f6dbcc954f0a88489885f517d1d1d" category="paragraph">Space Insight가 없는 Kubernetes 네임스페이스 에서는 공간이 부족할 위험이 있는 Kubernetes 네임스페이스의 워크로드를 볼 수 있으며 각 공간이 가득 채워지기 전의 남은 일 수에 대한 추정치가 있습니다. <block ref="604196d3b206e62dba15152db76beddc" category="inline-link-macro-rx"></block></block>
-  <block id="9e7ded308e600f5c72a32aac82868158" category="list-text">* 채팅 * - NetApp 지원 담당자와 연결하여 지원을 받을 수 있습니다(평일에만 해당). 도움말 &gt; 지원 * 페이지의 오른쪽 아래에 있는 버블을 클릭합니다.</block>
   <block id="f9696d5ebb5a2bc3b4e557d0f479e831" category="paragraph">ONTAP 데이터 수집기 * 랜딩 페이지를 볼 때 데이터 수집기 요약 섹션의 "알림" 필드에서 연필 아이콘을 클릭하여 알림을 수정할 수 있습니다.</block>
   <block id="851540d32e033a0c14b63879881da871" category="summary">통찰력은 Kubernetes 공간이 가득 찰 가능성을 예측하는 데 도움이 될 수 있습니다.</block>
   <block id="4fef891481b95674ba195bcf5ebf7efb" category="doc">인사이트: Kubernetes 네임스페이스가 공간 부족입니다</block>
@@ -8665,7 +8664,6 @@
   <block id="82803c7a526739de20fc24c17e739d7c" category="list-text">클러스터의 Pod 수 이 번호를 클릭하면 창 목록 페이지가 열립니다.</block>
   <block id="bed3b3102569672060faa59f92fbb130" category="list-text">클러스터의 * 네임스페이스 * 수입니다. 이 번호를 클릭하면 네임스페이스 목록 페이지가 열립니다.</block>
   <block id="12a38026906d3d3a51a3538b98e0d002" category="list-text">클러스터에 있는 * 워크로드 * 수. 이 번호를 클릭하면 워크로드 목록 페이지가 열립니다.</block>
-  <block id="dfeced9105a52cdc4ad66bf5d6ef9e5f" category="cell">라이센스 버전 중 하나를 실행하는 컴퓨터: * CentOS(64비트): 7.2 ~ 7.9, Stream 8, Stream 9 * Debian(64비트): 9 및 10 * Oracle Enterprise Linux(64비트): 7.5 ~ 7.9, 8.1 ~ 8.4 * Red Hat Enterprise Linux(64비트): 7.2 ~ 7.9, 8.1 ~ 8.4 * Ubuntu 서버: 18.04 및 20.04 LTS 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
   <block id="5878d8d726a0f6915f98c3ad70765e41" category="paragraph">Cloud Insights의 최신 Telegraf 버전은 * 1.22.3 * 입니다.</block>
   <block id="64643b4abc81cdc6d03a96846188e46e" category="list-text">워크로드 보존</block>
   <block id="8160f36882be54ea94b2656ab98ca110" category="paragraph">에는 호스트, 네트워크 및 스토리지와 같은 다른 공유 리소스에 영향을 미치거나 영향을 받는 자산이 나와 있습니다. 이러한 리소스를 _greedy_and_degraded_resources 라고 합니다.</block>
@@ -8797,10 +8795,6 @@
   <block id="87d26f2a744f5c5f07151656de6a1390" category="summary">ONTAP Essentials는 환경에 대한 자세한 개요를 제공하는 일련의 대시보드와 워크플로우입니다.</block>
   <block id="f7e8a669ab2a5aca497e3123c1f3935b" category="doc">ONTAP 핵심 요소</block>
   <block id="7aaa3b04c62b1d6b52635ad40e8ff0a2" category="paragraph">ONTAP Essentials는 ONTAP 인벤토리 및 워크로드를 상세하게 보여주는 대시보드 및 워크플로 집합입니다. ONTAP Essentials에서 작업할 때 사용되는 용어는 다음과 같습니다.</block>
-  <block id="70de8b0d424cdb2d65787ccde2449a8d" category="list-text">인프라/인벤토리: 사용자 데이터에 스토리지/네트워킹 서비스를 제공하는 개체의 보기를 나열합니다</block>
-  <block id="3d46ac68e417d922e47209568ce8e07b" category="list-text">워크로드: 사용자가 데이터를 읽고 쓸 수 있도록 인터페이스를 제공하는 개체의 보기를 나열합니다.</block>
-  <block id="0b91449983387e2b661cde46c2928572" category="list-text">데이터 보호: NetApp 데이터 보호 기술을 사용하여 보호할 수 있는 다양한 개체의 목록 보기입니다</block>
-  <block id="de2952ddd95b7a20bbb88abe0c97e2a6" category="paragraph">ONTAP Essentials를 사용하려면 지난 주에 수집된 데이터를 포함하는 하나 이상의 ONTAP 데이터 수집기가 필요합니다.</block>
   <block id="a13907a785102ea69b2891d9e6233f6f" category="paragraph">탐색을 시작하려면 기본 Cloud Insights 메뉴에서 * ONTAP Essentials * 를 선택합니다.</block>
   <block id="da61c5d249c3bbc25d9cee2d6d64b53a" category="inline-image-macro">ONTAP Essentials에 대한 개요 대시보드</block>
   <block id="f0104a81a8bbf75874c8612df2bea3f7" category="paragraph"><block ref="f0104a81a8bbf75874c8612df2bea3f7" category="inline-image-macro-rx" type="image"></block></block>
@@ -8817,7 +8811,6 @@
   <block id="a2ab7b415e4b437cd221a7275ed38839" category="paragraph"><block ref="a2ab7b415e4b437cd221a7275ed38839" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4643f417b694b85fa8cf7cbd0572c5cd" category="inline-image-macro">검토할 인프라 개체</block>
   <block id="3e60a504c4f09f36de3a060d1761d279" category="paragraph">클러스터 상태를 보여 주는 인프라 페이지:<block ref="4510f66edf4997b6dc6197eeda5a382e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cb2693590d2fee42898b89121aea43bb" category="paragraph">사용자 환경의 LUN/볼륨 또는 qtree에서 워크로드를 확인하고 탐색합니다.</block>
   <block id="9b487ae015c8109487f87177d5d90403" category="inline-image-macro">워크로드 메뉴</block>
   <block id="b17cca1084b467c0c42cf2095a7e921b" category="paragraph"><block ref="b17cca1084b467c0c42cf2095a7e921b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="66afae6b95d602c69251c81851ce13af" category="inline-image-macro">워크로드 목록 페이지</block>
@@ -8978,4 +8971,29 @@
   <block id="0dec2b903302bbd14d95abf2e3a6eb78" category="paragraph">에이전트 시스템은 클라우드 서비스 공급자의 각 서브넷에 구성되어야 합니다. [Agent Requirements] 에서 네트워크 액세스에 대해 자세히 알아보십시오.</block>
   <block id="608efa70bff9cd8ba64ac8f581eee545" category="paragraph">다음은 AWS에서 Agent를 설치하는 단계입니다. 클라우드 서비스 공급자에 적용되는 것과 동일한 단계를 Azure 또는 Google Cloud에서 설치를 위해 수행할 수 있습니다.</block>
   <block id="dacbc7c2a597126f4cb9dec110f0684b" category="paragraph">AWS에서 다음 단계를 수행하여 Cloud Secure 에이전트로 사용할 시스템을 구성합니다.</block>
+  <block id="e92d16963e5b72f89982fb54b922794a" category="list-text">* 채팅 * - NetApp 지원 담당자와 연결하여 지원을 받을 수 있습니다(평일에만 해당). 채팅은 Cloud Insights 화면 오른쪽 상단의 * 도움말 &gt; 라이브 채팅 * 메뉴 옵션에서 사용할 수 있습니다.</block>
+  <block id="abc39e61f48aa5adbf3a9de149e1a87a" category="list-text">인프라/인벤토리: 사용자 데이터에 스토리지/네트워킹 서비스를 제공하는 객체입니다</block>
+  <block id="f66a68b2ce406b961d0175d123132ef1" category="list-text">워크로드: 사용자가 데이터를 읽고 쓸 수 있도록 인터페이스를 제공하는 객체입니다.</block>
+  <block id="85d3998a83e328d8facfa5fc0ffc5c7a" category="list-text">데이터 보호: NetApp 데이터 보호 기술을 사용하여 보호할 수 있는 오브젝트</block>
+  <block id="a66819116f0ea13d8c7d391f072a94b3" category="paragraph">ONTAP Essentials를 사용하려면 지난 7일 이내에 수집된 데이터를 포함하는 ONTAP 데이터 수집기 중 최소한 한 명이 있어야 합니다.</block>
+  <block id="704d895c2fdd387baf82cbd889ec2ac4" category="paragraph"><block ref="704d895c2fdd387baf82cbd889ec2ac4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d69c939c03cf5ed0d694b88094ca8309" category="paragraph">이 곳에서 사용자 환경의 활성 알림을 확인하고 잠재적인 문제를 신속하게 파악할 수 있습니다. 해결된 알림을 보려면 _Resolved_탭을 선택합니다.</block>
+  <block id="a8a9422431d959b78b009edf9ca8e97c" category="inline-image-macro">ONTAP 알림 메뉴</block>
+  <block id="a81771e75cfd0a261680be2fa844a7c3" category="inline-image-macro">ONTAP 경고 페이지의 예로 활성 경고를 표시합니다</block>
+  <block id="769427409530f58e4dace412d2741b71" category="paragraph"><block ref="34c43bd5ee99f9bff20a286878764efa" category="inline-image-macro-rx" type="image"></block>
+<block ref="83c2acb3e0809ee6fd30a80bed9be19c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a5fa5746370b608090b994a97b49e98b" category="section-title">네트워킹</block>
+  <block id="4915558345cda00734062a8065ae320d" category="paragraph">ONTAP Essentials 네트워킹에서는 FC, NVMe FC, 이더넷 및 iSCSI 인프라에 대한 뷰를 제공합니다. 이 페이지에서는 클러스터의 포트 및 해당 노드에 대해 살펴볼 수 있습니다.</block>
+  <block id="d6d29c8ac434b329501477631622c73a" category="inline-image-macro">ONTAP Essentials 네트워킹 메뉴</block>
+  <block id="406f5ee7ba342eddfdb1feaa3554c5f3" category="inline-image-macro">클러스터 노드의 포트를 보여 주는 ONTAP Essentials 네트워킹 FC 페이지입니다</block>
+  <block id="fb77a4c2cf8caf6167399eeb455fcddd" category="paragraph"><block ref="97fb6465b58fb1e2d5c970a3c00e4b1d" category="inline-image-macro-rx" type="image"></block>
+<block ref="c4c78d209c3177884a81b717b96ec1a2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2a3cd3c9afd68e2531df6b8a3ad4536c" category="paragraph">사용자 환경의 LUN/볼륨, NFS 또는 SMB 공유 또는 qtree에서 워크로드를 확인하고 탐색합니다.</block>
+  <block id="9eaf347efd9d5225664dc4c414a82eb2" category="cell">라이센스 버전 중 하나를 실행하는 컴퓨터: * CentOS(64비트): 7.2 ~ 7.9, Stream 8, Stream 9 * Debian(64비트): 9 및 10 * Oracle Enterprise Linux(64비트): 7.5 ~ 7.9, 8.1 ~ 8.4 * Red Hat Enterprise Linux(64비트): 7.2 ~ 7.9, 8.1 ~ 8.6 * Ubuntu 서버: 18.04 및 20.04 LTS 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
+  <block id="15a43b8a93156e727b3b81dc25fd6d32" category="section-title">보안 모니터</block>
+  <block id="2db1857ce4841fcb4871ca570d9f1e9e" category="cell">모니터 이름</block>
+  <block id="38eb03d447ddc98ff3687aa8f4aeaa70" category="cell">FIPS 모드가 비활성화되었습니다</block>
+  <block id="5218eaef8a5f3f66d2720b5e8156469d" category="cell">FIPS 140-2 규정 준수를 활성화하면 TLSv1 및 SSLv3이 비활성화되고 TLSv1.1 및 TLSv1.2만 활성화됩니다. ONTAP는 FIPS 140-2 규정 준수를 사용하는 경우 TLSv1 및 SSLv3을 활성화하지 못하도록 합니다.</block>
+  <block id="f41a65442a444212a9242b353da02fa7" category="cell">클러스터에서 FIPS 140-2 규정 준수를 활성화하려면 고급 권한 모드에서 ONTAP 명령을 실행하십시오. security config modify -interface ssl -is -FIPS -enabled true입니다</block>
+  <block id="1b50ba1d52ac1b744151cf1bb8262d8c" category="admonition">모니터 및 경고는 모든 Cloud Insights 버전에서 사용할 수 있지만 기본 버전은 다음 사항을 따릅니다. * 한 번에 최대 5개의 사용자 지정 모니터만 활성화될 수 있습니다. 5개 이상의 모니터는 에서 생성되거나 _Paused_state로 이동됩니다. * VMDK, 가상 머신, 호스트 및 데이터 저장소 메트릭 모니터는 지원되지 않습니다. 이러한 메트릭에 대해 생성된 모니터가 있는 경우 일시 중지되고 Basic Edition으로 다운그레이드할 때 다시 시작할 수 없습니다.</block>
 </blocks>

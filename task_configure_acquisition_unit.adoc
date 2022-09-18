@@ -21,7 +21,7 @@ NOTE: 정확한 감사 및 데이터 보고를 위해 * NTP(Network Time Protoco
 == Linux 획득 장치 추가
 
 .시작하기 전에
-* 시스템에서 프록시를 사용하는 경우 획득 장치를 설치하기 전에 프록시 환경 변수를 설정해야 합니다. 자세한 내용은 을 참조하십시오 <<Setting proxy environment variables>>.
+* 시스템에서 프록시를 사용하는 경우 획득 장치를 설치하기 전에 프록시 환경 변수를 설정해야 합니다. 자세한 내용은 을 참조하십시오  proxy environment variables.
 
 
 .Linux 획득 장치 설치 단계

@@ -17,7 +17,7 @@ Cloud Insights의 최신 Telegraf 버전은 * 1.22.3 * 입니다.
 NOTE: 정확한 감사 및 데이터 보고를 위해 * NTP(Network Time Protocol) * 또는 * SNTP(Simple Network Time Protocol) * 를 사용하여 Agent 시스템의 시간을 동기화하는 것이 좋습니다.
 
 
-NOTE: Agent를 설치하기 전에 설치 파일을 확인하려면 의 아래 섹션을 참조하십시오 <<Verifying Checksums>>.
+NOTE: Agent를 설치하기 전에 설치 파일을 확인하려면 의 아래 섹션을 참조하십시오  Checksums.
 
 
 
@@ -25,11 +25,11 @@ NOTE: Agent를 설치하기 전에 설치 파일을 확인하려면 의 아래 �
 
 서비스 데이터 수집기를 설치하고 아직 Agent를 구성하지 않은 경우 해당 운영 체제에 대한 Agent를 먼저 설치하라는 메시지가 표시됩니다. 이 항목에서는 다음과 같은 운영 체제에 Telegraf 에이전트를 설치하는 지침을 제공합니다.
 
-* <<Windows>>
-* <<RHEL and CentOS>>
-* <<Ubuntu and Debian>>
-* <<macOS>>
-* <<Kubernetes>>
+* 
+*  and CentOS
+*  and Debian
+* 
+* 
 
 
 사용 중인 플랫폼에 관계없이 에이전트를 설치하려면 먼저 다음을 수행해야 합니다.
