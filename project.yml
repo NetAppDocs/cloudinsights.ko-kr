@@ -184,8 +184,6 @@ sidebar:
       url: "/reporting_schema_diagrams.html"
     - title: 스키마 테이블
       url: "/reference_schemas.html"
-  - title: ONTAP 핵심 요소
-    url: "/concept_ontap_essentials.html"
   - title: Cloud Secure
     entries:
     - title: Cloud Secure 정보
