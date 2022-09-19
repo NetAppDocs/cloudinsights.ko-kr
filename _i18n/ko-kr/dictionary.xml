@@ -4353,7 +4353,6 @@
   <block id="06aca4757909dd673728a20d193d0656" category="paragraph">도 참조하십시오 <block ref="35efea8886727053938c867d4e4688d5" category="inline-link-macro-rx"></block> 및 <block ref="5e216da5f7cd032fff10ef75fa563a40" category="inline-link-macro-rx"></block>.</block>
   <block id="b22cca9a93dc0eb73fc0c386fc686eb3" category="section-title">로그인 문제:</block>
   <block id="55117c7bec968b88df3f1dfc434eac84" category="cell">Cloud Insights는 5분마다 로그아웃합니다</block>
-  <block id="8f65024231687a39efcddb86a1e9debb" category="cell">브라우저 설정에서 _ [*.]auth0.com _ 에서 타사 쿠키 수락을 활성화합니다. 예를 들어 Chrome의 익명 모드에서 기본 브라우저 설정은 타사 쿠키를 차단합니다. 브라우저 URL에 "chrome://settings/cookies"를 입력하십시오. "모든 쿠키 허용" 옵션을 선택합니다.</block>
   <block id="e4ff2e59dd571d2bbd5a906b6fad2546" category="cell">Cloud Central 계정이 있지만 Cloud Central에 로그인할 수 없습니다.</block>
   <block id="0659d428df833a806e29e65e632d380a" category="inline-link-macro">NetApp 지원</block>
   <block id="6630a98adbdb71bde030ce83a4d0a274" category="cell">Cloud Insights에 초대를 받았는데 "승인되지 않음" 메시지가 나타납니다.</block>
@@ -9033,4 +9032,5 @@
   <block id="b58d88529471c847df19b1d8e63b1fe9" category="list-text">기본 계정 ID가 하위 계정에서 S3 세부 정보에 액세스할 수 있도록 각 하위 계정에 AWS 역할을 구성해야 합니다.</block>
   <block id="38cfe5a8a180b915d5558a3770b76e3e" category="paragraph">모범 사례: AWS Predefined_AmazonS3ReadOnlyAccess_policy를 S3 메인 계정에 할당하는 것이 좋습니다. 또한 데이터 소스에서 구성된 사용자는 AWS를 쿼리하기 위해 미리 정의된 _AWSOrganizationReadOnlyAccess_policy 이상을 할당해야 합니다.</block>
   <block id="78e40aa33e3f28ee2530a71dbf46a884" category="sidebar">/Amazon FSx for NetApp ONTAP 를 참조하십시오</block>
+  <block id="396149d67edd166e53b49c38f4b707ba" category="cell">필요한 NetApp 및 auth0 쿠키에 대해 제3자가 수락하도록 설정합니다. 예: Chrome에서 브라우저 URL에 "chrome://settings/cookies"를 입력합니다. "모든 쿠키 허용" 옵션을 선택합니다. * 또는 * "타사 쿠키 차단"을 선택하고 [*.] auth0.com 및 [*.] netapp.com 에 대한 예외를 추가합니다. 참고: 예외를 만들 때 "이 사이트에 타사 쿠키 포함" 옵션을 선택해야 합니다.</block>
 </blocks>
