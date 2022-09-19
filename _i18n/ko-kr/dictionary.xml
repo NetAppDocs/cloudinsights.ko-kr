@@ -9032,4 +9032,5 @@
   <block id="c0e8766f47222b9a1596583017a6d2c7" category="paragraph">AWS는 대소문자를 구분하며, Cloud Insights는 대/소문자를 구분합니다. 따라서 Cloud Insights에서 "owner"라는 주석을 생성하고 "owner", "Owner" 및 "owner"라는 태그를 S3로 지정하면 "owner"의 S3 선택사항이 모두 Cloud Insight의 "owner" 주석에 매핑됩니다.</block>
   <block id="b58d88529471c847df19b1d8e63b1fe9" category="list-text">기본 계정 ID가 하위 계정에서 S3 세부 정보에 액세스할 수 있도록 각 하위 계정에 AWS 역할을 구성해야 합니다.</block>
   <block id="38cfe5a8a180b915d5558a3770b76e3e" category="paragraph">모범 사례: AWS Predefined_AmazonS3ReadOnlyAccess_policy를 S3 메인 계정에 할당하는 것이 좋습니다. 또한 데이터 소스에서 구성된 사용자는 AWS를 쿼리하기 위해 미리 정의된 _AWSOrganizationReadOnlyAccess_policy 이상을 할당해야 합니다.</block>
+  <block id="78e40aa33e3f28ee2530a71dbf46a884" category="sidebar">/Amazon FSx for NetApp ONTAP 를 참조하십시오</block>
 </blocks>
