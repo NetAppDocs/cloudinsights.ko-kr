@@ -9014,7 +9014,6 @@
   <block id="9e1c9c294ec3f4b96a8a0cc0df13f98e" category="inline-link-macro">통찰력</block>
   <block id="5959863675c12bd7e50191f64156c0d0" category="paragraph">환경에서 가 발생하는 경우 <block ref="fa362768d673aca77d85a6a4c5ca3f07" category="inline-link-macro-rx"></block> Stress_or_Kubernetes Namespaces running of Space _ 아래의 공유 리소스 등, 이제 영향을 받는 리소스의 자산 랜딩 페이지에는 Insight 자체에 대한 링크가 포함되어 보다 신속한 탐색 및 문제 해결을 제공합니다.</block>
   <block id="6d8c78320751d43d12d045de22da858c" category="list-text">Red Hat Enterprise Linux 8.5, 8.6</block>
-  <block id="fed2af1f5d5480293bbe43fadf0e9470" category="paragraph">Cloud Insights가 선도적인 컴퓨팅 워크로드를 발견하지 못하면 볼륨 또는 내부 볼륨 자체가 워크로드로서 취급됩니다. 이는 까다롭고 영향을 받는 작업 부하에 모두 적용됩니다.</block>
   <block id="cda933c18fbb578a3f0d2e4907aaa572" category="summary">스토리지 데이터 수집기로 AWS S3 구성.</block>
   <block id="77420e0a789b610e7581918e246f925d" category="doc">AWS S3를 스토리지 데이터 수집기로 구성</block>
   <block id="2401a330264ccc83db4e7dcb1d2a3800" category="paragraph">Cloud Insights은 AWS S3를 스토리지 데이터 수집기로 사용하여 AWS S3 인스턴스의 인벤토리 및 성능 데이터를 가져옵니다.</block>
@@ -9033,4 +9032,5 @@
   <block id="38cfe5a8a180b915d5558a3770b76e3e" category="paragraph">모범 사례: AWS Predefined_AmazonS3ReadOnlyAccess_policy를 S3 메인 계정에 할당하는 것이 좋습니다. 또한 데이터 소스에서 구성된 사용자는 AWS를 쿼리하기 위해 미리 정의된 _AWSOrganizationReadOnlyAccess_policy 이상을 할당해야 합니다.</block>
   <block id="78e40aa33e3f28ee2530a71dbf46a884" category="sidebar">/Amazon FSx for NetApp ONTAP 를 참조하십시오</block>
   <block id="396149d67edd166e53b49c38f4b707ba" category="cell">필요한 NetApp 및 auth0 쿠키에 대해 제3자가 수락하도록 설정합니다. 예: Chrome에서 브라우저 URL에 "chrome://settings/cookies"를 입력합니다. "모든 쿠키 허용" 옵션을 선택합니다. * 또는 * "타사 쿠키 차단"을 선택하고 [*.] auth0.com 및 [*.] netapp.com 에 대한 예외를 추가합니다. 참고: 예외를 만들 때 "이 사이트에 타사 쿠키 포함" 옵션을 선택해야 합니다.</block>
+  <block id="3e58ddc58d5563a5027058f56555ea62" category="paragraph">Cloud Insights가 주요 컴퓨팅 워크로드를 발견하지 못하면 볼륨 또는 내부 볼륨 자체가 워크로드라는 것을 알게 됩니다. 이는 까다롭고 영향을 받는 작업 부하에 모두 적용됩니다.</block>
 </blocks>
