@@ -56,12 +56,6 @@ image:Help_LiveChat.png["라이브 채팅이 강조 표시된 도움말 메뉴"]
 
 
 
-=== 기타 Data Collector 업데이트
-
-이제 모든 데이터 소스가 획득 장치 업데이트 및/또는 패치 후 성능 폴링을 재개하도록 최적화되었습니다.
-
-
-
 === 운영 체제 지원
 
 Cloud Insights 획득 장치 외에 다음과 같은 운영 체제가 지원됩니다 link:https://docs.netapp.com/us-en/cloudinsights/concept_acquisition_unit_requirements.html["이미 지원됩니다"]:
