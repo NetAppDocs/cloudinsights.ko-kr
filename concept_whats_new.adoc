@@ -12,6 +12,75 @@ NetApp은 제품과 서비스를 지속적으로 개선 및 개선하고 있습�
 
 
 
+== 2022년 9월
+
+
+
+=== 기본 버전에서 사용할 수 있는 모니터입니다
+
+ONTAP link:task_system_monitors.html["기본 모니터"] 이제 Cloud Insights Basic Edition에서 사용할 수 있습니다. 여기에는 70개 이상의 인프라 모니터와 30개의 워크로드 예가 포함됩니다.
+
+
+
+=== ONTAP Power 및 StorageGRID 대시보드
+
+대시보드 갤러리에는 ONTAP 전원 및 온도에 대한 새로운 대시보드와 StorageGRID에 대한 4개의 대시보드가 포함되어 있습니다. 사용자 환경에서 ONTAP 전력 메트릭 및/또는 StorageGRID 데이터를 수집하는 경우 Gallery * 에서 * + 를 선택하여 이러한 대시보드를 가져옵니다.
+
+
+
+=== 표에서 임계값 표시 상태를 한 눈에 파악할 수 있습니다
+
+조건부 서식을 사용하면 테이블 위젯에서 경고 수준 및 위험 수준 임계값을 설정하고 강조 표시하여 이상값 및 예외적인 데이터 지점에 대한 즉각적인 가시성을 얻을 수 있습니다.
+
+image:ConditionalFormattingExample.png["조건부 서식 예제"]
+
+
+
+=== 보안 모니터
+
+Cloud Insights는 ONTAP 시스템에서 FIPS 모드가 비활성화되었음을 감지하면 알림을 표시합니다. 에 대해 자세히 알아보십시오 link:task_system_monitors.html#security-monitors["시스템 모니터"]이 공간을 통해 곧 출시될 보안 모니터를 더 많이 확보할 수 있습니다!
+
+
+
+=== 어디서나 채팅할 수 있습니다
+
+새로운 * 도움말 > 라이브 채팅 * 링크를 선택하여 Cloud Insights 화면에서 NetApp 지원 전문가와 채팅할 수 있습니다. 도움말은 "?"에서 확인할 수 있습니다. 아이콘을 클릭합니다.
+
+image:Help_LiveChat.png["라이브 채팅이 강조 표시된 도움말 메뉴"]
+
+
+
+=== 보다 가시적인 통찰력
+
+환경에서 가 발생하는 경우 link:insights_overview.html["통찰력"] Stress_or_Kubernetes Namespaces running of Space _ 아래의 공유 리소스 등, 이제 영향을 받는 리소스의 자산 랜딩 페이지에는 Insight 자체에 대한 링크가 포함되어 보다 신속한 탐색 및 문제 해결을 제공합니다.
+
+
+
+=== 새 데이터 수집기
+
+* Amazon S3(Preview에서 사용 가능)
+* Brocade FOS 9.0.x
+* Dell/EMC PowerStore 3.0.0.0입니다
+
+
+
+
+=== 기타 Data Collector 업데이트
+
+이제 모든 데이터 소스가 획득 장치 업데이트 및/또는 패치 후 성능 폴링을 재개하도록 최적화되었습니다.
+
+
+
+=== 운영 체제 지원
+
+Cloud Insights 획득 장치 외에 다음과 같은 운영 체제가 지원됩니다 link:https://docs.netapp.com/us-en/cloudinsights/concept_acquisition_unit_requirements.html["이미 지원됩니다"]:
+
+* Red Hat Enterprise Linux 8.5, 8.6
+
+
+'''
+
+
 == 2022년 8월
 
 
