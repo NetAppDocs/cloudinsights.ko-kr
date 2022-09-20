@@ -256,7 +256,7 @@ sidebar:
         url: "/concept_data_collector_reference.html"
       - title: 설치하고
         url: "/task_dc_amazon_ec2.html"
-      - title: "/Amazon FSx for NetApp ONTAP 를 참조하십시오"
+      - title: NetApp ONTAP용 Amazon FSx
         url: "/task_dc_na_amazon_fsx.html"
       - title: Azure를 지원합니다
         url: "/task_dc_ms_azure.html"
