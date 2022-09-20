@@ -5112,11 +5112,7 @@
   <block id="0749de0bb66e7b739d9bb3368f6c3de1" category="list-text">관리 Solutions Enabler 서버의 IP 주소입니다</block>
   <block id="b381cf1608514a7b06634cd7ead7dce2" category="list-text">SE(Solutions Enabler) 서버에 대한 관리자 권한</block>
   <block id="133702dafbca190738aab49522eb7344" category="list-text">SE 소프트웨어의 읽기 전용 사용자 이름 및 암호</block>
-  <block id="8b8837e7c2e4835916adaca415ac7ea5" category="list-text">Solutions Enabler Server 6.5X 요구 사항:</block>
-  <block id="4b07bc21a7224915423b6043ffd0f27f" category="list-text">SMIS-S v1.2용 Mi-S 공급자 3.3.1 설치</block>
-  <block id="7bb957acf5c9bb14a306ef82b79e96a7" category="list-text">설치 후 \Program Files\EMC\SYMCLI\bin &gt; stordaemon start storsrvd를 실행합니다</block>
   <block id="cf3dc9a48663d5659883d6343aa48779" category="list-text">Unisphere for VMAX 애플리케이션은 SMI-S Provider 설치를 통해 관리되는 EMC VMAX 및 PowerMax sstorage 스토리지에 대한 통계를 실행 및 수집해야 합니다</block>
-  <block id="3a6b139d8309d859f87248363cb1badd" category="list-text">액세스 검증: SMI-S 공급자가 실행 중인지 확인합니다. telnet &lt;SE_server&gt; 5988</block>
   <block id="e77420e037c75e1c5a9ef5611f13d0d1" category="paragraph">Cloud Insights는 EMC VMAX/PowerMax 데이터 소스에서 다음 인벤토리 정보를 가져옵니다. 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.</block>
   <block id="1b5aa0d469fbc243656ad5838af455a7" category="cell">스토리지</block>
   <block id="7c5ba892645af8d7dba520e3978c726f" category="cell">책임자</block>
@@ -9033,4 +9029,5 @@
   <block id="78e40aa33e3f28ee2530a71dbf46a884" category="sidebar">/Amazon FSx for NetApp ONTAP 를 참조하십시오</block>
   <block id="396149d67edd166e53b49c38f4b707ba" category="cell">필요한 NetApp 및 auth0 쿠키에 대해 제3자가 수락하도록 설정합니다. 예: Chrome에서 브라우저 URL에 "chrome://settings/cookies"를 입력합니다. "모든 쿠키 허용" 옵션을 선택합니다. * 또는 * "타사 쿠키 차단"을 선택하고 [*.] auth0.com 및 [*.] netapp.com 에 대한 예외를 추가합니다. 참고: 예외를 만들 때 "이 사이트에 타사 쿠키 포함" 옵션을 선택해야 합니다.</block>
   <block id="3e58ddc58d5563a5027058f56555ea62" category="paragraph">Cloud Insights가 주요 컴퓨팅 워크로드를 발견하지 못하면 볼륨 또는 내부 볼륨 자체가 워크로드라는 것을 알게 됩니다. 이는 까다롭고 영향을 받는 작업 부하에 모두 적용됩니다.</block>
+  <block id="d1abcb872114cdbdf06bbc991083bed3" category="list-text">성능에 대한 액세스 검증: 획득 장치의 웹 브라우저에서 로 이동합니다<block ref="25b9476534a152fb44ed4e9f3aa05000" category="inline-link-rx"></block> 호스트 이름 또는 IP&gt;:5989/전자 구성. 여기서 "SMI-S 호스트 이름 또는 IP"는 SMI-S 서버의 IP 주소 또는 호스트 이름입니다. 이 URL은 EMC SMI-S("ECOM") 서비스의 관리 포털용 URL로, 로그인 팝업을 받게 됩니다.</block>
 </blocks>
