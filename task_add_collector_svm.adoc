@@ -33,7 +33,7 @@ Cloud Secure는 데이터 수집기를 사용하여 디바이스에서 파일 �
 
 * 다음 두 가지 방법 중 하나를 사용하여 SVM을 추가해야 합니다.
 +
-** 클러스터 IP, SVM 이름, 클러스터 관리 사용자 이름 및 암호를 사용합니다. _ 이(가) 권장되는 방법입니다. _
+** 클러스터 IP, SVM 이름, 클러스터 관리 사용자 이름 및 암호를 사용합니다. 이 방법은 * _ 을(를) 사용하는 것이 좋습니다
 +
 *** SVM 이름은 ONTAP에 표시된 대로 대소문자를 구분합니다.
 
@@ -94,7 +94,6 @@ security login role create -role csrole -cmddirname "event notification" -access
 security login role create -role csrole -cmddirname "security certificate" -access all
 security login create -user-or-group-name csuser -application ontapi -authmethod password -role csrole
 security login create -user-or-group-name csuser -application ssh -authmethod password -role csrole
-security login role create -role csrole -cmddirname "vserver export-policy rule" -access all -query "-policyname cloudsecure_*"
 ....
 
 
@@ -113,7 +112,6 @@ security login role create -vserver <vservername> -role csrole -cmddirname vserv
 security login role create -vserver <vservername> -role csrole -cmddirname "vserver fpolicy" -access all
 security login role create -vserver <vservername> -role csrole -cmddirname "volume snapshot" -access all
 security login create -user-or-group-name csuser -application ontapi -authmethod password -role csrole -vserver <vservername>
-security login role create -vserver <vservername> -role csrole -cmddirname "vserver export-policy rule" -access all -query "-policyname cloudsecure_*"
 ....
 
 
