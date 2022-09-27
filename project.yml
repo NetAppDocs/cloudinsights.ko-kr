@@ -202,8 +202,6 @@ sidebar:
         url: "/task_config_user_dir_connect.html"
       - title: LDAP 디렉토리 수집기 구성
         url: "/task_config_user_dir_connect_ldap.html"
-      - title: NetApp ONTAP Collector용 Amazon FSX 구성
-        url: "/task_config_cs_amazon_fsx.html"
       - title: ONTAP SVM Data Collector 구성
         url: "/task_add_collector_svm.html"
       - title: Cloud ONTAP 데이터 수집기 구성

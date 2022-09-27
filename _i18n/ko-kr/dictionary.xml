@@ -6630,7 +6630,6 @@
   <block id="69fe7b86f073ff27417a8bb4f40bf251" category="list-text">이 분절을 클립보드에 복사하려면 버튼을 클릭합니다.</block>
   <block id="60359575c1541888619045ed924fc983" category="list-text">스니펫을 _bash_window에 붙여 넣고 실행합니다.</block>
   <block id="ecf5918b75414ec8e1874242a839d017" category="list-text">설치가 자동으로 진행됩니다. 완료되면 _COMPLETE Setup_ 단추를 클릭합니다.</block>
-  <block id="41433653d03e1d9f51b22f2b34a34907" category="section-title">NetApp Kubernetes 모니터링 Operator에 대한 프록시 지원 구성</block>
   <block id="d19324560c8bbab552153762aa6318fa" category="paragraph">모니터링 운영자에 대한 프록시를 구성하려면 다음 단계를 수행하십시오.</block>
   <block id="c0c113f7f05cafdbe990d465db2be0e5" category="paragraph">먼저, 편집할 _agent-monitoring-netapp_file을 엽니다.</block>
   <block id="0414c00192a7623b809e536f36865665" category="paragraph">이 파일의 _spec:_ 섹션에서 다음 코드 블록을 추가합니다.</block>
@@ -7710,7 +7709,6 @@
   <block id="e5aec51ee52943fae3ccabf016387e6b" category="sidebar">Cloud Secure 에이전트 구성</block>
   <block id="c9163c5931581c0d00cc0540ed90e5c7" category="sidebar">AD Directory Collector 구성</block>
   <block id="5394915bbb6bf88a0b09d49535e6f706" category="sidebar">LDAP 디렉토리 수집기 구성</block>
-  <block id="87e8a04e229031e564067b38ae8a72c8" category="sidebar">NetApp ONTAP Collector용 Amazon FSX 구성</block>
   <block id="237cff5be9a99f30dc9585e6e705dc2b" category="sidebar">Cloud ONTAP 데이터 수집기 구성</block>
   <block id="866ace7cbd74c56db66eff042dc08fd4" category="sidebar">Cloud Secure 사용자 관리</block>
   <block id="9759d20db6b94132676173d6d2302ff4" category="sidebar">법의학</block>
@@ -9038,4 +9036,13 @@
   <block id="f27bbbf5360c428e454f91df4646ca7c" category="list-text">클러스터 IP, SVM 이름, 클러스터 관리 사용자 이름 및 암호를 사용합니다. 이 방법은 * _ 을(를) 사용하는 것이 좋습니다</block>
   <block id="41e19b5574e2f91f38fdc0cf4372c9b5" category="cell">Agent가 처음에 프록시 서버를 통해 연결되었고 Agent 설치 중에 프록시가 설정되었습니다. 이제 프록시 서버가 변경되었습니다. Agent의 프록시 구성을 변경하려면 어떻게 해야 합니까?</block>
   <block id="a807d45c8af5b7a8d1abadf767a17bde" category="cell">agent.properties 를 편집하여 프록시 세부 정보를 추가할 수 있습니다. 다음 단계를 따르십시오. 1. 속성 파일이 포함된 폴더로 변경합니다. cd /opt/netapp/cloudsecure/conf 2. 즐겨찾기 텍스트 편집기를 사용하여 편집할 _agent.properties_ 파일을 엽니다. 다음 행을 추가하거나 수정합니다. agent_proxy_host=scspa1950329001.vm.netapp.com agent_proxy_port=80 agent_proxy_user=pxuser agent_proxy_password=pass1234 4. 파일을 저장합니다. 에이전트를 다시 시작합니다. sudo systemctl cloudsecure-agent.service 다시 시작합니다</block>
+  <block id="b3a4cb8b1cc794671c98b17aac5ba206" category="section-title">새 데이터 수집기</block>
+  <block id="b8cf9f003c21d314dc33ec400eddec24" category="list-text">Amazon S3(Preview에서 사용 가능)</block>
+  <block id="337813588cd1360f633725a1a1d06b02" category="list-text">Brocade FOS 9.0.x</block>
+  <block id="5fcd1a145d1221f71e25605161e3258e" category="list-text">Dell/EMC PowerStore 3.0.0.0입니다</block>
+  <block id="aa6bf00e4b89737b431c0d0ffdd1b855" category="paragraph">이제 모든 데이터 소스가 획득 장치 업데이트 및/또는 패치 후 성능 폴링을 재개하도록 최적화되었습니다.</block>
+  <block id="8b78c6511ddbdc615cb6b5e3ee8d8488" category="inline-link-macro">스토리지로 AWS S3 저장</block>
+  <block id="d083a25eaaef06276bb90fa3eb228bb6" category="cell"><block ref="d083a25eaaef06276bb90fa3eb228bb6" category="inline-link-macro-rx"></block></block>
+  <block id="8b71307bde3e4b16765dbb61a626d4d2" category="cell">인프라스트ure</block>
+  <block id="b33361bde0bcb58125ffdc8fc36d8b99" category="section-title">프록시 지원을 구성하는 중입니다</block>
 </blocks>

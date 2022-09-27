@@ -30,6 +30,9 @@ Cloud Insights에서 지원하는 데이터 수집기 목록 사전순:
 | link:task_dc_amazon_ec2.html["Amazon EC2 및 EBS"] | 검토할 수 있습니다 
 
 
+| link:task_dc_aws_s3.html["스토리지로 AWS S3 저장"] | 인프라스트ure 
+
+
 | link:task_dc_na_amazon_fsx.html["NetApp ONTAP용 Amazon FSx"] | 검토할 수 있습니다 
 
 
