@@ -8116,7 +8116,6 @@
   <block id="7be18bdce3683fe5cad25aaa844df56d" category="paragraph"><block ref="7be18bdce3683fe5cad25aaa844df56d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="664a8070ae98149df4b2438dabea2160" category="admonition">Agent를 설치하기 전에 설치 파일을 확인하려면 정보 를 참조하십시오 <block ref="80fd3363e39e5f2a536c9cf5d81a1f0a" category="inline-xref-macro-rx"></block>.</block>
   <block id="342761835c95d3618833ced82b6260ac" category="section-title">Kubernetes 체크섬 확인 중</block>
-  <block id="737f024effb455f30b04c7091e2d8667" category="section-title">Kubernetes Agent 설치 문제 해결</block>
   <block id="64cc432c57095555eeb8d95b2c8523f6" category="sidebar">Agent 구성(Windows/Linux/Mac)</block>
   <block id="4e94322aa6275968b1c9422851fb7f86" category="sidebar">에이전트(Kubernetes) 구성</block>
   <block id="9da0861aa96415448a45043409b3c6a2" category="paragraph">에이전트를 설치하려면 먼저 다음을 수행해야 합니다.</block>
@@ -9045,4 +9044,5 @@
   <block id="d083a25eaaef06276bb90fa3eb228bb6" category="cell"><block ref="d083a25eaaef06276bb90fa3eb228bb6" category="inline-link-macro-rx"></block></block>
   <block id="8b71307bde3e4b16765dbb61a626d4d2" category="cell">인프라스트ure</block>
   <block id="b33361bde0bcb58125ffdc8fc36d8b99" category="section-title">프록시 지원을 구성하는 중입니다</block>
+  <block id="b24ba42b8fcbdf9b49ead5a4fa365998" category="section-title">Kubernetes 설치 문제 해결</block>
 </blocks>
