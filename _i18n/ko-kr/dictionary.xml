@@ -4979,7 +4979,6 @@
   <block id="cfa4bbfe8fe25421b55d6bc77170da89" category="doc">대시보드 갤러리에서 가져오기</block>
   <block id="75ff2ecca247e32bd11a679fc97fbdab" category="paragraph">Cloud Insights는 데이터에 대한 비즈니스 통찰력을 제공하는 다양한 권장 대시보드를 제공합니다. 각 대시보드에는 특정 질문에 답하거나 현재 사용자 환경에서 수집 중인 데이터와 관련된 특정 문제를 해결하는 데 도움이 되도록 설계된 위젯이 포함되어 있습니다.</block>
   <block id="62a23650084673f5c844edf6588b4cbc" category="paragraph">갤러리에서 대시보드를 가져오려면 다음을 실행합니다.</block>
-  <block id="ca57fe1968fa78c8b5b54613e08987a2" category="list-text">대시보드 &gt; 모든 대시보드 표시 * 를 선택합니다</block>
   <block id="bb6ec7619f5b7d24eeed488d054902d5" category="list-text">Gallery * 에서 * + 를 클릭합니다</block>
   <block id="58e1b019dfb18a656bddd772932b2be5" category="paragraph">권장 대시보드 * 목록이 표시됩니다. 각 대시보드의 이름은 대시보드가 해결할 수 있는 특정 질문으로 지정됩니다. 대시보드를 이용하면 AWS, NetApp, 스토리지, VMware, VMware 등 다양한 유형의 오브젝트 관련 질문에 있습니다</block>
   <block id="4915483ae3205b553b3e977503ffdcc5" category="list-text">목록에서 하나 이상의 대시보드를 선택하고 * 대시보드 추가 * 를 클릭합니다. 대시보드 목록에 이러한 대시보드가 표시됩니다.</block>
@@ -9044,4 +9043,6 @@
   <block id="8b71307bde3e4b16765dbb61a626d4d2" category="cell">인프라스트ure</block>
   <block id="b33361bde0bcb58125ffdc8fc36d8b99" category="section-title">프록시 지원을 구성하는 중입니다</block>
   <block id="860cea525f63406af55925d01de59c97" category="paragraph">Cloud Insights와 함께 번들로 제공되는 유효한 NetApp 제품을 보유한 경우 해당 제품 일련 번호를 기존 Cloud Insights 구독에 추가할 수 있습니다. 예를 들어, NetApp Astra Control Center를 구입한 경우 Astra Control Center 라이센스 일련 번호를 사용하여 Cloud Insights의 구독을 식별할 수 있습니다. Cloud Insights는 _ 소유 권한 ID _ 을(를) 참조합니다.</block>
+  <block id="5c42bfffed923b7136ae5aee981826dd" category="list-text">대시보드 &gt; 대시보드 * 를 선택합니다</block>
+  <block id="486f30ea223e9ebeeba1fe336355cc78" category="paragraph">관리자 또는 계정 소유자 역할이 있는 사용자는 대시보드 갤러리에서 가져올 수 있습니다.</block>
 </blocks>
