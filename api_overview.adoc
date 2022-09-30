@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: API_Overview.html 
-keywords: API, customer API, premium, JSON, Swagger, Access Token, token 
+keywords: API, customer API, premium, JSON, Swagger, Access Token, token, rotate, expired 
 summary: Cloud Insights API를 사용하면 모니터링 및 보고 시스템과 같은 다른 애플리케이션과 통합할 수 있습니다. 
 ---
 = Cloud Insights API를 참조하십시오
@@ -15,16 +15,13 @@ Cloud Insights API는 현재 버전을 기반으로 사용할 수 있습니다.
 
 [cols="<,^s,^s,^s"]
 |===
-| API 범주 | 기본 | 표준 | 프리미엄 
+| API 유형 | 기본 | 표준 | 프리미엄 
 
 
 | 획득 장치 | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
 
 
 | 데이터 수집 | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
-
-
-| 사용자 관리 | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
 
 
 | 경고 |  | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
@@ -38,7 +35,7 @@ Cloud Insights API는 현재 버전을 기반으로 사용할 수 있습니다.
 
 | 로그 수집 |  | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
 |===
-Cloud Insights도 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/concept_user_roles.html#permission-levels["기능 세트 역할"] 에서 액세스할 수 있는 API를 결정합니다. 사용자 및 게스트 역할은 관리자 역할보다 권한이 적습니다. 예를 들어 관찰 가능성의 관리자 역할이 있지만 보고 시 사용자 역할은 데이터 웨어하우스를 제외한 모든 API 유형을 관리할 수 있습니다.
+Cloud Insights도 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/concept_user_roles.html#permission-levels["기능 세트 역할"] 에서 액세스할 수 있는 API를 결정합니다. 사용자 및 게스트 역할은 관리자 역할보다 권한이 적습니다. 예를 들어 Monitor and Optimize에서 관리자 역할이 있지만 Reporting에서 사용자 역할은 데이터 웨어하우스를 제외한 모든 API 유형을 관리할 수 있습니다.
 
 
 
@@ -54,9 +51,9 @@ Cloud Insights도 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/
 
 최신 API 정보는 Cloud Insights에 로그인하고 * 관리자 > API 액세스 * 로 이동하여 확인할 수 있습니다. API Documentation * 링크를 클릭합니다.
 
-image:APICategoriesApril2022.png["API 범주"]
+image:API_Swagger_Types.png["API 유형"]
 
-API 설명서는 Swagger 기반의 API에 대한 간단한 설명과 사용 정보를 제공하며, 사용자 환경에서 사용할 수 있습니다.
+API 설명서는 Swagger 기반의 API에 대한 간단한 설명과 사용 정보를 제공하며, 사용자 환경에서 사용할 수 있습니다. 사용자 역할 및/또는 Cloud Insights 버전에 따라 사용 가능한 API 유형이 다를 수 있습니다.
 
 image:API_Swagger_Example.png["API Swagger 예"]
 
@@ -64,7 +61,7 @@ image:API_Swagger_Example.png["API Swagger 예"]
 
 == API 액세스 토큰
 
-Cloud Insights API를 사용하기 전에 하나 이상의 * API 액세스 토큰 * 을 만들어야 합니다. 액세스 토큰은 지정된 API 범주에 사용되며 읽기 및/또는 쓰기 권한을 부여할 수 있습니다. 각 액세스 토큰의 만료일을 설정할 수도 있습니다. 지정된 범주에 속하는 모든 API가 액세스 토큰에 대해 유효합니다. 각 토큰은 사용자 이름 또는 암호의 무효입니다.
+Cloud Insights API를 사용하기 전에 하나 이상의 * API 액세스 토큰 * 을 만들어야 합니다. 액세스 토큰은 지정된 API 유형에 사용되며 읽기 및/또는 쓰기 권한을 부여할 수 있습니다. 각 액세스 토큰의 만료일을 설정할 수도 있습니다. 지정된 유형의 모든 API는 액세스 토큰에 대해 유효합니다. 각 토큰은 사용자 이름 또는 암호의 무효입니다.
 
 액세스 토큰을 만들려면 다음을 수행합니다.
 
@@ -72,7 +69,7 @@ Cloud Insights API를 사용하기 전에 하나 이상의 * API 액세스 토�
 * API 액세스 토큰 * 을 클릭합니다
 +
 ** 토큰 이름을 입력하십시오
-** API Categories를 선택합니다
+** API 유형을 선택합니다
 ** 이 API 액세스에 대해 부여된 권한을 지정합니다
 ** 토큰 만료 지정
 
@@ -84,7 +81,7 @@ NOTE: 토큰은 클립보드로 복사하고 생성 과정 중에 저장하는 �
 
 토큰을 비활성화, 활성화 및 취소할 수 있습니다. 비활성화된 토큰을 활성화할 수 있습니다.
 
-토큰은 고객의 관점에서 API에 대한 범용 액세스를 허용하며, 자신의 테넌트의 범위에서 API에 대한 액세스를 관리합니다. 고객 관리자는 Cloud Insights 백 엔드 직원의 직접적인 개입 없이 이러한 키를 부여 및 취소할 수 있습니다.
+토큰은 고객의 관점에서 API에 대한 범용 액세스를 허용하며, 자신의 테넌트의 범위에서 API에 대한 액세스를 관리합니다. 고객 관리자는 Cloud Insights 백 엔드 직원의 직접적인 개입 없이 이러한 토큰을 부여 및 취소할 수 있습니다.
 
 응용 프로그램은 사용자가 액세스를 성공적으로 인증 및 승인한 후 액세스 토큰을 받은 다음 대상 API를 호출할 때 액세스 토큰을 자격 증명으로 전달합니다. 전달된 토큰은 API에 토큰의 베어러가 API에 액세스할 수 있는 권한이 있음을 알리고 권한 부여 중에 부여된 범위에 의해 지정된 특정 작업을 수행하도록 합니다.
 
@@ -93,15 +90,15 @@ NOTE: 토큰은 클립보드로 복사하고 생성 과정 중에 저장하는 �
 예를 들어, 다음을 사용하여 스토리지 자산을 검색할 수 있습니다.
 
  curl https://<tenant_host_name>/rest/v1/assets/storages -H 'X-CloudInsights-ApiKey: <API_Access_Token>'
-여기서 _<API_Access_Token>_은 API 액세스 키를 생성하는 동안 저장한 토큰입니다.
+여기서 _<API_Access_Token>_은 API 액세스 생성 중에 저장한 토큰입니다.
 
 
 
-== API 범주
+== API 유형
 
-Cloud Insights API는 범주 기반이며 현재 다음 범주가 포함되어 있습니다.
+Cloud Insights API는 범주 기반이며 현재 다음 유형이 포함되어 있습니다.
 
-* 자산 범주에는 자산, 쿼리 및 검색 API가 포함됩니다.
+* 자산 유형에 자산, 쿼리 및 검색 API가 포함되어 있습니다.
 +
 ** 자산: 최상위 객체를 열거하고 특정 오브젝트 또는 오브젝트 계층을 검색합니다.
 ** 쿼리: Cloud Insights 쿼리 검색 및 관리
@@ -109,13 +106,14 @@ Cloud Insights API는 범주 기반이며 현재 다음 범주가 포함되어 �
 ** 검색: 개체의 고유 ID 또는 전체 이름을 모르는 상태에서 특정 개체를 찾습니다.
 
 
-* 데이터 수집 범주는 데이터 수집기를 검색하고 관리하는 데 사용됩니다.
-* 데이터 수집 범주는 텔레그라프 에이전트와 같은 수집 데이터와 사용자 지정 메트릭을 검색 및 관리하는 데 사용됩니다
+* 데이터 수집 형식은 데이터 수집기를 검색하고 관리하는 데 사용됩니다.
+* 데이터 수집 유형은 텔레그라프 에이전트와 같은 수집 데이터와 사용자 지정 메트릭을 검색 및 관리하는 데 사용됩니다
+* 로그 수집은 로그 데이터를 검색하고 관리하는 데 사용됩니다
 
 
-시간이 지나면 추가 범주 및/또는 API를 사용할 수 있습니다. 최신 API 정보는 에서 확인할 수 있습니다 link:#api-documentation-swagger["API Swagger 문서"].
+시간이 지나면 추가 유형 및/또는 API를 사용할 수 있습니다. 최신 API 정보는 에서 확인할 수 있습니다 link:#api-documentation-swagger["API Swagger 문서"].
 
-사용자가 액세스할 수 있는 API 범주도 에 따라 다릅니다 link:concept_user_roles.html["사용자 역할"] 각 Cloud Insights 기능 세트(관찰 가능성, 보안, 보고)에 있습니다.
+사용자가 액세스할 수 있는 API 유형도 에 따라 다릅니다 link:concept_user_roles.html["사용자 역할"] 각 Cloud Insights 기능 세트(모니터링, Cloud Secure, 보고)에 있습니다.
 
 
 
@@ -131,7 +129,7 @@ Cloud Insights API는 범주 기반이며 현재 다음 범주가 포함되어 �
 
 API URL의 일반적인 형식은 다음과 같습니다.
 
- https://<tenant>/rest/v1/<category>/<object>
+ https://<tenant>/rest/v1/<type>/<object>
 예를 들어 _mysite.c01.cloudinsights.netapp.com_ 이라는 테넌트에서 모든 스토리지를 검색하려면 요청 URL은 다음과 같습니다.
 
  https://mysite.c01.cloudinsights.netapp.com/rest/v1/assets/storages
@@ -180,7 +178,7 @@ API를 사용하면 샘플과 요약된 데이터에 모두 액세스할 수 있
 * 디스크 성능
 
 
-성능 메트릭에는 설명 및 범주가 있으며 성능 요약 모음이 포함되어 있습니다. 예: 지연 시간, 트래픽 및 속도.
+성능 메트릭에는 설명 및 유형이 있으며 성능 요약 컬렉션이 포함되어 있습니다. 예: 지연 시간, 트래픽 및 속도.
 
 성능 요약에는 시간 범위(1시간, 24시간, 3일 등)에 대해 단일 성능 카운터를 사용하여 계산된 설명, 단위, 샘플 시작 시간, 샘플 종료 시간 및 요약된 값(현재, 최소, 최대, 평균 등)의 모음이 있습니다.
 
@@ -193,7 +191,7 @@ image:API_Performance.png["API 성능 예"]
 * 다른 모든 사전 키("diskThroughput" 등)는 성능 메트릭의 이름입니다.
 
 
-각 성능 데이터 오브젝트 유형에는 고유한 성능 메트릭 세트가 있습니다. 예를 들어, 가상 머신 성능 개체는 성능 메트릭으로 "diskThroughput"을 지원합니다. 지원되는 각 성능 메트릭은 메트릭 사전에 나와 있는 특정 "성능 범주"입니다. Cloud Insights는 이 문서의 뒷부분에 나열된 몇 가지 성능 메트릭 범주를 지원합니다. 각 성능 메트릭 사전에는 이 성능 메트릭에 대한 사람이 읽을 수 있는 설명과 성능 요약 카운터 항목 집합인 "설명" 필드도 있습니다.
+각 성능 데이터 오브젝트 유형에는 고유한 성능 메트릭 세트가 있습니다. 예를 들어, 가상 머신 성능 개체는 성능 메트릭으로 "diskThroughput"을 지원합니다. 지원되는 각 성능 메트릭은 메트릭 사전에 나와 있는 특정 "성능 범주"입니다. Cloud Insights는 이 문서 뒷부분의 여러 성능 메트릭 유형을 지원합니다. 각 성능 메트릭 사전에는 이 성능 메트릭에 대한 사람이 읽을 수 있는 설명과 성능 요약 카운터 항목 집합인 "설명" 필드도 있습니다.
 
 성능 요약 카운터는 성능 카운터의 요약입니다. 카운터에 대한 최소, 최대 및 평균 등의 일반적인 집계 값과 최근 관찰 값, 요약 데이터에 대한 시간 범위, 카운터에 대한 단위 유형 및 데이터에 대한 임계값을 제공합니다. 임계값은 선택 사항이므로 나머지 속성은 필수입니다.
 
@@ -257,8 +255,98 @@ image:StoragePoolCapacity.png["스토리지 풀 용량 예"]
 
 == 검색을 사용하여 개체를 검색합니다
 
-검색 API는 시스템에 대한 간단한 진입점입니다. API에 대한 유일한 입력 매개 변수는 자유 형식 문자열이며 결과 JSON에는 분류된 결과 목록이 포함되어 있습니다. 범주는 저장소, 호스트, 데이터 저장소 등과 같이 인벤토리에서 서로 다른 자산 유형입니다. 각 범주에는 검색 조건과 일치하는 범주 유형의 개체 목록이 포함됩니다.
+검색 API는 시스템에 대한 간단한 진입점입니다. API에 대한 유일한 입력 매개 변수는 자유 형식 문자열이며 결과 JSON에는 분류된 결과 목록이 포함되어 있습니다. 유형은 스토리지, 호스트, 데이터 저장소 등과 같이 인벤토리에서 서로 다른 자산 유형입니다. 각 형식에는 검색 조건과 일치하는 형식의 개체 목록이 포함됩니다.
 
 Cloud Insights는 타사 오케스트레이션, 비즈니스 관리, 변경 제어 및 티켓 시스템과 사용자 정의 CMDB 통합을 지원하는 확장 가능한 개방형 솔루션입니다.
 
 Cloud Insight의 RESTful API는 데이터를 간단하고 효과적으로 이동할 수 있을 뿐 아니라 사용자가 데이터에 원활하게 액세스할 수 있도록 하는 기본적인 통합 지점입니다.
+
+
+
+== API 토큰 비활성화 또는 해지
+
+API 토큰을 일시적으로 비활성화하려면 API 토큰 목록 페이지에서 API에 대한 "점 3개" 메뉴를 클릭하고 _Disable_을 선택합니다. 언제든지 같은 메뉴를 사용하여 _Enable_을 선택하여 토큰을 다시 활성화할 수 있습니다.
+
+API 토큰을 영구적으로 제거하려면 메뉴에서 "해지"를 선택합니다. 해지된 토큰은 다시 사용할 수 없습니다. 새 토큰을 만들어야 합니다.
+
+image:API_Disable_Token.png["API 토큰을 비활성화하거나 해제합니다"]
+
+
+
+== 만료된 API 액세스 토큰 회전
+
+API 액세스 토큰의 만료 날짜가 있습니다. API 액세스 토큰이 만료되면 사용자는 읽기/쓰기 권한이 있는 _Data 수집_ 유형의 새 토큰을 생성하고 만료된 토큰 대신 새로 생성된 토큰을 사용하도록 텔레그라프를 다시 구성해야 합니다. 아래 단계에서는 이 작업을 수행하는 방법을 자세히 설명합니다.
+
+
+
+==== 쿠버네티스
+
+이러한 명령은 기본 네임스페이스 "NetApp-모니터링"을 사용합니다. 고유한 네임스페이스를 설정한 경우 이러한 네임스페이스 및 모든 후속 명령 및 파일로 대체합니다.
+
+* CM(Telegraf ConfigMaps)을 편집하고 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 대체합니다.
++
+....
+kubectl -n netapp-monitoring edit cm
+:%s/<OLD_API_TOKEN>/<NEW_API_TOKEN>/g
+:wq!
+....
+* DS(Telegraf DemonSet) 및 RS(ReplicaSet)를 편집하고 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 교체합니다.
++
+....
+kubectl -n netapp-monitoring edit ds telegraf-ds
+:%s/<OLD_API_TOKEN>/<NEW_API_TOKEN>/g
+:wq!
+kubectl -n netapp-monitoring edit rs telegraf-rs
+:%s/<OLD_API_TOKEN>/<NEW_API_TOKEN>/g
+:wq!
+....
+* Kubernetes 컨트롤러가 자동으로 Telegraf DS Pod를 다시 시작합니다.
+* Telegraf RS 포드를 다시 시작합니다
++
+ kubectl -n netapp-monitoring delete pod <telegraf-rs-pod>
+
+
+
+
+==== RHEL/CentOS 및 Debian/Ubuntu
+
+* Telegraf 구성 파일을 편집하고 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 교체합니다.
++
+ sudo sed -i.bkup ‘s/<OLD_API_TOKEN>/<NEW_API_TOKEN>/g’ /etc/telegraf/telegraf.d/*.conf
+* 텔레그라프를 다시 시작합니다.
++
+ sudo systemctl restart telegraf
+
+
+
+
+==== macOS
+
+* Telegraf 구성 파일을 편집하고 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 교체합니다.
++
+ sudo sed -i.bkup ‘s/<OLD_API_TOKEN>/<NEW_API_TOKEN>/g’ /usr/local/etc/telegraf.d/*.conf
+* 텔레그라프를 다시 시작합니다.
++
+....
+sudo launchctl stop telegraf
+sudo launchctl start telegraf
+....
+
+
+
+
+==== Windows
+
+* C:\Program Files\Telegraf\Telegraf.d_의 각 Telegraf 구성 파일에 대해 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 교체합니다.
++
+....
+cp <plugin>.conf <plugin>.conf.bkup
+(Get-Content <plugin>.conf).Replace(‘<OLD_API_TOKEN>’, ‘<NEW_API_TOKEN>’) | Set-Content <plugin>.conf
+....
+* 텔레그라프를 다시 시작합니다.
++
+....
+Stop-Service telegraf
+Start-Service telegraf
+....
+
