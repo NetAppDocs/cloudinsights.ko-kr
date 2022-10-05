@@ -8045,19 +8045,6 @@
   <block id="4ab6864fc58ecd8b598ee10dfe2ac311" category="inline-link-macro">주석</block>
   <block id="9d0068916fee0d45d023af017221e708" category="admonition">다음 단계를 사용하여 추가하거나 제거할 수 있습니다 <block ref="5ee10a6642913576d2747e5e8b69f77c" category="inline-link-macro-rx"></block> 같은 방법으로.</block>
   <block id="76b98091ce8fe8a7a83d21d8c94371fd" category="list-text">시작하기 전에 _관리자_계정으로 ONTAP에 로그인해야 하며 _DIAGNOSTIC-LEVEL 명령_ 을 활성화해야 합니다.</block>
-  <block id="47d7b551b40becb326c406f74238150a" category="paragraph">API 설명서는 Swagger 기반의 API에 대한 간단한 설명과 사용 정보를 제공하며, 사용자 환경에서 사용할 수 있습니다.</block>
-  <block id="1281391af6f060d6074a70718d4fe3ea" category="paragraph">Cloud Insights API를 사용하기 전에 하나 이상의 * API 액세스 토큰 * 을 만들어야 합니다. 액세스 토큰은 지정된 API 범주에 사용되며 읽기 및/또는 쓰기 권한을 부여할 수 있습니다. 각 액세스 토큰의 만료일을 설정할 수도 있습니다. 지정된 범주에 속하는 모든 API가 액세스 토큰에 대해 유효합니다. 각 토큰은 사용자 이름 또는 암호의 무효입니다.</block>
-  <block id="360146f659bd725b350b271d6c503e19" category="list-text">API Categories를 선택합니다</block>
-  <block id="c702f9ec1de747488ae69091e4b44640" category="paragraph">토큰은 고객의 관점에서 API에 대한 범용 액세스를 허용하며, 자신의 테넌트의 범위에서 API에 대한 액세스를 관리합니다. 고객 관리자는 Cloud Insights 백 엔드 직원의 직접적인 개입 없이 이러한 키를 부여 및 취소할 수 있습니다.</block>
-  <block id="98fbc8e7d31cedd912f33ee6a89818dc" category="section-title">API 범주</block>
-  <block id="c7fb26bb2d197a98dd4605353de8b5fd" category="paragraph">Cloud Insights API는 범주 기반이며 현재 다음 범주가 포함되어 있습니다.</block>
-  <block id="2f90612b2de30393cb574a8125f3b83c" category="list-text">자산 범주에는 자산, 쿼리 및 검색 API가 포함됩니다.</block>
-  <block id="19d579e8bdc0964ff6c1b98d9f4077d2" category="list-text">데이터 수집 범주는 데이터 수집기를 검색하고 관리하는 데 사용됩니다.</block>
-  <block id="2e3e1cf2be708126495ee0409de4ffdc" category="list-text">데이터 수집 범주는 텔레그라프 에이전트와 같은 수집 데이터와 사용자 지정 메트릭을 검색 및 관리하는 데 사용됩니다</block>
-  <block id="66f4e9202f5d9c4adb625559f7dd6e37" category="paragraph">시간이 지나면 추가 범주 및/또는 API를 사용할 수 있습니다. 최신 API 정보는 에서 확인할 수 있습니다 <block ref="26737cef142923769504b229d3be204d" category="inline-link-macro-rx"></block>.</block>
-  <block id="d1d72189f00074c010ad5cdaa0e7efe1" category="paragraph">성능 메트릭에는 설명 및 범주가 있으며 성능 요약 모음이 포함되어 있습니다. 예: 지연 시간, 트래픽 및 속도.</block>
-  <block id="9291545b28f5f21e3694eb57db45da2c" category="paragraph">각 성능 데이터 오브젝트 유형에는 고유한 성능 메트릭 세트가 있습니다. 예를 들어, 가상 머신 성능 개체는 성능 메트릭으로 "diskThroughput"을 지원합니다. 지원되는 각 성능 메트릭은 메트릭 사전에 나와 있는 특정 "성능 범주"입니다. Cloud Insights는 이 문서의 뒷부분에 나열된 몇 가지 성능 메트릭 범주를 지원합니다. 각 성능 메트릭 사전에는 이 성능 메트릭에 대한 사람이 읽을 수 있는 설명과 성능 요약 카운터 항목 집합인 "설명" 필드도 있습니다.</block>
-  <block id="780b9434cb2ebb62e93b92701c3b13b0" category="paragraph">검색 API는 시스템에 대한 간단한 진입점입니다. API에 대한 유일한 입력 매개 변수는 자유 형식 문자열이며 결과 JSON에는 분류된 결과 목록이 포함되어 있습니다. 범주는 저장소, 호스트, 데이터 저장소 등과 같이 인벤토리에서 서로 다른 자산 유형입니다. 각 범주에는 검색 조건과 일치하는 범주 유형의 개체 목록이 포함됩니다.</block>
   <block id="7a523464a7ffeacc5aafdfd0de3ab1aa" category="section-title">구독 상태를 확인하십시오</block>
   <block id="4d71df4f1ca4df08ff676034d4f602c1" category="paragraph">가입이 활성화되면 * 관리자 &gt; 구독 * 페이지에서 구독 상태 및 관리되는 유닛 사용량을 확인할 수 있습니다.</block>
   <block id="cf9f7d335ccf63f9afafb03e9bccbb83" category="inline-image-macro">가입 서비스 보기</block>
@@ -8619,7 +8606,6 @@
   <block id="bbe116aac998e7707bfddff610136f34" category="cell">공간이 부족되는 Kubernetes 네임스페이스</block>
   <block id="639cd114dad5880c94752e290d36353a" category="cell">Space_Insight에서 실행되는 _Kubernetes 네임스페이스 를 사용하면 공간이 부족할 위험이 있는 Kubernetes 네임스페이스의 워크로드를 볼 수 있으며 각 공간이 가득 채워지기 전의 남은 일 수에 대한 추정치가 있습니다.<block ref="91569d71925d0cb55a46b7a5e8a36cb5" category="inline-link-macro-rx"></block></block>
   <block id="9bfa6f1e81e8e1a4af8a2057b85a0257" category="cell">Stress_insight 아래의 _ 공유 리소스는 AI/ML을 사용하여 리소스 경합이 사용자 환경에서 성능 저하를 일으키는 위치를 자동으로 식별하고, 해당 환경의 영향을 받는 워크로드를 강조 표시하고, 문제 해결을 위한 권장 조치를 제공하여 성능 문제를 보다 빠르게 해결합니다.<block ref="b97265367ad52c02d31fa7522e26571d" category="inline-link-macro-rx"></block></block>
-  <block id="fd693ecc46e262de271868b32a2e5366" category="paragraph"><block ref="fd693ecc46e262de271868b32a2e5366" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e1c87fa2897a7e209d3911ea7c640c39" category="section-title">데이터 수집 모니터</block>
   <block id="2745e86ed1540385bf34b3d3a304cd23" category="cell">데이터 수집기 또는 대상 시스템의 구성을 확인합니다. Collector Warning용 모니터는 다른 모니터 유형보다 더 많은 경고를 보낼 수 있으므로 문제 해결을 수행하지 않는 한 알림 수신자를 설정하지 않는 것이 좋습니다.</block>
   <block id="3f2608784f855ab79eaabba7e20db8cd" category="paragraph">Cloud Insights의 고급 Kubernetes 모니터링 및 클러스터 탐색기를 사용하여 쉽게 시작 및 실행할 수 있습니다.</block>
@@ -8843,8 +8829,6 @@
   <block id="d11a7a694c023537b8fd43857dd651f7" category="cell">PSP(Pod 보안 정책)를 사용하여 Kubernetes 클러스터를 실행 중인 경우 최신 NetApp Kubernetes 모니터링 사업자로 업그레이드해야 합니다. PSP를 지원하는 현재 NKMO로 업그레이드하려면 다음 단계를 따르십시오. 1. 이전 모니터링 운영자 제거: kubtl delete agent-monitoring -netapp-n netapp-monitoring kubtl delete ns NetApp-monitoring kubctl delete CRD agents.monitoring.netapp.com kubeck delete clusterrole agent-manager-role agent-proxy-role agent-role role agent-rolebinding agent-cluster-admin-rolebinding 2. 최신 버전의 모니터링 연산자를 배포합니다.</block>
   <block id="2eb2fe69b25b42c01f1dd6ed820e4ef3" category="cell">NKMO를 배포하는 데 문제가 발생했고 PSP를 사용하고 있습니다.</block>
   <block id="ffc85f5eab15bc118cab588bb4b4d3eb" category="cell">1.kubctl -n &lt;name-space&gt; 에이전트 편집 명령을 사용하여 에이전트를 편집합니다. 2. '보안 - 정책 - 사용'을 '거짓'으로 표시합니다. 그러면 Pos 보안 정책이 비활성화되고 NKMO가 배포될 수 있습니다. 다음 명령을 사용하여 확인합니다. kubbtl get psp (Pod 보안 정책이 제거되었음을 표시해야 함) kubctl all -n &lt;name-space&gt;</block>
-  <block id="641244a546c89759b8e5c60efd75767d" category="paragraph">Cloud Insights도 있습니다 <block ref="ca56f933f1431ce18e092150c84b745d" category="inline-link-macro-rx"></block> 에서 액세스할 수 있는 API를 결정합니다. 사용자 및 게스트 역할은 관리자 역할보다 권한이 적습니다. 예를 들어 관찰 가능성의 관리자 역할이 있지만 보고 시 사용자 역할은 데이터 웨어하우스를 제외한 모든 API 유형을 관리할 수 있습니다.</block>
-  <block id="0661e5cc01fe7da17bc8e2d8e2e34221" category="paragraph">사용자가 액세스할 수 있는 API 범주도 에 따라 다릅니다 <block ref="ead2141fb682d81a2f0b1deca7bb95c5" category="inline-link-macro-rx"></block> 각 Cloud Insights 기능 세트(관찰 가능성, 보안, 보고)에 있습니다.</block>
   <block id="98d8ebff3e8aa04aa14171f6564f1ec7" category="paragraph">현재 모든 Cloud Insights 기능을 사용할 수 있습니다. 이 공간을 통해 향후 미리 보기를 볼 수 있습니다.</block>
   <block id="8bab215794a736f6f876eac0eeb23923" category="section-title">2022년 8월</block>
   <block id="d705154352cfbafc58dfc6d7437fb527" category="section-title">Cloud Insights의 새로운 디자인!</block>
@@ -9045,4 +9029,6 @@
   <block id="860cea525f63406af55925d01de59c97" category="paragraph">Cloud Insights와 함께 번들로 제공되는 유효한 NetApp 제품을 보유한 경우 해당 제품 일련 번호를 기존 Cloud Insights 구독에 추가할 수 있습니다. 예를 들어, NetApp Astra Control Center를 구입한 경우 Astra Control Center 라이센스 일련 번호를 사용하여 Cloud Insights의 구독을 식별할 수 있습니다. Cloud Insights는 _ 소유 권한 ID _ 을(를) 참조합니다.</block>
   <block id="5c42bfffed923b7136ae5aee981826dd" category="list-text">대시보드 &gt; 대시보드 * 를 선택합니다</block>
   <block id="486f30ea223e9ebeeba1fe336355cc78" category="paragraph">관리자 또는 계정 소유자 역할이 있는 사용자는 대시보드 갤러리에서 가져올 수 있습니다.</block>
+  <block id="dea63246826e0f6304016e25a14623cf" category="section-title">보안 모범 사례</block>
+  <block id="ab08067a1ae057eadce5a75286225507" category="paragraph">Cloud Insights 알림은 사용자 환경의 데이터 요소 및 추세를 강조 표시하기 위해 설계되었으며 Cloud Insights를 사용하면 유효한 이메일 주소를 경고 수신자로 입력할 수 있습니다. 보안 환경에서 작업하는 경우 알림을 받는 사람 또는 알림에 액세스할 수 있는 사람을 특히 주의하십시오.</block>
 </blocks>
