@@ -9007,7 +9007,6 @@
   <block id="2ba1eaa3efea8566de516f83331d1ca0" category="list-text">NFS4.ops [share]</block>
   <block id="0e20349a2bc2936c3b69b3b301f4c04e" category="list-text">NFS4-1.ops [공유]</block>
   <block id="56df349714d6415bc904268245667da3" category="paragraph">컨트롤러가 이러한 워크로드 중 일부 또는 전부를 캡처하지 못할 경우 Cloud Insights에서 "내부 볼륨"의 워크로드를 사용하지 않거나 성능 저하 문제가 발생할 수 있습니다.</block>
-  <block id="136f9047a3903eacf983489b3eeec92a" category="list-text">성능에 대한 액세스 검증: 획득 장치의 웹 브라우저에서 \https://&lt;SMI-S 호스트 이름 또는 IP&gt;:5989/eCommerce config로 이동합니다. 여기서 "SMI-S 호스트 이름 또는 IP"는 SMI-S 서버의 IP 주소 또는 호스트 이름입니다. 이 URL은 EMC SMI-S("ECOM") 서비스의 관리 포털용 URL로, 로그인 팝업을 받게 됩니다.</block>
   <block id="f27bbbf5360c428e454f91df4646ca7c" category="list-text">클러스터 IP, SVM 이름, 클러스터 관리 사용자 이름 및 암호를 사용합니다. 이 방법은 * _ 을(를) 사용하는 것이 좋습니다</block>
   <block id="41e19b5574e2f91f38fdc0cf4372c9b5" category="cell">Agent가 처음에 프록시 서버를 통해 연결되었고 Agent 설치 중에 프록시가 설정되었습니다. 이제 프록시 서버가 변경되었습니다. Agent의 프록시 구성을 변경하려면 어떻게 해야 합니까?</block>
   <block id="a807d45c8af5b7a8d1abadf767a17bde" category="cell">agent.properties 를 편집하여 프록시 세부 정보를 추가할 수 있습니다. 다음 단계를 따르십시오. 1. 속성 파일이 포함된 폴더로 변경합니다. cd /opt/netapp/cloudsecure/conf 2. 즐겨찾기 텍스트 편집기를 사용하여 편집할 _agent.properties_ 파일을 엽니다. 다음 행을 추가하거나 수정합니다. agent_proxy_host=scspa1950329001.vm.netapp.com agent_proxy_port=80 agent_proxy_user=pxuser agent_proxy_password=pass1234 4. 파일을 저장합니다. 에이전트를 다시 시작합니다. sudo systemctl cloudsecure-agent.service 다시 시작합니다</block>
@@ -9039,4 +9038,5 @@
   <block id="71dfcd631e4e19b5065870ce065fb560" category="paragraph">== 포렌식 페이지의 필터 적용 가능성</block>
   <block id="a8ed44b10f226c3693725707fe220366" category="paragraph">== 경로/원래 경로 검색</block>
   <block id="ed71ade6f4efcaba20f75ab4e1d40313" category="paragraph">= = 문제 해결</block>
+  <block id="9472f5553652a76fc53e58f1b861b32e" category="list-text">성능에 대한 액세스 검증: 획득 장치의 웹 브라우저에서 _https://&lt;SMI-S Hostname or IP&gt;:5989/ecomconfig_로 이동합니다. 여기서 "SMI-S 호스트 이름 또는 IP"는 SMI-S 서버의 IP 주소 또는 호스트 이름입니다. 이 URL은 EMC SMI-S("ECOM") 서비스의 관리 포털용 URL로, 로그인 팝업을 받게 됩니다.</block>
 </blocks>
