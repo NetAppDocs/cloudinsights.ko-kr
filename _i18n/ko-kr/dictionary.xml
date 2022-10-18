@@ -9038,5 +9038,7 @@
   <block id="71dfcd631e4e19b5065870ce065fb560" category="paragraph">== 포렌식 페이지의 필터 적용 가능성</block>
   <block id="a8ed44b10f226c3693725707fe220366" category="paragraph">== 경로/원래 경로 검색</block>
   <block id="ed71ade6f4efcaba20f75ab4e1d40313" category="paragraph">= = 문제 해결</block>
-  <block id="9472f5553652a76fc53e58f1b861b32e" category="list-text">성능에 대한 액세스 검증: 획득 장치의 웹 브라우저에서 _https://&lt;SMI-S Hostname or IP&gt;:5989/ecomconfig_로 이동합니다. 여기서 "SMI-S 호스트 이름 또는 IP"는 SMI-S 서버의 IP 주소 또는 호스트 이름입니다. 이 URL은 EMC SMI-S("ECOM") 서비스의 관리 포털용 URL로, 로그인 팝업을 받게 됩니다.</block>
+  <block id="100c37ccf9bdbedac2e35d90d41d3be9" category="inline-link-macro">이 가이드를 참조하십시오</block>
+  <block id="f06397ccd924d99fcb3214efdc25d940" category="paragraph">Cloud Secure는 다른 툴과도 통합할 수 있습니다. 예를 들면, 다음과 같습니다. <block ref="4ccd3ce9fc5ce8804b14aeb0860cf515" category="inline-link-macro-rx"></block> Splunk와 통합 시,</block>
+  <block id="a4c1554c68c13d90856edc78740b6673" category="list-text">성능에 대한 액세스 검증: 획득 장치의 웹 브라우저에서 _\https://&lt;SMI-S Hostname or IP&gt;:5989/ecomconfig_로 이동합니다. 여기서 "SMI-S 호스트 이름 또는 IP"는 SMI-S 서버의 IP 주소 또는 호스트 이름입니다. 이 URL은 EMC SMI-S("ECOM") 서비스의 관리 포털용 URL로, 로그인 팝업을 받게 됩니다.</block>
 </blocks>

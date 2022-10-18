@@ -43,3 +43,4 @@ link:https://netapp.hubs.vidyard.com/watch/NEmbmYrFjCHvPps7QMy8me?["* 비디오 
 
 | 문제 해결 | link:https://netapp.hubs.vidyard.com/watch/Fs8N2w9wBtsFGrhRH9X85U?["* 비디오 *: 문제 해결"] 
 |===
+Cloud Secure는 다른 툴과도 통합할 수 있습니다. 예를 들면, 다음과 같습니다. link:http://docs.netapp.com/us-en/cloudinsights/CloudInsights_CloudSecure_Splunk_integration_guide.pdf["이 가이드를 참조하십시오"] Splunk와 통합 시,

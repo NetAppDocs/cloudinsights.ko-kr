@@ -24,7 +24,7 @@ Cloud Insights는 고객 환경의 기존 Solutions Enabler 서버와 함께 Sol
 * SE(Solutions Enabler) 서버에 대한 관리자 권한
 * SE 소프트웨어의 읽기 전용 사용자 이름 및 암호
 * Unisphere for VMAX 애플리케이션은 SMI-S Provider 설치를 통해 관리되는 EMC VMAX 및 PowerMax sstorage 스토리지에 대한 통계를 실행 및 수집해야 합니다
-* 성능에 대한 액세스 검증: 획득 장치의 웹 브라우저에서 _https://<SMI-S Hostname or IP>:5989/ecomconfig_로 이동합니다. 여기서 "SMI-S 호스트 이름 또는 IP"는 SMI-S 서버의 IP 주소 또는 호스트 이름입니다. 이 URL은 EMC SMI-S("ECOM") 서비스의 관리 포털용 URL로, 로그인 팝업을 받게 됩니다.
+* 성능에 대한 액세스 검증: 획득 장치의 웹 브라우저에서 _\https://<SMI-S Hostname or IP>:5989/ecomconfig_로 이동합니다. 여기서 "SMI-S 호스트 이름 또는 IP"는 SMI-S 서버의 IP 주소 또는 호스트 이름입니다. 이 URL은 EMC SMI-S("ECOM") 서비스의 관리 포털용 URL로, 로그인 팝업을 받게 됩니다.
 
 
 
