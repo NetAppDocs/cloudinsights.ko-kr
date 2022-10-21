@@ -9069,6 +9069,6 @@
   <block id="6ae223e6c671cefaa47a470a8e528da8" category="list-text">자동 응답 정책을 구현하여 공격을 차단합니다.</block>
   <block id="095506f42fe9e3d89f7eef6c19556f4c" category="list-text">영향을 받은 파일을 식별하여 신속하게 복구하고 데이터 침해 조사를 수행할 수 있습니다.</block>
   <block id="9b5911ec569b49f0ae81ecb2c9067806" category="sidebar">ONTAP 자율 랜섬웨어 보호 통합</block>
-  <block id="0ed16a106cacc7c64648558f5ce3f2fc" category="section-title">Webhook 테스트</block>
-  <block id="0da0da408a0ca0569c73b8f7674069a4" category="paragraph">"Test Webhook(Webhook 테스트)" 버튼을 클릭하여 연결을 테스트합니다. 이렇게 하면 선택한 "방법"에 따라 정의된 "URL"에 "메시지 본문"(대체 없음)이 전송됩니다. 또한 "매개 변수: 매개 변수는 무엇이며 어떻게 사용합니까?"에서 확인할 수 있습니다. 섹션, 대체는 "Webhook 테스트" 버튼을 클릭할 때 _NOT_수행됩니다.</block>
+  <block id="5068217c7c23b1eac12eac1be6831460" category="paragraph">각 필드에 적절한 정보를 입력하고 완료되면 "저장"을 클릭합니다.</block>
+  <block id="8a133220a32d62ddc74b78987d698fbf" category="paragraph">"Webhook 테스트" 버튼을 클릭하여 연결을 테스트할 수도 있습니다. 이렇게 하면 선택한 방법에 따라 정의된 URL에 "메시지 본문"(대체 없음)이 전송됩니다. 또한 "매개 변수: 매개 변수는 무엇이며 어떻게 사용합니까?"에서 확인할 수 있습니다. 섹션에서 대체는 "Webhook 테스트" 버튼을 클릭할 때 _NOT_수행됩니다. 이 버튼은 _%_대체를 표시하지만 데이터로 대체하지는 않는 페이로드를 보냅니다.</block>
 </blocks>
