@@ -4495,12 +4495,6 @@
   <block id="de4c464655d04aaaf8358ee2427b5c78" category="section-title">주석 규칙에는 쿼리가 필요합니다</block>
   <block id="d33900b640b6dc7fb413a869f6adf259" category="inline-link-macro">주석 규칙</block>
   <block id="aa74838358ad534ab462a543660f57a1" category="paragraph">를 구성하는 경우 <block ref="e4c310fb06df0298e7dcaf91dedea80b" category="inline-link-macro-rx"></block>각 규칙에 사용할 기본 쿼리가 있어야 합니다. 하지만 위에서 살펴본 것처럼 쿼리를 필요한 만큼 광범위하고 좁힐 수 있습니다.</block>
-  <block id="7d30769516b52d1445b1bf2d7d9557f4" category="summary">Cloud Insights 내에서 다른 NetApp Cloud Central 제품으로 쉽게 전환할 수 있습니다.</block>
-  <block id="24f46fe1d8ee8559ee63a33de2543943" category="doc">다른 Cloud Central 제품으로 전환</block>
-  <block id="fccd52d76913d4b183b163d6e5172239" category="paragraph">Cloud Central * 메뉴를 클릭하고 나열된 NetApp Cloud 제품 중에서 선택하여 다른 NetApp 클라우드 제품으로 전환할 수 있습니다. Cloud Central 포털 자체로도 이동할 수 있습니다.</block>
-  <block id="dcfb05bdbd07b63ad902c550de53ea03" category="inline-image-macro">그 밖의 클라우드 제품</block>
-  <block id="7d43cb32851afdb4974a9d3020552cb2" category="paragraph"><block ref="7d43cb32851afdb4974a9d3020552cb2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="dc4ab3739b0ab1192c8e357f6d629754" category="paragraph">선택한 클라우드 제품에 자동으로 인증되고 로그인됩니다.</block>
   <block id="5865d512ef44ce9af5c898e3838da358" category="summary">Kubernetes 랜딩 페이지가 설명했습니다</block>
   <block id="e069a872dd6153588f1350dd2d1c2289" category="doc">Kubernetes 클러스터 개요</block>
   <block id="d9ade118c1e64b59921edda821b7e351" category="paragraph">Cloud Insights Kubernetes Explorer는 Kubernetes 클러스터의 전반적인 상태 및 사용을 표시하는 강력한 도구이며 사용자는 조사 영역을 쉽게 드릴다운할 수 있습니다.</block>
@@ -9041,4 +9035,28 @@
   <block id="100c37ccf9bdbedac2e35d90d41d3be9" category="inline-link-macro">이 가이드를 참조하십시오</block>
   <block id="f06397ccd924d99fcb3214efdc25d940" category="paragraph">Cloud Secure는 다른 툴과도 통합할 수 있습니다. 예를 들면, 다음과 같습니다. <block ref="4ccd3ce9fc5ce8804b14aeb0860cf515" category="inline-link-macro-rx"></block> Splunk와 통합 시,</block>
   <block id="a4c1554c68c13d90856edc78740b6673" category="list-text">성능에 대한 액세스 검증: 획득 장치의 웹 브라우저에서 _\https://&lt;SMI-S Hostname or IP&gt;:5989/ecomconfig_로 이동합니다. 여기서 "SMI-S 호스트 이름 또는 IP"는 SMI-S 서버의 IP 주소 또는 호스트 이름입니다. 이 URL은 EMC SMI-S("ECOM") 서비스의 관리 포털용 URL로, 로그인 팝업을 받게 됩니다.</block>
+  <block id="c296d8324f9fa4f890b4ead0f69bfac3" category="doc">ONTAP Autonomous 랜섬웨어 Protection과 통합</block>
+  <block id="d444ab62db0a690e837242dfd8b87acc" category="paragraph">ONTAP ARP(Autonomous 랜섬웨어 보호) 기능은 NAS(NFS 및 SMB) 환경에서 워크로드 분석을 사용하여 랜섬웨어 공격을 나타낼 수 있는 비정상적인 파일 내 작업을 사전에 감지하여 경고합니다.</block>
+  <block id="383c3a61ab1ee0baf884d10441d965bd" category="paragraph">ARP에 대한 추가 세부 정보와 라이센스 요구 사항을 찾을 수 있습니다 <block ref="aaf4977c10e4402f9516d11af3df8368" category="inline-link-macro-rx"></block>.</block>
+  <block id="4a90b843204a7e572f3f003b57df0e34" category="paragraph">Cloud Secure는 ONTAP와 통합되어 ARP 이벤트를 수신하고 추가 분석 및 자동 응답 계층을 제공합니다.</block>
+  <block id="7f296999dd5a19bdac141d3c5458bf09" category="paragraph">Cloud Secure는 ONTAP로부터 ARP 이벤트를 수신하고 다음과 같은 조치를 취합니다.</block>
+  <block id="934b109c1d19ab46820aa2d388697f4e" category="list-text">볼륨 암호화 이벤트와 사용자 활동의 상관 관계를 분석하여 손상을 일으키는 원인을 식별합니다.</block>
+  <block id="bb7256da73d87b6336cf1dc5342a8692" category="list-text">자동 응답 정책 구축(정의된 경우)</block>
+  <block id="ac3108149bf9197801e00b41c3c7cb34" category="list-text">포렌식 기능 제공:</block>
+  <block id="c5c2c046e5a8aeae7862975fda61f862" category="list-text">고객이 데이터 침해 조사를 수행할 수 있도록 허용합니다.</block>
+  <block id="7355572f8cd61d6b84bd549a6b19d75b" category="list-text">영향을 받은 파일을 파악하여 복구 시간을 단축하고 데이터 침해 조사를 수행할 수 있습니다.</block>
+  <block id="3c6aa4f4d8c4e33eefaec63c43ad62bb" category="list-text">최소 ONTAP 버전: 9.11.1</block>
+  <block id="f97f5685fc902a89d150e9c654602c43" category="list-text">ARP 사용 볼륨. ARP를 활성화하는 방법에 대한 세부 정보를 찾을 수 있습니다 <block ref="9e499af99dc8d0d5835de8f33e6a6797" category="inline-link-macro-rx"></block>. ARP는 OnCommand 시스템 관리자를 통해 활성화해야 합니다. Cloud Secure에서 ARP를 활성화할 수 없습니다.</block>
+  <block id="b33ce104a861da9844f5dfaeb51c79eb" category="list-text">Cloud Secure Collector는 클러스터 IP를 통해 추가해야 합니다.</block>
+  <block id="77daf866423aa56487a2f9b637628664" category="list-text">이 기능을 사용하려면 클러스터 레벨 자격 증명이 필요합니다. 즉, SVM을 추가할 때 클러스터 레벨 자격 증명을 사용해야 합니다.</block>
+  <block id="d3967f941a1672db445a1da6ef843e2e" category="section-title">사용자 권한이 필요합니다</block>
+  <block id="76b59b81477976d5b5bed701e6ff22b9" category="paragraph">사용자에게 부여된 권한을 가진 사용자 정의 사용자(예: _CsUser_)를 사용하는 경우, 아래 단계를 따라 Cloud Secure에 ARP 관련 정보를 수집할 수 있는 권한을 ONTAP에 부여합니다.</block>
+  <block id="ba95389dce56e78ab6a308128620b033" category="paragraph">클러스터 자격 증명을 사용하여 _CsUser_의 경우 ONTAP 명령줄에서 다음을 수행합니다.</block>
+  <block id="20cdc94cc7059da994e4c0a98a544c8f" category="section-title">샘플 알림</block>
+  <block id="e0e1895e03a77da5552db43fbdeaeea6" category="paragraph">ARP 이벤트로 인해 생성된 샘플 경고는 다음과 같다.</block>
+  <block id="ba022000977a1c06f95377443d9b2500" category="inline-image-macro">ONTAP ARP 예제 화면</block>
+  <block id="d12fcb220971d8d0a7e1d474102c977e" category="paragraph"><block ref="d12fcb220971d8d0a7e1d474102c977e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="333fa709635d0e011dd99c908e02bd40" category="paragraph">고신뢰도 배너는 공격이 파일 암호화 활동과 함께 랜섬웨어 동작을 보여발생했음을 나타냅니다. 암호화된 파일 그래프는 ARP 솔루션이 볼륨 암호화 작업을 감지한 타임스탬프를 나타냅니다.</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">제한 사항</block>
+  <block id="7a64568c4010a39c6620146ba9511682" category="paragraph">Cloud Secure에서 SVM을 모니터링하지 않지만 ONTAP에서 생성된 ARP 이벤트가 있는 경우 Cloud Secure에서 이벤트를 계속 수신하고 표시합니다. 그러나 알림과 관련된 Forensic 정보 및 사용자 매핑은 캡처되거나 표시되지 않습니다.</block>
 </blocks>

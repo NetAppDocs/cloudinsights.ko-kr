@@ -1,0 +1,69 @@
+---
+sidebar: sidebar 
+permalink: concept_cs_integration_with_ontap_arp.html 
+summary: ONTAP SVM DSC를 설치하기 전에 이 스크립트를 실행하여 SVM의 이벤트 속도를 확인할 수 있습니다 
+keywords: event, checker, rate, sizing 
+---
+= ONTAP Autonomous 랜섬웨어 Protection과 통합
+:allow-uri-read: 
+
+
+[role="lead"]
+ONTAP ARP(Autonomous 랜섬웨어 보호) 기능은 NAS(NFS 및 SMB) 환경에서 워크로드 분석을 사용하여 랜섬웨어 공격을 나타낼 수 있는 비정상적인 파일 내 작업을 사전에 감지하여 경고합니다.
+
+ARP에 대한 추가 세부 정보와 라이센스 요구 사항을 찾을 수 있습니다 link:https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["여기"].
+
+Cloud Secure는 ONTAP와 통합되어 ARP 이벤트를 수신하고 추가 분석 및 자동 응답 계층을 제공합니다.
+
+Cloud Secure는 ONTAP로부터 ARP 이벤트를 수신하고 다음과 같은 조치를 취합니다.
+
+. 볼륨 암호화 이벤트와 사용자 활동의 상관 관계를 분석하여 손상을 일으키는 원인을 식별합니다.
+. 자동 응답 정책 구축(정의된 경우)
+. 포렌식 기능 제공:
++
+** 고객이 데이터 침해 조사를 수행할 수 있도록 허용합니다.
+** 영향을 받은 파일을 파악하여 복구 시간을 단축하고 데이터 침해 조사를 수행할 수 있습니다.
+
+
+
+
+
+
+== 필수 구성 요소
+
+. 최소 ONTAP 버전: 9.11.1
+. ARP 사용 볼륨. ARP를 활성화하는 방법에 대한 세부 정보를 찾을 수 있습니다 link:https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html["여기"]. ARP는 OnCommand 시스템 관리자를 통해 활성화해야 합니다. Cloud Secure에서 ARP를 활성화할 수 없습니다.
+. Cloud Secure Collector는 클러스터 IP를 통해 추가해야 합니다.
+. 이 기능을 사용하려면 클러스터 레벨 자격 증명이 필요합니다. 즉, SVM을 추가할 때 클러스터 레벨 자격 증명을 사용해야 합니다.
+
+
+
+
+== 사용자 권한이 필요합니다
+
+클러스터 관리 자격 증명을 사용하는 경우 새 권한이 필요하지 않습니다.
+
+사용자에게 부여된 권한을 가진 사용자 정의 사용자(예: _CsUser_)를 사용하는 경우, 아래 단계를 따라 Cloud Secure에 ARP 관련 정보를 수집할 수 있는 권한을 ONTAP에 부여합니다.
+
+클러스터 자격 증명을 사용하여 _CsUser_의 경우 ONTAP 명령줄에서 다음을 수행합니다.
+
+....
+security login rest-role create -role arwrole -api /api/storage/volumes -access readonly -vserver <cluster_name>
+security login rest-role create -api /api/security/anti-ransomware -access readonly  -role arwrole -vserver <cluster_name>
+security login create -user-or-group-name csuser -application http -authmethod password -role arwrole
+....
+
+
+== 샘플 알림
+
+ARP 이벤트로 인해 생성된 샘플 경고는 다음과 같다.
+
+image:CS_ONTAP_ARP_EXAMPLE.png["ONTAP ARP 예제 화면"]
+
+고신뢰도 배너는 공격이 파일 암호화 활동과 함께 랜섬웨어 동작을 보여발생했음을 나타냅니다. 암호화된 파일 그래프는 ARP 솔루션이 볼륨 암호화 작업을 감지한 타임스탬프를 나타냅니다.
+
+
+
+== 제한 사항
+
+Cloud Secure에서 SVM을 모니터링하지 않지만 ONTAP에서 생성된 ARP 이벤트가 있는 경우 Cloud Secure에서 이벤트를 계속 수신하고 표시합니다. 그러나 알림과 관련된 Forensic 정보 및 사용자 매핑은 캡처되거나 표시되지 않습니다.
