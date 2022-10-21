@@ -9059,4 +9059,14 @@
   <block id="333fa709635d0e011dd99c908e02bd40" category="paragraph">고신뢰도 배너는 공격이 파일 암호화 활동과 함께 랜섬웨어 동작을 보여발생했음을 나타냅니다. 암호화된 파일 그래프는 ARP 솔루션이 볼륨 암호화 작업을 감지한 타임스탬프를 나타냅니다.</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">제한 사항</block>
   <block id="7a64568c4010a39c6620146ba9511682" category="paragraph">Cloud Secure에서 SVM을 모니터링하지 않지만 ONTAP에서 생성된 ARP 이벤트가 있는 경우 Cloud Secure에서 이벤트를 계속 수신하고 표시합니다. 그러나 알림과 관련된 Forensic 정보 및 사용자 매핑은 캡처되거나 표시되지 않습니다.</block>
+  <block id="500021752029d6f358d3f431decf2194" category="summary">Cloud Secure은 ONTAP 자율 랜섬웨어 차단 기능과 통합되어 랜섬웨어 탐지 기능을 개선합니다.</block>
+  <block id="4c4518d4c20175eb4082a6b33eb4badb" category="section-title">2022년 10월</block>
+  <block id="d9ed23066a8423b647abeae97c6e8d89" category="section-title">ONTAP Autonomous 랜섬웨어 보호 통합을 통해 더 정확하고 우수한 랜섬웨어 탐지 기능을 제공합니다</block>
+  <block id="533c17bbfdfb297420db9af0908070d6" category="inline-link-macro">자율 랜섬웨어 보호</block>
+  <block id="ed7f4a0571f6c21909209a2c991883eb" category="paragraph">Cloud Secure은 ONTAP과의 통합을 통해 랜섬웨어 탐지 기능을 개선합니다 <block ref="592611ec20f061ec3c5a97f7d83bfebc" category="inline-link-macro-rx"></block> (ARP)</block>
+  <block id="be2a9c6be9b8c3dee7de8e445589e2ee" category="paragraph">Cloud Secure는 잠재적인 볼륨 파일 암호화 작업에 대한 ONTAP ARP 이벤트를 수신합니다</block>
+  <block id="abc85a341cbf25c2d9f1f3a47072b87d" category="list-text">볼륨 암호화 이벤트와 사용자 활동의 상관 관계를 분석하여 손상을 일으키는 원인을 파악하고,</block>
+  <block id="6ae223e6c671cefaa47a470a8e528da8" category="list-text">자동 응답 정책을 구현하여 공격을 차단합니다.</block>
+  <block id="095506f42fe9e3d89f7eef6c19556f4c" category="list-text">영향을 받은 파일을 식별하여 신속하게 복구하고 데이터 침해 조사를 수행할 수 있습니다.</block>
+  <block id="9b5911ec569b49f0ae81ecb2c9067806" category="sidebar">ONTAP 자율 랜섬웨어 보호 통합</block>
 </blocks>
