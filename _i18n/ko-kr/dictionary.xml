@@ -9072,4 +9072,5 @@
   <block id="5068217c7c23b1eac12eac1be6831460" category="paragraph">각 필드에 적절한 정보를 입력하고 완료되면 "저장"을 클릭합니다.</block>
   <block id="b65784e2633601efca2f9bfad2d590c1" category="paragraph">"Webhook 테스트" 버튼을 클릭하여 연결을 테스트할 수도 있습니다. 이렇게 하면 선택한 방법에 따라 정의된 URL에 "메시지 본문"(대체 없음)이 전송됩니다.</block>
   <block id="4ca1433d0af40616a4796463cd229d73" category="paragraph">이 섹션에서 대체는 "Webhook 테스트" 버튼을 클릭할 때 _not_Performed 가 됩니다. 이 버튼은 _%%_대체를 나타내는 페이로드를 전송하지만 데이터를 대체하지는 않습니다.</block>
+  <block id="cf2146b9e920671969e606b44d0743f6" category="paragraph">에서 더 많은 정의를 찾을 수 있습니다 <block ref="b7f404f6b2e5258b20a8d7e7801ccdd1" category="inline-link-macro-rx"></block> 페이지.</block>
 </blocks>
