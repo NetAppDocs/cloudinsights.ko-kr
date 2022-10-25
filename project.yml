@@ -88,6 +88,8 @@ sidebar:
       url: "/kubernetes_landing_page.html"
     - title: Kubernetes 클러스터 페이지
       url: "/kubernetes_cluster_detail.html"
+    - title: ONTAP 핵심 요소
+      url: "/concept_ontap_essentials.html"
   - title: 쿼리 작업
     entries:
     - title: 자산 쿼리
