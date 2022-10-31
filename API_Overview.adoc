@@ -283,27 +283,19 @@ API 액세스 토큰의 만료 날짜가 있습니다. API 액세스 토큰이 �
 
 이러한 명령은 기본 네임스페이스 "NetApp-모니터링"을 사용합니다. 고유한 네임스페이스를 설정한 경우 이러한 네임스페이스 및 모든 후속 명령 및 파일로 대체합니다.
 
-* CM(Telegraf ConfigMaps)을 편집하고 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 대체합니다.
+참고: 최신 NetApp Kubernetes Monitoring Operator가 설치되어 있고 재생 가능한 API 액세스 토큰을 사용하는 경우, 만료되는 토큰이 자동으로 새/업데이트된 API 액세스 토큰으로 대체됩니다. 아래 나열된 수동 단계를 수행할 필요는 없습니다.
+
+* NetApp Kubernetes Monitoring Operator를 편집합니다.
++
+ kubectl -n netapp-monitoring edit agent agent-monitoring-netapp
+* 이전 API 토큰을 새 API 토큰으로 대체하여 _spec.output-sink.api-key_value를 수정합니다.
 +
 ....
-kubectl -n netapp-monitoring edit cm
-:%s/<OLD_API_TOKEN>/<NEW_API_TOKEN>/g
-:wq!
+spec:
+…
+  output-sink:
+  - api-key: <NEW_API_TOKEN>
 ....
-* DS(Telegraf DemonSet) 및 RS(ReplicaSet)를 편집하고 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 교체합니다.
-+
-....
-kubectl -n netapp-monitoring edit ds telegraf-ds
-:%s/<OLD_API_TOKEN>/<NEW_API_TOKEN>/g
-:wq!
-kubectl -n netapp-monitoring edit rs telegraf-rs
-:%s/<OLD_API_TOKEN>/<NEW_API_TOKEN>/g
-:wq!
-....
-* Kubernetes 컨트롤러가 자동으로 Telegraf DS Pod를 다시 시작합니다.
-* Telegraf RS 포드를 다시 시작합니다
-+
- kubectl -n netapp-monitoring delete pod <telegraf-rs-pod>
 
 
 

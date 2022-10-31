@@ -8819,7 +8819,6 @@
   <block id="d11a7a694c023537b8fd43857dd651f7" category="cell">PSP(Pod 보안 정책)를 사용하여 Kubernetes 클러스터를 실행 중인 경우 최신 NetApp Kubernetes 모니터링 사업자로 업그레이드해야 합니다. PSP를 지원하는 현재 NKMO로 업그레이드하려면 다음 단계를 따르십시오. 1. 이전 모니터링 운영자 제거: kubtl delete agent-monitoring -netapp-n netapp-monitoring kubtl delete ns NetApp-monitoring kubctl delete CRD agents.monitoring.netapp.com kubeck delete clusterrole agent-manager-role agent-proxy-role agent-role role agent-rolebinding agent-cluster-admin-rolebinding 2. 최신 버전의 모니터링 연산자를 배포합니다.</block>
   <block id="2eb2fe69b25b42c01f1dd6ed820e4ef3" category="cell">NKMO를 배포하는 데 문제가 발생했고 PSP를 사용하고 있습니다.</block>
   <block id="ffc85f5eab15bc118cab588bb4b4d3eb" category="cell">1.kubctl -n &lt;name-space&gt; 에이전트 편집 명령을 사용하여 에이전트를 편집합니다. 2. '보안 - 정책 - 사용'을 '거짓'으로 표시합니다. 그러면 Pos 보안 정책이 비활성화되고 NKMO가 배포될 수 있습니다. 다음 명령을 사용하여 확인합니다. kubbtl get psp (Pod 보안 정책이 제거되었음을 표시해야 함) kubctl all -n &lt;name-space&gt;</block>
-  <block id="98d8ebff3e8aa04aa14171f6564f1ec7" category="paragraph">현재 모든 Cloud Insights 기능을 사용할 수 있습니다. 이 공간을 통해 향후 미리 보기를 볼 수 있습니다.</block>
   <block id="8bab215794a736f6f876eac0eeb23923" category="section-title">2022년 8월</block>
   <block id="d705154352cfbafc58dfc6d7437fb527" category="section-title">Cloud Insights의 새로운 디자인!</block>
   <block id="d3d93d4a561aa9307d47023701a0c283" category="paragraph">이번 달부터 "모니터링 및 최적화"는 * 관찰 가능성 * 으로 이름이 바뀌었습니다. 여기에서 대시보드, 쿼리, 알림 및 보고와 같은 자주 사용하는 기능을 모두 찾을 수 있습니다. 또한 새로운 * 보안 * 메뉴에서 Cloud Secure를 찾으십시오. 메뉴만 변경되었으며 기능은 동일하게 유지됩니다.</block>
@@ -9073,4 +9072,7 @@
   <block id="b65784e2633601efca2f9bfad2d590c1" category="paragraph">"Webhook 테스트" 버튼을 클릭하여 연결을 테스트할 수도 있습니다. 이렇게 하면 선택한 방법에 따라 정의된 URL에 "메시지 본문"(대체 없음)이 전송됩니다.</block>
   <block id="4ca1433d0af40616a4796463cd229d73" category="paragraph">이 섹션에서 대체는 "Webhook 테스트" 버튼을 클릭할 때 _not_Performed 가 됩니다. 이 버튼은 _%%_대체를 나타내는 페이로드를 전송하지만 데이터를 대체하지는 않습니다.</block>
   <block id="cf2146b9e920671969e606b44d0743f6" category="paragraph">에서 더 많은 정의를 찾을 수 있습니다 <block ref="b7f404f6b2e5258b20a8d7e7801ccdd1" category="inline-link-macro-rx"></block> 페이지.</block>
+  <block id="cab974fdccabc8d42fdf59c797a3fc04" category="paragraph">참고: 최신 NetApp Kubernetes Monitoring Operator가 설치되어 있고 재생 가능한 API 액세스 토큰을 사용하는 경우, 만료되는 토큰이 자동으로 새/업데이트된 API 액세스 토큰으로 대체됩니다. 아래 나열된 수동 단계를 수행할 필요는 없습니다.</block>
+  <block id="d894fe24a5654169420a98540a56b302" category="list-text">NetApp Kubernetes Monitoring Operator를 편집합니다.</block>
+  <block id="a27d1e518922e9050e6e54ae8c965164" category="list-text">이전 API 토큰을 새 API 토큰으로 대체하여 _spec.output-sink.api-key_value를 수정합니다.</block>
 </blocks>
