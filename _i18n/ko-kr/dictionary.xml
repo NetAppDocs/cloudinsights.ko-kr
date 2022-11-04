@@ -5754,7 +5754,6 @@
   <block id="b994d75c0a79a39d9acb5a498320c41e" category="paragraph">타사 플랫폼 및 공급업체 기술 전반에 걸쳐 표준화, 공통성 및 명명도의 정도가 다양합니다. Cloud Insights은 용량 및 성능 정보를 일관된 프레임워크로 정규화하려고 합니다. IOPS, 지연 시간, 물리적 용량 등의 일부 용량 및 성능 메트릭이 디바이스의 카운터로부터 기본적으로 제공됩니다. 카운터가 제공되지 않으면 Cloud Insights는 값을 요약하려고 시도할 수 있으며(예: 기본 볼륨의 IOPS 또는 용량을 합산하여), 두 가지 모두 사용할 수 없는 경우 Cloud Insights는 다양한 계산 알고리즘을 통해 메트릭 값을 도출하려고 시도합니다. Cloud Insights는 현재 Cloud Insights에서 수집하지 않은 추가 메트릭을 통합할 수 있는 일반 SNMP 통합 기능을 제공합니다.</block>
   <block id="e885abb4ab92f6610661428455d3f5e7" category="section-title">Cloud Insights는 파이버 채널 스위치를 지원합니까?</block>
   <block id="425ecea49bf7aad828d3bf87e9318ea2" category="paragraph">예. Cloud Insights는 스토리지 자산에서 데이터를 수집하는 것 외에도 사용자 환경의 Cisco, Brocade 및 QLogic 스위치로부터 인벤토리 및 성능 데이터를 가져옵니다.</block>
-  <block id="f73369b2e30a54fde6f17bcd1578eff0" category="paragraph">== 전체 인프라의 토폴로지 뷰를 사용할 수 있습니까? Cloud Insights에 "엔드 투 엔드 가시성"이 표시됩니까?</block>
   <block id="82976cdea05b7eb7fbe896786a79f35b" category="paragraph">예. Cloud Insights는 논리적 및 물리적 구조를 동적으로 검색 및 매핑하여 컴퓨팅, 패브릭, 가상자 및 백엔드 스토리지에 대한 대화형 종단 간 토폴로지 뷰를 제공합니다. 토폴로지 아이콘을 사용하면 영향을 받는 리소스를 빠르게 탐색할 수 있으며 공유 스토리지 환경에서 워크로드 및 위반 사항을 쉽게 식별할 수 있습니다.</block>
   <block id="e15fca67cd8338997729ad4099343915" category="summary">이 절차를 사용하여 미리 정의된 Cloud Insights 보고서를 사용하여 보고서를 만들 수 있습니다.</block>
   <block id="8dff98a51b599d1388a5c2eaff15bfbd" category="doc">보고서 작성(예)</block>
@@ -8373,7 +8372,6 @@
   <block id="9cb22571044cfb577ec048458671deab" category="list-text">없음 - 보간이 수행되지 않습니다</block>
   <block id="b71ed64e04e4fa64be1d827a7f0a608d" category="list-text">선형 - 기존 점 사이의 데이터 점을 보간합니다</block>
   <block id="d8afe893977b1761d465e261f7f0645c" category="list-text">계단 - 이전 데이터 지점을 보간된 데이터 지점으로 사용합니다</block>
-  <block id="f893ea896ad5f8fd6438a1f100e2334e" category="cell">Cloud Insights는 _etcd_를 K8s 데이터 저장소로 모니터링하는 기능만 지원합니다. 다음 지침에 따라 구성을 변경하여 etcd 데이터를 수집하지 않도록 에이전트를 수정할 수 있습니다. kubctl -n NetApp 모니터링 에이전트 모니터링 편집 에이전트 모니터링 - NetApp 해당 파일에서 다음 섹션을 삭제합니다. -name:Prometheus_etcd run-mode: - ReplicaSet</block>
   <block id="b68a34f8a928794da0f98d4ee916c271" category="list-text">*<block ref="2fadd2d714be07c05e8b57dea395b60f" category="inline-link-macro-rx"></block>*</block>
   <block id="0e8f78366da6895d9cdeb4b8ed117539" category="paragraph">이 섹션의 링크를 클릭하면 NetApp Knowledgebase로 이동하고 관련 기사, 방법 등을 검색할 수 있습니다.</block>
   <block id="f762cf8a3ce13153f8f371a1905bd1ae" category="list-text">*<block ref="70de40644647494a66feddaab5d43f41" category="inline-link-macro-rx"></block>*</block>
@@ -8390,10 +8388,6 @@
   <block id="c2a82bcbfe1a93fec106af67b6b26f3b" category="section-title">만료된 API 액세스 토큰 회전</block>
   <block id="d981e94161c0ab533162bbea9f1d9e89" category="paragraph">API 액세스 토큰의 만료 날짜가 있습니다. API 액세스 토큰이 만료되면 사용자는 읽기/쓰기 권한이 있는 _Data 수집_ 유형의 새 토큰을 생성하고 만료된 토큰 대신 새로 생성된 토큰을 사용하도록 텔레그라프를 다시 구성해야 합니다. 아래 단계에서는 이 작업을 수행하는 방법을 자세히 설명합니다.</block>
   <block id="719a89b64a07694e338d45825fcd17f0" category="paragraph">이러한 명령은 기본 네임스페이스 "NetApp-모니터링"을 사용합니다. 고유한 네임스페이스를 설정한 경우 이러한 네임스페이스 및 모든 후속 명령 및 파일로 대체합니다.</block>
-  <block id="85b9da5a8c5c1cce5881111010339cb4" category="list-text">CM(Telegraf ConfigMaps)을 편집하고 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 대체합니다.</block>
-  <block id="865b7c5a0ecd85e73193b19bcb780a4c" category="list-text">DS(Telegraf DemonSet) 및 RS(ReplicaSet)를 편집하고 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 교체합니다.</block>
-  <block id="b56a0b4a07e1bf181b703d8bdf115a4b" category="list-text">Kubernetes 컨트롤러가 자동으로 Telegraf DS Pod를 다시 시작합니다.</block>
-  <block id="c12e3974927f7898f893ba8a9965a9a0" category="list-text">Telegraf RS 포드를 다시 시작합니다</block>
   <block id="daed7387fa0b0965feb45d4dc3de1704" category="section-title">RHEL/CentOS 및 Debian/Ubuntu</block>
   <block id="779ce1f6c23a08b510ed7a6c996d255a" category="list-text">Telegraf 구성 파일을 편집하고 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 교체합니다.</block>
   <block id="e89f4056c39669637fb609320173681a" category="list-text">텔레그라프를 다시 시작합니다.</block>
@@ -9076,7 +9070,6 @@
   <block id="bacf6d7427784a1658e1d5fb278300f8" category="paragraph">NetApp Kubernetes Monitoring Operator가 자동으로 Kudbe-state-metrics를 설치하므로 사용자 개입이 필요하지 않습니다.</block>
   <block id="0868aed0151117af81e4d8a3bf48f5d1" category="paragraph">다음 링크를 사용하여 이러한 kubbe 상태 메트릭 카운터에 대한 정보에 액세스할 수 있습니다.</block>
   <block id="72e6fd543a67010efd03f7fdc1a1e1bc" category="paragraph">NetApp Kubernetes Monitoring Operator 설정 시 문제가 발생할 경우 다음과 같은 사항을 고려해야 합니다.</block>
-  <block id="3b3ca1220dd8c3e25db4764df1e68cbe" category="cell">_etcd_가 Kubernetes 클러스터 데이터 저장소가 아닌 클러스터의 경우 Telegraf RS POD에 다음과 같은 메시지가 표시됩니다. [inputs.prometheus] 플러그인 오류: 키 쌍을 로드할 수 없습니다. /etc/Kubernetes/pn/pki/etcd/server.crt: /etc/Kubernetes/pki/etcd/server.key: open/etc/cKubernetes/etcd/server/crt/server.crt 파일 또는 crt 파일 디렉터리</block>
   <block id="31374f026fd34f38c1768e8bcae58183" category="cell">기존 Telegraf 에이전트를 제거한 다음 최신 Telegraf 에이전트를 다시 설치하는 단계를 따릅니다. Telegraf 버전 2.0 이상을 사용해야 하며 Kubernetes 클러스터 스토리지를 Cloud Insights에서 능동적으로 모니터링해야 합니다.</block>
   <block id="0428b79968fc5aa0a5b6d427e6815d82" category="cell">이러한 메시지는 Kubernetes 버전이 1.20 미만인 경우 kube-state-metrics 버전 2.0.0 이상을 실행하는 경우에 발생할 수 있습니다. 쿠버네티스 버전을 얻으려면: _kubbctl version_kubbe-state-metrics 버전:_kubbectl deploy/kube-state-metrics-o jsonpath='{..image}'_이러한 메시지가 발생하지 않도록 사용자는 kube-state-metrics 구축을 수정하여 다음 Lallase를 비활성화할 수 있습니다._muthookconfigurations_webhookconfigurettal_configuretedconfig_webvalidateCLI_webvalidateusetausetausetauseusetausetauseuse 리소스 = certificationesigningrequests, configmap, crontobs, demonset, 배포, 끝점, 수평 포드자동크기, 링스, 작업, reflodritranges, namespaces, networkpolicies, nistentvolumes, persistentpersistent volumes, podin예산, replicatingfasts, repliceters, replicatingreallets, replicets, replicets, repliceties, replicenets, replicatingreenets, replicets, replicenets, replicets, service.networksets, service.sets, service.sets, vistenets, visteneties, replicaturies.networksets, service.sets, reseties.networksets, replicaturies, inations, replicaticaturies, replicaturies, replicaturies, inations validingwebhookconfigurations, volumeAttachments"</block>
   <block id="0b7a53ced1b85b8681621616e37366c7" category="cell">Kubernetes에 Telegraf를 설치 또는 업그레이드했지만 Telegraf Pod가 시작되지 않았습니다. Telegraf ReplicaSet 또는 DemonSet에서 다음과 같은 오류를 보고합니다. 오류 생성: POD "Telegraf-RS -"가 금지됨": 보안 컨텍스트 제약 조건에 대해 유효성을 확인할 수 없음: 이 제한 사항을 완화하려면 에이전트를 편집하십시오 <block ref="c88092eecdee9515a8e2c90ff653f94f" prefix="(" category="inline-code"></block>)를 사용하여 "권한 있는 모드:false"를 "권한 있는 모드:true" [SPEC.volumes[2]: 잘못된 값: "hostPath": hostPath 볼륨은 사용할 수 없습니다.]</block>
@@ -9087,4 +9080,6 @@
   <block id="59e3026f71d01a624108642cdb778ebd" category="cell">"ImagePullBackoff" 오류가 표시됩니다</block>
   <block id="43340e6cc4e88197d57f8d6d5ea50a46" category="inline-xref">자세히 보기</block>
   <block id="d18743173cd6691e1637fd7bb6299057" category="cell">이러한 오류는 사용자 지정 또는 프라이빗 Docker 저장소가 있고 NetApp Kubernetes Monitoring Operator가 이를 제대로 인식하도록 구성하지 않은 경우 나타날 수 있습니다. <block ref="64c2e35c96e92fc99426098fae703fff" category="inline-xref-macro-rx"></block> 사용자 지정/개인 저장소 구성 정보</block>
+  <block id="67b526ab935bc291862045f0c263bee3" category="paragraph">참고: 최신 NetApp Kubernetes Monitoring Operator가 설치되어 있고 재생 가능한 API 액세스 토큰을 사용하는 경우, 만료되는 토큰이 자동으로 새/업데이트된 API 액세스 토큰으로 대체됩니다. 여기에 나열된 Kubernetes API 토큰 갱신을 위한 수동 단계를 수행할 필요가 없습니다.</block>
+  <block id="b56f48fe0a536b86709924e6707beb7d" category="section-title">전체 인프라의 토폴로지 뷰를 사용할 수 있습니까? Cloud Insights에 "엔드 투 엔드 가시성"이 표시됩니까?</block>
 </blocks>
