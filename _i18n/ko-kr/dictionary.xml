@@ -9025,7 +9025,6 @@
   <block id="fd75e30f03557ae02b87c843dca05eef" category="paragraph">을(를) 사용하여 실행 중인 경우 <block ref="1997cc9e11e3840958347d54a5502495" category="inline-xref-macro-rx"></block>, 가 있습니다 <block ref="8117c39ae2fe2d46fc88eb3e138ef1e6" category="inline-xref-macro-rx"></block>또는 을(를) 사용하고 있습니다 <block ref="355c126f2151d7a3495e6210dabdd072" category="inline-xref-macro-rx"></block>다음 섹션을 주의 깊게 읽으십시오.</block>
   <block id="edcc6d64ff09289fd7b549c0265f3ea6" category="inline-xref">업그레이드 중</block>
   <block id="794e8cb207d48ed4b3325b391e777251" category="paragraph">이전 설치에서 업그레이드하는 경우 도 참조하십시오 <block ref="8c16618fd0a2a4546027523bc90153a9" category="inline-xref-macro-rx"></block> 정보.</block>
-  <block id="023670044a04c30707541cd9ad44a499" category="paragraph">Agent를 설치하기 전에 설치 파일을 확인하려면 정보 를 참조하십시오 <block ref="2261a5ecaa517b1e6b1ea9c3c9c6c74a" category="inline-xref-macro-rx"></block>.</block>
   <block id="4ce29774235b5ad70135520aad0c4a92" category="paragraph">NetApp Kubernetes Monitoring Operator를 설치하기 위해 사용자 환경에서 프록시를 사용할 수 있는 두 가지 위치가 있습니다. 이러한 시스템은 동일하거나 별도의 프록시 시스템일 수 있습니다.</block>
   <block id="b30dfc4554e987d8435414f85e0afc5c" category="list-text">설치 코드 조각을 실행하는 동안("curl" 사용) 프록시가 있어야 스니펫이 실행되는 시스템을 Cloud Insights 환경에 연결할 수 있습니다</block>
   <block id="58b692b7f72614bb3545960fa7db5fde" category="list-text">대상 Kubernetes 클러스터에서 Cloud Insights 환경과 통신하는 데 프록시가 필요합니다</block>
@@ -9082,4 +9081,5 @@
   <block id="d18743173cd6691e1637fd7bb6299057" category="cell">이러한 오류는 사용자 지정 또는 프라이빗 Docker 저장소가 있고 NetApp Kubernetes Monitoring Operator가 이를 제대로 인식하도록 구성하지 않은 경우 나타날 수 있습니다. <block ref="64c2e35c96e92fc99426098fae703fff" category="inline-xref-macro-rx"></block> 사용자 지정/개인 저장소 구성 정보</block>
   <block id="67b526ab935bc291862045f0c263bee3" category="paragraph">참고: 최신 NetApp Kubernetes Monitoring Operator가 설치되어 있고 재생 가능한 API 액세스 토큰을 사용하는 경우, 만료되는 토큰이 자동으로 새/업데이트된 API 액세스 토큰으로 대체됩니다. 여기에 나열된 Kubernetes API 토큰 갱신을 위한 수동 단계를 수행할 필요가 없습니다.</block>
   <block id="b56f48fe0a536b86709924e6707beb7d" category="section-title">전체 인프라의 토폴로지 뷰를 사용할 수 있습니까? Cloud Insights에 "엔드 투 엔드 가시성"이 표시됩니까?</block>
+  <block id="d0924ee26918b7c9acc0ec062a178e01" category="paragraph">Agent를 설치하기 전에 설치 파일을 확인하려면 정보 를 참조하십시오 <block ref="9d4b9ffd1c99cd0a179d48ad3a10cebe" category="inline-xref-macro-rx"></block>.</block>
 </blocks>
