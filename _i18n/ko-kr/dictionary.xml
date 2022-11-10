@@ -8575,7 +8575,6 @@
   <block id="82803c7a526739de20fc24c17e739d7c" category="list-text">클러스터의 Pod 수 이 번호를 클릭하면 창 목록 페이지가 열립니다.</block>
   <block id="bed3b3102569672060faa59f92fbb130" category="list-text">클러스터의 * 네임스페이스 * 수입니다. 이 번호를 클릭하면 네임스페이스 목록 페이지가 열립니다.</block>
   <block id="12a38026906d3d3a51a3538b98e0d002" category="list-text">클러스터에 있는 * 워크로드 * 수. 이 번호를 클릭하면 워크로드 목록 페이지가 열립니다.</block>
-  <block id="5878d8d726a0f6915f98c3ad70765e41" category="paragraph">Cloud Insights의 최신 Telegraf 버전은 * 1.22.3 * 입니다.</block>
   <block id="64643b4abc81cdc6d03a96846188e46e" category="list-text">워크로드 보존</block>
   <block id="8160f36882be54ea94b2656ab98ca110" category="paragraph">에는 호스트, 네트워크 및 스토리지와 같은 다른 공유 리소스에 영향을 미치거나 영향을 받는 자산이 나와 있습니다. 이러한 리소스를 _greedy_and_degraded_resources 라고 합니다.</block>
   <block id="95eafe7994082a98ef565bc49b0bd0bc" category="section-title">2022년 6월</block>
@@ -9082,4 +9081,5 @@
   <block id="8ff498fedef16be83cafa8d00c04dd6d" category="list-text">명령에서 뒤에 오는 "--install"을 제거합니다.</block>
   <block id="700459827d4941a6a127bc7de7938d5d" category="list-text">서명된 체크섬 파일(SHA256.signed)</block>
   <block id="92094f10227c0d6e4da9a65b1cc23700" category="cell">설치를 위해 '압축 해제'가 필요합니다. 또한 설치, 스크립트 실행 및 제거에 'SUDO su –' 명령이 필요합니다.</block>
+  <block id="5186b139e52f7a5447ce73de13e4e524" category="paragraph">Cloud Insights의 최신 Telegraf 버전은 * 1.24.0 * 입니다.</block>
 </blocks>
