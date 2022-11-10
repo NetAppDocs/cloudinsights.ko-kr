@@ -218,6 +218,26 @@ OpenShift는 일부 Kubernetes 구성 요소에 대한 액세스를 차단할 �
 
 
 
+== NetApp Kubernetes Monitoring Operator 설치
+
+image:NKMO_Install_Instructions.png["작업자 기반 설치"]
+
+.Kubernetes에 NetApp Kubernetes Monitoring Operator Agent를 설치하는 단계:
+. 고유한 클러스터 이름 및 네임스페이스를 입력합니다. 있는 경우 ,업그레이드 중 스크립트 기반 에이전트 또는 이전 Kubernetes Operator에서 동일한 클러스터 이름 및 네임스페이스를 사용합니다.
+. 이러한 정보를 입력하면 Agent Installer 스니펫을 복사할 수 있습니다
+. 이 분절을 클립보드에 복사하려면 버튼을 클릭합니다.
+. 스니펫을 _bash_window에 붙여 넣고 실행합니다. 스니펫에는 고유한 키가 있으며 24시간 동안 유효합니다.
+. 설치가 자동으로 진행됩니다. 완료되면 _COMPLETE Setup_ 단추를 클릭합니다.
+
+
+
+NOTE: 설치가 완료되지 않았습니다 ,프록시를 구성합니다.
+
+
+NOTE: 사용자 지정 리포지토리가 있는 경우 의 지침을 따라야 합니다 ,사용자 지정/프라이빗 Docker 저장소 사용.
+
+
+
 == 업그레이드 중
 
 
@@ -277,26 +297,6 @@ Operator 기반 설치 업그레이드의 경우 다음 명령을 실행합니�
 ,설치 제거 현재 작동자.
 
 ,설치합니다 최신 운영자. 사용자 지정 리포를 설정한 경우 동일한 클러스터 이름을 사용하고 새 컨테이너 이미지를 풀었는지 확인합니다.
-
-
-
-== NetApp Kubernetes Monitoring Operator 설치
-
-image:NKMO_Install_Instructions.png["작업자 기반 설치"]
-
-.Kubernetes에 NetApp Kubernetes Monitoring Operator Agent를 설치하는 단계:
-. 고유한 클러스터 이름 및 네임스페이스를 입력합니다. 있는 경우 ,업그레이드 중 스크립트 기반 에이전트 또는 이전 Kubernetes Operator에서 동일한 클러스터 이름 및 네임스페이스를 사용합니다.
-. 이러한 정보를 입력하면 Agent Installer 스니펫을 복사할 수 있습니다
-. 이 분절을 클립보드에 복사하려면 버튼을 클릭합니다.
-. 스니펫을 _bash_window에 붙여 넣고 실행합니다. 스니펫에는 고유한 키가 있으며 24시간 동안 유효합니다.
-. 설치가 자동으로 진행됩니다. 완료되면 _COMPLETE Setup_ 단추를 클릭합니다.
-
-
-
-NOTE: 설치가 완료되지 않았습니다 ,프록시를 구성합니다.
-
-
-NOTE: 사용자 지정 리포지토리가 있는 경우 의 지침을 따라야 합니다 ,사용자 지정/프라이빗 Docker 저장소 사용.
 
 
 
@@ -458,10 +458,10 @@ NetApp Kubernetes Monitoring Operator 설정 시 문제가 발생할 경우 다�
 | Kubernetes에서 Telegraf ReplicaSet Pod가 다음 오류를 보고합니다: inputs.prometheus] [플러그인 오류: keypair /etc/Kubernetes/PKI/etcd/server.crt: /etc/Kubernetes/PKI/etcd/server.key: open /etc/cubs/pi/etcd/server.crt: 해당 파일 또는 디렉토리가 없습니다 | Telegraf ReplicaSet POD는 마스터나 etcd로 지정된 노드에서 실행되도록 설계되었습니다. ReplicaSet 포드가 이러한 노드 중 하나에서 실행되고 있지 않으면 이러한 오류가 발생합니다. 마스터/etcd 노드에 문제가 있는지 확인합니다. 만약 그렇다면, 텔레그라프 ReplicaSet, 텔레그라프-RS에 필요한 내약성을 추가한다. 예를 들어 ReplicaSet...kubtl을 편집하여 RS Telegraf-RS...를 편집하고 사양에 적절한 내약성을 추가합니다. 그런 다음 ReplicaSet 포드를 다시 시작합니다. 
 
 
-| PSP 환경이 있습니다. 이 문제가 모니터링 오퍼레이터에게 영향을 미칩니까? | PSP(Pod 보안 정책)를 사용하여 Kubernetes 클러스터를 실행 중인 경우 최신 NetApp Kubernetes 모니터링 사업자로 업그레이드해야 합니다. PSP를 지원하는 현재 NKMO로 업그레이드하려면 다음 단계를 따르십시오. 1. ,설치 제거 이전 모니터링 운영자: kubctl delete agent-monitoring -netapp-n netapp-monitoring kubctl delete ns NetApp-monitoring kubctl delete CRD agents.monitoring.netapp.com kubctl delete clusterrole agent-manager-role agent-proxy-role agent-role role agent-proxy-robinding agent-cluster-admin-admin-rolebinding을 삭제합니다. ,설치합니다 모니터링 운용자의 최신 버전 
+| PSP/PSA 환경이 있습니다. 이 문제가 모니터링 오퍼레이터에게 영향을 미칩니까? | PSP(Pod Security Policy) 또는 PSA(Pod Security Admission)를 통해 Kubernetes 클러스터를 실행 중인 경우, 최신 NetApp Kubernetes Monitoring Operator로 업그레이드해야 합니다. PSP/PSA:1을 지원하는 현재 NKMO로 업그레이드하려면 다음 단계를 수행하십시오. ,설치 제거 이전 모니터링 운영자: kubctl delete agent-monitoring -netapp-n netapp-monitoring kubctl delete ns NetApp-monitoring kubctl delete CRD agents.monitoring.netapp.com kubctl delete clusterrole agent-manager-role agent-proxy-role agent-role role agent-proxy-robinding agent-cluster-admin-admin-rolebinding을 삭제합니다. ,설치합니다 모니터링 운용자의 최신 버전 
 
 
-| NKMO를 배포하는 데 문제가 발생했고 PSP를 사용하고 있습니다. | 1.kubctl -n <name-space> 에이전트 편집 명령을 사용하여 에이전트를 편집합니다. 2. '보안 - 정책 - 사용'을 '거짓'으로 표시합니다. 그러면 Pod 보안 정책이 비활성화되고 NKMO가 배포될 수 있습니다. 다음 명령을 사용하여 확인합니다. kubbtl get psp(Pod 보안 정책이 제거되었음을 표시해야 함) kubctl get all-n <namespace> | grep -i psp(아무 것도 찾을 수 없다는 것을 표시해야 함) 
+| NKMO를 배포하는 데 문제가 발생했고 PSP/PSA를 사용하고 있습니다. | 1.kubctl -n <name-space> 에이전트 편집 명령을 사용하여 에이전트를 편집합니다. 2. '보안 - 정책 - 사용'을 '거짓'으로 표시합니다. 이렇게 하면 Pod 보안 정책과 Pod 보안 입장은 비활성화되고 NKMO가 배포될 수 있습니다. 다음 명령을 사용하여 확인합니다. kubbtl get psp(Pod 보안 정책이 제거되었음을 표시해야 함) kubctl get all-n <namespace> | grep -i psp(아무 것도 찾을 수 없다는 것을 표시해야 함) 
 
 
 | "ImagePullBackoff" 오류가 표시됩니다 | 이러한 오류는 사용자 지정 또는 프라이빗 Docker 저장소가 있고 NetApp Kubernetes Monitoring Operator가 이를 제대로 인식하도록 구성하지 않은 경우 나타날 수 있습니다. ,자세히 보기 사용자 지정/개인 저장소 구성 정보 
