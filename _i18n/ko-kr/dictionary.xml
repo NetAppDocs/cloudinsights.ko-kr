@@ -8074,7 +8074,6 @@
   <block id="57381bcfb8909c42cd334a5f9033e407" category="cell">AWS 메타데이터 서버 연결에 실패했습니다</block>
   <block id="a146f13e0af345143ecc33ea983a5c06" category="cell">클라우드 계층에 연결할 수 없습니다</block>
   <block id="34cd9019bbd8c57317268ed06f95dc66" category="cell">스토리지 노드가 클라우드 계층 오브젝트 저장소 API에 연결할 수 없습니다. 일부 데이터에 액세스할 수 없습니다.</block>
-  <block id="8cd7f8db9d150a04184b8fd02d5f5a6d" category="cell">클러스터 용량이 가득 찼습니다</block>
   <block id="029f2c939400c57163aca6fd2dc822ba" category="cell">디스크 사용 중단</block>
   <block id="a54845325eb752184d2bec973b7963de" category="cell">이 이벤트는 디스크에 장애가 발생했거나, 제거 중이거나, 유지보수 센터에 진입했기 때문에 디스크가 서비스에서 제거된 경우에 발생합니다.</block>
   <block id="909a3974ecbd6f6ccecfcb1229be41ec" category="cell">FabricPool 공간 사용 제한에 거의 도달했습니다</block>
@@ -8305,13 +8304,6 @@
   <block id="58fde537c8a6c2a525f262279a148609" category="section-title">랜섬웨어 방지 로그 모니터</block>
   <block id="4d39fc318c9bd864606168b6c94356cd" category="cell">Volume Anti-랜섬웨어 모니터링 활성화(학습 모드)</block>
   <block id="6225aea9b43aee104d64ccb2870be625" category="cell">감지된 랜섬웨어로부터 데이터를 보호하기 위해 원래 데이터를 복원하는 데 사용할 수 있는 스냅샷 복사본이 생성되었습니다. 시스템은 AutoSupport 기술 지원 부서 및 구성된 모든 대상으로 또는 "Call Home" 메시지를 생성하고 전송합니다. AutoSupport 메시지는 문제 확인 및 해결을 향상시킵니다.</block>
-  <block id="c19f755bb5512c54622f3290818d4ac5" category="section-title">ADS(Astra Data Store) 모니터</block>
-  <block id="35e4b763e20006224c51c97d77f699fa" category="cell">경고 @&gt;85% 위험@&gt;95%</block>
-  <block id="a6796b1585daa4bf415caa7d1cfddcde" category="cell">ADS 클러스터의 스토리지 용량은 애플리케이션 및 고객 데이터를 저장하는 데 사용됩니다. 클러스터에 저장되는 데이터가 많을수록 향후 데이터에 대한 스토리지 가용성이 줄어듭니다.… 클러스터 내의 스토리지 용량이 총 클러스터 용량에 도달하면 클러스터에서 더 많은 데이터를 저장할 수 없습니다. 클러스터의 물리적 용량을 모니터링하면 데이터 서비스의 연속성이 보장됩니다.</block>
-  <block id="23fa9d7af943ee0af2bb663410a00d19" category="cell">중요 임계값이 위반될 경우 서비스 중단을 최소화하기 위해 즉각적인 조치가 필요합니다.… 1. 확장을 수용하기 위해 클러스터에 할당된 공간을 늘리는 것을 고려하십시오… 2. 공간을 확보하기 위해 더 이상 필요하지 않은 데이터를 삭제하는 것을 고려하십시오. 경고 임계값이 위반될 경우 즉시 다음 조치를 취하십시오.… 1. 확장을 수용하기 위해 클러스터에 할당된 공간을 늘리는 것을 고려하십시오.</block>
-  <block id="751f6c789f3a22b17d94185a7d67ce2d" category="cell">경고 @ &lt;15% 위험 @ &lt;5%</block>
-  <block id="89c5f776e16da33d8dd4d53d9de174fb" category="cell">볼륨의 스토리지 용량은 애플리케이션 및 고객 데이터를 저장하는 데 사용됩니다. 클러스터 볼륨에 저장되는 데이터가 많을수록 향후 데이터에 대한 스토리지 가용성이 줄어듭니다.… 볼륨 내에서 사용되는 데이터 스토리지 용량이 총 스토리지 용량에 도달하면 사용 가능한 스토리지 용량이 부족하여 볼륨을 더 많은 데이터를 저장할 수 없습니다.… 사용된 볼륨 스토리지 용량을 모니터링하면 데이터 서비스의 연속성이 보장됩니다.</block>
-  <block id="7addf18b9a1f6d29c3f12d8e7d08f496" category="cell">중요 임계값이 위반될 경우 서비스 중단을 최소화하기 위해 즉각적인 조치가 필요합니다.… 1. 성장을 수용하기 위해 볼륨의 공간을 늘리는 것을 고려하십시오… 2. 공간을 확보하기 위해 더 이상 필요하지 않은 데이터를 삭제하는 것을 고려하십시오. 경고 임계값이 위반될 경우 즉시 다음 조치를 취하십시오.… 1. 성장을 수용하기 위해 볼륨의 공간을 늘리는 것을 고려하십시오.</block>
   <block id="ed7c2467a1552d048a5f05c4026b80be" category="section-title">NetApp ONTAP 모니터용 FSX</block>
   <block id="7b7fa7f57948350f939932b1915c8281" category="cell">FSX 볼륨 용량이 가득 찼습니다</block>
   <block id="c9fd60e1b379b2bc36333b6880568a84" category="cell">경고 @&gt;85%…위험@&gt;95%</block>
@@ -8862,10 +8854,8 @@
   <block id="2a3cd3c9afd68e2531df6b8a3ad4536c" category="paragraph">사용자 환경의 LUN/볼륨, NFS 또는 SMB 공유 또는 qtree에서 워크로드를 확인하고 탐색합니다.</block>
   <block id="9eaf347efd9d5225664dc4c414a82eb2" category="cell">라이센스 버전 중 하나를 실행하는 컴퓨터: * CentOS(64비트): 7.2 ~ 7.9, Stream 8, Stream 9 * Debian(64비트): 9 및 10 * Oracle Enterprise Linux(64비트): 7.5 ~ 7.9, 8.1 ~ 8.4 * Red Hat Enterprise Linux(64비트): 7.2 ~ 7.9, 8.1 ~ 8.6 * Ubuntu 서버: 18.04 및 20.04 LTS 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
   <block id="15a43b8a93156e727b3b81dc25fd6d32" category="section-title">보안 모니터</block>
-  <block id="2db1857ce4841fcb4871ca570d9f1e9e" category="cell">모니터 이름</block>
   <block id="38eb03d447ddc98ff3687aa8f4aeaa70" category="cell">FIPS 모드가 비활성화되었습니다</block>
   <block id="5218eaef8a5f3f66d2720b5e8156469d" category="cell">FIPS 140-2 규정 준수를 활성화하면 TLSv1 및 SSLv3이 비활성화되고 TLSv1.1 및 TLSv1.2만 활성화됩니다. ONTAP는 FIPS 140-2 규정 준수를 사용하는 경우 TLSv1 및 SSLv3을 활성화하지 못하도록 합니다.</block>
-  <block id="f41a65442a444212a9242b353da02fa7" category="cell">클러스터에서 FIPS 140-2 규정 준수를 활성화하려면 고급 권한 모드에서 ONTAP 명령을 실행하십시오. security config modify -interface ssl -is -FIPS -enabled true입니다</block>
   <block id="1b50ba1d52ac1b744151cf1bb8262d8c" category="admonition">모니터 및 경고는 모든 Cloud Insights 버전에서 사용할 수 있지만 기본 버전은 다음 사항을 따릅니다. * 한 번에 최대 5개의 사용자 지정 모니터만 활성화될 수 있습니다. 5개 이상의 모니터는 에서 생성되거나 _Paused_state로 이동됩니다. * VMDK, 가상 머신, 호스트 및 데이터 저장소 메트릭 모니터는 지원되지 않습니다. 이러한 메트릭에 대해 생성된 모니터가 있는 경우 일시 중지되고 Basic Edition으로 다운그레이드할 때 다시 시작할 수 없습니다.</block>
   <block id="1b70ac0a972fddf1e1a33e6ed9df49c7" category="section-title">2022년 9월</block>
   <block id="6e117bf7254c45b1f7fd76d22b07b5a8" category="section-title">기본 버전에서 사용할 수 있는 모니터입니다</block>
@@ -9082,4 +9072,104 @@
   <block id="180998c51dd0da936f3ebbeb1b922f6b" category="cell">PSP(Pod Security Policy) 또는 PSA(Pod Security Admission)를 통해 Kubernetes 클러스터를 실행 중인 경우, 최신 NetApp Kubernetes Monitoring Operator로 업그레이드해야 합니다. PSP/PSA:1을 지원하는 현재 NKMO로 업그레이드하려면 다음 단계를 수행하십시오. <block ref="a7177598d8f3c4f7d3503ecefe58c480" category="inline-xref-macro-rx"></block> 이전 모니터링 운영자: kubctl delete agent-monitoring -netapp-n netapp-monitoring kubctl delete ns NetApp-monitoring kubctl delete CRD agents.monitoring.netapp.com kubctl delete clusterrole agent-manager-role agent-proxy-role agent-role role agent-proxy-robinding agent-cluster-admin-admin-rolebinding을 삭제합니다. <block ref="8e5c51a62ab45f504ec71f39c03c1633" category="inline-xref-macro-rx"></block> 모니터링 운용자의 최신 버전</block>
   <block id="6ae137903bc328659928ed818d9ee78a" category="cell">NKMO를 배포하는 데 문제가 발생했고 PSP/PSA를 사용하고 있습니다.</block>
   <block id="63c5c26973f4cb2983185abedde31f4b" category="cell">1.kubctl -n &lt;name-space&gt; 에이전트 편집 명령을 사용하여 에이전트를 편집합니다. 2. '보안 - 정책 - 사용'을 '거짓'으로 표시합니다. 이렇게 하면 Pod 보안 정책과 Pod 보안 입장은 비활성화되고 NKMO가 배포될 수 있습니다. 다음 명령을 사용하여 확인합니다. kubbtl get psp(Pod 보안 정책이 제거되었음을 표시해야 함) kubctl get all-n &lt;namespace&gt; | grep -i psp(아무 것도 찾을 수 없다는 것을 표시해야 함)</block>
+  <block id="e58c27818bf68b1f92513ad4f99972c4" category="inline-xref">맨 위로</block>
+  <block id="9bf2c4cb7192740e06519a5e67f22e59" category="paragraph"><block ref="5166de7f06aaa174e185aec47426a1b7" category="inline-xref-macro-rx"></block></block>
+  <block id="0091efee7f9b5f0e27211eb7226d0a23" category="cell">임계값</block>
+  <block id="2a63f555989152ba866b43a1faacd680" category="cell">임계값</block>
+  <block id="37a1ca329a6f5e5dca35632e49074596" category="cell">AutoSupport HTTPS 전송이 비활성화되었습니다</block>
+  <block id="40692fef6f4ef30aa3b500774debd8f7" category="cell">경고 @&lt;1</block>
+  <block id="5b4b99885d6c41f784d4353df3954f85" category="cell">AutoSupport는 전송 프로토콜을 위해 HTTPS, HTTP 및 SMTP를 지원합니다. AutoSupport 메시지는 기본적으로 민감하므로 NetApp 지원에 AutoSupport 메시지를 보낼 때 HTTPS를 기본 전송 프로토콜로 사용하는 것이 좋습니다.</block>
+  <block id="56e9eb9c60fd63630926841f5a7a0cf3" category="cell">HTTPS를 AutoSupport 메시지의 전송 프로토콜로 설정하려면 다음 ONTAP 명령을 실행합니다. … 시스템 노드 AutoSupport modify -transport https</block>
+  <block id="35b47f5a2f95200e4d62c83034deae58" category="cell">SSH에 대한 클러스터 비보안 암호</block>
+  <block id="52c2cd14f22482229a7521ff77cec6e8" category="cell">SSH가 * CBC로 시작하는 암호 등의 안전하지 않은 암호를 사용하고 있음을 나타냅니다.</block>
+  <block id="af4b3d60f3b2a1b2019c7e6584e05ac0" category="cell">CBC 암호를 제거하려면 다음 ONTAP 명령을 실행합니다. … 보안 ssh remove -vserver &lt;admin vserver&gt; -cipherers AES256-CBC, AES192-CBC, aes128-CBC, 3DES-CBC</block>
+  <block id="66d8d95ccf0f8192646a37bff4b648ab" category="cell">클러스터 로그인 배너 비활성화됨</block>
+  <block id="7e7108ba14d9f82f42515d305f9e4773" category="cell">ONTAP 시스템에 액세스하는 사용자에 대해 로그인 배너가 비활성화되었음을 나타냅니다. 로그인 배너를 표시하면 시스템 액세스 및 사용에 대한 기대치를 설정하는 데 도움이 됩니다.</block>
+  <block id="9ef097ac170ba2d0a3dbaa80e948d24e" category="cell">클러스터에 대한 로그인 배너를 구성하려면 다음 ONTAP 명령을 실행하십시오. … 보안 로그인 배너 modify -vserver &lt;admin svm&gt; -message "권한이 있는 사용자로 액세스 제한"</block>
+  <block id="a80b6077f36d29de0c7100f0e60cca35" category="cell">클러스터 피어 통신이 암호화되지 않았습니다</block>
+  <block id="eff504a7000baa17798b249c97b6a046" category="cell">재해 복구, 캐싱 또는 백업을 위해 데이터를 복제할 때 ONTAP 클러스터 간에 유선으로 데이터를 전송하는 동안 해당 데이터를 보호해야 합니다. 소스 클러스터와 대상 클러스터 모두에서 암호화를 구성해야 합니다.</block>
+  <block id="a8b0d51ab1676479b0a39c0ed8b9b9c6" category="cell">ONTAP 9.6 이전에 생성된 클러스터 피어 관계에서 암호화를 활성화하려면 소스 및 대상 클러스터를 9.6으로 업그레이드해야 합니다. 그런 다음 "클러스터 피어 수정" 명령을 사용하여 소스 및 대상 클러스터 피어 모두에서 클러스터 피어링 암호화를 사용하도록 변경합니다. 자세한 내용은 ONTAP 9용 NetApp 보안 강화 가이드 를 참조하십시오.</block>
+  <block id="f102a7c0ee6458e0d616666f2cf3d3c6" category="cell">기본 로컬 관리자 사용</block>
+  <block id="144a851e30702c5c68b91e006bbc9af0" category="cell">경고 @&gt;0</block>
+  <block id="ab15923d336c9df71683a27a3b88f21b" category="cell">잠금 명령을 사용하여 불필요한 기본 관리자 사용자(기본 제공) 계정을 잠금(비활성화)하는 것이 좋습니다. 주로 암호가 업데이트되거나 변경되지 않은 기본 계정입니다.</block>
+  <block id="83ded096d536b0a9f273f70c8d46ca18" category="cell">기본 제공 "admin" 계정을 잠그려면 다음 ONTAP 명령을 실행합니다. … 보안 로그인 잠금 -사용자 이름 admin</block>
+  <block id="96e4a7f4d19cdbf4e4dc1487d9e2089f" category="cell">클러스터에서 FIPS 140-2 규정 준수를 활성화하려면 고급 권한 모드에서 다음 ONTAP 명령을 실행합니다. … 보안 구성 수정 -인터페이스 SSL -is -FIPS -enabled true입니다</block>
+  <block id="0683249465dfceec900f14913e23294e" category="cell">로그 전달이 암호화되지 않았습니다</block>
+  <block id="3c84fa81b2128d2870573dd56fceedc3" category="cell">syslog 정보의 오프로드는 침입의 범위 또는 설치 공간을 단일 시스템 또는 솔루션으로 제한하는 데 필요합니다. 따라서 syslog 정보를 안전한 스토리지 또는 보존 위치로 안전하게 오프로딩하는 것이 좋습니다.</block>
+  <block id="c7dc508bab528b876e8f8f56ed6c817f" category="cell">로그 전달 대상이 생성되면 해당 프로토콜을 변경할 수 없습니다. 암호화된 프로토콜로 변경하려면 다음 ONTAP 명령을 사용하여 로그 전달 대상을 삭제하고 다시 만듭니다. 클러스터 로그 전달 create-destination &lt;destination ip&gt; - 프로토콜 tcp 암호화</block>
+  <block id="557c2a2e5c2721f97358d14ed4a5fb5e" category="cell">MD5 해시 암호입니다</block>
+  <block id="b72f6d4281e334d8f1816c4c7b48a190" category="cell">ONTAP 사용자 계정 암호에 대해 보다 안전한 SHA-512 해시 기능을 사용할 것을 적극 권장합니다. 덜 안전한 MD5 해시 기능을 사용하는 계정은 SHA-512 해시 함수로 마이그레이션해야 합니다.</block>
+  <block id="b830e03eaaefb2ec43a4918402144e73" category="cell">사용자 계정이 암호를 변경하도록 하여 보다 안전한 SHA-512 솔루션으로 마이그레이션하는 것이 좋습니다.… MD5 해시 기능을 사용하는 암호로 계정을 잠그려면 다음 ONTAP 명령을 실행하십시오. … 보안 로그인 잠금 -vserver* -username* -hash -function md5</block>
+  <block id="a4acaf21eebc7bf33475d1bda0f71fb4" category="cell">구성된 NTP 서버가 없습니다</block>
+  <block id="22c5be3ade73c0bbb31961b09d74c93e" category="cell">클러스터에 구성된 NTP 서버가 없음을 나타냅니다. 이중화 및 최적의 서비스를 위해 최소 3개의 NTP 서버를 클러스터에 연결하는 것이 좋습니다.</block>
+  <block id="a3a5af2134056138bdb5aa2d608242c8" category="cell">NTP 서버를 클러스터에 연결하려면 ONTAP cluster time-service ntp server create -server &lt;NTP server host name or ip address&gt; 명령을 실행합니다</block>
+  <block id="5edad07c8412daab278c10b18e62e6da" category="cell">NTP 서버 수가 낮습니다</block>
+  <block id="adbc4b7c4cd23e8493bc55219426062f" category="cell">경고 @ &lt;3</block>
+  <block id="083193cf390aff889ab229381b57bb1b" category="cell">클러스터에 구성된 NTP 서버가 3개 미만임을 나타냅니다. 이중화 및 최적의 서비스를 위해 최소 3개의 NTP 서버를 클러스터에 연결하는 것이 좋습니다.</block>
+  <block id="7b5eac97a56d3de62a762976408f1604" category="cell">NTP 서버를 클러스터에 연결하려면 다음 ONTAP 명령을 실행합니다. … 클러스터 시간 서비스 NTP 서버 create-server &lt;NTP 서버 호스트 이름 또는 IP 주소&gt;</block>
+  <block id="02986d225b428f4872a041982195b036" category="cell">원격 셸 사용</block>
+  <block id="3f8b20f5d4c0ae31c0e785a64f88acf6" category="cell">원격 셸은 ONTAP 솔루션에 대한 명령줄 액세스를 설정하는 안전한 방법이 아닙니다. 원격 셸은 보안 원격 액세스를 위해 비활성화해야 합니다.</block>
+  <block id="66b960fff3a2001089c50a4b5cba5aed" category="cell">보안 원격 액세스를 위해 SSH(Secure Shell)를 사용하는 것이 좋습니다.… 클러스터에서 원격 셸을 비활성화하려면 고급 권한 모드에서 다음 ONTAP 명령을 실행합니다.… 보안 프로토콜 수정 - 응용 프로그램 rsh 지원 false</block>
+  <block id="1c34d9b674b94d3ea5834211d426626d" category="cell">스토리지 VM 감사 로그가 비활성화되었습니다</block>
+  <block id="48b5db589e58fb639e7ee3a50e8a1bda" category="cell">SVM에 대해 감사 로깅이 비활성화되었음을 나타냅니다.</block>
+  <block id="ff6cebe76939541117e856ec4b111c5c" category="cell">가상 서버에 대한 감사 로그를 구성하려면 다음 ONTAP 명령을 실행하십시오. vserver audit enable -vserver &lt;svm&gt;</block>
+  <block id="56d352fb8f0c5c4ba480f8a82205e5d8" category="cell">SSH에 대한 스토리지 VM 보안 암호가 안전하지 않습니다</block>
+  <block id="caa40d84ac4615bac46decaa416d068f" category="cell">CBC 암호를 제거하려면 다음 ONTAP 명령을 실행하십시오. … 보안 ssh remove -vserver &lt;vserver&gt; -cipherers AES256-CBC, AES192-CBC, aes128-CBC, 3DES-CBC</block>
+  <block id="fc133f2bd2b6166730e48945191a3f85" category="cell">스토리지 VM 로그인 배너가 비활성화되었습니다</block>
+  <block id="0c5f0b019f859e20c9cbd4eaf4fc9ff8" category="cell">시스템에서 SVM에 액세스하는 사용자에 대해 로그인 배너가 비활성화되었음을 나타냅니다. 로그인 배너를 표시하면 시스템 액세스 및 사용에 대한 기대치를 설정하는 데 도움이 됩니다.</block>
+  <block id="0b7726d8daf36aa49b06f7fdaf9721be" category="cell">클러스터에 대한 로그인 배너를 구성하려면 다음 ONTAP 명령을 실행하십시오. … 보안 로그인 배너 modify -vserver &lt;svm&gt; -message "권한이 있는 사용자로 액세스 제한"</block>
+  <block id="833835bd672120225989385cebfa9000" category="cell">텔넷 프로토콜 사용</block>
+  <block id="44335166ddb91bd1291079f3852a7eaf" category="cell">텔넷은 ONTAP 솔루션에 대한 명령줄 액세스를 설정하는 안전한 방법이 아닙니다. 안전한 원격 액세스를 위해 텔넷을 비활성화해야 합니다.</block>
+  <block id="afb248522e19d4d05da83ae5f5e6a479" category="cell">보안 원격 액세스를 위해 SSH(Secure Shell)를 사용하는 것이 좋습니다. 클러스터에서 텔넷을 비활성화하려면 고급 권한 모드에서 다음 ONTAP 명령을 실행합니다.… 보안 프로토콜 수정 - 응용 프로그램 텔넷 사용 false</block>
+  <block id="a433675536fc11ef74a8e05a9afe38f9" category="section-title">데이터 보호 모니터</block>
+  <block id="8067f9dd56568eda9da771d5126fd283" category="cell">LUN 스냅샷 복사본을 위한 공간이 부족합니다</block>
+  <block id="c7e5b8e812dd23889ad718547a93510f" category="cell">(Filter Contains_LUNs=Yes) 경고 @&gt; 95%...위험@&gt; 100%</block>
+  <block id="01784dee7427225ed6440a615548d3c8" category="cell">애플리케이션 및 고객 데이터를 저장하려면 볼륨의 스토리지 용량이 필요합니다. 스냅샷 예약 공간이라고 하는 이 공간의 일부는 데이터를 로컬로 보호할 수 있는 스냅샷을 저장하는 데 사용됩니다. ONTAP 볼륨에 새로 저장되거나 업데이트된 데이터가 많을수록 더 많은 스냅샷 용량이 사용되며 향후 새 데이터 또는 업데이트된 데이터에 더 적은 스냅샷 스토리지 용량을 사용할 수 있습니다. 볼륨 내의 스냅샷 데이터 용량이 총 스냅샷 예약 공간에 도달하면 새 스냅샷 데이터를 저장할 수 없게 되고 볼륨의 LUN에 있는 데이터에 대한 보호 수준이 저하될 수 있습니다. 사용된 볼륨 스냅샷 용량을 모니터링하면 데이터 서비스의 연속성이 보장됩니다.</block>
+  <block id="df8c01d1eb9d6245c4bf409308a5a4c2" category="cell">** 즉각적인 조치** 심각한 임계값이 위반될 경우 서비스 중단을 최소화하기 위한 즉각적인 조치를 고려하십시오. 1. 스냅숏 예비 공간이 가득 찼을 때 볼륨의 데이터 공간을 사용하도록 스냅숏을 구성합니다. 2.오래된 원치 않는 스냅샷을 삭제하여 공간을 확보하십시오. ** 곧 수행할 작업** 경고 임계값이 위반될 경우 다음과 같은 즉각적인 조치를 취하십시오. 1. 증가량을 수용하기 위해 볼륨 내에서 스냅숏 예비 공간을 늘립니다. 스냅숏 예비 공간이 가득 찼을 때 볼륨의 데이터 공간을 사용하도록 스냅숏을 구성합니다.</block>
+  <block id="c4ecc793e303a550074c29b55d6b315f" category="cell">SnapMirror 관계 지연</block>
+  <block id="a3a4051e09c6fe3f48efd4a2f74ba269" category="cell">경고 @&gt;150%...위험@&gt;300%</block>
+  <block id="24fd2d3c5bd7f91010e5ae2c5d1dbb5f" category="cell">SnapMirror 관계 지연은 스냅샷 타임스탬프와 대상 시스템의 시간 사이의 차이입니다. lag_time_percent는 SnapMirror 정책의 스케줄 간격에 대한 지연 시간의 비율입니다. 지연 시간이 스케줄 간격과 같으면 lag_time_percent가 100%가 됩니다. SnapMirror 정책에 스케줄이 없는 경우 lag_time_percent가 계산되지 않습니다.</block>
+  <block id="49e95a6639b0e553bda17a9e3c021cef" category="cell">"SnapMirror show" 명령을 사용하여 SnapMirror 상태를 모니터링합니다. "SnapMirror show-history" 명령을 사용하여 SnapMirror 전송 기록을 확인합니다</block>
+  <block id="76902715d9d568bf8af72c0649cdd8e5" category="section-title">CVO(Cloud Volume) 모니터</block>
+  <block id="28968af316b23628eea079287dc3b616" category="cell">CVO 디스크 서비스 중단</block>
+  <block id="b55224db2efbd4c41d8a5fb92b425323" category="cell">스토리지 풀의 CVO 기브백에 실패했습니다</block>
+  <block id="2e71245153fd1ba1df5494a26ec96e03" category="cell">"network interface show" 명령을 사용하여 인터클러스터 LIF가 온라인이고 작동하는지 확인하는 수정 조치를 수행하십시오. 대상 노드 LIF 인터클러스터 LIF에서 "'ping" 명령을 사용하여 오브젝트 저장소 서버에 대한 네트워크 연결을 확인하십시오. "aggregate object-store config show" 명령을 사용하여 오브젝트 저장소 구성이 변경되지 않고 로그인 및 연결 정보가 여전히 정확한지 확인하십시오. 또는 반환 명령의 "파트너 필요 대기" 매개 변수에 대해 false 를 지정하여 오류를 재정의할 수 있습니다. 자세한 정보 또는 지원 정보는 NetApp 기술 지원 부서에 문의하십시오.</block>
+  <block id="cd60234fe32d474c4ff3513a1ad3957e" category="cell">CVO HA 인터커넥트가 다운되었습니다</block>
+  <block id="c68a4c81f996fdbd4e72d72cf1d66267" category="cell">수정 조치는 플랫폼에서 지원하는 HA 인터커넥트 링크의 수와 유형, 그리고 인터커넥트가 중단된 이유에 따라 다릅니다. 링크가 다운된 경우: HA 쌍의 두 컨트롤러가 모두 작동하는지 확인합니다. 외부 연결 링크의 경우 상호 연결 케이블이 올바르게 연결되어 있고, 가능한 경우 소형 폼 팩터 SFP(Pluggable)가 두 컨트롤러 모두에 제대로 장착되어 있는지 확인합니다. 내부적으로 연결된 링크의 경우 "IC link off" 및 "IC link on" 명령을 사용하여 링크를 차례로 비활성화하고 다시 활성화합니다. 링크가 비활성화된 경우 "IC link on" 명령을 사용하여 링크를 활성화합니다. 피어가 연결되지 않은 경우 "IC link off(IC 링크 꺼짐)" 및 "IC link on(IC 링크 켜짐)" 명령을 사용하여 링크를 차례로 비활성화하고 다시 활성화합니다. 문제가 지속되면 NetApp 기술 지원 팀에 문의하십시오.</block>
+  <block id="3417d907d7ea86d210c4bfcc43a24aab" category="cell">CVO 사용자당 최대 세션 수를 초과했습니다</block>
+  <block id="692226afd760c4be1a4f564e2be9d79d" category="cell">TCP 연결을 통해 사용자당 허용되는 최대 세션 수를 초과했습니다. 세션 설정 요청은 일부 세션이 해제될 때까지 거부됩니다.</block>
+  <block id="cc4528d944e9b048751f24169667812f" category="cell">클라이언트에서 실행되는 모든 응용 프로그램을 검사하고 제대로 작동하지 않는 응용 프로그램을 모두 종료하십시오. 클라이언트를 재부팅합니다. 새 애플리케이션이나 기존 애플리케이션에 의해 문제가 발생하는지 확인:새 애플리케이션인 경우 "cifs option modify -max -Opens -same -file -per -tree" 명령을 사용하여 클라이언트에 대해 더 높은 임계값을 설정합니다. 클라이언트가 예상대로 작동하지만 더 높은 임계값이 필요한 경우도 있습니다. 클라이언트에 대해 더 높은 임계값을 설정하려면 고급 권한이 있어야 합니다. 기존 응용 프로그램으로 인해 문제가 발생한 경우 클라이언트에 문제가 있을 수 있습니다. 자세한 정보 또는 지원 정보는 NetApp 기술 지원 부서에 문의하십시오.</block>
+  <block id="64aa3e406bf6fdfe25f69b5bd281a6a9" category="cell">CVO NetBIOS 이름이 충돌합니다</block>
+  <block id="6469db1dd765d74339c7fc94948f95aa" category="cell">다음 수정 작업 중 하나를 수행합니다. NetBIOS 이름 또는 별칭에 충돌이 있는 경우 다음 중 하나를 수행합니다. "vserver cifs delete -alias -vserver vserver vserver" 명령을 사용하여 중복 NetBIOS 별칭을 삭제합니다. "vserver cifs create-alias alias -vserver vserver" 명령을 사용하여 중복 이름을 삭제하고 새 이름으로 별칭을 추가하여 NetBIOS 별칭 이름을 변경합니다. 별칭이 구성되지 않고 NetBIOS 이름에 충돌이 있는 경우 "vserver cifs delete -vserver vserver vserver vserver" 및 "vserver cifs create -cifs -server netbiosname" 명령을 사용하여 CIFS 서버의 이름을 변경하십시오. 참고: CIFS 서버를 삭제하면 데이터에 액세스할 수 없습니다. 원격 시스템에서 NetBIOS 이름을 제거하거나 NetBIOS 이름을 변경합니다.</block>
+  <block id="644d9098bcc3a31bdacc976500b4eb66" category="cell">CVO NFSv4 저장소 풀이 소진되었습니다</block>
+  <block id="c51529ae13ecbf2fbbfab4cebaef41bd" category="cell">CVO 노드 패닉</block>
+  <block id="2ae27baf1313de0831c184ee223aca44" category="cell">CVO 노드 루트 볼륨 공간이 부족합니다</block>
+  <block id="5e5d1c16c43f05d0485ca792cbe28b39" category="cell">다음 수정 작업을 수행합니다. 이전 Snapshot 복사본을 삭제하거나, /mroot 디렉토리에서 더 이상 필요하지 않은 파일을 삭제하거나, 루트 볼륨 용량을 확장하여 루트 볼륨의 공간을 확보합니다. 컨트롤러를 재부팅합니다. 자세한 정보 또는 지원 정보는 NetApp 기술 지원 부서에 문의하십시오.</block>
+  <block id="61aa5f210dffed5ac7cf5d1d081d6845" category="cell">CVO가 존재하지 않는 관리자 공유</block>
+  <block id="4c9d1c26e38129c49566c5decc4ba3f8" category="cell">CVO Object Store 호스트를 확인할 수 없습니다</block>
+  <block id="f4034c42cc745d268b71223c805f6d06" category="cell">CVO Object Store 클러스터 간 LIF가 다운되었습니다</block>
+  <block id="e05c6d7df230fbf518b3c46b6e3323e9" category="cell">"network interface show-role 인터클러스터" 명령을 사용하여 인터클러스터 LIF 상태를 확인합니다. 인터클러스터 LIF가 올바르게 구성되고 작동하는지 확인합니다. 인터클러스터 LIF가 구성되지 않은 경우 "네트워크 인터페이스 create-role 인터클러스터" 명령을 사용하여 이를 추가하십시오.</block>
+  <block id="bd700b5e6f285c5b0b7fb9e26decbf22" category="cell">CVO 객체 저장소 서명 불일치</block>
+  <block id="0bcb24e494a0d49d9daf70b0ce73eae1" category="cell">CVO QoS 모니터 메모리 최대값에 도달하였습니다</block>
+  <block id="f3ee7c32a9c1d087f309bd490e0d7a2d" category="cell">QoS 하위 시스템의 동적 메모리가 현재 플랫폼 하드웨어에 대한 한계에 도달했습니다. 일부 QoS 기능은 제한된 범위에서 작동할 수 있습니다.</block>
+  <block id="ab10fcc620e856f31d30a90d9261915c" category="cell">일부 활성 워크로드 또는 스트림을 삭제하여 메모리를 확보하십시오. "statistics show -object workload -counter ops" 명령을 사용하여 활성 상태인 워크로드를 확인합니다. 활성 워크로드는 0이 아닌 작업을 표시합니다. 그런 다음 "Workload delete &lt;workload_name&gt;" 명령을 여러 번 사용하여 특정 워크로드를 제거합니다. 또는 "stream delete-workload &lt;워크로드 이름&gt; * " 명령을 사용하여 활성 작업 부하에서 연결된 스트림을 삭제합니다.</block>
+  <block id="1b00b12402523bf20a176bdc416a8d80" category="cell">CVO readdir 시간 초과</block>
+  <block id="b4a9340b6b1c386ffbb813dd194cd4f1" category="cell">다음 수정 작업을 수행합니다. readdir 파일 작업이 만료된 최근 디렉토리에 대한 정보를 찾으려면 다음 'dIAG' 권한 nodeswell CLI 명령을 사용합니다. WAFL readdir notice show. 디렉토리가 스파스 또는 NOT로 표시되는지 확인합니다. 디렉토리가 스파스(Sparse)로 표시되는 경우 디렉토리 파일의 스파를 제거하기 위해 디렉토리의 내용을 새 디렉토리에 복사하는 것이 좋습니다. 디렉토리가 스파스(Sparse)로 표시되지 않고 디렉토리가 큰 경우 디렉토리의 파일 항목 수를 줄여 디렉토리 파일의 크기를 줄이는 것이 좋습니다.</block>
+  <block id="c0c9b27bfb47df34482359e0681b8625" category="cell">CVO 스토리지 풀 재배치에 실패했습니다</block>
+  <block id="e27cdb180c7ac453d55cc5376d484e30" category="cell">"network interface show" 명령을 사용하여 인터클러스터 LIF가 온라인이고 작동하는지 확인하는 수정 조치를 수행하십시오. 대상 노드 LIF 인터클러스터 LIF에서 "'ping" 명령을 사용하여 오브젝트 저장소 서버에 대한 네트워크 연결을 확인하십시오. "aggregate object-store config show" 명령을 사용하여 오브젝트 저장소 구성이 변경되지 않고 로그인 및 연결 정보가 여전히 정확한지 확인하십시오. 또는 relocation 명령의 "override-destination-checks" 매개 변수를 사용하여 오류를 재정의할 수 있습니다. 자세한 정보 또는 지원 정보는 NetApp 기술 지원 부서에 문의하십시오.</block>
+  <block id="ba14a826a3059fa0dbf98ba39cdd538f" category="cell">CVO 섀도우 복제가 실패했습니다</block>
+  <block id="5793b85483d6f4727031f8cd27c2a2f8" category="cell">이벤트 메시지에 제공된 정보를 사용하여 다음을 확인하십시오. 섀도 복제본 구성이 활성화되어 있습니까? 적절한 라이센스가 설치되어 있습니까? 섀도우 복제본 작업은 어떤 공유에서 수행됩니까? 공유 이름이 올바른가? 공유 경로가 존재합니까? 섀도 복사본 세트와 해당 섀도 복사본의 상태는 무엇입니까?</block>
+  <block id="15e4f602af2b3fd276e8c1abb3e1d24c" category="cell">CVO 스토리지 VM 중지 성공</block>
+  <block id="4df327f108f33e6c2500a7f538a648ad" category="cell">CVO가 CIFS 인증을 너무 많이 했습니다</block>
+  <block id="6da8b96955c7e59e295e11c0f211341a" category="cell">CVO 할당되지 않은 디스크</block>
+  <block id="0e932fe140878dddad130030e4c54088" category="cell">다음 수정 조치를 수행하십시오. "disk show -n" 명령을 사용하여 할당되지 않은 디스크를 확인합니다. "disk assign" 명령을 사용하여 시스템에 디스크를 할당합니다.</block>
+  <block id="f168200fd2bd1ef2e681b67cd561efa4" category="cell">CVO 관리자 공유에 대한 무단 사용자 액세스</block>
+  <block id="daf241abd3ddf3fdcfcac4e97128f387" category="cell">다음 교정 조치를 수행하십시오. 언급된 사용자 이름과 IP 주소가 활성 Vscan 스캐너 풀 중 하나에 구성되어 있는지 확인하십시오. "vserver vscan scanner pool show-active" 명령을 사용하여 현재 활성화된 스캐너 풀 구성을 확인합니다.</block>
+  <block id="e57596d14b25baac52672fc309c8a58d" category="cell">CVO 바이러스가 감지되었습니다</block>
+  <block id="5431a7feb1f4bd20d2eb82e67431449e" category="cell">Vscan 서버에서 저장소 시스템에 오류를 보고했습니다. 이는 일반적으로 바이러스가 발견되었음을 나타냅니다. 그러나 Vscan 서버의 다른 오류로 인해 이 이벤트가 발생할 수 있습니다. 파일에 대한 클라이언트 액세스가 거부됩니다. Vscan 서버는 설정 및 구성에 따라 파일을 정리하거나 격리하거나 삭제할 수 있습니다.</block>
+  <block id="4263cc2b53ae23f9cc6cf513a43b5e97" category="cell">CVO 볼륨 오프라인</block>
+  <block id="28b914f56ac8ad6ac5c0eb77527d0023" category="cell">CVO 볼륨 제한</block>
+  <block id="01a314c1b9df8a1e936aee8eb0691f89" category="section-title">2022년 11월</block>
+  <block id="1213554c7911deac461074eac67a0744" category="section-title">40개 이상의 새로운 보안, 데이터 수집 및 CVO 모니터!</block>
+  <block id="fb53e2def13b7a7a62b2d11a8d4d178a" category="paragraph">NetApp은 수십 개의 새로운 시스템 정의 모니터를 추가하여 Cloud Volumes, Security 및 Data Protection의 잠재적 문제를 경고합니다. 이 모니터에 대해 자세히 알아보십시오 <block ref="0551979c3c2b30d30e179ad1ef30b8f8" category="inline-link-macro-rx"></block>.</block>
 </blocks>
