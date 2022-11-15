@@ -8973,7 +8973,6 @@
   <block id="5068217c7c23b1eac12eac1be6831460" category="paragraph">각 필드에 적절한 정보를 입력하고 완료되면 "저장"을 클릭합니다.</block>
   <block id="b65784e2633601efca2f9bfad2d590c1" category="paragraph">"Webhook 테스트" 버튼을 클릭하여 연결을 테스트할 수도 있습니다. 이렇게 하면 선택한 방법에 따라 정의된 URL에 "메시지 본문"(대체 없음)이 전송됩니다.</block>
   <block id="4ca1433d0af40616a4796463cd229d73" category="paragraph">이 섹션에서 대체는 "Webhook 테스트" 버튼을 클릭할 때 _not_Performed 가 됩니다. 이 버튼은 _%%_대체를 나타내는 페이로드를 전송하지만 데이터를 대체하지는 않습니다.</block>
-  <block id="cf2146b9e920671969e606b44d0743f6" category="paragraph">에서 더 많은 정의를 찾을 수 있습니다 <block ref="b7f404f6b2e5258b20a8d7e7801ccdd1" category="inline-link-macro-rx"></block> 페이지.</block>
   <block id="cab974fdccabc8d42fdf59c797a3fc04" category="paragraph">참고: 최신 NetApp Kubernetes Monitoring Operator가 설치되어 있고 재생 가능한 API 액세스 토큰을 사용하는 경우, 만료되는 토큰이 자동으로 새/업데이트된 API 액세스 토큰으로 대체됩니다. 아래 나열된 수동 단계를 수행할 필요는 없습니다.</block>
   <block id="d894fe24a5654169420a98540a56b302" category="list-text">NetApp Kubernetes Monitoring Operator를 편집합니다.</block>
   <block id="a27d1e518922e9050e6e54ae8c965164" category="list-text">이전 API 토큰을 새 API 토큰으로 대체하여 _spec.output-sink.api-key_value를 수정합니다.</block>
@@ -9172,4 +9171,5 @@
   <block id="01a314c1b9df8a1e936aee8eb0691f89" category="section-title">2022년 11월</block>
   <block id="1213554c7911deac461074eac67a0744" category="section-title">40개 이상의 새로운 보안, 데이터 수집 및 CVO 모니터!</block>
   <block id="fb53e2def13b7a7a62b2d11a8d4d178a" category="paragraph">NetApp은 수십 개의 새로운 시스템 정의 모니터를 추가하여 Cloud Volumes, Security 및 Data Protection의 잠재적 문제를 경고합니다. 이 모니터에 대해 자세히 알아보십시오 <block ref="0551979c3c2b30d30e179ad1ef30b8f8" category="inline-link-macro-rx"></block>.</block>
+  <block id="94bf1c9b14123c3874cb9d8257cedc3c" category="paragraph">ONTAP와 관련된 추가 용어와 정의는 를 참조하십시오 <block ref="59db06bd3283cfbb592d6ec7e170773c" category="inline-link-macro-rx"></block> 문서화:</block>
 </blocks>
