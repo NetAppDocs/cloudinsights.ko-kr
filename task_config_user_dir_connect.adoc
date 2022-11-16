@@ -179,4 +179,7 @@ image:cs_ADExample.png["AD 연결"]
 
 
 | AD(Active Directory) 서버에서 암호화 인증서(SSL)가 활성화된 경우 Cloud Secure 사용자 디렉토리 수집기는 AD 서버에 연결할 수 없습니다. | 사용자 디렉토리 수집기를 구성하기 전에 AD 서버 암호화를 비활성화하십시오. 사용자 세부 정보를 가져오면 13개월 동안 표시됩니다. 사용자 세부 정보를 가져온 후 AD 서버의 연결이 끊기면 AD에서 새로 추가된 사용자를 가져오지 않습니다. 다시 가져오려면 사용자 디렉토리 수집기를 AD에 연결해야 합니다. 
+
+
+| Active Directory의 데이터는 CloudInsights Security에 있습니다. CloudInsights에서 모든 사용자 정보를 삭제하려는 경우 | CloudInsights 보안에서는 Active Directory 사용자 정보만 삭제할 수 없습니다. 사용자를 삭제하려면 전체 테넌트를 삭제해야 합니다. 
 |===
