@@ -56,8 +56,8 @@ Cloud Insights는 이 데이터 수집기에서 다음 인벤토리 정보를 �
 
 재고 데이터를 수집하려면 다음이 있어야 합니다.
 
-* Ops Center 서버의 IP 주소입니다
-* Ops Center 소프트웨어 및 피어 권한에 대한 읽기 전용 사용자 이름 및 암호입니다
+* "공통 서비스" 구성 요소를 호스팅하는 Ops Center 서버의 IP 주소 또는 호스트 이름입니다
+* Ops Center 구성 요소를 호스팅하는 모든 서버에 있는 루트/sysadmin 사용자 계정 및 암호입니다. HDS는 Ops Center 10.8 이상이 될 때까지 LDAP/SSO 사용자의 사용을 위해 REST API 지원을 구현하지 않았습니다
 
 
 
