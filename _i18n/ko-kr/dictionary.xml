@@ -9183,4 +9183,5 @@
   <block id="7a5e4b833809f504d9c40568ed0a5cec" category="list-text">동일한 사용자가 방금 만든 파일은 암호화하지 마십시오. 사용자가 방금 만든 파일을 변경하는 것은 위험한 작업으로 간주되지 않습니다. 대신 다른 사용자가 만든 파일을 사용하거나 파일을 만들고 암호화하는 데 몇 시간이 걸릴 수 있습니다.</block>
   <block id="d96f025cc7db5db06dd47e78c55d8f1e" category="list-text">"공통 서비스" 구성 요소를 호스팅하는 Ops Center 서버의 IP 주소 또는 호스트 이름입니다</block>
   <block id="0b8a7ff32a839074e91de4c146e7c7bb" category="list-text">Ops Center 구성 요소를 호스팅하는 모든 서버에 있는 루트/sysadmin 사용자 계정 및 암호입니다. HDS는 Ops Center 10.8 이상이 될 때까지 LDAP/SSO 사용자의 사용을 위해 REST API 지원을 구현하지 않았습니다</block>
+  <block id="acf6b70a4e6ba36ec7116e8e7747c507" category="paragraph">한 자산에서 동일한 주석을 업데이트하는 여러 규칙을 실행할 때 첫 번째 규칙(위에서 아래로 실행)이 주석을 적용하고 자산을 업데이트한 다음 두 번째 규칙이 적용되지만 이전 규칙에 의해 이미 설정된 주석은 변경되지 않습니다.</block>
 </blocks>
