@@ -339,8 +339,8 @@ NetApp Kubernetes Monitoring Operator의 기본 네임스페이스는 "NetApp �
 다음 명령을 사용하여 모니터링 연산자의 최신 버전을 제거할 수 있습니다.
 
 ....
-kubectl delete agent <name-space>
-kubectl delete ns,clusterrole,clusterrolebinding,crd <name-space>
+kubectl delete agent -A -l installed-by=nkmo-<name-space>
+kubectl delete ns,clusterrole,clusterrolebinding,crd -l installed-by=nkmo-<name-space>
 ....
 첫 번째 명령이 "리소스를 찾을 수 없음"을 반환하면 다음 지침에 따라 모니터링 연산자의 이전 버전을 제거합니다.
 
