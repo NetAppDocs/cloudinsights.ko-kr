@@ -7861,7 +7861,6 @@
   <block id="4c98e9aaa4cbb7fc1c457ed76c2a0f21" category="paragraph">모니터 오른쪽에 있는 메뉴를 클릭하고 * Pause * (일시 중지 *)를 선택하여 개체 유형의 모니터링을 일시적으로 일시 중지할 수 있습니다. 모니터링을 다시 시작할 준비가 되면 * Resume * (재개 *)을 클릭합니다.</block>
   <block id="a73980f5bc00482a343096d1a40143fb" category="list-text">* 모든 모니터 * 는 모든 모니터를 나열합니다.</block>
   <block id="f78abd66dd2da46aaad72238500300b7" category="paragraph">를 봅니다 <block ref="c48a3e56f23a81aaf8fad75ccfbc3d89" category="inline-link-macro-rx"></block> Cloud Insights에 포함된 모니터에 대한 설명을 보려면 페이지를 참조하십시오.</block>
-  <block id="b94799ea1a34279467ca857a3bdb03d8" category="list-text">* 노이즈 감소 * - 사용자가 생성한 새로 생성된 파일(예: 최근 2시간)을 필터링합니다. 사용자가 액세스하는 임시 파일(예: .tmp 파일)을 필터링하는 데에도 사용됩니다.</block>
   <block id="22c7df611bbc787fa84ac34fdd9613e0" category="paragraph">클러스터 자격 증명이 있는 CsUser의 경우 ONTAP 명령줄에서 다음을 수행하십시오.</block>
   <block id="b3d5b2b9a23a5d11e154dd02b6d8f1d0" category="doc">Dell EMC VNX Unified 데이터 수집기 구성</block>
   <block id="3b4918cfceb6d22dc06a39882714f272" category="paragraph">구성을 위해 Dell EMC VNX Unified(SSH) 데이터 수집기는 Control Station의 IP 주소와 읽기 전용 사용자 이름 및 암호를 필요로 합니다.</block>
@@ -8922,15 +8921,6 @@
   <block id="8c8b20c16b839b518d90f5b38558a3cb" category="summary">NetApp ONTAP 스트리밍 텔레메트리 로 Cloud Insights를 구성합니다</block>
   <block id="93254a992ce8a5bbebb5d43f09f243d7" category="doc">NetApp ONTAP 스트리밍 텔레메트리</block>
   <block id="458a37db2666885e234720ccdea58253" category="paragraph">최신 정보는 를 참조하십시오 <block ref="16021e77167161423bb6653c8cf910d8" category="inline-link-macro-rx"></block> 데이터 수집기 페이지.</block>
-  <block id="2ed02be74d1c6359a8a97896ed3b4a32" category="paragraph">&lt;&lt;&lt;&lt;&lt;&lt;&lt; 사용자가 최근 2시간 내에 생성한 파일을 필터링하려면 HEAD * * * * * 를 선택합니다. 사용자가 액세스하는 임시 파일(예: .tmp 파일)을 필터링하는 데에도 사용됩니다.</block>
-  <block id="4cd72c98e3da3ec398bfae4fc7350ab7" category="paragraph">&gt;&gt;&gt;&gt;&gt;&gt; 574e310d1e2d0707d9dba0ce1435f338b16fcaa2</block>
-  <block id="deba7a55b29f409804e844ea69bf2200" category="paragraph">== 법의학적 활동 기록 데이터 정렬</block>
-  <block id="24e4de2ead8899ff8575060a5a9966f2" category="paragraph">= = 모든 활동 내보내기</block>
-  <block id="826c09171b70f2e164f286be2dc13a35" category="paragraph">== 모든 활동에 대한 열 선택</block>
-  <block id="c17261dcd735774185a2a324362cc66e" category="paragraph">= = 활동 기록 보존</block>
-  <block id="71dfcd631e4e19b5065870ce065fb560" category="paragraph">== 포렌식 페이지의 필터 적용 가능성</block>
-  <block id="a8ed44b10f226c3693725707fe220366" category="paragraph">== 경로/원래 경로 검색</block>
-  <block id="ed71ade6f4efcaba20f75ab4e1d40313" category="paragraph">= = 문제 해결</block>
   <block id="100c37ccf9bdbedac2e35d90d41d3be9" category="inline-link-macro">이 가이드를 참조하십시오</block>
   <block id="f06397ccd924d99fcb3214efdc25d940" category="paragraph">Cloud Secure는 다른 툴과도 통합할 수 있습니다. 예를 들면, 다음과 같습니다. <block ref="4ccd3ce9fc5ce8804b14aeb0860cf515" category="inline-link-macro-rx"></block> Splunk와 통합 시,</block>
   <block id="a4c1554c68c13d90856edc78740b6673" category="list-text">성능에 대한 액세스 검증: 획득 장치의 웹 브라우저에서 _\https://&lt;SMI-S Hostname or IP&gt;:5989/ecomconfig_로 이동합니다. 여기서 "SMI-S 호스트 이름 또는 IP"는 SMI-S 서버의 IP 주소 또는 호스트 이름입니다. 이 URL은 EMC SMI-S("ECOM") 서비스의 관리 포털용 URL로, 로그인 팝업을 받게 됩니다.</block>
@@ -9184,4 +9174,11 @@
   <block id="d96f025cc7db5db06dd47e78c55d8f1e" category="list-text">"공통 서비스" 구성 요소를 호스팅하는 Ops Center 서버의 IP 주소 또는 호스트 이름입니다</block>
   <block id="0b8a7ff32a839074e91de4c146e7c7bb" category="list-text">Ops Center 구성 요소를 호스팅하는 모든 서버에 있는 루트/sysadmin 사용자 계정 및 암호입니다. HDS는 Ops Center 10.8 이상이 될 때까지 LDAP/SSO 사용자의 사용을 위해 REST API 지원을 구현하지 않았습니다</block>
   <block id="acf6b70a4e6ba36ec7116e8e7747c507" category="paragraph">한 자산에서 동일한 주석을 업데이트하는 여러 규칙을 실행할 때 첫 번째 규칙(위에서 아래로 실행)이 주석을 적용하고 자산을 업데이트한 다음 두 번째 규칙이 적용되지만 이전 규칙에 의해 이미 설정된 주석은 변경되지 않습니다.</block>
+  <block id="15ac0cdbe87a38b3f0c5588fd122123c" category="list-text">* 노이즈 감소 * - 사용자가 최근 2시간 내에 생성한 파일을 필터링합니다. 사용자가 액세스하는 임시 파일(예: .tmp 파일)을 필터링하는 데에도 사용됩니다.</block>
+  <block id="b94c2ef661065c39f8d83558c3eafe45" category="section-title">법의학적 활동 기록 데이터 정렬</block>
+  <block id="530784dc2e1fded20e31ab140fb699c9" category="section-title">모든 활동 내보내기</block>
+  <block id="db7f539a64befdbef8a36c1e95be3922" category="section-title">모든 활동에 대한 열 선택</block>
+  <block id="e6c7e24b363310e398fd7191b14a5729" category="section-title">활동 기록 보존</block>
+  <block id="19d8a8363cc18927f8f792b40e752c60" category="section-title">포렌식 페이지의 필터 적용 가능성</block>
+  <block id="012f3ec70fcf8eccc1fce56e4a0b94b6" category="section-title">경로/원래 경로 검색</block>
 </blocks>
