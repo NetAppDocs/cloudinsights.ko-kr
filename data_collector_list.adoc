@@ -210,9 +210,6 @@ Cloud Insights에서 지원하는 데이터 수집기 목록 사전순:
 | link:task_config_telegraf_mysql.html["MySQL"] | 서비스 
 
 
-| link:task_dc_na_astra_data_store.html["NetApp Astra Data Store를 참조하십시오"] | 검토할 수 있습니다 
-
-
 | link:task_dc_na_cloud_volumes_ontap.html["NetApp Cloud Volumes ONTAP를 참조하십시오"] | 검토할 수 있습니다 
 
 
