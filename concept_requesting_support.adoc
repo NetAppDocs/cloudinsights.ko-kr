@@ -101,7 +101,7 @@ NetApp은 다양한 방법으로 Cloud Insights를 지원합니다. 기술 자�
 위의 자체 지원 옵션 외에도, 모니터링된 NetApp 제품 또는 서비스에 대한 Cloud Insights 가입 또는 유료 지원 서비스가 있는 경우 NetApp 지원 엔지니어와 협력하여 문제를 해결할 수 있습니다.
 
 
-NOTE: 에 등록하려면 등록해야 합니다  support entitlement and accessing support,지원을 활성화합니다 NetApp Cloud 제품: 등록하려면 NetApp로 이동하십시오 link:https://register.netapp.com["클라우드 데이터 서비스 지원 등록"].
+NOTE: 에 등록하려면 등록해야 합니다 <<Activating support entitlement and accessing support,지원을 활성화합니다>> NetApp Cloud 제품: 등록하려면 NetApp로 이동하십시오 link:https://register.netapp.com["클라우드 데이터 서비스 지원 등록"].
 
 지원 세션 중에 NetApp 지원 엔지니어가 Cloud Insights 환경에 액세스할 수 있도록 확인란을 선택하는 것이 좋습니다. 그러면 엔지니어가 문제를 해결하고 신속하게 해결할 수 있습니다. 문제가 해결되거나 지원 세션이 종료된 경우 확인란을 선택 취소할 수 있습니다.
 

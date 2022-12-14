@@ -109,6 +109,6 @@ APAC 기반 * Cloud Secure 환경의 경우:
 |===
 
 
-==== 관련:
+== 시스템 사이징
 
 를 참조하십시오 link:concept_cs_event_rate_checker.html["이벤트 속도 검사기"] 사이징에 대한 정보를 제공하는 문서입니다.

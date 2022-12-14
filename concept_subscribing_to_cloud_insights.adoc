@@ -98,7 +98,7 @@ Cloud Insights를 사용하는 동안 자물쇠 아이콘이 표시되는 경우
 
 == 평가판
 
-Cloud Insights에 등록하고 환경이 활성화되어 있는 경우 Cloud Insights 30일 무료 평가판에 들어갑니다. 이 시험판 평가 중에 Cloud Insights가 귀사의 환경에서 제공하는 기능을 살펴볼 수 있습니다. Cloud Insights의 모든 기능 ,Standard Edition을 참조하십시오 이 평가 기간 동안 사용할 수 있습니다.
+Cloud Insights에 등록하고 환경이 활성화되어 있는 경우 Cloud Insights 30일 무료 평가판에 들어갑니다. 이 시험판 평가 중에 Cloud Insights가 귀사의 환경에서 제공하는 기능을 살펴볼 수 있습니다. Cloud Insights의 모든 기능 <<editions,Standard Edition을 참조하십시오>> 이 평가 기간 동안 사용할 수 있습니다.
 
 평가판 사용 기간 중 언제든지 Cloud Insights에 가입할 수 있습니다. Cloud Insights를 구독하면 데이터에 대한 중단 없는 액세스뿐 아니라 더욱 확장된 액세스도 가능합니다 link:https://docs.netapp.com/us-en/cloudinsights/concept_requesting_support.html["* 제품 지원 *"] 옵션.
 
@@ -111,7 +111,7 @@ NOTE: Cloud Insights 평가 시간이 추가로 필요하고 평가판이 4일 �
 
 == AWS 마켓플레이스를 통해 평가하십시오
 
-AWS Marketplace를 통해 무료 평가판을 등록할 수도 있습니다. AWS 마켓플레이스 무료 평가판을 사용하면 Cloud Insights에 액세스할 수 있습니다 ,Premium Edition을 참조하십시오 33일의 평가 기간 동안 최대 499의 기간을 허용합니다 ,관리 단위 (MU).
+AWS Marketplace를 통해 무료 평가판을 등록할 수도 있습니다. AWS 마켓플레이스 무료 평가판을 사용하면 Cloud Insights에 액세스할 수 있습니다 <<editions,Premium Edition을 참조하십시오>> 33일의 평가 기간 동안 최대 499의 기간을 허용합니다 <<pricing,관리 단위>> (MU).
 
 참고: 499MU 이상을 구성하는 경우 "위반" 상태를 입력합니다. 평가판이 위반 상태인 경우, 구성된 MU 수를 줄이거나 Cloud Insights에 가입하여 위반이 해결될 때까지 일부 Cloud Insights 기능에 대한 액세스가 손실됩니다.
 
@@ -149,7 +149,7 @@ Cloud Insights의 가격은 * 관리형 단위 * 입니다. 관리되는 유닛�
 * NetApp StorageGRID를 참조하십시오
 
 
-사용자 환경에 1,000개 이상의 관리되는 장치가 포함되거나 포함될 것으로 예상되는 경우 * Volume Pricing * 을 받을 자격이 있으며 NetApp 영업 팀에 연락하여 구독을 신청하라는 메시지가 표시됩니다. 을 참조하십시오 ,아래에 있습니다 를 참조하십시오.
+사용자 환경에 1,000개 이상의 관리되는 장치가 포함되거나 포함될 것으로 예상되는 경우 * Volume Pricing * 을 받을 자격이 있으며 NetApp 영업 팀에 연락하여 구독을 신청하라는 메시지가 표시됩니다. 을 참조하십시오 <<how-do-i-subscribe,아래에 있습니다>> 를 참조하십시오.
 
 
 
@@ -166,7 +166,7 @@ NOTE: 계산기는 추정 용도로만 사용됩니다. 구독하면 정확한 �
 
 == 가입하려면 어떻게 해야 합니까?
 
-관리 유닛 수가 1,000개 미만인 경우 NetApp 세일즈 또는 을 통해 구독할 수 있습니다 ,자체 구독 출처: AWS Marketplace
+관리 유닛 수가 1,000개 미만인 경우 NetApp 세일즈 또는 을 통해 구독할 수 있습니다 <<self-subscribe-via-aws-marketplace,자체 구독>> 출처: AWS Marketplace
 
 
 
