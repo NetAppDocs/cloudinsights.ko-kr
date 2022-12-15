@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: API_Overview.html 
+permalink: api_verview.html 
 keywords: API, customer API, premium, JSON, Swagger, Access Token, token, rotate, expired 
 summary: Cloud Insights API를 사용하면 모니터링 및 보고 시스템과 같은 다른 애플리케이션과 통합할 수 있습니다. 
 ---
