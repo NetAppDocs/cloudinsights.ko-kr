@@ -50,5 +50,5 @@ https://www.netapp.com/us/legal/privacypolicy/index.aspx[]
 
 통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.
 
-* link:media/Notice_Cloud_Insights-2021.05.18.pdf["Cloud Insights에 대한 고지 사항"]
-
+link:media/Notice_Cloud_Insights-2022-12-14.pdf["Cloud Insights에 대한 고지 사항"]
+link:media/Notice_Cloud_Secure-2022-12-14.pdf["Cloud Secure에 대한 고지 사항"]
