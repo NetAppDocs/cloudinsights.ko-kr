@@ -9157,7 +9157,6 @@
   <block id="68bcc67f734c4d92ccfcbf87c7520280" category="inline-image-macro">로그 모니터 복제</block>
   <block id="3ced589e562d46b29e694b31e9c7fca0" category="paragraph"><block ref="3ced589e562d46b29e694b31e9c7fca0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="96c34d1f7d481501b76770e1cf0aad24" category="section-title">비즈니스 연속성을 위한 SnapMirror를 포함하는 새로운 기본 ONTAP 모니터 11개</block>
-  <block id="58884a5363d19bcb025a7a0fd15d3801" category="paragraph">SMBC(SnapMirror for Business Continuity)에 대한 새 시스템 모니터 약 12개를 추가했으며 이 모니터는 SMBC 인증서 및 ONTAP 미디어기의 변경 사항을 경고합니다.</block>
   <block id="951faa2232d4e162c12ecfe8efc935f7" category="section-title">오퍼레이터 튜닝</block>
   <block id="a1b1659beda08b73f97de0ea7bc13015" category="paragraph">맞춤형 리소스에 대한 특정 변수를 미세 조정하여 NetApp Kubernetes Monitoring Operator를 조정하여 성능을 최적화할 수 있습니다. 설정할 수 있는 변수는 다음 표를 참조하십시오.</block>
   <block id="96048bda0887b5a0f48d8c883520b7e4" category="section-title">자원 관련 변수</block>
@@ -9240,4 +9239,6 @@
   <block id="66a60fbd4168a1ac76bf8fa7d2650519" category="cell">SMBC 서버 인증서가 만료됩니다</block>
   <block id="13d0e81b911774edf84b28bd0b95b58f" category="cell">이 메시지는 ONTAP 중재자 서버 인증서가 향후 30일 이내에 만료될 예정인 경우 발생합니다.</block>
   <block id="d6df4b6af26c85fbe2505c03c739c084" category="cell">이 인증서가 만료되기 전에 "SnapMirror 중재자 제거" 명령을 사용하여 현재 ONTAP 중재자의 구성을 제거합니다. ONTAP 중재자 서버에서 새 서버 인증서를 업데이트합니다. "SnapMirror 중재자 추가" 명령을 사용하여 ONTAP 중재자에 대한 액세스를 재구성합니다.</block>
+  <block id="0800f817875b07895ac4004bbc1c7e5b" category="inline-link-macro">시스템 모니터</block>
+  <block id="e85f7d6ee39ea454f691893ec01b6a2e" category="paragraph">거의 12개의 새로운 기능이 추가되었습니다 <block ref="0524dcf44332373ed9afa3dd2bb38b12" category="inline-link-macro-rx"></block> SMBC(비즈니스 연속성을 위한 SnapMirror): SMBC 인증서 및 ONTAP 중개자의 변경 사항을 경고합니다.</block>
 </blocks>
