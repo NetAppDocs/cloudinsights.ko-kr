@@ -9240,4 +9240,8 @@
   <block id="b229f086c89bfd44fd734a5299e9f059" category="paragraph">로그 모니터 * 를 만들 때는 먼저 사용 가능한 로그 목록에서 모니터링할 로그를 선택합니다. 그런 다음 위와 같이 사용 가능한 속성을 기준으로 필터링할 수 있습니다. 하나 이상의 "그룹화 기준" 속성을 선택할 수도 있습니다.</block>
   <block id="d7aba68e0b82cfef5e7644a1a09648f2" category="inline-image-macro">필요한 경우 모니터링할 로그를 선택하고 필터를 설정한 다음 방법별로 그룹을 선택합니다</block>
   <block id="3da252deb38a2d58507e7ff50d6508f0" category="paragraph"><block ref="3da252deb38a2d58507e7ff50d6508f0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e49c7b347b6e9d379c33509b8c27ec5b" category="list-text">사용 권한은 Solutions Enabler 서버의 데몬 구성 파일에 선언되어야 하며, 일반적으로 _/var/symapi/config/daemon_users _ 에서 확인할 수 있습니다</block>
+  <block id="6da07aa5f066875b812525d42f923d0d" category="paragraph">다음은 적절한 cisys 권한이 있는 예제 파일입니다.</block>
+  <block id="1b177c66fc08f105ae2d0bcc67959194" category="cell">"알 수 없는 코드" 메시지와 함께 데이터 수집 오류가 표시됩니다.</block>
+  <block id="dc58289d0fee8bd8c729121c6c769072" category="cell">Solutions Enabler 서버의 데몬 구성 파일에 사용 권한이 선언되지 않은 경우 이 메시지가 표시될 수 있습니다(참조) <block ref="48ee54aab4fee6d43a8bd3ed26dff2b5" category="inline-xref-macro-rx"></block> 위) SE 클라이언트 버전이 SE 서버 버전과 일치하는 것으로 가정합니다.</block>
 </blocks>
