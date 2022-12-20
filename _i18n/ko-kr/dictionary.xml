@@ -9257,4 +9257,8 @@
   <block id="264c2ff438f1c2937cbafcf5ecabe5b5" category="paragraph">ONTAP 버전 9.9.1의 서비스 정책을 사용하는 경우 데이터 소스 수집기에 연결하려면 데이터 서비스 _data-nfs_ 및/또는 _data-cifs_와 함께 _data-fPolicy-client_service가 필요합니다.</block>
   <block id="ee22588534e4e3b699a85e968f56f4a7" category="paragraph">9.9.1 이전의 ONTAP 버전에서는 _data-FPolicy-client_를 설정할 필요가 없습니다.</block>
   <block id="cab974fdccabc8d42fdf59c797a3fc04" category="paragraph">참고: 최신 NetApp Kubernetes Monitoring Operator가 설치되어 있고 재생 가능한 API 액세스 토큰을 사용하는 경우, 만료되는 토큰이 자동으로 새/업데이트된 API 액세스 토큰으로 대체됩니다. 아래 나열된 수동 단계를 수행할 필요는 없습니다.</block>
+  <block id="af86c3e377ed087766345c6ec320cf2f" category="paragraph">이러한 값을 수정하려면 다음 명령을 사용하여 상담원 CR을 편집합니다(이름 공간에 &lt;namespace&gt; 대체).</block>
+  <block id="6800e2e34dd968ad7e050c54fdac00b9" category="paragraph">CR 사양은 다음과 같은 형식을 따릅니다.</block>
+  <block id="18236218f34d8d7222ddf98e7ce4511c" category="paragraph">"기본 CR에 포함됨"에 대해 "예"로 표시된 항목은 이미 상담원 CR에 있으며 해당 플러그인에서 찾을 수 있습니다. "아니요"로 표시된 항목은 포함된 기본 대체 항목에서 제공하는 예제 다음에 수동으로 추가해야 합니다.</block>
+  <block id="3f60b096843929b02e1a070f57e27584" category="cell">변수 이름</block>
 </blocks>

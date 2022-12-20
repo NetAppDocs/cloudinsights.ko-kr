@@ -438,6 +438,22 @@ PEM 파일의 지문이 다음과 같은 것인지 확인하여 PEM 파일을 �
 
 맞춤형 리소스에 대한 특정 변수를 미세 조정하여 NetApp Kubernetes Monitoring Operator를 조정하여 성능을 최적화할 수 있습니다. 설정할 수 있는 변수는 다음 표를 참조하십시오.
 
+이러한 값을 수정하려면 다음 명령을 사용하여 상담원 CR을 편집합니다(이름 공간에 <namespace> 대체).
+
+ kubectl edit agent agent-monitoring-netapp -n <namespace>
+CR 사양은 다음과 같은 형식을 따릅니다.
+
+[listing]
+----
+ - name: <plugin-name>
+   ...
+   substitutions:
+   - key: <variable-name>
+     value: <desired-value>
+     ...
+----
+"기본 CR에 포함됨"에 대해 "예"로 표시된 항목은 이미 상담원 CR에 있으며 해당 플러그인에서 찾을 수 있습니다. "아니요"로 표시된 항목은 포함된 기본 대체 항목에서 제공하는 예제 다음에 수동으로 추가해야 합니다.
+
 
 
 === 자원 관련 변수
@@ -447,7 +463,7 @@ PEM 파일의 지문이 다음과 같은 것인지 확인하여 PEM 파일을 �
 |===
 
 
-| 자리 표시자 | 플러그인 이름 | 기본 CR에 포함되어 있습니다 | 설명 
+| 변수 이름 | 플러그인 이름 | 기본 CR에 포함되어 있습니다 | 설명 
 
 
 | dS_CPU_limits_placeholder | 에이전트 | 예 | Telegraf-DS용 Kubernetes CPU 제한 
