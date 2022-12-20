@@ -8976,7 +8976,6 @@
   <block id="59e3026f71d01a624108642cdb778ebd" category="cell">"ImagePullBackoff" 오류가 표시됩니다</block>
   <block id="43340e6cc4e88197d57f8d6d5ea50a46" category="inline-xref">자세히 보기</block>
   <block id="d18743173cd6691e1637fd7bb6299057" category="cell">이러한 오류는 사용자 지정 또는 프라이빗 Docker 저장소가 있고 NetApp Kubernetes Monitoring Operator가 이를 제대로 인식하도록 구성하지 않은 경우 나타날 수 있습니다. <block ref="64c2e35c96e92fc99426098fae703fff" category="inline-xref-macro-rx"></block> 사용자 지정/개인 저장소 구성 정보</block>
-  <block id="67b526ab935bc291862045f0c263bee3" category="paragraph">참고: 최신 NetApp Kubernetes Monitoring Operator가 설치되어 있고 재생 가능한 API 액세스 토큰을 사용하는 경우, 만료되는 토큰이 자동으로 새/업데이트된 API 액세스 토큰으로 대체됩니다. 여기에 나열된 Kubernetes API 토큰 갱신을 위한 수동 단계를 수행할 필요가 없습니다.</block>
   <block id="b56f48fe0a536b86709924e6707beb7d" category="section-title">전체 인프라의 토폴로지 뷰를 사용할 수 있습니까? Cloud Insights에 "엔드 투 엔드 가시성"이 표시됩니까?</block>
   <block id="d0924ee26918b7c9acc0ec062a178e01" category="paragraph">Agent를 설치하기 전에 설치 파일을 확인하려면 정보 를 참조하십시오 <block ref="9d4b9ffd1c99cd0a179d48ad3a10cebe" category="inline-xref-macro-rx"></block>.</block>
   <block id="e89de726c7174f2e5799c51b43bdda84" category="paragraph">Cloud Insights에서 * monitoring.count * 열을 스토리지 또는 스토리지 노드 쿼리에 추가할 수 있습니다. 반환된 결과에 Active IQ가 모니터링된 스토리지 시스템이 포함된 경우 monitoring.count 열에 스토리지 시스템 또는 노드의 위험 수가 표시됩니다.</block>
@@ -9257,4 +9256,5 @@
   <block id="f0240b95ecfe16d637a84130b5ed57d9" category="section-title">서비스 정책</block>
   <block id="264c2ff438f1c2937cbafcf5ecabe5b5" category="paragraph">ONTAP 버전 9.9.1의 서비스 정책을 사용하는 경우 데이터 소스 수집기에 연결하려면 데이터 서비스 _data-nfs_ 및/또는 _data-cifs_와 함께 _data-fPolicy-client_service가 필요합니다.</block>
   <block id="ee22588534e4e3b699a85e968f56f4a7" category="paragraph">9.9.1 이전의 ONTAP 버전에서는 _data-FPolicy-client_를 설정할 필요가 없습니다.</block>
+  <block id="cab974fdccabc8d42fdf59c797a3fc04" category="paragraph">참고: 최신 NetApp Kubernetes Monitoring Operator가 설치되어 있고 재생 가능한 API 액세스 토큰을 사용하는 경우, 만료되는 토큰이 자동으로 새/업데이트된 API 액세스 토큰으로 대체됩니다. 아래 나열된 수동 단계를 수행할 필요는 없습니다.</block>
 </blocks>
