@@ -91,6 +91,8 @@ APAC 기반 * Cloud Secure 환경의 경우:
 
 == 네트워크 내 규칙
 
+을 추가하는 경우 _<</task_add_collector_svm.html#permissions-when-adding-via-cluster-management-ip,사용자>>_, 이 사용자는 ONTAP에 대한 SSH 액세스가 필요합니다.
+
 [cols="5*"]
 |===
 | 프로토콜 | 포트 | 목적지 | 방향 | 설명 
