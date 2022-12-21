@@ -9262,5 +9262,5 @@
   <block id="18236218f34d8d7222ddf98e7ce4511c" category="paragraph">"기본 CR에 포함됨"에 대해 "예"로 표시된 항목은 이미 상담원 CR에 있으며 해당 플러그인에서 찾을 수 있습니다. "아니요"로 표시된 항목은 포함된 기본 대체 항목에서 제공하는 예제 다음에 수동으로 추가해야 합니다.</block>
   <block id="3f60b096843929b02e1a070f57e27584" category="cell">변수 이름</block>
   <block id="44ba65ef8e60d1727d77c9b3244b6b01" category="inline-xref">사용자</block>
-  <block id="76ce4e2b9af0d8561c4d9aba287c2dfd" category="paragraph">을 추가하는 경우 _<block ref="2bdf335a2ab8366b3ec70180da0d134c" category="inline-xref-macro-rx"></block>_, 이 사용자는 ONTAP에 대한 SSH 액세스가 필요합니다.</block>
+  <block id="9a4d2e5dc3e76c3437292c8797a2f443" category="paragraph">을 추가하는 경우 _<block ref="2bdf335a2ab8366b3ec70180da0d134c" category="inline-xref-macro-rx"></block>_, 이 사용자는 ONTAP 관리 LIF에 대한 SSH 액세스를 필요로 합니다.</block>
 </blocks>
