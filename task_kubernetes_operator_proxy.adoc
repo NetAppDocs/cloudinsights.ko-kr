@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: task_kubernetes_operator_proxy.html 
+keywords: telegraf, installation, install, agent, telegraf agent 
+summary: 'Cloud Insights 지원 link:https://docs.influxdata.com/telegraf/v1.19/["텔레그라프"] 통합 데이터 수집을 위한 에이전트로, Windows, Linux, macOS 및 Kubernetes에서 구성할 수 있습니다.' 
+---
+= Agent가 데이터를 수집하도록 구성
+:allow-uri-read: 
+
+
+[role="lead"]
+맞춤형/프라이빗 Docker 리포지토리 사용 프록시 설정 2021년 12월 10일 12월 10일에 운영 단계로 전환되었으며 CR에서 모니터링 운영자를 위해 프록시를 구성할 수 있습니다
+
+kubbctl -n NetApp - 모니터링 에이전트 에이전트 모니터링 편집 - NetApp
+
+이 파일의 SPEC: 섹션에서 다음 코드 블록을 추가합니다
+
+SPEC:proxy:isAProxyEnabled:<true 또는 false>isTelegrafProxyEnabled:<true 또는 false>isFluentbitProxyEnabled:<true 또는 false> 암호:<proxy용 암호, 선택 사항> 포트: <proxy용 포트> 서버 사용자 이름:<proxy용 사용자 이름, 선택적> nProxy: 프록시를 우회해야 하는 <쉼표로 구분된 IP 목록 또는 확인 가능한 호스트 이름> 사용자 지정/개인 Docker 리포지토리를 사용하면 Docker 암호를 얻을 수 있습니다
+
+kubbctl -n NetApp 모니터링 비밀 Docker-o YAML을 확인하십시오
+
+(copy paste the value of .dockerconfigjson: from the output of the above command) Docker 암호를 해독합니다
+
+echo <paste from step #1 above>|base64-d 이 명령의 출력은 다음과 같은 json 형식으로 표시됩니다. {"auths":{"docker.< cluster> .cloudinsights.netapp.com":{"username":"<tenant id>", "password":"<password is the CI API key>", "auth":"<인코딩된 사용자 이름: 암호 인증 기본 키. Docker >"}}} Docker 리포지토리에 로그인하는 데 사용됩니다
+
+Docker 로그인 Docker. <cluster>.cloudinsights.netapp.com (2단계) -u <2단계의 사용자 이름> 암호: <2단계의 암호> Cloud Insights에서 작동자 Docker 이미지를 가져옵니다
+
+Docker를 끌어당깁니다.<cluster> .cloudinsights.netapp.com/netapp-monitoring:<version>
+
+다음 명령을 사용하여 <version> 필드를 찾습니다.
+
+kubbctl -n NetApp - 모니터링 구축 모니터링 수행 - operator | grep "image:"운영자의 Docker 이미지를 프라이빗/엔터프라이즈 Docker 레지스트리로 밀어 넣습니다
+
+회사 정책에 따라 프라이빗/로컬/엔터프라이즈 Docker 저장소로 코드를 푸시합니다. 모든 오픈 소스 종속성을 프라이빗 Docker 레지스트리에 다운로드합니다
+
+Docker.IO/Telegraf:1.19.3 GCR.IO/kubevilder/kubbe-RBAC-proxy:v0.5.0k8s.gcr.io/kubbe-state-metrics/kubbe-state-metrics:v2.1.0을 다운로드해야 합니다
+
+Fluent-bit가 활성화된 경우: Docker.IO/Fluent-bit: 1.7.8 Docker.IO/Kubernetes-event-Exporter: 0.10 새 Docker 저장소 위치를 반영하도록 에이전트 CR 편집, 자동 업그레이드 비활성화(활성화된 경우)
+
+kubbctl -n NetApp - 모니터링 에이전트 에이전트 모니터링 편집 - NetApp
+
+enableAutoUpgrade: false docker-repo:<dockerRepo of the enterprise/corp docker repo> dockerRepoSecret:<선택 사항: 엔터프라이즈/기업 Docker repo의 Docker 암호. 이 암호는 동일한 네임스페이스의 k8s 클러스터에 이미 생성되어 있어야 합니다.>
+
+사양: 섹션에서 다음과 같이 변경합니다.
+
+SPEC: Telegraf:-name:-name:KSM 대체품:-key:k8s.gcr.io 값:<위의 "docker-repo" 필드와 동일>

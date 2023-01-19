@@ -75,6 +75,9 @@ Cloud Insights에서 지원하는 데이터 수집기 목록 사전순:
 | link:task_dc_emc_isilon.html["Dell EMC PowerScale(이전의 Isilon)"] | 검토할 수 있습니다 
 
 
+| link:task_dc_emc_isilon_rest.html["Dell EMC Isilon REST"] | 검토할 수 있습니다 
+
+
 | link:task_dc_emc_powerstore.html["Dell EMC PowerStore"] | 검토할 수 있습니다 
 
 
@@ -85,6 +88,9 @@ Cloud Insights에서 지원하는 데이터 수집기 목록 사전순:
 
 
 | link:task_dc_emc_unity.html["Dell EMC Unity"] | 검토할 수 있습니다 
+
+
+| link:task_dc_emc_unisphere_rest.html["Dell EMC Unisphere REST"] | 검토할 수 있습니다 
 
 
 | link:task_dc_emc_vmax_powermax.html["Dell EMC VMAX/PowerMax 장치 제품군"] | 검토할 수 있습니다 

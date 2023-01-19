@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: bluexp_overview.html 
+summary: 단일 제어 플레인에서 하이브리드 멀티 클라우드 데이터 자산을 구축, 보호 및 제어합니다. 
+keywords: bluexp, cloud manager, cm, storage, data, services, integrated 
+---
+= Cloud Insights는 BlueXP의 일부입니다
+:allow-uri-read: 
+
+
+[role="lead"]
+BlueXP를 사용하면 단일 인터페이스에서 모든 NetApp 스토리지 및 데이터 자산을 관리할 수 있습니다. BlueXP에서는 많은 새로운 스토리지 서비스와 이전에 별도의 UI를 통해 독립 실행형 서비스로만 제공되었던 데이터 서비스를 찾을 수 있습니다. Cloud Insights는 이러한 서비스 중 하나입니다.
+
+
+NOTE: BlueXP 탐색 메뉴 통합은 로 간주됩니다 link:concept_preview_features.html["_미리보기 _"] 변경될 수 있습니다.
+
+직관적인 새 메뉴 BlueXP의 탐색 메뉴에 있는 데이터 서비스는 범주별로 구성되며 기능에 따라 이름이 지정됩니다. 예를 들어 "Cloud Insights(관찰)" 기능 세트는 "관찰 가능성" 메뉴에 있습니다. Cloud Insights를 탐색 중인 동안 탐색 메뉴 상단에 "관찰 가능성" 섹션이 나타납니다. 이는 각 BlueXP 서비스에 대해 설명합니다.
+
+image:BlueXP_Nav_Menu.png["BlueXP NAV 메뉴 맨 위 및 아래의 다른 NetApp 서비스에 관찰 가능성을 표시합니다"]
+
+
+NOTE: 이 문서 전체에서 "Cloud Insights" 및 "관찰 가능성"이라는 용어가 상호 교환적으로 사용될 수 있습니다.
+
+마우스를 가져가면 추가 정보가 표시됩니다.
+
+BlueXP 웹 사이트에서 BlueXP에 대해 자세히 알아볼 수 있습니다.

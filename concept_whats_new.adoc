@@ -75,6 +75,7 @@ image:Log_Monitor_Duplicate.png["로그 모니터 복제"]
 
 NetApp은 수십 개의 새로운 시스템 정의 모니터를 추가하여 Cloud Volumes, Security 및 Data Protection의 잠재적 문제를 경고합니다. 이 모니터에 대해 자세히 알아보십시오 link:task_system_monitors.html#security-monitors["여기"].
 
+'''
 
 
 == 2022년 10월

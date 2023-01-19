@@ -12,6 +12,9 @@ keywords: data collector, NetApp, Cloud agent, ONTAP
 이 데이터 수집기는 ONTAP 9.9 + CVO, AFF 및 FAS 시스템의 데이터 수집을 지원하기 위해 클라우드 연결을 생성합니다.
 
 
+NOTE: 이 데이터 수집기는 입니다 link:task_getting_started_with_cloud_insights.html#useful-definitions["사용되지 않음"] 2023년 1월 1일 기준.
+
+
 
 == 구성
 
