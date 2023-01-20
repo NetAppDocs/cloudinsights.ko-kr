@@ -10043,7 +10043,6 @@
   <block id="2c56c637347a0a87008437d711d16263" category="cell">Isilon에 사용되는 암호입니다</block>
   <block id="01cba5236d5d580a0466283128eeaca6" category="cell">기본값은 8080입니다.</block>
   <block id="54dac5afe1fcac2f65c059fc97b44a58" category="inline-link-macro">사용되지 않음</block>
-  <block id="6afca2df57e91c9479bb6e541df1bbe2" category="admonition">이 데이터 수집기는 입니다 <block ref="88ca6a9abe9d198dfefab0128680ed01" category="inline-link-macro-rx"></block> 2023년 1월 1일 기준.</block>
   <block id="39fdcbcd2a4c753babbc68973712e367" category="summary">단일 제어 플레인에서 하이브리드 멀티 클라우드 데이터 자산을 구축, 보호 및 제어합니다.</block>
   <block id="7ce49ad36572c616df2b7b18f0f3c2d5" category="doc">Cloud Insights는 BlueXP의 일부입니다</block>
   <block id="76609753d56a9030bf88cac400655be7" category="paragraph">BlueXP를 사용하면 단일 인터페이스에서 모든 NetApp 스토리지 및 데이터 자산을 관리할 수 있습니다. BlueXP에서는 많은 새로운 스토리지 서비스와 이전에 별도의 UI를 통해 독립 실행형 서비스로만 제공되었던 데이터 서비스를 찾을 수 있습니다. Cloud Insights는 이러한 서비스 중 하나입니다.</block>
@@ -10681,4 +10680,5 @@
   <block id="8fb0051ea6a7b111ebe0cc9dc3e71e2a" category="inline-xref">사용자 지정 또는 프라이빗 Docker 저장소 사용</block>
   <block id="cec4dc8de5b452ea8fc272799bc79fd2" category="list-text">다음 구성 요소 버전을 참고하십시오. NetApp Kubernetes Monitoring Operator에 포함된 최신 버전입니다. 이러한 버전을 사용하는 경우 특히 주의해야 합니다 <block ref="ad7958052a58410baa9b486d50045d2a" category="inline-xref-macro-rx"></block>:</block>
   <block id="6c427ef0d84924952ea57287d5c12a55" category="paragraph">모든 오픈 소스 종속성을 전용 Docker 레지스트리에 다운로드합니다. 다음 오픈 소스 이미지를 다운로드해야 합니다. 를 참조하십시오 <block ref="972589b8633c88ae3dbc8b66dfee3076" category="inline-xref-macro-rx"></block> 위의 섹션에서 이러한 구성 요소의 최신 버전을 확인하십시오.</block>
+  <block id="9a792c4a7d9a1e15c6a95f98fe5b6491" category="admonition">이 데이터 수집기는 입니다 <block ref="88ca6a9abe9d198dfefab0128680ed01" category="inline-link-macro-rx"></block> 2023년 1월 1일 기준. AU 기반 데이터 수집으로 전환하는 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="df6681cbd934aebfa279b5a883862ef0" category="inline-link-macro-rx"></block>.</block>
 </blocks>
