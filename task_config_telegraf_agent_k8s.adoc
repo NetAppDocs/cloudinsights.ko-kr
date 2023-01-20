@@ -21,10 +21,10 @@ image:kubernetes_tile.png["Kubernetes Data Collector 타일"]
 
 == NetApp Kubernetes Monitoring Operator를 설치하기 전에
 
-.전제 조건:
-* 다음 구성 요소 버전을 참고하십시오. NetApp Kubernetes Monitoring Operator에 포함된 최신 버전은 다음과 같습니다.
-+
 [[nkmoversion]]
+.전제 조건:
+* 다음 구성 요소 버전을 참고하십시오. NetApp Kubernetes Monitoring Operator에 포함된 최신 버전입니다. 이러한 버전을 사용하는 경우 특히 주의해야 합니다 <<using-a-custom-or-private-docker-repository,사용자 지정 또는 프라이빗 Docker 저장소 사용>>:
++
 ** 텔레그라프: 1.24.0
 ** kubbe-RBAC-proxy: v1.13.0
 ** kubbe-state-metrics: v2.6.0
@@ -174,18 +174,18 @@ Cloud Insights에서 운영자 Docker 이미지를 가져옵니다. NetApp-monit
  kubectl -n netapp-monitoring get deployment monitoring-operator | grep "image:"
 회사 정책에 따라 운영 Docker 이미지를 프라이빗/로컬/엔터프라이즈 Docker 저장소로 밀어 넣습니다.
 
-모든 오픈 소스 종속성을 전용 Docker 레지스트리에 다운로드합니다. 다음 오픈 소스 이미지를 다운로드해야 합니다.
+모든 오픈 소스 종속성을 전용 Docker 레지스트리에 다운로드합니다. 다음 오픈 소스 이미지를 다운로드해야 합니다. 를 참조하십시오 <<before-installing-the-netapp-kubernetes-monitoring-operator,필수 구성 요소>> 위의 섹션에서 이러한 구성 요소의 최신 버전을 확인하십시오.
 
 ....
-docker.io/telegraf: 1.24.0
-gcr.io/kubebuilder/kube-rbac-proxy: v10.13.0
-k8s.gcr.io/kube-state-metrics/kube-state-metrics: v2.6.0
+docker.io/telegraf
+gcr.io/kubebuilder/kube-rbac-proxy
+k8s.gcr.io/kube-state-metrics/kube-state-metrics
 ....
 Fluent-bit가 활성화된 경우 다음 정보도 다운로드하십시오.
 
 ....
-docker.io/fluent-bit:1.9.8
-docker.io/kubernetes-event-exporter:0.10
+docker.io/fluent-bit
+docker.io/kubernetes-event-exporter
 ....
 새 Docker 저장소 위치를 반영하도록 에이전트 CR을 편집하고 자동 업그레이드를 비활성화합니다(활성화된 경우).
 
