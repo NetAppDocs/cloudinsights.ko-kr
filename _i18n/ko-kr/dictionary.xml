@@ -8901,7 +8901,6 @@
   <block id="6a65175f7f76169aeeaf32acdda0d82f" category="section-title">NetApp Kubernetes Monitoring Operator를 설치하기 전에</block>
   <block id="1cc45b2c590399b95fbbc08c12a16b3e" category="list-text">다음 구성 요소 버전을 참고하십시오. NetApp Kubernetes Monitoring Operator에 포함된 최신 버전은 다음과 같습니다.</block>
   <block id="47cd86500d3fa5dbb08c20995b256c69" category="list-text">텔레그라프: 1.24.0</block>
-  <block id="6c7ca580ed97b823c501ac9c614a22e3" category="list-text">kubbe-RBAC-proxy: v0.13.0</block>
   <block id="479cd5be40ccd07011d75823574c7b07" category="list-text">kubbe-state-metrics: v2.6.0</block>
   <block id="a36b7ead4d7f7dfbc23cbc2511314f24" category="list-text">유창한 비트: 1.9.8</block>
   <block id="91a4eb349c44870597460ac8e58becf0" category="list-text">Kubernetes - 이벤트 - 수출자: 0.10</block>
@@ -10680,4 +10679,5 @@
   <block id="14af2cecff51d4bd977845145cc871e8" category="list-text">* 삭제됨 *: 제거되었으며 더 이상 사용할 수 없는 데이터 수집기입니다.</block>
   <block id="b92e6e167ffd0f1968a046d49559d1cd" category="list-text">획득 장치: 데이터 수집기를 호스팅하는 전용 컴퓨터(일반적으로 가상 머신)입니다. 이 컴퓨터는 일반적으로 모니터링되는 항목과 동일한 데이터 센터/VPC에 위치합니다.</block>
   <block id="c5b4625b23c5673b268b9b686102faa0" category="list-text">데이터 소스: 하드웨어 또는 소프트웨어 스택과 통신하는 모듈입니다. 장치와 통신하기 위해 AU 컴퓨터에서 실행되는 구성 및 코드로 구성됩니다.</block>
+  <block id="a9ebd75df07545c9605b7773e7c21558" category="list-text">kubbe-RBAC-proxy: v1.13.0</block>
 </blocks>
