@@ -9269,20 +9269,6 @@
   <block id="e683c12dcf92dc441c52b41d48fae3bd" category="cell">필터링할 VM 목록(쉼표로 구분됨 또는 값에 쉼표가 사용된 경우 세미콜론으로 구분)</block>
   <block id="8d9973d4d778ded1eba118da9ff38733" category="cell">Unisphere 성능 폴링 간격(초)</block>
   <block id="f1ef5b6a9704d8b164ef33c20e11ce70" category="cell">기본값은 300초입니다</block>
-  <block id="abd9e0bb14f8b22570a2f7f71cda1899" category="doc">NetApp ONTAP용 Amazon FSx 구성</block>
-  <block id="e5444155690679de3490c237e18db0c4" category="paragraph">이 데이터 수집기는 NetApp ONTAP용 Amazon FSx에서 파일 및 사용자 액세스 데이터를 수집합니다. 이 데이터 수집기는 Cloud Insights 서비스 지역 전체에서 점증적으로 사용할 수 있습니다. Cloud Insights 환경에서 이 수집기의 아이콘이 보이지 않으면 영업 담당자에게 문의하십시오.</block>
-  <block id="0ee580e185da35a40a1d1984bc4f414a" category="list-text">AWS 콘솔에 로그인하고 EC2-Instances 페이지로 이동한 다음 Launch Instance를 선택합니다.</block>
-  <block id="5beb340d7612e5199a7f1cf1fa8559a6" category="list-text">에 설명된 대로 적절한 버전의 RHEL 또는 CentOS AMI를 선택합니다 <block ref="f14b7add63be60d820928fdd866e56cc" category="inline-link-macro-rx"></block>.</block>
-  <block id="7c197f72661240062d16ebc1d01f474a" category="list-text">NetApp ONTAP 인스턴스의 Amazon FSx가 상주하는 것과 동일한 VPC 및 서브넷에서 에이전트 상자를 생성합니다.</block>
-  <block id="84cdd7b041998cf9db566c8249b20d66" category="paragraph">또는 NetApp ONTAP VPC용 Amazon FSx에 연결되어 있는 VPC에 에이전트 상자가 있어야 합니다.</block>
-  <block id="d390a93ae0bf8ecb5f3eafac479ff1b7" category="paragraph">NetApp ONTAP용 Amazon FSx와 에이전트 간에 양방향 통신이 존재하는지 확인합니다.</block>
-  <block id="244fc1e8ff83d4d166131ec1052c59de" category="list-text">할당된 리소스로 T2.xLarge(vCPU 4개 및 16GB RAM)를 선택합니다.</block>
-  <block id="8b7fcdb58af006bf84d991e49eeebe51" category="list-text">기본 Linux 패키지를 설치하고 압축을 풉니다.</block>
-  <block id="d885b39aec33db3575946cc072241a27" category="list-text">Cloud Secure 관리자 &gt; 데이터 수집기 로 이동하고 에이전트 탭을 클릭합니다.</block>
-  <block id="30bfaded2cce7bc8bce0c34aedd60d6a" category="list-text">Agent를 클릭하고 RHEL을 대상 플랫폼으로 지정합니다.</block>
-  <block id="6e9db8c0f07c6f970099588928158b5d" category="list-text">로그인한 RHEL EC2 인스턴스에 Agent Installation 명령을 붙여 넣습니다.</block>
-  <block id="fbdfba9c1edac47c47090ea8623a8231" category="paragraph">이렇게 하면 모든 에이전트 필수 구성 요소가 충족되는 경우 Cloud Secure 에이전트가 설치됩니다.</block>
-  <block id="662c8fe551cd48617d7f1ceaea434408" category="paragraph">자세한 단계는 Cloud Secure를 참조하십시오 <block ref="7902d0521fa6bd726229418f042a3bdf" category="inline-link-macro-rx"></block> 페이지,</block>
   <block id="c52daf8134416a70f4e670e99e7c4396" category="doc">Cloud Insight 데이터 소스 지원매트릭스</block>
   <block id="dea5f9ab95bb253b826201d228922448" category="paragraph">Data Collector 지원 매트릭스는 공급업체 및 모델 정보를 포함하여 Cloud Insights에서 지원하는 Data Collector에 대한 참조를 제공합니다.</block>
   <block id="d47f554df13fb6a18614ec1418ee1c86" category="section-title">HP Enterprise 3PAR/Primera 9000/Primera StoreServ 스토리지</block>
@@ -10680,5 +10666,5 @@
   <block id="8fb0051ea6a7b111ebe0cc9dc3e71e2a" category="inline-xref">사용자 지정 또는 프라이빗 Docker 저장소 사용</block>
   <block id="cec4dc8de5b452ea8fc272799bc79fd2" category="list-text">다음 구성 요소 버전을 참고하십시오. NetApp Kubernetes Monitoring Operator에 포함된 최신 버전입니다. 이러한 버전을 사용하는 경우 특히 주의해야 합니다 <block ref="ad7958052a58410baa9b486d50045d2a" category="inline-xref-macro-rx"></block>:</block>
   <block id="6c427ef0d84924952ea57287d5c12a55" category="paragraph">모든 오픈 소스 종속성을 전용 Docker 레지스트리에 다운로드합니다. 다음 오픈 소스 이미지를 다운로드해야 합니다. 를 참조하십시오 <block ref="972589b8633c88ae3dbc8b66dfee3076" category="inline-xref-macro-rx"></block> 위의 섹션에서 이러한 구성 요소의 최신 버전을 확인하십시오.</block>
-  <block id="9a792c4a7d9a1e15c6a95f98fe5b6491" category="admonition">이 데이터 수집기는 입니다 <block ref="88ca6a9abe9d198dfefab0128680ed01" category="inline-link-macro-rx"></block> 2023년 1월 1일 기준. AU 기반 데이터 수집으로 전환하는 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="df6681cbd934aebfa279b5a883862ef0" category="inline-link-macro-rx"></block>.</block>
+  <block id="29668e5fb5605cd58bd9225b6fba6375" category="admonition">이 데이터 수집기는 입니다 <block ref="88ca6a9abe9d198dfefab0128680ed01" category="inline-link-macro-rx"></block> 2023년 1월 1일 기준. AU 기반 데이터 수집으로 전환하는 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="334c0315e59c6351d5f9bac4d495b3ee" category="inline-link-macro-rx"></block>.</block>
 </blocks>
