@@ -2,14 +2,14 @@
 sidebar: sidebar 
 permalink: task_dc_emc_isilon_rest.html 
 keywords: data collector, isilon, EMC, DELL, PowerScale 
-summary: Dell EMC Isilon REST 데이터 수집기 구성 
+summary: Dell EMC Isilon/PowerScale REST 데이터 수집기 구성 
 ---
 = Dell EMC Isilon REST 데이터 수집기
 :allow-uri-read: 
 
 
 [role="lead"]
-Cloud Insights는 Dell EMC Isilon REST SSH 데이터 수집기를 사용하여 Dell EMC Isilon 스토리지에서 인벤토리 및 성능 데이터를 가져옵니다.
+Cloud Insights는 Dell EMC Isilon/PowerScale REST 데이터 수집기를 사용하여 Dell EMC Isilon 또는 PowerScale 스토리지의 인벤토리 및 성능 데이터를 수집합니다.
 
 
 
@@ -31,7 +31,13 @@ Cloud Insights는 이 데이터 수집기에서 다음 인벤토리 정보를 �
 | 노드 | 스토리지 노드 
 
 
-| 파일 시스템 | 내부 볼륨 
+| OneFS 파일 시스템 | 내부 볼륨 
+
+
+| OneFS 파일 시스템 | 스토리지 풀 
+
+
+| qtree입니다 | qtree입니다 
 |===
 참고: 이러한 용어 매핑은 일반적인 용어 매핑일 뿐이며 이 데이터 수집기의 모든 경우를 나타내는 것은 아닙니다.
 
@@ -41,11 +47,66 @@ Cloud Insights는 이 데이터 수집기에서 다음 인벤토리 정보를 �
 
 이 데이터 수집기를 구성하려면 다음 정보가 필요합니다.
 
-* Dell EMC Isilon REST 스토리지에 대한 관리자 권한
-* Dell EMC Isilon REST 클러스터의 IP 주소입니다
+* 사용자 계정 및 암호 이 계정은 admin/root가 아니어야 하지만 서비스 계정에 상당한 수의 읽기 전용 권한을 부여해야 합니다. 아래 표를 참조하십시오
+* Dell EMC Isilon/PowerScale 클러스터의 IP 주소/정규화된 도메인 이름입니다
 * 포트 8080에 대한 HTTPS 액세스
 
 
+[cols="3*"]
+|===
+| 권한 이름 | 설명 | R(읽기) 또는 RW(읽기+쓰기) 
+
+
+| isi_PRIV_LOGIN_PAPI | 플랫폼 API | R 
+
+
+| isi_PRIV_SYS_TIME | 시간 | R 
+
+
+| isi_PRIV_AUTH | 인증 | R 
+
+
+| isi_PRIV_ROLE | 권한 | R 
+
+
+| isi_PRIV_devices를 참조하십시오 | 장치 | R 
+
+
+| isi_PRIV_EVENT | 이벤트 | R 
+
+
+| isi_PRIV_HDFS입니다 | HDFS입니다 | R 
+
+
+| isi_PRIV_NDMP | NDMP | R 
+
+
+| isi_PRIV_NETWORK | 네트워크 | R 
+
+
+| isi_prIV_nfs를 선택합니다 | NFS 를 참조하십시오 | R 
+
+
+| isi_PRIV_PAPI_CONFIG | 플랫폼 API를 구성합니다 | R 
+
+
+| isi_PRIV_quota를 입력합니다 | 할당량 | R 
+
+
+| isi_PRIV_SmartPools를 참조하십시오 | SmartPools를 참조하십시오 | R 
+
+
+| isi_PRIV_smb입니다 | 중소기업 | R 
+
+
+| isi_PRIV_statistics | 통계 | R 
+
+
+| isi_PRIV_SWIFT | 스위프트 | R 
+
+
+| isi_PRIV_JOB_ENGINE | 작업 엔진 | R 
+|===
 
 
 == 구성

@@ -10017,11 +10017,7 @@
   <block id="0df3afc7b3c290bc4820d50b2bee11b4" category="cell">총 CPU 대기 시간(백분율</block>
   <block id="2c4465560ecae928ff0585737c3acf45" category="cell">VMware API를 참조하십시오</block>
   <block id="2c10282d2a9ce8be1576d7af8091d09e" category="cell">웹 서비스</block>
-  <block id="0753e08d2099f6fb56f0191df767e0ba" category="summary">Dell EMC Isilon REST 데이터 수집기 구성</block>
   <block id="831b6c031c23b2fb141faacc1a32e259" category="doc">Dell EMC Isilon REST 데이터 수집기</block>
-  <block id="217490c15d5d6327064ed967c723d781" category="paragraph">Cloud Insights는 Dell EMC Isilon REST SSH 데이터 수집기를 사용하여 Dell EMC Isilon 스토리지에서 인벤토리 및 성능 데이터를 가져옵니다.</block>
-  <block id="cb26c1838104b42002ba287ea3e3752c" category="list-text">Dell EMC Isilon REST 스토리지에 대한 관리자 권한</block>
-  <block id="e5683ef2f0e1f3f72d1ef304f0454234" category="list-text">Dell EMC Isilon REST 클러스터의 IP 주소입니다</block>
   <block id="6d06382ef6c5abdd0a682226c6351821" category="list-text">포트 8080에 대한 HTTPS 액세스</block>
   <block id="f7ef35e4c0665f97997b1078e76e42c4" category="cell">Isilon IP 주소입니다</block>
   <block id="ed705ee9e97ca31274136726da061128" category="cell">Isilon 스토리지의 IP 주소 또는 정규화된 도메인 이름입니다</block>
@@ -10667,4 +10663,43 @@
   <block id="cec4dc8de5b452ea8fc272799bc79fd2" category="list-text">다음 구성 요소 버전을 참고하십시오. NetApp Kubernetes Monitoring Operator에 포함된 최신 버전입니다. 이러한 버전을 사용하는 경우 특히 주의해야 합니다 <block ref="ad7958052a58410baa9b486d50045d2a" category="inline-xref-macro-rx"></block>:</block>
   <block id="6c427ef0d84924952ea57287d5c12a55" category="paragraph">모든 오픈 소스 종속성을 전용 Docker 레지스트리에 다운로드합니다. 다음 오픈 소스 이미지를 다운로드해야 합니다. 를 참조하십시오 <block ref="972589b8633c88ae3dbc8b66dfee3076" category="inline-xref-macro-rx"></block> 위의 섹션에서 이러한 구성 요소의 최신 버전을 확인하십시오.</block>
   <block id="29668e5fb5605cd58bd9225b6fba6375" category="admonition">이 데이터 수집기는 입니다 <block ref="88ca6a9abe9d198dfefab0128680ed01" category="inline-link-macro-rx"></block> 2023년 1월 1일 기준. AU 기반 데이터 수집으로 전환하는 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="334c0315e59c6351d5f9bac4d495b3ee" category="inline-link-macro-rx"></block>.</block>
+  <block id="9d8dde207423e16514f1a132221a65a3" category="summary">Dell EMC Isilon/PowerScale REST 데이터 수집기 구성</block>
+  <block id="9b7f99f4d867484d5fc5fad6f84567ba" category="paragraph">Cloud Insights는 Dell EMC Isilon/PowerScale REST 데이터 수집기를 사용하여 Dell EMC Isilon 또는 PowerScale 스토리지의 인벤토리 및 성능 데이터를 수집합니다.</block>
+  <block id="c40dff11b6ddb88303480bb455edaf14" category="cell">OneFS 파일 시스템</block>
+  <block id="c593547a39a4d7895f41492d41fd6fa3" category="list-text">사용자 계정 및 암호 이 계정은 admin/root가 아니어야 하지만 서비스 계정에 상당한 수의 읽기 전용 권한을 부여해야 합니다. 아래 표를 참조하십시오</block>
+  <block id="af44c06ccccd08beeff0d7957f243408" category="list-text">Dell EMC Isilon/PowerScale 클러스터의 IP 주소/정규화된 도메인 이름입니다</block>
+  <block id="15d376ae9e5a3799316180bf3070ad88" category="cell">권한 이름</block>
+  <block id="9019fb7f7c068bc6edb9c4340b55c1c5" category="cell">R(읽기) 또는 RW(읽기+쓰기)</block>
+  <block id="963857a2ad2add510a3c8e8e92a423f3" category="cell">isi_PRIV_LOGIN_PAPI</block>
+  <block id="def2f9f4aa2617140f4dd5c5a3f24b5b" category="cell">플랫폼 API</block>
+  <block id="4b43b0aee35624cd95b910189b3dc231" category="cell">R</block>
+  <block id="5e85a82da12cfca2cad28aa9508fdc15" category="cell">isi_PRIV_SYS_TIME</block>
+  <block id="0a3a4d748a122b035682208bd5e84787" category="cell">isi_PRIV_AUTH</block>
+  <block id="632c9594449737188c71ee1c8534f893" category="cell">인증</block>
+  <block id="cca04218e3b6ca898379e198a4b59aa7" category="cell">isi_PRIV_ROLE</block>
+  <block id="144edebc7d680a1f3b7e7ae1c2fff7e8" category="cell">권한</block>
+  <block id="9282327bbff35c097faac8bdf5b9891a" category="cell">isi_PRIV_devices를 참조하십시오</block>
+  <block id="c03ca67dda321195d74c951097f240c6" category="cell">장치</block>
+  <block id="d1e0b6b8453f4eb3909c60afa51b566d" category="cell">isi_PRIV_EVENT</block>
+  <block id="a4ecfc70574394990cf17bd83df499f7" category="cell">이벤트</block>
+  <block id="0b0274a3c0093308144eae82def207d4" category="cell">isi_PRIV_HDFS입니다</block>
+  <block id="99c35850ff7cf7e436b03acedd4c59b3" category="cell">HDFS입니다</block>
+  <block id="4ff6187fe5e41829d108176083b21772" category="cell">isi_PRIV_NDMP</block>
+  <block id="aae155889087fca42368d9fab8b54ee6" category="cell">NDMP</block>
+  <block id="aa4fed61beff5eb8acd840edbf5d7d85" category="cell">isi_PRIV_NETWORK</block>
+  <block id="9be6d026725b28c5643df1ba4d3f2aaa" category="cell">isi_prIV_nfs를 선택합니다</block>
+  <block id="1d1a594959ec615f56516f5d0f5e8ddb" category="cell">NFS 를 참조하십시오</block>
+  <block id="1bdc01efdf38c567830396ed11e1c193" category="cell">isi_PRIV_PAPI_CONFIG</block>
+  <block id="20fd145128d82c8b05b30bbc8967cfde" category="cell">플랫폼 API를 구성합니다</block>
+  <block id="47b804cea51bbf8f2daf858f04eb96a1" category="cell">isi_PRIV_quota를 입력합니다</block>
+  <block id="01ec84c1cb4dcaa246e1b37cd19538e2" category="cell">isi_PRIV_SmartPools를 참조하십시오</block>
+  <block id="a2164456aeafaa51594bf1de5db0185d" category="cell">SmartPools를 참조하십시오</block>
+  <block id="ab28ab57fc135cc30bdc67d53989fada" category="cell">isi_PRIV_smb입니다</block>
+  <block id="b4fdd997b1f33e0d4c6964444c2bf399" category="cell">중소기업</block>
+  <block id="ea5436e53483185a1e2acf0a16f7569f" category="cell">isi_PRIV_statistics</block>
+  <block id="c33e404a441c6ba9648f88af3c68a1ca" category="cell">통계</block>
+  <block id="8bc28094efd6fecee0c858baa4c0c1d7" category="cell">isi_PRIV_SWIFT</block>
+  <block id="ae832e9b5bda2699db45f3fa6aa8c556" category="cell">스위프트</block>
+  <block id="7793f7416a4d38be57956421d8dd181c" category="cell">isi_PRIV_JOB_ENGINE</block>
+  <block id="aa6591610b53847bfb4e19e53c0b4a05" category="cell">작업 엔진</block>
 </blocks>
