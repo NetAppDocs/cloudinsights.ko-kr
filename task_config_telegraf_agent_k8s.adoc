@@ -23,13 +23,13 @@ image:kubernetes_tile.png["Kubernetes Data Collector 타일"]
 
 [[nkmoversion]]
 .전제 조건:
-* 다음 구성 요소 버전을 참고하십시오. NetApp Kubernetes Monitoring Operator에 포함된 최신 버전입니다. 이러한 버전을 사용하는 경우 특히 주의해야 합니다 <<using-a-custom-or-private-docker-repository,사용자 지정 또는 프라이빗 Docker 저장소 사용>>:
+* 다음 구성 요소 버전을 참고하십시오. NetApp Kubernetes Monitoring Operator에 포함된 current_required_versions입니다. 이러한 버전을 사용하는 경우 특히 주의해야 합니다 <<using-a-custom-or-private-docker-repository,사용자 지정 또는 프라이빗 Docker 저장소 사용>>:
 +
 ** 텔레그라프: 1.24.0
-** kubbe-RBAC-proxy: v1.13.0
+** kubbe-RBAC-proxy: v0.13.0
 ** kubbe-state-metrics: v2.6.0
 ** 유창한 비트: 1.9.8
-** Kubernetes - 이벤트 - 수출자: 0.10
+** Kubernetes - 이벤트 - 수출자: v0.10
 
 
 * NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 버전 1.20 이상에서 지원됩니다.

@@ -6611,7 +6611,6 @@
   <block id="76dfc651463ab4e67ce2140b8aadb473" category="paragraph">서명된 체크섬 파일은 PEM 파일을 사용하여 확인할 수 있습니다.</block>
   <block id="fbc384836aa7cdd1a408df0773faf595" category="list-text">Windows(위의 Import-Certificate를 통해 인증서 설치 후):</block>
   <block id="6c32334bfce9f857b0fdbdca68040a0b" category="paragraph">모든 아티팩트가 만족스럽게 확인되면 다음을 실행하여 에이전트 설치를 시작할 수 있습니다.</block>
-  <block id="e7d024454be5ad9e8d0f6defe29e154f" category="section-title">Agent 설치 문제 해결</block>
   <block id="19032097e8464bc9b326d59737b0bdbc" category="paragraph">상담원 설정에 문제가 있는 경우 다음과 같은 방법을 시도해 보십시오.</block>
   <block id="fb0132b157c251ea47224310ff68ee9b" category="cell">Cloud Insights를 사용하여 이미 에이전트를 설치했습니다</block>
   <block id="1fed0141939f301599f8ba56fcb40b18" category="cell">호스트/VM에 이미 에이전트를 설치한 경우 에이전트를 다시 설치할 필요가 없습니다. 이 경우 Agent 설치 화면에서 해당 플랫폼 및 키를 선택하고 * 계속 * 또는 * 마침 * 을 클릭합니다.</block>
@@ -8901,7 +8900,6 @@
   <block id="47cd86500d3fa5dbb08c20995b256c69" category="list-text">텔레그라프: 1.24.0</block>
   <block id="479cd5be40ccd07011d75823574c7b07" category="list-text">kubbe-state-metrics: v2.6.0</block>
   <block id="a36b7ead4d7f7dfbc23cbc2511314f24" category="list-text">유창한 비트: 1.9.8</block>
-  <block id="91a4eb349c44870597460ac8e58becf0" category="list-text">Kubernetes - 이벤트 - 수출자: 0.10</block>
   <block id="e7cd0bdb5140849b9f1cd2c88adf53d0" category="list-text">NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 버전 1.20 이상에서 지원됩니다.</block>
   <block id="f555190cc628f345214d8d00c587f506" category="list-text">Cloud Insights가 백엔드 스토리지를 모니터링하고 Docker 컨테이너 런타임과 함께 Kubernetes를 사용하는 경우 Cloud Insights는 NFS 및 iSCSI에 대한 Pod-PV-스토리지 매핑을 표시할 수 있고, 다른 런타임에는 iSCSI만 표시할 수 있습니다.</block>
   <block id="1d71a30c3f76311c39e7b21e9d36041f" category="list-text">2022년 8월부터 NetApp Kubernetes Monitoring Operator는 Pod 보안 정책(PSP)을 지원합니다. 반드시 해야 합니다 <block ref="7ef2e8367766700cf003a7bef00d93ae" category="inline-xref-macro-rx"></block> 해당 환경에서 PSP를 사용하는 경우 최신 NetApp Kubernetes 모니터링 사업자로 이동합니다.</block>
@@ -10654,9 +10652,7 @@
   <block id="14af2cecff51d4bd977845145cc871e8" category="list-text">* 삭제됨 *: 제거되었으며 더 이상 사용할 수 없는 데이터 수집기입니다.</block>
   <block id="b92e6e167ffd0f1968a046d49559d1cd" category="list-text">획득 장치: 데이터 수집기를 호스팅하는 전용 컴퓨터(일반적으로 가상 머신)입니다. 이 컴퓨터는 일반적으로 모니터링되는 항목과 동일한 데이터 센터/VPC에 위치합니다.</block>
   <block id="c5b4625b23c5673b268b9b686102faa0" category="list-text">데이터 소스: 하드웨어 또는 소프트웨어 스택과 통신하는 모듈입니다. 장치와 통신하기 위해 AU 컴퓨터에서 실행되는 구성 및 코드로 구성됩니다.</block>
-  <block id="a9ebd75df07545c9605b7773e7c21558" category="list-text">kubbe-RBAC-proxy: v1.13.0</block>
   <block id="8fb0051ea6a7b111ebe0cc9dc3e71e2a" category="inline-xref">사용자 지정 또는 프라이빗 Docker 저장소 사용</block>
-  <block id="cec4dc8de5b452ea8fc272799bc79fd2" category="list-text">다음 구성 요소 버전을 참고하십시오. NetApp Kubernetes Monitoring Operator에 포함된 최신 버전입니다. 이러한 버전을 사용하는 경우 특히 주의해야 합니다 <block ref="ad7958052a58410baa9b486d50045d2a" category="inline-xref-macro-rx"></block>:</block>
   <block id="6c427ef0d84924952ea57287d5c12a55" category="paragraph">모든 오픈 소스 종속성을 전용 Docker 레지스트리에 다운로드합니다. 다음 오픈 소스 이미지를 다운로드해야 합니다. 를 참조하십시오 <block ref="972589b8633c88ae3dbc8b66dfee3076" category="inline-xref-macro-rx"></block> 위의 섹션에서 이러한 구성 요소의 최신 버전을 확인하십시오.</block>
   <block id="29668e5fb5605cd58bd9225b6fba6375" category="admonition">이 데이터 수집기는 입니다 <block ref="88ca6a9abe9d198dfefab0128680ed01" category="inline-link-macro-rx"></block> 2023년 1월 1일 기준. AU 기반 데이터 수집으로 전환하는 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="334c0315e59c6351d5f9bac4d495b3ee" category="inline-link-macro-rx"></block>.</block>
   <block id="9d8dde207423e16514f1a132221a65a3" category="summary">Dell EMC Isilon/PowerScale REST 데이터 수집기 구성</block>
@@ -10706,4 +10702,9 @@
   <block id="d81b3ffd1c59a02baf7dbf4e905471a5" category="list-text">사용자 이름 및 암호</block>
   <block id="4723d1b438a15598881f85467c0b7be8" category="cell">성능 폴링 간격입니다.</block>
   <block id="485f7bb9e7cc7894cf2e75343120bbf5" category="paragraph">환경이 생성되면 언제든지 NetApp Cloud Portal에 로그인하여 * Go to Cloud Insights * 을 클릭하면 됩니다. Cloud Insights 환경으로 바로 이동합니다.</block>
+  <block id="4e6966e86a775d896fac148f8f919b74" category="list-text">다음 구성 요소 버전을 참고하십시오. NetApp Kubernetes Monitoring Operator에 포함된 current_required_versions입니다. 이러한 버전을 사용하는 경우 특히 주의해야 합니다 <block ref="ad7958052a58410baa9b486d50045d2a" category="inline-xref-macro-rx"></block>:</block>
+  <block id="6c7ca580ed97b823c501ac9c614a22e3" category="list-text">kubbe-RBAC-proxy: v0.13.0</block>
+  <block id="09fac59df2e8bc91f55d933bf9d5c4b9" category="list-text">Kubernetes - 이벤트 - 수출자: v0.10</block>
+  <block id="051aaec40811db88a3eb9b87af9a7838" category="cell">새 플러그인을 구성하고 Telegraf를 다시 시작한 후 Teleraf가 시작되지 않습니다. 로그에 다음과 유사한 오류가 표시됩니다. "[텔레그라프] 에이전트 실행 중 오류: 구성 파일 /etc/Telegraf/Telegraf.d/클라우드.default.conf: 플러그인 출력. http: line 88: 구성에서 ["use_system_proxy"] 필드를 지정했지만 사용되지 않았습니다."</block>
+  <block id="39930ddf87d2960ef2f5a8ff06e4993e" category="cell">설치된 Telegraf 버전이 오래되었습니다. 이 페이지의 단계를 따라 해당 플랫폼에 대해 Agent * 를 업그레이드합니다.</block>
 </blocks>
