@@ -9,14 +9,20 @@ summary: Dell EMC Unisphere REST 데이터 수집기 구성
 
 
 [role="lead"]
-이 데이터 수집기는 Dell EMC Unisphere RESTstorage 시스템에서 인벤토리 및 성능 데이터를 가져옵니다. 구성을 위해서는 Unisphere 서버의 IP 주소와 관리 수준 도메인 계정이 필요합니다.
+이 데이터 수집기는 Dell EMC Unisphere for PowerMax/VMAX 3 관리 시스템에서 인벤토리 및 성능 데이터를 가져옵니다.
+
+Dell/EMC는 Unisphere 10.0까지 볼륨 통계를 제공하지 않았습니다. 이 데이터 수집기는 9.2.0+를 지원하지만 볼륨 통계가 없으므로 이 통계를 수집할 수 없습니다.
+
+한 Unisphere for VMAX/PowerMax 인스턴스가 하나 이상의 Symmetrix 3 이상의 스토리지 시스템을 관리하고 있을 수 있습니다. 이 Collector는 기본적으로 모든 스토리지 시스템을 검색하려고 시도합니다.
+
+구성을 위해 데이터 수집기는 Unisphere 서버의 IP 주소/FQDN, 포트 8443에 대한 TCP 연결, 사용자 이름 및 암호가 필요합니다.
 
 
 
 == 요구 사항
 
-* Unisphere 서버의 IP 주소입니다
-* Unisphere 서버의 관리 레벨 도메인 계정입니다
+* Unisphere 서버의 IP 주소/정규화된 도메인 이름입니다
+* 사용자 이름 및 암호
 * 포트 8443.
 
 
@@ -52,7 +58,7 @@ summary: Dell EMC Unisphere REST 데이터 수집기 구성
 | 재고 폴링 간격(분) | 기본값은 40분입니다. 
 
 
-| 성능 폴링 간격(초) | 성능 폴링 간격입니다. 기본값은 600초입니다. 
+| 성능 폴링 간격(초) | 성능 폴링 간격입니다. 
 
 
 | 목록을 지정하려면 '제외' 또는 '포함'을 선택하십시오 | VM 포함 또는 제외 여부를 지정합니다 

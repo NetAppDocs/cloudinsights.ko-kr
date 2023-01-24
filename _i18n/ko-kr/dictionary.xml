@@ -1925,7 +1925,6 @@
   <block id="3b1f676d06286548e11b332567f42bbd" category="inline-link-macro">구독을 시작합니다</block>
   <block id="93219f4a6fd1dbd20138a0a65d6e08de" category="paragraph">무료 평가판 사용 시 가능합니다 <block ref="822a67eb96671d13fff372a75b259713" category="inline-link-macro-rx"></block> Cloud Insights에 언제든지. 구독하면 현재 구독에 따라 Cloud Insights 기능을 사용할 수 있습니다.</block>
   <block id="2c4bb88652ba26d23266d851053ba465" category="section-title">로그인 후 이동</block>
-  <block id="3c43cc5f14a9a8d5c0d0ad13a6807635" category="paragraph">테넌트가 생성되면 언제든지 NetApp Cloud Portal에 로그인하여 * Go to Cloud Insights * 를 클릭하면 됩니다. Cloud Insights 환경으로 바로 이동합니다.</block>
   <block id="8dac70c4541c93f0deed8b8bd734a673" category="paragraph">브라우저를 Cloud Insights 환경 URL로 직접 열 수도 있습니다. 예를 들면 다음과 같습니다.</block>
   <block id="0e15f0ff9eb552105028ff08fc92e09f" category="paragraph">URL은 각 사용자의 초대 이메일에도 포함되어 있어 간단한 액세스와 북마크 기능을 제공합니다. 사용자가 Cloud Central에 아직 로그인하지 않은 경우 로그인하라는 메시지가 표시됩니다.</block>
   <block id="0df3e25ccf83cd4779234f7f928bebb5" category="admonition">새 사용자는 계속해서 Cloud Central에 등록하여 해당 환경 URL에 액세스할 수 있어야 합니다.</block>
@@ -9255,9 +9254,6 @@
   <block id="a8f52a9563e47eb33fbdc4c48dfcf8f5" category="paragraph">를 추가할 때 주의하십시오<block ref="d95c3cfe38a15370491721a373f38df2" category="inline-link-macro-rx"></block>_, 이 사용자는 ONTAP 관리 LIF에 대한 SSH 액세스를 필요로 합니다.</block>
   <block id="db18ee26726e25e2183f42a056469c60" category="summary">Dell EMC Unisphere REST 데이터 수집기 구성</block>
   <block id="35c1883b40d011465b36533e553b9174" category="doc">Dell EMC Unisphere REST 데이터 수집기 구성</block>
-  <block id="40a4716908f3dbdf4bcc8ba2f723c402" category="paragraph">이 데이터 수집기는 Dell EMC Unisphere RESTstorage 시스템에서 인벤토리 및 성능 데이터를 가져옵니다. 구성을 위해서는 Unisphere 서버의 IP 주소와 관리 수준 도메인 계정이 필요합니다.</block>
-  <block id="178aa8940482ece4128332c5293d4776" category="list-text">Unisphere 서버의 IP 주소입니다</block>
-  <block id="e14ac1a874c2bab29d6bc82d3f0dbce3" category="list-text">Unisphere 서버의 관리 레벨 도메인 계정입니다</block>
   <block id="0dd81cc00ee33beff836edf2f63e0184" category="list-text">포트 8443.</block>
   <block id="c62ee42653af581fe8eb16fb07118e8a" category="cell">Unisphere 서버의 IP 주소입니다</block>
   <block id="2b6e86a54babfc32273d61df437cae05" category="cell">Unisphere 서버의 IP 주소 또는 정규화된 도메인 이름입니다</block>
@@ -10702,4 +10698,12 @@
   <block id="ae832e9b5bda2699db45f3fa6aa8c556" category="cell">스위프트</block>
   <block id="7793f7416a4d38be57956421d8dd181c" category="cell">isi_PRIV_JOB_ENGINE</block>
   <block id="aa6591610b53847bfb4e19e53c0b4a05" category="cell">작업 엔진</block>
+  <block id="c0accd1360dce3944f0726ef704217c0" category="paragraph">이 데이터 수집기는 Dell EMC Unisphere for PowerMax/VMAX 3 관리 시스템에서 인벤토리 및 성능 데이터를 가져옵니다.</block>
+  <block id="7e8e4c2fd39cb301da1af7afb93e8962" category="paragraph">Dell/EMC는 Unisphere 10.0까지 볼륨 통계를 제공하지 않았습니다. 이 데이터 수집기는 9.2.0+를 지원하지만 볼륨 통계가 없으므로 이 통계를 수집할 수 없습니다.</block>
+  <block id="e3a699248ac2af0be8e4036425dd0b04" category="paragraph">한 Unisphere for VMAX/PowerMax 인스턴스가 하나 이상의 Symmetrix 3 이상의 스토리지 시스템을 관리하고 있을 수 있습니다. 이 Collector는 기본적으로 모든 스토리지 시스템을 검색하려고 시도합니다.</block>
+  <block id="da3865d5e1a7d870e4707356b907f643" category="paragraph">구성을 위해 데이터 수집기는 Unisphere 서버의 IP 주소/FQDN, 포트 8443에 대한 TCP 연결, 사용자 이름 및 암호가 필요합니다.</block>
+  <block id="bd4968db059d70adcf0b67815d5ba188" category="list-text">Unisphere 서버의 IP 주소/정규화된 도메인 이름입니다</block>
+  <block id="d81b3ffd1c59a02baf7dbf4e905471a5" category="list-text">사용자 이름 및 암호</block>
+  <block id="4723d1b438a15598881f85467c0b7be8" category="cell">성능 폴링 간격입니다.</block>
+  <block id="485f7bb9e7cc7894cf2e75343120bbf5" category="paragraph">환경이 생성되면 언제든지 NetApp Cloud Portal에 로그인하여 * Go to Cloud Insights * 을 클릭하면 됩니다. Cloud Insights 환경으로 바로 이동합니다.</block>
 </blocks>
