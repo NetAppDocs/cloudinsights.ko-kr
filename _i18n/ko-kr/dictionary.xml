@@ -6322,7 +6322,6 @@
   <block id="2ccb9ffac0ed017ddb6e68683bb0b7d5" category="list-text">설치, 스크립트 실행 및 제거에 sudo 권한이 필요합니다.</block>
   <block id="19b6dd145ff77b5b97341237076cba16" category="section-title">Agent 설치 단계</block>
   <block id="fc62cd9124318118e4abaac940b4a091" category="list-text">Cloud Secure 환경에 관리자 또는 계정 소유자로 로그인합니다.</block>
-  <block id="ba6a231cc4fc57afa76b3f2a42f71f11" category="list-text">Admin &gt; Data Collector &gt; Agents &gt; + Agent * 를 클릭합니다</block>
   <block id="f9eb6ee79f8b49445d9d7860e9a080c0" category="paragraph">Agent 추가 페이지가 표시됩니다.</block>
   <block id="0e9fa577800a5653127fdb5f3d4400aa" category="image-alt">상담원 1을 추가합니다</block>
   <block id="212db90a8b360d05f82119713ca87853" category="list-text">에이전트 서버가 최소 시스템 요구 사항을 충족하는지 확인합니다.</block>
@@ -10711,4 +10710,5 @@
   <block id="7cc579c6f20ffbe0b9452d6f5fff9167" category="cell">Telegraf 에이전트를 제거한 다음 설치 스크립트를 다시 실행합니다. 해당 플랫폼에 대해 이 페이지의 * 에이전트 업그레이드 * 단계를 따릅니다.</block>
   <block id="6ff3c19fa7be83723b830f7a88ebff57" category="cell">공격이 감지된 후 24시간 이내에 이메일 경고가 수신됩니다. UI에서 알림은 Cloud Insights 워크로드 보안에서 이메일을 수신하기 24시간 전에 표시됩니다.</block>
   <block id="c5b841da6fee0eba42d21333b80aa983" category="cell">ONTAP가 _랜섬웨어 탐지_이벤트를 Cloud Insights 워크로드 보안(예: Cloud Secure)으로 전송하면 이메일이 전송됩니다. 이벤트에는 공격 목록과 타임 스탬프가 포함됩니다. 워크로드 보안 UI는 첫 번째 공격 파일의 경고 타임스탬프를 표시합니다. ONTAP는 특정 수의 파일이 인코딩될 때 _ 랜섬웨어 탐지 _ 이벤트를 Cloud Insights로 전송합니다. 따라서 알림이 UI에 표시되는 시간과 이메일을 보낸 시간 사이에 차이가 있을 수 있습니다.</block>
+  <block id="41515808c69d7153bb45ebb8e41a4426" category="list-text">Security * 메뉴에서 * Admin &gt; Data Collector &gt; Agents &gt; + Agent * 를 선택합니다</block>
 </blocks>

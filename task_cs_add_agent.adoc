@@ -24,7 +24,7 @@ Cloud Secure는 하나 이상의 에이전트를 사용하여 사용자 활동 �
 == Agent 설치 단계
 
 . Cloud Secure 환경에 관리자 또는 계정 소유자로 로그인합니다.
-. Admin > Data Collector > Agents > + Agent * 를 클릭합니다
+. Security * 메뉴에서 * Admin > Data Collector > Agents > + Agent * 를 선택합니다
 +
 Agent 추가 페이지가 표시됩니다.
 
