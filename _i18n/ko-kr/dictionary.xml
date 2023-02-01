@@ -6731,7 +6731,6 @@
   <block id="79deb14b609e20ab4254e44371a31dd1" category="cell">오류: SNMP v1에서 성능 획득을 지원하지 않습니다</block>
   <block id="61cf21f87693dd829edeec21b6b04d9f" category="cell">• 데이터 소스 편집 및 스위치 성능 비활성화 • SNMP v2 이상을 사용하도록 데이터 소스 및 스위치 구성을 수정합니다</block>
   <block id="c45671a9389f697917f0b33d12822c51" category="section-title">Cloud Volumes ONTAP 스토리지 구성</block>
-  <block id="3760923e63b2ef4cd5a4ef21ab164f35" category="paragraph">OnCommand 에이전트를 호스팅하도록 단일 노드/HA AWS 인스턴스를 구성하려면 Cloud Secure Cloud Manager 설명서를 참조하십시오.<block ref="3a865d6888eced2f74a21bc9d0b68884" category="inline-link-rx"></block></block>
   <block id="60b02ea35fab7476f0f0cf2d8cfc680d" category="paragraph">구성이 완료되면 단계에 따라 SVM을 설정합니다.<block ref="91221d0756e81d23329189ffc4e6701a" category="inline-link-rx"></block></block>
   <block id="05abd2814c8e2afbecb8ce23a813ae1e" category="list-text">AWS 콘솔에 로그인하고 EC2-Instances 페이지로 이동한 후 _Launch instance_를 선택합니다.</block>
   <block id="ebd9fe3d2d05d2d59edd81d254e15f43" category="list-text">이 페이지에서 언급한 대로 적절한 버전의 RHEL 또는 CentOS AMI를 선택합니다.<block ref="88c5ea1bab9ebb4c4d613c4f534b0ff9" category="inline-link-rx"></block></block>
@@ -10725,4 +10724,5 @@
   <block id="6fb7bed0df7f6e9e4f06d0f0caeafead" category="list-text">NFSv4: node</block>
   <block id="dc3586fd8e7ef27b39459d19e3935fa6" category="list-text">policy_group입니다</block>
   <block id="e6d9fd6d6edf829b4a80664e36d20387" category="list-text">workload_volume</block>
+  <block id="eb7df28f88bc327c30fcc0b6ef2648ff" category="paragraph">Cloud Secure 에이전트를 호스팅할 단일 노드/HA AWS 인스턴스를 구성하려면 OnCommand Cloud Volumes ONTAP 설명서를 참조하십시오.<block ref="caca64b8e9927e0ea8e8b0158b9e47cd" category="inline-link-rx"></block></block>
 </blocks>

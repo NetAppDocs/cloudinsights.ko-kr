@@ -15,7 +15,7 @@ Cloud Secure는 데이터 수집기를 사용하여 디바이스에서 파일 �
 
 == Cloud Volumes ONTAP 스토리지 구성
 
-OnCommand 에이전트를 호스팅하도록 단일 노드/HA AWS 인스턴스를 구성하려면 Cloud Secure Cloud Manager 설명서를 참조하십시오.https://docs.netapp.com/us-en/occm/index.html[]
+Cloud Secure 에이전트를 호스팅할 단일 노드/HA AWS 인스턴스를 구성하려면 OnCommand Cloud Volumes ONTAP 설명서를 참조하십시오.https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/index.html[]
 
 구성이 완료되면 단계에 따라 SVM을 설정합니다.https://docs.netapp.com/us-en/cloudinsights/task_add_collector_svm.html[]
 
