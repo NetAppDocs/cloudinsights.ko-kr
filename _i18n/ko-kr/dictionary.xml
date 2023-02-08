@@ -9112,7 +9112,6 @@
   <block id="3ced589e562d46b29e694b31e9c7fca0" category="paragraph"><block ref="3ced589e562d46b29e694b31e9c7fca0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="96c34d1f7d481501b76770e1cf0aad24" category="section-title">비즈니스 연속성을 위한 SnapMirror를 포함하는 새로운 기본 ONTAP 모니터 11개</block>
   <block id="951faa2232d4e162c12ecfe8efc935f7" category="section-title">오퍼레이터 튜닝</block>
-  <block id="a1b1659beda08b73f97de0ea7bc13015" category="paragraph">맞춤형 리소스에 대한 특정 변수를 미세 조정하여 NetApp Kubernetes Monitoring Operator를 조정하여 성능을 최적화할 수 있습니다. 설정할 수 있는 변수는 다음 표를 참조하십시오.</block>
   <block id="96048bda0887b5a0f48d8c883520b7e4" category="section-title">자원 관련 변수</block>
   <block id="48ae4cc2516c0c1c61d11b3c15b76e31" category="paragraph">을 참조하십시오<block ref="19549dd2acef25ebc56164759e0da3e4" category="inline-link-rx"></block> Kubernetes 리소스에 대한 자세한 내용은</block>
   <block id="68753d36ec0c4d7768b20993268d68d1" category="cell">자리 표시자</block>
@@ -10804,4 +10803,7 @@
   <block id="8cc71ef7dc274562927b7d0e2e19c749" category="paragraph">내보낸 데이터에는 현재 필터링, 열 및 표시된 열 이름이 반영됩니다.</block>
   <block id="2a4088a8e32ec82a0eddec8da7e8c7ce" category="inline-link-macro">* 이 페이지 *</block>
   <block id="7826a8ff3c18c0f0f97a0002dc3d32e8" category="paragraph">이 페이지는 스터브입니다. 최신 Unisphere 설명서는 를 참조하십시오 <block ref="1318defb47cf6fd1af8008e47e16552f" category="inline-link-macro-rx"></block>.</block>
+  <block id="64a4677d63e0753d438e5ff1996b08dd" category="paragraph">맞춤형 리소스에 대한 특정 변수를 미세 조정하여 NetApp Kubernetes Monitoring Operator를 조정하여 성능을 최적화할 수 있습니다. 조정할 수 있는 변수의 지침과 목록은 설치 패키지에 포함된 README 파일을 참조하십시오. 운영자를 설치한 후 다음 명령을 사용하여 README를 봅니다.</block>
+  <block id="60adfc96965dc4b561d28aa82001462f" category="paragraph">//- 튜닝 섹션 Custom Resources에 대한 특정 변수를 미세 조정하여 최적의 성능을 제공하도록 NetApp Kubernetes Monitoring Operator를 조정할 수 있습니다. 설정할 수 있는 변수는 다음 표를 참조하십시오.</block>
+  <block id="6bfc80ca044f246ded7fc934d4dacbaa" category="paragraph">///- 엔드 튜닝 섹션</block>
 </blocks>
