@@ -8614,7 +8614,6 @@
   <block id="c1bdaebddc4968d3e08193cf297db84b" category="paragraph">NetApp Kubernetes Monitoring Operator를 시작하려면 다음을 수행합니다.</block>
   <block id="a945216a5c61e628c867b8948c797454" category="section-title">Kube-state-metrics 정보</block>
   <block id="0b17bce222385cebd477477b188e6434" category="paragraph">Kubernetes에서 스크립트 기반 에이전트를 제거하려면(예: NetApp Kubernetes Monitoring Operator로 업그레이드할 때) 다음을 수행합니다.</block>
-  <block id="98e7ede570d702984a8e51f5e4f2020c" category="section-title">NetApp Kubernetes Monitoring Operator를 제거하려면</block>
   <block id="ef4dfc875301d9f830ec745c939d757b" category="section-title">스크립트 기반 에이전트에서 NetApp Kubernetes 모니터링 사업자로 업그레이드</block>
   <block id="a27dfe771799a09fd55fea73286eb6ab" category="inline-xref">설치 제거</block>
   <block id="349838fb1d851d3e2014b9fe39203275" category="inline-xref">설치합니다</block>
@@ -9112,55 +9111,6 @@
   <block id="3ced589e562d46b29e694b31e9c7fca0" category="paragraph"><block ref="3ced589e562d46b29e694b31e9c7fca0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="96c34d1f7d481501b76770e1cf0aad24" category="section-title">비즈니스 연속성을 위한 SnapMirror를 포함하는 새로운 기본 ONTAP 모니터 11개</block>
   <block id="951faa2232d4e162c12ecfe8efc935f7" category="section-title">오퍼레이터 튜닝</block>
-  <block id="96048bda0887b5a0f48d8c883520b7e4" category="section-title">자원 관련 변수</block>
-  <block id="48ae4cc2516c0c1c61d11b3c15b76e31" category="paragraph">을 참조하십시오<block ref="19549dd2acef25ebc56164759e0da3e4" category="inline-link-rx"></block> Kubernetes 리소스에 대한 자세한 내용은</block>
-  <block id="68753d36ec0c4d7768b20993268d68d1" category="cell">자리 표시자</block>
-  <block id="ea53661974db2e8f508ebaa82ccd2186" category="cell">플러그인 이름</block>
-  <block id="2bcec99e49575ad7495a1f67c1de4959" category="cell">기본 CR에 포함되어 있습니다</block>
-  <block id="b4706783c74b583b849dec44244e0769" category="cell">dS_CPU_limits_placeholder</block>
-  <block id="b33aed8f3134996703dc39f9a7c95783" category="cell">에이전트</block>
-  <block id="a6105c0a611b41b08f1209506350279e" category="cell">예</block>
-  <block id="0a57cc70e7770be281f9f3ce922b12d1" category="cell">Telegraf-DS용 Kubernetes CPU 제한</block>
-  <block id="1a787d14f3feb6b75ce78f6ba8c6a6ad" category="cell">DS_MEM_LIMITS_PLACEHOLDER</block>
-  <block id="9a9cf23499b5ffe058c266e2557594ed" category="cell">Telegraf-DS에 대한 Kubernetes의 제한</block>
-  <block id="6787619d810a62301cfe3986961a1d04" category="cell">dS_CPU_REQUEST_PLACEHOLDER</block>
-  <block id="dc0f3fe777e76630e42220f636fc7d1b" category="cell">Telegraf-DS에 대한 Kubernetes CPU 요청</block>
-  <block id="a136b52a334f06bfed5d34605efc0c81" category="cell">DS_MEM_REQUEST_PLACEHOLDER</block>
-  <block id="01d0f0ddea62ac91a518098feb187a76" category="cell">Telegraf-DS에 대한 Kubernetes 메모리 요청</block>
-  <block id="47d9f5d0f8345e77baa49d703d1e9d5c" category="cell">RS_CPU_limits_placeholder</block>
-  <block id="b2099247c65bb590909309709da41854" category="cell">Telegraf-RS용 Kubernetes CPU 제한.</block>
-  <block id="908e0027b0ea0b83ac192fd20985b34d" category="cell">RS_MEM_LIMITS_PLACEHOLDER</block>
-  <block id="12b80e3c2015d911b0eab1e322d926f7" category="cell">Telegraf-RS에 대한 Kubernetes의 제한</block>
-  <block id="d4f7b3571528f35166f994786bee2cb2" category="cell">RS_CPU_REQUEST_PLACEHOLDER</block>
-  <block id="e03accbf3b5bcddce610e5ff05d09a29" category="cell">Telegraf-RS에 대한 Kubernetes CPU 요청</block>
-  <block id="adc9a0a4cdda5bbbe46704a9751971a7" category="cell">RS_MEM_REQUEST_PLACEHOLDER</block>
-  <block id="79e16b40b1419f42c36ef18f76783ff9" category="cell">Telegraf-RS에 대한 Kubernetes 메모리 요청</block>
-  <block id="0d52b63b9d6858d70f27067dd2a1b91a" category="cell">KSM_CPU_REQUEST_PLACEHOLDER:</block>
-  <block id="2e242b44ce0ebe39f93a9d810adfadca" category="cell">KSM</block>
-  <block id="e94acefe296bba41a2d295c8684c0b14" category="cell">쿠버네티스 CPU에서 쿠버형 상태 메트릭 구축 요청</block>
-  <block id="4943c86156886c7cfbb190fe01c59ca7" category="cell">KSM_MEM_REQUEST_PLACEHOLDER:</block>
-  <block id="0b5850489d8ea1e260d1203468d09e7c" category="section-title">텔레그라프 관련 변수</block>
-  <block id="eded4b0b40be66bb81af506bf533ea6d" category="paragraph">을 참조하십시오<block ref="a57af3030212cc232882badf869b6fb2" category="inline-link-rx"></block> Telegraf 변수에 대한 정보</block>
-  <block id="17e862e0d627631d3770ee2cc3255858" category="cell">collection_interval_placeholder 를 선택합니다</block>
-  <block id="7fa3b767c460b54a2be4d49030b349c7" category="cell">아니요</block>
-  <block id="38f25ed2ee1b45d388cc5af584c70545" category="cell">(Telegraf interval, type interval 설정): 모든 플러그인에 대한 입력 사이에서 텔레그라프가 대기하는 기본 시간입니다. 유효한 시간 단위는 ns, us(또는 µs), ms, s, m, H.</block>
-  <block id="0c5cc8876422312d89004cb1f600b851" category="cell">round_interval_placeholder</block>
-  <block id="1f2d0c385cfe5c1a729bb9e7f8f13713" category="cell">(Telegraf round_interval을 설정하고 boolean을 입력합니다) 간격의 배수로 메트릭을 수집합니다</block>
-  <block id="f5e4f1bcff9a2d39aeb108c652c23205" category="cell">metric_batch_size_placeholder</block>
-  <block id="8bcb41818f3497bb61361ced4a104aa8" category="cell">(Telegraf metric_batch_size를 설정하고 int를 입력합니다) 출력에 대한 최대 레코드 수 Telegraf가 한 번에 쓸 수 있습니다</block>
-  <block id="06b90ee01cbb3baeb861030079f77ecf" category="cell">metric_buffer_limit_placeholder</block>
-  <block id="ecb435ec5f91c74ad6ca1fdf7414a729" category="cell">(Telegraf metric_buffer_limit를 설정하고 int를 입력) 출력에 대한 최대 레코드 수 텔레그라프가 쓰기 성공 보류 중인 캐시를 캐시합니다</block>
-  <block id="1b61ee31d3240912a6cafe1ae9258a94" category="cell">collection_jitter_placeholder</block>
-  <block id="1d8b9fc83e1b2df342c83db4875a8e55" category="cell">(Telegraf collection_jitter, type interval 설정): 각 플러그인은 입력을 수집하기 전에 예약된 수집 시간과 해당 시간 + collection_jitter 사이의 임의 시간을 기다립니다</block>
-  <block id="650fddf6ef6836da5a5aa99d82b646a4" category="cell">Precision_PLACEHOLDER</block>
-  <block id="e80918a0f864d9a4edb4b4e130c25b8a" category="cell">(Telegraf 정밀도 설정, 유형 간격): 수집된 메트릭은 지정된 정밀도로 반올림됩니다. "0"으로 설정하면 정밀도가 간격별로 지정된 단위로 설정됩니다</block>
-  <block id="a0d693a0a6903c7999674981d46e18e3" category="cell">Flush_interval_placeholder</block>
-  <block id="9a0c7ed26262fd92d386749f837f4417" category="cell">(Telegraf flush_interval, type interval 설정): 쓰기 출력 사이에 텔레그라프가 대기하는 기본 시간.</block>
-  <block id="edbddddcb9b46587aa5372e83e30128b" category="cell">flush_jitter_placeholder</block>
-  <block id="80e03f34f54617c08347cbb1c11f1f16" category="cell">(Telegraf flush_jitter, type interval 설정): 각 출력은 예약된 쓰기 시간과 출력 쓰기 전 해당 시간 + flush_jitter 사이의 임의 시간을 대기하게 됩니다</block>
-  <block id="82ae7df2222778ee2748567434e1d911" category="section-title">기타 변수</block>
-  <block id="327fbef93ac997add024577e1fdbe932" category="cell">curl_CMD_PLACEHOLDER</block>
-  <block id="e26f9e15502407e5b6563d355fe4ae2c" category="cell">curl 명령은 다양한 리소스를 다운로드하는 데 사용됩니다. 예) "curl" 또는 "curl-k"</block>
   <block id="eab883150545736105e8c88087257995" category="section-title">SMBC(비즈니스 연속성을 위한 SnapMirror) 중재자 로그 모니터</block>
   <block id="e0828fd72232d137dafad759271fe0fb" category="cell">ONTAP 중재자가 추가되었습니다</block>
   <block id="46f05e41dafc7ca3fdb415dafaeadb9f" category="cell">이 메시지는 ONTAP 중재자가 클러스터에 성공적으로 추가될 때 발생합니다.</block>
@@ -9217,10 +9167,6 @@
   <block id="264c2ff438f1c2937cbafcf5ecabe5b5" category="paragraph">ONTAP 버전 9.9.1의 서비스 정책을 사용하는 경우 데이터 소스 수집기에 연결하려면 데이터 서비스 _data-nfs_ 및/또는 _data-cifs_와 함께 _data-fPolicy-client_service가 필요합니다.</block>
   <block id="ee22588534e4e3b699a85e968f56f4a7" category="paragraph">9.9.1 이전의 ONTAP 버전에서는 _data-FPolicy-client_를 설정할 필요가 없습니다.</block>
   <block id="cab974fdccabc8d42fdf59c797a3fc04" category="paragraph">참고: 최신 NetApp Kubernetes Monitoring Operator가 설치되어 있고 재생 가능한 API 액세스 토큰을 사용하는 경우, 만료되는 토큰이 자동으로 새/업데이트된 API 액세스 토큰으로 대체됩니다. 아래 나열된 수동 단계를 수행할 필요는 없습니다.</block>
-  <block id="af86c3e377ed087766345c6ec320cf2f" category="paragraph">이러한 값을 수정하려면 다음 명령을 사용하여 상담원 CR을 편집합니다(이름 공간에 &lt;namespace&gt; 대체).</block>
-  <block id="6800e2e34dd968ad7e050c54fdac00b9" category="paragraph">CR 사양은 다음과 같은 형식을 따릅니다.</block>
-  <block id="18236218f34d8d7222ddf98e7ce4511c" category="paragraph">"기본 CR에 포함됨"에 대해 "예"로 표시된 항목은 이미 상담원 CR에 있으며 해당 플러그인에서 찾을 수 있습니다. "아니요"로 표시된 항목은 포함된 기본 대체 항목에서 제공하는 예제 다음에 수동으로 추가해야 합니다.</block>
-  <block id="3f60b096843929b02e1a070f57e27584" category="cell">변수 이름</block>
   <block id="44ba65ef8e60d1727d77c9b3244b6b01" category="inline-xref">사용자</block>
   <block id="a8f52a9563e47eb33fbdc4c48dfcf8f5" category="paragraph">를 추가할 때 주의하십시오<block ref="d95c3cfe38a15370491721a373f38df2" category="inline-link-macro-rx"></block>_, 이 사용자는 ONTAP 관리 LIF에 대한 SSH 액세스를 필요로 합니다.</block>
   <block id="db18ee26726e25e2183f42a056469c60" category="summary">Dell EMC Unisphere REST 데이터 수집기 구성</block>
@@ -10804,6 +10750,5 @@
   <block id="2a4088a8e32ec82a0eddec8da7e8c7ce" category="inline-link-macro">* 이 페이지 *</block>
   <block id="7826a8ff3c18c0f0f97a0002dc3d32e8" category="paragraph">이 페이지는 스터브입니다. 최신 Unisphere 설명서는 를 참조하십시오 <block ref="1318defb47cf6fd1af8008e47e16552f" category="inline-link-macro-rx"></block>.</block>
   <block id="64a4677d63e0753d438e5ff1996b08dd" category="paragraph">맞춤형 리소스에 대한 특정 변수를 미세 조정하여 NetApp Kubernetes Monitoring Operator를 조정하여 성능을 최적화할 수 있습니다. 조정할 수 있는 변수의 지침과 목록은 설치 패키지에 포함된 README 파일을 참조하십시오. 운영자를 설치한 후 다음 명령을 사용하여 README를 봅니다.</block>
-  <block id="60adfc96965dc4b561d28aa82001462f" category="paragraph">//- 튜닝 섹션 Custom Resources에 대한 특정 변수를 미세 조정하여 최적의 성능을 제공하도록 NetApp Kubernetes Monitoring Operator를 조정할 수 있습니다. 설정할 수 있는 변수는 다음 표를 참조하십시오.</block>
-  <block id="6bfc80ca044f246ded7fc934d4dacbaa" category="paragraph">///- 엔드 튜닝 섹션</block>
+  <block id="f9d83bcd2ea0c04a50e5e1cd5bc469ac" category="section-title">NetApp Kubernetes Monitoring Operator를 제거하려면 다음을 수행합니다</block>
 </blocks>

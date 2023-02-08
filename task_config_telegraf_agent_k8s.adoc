@@ -332,7 +332,7 @@ Kubernetes에서 스크립트 기반 에이전트를 제거하려면(예: NetApp
  kubectl --namespace ci-monitoring delete ds,rs,cm,sa,clusterrole,clusterrolebinding -l app=ci-telegraf
 
 
-=== NetApp Kubernetes Monitoring Operator를 제거하려면
+=== NetApp Kubernetes Monitoring Operator를 제거하려면 다음을 수행합니다
 
 NetApp Kubernetes Monitoring Operator의 기본 네임스페이스는 "NetApp 모니터링"입니다. 고유한 네임스페이스를 설정한 경우 이러한 네임스페이스 및 모든 후속 명령 및 파일로 대체합니다.
 
@@ -439,114 +439,6 @@ PEM 파일의 지문이 다음과 같은 것인지 확인하여 PEM 파일을 �
 맞춤형 리소스에 대한 특정 변수를 미세 조정하여 NetApp Kubernetes Monitoring Operator를 조정하여 성능을 최적화할 수 있습니다. 조정할 수 있는 변수의 지침과 목록은 설치 패키지에 포함된 README 파일을 참조하십시오. 운영자를 설치한 후 다음 명령을 사용하여 README를 봅니다.
 
  kubectl exec -c manager -it <operator-pod-name> -n <namespace> -- cat configs/substitution-vars/README.txt
-//- 튜닝 섹션 Custom Resources에 대한 특정 변수를 미세 조정하여 최적의 성능을 제공하도록 NetApp Kubernetes Monitoring Operator를 조정할 수 있습니다. 설정할 수 있는 변수는 다음 표를 참조하십시오.
-
-이러한 값을 수정하려면 다음 명령을 사용하여 상담원 CR을 편집합니다(이름 공간에 <namespace> 대체).
-
- kubectl edit agent agent-monitoring-netapp -n <namespace>
-CR 사양은 다음과 같은 형식을 따릅니다.
-
-[listing]
-----
- - name: <plugin-name>
-   ...
-   substitutions:
-   - key: <variable-name>
-     value: <desired-value>
-     ...
-----
-"기본 CR에 포함됨"에 대해 "예"로 표시된 항목은 이미 상담원 CR에 있으며 해당 플러그인에서 찾을 수 있습니다. "아니요"로 표시된 항목은 포함된 기본 대체 항목에서 제공하는 예제 다음에 수동으로 추가해야 합니다.
-
-
-
-=== 자원 관련 변수
-
-을 참조하십시오 https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/[] Kubernetes 리소스에 대한 자세한 내용은
-
-|===
-
-
-| 변수 이름 | 플러그인 이름 | 기본 CR에 포함되어 있습니다 | 설명 
-
-
-| dS_CPU_limits_placeholder | 에이전트 | 예 | Telegraf-DS용 Kubernetes CPU 제한 
-
-
-| DS_MEM_LIMITS_PLACEHOLDER | 에이전트 | 예 | Telegraf-DS에 대한 Kubernetes의 제한 
-
-
-| dS_CPU_REQUEST_PLACEHOLDER | 에이전트 | 예 | Telegraf-DS에 대한 Kubernetes CPU 요청 
-
-
-| DS_MEM_REQUEST_PLACEHOLDER | 에이전트 | 예 | Telegraf-DS에 대한 Kubernetes 메모리 요청 
-
-
-| RS_CPU_limits_placeholder | 에이전트 | 예 | Telegraf-RS용 Kubernetes CPU 제한. 
-
-
-| RS_MEM_LIMITS_PLACEHOLDER | 에이전트 | 예 | Telegraf-RS에 대한 Kubernetes의 제한 
-
-
-| RS_CPU_REQUEST_PLACEHOLDER | 에이전트 | 예 | Telegraf-RS에 대한 Kubernetes CPU 요청 
-
-
-| RS_MEM_REQUEST_PLACEHOLDER | 에이전트 | 예 | Telegraf-RS에 대한 Kubernetes 메모리 요청 
-
-
-| KSM_CPU_REQUEST_PLACEHOLDER: | KSM | 예 | 쿠버네티스 CPU에서 쿠버형 상태 메트릭 구축 요청 
-
-
-| KSM_MEM_REQUEST_PLACEHOLDER: | KSM | 예 | 쿠버네티스 CPU에서 쿠버형 상태 메트릭 구축 요청 
-|===
-
-
-=== 텔레그라프 관련 변수
-
-을 참조하십시오 https://github.com/influxdata/telegraf/blob/master/docs/CONFIGURATION.md#agent[] Telegraf 변수에 대한 정보
-
-|===
-
-
-| 자리 표시자 | 플러그인 이름 | 기본 CR에 포함되어 있습니다 | 설명 
-
-
-| collection_interval_placeholder 를 선택합니다 | 에이전트 | 아니요 | (Telegraf interval, type interval 설정): 모든 플러그인에 대한 입력 사이에서 텔레그라프가 대기하는 기본 시간입니다. 유효한 시간 단위는 ns, us(또는 µs), ms, s, m, H. 
-
-
-| round_interval_placeholder | 에이전트 | 아니요 | (Telegraf round_interval을 설정하고 boolean을 입력합니다) 간격의 배수로 메트릭을 수집합니다 
-
-
-| metric_batch_size_placeholder | 에이전트 | 아니요 | (Telegraf metric_batch_size를 설정하고 int를 입력합니다) 출력에 대한 최대 레코드 수 Telegraf가 한 번에 쓸 수 있습니다 
-
-
-| metric_buffer_limit_placeholder | 에이전트 | 아니요 | (Telegraf metric_buffer_limit를 설정하고 int를 입력) 출력에 대한 최대 레코드 수 텔레그라프가 쓰기 성공 보류 중인 캐시를 캐시합니다 
-
-
-| collection_jitter_placeholder | 에이전트 | 아니요 | (Telegraf collection_jitter, type interval 설정): 각 플러그인은 입력을 수집하기 전에 예약된 수집 시간과 해당 시간 + collection_jitter 사이의 임의 시간을 기다립니다 
-
-
-| Precision_PLACEHOLDER | 에이전트 | 아니요 | (Telegraf 정밀도 설정, 유형 간격): 수집된 메트릭은 지정된 정밀도로 반올림됩니다. "0"으로 설정하면 정밀도가 간격별로 지정된 단위로 설정됩니다 
-
-
-| Flush_interval_placeholder | 에이전트 | 아니요 | (Telegraf flush_interval, type interval 설정): 쓰기 출력 사이에 텔레그라프가 대기하는 기본 시간. 
-
-
-| flush_jitter_placeholder | 에이전트 | 아니요 | (Telegraf flush_jitter, type interval 설정): 각 출력은 예약된 쓰기 시간과 출력 쓰기 전 해당 시간 + flush_jitter 사이의 임의 시간을 대기하게 됩니다 
-|===
-
-
-=== 기타 변수
-
-|===
-
-
-| 자리 표시자 | 플러그인 이름 | 기본 CR에 포함되어 있습니다 | 설명 
-
-
-| curl_CMD_PLACEHOLDER | 에이전트 | 예 | curl 명령은 다양한 리소스를 다운로드하는 데 사용됩니다. 예) "curl" 또는 "curl-k" 
-|===
-///- 엔드 튜닝 섹션
-
 
 
 == 문제 해결
