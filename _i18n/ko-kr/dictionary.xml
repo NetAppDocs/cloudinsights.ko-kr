@@ -8869,7 +8869,6 @@
   <block id="f34adaf8e760e7cb58ba333e44c4dc52" category="inline-image-macro">Kubernetes Data Collector 타일</block>
   <block id="a0eda368f17db54a54c6f0246fd5c816" category="paragraph"><block ref="a0eda368f17db54a54c6f0246fd5c816" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6a65175f7f76169aeeaf32acdda0d82f" category="section-title">NetApp Kubernetes Monitoring Operator를 설치하기 전에</block>
-  <block id="47cd86500d3fa5dbb08c20995b256c69" category="list-text">텔레그라프: 1.24.0</block>
   <block id="479cd5be40ccd07011d75823574c7b07" category="list-text">kubbe-state-metrics: v2.6.0</block>
   <block id="a36b7ead4d7f7dfbc23cbc2511314f24" category="list-text">유창한 비트: 1.9.8</block>
   <block id="e7cd0bdb5140849b9f1cd2c88adf53d0" category="list-text">NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 버전 1.20 이상에서 지원됩니다.</block>
@@ -10752,4 +10751,5 @@
   <block id="f9d83bcd2ea0c04a50e5e1cd5bc469ac" category="section-title">NetApp Kubernetes Monitoring Operator를 제거하려면 다음을 수행합니다</block>
   <block id="0ee913a9f3f55f5a7505703cd1663976" category="paragraph">모니터링 운영자 구축을 편집하고 새로운 Docker 저장소 위치를 사용하도록 모든 이미지 참조를 수정합니다.</block>
   <block id="5c19ae7a43d3f48864d792ef857eb222" category="paragraph">새 Docker 저장소 위치를 반영하도록 에이전트 CR을 편집합니다.</block>
+  <block id="9de2afa9a42c7e74a8b83bbef4f14c20" category="list-text">텔레그라프: 1.25.0</block>
 </blocks>
