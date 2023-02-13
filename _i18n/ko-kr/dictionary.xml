@@ -3584,8 +3584,6 @@
   <block id="abf0b3ef23b5557422e33977a6ac3fbf" category="paragraph">Linux: *</block>
   <block id="76812a2c2f6df7659757d83719299fb8" category="list-text">획득 장치 서버/VM에서 다음 명령을 실행합니다.</block>
   <block id="fcee21cb77c380c25d5b88c1b64869b8" category="list-text">설치 제거에 대한 도움말을 보려면 다음을 실행합니다.</block>
-  <block id="ec62359e3a6ba69aa52f3e51f45e7418" category="paragraph">* 둘 다: *</block>
-  <block id="0de5666c48f0424cee331c8922fd923a" category="list-text">AU 소프트웨어를 제거한 후 * Admin &gt; Data Collector * 로 이동하여 * Acquisition Units * 탭을 선택합니다.</block>
   <block id="c3cda1df3a7bb86d771c8e59aac35b0e" category="list-text">제거할 획득 장치 오른쪽에 있는 옵션 단추를 클릭하고 _Delete_를 선택합니다. 데이터 수집기가 할당되지 않은 경우에만 획득 단위를 삭제할 수 있습니다.</block>
   <block id="4262a364178344226a6201df72deaa22" category="paragraph">참고: 기본 획득 장치는 삭제할 수 없습니다. 기존 AU를 삭제하기 전에 다른 AU를 기본값으로 선택하십시오.</block>
   <block id="9cfc47a14abb521242e2e73ee615049c" category="section-title">획득 장치 재설치</block>
@@ -5037,8 +5035,6 @@
   <block id="a2f4ff91518afeccf570d0fb794c2f7f" category="paragraph">사용자 환경에서 실행 중인 특정 애플리케이션과 관련된 데이터를 추적하려면 Cloud Insights에서 애플리케이션을 정의할 수 있습니다.</block>
   <block id="598c4639acaf0f3c5a419f9cf865ef56" category="paragraph">애플리케이션을 업무 엔티티에 연결하려면 애플리케이션을 정의하기 전에 업무 엔티티를 생성해야 합니다.</block>
   <block id="2aa126063928df72d8a5e53cda4a3e12" category="paragraph">Cloud Insights를 사용하면 사용 또는 비용 보고와 같은 애플리케이션에 연결된 자산의 데이터를 추적할 수 있습니다.</block>
-  <block id="6d9d461026a19a3d065af99db5765921" category="paragraph">. Cloud Insights 메뉴에서 * 관리 &gt; 응용 프로그램 * 을 클릭합니다.</block>
-  <block id="0062c1fbde704d862293af74f9c341ee" category="paragraph">+ 응용 프로그램 추가 대화 상자가 표시됩니다.</block>
   <block id="b32a7920a5087ed62d85b129fb5ce33b" category="list-text">응용 프로그램의 고유한 이름을 입력합니다.</block>
   <block id="c418529bd36204e932f103b225c97cb8" category="list-text">응용 프로그램의 우선 순위를 선택합니다.</block>
   <block id="9bf2dd1afa4d073358de477920a2956b" category="section-title">자산에 애플리케이션 할당</block>
@@ -10752,4 +10748,11 @@
   <block id="0ee913a9f3f55f5a7505703cd1663976" category="paragraph">모니터링 운영자 구축을 편집하고 새로운 Docker 저장소 위치를 사용하도록 모든 이미지 참조를 수정합니다.</block>
   <block id="5c19ae7a43d3f48864d792ef857eb222" category="paragraph">새 Docker 저장소 위치를 반영하도록 에이전트 CR을 편집합니다.</block>
   <block id="9de2afa9a42c7e74a8b83bbef4f14c20" category="list-text">텔레그라프: 1.25.0</block>
+  <block id="613a30078b8f568ccca3b9cbd8a35c12" category="list-text">Cloud Insights 메뉴에서 * 관리 &gt; 응용 프로그램 * 을 클릭합니다.</block>
+  <block id="8358341ae527ee11b5b1dc8e8f22edea" category="paragraph">응용 프로그램 추가 대화 상자가 표시됩니다.</block>
+  <block id="bb374d8c356a5d359ebba50b5ef633f2" category="paragraph">Windows* 획득 장치를 제거하는 경우:</block>
+  <block id="a886e4f3e66f17a2a7e88a935487cb43" category="paragraph">Linux* 획득 장치를 제거하는 경우:</block>
+  <block id="d4753c8dc9f05ec4405ea93fbcb61bf4" category="paragraph">* Windows 및 Linux: *</block>
+  <block id="1a4b5bab3c6a1557ac96614783640d94" category="paragraph">* AU 제거 후 *:</block>
+  <block id="f84622756d630c61f2eb9ed3a66d0828" category="list-text">Cloud Insights에서 * 관리자 &gt; 데이터 수집기 * 로 이동하고 * 획득 단위 * 탭을 선택합니다.</block>
 </blocks>

@@ -153,13 +153,19 @@ image:ProxyEndpoints_NewTable.png["프록시 끝점 테이블"]
 
 획득 장치 소프트웨어를 제거하려면 다음을 수행합니다.
 
+'''
 * Windows: *
+
+Windows* 획득 장치를 제거하는 경우:
 
 . 획득 장치 서버/VM에서 제어판을 열고 * 프로그램 제거 * 를 선택합니다. 제거할 Cloud Insights 획득 장치 프로그램을 선택합니다.
 . 제거 를 클릭하고 화면의 지시를 따릅니다.
 
 
+'''
 Linux: *
+
+Linux* 획득 장치를 제거하는 경우:
 
 . 획득 장치 서버/VM에서 다음 명령을 실행합니다.
 +
@@ -169,14 +175,18 @@ Linux: *
  sudo cloudinsights-uninstall.sh --help
 
 
-* 둘 다: *
+'''
+* Windows 및 Linux: *
 
-. AU 소프트웨어를 제거한 후 * Admin > Data Collector * 로 이동하여 * Acquisition Units * 탭을 선택합니다.
+* AU 제거 후 *:
+
+. Cloud Insights에서 * 관리자 > 데이터 수집기 * 로 이동하고 * 획득 단위 * 탭을 선택합니다.
 . 제거할 획득 장치 오른쪽에 있는 옵션 단추를 클릭하고 _Delete_를 선택합니다. 데이터 수집기가 할당되지 않은 경우에만 획득 단위를 삭제할 수 있습니다.
 
 
 참고: 기본 획득 장치는 삭제할 수 없습니다. 기존 AU를 삭제하기 전에 다른 AU를 기본값으로 선택하십시오.
 
+'''
 
 
 == 획득 장치 재설치
