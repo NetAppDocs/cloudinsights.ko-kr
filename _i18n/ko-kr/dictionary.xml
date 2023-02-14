@@ -10754,4 +10754,5 @@
   <block id="1a4b5bab3c6a1557ac96614783640d94" category="paragraph">* AU 제거 후 *:</block>
   <block id="f84622756d630c61f2eb9ed3a66d0828" category="list-text">Cloud Insights에서 * 관리자 &gt; 데이터 수집기 * 로 이동하고 * 획득 단위 * 탭을 선택합니다.</block>
   <block id="d4753c8dc9f05ec4405ea93fbcb61bf4" category="paragraph">* Windows 및 Linux: *</block>
+  <block id="7e21d0cb987bd6dbc8582754783e182c" category="list-text">Get/{schema}/** - 보고 데이터베이스에서 데이터를 검색합니다.</block>
 </blocks>

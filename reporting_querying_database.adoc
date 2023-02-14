@@ -62,7 +62,7 @@ API 키가 있으면 이제 보고 데이터베이스의 직접 쿼리를 수행
 
 모든 통화의 URL은 _\https://<Cloud Insights URL>/REST/v1/dWh-management/OData_입니다.
 
-* Get/{schema}/** - 보고 데이터베이스에서 데이터를 검색합니다. 적어도 _Guest_role이 필요합니다.
+* Get/{schema}/** - 보고 데이터베이스에서 데이터를 검색합니다.
 
 
 Format:_\https://<Cloud Insights URL>/REST/v1/dWh-management/OData/<schema_name>/<query> _
