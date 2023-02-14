@@ -176,7 +176,7 @@ Linux* 획득 장치를 제거하는 경우:
 
 
 '''
-ec62359e3a6ba69aa52f3e51f45e7418
+* Windows 및 Linux: *
 
 * AU 제거 후 *:
 

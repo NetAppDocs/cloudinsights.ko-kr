@@ -6559,7 +6559,6 @@
   <block id="368e58ca73434aae8ab3a7bf3f6d2955" category="paragraph">Kubernetes에서 스크립트 기반 에이전트를 제거하려면 다음을 수행합니다.</block>
   <block id="71342d32523395c97fae80cc75bd023d" category="paragraph">모니터링 네임스페이스를 Telegraf 전용으로 사용하는 경우:</block>
   <block id="e940152e87eec8b40c6335f4aac3e4b7" category="paragraph">모니터링 네임스페이스를 Telegraf(전신) 외에 다른 용도로 사용하는 경우:</block>
-  <block id="37fa33c86fdccdaa2b45e4dbf0cc8be1" category="list-text">기존 구성 백업:</block>
   <block id="99b7973dda927022b1a7232d7b78e926" category="section-title">체크섬을 확인하는 중입니다</block>
   <block id="06da10bf5b15bdaae23d623ecea6b7f6" category="paragraph">Cloud Insights 에이전트 설치 프로그램은 무결성 검사를 수행하지만 일부 사용자는 다운로드한 아티팩트를 설치하거나 적용하기 전에 자체 검증을 수행하려고 할 수 있습니다. 기본 다운로드 및 설치 대신 다운로드 전용 작업을 수행하기 위해 이러한 사용자는 UI에서 가져온 에이전트 설치 명령을 편집하고 뒤에 오는 "설치" 옵션을 제거할 수 있습니다.</block>
   <block id="deadee5e2cfce7600cfd5def40a7d618" category="paragraph">다음 단계를 수행하십시오.</block>
@@ -10754,4 +10753,5 @@
   <block id="a886e4f3e66f17a2a7e88a935487cb43" category="paragraph">Linux* 획득 장치를 제거하는 경우:</block>
   <block id="1a4b5bab3c6a1557ac96614783640d94" category="paragraph">* AU 제거 후 *:</block>
   <block id="f84622756d630c61f2eb9ed3a66d0828" category="list-text">Cloud Insights에서 * 관리자 &gt; 데이터 수집기 * 로 이동하고 * 획득 단위 * 탭을 선택합니다.</block>
+  <block id="d4753c8dc9f05ec4405ea93fbcb61bf4" category="paragraph">* Windows 및 Linux: *</block>
 </blocks>
