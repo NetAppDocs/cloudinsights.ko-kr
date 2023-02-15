@@ -211,7 +211,7 @@ sidebar:
         url: "/task_config_cs_incloud.html"
       - title: Cloud Secure 사용자 관리
         url: "/task_cs_user_management.html"
-      - title: 이벤트 속도 검사기
+      - title: 이벤트 속도 검사기(에이전트 크기 지정 가이드)
         url: "/concept_cs_event_rate_checker.html"
     - title: 경고
       url: "/cs_alert_data.html"
