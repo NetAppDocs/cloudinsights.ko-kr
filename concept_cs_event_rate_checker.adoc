@@ -2,14 +2,16 @@
 sidebar: sidebar 
 permalink: concept_cs_event_rate_checker.html 
 summary: ONTAP SVM DSC를 설치하기 전에 이 스크립트를 실행하여 SVM의 이벤트 속도를 확인할 수 있습니다 
-keywords: event, checker, rate, sizing 
+keywords: event, checker, rate, sizing, size, guide, 
 ---
-= SVM 이벤트 속도 검사기
+= SVM Event Rate Checker(사이징 가이드)
 :allow-uri-read: 
 
 
 [role="lead"]
-이벤트 속도 검사기는 ONTAP SVM 데이터 수집기를 설치하기 전에 SVM에서 NFS/SMB의 결합된 이벤트 속도를 확인하여 에이전트 시스템 한 대를 모니터링할 수 있는 SVM의 수를 확인하는 데 사용됩니다. Agent는 최대 50개의 데이터 수집기를 지원할 수 있습니다.
+이벤트 속도 검사기는 ONTAP SVM 데이터 수집기를 설치하기 전에 SVM에서 NFS/SMB의 결합된 이벤트 속도를 확인하여 에이전트 시스템 한 대를 모니터링할 수 있는 SVM의 수를 확인하는 데 사용됩니다. 이벤트 속도 검사기를 크기 조정 가이드로 사용하여 상담원 요구 사항을 계획할 수 있습니다.
+
+Agent는 최대 50개의 데이터 수집기를 지원할 수 있습니다.
 
 
 

@@ -2430,8 +2430,6 @@
   <block id="a6fe30cef6ad189dc3685c855c858b10" category="cell"><block ref="a6fe30cef6ad189dc3685c855c858b10" category="inline-link-macro-rx"></block></block>
   <block id="82cb9bc9a2d4a2705c91af9df596adb3" category="inline-link-macro">* 비디오 *: 문제 해결</block>
   <block id="23911ec6737c5f573a24c330a412e271" category="cell"><block ref="23911ec6737c5f573a24c330a412e271" category="inline-link-macro-rx"></block></block>
-  <block id="b6f0cd15b3ce5be3945328a01a08cb66" category="summary">ONTAP SVM DSC를 설치하기 전에 이 스크립트를 실행하여 SVM의 이벤트 속도를 확인할 수 있습니다</block>
-  <block id="4157783a6d651918a4d418c15ddff12f" category="doc">SVM 이벤트 속도 검사기</block>
   <block id="3b31c3fb3c507b79d3f86f2b1e3392f5" category="paragraph">요구 사항:</block>
   <block id="70087224b93e8179deda7438fae8e843" category="list-text">클러스터 IP</block>
   <block id="baf16fe3173b840f1197987b16b3a8fc" category="list-text">클러스터 관리자 사용자 이름 및 암호입니다</block>
@@ -8436,7 +8434,6 @@
   <block id="7b4027634c44a41ce42886c7383adeb4" category="paragraph">이제 ONTAP 시스템에서 FlexVols, 노드 및 SVM의 수정 또는 제거가 감지될 때 Cloud Insights를 구성할 수 있습니다.</block>
   <block id="ba5ed4798f807b143761ea5211f06ea2" category="cell">획득 장치 서버 서비스를 시작할 때 권한이 거부되었습니다</block>
   <block id="abb32e1da1ad856744ba53e096ef4ba3" category="cell">AU가 SELinux에 설치된 경우 SE를 _permissive_mode로 설정해야 합니다. _Enforcing_mode는 지원되지 않습니다. SELinux를 허용 모드로 설정한 후 AU 서비스를 다시 시작합니다. <block ref="a82c78a8c8abe174de58c3bb493cbdd3" category="inline-link-macro-rx"></block>.</block>
-  <block id="eff09a47f0894badbc59afef03e773cb" category="paragraph">이벤트 속도 검사기는 ONTAP SVM 데이터 수집기를 설치하기 전에 SVM에서 NFS/SMB의 결합된 이벤트 속도를 확인하여 에이전트 시스템 한 대를 모니터링할 수 있는 SVM의 수를 확인하는 데 사용됩니다. Agent는 최대 50개의 데이터 수집기를 지원할 수 있습니다.</block>
   <block id="81b0a686a7f070f4718258f6f1c90eea" category="paragraph">a) 이 표를 일반 사이징 가이드로 사용합니다.</block>
   <block id="ff7c0fcd6a31e735a61c001f75426961" category="section-title">예</block>
   <block id="f2803148b76b5b63f68b31927cb35d83" category="section-title">예 9</block>
@@ -10755,4 +10752,8 @@
   <block id="f84622756d630c61f2eb9ed3a66d0828" category="list-text">Cloud Insights에서 * 관리자 &gt; 데이터 수집기 * 로 이동하고 * 획득 단위 * 탭을 선택합니다.</block>
   <block id="d4753c8dc9f05ec4405ea93fbcb61bf4" category="paragraph">* Windows 및 Linux: *</block>
   <block id="7e21d0cb987bd6dbc8582754783e182c" category="list-text">Get/{schema}/** - 보고 데이터베이스에서 데이터를 검색합니다.</block>
+  <block id="b3431d54476e0f70ea6fc00bae48572b" category="summary">ONTAP SVM DSC를 설치하기 전에 이 스크립트를 실행하여 SVM의 이벤트 속도를 확인할 수 있습니다</block>
+  <block id="190dd3a6d5f6ca42267f12b57190351c" category="doc">SVM Event Rate Checker(사이징 가이드)</block>
+  <block id="a2d414ab492937f815ce3679fbf45352" category="paragraph">이벤트 속도 검사기는 ONTAP SVM 데이터 수집기를 설치하기 전에 SVM에서 NFS/SMB의 결합된 이벤트 속도를 확인하여 에이전트 시스템 한 대를 모니터링할 수 있는 SVM의 수를 확인하는 데 사용됩니다. 이벤트 속도 검사기를 크기 조정 가이드로 사용하여 상담원 요구 사항을 계획할 수 있습니다.</block>
+  <block id="ee884395b0c6bb018cd831452f073916" category="paragraph">Agent는 최대 50개의 데이터 수집기를 지원할 수 있습니다.</block>
 </blocks>
