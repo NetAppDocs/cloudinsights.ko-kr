@@ -54,7 +54,10 @@ Cloud Insights는 Linux를 실행하는 Kubernetes 노드 모니터링을 지원
 |===
 * NetApp Kubernetes Monitoring Operator 및 해당 종속성(Telegraf, kubbe-state-metrics, fluentbit 등)은 Arm64 아키텍처를 실행하는 노드에서 지원되지 않습니다.
 * _curl_, _sudo_, _openssl_, _sha256sum_ 및 _kubbctl_ 명령을 사용할 수 있어야 합니다. 최상의 결과를 얻으려면 이러한 명령을 경로에 추가하십시오.
-* NetApp Kubernetes 모니터링 오퍼레이터를 설치하는 데 사용할 호스트에는 타겟 K8s 클러스터와 통신하도록 _kubbtl_을 구성하고 Cloud Insights 환경에 인터넷에 연결되어 있어야 합니다. 이 호스트에 Cloud Insights에 연결할 프록시가 필요한 경우 의 지침을 따릅니다 <<configuring-proxy-support,프록시 지원을 구성하는 중입니다>> 섹션을 참조하십시오.
+
+
+>>>>>> e64b5299cf9e0451417037778f9d37b84b9d9e6b * NetApp Kubernetes Monitoring Operator 설치에 사용할 호스트는 타겟 K8s 클러스터와 통신하도록 _kubtl_을 구성하고 Cloud Insights 환경에 인터넷에 연결되어 있어야 합니다. 이 호스트에 Cloud Insights에 연결할 프록시가 필요한 경우 의 지침을 따릅니다 <<configuring-proxy-support,프록시 지원을 구성하는 중입니다>> 섹션을 참조하십시오.
+
 * NetApp Kubernetes Monitoring Operator는 다른 인스턴스와 충돌을 피하기 위해 고유한 kube-state-metrics를 설치합니다.
 * 설치 중에 프록시 뒤에 있거나 모니터링할 K8s 클러스터를 작동하는 경우 의 지침을 따릅니다 <<configuring-proxy-support,프록시 지원을 구성하는 중입니다>> 섹션을 참조하십시오.
 * Kubernetes 클러스터 역할 및 역할 바인딩을 생성할 수 있는 권한이 있어야 합니다.

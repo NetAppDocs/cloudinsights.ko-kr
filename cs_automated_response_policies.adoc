@@ -25,6 +25,6 @@ image:AutomatedAttackPolicy.png["공격 정책 생성"]
 
 정책 드롭다운 메뉴에서 옵션을 선택하여 자동 응답 정책을 수정하거나 일시 중지할 수 있습니다.
 
-Cloud Secure는 스냅샷 제거 설정에 따라 하루에 한 번씩 스냅샷을 자동으로 삭제합니다.
+워크로드 보안은 스냅샷 삭제 설정에 따라 하루에 한 번씩 스냅샷을 자동으로 삭제합니다.
 
 image:CloudSecure_SnapshotPurgeSettings.png["스냅샷 제거 설정"]

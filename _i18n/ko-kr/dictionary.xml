@@ -293,11 +293,8 @@
   <block id="1ef2bc789e2222bd0185009ea74b515d" category="inline-image-macro">통합 쿼리 필터 예제</block>
   <block id="4e4315d948ef3fd3aad9be88a442863d" category="paragraph"><block ref="4e4315d948ef3fd3aad9be88a442863d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3b878279a04dc47d60932cb294d96259" category="summary">개요</block>
-  <block id="3313b924cfec321d134fd3d3da02982c" category="doc">Cloud Secure 정보</block>
-  <block id="8fe6f63ab7e9419453175ab1ba853a8a" category="paragraph">Cloud Secure는 내부자 위협에 대한 실행 가능한 인텔리전스로 데이터를 보호합니다. 또한 하이브리드 클라우드 환경 전반에서 모든 기업 데이터 액세스에 대한 중앙 집중식 가시성과 제어를 제공하여 보안 및 규정 준수 목표를 충족할 수 있습니다.</block>
   <block id="1729a56cfc89021478498fe0c89a843a" category="section-title">가시성</block>
   <block id="72afd90b781c569f0442e6e45c9f3193" category="paragraph">온프레미스 또는 클라우드에 저장된 주요 기업 데이터에 대한 사용자 액세스를 중앙 집중식으로 파악하고 제어할 수 있습니다.</block>
-  <block id="3fe5b133975ca706df837f62aab8660d" category="paragraph">데이터 액세스 및 제어에 대한 시기 적절하고 정확한 가시성을 제공하지 못하는 도구 및 수동 프로세스를 대체합니다. Cloud Secure은 클라우드와 사내 스토리지 시스템 모두에서 유일하게 작동하여 악의적인 사용자 동작에 대한 실시간 경고를 제공합니다.</block>
   <block id="83f1d9ca1a0c4c2fc51a371c0d773f76" category="section-title">보호</block>
   <block id="54d04d44eb04ed0d85509c90e074b8f6" category="paragraph">악의적인 사용자 또는 손상된 사용자가 조직 데이터를 악용하지 못하도록 고급 머신 러닝 및 이상 징후 탐지를 통해 보호합니다.</block>
   <block id="b979e86b9a609c9d9015d0b66fb3475b" category="paragraph">고급 머신 러닝 및 사용자 동작에 대한 이상 탐지 기능을 통해 비정상적인 데이터 액세스를 경고합니다.</block>
@@ -316,7 +313,6 @@
   <block id="38e47adb6ecfe4df7c79a3a31541dc49" category="inline-link-macro">사용자 액세스 제한</block>
   <block id="221dc2418a55893a5e042c9e03adccdf" category="paragraph">를 참조하십시오 <block ref="0db6a779247705464ce31126448b6e46" category="inline-link-macro-rx"></block> 페이지로 이동하여 IP를 통한 사용자 액세스 제한에 대한 자세한 내용을 확인하십시오.</block>
   <block id="89f1c60e7b4a80e9cdf68af3aa225ef8" category="paragraph">정책 드롭다운 메뉴에서 옵션을 선택하여 자동 응답 정책을 수정하거나 일시 중지할 수 있습니다.</block>
-  <block id="9d74b91cb5611a18b74d4ea2428c3b2c" category="paragraph">Cloud Secure는 스냅샷 제거 설정에 따라 하루에 한 번씩 스냅샷을 자동으로 삭제합니다.</block>
   <block id="ef64e7e27fcc41880602820204326750" category="inline-image-macro">스냅샷 제거 설정</block>
   <block id="58e92099c75821827b7a665f2931deb2" category="paragraph"><block ref="58e92099c75821827b7a665f2931deb2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="79bac41a8e857539d5a75dc7e93e17d8" category="summary">기술 자료 문서를 보거나 NetApp 커뮤니티에 연결하거나, 비디오를 보거나, 지원 요청을 위한 티켓을 열 수 있습니다.</block>
@@ -886,9 +882,7 @@
   <block id="01515237e5a51a70ac5f1a57ab2c74a5" category="cell">제한 기간 제한 제한 제한된 기간 제한 사용자 모드 사용 비율 시스템 사용 총계의 커널 모드 사용에서 제한된 시간 사용 제한</block>
   <block id="be43542983d169babaee275ec60ecb75" category="cell">구성 페이지의 지침에 따라 Cloud Insights에 Docker 메트릭이 표시되지 않습니다.</block>
   <block id="905bf4f9d8189256f8247dcef263d5cb" category="cell">Telegraf 에이전트 로그를 확인하여 다음 오류를 보고하는지 확인합니다. E! 플러그인 오류 [inputs.docker]: Docker 데몬 소켓에 연결하려고 시도하는 동안 권한이 거부되었습니다. 필요한 경우 위에서 지정한 대로 Telegraf 에이전트 액세스를 Docker Unix 소켓에 제공하는 데 필요한 단계를 수행하십시오.</block>
-  <block id="3b8543e370dc52f9a7d19f7a35516bc7" category="summary">Cloud Secure는 비정상적인 사용자 활동이나 잠재적인 공격 발생 시 알림을 생성합니다. 경고 페이지에는 빠르고 쉽게 조사할 수 있도록 이러한 활동이 나열됩니다.</block>
   <block id="df583ae7ba964fd4806b55904da81813" category="doc">경고</block>
-  <block id="5c6ef06bc46e43ffa2753295047c49ad" category="paragraph">Cloud Secure 경고 페이지에는 최근 공격 및/또는 경고의 타임라인이 표시되며 각 문제에 대한 세부 정보를 볼 수 있습니다.</block>
   <block id="ec463f286fdd66eb02ef994e465aa5ef" category="inline-image-macro">알림 목록</block>
   <block id="710f7e812945643ee105a9bd2d01a01f" category="paragraph"><block ref="710f7e812945643ee105a9bd2d01a01f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b92071d61c88498171928745ca53078b" category="section-title">경고</block>
@@ -918,7 +912,6 @@
   <block id="f5d13b5070432d74ba3be2fb78559747" category="section-title">경고 세부 정보 페이지</block>
   <block id="acd90b04487305df2bc9ead72d1b4d5b" category="paragraph">경고 목록 페이지에서 경고 링크를 클릭하여 경고에 대한 세부 정보 페이지를 열 수 있습니다. 경고 세부 정보는 공격 유형 또는 경고 유형에 따라 다를 수 있습니다. 예를 들어, 랜섬웨어 공격 세부 정보 페이지에 다음 정보가 표시될 수 있습니다.</block>
   <block id="328e24be37340d63de24fd6618cca8e1" category="section-title">요약 섹션:</block>
-  <block id="f30c6485c3c21678c5177709acd318b0" category="list-text">공격 유형(랜섬웨어, 태업) 및 경고 ID(Cloud Secure에서 할당)</block>
   <block id="d5a18d6d3a7fe43fabf57a19bb702f39" category="list-text">공격이 감지된 날짜 및 시간입니다</block>
   <block id="9edcf7f99dfc7a9e521c7ad085287595" category="list-text">작업이 수행됨(예: 자동 스냅샷이 작성됨) 스냅샷 시간은 요약 섹션 바로 아래에 표시됩니다.)</block>
   <block id="680ed5ca6ba49d9bc8a5ffda83850464" category="list-text">상태(신규, 진행 중 등)</block>
@@ -941,22 +934,14 @@
   <block id="bf69429297f9f42186bf9ad016e6efd6" category="section-title">경고 알림</block>
   <block id="8c8959fb2c9aef71d75a9af4ab87c3ee" category="paragraph">알림의 전자 메일 알림은 알림의 모든 작업에 대해 알림 받는 사람 목록으로 전송됩니다. 알림 수신자를 구성하려면 * Admin &gt; Notifications * 를 클릭하고 각 수신자의 이메일 주소를 입력합니다.</block>
   <block id="2c4a65782f3fcd193e8e3aab503fa515" category="section-title">보존 정책</block>
-  <block id="cbae874c6c1869f464787967b7675be5" category="paragraph">경고 및 경고는 13개월 동안 유지됩니다. 13개월 이전의 경고 및 경고가 삭제됩니다. Cloud Secure 환경이 삭제된 경우 환경과 관련된 모든 데이터도 삭제됩니다.</block>
   <block id="77422aee0786be7f7c1880b7b0954687" category="cell">다음을 시도해 보십시오.</block>
-  <block id="2ade59eb770748c9b4f1ec3bf11d2785" category="cell">CS(Cloud Secure)가 생성한 스냅샷의 경우 CS 스냅샷의 제거/아카이빙 기간이 있습니까?</block>
   <block id="eb75aeb3b4b2b9734ba3e52f5483f0b2" category="inline-link-macro">ONTAP 설명서</block>
   <block id="5aec7bee9bf7098941b7fab790f89ec8" category="cell">아니요 CS 스냅샷에 대해 설정된 퍼징/아카이빙 기간이 없습니다. 사용자는 CS 스냅샷에 대한 제거 정책을 정의해야 합니다. 을 참조하십시오 <block ref="e3477019d6e8e26c6e36a5c10c372344" category="inline-link-macro-rx"></block> 정책을 설정하는 방법에 대한 정보를 제공합니다.</block>
-  <block id="737c035e56f1291d351198cd40129bca" category="cell">ONTAP에서 매일 매시간 스냅샷을 생성하는 경우가 있습니다. CS(Cloud Secure) 스냅샷이 영향을 미칩니까? CS 스냅샷은 시간별 스냅샷 위치를 가져갈까요? 기본 시간별 스냅샷이 중지됩니까?</block>
-  <block id="78f2d13ea1a156e915b8f9f276e10a75" category="cell">Cloud Secure 스냅샷은 시간별 스냅샷에 영향을 주지 않습니다. CS 스냅샷은 매시간 스냅샷 공간을 차지하지 않으므로 이전과 같이 계속 진행됩니다. 기본 시간별 스냅샷은 중지되지 않습니다.</block>
   <block id="97142806b6f8ba5285f1650e6822a478" category="cell">ONTAP에서 최대 스냅샷 수에 도달하면 어떻게 됩니까?</block>
   <block id="c718437c95f9699cf92562f47fc2c706" category="inline-link-macro">스냅샷 삭제 정책 설정 중</block>
-  <block id="826637d93efeeed5e8cd8bf8191a39f3" category="cell">최대 스냅샷 수에 도달하면 후속 스냅샷 촬영에서 장애가 발생하고 Cloud Secure에서 스냅샷이 가득 찼다는 오류 메시지가 표시됩니다. 사용자는 가장 오래된 스냅샷을 삭제하기 위해 스냅샷 정책을 정의해야 합니다. 그렇지 않으면 스냅샷이 생성되지 않습니다. ONTAP 9.3 이전 버전에서는 볼륨에 최대 255개의 스냅샷 복사본이 포함될 수 있습니다. ONTAP 9.4 이상에서는 볼륨에 최대 1023개의 스냅샷 복사본을 포함할 수 있습니다. 에 대한 자세한 내용은 ONTAP 설명서를 참조하십시오 <block ref="be93a0e4b8c5168a6ec2dc10f7f34d59" category="inline-link-macro-rx"></block>.</block>
-  <block id="c759b4b59725629e086b7d2b70d7f534" category="cell">Cloud Secure에서 스냅샷을 전혀 생성할 수 없습니다.</block>
   <block id="a2649cdb2384d3388d38543a8ba844c7" category="cell">스냅샷을 생성하는 데 사용되는 역할에 https://docs.netapp.com/us-en/cloudinsights/task_add_collector_svm.html#a-note-about-permissions[proper 권한이 할당됨 링크가 있는지 확인합니다. 스냅샷 촬영을 위한 적절한 액세스 권한으로 _csrole_이(가) 생성되었는지 확인합니다. 보안 로그인 역할 create -vserver &lt;vservername&gt; -role csrole -cmddirname "volume snapshot" -access all</block>
-  <block id="a720f8f98793420bc884a9d8009ec3ae" category="cell">Cloud Secure에서 제거된 SVM에서 이전 경고에 대한 스냅샷이 실패하고, 이후 다시 추가됩니다. SVM을 다시 추가한 후에 발생하는 새 경고의 경우 스냅샷이 생성됩니다.</block>
   <block id="1e325041509ea982dbf0cb285dc1f84d" category="cell">이는 드문 시나리오입니다. 이 문제가 발생하는 경우 ONTAP에 로그인하고 이전 알림에 대해 스냅샷을 수동으로 생성합니다.</block>
   <block id="7490716e612a9644196d7f0a4d26b1fe" category="cell">Alert Details_ 페이지에서 _Take Snapshot_ 버튼 아래에 "Last attempt failed" 오류 메시지가 표시됩니다. 오류 위로 마우스를 가져가면 "ID가 있는 데이터 수집기에 대해 API 호출 명령이 시간 초과되었습니다"라는 메시지가 표시됩니다.</block>
-  <block id="1156fd7eccf8e785d477f6cf58127ae1" category="cell">이는 SVM의 LIF가 ONTAP에서 _ disabled_state인 경우 SVM 관리 IP를 통해 Cloud Secure에 데이터 수집기를 추가할 때 발생할 수 있습니다. ONTAP에서 특정 LIF를 설정하고 Cloud Secure에서 수동으로 스냅샷 생성 _ 을(를) 트리거합니다. 그러면 스냅샷 작업이 성공합니다.</block>
   <block id="298831ffa37c3339463b0927313f5324" category="summary">Oracle ZFS 데이터 수집기 구성.</block>
   <block id="12aa4229d08c65b7528cfd8184ed0f2b" category="doc">Oracle ZFS Storage Appliance 데이터 수집기</block>
   <block id="5e6c2b5384544359f359ac316f3dea62" category="paragraph">Cloud Insights는 Oracle ZFS Storage Appliance 데이터 수집기를 사용하여 인벤토리 및 성능 데이터를 수집합니다.</block>
@@ -1933,12 +1918,9 @@
   <block id="cc580c5eecd9c28053db6de1830561ee" category="section-title">로그아웃하는 중입니다</block>
   <block id="5f5052459ed746a225d85b63238531d1" category="paragraph">Cloud Insights에서 로그아웃하려면 * 사용자 이름 * 을 클릭하고 * 로그아웃 * 을 선택합니다. Cloud Central 로그인 화면으로 돌아갑니다.</block>
   <block id="21648aceb436779ee1938a15ced12e7e" category="admonition">Cloud Insights에서 로그아웃하면 Cloud Central에서 로그아웃됩니다. Cloud Central 로그인을 사용하는 다른 NetApp Cloud 서비스에서도 로그아웃됩니다.</block>
-  <block id="f9a73a77fb0b80bd2a6dc48518a3907d" category="summary">Cloud Secure는 데이터 수집기를 사용하여 디바이스에서 파일 및 사용자 액세스 데이터를 수집합니다.</block>
   <block id="276e994cf948a6c752060d65f4332540" category="section-title">에이전트 시스템 구성</block>
-  <block id="d4ed0ce3ae770f112754ea5fdeb0e838" category="paragraph">Cloud Secure 에이전트로 사용할 시스템을 구성하려면 다음 단계를 수행하십시오.</block>
   <block id="efb10f5a307574138e00f348ca720e50" category="list-text">EC2 인스턴스를 만듭니다.</block>
   <block id="e24a1d497706260167f8a13cf71db79a" category="list-text">YUM 패키지 관리자를 사용하여 필요한 Linux 패키지를 설치합니다.</block>
-  <block id="1b1575d608c5ac25242b7040b6f4fbf8" category="section-title">Cloud Secure 에이전트를 설치합니다</block>
   <block id="af3e8f1c899e4154e0ef2755c159cbf4" category="list-text">Cloud Insights 환경에 관리자 또는 계정 소유자로 로그인합니다.</block>
   <block id="1958a7c94a832d37f7a96957c47d39f9" category="list-text">Agent 설치 명령을 복사합니다.</block>
   <block id="c516c3bd048a72acd34572d6cfae0477" category="summary">보고서 작성 도구를 사용하여 사용자 지정("임시") 보고서를 만듭니다</block>
@@ -2162,7 +2144,6 @@
   <block id="e7fe695987fdade550f1dbee18c561f8" category="paragraph">이렇게 하는 가장 간단한 방법은 예외 목록에 Cloud Insights 도메인 자체를 추가하는 것입니다.</block>
   <block id="6332753e57d451d8b39622c30281027b" category="paragraph">프록시가 트래픽 검사를 위해 설정되지 않은 경우 예외 목록이 필요하지 않을 수 있습니다. 예외 목록에 Cloud Insights를 추가해야 하는지 확실하지 않거나 프록시 및/또는 방화벽 구성으로 인해 Cloud Insights를 설치하거나 실행하는 데 문제가 있는 경우 프록시 관리 팀에 프록시 SSL 가로채기 처리를 설정하도록 문의하십시오.</block>
   <block id="8bdbfb2fbcb4d30bcb7f3456068bf952" category="section-title">프록시 엔드포인트 보기</block>
-  <block id="c18e9bacb0ed35f6b26e407a261491be" category="paragraph">온보딩 중에 데이터 수집기를 선택할 때 * 프록시 설정 * 링크를 클릭하거나 * 도움말 &gt; 지원 * 페이지의 _프록시 설정_ 아래에 있는 링크를 클릭하여 프록시 끝점을 볼 수 있습니다. 다음과 같은 테이블이 표시됩니다. 환경에 Cloud Secure가 있는 경우 구성된 끝점 URL도 이 목록에 표시됩니다.</block>
   <block id="2d606071517d0747fae04dd73f7f6408" category="inline-image-macro">프록시 끝점 테이블</block>
   <block id="dc7ddc4ec72db050f82b66a7738d6ce6" category="paragraph"><block ref="dc7ddc4ec72db050f82b66a7738d6ce6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ddcf50c29294d4414f3f7c1bbc892cb5" category="section-title">리소스</block>
@@ -2402,10 +2383,6 @@
   <block id="4584706131c8223a355dc77a0d025ed5" category="admonition">오브젝트에는 하나의 업무 엔티티만 연결될 수 있습니다.</block>
   <block id="6dccb0b39ff4102f40182d2486243608" category="section-title">개체에서 업무 엔티티 제거</block>
   <block id="7b855521b65fe198b7fa8deffb44b477" category="paragraph">개체 또는 개체에서 업무 엔티티를 제거하려면 객체를 쿼리하고 선택하고 * Bulk Actions * 를 클릭한 다음 _ Remove Annotation _ 을 선택합니다. 업무 엔티티 주석을 선택하고 * 삭제 * 를 클릭합니다.</block>
-  <block id="45c19131072f07948d1770f1ec03afa7" category="summary">몇 가지 간단한 단계를 통해 Cloud Secure를 사용할 수 있습니다</block>
-  <block id="b2812cddd5b031e5dc088cd8e43c739c" category="doc">Cloud Secure 시작하기</block>
-  <block id="87886b90d5dab8bf02873ef435989ce1" category="paragraph">Cloud Secure를 사용하여 사용자 활동을 모니터링하기 전에 완료해야 하는 구성 작업이 있습니다.</block>
-  <block id="4e63618c118db9ffd5d83e06a01690ce" category="paragraph">Cloud Secure 시스템은 에이전트를 사용하여 스토리지 시스템에서 액세스 데이터를 수집하고 디렉토리 서비스 서버에서 사용자 정보를 수집합니다.</block>
   <block id="b69df43565e372517a8522587f62a492" category="paragraph">데이터 수집을 시작하려면 먼저 다음을 구성해야 합니다.</block>
   <block id="eaeb30f9f18e0c50b178676f3eaef45f" category="cell">작업</block>
   <block id="30f60d67f457bb040dffde52197a54da" category="cell">관련 정보</block>
@@ -2464,8 +2441,6 @@
   <block id="7040b350f10440ae0d8da871848e4a81" category="list-text">이름, 시퀀스 번호 등이 동일한 기존 FPolicy에서 오류가 발생합니다.</block>
   <block id="92848109d677425a3581b7e70806e998" category="list-text">실행 중에 스크립트가 갑자기 중지됩니다.</block>
   <block id="f03d806bb84581d824fc78103e668b12" category="paragraph">스크립트 실행의 예는 다음과 같습니다.</block>
-  <block id="b2cc220d2215b187ab8d4c56ae265409" category="cell">질문: 이미 Cloud Secure용으로 구성된 SVM에서 이 스크립트를 실행하면 SVM에서 기존 FPolicy 구성을 사용하기만 합니까, 아니면 임시 FPolicy 구성을 설정하고 프로세스를 실행합니까?</block>
-  <block id="ff1517eec20e306b3a46ef7159191e31" category="cell">답변: Cloud Secure용으로 이미 구성된 SVM에 대해서도 이벤트 속도 검사기를 실행할 수 있습니다. 아무런 영향도 미치지 않아야 합니다.</block>
   <block id="414578a6fb051cf762571b6abc3062a7" category="cell">질문: 스크립트를 실행할 수 있는 SVM의 수를 늘릴 수 있습니까?</block>
   <block id="4c39b760a2129c8773ade4e38c7ee8a1" category="cell">답변: 예. 스크립트를 편집하고 SVM의 최대 수를 5개에서 원하는 수로 변경하면 됩니다.</block>
   <block id="70fd916f11013b88f353d7c4cc8288b0" category="cell">질문: SVM 수를 늘릴 경우 스크립트 실행 시간이 늘어집니까?</block>
@@ -2793,15 +2768,9 @@
   <block id="644b4fa94e97c40a6df4575a32bdb388" category="inline-link-macro">획득 장치 구성</block>
   <block id="0d72fee8b671c19a26656d7fb11ab5c7" category="paragraph">새 획득 장치 추가에 대한 자세한 내용은 을 참조하십시오 <block ref="f6d6d1d8bb58f56bfd9166104e49bf6e" category="inline-link-macro-rx"></block></block>
   <block id="03600e14e8c249775af21bb69579dc2c" category="paragraph">+ 환경의 데이터가 대시보드에 표시되거나 쿼리에 사용하기 전에 폴링 기간을 최대 2개까지 소요될 수 있습니다.</block>
-  <block id="77ec532867a94121758e72c95815d1e9" category="summary">스크립트를 사용하여 Cloud Secure 테스트 또는 시연을 위한 랜섬웨어 공격을 시뮬레이션할 수 있습니다</block>
-  <block id="c91ccdaf7d2d0a73b8c6789c610e9a36" category="doc">Cloud Secure: 공격 시뮬레이션</block>
-  <block id="f1767a0d238fd0fa03d86dfe344b7da9" category="paragraph">이 페이지의 지침을 사용하여 포함된 Cloud Secure 랜섬웨어 시뮬레이션 스크립트를 사용하여 Cloud Secure를 테스트하거나 시연하기 위한 공격을 시뮬레이션할 수 있습니다.</block>
   <block id="c8722d0a5f0f718756806afb0f63faf3" category="section-title">시작하기 전에 주의해야 할 사항</block>
   <block id="228b6b559614ae017988e0b66c4ab82c" category="list-text">랜섬웨어 시뮬레이션 스크립트는 Linux에서만 작동합니다.</block>
-  <block id="4b4977f144a612cb5dcc69751db61974" category="list-text">스크립트는 Cloud Secure 에이전트 설치 파일과 함께 제공됩니다. Cloud Secure 에이전트가 설치된 모든 시스템에서 사용할 수 있습니다.</block>
-  <block id="5ca377457f233d1116a1177d3c9b8e67" category="list-text">Cloud Secure 에이전트 시스템 자체에서 스크립트를 실행할 수 있으며 다른 Linux 시스템을 준비할 필요가 없습니다. 그러나 스크립트를 다른 시스템에서 실행하려면 스크립트를 복사하여 거기에서 실행하기만 하면 됩니다.</block>
   <block id="7507a6fc6500d36cd4c727aec7187901" category="section-title">샘플 파일이 1,000개 이상 있어야 합니다</block>
-  <block id="b67a48562c5c72c2dd1f1ce618e93263" category="paragraph">이 스크립트는 암호화할 파일이 있는 폴더가 있는 SVM에서 실행되어야 합니다. 해당 폴더 및 하위 폴더 내에 1,000개 이상의 파일이 있는 것이 좋습니다. 파일이 비어 있으면 안 됩니다. 같은 사용자를 사용하여 파일을 만들고 암호화하지 마십시오. Cloud Secure는 이 작업을 저위험 작업으로 간주하므로 경고를 생성하지 않습니다(즉, 동일한 사용자가 방금 생성한 파일을 수정함).</block>
   <block id="497ca441ba939bb60a530a6e3409b407" category="inline-link-macro">비어 있지 않은 파일을 프로그래밍 방식으로 만듭니다</block>
   <block id="af64720caca21622d75cb553bfdb8bd9" category="paragraph">에 대한 지침은 아래를 참조하십시오 <block ref="e4fffc8648374f8ac4aafa6cb656ffb6" category="inline-link-macro-rx"></block>.</block>
   <block id="3eee06b6e6c02b14b6bf0a76a8e1ee71" category="section-title">시스템을 준비합니다</block>
@@ -2810,10 +2779,8 @@
   <block id="dd94533008fec4ee5889a56fd78e2a26" category="paragraph">NFS 버전 4.1을 마운트하지 마십시오. Fpolicy에서 지원되지 않습니다.</block>
   <block id="6006ea3f9ae2b497be9e9bce2d0ead62" category="paragraph">Linux에서 CIFS를 마운트하려면</block>
   <block id="a22c6eb3597528c16b0d46880ae4b1ae" category="paragraph">다음으로 Data Collector를 설정합니다.</block>
-  <block id="047f09d337fa7e61d37a18cdc64b32e2" category="list-text">Cloud Secure 에이전트를 구성하지 않은 경우 구성합니다.</block>
   <block id="173dfa4be4da90a7d5d1ced4c9f85a25" category="list-text">아직 수행하지 않은 경우 SVM 데이터 수집기를 구성합니다.</block>
   <block id="79e81469dc70b00e14fd266807fa2813" category="section-title">랜섬웨어 시뮬레이터 스크립트를 실행합니다</block>
-  <block id="026dcf0af13659deef26baefcf6ad0c6" category="list-text">Cloud Secure 에이전트 시스템에 로그인(ssh)합니다.</block>
   <block id="785c0d55edba879bb891f6155bc195ee" category="list-text">_/opt/NetApp/cloudsecure/agent/install_로 이동합니다</block>
   <block id="430319bb139c1067cd6f898a565a8e7f" category="list-text">매개 변수 없이 시뮬레이터 스크립트를 호출하여 사용 현황을 확인합니다.</block>
   <block id="873038227b1d58f9be9ac08fa093fdc8" category="section-title">테스트 파일을 암호화합니다</block>
@@ -2821,7 +2788,6 @@
   <block id="76b9b68624d8f14bfe2d4fa26a74327e" category="section-title">파일을 복원합니다</block>
   <block id="05b9537d4d6b18cde99b176600c5b6cb" category="paragraph">암호를 해독하려면 다음 명령을 실행합니다.</block>
   <block id="508c80147534839c8ece65596b3e23ca" category="section-title">스크립트를 여러 번 실행합니다</block>
-  <block id="3556b7794d88ffd4262465058367fd7f" category="paragraph">사용자에 대한 랜섬웨어 공격을 생성한 후 다른 사용자로 전환하여 추가 공격을 생성하십시오. Cloud Secure는 사용자 행동을 학습하며 동일한 사용자에 대해 짧은 기간 내에 반복된 랜섬웨어 공격을 경고하지 않습니다.</block>
   <block id="3c00df162167ecfa7cae1012f21e271a" category="section-title">프로그래밍 방식으로 파일을 만듭니다</block>
   <block id="b7013d500ab0d5c0a0a5ed66e230d702" category="paragraph">파일을 만들기 전에 먼저 데이터 수집기 처리를 중지해야 합니다. 데이터 수집기를 Agent에 추가하기 전에 다음 단계를 수행하십시오. 이미 데이터 수집기를 추가한 경우 데이터 수집기를 편집하고 잘못된 암호를 입력한 다음 저장합니다. 이렇게 하면 데이터 수집기가 일시적으로 오류 상태가 됩니다. 참고: 원래 암호를 기록해 두십시오!</block>
   <block id="7fb4f29b2fbada5675e1ca18652cf155" category="paragraph">시뮬레이션을 실행하기 전에 먼저 암호화할 파일을 추가해야 합니다. 암호화할 파일을 대상 폴더에 수동으로 복사하거나 스크립트(아래 예 참조)를 사용하여 프로그래밍 방식으로 파일을 만들 수 있습니다. 어떤 방법을 사용하든 1,000개 이상의 파일을 복사합니다.</block>
@@ -3084,7 +3050,6 @@
   <block id="cc412c40172e597623d127ac815cf90b" category="list-text">성능 데이터</block>
   <block id="876a4a5d23ad526321e4de9c6ad565bf" category="paragraph">성능 데이터는 모니터링되는 장치/소스의 성능에 대한 정보를 제공하는 시계열 데이터입니다. 예를 들어, 스토리지 시스템에서 제공되는 입출력 수, FiberChannel 포트의 처리량, 웹 서버에서 제공하는 페이지 수, 데이터베이스의 응답 시간 등이 여기에 포함됩니다.</block>
   <block id="2a637012b3100d14854e0c88958048e6" category="list-text">재고 데이터</block>
-  <block id="cdb94270b2d379a6692775fe62d913f8" category="paragraph">인벤토리 데이터는 모니터링되는 디바이스/소스와 해당 소스 구성 방법을 설명하는 메타데이터로 구성됩니다. 여기에는 설치된 하드웨어 및 소프트웨어 버전, 스토리지 시스템의 디스크 및 LUN, CPU 코어, 가상 머신의 RAM 및 디스크, 데이터베이스의 테이블스페이스, SAN 스위치의 포트 수와 유형, 디렉토리/파일 이름(Cloud Secure가 설정된 경우) 등이 포함됩니다</block>
   <block id="cbbe9ca36f7a864171d70f736ed408bd" category="list-text">구성 데이터</block>
   <block id="b38208d6c0caf426b9ce527a7f6fa072" category="paragraph">이 요약에는 모니터링된 장치의 호스트 이름 또는 IP 주소, 폴링 간격, 시간 초과 값 등 고객 인벤토리 및 작업을 관리하는 데 사용되는 고객이 제공한 구성 데이터가 요약되어 있습니다</block>
   <block id="ffb85bfe93f1d2f1654a7048b87f0403" category="list-text">비밀</block>
@@ -3093,11 +3058,7 @@
   <block id="acc33fbeb51f2c273dbbbe898cd55111" category="paragraph">이 데이터는 NetApp에서 클라우드 데이터 서비스를 제공하여 생성되는 것으로, 클라우드 데이터 서비스의 개발, 구축, 운영, 유지보수, 보안에 대해 NetApp에 알려줍니다. 기능 데이터에는 고객 정보 또는 개인 정보가 포함되어 있지 않습니다.</block>
   <block id="8a0aeae003bb44ce51746437118cac5d" category="list-text">사용자 액세스 데이터</block>
   <block id="a020ee54398cbdbb6220eb6dbbb2eea3" category="paragraph">NetApp Cloud Central에서 사용자 인증과 관련된 데이터를 비롯한 지역 Cloud Insights 사이트와 통신할 수 있는 인증 및 액세스 정보</block>
-  <block id="0d424da9052dd1da185b833f80c57615" category="list-text">Cloud Secure 사용자 디렉토리 데이터</block>
-  <block id="f1e2d81d897819d1cddfa2fa9568daf0" category="paragraph">Cloud Secure 기능이 활성화되어 있고 고객이 사용자 디렉터리 수집기를 사용하도록 선택한 경우 시스템은 사용자 표시 이름, 회사 전자 메일 주소 및 Active Directory에서 수집한 기타 정보를 저장합니다.</block>
-  <block id="4c919f42fe478044c9519ad49ac6f0e0" category="admonition">사용자 디렉토리 데이터는 Cloud Secure 사용자 디렉토리 데이터 수집기에서 수집한 사용자 디렉토리 정보를 나타내며, Cloud Insights/Cloud Secure의 사용자에 대한 데이터는 아닙니다.</block>
   <block id="56843f14a5fd059011e157622d7a2db2" category="paragraph">* 인프라 및 서비스 리소스에서 명시적 개인 데이터 * 가 수집되지 않습니다. 수집된 정보는 성능 메트릭, 구성 정보 및 인프라 메타데이터로만 구성되며, NetApp의 자동 지원 및 ActiveIQ를 비롯한 수많은 공급업체 Phone-Home과 매우 유사합니다. 그러나 고객의 명명 규칙에 따라 공유, 볼륨, VM, qtree, 응용 프로그램 등에 개인 식별 정보가 포함될 수 있습니다.</block>
-  <block id="3a6ee6e63ced3eff283ba4d8c391dcee" category="paragraph">Cloud Secure가 활성화된 경우 시스템은 SMB 또는 기타 공유에서 파일 및 디렉토리 이름을 추가로 확인합니다. 여기에는 개인 식별 정보가 포함될 수 있습니다. 고객이 Cloud Secure 사용자 디렉토리 수집기(기본적으로 Active Directory를 통해 Windows SID를 사용자 이름에 매핑함)를 사용하는 경우 표시 이름, 회사 이메일 주소 및 선택된 추가 속성은 Cloud Insights에서 수집 및 저장됩니다.</block>
   <block id="0848bc91e44ee86e5df6e2c72cf1fe7a" category="paragraph">또한 Cloud Insights에 대한 액세스 로그는 유지 관리되며 서비스에 로그인하는 데 사용되는 사용자의 IP 및 이메일 주소를 포함합니다.</block>
   <block id="eda5bd9f930c539c1e3a13adfdf11fcb" category="section-title">내 정보는 어디에 저장됩니까?</block>
   <block id="1138dd8c1c5f38256d8698b98f56acf3" category="paragraph">Cloud Insights는 사용자 환경이 생성되는 지역에 따라 정보를 저장합니다.</block>
@@ -3106,8 +3067,6 @@
   <block id="2da07cba696cad1cf4956db4b9460e37" category="list-text">획득 장치 정보</block>
   <block id="def7ec89175f257cd08b3939e05ba8a6" category="list-text">기능 데이터</block>
   <block id="18a0eda54a9f6bb830d8c84899c0ac27" category="list-text">Cloud Insights 내부 사용자 활동에 대한 감사 정보</block>
-  <block id="a244df137383e426ed0e31d92223fa34" category="list-text">Cloud Secure Active Directory 정보</block>
-  <block id="b78a107c3fd619df98f3c42154cef9dc" category="list-text">Cloud Secure 감사 정보</block>
   <block id="1a8b073d683b352fc06cc3bc800bc823" category="paragraph">다음 정보는 Cloud Insights 환경을 호스팅하는 지역에 관계없이 미국에 상주합니다.</block>
   <block id="2a56580b4f73dbbdeb1ee18d500fa3e8" category="list-text">사이트/계정 소유자와 같은 환경 사이트("테넌트"라고도 함) 정보</block>
   <block id="477495be48e10387478849fdda012566" category="list-text">NetApp Cloud Central에서 사용자 승인과 관련된 작업을 포함하여 지역 Cloud Insights 사이트와 통신할 수 있는 정보</block>
@@ -3244,13 +3203,10 @@
   <block id="e706090ac76b3e56523819912497e0f6" category="cell">16GB RAM</block>
   <block id="da65b8cea76748b286bd905feef4a5fa" category="cell">사용 가능한 디스크 공간입니다</block>
   <block id="eec89088ee408b80387155272b113256" category="cell">네트워크</block>
-  <block id="a4c9f60f11d808285b05aa24c83f213b" category="cell">100Mbps~1Gbps 이더넷 연결, 정적 IP 주소, 모든 장치에 대한 IP 연결 및 Cloud Secure 인스턴스에 대한 필수 포트(80 또는 443).</block>
-  <block id="9b90ea901c2599518f8cdf3fc6d14a42" category="paragraph">참고: Cloud Secure 에이전트는 Cloud Insights 획득 장치 및/또는 에이전트와 동일한 시스템에 설치할 수 있습니다. 그러나 별도의 컴퓨터에 설치하는 것이 가장 좋습니다. 동일한 시스템에 설치된 경우 아래와 같이 디스크 공간을 할당하십시오.</block>
   <block id="74a747110c8997f51592b496d16006be" category="cell">Linux의 경우 디스크 공간을 50GB~55GB로, /opt/NetApp 25-30 GB/var/log/NetApp 25GB로 할당해야 합니다</block>
   <block id="7049e466c3c4a154b7cc62cffe2ca36b" category="section-title">추가 권장 사항</block>
   <block id="d35391dc3c80304f928b511837b6f6a5" category="list-text">NTP(Network Time Protocol) * 또는 * SNTP(Simple Network Time Protocol) * 를 사용하여 ONTAP 시스템과 에이전트 시스템의 시간을 동기화하는 것이 좋습니다.</block>
   <block id="2209fa650bb8459f4028b704176e2a4b" category="section-title">클라우드 네트워크 액세스 규칙</block>
-  <block id="16b65d90429d786b49a42388752c9adf" category="paragraph">미국 * 기반 * Cloud Secure 환경:</block>
   <block id="888a77f5ac0748b6c8001822417df8b6" category="cell">프로토콜</block>
   <block id="12007e1d59f4d09c87dbe2c438256244" category="cell">목적지</block>
   <block id="02674a4ef33e11c879283629996c8ff8" category="cell">방향</block>
@@ -3261,10 +3217,8 @@
   <block id="800d899720a1567094af6346ee35787a" category="cell">Cloud Insights에 대한 액세스</block>
   <block id="4ce4e8664144d2ca2f89818a65da41cc" category="cell">gateway.c01.cloudinsights.netapp.com agentlogin.cs01.cloudinsights.netapp.com</block>
   <block id="d4fedc7f035f96436f1598f9626876e2" category="cell">인증 서비스에 대한 액세스</block>
-  <block id="b3b7f3a80b3e4119eadd4b30e81a281d" category="paragraph">유럽 기반 * Cloud Secure 환경:</block>
   <block id="c4bd63902a8959d209469ec987ed87db" category="cell">site_name&gt; .cs01-eu-1.cloudinsights.netapp.com &lt;site_name&gt; .c01-eu-1.cloudinsights.netapp.com &lt;site_name&gt; .c02-eu-1.cloudinsights.netapp.com 을 참조하십시오</block>
   <block id="71459f50e034484f40116ee14f3856f9" category="cell">gateway.c01.cloudinsights.netapp.com agentlogin.cs01-eu-1.cloudinsights.netapp.com</block>
-  <block id="ec0d22879ae7126b3969e0b82bbd9a91" category="paragraph">APAC 기반 * Cloud Secure 환경의 경우:</block>
   <block id="2a7a1c69f19a2dce7c6cd235a0426527" category="cell">site_name&gt; .cs01-ap-1.cloudinsights.netapp.com &lt;site_name&gt; .c01-ap-1.cloudinsights.netapp.com &lt;site_name&gt; .c02-ap-1.cloudinsights.netapp.com 을 참조하십시오</block>
   <block id="ccc64c65f1e8c75ec95b9e7045b1e7da" category="cell">gateway.c01.cloudinsights.netapp.com agentlogin.cs01-ap-1.cloudinsights.netapp.com</block>
   <block id="0cd58d8585970b5311e84ca2c34ba5ef" category="section-title">네트워크 내 규칙</block>
@@ -3277,7 +3231,6 @@
   <block id="610c4c7f3524467ba601e165dfb7b27c" category="cell">인바운드/아웃바운드</block>
   <block id="3931fc64139cf87ea57a9ac2d318fe52" category="cell">Fpolicy 이벤트에 대한 ONTAP와의 통신</block>
   <block id="8f14e45fceea167a5a36dedd4bea2543" category="cell">7</block>
-  <block id="7d8046677a1b263499357d1834d49ee6" category="cell">ONTAP와 Cloud Secure 간의 양방향. 에이전트가 SVM 수명에서 ping을 보냅니다.</block>
   <block id="b81e4f797b30e131d43ea14e3bc8322c" category="inline-link-macro">이벤트 속도 검사기</block>
   <block id="1a46e02a3754d0daf83001fffc7c7c46" category="paragraph">를 참조하십시오 <block ref="fd6f609b977fb641a06defa631019934" category="inline-link-macro-rx"></block> 사이징에 대한 정보를 제공하는 문서입니다.</block>
   <block id="5f03374d311512ebf488198233e388a3" category="summary">알림에 대한 이메일 주소를 추가하는 중입니다.</block>
@@ -3558,7 +3511,6 @@
   <block id="7011d12128c7027c0a5ef0db2c274300" category="admonition">와일드카드에서는 별표(*)를 사용하는 것이 일반적이지만 프록시/방화벽 구성에서는 다른 형식을 사용할 수 있습니다. 사용자 환경에서 올바른 와일드카드 사양을 확인하려면 프록시 설명서를 참조하십시오.</block>
   <block id="042f2a856726ac957ea57dbbe84766ca" category="section-title">프록시 URL 보기</block>
   <block id="ab7992748e11f14996bdc2646a49e293" category="paragraph">온보딩 중에 데이터 수집기를 선택할 때 * 프록시 설정 * 링크를 클릭하거나 * 도움말 &gt; 지원 * 페이지의 _프록시 설정_ 아래에 있는 링크를 클릭하여 프록시 끝점 URL을 볼 수 있습니다. 다음과 같은 테이블이 표시됩니다.</block>
-  <block id="9de47b26bb491f5ab145336bb77b8aa0" category="paragraph">환경에 Cloud Secure가 있는 경우 구성된 끝점 URL도 이 목록에 표시됩니다.</block>
   <block id="0d31b3a0d757ebb26d553352a08cb4e5" category="section-title">Windows 획득 장치 추가</block>
   <block id="7bb8dc49e894513db639873cb06911d4" category="list-title">Windows 획득 장치 설치 단계</block>
   <block id="d859eb4ae30b9eae60ffbcb09db52be6" category="list-text">획득 장치 서버/VM에 관리자 권한이 있는 사용자로 로그인합니다.</block>
@@ -3640,7 +3592,6 @@
   <block id="c1e108c2f999f00f38cf1ce52cc8164f" category="list-text">메타 데이터에 대한 액세스 수입니다</block>
   <block id="8dc4e28c9ab949997514364957b2aa39" category="summary">포렌식 활동 기록 데이터</block>
   <block id="4bf5863c996526f74970c19dc17d7167" category="doc">법의학 - 모든 활동</block>
-  <block id="dcb127253471d77a3599979de252b724" category="paragraph">모든 활동 페이지에서는 Cloud Secure 환경의 엔터티에 대해 수행되는 작업을 이해하는 데 도움이 됩니다.</block>
   <block id="33a203d3623a54e6d264ebf5af5db210" category="section-title">모든 활동 데이터 검토</block>
   <block id="00908ac1050b3951784c917e44dfc116" category="paragraph">Forensics &gt; Activity Forensics * 를 클릭하고 * All Activity * 탭을 클릭하여 All Activity 페이지에 액세스합니다. 이 페이지에서는 다음 정보를 중심으로 사용자 환경의 활동에 대한 개요를 제공합니다.</block>
   <block id="c86905ef58808f0a9e9e433a9f0ef22e" category="list-text">Activity History _(활동 내역)를 보여주는 그래프(선택한 전역 시간 범위에 따라 분당 5분/10분에 액세스됨)</block>
@@ -3702,7 +3653,6 @@
   <block id="2c196fb6f976fd067f518fa5198011f3" category="paragraph">ALL ACTIVITY_TABLE에는 기본적으로 선택 열이 표시됩니다. 열을 추가, 제거 또는 변경하려면 테이블 오른쪽에 있는 기어 아이콘을 클릭하고 사용 가능한 열 목록에서 선택합니다.</block>
   <block id="c6eae53556b2ad3b578a3cf2907baf44" category="inline-image-macro">활동 선택기, 폭 = 30%</block>
   <block id="590dd2dc5bca645aeb542ed0a125bd23" category="paragraph"><block ref="590dd2dc5bca645aeb542ed0a125bd23" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="105063dce8eb13075f451e0ddc3ac046" category="paragraph">활동 기록은 활성 Cloud Secure 환경의 경우 13개월 동안 유지됩니다.</block>
   <block id="df0f20d62dc4ba9c471fdeef6751ec5f" category="cell">문제</block>
   <block id="5fad6c174e90a6bce3c3685434f27610" category="cell">시도해 보십시오</block>
   <block id="92232e830756517d2e51d25331f14f25" category="cell">“All Activities(모든 활동)” 테이블의 ‘User(사용자)’ 열 아래에 사용자 이름이 “LDAP:HQ.COMPANYNAME.COM:S-1-5-21-3577637-1906459482-1437260136-1831817” 또는 “LDAP:default:80038003”으로 표시됩니다.</block>
@@ -3766,9 +3716,7 @@
   <block id="d47350de0cb738713602fc081af217e9" category="paragraph">을 참조하십시오 <block ref="66b24601b32ea1e28a736b303c9dda16" category="inline-link-macro-rx"></block> 를 참조하십시오. 이는 클라우드에 설치된 온프레미스 에이전트 및 에이전트에 적용됩니다.</block>
   <block id="0deb145e97d2a45a78872c8c8eb51e12" category="list-text">Cloud ONTAP SVM을 모니터링하기 위해 AWS EC2 인스턴스에 에이전트를 설치한 경우 에이전트와 스토리지는 동일한 VPC에 있어야 합니다. 개별 VPC에 있는 경우 VPC 간에 유효한 경로가 있어야 합니다.</block>
   <block id="0cd400e3d93cd7ed179f95d57d744891" category="section-title">사용 권한에 대한 참고 사항</block>
-  <block id="bf3bb5d17ba89dbbd6cbc400e1c6e125" category="paragraph">클러스터 관리 관리자 사용자를 사용하여 Cloud Secure가 ONTAP SVM 데이터 수집기에 액세스할 수 없는 경우 아래 명령에 표시된 역할을 사용하여 "CsUser"라는 새 사용자를 생성할 수 있습니다. 클러스터 관리 IP를 사용하도록 Cloud Secure 데이터 수집기를 구성할 때 "CsUser"의 사용자 이름 "CsUser"와 암호를 사용합니다.</block>
   <block id="10414897d078dba7d0d6c5111c2af072" category="paragraph">새 사용자를 생성하려면 클러스터 관리 관리자 사용자 이름/암호를 사용하여 ONTAP에 로그인하고 ONTAP 서버에서 다음 명령을 실행합니다.</block>
-  <block id="cb5fee403d15816a05d17c1eb2ba3cb4" category="paragraph">클러스터 관리 관리자 사용자를 사용하여 Cloud Secure가 ONTAP SVM 데이터 수집기에 액세스할 수 없는 경우 아래 명령에 표시된 역할을 사용하여 "CsUser"라는 새 사용자를 생성할 수 있습니다. Cloud Secure 데이터 수집기에서 SVM 관리 IP를 사용하도록 구성할 때 "CsUser"의 사용자 이름 "CsUser"와 암호를 사용합니다.</block>
   <block id="a2eff2103f669c457b93354a8c3f5dce" category="paragraph">새 사용자를 생성하려면 클러스터 관리 관리자 사용자 이름/암호를 사용하여 ONTAP에 로그인하고 ONTAP 서버에서 다음 명령을 실행합니다. 쉽게 사용할 수 있도록 이러한 명령을 텍스트 편집기에 복사하고 ONTAP에서 다음 명령을 실행하기 전에 &lt;vservername&gt;을(를) SVM 이름으로 바꾸십시오.</block>
   <block id="e96ded369b9e59a3e1b17c09ebacf307" category="section-title">데이터 수집기를 구성합니다</block>
   <block id="51bdd5739ec46025074c8dd62983fe18" category="list-title">구성 단계</block>
@@ -3823,12 +3771,8 @@
   <block id="9c1397faec00b5e5c1414c787d14358e" category="cell">이 문제는 일반적으로 다음 시나리오에서 발생합니다. 1. 추가된 데이터 수집기가 여러 개 있습니다. 이러한 동작을 보여 주는 데이터 수집기는 이러한 데이터 수집기에 1개의 SVM이 추가됩니다. 즉, 2개 이상의 데이터 수집기가 1개의 SVM에 연결됩니다. 데이터 수집기 1개가 1개의 SVM에 연결되는지 확인합니다. 동일한 SVM에 연결된 다른 데이터 수집기를 삭제합니다.</block>
   <block id="2d964cb606454cdebb2ea12ed310dbab" category="cell">커넥터가 오류 상태입니다. 서비스 이름: 감사. 실패 원인: 구성하지 못했습니다(SVM svmname에 대한 정책). 이유: 'FPolicy.policy.scope-modify:"연방" 내의 '포함할' 요소에 대해 잘못된 값이 지정되었습니다.</block>
   <block id="82e15291d012761eb5c9c9dc7f78a45f" category="cell">공유 이름은 따옴표 없이 지정해야 합니다. ONTAP SVM DSC 구성을 편집하여 공유 이름을 수정하십시오. _INCLUDE 및 EXCLUDE_는 긴 공유 이름 목록에 사용할 수 없습니다. 포함 또는 제외할 공유 수가 많은 경우 대신 볼륨별 필터링을 사용합니다.</block>
-  <block id="425a4c2b768b8a7766aa252d2e184e55" category="cell">클러스터에 사용되지 않는 기존 fpolicies가 있습니다. Cloud Secure를 설치하기 전에 이러한 작업을 어떻게 해야 합니까?</block>
-  <block id="60fae6823cc6f53b586dd9ae60ecf6aa" category="cell">사용되지 않는 기존 FPolicy 설정이 연결되지 않은 경우에도 모두 삭제하는 것이 좋습니다. Cloud Secure은 접두사 "cloudsecure_"를 사용하여 FPolicy를 생성합니다. 사용되지 않는 다른 모든 FPolicy 구성은 삭제할 수 있습니다. FPolicy 목록을 표시하는 CLI 명령:_FPolicy show_steps FPolicy 구성을 삭제하는 방법:_FPolicy disable -vserver &lt;svmname&gt; -policy -name &lt;policy_name&gt;_FPolicy scope delete -vserver &lt;svmname&gt;_FPolicy -policy -name &lt;policy_name&gt;_FPolicy_vserver_name &lt;정책 삭제 -vserver_name &lt;policy_name&gt;</block>
-  <block id="4d9921582b3bc6dc32845b40e4b4c522" category="cell">Cloud Secure를 활성화한 후 ONTAP 성능에 영향을 미침: 지연 시간이 산발적으로 높고, IOPS가 산발적으로 낮습니다.</block>
   <block id="5ba6c86df3ea77e978bb9c685d6bec25" category="cell">Data ONTAP 버전을 사용하고 있는지 확인합니다 <block ref="d09f6391dd7b77f4533e98569b4c1494" category="inline-link-macro-rx"></block> 고정되어 있습니다. 권장되는 최소 ONTAP 버전은 9.8P7입니다. 9.8p7 이전의 ONTAP 버전을 사용하고 이 성능 문제가 발생하면 ONTAP 전송 버퍼 크기를 변경하여 ONTAP 성능을 향상시킬 수 있습니다. 이 옵션을 살펴보고 새 데이터 수집기를 추가하거나 기존 데이터 수집기를 편집할 때 이 설정이 표시되지 않으면 NetApp Support에 문의하십시오.</block>
   <block id="723f73d5b4ee441851ae64cbfe823522" category="cell">데이터 수집기가 오류 중입니다. 이 오류 메시지를 표시합니다. "오류: 커넥터가 오류 상태입니다. 서비스 이름: 감사. 실패 원인: SVM svm_test에서 정책을 구성하지 못했습니다. 이유: ZAPI 필드에 값이 없습니다. 이벤트 “</block>
-  <block id="db45b764838c9131ffbab7063103f890" category="cell">NFS 서비스만 구성하여 새로운 SVM으로 시작하십시오. Cloud Secure에서 ONTAP SVM 데이터 수집기 추가 CIFS는 ONTAP에서 Cloud Secure SVM Data Collector를 추가하는 동시에 SVM을 위한 허용된 프로토콜로 구성됩니다. Cloud Secure의 데이터 수집기에서 오류가 표시될 때까지 기다립니다. SVM에 CIFS 서버가 구성되어 있지 않으므로 왼쪽에 표시된 이 오류는 Cloud Secure에 의해 표시됩니다. ONTAP SVM 데이터 수집기를 편집하고 CIFS를 허용된 프로토콜로 선택 취소하십시오. 데이터 수집기를 저장합니다. NFS 프로토콜만 활성화된 상태에서 실행됩니다.</block>
   <block id="1b852bd0522bb1e9abdc5b85f45b2eff" category="cell">Data Collector에 다음과 같은 오류 메시지가 표시됩니다. "오류: 2회 재시도에서 Collector 상태를 확인하지 못했습니다. Collector를 다시 시작하십시오(오류 코드: AGENT008)."</block>
   <block id="489efd89349dbbe0899a6a7b922044da" category="paragraph">그래도 문제가 발생하면 * 도움말 &gt; 지원 * 페이지에 나와 있는 지원 링크를 참조하십시오.</block>
   <block id="350ff3e6edca65920342bf3e930281fd" category="summary">Cloud Insights는 여러 사용자 계정에 서로 다른 권한 수준을 제공합니다.</block>
@@ -3837,7 +3781,6 @@
   <block id="fc1a24cc0d6d7c3e25a51a3d66a9d033" category="inline-link-macro">SSO(Single Sign-On) 인증</block>
   <block id="4239d1a0d4b43b912ff81e4656377274" category="section-title">사용 권한 수준</block>
   <block id="9e81fe47cff9df70ea875a449221eb62" category="paragraph">관리자 권한이 있는 계정을 사용하여 사용자 계정을 만들거나 수정합니다. 각 사용자 계정에는 다음과 같은 권한 수준에서 각 Cloud Insights 기능에 대한 역할이 할당됩니다.</block>
-  <block id="725fa6cc31a68ca7f439fce948043027" category="cell">Cloud Secure</block>
   <block id="305de530147912d72a50568ee4d65d26" category="cell">계정 소유자</block>
   <block id="9912eb0cfbb27a071ceaf89334fe4dbc" category="cell">대시보드, 쿼리, 알림, 주석, 주석 규칙, 장치 해상도를 관리할 수 있습니다.</block>
   <block id="d4b92ffff3f3199f4cb5dc53c8c0cf84" category="cell">알림을 확인 및 관리하고 Forensics를 볼 수 있습니다. 사용자 역할은 알림 상태를 변경하고, 메모를 추가하고, 스냅샷을 수동으로 생성하고, 사용자 액세스 제한을 관리할 수 있습니다.</block>
@@ -4014,13 +3957,7 @@
   <block id="a852fa80ca1bc5024319d7b5d7d84b6d" category="cell">Couchbase 버킷</block>
   <block id="d62c713a51121af573c0ef402ab3a282" category="cell">네임스페이스 버킷 클러스터</block>
   <block id="4e6556682c31b5913aa78d687bb53082" category="cell">사용된 데이터 사용된 데이터 사용된 디스크 항목 수 사용된 메모리 사용된 초당 작업 할당량</block>
-  <block id="95c716f3d25385f1420d35626494f3d4" category="summary">Cloud Secure에는 CMDB와 같은 다른 애플리케이션과의 통합을 위한 강력한 API가 포함되어 있습니다.</block>
-  <block id="a65788d0d0c270911ef11d94cd4f7b3c" category="doc">Cloud Secure API를 참조하십시오</block>
-  <block id="9ccb848aeaa7cf6cebdd2e037ed2cd64" category="paragraph">Cloud Secure API를 통해 NetApp 고객과 ISV(독립 소프트웨어 공급업체)는 Cloud Secure를 CMDB 또는 기타 티켓 시스템과 같은 다른 애플리케이션과 통합할 수 있습니다.</block>
   <block id="1a152a606ca16a6eef5f2e9ac9b4c824" category="paragraph">API 액세스 요구 사항:</block>
-  <block id="1d0837743eda51c99d756ba8828c2a16" category="list-text">API 토큰 관리는 관리자 역할을 가진 Cloud Secure 사용자가 수행합니다.</block>
-  <block id="c5f583f44b5b530cb4eb591f4ba7667b" category="paragraph">최신 API 정보는 Cloud Secure에 로그인하고 * 관리자 &gt; API 액세스 * 로 이동하여 확인할 수 있습니다. API Documentation * 링크를 클릭합니다. API 설명서는 Swagger 기반의 제품으로, API에 대한 간략한 설명과 사용 정보를 제공하고 사용자 환경에서 사용할 수 있습니다.</block>
-  <block id="0eb72a6dca80b5e41750cbf9bdb0bf44" category="paragraph">Cloud Secure API를 사용하기 전에 하나 이상의 * API 액세스 토큰 * 을 만들어야 합니다. 액세스 토큰은 읽기 권한을 부여합니다. 각 액세스 토큰의 만료일을 설정할 수도 있습니다.</block>
   <block id="7cb3b9529a400efab93813f966aa77a3" category="list-text">토큰 이름 * 을 입력합니다</block>
   <block id="4139ce9120525156a7967ed1ee26ee83" category="list-text">토큰 만료 * 를 지정합니다</block>
   <block id="c346aec8c5c8cd10c853a9dc4560f5cd" category="admonition">토큰은 클립보드로 복사하고 생성 과정 중에 저장하는 경우에만 사용할 수 있습니다. 토큰을 만든 후에는 검색할 수 없으므로 토큰을 복사하여 안전한 위치에 저장하는 것이 좋습니다. 토큰 생성 화면을 닫기 전에 API 액세스 토큰 복사 버튼을 클릭하라는 메시지가 표시됩니다.</block>
@@ -4556,17 +4493,6 @@
   <block id="b9c3d80571e6dec0ee60a84ebd740366" category="paragraph"><block ref="b9c3d80571e6dec0ee60a84ebd740366" category="inline-link-macro-rx"></block></block>
   <block id="4fdfa131eb647830bbc47974555ed2c8" category="inline-link-macro">IAM 사용자에 대한 권한을 위임하기 위한 역할 생성</block>
   <block id="d24c76fc9ba135863e7f58d98905e8a3" category="paragraph"><block ref="d24c76fc9ba135863e7f58d98905e8a3" category="inline-link-macro-rx"></block></block>
-  <block id="fca95e64694fd3e528daa45b8878157b" category="summary">Cloud Secure 시작하기.</block>
-  <block id="bf397a1cd364bdcd66de802549df4b4d" category="doc">Cloud Secure 시작하기</block>
-  <block id="5dd6d497d4dc29fa334a72996cf3152e" category="paragraph">Cloud Secure에 등록하고 처음으로 환경에 로그인한 후에는 데이터 액세스 정보의 수집 및 분석을 시작하기 전에 완료해야 하는 구성 단계가 있습니다.</block>
-  <block id="b0b63af3885e53fea9bb7ea027bf7274" category="section-title">Agent를 설치합니다</block>
-  <block id="5676e364227d864406542e6765a30496" category="paragraph">상담원은 Cloud Secure에서 분석할 데이터를 수집해야 합니다. 사용자 환경의 서버 또는 VM에 Agent 소프트웨어를 설치합니다. 단일 Agent를 여러 데이터 수집기에 사용할 수 있습니다.</block>
-  <block id="ad202c6777ce78d484899441c34ab050" category="list-text">을 참조하십시오 <block ref="7db04bd496cdb9ab394c662c3f00f7ed" category="inline-link-macro-rx"></block> 및 <block ref="7902d0521fa6bd726229418f042a3bdf" category="inline-link-macro-rx"></block> 를 눌러 Agent를 설치합니다.</block>
-  <block id="995baaed007a33dba572505ffd6d726b" category="section-title">데이터 수집기 구성</block>
-  <block id="e2003230c28715e54580be950cc64269" category="paragraph">Cloud Secure는 사용자 디렉토리 수집기에서 데이터를 수집하여 사용자 정보를 수집하고 스토리지 시스템에서 데이터를 수집합니다. Cloud Secure는 데이터를 사용하여 스토리지 시스템의 엔터티에 대한 사용자 액세스를 분석합니다.</block>
-  <block id="bb0d3a900916bde690905e9e160afba5" category="inline-link-macro">사용자 디렉토리 수집기 구성</block>
-  <block id="934c6a90ad595cf24fe1eae5c9e24230" category="list-text">사용자 디렉터리 커넥터를 구성하려면 을 참조하십시오. <block ref="089da67fe26f0fe233c1970ce127a533" category="inline-link-macro-rx"></block></block>
-  <block id="95fd6915d9e35ba27fa3d98e5299b2a2" category="list-text">Data Collector를 구성하려면 각 특정 Data Collector의 왼쪽 메뉴에 있는 설명서를 참조하십시오.</block>
   <block id="a2c01caa68fd6219777bc4e45ae6bcf9" category="summary">포렌식 사용자 세부 정보</block>
   <block id="0165cb96455a1e606acc88df8cbdf5ca" category="doc">Forensic 사용자 개요</block>
   <block id="46908a81012f08e6ddb150123e078dfa" category="paragraph">각 사용자에 대한 정보는 사용자 개요 에 나와 있습니다. 이러한 뷰를 사용하여 사용자 특성, 관련 엔터티 및 최근 활동을 파악할 수 있습니다.</block>
@@ -4585,7 +4511,6 @@
   <block id="bbbdcef88f86b6d9b2497ff3c9e77a10" category="list-text">작업 수</block>
   <block id="5d93bc1be513a1f40ff446ce49a21f6a" category="section-title">새로 고침 간격</block>
   <block id="89564cc55e47ab6ad46f40d872e5acbb" category="paragraph">사용자 목록은 12시간마다 새로 고쳐집니다.</block>
-  <block id="9dcdc3a7dcbd8a48d7d3624c1c97018e" category="paragraph">다시 새로 고치지 않으면 사용자 목록이 13개월 동안 유지됩니다. 13개월 후 데이터가 삭제됩니다. Cloud Secure 환경이 삭제된 경우 해당 환경과 관련된 모든 데이터가 삭제됩니다.</block>
   <block id="5194ac07f0578fb108df17cc52b75ccc" category="summary">Pure Storage 데이터 수집기 구성.</block>
   <block id="4d05f9f9aae283a43131d72fd410500e" category="doc">Pure Storage FlashArray 데이터 수집기</block>
   <block id="4803e12533cf1a9835839a2e3730efdf" category="paragraph">Cloud Insights는 Pure Storage FlashArray 데이터 수집기를 사용하여 인벤토리 및 성능 데이터를 수집합니다.</block>
@@ -5149,7 +5074,6 @@
   <block id="ea80961f68ea0fa6c0b5e6641c5241ca" category="paragraph">개체 데이터의 링크를 해제하려면 위젯을 편집하고 링크 아이콘을 클릭합니다 <block ref="b04d99714d4b929da5dc2e888074b056" category="inline-image-macro-rx" type="image"></block> 개체 유형 옆에 있습니다. 링크가 비활성화됩니다 <block ref="37de0fbc8f63073eae5930c276f8458d" category="inline-image-macro-rx" type="image"></block> 이 차트는 사용자 환경의 _ALL_OBJECURS에 대한 데이터를 표시합니다.</block>
   <block id="b82b0cbf50450ff132a18adbb18ad189" category="inline-link-macro">위젯 * 의 특수 변수</block>
   <block id="b7624838ae3358523818a8ce1e7252cb" category="paragraph">을 사용할 수도 있습니다 <block ref="0909c8b5d270efe34a0d9a849c651330" category="inline-link-macro-rx"></block> 랜딩 페이지에 자산 관련 정보를 표시합니다.</block>
-  <block id="c87f42b44870bb9fdcbb9ad0386ebd65" category="summary">Cloud Secure 경고 알림을 위한 이메일 주소 추가</block>
   <block id="f675ac1ea34754aba3279d7f93746721" category="summary">Kibana 데이터 수집기 구성</block>
   <block id="d6678652208f4e26109690d4ab6151e5" category="doc">Kibana 데이터 수집기</block>
   <block id="75ac4fff844290c8b306aced90a6ad0d" category="paragraph">Cloud Insights는 이 데이터 수집기를 사용하여 Kibana로부터 메트릭을 수집합니다.</block>
@@ -5597,14 +5521,11 @@
   <block id="be79d6e6a44e0a57d37256e5bc2c0909" category="cell">가능한 해결 방법: * 입력한 자격 증명 및 IP 주소를 확인합니다. * VMware Infrastructure Client를 사용하여 Virtual Center와 통신해 보십시오. * Managed Object Browser(예: MOB)를 사용하여 Virtual Center와 통신해 보십시오.</block>
   <block id="f080098c21c069b292efdde1d8144c61" category="cell">오류: IP의 VirtualCenter에는 JVM에 필요한 일치하지 않는 인증서가 있습니다</block>
   <block id="5c60750a2abc4b9d7aa61cc76e102a94" category="cell">가능한 해결책: * 권장: 더 강력한(예 1024비트) RSA 키. * 권장하지 않음: JDK.certpath 제약 조건을 활용하도록 JVM java.security 구성을 수정하십시오. disabledAlgorithms 512비트 RSA 키를 허용합니다. 에서 JDK 7 업데이트 40 릴리스 노트를 참조하십시오 <block ref="ac06061ee1016775797c99e274153a15" category="inline-link-rx"></block></block>
-  <block id="0c988482a6ce018da7ef3957b3203859" category="summary">Cloud Secure Active Directory 사용자 디렉터리 수집기 구성</block>
   <block id="0352c19ca21d40072aea36bf372abc1d" category="doc">AD(Active Directory) 사용자 디렉토리 수집기 구성</block>
-  <block id="fa9b26040d7c58d713bdcb2d7f3a30dd" category="paragraph">Active Directory 서버에서 사용자 속성을 수집하도록 Cloud Secure를 구성할 수 있습니다.</block>
   <block id="0fc244ec65c5541551b1c439ffac1ee7" category="list-text">이 작업을 수행하려면 Cloud Insights 관리자 또는 계정 소유자여야 합니다.</block>
   <block id="ae955d02a07f9a58ed0029e3854c3705" category="list-text">Active Directory 서버를 호스팅하는 서버의 IP 주소가 있어야 합니다.</block>
   <block id="9893d16b892001ac527b5dd093663300" category="list-text">사용자 디렉터리 커넥터를 구성하기 전에 Agent를 구성해야 합니다.</block>
   <block id="b9674de27144ea13a735da22fe1380a9" category="list-title">사용자 디렉토리 수집기를 구성하는 단계입니다</block>
-  <block id="8bb363c919428891afa86212f956bd84" category="list-text">Cloud Secure 메뉴에서 * 관리자 &gt; 데이터 수집기 &gt; 사용자 디렉토리 수집기 &gt; + 사용자 디렉토리 수집기 * 를 클릭하고 * Active Directory * 를 선택합니다</block>
   <block id="7e1bdfeb6430dc8b47d034e49450b45e" category="paragraph">사용자 디렉토리 추가 화면이 표시됩니다.</block>
   <block id="b3adf2b0cc34c854cee763c3c6e16900" category="paragraph">다음 표에 필요한 데이터를 입력하여 사용자 디렉토리 수집기를 구성합니다.</block>
   <block id="94f4ea60967e5c80043d994ddf4d12fe" category="cell">사용자 디렉토리의 고유 이름입니다. 예: _GlobalADCollector_</block>
@@ -5647,7 +5568,6 @@
   <block id="3912a3e7d51685eb46e7c7e9951aa300" category="cell">멤버</block>
   <block id="f7ed7dd654407dc7a2b702d77c53762d" category="section-title">사용자 디렉토리 수집기 구성을 테스트하는 중입니다</block>
   <block id="b0afde75fa64dcb6bdcec6d936adf351" category="paragraph">다음 절차를 사용하여 LDAP 사용자 권한 및 속성 정의의 유효성을 검사할 수 있습니다.</block>
-  <block id="93f53d95d91b168dee4bfacb26c44811" category="list-text">다음 명령을 사용하여 Cloud Secure LDAP 사용자 권한의 유효성을 검사합니다.</block>
   <block id="439f35a04f48954f1398b05b4528da03" category="paragraph">"ldapsearch-o LDIF-Wrap=no-lll-x-b" dc=netapp,dc=com"-h 10.235.40.29-p 389-D\Administrator@netapp.com -W"</block>
   <block id="aac773f1cd4073730a664dac98707850" category="list-text">AD 탐색기를 사용하여 AD 데이터베이스를 탐색하고, 개체 속성 및 특성을 보고, 사용 권한을 보고, 개체의 스키마를 보고, 저장하고 다시 실행할 수 있는 정교한 검색을 실행할 수 있습니다.</block>
   <block id="6c873deac87ef7970f8c83eb57337060" category="inline-link-macro">AD 탐색기</block>
@@ -5661,7 +5581,6 @@
   <block id="c2d7b7e464a73b11c5c0b7bb2afa3125" category="cell">잘못된 사용자 이름 또는 암호가 제공되었습니다. 올바른 사용자 이름 및 암호를 편집하고 제공하십시오.</block>
   <block id="0f0977afe479def37dd7decd83ff28bd" category="cell">사용자 디렉토리 커넥터를 추가하면 '오류' 상태가 됩니다. "DN=DC=HQ, DC=domainname, DC=com에 해당하는 객체를 포리스트 이름으로 가져오지 못했습니다."라는 오류가 표시됩니다.</block>
   <block id="ed3875062a5dc193616c9c10130066f6" category="cell">잘못된 포리스트 이름이 제공되었습니다. 올바른 포리스트 이름을 편집하고 제공하십시오.</block>
-  <block id="df12b85ca7c2eddab13f785c855d3221" category="cell">도메인 사용자의 선택적 특성이 Cloud Secure 사용자 프로필 페이지에 나타나지 않습니다.</block>
   <block id="cd44db0a5dbf5e27845826e6d2e39976" category="cell">이는 CloudSecure에 추가된 선택적 속성의 이름과 Active Directory의 실제 속성 이름이 일치하지 않기 때문일 수 있습니다. 올바른 선택적 속성 이름을 편집하고 제공하십시오.</block>
   <block id="f770c239762078a2cbf3492bf0bee15b" category="cell">"LDAP 사용자를 검색하지 못했습니다. 실패 원인: 서버에 연결할 수 없습니다. 연결이 null입니다."</block>
   <block id="ee7ea87bada3e2049d3c7f6778157ab6" category="cell">_Restart_ 단추를 클릭하여 수집기를 다시 시작합니다.</block>
@@ -5682,7 +5601,6 @@
   <block id="c20f8510c77498f54857050e3a15df20" category="cell">잘못된 포리스트 이름이 제공되었습니다. 올바른 포리스트 이름을 제공하는 방법은 위의 을 참조하십시오.</block>
   <block id="5f2e23c8ce3ea6b51ceff23b5d8ac409" category="cell">전화 번호가 사용자 프로필 페이지에 채워지지 않습니다.</block>
   <block id="2d701fb03765a16a337855076299c890" category="cell">이는 Active Directory의 속성 매핑 문제 때문일 수 있습니다. Active Directory에서 사용자 정보를 가져오는 특정 Active Directory 수집기를 편집합니다. 2.알림 옵션 속성에 따라 "전화 번호" 필드 이름이 Active Directory 속성 '전화 번호'에 매핑되어 있습니다. 4.이제 위에 설명된 대로 Active Directory 탐색기 도구를 사용하여 Active Directory를 탐색하고 올바른 속성 이름을 확인하십시오. Active Directory에 사용자의 전화 번호가 있는 '전화 번호'라는 속성이 있는지 확인합니다. 5.Active Directory에서 'phonenumber'로 수정되었다고 가정해 보겠습니다. 그런 다음 CloudSecure 사용자 디렉토리 수집기를 편집합니다. 옵션 속성 섹션에서 '전화 번호'를 '전화 번호'로 바꿉니다. Active Directory Collector를 저장하면 수집기가 다시 시작되고 사용자의 전화 번호가 표시되며 사용자 프로필 페이지에 동일한 번호가 표시됩니다.</block>
-  <block id="8da3f7dc1971bd0c7ad358f666119f32" category="cell">AD(Active Directory) 서버에서 암호화 인증서(SSL)가 활성화된 경우 Cloud Secure 사용자 디렉토리 수집기는 AD 서버에 연결할 수 없습니다.</block>
   <block id="307d85ae67db3542c6f899d7bc164528" category="cell">사용자 디렉토리 수집기를 구성하기 전에 AD 서버 암호화를 비활성화하십시오. 사용자 세부 정보를 가져오면 13개월 동안 표시됩니다. 사용자 세부 정보를 가져온 후 AD 서버의 연결이 끊기면 AD에서 새로 추가된 사용자를 가져오지 않습니다. 다시 가져오려면 사용자 디렉토리 수집기를 AD에 연결해야 합니다.</block>
   <block id="f25f4da5abc374ffca5bdff0513c85b9" category="summary">Data Collector 획득 상태</block>
   <block id="83da84ba526ae13c937b4eca7d4d6997" category="doc">데이터 수집기 획득 상태를 확인하는 중입니다</block>
@@ -5922,7 +5840,6 @@
   <block id="1dd24ddc8bdc4a8ad7940369b2db779f" category="list-text">* Basic Edition * 은 NetApp 지원 계정이 활성 상태인 기존 NetApp 고객에게 무료로 제공됩니다.</block>
   <block id="ffec407b7dac5bde197f9fa34cee89d5" category="admonition">Cloud Insights Basic Edition에서 수집된 기능, 데이터 보존 시간, 객체 또는 메트릭은 통지 여부에 따라 변경될 수 있습니다.</block>
   <block id="b0bb53aca4f0808da1b4e8c638bf67a0" category="list-text">* Standard Edition * 은 서브스크립션을 통해 제공되며 Basic Edition의 모든 기능과 그 이상의 기능을 제공합니다.</block>
-  <block id="ad7d493af34fa73fe95bf075712a5ec3" category="list-text">* 프리미엄 에디션 * 은 비즈니스 인텔리전스 및 보고와 Cloud Secure 감사 및 위협 감지와 같은 추가 이점을 제공합니다.</block>
   <block id="219927b224df858b634f5817e92a43c9" category="section-title">주요 기능</block>
   <block id="156cab06046ee0bb08bbcf2279656592" category="paragraph">Basic, Standard 및 Premium Edition에서 사용할 수 있는 주요 기능은 다음과 같습니다.</block>
   <block id="0ad6a6d28761ee1aea9142218e951165" category="cell">주요 기능</block>
@@ -5940,8 +5857,6 @@
   <block id="48ddfbf9b74c53d0faaa56e85e7f4945" category="cell">클라우드 메트릭</block>
   <block id="c804187aad1ac0e05bfe9734492a853f" category="cell">서비스 메트릭스</block>
   <block id="3e61ac3c29f7cbd9ed1cd4606d9a50e6" category="cell">모니터 및 경고</block>
-  <block id="372735448eedd531647388e4231b11e5" category="cell">Cloud Secure 사용자 데이터 액세스 감사</block>
-  <block id="296767e345f23610f06a21d1f03e36c6" category="cell">AI/ML을 사용한 Cloud Secure 내부자 위협 감지</block>
   <block id="d618d9be50e37adf260935938e49af96" category="inline-image-macro">자물쇠</block>
   <block id="b6dea3b24cc18d2214ac0d7ea31d17ec" category="paragraph">Cloud Insights를 사용하는 동안 자물쇠 아이콘이 표시되는 경우 <block ref="3d68554889a6297f572b65a3534d0ef0" category="inline-image-macro-rx" type="image"></block>즉, 현재 버전에서 이 기능을 사용할 수 없거나 제한된 형식으로 사용할 수 있습니다. 기능에 대한 전체 액세스 권한을 위해 업그레이드하십시오.</block>
   <block id="3a7e4ed6e4843b57080572f28622d665" category="section-title">평가판</block>
@@ -6083,12 +5998,9 @@
   <block id="6334ba01c1e368d2c83aa32d63e0a86c" category="cell">액세스 게이트웨이 모드에 장치를 포함하려면 선택합니다</block>
   <block id="e8acb69932ab07e69dd7a2bc1b78d8f4" category="cell">둘 이상의 노드가 Access Gateway 포트에 로그인되었거나 데이터 수집기가 Access Gateway 장치를 검색하지 못했다는 메시지를 받습니다.</block>
   <block id="1550c1261bbf558eb1b877a5f588f18b" category="cell">NPV 디바이스가 올바르게 작동하고 있고 연결된 모든 WWN이 예상되는지 확인합니다. NPV 장치를 직접 얻지 마십시오. 대신 핵심 패브릭 스위치를 인수하면 NPV 장치 데이터가 수집됩니다.</block>
-  <block id="5edc9ae57e01d5e824288e699faa3851" category="summary">Cloud Secure LDAP 사용자 디렉토리 수집기 구성 중</block>
   <block id="591d64253ebae6d71d70584704dad38d" category="doc">LDAP Directory Server Collector 구성</block>
-  <block id="77c339f5c65dbc712df6794ffaf6aba2" category="paragraph">LDAP 디렉토리 서버에서 사용자 속성을 수집하도록 Cloud Secure를 구성합니다.</block>
   <block id="547676b7a40f4e24015e9cd282e24aa1" category="list-text">LDAP 디렉토리 서버를 호스팅하는 서버의 IP 주소가 있어야 합니다.</block>
   <block id="3c35a2e7fd03ecf1d70e3ccbb970491a" category="list-text">LDAP 디렉토리 커넥터를 구성하기 전에 Agent를 구성해야 합니다.</block>
-  <block id="0ab9729b52eb80652dc6653c24e50c97" category="list-text">Cloud Secure 메뉴에서 * 관리자 &gt; 데이터 수집기 &gt; 사용자 디렉토리 수집기 &gt; + 사용자 디렉토리 수집기 * 를 클릭하고 * LDAP 디렉토리 서버 * 를 선택합니다</block>
   <block id="fdfd3f6ec0fabb33e24fecb52aedd7f0" category="cell">사용자 디렉토리의 고유 이름입니다. 예: _GlobalLDAPCollector_</block>
   <block id="3a45b9c0ea3e4236bedf33e3ba87dde6" category="cell">LDAP 디렉토리 서버를 호스팅하는 서버의 IP 주소 또는 FQDN(정규화된 도메인 이름)입니다</block>
   <block id="22b0d82bacfa42a3f2ef45adff5b3a07" category="cell">검색 기준</block>
@@ -6289,12 +6201,8 @@
   <block id="637b504f65b25d54361a662bf71a4164" category="cell">노드 이름 노드 IP 트랜잭션 ID 마지막 로드 이후 마지막으로 쓴 시간 HA 상태 파일 시스템 상태 블록 풀 ID 클러스터 ID 컴파일 정보 고유 버전 수 버전</block>
   <block id="551ce6b2e6cc4e5633e4ebd59fde4056" category="cell">블록 용량 블록 총 용량 사용된 총 용량 사용된 용량 비 DFS 블록 손상 예상 용량 손실 총 블록 수 초과 하트비트 만료 파일 총 파일 시스템 잠금 대기열 길이 블록 누락된 블록 블록 블록 블록 1개 클라이언트 활성 데이터 노드 비활성 데이터 노드 사용 중단 비활성 데이터 노드 사용 중단 라이브 데이터 노드 해독 암호화 존 수 데이터 노드 유지 보수 데이터 노드 아래 유지 보수 파일 입력 중단 유지 보수 데이터 노드의 라이브 노드 오래된 복제 보류 시간 초과 데이터 노드 메시지 보류 블록 삭제 보류 블록 복제 블록 복제 보류 지연 블록 복제 지연 블록 예약된 복제 스냅샷 스냅샷 스냅샷 스냅샷 스냅샷 스냅샷 스냅샷 스냅샷 디렉토리 데이터 노드 오래된 파일 총 로드 마지막 체크포인트 이후 총 동기화 수 총 트랜잭션 마지막 로그 롤 블록 이후 총 동기화 볼륨 장애 총 동기화 시간 총 객체 최대 작업 블록 추가 작업 허용 스냅샷 작업 차단 일괄 처리된 작업 차단 대기 중인 작업 블록 수신 및 삭제된 작업 보고서 평균 시간 작업 블록 보고서 번호 캐시 보고서 평균 시간 캐시 보고서 번호 작업 생성 파일 작업 생성 스냅샷 작업 생성 파일 작업 삭제 스냅샷 작업 삭제 스냅샷 작업 허용 스냅샷 작업 파일 삭제/출력 추가된 파일 생성된 파일 나열 파일 이름 변경된 파일 나열 시스템 로드 시간 작업 생성 EDEK 평균 시간 작업 생성 EDEK 작업 생성 추가 데이터 노드 블록 가져오기 위치 가져오기 평균 시간 가져오기 편집 번호 가져오기 이미지 가져오기 평균 시간 가져오기 이미지 번호 가져오기 작업 가져오기 링크 대상 작업 가져오기 목록 작업 목록 확인 스냅샷 디렉토리 복제 예약되지 않은 수 이미지 평균 시간 배치 이미지 번호 작업 스냅샷 이름 바꾸기 리소스 확인 시간 평균 시간 리소스 확인 시간 안전 모드 시간 작업 스냅샷 차이 보고서 작업 스토리지 블록 보고서 복제 성공 동기화 평균 시간 작업 동기화 시간 복제 시간 제한 작업 동기화 트랜잭션 번호 EDEK 경고 시간 평균 EDEK 경고 시간 평균 블록 풀 사용 공간 캐시 용량 캐시 사용 용량 가용 블록 풀 사용 백분율 남은 스레드 사용 GC 수 GC 사본 수 GC 마크 수 GC 마크 스윕 컴팩트 카운트 GC 번호 정보 임계값이 GC 시간 초과 GC 복사 시간 GC 마크 스위프 콤팩트 시간을 초과했습니다 GC Total Extra Sleep Time Logs Error Count Logs Fatal Count Logs Info Count Logs Warn Count Memory Heap Committed Memory Heap Max Memory Hap Used Memory Max Memory Non Heap Committed Memory Non Heap Memory Non Heap Memory Non Heap H힙 Used Threads Blocked Threads New Threads Terminated Threads Timed Timed 대기 중인 스레드</block>
   <block id="0460c951ea9c38503a35b138121da86c" category="cell">Hadoop JobHistoryServer를 참조하십시오</block>
-  <block id="63e6bc3f499d2ef5baf4de4a454c7215" category="summary">Cloud Secure 에이전트 추가</block>
-  <block id="0283b90d804164e010fd44655d542c93" category="doc">Cloud Secure 에이전트 설치</block>
-  <block id="1f64a3a5204a18c96d39e18121d1251f" category="paragraph">Cloud Secure는 하나 이상의 에이전트를 사용하여 사용자 활동 데이터를 수집합니다. 상담원은 사용자 환경의 장치에 연결하여 분석을 위해 Cloud Secure SaaS 계층으로 전송되는 데이터를 수집합니다. 을 참조하십시오 <block ref="7db04bd496cdb9ab394c662c3f00f7ed" category="inline-link-macro-rx"></block> 에이전트 VM을 구성합니다.</block>
   <block id="2ccb9ffac0ed017ddb6e68683bb0b7d5" category="list-text">설치, 스크립트 실행 및 제거에 sudo 권한이 필요합니다.</block>
   <block id="19b6dd145ff77b5b97341237076cba16" category="section-title">Agent 설치 단계</block>
-  <block id="fc62cd9124318118e4abaac940b4a091" category="list-text">Cloud Secure 환경에 관리자 또는 계정 소유자로 로그인합니다.</block>
   <block id="f9eb6ee79f8b49445d9d7860e9a080c0" category="paragraph">Agent 추가 페이지가 표시됩니다.</block>
   <block id="0e9fa577800a5653127fdb5f3d4400aa" category="image-alt">상담원 1을 추가합니다</block>
   <block id="212db90a8b360d05f82119713ca87853" category="list-text">에이전트 서버가 최소 시스템 요구 사항을 충족하는지 확인합니다.</block>
@@ -6310,7 +6218,6 @@
   <block id="efb42161e6d534718356bdb292677612" category="list-text">를 구성해야 합니다 <block ref="a207b7d2a96200a9b4b411f4896b3d1d" category="inline-link-macro-rx"></block>.</block>
   <block id="066439fec0176e1d7455c3e156a2140e" category="list-text">하나 이상의 Data Collector를 구성해야 합니다.</block>
   <block id="dce011ea921230b4e3061bb70569c598" category="section-title">네트워크 구성</block>
-  <block id="419692fe9178bca2f0f252349995b13c" category="paragraph">로컬 시스템에서 다음 명령을 실행하여 Cloud Secure에서 사용할 포트를 엽니다. 포트 범위에 대한 보안 문제가 있는 경우, 보다 낮은 포트 범위를 사용할 수 있습니다(예: _35000:35100_). 각 SVM은 포트 2개를 사용합니다.</block>
   <block id="2639e25d9d81ec2fa03963e7278b760b" category="list-text">'SUDO firewall-cmd--permanent--zone=public--add-port=35000-55000/tcp'로 설정합니다</block>
   <block id="60329aa357bfa085f1ed3612c6b4a1d7" category="list-text">'SUDO firewall-cmd -- reload</block>
   <block id="cd97e5515b0cad32cadf2b0e90813f6d" category="paragraph">플랫폼에 따라 다음 단계를 따르십시오.</block>
@@ -6326,21 +6233,14 @@
   <block id="3a7e14f279ad4988e72d190c932c04e4" category="cell">"-bash:unzip:command not found" 오류와 함께 에이전트 설치가 실패했습니다.</block>
   <block id="6ffa35eb057e4e4c2feada5be42e5766" category="cell">압축을 푼 다음 설치 명령을 다시 실행합니다. 시스템에 Yum이 설치되어 있는 경우 "yum install unzip"을 시도하여 unzip 소프트웨어를 설치합니다. 그런 다음 Agent 설치 UI에서 명령을 다시 복사하여 CLI에 붙여 넣어 설치를 다시 실행합니다.</block>
   <block id="a387ff3584e009519afcccd4187aa537" category="cell">에이전트가 설치되어 실행 중입니다. 하지만 상담원이 갑자기 중지되었습니다.</block>
-  <block id="7fa0d72b0760b32930f653609b88d5ea" category="cell">Agent 시스템에 SSH를 연결합니다. 'SUDO systemctl status cloudsecure-agent.service` 를 통해 상담원 서비스의 상태를 확인합니다. 로그에 "Cloud Secure 데몬 서비스를 시작하지 못했습니다."라는 메시지가 표시되는지 확인합니다. cssys 사용자가 Agent 시스템에 있는지 여부를 확인합니다. 루트 권한으로 다음 명령을 하나씩 실행하고 cssys 사용자 및 그룹이 있는지 확인합니다. 'SUDO id cssys''SUDO groups cssys' 3. 아무 것도 없는 경우 중앙 집중식 모니터링 정책이 cssys 사용자를 삭제했을 수 있습니다. 다음 명령을 실행하여 cssys 사용자 및 그룹을 수동으로 생성합니다. 'SUDO useradd cssys''SUDO groupadd cssys'5. 그런 다음 'SUDO systemctl restart cloudsecure-agent.service` 6' 명령을 실행하여 에이전트 서비스를 다시 시작합니다. 여전히 실행되지 않는 경우 다른 문제 해결 옵션을 확인하십시오.</block>
   <block id="29b7d313eba062e750ba2589739662d4" category="cell">UI에 Agent가 NOT_Connected 상태임 이 표시됩니다.</block>
   <block id="231ea4a17f0b46cee074d79ff9eb3089" category="cell">Agent를 다시 시작하는 단계입니다. Agent 시스템에 SSH를 연결합니다. 다음 명령을 실행하여 에이전트 서비스를 다시 시작합니다. sudo systemctl restart cloudsecure-agent.service` 3. 'SUDO systemctl status cloudsecure-agent.service` 를 통해 상담원 서비스의 상태를 확인합니다. 4.상담원은 연결된 상태로 이동해야 합니다.</block>
-  <block id="a2934bc245ba02e7c806a5703fdd3fd5" category="cell">에이전트 VM이 Zscaler 프록시 뒤에 있으며 에이전트 설치가 실패합니다. Zscaler 프록시의 SSL 검사로 인해 Cloud Secure 인증서는 Zscaler CA에 의해 서명된 것으로 제시되므로 에이전트가 통신을 신뢰하지 않습니다.</block>
-  <block id="941f6670886082a432b8033949c34311" category="cell">.cloudinsights.netapp.com URL의 Zscaler 프록시에서 SSL 검사를 비활성화합니다. Zscaler가 SSL 검사를 수행하고 인증서를 교체하는 경우 Cloud Secure가 작동하지 않습니다.</block>
   <block id="664eaf7f7371b5bb01b58dd1401a3f24" category="cell">에이전트를 설치하는 동안 압축 해제 후 설치가 중단됩니다.</block>
   <block id="af5d24d9bf0b86e25aac0207e1738aa7" category="cell">"chmod 755-rf" 명령이 실패했습니다. 작업 디렉토리에 파일이 있고 다른 사용자에게 속해 있으며 해당 파일의 사용 권한을 변경할 수 없는 루트가 아닌 sudo 사용자가 에이전트 설치 명령을 실행하는 경우 명령이 실패합니다. chmod 명령이 실패하여 나머지 설치가 실행되지 않습니다. "cloudsecure"라는 새 디렉토리를 생성합니다. 해당 디렉토리로 이동합니다. 전체 "토큰 =……"을 복사하여 붙여 넣습니다. … / cloudsecure-agent-install.sh" 설치 명령을 입력하고 Enter 키를 누릅니다. 4.설치를 계속할 수 있어야 합니다.</block>
   <block id="4739762b1e0a0ecb9ce6ddc2f357d43e" category="cell">Agent가 여전히 SaaS에 연결할 수 없는 경우 NetApp Support로 사례를 여십시오. Cloud Insights 일련 번호를 제공하여 케이스를 열고 기록해 둔 대로 케이스에 로그를 첨부합니다.</block>
   <block id="e425bb5b2301657bf74d7cac77b0f44a" category="cell">케이스에 로그를 첨부하려면 1. 루트 권한으로 다음 스크립트를 실행하고 출력 파일(cloudsecure-agent-symptoms.zip)을 공유합니다. a. /opt/netapp/cloudsecure/agent/bin/cloudsecure-agent-symptom-collector.sh 2. 루트 권한으로 다음 명령을 하나씩 실행하고 출력을 공유합니다. a. ID cssys b. 그룹 cssys c. CAT/etc/OS - 릴리스</block>
-  <block id="1bd846829b377f755ea209739813cab5" category="summary">Cloud Secure 에이전트를 삭제하는 중입니다</block>
-  <block id="3a9f0449dad849591172197b155093d9" category="doc">Cloud Secure 에이전트를 삭제하는 중입니다</block>
-  <block id="d3b77b3dbc3cf86a35c40602095a562c" category="paragraph">Cloud Secure 에이전트를 삭제할 때 에이전트와 연결된 모든 데이터 수집기를 먼저 삭제해야 합니다.</block>
   <block id="ab8efa06dd0a715813bb7f2f966f8416" category="section-title">상담원 삭제</block>
   <block id="bd98e76dea3cb70b874e1abcc40bd2a0" category="admonition">Agent를 삭제하면 Agent와 연결된 모든 Data Collector가 삭제됩니다. 다른 에이전트로 데이터 수집기를 구성하려는 경우 에이전트를 삭제하기 전에 Data Collector 구성의 백업을 만들어야 합니다.</block>
-  <block id="0979d909df522605166ca443a96bca6e" category="list-text">에이전트와 연결된 모든 데이터 수집기가 Cloud Secure 포털에서 삭제되었는지 확인합니다.</block>
   <block id="16bcb6504859efb370124aaf61c89fb1" category="paragraph">참고: 연결된 모든 수집기가 중지 상태인 경우 이 단계를 무시하십시오.</block>
   <block id="ab71eb10a75782a66759f743954f1bf4" category="list-title">에이전트를 삭제하는 단계:</block>
   <block id="4011c5dae5360156cb9edb8b312334ab" category="list-text">에이전트 VM에 SSH를 수행하고 다음 명령을 실행합니다. 메시지가 표시되면 "y"를 입력하여 계속합니다.</block>
@@ -6613,7 +6513,6 @@
   <block id="5b554aa80adaf7645ae5e8afc594c3bb" category="section-title">추가 정보:</block>
   <block id="5882e0a510db1ee121819465123210d5" category="list-text">메시지 형식 및 레이아웃을 수정하려면 을 참조하십시오<block ref="aa30c2d9b6458982ed2952984ccf8f5c" category="inline-link-rx"></block></block>
   <block id="7f2b2fed4f09be699056de8e743955df" category="list-text">오류 처리:<block ref="fb51ab0a51b3a1142c9f3ef825412df8" category="inline-link-rx"></block></block>
-  <block id="812d24264002531aa5c33dcfea09ae4f" category="summary">Cloud Secure를 사용하면 사보타업 혐의가 있는 경우 사용자 액세스를 제한할 수 있습니다</block>
   <block id="5a648726ddefbfa82103a1d9ad7f888d" category="section-title">이 기능을 활성화하는 방법은 무엇입니까?</block>
   <block id="9e228488a6769acafe8dbd4abaaa23ff" category="list-text">새 공격 정책을 만들거나 기존 공격 정책을 편집합니다.</block>
   <block id="0791b390bcb1883a8ca3239cf8c8deed" category="list-text">공격 정책을 모니터링해야 하는 SVM을 선택합니다.</block>
@@ -6623,10 +6522,8 @@
   <block id="6efa4058becdd76841666397b456b8bc" category="paragraph">언제든지 이 기능을 비활성화할 수 있습니다. 시스템에 제한된 사용자가 있는 경우 먼저 액세스 권한을 복원해야 합니다.</block>
   <block id="d62cebbd54827b8db7ecf72f7e55fa9a" category="paragraph">이 기능은 모든 페이지에서 숨겨집니다.</block>
   <block id="2ab997129d2c5216ff0d477e12280e8a" category="cell">일부 사용자는 공격이 있어도 제한을 받지 않습니다.</block>
-  <block id="e90c2e3184d693395feccdf9a3d863a1" category="cell">SVM용 Data Collector 및 Agent가 _Running_상태인지 확인합니다. 데이터 수집기 및 에이전트가 중지된 경우 Cloud Secure에서 명령을 전송할 수 없습니다. 이는 사용자가 이전에 사용되지 않은 새 IP가 있는 시스템에서 스토리지에 액세스했을 수 있기 때문입니다. 제한은 사용자가 스토리지에 액세스하는 데 사용하는 호스트의 IP 주소를 통해 수행됩니다. 제한된 IP 주소 목록을 보려면 UI(알림 세부 정보 &gt; 이 사용자의 액세스 제한 기록 &gt; 영향을 받는 IP)를 확인하십시오. 사용자가 제한된 IP와 다른 IP를 가진 호스트에서 스토리지에 액세스하는 경우 사용자는 여전히 제한되지 않은 IP를 통해 스토리지를 액세스할 수 있습니다. 사용자가 IP가 제한된 호스트에서 액세스를 시도하는 경우 스토리지를 액세스할 수 없습니다.</block>
   <block id="9d9d839297abd5b6559ef681c302109c" category="cell">제한할 IP가 이미 다른 사용자로부터 제한되어 있습니다.</block>
   <block id="fc5aca4e5185f241f9160502eac0b160" category="doc">NetApp ONTAP 데이터 수집기 구성</block>
-  <block id="bdde9f578348148335a5c86ea6a0eda9" category="paragraph">Cloud Secure는 데이터 수집기를 사용하여 디바이스에서 파일 및 사용자 액세스 데이터를 수집합니다. 이 데이터는 분석을 위해 Cloud Secure에 제공됩니다.</block>
   <block id="3b37597c3ea4000c791420b6b40843f4" category="list-text">데이터를 수집하도록 에이전트를 구성해야 합니다</block>
   <block id="c73abc9bef194ae04f5fb7bed1f729ed" category="list-text">SVM 관리 IP 주소입니다</block>
   <block id="00fa3e5a484b1b1da6f6139633ec0a86" category="list-text">SVM에 액세스할 수 있는 사용자 이름입니다</block>
@@ -6707,10 +6604,8 @@
   <block id="a9ba623dd18eacf6695a989de608739a" category="list-text">Cloud ONTAP 인스턴스가 상주하는 VPC 및 서브넷을 선택합니다.</block>
   <block id="f66b0de4e12fd878e06d8baf044d459c" category="list-text">할당된 리소스로 _T2.xLarge_(vCPU 4개 및 16GB RAM)를 선택합니다.</block>
   <block id="76857222b6ed7c427dc152c9014fa1db" category="list-text">install_wget_and_unzip_native Linux 패키지를 설치합니다.</block>
-  <block id="423eac979a3e0d4bf196c8f1739436dc" category="list-text">Cloud Secure * 관리자 &gt; 데이터 수집기 * 로 이동하고 * 에이전트 * 탭을 클릭합니다.</block>
   <block id="154f1ab497a09601cd1fb9b781495c52" category="list-text">* + Agent * 를 클릭하고 RHEL을 대상 플랫폼으로 지정합니다.</block>
   <block id="6b40ad8e187509b794c6e9b5ead388c5" category="inline-link-macro">상담원 필수 구성 요소</block>
-  <block id="1db3e70d5316bd8541b386c1c20c91a1" category="list-text">로그인한 RHEL EC2 인스턴스에 Agent Installation 명령을 붙여 넣습니다. 그러면 Cloud Secure 에이전트가 설치되어 모든 가 제공됩니다 <block ref="f5706ef9ce891542a2a7f34eef5c175e" category="inline-link-macro-rx"></block> 충족됩니다.</block>
   <block id="fd84015eccd5cc523eb5eb1352f68be3" category="paragraph">자세한 단계는 https://docs.netapp.com/us-en/cloudinsights/task_cs_add_agent.html#steps-to-install-agent 링크를 참조하십시오</block>
   <block id="48c61d7e308e180e1efe94445b39a2bf" category="summary">IBM Cleversafe 데이터 수집기 구성</block>
   <block id="34dc32f8a9491ac2179b94f2e23199d6" category="doc">IBM Cleversafe 데이터 수집기</block>
@@ -7264,11 +7159,7 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
   <block id="4e9ba34cd64303c28d17d7ef9da12d0b" category="inline-link-macro">Cloud Insights에 대한 고지 사항</block>
-  <block id="d2e8205fb26924fd3acaa79522f1f940" category="summary">Cloud Secure 사용자 계정은 Cloud Insights 사용자 관리를 통해 관리됩니다</block>
   <block id="92726ab5faeb2cb9208eaac9af0346bd" category="doc">사용자 관리</block>
-  <block id="07f2370fb126193bda2c25e90787a779" category="paragraph">Cloud Secure 사용자 계정은 Cloud Insights를 통해 관리됩니다.</block>
-  <block id="0e3ba895596ae6b82a28fc759871c813" category="paragraph">Cloud Insights는 계정 소유자, 관리자, 사용자 및 게스트의 네 가지 사용자 계정 수준을 제공합니다. 각 계정에는 특정 권한 수준이 할당됩니다. 관리자 권한이 있는 사용자 계정은 사용자를 만들거나 수정하고 각 사용자에게 다음 Cloud Secure 역할 중 하나를 할당할 수 있습니다.</block>
-  <block id="762b279a9c8f6d6af8e0ab1138de94ff" category="list-text">Cloud Secure에 로그인합니다</block>
   <block id="6ebd484a6c09e27c3b5f9d6a61ad9a6a" category="paragraph">Cloud Insights의 사용자 관리 페이지로 전달됩니다.</block>
   <block id="65e164b1fa429ad3c8da14d927b960f7" category="list-text">각 사용자에 대해 원하는 역할을 선택합니다.</block>
   <block id="811b5ad1e386d9637dbe52f536822854" category="paragraph">새 사용자를 추가하는 동안 원하는 역할(일반적으로 사용자 또는 게스트)을 선택하기만 하면 됩니다.</block>
@@ -7558,13 +7449,9 @@
   <block id="d5da864a003c6e8dd171d9f5f67d6bcf" category="sidebar">보고 데이터베이스 API</block>
   <block id="44b5660e842b773ac9a2a0afa118094a" category="sidebar">스키마 다이어그램</block>
   <block id="7689c3521d4273b6901f98796399f5b0" category="sidebar">스키마 테이블</block>
-  <block id="a58d130edeec9506633ca8e77d6751ff" category="sidebar">Cloud Secure 시작하기</block>
-  <block id="fd79a91f039f71b5fddff23f55ce0e33" category="sidebar">Cloud Secure 에이전트 요구 사항</block>
-  <block id="e5aec51ee52943fae3ccabf016387e6b" category="sidebar">Cloud Secure 에이전트 구성</block>
   <block id="c9163c5931581c0d00cc0540ed90e5c7" category="sidebar">AD Directory Collector 구성</block>
   <block id="5394915bbb6bf88a0b09d49535e6f706" category="sidebar">LDAP 디렉토리 수집기 구성</block>
   <block id="237cff5be9a99f30dc9585e6e705dc2b" category="sidebar">Cloud ONTAP 데이터 수집기 구성</block>
-  <block id="866ace7cbd74c56db66eff042dc08fd4" category="sidebar">Cloud Secure 사용자 관리</block>
   <block id="9759d20db6b94132676173d6d2302ff4" category="sidebar">법의학</block>
   <block id="a8df87f53c1b831dfc886e69dec19144" category="sidebar">활동 포렌식 - 모든 활동</block>
   <block id="e5ac43b15443b9248d0df9b88a442cf9" category="sidebar">활동 포렌식 - 엔티티</block>
@@ -7693,7 +7580,6 @@
   <block id="c1f58328aeef13bbe14c188aa6c895ea" category="paragraph">다음은 보고와 관련된 문제 해결을 위한 제안 사항입니다.</block>
   <block id="f6742e49587a771a1225e7c6e472c682" category="cell">이메일을 통해 보고서를 보내도록 예약하는 경우 로그인한 사용자의 이름이 이메일의 "받는 사람" 필드에 미리 채워집니다. 그러나 이름은 "성 이름"(이름, 공백, 성) 형식입니다. 이 주소는 유효한 이메일 주소가 아니므로 예약된 보고서가 실행될 때 이메일이 전송되지 않습니다.</block>
   <block id="155db2ed9995e9882b3be492b37935dc" category="cell">이메일을 통해 보고서를 보내도록 예약할 때 미리 채워진 이름을 지우고 "받는 사람" 필드에 올바른 형식의 유효한 이메일 주소를 입력합니다.</block>
-  <block id="9a77156daa8e3ba32694334a614ff511" category="paragraph">Cloud Secure 평가판이 만료되거나 에이전트/수집기가 중단된 경우 다음 단계를 사용하여 ONTAP에서 IP를 수동으로 복원합니다.</block>
   <block id="6dbbd623c3a6977270c54a9833844b28" category="list-text">SVM에 모든 엑스포트 정책을 나열하십시오.</block>
   <block id="316d81dde3628e46f8db6067cc55e287" category="cell">액세스 제한을 수동으로 클릭하면 "이 사용자의 IP 주소가 이미 제한되었습니다"라는 메시지가 나타납니다.</block>
   <block id="bef090ff3d523fedde21921ae6a366fd" category="paragraph">대량 삭제 작업에서 _Save_를 클릭하거나 대량 삭제 작업에서 _Remove_를 클릭하면 Cloud Insights에서 작업이 다소 시간이 걸릴 것임을 알려줍니다. 이 메시지를 해제할 수 있습니다. 작업은 백그라운드에서 계속됩니다.</block>
@@ -7789,7 +7675,6 @@
   <block id="c13a40ffc26f5f762f6de126cf232cf5" category="list-text">데이터 수집 유형은 텔레그라프 에이전트와 같은 수집 데이터와 사용자 지정 메트릭을 검색 및 관리하는 데 사용됩니다</block>
   <block id="e2838ba9f29d27f412035bd037388732" category="list-text">로그 수집은 로그 데이터를 검색하고 관리하는 데 사용됩니다</block>
   <block id="133f61531451649a036c6c806600058c" category="paragraph">시간이 지나면 추가 유형 및/또는 API를 사용할 수 있습니다. 최신 API 정보는 에서 확인할 수 있습니다 <block ref="26737cef142923769504b229d3be204d" category="inline-link-macro-rx"></block>.</block>
-  <block id="5288b4109c2d4a86ed612074d0baed37" category="paragraph">사용자가 액세스할 수 있는 API 유형도 에 따라 다릅니다 <block ref="ead2141fb682d81a2f0b1deca7bb95c5" category="inline-link-macro-rx"></block> 각 Cloud Insights 기능 세트(모니터링, Cloud Secure, 보고)에 있습니다.</block>
   <block id="8811c3ab0c7b0cc46d2ac67e164d0fc9" category="paragraph">성능 메트릭에는 설명 및 유형이 있으며 성능 요약 컬렉션이 포함되어 있습니다. 예: 지연 시간, 트래픽 및 속도.</block>
   <block id="2bf7ed4a0e334f4b972f700945f47a56" category="paragraph">각 성능 데이터 오브젝트 유형에는 고유한 성능 메트릭 세트가 있습니다. 예를 들어, 가상 머신 성능 개체는 성능 메트릭으로 "diskThroughput"을 지원합니다. 지원되는 각 성능 메트릭은 메트릭 사전에 나와 있는 특정 "성능 범주"입니다. Cloud Insights는 이 문서 뒷부분의 여러 성능 메트릭 유형을 지원합니다. 각 성능 메트릭 사전에는 이 성능 메트릭에 대한 사람이 읽을 수 있는 설명과 성능 요약 카운터 항목 집합인 "설명" 필드도 있습니다.</block>
   <block id="9d31f56324b0322ffe68df1873845bca" category="paragraph">검색 API는 시스템에 대한 간단한 진입점입니다. API에 대한 유일한 입력 매개 변수는 자유 형식 문자열이며 결과 JSON에는 분류된 결과 목록이 포함되어 있습니다. 유형은 스토리지, 호스트, 데이터 저장소 등과 같이 인벤토리에서 서로 다른 자산 유형입니다. 각 형식에는 검색 조건과 일치하는 형식의 개체 목록이 포함됩니다.</block>
@@ -8243,7 +8128,6 @@
   <block id="998b4e1fe06f3059a9390f884ebd2960" category="list-text">All_Monitor 및 Optimize_Administrators</block>
   <block id="df43b72d848c482dd610f8178005dbe4" category="paragraph">글로벌 경고 수신자를 구성하려면 * Global Monitor Notification Recipients * 섹션에서 원하는 수신자를 선택합니다.</block>
   <block id="12c5785c0da06ba105803155a192752d" category="doc">경고, 경고 및 에이전트/데이터 소스 수집기 상태에 대한 이메일 알림 구성</block>
-  <block id="fb2811eb0d80f0dc871a8e892a828518" category="paragraph">Cloud Secure 알림 수신자를 구성하려면 * 관리자 &gt; 알림 * 을 클릭하고 각 수신자의 해당 섹션에 이메일 주소를 입력합니다.</block>
   <block id="d788a1b203813004b96af5724b63cb70" category="section-title">잠재적 공격 경고 및 경고</block>
   <block id="0913d37e3bac65fbe05c7263d286ef60" category="paragraph">potential attack_alert 알림을 보내려면 _ Send potential attack Alerts _ 섹션에 받는 사람의 전자 메일 주소를 입력합니다. e-메일 알림은 알림의 모든 작업에 대해 알림 받는 사람 목록으로 전송됩니다.</block>
   <block id="971a81b1c11c1b1948e93ef28402c3f4" category="paragraph">_Warning_notifications를 보내려면 _Send Warning Alerts_ 섹션에 받는 사람의 이메일 주소를 입력합니다.</block>
@@ -8509,15 +8393,11 @@
   <block id="879c5e9016d012ef4ef799fcd3d67e77" category="summary">Cohesity SmartFiles 데이터 수집기 구성</block>
   <block id="0bf422dd8c3b545a1629a88c7196ec4f" category="doc">Cohesity SmartFiles 데이터 수집기</block>
   <block id="680aba4527b5f65899e6a3d8b5ef2457" category="doc">사용자 액세스 차단</block>
-  <block id="309db5d77408f61da8eb2be2f90ace37" category="paragraph">공격이 감지되면 Cloud Secure는 파일 시스템에 대한 사용자 액세스를 차단하여 공격을 차단할 수 있습니다. 자동 응답 정책을 사용하거나 알림 또는 사용자 세부 정보 페이지에서 수동으로 액세스를 차단할 수 있습니다.</block>
   <block id="7aedbe09972610c1d6a6d90587580682" category="paragraph">사용자 액세스를 차단할 때는 차단 기간을 정의해야 합니다. 선택한 기간이 끝나면 사용자 액세스가 자동으로 복원됩니다. 액세스 차단은 SMB 및 NFS 프로토콜 모두에서 지원됩니다.</block>
-  <block id="75e34f78366a0711ad3da9bfc46eba71" category="paragraph">사용자가 SMB 및 호스트 시스템의 IP 주소에 대해 직접 차단되어 NFS에 대한 공격이 차단됩니다. 이러한 머신 IP 주소는 Cloud Secure에서 모니터링하는 SVM(스토리지 가상 머신)에 액세스하지 못하도록 차단됩니다.</block>
-  <block id="cb955e8b752fc732ba5a7f0c6f8fd22b" category="paragraph">예를 들어, Cloud Secure가 10개의 SVM을 관리하고 이러한 4개의 SVM에 대해 자동 응답 정책을 구성한다고 가정해 보겠습니다. 4개의 SVM 중 하나에서 공격이 발생한 경우 10개의 SVM에서 사용자의 액세스가 차단됩니다. 원래 SVM에 대해 스냅샷이 여전히 촬영됩니다.</block>
   <block id="7dd607950e587603a00a1a965723c7c1" category="paragraph">SMB용으로 구성된 SVM 4개, NFS용으로 구성된 SVM 1개와 NFS 및 SMB용으로 구성된 나머지 2개가 있는 경우 4개의 SVM 중 하나에서 공격이 발생한 경우 모든 SVM이 차단됩니다.</block>
   <block id="09ea31b2f879daa3575f90741cc1d791" category="section-title">사용자 액세스 차단을 위한 필수 조건</block>
   <block id="4c03839c4d4987ac81496c7f17d6f092" category="paragraph">이 기능을 사용하려면 클러스터 레벨 자격 증명이 필요합니다.</block>
   <block id="9a517e6700abab3e080100846703ab51" category="paragraph">클러스터 관리 자격 증명을 사용하는 경우 새 권한이 필요하지 않습니다.</block>
-  <block id="075530afc57aa5ff8851fb139e2fbbae" category="list-text">Cloud Secure에서 * 관리자 &gt; 자동 응답 정책 &gt; 응답 정책 설정 &gt; 사용자 액세스 차단 * 으로 이동합니다.</block>
   <block id="d024f8c400c18ed25e7c797f6b13a110" category="list-text">"사용자 액세스 차단 사용"을 _ENABLED_로 설정합니다.</block>
   <block id="8bdb8cb044f5c9cc0cc87ec310782e1a" category="section-title">자동 사용자 액세스 차단을 설정하는 방법은 무엇입니까?</block>
   <block id="83fce3228306e4223f72e5a98ed7923e" category="list-text">“Block User File Access(사용자 파일 액세스 차단)” 확인란을 클릭합니다. 이 옵션을 선택하면 기능이 활성화됩니다.</block>
@@ -8530,11 +8410,8 @@
   <block id="f169ac98d63faf28e5387c7068cdc42d" category="list-text">경고 세부 정보 또는 사용자 세부 정보 화면으로 이동한 다음 해당 화면에서 사용자를 수동으로 차단 또는 복원할 수 있습니다.</block>
   <block id="f21a59e38c0c86324abe189f2666efd8" category="section-title">사용자 액세스 제한 기록</block>
   <block id="b030dc666e324798ee9403442dd23eb1" category="paragraph">경고 세부 정보 및 사용자 세부 정보 페이지의 사용자 패널에서 사용자의 액세스 제한 기록에 대한 감사(시간, 작업(차단, 차단 해제), 기간, 수행한 작업, NFS에 대한 수동/자동 및 영향을 받는 IP</block>
-  <block id="80ecf7ab5a45356379b3eb7762ec7c38" category="list-text">Cloud Secure에서 * 관리자 &gt; 자동 응답 정책 &gt; 응답 정책 설정 &gt; 사용자 액세스 차단 * 으로 이동합니다</block>
   <block id="01aa451dc1421e1b9d5fe5148ef31be7" category="list-text">"사용자 액세스 차단 활성화"를 선택 해제하여 비활성화합니다.</block>
   <block id="fdf597bf8083a921059736ff839ffae8" category="section-title">NFS에 대한 IP를 수동으로 복구합니다</block>
-  <block id="d23f1b27ded70721476d7b5a6ff99f76" category="list-text">각 RuleIndex를 지정하여 "cloudsecure_rule"이 Client match인 SVM의 모든 정책 전반에 걸쳐 규칙을 삭제합니다. Cloud Secure 규칙은 일반적으로 1입니다.</block>
-  <block id="3aba5c3b5ec94e17ca4afc1a38905dbe" category="list-text">Cloud Secure 규칙이 삭제되었는지 확인합니다(선택적 단계 확인).</block>
   <block id="b368496b943e902a72e3e0bed2267ee2" category="cell">정책을 수정할 수 없습니다. 원인: 해당 명령에 대해 권한이 없습니다.</block>
   <block id="b0b134473b7922feefa2eaac79b9fb75" category="cell">CsUser 사용 시, 위에서 설명한 대로 사용자에게 권한이 부여되는지 확인</block>
   <block id="a9a216fbb1fb9d774e7cedfcf74c00cf" category="cell">에서 티켓을 엽니다<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block>. “cloud.netapp.com &gt; 계정/로그인 문제” 또는 “cloud.netapp.com &gt; 페더레이션 문제”를 선택합니다. 특히, Cloud Central 문제 또는 질문을 위한 것입니다. 기타 모든 Cloud Insights 기술 지원 문제는 에 문의하십시오 <block ref="1a8b44ad735b0e8f3f08395032e9cb16" category="inline-link-macro-rx"></block>.</block>
@@ -8553,11 +8430,7 @@
   <block id="e056d3391fc09511bb4b998310f69c58" category="cell">API 액세스 및 추가</block>
   <block id="d54591f265027d735d3be71d57199e4a" category="cell">비즈니스 인텔리전스 및 보고 및 캐스트(&amp;A),</block>
   <block id="1331ebfce7b11a352f3117229f7a9f42" category="paragraph">캐스트(&amp;A); 한 번에 5개의 활성 사용자 지정 모니터로 제한(&amp;A); API 액세스는 Edition&amp;ast에 따라 다름; &amp; ast; 500개 이상의 관리되는 장치에서 사용 가능</block>
-  <block id="4c599f70e51d65668c4ce4bd1c33bb95" category="paragraph">사용자에게 부여된 권한으로 사용자 지정 사용자(예: _CsUser_)를 사용하는 경우 아래 단계를 따라 Cloud Secure에 사용자 차단 권한을 부여합니다.</block>
-  <block id="a8ebeed3ca8bbd5dcb31700e343f161c" category="paragraph">Cloud Secure 평가판이 만료되거나 에이전트/수집기가 중단된 경우 다음 단계를 사용하여 ONTAP에서 사용자를 수동으로 복원합니다.</block>
-  <block id="f95989b518510dd543fddfe641a0760e" category="paragraph">Cloud Secure에서 차단된 사용자 목록을 사용자 목록 페이지에서 가져올 수 있습니다.</block>
   <block id="d429655e140835b91db45b4324358975" category="list-text">cluster_admin_credentials를 사용하여 ONTAP 클러스터(사용자 차단을 해제할 위치)에 로그인합니다. (Amazon FSx의 경우 FSx 자격 증명으로 로그인합니다.)</block>
-  <block id="a450d857f06b830531fe0de70552762d" category="list-text">다음 명령을 실행하여 모든 SVM에서 Cloud Secure for SMB에 의해 차단된 모든 사용자를 나열합니다.</block>
   <block id="8eb6e3d15a14daab42fbb2f986622059" category="paragraph">위 출력에서 두 명의 사용자가 CSLAB 도메인과 함께 차단되었습니다(US030, US040).</block>
   <block id="22ee7904617969fe778ac3e28eded28c" category="list-text">위 출력에서 위치를 확인한 후 다음 명령을 실행하여 사용자 차단을 해제합니다.</block>
   <block id="1f8fcb155f2b517c2c9ae95f65ae3623" category="list-text">다음 명령을 실행하여 사용자의 차단 해제 여부를 확인합니다.</block>
@@ -8658,10 +8531,7 @@
   <block id="719cb8a818a4675afed135a249f933cf" category="admonition">Hitachi Content Platform은 다른 원시 TB에서 관리 단위 비율로 측정되고 있습니다. 40TB의 포맷되지 않은 HCP 용량은 1로 부과됩니다 <block ref="1802ea889a272a3510701d2ff63bbea6" category="inline-link-macro-rx"></block>.</block>
   <block id="c5718388c9ba089c3e079c5b8598c2f1" category="paragraph">Cloud Insights는 NetApp StorageGRID Collector에서 다음 인벤토리 정보를 가져옵니다. 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.</block>
   <block id="75538d7973020af3db4059fd4aefea12" category="admonition">IBM Cleversafe는 관리 단위 비율과 다른 원시 TB로 측정되었습니다. 40TB의 포맷되지 않은 IBM Cleversafe 용량마다 1로 비용이 청구됩니다 <block ref="1802ea889a272a3510701d2ff63bbea6" category="inline-link-macro-rx"></block>.</block>
-  <block id="8dd7ee5e6653f76a82e4dafafcb16a8f" category="list-text">SMB 프로토콜 버전 3.1 이하 Cloud Secure는 FlexCache를 사용하는 SMB 구성에서는 작동하지 않습니다. ONTAP9.7부터 Fpolicy는 NFS 환경에서만 지원됩니다.</block>
   <block id="95be99c1e2046a974fa1680ffa1b83ed" category="cell">Kubernetes v1.20 이상</block>
-  <block id="8c69796d33d9c95e7caf8015cf31ccbe" category="cell">설치 후 에이전트가 실행되고 있지 않습니다. _Systemctl status cloudsecure-agent.service_ 다음과 같이 표시됩니다. [root@demo~]#systemctl status cloudsecure-agent.service agent.service – Cloud Secure Agent Daemon Service loaded: loaded(/usr/lib/systemd/system/cloudsecure-agent.service; enabled; vendor preset: disabled) Active: 활성화(자동 재시작) (결과: 종료 코드) Tue 2021:12:26 PDT; 2s start agent opt /emon pid=25bin/cloudbin: secure agent execbin/service: 25889(code=Exited, status=126), Aug 03 21:12:26 demo systemd [1]: cloudsecure-agent.service: main process 종료, code=Exited, status=126/n/a Aj8 03 21:12:26 demo systemd [1]: unit cloudsecure-agent.service failed state. 8월 03 21:12:26 데모 시스템[1]: cloudsecure-agent.service 실패.</block>
-  <block id="ff6c70aa7cb1a86bff741b99889b8d0b" category="cell">cssys_user에 설치 권한이 없을 수 있으므로 이 작업은 실패할 수 있습니다. /opt/netapp가 NFS 마운트이고 _cssys_user가 이 폴더에 대한 액세스 권한이 없는 경우 설치가 실패합니다. _cssys_는 마운트된 공유에 액세스할 권한이 없는 Cloud Secure 설치 프로그램에서 만든 로컬 사용자입니다. cssys_user를 사용하여 /opt/netapp/cloudsecure/agent/bin/cloudsecure-agent에 액세스하여 이를 확인할 수 있습니다. "사용 권한 거부"를 반환하면 설치 권한이 없는 것입니다. 마운트된 폴더 대신 컴퓨터에 로컬 디렉토리에 설치합니다.</block>
   <block id="33b1e192582408583865dca3abd0c740" category="cell">어떤 필터에 해당됩니까?</block>
   <block id="8c553135b1cf58374ff9e4c775f2f164" category="cell">어떤 필터에는 적용되지 않습니다</block>
   <block id="eaaa45bccc15257d9f55e54b64c70aba" category="cell">* (별표)</block>
@@ -8715,7 +8585,6 @@
   <block id="37d67556425a480bd771d25cccb64deb" category="list-text">ONTAP 아마존 FSx</block>
   <block id="0dec2b903302bbd14d95abf2e3a6eb78" category="paragraph">에이전트 시스템은 클라우드 서비스 공급자의 각 서브넷에 구성되어야 합니다. [Agent Requirements] 에서 네트워크 액세스에 대해 자세히 알아보십시오.</block>
   <block id="608efa70bff9cd8ba64ac8f581eee545" category="paragraph">다음은 AWS에서 Agent를 설치하는 단계입니다. 클라우드 서비스 공급자에 적용되는 것과 동일한 단계를 Azure 또는 Google Cloud에서 설치를 위해 수행할 수 있습니다.</block>
-  <block id="dacbc7c2a597126f4cb9dec110f0684b" category="paragraph">AWS에서 다음 단계를 수행하여 Cloud Secure 에이전트로 사용할 시스템을 구성합니다.</block>
   <block id="e92d16963e5b72f89982fb54b922794a" category="list-text">* 채팅 * - NetApp 지원 담당자와 연결하여 지원을 받을 수 있습니다(평일에만 해당). 채팅은 Cloud Insights 화면 오른쪽 상단의 * 도움말 &gt; 라이브 채팅 * 메뉴 옵션에서 사용할 수 있습니다.</block>
   <block id="abc39e61f48aa5adbf3a9de149e1a87a" category="list-text">인프라/인벤토리: 사용자 데이터에 스토리지/네트워킹 서비스를 제공하는 객체입니다</block>
   <block id="f66a68b2ce406b961d0175d123132ef1" category="list-text">워크로드: 사용자가 데이터를 읽고 쓸 수 있도록 인터페이스를 제공하는 객체입니다.</block>
@@ -8807,24 +8676,18 @@
   <block id="93254a992ce8a5bbebb5d43f09f243d7" category="doc">NetApp ONTAP 스트리밍 텔레메트리</block>
   <block id="458a37db2666885e234720ccdea58253" category="paragraph">최신 정보는 를 참조하십시오 <block ref="16021e77167161423bb6653c8cf910d8" category="inline-link-macro-rx"></block> 데이터 수집기 페이지.</block>
   <block id="100c37ccf9bdbedac2e35d90d41d3be9" category="inline-link-macro">이 가이드를 참조하십시오</block>
-  <block id="f06397ccd924d99fcb3214efdc25d940" category="paragraph">Cloud Secure는 다른 툴과도 통합할 수 있습니다. 예를 들면, 다음과 같습니다. <block ref="4ccd3ce9fc5ce8804b14aeb0860cf515" category="inline-link-macro-rx"></block> Splunk와 통합 시,</block>
   <block id="a4c1554c68c13d90856edc78740b6673" category="list-text">성능에 대한 액세스 검증: 획득 장치의 웹 브라우저에서 _\https://&lt;SMI-S Hostname or IP&gt;:5989/ecomconfig_로 이동합니다. 여기서 "SMI-S 호스트 이름 또는 IP"는 SMI-S 서버의 IP 주소 또는 호스트 이름입니다. 이 URL은 EMC SMI-S("ECOM") 서비스의 관리 포털용 URL로, 로그인 팝업을 받게 됩니다.</block>
   <block id="c296d8324f9fa4f890b4ead0f69bfac3" category="doc">ONTAP Autonomous 랜섬웨어 Protection과 통합</block>
   <block id="d444ab62db0a690e837242dfd8b87acc" category="paragraph">ONTAP ARP(Autonomous 랜섬웨어 보호) 기능은 NAS(NFS 및 SMB) 환경에서 워크로드 분석을 사용하여 랜섬웨어 공격을 나타낼 수 있는 비정상적인 파일 내 작업을 사전에 감지하여 경고합니다.</block>
   <block id="383c3a61ab1ee0baf884d10441d965bd" category="paragraph">ARP에 대한 추가 세부 정보와 라이센스 요구 사항을 찾을 수 있습니다 <block ref="aaf4977c10e4402f9516d11af3df8368" category="inline-link-macro-rx"></block>.</block>
-  <block id="4a90b843204a7e572f3f003b57df0e34" category="paragraph">Cloud Secure는 ONTAP와 통합되어 ARP 이벤트를 수신하고 추가 분석 및 자동 응답 계층을 제공합니다.</block>
-  <block id="7f296999dd5a19bdac141d3c5458bf09" category="paragraph">Cloud Secure는 ONTAP로부터 ARP 이벤트를 수신하고 다음과 같은 조치를 취합니다.</block>
   <block id="934b109c1d19ab46820aa2d388697f4e" category="list-text">볼륨 암호화 이벤트와 사용자 활동의 상관 관계를 분석하여 손상을 일으키는 원인을 식별합니다.</block>
   <block id="bb7256da73d87b6336cf1dc5342a8692" category="list-text">자동 응답 정책 구축(정의된 경우)</block>
   <block id="ac3108149bf9197801e00b41c3c7cb34" category="list-text">포렌식 기능 제공:</block>
   <block id="c5c2c046e5a8aeae7862975fda61f862" category="list-text">고객이 데이터 침해 조사를 수행할 수 있도록 허용합니다.</block>
   <block id="7355572f8cd61d6b84bd549a6b19d75b" category="list-text">영향을 받은 파일을 파악하여 복구 시간을 단축하고 데이터 침해 조사를 수행할 수 있습니다.</block>
   <block id="3c6aa4f4d8c4e33eefaec63c43ad62bb" category="list-text">최소 ONTAP 버전: 9.11.1</block>
-  <block id="f97f5685fc902a89d150e9c654602c43" category="list-text">ARP 사용 볼륨. ARP를 활성화하는 방법에 대한 세부 정보를 찾을 수 있습니다 <block ref="9e499af99dc8d0d5835de8f33e6a6797" category="inline-link-macro-rx"></block>. ARP는 OnCommand 시스템 관리자를 통해 활성화해야 합니다. Cloud Secure에서 ARP를 활성화할 수 없습니다.</block>
-  <block id="b33ce104a861da9844f5dfaeb51c79eb" category="list-text">Cloud Secure Collector는 클러스터 IP를 통해 추가해야 합니다.</block>
   <block id="77daf866423aa56487a2f9b637628664" category="list-text">이 기능을 사용하려면 클러스터 레벨 자격 증명이 필요합니다. 즉, SVM을 추가할 때 클러스터 레벨 자격 증명을 사용해야 합니다.</block>
   <block id="d3967f941a1672db445a1da6ef843e2e" category="section-title">사용자 권한이 필요합니다</block>
-  <block id="76b59b81477976d5b5bed701e6ff22b9" category="paragraph">사용자에게 부여된 권한을 가진 사용자 정의 사용자(예: _CsUser_)를 사용하는 경우, 아래 단계를 따라 Cloud Secure에 ARP 관련 정보를 수집할 수 있는 권한을 ONTAP에 부여합니다.</block>
   <block id="ba95389dce56e78ab6a308128620b033" category="paragraph">클러스터 자격 증명을 사용하여 _CsUser_의 경우 ONTAP 명령줄에서 다음을 수행합니다.</block>
   <block id="20cdc94cc7059da994e4c0a98a544c8f" category="section-title">샘플 알림</block>
   <block id="e0e1895e03a77da5552db43fbdeaeea6" category="paragraph">ARP 이벤트로 인해 생성된 샘플 경고는 다음과 같다.</block>
@@ -8832,8 +8695,6 @@
   <block id="d12fcb220971d8d0a7e1d474102c977e" category="paragraph"><block ref="d12fcb220971d8d0a7e1d474102c977e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="333fa709635d0e011dd99c908e02bd40" category="paragraph">고신뢰도 배너는 공격이 파일 암호화 활동과 함께 랜섬웨어 동작을 보여발생했음을 나타냅니다. 암호화된 파일 그래프는 ARP 솔루션이 볼륨 암호화 작업을 감지한 타임스탬프를 나타냅니다.</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">제한 사항</block>
-  <block id="7a64568c4010a39c6620146ba9511682" category="paragraph">Cloud Secure에서 SVM을 모니터링하지 않지만 ONTAP에서 생성된 ARP 이벤트가 있는 경우 Cloud Secure에서 이벤트를 계속 수신하고 표시합니다. 그러나 알림과 관련된 Forensic 정보 및 사용자 매핑은 캡처되거나 표시되지 않습니다.</block>
-  <block id="500021752029d6f358d3f431decf2194" category="summary">Cloud Secure은 ONTAP 자율 랜섬웨어 차단 기능과 통합되어 랜섬웨어 탐지 기능을 개선합니다.</block>
   <block id="4c4518d4c20175eb4082a6b33eb4badb" category="section-title">2022년 10월</block>
   <block id="d9ed23066a8423b647abeae97c6e8d89" category="section-title">ONTAP Autonomous 랜섬웨어 보호 통합을 통해 더 정확하고 우수한 랜섬웨어 탐지 기능을 제공합니다</block>
   <block id="533c17bbfdfb297420db9af0908070d6" category="inline-link-macro">자율 랜섬웨어 보호</block>
@@ -8866,7 +8727,6 @@
   <block id="f555190cc628f345214d8d00c587f506" category="list-text">Cloud Insights가 백엔드 스토리지를 모니터링하고 Docker 컨테이너 런타임과 함께 Kubernetes를 사용하는 경우 Cloud Insights는 NFS 및 iSCSI에 대한 Pod-PV-스토리지 매핑을 표시할 수 있고, 다른 런타임에는 iSCSI만 표시할 수 있습니다.</block>
   <block id="1d71a30c3f76311c39e7b21e9d36041f" category="list-text">2022년 8월부터 NetApp Kubernetes Monitoring Operator는 Pod 보안 정책(PSP)을 지원합니다. 반드시 해야 합니다 <block ref="7ef2e8367766700cf003a7bef00d93ae" category="inline-xref-macro-rx"></block> 해당 환경에서 PSP를 사용하는 경우 최신 NetApp Kubernetes 모니터링 사업자로 이동합니다.</block>
   <block id="ceb4fea071151ab6bb0ff80a20993744" category="list-text">OpenShift 4.6 이상에서 실행 중인 경우 이러한 필수 구성 요소가 충족되도록 보장하는 것 외에 아래의 * OpenShift Instructions * 를 따라야 합니다.</block>
-  <block id="82f6a763fe60e4e576dfec4afd406d65" category="list-text">NetApp Kubernetes 모니터링 오퍼레이터를 설치하는 데 사용할 호스트에는 타겟 K8s 클러스터와 통신하도록 _kubbtl_을 구성하고 Cloud Insights 환경에 인터넷에 연결되어 있어야 합니다. 이 호스트에 Cloud Insights에 연결할 프록시가 필요한 경우 의 지침을 따릅니다 <block ref="209b83f4fc550a98dd7cd4c1d0704793" category="inline-xref-macro-rx"></block> 섹션을 참조하십시오.</block>
   <block id="951a50d1b55837ddb5ff4cb5af4ebc8a" category="list-text">NetApp Kubernetes Monitoring Operator는 다른 인스턴스와 충돌을 피하기 위해 고유한 kube-state-metrics를 설치합니다.</block>
   <block id="abd3f7869ce900c36e8cd1dc95b25a52" category="list-text">설치 중에 프록시 뒤에 있거나 모니터링할 K8s 클러스터를 작동하는 경우 의 지침을 따릅니다 <block ref="209b83f4fc550a98dd7cd4c1d0704793" category="inline-xref-macro-rx"></block> 섹션을 참조하십시오.</block>
   <block id="4085e40ddd1e35991b92d689ee9b414a" category="section-title">시작하기 전에 이 내용을 기록해 두십시오</block>
@@ -9041,7 +8901,6 @@
   <block id="ddae1da9e7e7b7bc5250e69e20396758" category="cell">Active Directory의 데이터는 CloudInsights Security에 있습니다. CloudInsights에서 모든 사용자 정보를 삭제하려는 경우</block>
   <block id="cda875edf30beb4d722b276eaf998869" category="cell">CloudInsights 보안에서는 Active Directory 사용자 정보만 삭제할 수 없습니다. 사용자를 삭제하려면 전체 테넌트를 삭제해야 합니다.</block>
   <block id="b5a4b64b2aa505bd7c11f79b8a9f458d" category="cell">해상도</block>
-  <block id="f261294412af441f0164f608fbed7960" category="cell">"Cloud Secure: Amazon FxSN 데이터 수집기에 대한 ONTAP 유형을 확인하지 못했습니다." 오류가 데이터 수집기에 표시됩니다. 고객이 새 Amazon FSxN 데이터 수집기를 Cloud Secure에 추가할 수 없습니다. 에이전트에서 포트 443의 FSxN 클러스터에 대한 연결이 시간 초과입니다. 방화벽 및 AWS 보안 그룹에는 통신을 허용하는 데 필요한 규칙이 활성화되어 있습니다. 에이전트가 이미 구축되어 있으며 동일한 AWS 계정에도 있습니다. 이 동일한 에이전트를 사용하여 나머지 NetApp 장치를 연결 및 모니터링합니다(모두 작동).</block>
   <block id="b4006ae0366e7ed3c70d23f64ed418c8" category="cell">fsxadmin LIF 네트워크 세그먼트를 에이전트의 보안 규칙에 추가하여 이 문제를 해결합니다. 포트가 확실하지 않은 경우 모든 포트가 허용됩니다.</block>
   <block id="2855135907eef979db329ca6aebe0464" category="section-title">시뮬레이터를 실행하기 전에 필요한 지침:</block>
   <block id="d786b68b9cf5f686784afa64b69b3bce" category="list-text">암호화된 파일이 비어 있지 않은지 확인합니다.</block>
@@ -9140,9 +8999,6 @@
   <block id="6da07aa5f066875b812525d42f923d0d" category="paragraph">다음은 적절한 cisys 권한이 있는 예제 파일입니다.</block>
   <block id="1b177c66fc08f105ae2d0bcc67959194" category="cell">"알 수 없는 코드" 메시지와 함께 데이터 수집 오류가 표시됩니다.</block>
   <block id="dc58289d0fee8bd8c729121c6c769072" category="cell">Solutions Enabler 서버의 데몬 구성 파일에 사용 권한이 선언되지 않은 경우 이 메시지가 표시될 수 있습니다(참조) <block ref="48ee54aab4fee6d43a8bd3ed26dff2b5" category="inline-xref-macro-rx"></block> 위) SE 클라이언트 버전이 SE 서버 버전과 일치하는 것으로 가정합니다.</block>
-  <block id="7df6d4e2df67f79f8df5aab759ba8d32" category="inline-link-macro">Cloud Secure에 대한 고지 사항</block>
-  <block id="71bafd8c49729a3f6053d054365d3754" category="paragraph"><block ref="fb357983cf2ab6e1d0ee3d96cfba559e" category="inline-link-macro-rx"></block>
-<block ref="4a03dbf5caf94bf047e98fd16e83ff34" category="inline-link-macro-rx"></block></block>
   <block id="e2079cb79abadfe109c02ddf1f9e67eb" category="list-text">SVM에는 여러 가지 하위 유형이 있습니다. 이 중 _DEFAULT_, _SYNC_SOURCE_ 및 _SYNC_DESTINATION_ 만 지원됩니다.</block>
   <block id="6d7dcfcccd12536dde9ff30f070659ea" category="section-title">Metro Cluster에 대한 권장 구성</block>
   <block id="dbefbdd0db747220531f4b1da3847502" category="paragraph">Metro 클러스터에는 다음을 사용하는 것이 좋습니다.</block>
@@ -10614,12 +10470,10 @@
   <block id="6c7ca580ed97b823c501ac9c614a22e3" category="list-text">kubbe-RBAC-proxy: v0.13.0</block>
   <block id="09fac59df2e8bc91f55d933bf9d5c4b9" category="list-text">Kubernetes - 이벤트 - 수출자: v0.10</block>
   <block id="39930ddf87d2960ef2f5a8ff06e4993e" category="cell">설치된 Telegraf 버전이 오래되었습니다. 이 페이지의 단계를 따라 해당 플랫폼에 대해 Agent * 를 업그레이드합니다.</block>
-  <block id="3bcb28b2cc6deee61cca4e9a0d0080f8" category="cell">1.방화벽이 에이전트 시스템에서 필요한 포트를 차단하고 있을 가능성이 높습니다. 에이전트 시스템이 SVM에서 연결할 수 있도록 포트 범위 35000-55000/TCP가 열려 있는지 확인합니다. 또한 ONTAP 측 차단 통신에서 에이전트 시스템로의 방화벽이 활성화되어 있지 않은지 확인합니다. 에이전트 상자에 다음 명령을 입력하고 포트 범위가 열려 있는지 확인합니다. _sudo iptables -save | grep 3500 * _Sample 출력은 다음과 같아야 합니다. _ -a in_public_allow -p tcp -m -dport 35000 -m conntrack -ctstate new -j accept_3. SVM에 로그인하고 다음 명령을 입력한 후 ONTAP와의 통신을 차단하는 방화벽이 설정되어 있지 않은지 확인합니다. _system services firewall show__system services firewall policy show _<block ref="c2f863dc8aacfc5c321b626bd2f4e2b3" category="inline-link-macro-rx"></block> ONTAP 측면 4.모니터링하려는 SVM/클러스터에 SSH를 연결합니다. CIFS, NFS 프로토콜 지원)을 사용하여 SVM 데이터 거짓에서 에이전트 상자를 ping하고 ping이 작동하는지 확인합니다. _network ping -vserver &lt;vserver name&gt; -destination &lt;Agent IP&gt; -lif &lt;LIF Name&gt; -show-detail_만약 Ping할 수 없으면 ONTAP의 네트워크 설정이 올바른지 확인하여 에이전트 시스템이 Ping할 수 있도록 합니다. 데이터 수집기 2개를 통해 테넌트에 단일 SVM을 두 번 추가하면 이 오류가 표시됩니다. UI를 통해 데이터 수집기 중 하나를 삭제합니다. 그런 다음 UI를 통해 다른 데이터 수집기를 다시 시작합니다. 그러면 데이터 수집기가 "실행 중" 상태를 표시하고 SVM에서 이벤트를 수신하기 시작합니다. 기본적으로 테넌트에서 1개의 SVM은 1개의 데이터 수집기를 통해 한 번만 추가해야 합니다. 1 SVM은 2개의 데이터 수집기를 통해 두 번 추가해서는 안 됩니다. 서로 다른 두 Cloud Secure 환경(테넌트)에서 동일한 SVM이 추가된 경우 마지막 테넌트는 항상 성공합니다. 두 번째 수집기는 FPolicy를 자체 IP 주소로 구성하고 첫 번째 것을 시작합니다. 따라서 첫 번째 수집기는 이벤트 수신을 중지하고 "감사" 서비스가 오류 상태로 전환됩니다. 이를 방지하려면 각 SVM을 단일 환경에서 구성합니다. 7.서비스 정책이 올바르게 구성되지 않은 경우에도 이 오류가 발생할 수 있습니다. ONTAP 9.8 이상에서는 데이터 소스 수집기에 연결하기 위해 데이터 서비스 데이터 서비스 데이터(NFS 및/또는 데이터 CIFS)와 함께 데이터 FPolicy 클라이언트 서비스가 필요합니다. 또한 데이터-FPolicy-클라이언트 서비스는 모니터링되는 SVM에 대한 데이터 거짓과 연결되어야 합니다.</block>
   <block id="3a0f609bf65bf53f905fdcfae464bcae" category="cell">새 플러그인을 구성하고 Telegraf를 다시 시작한 후 Teleraf가 시작되지 않습니다. 로그에 다음과 유사한 오류가 표시됩니다. "[텔레그라프] 에이전트 실행 중 오류: 구성 파일 /etc/Telegraf/Telegraf.d/클라우드.conf: plugin outputs.http: line &lt;linenumber&gt;: 구성에서 ["use_system_proxy"] 필드를 지정했지만 사용되지 않았습니다."</block>
   <block id="90388b17e672eeaae8e092ebd4bf6362" category="cell">이전 설치에서 설치 프로그램 스크립트를 실행했는데 에이전트가 데이터를 전송하지 않습니다</block>
   <block id="7cc579c6f20ffbe0b9452d6f5fff9167" category="cell">Telegraf 에이전트를 제거한 다음 설치 스크립트를 다시 실행합니다. 해당 플랫폼에 대해 이 페이지의 * 에이전트 업그레이드 * 단계를 따릅니다.</block>
   <block id="6ff3c19fa7be83723b830f7a88ebff57" category="cell">공격이 감지된 후 24시간 이내에 이메일 경고가 수신됩니다. UI에서 알림은 Cloud Insights 워크로드 보안에서 이메일을 수신하기 24시간 전에 표시됩니다.</block>
-  <block id="c5b841da6fee0eba42d21333b80aa983" category="cell">ONTAP가 _랜섬웨어 탐지_이벤트를 Cloud Insights 워크로드 보안(예: Cloud Secure)으로 전송하면 이메일이 전송됩니다. 이벤트에는 공격 목록과 타임 스탬프가 포함됩니다. 워크로드 보안 UI는 첫 번째 공격 파일의 경고 타임스탬프를 표시합니다. ONTAP는 특정 수의 파일이 인코딩될 때 _ 랜섬웨어 탐지 _ 이벤트를 Cloud Insights로 전송합니다. 따라서 알림이 UI에 표시되는 시간과 이메일을 보낸 시간 사이에 차이가 있을 수 있습니다.</block>
   <block id="41515808c69d7153bb45ebb8e41a4426" category="list-text">Security * 메뉴에서 * Admin &gt; Data Collector &gt; Agents &gt; + Agent * 를 선택합니다</block>
   <block id="9608ad0a6050ac9fa535a95a22aa7db4" category="list-text">물리적 용량 – FSx 파일 시스템에 할당된 모든 SSD 스토리지에 대한 기본 2 합계.</block>
   <block id="dc17e2eb752d75a670b36698bc346864" category="list-text">IOPS – 이 스토리지 풀에 할당된 모든 볼륨의 IOPS 합계입니다.</block>
@@ -10635,7 +10489,6 @@
   <block id="6fb7bed0df7f6e9e4f06d0f0caeafead" category="list-text">NFSv4: node</block>
   <block id="dc3586fd8e7ef27b39459d19e3935fa6" category="list-text">policy_group입니다</block>
   <block id="e6d9fd6d6edf829b4a80664e36d20387" category="list-text">workload_volume</block>
-  <block id="eb7df28f88bc327c30fcc0b6ef2648ff" category="paragraph">Cloud Secure 에이전트를 호스팅할 단일 노드/HA AWS 인스턴스를 구성하려면 OnCommand Cloud Volumes ONTAP 설명서를 참조하십시오.<block ref="caca64b8e9927e0ea8e8b0158b9e47cd" category="inline-link-rx"></block></block>
   <block id="3878e180796265243705a46f1494ad55" category="section-title">Cloud Insights이 무슨 일을 할 수 있습니까?</block>
   <block id="8e2f0fac2486fb4c82d056c8b3107326" category="paragraph">Cloud Insights는 하이브리드 멀티 클라우드 모니터링을 통해 인프라 및 워크로드를 전체 스택에 대한 관찰 가능성을 제공합니다.</block>
   <block id="256e0247d88a2ebcaeb434e937f6934d" category="list-text">Kubernetes를 포함한 이기종 인프라 및 워크로드의 데이터 수집기가 있습니다</block>
@@ -10760,4 +10613,176 @@
   <block id="ef756d1229bc6f51e983884d984a03f3" category="inline-link-macro">NetApp KB 문서</block>
   <block id="59ac6af58fe53beeb9262552cb4288e4" category="cell">를 클릭합니다 <block ref="588cebdad26ee4a9a3bb08c290310eb7" category="inline-link-macro-rx"></block> Cloud Insights가 획득 장치와 통신하는 데 사용하는 것은 Cloud Insights와 데이터 수집기 자체 간에 통신하지 않습니다. 다음과 같은 몇 가지 방법을 시도해 볼 수 있습니다. 획득 장치가 FQDN을 확인하고 필요한 포트에 도달할 수 있는지 확인하십시오. 프록시가 오류 메시지의 지정된 끝점에 도달할 필요가 없는지 확인합니다. curl(말림)은 획득 장치와 끝점 사이의 통신을 테스트하는 데 사용할 수 있습니다. 이 테스트에 프록시를 사용하고 있지 * 않은지 확인하십시오. 예: root@acquisionunit# curl -s -H accept: application/json -H "content-type: application/json" -H api -key: &lt;api key used in the data collector credentials -H secret-key:&lt;secret key used in the data collector credentials&gt;-X get<block ref="c76ccb25cb3c0e03bc187c29ed42806c" category="inline-link-rx"></block> 지역 엔드포인트 &gt;:8080/v1/스토리지/IPRanges 이 항목을 참조하십시오 <block ref="776b569bb4fd625ede408f144a17e02c" category="inline-link-macro-rx"></block>.</block>
   <block id="eb1d5185404b1a4f21a4da9c88cb536d" category="paragraph">Cloud Insights에 등록하고 환경이 활성화되어 있는 경우 Cloud Insights 30일 무료 평가판에 들어갑니다. 이 시험판 평가 중에 Cloud Insights가 귀사의 환경에서 제공하는 기능을 살펴볼 수 있습니다.</block>
+  <block id="fca4fedbe53af4420a279beead573bdf" category="doc">워크로드 보안: 공격 시뮬레이션</block>
+  <block id="373799975bf9df78f2b7e58b488fdb43" category="paragraph">코드--- 사이드바: 사이드바 permalink: concept_cs_attack_simulator.html 키워드: 랜섬웨어, 시뮬레이션, 시뮬레이터, 제한, 공격 요약: 스크립트를 사용하여 워크로드 보안-----</block>
+  <block id="85bec7dd725b26542ae7c0d1c759836a" category="paragraph">이 페이지의 지침을 사용하여 포함된 랜섬웨어 시뮬레이션 스크립트를 사용하여 워크로드 보안을 테스트 또는 시연하기 위한 공격을 시뮬레이션할 수 있습니다.</block>
+  <block id="16fa78539f96944e79f64b961036e74d" category="list-text">이 스크립트는 워크로드 보안 에이전트 설치 파일과 함께 제공됩니다. 워크로드 보안 에이전트가 설치된 모든 시스템에서 사용할 수 있습니다.</block>
+  <block id="749376c343309b5abf1f8bc2f1e6e9f7" category="list-text">워크로드 보안 에이전트 시스템 자체에서 스크립트를 실행할 수 있으며 다른 Linux 시스템을 준비할 필요가 없습니다. 그러나 스크립트를 다른 시스템에서 실행하려면 스크립트를 복사하여 거기에서 실행하기만 하면 됩니다.</block>
+  <block id="0b2c7f99606e39c9dac8c555454ca6a7" category="paragraph">이 스크립트는 암호화할 파일이 있는 폴더가 있는 SVM에서 실행되어야 합니다. 해당 폴더 및 하위 폴더 내에 1,000개 이상의 파일이 있는 것이 좋습니다. 파일이 비어 있으면 안 됩니다. 같은 사용자를 사용하여 파일을 만들고 암호화하지 마십시오. 워크로드 보안은 이 작업을 저위험 작업으로 간주하므로 경고를 생성하지 않습니다(즉, 동일한 사용자가 방금 생성한 파일을 수정함).</block>
+  <block id="5e7fe8c41f8a34a29dc01b5eced565e8" category="list-text">아직 수행하지 않은 경우 워크로드 보안 에이전트를 구성합니다.</block>
+  <block id="f133c978b541b977d0cbc025827ccf6d" category="list-text">워크로드 보안 에이전트 시스템에 로그인(ssh)합니다.</block>
+  <block id="dd844f5768b1b38bb3eaa8aad66cc28d" category="paragraph">사용자에 대한 랜섬웨어 공격을 생성한 후 다른 사용자로 전환하여 추가 공격을 생성하십시오. 워크로드 보안은 사용자 행동을 학습하고 동일한 사용자에 대해 짧은 기간 내에 반복되는 랜섬웨어 공격에 대해 경고하지 않습니다.</block>
+  <block id="bfaa8eb7a00a21e139538a78c0f52e22" category="summary">워크로드 보안 에이전트를 삭제하는 중입니다</block>
+  <block id="e3caad3663e2ffec233e35fce39beff9" category="doc">워크로드 보안 에이전트를 삭제하는 중입니다</block>
+  <block id="0a67d5ce146e92cf018b50cdea594684" category="paragraph">Workload Security Agent를 삭제하면 Agent와 연결된 모든 데이터 수집기가 먼저 삭제되어야 합니다.</block>
+  <block id="5af324e937b678c276d0547d5da2e942" category="list-text">에이전트와 연결된 모든 데이터 수집기가 워크로드 보안 포털에서 삭제되었는지 확인합니다.</block>
+  <block id="3e68378ba1d3b7f2245578e342bed0be" category="summary">몇 가지 간단한 단계를 통해 워크로드 보안을 시작할 수 있습니다</block>
+  <block id="bba50a707846a3806736dc01f6354532" category="doc">워크로드 보안 시작</block>
+  <block id="0506b86e6f0cdfab05c9570568f031d8" category="paragraph">워크로드 보안을 사용하여 사용자 작업을 모니터링하려면 먼저 완료해야 하는 구성 작업이 있습니다.</block>
+  <block id="f827ca5aa861a4bddcbc872872858f88" category="paragraph">워크로드 보안 시스템은 에이전트를 사용하여 스토리지 시스템에서 액세스 데이터를 수집하고 디렉토리 서비스 서버에서 사용자 정보를 수집합니다.</block>
+  <block id="2e51f9cf2f419fb083d896473cf49193" category="paragraph">워크로드 보안은 다른 툴과도 통합될 수 있습니다. 예를 들면, 다음과 같습니다. <block ref="4ccd3ce9fc5ce8804b14aeb0860cf515" category="inline-link-macro-rx"></block> Splunk와 통합 시,</block>
+  <block id="18a729837a70beac3395cfe79bcc30f2" category="list-text">* Premium Edition * 은 비즈니스 인텔리전스 및 보고와 같은 추가적인 이점뿐 아니라 워크로드 보안 감사 및 위협 감지와 같은 이점도 제공합니다.</block>
+  <block id="ff6174f06964486c8970783d9abd7b54" category="cell">워크로드 보안 사용자 데이터 액세스 감사</block>
+  <block id="1b3681a6af892931e035b5a955f26be0" category="cell">AI/ML을 사용한 워크로드 보안 내부자 위협 감지</block>
+  <block id="67db66af222a8d458fedb178121497e4" category="summary">워크로드 보안 LDAP 사용자 디렉토리 수집기 구성</block>
+  <block id="773b00ecd31fcc8e604b5759c8df2d1e" category="paragraph">LDAP 디렉토리 서버에서 사용자 속성을 수집하도록 워크로드 보안을 구성합니다.</block>
+  <block id="0769cb17506298e1a0fd45ed42ba3e8d" category="list-text">워크로드 보안 메뉴에서 * 관리자 &gt; 데이터 수집기 &gt; 사용자 디렉토리 수집기 &gt; + 사용자 디렉토리 수집기 * 를 클릭하고 * LDAP 디렉토리 서버 * 를 선택합니다</block>
+  <block id="d449caeff5b9c80604d3878de0500478" category="list-text">다음 명령을 사용하여 워크로드 보안 LDAP 사용자 권한을 검증합니다.</block>
+  <block id="65c4f6bc3272e61ec3bacf8385c9aca1" category="cell">도메인 사용자의 선택적 속성이 워크로드 보안 사용자 프로필 페이지에 나타나지 않습니다.</block>
+  <block id="44f9e39b6d01a9bb96134d1fa664c4a9" category="cell">AD(Active Directory) 서버에서 암호화 인증서(SSL)가 활성화된 경우 워크로드 보안 사용자 디렉토리 수집기는 AD 서버에 연결할 수 없습니다.</block>
+  <block id="f765e14da4a389313572532a2db01804" category="summary">워크로드 보안은 비정상적인 사용자 활동이나 잠재적인 공격 발생 시 알림을 생성합니다. 경고 페이지에는 빠르고 쉽게 조사할 수 있도록 이러한 활동이 나열됩니다.</block>
+  <block id="42dbd44948498b2c6399cada3f8bce3c" category="paragraph">워크로드 보안 경고 페이지에는 최근 공격 및/또는 경고의 타임라인이 표시되며 각 문제에 대한 세부 정보를 볼 수 있습니다.</block>
+  <block id="8771316aacd1c4b06854e0e9f30a545c" category="list-text">공격 유형(랜섬웨어, 태업) 및 경고 ID(워크로드 보안에서 할당)</block>
+  <block id="37fa3057780441193fd46b687aef4974" category="paragraph">워크로드 보안은 악의적인 활동이 감지되면 스냅샷을 자동으로 생성하여 데이터를 보호하고 데이터가 안전하게 백업되도록 합니다.</block>
+  <block id="106f889ad7fb5a787f85bc5d8d8471ec" category="paragraph">경고 및 경고는 13개월 동안 유지됩니다. 13개월 이전의 경고 및 경고가 삭제됩니다. 워크로드 보안 환경이 삭제된 경우 환경과 관련된 모든 데이터도 삭제됩니다.</block>
+  <block id="431fef516df90830b5c1c21b6ce07235" category="cell">CS(Workload Security)에서 생성한 스냅샷의 경우 CS 스냅샷의 제거/아카이빙 기간이 있습니까?</block>
+  <block id="e6fb05f0da5acc86f543947f4c4e697e" category="cell">ONTAP에서 매일 매시간 스냅샷을 생성하는 경우가 있습니다. CS(워크로드 보안) 스냅샷이 영향을 미칩니까? CS 스냅샷은 시간별 스냅샷 위치를 가져갈까요? 기본 시간별 스냅샷이 중지됩니까?</block>
+  <block id="726c7f3f596062ccd907feb3815a05e0" category="cell">워크로드 보안 스냅샷은 시간별 스냅샷에 영향을 주지 않습니다. CS 스냅샷은 매시간 스냅샷 공간을 차지하지 않으므로 이전과 같이 계속 진행됩니다. 기본 시간별 스냅샷은 중지되지 않습니다.</block>
+  <block id="dbc12ef69e34122bf8f4ac6b397d0011" category="cell">최대 스냅샷 수에 도달하면 후속 스냅샷 찍기가 실패하고 워크로드 보안에서 스냅샷이 가득 찼다는 오류 메시지가 표시됩니다. 사용자는 가장 오래된 스냅샷을 삭제하기 위해 스냅샷 정책을 정의해야 합니다. 그렇지 않으면 스냅샷이 생성되지 않습니다. ONTAP 9.3 이전 버전에서는 볼륨에 최대 255개의 스냅샷 복사본이 포함될 수 있습니다. ONTAP 9.4 이상에서는 볼륨에 최대 1023개의 스냅샷 복사본을 포함할 수 있습니다. 에 대한 자세한 내용은 ONTAP 설명서를 참조하십시오 <block ref="be93a0e4b8c5168a6ec2dc10f7f34d59" category="inline-link-macro-rx"></block>.</block>
+  <block id="58eb0692e2d7399b3579ee5ce166cc58" category="cell">워크로드 보안에서 스냅샷을 생성할 수 없습니다.</block>
+  <block id="06319d1baa3128a2dcdf122c600b751e" category="cell">워크로드 보안에서 제거된 SVM에 대한 이전 경고에 대해 스냅샷이 실패하고, 이후에 다시 추가됩니다. SVM을 다시 추가한 후에 발생하는 새 경고의 경우 스냅샷이 생성됩니다.</block>
+  <block id="f538ceb4d07ca88305f431846ed6973f" category="cell">이는 SVM의 LIF가 ONTAP에서 _ disabled_state인 경우 SVM 관리 IP를 통해 데이터 수집기를 워크로드 보안에 추가할 때 발생할 수 있습니다. ONTAP에서 특정 LIF를 설정하고 워크로드 보안에서 _trigger_Take Snapshot manually_를 트리거합니다. 그러면 스냅샷 작업이 성공합니다.</block>
+  <block id="dda85f45002252de774eae20d8d3bb21" category="summary">워크로드 보안에는 CMDB와 같은 다른 애플리케이션과의 통합을 위한 강력한 API가 포함됩니다.</block>
+  <block id="0865b3ed9f5211e6fe35eddac5b1aaa3" category="doc">워크로드 보안 API</block>
+  <block id="1b1fb3360bd2eea985279f6fcc2ef45f" category="paragraph">워크로드 보안 API를 통해 NetApp 고객과 ISV(독립 소프트웨어 공급업체)는 워크로드 보안을 CMDB 또는 기타 티켓 시스템과 같은 다른 애플리케이션과 통합할 수 있습니다.</block>
+  <block id="c32ef84ff5ca99a73e37c8f28fa25ae5" category="list-text">API 토큰 관리는 관리자 역할을 가진 워크로드 보안 사용자에 의해 수행됩니다.</block>
+  <block id="bc5cef6ada9e1373dcac2816c65daf30" category="paragraph">최신 API 정보는 Workload Security에 로그인하고 * Admin &gt; API Access * 로 이동하여 확인할 수 있습니다. API Documentation * 링크를 클릭합니다. API 설명서는 Swagger 기반의 제품으로, API에 대한 간략한 설명과 사용 정보를 제공하고 사용자 환경에서 사용할 수 있습니다.</block>
+  <block id="4c1e9eb9cb456263b74abf8c594c5fcf" category="paragraph">워크로드 보안 API를 사용하기 전에 하나 이상의 * API 액세스 토큰 * 을 생성해야 합니다. 액세스 토큰은 읽기 권한을 부여합니다. 각 액세스 토큰의 만료일을 설정할 수도 있습니다.</block>
+  <block id="0280e5619ae48b4e379ebb140a49e816" category="paragraph">워크로드 보안은 데이터 수집기를 사용하여 디바이스에서 파일 및 사용자 액세스 데이터를 수집합니다. 이 데이터는 분석을 위해 워크로드 보안에 제공됩니다.</block>
+  <block id="6ec29be216010237b0dae370d44d5633" category="list-text">워크로드 보안 환경에 관리자 또는 계정 소유자로 로그인합니다.</block>
+  <block id="2cdbeeb863ed7a8522ac9190b6294a61" category="paragraph">온보딩 중에 데이터 수집기를 선택할 때 * 프록시 설정 * 링크를 클릭하거나 * 도움말 &gt; 지원 * 페이지의 _프록시 설정_ 아래에 있는 링크를 클릭하여 프록시 끝점을 볼 수 있습니다. 다음과 같은 테이블이 표시됩니다. 작업 환경에 워크로드 보안이 있는 경우 구성된 엔드포인트 URL도 이 목록에 표시됩니다.</block>
+  <block id="a7ef8f0bed1d94220b7abd3877b10643" category="doc">워크로드 보안 에이전트 요구 사항</block>
+  <block id="78280ee4e050e617aae8c514d1f4d00a" category="cell">100Mbps~1Gbps 이더넷 연결, 정적 IP 주소, 모든 디바이스에 대한 IP 연결 및 워크로드 보안 인스턴스(80 또는 443)에 대한 필수 포트.</block>
+  <block id="380053981c7042c95864932736052cac" category="paragraph">참고: 워크로드 보안 에이전트는 Cloud Insights 획득 장치 및/또는 에이전트와 동일한 시스템에 설치할 수 있습니다. 그러나 별도의 컴퓨터에 설치하는 것이 가장 좋습니다. 동일한 시스템에 설치된 경우 아래와 같이 디스크 공간을 할당하십시오.</block>
+  <block id="2d69c680da957bdb43dc65f6b48df46d" category="paragraph">미국 * 기반 * 워크로드 보안 환경:</block>
+  <block id="cd901a4d0c763788558340776fd2cdb5" category="paragraph">유럽 기반 * 워크로드 보안 환경:</block>
+  <block id="fa226e3679ae6b7dab2869292b192728" category="paragraph">APAC 기반 * 워크로드 보안 환경의 경우:</block>
+  <block id="c62621daddc9bbedf66f077464765078" category="cell">ONTAP와 워크로드 보안 간의 양방향 에이전트가 SVM 수명에서 ping을 보냅니다.</block>
+  <block id="2c5dab3d48c104492de8592e45b7fe9f" category="paragraph">작업 환경에 워크로드 보안이 있는 경우 구성된 엔드포인트 URL도 이 목록에 표시됩니다.</block>
+  <block id="5711e9cabb01e59f7ce2f48ba56a6e96" category="paragraph">사용자가 액세스할 수 있는 API 유형도 에 따라 다릅니다 <block ref="ead2141fb682d81a2f0b1deca7bb95c5" category="inline-link-macro-rx"></block> 각 Cloud Insights 기능 세트(모니터링, 워크로드 보안, 보고)에 있습니다.</block>
+  <block id="db2b463a10fb6295be04f3c3bae06fde" category="paragraph">워크로드 보안은 스냅샷 삭제 설정에 따라 하루에 한 번씩 스냅샷을 자동으로 삭제합니다.</block>
+  <block id="1e66f3ea1e335e37bed1a50e1a8bb94c" category="summary">워크로드 보안 사용자 계정은 Cloud Insights 사용자 관리를 통해 관리됩니다</block>
+  <block id="b6ddb5866df8e3256ac245cbce10a9a2" category="paragraph">워크로드 보안 사용자 계정은 Cloud Insights를 통해 관리됩니다.</block>
+  <block id="c407c269e51ab79aa3aca330eca9d8ee" category="paragraph">Cloud Insights는 계정 소유자, 관리자, 사용자 및 게스트의 네 가지 사용자 계정 수준을 제공합니다. 각 계정에는 특정 권한 수준이 할당됩니다. 관리자 권한이 있는 사용자 계정은 사용자를 생성 또는 수정하고 각 사용자에게 다음 워크로드 보안 역할 중 하나를 할당할 수 있습니다.</block>
+  <block id="b77a904f25ddc84b77fcb809d8f2f86b" category="cell">워크로드 보안 액세스</block>
+  <block id="e234e3c5cb64670391b843b3fc72500e" category="cell">알림, Forensics, 데이터 수집기, 자동화된 응답 정책 및 워크로드 보안을 위한 API를 비롯한 모든 워크로드 보안 기능을 수행할 수 있습니다. 관리자는 다른 사용자를 초대할 수도 있지만 워크로드 보안 역할만 할당할 수 있습니다.</block>
+  <block id="5a26acadc0fa5b833d36974bd6536459" category="list-text">워크로드 보안에 로그인합니다</block>
+  <block id="b3c49e9fcbf460e36de8ec12777f14b8" category="paragraph">다시 새로 고치지 않으면 사용자 목록이 13개월 동안 유지됩니다. 13개월 후 데이터가 삭제됩니다. 워크로드 보안 환경이 삭제된 경우 환경과 관련된 모든 데이터가 삭제됩니다.</block>
+  <block id="cf10c2b301ad472a4aba146a0e505098" category="summary">워크로드 보안 경고 알림을 위한 e-메일 주소 추가</block>
+  <block id="9491cdf060c59bf0f883c94db8cfe73d" category="paragraph">워크로드 보안 경고 수신자를 구성하려면 * Admin &gt; Notifications * 를 클릭하고 각 수신자의 적절한 섹션에 이메일 주소를 입력합니다.</block>
+  <block id="dee5cfb5319806eabd9b28296b26207a" category="summary">워크로드 보안 Active Directory 사용자 디렉토리 수집기 구성</block>
+  <block id="8dccebe9a8725eed9d49bcce51664895" category="paragraph">Active Directory 서버에서 사용자 속성을 수집하도록 워크로드 보안을 구성할 수 있습니다.</block>
+  <block id="68c7fae76dd5832ab65259eca0632822" category="list-text">워크로드 보안 메뉴에서 * 관리자 &gt; 데이터 수집기 &gt; 사용자 디렉토리 수집기 &gt; + 사용자 디렉토리 수집기 * 를 클릭하고 * Active Directory * 를 선택합니다</block>
+  <block id="392b73413f817556c91d974c59c48d26" category="summary">워크로드 보안을 사용하면 사보타업 혐의가 있는 경우 사용자 액세스를 제한할 수 있습니다</block>
+  <block id="54fc3d93cd49948e1764882084d106cc" category="paragraph">공격이 감지되면 워크로드 보안에서 파일 시스템에 대한 사용자 액세스를 차단하여 공격을 차단할 수 있습니다. 자동 응답 정책을 사용하거나 알림 또는 사용자 세부 정보 페이지에서 수동으로 액세스를 차단할 수 있습니다.</block>
+  <block id="036ce35e40fa3fbcc9c9e500c29c6bf9" category="paragraph">사용자가 SMB 및 호스트 시스템의 IP 주소에 대해 직접 차단되어 NFS에 대한 공격이 차단됩니다. 이러한 시스템 IP 주소는 워크로드 보안에서 모니터링하는 SVM(Storage Virtual Machine)에 액세스하지 못하도록 차단됩니다.</block>
+  <block id="f19379ce165a902f81548ae9d7b2e07c" category="paragraph">예를 들어, 워크로드 보안이 10개의 SVM을 관리하고 자동 응답 정책이 4개의 SVM에 대해 구성되었다고 가정해 보겠습니다. 4개의 SVM 중 하나에서 공격이 발생한 경우 10개의 SVM에서 사용자의 액세스가 차단됩니다. 원래 SVM에 대해 스냅샷이 여전히 촬영됩니다.</block>
+  <block id="4965f6590d5121fa73cf823f64ef219b" category="paragraph">사용자에게 부여된 권한으로 사용자 지정 사용자(예: _CsUser_)를 사용하는 경우 아래 단계에 따라 사용자를 차단하는 워크로드 보안에 권한을 부여합니다.</block>
+  <block id="8e0c9f34f42be5c07c87ecae239a8823" category="list-text">워크로드 보안에서 * Admin &gt; Automated Response Policies &gt; Response Policy Settings &gt; Block User Access * 로 이동합니다.</block>
+  <block id="d9c1a964d322cb7ed68da85eaa8a06b0" category="list-text">워크로드 보안에서 * Admin &gt; Automated Response Policies &gt; Response Policy Settings &gt; Block User Access * 로 이동합니다</block>
+  <block id="ef3c0a55c240483a8b3ffe2b395d514d" category="paragraph">워크로드 보안 평가판이 만료되었거나 에이전트/수집기가 중단된 경우 다음 단계를 사용하여 ONTAP에서 IP를 수동으로 복원합니다.</block>
+  <block id="1b0bdf15231b05a92c86cf44b6c5280e" category="list-text">각 RuleIndex를 지정하여 "cloudsecure_rule"이 Client match인 SVM의 모든 정책 전반에 걸쳐 규칙을 삭제합니다. 워크로드 보안 규칙은 일반적으로 1입니다.</block>
+  <block id="a117ae2a490977bedd4a55878386b06c" category="list-text">워크로드 보안 규칙이 삭제되었는지 확인합니다(선택적 단계 확인).</block>
+  <block id="7e18d2db3500fc5d55a3cb1da5ebd420" category="paragraph">워크로드 보안 평가판이 만료되었거나 에이전트/수집기가 중단된 경우 다음 단계를 사용하여 ONTAP에서 사용자를 수동으로 복원합니다.</block>
+  <block id="649d0babb9f1c7d99ac2b8adcdfc9d3f" category="paragraph">사용자 목록 페이지에서 워크로드 보안에서 차단된 사용자 목록을 가져올 수 있습니다.</block>
+  <block id="8d5b1a4cd44d4fa6a7468df8116a5c8e" category="list-text">다음 명령을 실행하여 모든 SVM에서 SMB용 워크로드 보안으로 차단된 모든 사용자를 나열합니다.</block>
+  <block id="a5e7d7eaf4f5565c582f27acfe410abc" category="cell">SVM용 Data Collector 및 Agent가 _Running_상태인지 확인합니다. Data Collector와 Agent가 중지된 경우 워크로드 보안에서 명령을 전송할 수 없습니다. 이는 사용자가 이전에 사용되지 않은 새 IP가 있는 시스템에서 스토리지에 액세스했을 수 있기 때문입니다. 제한은 사용자가 스토리지에 액세스하는 데 사용하는 호스트의 IP 주소를 통해 수행됩니다. 제한된 IP 주소 목록을 보려면 UI(알림 세부 정보 &gt; 이 사용자의 액세스 제한 기록 &gt; 영향을 받는 IP)를 확인하십시오. 사용자가 제한된 IP와 다른 IP를 가진 호스트에서 스토리지에 액세스하는 경우 사용자는 여전히 제한되지 않은 IP를 통해 스토리지를 액세스할 수 있습니다. 사용자가 IP가 제한된 호스트에서 액세스를 시도하는 경우 스토리지를 액세스할 수 없습니다.</block>
+  <block id="5fb65c6bf0f26bedf403903048b93640" category="paragraph">인벤토리 데이터는 모니터링되는 디바이스/소스와 해당 소스 구성 방법을 설명하는 메타데이터로 구성됩니다. 여기에는 설치된 하드웨어 및 소프트웨어 버전, 스토리지 시스템의 디스크 및 LUN, CPU 코어, 가상 머신의 RAM 및 디스크, 데이터베이스의 테이블스페이스, SAN 스위치의 포트 수와 유형, 디렉토리/파일 이름(스토리지 워크로드 보안이 설정된 경우) 등이 포함됩니다</block>
+  <block id="1dd36ea366f8218507b500da92bb6c48" category="list-text">스토리지 워크로드 보안 사용자 디렉토리 데이터</block>
+  <block id="e587cf6b5b26fd5aa0090c89ebb05008" category="paragraph">워크로드 보안 기능이 활성화되어 있고 고객이 사용자 디렉토리 수집기를 사용하도록 선택한 경우 시스템은 사용자 표시 이름, 회사 이메일 주소 및 Active Directory에서 수집한 기타 정보를 저장합니다.</block>
+  <block id="60ff49feb33b4b07c5add7023c265e08" category="admonition">사용자 디렉토리 데이터는 워크로드 보안 사용자 디렉토리 데이터 수집기에서 수집한 사용자 디렉토리 정보를 말하며, Cloud Insights/워크로드 보안 사용자에 대한 데이터는 그렇지 않습니다.</block>
+  <block id="67879bbb5bc82645af5e2a7fd16c361a" category="paragraph">워크로드 보안이 설정된 경우 시스템은 SMB 또는 기타 공유에서 파일 및 디렉토리 이름을 추가로 확인합니다. 여기에는 개인 식별 정보가 포함될 수 있습니다. 고객이 워크로드 보안 사용자 디렉토리 수집기(기본적으로 Active Directory를 통해 Windows SID를 사용자 이름에 매핑)를 사용하는 경우 표시 이름, 회사 이메일 주소 및 선택된 추가 속성은 Cloud Insights에서 수집 및 저장됩니다.</block>
+  <block id="ff5a85e2b87be9de6155ebf8d299d4f3" category="list-text">워크로드 보안 Active Directory 정보</block>
+  <block id="206942a675cab8dd706f1c5d66ae53a4" category="list-text">워크로드 보안 감사 정보</block>
+  <block id="a70d68072b5d5451925d557ed5fc3b10" category="summary">워크로드 보안 에이전트 추가</block>
+  <block id="b68323a5af32b2326c99a99a76c02d39" category="doc">워크로드 보안 에이전트 설치</block>
+  <block id="c5e6328a22d9b02f4b44ea5270252b38" category="paragraph">워크로드 보안(이전의 Cloud Secure)은 하나 이상의 에이전트를 사용하여 사용자 활동 데이터를 수집합니다. 에이전트는 사용자 환경의 장치에 연결하여 워크로드 보안 SaaS 계층으로 전송되는 데이터를 수집하여 분석할 수 있습니다. 을 참조하십시오 <block ref="7db04bd496cdb9ab394c662c3f00f7ed" category="inline-link-macro-rx"></block> 에이전트 VM을 구성합니다.</block>
+  <block id="d9af7953857557ba2c8f41227ea635b0" category="paragraph">로컬 시스템에서 다음 명령을 실행하여 워크로드 보안에서 사용할 포트를 엽니다. 포트 범위에 대한 보안 문제가 있는 경우, 보다 낮은 포트 범위를 사용할 수 있습니다(예: _35000:35100_). 각 SVM은 포트 2개를 사용합니다.</block>
+  <block id="20e78d9e0c1d75929debdb22e2bf21d8" category="cell">Agent 시스템에 SSH를 연결합니다. 를 통해 상담원 서비스의 상태를 확인합니다<block ref="de0bfd4520e6fec9f1a67c5c65dc2b8c" prefix=" " category="inline-code"></block>. 로그에 "Failed to start Workload Security daemon service(워크로드 보안 데몬 서비스를 시작하지 못했습니다)"라는 메시지가 표시되는지 확인합니다. cssys 사용자가 Agent 시스템에 있는지 여부를 확인합니다. 루트 권한으로 다음 명령을 하나씩 실행하고 cssys 사용자 및 그룹이 있는지 확인합니다.<block ref="3fbe5fb69735e2e03c1033b5d770f987" prefix=" " category="inline-code"></block><block ref="90fbe621dbd81400f16a0b008b94bf8e" prefix=" " category="inline-code"></block>아무 것도 없는 경우 중앙 모니터링 정책이 cssys 사용자를 삭제했을 수 있습니다. 다음 명령을 실행하여 cssys 사용자 및 그룹을 수동으로 생성합니다.<block ref="8937b77ac48c04b1a59db03ac67cc0ab" prefix=" " category="inline-code"></block><block ref="52c7bef22d9584c015612923423826d7" prefix=" " category="inline-code"></block>다음 명령을 실행하여 에이전트 서비스를 다시 시작합니다.<block ref="93ef545658eafd48b45fa315628953ae" prefix=" " category="inline-code"></block>여전히 실행되지 않는 경우 다른 문제 해결 옵션을 확인하십시오.</block>
+  <block id="757ba459e097e3712e7cdd1f0412190e" category="cell">에이전트 VM이 Zscaler 프록시 뒤에 있으며 에이전트 설치가 실패합니다. Zscaler 프록시의 SSL 검사로 인해 워크로드 보안 인증서는 Zscaler CA에 의해 서명된 것으로 표시되므로 에이전트가 통신을 신뢰하지 않습니다.</block>
+  <block id="1ad76fb1556aaa56ef0e0e31380d4a8c" category="cell">.cloudinsights.netapp.com URL의 Zscaler 프록시에서 SSL 검사를 비활성화합니다. Zscaler가 SSL 검사를 수행하고 인증서를 대체하는 경우 Workload Security가 작동하지 않습니다.</block>
+  <block id="97efa5392bc730fafe52d515ad2394c8" category="cell">설치 후 에이전트가 실행되고 있지 않습니다. _Systemctl status cloudsecure-agent.service_ 다음과 같이 표시합니다. [root@demo~]#systemctl status cloudsecure-agent.service agent.service – Workload Security Agent Daemon Service loaded: loaded(/usr/lib/systemd/system/cloudsecure-agent.service; enabled; vendor preset: disabled) Active: 활성화(자동 재시작) (결과: 종료 코드) Tue 2021:12:26 PDT; 228.2s 시작 에이전트 pid=25pid=secure agent.pid/service: 25889(code=Exited, status=126), Aug 03 21:12:26 demo systemd [1]: cloudsecure-agent.service: main process 종료, code=Exited, status=126/n/a Aj8 03 21:12:26 demo systemd [1]: unit cloudsecure-agent.service failed state. 8월 03 21:12:26 데모 시스템[1]: cloudsecure-agent.service 실패.</block>
+  <block id="49b8c9f7b839426b3e3b7c10efbe2cd5" category="cell">cssys_user에 설치 권한이 없을 수 있으므로 이 작업은 실패할 수 있습니다. /opt/netapp가 NFS 마운트이고 _cssys_user가 이 폴더에 대한 액세스 권한이 없는 경우 설치가 실패합니다. _cssys_는 워크로드 보안 설치 관리자가 생성한 로컬 사용자이며 마운트된 공유에 액세스할 권한이 없을 수 있습니다. cssys_user를 사용하여 /opt/netapp/cloudsecure/agent/bin/cloudsecure-agent에 액세스하여 이를 확인할 수 있습니다. "사용 권한 거부"를 반환하면 설치 권한이 없는 것입니다. 마운트된 폴더 대신 컴퓨터에 로컬 디렉토리에 설치합니다.</block>
+  <block id="71cc43074524e4e15cf908ac2e7cc689" category="paragraph">&gt;&gt;&gt;&gt;&gt;&gt; e64b5299cf9e0451417037778f9d37b84b9d9e6b * NetApp Kubernetes Monitoring Operator 설치에 사용할 호스트는 타겟 K8s 클러스터와 통신하도록 _kubtl_을 구성하고 Cloud Insights 환경에 인터넷에 연결되어 있어야 합니다. 이 호스트에 Cloud Insights에 연결할 프록시가 필요한 경우 의 지침을 따릅니다 <block ref="209b83f4fc550a98dd7cd4c1d0704793" category="inline-xref-macro-rx"></block> 섹션을 참조하십시오.</block>
+  <block id="1bbfd833c09ec409acb6953c794c8762" category="cell">워크로드 보안</block>
+  <block id="06e93fcb3c37a2437f4b2d3bc4750cf3" category="doc">SecurityAdmin 도구</block>
+  <block id="815fe1d70f30132e76d3bc2971db1fb3" category="paragraph">CI에는 Insight 환경을 강화된 보안으로 운영할 수 있는 보안 기능이 포함되어 있습니다. 암호화, 암호 해싱의 개선, 암호를 암호화하고 해독하는 내부 사용자 암호 및 키 쌍 변경 기능이 포함되어 있습니다.</block>
+  <block id="02d87df4424a2b955208f7a9ac42561a" category="paragraph">중요 데이터를 보호하려면 설치 또는 업그레이드 후에 기본 키와 취득 사용자 암호를 변경하는 것이 좋습니다.</block>
+  <block id="a336c713c619d4139db57a48ae8cf1ff" category="paragraph">데이터 소스 암호화된 암호는 Cloud Insights에 저장되며, 사용자가 데이터 수집기 구성 페이지에 암호를 입력할 때 공개 키를 사용하여 암호를 암호화합니다. Cloud Insights에는 데이터 수집기 암호를 해독하는 데 필요한 개인 키가 없습니다. 획득 유닛에만 데이터 수집기 암호를 해독하는 데 필요한 데이터 수집기 개인 키가 있습니다.</block>
+  <block id="f24e839c52e7d6d17545ee4e29f7db51" category="section-title">업그레이드 및 설치 고려 사항</block>
+  <block id="d2def24e2994d3733490e736e70820ee" category="paragraph">Insight 시스템에 기본이 아닌 보안 구성(예: 암호 키 다시 입력)이 포함된 경우 보안 구성을 백업해야 합니다. 새 소프트웨어를 설치하거나 소프트웨어를 업그레이드하는 경우 시스템을 기본 보안 구성으로 되돌립니다. 시스템이 기본 구성으로 복원되면 시스템이 올바르게 작동하려면 기본이 아닌 구성을 복원해야 합니다.</block>
+  <block id="148c84721cc133725e943138cb351958" category="section-title">획득 장치의 보안 관리</block>
+  <block id="d042a62979a8ab0c6d5e5d21ad8ca728" category="paragraph">SecurityAdmin 도구를 사용하면 Cloud Insights에 대한 보안 옵션을 관리할 수 있으며 획득 장치 시스템에서 실행됩니다. 보안 관리에는 키 및 암호 관리, 사용자가 만들고 복원한 보안 구성을 기본 설정으로 저장 및 복원하는 작업이 포함됩니다.</block>
+  <block id="9aaac90b83b82599059476993f4df8fd" category="paragraph">보안 구성 작업을 수행하려면 AU 시스템에 대한 관리자 권한이 있어야 합니다.</block>
+  <block id="1d7077d3e3f6962aaa789849c34c3bf9" category="paragraph">이 작업 정보 SecurityAdmin 도구는 다음 위치 중 하나에 있는 획득 장치 시스템에서 찾을 수 있습니다.</block>
+  <block id="5e96508962acc4c78cc42add9c1c6571" category="list-text">* Windows-C:\Program Files\SANscreen\SecurityAdmin\bin\securityadmin.bat</block>
+  <block id="f23a1e539f589bb225b9464a0cf5849d" category="list-text">Linux -/bin/oci-securityadmin.sh</block>
+  <block id="153b0db04ba6bf11cb9e745deb47e48c" category="list-text">* 대화형 모드(-I)에서 SecurityAdmin 도구를 시작합니다.</block>
+  <block id="3efa8859202eff1b280ec70c247e9ef0" category="paragraph">다음 옵션이 표시됩니다.</block>
+  <block id="3500ba09d0538297440ca620c9dd46bf" category="list-text">백업</block>
+  <block id="55ef7bc8b50b24453b764be4b80da043" category="paragraph">모든 암호 및 키가 포함된 볼트의 백업 zip 파일을 작성하고 사용자가 지정한 위치 또는 다음 기본 위치에 파일을 배치합니다.</block>
+  <block id="2bd339d85ee3b33e513359ce781b60cc" category="list-text">복원</block>
+  <block id="0de47ee5de6bc6440821ee27a42c53ee" category="paragraph">작성된 볼트의 zip 백업을 복원합니다. 복원되면 모든 암호와 키는 백업 생성 시 기존 값으로 되돌려집니다.</block>
+  <block id="d23690b7e16a11d2c6f9c38abb33baff" category="paragraph">복원을 사용하여 여러 서버의 암호와 키를 동기화할 수 있습니다. 예를 들어: - AU에서 암호화 키 변경 - 볼트 백업 작성 - AUS 각각에 볼트 백업을 복원합니다</block>
+  <block id="e57784805c5218c8990e6502d4490908" category="list-text">암호화 키를 변경합니다</block>
+  <block id="58fad370faf96d43acd14616d579f6ec" category="paragraph">장치 암호를 암호화 또는 해독하는 데 사용되는 AU 암호화 키를 변경합니다.</block>
+  <block id="cf2ae7d819ca294e4484987de713c80d" category="paragraph">암호화 키를 변경할 때는 업그레이드 또는 설치 후 복원할 수 있도록 새 보안 구성을 백업해야 합니다.</block>
+  <block id="bb78dd7992509064b8044b7afe6ec9ed" category="list-text">암호 업데이트</block>
+  <block id="5eb23cf8af1fa4acc187083ab93c9427" category="paragraph">'촬영' 사용자 계정의 암호를 변경합니다.</block>
+  <block id="49647b0b7a42606d01f9ecb74faa768f" category="paragraph">암호를 변경할 때 필요한 경우 복원할 수 있도록 새 보안 구성을 백업해야 합니다.</block>
+  <block id="6795975d2a3ee08c25bd74c360132342" category="list-text">기본값으로 재설정합니다</block>
+  <block id="2df04d24bac801c2f370c45144ff5275" category="paragraph">획득 사용자 암호 및 획득 사용자 암호화 키를 기본값으로 재설정합니다. 기본값은 설치 중에 제공되는 값입니다.</block>
+  <block id="fef46e5063ce3dc78b8ae64fa474241d" category="list-text">Exit(종료)</block>
+  <block id="f19dacbcbb6fe89fdcc7c3e384b66c96" category="paragraph">SecurityAdmin 도구를 종료합니다.</block>
+  <block id="8f025d17785cae128cd5fa24614cdf37" category="paragraph">구성할 옵션을 선택하고 화면의 지시를 따릅니다.</block>
+  <block id="16d7c89b47f259f2ff68b2ae7532fad6" category="summary">워크로드 보안 데이터 수집기 추가</block>
+  <block id="5b5f6636f455e00151ff6c4d5e1be19c" category="paragraph">워크로드 보안은 데이터 수집기를 사용하여 디바이스에서 파일 및 사용자 액세스 데이터를 수집합니다.</block>
+  <block id="e6624b1e82461272ada2be584f22a093" category="list-text">SMB 프로토콜 버전 3.1 이하 워크로드 보안은 FlexCache를 사용하는 SMB 구성에서는 작동하지 않습니다. ONTAP9.7부터 Fpolicy는 NFS 환경에서만 지원됩니다.</block>
+  <block id="e535de2e280b2b41b1a9d22720f0270c" category="paragraph">클러스터 관리 관리자 사용자를 사용하여 워크로드 보안이 ONTAP SVM 데이터 수집기에 액세스할 수 없는 경우 아래 명령에 나와 있는 역할을 사용하여 "CsUser"라는 새 사용자를 생성할 수 있습니다. 클러스터 관리 IP를 사용하도록 워크로드 보안 데이터 수집기를 구성할 때 "CsUser"의 사용자 이름 "CsUser"와 암호를 사용합니다.</block>
+  <block id="c1b7d24fc9ee9c43d2bc97ab81dbedb3" category="paragraph">클러스터 관리 관리자 사용자를 사용하여 워크로드 보안이 ONTAP SVM 데이터 수집기에 액세스할 수 없는 경우 아래 명령에 나와 있는 역할을 사용하여 "CsUser"라는 새 사용자를 생성할 수 있습니다. 워크로드 보안 데이터 수집기에서 SVM 관리 IP를 사용하도록 구성할 때 "CsUser"의 사용자 이름 "CsUser"와 암호를 사용합니다.</block>
+  <block id="94748ec62c100ce45c97bda6d69f9969" category="cell">1.방화벽이 에이전트 시스템에서 필요한 포트를 차단하고 있을 가능성이 높습니다. 에이전트 시스템이 SVM에서 연결할 수 있도록 포트 범위 35000-55000/TCP가 열려 있는지 확인합니다. 또한 ONTAP 측 차단 통신에서 에이전트 시스템로의 방화벽이 활성화되어 있지 않은지 확인합니다. 에이전트 상자에 다음 명령을 입력하고 포트 범위가 열려 있는지 확인합니다. _sudo iptables -save | grep 3500 * _Sample 출력은 다음과 같아야 합니다. _ -a in_public_allow -p tcp -m -dport 35000 -m conntrack -ctstate new -j accept_3. SVM에 로그인하고 다음 명령을 입력한 후 ONTAP와의 통신을 차단하는 방화벽이 설정되어 있지 않은지 확인합니다. _system services firewall show__system services firewall policy show _<block ref="c2f863dc8aacfc5c321b626bd2f4e2b3" category="inline-link-macro-rx"></block> ONTAP 측면 4.모니터링하려는 SVM/클러스터에 SSH를 연결합니다. CIFS, NFS 프로토콜 지원)을 사용하여 SVM 데이터 거짓에서 에이전트 상자를 ping하고 ping이 작동하는지 확인합니다. _network ping -vserver &lt;vserver name&gt; -destination &lt;Agent IP&gt; -lif &lt;LIF Name&gt; -show-detail_만약 Ping할 수 없으면 ONTAP의 네트워크 설정이 올바른지 확인하여 에이전트 시스템이 Ping할 수 있도록 합니다. 데이터 수집기 2개를 통해 테넌트에 단일 SVM을 두 번 추가하면 이 오류가 표시됩니다. UI를 통해 데이터 수집기 중 하나를 삭제합니다. 그런 다음 UI를 통해 다른 데이터 수집기를 다시 시작합니다. 그러면 데이터 수집기가 "실행 중" 상태를 표시하고 SVM에서 이벤트를 수신하기 시작합니다. 기본적으로 테넌트에서 1개의 SVM은 1개의 데이터 수집기를 통해 한 번만 추가해야 합니다. 1 SVM은 2개의 데이터 수집기를 통해 두 번 추가해서는 안 됩니다. 서로 다른 두 가지 워크로드 보안 환경(테넌트)에서 동일한 SVM을 추가한 경우 마지막 SVM은 항상 성공합니다. 두 번째 수집기는 FPolicy를 자체 IP 주소로 구성하고 첫 번째 것을 시작합니다. 따라서 첫 번째 수집기는 이벤트 수신을 중지하고 "감사" 서비스가 오류 상태로 전환됩니다. 이를 방지하려면 각 SVM을 단일 환경에서 구성합니다. 7.서비스 정책이 올바르게 구성되지 않은 경우에도 이 오류가 발생할 수 있습니다. ONTAP 9.8 이상에서는 데이터 소스 수집기에 연결하기 위해 데이터 서비스 데이터 서비스 데이터(NFS 및/또는 데이터 CIFS)와 함께 데이터 FPolicy 클라이언트 서비스가 필요합니다. 또한 데이터-FPolicy-클라이언트 서비스는 모니터링되는 SVM에 대한 데이터 거짓과 연결되어야 합니다.</block>
+  <block id="195474d2c18505993c684349168eca84" category="cell">클러스터에 사용되지 않는 기존 fpolicies가 있습니다. 워크로드 보안을 설치하기 전에 이러한 작업을 어떻게 해야 합니까?</block>
+  <block id="a991a3dd31c71b0054aa7140c8d25b9a" category="cell">사용되지 않는 기존 FPolicy 설정이 연결되지 않은 경우에도 모두 삭제하는 것이 좋습니다. 워크로드 보안에서는 접두사 "cloudsecure_"를 사용하여 FPolicy를 생성합니다. 사용되지 않는 다른 모든 FPolicy 구성은 삭제할 수 있습니다. FPolicy 목록을 표시하는 CLI 명령:_FPolicy show_steps FPolicy 구성을 삭제하는 방법:_FPolicy disable -vserver &lt;svmname&gt; -policy -name &lt;policy_name&gt;_FPolicy scope delete -vserver &lt;svmname&gt;_FPolicy -policy -name &lt;policy_name&gt;_FPolicy_vserver_name &lt;정책 삭제 -vserver_name &lt;policy_name&gt;</block>
+  <block id="63deecc7a53992db1697a520a67af0bd" category="cell">워크로드 보안을 활성화한 후 ONTAP 성능에 영향을 미침: 지연 시간이 산발적으로 높고 IOPS가 산발적으로 낮아지는 경우</block>
+  <block id="0631a8aa5414db88c4ba11ffa8ff89e8" category="cell">NFS 서비스만 구성하여 새로운 SVM으로 시작하십시오. 워크로드 보안에서 ONTAP SVM 데이터 수집기 추가 CIFS는 SVM을 위한 허용 프로토콜로 구성된 동시에 워크로드 보안에서 ONTAP SVM Data Collector를 추가합니다. 워크로드 보안의 데이터 수집기에 오류가 표시될 때까지 기다립니다. SVM에 CIFS 서버가 구성되어 있지 않으므로 왼쪽에 표시된 이 오류는 워크로드 보안으로 표시됩니다. ONTAP SVM 데이터 수집기를 편집하고 CIFS를 허용된 프로토콜로 선택 취소하십시오. 데이터 수집기를 저장합니다. NFS 프로토콜만 활성화된 상태에서 실행됩니다.</block>
+  <block id="b451cdd4206327fd0afecbb2df7b2bec" category="doc">스토리지 워크로드 보안 정보</block>
+  <block id="7d29e14ab81a7f2d743b14063e512bf7" category="paragraph">Cloud Insights 스토리지 워크로드 보안(이전의 Cloud Secure)은 내부자 위협에 대한 실행 가능한 인텔리전스로 데이터를 보호합니다. 또한 하이브리드 클라우드 환경 전반에서 모든 기업 데이터 액세스에 대한 중앙 집중식 가시성과 제어를 제공하여 보안 및 규정 준수 목표를 충족할 수 있습니다.</block>
+  <block id="6bb784bfbef2792b99ae322d0ce648b6" category="paragraph">데이터 액세스 및 제어에 대한 시기 적절하고 정확한 가시성을 제공하지 못하는 도구 및 수동 프로세스를 대체합니다. 워크로드 보안은 클라우드 및 사내 스토리지 시스템 모두에서 고유하게 작동하며 악의적인 사용자 동작에 대한 실시간 경고를 제공합니다.</block>
+  <block id="4d8cd5134c1193f4d301c7e6bcaa38a7" category="inline-link-macro">워크로드 보안 공지(이전의 Cloud Secure)</block>
+  <block id="a2e7ba2dd94ada0070912463ec6803b4" category="paragraph"><block ref="fb357983cf2ab6e1d0ee3d96cfba559e" category="inline-link-macro-rx"></block>
+<block ref="536041084bffaf10e48c1cc03ccee7a2" category="inline-link-macro-rx"></block></block>
+  <block id="58ecb418298e803c7a0ae49007466440" category="paragraph">모든 활동 페이지에서는 워크로드 보안 환경의 엔터티에 대해 수행되는 작업을 이해할 수 있습니다.</block>
+  <block id="0ab830109b4f56f33fe1f751ed17ca85" category="paragraph">활성 워크로드 보안 환경에서는 활동 기록이 13개월 동안 유지됩니다.</block>
+  <block id="48d308d5944f69b2199664d16fb4ef02" category="cell">질문: 워크로드 보안용으로 이미 구성된 SVM에서 이 스크립트를 실행하면 SVM에서 기존 FPolicy 구성을 사용하기만 합니까, 아니면 임시 FPolicy 구성을 사용하여 프로세스를 실행합니까?</block>
+  <block id="6dc6e27b054fdfb47ea4834bce442633" category="cell">답변: 워크로드 보안용으로 이미 구성된 SVM에 대해서도 이벤트 속도 검사기를 실행할 수 있습니다. 아무런 영향도 미치지 않아야 합니다.</block>
+  <block id="2ffc6472f9d6abaf761bbe2e6a0385ce" category="paragraph">워크로드 보안 에이전트를 호스팅하도록 단일 노드/HA AWS 인스턴스를 구성하려면 OnCommand Cloud Volumes ONTAP 설명서를 참조하십시오.<block ref="caca64b8e9927e0ea8e8b0158b9e47cd" category="inline-link-rx"></block></block>
+  <block id="830d10f97264e90663c5e3935c2d632d" category="paragraph">AWS에서 다음 단계를 수행하여 워크로드 보안 에이전트로 사용할 시스템을 구성합니다.</block>
+  <block id="1c670cb717b4140f57366cd8d3f7073b" category="paragraph">다음 단계를 수행하여 워크로드 보안 에이전트로 사용할 시스템을 구성합니다.</block>
+  <block id="9661d643a1d7bcdfae7260083848fe7c" category="section-title">워크로드 보안 에이전트를 설치합니다</block>
+  <block id="24e9816bffbf8174c3d54d3085dfdebb" category="list-text">Workload Security * Admin &gt; Data Collector * 로 이동하고 * Agents * 탭을 클릭합니다.</block>
+  <block id="e6827eaa9bdbd78ae7e7018263f370fb" category="list-text">로그인한 RHEL EC2 인스턴스에 Agent Installation 명령을 붙여 넣습니다. 이렇게 하면 워크로드 보안 에이전트가 설치되어 모든 가 제공됩니다 <block ref="f5706ef9ce891542a2a7f34eef5c175e" category="inline-link-macro-rx"></block> 충족됩니다.</block>
+  <block id="27bdcc1bb00d03f954143a84da9b6cce" category="cell">"워크로드 보안: Amazon FxSN 데이터 수집기에 대한 ONTAP 유형을 확인하지 못했습니다." 오류가 데이터 수집기에 표시됩니다. 고객은 새로운 Amazon FSxN 데이터 수집기를 워크로드 보안에 추가할 수 없습니다. 에이전트에서 포트 443의 FSxN 클러스터에 대한 연결이 시간 초과입니다. 방화벽 및 AWS 보안 그룹에는 통신을 허용하는 데 필요한 규칙이 활성화되어 있습니다. 에이전트가 이미 구축되어 있으며 동일한 AWS 계정에도 있습니다. 이 동일한 에이전트를 사용하여 나머지 NetApp 장치를 연결 및 모니터링합니다(모두 작동).</block>
+  <block id="e885f70b36e77978775e5bda02528ac9" category="summary">워크로드 보안 은 ONTAP 자율 랜섬웨어 보호 와 통합되어 랜섬웨어 탐지 기능을 개선합니다.</block>
+  <block id="ff6fdbfb37dfe403ad9c574855ccdb01" category="paragraph">워크로드 보안은 ONTAP와 통합되어 ARP 이벤트를 수신하고 추가 분석 및 자동 응답 계층을 제공합니다.</block>
+  <block id="e093347e60d8e47631898ecfad3f31bc" category="paragraph">워크로드 보안은 ONTAP에서 ARP 이벤트를 수신하고 다음 작업을 수행합니다.</block>
+  <block id="fb9db0b7014615260b5928021d0dd3ba" category="list-text">ARP 사용 볼륨. ARP를 활성화하는 방법에 대한 세부 정보를 찾을 수 있습니다 <block ref="9e499af99dc8d0d5835de8f33e6a6797" category="inline-link-macro-rx"></block>. ARP는 OnCommand 시스템 관리자를 통해 활성화해야 합니다. 워크로드 보안은 ARP를 활성화할 수 없습니다.</block>
+  <block id="03d2c7455bd90d94b2c2a27995cee3a6" category="list-text">워크로드 보안 수집기는 클러스터 IP를 통해 추가해야 합니다.</block>
+  <block id="8d490c030112e962535224e18e452ee2" category="paragraph">사용자에게 부여된 권한으로 사용자 지정 사용자(예: _CsUser_)를 사용하는 경우, 아래 단계를 따라 워크로드 보안에 권한을 부여하여 ONTAP에서 ARP 관련 정보를 수집합니다.</block>
+  <block id="56684562f1f82eb99e69650845acd6ad" category="paragraph">SVM이 워크로드 보안에 의해 모니터링되지 않지만 ONTAP에서 생성된 ARP 이벤트가 있는 경우, 해당 이벤트는 워크로드 보안에서 계속 수신되고 표시됩니다. 그러나 알림과 관련된 Forensic 정보 및 사용자 매핑은 캡처되거나 표시되지 않습니다.</block>
+  <block id="bd8fcf14aeb2fa880d8470e2c4fee0a5" category="cell">ONTAP가 _랜섬웨어 탐지_이벤트를 Cloud Insights 워크로드 보안(예: 워크로드 보안)으로 전송하면 이메일이 전송됩니다. 이벤트에는 공격 목록과 타임 스탬프가 포함됩니다. 워크로드 보안 UI는 첫 번째 공격 파일의 경고 타임스탬프를 표시합니다. ONTAP는 특정 수의 파일이 인코딩될 때 _ 랜섬웨어 탐지 _ 이벤트를 Cloud Insights로 전송합니다. 따라서 알림이 UI에 표시되는 시간과 이메일을 보낸 시간 사이에 차이가 있을 수 있습니다.</block>
+  <block id="8d480c386a79b0bc67bd88ac44cd794f" category="sidebar">스토리지 워크로드 보안</block>
+  <block id="9655cd831b69781db448703e74b15bf4" category="sidebar">워크로드 보안 정보</block>
+  <block id="db6129c16869ab28d6476f3e30e7d24e" category="sidebar">워크로드 보안 시작</block>
+  <block id="fe6cdf9e3b45ba510d852c0481680e2f" category="sidebar">워크로드 보안 에이전트 구성</block>
+  <block id="8b323f07a8614b39412ac6f03ce45d0e" category="sidebar">워크로드 보안 사용자 관리</block>
 </blocks>

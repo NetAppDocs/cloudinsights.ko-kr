@@ -1,15 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_cs_delete_agent.html 
-keywords: agent, Cloud Secure, delete agent 
-summary: Cloud Secure 에이전트를 삭제하는 중입니다 
+keywords: agent, Workload Security, delete agent, Cloud Secure 
+summary: 워크로드 보안 에이전트를 삭제하는 중입니다 
 ---
-= Cloud Secure 에이전트를 삭제하는 중입니다
+= 워크로드 보안 에이전트를 삭제하는 중입니다
 :allow-uri-read: 
 
 
 [role="lead"]
-Cloud Secure 에이전트를 삭제할 때 에이전트와 연결된 모든 데이터 수집기를 먼저 삭제해야 합니다.
+Workload Security Agent를 삭제하면 Agent와 연결된 모든 데이터 수집기가 먼저 삭제되어야 합니다.
 
 
 
@@ -19,7 +19,7 @@ Cloud Secure 에이전트를 삭제할 때 에이전트와 연결된 모든 데�
 IMPORTANT: Agent를 삭제하면 Agent와 연결된 모든 Data Collector가 삭제됩니다. 다른 에이전트로 데이터 수집기를 구성하려는 경우 에이전트를 삭제하기 전에 Data Collector 구성의 백업을 만들어야 합니다.
 
 .시작하기 전에
-. 에이전트와 연결된 모든 데이터 수집기가 Cloud Secure 포털에서 삭제되었는지 확인합니다.
+. 에이전트와 연결된 모든 데이터 수집기가 워크로드 보안 포털에서 삭제되었는지 확인합니다.
 +
 참고: 연결된 모든 수집기가 중지 상태인 경우 이 단계를 무시하십시오.
 

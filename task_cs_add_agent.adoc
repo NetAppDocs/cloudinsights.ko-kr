@@ -1,15 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_cs_add_agent.html 
-keywords: agent, Cloud Secure, installation 
-summary: Cloud Secure 에이전트 추가 
+keywords: agent, Workload Security, installation, Cloud Secure 
+summary: 워크로드 보안 에이전트 추가 
 ---
-= Cloud Secure 에이전트 설치
+= 워크로드 보안 에이전트 설치
 :allow-uri-read: 
 
 
 [role="lead"]
-Cloud Secure는 하나 이상의 에이전트를 사용하여 사용자 활동 데이터를 수집합니다. 상담원은 사용자 환경의 장치에 연결하여 분석을 위해 Cloud Secure SaaS 계층으로 전송되는 데이터를 수집합니다. 을 참조하십시오 link:concept_cs_agent_requirements.html["상담원 요구 사항"] 에이전트 VM을 구성합니다.
+워크로드 보안(이전의 Cloud Secure)은 하나 이상의 에이전트를 사용하여 사용자 활동 데이터를 수집합니다. 에이전트는 사용자 환경의 장치에 연결하여 워크로드 보안 SaaS 계층으로 전송되는 데이터를 수집하여 분석할 수 있습니다. 을 참조하십시오 link:concept_cs_agent_requirements.html["상담원 요구 사항"] 에이전트 VM을 구성합니다.
 
 
 
@@ -23,7 +23,7 @@ Cloud Secure는 하나 이상의 에이전트를 사용하여 사용자 활동 �
 
 == Agent 설치 단계
 
-. Cloud Secure 환경에 관리자 또는 계정 소유자로 로그인합니다.
+. 워크로드 보안 환경에 관리자 또는 계정 소유자로 로그인합니다.
 . Security * 메뉴에서 * Admin > Data Collector > Agents > + Agent * 를 선택합니다
 +
 Agent 추가 페이지가 표시됩니다.
@@ -54,7 +54,7 @@ image::new-agent-detect.png[새로운 약제 감지]
 
 == 네트워크 구성
 
-로컬 시스템에서 다음 명령을 실행하여 Cloud Secure에서 사용할 포트를 엽니다. 포트 범위에 대한 보안 문제가 있는 경우, 보다 낮은 포트 범위를 사용할 수 있습니다(예: _35000:35100_). 각 SVM은 포트 2개를 사용합니다.
+로컬 시스템에서 다음 명령을 실행하여 워크로드 보안에서 사용할 포트를 엽니다. 포트 범위에 대한 보안 문제가 있는 경우, 보다 낮은 포트 범위를 사용할 수 있습니다(예: _35000:35100_). 각 SVM은 포트 2개를 사용합니다.
 
 .단계
 . 'SUDO firewall-cmd--permanent--zone=public--add-port=35000-55000/tcp'로 설정합니다
@@ -99,7 +99,12 @@ image::new-agent-detect.png[새로운 약제 감지]
 | "-bash:unzip:command not found" 오류와 함께 에이전트 설치가 실패했습니다. | 압축을 푼 다음 설치 명령을 다시 실행합니다. 시스템에 Yum이 설치되어 있는 경우 "yum install unzip"을 시도하여 unzip 소프트웨어를 설치합니다. 그런 다음 Agent 설치 UI에서 명령을 다시 복사하여 CLI에 붙여 넣어 설치를 다시 실행합니다. 
 
 
-| 에이전트가 설치되어 실행 중입니다. 하지만 상담원이 갑자기 중지되었습니다. | Agent 시스템에 SSH를 연결합니다. 'SUDO systemctl status cloudsecure-agent.service` 를 통해 상담원 서비스의 상태를 확인합니다. 로그에 "Cloud Secure 데몬 서비스를 시작하지 못했습니다."라는 메시지가 표시되는지 확인합니다. cssys 사용자가 Agent 시스템에 있는지 여부를 확인합니다. 루트 권한으로 다음 명령을 하나씩 실행하고 cssys 사용자 및 그룹이 있는지 확인합니다. 'SUDO id cssys''SUDO groups cssys' 3. 아무 것도 없는 경우 중앙 집중식 모니터링 정책이 cssys 사용자를 삭제했을 수 있습니다. 다음 명령을 실행하여 cssys 사용자 및 그룹을 수동으로 생성합니다. 'SUDO useradd cssys''SUDO groupadd cssys'5. 그런 다음 'SUDO systemctl restart cloudsecure-agent.service` 6' 명령을 실행하여 에이전트 서비스를 다시 시작합니다. 여전히 실행되지 않는 경우 다른 문제 해결 옵션을 확인하십시오. 
+| 에이전트가 설치되어 실행 중입니다. 하지만 상담원이 갑자기 중지되었습니다. | Agent 시스템에 SSH를 연결합니다. 를 통해 상담원 서비스의 상태를 확인합니다 `sudo systemctl status cloudsecure-agent.service`. 로그에 "Failed to start Workload Security daemon service(워크로드 보안 데몬 서비스를 시작하지 못했습니다)"라는 메시지가 표시되는지 확인합니다. cssys 사용자가 Agent 시스템에 있는지 여부를 확인합니다. 루트 권한으로 다음 명령을 하나씩 실행하고 cssys 사용자 및 그룹이 있는지 확인합니다.
+`sudo id cssys`
+`sudo groups cssys`아무 것도 없는 경우 중앙 모니터링 정책이 cssys 사용자를 삭제했을 수 있습니다. 다음 명령을 실행하여 cssys 사용자 및 그룹을 수동으로 생성합니다.
+`sudo useradd cssys`
+`sudo groupadd cssys`다음 명령을 실행하여 에이전트 서비스를 다시 시작합니다.
+`sudo systemctl restart cloudsecure-agent.service`여전히 실행되지 않는 경우 다른 문제 해결 옵션을 확인하십시오. 
 
 
 | Agent에 50개 이상의 데이터 수집기를 추가할 수 없습니다. | 데이터 수집기는 50개만 에이전트에 추가할 수 있습니다. Active Directory, SVM 및 기타 수집기와 같은 모든 수집기 유형의 조합이 될 수 있습니다. 
@@ -108,7 +113,7 @@ image::new-agent-detect.png[새로운 약제 감지]
 | UI에 Agent가 NOT_Connected 상태임 이 표시됩니다. | Agent를 다시 시작하는 단계입니다. Agent 시스템에 SSH를 연결합니다. 다음 명령을 실행하여 에이전트 서비스를 다시 시작합니다. sudo systemctl restart cloudsecure-agent.service` 3. 'SUDO systemctl status cloudsecure-agent.service` 를 통해 상담원 서비스의 상태를 확인합니다. 4.상담원은 연결된 상태로 이동해야 합니다. 
 
 
-| 에이전트 VM이 Zscaler 프록시 뒤에 있으며 에이전트 설치가 실패합니다. Zscaler 프록시의 SSL 검사로 인해 Cloud Secure 인증서는 Zscaler CA에 의해 서명된 것으로 제시되므로 에이전트가 통신을 신뢰하지 않습니다. | .cloudinsights.netapp.com URL의 Zscaler 프록시에서 SSL 검사를 비활성화합니다. Zscaler가 SSL 검사를 수행하고 인증서를 교체하는 경우 Cloud Secure가 작동하지 않습니다. 
+| 에이전트 VM이 Zscaler 프록시 뒤에 있으며 에이전트 설치가 실패합니다. Zscaler 프록시의 SSL 검사로 인해 워크로드 보안 인증서는 Zscaler CA에 의해 서명된 것으로 표시되므로 에이전트가 통신을 신뢰하지 않습니다. | .cloudinsights.netapp.com URL의 Zscaler 프록시에서 SSL 검사를 비활성화합니다. Zscaler가 SSL 검사를 수행하고 인증서를 대체하는 경우 Workload Security가 작동하지 않습니다. 
 
 
 | 에이전트를 설치하는 동안 압축 해제 후 설치가 중단됩니다. | "chmod 755-rf" 명령이 실패했습니다. 작업 디렉토리에 파일이 있고 다른 사용자에게 속해 있으며 해당 파일의 사용 권한을 변경할 수 없는 루트가 아닌 sudo 사용자가 에이전트 설치 명령을 실행하는 경우 명령이 실패합니다. chmod 명령이 실패하여 나머지 설치가 실행되지 않습니다. "cloudsecure"라는 새 디렉토리를 생성합니다. 해당 디렉토리로 이동합니다. 전체 "토큰 =……"을 복사하여 붙여 넣습니다. … / cloudsecure-agent-install.sh" 설치 명령을 입력하고 Enter 키를 누릅니다. 4.설치를 계속할 수 있어야 합니다. 
@@ -123,7 +128,7 @@ image::new-agent-detect.png[새로운 약제 감지]
 | useradd를 사용하여 에이전트 설치가 실패했습니다. 디렉토리 /home/cssys를 생성할 수 없습니다 | 이 오류는 권한 부족으로 인해 /home 아래에 사용자의 로그인 디렉토리를 만들 수 없는 경우에 발생할 수 있습니다. 해결 방법은 cssys 사용자를 생성하고 다음 명령을 사용하여 로그인 디렉토리를 수동으로 추가하는 것입니다. _sudo useradd user_name -m -d home_DIR_ -m: 사용자의 홈 디렉토리가 없는 경우 생성합니다. d: 사용자의 로그인 디렉토리 값으로 HOME_DIR을 사용하여 새 사용자가 생성됩니다. 예를 들어, _sudo useradd cssys -m -d /cssys_는 user_cssys_를 추가하고 root 아래에 로그인 디렉토리를 만듭니다. 
 
 
-| 설치 후 에이전트가 실행되고 있지 않습니다. _Systemctl status cloudsecure-agent.service_ 다음과 같이 표시됩니다. [root@demo~]#systemctl status cloudsecure-agent.service agent.service – Cloud Secure Agent Daemon Service loaded: loaded(/usr/lib/systemd/system/cloudsecure-agent.service; enabled; vendor preset: disabled) Active: 활성화(자동 재시작) (결과: 종료 코드) Tue 2021:12:26 PDT; 2s start agent opt /emon pid=25bin/cloudbin: secure agent execbin/service: 25889(code=Exited, status=126), Aug 03 21:12:26 demo systemd [1]: cloudsecure-agent.service: main process 종료, code=Exited, status=126/n/a Aj8 03 21:12:26 demo systemd [1]: unit cloudsecure-agent.service failed state. 8월 03 21:12:26 데모 시스템[1]: cloudsecure-agent.service 실패. | cssys_user에 설치 권한이 없을 수 있으므로 이 작업은 실패할 수 있습니다. /opt/netapp가 NFS 마운트이고 _cssys_user가 이 폴더에 대한 액세스 권한이 없는 경우 설치가 실패합니다. _cssys_는 마운트된 공유에 액세스할 권한이 없는 Cloud Secure 설치 프로그램에서 만든 로컬 사용자입니다. cssys_user를 사용하여 /opt/netapp/cloudsecure/agent/bin/cloudsecure-agent에 액세스하여 이를 확인할 수 있습니다. "사용 권한 거부"를 반환하면 설치 권한이 없는 것입니다. 마운트된 폴더 대신 컴퓨터에 로컬 디렉토리에 설치합니다. 
+| 설치 후 에이전트가 실행되고 있지 않습니다. _Systemctl status cloudsecure-agent.service_ 다음과 같이 표시합니다. [root@demo~]#systemctl status cloudsecure-agent.service agent.service – Workload Security Agent Daemon Service loaded: loaded(/usr/lib/systemd/system/cloudsecure-agent.service; enabled; vendor preset: disabled) Active: 활성화(자동 재시작) (결과: 종료 코드) Tue 2021:12:26 PDT; 228.2s 시작 에이전트 pid=25pid=secure agent.pid/service: 25889(code=Exited, status=126), Aug 03 21:12:26 demo systemd [1]: cloudsecure-agent.service: main process 종료, code=Exited, status=126/n/a Aj8 03 21:12:26 demo systemd [1]: unit cloudsecure-agent.service failed state. 8월 03 21:12:26 데모 시스템[1]: cloudsecure-agent.service 실패. | cssys_user에 설치 권한이 없을 수 있으므로 이 작업은 실패할 수 있습니다. /opt/netapp가 NFS 마운트이고 _cssys_user가 이 폴더에 대한 액세스 권한이 없는 경우 설치가 실패합니다. _cssys_는 워크로드 보안 설치 관리자가 생성한 로컬 사용자이며 마운트된 공유에 액세스할 권한이 없을 수 있습니다. cssys_user를 사용하여 /opt/netapp/cloudsecure/agent/bin/cloudsecure-agent에 액세스하여 이를 확인할 수 있습니다. "사용 권한 거부"를 반환하면 설치 권한이 없는 것입니다. 마운트된 폴더 대신 컴퓨터에 로컬 디렉토리에 설치합니다. 
 
 
 | Agent가 처음에 프록시 서버를 통해 연결되었고 Agent 설치 중에 프록시가 설정되었습니다. 이제 프록시 서버가 변경되었습니다. Agent의 프록시 구성을 변경하려면 어떻게 해야 합니까? | agent.properties 를 편집하여 프록시 세부 정보를 추가할 수 있습니다. 다음 단계를 따르십시오. 1. 속성 파일이 포함된 폴더로 변경합니다. cd /opt/netapp/cloudsecure/conf 2. 즐겨찾기 텍스트 편집기를 사용하여 편집할 _agent.properties_ 파일을 엽니다. 다음 행을 추가하거나 수정합니다. agent_proxy_host=scspa1950329001.vm.netapp.com agent_proxy_port=80 agent_proxy_user=pxuser agent_proxy_password=pass1234 4. 파일을 저장합니다. 에이전트를 다시 시작합니다. sudo systemctl cloudsecure-agent.service 다시 시작합니다 

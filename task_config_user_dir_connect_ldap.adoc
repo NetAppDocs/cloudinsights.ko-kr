@@ -1,15 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_config_user_dir_connect_ldap.html 
-keywords: collector, configure, LDAP, Active Directory 
-summary: Cloud Secure LDAP 사용자 디렉토리 수집기 구성 중 
+keywords: collector, configure, LDAP, Active Directory, cloud secure 
+summary: 워크로드 보안 LDAP 사용자 디렉토리 수집기 구성 
 ---
 = LDAP Directory Server Collector 구성
 :allow-uri-read: 
 
 
 [role="lead"]
-LDAP 디렉토리 서버에서 사용자 속성을 수집하도록 Cloud Secure를 구성합니다.
+LDAP 디렉토리 서버에서 사용자 속성을 수집하도록 워크로드 보안을 구성합니다.
 
 .시작하기 전에
 * 이 작업을 수행하려면 Cloud Insights 관리자 또는 계정 소유자여야 합니다.
@@ -18,7 +18,7 @@ LDAP 디렉토리 서버에서 사용자 속성을 수집하도록 Cloud Secure�
 
 
 .사용자 디렉토리 수집기를 구성하는 단계입니다
-. Cloud Secure 메뉴에서 * 관리자 > 데이터 수집기 > 사용자 디렉토리 수집기 > + 사용자 디렉토리 수집기 * 를 클릭하고 * LDAP 디렉토리 서버 * 를 선택합니다
+. 워크로드 보안 메뉴에서 * 관리자 > 데이터 수집기 > 사용자 디렉토리 수집기 > + 사용자 디렉토리 수집기 * 를 클릭하고 * LDAP 디렉토리 서버 * 를 선택합니다
 +
 사용자 디렉토리 추가 화면이 표시됩니다.
 
@@ -120,7 +120,7 @@ LDAP Directory Server에서 기본 속성 이름이 수정된 경우 다음 Dire
 
 다음 절차를 사용하여 LDAP 사용자 권한 및 속성 정의의 유효성을 검사할 수 있습니다.
 
-* 다음 명령을 사용하여 Cloud Secure LDAP 사용자 권한의 유효성을 검사합니다.
+* 다음 명령을 사용하여 워크로드 보안 LDAP 사용자 권한을 검증합니다.
 +
  ldapsearch -D "uid=john ,cn=users,cn=accounts,dc=dorp,dc=company,dc=com" -W -x -LLL -o ldif-wrap=no -b "cn=accounts,dc=dorp,dc=company,dc=com" -H ldap://vmwipaapp08.dorp.company.com
 * LDAP 탐색기를 사용하여 LDAP 데이터베이스를 탐색하고, 개체 속성 및 속성을 보고, 권한을 보고, 개체의 스키마를 보고, 저장하고 다시 실행할 수 있는 정교한 검색을 실행할 수 있습니다.
@@ -150,7 +150,7 @@ image:CloudSecure_LDAPDialog.png["LDAP 접속"]
 | LDAP 디렉토리 커넥터를 추가하면 '오류' 상태가 됩니다. "DN=DC=HQ, DC=domainname, DC=com에 해당하는 객체를 포리스트 이름으로 가져오지 못했습니다."라는 오류가 표시됩니다. | 잘못된 검색 기준을 제공했습니다. 올바른 포리스트 이름을 편집하고 제공하십시오. 
 
 
-| 도메인 사용자의 선택적 특성이 Cloud Secure 사용자 프로필 페이지에 나타나지 않습니다. | 이는 CloudSecure에 추가된 선택적 속성의 이름과 Active Directory의 실제 속성 이름이 일치하지 않기 때문일 수 있습니다. 필드는 대/소문자를 구분합니다. 올바른 선택적 속성 이름을 편집하고 제공하십시오. 
+| 도메인 사용자의 선택적 속성이 워크로드 보안 사용자 프로필 페이지에 나타나지 않습니다. | 이는 CloudSecure에 추가된 선택적 속성의 이름과 Active Directory의 실제 속성 이름이 일치하지 않기 때문일 수 있습니다. 필드는 대/소문자를 구분합니다. 올바른 선택적 속성 이름을 편집하고 제공하십시오. 
 
 
 | "LDAP 사용자를 검색하지 못했습니다. 실패 원인: 서버에 연결할 수 없습니다. 연결이 null입니다." | _Restart_ 단추를 클릭하여 수집기를 다시 시작합니다. 
@@ -189,5 +189,5 @@ image:CloudSecure_LDAPDialog.png["LDAP 접속"]
 | 전화 번호가 사용자 프로필 페이지에 채워지지 않습니다. | 이는 Active Directory의 속성 매핑 문제 때문일 수 있습니다. Active Directory에서 사용자 정보를 가져오는 특정 Active Directory 수집기를 편집합니다. 2.알림 옵션 속성에 따라 "전화 번호" 필드 이름이 Active Directory 속성 '전화 번호'에 매핑되어 있습니다. 4.이제 위에 설명된 대로 Active Directory 탐색기 도구를 사용하여 LDAP 디렉터리 서버를 검색하고 올바른 속성 이름을 확인하십시오. LDAP 디렉터리에 사용자의 전화 번호가 있는 '전화 번호'라는 속성이 있는지 확인합니다. LDAP 디렉터리에서 'phonenumber'로 수정되었다고 가정해 보겠습니다. 그런 다음 CloudSecure 사용자 디렉토리 수집기를 편집합니다. 옵션 속성 섹션에서 '전화 번호'를 '전화 번호'로 바꿉니다. Active Directory Collector를 저장하면 수집기가 다시 시작되고 사용자의 전화 번호가 표시되며 사용자 프로필 페이지에 동일한 번호가 표시됩니다. 
 
 
-| AD(Active Directory) 서버에서 암호화 인증서(SSL)가 활성화된 경우 Cloud Secure 사용자 디렉토리 수집기는 AD 서버에 연결할 수 없습니다. | 사용자 디렉토리 수집기를 구성하기 전에 AD 서버 암호화를 비활성화하십시오. 사용자 세부 정보를 가져오면 13개월 동안 표시됩니다. 사용자 세부 정보를 가져온 후 AD 서버의 연결이 끊기면 AD에서 새로 추가된 사용자를 가져오지 않습니다. 다시 가져오려면 사용자 디렉토리 수집기를 AD에 연결해야 합니다. 
+| AD(Active Directory) 서버에서 암호화 인증서(SSL)가 활성화된 경우 워크로드 보안 사용자 디렉토리 수집기는 AD 서버에 연결할 수 없습니다. | 사용자 디렉토리 수집기를 구성하기 전에 AD 서버 암호화를 비활성화하십시오. 사용자 세부 정보를 가져오면 13개월 동안 표시됩니다. 사용자 세부 정보를 가져온 후 AD 서버의 연결이 끊기면 AD에서 새로 추가된 사용자를 가져오지 않습니다. 다시 가져오려면 사용자 디렉토리 수집기를 AD에 연결해야 합니다. 
 |===

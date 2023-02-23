@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept_cs_event_rate_checker.html 
 summary: ONTAP SVM DSC를 설치하기 전에 이 스크립트를 실행하여 SVM의 이벤트 속도를 확인할 수 있습니다 
-keywords: event, checker, rate, sizing, size, guide, 
+keywords: event, checker, rate, sizing, cloud secure 
 ---
 = SVM Event Rate Checker(에이전트 크기 지정 가이드)
 :allow-uri-read: 
@@ -47,8 +47,7 @@ NOTE: 이 스크립트를 실행할 때 이벤트 속도를 확인할 SVM을 위
  “Svm svm_rate is generating 100 events/sec”.
 
 
-. 각 ONTAP SVM Data Collector를 단일 SVM과 연결할 수 있습니다. 즉, 각 데이터 수집기에서 단일 SVM에서 생성되는 이벤트 수를 받을 수 있습니다.
-
+각 ONTAP SVM Data Collector를 단일 SVM과 연결할 수 있습니다. 즉, 각 데이터 수집기에서 단일 SVM에서 생성되는 이벤트 수를 받을 수 있습니다.
 
 다음 사항에 유의하십시오.
 
@@ -144,10 +143,10 @@ Overall svm audit_svm is generating 300 events/sec
 |===
 
 
-| 질문: 이미 Cloud Secure용으로 구성된 SVM에서 이 스크립트를 실행하면 SVM에서 기존 FPolicy 구성을 사용하기만 합니까, 아니면 임시 FPolicy 구성을 설정하고 프로세스를 실행합니까? 
+| 질문: 워크로드 보안용으로 이미 구성된 SVM에서 이 스크립트를 실행하면 SVM에서 기존 FPolicy 구성을 사용하기만 합니까, 아니면 임시 FPolicy 구성을 사용하여 프로세스를 실행합니까? 
 
 
-| 답변: Cloud Secure용으로 이미 구성된 SVM에 대해서도 이벤트 속도 검사기를 실행할 수 있습니다. 아무런 영향도 미치지 않아야 합니다. 
+| 답변: 워크로드 보안용으로 이미 구성된 SVM에 대해서도 이벤트 속도 검사기를 실행할 수 있습니다. 아무런 영향도 미치지 않아야 합니다. 
 
 
 | 질문: 스크립트를 실행할 수 있는 SVM의 수를 늘릴 수 있습니까? 

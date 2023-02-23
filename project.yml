@@ -187,19 +187,19 @@ sidebar:
       url: "/reporting_schema_diagrams.html"
     - title: 스키마 테이블
       url: "/reference_schemas.html"
-  - title: Cloud Secure
+  - title: 스토리지 워크로드 보안
     entries:
-    - title: Cloud Secure 정보
+    - title: 워크로드 보안 정보
       url: "/cs_intro.html"
     - title: 시작하기
       entries:
-      - title: Cloud Secure 시작하기
+      - title: 워크로드 보안 시작
         url: "/task_cs_getting_started.html"
-      - title: Cloud Secure 에이전트 요구 사항
+      - title: 워크로드 보안 에이전트 요구 사항
         url: "/concept_cs_agent_requirements.html"
-      - title: Cloud Secure 에이전트 구성
+      - title: 워크로드 보안 에이전트 구성
         url: "/task_cs_add_agent.html"
-      - title: Cloud Secure 에이전트를 삭제하는 중입니다
+      - title: 워크로드 보안 에이전트를 삭제하는 중입니다
         url: "/task_cs_delete_agent.html"
       - title: AD Directory Collector 구성
         url: "/task_config_user_dir_connect.html"
@@ -209,7 +209,7 @@ sidebar:
         url: "/task_add_collector_svm.html"
       - title: Cloud ONTAP 데이터 수집기 구성
         url: "/task_config_cs_incloud.html"
-      - title: Cloud Secure 사용자 관리
+      - title: 워크로드 보안 사용자 관리
         url: "/task_cs_user_management.html"
       - title: 이벤트 속도 검사기(에이전트 크기 지정 가이드)
         url: "/concept_cs_event_rate_checker.html"
@@ -233,7 +233,7 @@ sidebar:
       url: "/concept_cs_attack_simulator.html"
     - title: 알림
       url: "/cs_notifications_email.html"
-    - title: Cloud Secure API를 참조하십시오
+    - title: 워크로드 보안 API
       url: "/concept_cs_api.html"
   - title: Active IQ
     url: "/concept_activeiq.html"

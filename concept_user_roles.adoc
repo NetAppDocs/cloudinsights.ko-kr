@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept_user_roles.html 
-keywords: roles, guest, user, administrator, SSO, Federate, federation, identity, single sign-on, Account Owner, Reporting, Cloud Secure, Monitor and Optimize, security, observabilityu 
+keywords: roles, guest, user, administrator, SSO, Federate, federation, identity, single sign-on, Account Owner, Reporting, Cloud Secure, Monitor and Optimize, security, observability 
 summary: Cloud Insights는 여러 사용자 계정에 서로 다른 권한 수준을 제공합니다. 
 ---
 = 사용자 계정 및 역할
@@ -18,7 +18,7 @@ Cloud Insights는 계정 소유자, 관리자, 사용자 및 게스트의 최대
 관리자 권한이 있는 계정을 사용하여 사용자 계정을 만들거나 수정합니다. 각 사용자 계정에는 다음과 같은 권한 수준에서 각 Cloud Insights 기능에 대한 역할이 할당됩니다.
 
 |===
-| 역할 | 관찰 가능성 | 보안 | 보고 
+| 역할 | 관찰 가능성 | 워크로드 보안 | 보고 
 
 
 | 계정 소유자 3+| 구독을 수정하고, 청구 및 사용 정보를 보고, 관찰 가능성, 보안 및 보고를 위한 모든 관리자 기능을 수행할 수 있습니다. 또한 소유자는 사용자를 초대하고 관리할 수 있을 뿐 아니라 SSO 인증 및 ID 페더레이션 설정을 관리할 수 있습니다. 첫 번째 계정 소유자는 Cloud Insights에 등록할 때 생성됩니다. 각 Cloud Insights 환경에 대해 계정 소유자를 두 명 이상 두는 것이 좋습니다.  

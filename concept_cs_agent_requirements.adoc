@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concept_cs_agent_requirements.html 
 summary: Agent로 사용하는 서버 또는 VM은 최소 요구 사항을 충족해야 합니다 
-keywords: agent, Linux, requirements, docker, browsers, permissions, Network 
+keywords: agent, Linux, requirements, docker, browsers, permissions, Network, Cloud Secure 
 ---
-= 상담원 요구 사항
+= 워크로드 보안 에이전트 요구 사항
 :allow-uri-read: 
 
 
@@ -31,9 +31,9 @@ keywords: agent, Linux, requirements, docker, browsers, permissions, Network
 | 사용 가능한 디스크 공간입니다 | 디스크 공간은 다음과 같은 방식으로 할당해야 합니다. /opt/NetApp 35GB(최소) /opt가 NAS 스토리지의 마운트된 폴더인 경우 로컬 사용자가 이 폴더에 액세스할 수 있는지 확인하십시오. 로컬 사용자에게 이 폴더에 대한 권한이 없는 경우 에이전트 또는 데이터 수집기를 설치하지 못할 수 있습니다. 를 참조하십시오 link:task_cs_add_agent.html#troubleshooting-agent-errors["문제 해결"] 섹션을 참조하십시오. 
 
 
-| 네트워크 | 100Mbps~1Gbps 이더넷 연결, 정적 IP 주소, 모든 장치에 대한 IP 연결 및 Cloud Secure 인스턴스에 대한 필수 포트(80 또는 443). 
+| 네트워크 | 100Mbps~1Gbps 이더넷 연결, 정적 IP 주소, 모든 디바이스에 대한 IP 연결 및 워크로드 보안 인스턴스(80 또는 443)에 대한 필수 포트. 
 |===
-참고: Cloud Secure 에이전트는 Cloud Insights 획득 장치 및/또는 에이전트와 동일한 시스템에 설치할 수 있습니다. 그러나 별도의 컴퓨터에 설치하는 것이 가장 좋습니다. 동일한 시스템에 설치된 경우 아래와 같이 디스크 공간을 할당하십시오.
+참고: 워크로드 보안 에이전트는 Cloud Insights 획득 장치 및/또는 에이전트와 동일한 시스템에 설치할 수 있습니다. 그러나 별도의 컴퓨터에 설치하는 것이 가장 좋습니다. 동일한 시스템에 설치된 경우 아래와 같이 디스크 공간을 할당하십시오.
 
 |===
 
@@ -51,7 +51,7 @@ keywords: agent, Linux, requirements, docker, browsers, permissions, Network
 
 == 클라우드 네트워크 액세스 규칙
 
-미국 * 기반 * Cloud Secure 환경:
+미국 * 기반 * 워크로드 보안 환경:
 
 [cols="5*"]
 |===
@@ -63,7 +63,7 @@ keywords: agent, Linux, requirements, docker, browsers, permissions, Network
 
 | TCP | 443 | gateway.c01.cloudinsights.netapp.com agentlogin.cs01.cloudinsights.netapp.com | 아웃바운드 | 인증 서비스에 대한 액세스 
 |===
-유럽 기반 * Cloud Secure 환경:
+유럽 기반 * 워크로드 보안 환경:
 
 [cols="5*"]
 |===
@@ -75,7 +75,7 @@ keywords: agent, Linux, requirements, docker, browsers, permissions, Network
 
 | TCP | 443 | gateway.c01.cloudinsights.netapp.com agentlogin.cs01-eu-1.cloudinsights.netapp.com | 아웃바운드 | 인증 서비스에 대한 액세스 
 |===
-APAC 기반 * Cloud Secure 환경의 경우:
+APAC 기반 * 워크로드 보안 환경의 경우:
 
 [cols="5*"]
 |===
@@ -107,7 +107,7 @@ APAC 기반 * Cloud Secure 환경의 경우:
 | TCP | 35000-55000 | SVM 데이터 LIF IP 주소 | 인바운드/아웃바운드 | Fpolicy 이벤트에 대한 ONTAP와의 통신 
 
 
-| TCP | 7 | SVM 데이터 LIF IP 주소 | 양방향 | ONTAP와 Cloud Secure 간의 양방향. 에이전트가 SVM 수명에서 ping을 보냅니다. 
+| TCP | 7 | SVM 데이터 LIF IP 주소 | 양방향 | ONTAP와 워크로드 보안 간의 양방향 에이전트가 SVM 수명에서 ping을 보냅니다. 
 |===
 
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept_cs_integration_with_ontap_arp.html 
-summary: Cloud Secure은 ONTAP 자율 랜섬웨어 차단 기능과 통합되어 랜섬웨어 탐지 기능을 개선합니다. 
+summary: 워크로드 보안 은 ONTAP 자율 랜섬웨어 보호 와 통합되어 랜섬웨어 탐지 기능을 개선합니다. 
 keywords: ransomware, ARP, Protection, Security 
 ---
 = ONTAP Autonomous 랜섬웨어 Protection과 통합
@@ -13,9 +13,9 @@ ONTAP ARP(Autonomous 랜섬웨어 보호) 기능은 NAS(NFS 및 SMB) 환경에�
 
 ARP에 대한 추가 세부 정보와 라이센스 요구 사항을 찾을 수 있습니다 link:https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["여기"].
 
-Cloud Secure는 ONTAP와 통합되어 ARP 이벤트를 수신하고 추가 분석 및 자동 응답 계층을 제공합니다.
+워크로드 보안은 ONTAP와 통합되어 ARP 이벤트를 수신하고 추가 분석 및 자동 응답 계층을 제공합니다.
 
-Cloud Secure는 ONTAP로부터 ARP 이벤트를 수신하고 다음과 같은 조치를 취합니다.
+워크로드 보안은 ONTAP에서 ARP 이벤트를 수신하고 다음 작업을 수행합니다.
 
 . 볼륨 암호화 이벤트와 사용자 활동의 상관 관계를 분석하여 손상을 일으키는 원인을 식별합니다.
 . 자동 응답 정책 구축(정의된 경우)
@@ -32,8 +32,8 @@ Cloud Secure는 ONTAP로부터 ARP 이벤트를 수신하고 다음과 같은 �
 == 필수 구성 요소
 
 . 최소 ONTAP 버전: 9.11.1
-. ARP 사용 볼륨. ARP를 활성화하는 방법에 대한 세부 정보를 찾을 수 있습니다 link:https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html["여기"]. ARP는 OnCommand 시스템 관리자를 통해 활성화해야 합니다. Cloud Secure에서 ARP를 활성화할 수 없습니다.
-. Cloud Secure Collector는 클러스터 IP를 통해 추가해야 합니다.
+. ARP 사용 볼륨. ARP를 활성화하는 방법에 대한 세부 정보를 찾을 수 있습니다 link:https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html["여기"]. ARP는 OnCommand 시스템 관리자를 통해 활성화해야 합니다. 워크로드 보안은 ARP를 활성화할 수 없습니다.
+. 워크로드 보안 수집기는 클러스터 IP를 통해 추가해야 합니다.
 . 이 기능을 사용하려면 클러스터 레벨 자격 증명이 필요합니다. 즉, SVM을 추가할 때 클러스터 레벨 자격 증명을 사용해야 합니다.
 
 
@@ -43,7 +43,7 @@ Cloud Secure는 ONTAP로부터 ARP 이벤트를 수신하고 다음과 같은 �
 
 클러스터 관리 자격 증명을 사용하는 경우 새 권한이 필요하지 않습니다.
 
-사용자에게 부여된 권한을 가진 사용자 정의 사용자(예: _CsUser_)를 사용하는 경우, 아래 단계를 따라 Cloud Secure에 ARP 관련 정보를 수집할 수 있는 권한을 ONTAP에 부여합니다.
+사용자에게 부여된 권한으로 사용자 지정 사용자(예: _CsUser_)를 사용하는 경우, 아래 단계를 따라 워크로드 보안에 권한을 부여하여 ONTAP에서 ARP 관련 정보를 수집합니다.
 
 클러스터 자격 증명을 사용하여 _CsUser_의 경우 ONTAP 명령줄에서 다음을 수행합니다.
 
@@ -66,7 +66,7 @@ image:CS_ONTAP_ARP_EXAMPLE.png["ONTAP ARP 예제 화면"]
 
 == 제한 사항
 
-Cloud Secure에서 SVM을 모니터링하지 않지만 ONTAP에서 생성된 ARP 이벤트가 있는 경우 Cloud Secure에서 이벤트를 계속 수신하고 표시합니다. 그러나 알림과 관련된 Forensic 정보 및 사용자 매핑은 캡처되거나 표시되지 않습니다.
+SVM이 워크로드 보안에 의해 모니터링되지 않지만 ONTAP에서 생성된 ARP 이벤트가 있는 경우, 해당 이벤트는 워크로드 보안에서 계속 수신되고 표시됩니다. 그러나 알림과 관련된 Forensic 정보 및 사용자 매핑은 캡처되거나 표시되지 않습니다.
 
 
 
@@ -79,5 +79,5 @@ Cloud Secure에서 SVM을 모니터링하지 않지만 ONTAP에서 생성된 ARP
 | 문제: | 해상도: 
 
 
-| 공격이 감지된 후 24시간 이내에 이메일 경고가 수신됩니다. UI에서 알림은 Cloud Insights 워크로드 보안에서 이메일을 수신하기 24시간 전에 표시됩니다. | ONTAP가 _랜섬웨어 탐지_이벤트를 Cloud Insights 워크로드 보안(예: Cloud Secure)으로 전송하면 이메일이 전송됩니다. 이벤트에는 공격 목록과 타임 스탬프가 포함됩니다. 워크로드 보안 UI는 첫 번째 공격 파일의 경고 타임스탬프를 표시합니다. ONTAP는 특정 수의 파일이 인코딩될 때 _ 랜섬웨어 탐지 _ 이벤트를 Cloud Insights로 전송합니다. 따라서 알림이 UI에 표시되는 시간과 이메일을 보낸 시간 사이에 차이가 있을 수 있습니다. 
+| 공격이 감지된 후 24시간 이내에 이메일 경고가 수신됩니다. UI에서 알림은 Cloud Insights 워크로드 보안에서 이메일을 수신하기 24시간 전에 표시됩니다. | ONTAP가 _랜섬웨어 탐지_이벤트를 Cloud Insights 워크로드 보안(예: 워크로드 보안)으로 전송하면 이메일이 전송됩니다. 이벤트에는 공격 목록과 타임 스탬프가 포함됩니다. 워크로드 보안 UI는 첫 번째 공격 파일의 경고 타임스탬프를 표시합니다. ONTAP는 특정 수의 파일이 인코딩될 때 _ 랜섬웨어 탐지 _ 이벤트를 Cloud Insights로 전송합니다. 따라서 알림이 UI에 표시되는 시간과 이메일을 보낸 시간 사이에 차이가 있을 수 있습니다. 
 |===
