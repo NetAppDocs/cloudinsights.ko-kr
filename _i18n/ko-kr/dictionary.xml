@@ -7243,7 +7243,6 @@
   <block id="18e7612d8417cb1a04ad930369915d59" category="list-text">https://.../odata/dwh_custom/custom_queries 으로 문의하십시오</block>
   <block id="25de0257c507b6c736e10a9674011469" category="section-title">REST API 예제</block>
   <block id="7c747afe26ddf80110c972b197e875f1" category="paragraph">모든 통화의 URL은 _\https://&lt;Cloud Insights URL&gt;/REST/v1/dWh-management/OData_입니다.</block>
-  <block id="538c8f380c1292ec200c79af465d46b6" category="list-text">Get/{schema}/** - 보고 데이터베이스에서 데이터를 검색합니다. 적어도 _Guest_role이 필요합니다.</block>
   <block id="6989b99c608e30f67ef33cbb04a24e33" category="paragraph">Format:_\https://&lt;Cloud Insights URL&gt;/REST/v1/dWh-management/OData/&lt;schema_name&gt;/&lt;query&gt; _</block>
   <block id="81eeab9506186e2dca8faefa78d54067" category="paragraph">예:</block>
   <block id="5aac38deec604d81565722cc5a2a6be1" category="paragraph">결과:</block>
@@ -10346,10 +10345,6 @@
   <block id="37b9c8ac0158a9b9c57a6fd39c09112a" category="cell">cpuIdleTimePercent.total입니다</block>
   <block id="82e45cbb75d74071b021fa2fb638e1da" category="cell">cpuTotalWaitTimePercent.total입니다</block>
   <block id="6d26c12f389d527e1ebe5f28f0ca597b" category="cell">UsedCapacityForReportingMB</block>
-  <block id="5b18f1d58f1483da5c81155095d22768" category="section-title">동기 쿼리에 대한 REST 클라이언트 설정</block>
-  <block id="ca5f5ae182f010eb67697760ff6586f3" category="list-text">쿼리는 한 줄에 포함되어야 합니다</block>
-  <block id="2f9a3dbd7bceea75acec35221d985871" category="list-text">올바른 JSON 문자열이어야 합니다</block>
-  <block id="7415c956bfe8a68bf044e258a167601a" category="paragraph">APIkeys는 _Sync_or_Async_&lt;TBD More information&gt;에 적합합니다</block>
   <block id="e8cdc72b15f2eb76eb1815f526758f2e" category="doc">인사이트: 고부하로 인해 발생합니다</block>
   <block id="b6178403f1fb13fa361db9ac6d3f0273" category="paragraph">워크로드가 큰 경우 공유 리소스에 있는 다른 워크로드의 성능이 저하될 수 있습니다. Cloud Insights는 사용자 환경의 리소스 포화 및 영향을 조사하는 데 도움이 되는 도구를 제공합니다.</block>
   <block id="7dbc3325f8c8ce0b9644c6385df9308d" category="paragraph">Impact영향을 주는 * 또는 _greedy_resource는 다른 리소스에 부정적인 영향을 주는 * 입니다. 예를 들어, IOPS가 매우 높은 볼륨은 다른 볼륨(예 _영향받는_또는 _성능이 저하된_리소스). 영향을 받는 효과적인 리소스는 스토리지 풀 또는 볼륨 등 동일한 공유 리소스를 활용하는 "피어"입니다.</block>
@@ -10785,4 +10780,5 @@
   <block id="db6129c16869ab28d6476f3e30e7d24e" category="sidebar">워크로드 보안 시작</block>
   <block id="fe6cdf9e3b45ba510d852c0481680e2f" category="sidebar">워크로드 보안 에이전트 구성</block>
   <block id="8b323f07a8614b39412ac6f03ce45d0e" category="sidebar">워크로드 보안 사용자 관리</block>
+  <block id="d38e6d2b2a7ab4eab18cf40e7c0ae800" category="summary">획득 장치 Windows 및 Linux에서 프록시 지원 설치, 제거, 구성 등.</block>
 </blocks>

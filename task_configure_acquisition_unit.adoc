@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task_configure_acquisition_unit.html 
 keywords: Acquisition Unit, AU, install, configure, Linux, add, remove, uninstall, delete, deleting, move, moving 
-summary:  
+summary: 획득 장치 Windows 및 Linux에서 프록시 지원 설치, 제거, 구성 등. 
 ---
 = 획득 장치 구성
 :allow-uri-read: 
