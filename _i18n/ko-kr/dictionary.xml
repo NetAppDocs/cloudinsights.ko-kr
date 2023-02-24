@@ -10609,7 +10609,6 @@
   <block id="59ac6af58fe53beeb9262552cb4288e4" category="cell">를 클릭합니다 <block ref="588cebdad26ee4a9a3bb08c290310eb7" category="inline-link-macro-rx"></block> Cloud Insights가 획득 장치와 통신하는 데 사용하는 것은 Cloud Insights와 데이터 수집기 자체 간에 통신하지 않습니다. 다음과 같은 몇 가지 방법을 시도해 볼 수 있습니다. 획득 장치가 FQDN을 확인하고 필요한 포트에 도달할 수 있는지 확인하십시오. 프록시가 오류 메시지의 지정된 끝점에 도달할 필요가 없는지 확인합니다. curl(말림)은 획득 장치와 끝점 사이의 통신을 테스트하는 데 사용할 수 있습니다. 이 테스트에 프록시를 사용하고 있지 * 않은지 확인하십시오. 예: root@acquisionunit# curl -s -H accept: application/json -H "content-type: application/json" -H api -key: &lt;api key used in the data collector credentials -H secret-key:&lt;secret key used in the data collector credentials&gt;-X get<block ref="c76ccb25cb3c0e03bc187c29ed42806c" category="inline-link-rx"></block> 지역 엔드포인트 &gt;:8080/v1/스토리지/IPRanges 이 항목을 참조하십시오 <block ref="776b569bb4fd625ede408f144a17e02c" category="inline-link-macro-rx"></block>.</block>
   <block id="eb1d5185404b1a4f21a4da9c88cb536d" category="paragraph">Cloud Insights에 등록하고 환경이 활성화되어 있는 경우 Cloud Insights 30일 무료 평가판에 들어갑니다. 이 시험판 평가 중에 Cloud Insights가 귀사의 환경에서 제공하는 기능을 살펴볼 수 있습니다.</block>
   <block id="fca4fedbe53af4420a279beead573bdf" category="doc">워크로드 보안: 공격 시뮬레이션</block>
-  <block id="373799975bf9df78f2b7e58b488fdb43" category="paragraph">코드--- 사이드바: 사이드바 permalink: concept_cs_attack_simulator.html 키워드: 랜섬웨어, 시뮬레이션, 시뮬레이터, 제한, 공격 요약: 스크립트를 사용하여 워크로드 보안-----</block>
   <block id="85bec7dd725b26542ae7c0d1c759836a" category="paragraph">이 페이지의 지침을 사용하여 포함된 랜섬웨어 시뮬레이션 스크립트를 사용하여 워크로드 보안을 테스트 또는 시연하기 위한 공격을 시뮬레이션할 수 있습니다.</block>
   <block id="16fa78539f96944e79f64b961036e74d" category="list-text">이 스크립트는 워크로드 보안 에이전트 설치 파일과 함께 제공됩니다. 워크로드 보안 에이전트가 설치된 모든 시스템에서 사용할 수 있습니다.</block>
   <block id="749376c343309b5abf1f8bc2f1e6e9f7" category="list-text">워크로드 보안 에이전트 시스템 자체에서 스크립트를 실행할 수 있으며 다른 Linux 시스템을 준비할 필요가 없습니다. 그러나 스크립트를 다른 시스템에서 실행하려면 스크립트를 복사하여 거기에서 실행하기만 하면 됩니다.</block>
@@ -10781,4 +10780,5 @@
   <block id="fe6cdf9e3b45ba510d852c0481680e2f" category="sidebar">워크로드 보안 에이전트 구성</block>
   <block id="8b323f07a8614b39412ac6f03ce45d0e" category="sidebar">워크로드 보안 사용자 관리</block>
   <block id="d38e6d2b2a7ab4eab18cf40e7c0ae800" category="summary">획득 장치 Windows 및 Linux에서 프록시 지원 설치, 제거, 구성 등.</block>
+  <block id="d26ec9bd59920d141e6767082f0524dc" category="summary">스크립트를 사용하여 워크로드 보안을 테스트 또는 시연하기 위해 랜섬웨어 공격을 시뮬레이션할 수 있습니다</block>
 </blocks>

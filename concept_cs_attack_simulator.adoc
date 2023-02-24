@@ -1,12 +1,12 @@
+---
+sidebar: sidebar 
+permalink: concept_cs_attack_simulator.html 
+keywords: ransomware, simulation, simulator, restrict, attack 
+summary: 스크립트를 사용하여 워크로드 보안을 테스트 또는 시연하기 위해 랜섬웨어 공격을 시뮬레이션할 수 있습니다 
+---
 = 워크로드 보안: 공격 시뮬레이션
 :allow-uri-read: 
 
-
-코드--- 사이드바: 사이드바 permalink: concept_cs_attack_simulator.html 키워드: 랜섬웨어, 시뮬레이션, 시뮬레이터, 제한, 공격 요약: 스크립트를 사용하여 워크로드 보안-----
-
-
-
-= 워크로드 보안: 공격 시뮬레이션
 
 [role="lead"]
 이 페이지의 지침을 사용하여 포함된 랜섬웨어 시뮬레이션 스크립트를 사용하여 워크로드 보안을 테스트 또는 시연하기 위한 공격을 시뮬레이션할 수 있습니다.
