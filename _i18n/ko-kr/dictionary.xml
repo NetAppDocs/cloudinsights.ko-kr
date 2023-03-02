@@ -7398,7 +7398,6 @@
   <block id="4aba696177ce8a74216803ac14343d2c" category="sidebar">구성된 데이터 수집기 관리</block>
   <block id="72633c43eaf6d098d8df9b7b7cf5fb7a" category="sidebar">데이터 수집기 오류를 조사합니다</block>
   <block id="3f919c7c06027082bb746a8ef324bad2" category="sidebar">권장 대시보드 가져오기</block>
-  <block id="299db49f1f95a819e1364febfbbb0b0f" category="sidebar">다른 Cloud Central 제품으로 전환</block>
   <block id="7d98fdc49fc17d8fbb4bb34a4904c7c8" category="sidebar">Data Collector 목록</block>
   <block id="dccd6b1a35e5f58699c220a398ba4b60" category="sidebar">자동 장치 해상도</block>
   <block id="a0a44b683686e93d33180f439c1b3ed7" category="sidebar">장치 해상도 개요</block>
@@ -10781,4 +10780,6 @@
   <block id="8b323f07a8614b39412ac6f03ce45d0e" category="sidebar">워크로드 보안 사용자 관리</block>
   <block id="d38e6d2b2a7ab4eab18cf40e7c0ae800" category="summary">획득 장치 Windows 및 Linux에서 프록시 지원 설치, 제거, 구성 등.</block>
   <block id="d26ec9bd59920d141e6767082f0524dc" category="summary">스크립트를 사용하여 워크로드 보안을 테스트 또는 시연하기 위해 랜섬웨어 공격을 시뮬레이션할 수 있습니다</block>
+  <block id="5dfe08a6b6855a1ebeedad2a282e5824" category="cell">NFS에 대한 사용자(IP 주소) 차단은 작동하지만 SMB/CIFS에 대해서는 "SID를 DomainName으로 변환하지 못했습니다. 이유 시간 초과: 소켓이 설정되지 않았습니다.”</block>
+  <block id="e8aaaf728a906b8e9d531bb2447c9cf2" category="cell">ssh를 수행할 권한이 _CsUser_에 없는 경우 이 문제가 발생할 수 있습니다. (클러스터 레벨에서 접속한 다음 사용자가 ssh를 수행할 수 있는지 확인합니다.) _CsUser_role에는 이러한 권한이 필요합니다.<block ref="3066b8235934d1594e54f7b043a73648" category="inline-link-rx"></block>클러스터 자격 증명을 사용하여 _CsUser_의 경우 ONTAP 명령줄에서 다음을 수행합니다. 보안 로그인 역할 create-role csrole-cmddirname "vserver export-policy rule" -access all security login role create -role csrole -cmddirname set -access all security login role create-role -cmdname "vserver cifs session" -access all security login role create-role -cmddirname "vserver services access-check authentication translate" -access all security login에 액세스하십시오 role create-role csrole-cmddirname "vserver name-mapping" -access all if_CsUser_가 사용되지 않고 클러스터 레벨의 admin 사용자가 사용되는 경우 admin 사용자가 ONTAP에 대한 ssh 권한을 가지고 있는지 확인합니다.</block>
 </blocks>
