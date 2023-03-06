@@ -33,7 +33,7 @@ image:kubernetes_tile.png["Kubernetes Data Collector 타일"]
 
 
 * NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 버전 1.20 이상에서 지원됩니다.
-* Cloud Insights가 백엔드 스토리지를 모니터링하고 Docker 컨테이너 런타임과 함께 Kubernetes를 사용하는 경우 Cloud Insights는 NFS 및 iSCSI에 대한 Pod-PV-스토리지 매핑을 표시할 수 있고, 다른 런타임에는 NFS만 표시할 수 있습니다.
+* Cloud Insights가 백엔드 스토리지를 모니터링하고 Docker 컨테이너 런타임과 함께 Kubernetes를 사용하는 경우 Cloud Insights는 NFS 및 iSCSI에 대한 POD-PV-스토리지 매핑 및 메트릭을 표시할 수 있고, 다른 런타임에는 NFS만 표시할 수 있습니다.
 * 2022년 8월부터 NetApp Kubernetes Monitoring Operator는 Pod 보안 정책(PSP)을 지원합니다. 반드시 해야 합니다 <<업그레이드 중,업그레이드>> 해당 환경에서 PSP를 사용하는 경우 최신 NetApp Kubernetes 모니터링 사업자로 이동합니다.
 * OpenShift 4.6 이상에서 실행 중인 경우 이러한 필수 구성 요소가 충족되도록 보장하는 것 외에 아래의 * OpenShift Instructions * 를 따라야 합니다.
 * 모니터링은 Linux 노드에만 설치됩니다
