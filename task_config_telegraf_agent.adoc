@@ -114,7 +114,8 @@ sc.exe delete telegraf
 +
 ....
 cd Cert:\CurrentUser\Root
-rm E5FB7B68C08B1CA902708584C274F8EFC7BE8ABC
+//rm E5FB7B68C08B1CA902708584C274F8EFC7BE8ABC
+rm 1A918038E8E127BB5C87A202DF173B97A05B4996
 ....
 . C:\Program Files\Telegraf_폴더를 삭제하여 바이너리, 로그 및 구성 파일을 제거합니다
 . 레지스트리에서 _SYSTEM\CurrentControlSet\Services\EventLog\Application\Telegraf_key를 제거합니다
@@ -535,7 +536,7 @@ download-only 명령은 필요한 모든 아티팩트를 Cloud Insights에서 �
 
 PEM 파일의 지문이 다음과 같은 것인지 확인하여 PEM 파일을 확인할 수 있습니다.
 
- E5:FB:7B:68:C0:8B:1C:A9:02:70:85:84:C2:74:F8:EF:C7:BE:8A:BC
+ 1A918038E8E127BB5C87A202DF173B97A05B4996
 보다 구체적으로,
 
 * 비 Windows:
