@@ -10782,4 +10782,8 @@
   <block id="c41953836f0cf08f49697db26ddf6a47" category="cell">Red Hat Enterprise Linux 7.x, 8.x 64비트 CentOS 7.x 64비트 CentOS 8 스트림 Ubuntu 20 ~ 22 64비트 Rocky 8.x 64비트, Rocky 9.x 64비트 중 하나를 실행하는 컴퓨터 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다. SE(Security Enhanced) Linux는 지원되지 않습니다.</block>
   <block id="39331dcf20cdc1eb4f9f6846be32417f" category="list-text">Cloud Insights가 백엔드 스토리지를 모니터링하고 Docker 컨테이너 런타임과 함께 Kubernetes를 사용하는 경우 Cloud Insights는 NFS 및 iSCSI에 대한 POD-PV-스토리지 매핑 및 메트릭을 표시할 수 있고, 다른 런타임에는 NFS만 표시할 수 있습니다.</block>
   <block id="82f6a763fe60e4e576dfec4afd406d65" category="list-text">NetApp Kubernetes 모니터링 오퍼레이터를 설치하는 데 사용할 호스트에는 타겟 K8s 클러스터와 통신하도록 _kubbtl_을 구성하고 Cloud Insights 환경에 인터넷에 연결되어 있어야 합니다. 이 호스트에 Cloud Insights에 연결할 프록시가 필요한 경우 의 지침을 따릅니다 <block ref="209b83f4fc550a98dd7cd4c1d0704793" category="inline-xref-macro-rx"></block> 섹션을 참조하십시오.</block>
+  <block id="fb4d860c1938626a4cb9b8f66c6eb6f2" category="section-title">2023년 3월</block>
+  <block id="eefa6cd78e40f4194cf842026e05a215" category="section-title">ONTAP 9.9+용 클라우드 연결은 더 이상 사용되지 않습니다</block>
+  <block id="2589e2b6868c0dfc4223608ad37b1ecf" category="paragraph">ONTAP 9.9 이상의 데이터 수집기에 대한 클라우드 연결이 더 이상 사용되지 않습니다. 2023년 4월 4일부터 사용자 환경의 Cloud Connection 데이터 수집기는 더 이상 데이터를 수집하지 않으며 폴링 시 오류를 표시합니다. 클라우드 연결 데이터 수집기는 후속 업데이트에서 Cloud Insights에서 완전히 제거됩니다.</block>
+  <block id="8ae386dae67728714e42ae37acbde665" category="paragraph">2023년 4월 4일 이전에는 클라우드 연결에서 현재 수집한 ONTAP 시스템의 새로운 NetApp ONTAP 데이터 관리 소프트웨어 데이터 수집기를 구성해야 합니다. <block ref="61bbaeff08609910a4a5c1401ada9f16" category="inline-link-macro-rx"></block>.</block>
 </blocks>
