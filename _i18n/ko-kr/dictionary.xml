@@ -10787,4 +10787,6 @@
   <block id="0f68b3cd7cc981b302e5fc48409617ab" category="cell"><block ref="0f68b3cd7cc981b302e5fc48409617ab" category="inline-link-macro-rx"></block></block>
   <block id="e23a1eab258608c673f841550477728b" category="doc">Dell EMC Isilon/PowerScale REST 데이터 수집기</block>
   <block id="9406d81673e1646c43299c62b0289100" category="sidebar">Isilon/PowerScale REST</block>
+  <block id="601e2f4bdb8c8d256c0862eb39ab26dd" category="list-text">설정 중인 프록시에 인증(사용자 이름/암호)이 없으면 다음 명령을 실행합니다.</block>
+  <block id="aec78dde754edc4769d775d718da8408" category="list-text">설정 중인 프록시에 인증(사용자 이름/암호)이 있는 경우 다음 명령을 실행합니다.</block>
 </blocks>

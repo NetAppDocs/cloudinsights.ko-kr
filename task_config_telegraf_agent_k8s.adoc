@@ -90,10 +90,14 @@ NetApp Kubernetes 운영 모니터를 설치하는 데 사용되는 프록시에
 
 . 현재 사용자에 대한 _https_proxy_and/or_http_proxy_environment 변수를 설정합니다.
 +
- export https_proxy=<proxy_server>:<proxy_port>
-. /etc/default/Telegraf_를 생성하고 _https_proxy_and/or_http_proxy_variable 에 대한 정의를 삽입합니다.
+.. 설정 중인 프록시에 인증(사용자 이름/암호)이 없으면 다음 명령을 실행합니다.
 +
- https_proxy=<proxy_server>:<proxy_port>
+ export https_proxy=<proxy_server>:<proxy_port>
+.. 설정 중인 프록시에 인증(사용자 이름/암호)이 있는 경우 다음 명령을 실행합니다.
++
+ export http_proxy= <proxy_username>:<proxy_password>@<proxy_server>:<proxy_port>
+
+
 
 
 Kubernetes 클러스터가 Cloud Insights 환경과 통신하는 데 사용되는 프록시의 경우 이러한 지침을 모두 읽은 후 NetApp Kubernetes 모니터링 운영자를 설치하십시오.
