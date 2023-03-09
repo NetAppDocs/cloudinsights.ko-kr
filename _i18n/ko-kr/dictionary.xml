@@ -8993,7 +8993,6 @@
   <block id="e49c7b347b6e9d379c33509b8c27ec5b" category="list-text">사용 권한은 Solutions Enabler 서버의 데몬 구성 파일에 선언되어야 하며, 일반적으로 _/var/symapi/config/daemon_users _ 에서 확인할 수 있습니다</block>
   <block id="6da07aa5f066875b812525d42f923d0d" category="paragraph">다음은 적절한 cisys 권한이 있는 예제 파일입니다.</block>
   <block id="1b177c66fc08f105ae2d0bcc67959194" category="cell">"알 수 없는 코드" 메시지와 함께 데이터 수집 오류가 표시됩니다.</block>
-  <block id="dc58289d0fee8bd8c729121c6c769072" category="cell">Solutions Enabler 서버의 데몬 구성 파일에 사용 권한이 선언되지 않은 경우 이 메시지가 표시될 수 있습니다(참조) <block ref="48ee54aab4fee6d43a8bd3ed26dff2b5" category="inline-xref-macro-rx"></block> 위) SE 클라이언트 버전이 SE 서버 버전과 일치하는 것으로 가정합니다.</block>
   <block id="e2079cb79abadfe109c02ddf1f9e67eb" category="list-text">SVM에는 여러 가지 하위 유형이 있습니다. 이 중 _DEFAULT_, _SYNC_SOURCE_ 및 _SYNC_DESTINATION_ 만 지원됩니다.</block>
   <block id="6d7dcfcccd12536dde9ff30f070659ea" category="section-title">Metro Cluster에 대한 권장 구성</block>
   <block id="dbefbdd0db747220531f4b1da3847502" category="paragraph">Metro 클러스터에는 다음을 사용하는 것이 좋습니다.</block>
@@ -10790,4 +10789,5 @@
   <block id="aec78dde754edc4769d775d718da8408" category="list-text">설정 중인 프록시에 인증(사용자 이름/암호)이 있는 경우 다음 명령을 실행합니다.</block>
   <block id="79c7ccf004cab46d7dd6a51e885aae3f" category="paragraph">NetApp은 다양한 방법으로 Cloud Insights를 지원합니다. 기술 자료(KB) 기사 또는 NetApp 커뮤니티 등 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. Cloud Insights 에디션(기본 *, 표준, 프리미엄)을 구독하는 사용자는 전화 또는 웹 발권 서비스를 통해 기술 지원을 받을 수 있습니다. NSS(NetApp Support Site) SSO 계정은 케이스 관리와 함께 웹 티켓에 필요합니다.</block>
   <block id="54b9dfbc2f7a4721e38bff7e643a574c" category="paragraph">모든 NetApp 스토리지 시스템에 적어도 프리미엄 지원 수준이 적용되는 한 * Support는 Basic Edition에서 제공됩니다.</block>
+  <block id="575b95a19de7e191bf400580ceab0b27" category="cell">Solutions Enabler 서버의 데몬 구성 파일에 사용 권한이 선언되지 않은 경우 이 메시지가 표시될 수 있습니다(참조) <block ref="48ee54aab4fee6d43a8bd3ed26dff2b5" category="inline-xref-macro-rx"></block> 위) SE 클라이언트 버전이 SE 서버 버전과 일치하는 것으로 가정합니다. 이 오류는 /var/symapi/config/daemon_users 구성 파일에서 필요한 데몬 권한으로 _cisys_user(Solutions Enabler 명령을 실행하는)를 구성하지 않은 경우에도 발생할 수 있습니다. 이 문제를 해결하려면 /var/symapi/config/daemon_users 파일을 편집하고 isys 사용자에게 storapid 데몬에 대해 지정된 &lt;all&gt; 권한이 있는지 확인합니다. 예: 14:11:25#tail/var/symapi/config/daemon_users... 시스의 storapid &lt;all&gt;입니다</block>
 </blocks>
