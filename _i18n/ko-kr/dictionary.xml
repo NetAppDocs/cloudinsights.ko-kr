@@ -8686,8 +8686,6 @@
   <block id="ba95389dce56e78ab6a308128620b033" category="paragraph">클러스터 자격 증명을 사용하여 _CsUser_의 경우 ONTAP 명령줄에서 다음을 수행합니다.</block>
   <block id="20cdc94cc7059da994e4c0a98a544c8f" category="section-title">샘플 알림</block>
   <block id="e0e1895e03a77da5552db43fbdeaeea6" category="paragraph">ARP 이벤트로 인해 생성된 샘플 경고는 다음과 같다.</block>
-  <block id="ba022000977a1c06f95377443d9b2500" category="inline-image-macro">ONTAP ARP 예제 화면</block>
-  <block id="d12fcb220971d8d0a7e1d474102c977e" category="paragraph"><block ref="d12fcb220971d8d0a7e1d474102c977e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="333fa709635d0e011dd99c908e02bd40" category="paragraph">고신뢰도 배너는 공격이 파일 암호화 활동과 함께 랜섬웨어 동작을 보여발생했음을 나타냅니다. 암호화된 파일 그래프는 ARP 솔루션이 볼륨 암호화 작업을 감지한 타임스탬프를 나타냅니다.</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">제한 사항</block>
   <block id="4c4518d4c20175eb4082a6b33eb4badb" category="section-title">2022년 10월</block>
@@ -10792,4 +10790,8 @@
   <block id="347129195bfdcce2fcf0d362a84ed033" category="inline-link-macro">Knowledgbase를 참조하십시오</block>
   <block id="6ad0fb78b8821fe632ae6653b56991b5" category="paragraph">프록시 구성에 대한 자세한 내용은 NetApp에서 확인할 수 있습니다 <block ref="9ee959d13eb0fcadf2047adb8fe84539" category="inline-link-macro-rx"></block>.</block>
   <block id="21495a8ea3304b589e7d69a7ec0ce1cc" category="paragraph">Cloud Insights는 계정 소유자, 관리자, 사용자 및 게스트의 최대 4개의 사용자 계정 역할을 제공합니다. 각 계정에는 아래 표에 명시된 특정 권한 수준이 할당됩니다. 사용자는 둘 중 하나입니다 <block ref="6a05e97c185d2e103748dff93c559f3b" category="inline-link-macro-rx"></block> Cloud Insights에 로그인하여 특정 역할을 할당하거나 을 통해 로그인할 수 있습니다 <block ref="5714c3cacaaaa4fdc97a235dfa644756" category="inline-link-macro-rx"></block> 기본 역할을 사용합니다. SSO 인증은 Cloud Insights 프리미엄 에디션의 기능으로 제공됩니다.</block>
+  <block id="b83a60c5de546ea3d085bb1ce6636d9a" category="inline-image-macro">랜섬웨어 경보 상단 섹션</block>
+  <block id="ed862f710faf8808be6c0eb3e9619e30" category="paragraph"><block ref="4f633f9ad87e78d3d93ed9f152d5549a" category="inline-image-macro-rx" type="image"></block>
+<block ref="45e1a131f383b4a3d591b6b7f4008d87" category="inline-image-macro-rx" type="image"></block>
+<block ref="1fc0e7df8bd287d2b4b5569c861bc29d" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

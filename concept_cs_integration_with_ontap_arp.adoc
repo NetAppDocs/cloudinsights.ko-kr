@@ -58,7 +58,9 @@ security login create -user-or-group-name csuser -application http -authmethod p
 
 ARP 이벤트로 인해 생성된 샘플 경고는 다음과 같다.
 
-image:CS_ONTAP_ARP_EXAMPLE.png["ONTAP ARP 예제 화면"]
+image:CS_Ransomware_Example_1.png["랜섬웨어 경보 상단 섹션"]
+image:CS_Ransomware_Example_2.png["랜섬웨어 경보 상단 섹션"]
+image:CS_Ransomware_Example_3.png["랜섬웨어 경보 상단 섹션"]
 
 고신뢰도 배너는 공격이 파일 암호화 활동과 함께 랜섬웨어 동작을 보여발생했음을 나타냅니다. 암호화된 파일 그래프는 ARP 솔루션이 볼륨 암호화 작업을 감지한 타임스탬프를 나타냅니다.
 
