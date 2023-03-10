@@ -172,7 +172,10 @@ password: <password from docker secret step above>
 ....
 Cloud Insights에서 운영자 Docker 이미지를 가져옵니다. NetApp-monitoring_version 번호가 최신 버전인지 확인합니다.
 
- docker pull docker.<cluster>.cloudinsights.netapp.com/netapp-monitoring:<version>
+....
+docker pull docker.<cluster>.cloudinsights.netapp.com/netapp-monitoring:<version>
+docker pull docker.<cluster>.cloudinsights.netapp.com/distroless-root-user:<version>
+....
 다음 명령을 사용하여 _NetApp-모니터링_<버전> 필드를 찾으십시오.
 
  kubectl -n netapp-monitoring describe deployment monitoring-operator | grep -i "image:" |grep netapp-monitoring
