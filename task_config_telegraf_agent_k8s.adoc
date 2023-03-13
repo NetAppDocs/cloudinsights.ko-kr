@@ -453,7 +453,7 @@ PEM 파일의 지문이 다음과 같은 것인지 확인하여 PEM 파일을 �
 
 NetApp Kubernetes Monitoring Operator 설정 시 문제가 발생할 경우 다음과 같은 사항을 고려해야 합니다.
 
-[cols="2*"]
+[cols="stretch"]
 |===
 | 문제: | 다음을 시도해 보십시오. 
 
@@ -480,5 +480,17 @@ NetApp Kubernetes Monitoring Operator 설정 시 문제가 발생할 경우 다�
 
 
 | "ImagePullBackoff" 오류가 표시됩니다 | 이러한 오류는 사용자 지정 또는 프라이빗 Docker 저장소가 있고 NetApp Kubernetes Monitoring Operator가 이를 제대로 인식하도록 구성하지 않은 경우 나타날 수 있습니다. <<using-a-custom-or-private-docker-repository,자세히 보기>> 사용자 지정/개인 저장소 구성 정보 
+
+
+| 모니터링 운영자 구축에 문제가 있는데 현재 설명서를 참조해도 문제를 해결하는 데 도움이 되지 않습니다.  a| 
+다음 명령의 출력을 캡처하거나 기록해 두고 기술 지원 팀에 문의하십시오.
+
+[listing]
+----
+ kubectl -n netapp-monitoring get all
+ kubectl -n netapp-monitoring describe all
+ kubectl -n netapp-monitoring logs <monitoring-operator-pod> --all-containers=true
+ kubectl -n netapp-monitoring logs <telegraf-pod> --all-containers=true
+----
 |===
 추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].
