@@ -2440,12 +2440,6 @@
   <block id="7040b350f10440ae0d8da871848e4a81" category="list-text">이름, 시퀀스 번호 등이 동일한 기존 FPolicy에서 오류가 발생합니다.</block>
   <block id="92848109d677425a3581b7e70806e998" category="list-text">실행 중에 스크립트가 갑자기 중지됩니다.</block>
   <block id="f03d806bb84581d824fc78103e668b12" category="paragraph">스크립트 실행의 예는 다음과 같습니다.</block>
-  <block id="414578a6fb051cf762571b6abc3062a7" category="cell">질문: 스크립트를 실행할 수 있는 SVM의 수를 늘릴 수 있습니까?</block>
-  <block id="4c39b760a2129c8773ade4e38c7ee8a1" category="cell">답변: 예. 스크립트를 편집하고 SVM의 최대 수를 5개에서 원하는 수로 변경하면 됩니다.</block>
-  <block id="70fd916f11013b88f353d7c4cc8288b0" category="cell">질문: SVM 수를 늘릴 경우 스크립트 실행 시간이 늘어집니까?</block>
-  <block id="f64044d833e646b68fe903a7d7204ce9" category="cell">답변: 아니요 이 스크립트는 SVM 수가 증가하더라도 최대 5분 동안 실행됩니다.</block>
-  <block id="aeb20f65fbd8c09dda397cfc3a4d6120" category="cell">답변: 예. 스크립트를 편집하고 SVM의 최대 수를 5개에서 원하는 수로 변경해야 합니다.</block>
-  <block id="e90fb31b8ec18f1817a08fecf70d9418" category="cell">답변: 아니요 이 스크립트는 SVM 수가 증가하더라도 최대 5분 동안 실행됩니다.</block>
   <block id="2d511a0af71415c4b6b394d9a1964225" category="summary">대부분의 개체 유형에 대해 자산 페이지를 표시할 수 있습니다.</block>
   <block id="033cb70e428cff3c1584d7206da08f9c" category="doc">자산 페이지 개요</block>
   <block id="ab24a36f89b07d59e5cf53d5754754b1" category="paragraph">자산 페이지는 자산의 현재 상태를 요약하고 자산 및 관련 자산에 대한 추가 정보에 대한 링크를 포함합니다.</block>
@@ -10744,8 +10738,6 @@
 <block ref="536041084bffaf10e48c1cc03ccee7a2" category="inline-link-macro-rx"></block></block>
   <block id="58ecb418298e803c7a0ae49007466440" category="paragraph">모든 활동 페이지에서는 워크로드 보안 환경의 엔터티에 대해 수행되는 작업을 이해할 수 있습니다.</block>
   <block id="0ab830109b4f56f33fe1f751ed17ca85" category="paragraph">활성 워크로드 보안 환경에서는 활동 기록이 13개월 동안 유지됩니다.</block>
-  <block id="48d308d5944f69b2199664d16fb4ef02" category="cell">질문: 워크로드 보안용으로 이미 구성된 SVM에서 이 스크립트를 실행하면 SVM에서 기존 FPolicy 구성을 사용하기만 합니까, 아니면 임시 FPolicy 구성을 사용하여 프로세스를 실행합니까?</block>
-  <block id="6dc6e27b054fdfb47ea4834bce442633" category="cell">답변: 워크로드 보안용으로 이미 구성된 SVM에 대해서도 이벤트 속도 검사기를 실행할 수 있습니다. 아무런 영향도 미치지 않아야 합니다.</block>
   <block id="2ffc6472f9d6abaf761bbe2e6a0385ce" category="paragraph">워크로드 보안 에이전트를 호스팅하도록 단일 노드/HA AWS 인스턴스를 구성하려면 OnCommand Cloud Volumes ONTAP 설명서를 참조하십시오.<block ref="caca64b8e9927e0ea8e8b0158b9e47cd" category="inline-link-rx"></block></block>
   <block id="830d10f97264e90663c5e3935c2d632d" category="paragraph">AWS에서 다음 단계를 수행하여 워크로드 보안 에이전트로 사용할 시스템을 구성합니다.</block>
   <block id="1c670cb717b4140f57366cd8d3f7073b" category="paragraph">다음 단계를 수행하여 워크로드 보안 에이전트로 사용할 시스템을 구성합니다.</block>
@@ -10797,4 +10789,16 @@
   <block id="368fbe1d48012e8e4f24249e2b27a8dd" category="paragraph">다음 명령의 출력을 캡처하거나 기록해 두고 기술 지원 팀에 문의하십시오.</block>
   <block id="128edc3ff8c2d69c9c76b866643314ec" category="list-text">설치하고</block>
   <block id="239169e06fcc5c8354859b561ff0a0b6" category="paragraph">개요 * 대시보드에는 전체 용량 및 성능 백분율과 함께 사용자 환경의 클러스터 수와 같은 유용한 정보가 표시됩니다. 또한 스토리지 용량 또는 성능 용량이 공간 부족해질 때까지 예상 일 수에 대한 예측 데이터도 볼 수 있습니다. 또한, 인프라에서 CPU가 65% 이상인 컨트롤러가 실행 중이면 페일오버가 발생할 가능성이 있는 클러스터 상황에 놓입니다. ONTAP Essentials는 이러한 컨트롤러를 "핫" 컨트롤러로 표시합니다.</block>
+  <block id="a97ea56b0e00b2379736ae60869ff66a" category="cell">질문</block>
+  <block id="3751695c17afed4055a7a5ad5d46f6f5" category="cell">답변</block>
+  <block id="d0361ec8dd55377b979879d46798dd21" category="cell">워크로드 보안용으로 이미 구성된 SVM에서 이 스크립트를 실행하면 SVM에서 기존 FPolicy 구성을 사용하기만 합니까, 아니면 임시 FPolicy 구성을 사용하여 프로세스를 실행합니까?</block>
+  <block id="dd6c1727e8619e941f226765e3ee28ed" category="cell">워크로드 보안용으로 이미 구성된 SVM에 대해서도 이벤트 속도 검사기를 실행할 수 있습니다. 아무런 영향도 미치지 않아야 합니다.</block>
+  <block id="865bc2d6c9cc50637b3abc05118e4574" category="cell">스크립트를 실행할 수 있는 SVM의 수를 늘릴 수 있습니까?</block>
+  <block id="d2a27dbe2bebb82fe8bccf11a4f69d9b" category="cell">예. 스크립트를 편집하고 SVM의 최대 수를 5개에서 원하는 수로 변경하면 됩니다.</block>
+  <block id="e94aec426eb2ace8240d7abaeefa8597" category="cell">SVM 수를 늘릴 경우 스크립트 실행 시간이 늘어집니까?</block>
+  <block id="3367c7848384adc0d8f9445dcca8b87e" category="cell">아니요 이 스크립트는 SVM 수가 증가하더라도 최대 5분 동안 실행됩니다.</block>
+  <block id="49eeed91da2974d7d682c9398b2adbd0" category="cell">예. 스크립트를 편집하고 SVM의 최대 수를 5개에서 원하는 수로 변경해야 합니다.</block>
+  <block id="ecb5fa18c7cd0623faea3969f936f4c3" category="cell">아니요 이 스크립트는 SVM 수가 증가하더라도 최대 5분 동안 실행됩니다.</block>
+  <block id="ce3d712deda180dd445bfed60562d712" category="cell">기존 에이전트에서 이벤트 속도 검사기를 실행하면 어떻게 됩니까?</block>
+  <block id="697ee668360d1c19e858e5fdd25062e6" category="cell">이미 있는 에이전트에 대해 이벤트 속도 검사기를 실행하면 SVM에서 지연 시간이 증가할 수 있습니다. 이 증가율은 기본적으로 이벤트 속도 검사기가 실행되는 동안 일시적으로 발생합니다.</block>
 </blocks>
