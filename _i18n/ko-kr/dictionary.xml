@@ -8443,7 +8443,6 @@
   <block id="a13907a785102ea69b2891d9e6233f6f" category="paragraph">탐색을 시작하려면 기본 Cloud Insights 메뉴에서 * ONTAP Essentials * 를 선택합니다.</block>
   <block id="da61c5d249c3bbc25d9cee2d6d64b53a" category="inline-image-macro">ONTAP Essentials에 대한 개요 대시보드</block>
   <block id="f0104a81a8bbf75874c8612df2bea3f7" category="paragraph"><block ref="f0104a81a8bbf75874c8612df2bea3f7" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="88c28e828c24faa9cbd8f5219c054d7e" category="paragraph">개요 * 대시보드에는 전체 용량 및 성능 백분율과 함께 사용자 환경의 클러스터 수와 같은 유용한 정보가 표시됩니다. 또한 스토리지 용량 또는 성능 용량이 공간 부족해질 때까지 예상 일 수에 대한 예측 데이터도 볼 수 있습니다. 인프라의 컨트롤러가 고온으로 실행되는 경우 ONTAP Essentials에서 이를 보여 줍니다.</block>
   <block id="39ef60f7b3d6d0c88b10d90a3775807a" category="paragraph">정보 그래프를 통해 시간 경과에 따른 성능 및 용량 사용량 분석 정보를 확인할 수 있습니다.</block>
   <block id="192d723a70e1a973bee8e50c84ffa947" category="paragraph">이러한 각 그래프 또는 데이터 요소를 탐색 또는 조사의 시작 지점으로 사용할 수 있습니다.</block>
   <block id="e8bfd68d700d556e8faa4883b15480df" category="paragraph">참고: "일 대 전체" 숫자 "0"(영)은 전체 일 수가 90일 이상 예상됨을 나타냅니다. 즉, 시스템이 곧 공간이 부족해질 위험이 없습니다.</block>
@@ -10797,4 +10796,5 @@
   <block id="6da3e5f4ef4407262c741e8325a8249d" category="cell">모니터링 운영자 구축에 문제가 있는데 현재 설명서를 참조해도 문제를 해결하는 데 도움이 되지 않습니다.</block>
   <block id="368fbe1d48012e8e4f24249e2b27a8dd" category="paragraph">다음 명령의 출력을 캡처하거나 기록해 두고 기술 지원 팀에 문의하십시오.</block>
   <block id="128edc3ff8c2d69c9c76b866643314ec" category="list-text">설치하고</block>
+  <block id="239169e06fcc5c8354859b561ff0a0b6" category="paragraph">개요 * 대시보드에는 전체 용량 및 성능 백분율과 함께 사용자 환경의 클러스터 수와 같은 유용한 정보가 표시됩니다. 또한 스토리지 용량 또는 성능 용량이 공간 부족해질 때까지 예상 일 수에 대한 예측 데이터도 볼 수 있습니다. 또한, 인프라에서 CPU가 65% 이상인 컨트롤러가 실행 중이면 페일오버가 발생할 가능성이 있는 클러스터 상황에 놓입니다. ONTAP Essentials는 이러한 컨트롤러를 "핫" 컨트롤러로 표시합니다.</block>
 </blocks>
