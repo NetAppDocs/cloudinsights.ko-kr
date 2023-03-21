@@ -17,6 +17,12 @@ Cloud Insights는 Kubernetes 컬렉션을 위한 * NetApp Kubernetes Monitoring 
 
 image:kubernetes_tile.png["Kubernetes Data Collector 타일"]
 
+다음은 작업자가 사용자 환경에서 어디에 있는지 보여 주는 개략적인 그림입니다. 환경에 따라 _Proxy Server_가 필요할 수도 있고 필요하지 않을 수도 있습니다.
+
+image:CI_Diagram_with_NKMO.png["Kubernetes 클러스터에 있는 NKMO를 보여 주는 상위 레벨 맵과 호스트, 프록시 서버에서 클러스터로 데이터가 이동하는 방법을 보여주는 화살표가 함께 Cloud Insights로 롤업됩니다"]
+
+운영자(NKMO) 및 데이터 수집기는 Cloud Insights Docker 레지스트리에서 다운로드할 수 있습니다. 그런 다음 NKMO는 Kubernetes 클러스터 노드에 구축된 운영자 호환 수집기를 관리하여 수집가의 수명 주기를 관리하는 등 데이터를 획득합니다. 이 체인에 이어 수집기에서 데이터를 획득하여 Cloud Insights로 전송합니다.
+
 
 
 == NetApp Kubernetes Monitoring Operator를 설치하기 전에
