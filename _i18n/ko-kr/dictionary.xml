@@ -6416,7 +6416,6 @@
   <block id="3910d1d80274049b67c375b0000311fb" category="paragraph">위 명령의 출력에서 _.dockerconfigjson:_의 값을 복사/붙여 넣습니다.</block>
   <block id="683b8010d170fc689e256c2461d9ed7e" category="paragraph">Docker 암호 해독:</block>
   <block id="e46ad1cf454a36b0aa27d5cb43692c6b" category="paragraph">Docker 리포지토리에 로그인합니다.</block>
-  <block id="2ab991b456a7fa9b1f3d4ecbbe41e44d" category="paragraph">회사 정책에 따라 운영 Docker 이미지를 프라이빗/로컬/엔터프라이즈 Docker 저장소로 밀어 넣습니다.</block>
   <block id="cb43d6ddfc5892dafbf435fffd06e735" category="paragraph">Fluent-bit가 활성화된 경우 다음 정보도 다운로드하십시오.</block>
   <block id="2f467f6ec28d4dda9efc2d651f82d1b6" category="paragraph">spec:_ 섹션에서 다음과 같이 변경합니다.</block>
   <block id="8f5d4322bbada1e271bc144d48fbd530" category="section-title">Kudbe-state-Metrics 카운터</block>
@@ -10805,4 +10804,5 @@
   <block id="ba242d5a39d9f558e864fb59273d1683" category="inline-image-macro">Kubernetes 클러스터에 있는 NKMO를 보여 주는 상위 레벨 맵과 호스트, 프록시 서버에서 클러스터로 데이터가 이동하는 방법을 보여주는 화살표가 함께 Cloud Insights로 롤업됩니다</block>
   <block id="40071b38a2f52894172d224dcc8c0caa" category="paragraph"><block ref="40071b38a2f52894172d224dcc8c0caa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fe5c84e62a55503753fc6f02fa98fbd5" category="paragraph">운영자(NKMO) 및 데이터 수집기는 Cloud Insights Docker 레지스트리에서 다운로드할 수 있습니다. 그런 다음 NKMO는 Kubernetes 클러스터 노드에 구축된 운영자 호환 수집기를 관리하여 수집가의 수명 주기를 관리하는 등 데이터를 획득합니다. 이 체인에 이어 수집기에서 데이터를 획득하여 Cloud Insights로 전송합니다.</block>
+  <block id="5fdef5014971511d708c48ee3a739357" category="paragraph">회사 정책에 따라 운영 Docker 이미지를 프라이빗/로컬/엔터프라이즈 Docker 저장소로 밀어 넣습니다. 리포지토리에서 이러한 이미지의 디렉터리 경로가 Docker.&lt;cluster&gt; .cloudinsights.netapp.com 의 디렉터리 경로와 일치하는지 확인합니다.</block>
 </blocks>
