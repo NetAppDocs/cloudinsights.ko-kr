@@ -10805,4 +10805,9 @@
   <block id="40071b38a2f52894172d224dcc8c0caa" category="paragraph"><block ref="40071b38a2f52894172d224dcc8c0caa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fe5c84e62a55503753fc6f02fa98fbd5" category="paragraph">운영자(NKMO) 및 데이터 수집기는 Cloud Insights Docker 레지스트리에서 다운로드할 수 있습니다. 그런 다음 NKMO는 Kubernetes 클러스터 노드에 구축된 운영자 호환 수집기를 관리하여 수집가의 수명 주기를 관리하는 등 데이터를 획득합니다. 이 체인에 이어 수집기에서 데이터를 획득하여 Cloud Insights로 전송합니다.</block>
   <block id="5fdef5014971511d708c48ee3a739357" category="paragraph">회사 정책에 따라 운영 Docker 이미지를 프라이빗/로컬/엔터프라이즈 Docker 저장소로 밀어 넣습니다. 리포지토리에서 이러한 이미지의 디렉터리 경로가 Docker.&lt;cluster&gt; .cloudinsights.netapp.com 의 디렉터리 경로와 일치하는지 확인합니다.</block>
+  <block id="560b3269d8d097187c911ee417754210" category="summary">Rubrik CDM 데이터 수집기 구성</block>
+  <block id="58d5d56dba192f09d08e6175eb1db050" category="doc">Rubrik CDM Data Collector</block>
+  <block id="9d8f41573ef4839d0be28a08053b14eb" category="paragraph">Cloud Insights는 Rubrik CDM CDM 데이터 수집기를 사용하여 인벤토리 및 성능 데이터를 수집합니다.</block>
+  <block id="ff1f57ccd65dd781b0a6758d9e036ad4" category="admonition">이는 _Preview_collector로 간주되며 이 정보는 변경될 수 있습니다.</block>
+  <block id="846d77217eb2a05bd5ff4c3a5f932421" category="paragraph">이 페이지는 곧 제공될 예정입니다.</block>
 </blocks>
