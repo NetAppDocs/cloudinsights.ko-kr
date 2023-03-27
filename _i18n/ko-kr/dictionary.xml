@@ -7618,7 +7618,6 @@
   <block id="fb5c635cd1a9c18981a7fac060c1aa9a" category="section-title">로그 모니터</block>
   <block id="aca15d8fd21dcf5be785b4d359f6563d" category="admonition">로그 모니터 필터는 비워 둘 수 없습니다.</block>
   <block id="0625f5fb5e60f291ab595c8261238b23" category="section-title">경고 해결 동작을 정의합니다</block>
-  <block id="5e5c54ebd8c197b5e4372aff434134f5" category="paragraph">로그 모니터 알림의 해결 방법을 선택할 수 있습니다. 세 가지 선택 사항이 있습니다.</block>
   <block id="5b9f5e9161724c93f9ca0032b82722d5" category="list-text">즉시 해결 *: 추가 조치 없이 즉시 경고가 해결됩니다</block>
   <block id="0eab361e279540d56cc831a9ffb6892c" category="list-text">* 시간 기준 해결 *: 지정된 시간이 경과한 후 경고가 해결됩니다</block>
   <block id="f7cb011afb94ace20c314d609b593ced" category="list-text">* 로그 항목에 따라 해결 *: 후속 로그 작업이 발생하면 경고가 해결됩니다. 예를 들어, 개체가 "사용 가능"으로 기록된 경우</block>
@@ -10809,4 +10808,7 @@
   <block id="d270a242787fdce58a1a0b666e5deafd" category="inline-link-macro">Rubrik CDM 스토리지</block>
   <block id="8f59429f2f39c71254ce2fdcfe65bbc2" category="cell"><block ref="8f59429f2f39c71254ce2fdcfe65bbc2" category="inline-link-macro-rx"></block></block>
   <block id="38d38399d4a7514463d665125ae50a4a" category="sidebar">Rubrik CDM</block>
+  <block id="95347c78f9b32647a267d1b7bad05732" category="section-title">경고 동작을 정의합니다</block>
+  <block id="de6aa397f5d731cb90b688abf776c138" category="paragraph">위에서 정의한 조건이 한 번(즉, 즉시) 발생할 때 심각도 수준이 _Critical_, _Warning_ 또는 _Informational_인 경우 경고를 표시하거나 조건이 두 번 이상 발생할 때까지 경고를 보내도록 모니터를 만들 수 있습니다.</block>
+  <block id="395204e03c9e6835fee3d859f3a52f45" category="paragraph">로그 모니터 알림의 해결 방법을 선택할 수 있습니다. 세 가지 선택 사항이 있습니다.</block>
 </blocks>
