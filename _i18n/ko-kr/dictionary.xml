@@ -7617,10 +7617,6 @@
   <block id="be0ee88944c0674ffaad4c460224553f" category="paragraph"><block ref="be0ee88944c0674ffaad4c460224553f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fb5c635cd1a9c18981a7fac060c1aa9a" category="section-title">로그 모니터</block>
   <block id="aca15d8fd21dcf5be785b4d359f6563d" category="admonition">로그 모니터 필터는 비워 둘 수 없습니다.</block>
-  <block id="454176c970e70022beb38f8813bea495" category="section-title">경고 동작을 정의합니다</block>
-  <block id="cce8c43ff15076e2a47a1be2c1993164" category="paragraph">로그 경고가 트리거될 때 알림 방법을 선택합니다. 위에서 설정한 필터 조건에 따라 _Warning_, _Critical_ 또는 _Informational_severity를 사용하여 경고를 보내도록 모니터를 설정할 수 있습니다.</block>
-  <block id="842f9b92217e385fb4514d9f0467d53e" category="inline-image-macro">모니터링할 로그 동작을 정의합니다</block>
-  <block id="1b1f71445d1920c9625e6c1f2018a229" category="paragraph"><block ref="1b1f71445d1920c9625e6c1f2018a229" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0625f5fb5e60f291ab595c8261238b23" category="section-title">경고 해결 동작을 정의합니다</block>
   <block id="5e5c54ebd8c197b5e4372aff434134f5" category="paragraph">로그 모니터 알림의 해결 방법을 선택할 수 있습니다. 세 가지 선택 사항이 있습니다.</block>
   <block id="5b9f5e9161724c93f9ca0032b82722d5" category="list-text">즉시 해결 *: 추가 조치 없이 즉시 경고가 해결됩니다</block>
@@ -10810,4 +10806,7 @@
   <block id="9d8f41573ef4839d0be28a08053b14eb" category="paragraph">Cloud Insights는 Rubrik CDM CDM 데이터 수집기를 사용하여 인벤토리 및 성능 데이터를 수집합니다.</block>
   <block id="ff1f57ccd65dd781b0a6758d9e036ad4" category="admonition">이는 _Preview_collector로 간주되며 이 정보는 변경될 수 있습니다.</block>
   <block id="846d77217eb2a05bd5ff4c3a5f932421" category="paragraph">이 페이지는 곧 제공될 예정입니다.</block>
+  <block id="d270a242787fdce58a1a0b666e5deafd" category="inline-link-macro">Rubrik CDM 스토리지</block>
+  <block id="8f59429f2f39c71254ce2fdcfe65bbc2" category="cell"><block ref="8f59429f2f39c71254ce2fdcfe65bbc2" category="inline-link-macro-rx"></block></block>
+  <block id="38d38399d4a7514463d665125ae50a4a" category="sidebar">Rubrik CDM</block>
 </blocks>

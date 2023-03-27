@@ -294,6 +294,9 @@ Cloud Insights에서 지원하는 데이터 수집기 목록 사전순:
 | link:task_config_telegraf_agent.html#rhel-and-centos["RHEL 및 AMP, CentOS"] | 서비스 
 
 
+| link:task_dc_rubrik_cdm.html["Rubrik CDM 스토리지"] | 검토할 수 있습니다 
+
+
 | link:task_config_telegraf_agent.html#ubuntu-and-debian["Ubuntu 및 amp; Debian"] | 서비스 
 
 
