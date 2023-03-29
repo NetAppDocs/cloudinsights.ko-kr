@@ -8455,7 +8455,6 @@
   <block id="f69b71669c103a70c3bed015d16ff368" category="admonition">선택할 수 있는 기능 및 역할은 특정 관리자 역할에서 액세스할 수 있는 기능에 따라 다릅니다. 예를 들어 보고에만 관리자 역할이 있는 경우 사용자를 보고의 모든 역할에 할당할 수 있지만 관찰 가능성 또는 보안에 대한 역할을 할당할 수는 없습니다.</block>
   <block id="fb2292451138606a292cb0cc5fcdeede" category="paragraph">계정 소유자 역할을 다른 사용자에게 할당하려면 관찰 가능성의 계정 소유자로 로그인해야 합니다.</block>
   <block id="ae26b3d8e556703291282149e3ae894f" category="inline-xref">업그레이드</block>
-  <block id="51749c7a45a2b7fcc4461d9a50cc9b22" category="list-text">_curl_, _sudo_, _openssl_, _sha256sum_ 및 _kubbctl_ 명령을 사용할 수 있어야 합니다. 최상의 결과를 얻으려면 이러한 명령을 경로에 추가하십시오.</block>
   <block id="447ede71efbff97ddd4418212a6b52c9" category="section-title">NetApp Kubernetes Monitoring Operator를 중지하고 시작합니다</block>
   <block id="450670e2626f71fbb9a492373158ed02" category="paragraph">NetApp Kubernetes Monitoring Operator를 중지하려면 다음을 수행합니다.</block>
   <block id="c1bdaebddc4968d3e08193cf297db84b" category="paragraph">NetApp Kubernetes Monitoring Operator를 시작하려면 다음을 수행합니다.</block>
@@ -10811,4 +10810,8 @@
   <block id="95347c78f9b32647a267d1b7bad05732" category="section-title">경고 동작을 정의합니다</block>
   <block id="de6aa397f5d731cb90b688abf776c138" category="paragraph">위에서 정의한 조건이 한 번(즉, 즉시) 발생할 때 심각도 수준이 _Critical_, _Warning_ 또는 _Informational_인 경우 경고를 표시하거나 조건이 두 번 이상 발생할 때까지 경고를 보내도록 모니터를 만들 수 있습니다.</block>
   <block id="395204e03c9e6835fee3d859f3a52f45" category="paragraph">로그 모니터 알림의 해결 방법을 선택할 수 있습니다. 세 가지 선택 사항이 있습니다.</block>
+  <block id="af943d1d81f743ab6e7c9bcbe3a8c6e9" category="summary">NKMO Clusterrole에 대한 YAML 파일의 예</block>
+  <block id="94e0aa0f534273005cdbd647f8f4eab8" category="doc">NKMO Clusterrole YAML의 예</block>
+  <block id="38836a8a56831bc3569901f9b16d3eaf" category="paragraph">NetApp Kubernetes Monitoring Operator(NKMO)의 _kubbectl_component는 최소한 에이전트, 클러스터 역할, 클러스터 역할 바인딩, 사용자 정의 정의 정의, 배포 등의 Kubernetes 개체에 대한 액세스 권한으로 구성해야 합니다. 네임스페이스, 역할, rolebindings, 비밀, serviceaccount, 등을 다룹니다. 다음은 이러한 최소 권한을 가진 클러스터역할의 예입니다.</block>
+  <block id="fcb70ec2b5ff14dcc062955ceca887b6" category="list-text">_curl, sudo, openssl, sha256sum, _ 및 _kubbctl_ 명령을 사용할 수 있어야 합니다. 최상의 결과를 얻으려면 이러한 명령을 경로에 추가하십시오. 최소한 _ 에이전트, 클러스터 역할, clusterrobindings, customresourcedefinitions, Deployments 등의 Kubernetes 개체에 대한 액세스 권한으로 _kubbctl_을 구성해야 합니다. 네임스페이스, 역할, rolebindings, 비밀, serviceaccount, _ 및 _services _. 을 참조하십시오 <block ref="2322ad97d10659602a6f09125f69eba0" category="inline-link-macro-rx"></block> 예를 들어, 최소 클러스터 역할 권한이 있는 .YAML 파일을 예로 들 수 있습니다.</block>
 </blocks>
