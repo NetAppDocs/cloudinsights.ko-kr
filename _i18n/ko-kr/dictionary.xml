@@ -7618,11 +7618,7 @@
   <block id="fb5c635cd1a9c18981a7fac060c1aa9a" category="section-title">로그 모니터</block>
   <block id="aca15d8fd21dcf5be785b4d359f6563d" category="admonition">로그 모니터 필터는 비워 둘 수 없습니다.</block>
   <block id="0625f5fb5e60f291ab595c8261238b23" category="section-title">경고 해결 동작을 정의합니다</block>
-  <block id="5b9f5e9161724c93f9ca0032b82722d5" category="list-text">즉시 해결 *: 추가 조치 없이 즉시 경고가 해결됩니다</block>
-  <block id="0eab361e279540d56cc831a9ffb6892c" category="list-text">* 시간 기준 해결 *: 지정된 시간이 경과한 후 경고가 해결됩니다</block>
-  <block id="f7cb011afb94ace20c314d609b593ced" category="list-text">* 로그 항목에 따라 해결 *: 후속 로그 작업이 발생하면 경고가 해결됩니다. 예를 들어, 개체가 "사용 가능"으로 기록된 경우</block>
   <block id="8728ea9412d646983052607068b25d61" category="inline-image-macro">경고 해결</block>
-  <block id="0267d15c881fe01be2ed5e9baa605285" category="paragraph"><block ref="0267d15c881fe01be2ed5e9baa605285" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4c98e9aaa4cbb7fc1c457ed76c2a0f21" category="paragraph">모니터 오른쪽에 있는 메뉴를 클릭하고 * Pause * (일시 중지 *)를 선택하여 개체 유형의 모니터링을 일시적으로 일시 중지할 수 있습니다. 모니터링을 다시 시작할 준비가 되면 * Resume * (재개 *)을 클릭합니다.</block>
   <block id="a73980f5bc00482a343096d1a40143fb" category="list-text">* 모든 모니터 * 는 모든 모니터를 나열합니다.</block>
   <block id="f78abd66dd2da46aaad72238500300b7" category="paragraph">를 봅니다 <block ref="c48a3e56f23a81aaf8fad75ccfbc3d89" category="inline-link-macro-rx"></block> Cloud Insights에 포함된 모니터에 대한 설명을 보려면 페이지를 참조하십시오.</block>
@@ -10824,4 +10820,11 @@
   <block id="7de7475f4bb973126434d7c3f9801f08" category="cell">클러스터가 올바르게 구성되어 있고 수집기가 단일 클러스터를 가리키고 있는지 확인합니다.</block>
   <block id="fc971fc699329bc531b4d65ff180a629" category="cell">디스크 API가 더 많은 데이터를 반환한다는 경고가 수신되었습니다</block>
   <block id="3cd62817285774be5e17bfa3b11a6309" category="cell">추가 데이터를 얻으려면 지원 부서에 문의하십시오.</block>
+  <block id="8d3d5857627846ebb0bfd18533d81373" category="list-text">즉시 해결합니다</block>
+  <block id="17b8d34f8d949597a55a6101ce83364d" category="list-text">데이터 보존 기간 이후 삭제(자세한 내용은 에디션 페이지 참조) Monitor에는 정의에 따른 해결 조건이 없으므로 데이터 보존 기간이 경과할 때까지 Alert는 _ACTIVE_로 유지되고 이 모니터에서 생성된 모든 후속 경고가 표시되지 않습니다.</block>
+  <block id="befadb349d88b7326b91ea95e095647d" category="list-text">로그 항목에 따라 해결: 다음 정의에 설명된 대로 로그 라인이 검색되면 알림을 해결하거나 데이터 보존 기간 이후에 제거합니다</block>
+  <block id="e9e214a6e16f6beca61f905fa6ce3ab9" category="inline-image-macro">경고 해결 옵션</block>
+  <block id="990eaf3ef2e3748beed4f15a2dc6d080" category="paragraph"><block ref="990eaf3ef2e3748beed4f15a2dc6d080" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6dfab0f82f494a8fd5d9bb100e34504b" category="paragraph">// * * 즉시 해결 *: 추가 작업이 필요 없이 즉시 경고 해결 * * 시간 기준 해결 *: 지정된 시간이 지난 후 경고 해결 * * * 로그 입력에 따른 해결 *: 후속 로그 작업이 발생한 경우 경고가 해결됩니다. 예를 들어, 개체가 "사용 가능"으로 기록된 경우</block>
+  <block id="e0155eef58f15e0fa7e34b03a853acaa" category="paragraph"><block ref="0267d15c881fe01be2ed5e9baa605285" category="inline-image-macro-rx" type="image"></block>//</block>
 </blocks>
