@@ -14,11 +14,15 @@ Storage Manager 대시보드에서는 시간에 따른 리소스 사용을 허�
 
 NOTE: 보고 기능은 Cloud Insights에서 사용할 수 있습니다 link:concept_subscribing_to_cloud_insights.html["Premium Edition을 참조하십시오"].
 
-대시보드에는 스토리지 환경의 특정 측면에 대한 컨텍스트 정보가 포함된 7개의 구성 요소가 포함되어 있습니다. 스토리지 서비스의 측면에 대해 드릴다운하여 가장 관심 있는 섹션에 대한 심층 분석을 수행할 수 있습니다.
-
 
 
 == 요약
+
+팀 콘텐츠에서 * 스토리지 관리자 대시보드 * 를 선택하면 트래픽 및 스토리지에 대한 정보를 제공하는 여러 보고서가 제공됩니다.
+
+image:Reporting_Storage_Manager_Dashboard_Choices.png["Storage Manager 대시보드 옵션"]
+
+스토리지 관리자 보고서 * 는 스토리지 환경의 다양한 측면에 대한 컨텍스트 정보를 포함하는 7개의 구성 요소로 구성되어 있습니다. 스토리지 서비스의 측면에 대해 드릴다운하여 가장 관심 있는 섹션에 대한 심층 분석을 수행할 수 있습니다.
 
 image:Reporting-SMD.png["Storage Manager 대시보드"]
 

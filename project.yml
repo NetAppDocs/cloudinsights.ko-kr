@@ -23,6 +23,8 @@ sidebar:
       url: "/security_overview.html"
     - title: 저장 내용 및 위치
       url: "/security_information_and_region.html"
+    - title: SecurityAdmin 도구
+      url: "/security_admin_tool.html"
   - title: 시작하기
     entries:
     - title: 피처 튜터리얼

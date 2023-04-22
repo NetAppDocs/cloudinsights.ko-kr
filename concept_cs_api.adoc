@@ -11,6 +11,9 @@ summary: 워크로드 보안에는 CMDB와 같은 다른 애플리케이션과�
 [role="lead"]
 워크로드 보안 API를 통해 NetApp 고객과 ISV(독립 소프트웨어 공급업체)는 워크로드 보안을 CMDB 또는 기타 티켓 시스템과 같은 다른 애플리케이션과 통합할 수 있습니다.
 
+
+NOTE: 워크로드 보안은 Cloud Insights Federal Edition에서 사용할 수 없습니다.
+
 API 액세스 요구 사항:
 
 * 액세스 권한을 부여하기 위해 API 액세스 토큰 모델이 사용됩니다.

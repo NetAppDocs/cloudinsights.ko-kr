@@ -454,6 +454,9 @@ PEM 파일의 지문이 다음과 같은 것인지 확인하여 PEM 파일을 �
 
  kubectl exec -c manager -it <operator-pod-name> -n <namespace> -- cat configs/substitution-vars/README.txt
 
+NOTE: 사용자 튜닝은 Cloud Insights Federal Edition에서 사용할 수 없습니다
+
+
 
 == 문제 해결
 

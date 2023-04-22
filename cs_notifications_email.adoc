@@ -12,6 +12,9 @@ keywords: email, notifications, alerts, warnings, attacks
 워크로드 보안 경고 수신자를 구성하려면 * Admin > Notifications * 를 클릭하고 각 수신자의 적절한 섹션에 이메일 주소를 입력합니다.
 
 
+NOTE: 워크로드 보안은 Cloud Insights Federal Edition에서 사용할 수 없습니다.
+
+
 
 == 잠재적 공격 경고 및 경고
 

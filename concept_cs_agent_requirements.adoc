@@ -11,6 +11,9 @@ keywords: agent, Linux, requirements, docker, browsers, permissions, Network, Cl
 [role="lead"]
 반드시 해야 합니다 link:task_cs_add_agent.html["Agent를 설치합니다"] 데이터 수집기에서 정보를 얻기 위해 Agent를 설치하기 전에 운영 체제, CPU, 메모리 및 디스크 공간 요구 사항을 충족하는지 확인해야 합니다.
 
+
+NOTE: 스토리지 워크로드 보안은 Cloud Insights Federal Edition에서 사용할 수 없습니다.
+
 [cols="36,60"]
 |===
 | 구성 요소 | Linux 요구 사항 

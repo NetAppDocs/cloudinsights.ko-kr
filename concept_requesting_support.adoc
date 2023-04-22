@@ -10,7 +10,10 @@ keywords: support, knowledgebase, documentation, community, chat, videos, help, 
 
 
 toc::[]
-Cloud Insights에서 도움말 > 지원 * 을 클릭하여 지원 옵션에 액세스할 수 있습니다. 사용 가능한 지원 옵션은 평가판 모드인지 구독 모드인지에 따라 다릅니다.
+Cloud Insights에서 도움말 > 지원 * 을 클릭하여 지원 옵션에 액세스할 수 있습니다. 사용 가능한 지원 옵션은 Cloud Insights 버전에 따라 다릅니다.
+
+
+NOTE: Cloud Insights 연방 버전에서는 라이브 채팅 지원 옵션을 사용할 수 없습니다.
 
 image:SupportPageWithLearningCenter.png["지원 페이지"]
 
