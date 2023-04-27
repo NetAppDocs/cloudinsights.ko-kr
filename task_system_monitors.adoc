@@ -22,7 +22,7 @@ summary: 성능 또는 인벤토리 임계값과 메트릭 또는 로그 조건�
 Cloud Insights에는 메트릭 및 로그 모두에 대해 다수의 시스템 정의 모니터가 포함됩니다. 사용 가능한 시스템 모니터는 사용자 환경에 있는 데이터 수집기에 따라 다릅니다. 따라서 Cloud Insights에서 사용 가능한 모니터는 데이터 수집기가 추가되거나 해당 구성이 변경되면 변경될 수 있습니다.
 
 
-NOTE: 대부분의 시스템 모니터는 기본적으로 _Paused_상태입니다. 모니터를 다시 시작하기 전에 Data Collector에서 _Advanced Counter Data Collection_ 및 _Enable ONTAP EMS log collection_이 활성화되어 있는지 확인해야 합니다. 이러한 옵션은 _고급 구성_ 아래의 ONTAP 데이터 수집기에서 찾을 수 있습니다.image:Enable_Log_Monitor_Collection.png["ONTAP에 대한 고급 카운터 및 EMS 로그 수집 활성화"]
+NOTE: 대부분의 시스템 모니터는 기본적으로 _Paused_상태입니다. 모니터의 _Resume_옵션을 선택하여 시스템 모니터를 활성화할 수 있습니다. Data Collector에서 _고급 카운터 데이터 수집_ 및 _ONTAP EMS 로그 수집 활성화_가 활성화되어 있는지 확인합니다. 이러한 옵션은 _고급 구성_ 아래의 ONTAP 데이터 수집기에서 찾을 수 있습니다.image:Enable_Log_Monitor_Collection.png["ONTAP에 대한 고급 카운터 및 EMS 로그 수집 활성화"]
 
 
 toc::[]

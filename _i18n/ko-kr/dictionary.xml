@@ -7914,7 +7914,6 @@
   <block id="e22f96f4c78ae5a5a73fa7bb9bb9e606" category="cell">볼륨은 DevOps 애플리케이션, 홈 디렉토리, 데이터베이스를 비롯한 성능에 민감한 애플리케이션에서 주로 발생하는 I/O 트래픽을 처리하는 객체입니다. 볼륨 지연 시간이 길다는 것은 애플리케이션 자체에서 문제를 겪고 있으며 작업을 수행할 수 없음을 의미합니다. 볼륨 지연 시간을 모니터링하는 것은 애플리케이션의 일관된 성능을 유지하는 데 매우 중요합니다. 다음은 미디어 유형-SSD에서 최대 1-2밀리초, SAS에서 최대 8-10밀리초, SATA HDD에서 17-20밀리초를 기준으로 한 예상 지연 시간 입니다.</block>
   <block id="6a330cc3d1dd1f4ba2997354a3f21845" category="cell">볼륨 Qtree 할당량 오버커밋</block>
   <block id="fb7354d1ae8b5435bfa69884ef47da15" category="cell">볼륨 Qtree 할당량 오버 커밋은 qtree 할당량에 의해 볼륨이 초과 커밋된 것으로 간주되는 비율을 지정합니다. 볼륨에 대해 qtree 할당량의 설정 임계값에 도달했습니다. 볼륨 qtree 할당량 초과 할당을 모니터링하면 사용자가 무중단 데이터 서비스를 받을 수 있습니다.</block>
-  <block id="46df155a798a257bfbc43b89badd64d1" category="admonition">대부분의 시스템 모니터는 기본적으로 _Paused_상태입니다. 모니터를 다시 시작하기 전에 Data Collector에서 _Advanced Counter Data Collection_ 및 _Enable ONTAP EMS log collection_이 활성화되어 있는지 확인해야 합니다. 이러한 옵션은 _고급 구성_ 아래의 ONTAP 데이터 수집기에서 찾을 수 있습니다.<block ref="c9fb5b808ac97b65ea1073e21fb359f9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a126bfb1fdb6bbbe10997dfc35ed2144" category="section-title">모니터 설명</block>
   <block id="aeb92e8c5a120fcbb9dbeee4d880039d" category="paragraph">시스템 정의 모니터는 사전 정의된 메트릭 및 조건과 기본 설명 및 수정 작업으로 구성되어 있으며 수정할 수 없습니다. 시스템 정의 모니터의 알림 수신자 목록을 수정할 수 있습니다. 메트릭, 조건, 설명 및 수정 조치를 보거나 수신자 목록을 수정하려면 시스템 정의 모니터 그룹을 열고 목록에서 모니터 이름을 클릭합니다.</block>
   <block id="81b15c5404e04e7a0285a18e2c702d75" category="paragraph">시스템 정의 모니터 그룹은 수정하거나 제거할 수 없습니다.</block>
@@ -11044,4 +11043,5 @@
   <block id="b301a7b156c241fb466de1bca776811c" category="cell">K8S 클러스터의 노드에서 시간 설정을 확인합니다. 정확한 감사 및 데이터 보고를 위해 NTP(Network Time Protocol) 또는 SNTP(Simple Network Time Protocol)를 사용하여 Agent 시스템의 시간을 동기화하는 것이 좋습니다.</block>
   <block id="4ded7a1a9e117c3e40fb8fd746b0652d" category="cell">NKMO 네임스페이스의 일부 net-observer POD가 Pending 상태입니다</block>
   <block id="c55a7a21faf06d9f162882100bc46e42" category="cell">Net-observer는 DemonSet로, k8s 클러스터의 각 노드에서 포드를 실행합니다. • Pending 상태인 POD를 확인하고 CPU 또는 메모리에 대한 리소스 문제가 발생하는지 확인합니다. 노드에서 필요한 메모리 및 CPU를 사용할 수 있는지 확인합니다.</block>
+  <block id="af5f3409a3cec43a03f959371f642cae" category="admonition">대부분의 시스템 모니터는 기본적으로 _Paused_상태입니다. 모니터의 _Resume_옵션을 선택하여 시스템 모니터를 활성화할 수 있습니다. Data Collector에서 _고급 카운터 데이터 수집_ 및 _ONTAP EMS 로그 수집 활성화_가 활성화되어 있는지 확인합니다. 이러한 옵션은 _고급 구성_ 아래의 ONTAP 데이터 수집기에서 찾을 수 있습니다.<block ref="c9fb5b808ac97b65ea1073e21fb359f9" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
