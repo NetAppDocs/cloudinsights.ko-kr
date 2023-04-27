@@ -501,5 +501,17 @@ NetApp Kubernetes Monitoring Operator 설정 시 문제가 발생할 경우 다�
  kubectl -n netapp-monitoring logs <monitoring-operator-pod> --all-containers=true
  kubectl -n netapp-monitoring logs <telegraf-pod> --all-containers=true
 ----
+
+
+| NKMO 네임스페이스의 net-observer(워크로드 맵) 포드가 CrashLoopBackOff에 있습니다 | 이러한 포드는 네트워크 관찰 가능성을 위한 워크로드 맵 데이터 수집기에 해당합니다. 다음을 시도해 보십시오. • 최소 커널 버전을 확인하려면 Pod 중 하나의 로그를 확인하십시오. 예:---{"CI-tenant-id":"your-tenant-id", "collector-cluster":"your-k8s-cluster-name","environment":"prod", "level":"error", "msg":"가 검증에 실패했습니다. 이유: 커널 버전 3.10.0이 최소 커널 버전 4.18.0", "시간":"2022-11-09T08:23:08Z"}------ • Net-observer Pod는 Linux 커널 버전이 4.18.0 이상이어야 합니다. "uname -r" 명령을 사용하여 커널 버전을 확인하고 해당 버전이 4.18.0 이상인지 확인합니다 
+
+
+| NKMO 네임스페이스의 net-observer Pod는 OpenShift 4 환경의 CrashLoopBackoff에 있습니다 | 현재 지원되지 않습니다. 향후 업데이트에 지원이 추가될 예정입니다. 
+
+
+| Pod는 NKMO 네임스페이스(기본값: NetApp 모니터링)에서 실행되지만, 쿼리의 워크로드 맵 또는 Kubernetes 메트릭의 UI에는 데이터가 표시되지 않습니다 | K8S 클러스터의 노드에서 시간 설정을 확인합니다. 정확한 감사 및 데이터 보고를 위해 NTP(Network Time Protocol) 또는 SNTP(Simple Network Time Protocol)를 사용하여 Agent 시스템의 시간을 동기화하는 것이 좋습니다. 
+
+
+| NKMO 네임스페이스의 일부 net-observer POD가 Pending 상태입니다 | Net-observer는 DemonSet로, k8s 클러스터의 각 노드에서 포드를 실행합니다. • Pending 상태인 POD를 확인하고 CPU 또는 메모리에 대한 리소스 문제가 발생하는지 확인합니다. 노드에서 필요한 메모리 및 CPU를 사용할 수 있는지 확인합니다. 
 |===
 추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].

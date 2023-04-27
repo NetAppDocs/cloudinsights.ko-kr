@@ -11036,4 +11036,12 @@
   <block id="8ed7b905a59e5488e500fdbff4d3cf32" category="inline-image-macro">보고서 출력 선택</block>
   <block id="c0404d66fec1056cbbdcf7bc76589700" category="paragraph"><block ref="c0404d66fec1056cbbdcf7bc76589700" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f6706b55dc0bef6b9951c40daa3a0ee2" category="admonition">스토리지 워크로드 보안은 Cloud Insights Federal Edition에서 사용할 수 없습니다.</block>
+  <block id="0538684ab7c9197cd8966c3859e59c6a" category="cell">NKMO 네임스페이스의 net-observer(워크로드 맵) 포드가 CrashLoopBackOff에 있습니다</block>
+  <block id="b1dd812a8bc65d5769e88b945f591999" category="cell">이러한 포드는 네트워크 관찰 가능성을 위한 워크로드 맵 데이터 수집기에 해당합니다. 다음을 시도해 보십시오. • 최소 커널 버전을 확인하려면 Pod 중 하나의 로그를 확인하십시오. 예:---{"CI-tenant-id":"your-tenant-id", "collector-cluster":"your-k8s-cluster-name","environment":"prod", "level":"error", "msg":"가 검증에 실패했습니다. 이유: 커널 버전 3.10.0이 최소 커널 버전 4.18.0", "시간":"2022-11-09T08:23:08Z"}------ • Net-observer Pod는 Linux 커널 버전이 4.18.0 이상이어야 합니다. "uname -r" 명령을 사용하여 커널 버전을 확인하고 해당 버전이 4.18.0 이상인지 확인합니다</block>
+  <block id="43eb2ebe757bb3f2957ebacdbe1e409c" category="cell">NKMO 네임스페이스의 net-observer Pod는 OpenShift 4 환경의 CrashLoopBackoff에 있습니다</block>
+  <block id="c16b414538506d32ed8a234fa2331767" category="cell">현재 지원되지 않습니다. 향후 업데이트에 지원이 추가될 예정입니다.</block>
+  <block id="c37dcb848a7244594adc1af67cc44fb5" category="cell">Pod는 NKMO 네임스페이스(기본값: NetApp 모니터링)에서 실행되지만, 쿼리의 워크로드 맵 또는 Kubernetes 메트릭의 UI에는 데이터가 표시되지 않습니다</block>
+  <block id="b301a7b156c241fb466de1bca776811c" category="cell">K8S 클러스터의 노드에서 시간 설정을 확인합니다. 정확한 감사 및 데이터 보고를 위해 NTP(Network Time Protocol) 또는 SNTP(Simple Network Time Protocol)를 사용하여 Agent 시스템의 시간을 동기화하는 것이 좋습니다.</block>
+  <block id="4ded7a1a9e117c3e40fb8fd746b0652d" category="cell">NKMO 네임스페이스의 일부 net-observer POD가 Pending 상태입니다</block>
+  <block id="c55a7a21faf06d9f162882100bc46e42" category="cell">Net-observer는 DemonSet로, k8s 클러스터의 각 노드에서 포드를 실행합니다. • Pending 상태인 POD를 확인하고 CPU 또는 메모리에 대한 리소스 문제가 발생하는지 확인합니다. 노드에서 필요한 메모리 및 CPU를 사용할 수 있는지 확인합니다.</block>
 </blocks>
