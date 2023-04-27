@@ -89,6 +89,16 @@ sidebar:
       url: "/kubernetes_landing_page.html"
     - title: Kubernetes 클러스터 페이지
       url: "/kubernetes_cluster_detail.html"
+  - title: 인사이트
+    entries:
+    - title: 개요
+      url: "/insights_overview.html"
+    - title: 스트레스 상태의 공유 리소스
+      url: "/insights_shared_resources_under_stress.html"
+    - title: 공간이 부족되는 Kubernetes 네임스페이스
+      url: "/insights_k8s_namespaces_running_out_of_space.html"
+    - title: ONTAP 콜드 스토리지 재확보
+      url: "/insights_reclaim_ontap_cold_storage.html"
   - title: ONTAP 핵심 요소
     url: "/concept_ontap_essentials.html"
   - title: 쿼리 작업
