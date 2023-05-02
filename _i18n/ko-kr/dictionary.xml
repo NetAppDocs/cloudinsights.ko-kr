@@ -10639,8 +10639,6 @@
   <block id="7d29e14ab81a7f2d743b14063e512bf7" category="paragraph">Cloud Insights 스토리지 워크로드 보안(이전의 Cloud Secure)은 내부자 위협에 대한 실행 가능한 인텔리전스로 데이터를 보호합니다. 또한 하이브리드 클라우드 환경 전반에서 모든 기업 데이터 액세스에 대한 중앙 집중식 가시성과 제어를 제공하여 보안 및 규정 준수 목표를 충족할 수 있습니다.</block>
   <block id="6bb784bfbef2792b99ae322d0ce648b6" category="paragraph">데이터 액세스 및 제어에 대한 시기 적절하고 정확한 가시성을 제공하지 못하는 도구 및 수동 프로세스를 대체합니다. 워크로드 보안은 클라우드 및 사내 스토리지 시스템 모두에서 고유하게 작동하며 악의적인 사용자 동작에 대한 실시간 경고를 제공합니다.</block>
   <block id="4d8cd5134c1193f4d301c7e6bcaa38a7" category="inline-link-macro">워크로드 보안 공지(이전의 Cloud Secure)</block>
-  <block id="a2e7ba2dd94ada0070912463ec6803b4" category="paragraph"><block ref="fb357983cf2ab6e1d0ee3d96cfba559e" category="inline-link-macro-rx"></block>
-<block ref="536041084bffaf10e48c1cc03ccee7a2" category="inline-link-macro-rx"></block></block>
   <block id="58ecb418298e803c7a0ae49007466440" category="paragraph">모든 활동 페이지에서는 워크로드 보안 환경의 엔터티에 대해 수행되는 작업을 이해할 수 있습니다.</block>
   <block id="0ab830109b4f56f33fe1f751ed17ca85" category="paragraph">활성 워크로드 보안 환경에서는 활동 기록이 13개월 동안 유지됩니다.</block>
   <block id="2ffc6472f9d6abaf761bbe2e6a0385ce" category="paragraph">워크로드 보안 에이전트를 호스팅하도록 단일 노드/HA AWS 인스턴스를 구성하려면 OnCommand Cloud Volumes ONTAP 설명서를 참조하십시오.<block ref="caca64b8e9927e0ea8e8b0158b9e47cd" category="inline-link-rx"></block></block>
@@ -11044,4 +11042,6 @@
   <block id="af5f3409a3cec43a03f959371f642cae" category="admonition">대부분의 시스템 모니터는 기본적으로 _Paused_상태입니다. 모니터의 _Resume_옵션을 선택하여 시스템 모니터를 활성화할 수 있습니다. Data Collector에서 _고급 카운터 데이터 수집_ 및 _ONTAP EMS 로그 수집 활성화_가 활성화되어 있는지 확인합니다. 이러한 옵션은 _고급 구성_ 아래의 ONTAP 데이터 수집기에서 찾을 수 있습니다.<block ref="c9fb5b808ac97b65ea1073e21fb359f9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6c7e3200049198face0d2648e9d1a27d" category="cell">인바운드</block>
   <block id="52e3eb8960d4500b67360febd3b16b26" category="cell">ONTAP와 워크로드 보안 간의 단방향 에이전트가 SVM 수명에서 ping을 보냅니다.</block>
+  <block id="8fee42a04811f34097bb06266a925ef6" category="paragraph"><block ref="f1d16f360380bc347a5a9e8768937aa7" category="inline-link-macro-rx"></block>
+<block ref="536041084bffaf10e48c1cc03ccee7a2" category="inline-link-macro-rx"></block></block>
 </blocks>
