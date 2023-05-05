@@ -141,7 +141,7 @@ image:Kubernetes_Workload_LP.png["Kubernetes 워크로드 랜딩 페이지 예"]
 
 === 체크섬을 확인하십시오
 
-Windows, Linux 및 MacOS용 에이전트를 설치하는 동안 체크섬 값을 제공하도록 요청했으며 이는 훌륭한 아이디어입니다. 주요 내용은 다음과 같습니다.
+Windows 및 Linux용 에이전트를 설치하는 동안 체크섬 값을 제공하도록 요청했으며 이는 좋은 생각이라고 생각합니다. 주요 내용은 다음과 같습니다.
 
 image:Agent_Checksum_Instructions.png["설치 중에 표시되는 에이전트 체크섬 값입니다"]
 

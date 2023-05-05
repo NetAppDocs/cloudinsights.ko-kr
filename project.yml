@@ -37,9 +37,9 @@ sidebar:
         url: "/concept_acquisition_unit_requirements.html"
       - title: 획득 장치 구성
         url: "/task_configure_acquisition_unit.html"
-      - title: Agent 구성(Windows/Linux/Mac)
+      - title: Windows/Linux에서 에이전트 구성
         url: "/task_config_telegraf_agent.html"
-      - title: 에이전트(Kubernetes) 구성
+      - title: Kubernetes Operator 구성
         url: "/task_config_telegraf_agent_k8s.html"
       - title: 데이터 수집기 구성
         url: "/task_configure_data_collectors.html"

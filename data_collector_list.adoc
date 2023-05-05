@@ -198,9 +198,6 @@ Cloud Insights에서 지원하는 데이터 수집기 목록 사전순:
 | link:task_dc_lenovo.html["Lenovo HX 시리즈"] | 검토할 수 있습니다 
 
 
-| link:task_config_telegraf_agent.html#macos["macOS"] | 서비스 
-
-
 | link:task_config_telegraf_memcached.html["멤캐시드"] | 서비스 
 
 

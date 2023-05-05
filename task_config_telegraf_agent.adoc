@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task_config_telegraf_agent.html 
 keywords: telegraf, installation, install, agent, telegraf agent 
-summary: Cloud Insights는 통합 데이터 수집을 위한 에이전트로 Teleraf를 지원하며 Windows, Linux, macOS 및 Kubernetes에서 구성할 수 있습니다. 
+summary: Cloud Insights는 통합 데이터 수집을 위한 에이전트로 Telegraf를 지원하며 Windows 또는 Linux에서 구성할 수 있습니다. 
 ---
-= 데이터 수집을 위한 에이전트 구성(Windows/Linux/Mac)
+= 데이터 수집을 위한 에이전트 구성(Windows/Linux)
 :allow-uri-read: 
 
 
@@ -28,8 +28,6 @@ NOTE: Agent를 설치하기 전에 설치 파일을 확인하려면 의 아래 �
 * <<Windows>>
 * <<RHEL 및 CentOS>>
 * <<Ubuntu 및 Debian>>
-* <<macOS>>
-* <<쿠버네티스>>
 
 
 사용 중인 플랫폼에 관계없이 에이전트를 설치하려면 먼저 다음을 수행해야 합니다.
@@ -37,9 +35,7 @@ NOTE: Agent를 설치하기 전에 설치 파일을 확인하려면 의 아래 �
 . 에이전트에 사용할 호스트에 로그인합니다.
 . Cloud Insights 사이트에 로그인하고 * 관리자 > 데이터 수집기 * 로 이동합니다.
 . Data Collector * 를 클릭하고 설치할 데이터 수집기를 선택합니다.
-
-
-. 호스트에 적합한 플랫폼 선택(Windows, Linux, macOS 등)
+. 호스트에 적합한 플랫폼 선택(Windows, Linux)
 . 각 플랫폼의 나머지 단계를 따릅니다.
 
 
@@ -345,145 +341,6 @@ systemctl stop telegraf (If your operating system is using systemd)
 
 
 
-=== macOS
-
-
-
-==== 전제 조건:
-
-* curl, sudo, openssl 및 shasum 명령을 사용할 수 있어야 합니다
-* 프록시 뒤에 있는 경우 * macOS * 용 프록시 지원 구성 섹션의 지침을 따라야 합니다.
-
-
-
-
-==== macOS에 대한 프록시 지원을 구성합니다
-
-
-NOTE: 환경에서 프록시를 사용하는 경우 를 설치하기 전에 이 섹션을 읽어 보십시오.
-
-
-NOTE: 아래 단계에서는 _http_proxy/https_proxy_environment 변수를 설정하는 데 필요한 작업을 간략히 설명합니다. 일부 프록시 환경에서는 _no_proxy 환경_변수를 설정해야 할 수도 있습니다.
-
-프록시 뒤에 상주하는 시스템의 경우, Telegraf 에이전트를 설치하기 전에 현재 사용자의 _https_proxy_and/or_http_proxy_environment 변수를 * 로 설정하려면 다음을 수행하십시오.
-
- export https_proxy=<proxy_server>:<proxy_port>
-* Telegraf 에이전트를 설치한 후 _/Applications/Telegraf.app/Contents/telegraf.plist_: 에서 적절한 _https_proxy_and/또는 _http_proxy_variable 를 추가하고 설정합니다
-
-....
-…
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-   <key>EnvironmentVariables</key>
-   <dict>
-          <key>https_proxy</key>
-          <string><proxy_server>:<proxy_port></string>
-   </dict>
-   <key>Program</key>
-   <string>/Applications/telegraf.app/Contents/MacOS/telegraf</string>
-   <key>Label</key>
-   <string>telegraf</string>
-   <key>ProgramArguments</key>
-   <array>
-     <string>/Applications/telegraf.app/Contents/MacOS/telegraf</string>
-     <string>--config</string>
-     <string>/usr/local/etc/telegraf.conf</string>
-     <string>--config-directory</string>
-     <string>/usr/local/etc/telegraf.d</string>
-   </array>
-   <key>RunAtLoad</key>
-   <true/>
-</dict>
-</plist>
-…
-....
-그런 다음 위의 변경 사항을 로드한 후 Telegraf를 다시 시작합니다.
-
-....
-sudo launchctl stop telegraf
-sudo launchctl unload -w /Library/LaunchDaemons/telegraf.plist
-sudo launchctl load -w /Library/LaunchDaemons/telegraf.plist
-sudo launchctl start telegraf
-....
-
-
-==== 에이전트 설치 중
-
-image:Agent_Requirements_Macos.png["macOS 에이전트 설치"]
-
-.macOS에서 에이전트를 설치하는 단계:
-. 상담원 액세스 키를 선택합니다.
-. 에이전트 설치 대화 상자에서 명령 블록을 복사합니다. 클립보드 아이콘을 클릭하여 명령을 빠르게 클립보드에 복사할 수 있습니다.
-. Bash 창을 엽니다
-. Bash 창에 명령을 붙여넣고 Enter 키를 누릅니다.
-. 명령은 적절한 에이전트 설치 프로그램을 다운로드하고 설치하고 기본 구성을 설정합니다. 완료되면 에이전트 서비스가 다시 시작됩니다. 명령에 고유한 키가 있으며 24시간 동안 유효합니다.
-. 이전에 HomeBrew를 사용하여 Telegraf 에이전트를 설치한 경우 설치 제거하라는 메시지가 표시됩니다. 이전에 설치된 Telegraf 에이전트를 제거한 후 위의 5단계에서 명령을 다시 실행합니다.
-. 마침 * 또는 * 계속 * 을 클릭합니다
-
-
-에이전트를 설치한 후 다음 명령을 사용하여 서비스를 시작/중지할 수 있습니다.
-
-....
-sudo launchctl start telegraf
-sudo launchctl stop telegraf
-....
-
-
-==== Agent를 제거합니다
-
-macOS에서 에이전트를 제거하려면 Bash 터미널에서 다음을 실행합니다.
-
-. Telegraf 서비스 중지:
-+
- sudo launchctl stop telegraf
-. Telegraf 에이전트를 제거합니다.
-+
-....
-sudo cp /Applications/telegraf.app/scripts/uninstall /tmp
-sudo /tmp/uninstall
-....
-. 뒤에 남아 있을 수 있는 구성 또는 로그 파일을 제거합니다.
-+
-....
-sudo rm -rf /usr/local/etc/telegraf*
-sudo rm -rf /usr/local/var/log/telegraf.*
-....
-
-
-
-
-==== Agent 업그레이드 중
-
-Telegraf 에이전트를 업그레이드하려면 다음을 수행합니다.
-
-. Telegraf 서비스 중지:
-+
- sudo launchctl stop telegraf
-. 이전 Telegraf 에이전트를 제거합니다.
-+
-....
-sudo cp /Applications/telegraf.app/scripts/uninstall /tmp
-sudo /tmp/uninstall
-....
-. link:#macos["새 에이전트를 설치합니다"].
-
-
-{Empty} {Empty} {Empty} {Empty} {Empty} {Empty}
-
-
-
-== 쿠버네티스
-
-NetApp Kubernetes Monitoring Operator(NKMO)는 Cloud Insights Insights를 위한 Kubernetes를 설치하는 데 권장되는 방법입니다. 더 적은 단계로 보다 유연하게 모니터링을 구성할 수 있을 뿐 아니라 K8s 클러스터에서 실행되는 다른 소프트웨어를 모니터링할 수 있는 기회도 더 많아집니다.
-
-제발 link:task_config_telegraf_agent_k8s.html["* 여기로 이동 *"] NetApp Kubernetes Monitoring Operator에 대한 정보 및 설치 지침을 보려면
-
-{Empty} {Empty} {Empty} {Empty} {Empty} {Empty}
-
-
-
 == 체크섬을 확인하는 중입니다
 
 Cloud Insights 에이전트 설치 프로그램은 무결성 검사를 수행하지만 일부 사용자는 다운로드한 아티팩트를 설치하거나 적용하기 전에 자체 검증을 수행하려고 할 수 있습니다. 이 작업은 설치 프로그램을 다운로드하고 다운로드한 패키지에 대한 체크섬을 생성한 다음 설치 지침에 표시된 값과 체크섬을 비교하여 수행할 수 있습니다.
@@ -498,7 +355,7 @@ Cloud Insights 에이전트 설치 프로그램은 무결성 검사를 수행하
 
 . 지시에 따라 Agent Installer 스니펫을 복사합니다.
 . 코드 조각을 명령 창에 붙여 넣는 대신 텍스트 편집기에 붙여 넣습니다.
-. 명령에서 뒤에 오는 "--install"(Linux/Mac) 또는 "-install"(Windows)을 제거합니다.
+. 명령에서 뒤에 오는 "--install"(Linux) 또는 "-install"(Windows)을 제거합니다.
 . 텍스트 편집기에서 전체 명령을 복사합니다.
 . 이제 명령 창(작업 디렉토리)에 붙여넣고 실행합니다.
 
@@ -556,9 +413,6 @@ PEM 파일의 지문이 다음과 같은 것인지 확인하여 PEM 파일을 �
 * RHEL/Ubuntu:
 +
  sha256sum <package_name>
-* macOS:
-+
- shasum -a 256 telegraf.pkg
 * 창:
 +
  Get-FileHash telegraf.zip -Algorithm SHA256 | Format-List
