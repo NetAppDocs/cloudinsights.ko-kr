@@ -16,7 +16,7 @@ NOTE: Kubernetes Network의 성능 및 맵은 입니다 link:concept_preview_fea
 
 주요 기능: • 워크로드 맵은 Kubernetes 워크로드 종속성 및 흐름을 제공하고 네트워크 및 성능 문제를 강조합니다. • Kubernetes Pod, 워크로드 및 노드 간의 네트워크 트래픽을 모니터링하고, 트래픽 및 지연 문제의 원인을 식별합니다. • 수신, 송신, 지역 간 및 교차 영역 네트워크 트래픽을 분석하여 전체 비용을 절감합니다.
 
-image:Workload Map Example_withSlideout.png["\"Slideout\" 패널이 세부 정보와 함께 표시되는 워크로드 맵 예"]
+image:workload-map-animated.gif["워크로드 맵 예"]
 
 
 

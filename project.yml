@@ -83,12 +83,16 @@ sidebar:
         url: "/task_dashboard_example_VM_performance.html"
     - title: 대시보드 모범 사례
       url: "/concept_dashboard_best_practices.html"
-  - title: Kubernetes 탐색기
+  - title: 쿠버네티스
     entries:
     - title: Kubernetes 개요 페이지
       url: "/kubernetes_landing_page.html"
+    - title: 모니터링 오퍼레이터 시작하기
+      url: "/task_config_telegraf_agent_k8s.html"
     - title: Kubernetes 클러스터 페이지
       url: "/kubernetes_cluster_detail.html"
+    - title: Kubernetes 모니터링 및 맵
+      url: "/concept_kubernetes_performance_monitoring_and_map.html"
   - title: 인사이트
     entries:
     - title: 개요
