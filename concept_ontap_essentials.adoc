@@ -40,7 +40,8 @@ image:OE_Overview.png["ONTAP Essentials에 대한 개요 대시보드"]
 
 SnapMirror 관계를 보려면 * 데이터 보호 * 페이지를 선택하십시오. 원본 또는 대상 볼륨 정보를 클릭하거나 기어 아이콘을 클릭하여 보려는 데이터에 대한 열을 추가합니다.
 
-image:OE_DataProtection.png["SnapMirror 관계 목록 페이지"]
+image:DataProtectionDashboard_OverviewWidgets.png["로컬 및 원격 개요를 보여 주는 데이터 보호 대시보드 위젯"]
+image:DataProtectionDashboard_ClusterList.png["데이터 보호 클러스터 목록"]
 
 
 
