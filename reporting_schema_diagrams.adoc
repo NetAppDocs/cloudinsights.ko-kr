@@ -22,51 +22,33 @@ NOTE: 보고 기능은 Cloud Insights에서 사용할 수 있습니다 link:conc
 
 
 
-=== 주석
+=== 스토리지
 
-image:annotations.png[""]
-
-
-
-=== 응용 프로그램
-
-image:apps_annot.png[""]
+image:storage.png[""]
 
 
 
-=== Kubernetes 메트릭
+=== 스토리지 노드
 
-image:k8s_schema.jpg["쿠버네티스"]
-
-
-
-==== Kubernetes 클러스터 메트릭 정보
-
-image:k8s_cluster_metrics_fact.jpg["Kubernetes 클러스터 메트릭 정보"]
+image:storage_node.png[""]
 
 
 
-==== Kubernetes 네임스페이스 메트릭 팩트
+=== SAN 패브릭
 
-image:k8s_namespace_metrics_fact.jpg["Kubernetes 네임스페이스 메트릭 팩트"]
-
-
-
-==== Kubernetes 노드 메트릭 팩트
-
-image:k8s_node_metrics_fact.jpg["Kubernetes 노드 메트릭 팩트"]
+image:fabric.png[""]
 
 
 
-==== Kubernetes PVC 메트릭 정보
+=== 포트 연결
 
-image:k8s_pvc_metrics_fact.jpg["Kubernetes PVC 메트릭 정보"]
+image:connectivity.png[""]
 
 
 
-==== Kubernetes 워크로드 메트릭 팩트
+=== VM
 
-image:k8s_workload_metrics_fact.jpg["Kubernetes 워크로드 메트릭 팩트"]
+image:vm.png[""]
 
 
 
@@ -82,76 +64,39 @@ image:logical.png[""]
 
 
 
-=== 포트 연결
+=== 주석
 
-image:connectivity.png[""]
-
-
-
-=== SAN 패브릭
-
-image:fabric.png[""]
+image:annotations.png[""]
 
 
 
-=== 스토리지
+=== 응용 프로그램
 
-image:storage.png[""]
-
-
-
-=== 스토리지 노드
-
-image:storage_node.png[""]
+image:apps_annot.png[""]
 
 
 
-=== VM
+=== 스토리지 및 스토리지 풀 용량
 
-image:vm.png[""]
-
-'''
-
-
-== 용량 데이터 마트
-
-다음 이미지는 용량 데이터 마트에 대해 설명합니다.
+image:Storage_and_Storage_Pool_Capacity_Fact.png[""]
 
 
 
-=== 비용 청구
+=== 볼륨 용량
 
-image:Chargeback_Fact.png[""]
-
-
-
-=== 디스크 그룹 용량
-
-image:Disk_Group_Capacity.png[""]
+image:Volume_Capacity.png[""]
 
 
 
-=== 파일 시스템 활용률
+=== VM 용량
 
-image:fs_util.png[""]
+image:VM_Capacity_Fact.png[""]
 
 
 
 === 내부 볼륨 용량
 
 image:Internal_Volume_Capacity_Fact.png[""]
-
-
-
-=== Kubernetes PV 용량
-
-image:k8s_pvc_capacity_fact.jpg[""]
-
-
-
-=== 포트 용량
-
-image:ports.png[""]
 
 
 
@@ -173,23 +118,28 @@ image:Storage_and_Storage_Pool_Capacity_Fact.png[""]
 
 
 
-=== 스토리지 노드 용량
+=== 파일 시스템 활용률
 
-image:Storage_Node_Capacity_Fact.jpg[""]
-
-
-
-=== VM 용량
-
-image:VM_Capacity_Fact.png[""]
+image:fs_util.png[""]
 
 
 
-=== 볼륨 용량
+=== 포트 용량
 
-image:Volume_Capacity.png[""]
+image:ports.png[""]
 
-'''
+
+
+=== 비용 청구
+
+image:Chargeback_Fact.png[""]
+
+
+
+=== 디스크 그룹 용량
+
+image:Disk_Group_Capacity.png[""]
+
 
 
 == 성능 데이터 센터
@@ -200,55 +150,43 @@ image:Volume_Capacity.png[""]
 
 === 애플리케이션 볼륨의 시간별 성능
 
-image:application_performance_fact.jpg[""]
-
-
-
-=== 디스크 일일 성능
-
-image:disk_daily_performance_fact.png[""]
-
-
-
-=== 디스크 시간별 성능
-
-image:disk_hourly_performance_fact.png[""]
-
-
-
-=== 호스트 시간별 성능
-
-image:host_performance_fact.jpg[""]
+b68ed2de708ea9b3b40e76b37e99573b
 
 
 
 === 내부 볼륨 시간별 성능
 
-image:internal_volume_performance_fact.jpg[""]
+49849b07ecf6904a481a051c4c6e59bf
+
+
+
+=== 내부 볼륨 시간별 성능
+
+566adfd62d1d59e5aa02e13ceb0d2212
 
 
 
 === 내부 볼륨 일일 성능
 
-image:internal_volume_daily_performance_fact.jpg[""]
+8665cb5eac9e402f835407ee789aba61
+
+
+
+=== 볼륨 시간별 성능
+
+image:vmdk_hourly_performance_fact.png[""]
+
+
+
+=== 볼륨 일일 성능
+
+d14385553d6e0a6f14394bc02a502a42
 
 
 
 === Qtree 일별 성능
 
 image:QtreeDailyPerformanceFact.png[""]
-
-
-
-=== 스토리지 노드 일별 성능
-
-image:storage_node_daily_performance_fact.jpg[""]
-
-
-
-=== 스토리지 노드 시간별 성능 향상
-
-image:storage_node_hourly_performance_fact.jpg[""]
 
 
 
@@ -318,12 +256,24 @@ image:vmdk_hourly_performance_fact.png[""]
 
 
 
-=== 볼륨 시간별 성능
+=== 스토리지 노드 시간별 성능 향상
 
-image:volume_performance_fact.jpg[""]
+a6040f821773a9032da45c788b24e202
 
 
 
-=== 볼륨 일일 성능
+=== 디스크 일일 성능
 
-image:volume_daily_performance_fact.jpg[""]
+image:disk_daily_performance_fact.png[""]
+
+
+
+=== 디스크 시간별 성능
+
+image:disk_hourly_performance_fact.png[""]
+
+
+
+== 쿠버네티스
+
+image:k8s_schema.jpg["쿠버네티스"]

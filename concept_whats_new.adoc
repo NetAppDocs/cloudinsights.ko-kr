@@ -29,48 +29,10 @@ NOTE: 이러한 기능 중 일부는 Cloud Insights Federal Edition에서 사용
 
 
 
-=== Kubernetes 모니터링 오퍼레이터 설치가 개선되었습니다
+=== 675daaee26cb7a668008d96ba0afd8e2
 
-의 설치 및 구성 link:task_config_telegraf_agent_k8s.html["NetApp Kubernetes 모니터링 운영자"] 다음과 같은 향상된 기능으로 그 어느 때보다 쉬워졌습니다.
+394791778bc8c7c505ff97a4408cada8
 
-* 방법입니다 link:telegraf_agent_k8s_config_options.html["구성 설정"] 자체 문서화된 단일 구성 파일로 저장됩니다.
-* Kubernetes Monitoring Operator 이미지를 개인 저장소에 업로드하기 위한 단계별 지침입니다.
-* 사용자 지정 구성을 유지하면서 Kubernetes Monitoring을 업그레이드하는 단일 명령으로 간단하게 업그레이드할 수 있습니다.
-* 보안 향상: API 키가 비밀을 안전하게 관리하고 있습니다.
-* CI/CD 자동화 툴을 손쉽게 통합 및 구축할 수 있습니다.
-
-
-
-
-=== 스토리지 가상화
-
-Cloud Insights는 로컬 스토리지가 있는 스토리지 어레이와 다른 스토리지 어레이의 가상화를 구분할 수 있습니다. 이를 통해 비용을 관련시키고 프런트 엔드와 성능을 인프라 백 엔드와 구별할 수 있습니다.
-
-image:StorageVirtualization_StorageSummary.png["가상 스토리지 및 백업 스토리지 정보를 보여 주는 스토리지 랜딩 페이지"]
-
-
-
-=== 새 Webhook 매개 변수
-
-을 생성할 때 link:task_create_webhook.html["웹훅"] 이제 Webhook 정의에 다음 매개 변수를 포함할 수 있습니다.
-
-* %%TriggeredOnKeys%%
-* %%TriggeredOnValues%%입니다
-
-
-
-
-=== Kubernetes PV 데이터 보고
-
-Cloud Insights에서 수집한 Kubernetes 영구 볼륨(PV) 정보를 이제 보고에서 사용할 수 있으므로 비용청구, 추세, 예측, TTF 계산, 기타 Kubernetes 클러스터, 네임스페이스, 워크로드 등에 대한 메트릭의 비즈니스 보고 기능을 제공합니다.
-
-
-
-=== 새 고객에 대해 활성화된 기본 ONTAP 시스템 모니터
-
-새로운 Cloud Insights 환경에서는 많은 ONTAP 시스템 모니터가 기본적으로 활성화(즉, _재개_)됩니다. 이전 버전에서는 대부분의 모니터가 _ 일시 중지됨 _ 상태로 기본 설정되어 있습니다. 회사마다 비즈니스 요구 사항이 다르기 때문에 항상 을 살펴보는 것이 좋습니다 link:task_system_monitors.html["시스템 모니터"] 사용자 환경에서 경고 요구에 따라 각 항목을 일시 중지하거나 다시 시작합니다.
-
-'''
 
 
 == 2023년 4월
@@ -79,7 +41,7 @@ Cloud Insights에서 수집한 Kubernetes 영구 볼륨(PV) 정보를 이제 보
 
 === Kubernetes 성능 모니터링 및 맵
 
-를 클릭합니다 link:concept_kubernetes_network_monitoring_and_map.html["_Kubernetes 네트워크 성능 및 맵 _"] Kubernetes 워크로드 간의 종속성을 매핑하여 문제 해결을 간소화합니다. Kubernetes 네트워크 성능 지연 시간 및 이상 징후를 실시간으로 파악하여 사용자에게 영향을 미치기 전에 성능 문제를 식별할 수 있습니다. 이 기능은 조직이 Kubernetes 트래픽 흐름을 분석하고 감사하여 전체 비용을 절감할 수 있도록 도와줍니다.
+5d6a6764c313767cd859950497830f19
 
 주요 기능: • 워크로드 맵은 Kubernetes 워크로드 종속성 및 흐름을 제공하고 네트워크 및 성능 문제를 강조합니다. • Kubernetes Pod, 워크로드 및 노드 간의 네트워크 트래픽을 모니터링하고, 트래픽 및 지연 문제의 원인을 식별합니다. • 수신, 송신, 지역 간 및 교차 영역 네트워크 트래픽을 분석하여 전체 비용을 절감합니다.
 
