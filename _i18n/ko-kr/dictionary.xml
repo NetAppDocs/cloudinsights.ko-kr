@@ -11102,22 +11102,6 @@
   <block id="64c33d04c497ade8947e8eadc210caf4" category="paragraph">Cloud Insights에서 수집한 Kubernetes 영구 볼륨(PV) 정보를 이제 보고에서 사용할 수 있으므로 비용청구, 추세, 예측, TTF 계산, 기타 Kubernetes 클러스터, 네임스페이스, 워크로드 등에 대한 메트릭의 비즈니스 보고 기능을 제공합니다.</block>
   <block id="98f382d1962b023b2f9625686af82de9" category="section-title">새 고객에 대해 활성화된 기본 ONTAP 시스템 모니터</block>
   <block id="31330c4ff7fe349e530327f3c9b8295a" category="paragraph">새로운 Cloud Insights 환경에서는 많은 ONTAP 시스템 모니터가 기본적으로 활성화(즉, _재개_)됩니다. 이전 버전에서는 대부분의 모니터가 _ 일시 중지됨 _ 상태로 기본 설정되어 있습니다. 회사마다 비즈니스 요구 사항이 다르기 때문에 항상 을 살펴보는 것이 좋습니다 <block ref="6e23d996007e5a9ae1533f26f739ed3d" category="inline-link-macro-rx"></block> 사용자 환경에서 경고 요구에 따라 각 항목을 일시 중지하거나 다시 시작합니다.</block>
-  <block id="4626ec11333b1630cfeee22687c063f2" category="paragraph">를 클릭합니다 <block ref="bfbd4b14aa5d5e760ae10e06c192ceef" category="inline-link-macro-rx"></block> Kubernetes 워크로드 간의 종속성을 매핑하여 문제 해결을 간소화합니다. Kubernetes 네트워크 성능 지연 시간 및 이상 징후를 실시간으로 파악하여 사용자에게 영향을 미치기 전에 성능 문제를 식별할 수 있습니다. 이 기능은 조직이 Kubernetes 트래픽 흐름을 분석하고 감사하여 전체 비용을 절감할 수 있도록 도와줍니다.</block>
-  <block id="4b051b13595634958e002ebbf8d92506" category="summary">Cloud Insights는 프런트엔드 및 백엔드 가상화 스토리지에 대한 뷰를 제공할 수 있습니다.</block>
-  <block id="f489c820bd49075e9fac81860fe93688" category="section-title">Table Widget의 가상화</block>
-  <block id="b54537489c4ac4c2d2a2fc686c6b85a7" category="paragraph">스토리지 가상화를 확인하는 가장 쉬운 방법 중 하나는 가상화된 유형을 보여주는 대시보드 표 위젯을 생성하는 것입니다. 위젯에 대한 쿼리를 작성할 때 "virtualizedType"을 그룹화 또는 필터에 추가하기만 하면 됩니다.</block>
-  <block id="faffd9673a91f79b7697893831a280c9" category="inline-image-macro">스토리지 가상화 유형을 표시하는 기본 쿼리입니다</block>
-  <block id="fd9a8824e3f247a75b5869b6cdc4f926" category="paragraph"><block ref="fd9a8824e3f247a75b5869b6cdc4f926" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1e4c896e1dca588b00da9556c4dcf4b6" category="paragraph">결과 테이블 위젯은 사용자 환경의 _Standard_, _Backend_ 및 _Virtual_storages를 보여 줍니다.</block>
-  <block id="5850ea600e38d6358cb902425e89a83b" category="inline-image-macro">가상화된 유형을 보여주는 표</block>
-  <block id="ae2aba5ebd1778b2721cbaa556c1254f" category="paragraph"><block ref="ae2aba5ebd1778b2721cbaa556c1254f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ec66a493587eeadf86c85660036b0556" category="section-title">랜딩 페이지에는 가상화된 정보가 표시됩니다</block>
-  <block id="32c3437b5141aa71adae8b70b3e0ba56" category="paragraph">스토리지, 볼륨, 내부 볼륨 또는 디스크 랜딩 페이지에서는 관련 가상화 정보를 볼 수 있습니다. 예를 들어 아래 스토리지 랜딩 페이지에서 이 스토리지가 가상 스토리지이며 적용되는 백엔드 스토리지 시스템임을 확인할 수 있습니다. 랜딩 페이지의 관련 테이블에도 해당하는 가상화 정보가 표시됩니다.</block>
-  <block id="53b6e64625bada99ba54be923fda44fa" category="section-title">기존 랜딩 페이지 및 대시보드</block>
-  <block id="a00a374ac04c1276bcdf9526692575de" category="paragraph">현재 환경에 사용자 지정된 랜딩 페이지 또는 대시보드가 있는 경우 기본적으로 모든 가상화 정보가 자동으로 표시되지 않습니다. 그러나 사용자 지정 대시보드 또는 랜딩 페이지(사용자 지정 내용을 다시 구현해야 함)를 _ Default_Any로 되돌리거나 원하는 가상화 특성 또는 메트릭을 포함하도록 관련 위젯을 수정할 수 있습니다.</block>
-  <block id="3242b3c34922ab4d5cbff714ffb3f35b" category="paragraph">_기본값으로 되돌리기_는 사용자 지정 대시보드 또는 랜딩 페이지 화면의 오른쪽 상단에서 사용할 수 있습니다.</block>
-  <block id="22d3924d22161b1ae53430a86affea68" category="inline-image-macro">기본값으로 되돌리기 버튼</block>
-  <block id="bf5be9dc856a4d42607ac85b1e6ff046" category="paragraph"><block ref="bf5be9dc856a4d42607ac85b1e6ff046" category="inline-image-macro-rx" type="image"></block></block>
   <block id="07771c0af5efde2b4fbae3151b85a7ae" category="paragraph">Microsoft Hyper-V 데이터 수집기는 가상화된 서버 컴퓨팅 환경에서 인벤토리 및 성능 데이터를 가져옵니다. 이 데이터 수집기는 독립 실행형 Hyper-V 호스트를 검색할 수도 있고, 전체 클러스터를 검색할 수도 있습니다. 독립 실행형 호스트 또는 클러스터당 하나의 Collector를 생성할 수도 있습니다.</block>
   <block id="8c7e59a5cdb49e2a8cab80c42a4342af" category="list-text">클러스터 또는 독립 실행형 하이퍼바이저의 IP 주소 또는 FQDN입니다. 부동 클러스터 호스트 이름 또는 IP를 사용하는 것이 가장 신뢰할 수 있는 방법일 수 있습니다. 이는 수집기가 클러스터의 특정 노드 중 하나만 가리키는 것과 비교할 수 있습니다.</block>
   <block id="5a8e7ab77aee94008b9126631260c5f7" category="list-text">클러스터의 모든 하이퍼바이저에서 작동하는 관리 수준 사용자 계정입니다.</block>
