@@ -11077,13 +11077,6 @@
   <block id="98dc8e0a1ca4088c0cc75feb9c6a5560" category="list-text"><block ref="1fa08d04c08db5225793f360e12d623f" category="inline-xref-macro-rx"></block> 최신 운영자.</block>
   <block id="4c42e83b5a46ef16402aa2bea7ab525e" category="list-text">동일한 클러스터 이름을 사용합니다.</block>
   <block id="9e274d61eab1c1a3b088854ed50639ff" category="list-text">최신 운영자 YAML 파일을 다운로드한 후 배포하기 전에 agent_backup.YAML에서 발견된 모든 사용자 정의를 다운로드한 operator-config.YAML에 이식하십시오.</block>
-  <block id="bd8a3856de3da0db088a741e7cd81e16" category="section-title">ONTAP 알림 편집</block>
-  <block id="82ade85625dc6ecdc6fabebd2e345d19" category="paragraph">스토리지 랜딩 페이지의 오른쪽 위 드롭다운에서 _알림 편집_을 선택하여 ONTAP 클러스터에 대한 알림을 수정할 수 있습니다.</block>
-  <block id="8328b360704f8cf7f0beb073b0b83137" category="inline-image-macro">ONTAP 편집 알림</block>
-  <block id="4b7465a88d7e0bbf7cc001f3780775bb" category="paragraph"><block ref="4b7465a88d7e0bbf7cc001f3780775bb" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c77ddc9f57c017ba637124d4722446a7" category="paragraph">여기에서 위험, 경고, 정보 및/또는 해결된 경고에 대한 알림을 설정할 수 있습니다. 각 시나리오는 선택한 글로벌 수신자 목록 또는 다른 수신자에게 알릴 수 있습니다.</block>
-  <block id="80501d323e4be5227482cd3a9ab61d4f" category="inline-image-macro">다양한 시나리오에 대한 ONTAP 알림</block>
-  <block id="a2792f9c8cd4eac5285b213778bf54bd" category="paragraph"><block ref="a2792f9c8cd4eac5285b213778bf54bd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a33c53884818c3fc88ab0531e515addb" category="section-title">Kubernetes 모니터링 오퍼레이터 설치가 개선되었습니다</block>
   <block id="3e1d445ca1169cb6a1128270df9b6d0f" category="paragraph">의 설치 및 구성 <block ref="f0d3e43e41da35ba651820db811551cd" category="inline-link-macro-rx"></block> 다음과 같은 향상된 기능으로 그 어느 때보다 쉬워졌습니다.</block>
   <block id="581978383d3baa213002e5bc8a0db701" category="inline-link-macro">구성 설정</block>
@@ -11106,7 +11099,6 @@
   <block id="98f382d1962b023b2f9625686af82de9" category="section-title">새 고객에 대해 활성화된 기본 ONTAP 시스템 모니터</block>
   <block id="31330c4ff7fe349e530327f3c9b8295a" category="paragraph">새로운 Cloud Insights 환경에서는 많은 ONTAP 시스템 모니터가 기본적으로 활성화(즉, _재개_)됩니다. 이전 버전에서는 대부분의 모니터가 _ 일시 중지됨 _ 상태로 기본 설정되어 있습니다. 회사마다 비즈니스 요구 사항이 다르기 때문에 항상 을 살펴보는 것이 좋습니다 <block ref="6e23d996007e5a9ae1533f26f739ed3d" category="inline-link-macro-rx"></block> 사용자 환경에서 경고 요구에 따라 각 항목을 일시 중지하거나 다시 시작합니다.</block>
   <block id="4626ec11333b1630cfeee22687c063f2" category="paragraph">를 클릭합니다 <block ref="bfbd4b14aa5d5e760ae10e06c192ceef" category="inline-link-macro-rx"></block> Kubernetes 워크로드 간의 종속성을 매핑하여 문제 해결을 간소화합니다. Kubernetes 네트워크 성능 지연 시간 및 이상 징후를 실시간으로 파악하여 사용자에게 영향을 미치기 전에 성능 문제를 식별할 수 있습니다. 이 기능은 조직이 Kubernetes 트래픽 흐름을 분석하고 감사하여 전체 비용을 절감할 수 있도록 도와줍니다.</block>
-  <block id="17cf4a6ff78f85ddfaf7692d70368ade" category="cell">라이센스 버전 중 하나를 실행하는 컴퓨터: * CentOS(64비트): 7.2 ~ 7.9, Stream 8, Stream 9 * Debian(64비트): 9 및 10 * Oracle Enterprise Linux(64비트): 7.5 ~ 7.9, 8.1 ~ 8.4 * Red Hat Enterprise Linux(64비트): 7.2 ~ 7.9, 8.1 ~ 9.1 * Rocky 9.0, 9.1 * Ubuntu Server: 18.04 및 20.04 LTS 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
   <block id="4b051b13595634958e002ebbf8d92506" category="summary">Cloud Insights는 프런트엔드 및 백엔드 가상화 스토리지에 대한 뷰를 제공할 수 있습니다.</block>
   <block id="f489c820bd49075e9fac81860fe93688" category="section-title">Table Widget의 가상화</block>
   <block id="b54537489c4ac4c2d2a2fc686c6b85a7" category="paragraph">스토리지 가상화를 확인하는 가장 쉬운 방법 중 하나는 가상화된 유형을 보여주는 대시보드 표 위젯을 생성하는 것입니다. 위젯에 대한 쿼리를 작성할 때 "virtualizedType"을 그룹화 또는 필터에 추가하기만 하면 됩니다.</block>
