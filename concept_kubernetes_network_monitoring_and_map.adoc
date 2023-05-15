@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: concept_kubernetes_performance_monitoring_and_map.html 
+permalink: concept_kubernetes_network_monitoring_and_map.html 
 keywords: service map, workloads, Kubernetes, 
 summary: Kubernetes 워크로드 종속성 및 흐름을 소개하고 네트워크 및 성능 문제를 강조합니다 
 ---
