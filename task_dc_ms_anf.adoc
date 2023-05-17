@@ -27,7 +27,7 @@ Cloud Insights는 Azure NetApp Files 데이터 수집기를 사용하여 인벤�
 
 
 
-https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal[]
+https://[]
 
 
 

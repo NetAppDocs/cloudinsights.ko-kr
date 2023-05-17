@@ -18,7 +18,7 @@ NOTE: 이 페이지는 변경될 수 있는 타사 지침을 참조합니다. �
 
 == 슬랙 예:
 
-* 로 이동합니다 https://api.slack.com/apps[] 을 클릭하고 새 앱을 만듭니다 의미 있는 이름을 지정하고 Slack Workspace를 선택합니다.
+* 로 이동합니다 https://[] 을 클릭하고 새 앱을 만듭니다 의미 있는 이름을 지정하고 Slack Workspace를 선택합니다.
 +
 image:Webhooks_Slack_Create_Webhook.png["Slack Webhook 을 만듭니다"]
 
@@ -59,6 +59,6 @@ image:Webhooks_Slack_Notifications.png["Webhook 알림"]
 
 ==== 추가 정보:
 
-* 메시지 형식 및 레이아웃을 수정하려면 을 참조하십시오 https://api.slack.com/messaging/composing[]
-* 오류 처리: https://api.slack.com/messaging/webhooks#handling_errors[]
+* 메시지 형식 및 레이아웃을 수정하려면 을 참조하십시오 https://[]
+* 오류 처리: https://[]
 

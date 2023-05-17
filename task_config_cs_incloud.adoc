@@ -15,9 +15,9 @@ summary: 워크로드 보안은 데이터 수집기를 사용하여 디바이스
 
 == Cloud Volumes ONTAP 스토리지 구성
 
-워크로드 보안 에이전트를 호스팅하도록 단일 노드/HA AWS 인스턴스를 구성하려면 OnCommand Cloud Volumes ONTAP 설명서를 참조하십시오.https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/index.html[]
+워크로드 보안 에이전트를 호스팅하도록 단일 노드/HA AWS 인스턴스를 구성하려면 OnCommand Cloud Volumes ONTAP 설명서를 참조하십시오.https://[]
 
-구성이 완료되면 단계에 따라 SVM을 설정합니다.https://docs.netapp.com/us-en/cloudinsights/task_add_collector_svm.html[]
+구성이 완료되면 단계에 따라 SVM을 설정합니다.https://[]
 
 
 
@@ -41,7 +41,7 @@ AWS에서 다음 단계를 수행하여 워크로드 보안 에이전트로 사�
 
 .단계
 . AWS 콘솔에 로그인하고 EC2-Instances 페이지로 이동한 후 _Launch instance_를 선택합니다.
-. 이 페이지에서 언급한 대로 적절한 버전의 RHEL 또는 CentOS AMI를 선택합니다.https://docs.netapp.com/us-en/cloudinsights/concept_cs_agent_requirements.html[]
+. 이 페이지에서 언급한 대로 적절한 버전의 RHEL 또는 CentOS AMI를 선택합니다.https://[]
 . Cloud ONTAP 인스턴스가 상주하는 VPC 및 서브넷을 선택합니다.
 . 할당된 리소스로 _T2.xLarge_(vCPU 4개 및 16GB RAM)를 선택합니다.
 +

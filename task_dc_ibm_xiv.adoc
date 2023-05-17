@@ -53,7 +53,7 @@ IBM XIV 및 A9000(CLI) 데이터 수집기는 XIV 명령줄 인터페이스를 �
 * CIMServer에 대한 사용자 로그인이 제공되어야 합니다. 스토리지 구성 및 속성에 대한 전체 읽기 액세스 권한이 있어야 합니다.
 * SMI-S 네임스페이스. 기본값은 root/ibm입니다. CIMServer에서 구성할 수 있습니다.
 * 포트 요구 사항: HTTP의 경우 5988, HTTPS의 경우 5989.
-* SMI-S 성능 수집에 대한 계정을 생성하는 방법은 다음 링크를 참조하십시오. http://publib.boulder.ibm.com/infocenter/tivihelp/v4r1/index.jsp?topic=%2Fcom.ibm.tpc_V41.doc%2Ffqz0_t_adding_cim_agent.html[]
+* SMI-S 성능 수집에 대한 계정을 생성하는 방법은 다음 링크를 참조하십시오. http://[]
 
 
 

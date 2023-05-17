@@ -114,10 +114,10 @@ naviseccli.exe -h <IP address> -user <user> -password <password> -scope <scope, 
 | 오류: • 에이전트가 실행되지 않음 • naviseccli를 찾지 못함 • 명령을 실행하지 못했습니다 | • Navisphere CLI가 Cloud Insight 획득 장치에 설치되어 있는지 확인 • 데이터 수집기 구성 마법사에서 "보안 클라이언트 사용" 옵션을 선택하지 않았거나 비보안 버전의 Naviphere CLI가 설치되어 있지 않습니다. • 데이터 수집기 구성에서 Navisphere CLI 설치 디렉토리가 올바른지 확인합니다. • 데이터 수집기 구성에서 VNX 블록 스토리지의 IP가 올바른지 확인합니다. • Cloud Insights 획득 장치에서: - CMD를 엽니다. - 디렉토리를 구성된 설치 디렉토리로 변경합니다. - "navicli -h {IP} getagent"를 입력하여 VNX 블록 스토리지 디바이스에 대한 접속을 시도합니다({IP}를 실제 IP로 대체). 
 
 
-| 오류: 4.29 emc235848 emc241018 getall에서 호스트 별칭 정보를 구문 분석하지 못했습니다 | 이는 스토리지 자체에 있는 호스트 이니시에이터 데이터베이스의 FLARE 29 손상 문제로 인해 발생할 수 있습니다. EMC 기술 자료 문서 emc235848, emc241018을 참조하십시오. 또한 확인할 수도 있습니다 https://now.netapp.com/Knowledgebase/solutionarea.asp?id=kb58128[] 
+| 오류: 4.29 emc235848 emc241018 getall에서 호스트 별칭 정보를 구문 분석하지 못했습니다 | 이는 스토리지 자체에 있는 호스트 이니시에이터 데이터베이스의 FLARE 29 손상 문제로 인해 발생할 수 있습니다. EMC 기술 자료 문서 emc235848, emc241018을 참조하십시오. 또한 확인할 수도 있습니다 https://[] 
 
 
-| 오류: 메타 LUN을 검색할 수 없습니다. Java-jar navicli.jar 실행 중 오류가 발생했습니다 | • 보안 클라이언트를 사용하도록 데이터 수집기 구성을 수정합니다(권장). • navicli.jar 또는 naviseccli.exe CLI 경로에 NaviCLI.exe 설치 • 참고: navicli.jar 은 EMC Navisphere 버전 6.26부터 사용되지 않습니다. • navicli.jar 에서 사용할 수 있습니다 http://powerlink.emc.com[] 
+| 오류: 메타 LUN을 검색할 수 없습니다. Java-jar navicli.jar 실행 중 오류가 발생했습니다 | • 보안 클라이언트를 사용하도록 데이터 수집기 구성을 수정합니다(권장). • navicli.jar 또는 naviseccli.exe CLI 경로에 NaviCLI.exe 설치 • 참고: navicli.jar 은 EMC Navisphere 버전 6.26부터 사용되지 않습니다. • navicli.jar 에서 사용할 수 있습니다 http://[] 
 
 
 | 오류: 구성된 IP 주소의 서비스 프로세서에서 스토리지 풀이 디스크를 보고하지 않습니다 | 두 서비스 프로세서 IP를 쉼표로 구분하여 데이터 수집기를 구성합니다 

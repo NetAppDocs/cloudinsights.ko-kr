@@ -1,18 +1,28 @@
 ---
 sidebar: sidebar 
-permalink: concept_kubernetes_performance_monitoring_and_map.html 
+permalink: concept_kubernetes_network_monitoring_and_map.html 
 keywords: service map, workloads, Kubernetes, 
 summary: Kubernetes 워크로드 종속성 및 흐름을 소개하고 네트워크 및 성능 문제를 강조합니다 
 ---
-= Kubernetes 성능 모니터링 및 맵
+= Kubernetes 네트워크 성능 모니터링 및 맵
+:toc: macro
+:hardbreaks:
+:toclevels: 1
 :allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
 
 
 [role="lead"]
-Kubernetes Network Performance 및 Map 기능은 Kubernetes 워크로드 간의 종속성을 매핑하여 문제 해결을 간소화합니다. Kubernetes 네트워크 성능 지연 시간 및 이상 징후를 실시간으로 파악하여 사용자에게 영향을 미치기 전에 성능 문제를 식별할 수 있습니다. 이 기능은 조직이 Kubernetes 트래픽 흐름을 분석하고 감사하여 전체 비용을 절감할 수 있도록 도와줍니다.
+Kubernetes Network Performance Monitoring 및 Map 기능은 Kubernetes 워크로드 간의 종속성을 매핑하여 문제 해결을 간소화합니다. Kubernetes 네트워크 성능 지연 시간 및 이상 징후를 실시간으로 파악하여 사용자에게 영향을 미치기 전에 성능 문제를 식별할 수 있습니다. 이 기능은 조직이 Kubernetes 트래픽 흐름을 분석하고 감사하여 전체 비용을 절감할 수 있도록 도와줍니다.
 
 
-NOTE: Kubernetes Network의 성능 및 맵은 입니다 link:concept_preview_features.html["미리보기"] 변경될 수 있습니다.
+NOTE: Kubernetes Network Performance Monitoring and Map은 입니다 link:concept_preview_features.html["미리보기"] 변경될 수 있습니다.
 
 주요 기능: • 워크로드 맵은 Kubernetes 워크로드 종속성 및 흐름을 제공하고 네트워크 및 성능 문제를 강조합니다. • Kubernetes Pod, 워크로드 및 노드 간의 네트워크 트래픽을 모니터링하고, 트래픽 및 지연 문제의 원인을 식별합니다. • 수신, 송신, 지역 간 및 교차 영역 네트워크 트래픽을 분석하여 전체 비용을 절감합니다.
 
@@ -22,7 +32,7 @@ image:workload-map-animated.gif["워크로드 맵 예"]
 
 == 필수 구성 요소
 
-Kubernetes Network Performance 및 Map을 사용하려면 먼저 을 구성해야 합니다 link:task_config_telegraf_agent_k8s.html["NetApp Kubernetes 모니터링 운영자"] 를 눌러 이 옵션을 활성화합니다. 오퍼레이터 배포 중에 "네트워크 성능 및 맵" 확인란을 선택하여 활성화합니다. Kubernetes 랜딩 페이지로 이동하여 "배포 수정"을 선택하여 이 옵션을 활성화할 수도 있습니다.
+Kubernetes Network Performance Monitoring and Map을 사용하려면 먼저 을 구성해야 합니다 link:task_config_telegraf_agent_k8s.html["NetApp Kubernetes 모니터링 운영자"] 를 눌러 이 옵션을 활성화합니다. 오퍼레이터 배포 중에 "네트워크 성능 및 맵" 확인란을 선택하여 활성화합니다. Kubernetes 랜딩 페이지로 이동하여 "배포 수정"을 선택하여 이 옵션을 활성화할 수도 있습니다.
 
 image:ServiceMap_NKMO_Deployment_Options.png["NKMO Stup 중 지도 옵션을 선택합니다"]
 
@@ -77,7 +87,7 @@ image:Workload_Map_Filtering.png["워크로드 맵 필터링"]
 +
 ** POD의 워크로드 레이블에서 파생됩니다
 ** 작업 부하에 대한 예상 레이블: app.Kubernetes.io/component
-** 라벨 이름 참조: https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/[]
+** 라벨 이름 참조: https://[]
 ** 권장 라벨:
 +
 *** 프런트 엔드

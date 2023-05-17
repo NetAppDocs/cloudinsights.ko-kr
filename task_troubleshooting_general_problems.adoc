@@ -24,7 +24,7 @@ keywords: troubleshooting, problems, browser, login, log in, accessing, access t
 | Cloud Insights는 5분마다 로그아웃합니다 | 필요한 NetApp 및 auth0 쿠키에 대해 제3자가 수락하도록 설정합니다. 예: Chrome에서 브라우저 URL에 "chrome://settings/cookies"를 입력합니다. "모든 쿠키 허용" 옵션을 선택합니다. * 또는 * "타사 쿠키 차단"을 선택하고 [*.] auth0.com 및 [*.] netapp.com 에 대한 예외를 추가합니다. 참고: 예외를 만들 때 "이 사이트에 타사 쿠키 포함" 옵션을 선택해야 합니다. 
 
 
-| Cloud Central 계정이 있지만 Cloud Central에 로그인할 수 없습니다. | 에서 티켓을 엽니다 https://mysupport.netapp.com/site/help[]. “cloud.netapp.com > 계정/로그인 문제” 또는 “cloud.netapp.com > 페더레이션 문제”를 선택합니다. 특히, Cloud Central 문제 또는 질문을 위한 것입니다. 기타 모든 Cloud Insights 기술 지원 문제는 에 문의하십시오 link:concept_requesting_support.html["NetApp 지원"]. 
+| Cloud Central 계정이 있지만 Cloud Central에 로그인할 수 없습니다. | 에서 티켓을 엽니다 https://[]. “cloud.netapp.com > 계정/로그인 문제” 또는 “cloud.netapp.com > 페더레이션 문제”를 선택합니다. 특히, Cloud Central 문제 또는 질문을 위한 것입니다. 기타 모든 Cloud Insights 기술 지원 문제는 에 문의하십시오 link:concept_requesting_support.html["NetApp 지원"]. 
 
 
 | Cloud Insights에 초대를 받았는데 "승인되지 않음" 메시지가 나타납니다. | Cloud Central 계정에 등록했는지 또는 조직에서 Cloud Central에서 SSO 로그인을 사용하는지 확인합니다. Cloud Central 프로필 이메일 주소가 Cloud Insights 환영 이메일에 표시된 이메일 주소와 일치하는지 확인하십시오. 이메일이 일치하지 않으면 올바른 이메일 주소로 새 초대를 요청하십시오. 
@@ -46,4 +46,4 @@ keywords: troubleshooting, problems, browser, login, log in, accessing, access t
 link:https://www.netapp.com/us/contact-us/support.aspx["전화"]
 link:https://mysupport.netapp.com/site/cases/mine/create?serialNumber=95001014387268156333["지원 티켓"]
 
-자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/cloudinsights/concept_requesting_support.html["Cloud Insights 지원 문서"].
+자세한 내용은 를 참조하십시오 https://["Cloud Insights 지원 문서"].

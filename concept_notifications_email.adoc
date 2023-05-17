@@ -54,8 +54,19 @@ image:Notifications_email_list.png["이메일 알림"]
 
 글로벌 경고 수신자를 구성하려면 * Global Monitor Notification Recipients * 섹션에서 원하는 수신자를 선택합니다.
 
-[role="thumb"]
 모니터를 만들거나 수정할 때 항상 개별 모니터의 전체 수신자 목록을 재정의할 수 있습니다.
 
 
 NOTE: ONTAP 데이터 수집기 알림은 클러스터/데이터 수집기와 관련된 특정 모니터 알림보다 우선합니다. Data Collector 자체에 대해 설정한 받는 사람 목록에는 데이터 수집기 경고가 표시됩니다. 활성 데이터 수집기 경고가 없는 경우 모니터에서 생성된 알림이 특정 모니터 수신자에게 전송됩니다.
+
+
+
+== ONTAP 알림 편집
+
+스토리지 랜딩 페이지의 오른쪽 위 드롭다운에서 _알림 편집_을 선택하여 ONTAP 클러스터에 대한 알림을 수정할 수 있습니다.
+
+image:EditONTAPNotifications.png["ONTAP 편집 알림"]
+
+여기에서 위험, 경고, 정보 및/또는 해결된 경고에 대한 알림을 설정할 수 있습니다. 각 시나리오는 선택한 글로벌 수신자 목록 또는 다른 수신자에게 알릴 수 있습니다.
+
+image:EditONTAPNotifications_MultipleScenarios.png["다양한 시나리오에 대한 ONTAP 알림"]

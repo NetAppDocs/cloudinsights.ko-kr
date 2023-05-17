@@ -14,7 +14,7 @@ summary: Apache 데이터 수집기 구성
 .필수 구성 요소
 * Apache HTTP Server를 설정하고 제대로 실행해야 합니다
 * 에이전트 호스트/VM에 대한 sudo 또는 관리자 권한이 있어야 합니다
-* 일반적으로 Apache_mod_status_module은 Apache 서버의 '/server-status?auto' 위치에 페이지를 노출하도록 구성됩니다. 사용 가능한 필드를 모두 수집하려면 _ExtendedStatus_옵션을 활성화해야 합니다. 서버를 구성하는 방법에 대한 자세한 내용은 Apache 모듈 설명서를 참조하십시오. https://httpd.apache.org/docs/2.4/mod/mod_status.html#enable[]
+* 일반적으로 Apache_mod_status_module은 Apache 서버의 '/server-status?auto' 위치에 페이지를 노출하도록 구성됩니다. 사용 가능한 필드를 모두 수집하려면 _ExtendedStatus_옵션을 활성화해야 합니다. 서버를 구성하는 방법에 대한 자세한 내용은 Apache 모듈 설명서를 참조하십시오. https://[]
 
 
 
