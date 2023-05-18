@@ -21,7 +21,7 @@ keywords: AU, acquisition unit, RAU, requirements, sizing
 | 구성 요소 | Linux 요구 사항 | Windows 요구 사항 
 
 
-| 운영 체제 | 9eaf347efd9d5225664dc4c414a82eb2 | 다음 중 하나의 라이센스 버전을 실행하는 컴퓨터: * Microsoft Windows 10 64비트 * Microsoft Windows Server 2012 * Microsoft Windows Server 2012 R2 * Microsoft Windows Server 2016 * Microsoft Windows Server 2019 * Microsoft Windows Server 2022 * Microsoft Windows 11 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다. 
+| 운영 체제 | 라이센스 버전 중 하나를 실행하는 컴퓨터: * CentOS(64비트): 7.2 ~ 7.9, Stream 8, Stream 9 * Debian(64비트): 9 및 10 * Oracle Enterprise Linux(64비트): 7.5 ~ 7.9, 8.1 ~ 8.4 * Red Hat Enterprise Linux(64비트): 7.2 ~ 7.9, 8.1 ~ 9.1 * Rocky 9.0, 9.1 * Ubuntu Server: 18.04 및 20.04 LTS 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다. | 다음 중 하나의 라이센스 버전을 실행하는 컴퓨터: * Microsoft Windows 10 64비트 * Microsoft Windows Server 2012 * Microsoft Windows Server 2012 R2 * Microsoft Windows Server 2016 * Microsoft Windows Server 2019 * Microsoft Windows Server 2022 * Microsoft Windows 11 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다. 
 
 
 | CPU | CPU 코어 2개 | 동일합니다 
@@ -63,3 +63,10 @@ keywords: AU, acquisition unit, RAU, requirements, sizing
 위의 "예"로 답할 때마다 AU에 8GB의 메모리와 50GB의 디스크 공간을 추가하는 것이 좋습니다. 예를 들어, 둘 다에 "예"를 선택한 경우 150GB 이상의 디스크 공간이 있는 24GB 메모리 시스템을 구축해야 합니다. Linux에서 로그 위치에 추가할 디스크 공간입니다.
 
 사이징에 대한 추가 질문은 NetApp 지원에 문의하십시오.
+
+
+
+== 추가 Federal Edition 요구 사항
+
+* Cloud Insights Federal Edition 클러스터에 획득 장치를 설치하는 경우 기본 운영 체제에 충분한 엔트로피 소스가 있어야 합니다. Linux 시스템에서는 일반적으로 _rng-tools_를 설치하거나 하드웨어 RNG(Random Number Generation)를 사용하여 이 작업을 수행합니다. 획득 장치 시스템에서 이 요구 사항이 충족되는지 확인하는 것은 고객의 책임입니다.
+

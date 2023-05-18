@@ -11138,4 +11138,30 @@
   <block id="9991a60e97186adeafc44a72e57d42e2" category="paragraph"><block ref="9991a60e97186adeafc44a72e57d42e2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="535b57910bffdb58114895274ea04a06" category="paragraph"><block ref="535b57910bffdb58114895274ea04a06" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8751e6fe513ddc3a20be944c6caece45" category="paragraph"><block ref="8751e6fe513ddc3a20be944c6caece45" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd8a3856de3da0db088a741e7cd81e16" category="section-title">ONTAP 알림 편집</block>
+  <block id="82ade85625dc6ecdc6fabebd2e345d19" category="paragraph">스토리지 랜딩 페이지의 오른쪽 위 드롭다운에서 _알림 편집_을 선택하여 ONTAP 클러스터에 대한 알림을 수정할 수 있습니다.</block>
+  <block id="8328b360704f8cf7f0beb073b0b83137" category="inline-image-macro">ONTAP 편집 알림</block>
+  <block id="4b7465a88d7e0bbf7cc001f3780775bb" category="paragraph"><block ref="4b7465a88d7e0bbf7cc001f3780775bb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c77ddc9f57c017ba637124d4722446a7" category="paragraph">여기에서 위험, 경고, 정보 및/또는 해결된 경고에 대한 알림을 설정할 수 있습니다. 각 시나리오는 선택한 글로벌 수신자 목록 또는 다른 수신자에게 알릴 수 있습니다.</block>
+  <block id="80501d323e4be5227482cd3a9ab61d4f" category="inline-image-macro">다양한 시나리오에 대한 ONTAP 알림</block>
+  <block id="a2792f9c8cd4eac5285b213778bf54bd" category="paragraph"><block ref="a2792f9c8cd4eac5285b213778bf54bd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4626ec11333b1630cfeee22687c063f2" category="paragraph">를 클릭합니다 <block ref="bfbd4b14aa5d5e760ae10e06c192ceef" category="inline-link-macro-rx"></block> Kubernetes 워크로드 간의 종속성을 매핑하여 문제 해결을 간소화합니다. Kubernetes 네트워크 성능 지연 시간 및 이상 징후를 실시간으로 파악하여 사용자에게 영향을 미치기 전에 성능 문제를 식별할 수 있습니다. 이 기능은 조직이 Kubernetes 트래픽 흐름을 분석하고 감사하여 전체 비용을 절감할 수 있도록 도와줍니다.</block>
+  <block id="17cf4a6ff78f85ddfaf7692d70368ade" category="cell">라이센스 버전 중 하나를 실행하는 컴퓨터: * CentOS(64비트): 7.2 ~ 7.9, Stream 8, Stream 9 * Debian(64비트): 9 및 10 * Oracle Enterprise Linux(64비트): 7.5 ~ 7.9, 8.1 ~ 8.4 * Red Hat Enterprise Linux(64비트): 7.2 ~ 7.9, 8.1 ~ 9.1 * Rocky 9.0, 9.1 * Ubuntu Server: 18.04 및 20.04 LTS 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
+  <block id="da9f9625eb860a1ad92687973f4b6f55" category="section-title">추가 Federal Edition 요구 사항</block>
+  <block id="dff4dc08edcbd6b7929f7f987fa14f17" category="list-text">Cloud Insights Federal Edition 클러스터에 획득 장치를 설치하는 경우 기본 운영 체제에 충분한 엔트로피 소스가 있어야 합니다. Linux 시스템에서는 일반적으로 _rng-tools_를 설치하거나 하드웨어 RNG(Random Number Generation)를 사용하여 이 작업을 수행합니다. 획득 장치 시스템에서 이 요구 사항이 충족되는지 확인하는 것은 고객의 책임입니다.</block>
+  <block id="4b051b13595634958e002ebbf8d92506" category="summary">Cloud Insights는 프런트엔드 및 백엔드 가상화 스토리지에 대한 뷰를 제공할 수 있습니다.</block>
+  <block id="f489c820bd49075e9fac81860fe93688" category="section-title">Table Widget의 가상화</block>
+  <block id="b54537489c4ac4c2d2a2fc686c6b85a7" category="paragraph">스토리지 가상화를 확인하는 가장 쉬운 방법 중 하나는 가상화된 유형을 보여주는 대시보드 표 위젯을 생성하는 것입니다. 위젯에 대한 쿼리를 작성할 때 "virtualizedType"을 그룹화 또는 필터에 추가하기만 하면 됩니다.</block>
+  <block id="faffd9673a91f79b7697893831a280c9" category="inline-image-macro">스토리지 가상화 유형을 표시하는 기본 쿼리입니다</block>
+  <block id="fd9a8824e3f247a75b5869b6cdc4f926" category="paragraph"><block ref="fd9a8824e3f247a75b5869b6cdc4f926" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1e4c896e1dca588b00da9556c4dcf4b6" category="paragraph">결과 테이블 위젯은 사용자 환경의 _Standard_, _Backend_ 및 _Virtual_storages를 보여 줍니다.</block>
+  <block id="5850ea600e38d6358cb902425e89a83b" category="inline-image-macro">가상화된 유형을 보여주는 표</block>
+  <block id="ae2aba5ebd1778b2721cbaa556c1254f" category="paragraph"><block ref="ae2aba5ebd1778b2721cbaa556c1254f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ec66a493587eeadf86c85660036b0556" category="section-title">랜딩 페이지에는 가상화된 정보가 표시됩니다</block>
+  <block id="32c3437b5141aa71adae8b70b3e0ba56" category="paragraph">스토리지, 볼륨, 내부 볼륨 또는 디스크 랜딩 페이지에서는 관련 가상화 정보를 볼 수 있습니다. 예를 들어 아래 스토리지 랜딩 페이지에서 이 스토리지가 가상 스토리지이며 적용되는 백엔드 스토리지 시스템임을 확인할 수 있습니다. 랜딩 페이지의 관련 테이블에도 해당하는 가상화 정보가 표시됩니다.</block>
+  <block id="53b6e64625bada99ba54be923fda44fa" category="section-title">기존 랜딩 페이지 및 대시보드</block>
+  <block id="a00a374ac04c1276bcdf9526692575de" category="paragraph">현재 환경에 사용자 지정된 랜딩 페이지 또는 대시보드가 있는 경우 기본적으로 모든 가상화 정보가 자동으로 표시되지 않습니다. 그러나 사용자 지정 대시보드 또는 랜딩 페이지(사용자 지정 내용을 다시 구현해야 함)를 _ Default_Any로 되돌리거나 원하는 가상화 특성 또는 메트릭을 포함하도록 관련 위젯을 수정할 수 있습니다.</block>
+  <block id="3242b3c34922ab4d5cbff714ffb3f35b" category="paragraph">_기본값으로 되돌리기_는 사용자 지정 대시보드 또는 랜딩 페이지 화면의 오른쪽 상단에서 사용할 수 있습니다.</block>
+  <block id="22d3924d22161b1ae53430a86affea68" category="inline-image-macro">기본값으로 되돌리기 버튼</block>
+  <block id="bf5be9dc856a4d42607ac85b1e6ff046" category="paragraph"><block ref="bf5be9dc856a4d42607ac85b1e6ff046" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
