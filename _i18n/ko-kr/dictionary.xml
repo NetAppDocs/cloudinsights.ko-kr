@@ -10862,18 +10862,11 @@
   <block id="930fd15ae62cafe82d62d6912f307087" category="paragraph">Insight 설명은 "콜드" 데이터로 감지된 데이터의 양과 데이터가 상주하는 스토리지를 빠르게 표시합니다. 또한, 콜드 데이터가 포함된 워크로드 수도 제공합니다.</block>
   <block id="7cc631429c391f70b58e64999f7fbe48" category="inline-link-macro">NetApp의 TCO 계산기</block>
   <block id="cdb12d4961181c6c0d6f14a1a17cfd87" category="paragraph">목록에서 Insight를 선택하면 Cloud로 데이터를 이동하거나, 비구현 디스크를 순환시키기 위한 권장 사항과 이러한 권장 사항을 구현함으로써 실현할 수 있는 예상 비용 및 전력 절감 효과를 포함한 자세한 정보가 표시된 페이지가 열립니다. 이 페이지에는 에도 편리한 링크가 제공됩니다 <block ref="928b307e42240e05f4c78ed4745d6f3a" category="inline-link-macro-rx"></block> 그래서 수치를 시험해 볼 수 있습니다.</block>
-  <block id="d4dcff57f0b29162c5b6b2c09678b2e2" category="inline-image-macro">콜드 데이터의 예</block>
-  <block id="3f7f21955dfa309fc0646bb3a937c6fb" category="paragraph"><block ref="3f7f21955dfa309fc0646bb3a937c6fb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a5048bf2003cf033b80e3fa2e33502f8" category="paragraph">Insight(인사이트) 페이지에서 * Recommendations(권장 사항) * 를 확장하여 다음 옵션을 탐색합니다.</block>
   <block id="f77e48bcc98143a3f6bd8bcc492be286" category="list-text">사용되지 않는 워크로드(좀비)를 저렴한 HDD(스토리지 계층)로 이동</block>
-  <block id="52119c89cf47d4da7004a38925cca6c7" category="paragraph">zombie 플래그, 콜드 스토리지 및 일 수를 활용하여 가장 낮은 데이터와 가장 큰 양의 데이터를 찾아 워크로드를 저렴한 스토리지 계층(예: 하드 디스크 스토리지를 사용하는 스토리지 풀)으로 이동합니다. 워크로드가 7일 이상 심각한 IO 요청을 받지 않은 경우 "좀비"로 간주됩니다.</block>
   <block id="c8abb3322f2d9026ffca3cbd29c6e9ba" category="list-text">사용하지 않는 워크로드를 삭제합니다</block>
   <block id="42bb4c2dadbccfef009beef19eb60c44" category="paragraph">사용 중이 아닌 워크로드를 확인하고 아카이빙을 고려하거나 스토리지 시스템에서 제거합니다.</block>
   <block id="30dc3fa30dc934a0d0aa98e3789e46c2" category="list-text">NetApp의 Fabric Pool 솔루션을 고려해 보십시오</block>
-  <block id="5338c9536e3c14268eb7568f06d418b6" category="paragraph">NetApp의 Fabric Pool 솔루션은 콜드 데이터를 저비용 클라우드 스토리지로 자동 계층화하므로 성능 계층의 효율성을 높이고 원격 데이터 보호를 제공합니다.</block>
-  <block id="394172dfa5bac3cc560f6f81bc64334d" category="paragraph">그래프 및 표는 추가 추세 정보를 제공할 뿐만 아니라 개별 작업 부하를 세부적으로 분석할 수 있게 해 줍니다.</block>
-  <block id="e8f788aa86e776dcd96d7f18cf2b3073" category="inline-image-macro">Cold_Data_Workload_Graph_and_Table</block>
-  <block id="18149ca5a604ec569675b78f1c8cfba7" category="paragraph"><block ref="18149ca5a604ec569675b78f1c8cfba7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="db08e6b1d619064fa3fd2035f5926d18" category="paragraph">Reclaim ONTAP 냉장 보관_Insight는 ONTAP 시스템의 볼륨에 대한 콜드 용량, 잠재적 비용/전력 절감 및 권장 조치 항목에 대한 데이터를 제공합니다. <block ref="82cab8f639b07ead699dc071830d992e" category="inline-link-macro-rx"></block></block>
   <block id="3a4ab80b2583f296b4bc5d2e0c2c4b5d" category="admonition">이것은 _Preview_feature 이며 개선 사항이 있을 때 시간이 지남에 따라 변경될 수 있습니다. <block ref="ee58f03d7eaea0665aa8a572992ca1b8" category="inline-link-macro-rx"></block> Cloud Insights 미리보기 기능 정보.</block>
   <block id="ec1ac4271fbf56890989ecb3a691d684" category="list-text">메뉴 &gt; 콘텐츠 &gt; 팀 콘텐츠 &gt; 보고서 * 로 이동합니다</block>
@@ -11164,4 +11157,19 @@
   <block id="3242b3c34922ab4d5cbff714ffb3f35b" category="paragraph">_기본값으로 되돌리기_는 사용자 지정 대시보드 또는 랜딩 페이지 화면의 오른쪽 상단에서 사용할 수 있습니다.</block>
   <block id="22d3924d22161b1ae53430a86affea68" category="inline-image-macro">기본값으로 되돌리기 버튼</block>
   <block id="bf5be9dc856a4d42607ac85b1e6ff046" category="paragraph"><block ref="bf5be9dc856a4d42607ac85b1e6ff046" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2499dbd8754ba0ea2e48f7f26299df85" category="paragraph">다음 사항에 유의하십시오.</block>
+  <block id="aba1e07f8a596005af956e7d0d072235" category="list-text">30일 미만의 콜드 데이터는 표시되지 않습니다.</block>
+  <block id="caacdebad7604a39622c94eec31be40b" category="list-text">FlexGroup의 구성요소 볼륨은 구성 요소에서 계층 정책을 설정할 수 없으므로 콜드 데이터 계산에 포함되지 않습니다.</block>
+  <block id="c2022a18b75555c824458ee568cfdfca" category="inline-image-macro">콜드 데이터 전원 정보</block>
+  <block id="6a79fd430dc36a8f17aaf2f28988d6e6" category="paragraph"><block ref="6a79fd430dc36a8f17aaf2f28988d6e6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5259ae4afb5996ff48788b2fa720114c" category="section-title">권장 사항</block>
+  <block id="987152d50a80bdf0820a4f1fd1771f81" category="paragraph">zombie 플래그, 콜드 스토리지 및 일 수를 활용하여 가장 낮은 데이터와 가장 큰 양의 데이터를 찾아 워크로드를 저렴한 스토리지 계층(예: 하드 디스크 스토리지를 사용하는 스토리지 풀)으로 이동합니다. 워크로드가 30일 이상 심각한 IO 요청을 받지 않은 경우 "좀비"로 간주됩니다.</block>
+  <block id="27130393c9a69c9ac4259ad677b7e09b" category="inline-link-macro">Fabric Pool 솔루션</block>
+  <block id="a7c5cd98f24711202e2a8089e206922c" category="paragraph">NetApp의 <block ref="6dfc63a251a9b042b77c667e40f20df9" category="inline-link-macro-rx"></block> 콜드 데이터를 저비용 클라우드 스토리지에 자동으로 계층화하여 성능 계층의 효율성을 높이고 원격 데이터 보호를 제공합니다.</block>
+  <block id="b0bad3786567c06c6ba5f9c05f89f0fb" category="section-title">시각화 및 탐색</block>
+  <block id="f9a5f3e9d6c824797a0884341490f583" category="paragraph">그래프 및 표는 추가 추세 정보를 제공할 뿐만 아니라 개별 작업 부하를 분석할 수 있게 해 줍니다.</block>
+  <block id="046d0c83fcc2f8749fd500daded4836a" category="inline-image-macro">콜드 데이터 요약 그래프</block>
+  <block id="907a69f25ca7c9e8619e2c59a67ab607" category="inline-image-macro">콜드 데이터 워크로드 테이블</block>
+  <block id="e185f5cf502ca7079fb5eb3b60a77e41" category="paragraph"><block ref="e9ec82200521512971fafc4c0e21c2af" category="inline-image-macro-rx" type="image"></block>
+<block ref="d2dfbff86c21669b3c15073a169ec8ac" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
