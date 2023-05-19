@@ -11157,9 +11157,6 @@
   <block id="3242b3c34922ab4d5cbff714ffb3f35b" category="paragraph">_기본값으로 되돌리기_는 사용자 지정 대시보드 또는 랜딩 페이지 화면의 오른쪽 상단에서 사용할 수 있습니다.</block>
   <block id="22d3924d22161b1ae53430a86affea68" category="inline-image-macro">기본값으로 되돌리기 버튼</block>
   <block id="bf5be9dc856a4d42607ac85b1e6ff046" category="paragraph"><block ref="bf5be9dc856a4d42607ac85b1e6ff046" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2499dbd8754ba0ea2e48f7f26299df85" category="paragraph">다음 사항에 유의하십시오.</block>
-  <block id="aba1e07f8a596005af956e7d0d072235" category="list-text">30일 미만의 콜드 데이터는 표시되지 않습니다.</block>
-  <block id="caacdebad7604a39622c94eec31be40b" category="list-text">FlexGroup의 구성요소 볼륨은 구성 요소에서 계층 정책을 설정할 수 없으므로 콜드 데이터 계산에 포함되지 않습니다.</block>
   <block id="c2022a18b75555c824458ee568cfdfca" category="inline-image-macro">콜드 데이터 전원 정보</block>
   <block id="6a79fd430dc36a8f17aaf2f28988d6e6" category="paragraph"><block ref="6a79fd430dc36a8f17aaf2f28988d6e6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5259ae4afb5996ff48788b2fa720114c" category="section-title">권장 사항</block>
@@ -11172,4 +11169,5 @@
   <block id="907a69f25ca7c9e8619e2c59a67ab607" category="inline-image-macro">콜드 데이터 워크로드 테이블</block>
   <block id="e185f5cf502ca7079fb5eb3b60a77e41" category="paragraph"><block ref="e9ec82200521512971fafc4c0e21c2af" category="inline-image-macro-rx" type="image"></block>
 <block ref="d2dfbff86c21669b3c15073a169ec8ac" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d752ee7de9162d5e0fa475e8a383ea29" category="paragraph">30일 미만의 콜드 데이터는 표시되지 않습니다.</block>
 </blocks>

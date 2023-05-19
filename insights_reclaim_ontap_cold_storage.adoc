@@ -16,11 +16,7 @@ NOTE: Reclaim ONTAP 냉장 보관_Insight는 로 간주됩니다 link:concept_pr
 
 이러한 Insights를 보려면 * 대시보드 > 인사이트 * 로 이동하여 _Reclaim ONTAP 냉장 보관_Insight를 살펴봅니다. 이 Insight는 Cloud Insights가 냉장 보관을 감지한 경우에만 영향을 받는 저장소를 나열합니다. 그렇지 않으면 "모두 지우기" 메시지가 표시됩니다.
 
-다음 사항에 유의하십시오.
-
-* 30일 미만의 콜드 데이터는 표시되지 않습니다.
-* FlexGroup의 구성요소 볼륨은 구성 요소에서 계층 정책을 설정할 수 없으므로 콜드 데이터 계산에 포함되지 않습니다.
-
+30일 미만의 콜드 데이터는 표시되지 않습니다.
 
 image:Cold_Data_Insight_List.png["콜드 데이터가 있는 3개 스토리지를 보여 주는 Insight 목록입니다"]
 
