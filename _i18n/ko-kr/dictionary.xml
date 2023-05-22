@@ -11150,7 +11150,6 @@
   <block id="e185f5cf502ca7079fb5eb3b60a77e41" category="paragraph"><block ref="e9ec82200521512971fafc4c0e21c2af" category="inline-image-macro-rx" type="image"></block>
 <block ref="d2dfbff86c21669b3c15073a169ec8ac" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d752ee7de9162d5e0fa475e8a383ea29" category="paragraph">30일 미만의 콜드 데이터는 표시되지 않습니다.</block>
-  <block id="27f435bf6cee52f54cff928bd45b8ee0" category="admonition">이 데이터 수집기는 2023년 4월 4일부로 Cloud Insights에 설치할 수 없으며 2023년 5월 25일에 모든 Cloud Insights 설치에서 제거될 것입니다. AU 기반 데이터 수집으로 전환하는 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="334c0315e59c6351d5f9bac4d495b3ee" category="inline-link-macro-rx"></block>.</block>
   <block id="10964dcc7a2aec7bc47f94cb30287867" category="paragraph">데이터 보호 * 페이지는 * 스냅샷 복사본 * 또는 * SnapMirror 정책 * 으로 보호되는 볼륨의 상태를 표시합니다.</block>
   <block id="fc590ffc8717abc249ee0ebf7181b12d" category="paragraph">Local Protection Overview _ 섹션에서 이 차트는 스냅샷 복사본으로 보호되는 볼륨에 대한 다음 정보를 제공합니다.</block>
   <block id="165584d5362c27cc80f1824d69f24c27" category="list-text">보호되지 않는 볼륨뿐만 아니라 스냅샷 복사본으로 보호되는 볼륨의 수입니다.</block>
@@ -11168,4 +11167,5 @@
   <block id="cde42b0739b83754f74a7bee8cf35c96" category="list-text">SnapMirror 정책으로 보호되지 않는 볼륨 및 지연을 경험하는 SnapMirror 관계</block>
   <block id="9354fc9fde4206bac6177054249907e9" category="list-text">비정상적인 SnapMirror 관계:</block>
   <block id="53a0194fe3f870afed16b77d60056dfb" category="paragraph"><block ref="53a0194fe3f870afed16b77d60056dfb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e4b936a4866074908ad57fac7de40e48" category="admonition">이 데이터 수집기는 2023년 4월 4일부로 Cloud Insights에 설치할 수 없으며 2023년 5월 25일에 모든 Cloud Insights 설치에서 제거될 것입니다. AU 기반 데이터 수집으로 전환하는 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="334c0315e59c6351d5f9bac4d495b3ee" category="inline-link-macro-rx"></block>.</block>
 </blocks>
