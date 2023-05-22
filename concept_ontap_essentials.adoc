@@ -38,9 +38,33 @@ image:OE_Overview.png["ONTAP Essentials에 대한 개요 대시보드"]
 
 == 데이터 보호
 
-SnapMirror 관계를 보려면 * 데이터 보호 * 페이지를 선택하십시오. 원본 또는 대상 볼륨 정보를 클릭하거나 기어 아이콘을 클릭하여 보려는 데이터에 대한 열을 추가합니다.
+데이터 보호 * 페이지는 * 스냅샷 복사본 * 또는 * SnapMirror 정책 * 으로 보호되는 볼륨의 상태를 표시합니다.
 
-image:DataProtectionDashboard_OverviewWidgets.png["로컬 및 원격 개요를 보여 주는 데이터 보호 대시보드 위젯"]
+Local Protection Overview _ 섹션에서 이 차트는 스냅샷 복사본으로 보호되는 볼륨에 대한 다음 정보를 제공합니다.
+
+* 보호되지 않는 볼륨뿐만 아니라 스냅샷 복사본으로 보호되는 볼륨의 수입니다.
+* 스냅샷 복사본에 대해 예약 공간을 사용 중이거나 초과하는 볼륨 수입니다.
+* 특정 범위의 스냅샷 복사본 수(예: 10개 미만의 복사본, 10개~200개 등)
+
+
+원격 보호 개요 _ 섹션에서 차트에는 SnapMirror 정책으로 보호되는 볼륨과 관련된 정보가 나와 있습니다.
+
+* 정상 상태가 아닌 SnapMirror 관계 수입니다.
+* 지연 상태에 따라 RPO(복구 지점 목표)가 지연되는 SnapMirror 관계 수
+* 볼륨 SnapMirror, SVM 관계, FlexGroup SnapMirror 관계, SMBC(SnapMirror Business Continuity) 일관성 그룹 관계, 보호되지 않는 볼륨 등과 같이 SnapMirror 볼륨 보호 유형으로 보호되는 관계 수입니다.
+* 비동기 미러, 비동기 볼트, 비동기 MirrorVault, StrictSync 및 Sync와 같은 SnapMirror 관계 유형으로 보호되는 관계 수입니다.
+
+
+image:DataProtectionDashboard_OverviewWidgets_.png["로컬 및 원격 개요를 보여 주는 데이터 보호 대시보드 위젯"]
+
+페이지 하단의 _Clusters_GRID에서는 다음과 관련된 세부 정보를 제공합니다.
+
+* 스냅숏으로 보호되지 않는 볼륨입니다.
+* 볼륨이 스냅숏 예비 공간을 침범합니다.
+* SnapMirror 정책으로 보호되지 않는 볼륨 및 지연을 경험하는 SnapMirror 관계
+* 비정상적인 SnapMirror 관계:
+
+
 image:DataProtectionDashboard_ClusterList.png["데이터 보호 클러스터 목록"]
 
 

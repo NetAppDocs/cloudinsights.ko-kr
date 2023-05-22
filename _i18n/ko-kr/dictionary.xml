@@ -8291,7 +8291,6 @@
   <block id="f0104a81a8bbf75874c8612df2bea3f7" category="paragraph"><block ref="f0104a81a8bbf75874c8612df2bea3f7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e8bfd68d700d556e8faa4883b15480df" category="paragraph">참고: "일 대 전체" 숫자 "0"(영)은 전체 일 수가 90일 이상 예상됨을 나타냅니다. 즉, 시스템이 곧 공간이 부족해질 위험이 없습니다.</block>
   <block id="21a1e68164f738b8be1dae11d5a694b3" category="section-title">데이터 보호</block>
-  <block id="9aeef14e262ec111d94c3cac69cb1847" category="paragraph">SnapMirror 관계를 보려면 * 데이터 보호 * 페이지를 선택하십시오. 원본 또는 대상 볼륨 정보를 클릭하거나 기어 아이콘을 클릭하여 보려는 데이터에 대한 열을 추가합니다.</block>
   <block id="e90044aab3d37986ef7b7d7557264d05" category="paragraph">ONTAP Essentials * 인프라 * 페이지에서는 모든 기본 ONTAP 객체에 대해 사전 구축된(추가 사용자 지정 가능) 쿼리를 사용하여 클러스터 상태와 성능을 확인할 수 있습니다. 탐색할 오브젝트 유형(클러스터, 스토리지 풀 등)을 선택하고 상태 또는 성능 정보를 표시할지 여부를 선택합니다. 필터를 설정하여 개별 시스템에 대해 자세히 설명합니다.</block>
   <block id="4d4ca49abac813e247a4e4e53274fe27" category="inline-image-macro">스토리지 풀에 대한 인프라스트럭처 선택</block>
   <block id="a2ab7b415e4b437cd221a7275ed38839" category="paragraph"><block ref="a2ab7b415e4b437cd221a7275ed38839" category="inline-image-macro-rx" type="image"></block></block>
@@ -10894,8 +10893,6 @@
   <block id="e16c8047fba82583090b96bf5e42b694" category="section-title">2023년 5월</block>
   <block id="6b091071a7d33b506abd7a64e9f0795d" category="inline-image-macro">로컬 및 원격 개요를 보여 주는 데이터 보호 대시보드 위젯</block>
   <block id="185acbfb6bbd68c83e1d229b0f437594" category="inline-image-macro">데이터 보호 클러스터 목록</block>
-  <block id="2104c64c486c18ec271b0134a19654dd" category="paragraph"><block ref="c556223236d0a6ab73f15f6e6f21e0f9" category="inline-image-macro-rx" type="image"></block>
-<block ref="53a0194fe3f870afed16b77d60056dfb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1cd9ce57b7c44af6c8a130743e74dd52" category="inline-image-macro">워크로드 맵 예</block>
   <block id="7af846b3cedb6c2658e0a5a0470d77f4" category="paragraph"><block ref="7af846b3cedb6c2658e0a5a0470d77f4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5f87ab561452069f2b8a72e3e1d6b9c5" category="sidebar">모니터링 오퍼레이터 시작하기</block>
@@ -11154,4 +11151,21 @@
 <block ref="d2dfbff86c21669b3c15073a169ec8ac" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d752ee7de9162d5e0fa475e8a383ea29" category="paragraph">30일 미만의 콜드 데이터는 표시되지 않습니다.</block>
   <block id="27f435bf6cee52f54cff928bd45b8ee0" category="admonition">이 데이터 수집기는 2023년 4월 4일부로 Cloud Insights에 설치할 수 없으며 2023년 5월 25일에 모든 Cloud Insights 설치에서 제거될 것입니다. AU 기반 데이터 수집으로 전환하는 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="334c0315e59c6351d5f9bac4d495b3ee" category="inline-link-macro-rx"></block>.</block>
+  <block id="10964dcc7a2aec7bc47f94cb30287867" category="paragraph">데이터 보호 * 페이지는 * 스냅샷 복사본 * 또는 * SnapMirror 정책 * 으로 보호되는 볼륨의 상태를 표시합니다.</block>
+  <block id="fc590ffc8717abc249ee0ebf7181b12d" category="paragraph">Local Protection Overview _ 섹션에서 이 차트는 스냅샷 복사본으로 보호되는 볼륨에 대한 다음 정보를 제공합니다.</block>
+  <block id="165584d5362c27cc80f1824d69f24c27" category="list-text">보호되지 않는 볼륨뿐만 아니라 스냅샷 복사본으로 보호되는 볼륨의 수입니다.</block>
+  <block id="3f47a78c5f66b83b60ca72ace954dca7" category="list-text">스냅샷 복사본에 대해 예약 공간을 사용 중이거나 초과하는 볼륨 수입니다.</block>
+  <block id="97fdc67fef73327f22b8fc495e435f8e" category="list-text">특정 범위의 스냅샷 복사본 수(예: 10개 미만의 복사본, 10개~200개 등)</block>
+  <block id="b8a1fa4d1861a618562ca06e01978c9e" category="paragraph">원격 보호 개요 _ 섹션에서 차트에는 SnapMirror 정책으로 보호되는 볼륨과 관련된 정보가 나와 있습니다.</block>
+  <block id="b43d32c4db7003345fb07d24af63f6df" category="list-text">정상 상태가 아닌 SnapMirror 관계 수입니다.</block>
+  <block id="14160d3e23782b8cd0b814d46365dddf" category="list-text">지연 상태에 따라 RPO(복구 지점 목표)가 지연되는 SnapMirror 관계 수</block>
+  <block id="80ba86360fcf2d182d10656bc16ae2c5" category="list-text">볼륨 SnapMirror, SVM 관계, FlexGroup SnapMirror 관계, SMBC(SnapMirror Business Continuity) 일관성 그룹 관계, 보호되지 않는 볼륨 등과 같이 SnapMirror 볼륨 보호 유형으로 보호되는 관계 수입니다.</block>
+  <block id="c7fe2f93c4d26e8d245132ba4de7e3c6" category="list-text">비동기 미러, 비동기 볼트, 비동기 MirrorVault, StrictSync 및 Sync와 같은 SnapMirror 관계 유형으로 보호되는 관계 수입니다.</block>
+  <block id="2e34ea590b54b579c6accf225d3ae30e" category="paragraph"><block ref="2e34ea590b54b579c6accf225d3ae30e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c6b707fac607c8a9643179751e9c495d" category="paragraph">페이지 하단의 _Clusters_GRID에서는 다음과 관련된 세부 정보를 제공합니다.</block>
+  <block id="e6e7aa3e8144e8696637ef6e047685ee" category="list-text">스냅숏으로 보호되지 않는 볼륨입니다.</block>
+  <block id="2d71ecbcc9900bb68660e6db988080ca" category="list-text">볼륨이 스냅숏 예비 공간을 침범합니다.</block>
+  <block id="cde42b0739b83754f74a7bee8cf35c96" category="list-text">SnapMirror 정책으로 보호되지 않는 볼륨 및 지연을 경험하는 SnapMirror 관계</block>
+  <block id="9354fc9fde4206bac6177054249907e9" category="list-text">비정상적인 SnapMirror 관계:</block>
+  <block id="53a0194fe3f870afed16b77d60056dfb" category="paragraph"><block ref="53a0194fe3f870afed16b77d60056dfb" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
