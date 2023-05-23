@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task_troubleshooting_general_problems.html 
 summary: 일반 Cloud Insights 문제 해결 팁 
-keywords: troubleshooting, problems, browser, login, log in, accessing, access to 
+keywords: troubleshooting, problems, browser, login, log in, accessing, access to, Trident, qtree, quota 
 ---
 = 일반적인 Cloud Insights 문제 해결
 :allow-uri-read: 
@@ -41,6 +41,29 @@ keywords: troubleshooting, problems, browser, login, log in, accessing, access t
 
 | 기타 로그인 오류 | Chrome에서 시크릿 모드를 시도하거나 브라우저 기록, 쿠키 및 캐시를 지웁니다. 다른 브라우저 프로필(예 Chrome - 사람 추가). 
 |===
+
+
+== 기타 문제
+
+|===
+
+
+| * 질문: * | * 답변: * 
+
+
+| Qtree 하드 할당량이 쿼리에 올바르게 표시되지만 소프트 할당량이 볼륨의 총 용량으로 표시됩니다. 맞습니까? | 수동으로 설정하거나 Trident를 통해 설정하는 하드 할당량만 설정된 할당량으로 표시됩니다. 하드 할당량을 지정하지 않으면 Qtree 용량이 내부 볼륨 용량이 됩니다. 
+
+
+| 동일한 Qtree에 수동으로 소프트 할당량과 하드 할당량이 모두 설정되어 있지만 표시되는 총 용량은 하드 할당량입니다. 맞습니까? | 예. 하드 할당량이 지정된 경우 총 용량으로 표시됩니다. 
+|===
+
+
+== 리소스
+
+추가 문제 해결 팁은 에서 찾을 수 있습니다 link:https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services/Cloud_Insights["NetApp 기술 자료"] (지원 로그인 필요)
+
+추가 지원 정보는 Cloud Insights에서 확인할 수 있습니다 link:concept_requesting_support.html["지원"] 페이지.
+
 활성 Cloud Insights 구독이 있는 경우 다음 지원 옵션을 사용할 수 있습니다.
 
 link:https://www.netapp.com/us/contact-us/support.aspx["전화"]

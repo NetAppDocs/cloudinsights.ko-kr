@@ -11168,4 +11168,11 @@
   <block id="9354fc9fde4206bac6177054249907e9" category="list-text">비정상적인 SnapMirror 관계:</block>
   <block id="53a0194fe3f870afed16b77d60056dfb" category="paragraph"><block ref="53a0194fe3f870afed16b77d60056dfb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e4b936a4866074908ad57fac7de40e48" category="admonition">이 데이터 수집기는 2023년 4월 4일부로 Cloud Insights에 설치할 수 없으며 2023년 5월 25일에 모든 Cloud Insights 설치에서 제거될 것입니다. AU 기반 데이터 수집으로 전환하는 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="334c0315e59c6351d5f9bac4d495b3ee" category="inline-link-macro-rx"></block>.</block>
+  <block id="6f482c482b4f6739bf91b49fb509e1fa" category="section-title">기타 문제</block>
+  <block id="38371752dff5ee84c99f5d61b5071683" category="cell">* 질문: *</block>
+  <block id="c0a6863442a128c06f6f664c5acfb867" category="cell">* 답변: *</block>
+  <block id="17cd9c18b0bda3836dcd76df6d7b3e6d" category="cell">Qtree 하드 할당량이 쿼리에 올바르게 표시되지만 소프트 할당량이 볼륨의 총 용량으로 표시됩니다. 맞습니까?</block>
+  <block id="5a68833b2f8ecb97cbb14d60c5b420a8" category="cell">수동으로 설정하거나 Trident를 통해 설정하는 하드 할당량만 설정된 할당량으로 표시됩니다. 하드 할당량을 지정하지 않으면 Qtree 용량이 내부 볼륨 용량이 됩니다.</block>
+  <block id="1b6ed64bac10ec68f4d03a8505f91c8d" category="cell">동일한 Qtree에 수동으로 소프트 할당량과 하드 할당량이 모두 설정되어 있지만 표시되는 총 용량은 하드 할당량입니다. 맞습니까?</block>
+  <block id="9c93ad73825174675cbb17fb678b3a8c" category="cell">예. 하드 할당량이 지정된 경우 총 용량으로 표시됩니다.</block>
 </blocks>
