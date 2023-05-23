@@ -1659,8 +1659,8 @@ Cloud Insights에는 _Aggregate 성능_, _볼륨 워크로드_, _프로세서 �
 
 ONTAP 고급 데이터에 대한 자세한 내용은 다음 링크를 참조하십시오.
 
-* https://[] (참고: NetApp Support에 로그인해야 합니다.)
-* https://[]
+* https://mysupport.netapp.com/site/tools/tool-eula/netapp-harvest[] (참고: NetApp Support에 로그인해야 합니다.)
+* https://nabox.org/faq/[]
 
 
 

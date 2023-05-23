@@ -371,19 +371,19 @@ NetApp Kubernetes Monitoring Operator가 자동으로 Kudbe-state-metrics를 설
 
 다음 링크를 사용하여 이러한 kubbe 상태 메트릭 카운터에 대한 정보에 액세스할 수 있습니다.
 
-. https://["ConfigMap 메트릭입니다"]
-. https://["메트릭 분월 설정"]
-. https://["구현 메트릭"]
-. https://["수신 메트릭"]
-. https://["네임스페이스 메트릭"]
-. https://["노드 메트릭"]
-. https://["영구 볼륨 메트릭"]
-. https://["잔류 볼륨 클레임 메트릭"]
-. https://["POD 메트릭"]
-. https://["ReplicaSet 메트릭입니다"]
-. https://["비밀 지표"]
-. https://["서비스 메트릭"]
-. https://["StatefulSet 메트릭입니다"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/configmap-metrics.md["ConfigMap 메트릭입니다"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/daemonset-metrics.md["메트릭 분월 설정"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/deployment-metrics.md["구현 메트릭"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/ingress-metrics.md["수신 메트릭"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/namespace-metrics.md["네임스페이스 메트릭"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/node-metrics.md["노드 메트릭"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/persistentvolume-metrics.md["영구 볼륨 메트릭"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/persistentvolumeclaim-metrics.md["잔류 볼륨 클레임 메트릭"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/pod-metrics.md["POD 메트릭"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/replicaset-metrics.md["ReplicaSet 메트릭입니다"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/secret-metrics.md["비밀 지표"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/service-metrics.md["서비스 메트릭"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/statefulset-metrics.md["StatefulSet 메트릭입니다"]
 
 
 

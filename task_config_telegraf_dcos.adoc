@@ -29,7 +29,7 @@ Cloud Insights는 이 데이터 수집기를 사용하여 DC/OS에서 메트릭�
 
 == 설정
 
-설정 정보는 에서 찾을 수 있습니다 https://["DC/OS 설명서"].
+설정 정보는 에서 찾을 수 있습니다 https://docs.mesosphere.com["DC/OS 설명서"].
 
 
 

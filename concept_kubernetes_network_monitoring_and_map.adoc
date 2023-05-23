@@ -87,7 +87,7 @@ image:Workload_Map_Filtering.png["워크로드 맵 필터링"]
 +
 ** POD의 워크로드 레이블에서 파생됩니다
 ** 작업 부하에 대한 예상 레이블: app.Kubernetes.io/component
-** 라벨 이름 참조: https://[]
+** 라벨 이름 참조: https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/[]
 ** 권장 라벨:
 +
 *** 프런트 엔드
