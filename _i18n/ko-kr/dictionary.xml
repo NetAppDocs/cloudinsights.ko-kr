@@ -4183,7 +4183,6 @@
   <block id="33d5b65987e920095c97ae5d99207a0e" category="inline-link-macro">Linux 획득 장치 문제 해결</block>
   <block id="62c67fa153e5c97540977071f595a3e2" category="inline-link-macro">Windows 획득 장치 문제 해결</block>
   <block id="06aca4757909dd673728a20d193d0656" category="paragraph">도 참조하십시오 <block ref="35efea8886727053938c867d4e4688d5" category="inline-link-macro-rx"></block> 및 <block ref="5e216da5f7cd032fff10ef75fa563a40" category="inline-link-macro-rx"></block>.</block>
-  <block id="b22cca9a93dc0eb73fc0c386fc686eb3" category="section-title">로그인 문제:</block>
   <block id="55117c7bec968b88df3f1dfc434eac84" category="cell">Cloud Insights는 5분마다 로그아웃합니다</block>
   <block id="e4ff2e59dd571d2bbd5a906b6fad2546" category="cell">Cloud Central 계정이 있지만 Cloud Central에 로그인할 수 없습니다.</block>
   <block id="0659d428df833a806e29e65e632d380a" category="inline-link-macro">NetApp 지원</block>
@@ -11175,4 +11174,5 @@
   <block id="5a68833b2f8ecb97cbb14d60c5b420a8" category="cell">수동으로 설정하거나 Trident를 통해 설정하는 하드 할당량만 설정된 할당량으로 표시됩니다. 하드 할당량을 지정하지 않으면 Qtree 용량이 내부 볼륨 용량이 됩니다.</block>
   <block id="1b6ed64bac10ec68f4d03a8505f91c8d" category="cell">동일한 Qtree에 수동으로 소프트 할당량과 하드 할당량이 모두 설정되어 있지만 표시되는 총 용량은 하드 할당량입니다. 맞습니까?</block>
   <block id="9c93ad73825174675cbb17fb678b3a8c" category="cell">예. 하드 할당량이 지정된 경우 총 용량으로 표시됩니다.</block>
+  <block id="37b418c8c2b422040e90081e18556979" category="section-title">로그인 문제</block>
 </blocks>
