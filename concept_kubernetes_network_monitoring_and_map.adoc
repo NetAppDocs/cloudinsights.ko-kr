@@ -42,7 +42,7 @@ image:ServiceMap_NKMO_Deployment_Options.png["NKMO Stup 중 지도 옵션을 선
 
 워크로드 맵은 을 사용합니다 link:task_create_monitor.html["모니터"] 정보를 도출합니다. Cloud Insights에서는 다양한 기본 Kubernetes Monitor를 제공합니다(기본적으로 _일시 중지됨_일 수 있음). 원하는 모니터를 _Resume_(예: 활성화)하거나, Kubernetes 객체에 대한 사용자 지정 모니터를 생성할 수 있습니다. 이 경우 워크로드 맵도 사용됩니다.
 
-아래 개체 유형에 대해 Cloud Insights 메트릭 알림을 생성할 수 있습니다. 객체가 ID별로 그룹화되어 있는지 확인하십시오
+아래 개체 유형에 대해 Cloud Insights 메트릭 알림을 생성할 수 있습니다. 데이터가 기본 개체 유형별로 그룹화되어 있는지 확인합니다.
 
 * Kubernetes 워크로드
 * Kubernetes 발병

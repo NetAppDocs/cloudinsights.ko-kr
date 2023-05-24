@@ -11174,7 +11174,6 @@
   <block id="75d129f3fd06394d5b75cb67aea1f2d8" category="inline-image-macro">찾기 상자에 입력하면 워크로드가 강조 표시됩니다</block>
   <block id="5ddf6f9c2416ad391ccea53c53433147" category="paragraph"><block ref="5ddf6f9c2416ad391ccea53c53433147" category="inline-image-macro-rx" type="image"></block></block>
   <block id="642d357bd708eba3d8ac3744a27588a3" category="paragraph">Kubernetes Network Performance Monitoring 및 Map 기능은 Kubernetes 서비스(워크로드라고도 함) 간의 종속성을 매핑하여 문제 해결을 간소화합니다. Kubernetes 네트워크 성능 지연 시간 및 이상 징후를 실시간으로 파악하여 사용자에게 영향을 미치기 전에 성능 문제를 식별할 수 있습니다. 이 기능은 조직이 Kubernetes 트래픽 흐름을 분석하고 감사하여 전체 비용을 절감할 수 있도록 도와줍니다.</block>
-  <block id="2e4063447ef8819aa5df170524b0bc11" category="paragraph">아래 개체 유형에 대해 Cloud Insights 메트릭 알림을 생성할 수 있습니다. 객체가 ID별로 그룹화되어 있는지 확인하십시오</block>
   <block id="98f8d8a203eae9b3f98baf54dc4901f5" category="list-text">Kubernetes 워크로드</block>
   <block id="d725c339f86ba7e7be92e93dcf7902bc" category="list-text">Kubernetes 발병</block>
   <block id="caefb2c0b47809252c440b0c84abc26e" category="list-text">kubernetes.deployment</block>
@@ -11199,4 +11198,5 @@
   <block id="bc73b2df84aeadcf404198608adc15f8" category="paragraph">마지막으로, _자산 페이지로 이동 _ 을(를) 선택하면 워크로드에 대한 상세 자산 랜딩 페이지가 열립니다.</block>
   <block id="1f77b1ef877148b891f2cb01d5adad8a" category="inline-image-macro">워크로드 자산 페이지</block>
   <block id="208df78ccb496daba189129b4e1d9439" category="paragraph"><block ref="208df78ccb496daba189129b4e1d9439" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2ec69e962ebca3d9f0e5279aa138f19a" category="paragraph">아래 개체 유형에 대해 Cloud Insights 메트릭 알림을 생성할 수 있습니다. 데이터가 기본 개체 유형별로 그룹화되어 있는지 확인합니다.</block>
 </blocks>
