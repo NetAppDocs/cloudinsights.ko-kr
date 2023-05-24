@@ -10724,7 +10724,6 @@
   <block id="ab65509e81982c2ab448e5662c4ee09d" category="paragraph">색상으로 표시된 원은 워크로드에 대한 경고 또는 위험 수준 경고를 나타냅니다. 원 위로 마우스를 가져가면 문제 요약이 표시됩니다. 원을 클릭하여 자세히 표시된 슬라이드 아웃 패널을 엽니다.</block>
   <block id="1c33583ae1317aec595232a0f94991fd" category="inline-image-macro">워크로드 Slideout 세부 정보 및 알림</block>
   <block id="219e34cfe0519a78647d5d9fbcaf4c78" category="paragraph"><block ref="219e34cfe0519a78647d5d9fbcaf4c78" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9a588db8471730dbfebac65cd5467ad8" category="section-title">필터링</block>
   <block id="a3b909b3fe9805c43492b38e32cc76dd" category="paragraph">다른 Cloud Insights 기능과 마찬가지로 원하는 특정 오브젝트 또는 워크로드 특성에 초점을 맞춰 필터를 쉽게 설정할 수 있습니다.</block>
   <block id="e4fe29302896c288d2a9ee7fe931c67b" category="inline-image-macro">워크로드 맵 필터링</block>
   <block id="45a01cb04b2dc86e6def6376c184f9a1" category="paragraph"><block ref="45a01cb04b2dc86e6def6376c184f9a1" category="inline-image-macro-rx" type="image"></block></block>
@@ -11177,4 +11176,8 @@
   <block id="37b418c8c2b422040e90081e18556979" category="section-title">로그인 문제</block>
   <block id="04e7b6395fd3a2be3a25869ea1196f3d" category="cell">NetApp Kubernetes Monitoring Operator를 설치한 직후 로그에 다음 내용이 표시됩니다. [inputs.prometheus] 플러그인 오류: HTTP 요청을 하는 동안 오류가 발생했습니다<block ref="189319aba70d8b3a1cf8eef70b48f546" category="inline-link-rx"></block> 가져오기<block ref="189319aba70d8b3a1cf8eef70b48f546" category="inline-link-rx"></block> TCP: lookup kudo-state-metrics.&lt;namespace&gt;.svc.cluster.local: 해당 호스트가 없습니다</block>
   <block id="d232f49a9877a99204dde54474c23ce6" category="cell">이 메시지는 일반적으로 새 오퍼레이터가 설치되어 있고 _Telegraf-RS_POD가 _KSM_POD가 가동되기 전에 작동 중일 때만 표시됩니다. 이러한 메시지는 모든 Pod가 실행되면 중지되어야 합니다.</block>
+  <block id="8ec4bb0d2cdd89c1777e072a7f038e51" category="section-title">찾기 및 필터링</block>
+  <block id="71841f704ed10618ca86f31ee6b5d043" category="paragraph">마찬가지로 _Find_ 필드에 문자열을 입력하면 일치하는 워크로드가 강조 표시됩니다.</block>
+  <block id="75d129f3fd06394d5b75cb67aea1f2d8" category="inline-image-macro">찾기 상자에 입력하면 워크로드가 강조 표시됩니다</block>
+  <block id="5ddf6f9c2416ad391ccea53c53433147" category="paragraph"><block ref="5ddf6f9c2416ad391ccea53c53433147" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
