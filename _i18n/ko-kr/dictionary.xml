@@ -10709,7 +10709,6 @@
   <block id="4cbba110d06cbe92766e7957041807de" category="inline-link-macro">모니터</block>
   <block id="398ef11564cb3ebb8d3480da183b89bb" category="paragraph">워크로드 맵은 을 사용합니다 <block ref="8c1e0925f4a3d217ad73e0845030a6c1" category="inline-link-macro-rx"></block> 정보를 도출합니다. Cloud Insights에서는 다양한 기본 Kubernetes Monitor를 제공합니다(기본적으로 _일시 중지됨_일 수 있음). 원하는 모니터를 _Resume_(예: 활성화)하거나, Kubernetes 객체에 대한 사용자 지정 모니터를 생성할 수 있습니다. 이 경우 워크로드 맵도 사용됩니다.</block>
   <block id="cfd443d1fe6acb5a33edeb19eee876d8" category="section-title">지도</block>
-  <block id="15e3eddd185c05a5fb388c2cd109a194" category="paragraph">지도에는 서비스(워크로드라고도 함)와 상호 간의 관계가 표시됩니다. 화살표는 교통 방향을 표시합니다. 작업 부하 위로 마우스를 가져가면 다음 예에서와 같이 해당 작업 부하에 대한 요약 정보가 표시됩니다.</block>
   <block id="7e31e16b7e4d0bdec82f97e29845098b" category="inline-image-macro">워크로드 맵 워크로드의 예</block>
   <block id="05790ee528b0026e6b4e1c22baf014ea" category="paragraph"><block ref="05790ee528b0026e6b4e1c22baf014ea" category="inline-image-macro-rx" type="image"></block></block>
   <block id="42cecfeff00cc916fef4f64e7b921079" category="inline-xref">라벨</block>
@@ -10731,7 +10730,6 @@
   <block id="deb0475feb493ff82c79e1e3ae6d77ea" category="paragraph">지도에서 표시되는 워크로드 유형(예: 원 아이콘)을 식별하려면 워크로드 레이블이 필요합니다. 레이블은 다음과 같이 파생됩니다.</block>
   <block id="7bdbd3fbfd646718abde6244c5ef84ca" category="list-text">일반 용어로 실행 중인 서비스/애플리케이션의 이름입니다</block>
   <block id="8079e3a427e5574a8e11aee165eaa34a" category="list-text">소스가 POD인 경우:</block>
-  <block id="f5617cd916f968d6f57576092e33e68c" category="list-text">POD의 워크로드 레이블에서 파생됩니다</block>
   <block id="1cf01db723421f728c6d1ec366bc1525" category="list-text">작업 부하에 대한 예상 레이블: app.Kubernetes.io/component</block>
   <block id="f7a8098a415987972c499ac42c4b95f9" category="list-text">라벨 이름 참조:<block ref="625495fb7d70df26441db849ce9bb393" category="inline-link-rx"></block></block>
   <block id="1dbb5d26447acfe771d67c1e833d6d5a" category="list-text">권장 라벨:</block>
@@ -10741,10 +10739,6 @@
   <block id="0fea6a13c52b4d4725368f24b045ca84" category="list-text">캐시</block>
   <block id="a9d1cbf71942327e98b40cf5ef38a960" category="list-text">대기열</block>
   <block id="541661622185851c248b41bf0cea7ad0" category="list-text">카프카</block>
-  <block id="30231f87db181989dc6b48606b359f57" category="list-text">소스가 k8s 클러스터 외부에 있는 경우:</block>
-  <block id="2aa36d2124c1619305f749c6418c781f" category="list-text">DNS Resolved 이름을 구문 분석하고 서비스 유형을 추출합니다</block>
-  <block id="1c145c21f55cfe3b796f2a421f92f818" category="paragraph">예: s3.eu-north-1.amazonaws.com</block>
-  <block id="bf0940aef56e172d86f9f25d77945341" category="paragraph">확인된 이름을 구문 분석하여 S3을 가져옵니다</block>
   <block id="d487fd41764429863b69436bcc72483a" category="paragraph">NetApp은 제품과 서비스를 지속적으로 개선 및 개선하고 있습니다. 다음은 Cloud Insights의 상용 버전에서 사용할 수 있는 최신 기능 중 일부입니다.</block>
   <block id="a67cb8d242ecba5601e34e5b2dbdff12" category="admonition">이러한 기능 중 일부는 Cloud Insights Federal Edition에서 사용할 수 없거나 기능이 축소된 상태로 사용할 수 있습니다. 가능한 경우 이러한 차이는 설명서에 나와 있습니다.</block>
   <block id="904837c9cf9bc52a96ce17d051fddec9" category="section-title">2023년 4월</block>
@@ -10896,7 +10890,6 @@
   <block id="5f87ab561452069f2b8a72e3e1d6b9c5" category="sidebar">모니터링 오퍼레이터 시작하기</block>
   <block id="d443a554afc0274206e1dc6ca6c51767" category="sidebar">Kubernetes 모니터링 및 맵</block>
   <block id="8022a6c696c4f5ec847420e8ebe1de9e" category="doc">Kubernetes 네트워크 성능 모니터링 및 맵</block>
-  <block id="30d4cb002f857650eba9633e4a50ff2a" category="paragraph">Kubernetes Network Performance Monitoring 및 Map 기능은 Kubernetes 워크로드 간의 종속성을 매핑하여 문제 해결을 간소화합니다. Kubernetes 네트워크 성능 지연 시간 및 이상 징후를 실시간으로 파악하여 사용자에게 영향을 미치기 전에 성능 문제를 식별할 수 있습니다. 이 기능은 조직이 Kubernetes 트래픽 흐름을 분석하고 감사하여 전체 비용을 절감할 수 있도록 도와줍니다.</block>
   <block id="7d69190c63825bab664b2d4ce825918a" category="admonition">Kubernetes Network Performance Monitoring and Map은 입니다 <block ref="312c0c6b46ba32b4b11ba8c9da5788ed" category="inline-link-macro-rx"></block> 변경될 수 있습니다.</block>
   <block id="ee14ad38dfee48bc207f90920b1efb9f" category="paragraph">Kubernetes Network Performance Monitoring and Map을 사용하려면 먼저 을 구성해야 합니다 <block ref="f0d3e43e41da35ba651820db811551cd" category="inline-link-macro-rx"></block> 를 눌러 이 옵션을 활성화합니다. 오퍼레이터 배포 중에 "네트워크 성능 및 맵" 확인란을 선택하여 활성화합니다. Kubernetes 랜딩 페이지로 이동하여 "배포 수정"을 선택하여 이 옵션을 활성화할 수도 있습니다.</block>
   <block id="1d292eb6751a0db171502dec84f9f7c0" category="summary">NetApp Kubernetes Monitoring Operator는 다양한 구성 옵션을 제공합니다.</block>
@@ -11180,4 +11173,30 @@
   <block id="71841f704ed10618ca86f31ee6b5d043" category="paragraph">마찬가지로 _Find_ 필드에 문자열을 입력하면 일치하는 워크로드가 강조 표시됩니다.</block>
   <block id="75d129f3fd06394d5b75cb67aea1f2d8" category="inline-image-macro">찾기 상자에 입력하면 워크로드가 강조 표시됩니다</block>
   <block id="5ddf6f9c2416ad391ccea53c53433147" category="paragraph"><block ref="5ddf6f9c2416ad391ccea53c53433147" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="642d357bd708eba3d8ac3744a27588a3" category="paragraph">Kubernetes Network Performance Monitoring 및 Map 기능은 Kubernetes 서비스(워크로드라고도 함) 간의 종속성을 매핑하여 문제 해결을 간소화합니다. Kubernetes 네트워크 성능 지연 시간 및 이상 징후를 실시간으로 파악하여 사용자에게 영향을 미치기 전에 성능 문제를 식별할 수 있습니다. 이 기능은 조직이 Kubernetes 트래픽 흐름을 분석하고 감사하여 전체 비용을 절감할 수 있도록 도와줍니다.</block>
+  <block id="2e4063447ef8819aa5df170524b0bc11" category="paragraph">아래 개체 유형에 대해 Cloud Insights 메트릭 알림을 생성할 수 있습니다. 객체가 ID별로 그룹화되어 있는지 확인하십시오</block>
+  <block id="98f8d8a203eae9b3f98baf54dc4901f5" category="list-text">Kubernetes 워크로드</block>
+  <block id="d725c339f86ba7e7be92e93dcf7902bc" category="list-text">Kubernetes 발병</block>
+  <block id="caefb2c0b47809252c440b0c84abc26e" category="list-text">kubernetes.deployment</block>
+  <block id="da08d7cb113a582345e1c87537667bfd" category="list-text">cub네티스.crontjob을 제공합니다</block>
+  <block id="e8eeaeeace97ddc1d8d3fd0e2d727de6" category="list-text">Kubernetes, 작업</block>
+  <block id="2dd2185af8e18909d0c1f96b139ff088" category="list-text">복제 복제</block>
+  <block id="b11992f8220e27ed38a528aa3279ca6c" category="list-text">Kubernetes.statefulset입니다</block>
+  <block id="959158aaf864560f2a6da1c5111a2488" category="list-text">선택하십시오</block>
+  <block id="e5dd88b41415ccc9b96130968a48a25c" category="list-text">kubernetes.network_traffic_l4</block>
+  <block id="5b5c93dfe04a64ec52da6b4603542b2d" category="paragraph">지도에는 서비스/작업 부하 및 상호 관계가 표시됩니다. 화살표는 교통 방향을 표시합니다. 작업 부하 위로 마우스를 가져가면 다음 예에서와 같이 해당 작업 부하에 대한 요약 정보가 표시됩니다.</block>
+  <block id="85adf3862ca2037a273ff3441c2be5f9" category="list-text">레이블은 POD의 워크로드 레이블에서 파생됩니다</block>
+  <block id="cf568df890526e57bf700e2dc4b65a7c" category="list-text">소스가 Kubernetes 클러스터 외부에 있는 경우:</block>
+  <block id="87ff7926a3611a5c9e94e85db4fa5bea" category="list-text">Cloud Insights는 DNS 확인된 이름을 구문 분석하여 서비스 유형을 추출하려고 시도합니다.</block>
+  <block id="bd1a60f90cea9c1c50d2670c398e61e4" category="paragraph">예를 들어, DNS Resolved 이름이 _s3.eu-north-1.amazonaws.com _ 인 경우 Resolved 이름은 서비스 유형으로 get_s3_로 구문 분석됩니다.</block>
+  <block id="500b3306f51ddde04e4c6da822f4a0e1" category="section-title">깊이 잠들어 보세요</block>
+  <block id="85b2e2afff81bc570758ed245f94e0ab" category="paragraph">워크로드를 마우스 오른쪽 버튼으로 클릭하면 더 자세히 살펴볼 수 있는 추가 옵션이 제공됩니다. 예를 들어, 여기에서 해당 워크로드의 연결을 확대하여 볼 수 있습니다.</block>
+  <block id="382fe39fadd269cb6f5709f01bcb97f3" category="inline-image-macro">워크로드 맵 확대/축소를 마우스 오른쪽 버튼으로 클릭하여 워크로드의 연결을 표시합니다</block>
+  <block id="11cf13816a69e8f7513d902d787c018f" category="paragraph"><block ref="11cf13816a69e8f7513d902d787c018f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="08a268f9324eb2fedb3f30f6aed68c83" category="paragraph">또는 세부 정보 슬라이드 아웃 패널을 열어 _Summary_, _Network_ 또는 _Pod &amp; Storage_ 탭을 직접 볼 수 있습니다.</block>
+  <block id="c878025155cecb2c39acd2fc019a750c" category="inline-image-macro">Slideout Network 탭의 상세 예</block>
+  <block id="e1ad379a2729c042c49570a56d16450f" category="paragraph"><block ref="e1ad379a2729c042c49570a56d16450f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bc73b2df84aeadcf404198608adc15f8" category="paragraph">마지막으로, _자산 페이지로 이동 _ 을(를) 선택하면 워크로드에 대한 상세 자산 랜딩 페이지가 열립니다.</block>
+  <block id="1f77b1ef877148b891f2cb01d5adad8a" category="inline-image-macro">워크로드 자산 페이지</block>
+  <block id="208df78ccb496daba189129b4e1d9439" category="paragraph"><block ref="208df78ccb496daba189129b4e1d9439" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
