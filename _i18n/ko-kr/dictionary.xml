@@ -11062,8 +11062,6 @@
   <block id="0985e727a4acbbef2cbda2d09f233f71" category="paragraph">을 생성할 때 <block ref="86159816db28417491ca84970a5c9f33" category="inline-link-macro-rx"></block> 이제 Webhook 정의에 다음 매개 변수를 포함할 수 있습니다.</block>
   <block id="a74d2cb8815d758fcd21e0f39d62c54e" category="list-text">%%TriggeredOnKeys%%</block>
   <block id="dbf25e694d93c77b66ef93660f6694b1" category="list-text">%%TriggeredOnValues%%입니다</block>
-  <block id="32b3ebd0e320ec97f0624baeb622057a" category="section-title">Kubernetes PV 데이터 보고</block>
-  <block id="64c33d04c497ade8947e8eadc210caf4" category="paragraph">Cloud Insights에서 수집한 Kubernetes 영구 볼륨(PV) 정보를 이제 보고에서 사용할 수 있으므로 비용청구, 추세, 예측, TTF 계산, 기타 Kubernetes 클러스터, 네임스페이스, 워크로드 등에 대한 메트릭의 비즈니스 보고 기능을 제공합니다.</block>
   <block id="98f382d1962b023b2f9625686af82de9" category="section-title">새 고객에 대해 활성화된 기본 ONTAP 시스템 모니터</block>
   <block id="31330c4ff7fe349e530327f3c9b8295a" category="paragraph">새로운 Cloud Insights 환경에서는 많은 ONTAP 시스템 모니터가 기본적으로 활성화(즉, _재개_)됩니다. 이전 버전에서는 대부분의 모니터가 _ 일시 중지됨 _ 상태로 기본 설정되어 있습니다. 회사마다 비즈니스 요구 사항이 다르기 때문에 항상 을 살펴보는 것이 좋습니다 <block ref="6e23d996007e5a9ae1533f26f739ed3d" category="inline-link-macro-rx"></block> 사용자 환경에서 경고 요구에 따라 각 항목을 일시 중지하거나 다시 시작합니다.</block>
   <block id="07771c0af5efde2b4fbae3151b85a7ae" category="paragraph">Microsoft Hyper-V 데이터 수집기는 가상화된 서버 컴퓨팅 환경에서 인벤토리 및 성능 데이터를 가져옵니다. 이 데이터 수집기는 독립 실행형 Hyper-V 호스트를 검색할 수도 있고, 전체 클러스터를 검색할 수도 있습니다. 독립 실행형 호스트 또는 클러스터당 하나의 Collector를 생성할 수도 있습니다.</block>
@@ -11199,4 +11197,7 @@
   <block id="208df78ccb496daba189129b4e1d9439" category="paragraph"><block ref="208df78ccb496daba189129b4e1d9439" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2ec69e962ebca3d9f0e5279aa138f19a" category="paragraph">아래 개체 유형에 대해 Cloud Insights 메트릭 알림을 생성할 수 있습니다. 데이터가 기본 개체 유형별로 그룹화되어 있는지 확인합니다.</block>
   <block id="50d6312212b08c0755c2248f03f03828" category="admonition">이 데이터 수집기는 2023년 4월 4일부터 Cloud Insights에 설치할 수 없으며 2023년 7월 모든 Cloud Insights 설치에서 제거될 예정입니다. AU 기반 데이터 수집으로 전환하는 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="334c0315e59c6351d5f9bac4d495b3ee" category="inline-link-macro-rx"></block>.</block>
+  <block id="be00894fb094481f332cdeb18d58160f" category="section-title">Kubernetes 데이터에 대한 리포팅</block>
+  <block id="2d8296af8d7a0918f208034f2cd5fe1f" category="paragraph">Cloud Insights는 이제 PV, PVC, 워크로드, 클러스터 및 네임스페이스를 포함한 모든 Kubernetes 데이터에 대해 보고를 수행할 수 있습니다.</block>
+  <block id="aa0a317cf28a0f0d299d7319c70613b5" category="paragraph">PV(영구적 볼륨), PVC, 워크로드, 클러스터, 네임스페이스를 비롯한 Cloud Insights에서 수집된 Kubernetes 데이터를 이제 보고, 차지백, 추세, 예측, TTF 계산, 기타 Kubernetes 메트릭의 비즈니스 보고 기능을 제공합니다.</block>
 </blocks>

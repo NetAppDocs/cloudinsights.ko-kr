@@ -60,9 +60,11 @@ image:StorageVirtualization_StorageSummary.png["가상 스토리지 및 백업 �
 
 
 
-=== Kubernetes PV 데이터 보고
+=== Kubernetes 데이터에 대한 리포팅
 
-Cloud Insights에서 수집한 Kubernetes 영구 볼륨(PV) 정보를 이제 보고에서 사용할 수 있으므로 비용청구, 추세, 예측, TTF 계산, 기타 Kubernetes 클러스터, 네임스페이스, 워크로드 등에 대한 메트릭의 비즈니스 보고 기능을 제공합니다.
+Cloud Insights는 이제 PV, PVC, 워크로드, 클러스터 및 네임스페이스를 포함한 모든 Kubernetes 데이터에 대해 보고를 수행할 수 있습니다.
+
+PV(영구적 볼륨), PVC, 워크로드, 클러스터, 네임스페이스를 비롯한 Cloud Insights에서 수집된 Kubernetes 데이터를 이제 보고, 차지백, 추세, 예측, TTF 계산, 기타 Kubernetes 메트릭의 비즈니스 보고 기능을 제공합니다.
 
 
 
