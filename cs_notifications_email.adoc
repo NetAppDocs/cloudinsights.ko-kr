@@ -38,3 +38,23 @@ _Warning_notifications를 보내려면 _Send Warning Alerts_ 섹션에 받는 �
 * Active Directory 수집 장애는 경고로 보고되며 랜섬웨어 감지에 영향을 주지 않습니다.
 * 이제 시작 설정 목록에 새 _Configure email notifications_단계가 포함됩니다.
 
+
+
+
+== Agent 및 Data Collector 업그레이드 알림 수신
+
+* "데이터 수집 상태 알림"에 이메일 ID를 입력합니다.
+* "업그레이드 알림 사용" 확인란이 활성화됩니다.
+* 에이전트 및 Data Collector 업그레이드 e-메일 알림은 예정된 업그레이드 하루 전에 e-메일 ID로 전송됩니다.
+
+
+
+
+== 문제 해결
+
+|===
+| * 문제: * | * 사용해 보세요. * 
+
+
+| "Data Collector 상태 알림"에 이메일 ID가 있지만 알림을 받지 않습니다. | 알림 이메일은 NetApp Cloud Insights 도메인, 즉 _accounts@service.cloudinsights.netapp.com_ 에서 전송됩니다. 일부 회사는 외부 도메인에서 들어오는 이메일을 차단합니다. NetApp Cloud Insights 도메인의 외부 알림이 화이트리스트되었는지 확인합니다. 
+|===
