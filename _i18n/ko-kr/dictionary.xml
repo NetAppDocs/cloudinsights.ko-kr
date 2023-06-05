@@ -303,9 +303,7 @@
   <block id="5439b902968ffabf767c31e6ae62e61b" category="summary">잠재적 공격(예: 랜섬웨어) 및/또는 활동 경고에 대해 자동화된 응답 정책을 설정할 수 있습니다</block>
   <block id="df6a21f670066b82b5409a049dec0efe" category="doc">자동 응답 정책</block>
   <block id="e5da02c738b911c42fb0a45a5b76c8d9" category="paragraph">응답 정책은 공격 또는 비정상적인 사용자 동작이 발생하는 경우 스냅샷을 생성하거나 사용자 액세스를 제한하는 등의 작업을 트리거합니다.</block>
-  <block id="4a2c418e248f1a17cef7314e84e4d21f" category="paragraph">특정 장치 또는 모든 장치에 정책을 설정할 수 있습니다. 응답 정책을 설정하려면 * Admin &gt; Automated Response Policies * 를 선택하고 해당 * + Policy + 버튼을 클릭합니다. 공격에 대한 정책 또는 경고에 대한 정책을 만들 수 있습니다.</block>
   <block id="74caaeae1f2607ea4824df314e3bd233" category="inline-image-macro">공격 정책 생성</block>
-  <block id="96dd8b86864f9c90bf0289c5f7b02b4d" category="paragraph"><block ref="96dd8b86864f9c90bf0289c5f7b02b4d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="10519a96ebde07deba902eb606bf97ff" category="paragraph">고유한 이름으로 정책을 저장해야 합니다.</block>
   <block id="168e31fead9fc72274b5723b0c86d27f" category="paragraph">자동 응답 작업(예: 스냅샷 생성)을 사용하지 않으려면 해당 작업을 선택 해제하고 정책을 저장하면 됩니다.</block>
   <block id="3218ac0e5f26253bd8724ab98d8f5e02" category="inline-link-macro">경고 세부 정보 페이지</block>
@@ -11205,4 +11203,6 @@
   <block id="f7e530357a9fe13372b34f49bcbf5513" category="list-text">에이전트 및 Data Collector 업그레이드 e-메일 알림은 예정된 업그레이드 하루 전에 e-메일 ID로 전송됩니다.</block>
   <block id="be8e3ac01b05912cba21f26369a5a852" category="cell">"Data Collector 상태 알림"에 이메일 ID가 있지만 알림을 받지 않습니다.</block>
   <block id="9080956b20cd0e2cc8124ec3684655c3" category="cell">알림 이메일은 NetApp Cloud Insights 도메인, 즉 _accounts@service.cloudinsights.netapp.com_ 에서 전송됩니다. 일부 회사는 외부 도메인에서 들어오는 이메일을 차단합니다. NetApp Cloud Insights 도메인의 외부 알림이 화이트리스트되었는지 확인합니다.</block>
+  <block id="8816114441548a7f4d390de764f25ad9" category="paragraph">특정 장치 또는 모든 장치에 정책을 설정할 수 있습니다. 응답 정책을 설정하려면 * Admin &gt; Automated Response Policies * 를 선택하고 해당 * + Policy * 버튼을 클릭합니다. 공격에 대한 정책 또는 경고에 대한 정책을 만들 수 있습니다.</block>
+  <block id="7ee8aae70113b376d8eb550719ded4da" category="paragraph"><block ref="7ee8aae70113b376d8eb550719ded4da" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
