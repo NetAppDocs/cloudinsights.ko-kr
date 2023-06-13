@@ -10854,7 +10854,6 @@
   <block id="aa3a0177193f5479812eadbbb3e6c303" category="cell">텔레그라프</block>
   <block id="0c8011c6947aae43789eb8972c306e85" category="cell">작업자의 Telegraf 설치를 사용자 정의할 수 있는 구성 옵션</block>
   <block id="fe071453b5b9af9d9a481afb504f78cb" category="cell">수집 간격</block>
-  <block id="ddc880d728f800827e372a1d2f48313a" category="cell">메트릭 수집 간격(초</block>
   <block id="2129471bf14899d19206e2b1aa6c00ca" category="cell">dsCpuLimit 를 선택합니다</block>
   <block id="718918f6bff9fdd2a6292afbe4549d0b" category="cell">Telegraf DS의 CPU 제한</block>
   <block id="5eeea2f6351dff2df3a80bcff5cdd5be" category="cell">dsMemLimit</block>
@@ -11211,4 +11210,5 @@
 접두어 기반 검색을 사용하여 지정된 폴더 아래에 있는 모든 활동을 반복(계층적 검색)합니다. 예: _/path1/path2/path3_ 또는 _ "/path1/path2/path3" _/path1/path2/path3_ 아래에 모든 활동이 재귀적으로 나열됩니다.
 또는 모든 활동 탭의 "필터에 추가" 옵션을 사용합니다.</block>
   <block id="119a624f6eb573c06e0ae3a7429c9891" category="list-text">* 채팅 * - NetApp 지원 담당자와 연결하여 지원을 받을 수 있습니다(평일에만 해당). 채팅은 Cloud Insights 화면 오른쪽 상단의 * 도움말 &gt; 라이브 채팅 * 메뉴 옵션에서 사용할 수 있습니다.</block>
+  <block id="43087b2e6dfc2a4eecd03be4305fb0cb" category="cell">메트릭 수집 간격(초)(최대 = 60초)</block>
 </blocks>

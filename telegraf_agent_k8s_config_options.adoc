@@ -39,7 +39,7 @@ NetApp Kubernetes Monitoring Operator 설치 및 구성을 사용자 지정할 �
 | 텔레그라프 |  | 작업자의 Telegraf 설치를 사용자 정의할 수 있는 구성 옵션 
 
 
-|  | 수집 간격 | 메트릭 수집 간격(초 
+|  | 수집 간격 | 메트릭 수집 간격(초)(최대 = 60초) 
 
 
 |  | dsCpuLimit 를 선택합니다 | Telegraf DS의 CPU 제한 
