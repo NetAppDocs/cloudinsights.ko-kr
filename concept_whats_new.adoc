@@ -25,6 +25,61 @@ NOTE: 이러한 기능 중 일부는 Cloud Insights Federal Edition에서 사용
 
 
 
+== 2023년 6월
+
+
+
+=== 사용 현황을 확인합니다
+
+2023년 6월부터 Cloud Insights는 기능 세트를 기준으로 관리되는 장치 사용에 대한 분석을 제공합니다. 이제 인프라의 관리 장치(MU) 사용량과 Kubernetes와 연결된 MU 사용량을 빠르게 확인하고 모니터링할 수 있습니다.
+
+image:Metering_Usage.png["사용량 측정 브레이크다운"]
+
+
+
+=== Kubernetes Network Monitoring and Map은 모든 경우에 사용할 수 있습니다
+
+를 클릭합니다 link:concept_kubernetes_network_monitoring_and_map.html["_Kubernetes 네트워크 성능 및 맵 _"] Kubernetes 워크로드 간의 종속성을 매핑하여 문제 해결을 단순화함으로써 Kubernetes 네트워크 성능 지연 시간 및 이상 징후를 실시간으로 파악하여 사용자에게 영향을 미치기 전에 성능 문제를 식별합니다. 많은 고객이 미리 보기 중에 유용하다고 확인했으며, 이제 모두가 즐길 수 있습니다.
+
+
+
+=== 보고
+
+Cloud Insights의 보고 구성 요소는 "Cloud Insights 분석"으로 이름이 재지정되었습니다. 하지만 걱정하지 마십시오. 기능은 그대로 유지됩니다.
+
+
+
+=== 수집기/획득 변경:
+
+다음 데이터 수집기/획득 장치 변경 사항이 있습니다.
+
+* Data Domain 및 Cohesity MU는 40TiB:1MU로 측정됩니다.
+* 이제 인수 장치는 RHEL 및 Rocky 9.0 및 9.1을 지원합니다.
+
+
+
+
+=== 새로운 ONTAP Essentials 대시보드
+
+다음 ONTAP Essentials 대시보드는 미리 보기 환경에서 사용할 수 있으며 이제 모든 사용자가 사용할 수 있습니다.
+
+* 보안 대시보드
+* 데이터 보호 대시보드(로컬 및 원격 보호 개요 포함)
+
+
+
+
+=== 추가 시스템 모니터
+
+Cloud Insights에는 다음과 같은 시스템 모니터가 포함되어 있습니다.
+
+* 스토리지 VM FCP 서비스를 사용할 수 없습니다
+* 스토리지 VM iSCSI 서비스를 사용할 수 없습니다
+
+
+'''
+
+
 == 2023년 5월
 
 

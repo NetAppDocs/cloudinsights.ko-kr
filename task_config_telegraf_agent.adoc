@@ -50,6 +50,17 @@ NOTE: 프록시를 사용하는 경우 Telegraf 에이전트를 설치하기 전
 
 
 
+=== 로그 위치
+
+Telegraf 로그 메시지는 기본적으로 stdout에서 다음 로그 파일로 리디렉션됩니다.
+
+* RHEL/CentOS:/var/log/Telegraf/telegraf.log
+* Ubuntu/Debian:/var/log/Telegraf/telegraf.log
+* Windows:C:\Program Files\Telegraf\telegraf.log
+
+
+
+
 === Windows
 
 
