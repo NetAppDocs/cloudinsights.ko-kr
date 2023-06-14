@@ -5,7 +5,17 @@ keywords: Acquisition Unit, AU, install, configure, Linux, add, remove, uninstal
 summary: 획득 장치 Windows 및 Linux에서 프록시 지원 설치, 제거, 구성 등. 
 ---
 = 획득 장치 구성
+:toc: macro
+:hardbreaks:
+:toclevels: 1
 :allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
 
 
 [role="lead"]

@@ -5,7 +5,17 @@ summary: Reporting과 함께 사용할 데이터 웨어하우스 스키마 다�
 keywords: dwh, data warehouse, schema, reporting 
 ---
 = 보고를 위한 Cloud Insights 스키마
+:toc: macro
+:hardbreaks:
+:toclevels: 1
 :allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
 
 
 [role="lead"]

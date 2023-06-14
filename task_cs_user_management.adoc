@@ -5,7 +5,17 @@ keywords: Workload Security, User, Login, account, cloud secure
 summary: 워크로드 보안 사용자 계정은 Cloud Insights 사용자 관리를 통해 관리됩니다 
 ---
 = 사용자 관리
+:toc: macro
+:hardbreaks:
+:toclevels: 1
 :allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
 
 
 [role="lead"]

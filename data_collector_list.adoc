@@ -5,7 +5,17 @@ summary: 지원되는 데이터 수집기 목록입니다.
 keywords: data collector, vendor, infrastructure, integration, service 
 ---
 = Cloud Insights 데이터 수집기 목록
+:toc: macro
+:hardbreaks:
+:toclevels: 1
 :allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
 
 
 [role="lead"]

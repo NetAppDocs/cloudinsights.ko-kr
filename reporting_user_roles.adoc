@@ -5,7 +5,17 @@ summary: Cloud Insights 보고를 사용하여 수행할 수 있는 작업은 �
 keywords: reporting, cognos, data warehouse, dwh, users, roles, user roles 
 ---
 = Cloud Insights 보고 사용자 역할
+:toc: macro
+:hardbreaks:
+:toclevels: 2
 :allow-uri-read: 
+:toc: 
+:toclevels: 2
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
 
 
 [role="lead"]

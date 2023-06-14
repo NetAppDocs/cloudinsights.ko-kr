@@ -5,14 +5,25 @@ summary: 쿼리 수정 또는 삭제
 keywords: query, queries, modify, edit, delete, remove 
 ---
 = 쿼리 수정 또는 삭제
+:toc: macro
+:hardbreaks:
+:toclevels: 1
 :allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
 
+
+[role="lead]"]
+쿼리 중인 자산에 대한 검색 기준을 변경하려는 경우 쿼리와 연결된 조건을 변경할 수 있습니다.
 
 
 
 == 쿼리 수정
-
-쿼리 중인 자산에 대한 검색 기준을 변경하려는 경우 쿼리와 연결된 조건을 변경할 수 있습니다.
 
 .단계
 . 쿼리 * 를 클릭하고 * 모든 쿼리 표시 * 를 선택합니다.

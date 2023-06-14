@@ -1,0 +1,176 @@
+---
+sidebar: sidebar 
+permalink: task_install_manual_au.html 
+keywords: Acquisition Unit, AU, install, configure, Linux, add, remove, uninstall, delete, deleting, move, moving 
+summary: AU 소프트웨어가 수동으로 업데이트되도록 Cloud Insights를 구성하여 사용자 환경에 설치된 소프트웨어를 보다 효과적으로 제어할 수 있습니다. 
+---
+= 획득 장치 소프트웨어 수동 설치
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+기본적으로 Cloud Insights는 업데이트가 배포되면 자동으로 획득 장치(AU) 소프트웨어를 업데이트합니다. 그러나 보안 제어 환경에서는 자동 업데이트가 불가능하거나 불가능할 수 있습니다.  이러한 경우 AU 소프트웨어를 수동으로 업데이트하도록 Cloud Insights를 구성하여 사용자 환경에 설치된 소프트웨어를 보다 효과적으로 제어할 수 있습니다.
+
+AU 소프트웨어를 수동으로 다운로드하고 설치하려면 다음 단계를 수행하십시오. Cloud Insights는 이러한 여러 단계에 사용할 수 있는 유용한 Swagger 설명서 페이지를 제공하거나, 고유의 API 스크립트/명령을 사용할 수 있습니다. 관리자 > API 액세스로 이동하고 “API 설명서” 링크를 클릭합니다.
+
+이 프로세스는 Linux와 Windows에서 유사합니다.
+
+
+
+=== Linux에서 새 AU 설치 수행:
+
+. Cloud Insights에서 API 토큰을 생성합니다.
++
+.. Admin > API Access * 로 이동하여 * + API Access Token * 을 선택합니다.
++
+... 쉽게 식별할 수 있는 * 이름 * 및 * 설명 * 을 설정합니다
+... 유형: * 획득 장치 *
+... 권한: * 읽기/쓰기 *
+... 원하는 * 만료 * 및 * 자동 갱신 * 값을 선택합니다
+
+
+.. 저장 * 을 클릭합니다
+.. 생성된 API 액세스 토큰을 복사합니다. 창을 닫으려면 이 단계를 수행해야 합니다.
+
+
+
+
+image:Manual_AU_Create_API_Token.png[""]
+
+. Swagger(관리자 > API 액세스 > API 설명서)에서 토큰을 사용하여 Cloud Insights API를 승인합니다
++
+.. Swagger 화면의 오른쪽 상단에서 _authorize_를 클릭합니다
+.. 위에서 복사한 토큰을 고객 APIKey 필드에 붙여 넣습니다
+.. authorize * 를 클릭합니다
+.. 창을 닫습니다
+
+
+
+
+image:Manual_AU_Authorization.png[""]
+
+. AU Installer를 다운로드 하려면 _/au/installers/{platform}/latest_or_/au/installers/{platform}/{version}_api:
++
+.. 플랫폼: * Linux *
+.. 버전: * <version> * (최신 또는 지정된 버전)
+
+
+
+
+image:Manual_AU_API_Retrieve_latest.png["API를 사용하여 최신 AU 버전을 검색합니다"]
+
+
+NOTE: 최신 버전을 다운로드하지 않는 경우 NetApp에서 다운로드할 AU 버전을 지정합니다.
+
+. 파일 다운로드 * 를 클릭합니다. AU 시스템이 아닌 시스템에서 이러한 단계를 수행하는 경우 다운로드한 파일을 AU 시스템에 복사합니다.
+. 또는 AU 시스템에서 표시되는 curl 명령을 실행할 수 있습니다.
++
+ curl -X GET "<tenant>/rest/v1/au/installers/linux/<AU version>" -H "accept: application/octet-stream" -H "X-CloudInsights-ApiKey: <token>"
+. 이때 AU 시스템에 설치 관리자 파일이 있어야 합니다.
+
+
+
+IMPORTANT: 다음 단계에서는 임시 토큰을 사용해야 합니다. 위에서 생성한 API 액세스 토큰을 사용하지 마십시오.
+
+. Cloud Insights API 스위거에서 _/au/oneTimeToken_API를 사용하여 일회성 토큰을 생성합니다.
++
+.. 결과 1회 사용 토큰을 복사합니다.
+
+
+
+
+image:Manual_AU_one_time_token.png[""]
+image:Manual_AU_one_time_token_response.png[""]
+
+. AU가 설치될 컴퓨터에서 다운로드한 설치 관리자 파일이 들어 있는 폴더로 이동합니다. 아래 명령을 사용하려면 사용자에게 루트 권한이 있어야 합니다.
++
+.. 설치 프로그램 파일의 압축을 풉니다
+.. 디렉토리를 결과 설치 프로그램 폴더로 변경합니다
+.. 다음을 실행하여 일회성 토큰 및 설치 관리자 버전을 환경 변수로 내보냅니다.
++
+ export TOKEN=<One-Time Token>
+.. 다음을 실행하여 사용자 정의 사용자 및 그룹과 함께 CI를 설치합니다.
++
+ ./cloudinsights-install.sh <custom user> <custom group>
++
+참고: 사용자 지정 사용자 및 그룹을 사용하지 않으려면 기본 "csys" 사용자 및 그룹을 사용할 수 있습니다.  이 경우 위의 설치 명령을 실행하되 사용자 및 그룹을 지정하지 마십시오.
+
+
+
+
+
+이때 AU 소프트웨어는 시스템에 설치되며 사용자 지정 사용자 및 그룹에서 액세스할 수 있습니다. 그러나 데이터 수집기를 추가할 수 있는 기능은 없습니다. 이 작업을 수동으로 수행하려면 datasources.war 파일을 적절한 위치에 복사해야 합니다.
+
+. datasources.war의 소스 위치로 이동하여 zip 파일을 확인합니다.
++
+....
+cd /opt/netapp/cloudinsights/acq
+ls -al
+…
+-rw-rw----  1 test-user1 test-group1 282103053 Mar 12 12:27 datasources-war-<version>>.zip
+…
+....
+. 기본 datasources.war 폴더에 대한 권한을 확인합니다.
++
+....
+ls -al /var/lib/netapp/cloudinsights/acq/
+…
+drwxrwx--- 2 test-user1 test-group-1  4096 Feb 16 10:10 datasources.war
+…
+....
+. 다음 단계를 수행하려면 사용자 지정 사용자로 전환(또는 루트 로그아웃 및 로그인)해야 합니다.
++
+ su <custom user>
++
+.. 참고: 기본 "csys" 사용자 및 그룹을 사용하는 경우 이 단계를 수행할 필요가 없습니다.
+.. 참고: 사용자 지정 사용자는 AU 설치 중에 cloudinsights-install.sh 에 제공한 사용자 지정 그룹의 구성원일 수 있으며, AU 설치 중에 제공한 사용자 지정 사용자와 같거나 다를 수 있습니다.
+
+
+. 작업 폴더를 만들고 해당 폴더에 대해 동일한 권한으로 조정합니다.
++
+....
+mkdir /var/lib/netapp/cloudinsights/acq/download
+chmod 770 /var/lib/netapp/cloudinsights/acq/download
+ls -al /var/lib/netapp/cloudinsights/acq
+…
+drwxrwx--- 2 test-user2 test-group-1  4096 Feb 16 10:10 datasources.war
+…
+....
++
+.. 참고: "csys" 사용자 및 그룹을 사용하는 경우 위의 출력에 표시됩니다.
+
+
+. datasources-war-<version>.zip_을 작업 폴더로 복사합니다. 예를 들면 다음과 같습니다.
++
+ cp /opt/netapp/cloudinsights/acq/ TBD/var/lib/netapp/cloudinsights/acq/download
+. 다운로드 폴더로 변경하고 파일의 압축을 풉니다.
++
+ cd /var/lib/netapp/cloudinsights/acq/download
++
+....
+unzip datasources-war-<version>.zip -d /var/lib/netapp/cloudinsights/acq/datasources.war/
+ls -al /var/lib/netapp/cloudinsights/acq/datasources.war
+....
++
+.. 모든 파일에 대해 사용자, 그룹 및 권한이 올바른지 확인합니다.
++
+ -rw-rw---- 1 test-user2 test-group1  3420067 Mar 10 17:20 netapp_ontap.jar
+
+
+. 참고: 다른 사용자 지정 사용자를 사용하여 AU를 관리하려는 경우 소유자와 그룹 모두에 대해 그룹 권한이 읽기 및 쓰기로 설정되어 있는지 확인하십시오(_chmod 660…_).
+. AU를 다시 시작합니다.
++
+.. Cloud Insights에서 * Admin > Data Collector * 로 이동하고 * Acquisition Units * 탭을 선택합니다. AU 오른쪽의 "점 3개" 메뉴에서 _Restart_를 선택합니다.
+
+
+

@@ -5,7 +5,17 @@ keywords: data collector, IBM, DS4000
 summary: IBM TotalStorage DS4000 데이터 수집기 
 ---
 = IBM TotalStorage DS4000 데이터 수집기
+:toc: macro
+:hardbreaks:
+:toclevels: 2
 :allow-uri-read: 
+:toc: 
+:toclevels: 2
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
 
 
 [role="lead"]
@@ -15,7 +25,7 @@ summary: IBM TotalStorage DS4000 데이터 수집기
 
 == 용어
 
-Cloud Insightst는 IBM DS4000 데이터 수집기에서 다음과 같은 인벤토리 정보를 가져옵니다. 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
+Cloud Insights는 IBM DS4000 데이터 수집기에서 다음과 같은 인벤토리 정보를 가져옵니다. 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
 
 [cols="2*"]
 |===

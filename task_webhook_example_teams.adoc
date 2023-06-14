@@ -5,10 +5,20 @@ keywords: webhook, notification, Microsoft, Teams, integration
 summary: Microsoft 팀의 성능 또는 인벤토리 임계값에 대한 알림을 제공하는 웹 후크를 만듭니다 
 ---
 = Webhook Microsoft 팀의 예
+:toc: macro
+:hardbreaks:
+:toclevels: 1
 :allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
 
 
-[role="lead lead"]
+[role="lead"]
 Webhook을 사용하면 사용자 지정된 Webhook 채널을 사용하여 다양한 응용 프로그램에 경고 알림을 보낼 수 있습니다. 이 페이지에서는 팀을 위한 Webhook을 설정하는 예를 제공합니다.
 
 

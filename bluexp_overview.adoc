@@ -5,7 +5,17 @@ summary: 단일 제어 플레인에서 하이브리드 멀티 클라우드 데�
 keywords: bluexp, cloud manager, cm, storage, data, services, integrated 
 ---
 = Cloud Insights는 BlueXP의 일부입니다
+:toc: macro
+:hardbreaks:
+:toclevels: 2
 :allow-uri-read: 
+:toc: 
+:toclevels: 2
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
 
 
 [role="lead"]

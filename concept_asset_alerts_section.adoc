@@ -5,7 +5,17 @@ summary: Cloud Insights의 자산 페이지 관련 경고 섹션 개요
 keywords: asset, landing page, violations, Alerts, 
 ---
 = 자산 페이지 관련 경고 섹션
+:toc: macro
+:hardbreaks:
+:toclevels: 2
 :allow-uri-read: 
+:toc: 
+:toclevels: 2
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
 
 
 [role="lead"]

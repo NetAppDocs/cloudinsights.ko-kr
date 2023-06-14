@@ -5,7 +5,17 @@ summary: 이 절차를 사용하여 미리 정의된 Cloud Insights 보고서를
 keywords: reporting, cognos, data warehouse, dwh, create, report 
 ---
 = 보고서 작성(예)
+:toc: macro
+:hardbreaks:
+:toclevels: 2
 :allow-uri-read: 
+:toc: 
+:toclevels: 2
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
 
 
 [role="lead"]

@@ -5,7 +5,17 @@ summary: Cloud Insights 객체 아이콘 참조.
 keywords: icons, assets, objects, reference 
 ---
 = 개체 아이콘 참조
+:toc: macro
+:hardbreaks:
+:toclevels: 1
 :allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
 
 
 [role="lead"]

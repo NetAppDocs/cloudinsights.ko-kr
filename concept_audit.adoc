@@ -5,7 +5,17 @@ keywords: audit, users, activities
 summary: Audit Cloud Insights 시스템의 시스템 및 사용자 활동을 보여 줍니다. 
 ---
 = 감사
+:toc: macro
+:hardbreaks:
+:toclevels: 1
 :allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
 
 
 [role="lead"]

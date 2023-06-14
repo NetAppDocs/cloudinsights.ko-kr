@@ -5,7 +5,17 @@ keywords: notifications, annotations, queries, applications,
 summary: IO 밀도 
 ---
 = 입출력 밀도 데이터가 내부 데이터 볼륨만 기술하도록 보장
+:toc: macro
+:hardbreaks:
+:toclevels: 1
 :allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
 
 
 [role="lead"]
