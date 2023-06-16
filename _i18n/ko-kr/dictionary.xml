@@ -11261,4 +11261,5 @@
   <block id="c894bcc14d41b007df81ed9d077a249c" category="list-text">AU를 다시 시작합니다.</block>
   <block id="cd949e1f65deb02e57f3144acb21e0aa" category="list-text">Cloud Insights에서 * Admin &gt; Data Collector * 로 이동하고 * Acquisition Units * 탭을 선택합니다. AU 오른쪽의 "점 3개" 메뉴에서 _Restart_를 선택합니다.</block>
   <block id="c35a33c9875991494585fbfbed175784" category="paragraph">를 클릭합니다 <block ref="f0d3e43e41da35ba651820db811551cd" category="inline-link-macro-rx"></block> 설치 및 구성을 사용자 지정할 수 있습니다.</block>
+  <block id="8d44687186d37f705aa7f2282722aeb5" category="sidebar">모니터링 오퍼레이터 옵션</block>
 </blocks>
