@@ -19,7 +19,7 @@ summary: NetApp Kubernetes Monitoring Operator는 다양한 구성 옵션을 제
 
 
 [role="lead"]
-NetApp Kubernetes Monitoring Operator 설치 및 구성을 사용자 지정할 수 있습니다.
+를 클릭합니다 link:task_config_telegraf_agent_k8s.html["NetApp Kubernetes 모니터링 운영자"] 설치 및 구성을 사용자 지정할 수 있습니다.
 
 아래 표에는 AgentConfiguration 파일에 사용할 수 있는 옵션이 나와 있습니다.
 
@@ -41,9 +41,6 @@ NetApp Kubernetes Monitoring Operator 설치 및 구성을 사용자 지정할 �
 
 
 |  | 프록시 형식: proxy:server:port:username:password:nProxy:isTelegyxyEnabled:isAuProxyEnabled:isFluentbitProxyEnabled:isCollectionorProxyEnabled:isCollectorProxyEnabled: | 고객이 프록시를 설정할 수 있는 옵션입니다. 일반적으로 고객 회사 대리점입니다. 
-
-
-|  | agentUUID입니다 | 모든 Cloud Insights 연산자 설치에서 고유하게 식별되는 문자열입니다. 이 설정은 일반적으로 Cloud Insights에서 자동으로 설정합니다. 
 
 
 | 텔레그라프 |  | 작업자의 Telegraf 설치를 사용자 정의할 수 있는 구성 옵션 

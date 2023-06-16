@@ -10833,7 +10833,6 @@
   <block id="ee14ad38dfee48bc207f90920b1efb9f" category="paragraph">Kubernetes Network Performance Monitoring and Map을 사용하려면 먼저 을 구성해야 합니다 <block ref="f0d3e43e41da35ba651820db811551cd" category="inline-link-macro-rx"></block> 를 눌러 이 옵션을 활성화합니다. 오퍼레이터 배포 중에 "네트워크 성능 및 맵" 확인란을 선택하여 활성화합니다. Kubernetes 랜딩 페이지로 이동하여 "배포 수정"을 선택하여 이 옵션을 활성화할 수도 있습니다.</block>
   <block id="1d292eb6751a0db171502dec84f9f7c0" category="summary">NetApp Kubernetes Monitoring Operator는 다양한 구성 옵션을 제공합니다.</block>
   <block id="57e4cf9437210e6248eb8a2137609c4e" category="doc">NetApp Kubernetes 모니터링 오퍼레이터 구성 옵션</block>
-  <block id="fb1f92a623639f258302e35ca56fe965" category="paragraph">NetApp Kubernetes Monitoring Operator 설치 및 구성을 사용자 지정할 수 있습니다.</block>
   <block id="7753286779cc80ff196972ced13aef62" category="paragraph">아래 표에는 AgentConfiguration 파일에 사용할 수 있는 옵션이 나와 있습니다.</block>
   <block id="b33aed8f3134996703dc39f9a7c95783" category="cell">에이전트</block>
   <block id="4e49d105e5ecfd95da78eb980f698488" category="cell">운용자가 설치할 수 있는 모든 구성품에 공통으로 적용되는 구성 옵션. 이러한 옵션은 "글로벌" 옵션으로 간주할 수 있습니다.</block>
@@ -10845,8 +10844,6 @@
   <block id="c21207144818cb50a67a3aa45ad90cc1" category="cell">모든 고객 클러스터에서 클러스터를 고유하게 식별하는 자유 텍스트 필드입니다. 이는 Cloud Insights 테넌트 전체에서 고유해야 합니다. 기본값은 고객이 "클러스터 이름" 필드의 UI에 입력하는 것입니다</block>
   <block id="b5249bb082b669e275606cdef10879b6" category="cell">프록시 형식: proxy:server:port:username:password:nProxy:isTelegyxyEnabled:isAuProxyEnabled:isFluentbitProxyEnabled:isCollectionorProxyEnabled:isCollectorProxyEnabled:</block>
   <block id="f430d84b3603b6c921d2a45741baab1e" category="cell">고객이 프록시를 설정할 수 있는 옵션입니다. 일반적으로 고객 회사 대리점입니다.</block>
-  <block id="268e939178fee1d0125caa135f483ac0" category="cell">agentUUID입니다</block>
-  <block id="53984dbf2cd283b6f60a1ba6a7af0c10" category="cell">모든 Cloud Insights 연산자 설치에서 고유하게 식별되는 문자열입니다. 이 설정은 일반적으로 Cloud Insights에서 자동으로 설정합니다.</block>
   <block id="aa3a0177193f5479812eadbbb3e6c303" category="cell">텔레그라프</block>
   <block id="0c8011c6947aae43789eb8972c306e85" category="cell">작업자의 Telegraf 설치를 사용자 정의할 수 있는 구성 옵션</block>
   <block id="fe071453b5b9af9d9a481afb504f78cb" category="cell">수집 간격</block>
@@ -11263,4 +11260,5 @@
   <block id="a0698382f5e68c4355ea29e32842015d" category="list-text">참고: 다른 사용자 지정 사용자를 사용하여 AU를 관리하려는 경우 소유자와 그룹 모두에 대해 그룹 권한이 읽기 및 쓰기로 설정되어 있는지 확인하십시오(_chmod 660…_).</block>
   <block id="c894bcc14d41b007df81ed9d077a249c" category="list-text">AU를 다시 시작합니다.</block>
   <block id="cd949e1f65deb02e57f3144acb21e0aa" category="list-text">Cloud Insights에서 * Admin &gt; Data Collector * 로 이동하고 * Acquisition Units * 탭을 선택합니다. AU 오른쪽의 "점 3개" 메뉴에서 _Restart_를 선택합니다.</block>
+  <block id="c35a33c9875991494585fbfbed175784" category="paragraph">를 클릭합니다 <block ref="f0d3e43e41da35ba651820db811551cd" category="inline-link-macro-rx"></block> 설치 및 구성을 사용자 지정할 수 있습니다.</block>
 </blocks>
