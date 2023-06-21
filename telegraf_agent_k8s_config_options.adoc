@@ -124,6 +124,12 @@ summary: NetApp Kubernetes Monitoring Operator는 다양한 구성 옵션을 제
 |  | 라벨 | kube-state-metrics가 캡처해야 하는 쉼표로 구분된 리소스 목록 +++ 예: crontobs=[*], demonsets=[*], 배포=[*], ingports=[*], 작업=[*], 네임스페이스=[*], 노드=[*], persistentvolumeclaims=[*], persistentvolumes=*], statestatestatestatesteasets=*], stequets=*] *], statestequets= 
 
 
+|  | cpuLimit | kubbe-state-metrics 구축을 위한 CPU 제한입니다 
+
+
+|  | MemLimit | kubbe-state-metrics 구축을 위한 MEM 한도 
+
+
 | 로그 |  | 운용자의 로그 수집 및 설치를 사용자 정의할 수 있는 구성 옵션입니다 
 
 
