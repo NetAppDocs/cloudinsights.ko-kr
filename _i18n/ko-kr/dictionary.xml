@@ -11261,18 +11261,6 @@
   <block id="8d44687186d37f705aa7f2282722aeb5" category="sidebar">모니터링 오퍼레이터 옵션</block>
   <block id="02230bab9788e4843408e124331bb1ca" category="cell">클러스터에 존재하는 Kubernetes CronJobs에 대해 어떤 메트릭도 수집되지 않습니다.</block>
   <block id="81467098050f12a1f4ece9dea82405f0" category="cell">Kubernetes 버전 확인(예<block ref="4fc58818ca77fb3a60cbd34a7f7d5071" prefix=" " category="inline-code"></block>)를 클릭합니다.  v1.20.x 이하일 경우 이는 예상되는 제한 사항입니다.  NetApp Kubernetes 모니터링 오퍼레이터와 함께 구축되는 Kubbe-state-metrics 릴리즈는 v1.crontjob만 지원합니다.  Kubernetes 1.20.x 이하에서는 crontjob 리소스가 v1beta.crontjob에 있습니다.  따라서 kube-state-metrics는 crontjob 리소스를 찾을 수 없습니다.</block>
-  <block id="9f0b6346113de87bff4b194abaf599f1" category="cell">다음 중 하나의 라이센스 버전을 실행하는 컴퓨터:
-
-Red Hat Enterprise Linux 7.x, 8.x 64비트
-CentOS 7.x 64비트
-CentOS 8 스트림
-Ubuntu 20 ~ 22 64비트
-Rocky 8.x 64비트, Rocky 9.x 64비트
-SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4
-
-이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.
-
-SE(Security Enhanced) Linux는 지원되지 않습니다.</block>
   <block id="8b673d5f702e58efd947465ead5c9647" category="cell">kubbe-state-metrics 구축을 위한 CPU 제한입니다</block>
   <block id="e49ddab01d68c08aeef7fdff59e6def6" category="cell">kubbe-state-metrics 구축을 위한 MEM 한도</block>
   <block id="4d0f1a88ac64f025d3fa96e291e7a276" category="section-title">인프라 아이콘:</block>
@@ -11284,4 +11272,16 @@ SE(Security Enhanced) Linux는 지원되지 않습니다.</block>
   <block id="ea0512b988d2823de06af98254ea6811" category="section-title">Kubernetes Network Performance Monitoring 및 Map 아이콘:</block>
   <block id="9039c950f48328372952e360cb5e909a" category="inline-image-macro">Kubernetes Network Performance Monitoring and Map, 너비 = 640</block>
   <block id="680bf29e063b6b3133c4881cb55b6d34" category="paragraph"><block ref="680bf29e063b6b3133c4881cb55b6d34" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c21ecdc3b22488b71dfec9e5360e46ce" category="cell">다음 중 하나의 라이센스 버전을 실행하는 컴퓨터:
+
+Red Hat Enterprise Linux 7.x, 8.x 64비트, SELinux
+CentOS 7.x 64비트, SELinux
+CentOS 8 Stream, SELinux
+Ubuntu 20 ~ 22 64비트
+Rocky 8.x 64비트, Rocky 9.x 64비트, SELinux
+SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 15 SP3의 SELinux
+
+이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.
+
+SE(Security Enhanced) Linux는 지원되지 않습니다.</block>
 </blocks>
