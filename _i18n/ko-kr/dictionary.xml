@@ -7445,7 +7445,6 @@
   <block id="fb5c635cd1a9c18981a7fac060c1aa9a" category="section-title">로그 모니터</block>
   <block id="aca15d8fd21dcf5be785b4d359f6563d" category="admonition">로그 모니터 필터는 비워 둘 수 없습니다.</block>
   <block id="0625f5fb5e60f291ab595c8261238b23" category="section-title">경고 해결 동작을 정의합니다</block>
-  <block id="8728ea9412d646983052607068b25d61" category="inline-image-macro">경고 해결</block>
   <block id="4c98e9aaa4cbb7fc1c457ed76c2a0f21" category="paragraph">모니터 오른쪽에 있는 메뉴를 클릭하고 * Pause * (일시 중지 *)를 선택하여 개체 유형의 모니터링을 일시적으로 일시 중지할 수 있습니다. 모니터링을 다시 시작할 준비가 되면 * Resume * (재개 *)을 클릭합니다.</block>
   <block id="a73980f5bc00482a343096d1a40143fb" category="list-text">* 모든 모니터 * 는 모든 모니터를 나열합니다.</block>
   <block id="f78abd66dd2da46aaad72238500300b7" category="paragraph">를 봅니다 <block ref="c48a3e56f23a81aaf8fad75ccfbc3d89" category="inline-link-macro-rx"></block> Cloud Insights에 포함된 모니터에 대한 설명을 보려면 페이지를 참조하십시오.</block>
@@ -10526,12 +10525,8 @@
   <block id="fc971fc699329bc531b4d65ff180a629" category="cell">디스크 API가 더 많은 데이터를 반환한다는 경고가 수신되었습니다</block>
   <block id="3cd62817285774be5e17bfa3b11a6309" category="cell">추가 데이터를 얻으려면 지원 부서에 문의하십시오.</block>
   <block id="8d3d5857627846ebb0bfd18533d81373" category="list-text">즉시 해결합니다</block>
-  <block id="17b8d34f8d949597a55a6101ce83364d" category="list-text">데이터 보존 기간 이후 삭제(자세한 내용은 에디션 페이지 참조) Monitor에는 정의에 따른 해결 조건이 없으므로 데이터 보존 기간이 경과할 때까지 Alert는 _ACTIVE_로 유지되고 이 모니터에서 생성된 모든 후속 경고가 표시되지 않습니다.</block>
-  <block id="befadb349d88b7326b91ea95e095647d" category="list-text">로그 항목에 따라 해결: 다음 정의에 설명된 대로 로그 라인이 검색되면 알림을 해결하거나 데이터 보존 기간 이후에 제거합니다</block>
   <block id="e9e214a6e16f6beca61f905fa6ce3ab9" category="inline-image-macro">경고 해결 옵션</block>
   <block id="990eaf3ef2e3748beed4f15a2dc6d080" category="paragraph"><block ref="990eaf3ef2e3748beed4f15a2dc6d080" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6dfab0f82f494a8fd5d9bb100e34504b" category="paragraph">// * * 즉시 해결 *: 추가 작업이 필요 없이 즉시 경고 해결 * * 시간 기준 해결 *: 지정된 시간이 지난 후 경고 해결 * * * 로그 입력에 따른 해결 *: 후속 로그 작업이 발생한 경우 경고가 해결됩니다. 예를 들어, 개체가 "사용 가능"으로 기록된 경우</block>
-  <block id="e0155eef58f15e0fa7e34b03a853acaa" category="paragraph"><block ref="0267d15c881fe01be2ed5e9baa605285" category="inline-image-macro-rx" type="image"></block>//</block>
   <block id="964a8b3315ffa6f99cb6f09543be37c8" category="paragraph">Cloud Insights로 작업하기 전에 * NetApp BlueXP * (이전의 Cloud Central) 포털에 가입해야 합니다. NetApp Cloud Central에 이미 로그인한 경우 몇 가지 간단한 단계를 통해 Cloud Insights 무료 평가판을 시작할 수 있습니다.</block>
   <block id="21a763771df4e64b083a2b050ce81f09" category="inline-link">* NetApp BlueXP *</block>
   <block id="79f4eac777cfb8f368485c1ed783c385" category="paragraph">NetApp 클라우드 서비스를 시작하려면 로 이동하십시오<block ref="bb4bedb035450655c109a482f18f7a40" category="inline-link-rx"></block> 를 클릭하고 * 시작하기 * 를 클릭합니다.</block>
@@ -11284,8 +11279,6 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.
 
 SE(Security Enhanced) Linux는 지원되지 않습니다.</block>
-  <block id="45698e13b1c2f7241751839133834506" category="cell">운용자 설치 후, Telegraf-ds Pod는 CrashLoopBackOff로 진입하고 POD 로그는 "su:Authentication failure"를 나타낸다.</block>
-  <block id="61f9b982e510e8aa9a5efaee7290eb4a" category="cell">NetApp-monitoring-configuration agentconfiguration을 편집하고 set_dockerMetricCollectionEnabled_to false를 설정합니다.  자세한 내용은 조작자를 참조하십시오 <block ref="74a91e6274b6ee5f9fd240fb978eb1d9" category="inline-link-macro-rx"></block>.</block>
-  <block id="a3f0ee128de7eabdc5dbd73136882ab6" category="cell">dockerMetricCollectionEnabled를 참조하십시오</block>
-  <block id="0710c2522c29e39ba719becf4972a9aa" category="cell">Docker 메트릭을 수집합니다. 기본적으로 이 옵션은 true로 설정되어 있으며, Docker 기반 k8s 구축 시 Docker 메트릭이 수집됩니다. Docker 메트릭 수집을 해제하려면 FALSE로 설정합니다.</block>
+  <block id="63c80d21f4266efe4883c2f6f1d26fc2" category="list-text">데이터 보존 기간 이후 삭제(자세한 내용은 에디션 페이지 참조) Monitor에는 정의에 따른 해결 조건이 없으므로 데이터 보존 기간이 경과할 때까지 Alert는 _ACTIVE_로 유지되고 이 모니터에서 생성된 Matching_group_by_로 이후의 모든 알림이 표시되지 않습니다.</block>
+  <block id="46f506a87cfed781f4ca50c5456e5dea" category="list-text">로그 항목에 따라 해결: 다음 정의에 설명된 대로 로그 라인이 검색되면 알림을 해결하거나 데이터 보존 기간 이후에 제거합니다.</block>
 </blocks>
