@@ -11284,4 +11284,8 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.
 
 SE(Security Enhanced) Linux는 지원되지 않습니다.</block>
+  <block id="45698e13b1c2f7241751839133834506" category="cell">운용자 설치 후, Telegraf-ds Pod는 CrashLoopBackOff로 진입하고 POD 로그는 "su:Authentication failure"를 나타낸다.</block>
+  <block id="61f9b982e510e8aa9a5efaee7290eb4a" category="cell">NetApp-monitoring-configuration agentconfiguration을 편집하고 set_dockerMetricCollectionEnabled_to false를 설정합니다.  자세한 내용은 조작자를 참조하십시오 <block ref="74a91e6274b6ee5f9fd240fb978eb1d9" category="inline-link-macro-rx"></block>.</block>
+  <block id="a3f0ee128de7eabdc5dbd73136882ab6" category="cell">dockerMetricCollectionEnabled를 참조하십시오</block>
+  <block id="0710c2522c29e39ba719becf4972a9aa" category="cell">Docker 메트릭을 수집합니다. 기본적으로 이 옵션은 true로 설정되어 있으며, Docker 기반 k8s 구축 시 Docker 메트릭이 수집됩니다. Docker 메트릭 수집을 해제하려면 FALSE로 설정합니다.</block>
 </blocks>
