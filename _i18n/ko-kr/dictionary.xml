@@ -10165,7 +10165,6 @@
   <block id="aa6591610b53847bfb4e19e53c0b4a05" category="cell">작업 엔진</block>
   <block id="c0accd1360dce3944f0726ef704217c0" category="paragraph">이 데이터 수집기는 Dell EMC Unisphere for PowerMax/VMAX 3 관리 시스템에서 인벤토리 및 성능 데이터를 가져옵니다.</block>
   <block id="7e8e4c2fd39cb301da1af7afb93e8962" category="paragraph">Dell/EMC는 Unisphere 10.0까지 볼륨 통계를 제공하지 않았습니다. 이 데이터 수집기는 9.2.0+를 지원하지만 볼륨 통계가 없으므로 이 통계를 수집할 수 없습니다.</block>
-  <block id="e3a699248ac2af0be8e4036425dd0b04" category="paragraph">한 Unisphere for VMAX/PowerMax 인스턴스가 하나 이상의 Symmetrix 3 이상의 스토리지 시스템을 관리하고 있을 수 있습니다. 이 Collector는 기본적으로 모든 스토리지 시스템을 검색하려고 시도합니다.</block>
   <block id="da3865d5e1a7d870e4707356b907f643" category="paragraph">구성을 위해 데이터 수집기는 Unisphere 서버의 IP 주소/FQDN, 포트 8443에 대한 TCP 연결, 사용자 이름 및 암호가 필요합니다.</block>
   <block id="bd4968db059d70adcf0b67815d5ba188" category="list-text">Unisphere 서버의 IP 주소/정규화된 도메인 이름입니다</block>
   <block id="d81b3ffd1c59a02baf7dbf4e905471a5" category="list-text">사용자 이름 및 암호</block>
@@ -11284,4 +11283,5 @@ SE(Security Enhanced) Linux는 지원되지 않습니다.</block>
   <block id="5fe48850b2ef6a213ed01dde1958dfa4" category="section-title">기존 보고서 편집</block>
   <block id="5bd415396ca9b48afa3306c238307445" category="paragraph">기본 위치에서 파일을 편집하면 다음 보고서 카탈로그를 새로 고칠 때 해당 보고서를 덮어쓸 위험이 있습니다. 편집한 보고서를 새 이름으로 저장하거나 기본이 아닌 위치에 저장하는 것이 좋습니다.</block>
   <block id="9bb3efbd29374edfd5411d3bf02b3b92" category="cell">Forensics_All Activity_or_Entities_pages의 필터에 별표(*)와 같은 와일드카드 문자가 포함된 일부 문자를 입력하면 페이지가 매우 느리게 로드됩니다.</block>
+  <block id="1099e56ef7a6e4b5d3d41443b52d83aa" category="paragraph">한 Unisphere for VMAX/PowerMax 인스턴스가 하나 이상의 Symmetrix VMAX 3 이상의 스토리지 시스템을 관리하고 있을 수 있습니다. 이 수집기는 기본적으로 해당 Unisphere 인스턴스에 대해 "로컬"인 모든 스토리지 시스템을 검색하려고 시도합니다. Unisphere 인스턴스에서 "원격" 스토리지(즉, SRDF 복제를 통해 연결된 스토리지)가 표시되면 해당 스토리지가 무시되고 Cloud Insights에서 해당 사이트의 Unisphere 인스턴스에서 로컬 스토리지 시스템으로 인식되는 항목을 가리켰을 때 필요한 추가 Unisphere Collector를 생성해야 합니다.</block>
 </blocks>
