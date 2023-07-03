@@ -11184,7 +11184,6 @@
   <block id="176f2e3b515143c4119028872457ab70" category="list-text">RHEL/CentOS:/var/log/Telegraf/telegraf.log</block>
   <block id="dba98037ac90ffd514afa8ae59edc426" category="list-text">Ubuntu/Debian:/var/log/Telegraf/telegraf.log</block>
   <block id="e6c0bd06ad9776dae0a5cf43e60b0ff4" category="list-text">Windows:C:\Program Files\Telegraf\telegraf.log</block>
-  <block id="2c20388998fe9dc758bf7fb123ac7a32" category="cell">Forensics_All Activity_or_Entities_pages의 필터에 별표(\ *)와 같은 와일드카드 문자가 포함된 일부 문자를 입력하면 페이지가 매우 느리게 로드됩니다.</block>
   <block id="2fdbb1db4127b83dadc134e367935c11" category="cell">검색 문자열의 별표(\ *)는 모든 항목을 검색합니다. 그러나 _ * &lt;searchTerm&gt;_OR_ * &lt;searchTerm&gt; *_과 같은 선행 와일드카드 문자열은 느린 쿼리를 만듭니다.
 보다 나은 성능을 얻으려면 접두사 문자열을 대신 _&lt;searchTerm&gt;*_ 형식으로 사용합니다(즉, 별표(*)_after_a 검색 용어를 추가합니다).
 예: _ * testvolume_or_ * test * volume_ 대신 _testvolume *_ 문자열을 사용하십시오.
@@ -11284,4 +11283,5 @@ SE(Security Enhanced) Linux는 지원되지 않습니다.</block>
   <block id="e83566ec8beb942e786f102a35482e5d" category="list-text">관리되는 장치 사용량 보기</block>
   <block id="5fe48850b2ef6a213ed01dde1958dfa4" category="section-title">기존 보고서 편집</block>
   <block id="5bd415396ca9b48afa3306c238307445" category="paragraph">기본 위치에서 파일을 편집하면 다음 보고서 카탈로그를 새로 고칠 때 해당 보고서를 덮어쓸 위험이 있습니다. 편집한 보고서를 새 이름으로 저장하거나 기본이 아닌 위치에 저장하는 것이 좋습니다.</block>
+  <block id="9bb3efbd29374edfd5411d3bf02b3b92" category="cell">Forensics_All Activity_or_Entities_pages의 필터에 별표(*)와 같은 와일드카드 문자가 포함된 일부 문자를 입력하면 페이지가 매우 느리게 로드됩니다.</block>
 </blocks>
