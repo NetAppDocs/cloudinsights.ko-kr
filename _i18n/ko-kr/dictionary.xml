@@ -4495,13 +4495,9 @@
   <block id="f6ee2d35944570b247cc02129e0311be" category="paragraph">* 기준 * 은 감지된 포화 직전의 시간 내에 각 작업 부하에 대해 보고된 최대 데이터 포인트로 정의됩니다.</block>
   <block id="bf306d07c3ed41852c5f9cb551a07b59" category="paragraph">IOPS가 공유 스토리지 풀의 다른 리소스 또는 워크로드에 영향을 미치는 것으로 확인되면 * 경합 * 또는 * 채도 * 가 발생합니다.</block>
   <block id="0b34f00d1d4a3885b35a431a55efeb18" category="section-title">까다로운 작업 부하</block>
-  <block id="b3d48647b3779314aebd78fd52891ad4" category="paragraph">공유 리소스의 까다롭고 영향을 받는 워크로드를 확인하려면 Cloud Insights 메뉴의 Stress * 에서 * Dashboards &gt; Shared Resources를 클릭합니다.</block>
   <block id="f59f9eea55ba2a2439645d8e6d60708c" category="inline-image-macro">워크로드 목록</block>
-  <block id="de841194d737155906a92014035475f2" category="paragraph"><block ref="de841194d737155906a92014035475f2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="abf3a029f9cc4648911d9ae02dd252ca" category="paragraph">Cloud Insights 포화 상태가 감지된 모든 작업 부하 목록을 표시합니다. Cloud Insights는 하나 이상의 _처리량이 많은 리소스_ * 및 * 하나 이상의 영향을 받는 리소스_가 감지된 워크로드만 표시합니다.</block>
   <block id="d7c664bf82d9e14603a845f0ffe47993" category="paragraph">워크로드에 대한 세부 정보 페이지를 보려면 워크로드를 클릭합니다. 위 차트에는 경합/포화가 발생하는 공유 리소스(예: 스토리지 풀)의 작업이 표시됩니다.</block>
   <block id="2ca1e64d0a4fdfcf135961f6931ac68b" category="inline-image-macro">공유 리소스에 경합이 표시됩니다</block>
-  <block id="bb6db0535ce42b380d76743c35ffe29a" category="paragraph"><block ref="bb6db0535ce42b380d76743c35ffe29a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7e4a0aeb0ee372dc4742c55ad85d4088" category="paragraph">다음 두 개의 차트는 까다로운 작업 부하의 _요구_워크로드 및 _영향_을 보여 줍니다.</block>
   <block id="3058d78451b014873b4ca65f0669489e" category="inline-image-macro">까다로운 작업 부하 차트</block>
   <block id="46562410a025cae8a5441c0cc0a4c00f" category="inline-image-macro">영향을 받는 워크로드 차트</block>
@@ -11284,4 +11280,11 @@ SE(Security Enhanced) Linux는 지원되지 않습니다.</block>
   <block id="5bd415396ca9b48afa3306c238307445" category="paragraph">기본 위치에서 파일을 편집하면 다음 보고서 카탈로그를 새로 고칠 때 해당 보고서를 덮어쓸 위험이 있습니다. 편집한 보고서를 새 이름으로 저장하거나 기본이 아닌 위치에 저장하는 것이 좋습니다.</block>
   <block id="9bb3efbd29374edfd5411d3bf02b3b92" category="cell">Forensics_All Activity_or_Entities_pages의 필터에 별표(*)와 같은 와일드카드 문자가 포함된 일부 문자를 입력하면 페이지가 매우 느리게 로드됩니다.</block>
   <block id="1099e56ef7a6e4b5d3d41443b52d83aa" category="paragraph">한 Unisphere for VMAX/PowerMax 인스턴스가 하나 이상의 Symmetrix VMAX 3 이상의 스토리지 시스템을 관리하고 있을 수 있습니다. 이 수집기는 기본적으로 해당 Unisphere 인스턴스에 대해 "로컬"인 모든 스토리지 시스템을 검색하려고 시도합니다. Unisphere 인스턴스에서 "원격" 스토리지(즉, SRDF 복제를 통해 연결된 스토리지)가 표시되면 해당 스토리지가 무시되고 Cloud Insights에서 해당 사이트의 Unisphere 인스턴스에서 로컬 스토리지 시스템으로 인식되는 항목을 가리켰을 때 필요한 추가 Unisphere Collector를 생성해야 합니다.</block>
+  <block id="ae8f504ff2e83723f08fc4f873fcdca5" category="paragraph">공유 리소스의 까다롭고 영향을 받는 워크로드를 확인하려면 * 대시보드 &gt; 인사이트 * 를 클릭하고 스트레스 * 인사이트 에서 * 공유 리소스 를 선택합니다.</block>
+  <block id="923231dd5cc497f857ab7bc31259567c" category="inline-image-macro">인사이트 메뉴</block>
+  <block id="4ad858c99ade794af9d0e0a1491e01bc" category="paragraph"><block ref="4ad858c99ade794af9d0e0a1491e01bc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0111ce9fed5023fdfdac30af08350a0d" category="paragraph">Cloud Insights 포화 상태가 감지된 모든 작업 부하 목록을 표시합니다. Cloud Insights는 하나 이상의 _처리량이 많은 리소스_ * 또는 * _영향을 받는 리소스_가 감지된 작업 부하를 표시합니다.</block>
+  <block id="6345c18147755da14a72a1bcc448c878" category="paragraph"><block ref="6345c18147755da14a72a1bcc448c878" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bea93c5448a53dbeae5f078ae207efa5" category="paragraph"><block ref="416a8d7353098379fdb36ba6e8aa6da8" category="inline-image-macro-rx" type="image"></block>
+<block ref="abda75af4f4de4a9d5c96cfad5c94c77" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
