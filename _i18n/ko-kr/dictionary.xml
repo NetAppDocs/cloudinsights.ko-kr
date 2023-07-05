@@ -10121,7 +10121,6 @@
   <block id="b92e6e167ffd0f1968a046d49559d1cd" category="list-text">획득 장치: 데이터 수집기를 호스팅하는 전용 컴퓨터(일반적으로 가상 머신)입니다. 이 컴퓨터는 일반적으로 모니터링되는 항목과 동일한 데이터 센터/VPC에 위치합니다.</block>
   <block id="c5b4625b23c5673b268b9b686102faa0" category="list-text">데이터 소스: 하드웨어 또는 소프트웨어 스택과 통신하는 모듈입니다. 장치와 통신하기 위해 AU 컴퓨터에서 실행되는 구성 및 코드로 구성됩니다.</block>
   <block id="9d8dde207423e16514f1a132221a65a3" category="summary">Dell EMC Isilon/PowerScale REST 데이터 수집기 구성</block>
-  <block id="9b7f99f4d867484d5fc5fad6f84567ba" category="paragraph">Cloud Insights는 Dell EMC Isilon/PowerScale REST 데이터 수집기를 사용하여 Dell EMC Isilon 또는 PowerScale 스토리지의 인벤토리 및 성능 데이터를 수집합니다.</block>
   <block id="c40dff11b6ddb88303480bb455edaf14" category="cell">OneFS 파일 시스템</block>
   <block id="c593547a39a4d7895f41492d41fd6fa3" category="list-text">사용자 계정 및 암호 이 계정은 admin/root가 아니어야 하지만 서비스 계정에 상당한 수의 읽기 전용 권한을 부여해야 합니다. 아래 표를 참조하십시오</block>
   <block id="af44c06ccccd08beeff0d7957f243408" category="list-text">Dell EMC Isilon/PowerScale 클러스터의 IP 주소/정규화된 도메인 이름입니다</block>
@@ -11287,4 +11286,6 @@ SE(Security Enhanced) Linux는 지원되지 않습니다.</block>
   <block id="6345c18147755da14a72a1bcc448c878" category="paragraph"><block ref="6345c18147755da14a72a1bcc448c878" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bea93c5448a53dbeae5f078ae207efa5" category="paragraph"><block ref="416a8d7353098379fdb36ba6e8aa6da8" category="inline-image-macro-rx" type="image"></block>
 <block ref="abda75af4f4de4a9d5c96cfad5c94c77" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ba538d1194e2af4196c883d4ad4d8417" category="paragraph">Cloud Insights는 Dell EMC Isilon/PowerScale REST 데이터 수집기를 사용하여 Dell EMC Isilon 또는 PowerScale 스토리지의 인벤토리 및 성능 데이터를 수집합니다. 이 Collector는 OneFS 8.0.0+를 실행하는 스토리지를 지원합니다.</block>
+  <block id="6776f941038bab0f04ff47368b5bef54" category="list-text">OneFS 8.0.0 이상을 실행하는 Isilon/PowerScale 클러스터</block>
 </blocks>

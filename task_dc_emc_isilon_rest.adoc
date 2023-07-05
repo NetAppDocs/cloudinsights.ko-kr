@@ -19,7 +19,7 @@ summary: Dell EMC Isilon/PowerScale REST 데이터 수집기 구성
 
 
 [role="lead"]
-Cloud Insights는 Dell EMC Isilon/PowerScale REST 데이터 수집기를 사용하여 Dell EMC Isilon 또는 PowerScale 스토리지의 인벤토리 및 성능 데이터를 수집합니다.
+Cloud Insights는 Dell EMC Isilon/PowerScale REST 데이터 수집기를 사용하여 Dell EMC Isilon 또는 PowerScale 스토리지의 인벤토리 및 성능 데이터를 수집합니다. 이 Collector는 OneFS 8.0.0+를 실행하는 스토리지를 지원합니다.
 
 
 
@@ -60,6 +60,7 @@ Cloud Insights는 이 데이터 수집기에서 다음 인벤토리 정보를 �
 * 사용자 계정 및 암호 이 계정은 admin/root가 아니어야 하지만 서비스 계정에 상당한 수의 읽기 전용 권한을 부여해야 합니다. 아래 표를 참조하십시오
 * Dell EMC Isilon/PowerScale 클러스터의 IP 주소/정규화된 도메인 이름입니다
 * 포트 8080에 대한 HTTPS 액세스
+* OneFS 8.0.0 이상을 실행하는 Isilon/PowerScale 클러스터
 
 
 [cols="3*"]
