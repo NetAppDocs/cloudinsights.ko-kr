@@ -11311,7 +11311,6 @@ SE(Security Enhanced) Linux는 지원되지 않습니다.</block>
   <block id="f7796a8f8185c8c1d264bce4bad25eee" category="inline-image-macro">최근 변경 사항의 예</block>
   <block id="57c43929c060c6b6731a95fee2e6ac4b" category="paragraph"><block ref="57c43929c060c6b6731a95fee2e6ac4b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7106bac801506d89011c164f7281f183" category="section-title">운전자 개선</block>
-  <block id="c6d80de9d1332fa033db27b32896a7ca" category="paragraph">에서는 다음과 같은 개선 사항이 이루어졌습니다 <block ref="89b3ece041fc6e3eaf91d1f18cb70562" category="inline-link-macro-rx"></block> 배포:</block>
   <block id="2a81267b1c9c4611addccc58ffea4ce5" category="list-text">Docker 메트릭 수집을 무시하는 옵션입니다</block>
   <block id="62643d895d41437dc1854e6321bbca7d" category="list-text">Telegraf Demonsets 및 Replicasets에 대한 허용 기준을 추가하고 사용자 지정할 수 있습니다</block>
   <block id="4157bbc9478996de33c632d1be8b4617" category="section-title">Insight: 콜드 스토리지 부가세 반환 청구액</block>
@@ -11322,7 +11321,6 @@ SE(Security Enhanced) Linux는 지원되지 않습니다.</block>
   <block id="b48c3957268aba1d2cb9774cdfb76b1a" category="inline-image-macro">공개 키를 다운로드합니다</block>
   <block id="241e648e3eaa9f9b228db06a6cf403f7" category="paragraph"><block ref="241e648e3eaa9f9b228db06a6cf403f7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="659e26ba67b278fd61383664fb1ed670" category="section-title">쿼리의 집계, 조건부 서식 및 기타</block>
-  <block id="7d7ce3fd83ffcf864f9c0285f8d8b6ab" category="paragraph">집계, 단위 선택, 조건부 서식 및 열 이름 바꾸기는 대시보드 테이블 위젯의 가장 유용한 기능 중 하나이며, 이제 이러한 기능을 에서 사용할 수 있습니다 <block ref="f011edc734cda8dc5136e8e133afbd9b" category="inline-link-macro-rx"></block>.</block>
   <block id="2b88de4b6bcbafe41a9b2e66846672ee" category="paragraph">이러한 기능은 현재 통합 유형 데이터(Kubernetes, ONTAP 고급 메트릭 등)에 사용할 수 있으며, 인프라 오브젝트(스토리지, 볼륨, 스위치 등)에 대해 곧 제공될 예정입니다.</block>
   <block id="2b4c43183ba48840a9a245b4b11ed0f1" category="section-title">감사를 위한 API</block>
   <block id="8b0aa17c3cd1f148c8d84b8d9eade119" category="paragraph">이제 API를 사용하여 감사된 이벤트를 쿼리하거나 내보낼 수 있습니다. 관리자 &gt; API 액세스로 이동하여 자세한 내용을 보려면 _API Documentation_link를 선택하십시오.</block>
@@ -11359,4 +11357,6 @@ persistentvolumeclaims=[*], persistentvolumes=[*], pod=[*], replicasets=[*], res
   <block id="8776d1f0ee4232b1c2ff5bc38e4b2603" category="cell">이벤트-수출자-내약성</block>
   <block id="bac5ce71f32beb834c27a988cad33543" category="cell">이벤트-수출자 추가 허용.</block>
   <block id="287ab13fa00dc2700e0567bc50f5a663" category="cell">L4-공차</block>
+  <block id="259addbbe43276d62a91ef44d4dd55a8" category="paragraph">에서는 다음과 같은 개선 사항이 이루어졌습니다 <block ref="b13d2921c99b8ae4a991204f54e7f54b" category="inline-link-macro-rx"></block> 배포:</block>
+  <block id="e69cca83cc71ef5f7c5439d8944e108d" category="paragraph">집계, 단위 선택, 조건부 서식 및 열 이름 바꾸기는 대시보드 테이블 위젯의 가장 유용한 기능 중 하나이며, 이제 이러한 기능을 에서 사용할 수 있습니다 <block ref="2b0568ca01fc8a058b93978c376cc13e" category="inline-link-macro-rx"></block>.</block>
 </blocks>

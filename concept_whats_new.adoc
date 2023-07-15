@@ -39,7 +39,7 @@ image:Recent_Changes_Example.png["최근 변경 사항의 예"]
 
 === 운전자 개선
 
-에서는 다음과 같은 개선 사항이 이루어졌습니다 link:/telegraf_agent_k8s_config_options.html["Kubernetes 운영자"] 배포:
+에서는 다음과 같은 개선 사항이 이루어졌습니다 link:telegraf_agent_k8s_config_options.html["Kubernetes 운영자"] 배포:
 
 * Docker 메트릭 수집을 무시하는 옵션입니다
 * Telegraf Demonsets 및 Replicasets에 대한 허용 기준을 추가하고 사용자 지정할 수 있습니다
@@ -63,7 +63,7 @@ image:Operator_Public_Image_Key.png["공개 키를 다운로드합니다"]
 
 === 쿼리의 집계, 조건부 서식 및 기타
 
-집계, 단위 선택, 조건부 서식 및 열 이름 바꾸기는 대시보드 테이블 위젯의 가장 유용한 기능 중 하나이며, 이제 이러한 기능을 에서 사용할 수 있습니다 link:/task_create_query.html["쿼리"].
+집계, 단위 선택, 조건부 서식 및 열 이름 바꾸기는 대시보드 테이블 위젯의 가장 유용한 기능 중 하나이며, 이제 이러한 기능을 에서 사용할 수 있습니다 link:task_create_query.html["쿼리"].
 
 image:Query_Page_Aggregation_etc.png["집계, 조건부 서식, 단위 표시 및 열 이름 바꾸기를 보여 주는 쿼리 페이지 결과"]
 
