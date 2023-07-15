@@ -10752,7 +10752,6 @@
   <block id="2ed6d0911bda563375b8a7f38ece8cba" category="paragraph">프록시를 업데이트하려면 명령은 입니다</block>
   <block id="9d6898c9d6fff2bd62d85b66643bb3d1" category="doc">인사이트: ONTAP 냉장 보관 확보</block>
   <block id="0d76fbb36f181c92649274af9d5b537e" category="paragraph">Reclaim ONTAP 냉장 보관_Insight는 ONTAP 시스템의 볼륨에 대한 콜드 용량, 잠재적 비용/전력 절감 및 권장 조치 항목에 대한 데이터를 제공합니다.</block>
-  <block id="dc258ad625dfe61afe78bdd8eaced72a" category="admonition">Reclaim ONTAP 냉장 보관_Insight는 로 간주됩니다 <block ref="27c8300c0999ba5a7834ba70e02e86cc" category="inline-link-macro-rx"></block> 변경될 수 있습니다.</block>
   <block id="62cbec5499f7528b78b111c904e78b71" category="paragraph">이러한 Insights를 보려면 * 대시보드 &gt; 인사이트 * 로 이동하여 _Reclaim ONTAP 냉장 보관_Insight를 살펴봅니다. 이 Insight는 Cloud Insights가 냉장 보관을 감지한 경우에만 영향을 받는 저장소를 나열합니다. 그렇지 않으면 "모두 지우기" 메시지가 표시됩니다.</block>
   <block id="da69b960f5bb93c02fdd4886868836f6" category="inline-image-macro">콜드 데이터가 있는 3개 스토리지를 보여 주는 Insight 목록입니다</block>
   <block id="7718245a70dcc6279bf8af86a72c2e35" category="paragraph"><block ref="7718245a70dcc6279bf8af86a72c2e35" category="inline-image-macro-rx" type="image"></block></block>
@@ -10873,7 +10872,6 @@
   <block id="03dd8511b379b0b92595299b980d36e4" category="cell">MEM은 kudo 상태 메트릭 배포를 요청합니다</block>
   <block id="55b558c7ef820e6e00e5993b9e55d93b" category="cell">리소스</block>
   <block id="3b720d9649ae501d73e8f8c4a7a15348" category="cell">캡처할 리소스의 쉼표로 구분된 목록입니다. 예: cronjobs, demonset, 배포, 링스, 작업, 네임스페이스, 노드, persistentvolumeclaims, persistentvolumes, dPOD, replicasets, resourcequotas, 서비스, statefulsets</block>
-  <block id="d250be49afad7b894de05a3b7ae8bbae" category="cell">kube-state-metrics가 캡처해야 하는 쉼표로 구분된 리소스 목록 +++ 예: crontobs=[*], demonsets=[*], 배포=[*], ingports=[*], 작업=[*], 네임스페이스=[*], 노드=[*], persistentvolumeclaims=[*], persistentvolumes=*], statestatestatestatesteasets=*], stequets=*] *], statestequets=</block>
   <block id="2165e4fa5bddb65a31f6a0c495c2fa37" category="cell">로그</block>
   <block id="d795ec2d0a164433572a8d5d91b8fae0" category="cell">운용자의 로그 수집 및 설치를 사용자 정의할 수 있는 구성 옵션입니다</block>
   <block id="031104420a282e1bdb63e280c40a4938" category="cell">readFromHead(readFromHead</block>
@@ -11288,4 +11286,77 @@ SE(Security Enhanced) Linux는 지원되지 않습니다.</block>
   <block id="ba538d1194e2af4196c883d4ad4d8417" category="paragraph">Cloud Insights는 Dell EMC Isilon/PowerScale REST 데이터 수집기를 사용하여 Dell EMC Isilon 또는 PowerScale 스토리지의 인벤토리 및 성능 데이터를 수집합니다. 이 Collector는 OneFS 8.0.0+를 실행하는 스토리지를 지원합니다.</block>
   <block id="6776f941038bab0f04ff47368b5bef54" category="list-text">OneFS 8.0.0 이상을 실행하는 Isilon/PowerScale 클러스터</block>
   <block id="ffa95e8fd7e458c2481c8a1213dd74e9" category="paragraph">비밀은 Cloud Insights 획득 장치가 고객 장치 및 서비스에 액세스하기 위해 사용하는 자격 증명으로 구성됩니다. 이러한 자격 증명은 강력한 비대칭 암호화를 사용하여 암호화되며 개인 키는 획득 장치에만 저장되며 고객 환경을 떠나지 않습니다. 권한이 있는 Cloud Insights SRE는 이 설계로 인해 일반 텍스트로 고객 비밀에 액세스할 수 없습니다.</block>
+  <block id="16601c709d6f082c4421fe1d28974834" category="section-title">집계, 단위, 조건부 서식 선택</block>
+  <block id="0a9f1c237356720961c024fce3f78a12" category="section-title">집계 및 단위</block>
+  <block id="c4d2b1e614724dc8838bf027b78d7fe8" category="paragraph">"값" 열의 경우 표시된 값이 집계되는 방식을 선택하고 해당 값이 표시되는 단위를 선택하여 쿼리 결과를 더욱 구체화할 수 있습니다. 이러한 옵션은 열 상단 모서리에 있는 "점 3개" 메뉴를 선택하면 찾을 수 있습니다.</block>
+  <block id="4d5e2bd7c10a04613e320165a2aef636" category="inline-image-macro">집계, 조건부 서식, 단위 표시 및 열 이름 바꾸기를 보여 주는 쿼리 페이지 결과</block>
+  <block id="6359b5d0dddbd864f91ddfec03e1db49" category="paragraph"><block ref="6359b5d0dddbd864f91ddfec03e1db49" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e5771a362d88a71a657bfcd21ca54b3f" category="section-title">단위</block>
+  <block id="ae2ad730f8b9e34404a53be6603eb8e4" category="paragraph">값을 표시할 단위를 선택할 수 있습니다. 예를 들어, 선택한 열에 원시 용량이 표시되고 값이 GiB로 표시되지만 원하는 경우 Unit Display(단위 표시) 드롭다운에서 TiB를 선택하면 됩니다.</block>
+  <block id="d9ceca6b3a280ab6926157d124ea15d7" category="section-title">집계</block>
+  <block id="e108aa85577531fd71feda784d41caf3" category="paragraph">표시된 값이 기본 데이터에서 "평균"으로 집계된 경우 동일한 토큰으로 그러나 모든 값의 합계를 표시하려면 _Group By_ 드롭다운(그룹화된 값에 합계를 표시하려면) 또는 _Time Aggregate by_ 드롭다운(행 값에 원본으로 사용하는 데이터의 합계를 표시하려면)에서 "Sum"을 선택합니다.</block>
+  <block id="4a0aedb71a2047b4501702b3bbc92002" category="paragraph">그룹화된 데이터 요소를 _Avg, Max, Min 또는 Sum_별로 집계하도록 선택할 수 있습니다.</block>
+  <block id="93ad26b5f738a3399877d18e809c4ffe" category="paragraph">개별 행 데이터는 _Average, 획득된 마지막 데이터 지점, 최대값, 최소값 또는 합계_를 기준으로 집계할 수 있습니다.</block>
+  <block id="d07a67a9bf91a7e251537433f822107d" category="section-title">조건부 서식</block>
+  <block id="b286203207ee36be1b0daa6eb3a4e2f8" category="paragraph">조건부 서식을 사용하면 쿼리 결과 목록에서 경고 수준 및 위험 수준 임계값을 강조 표시하여 이상값 및 예외적인 데이터 지점에 대한 즉각적인 가시성을 얻을 수 있습니다.</block>
+  <block id="4c941a5536be07eee34fa9b29bd005c9" category="inline-image-macro">쿼리 페이지의 조건부 서식</block>
+  <block id="077eb3e55847ad3494e20a7b4b22abfd" category="paragraph"><block ref="077eb3e55847ad3494e20a7b4b22abfd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a83a3620bfc4182656b8b3bba751d85b" category="paragraph">조건부 서식은 각 열에 대해 별도로 설정됩니다. 예를 들어 용량 열에 대한 임계값 집합 하나와 처리량 열에 대한 임계값 집합을 선택할 수 있습니다.</block>
+  <block id="b416aba7067608c1cc6b8c37ef3753a2" category="section-title">열 이름 바꾸기</block>
+  <block id="c478709a4fc402ef4317c5de6580c96f" category="paragraph">열 이름을 바꾸면 쿼리 결과 목록에 표시된 이름이 변경됩니다. 쿼리 목록을 .csv로 내보내는 경우 결과 파일에도 새 열 이름이 표시됩니다.</block>
+  <block id="c9cc8cce247e49bae79f15173ce97354" category="section-title">저장</block>
+  <block id="fb5978407d362c06c4a1c8ab72f464f1" category="section-title">2023년 7월</block>
+  <block id="8d6bad49c4eea7a9cf27fd507f44022c" category="section-title">최근 변경 내용 표시</block>
+  <block id="210e83cd3251fb18d6b85fcfa343be97" category="paragraph">이제 Data Collector 시작 페이지에 최근 변경 사항 목록이 포함됩니다. 데이터 수집기 랜딩 페이지 맨 아래에 있는 "최근 변경 사항" 버튼을 클릭하면 최근 데이터 수집기 변경 사항이 표시됩니다.</block>
+  <block id="f7796a8f8185c8c1d264bce4bad25eee" category="inline-image-macro">최근 변경 사항의 예</block>
+  <block id="57c43929c060c6b6731a95fee2e6ac4b" category="paragraph"><block ref="57c43929c060c6b6731a95fee2e6ac4b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7106bac801506d89011c164f7281f183" category="section-title">운전자 개선</block>
+  <block id="c6d80de9d1332fa033db27b32896a7ca" category="paragraph">에서는 다음과 같은 개선 사항이 이루어졌습니다 <block ref="89b3ece041fc6e3eaf91d1f18cb70562" category="inline-link-macro-rx"></block> 배포:</block>
+  <block id="2a81267b1c9c4611addccc58ffea4ce5" category="list-text">Docker 메트릭 수집을 무시하는 옵션입니다</block>
+  <block id="62643d895d41437dc1854e6321bbca7d" category="list-text">Telegraf Demonsets 및 Replicasets에 대한 허용 기준을 추가하고 사용자 지정할 수 있습니다</block>
+  <block id="4157bbc9478996de33c632d1be8b4617" category="section-title">Insight: 콜드 스토리지 부가세 반환 청구액</block>
+  <block id="82f32ca1972e78989f469529f9e93e21" category="inline-link-macro">ONTAP 콜드 스토리지 파악 비용 재확보</block>
+  <block id="2703e92da2def9a17ac70dcd90bd8ab5" category="paragraph">를 클릭합니다 <block ref="a08e2a6a27f9f88fce91a86a2a4aaa0e" category="inline-link-macro-rx"></block> 이제 FlexGroups를 지원하며 모든 고객이 사용할 수 있습니다.</block>
+  <block id="ffd94c31fd478610bae8a28f858f4967" category="section-title">작업자 이미지 서명</block>
+  <block id="b58a6be98adebdc6de5cd79aa5cf7223" category="paragraph">NetApp Kubernetes 모니터링 운영자용 개인 저장소를 사용하는 고객의 경우, 이제 오퍼레이터 설치 중에 이미지 서명 공개 키를 복사하여 다운로드한 소프트웨어의 정품 여부를 확인할 수 있습니다. 사용자 이미지를 개인 리포지토리에 업로드 _ 하는 선택적 단계 동안 _ 이미지 서명 공개 키 복사 _ 버튼을 선택합니다.</block>
+  <block id="b48c3957268aba1d2cb9774cdfb76b1a" category="inline-image-macro">공개 키를 다운로드합니다</block>
+  <block id="241e648e3eaa9f9b228db06a6cf403f7" category="paragraph"><block ref="241e648e3eaa9f9b228db06a6cf403f7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="659e26ba67b278fd61383664fb1ed670" category="section-title">쿼리의 집계, 조건부 서식 및 기타</block>
+  <block id="7d7ce3fd83ffcf864f9c0285f8d8b6ab" category="paragraph">집계, 단위 선택, 조건부 서식 및 열 이름 바꾸기는 대시보드 테이블 위젯의 가장 유용한 기능 중 하나이며, 이제 이러한 기능을 에서 사용할 수 있습니다 <block ref="f011edc734cda8dc5136e8e133afbd9b" category="inline-link-macro-rx"></block>.</block>
+  <block id="2b88de4b6bcbafe41a9b2e66846672ee" category="paragraph">이러한 기능은 현재 통합 유형 데이터(Kubernetes, ONTAP 고급 메트릭 등)에 사용할 수 있으며, 인프라 오브젝트(스토리지, 볼륨, 스위치 등)에 대해 곧 제공될 예정입니다.</block>
+  <block id="2b4c43183ba48840a9a245b4b11ed0f1" category="section-title">감사를 위한 API</block>
+  <block id="8b0aa17c3cd1f148c8d84b8d9eade119" category="paragraph">이제 API를 사용하여 감사된 이벤트를 쿼리하거나 내보낼 수 있습니다. 관리자 &gt; API 액세스로 이동하여 자세한 내용을 보려면 _API Documentation_link를 선택하십시오.</block>
+  <block id="f0d8b3eaae91d14b5849226503f1f130" category="inline-image-macro">감사를 위한 API Swagger, 너비 = 400</block>
+  <block id="08eebc22528b6ae269764bbbfbd37d98" category="paragraph"><block ref="08eebc22528b6ae269764bbbfbd37d98" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9d9cc2d70ab2dbd66579e01f859b8da3" category="section-title">데이터 수집기: Trident 이코노미</block>
+  <block id="3b9a2bab6a97ecd5c040555f8147b32b" category="paragraph">Cloud Insights는 이제 Trident 이코노미 드라이버를 지원하므로 다음과 같은 이점을 누릴 수 있습니다.</block>
+  <block id="5b51c0421974fa9b23cfbe623de43e2e" category="list-text">Pod-ONTAP Qtree 매핑 및 성능 메트릭에 대한 가시성을 제공합니다.</block>
+  <block id="0e6dfce910a8488d971baa1019611d0e" category="list-text">Kubernetes Pod에서 백엔드 스토리지로 원활하게 문제를 해결하고 쉽게 탐색할 수 있습니다</block>
+  <block id="d43e029b6a4626717198326d15889721" category="list-text">모니터의 백엔드 성능 문제를 사전 예방적으로 감지합니다</block>
+  <block id="ae233b4bee0ed9f611ffe211f5804e00" category="section-title">톨레러스와 얼룩을 볼 수 있습니다</block>
+  <block id="6aae913b976c156306d8a5cbbbc06ad5" category="inline-link-macro">상담원 구성 _ 에서</block>
+  <block id="896815f9ea37359e86504cac9ab58b31" category="paragraph">모든 노드에서 데이터를 올바르게 수집하려면 _Telegraf_, _fluent-bit_ 및 _net-observer_DemonSets가 클러스터의 모든 노드에서 POD를 예약해야 합니다. 운용자는 잘 알려진 일부 * 얼룩을 견딜 수 있도록 구성되었습니다. 노드에서 사용자 지정 얼룩을 구성하여 모든 노드에서 Pod가 실행되지 않도록 하는 경우 이러한 얼룩에 대해 * 공차 * 를 생성할 수 있습니다 <block ref="dc90f93af5ccf5020646213d9b7d2c3d" category="inline-link-macro-rx"></block>. 클러스터의 모든 노드에 사용자 지정 얼룩을 적용한 경우 운영자 포드를 예약 및 실행할 수 있도록 운영자 구축에 필요한 허용 오차도 추가해야 합니다.</block>
+  <block id="e1e08e40036f927a0e660c22aa837f88" category="inline-link-macro">오염과 내약입니다</block>
+  <block id="9680829f0eb82d9736ac7fe477135a87" category="paragraph">Kubernetes에 대해 자세히 알아보십시오 <block ref="2a69bcb19ea6a4db3f5d1b466ff78e77" category="inline-link-macro-rx"></block>.</block>
+  <block id="45698e13b1c2f7241751839133834506" category="cell">운용자 설치 후, Telegraf-ds Pod는 CrashLoopBackOff로 진입하고 POD 로그는 "su:Authentication failure"를 나타낸다.</block>
+  <block id="61f9b982e510e8aa9a5efaee7290eb4a" category="cell">NetApp-monitoring-configuration agentconfiguration을 편집하고 set_dockerMetricCollectionEnabled_to false를 설정합니다.  자세한 내용은 조작자를 참조하십시오 <block ref="74a91e6274b6ee5f9fd240fb978eb1d9" category="inline-link-macro-rx"></block>.</block>
+  <block id="a3f0ee128de7eabdc5dbd73136882ab6" category="cell">dockerMetricCollectionEnabled를 참조하십시오</block>
+  <block id="0710c2522c29e39ba719becf4972a9aa" category="cell">Docker 메트릭을 수집합니다. 기본적으로 이 옵션은 true로 설정되어 있으며, Docker 기반 k8s 구축 시 Docker 메트릭이 수집됩니다. Docker 메트릭 수집을 해제하려면 FALSE로 설정합니다.</block>
+  <block id="bb0a12c3834207119851374142a76ac0" category="cell">dsTolerations 를 선택합니다</block>
+  <block id="77e9ea38d66b01840eaf712dab598ce0" category="cell">텔레그라프 - DS 추가 허용.</block>
+  <block id="569d3e422e1e57a8d8f17b102bb10bfc" category="cell">RsTolerations를 선택합니다</block>
+  <block id="0a1cb9f6e7c89d89c765fdd1efa6183b" category="cell">Telegraf-RS 추가 허용.</block>
+  <block id="d6c26478ca41a23cc9741a4e92576269" category="cell">공차</block>
+  <block id="c511c601aee805f46f3767063104cdd8" category="cell">Kudbe-state-metrics 추가 공약입니다.</block>
+  <block id="cea61529c4fbcfd86c0a3459bc229a87" category="cell">kuba-state-metrics가 캡처해야 하는 쉼표로 구분된 리소스 목록입니다
+
++++
+예: cronjobs=[*], demonsets=[*], 배포=[*], 링스=[*], 작업=[*], 네임스페이스=[*], 노드=[*],
+persistentvolumeclaims=[*], persistentvolumes=[*], pod=[*], replicasets=[*], resourcequotas=[*], services=[*], statefulsets=[*]
++++</block>
+  <block id="7e7b391c65060e4613a7fb96bfd2ef31" category="cell">유창한 비트 내약성</block>
+  <block id="035bf5f67349238f72eae5d508efac99" category="cell">Fluent-bit-DS 추가 허용.</block>
+  <block id="8776d1f0ee4232b1c2ff5bc38e4b2603" category="cell">이벤트-수출자-내약성</block>
+  <block id="bac5ce71f32beb834c27a988cad33543" category="cell">이벤트-수출자 추가 허용.</block>
+  <block id="287ab13fa00dc2700e0567bc50f5a663" category="cell">L4-공차</block>
 </blocks>

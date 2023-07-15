@@ -204,6 +204,14 @@ OpenShift는 일부 Kubernetes 구성 요소에 대한 액세스를 차단할 �
 
 
 
+=== 톨레러스와 얼룩을 볼 수 있습니다
+
+모든 노드에서 데이터를 올바르게 수집하려면 _Telegraf_, _fluent-bit_ 및 _net-observer_DemonSets가 클러스터의 모든 노드에서 POD를 예약해야 합니다. 운용자는 잘 알려진 일부 * 얼룩을 견딜 수 있도록 구성되었습니다. 노드에서 사용자 지정 얼룩을 구성하여 모든 노드에서 Pod가 실행되지 않도록 하는 경우 이러한 얼룩에 대해 * 공차 * 를 생성할 수 있습니다 link:telegraf_agent_k8s_config_options.html["상담원 구성 _ 에서"]. 클러스터의 모든 노드에 사용자 지정 얼룩을 적용한 경우 운영자 포드를 예약 및 실행할 수 있도록 운영자 구축에 필요한 허용 오차도 추가해야 합니다.
+
+Kubernetes에 대해 자세히 알아보십시오 link:https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/["오염과 내약입니다"].
+
+
+
 == NetApp Kubernetes Monitoring Operator 설치
 
 image:NKMO-Instructions-1.png[""]
@@ -512,5 +520,8 @@ NetApp Kubernetes Monitoring Operator 설정 시 문제가 발생할 경우 다�
 
 
 | 클러스터에 존재하는 Kubernetes CronJobs에 대해 어떤 메트릭도 수집되지 않습니다. | Kubernetes 버전 확인(예 `kubectl version`)를 클릭합니다.  v1.20.x 이하일 경우 이는 예상되는 제한 사항입니다.  NetApp Kubernetes 모니터링 오퍼레이터와 함께 구축되는 Kubbe-state-metrics 릴리즈는 v1.crontjob만 지원합니다.  Kubernetes 1.20.x 이하에서는 crontjob 리소스가 v1beta.crontjob에 있습니다.  따라서 kube-state-metrics는 crontjob 리소스를 찾을 수 없습니다. 
+
+
+| 운용자 설치 후, Telegraf-ds Pod는 CrashLoopBackOff로 진입하고 POD 로그는 "su:Authentication failure"를 나타낸다. | NetApp-monitoring-configuration agentconfiguration을 편집하고 set_dockerMetricCollectionEnabled_to false를 설정합니다.  자세한 내용은 조작자를 참조하십시오 link:telegraf_agent_k8s_config_options.html["구성 옵션"]. 
 |===
 추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].

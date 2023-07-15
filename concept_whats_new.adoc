@@ -25,6 +25,72 @@ NOTE: 이러한 기능 중 일부는 Cloud Insights Federal Edition에서 사용
 
 
 
+== 2023년 7월
+
+
+
+=== 최근 변경 내용 표시
+
+이제 Data Collector 시작 페이지에 최근 변경 사항 목록이 포함됩니다. 데이터 수집기 랜딩 페이지 맨 아래에 있는 "최근 변경 사항" 버튼을 클릭하면 최근 데이터 수집기 변경 사항이 표시됩니다.
+
+image:Recent_Changes_Example.png["최근 변경 사항의 예"]
+
+
+
+=== 운전자 개선
+
+에서는 다음과 같은 개선 사항이 이루어졌습니다 link:/telegraf_agent_k8s_config_options.html["Kubernetes 운영자"] 배포:
+
+* Docker 메트릭 수집을 무시하는 옵션입니다
+* Telegraf Demonsets 및 Replicasets에 대한 허용 기준을 추가하고 사용자 지정할 수 있습니다
+
+
+
+
+=== Insight: 콜드 스토리지 부가세 반환 청구액
+
+를 클릭합니다 link:insights_reclaim_ontap_cold_storage.html["ONTAP 콜드 스토리지 파악 비용 재확보"] 이제 FlexGroups를 지원하며 모든 고객이 사용할 수 있습니다.
+
+
+
+=== 작업자 이미지 서명
+
+NetApp Kubernetes 모니터링 운영자용 개인 저장소를 사용하는 고객의 경우, 이제 오퍼레이터 설치 중에 이미지 서명 공개 키를 복사하여 다운로드한 소프트웨어의 정품 여부를 확인할 수 있습니다. 사용자 이미지를 개인 리포지토리에 업로드 _ 하는 선택적 단계 동안 _ 이미지 서명 공개 키 복사 _ 버튼을 선택합니다.
+
+image:Operator_Public_Image_Key.png["공개 키를 다운로드합니다"]
+
+
+
+=== 쿼리의 집계, 조건부 서식 및 기타
+
+집계, 단위 선택, 조건부 서식 및 열 이름 바꾸기는 대시보드 테이블 위젯의 가장 유용한 기능 중 하나이며, 이제 이러한 기능을 에서 사용할 수 있습니다 link:/task_create_query.html["쿼리"].
+
+image:Query_Page_Aggregation_etc.png["집계, 조건부 서식, 단위 표시 및 열 이름 바꾸기를 보여 주는 쿼리 페이지 결과"]
+
+이러한 기능은 현재 통합 유형 데이터(Kubernetes, ONTAP 고급 메트릭 등)에 사용할 수 있으며, 인프라 오브젝트(스토리지, 볼륨, 스위치 등)에 대해 곧 제공될 예정입니다.
+
+
+
+=== 감사를 위한 API
+
+이제 API를 사용하여 감사된 이벤트를 쿼리하거나 내보낼 수 있습니다. 관리자 > API 액세스로 이동하여 자세한 내용을 보려면 _API Documentation_link를 선택하십시오.
+
+image:Audit_API_Swagger.png["감사를 위한 API Swagger, 너비 = 400"]
+
+
+
+=== 데이터 수집기: Trident 이코노미
+
+Cloud Insights는 이제 Trident 이코노미 드라이버를 지원하므로 다음과 같은 이점을 누릴 수 있습니다.
+
+* Pod-ONTAP Qtree 매핑 및 성능 메트릭에 대한 가시성을 제공합니다.
+* Kubernetes Pod에서 백엔드 스토리지로 원활하게 문제를 해결하고 쉽게 탐색할 수 있습니다
+* 모니터의 백엔드 성능 문제를 사전 예방적으로 감지합니다
+
+
+'''
+
+
 == 2023년 6월
 
 
