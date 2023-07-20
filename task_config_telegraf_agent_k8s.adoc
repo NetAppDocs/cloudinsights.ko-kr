@@ -172,7 +172,7 @@ NetApp 모니터링 오퍼레이터 설치 타일에서 "이미지 풀 스니펫
 
 회사 정책에 따라 운영 Docker 이미지를 프라이빗/로컬/엔터프라이즈 Docker 저장소로 밀어 넣습니다. 리포지토리에서 이러한 이미지에 대한 이미지 태그 및 디렉터리 경로가 Cloud Insights 리포지토리의 이미지 태그 및 디렉터리 경로와 일치하는지 확인합니다.
 
-operator-config.yAML에서 모니터링-운영자 배포를 편집하고 모든 이미지 참조를 수정하여 개인 Docker 저장소를 사용하십시오.
+운영자 배포에서 모니터링 - 운영자 배포를 편집합니다. YAML을 편집하고 모든 이미지 참조를 수정하여 개인 Docker 저장소를 사용하십시오.
 
 ....
 image: <docker repo of the enterprise/corp docker repo>/kube-rbac-proxy:<kube-rbac-proxy version>

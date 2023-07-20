@@ -11358,5 +11358,5 @@ persistentvolumeclaims=[*], persistentvolumes=[*], pod=[*], replicasets=[*], res
   <block id="287ab13fa00dc2700e0567bc50f5a663" category="cell">L4-공차</block>
   <block id="259addbbe43276d62a91ef44d4dd55a8" category="paragraph">에서는 다음과 같은 개선 사항이 이루어졌습니다 <block ref="b13d2921c99b8ae4a991204f54e7f54b" category="inline-link-macro-rx"></block> 배포:</block>
   <block id="e69cca83cc71ef5f7c5439d8944e108d" category="paragraph">집계, 단위 선택, 조건부 서식 및 열 이름 바꾸기는 대시보드 테이블 위젯의 가장 유용한 기능 중 하나이며, 이제 이러한 기능을 에서 사용할 수 있습니다 <block ref="2b0568ca01fc8a058b93978c376cc13e" category="inline-link-macro-rx"></block>.</block>
-  <block id="e8b13bb5980b04b84716acf64b3b0abb" category="paragraph">operator-config.yAML에서 모니터링-운영자 배포를 편집하고 모든 이미지 참조를 수정하여 개인 Docker 저장소를 사용하십시오.</block>
+  <block id="8b4599b5810466dc4e8956fc5bc3c54c" category="paragraph">운영자 배포에서 모니터링 - 운영자 배포를 편집합니다. YAML을 편집하고 모든 이미지 참조를 수정하여 개인 Docker 저장소를 사용하십시오.</block>
 </blocks>
