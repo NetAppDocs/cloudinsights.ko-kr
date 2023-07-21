@@ -11379,4 +11379,37 @@ persistentvolumeclaims=[*], persistentvolumes=[*], pod=[*], replicasets=[*], res
 
 그런 다음 텔레그라프를 다시 시작합니다.</block>
   <block id="302f46075983be9c47bafd103c8fbf36" category="paragraph">사용할 API에 대한 예는 Swagger 페이지를 참조하십시오.</block>
+  <block id="ad8f9b24701da9364290a4c2eee40c64" category="section-title">ONTAP 전력 측정 기준</block>
+  <block id="b665630963f971c488f8e065e0c06fa9" category="paragraph">여러 ONTAP 모델은 Cloud Insights에 대한 전력 메트릭을 제공하므로 모니터링 또는 알림에 사용할 수 있습니다. 아래의 지원 모델과 지원되지 않는 모델 목록은 포괄하지는 않지만 몇 가지 지침을 제공해야 합니다. 일반적으로 모델이 목록에 있는 모델과 동일한 제품군에 속하는 경우 지원은 동일해야 합니다.</block>
+  <block id="4331e7abe05d195d44f5ad7553810841" category="paragraph">지원되는 모델:</block>
+  <block id="1c7aba313bcd844b750939db18c6ba3f" category="paragraph">A200
+A220
+A250
+A300
+A320
+A400
+A700
+A700s를 참조하십시오
+A800
+A900
+C190
+FAS2240-4
+FAS2552
+FAS2650
+FAS2720
+FAS2750
+FAS8200
+FAS8300
+FAS8700
+FAS9000</block>
+  <block id="f9e69d73975332449ef353ece92feba1" category="paragraph">지원되지 않는 모델:</block>
+  <block id="6b9e2344af026f5b0bd0790abba3451c" category="paragraph">FAS2620
+FAS3250
+FAS3270
+500f로 설정합니다
+FAS6280
+FAS/AFF 8020
+FAS/AFF 8040
+FAS/AFF 8060
+FAS/AFF 8080</block>
 </blocks>
