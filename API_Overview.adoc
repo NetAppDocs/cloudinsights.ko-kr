@@ -99,8 +99,10 @@ NOTE: 토큰은 클립보드로 복사하고 생성 과정 중에 저장하는 �
 
 예를 들어, 다음을 사용하여 스토리지 자산을 검색할 수 있습니다.
 
- curl https://<tenant_host_name>/rest/v1/assets/storages -H 'X-CloudInsights-ApiKey: <API_Access_Token>'
+ curl https://<tenant_host_name>/rest/v1/assets/storages -H 'X-CloudInsights-ApiKey:<API_Access_Token>'
 여기서 _<API_Access_Token>_은 API 액세스 생성 중에 저장한 토큰입니다.
+
+사용할 API에 대한 예는 Swagger 페이지를 참조하십시오.
 
 
 
@@ -304,7 +306,7 @@ API 액세스 토큰의 만료 날짜가 있습니다. API 액세스 토큰이 �
 spec:
 …
   output-sink:
-  - api-key: <NEW_API_TOKEN>
+  - api-key:<NEW_API_TOKEN>
 ....
 
 

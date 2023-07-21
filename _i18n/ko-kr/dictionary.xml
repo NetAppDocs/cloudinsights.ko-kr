@@ -11378,4 +11378,5 @@ persistentvolumeclaims=[*], persistentvolumes=[*], pod=[*], replicasets=[*], res
 ...
 
 그런 다음 텔레그라프를 다시 시작합니다.</block>
+  <block id="302f46075983be9c47bafd103c8fbf36" category="paragraph">사용할 API에 대한 예는 Swagger 페이지를 참조하십시오.</block>
 </blocks>
