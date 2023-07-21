@@ -11359,4 +11359,23 @@ persistentvolumeclaims=[*], persistentvolumes=[*], pod=[*], replicasets=[*], res
   <block id="e69cca83cc71ef5f7c5439d8944e108d" category="paragraph">집계, 단위 선택, 조건부 서식 및 열 이름 바꾸기는 대시보드 테이블 위젯의 가장 유용한 기능 중 하나이며, 이제 이러한 기능을 에서 사용할 수 있습니다 <block ref="2b0568ca01fc8a058b93978c376cc13e" category="inline-link-macro-rx"></block>.</block>
   <block id="8b4599b5810466dc4e8956fc5bc3c54c" category="paragraph">운영자 배포에서 모니터링 - 운영자 배포를 편집합니다. YAML을 편집하고 모든 이미지 참조를 수정하여 개인 Docker 저장소를 사용하십시오.</block>
   <block id="3aabe2789e92746b5404b30428bb4f9e" category="paragraph">둘 중 하나 또는 둘 모두에 대해 프록시를 사용하는 경우 NetApp Kubernetes 운영 모니터를 설치하려면 먼저 프록시가 Cloud Insights 환경에 대한 올바른 통신을 허용하도록 구성되어 있는지 확인해야 합니다. 예를 들어 운영자를 설치하려는 서버/VM에서 Cloud Insights에 액세스하고 Cloud Insights에서 바이너리를 다운로드할 수 있어야 합니다.</block>
+  <block id="9de497f607f8a73311408d3d7b337399" category="cell">Telegraf 로그에 다음과 유사한 오류 메시지가 반복적으로 표시됩니다.
+
+ E! [agent] outputs.http:Post에 쓰는 동안 오류가 발생했습니다 <block ref="95209f65da8fece27c962b4b503ef61a" category="inline-link-rx"></block> 컨텍스트 마감일이 초과되었습니다(헤더를 기다리는 동안 클라이언트 시간 초과됨).</block>
+  <block id="34e1dafcca7166ebef6820ec79ddd7cf" category="cell">각 Telegraf 구성 파일(예: /etc/Telegraf/Telegraf.d/ *.conf)을 편집하고 Telegraf 출력 플러그인의 시간 초과를 늘립니다.  예를 들어, 각 .conf 파일에서...
+
+[[outputs.http]([출력.http])
+...
+시간 초과 = "5초"
+...
+
+
+...다음 항목 사용:
+
+[[outputs.http]([출력.http])
+...
+시간 초과 = "10s"
+...
+
+그런 다음 텔레그라프를 다시 시작합니다.</block>
 </blocks>

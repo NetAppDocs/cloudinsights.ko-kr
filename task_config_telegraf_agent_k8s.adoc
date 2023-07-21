@@ -523,5 +523,25 @@ NetApp Kubernetes Monitoring Operator 설정 시 문제가 발생할 경우 다�
 
 
 | 운용자 설치 후, Telegraf-ds Pod는 CrashLoopBackOff로 진입하고 POD 로그는 "su:Authentication failure"를 나타낸다. | NetApp-monitoring-configuration agentconfiguration을 편집하고 set_dockerMetricCollectionEnabled_to false를 설정합니다.  자세한 내용은 조작자를 참조하십시오 link:telegraf_agent_k8s_config_options.html["구성 옵션"]. 
+
+
+| Telegraf 로그에 다음과 유사한 오류 메시지가 반복적으로 표시됩니다.
+
+ E! [agent] outputs.http:Post에 쓰는 동안 오류가 발생했습니다 "https://<tenant_url>/rest/v1/lake/ingest/influxdb":[] 컨텍스트 마감일이 초과되었습니다(헤더를 기다리는 동안 클라이언트 시간 초과됨). | 각 Telegraf 구성 파일(예: /etc/Telegraf/Telegraf.d/ *.conf)을 편집하고 Telegraf 출력 플러그인의 시간 초과를 늘립니다.  예를 들어, 각 .conf 파일에서...
+
+[[outputs.http]([출력.http])
+...
+시간 초과 = "5초"
+...
+
+
+...다음 항목 사용:
+
+[[outputs.http]([출력.http])
+...
+시간 초과 = "10s"
+...
+
+그런 다음 텔레그라프를 다시 시작합니다. 
 |===
 추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].
