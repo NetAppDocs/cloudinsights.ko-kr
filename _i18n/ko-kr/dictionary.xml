@@ -10809,7 +10809,6 @@
   <block id="1cd9ce57b7c44af6c8a130743e74dd52" category="inline-image-macro">워크로드 맵 예</block>
   <block id="7af846b3cedb6c2658e0a5a0470d77f4" category="paragraph"><block ref="7af846b3cedb6c2658e0a5a0470d77f4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5f87ab561452069f2b8a72e3e1d6b9c5" category="sidebar">모니터링 오퍼레이터 시작하기</block>
-  <block id="d443a554afc0274206e1dc6ca6c51767" category="sidebar">Kubernetes 모니터링 및 맵</block>
   <block id="8022a6c696c4f5ec847420e8ebe1de9e" category="doc">Kubernetes 네트워크 성능 모니터링 및 맵</block>
   <block id="7d69190c63825bab664b2d4ce825918a" category="admonition">Kubernetes Network Performance Monitoring and Map은 입니다 <block ref="312c0c6b46ba32b4b11ba8c9da5788ed" category="inline-link-macro-rx"></block> 변경될 수 있습니다.</block>
   <block id="ee14ad38dfee48bc207f90920b1efb9f" category="paragraph">Kubernetes Network Performance Monitoring and Map을 사용하려면 먼저 을 구성해야 합니다 <block ref="f0d3e43e41da35ba651820db811551cd" category="inline-link-macro-rx"></block> 를 눌러 이 옵션을 활성화합니다. 오퍼레이터 배포 중에 "네트워크 성능 및 맵" 확인란을 선택하여 활성화합니다. Kubernetes 랜딩 페이지로 이동하여 "배포 수정"을 선택하여 이 옵션을 활성화할 수도 있습니다.</block>
@@ -11412,4 +11411,5 @@ FAS/AFF 8020
 FAS/AFF 8040
 FAS/AFF 8060
 FAS/AFF 8080</block>
+  <block id="be7979b5db831ae076c107584fa4f37c" category="sidebar">네트워크 모니터링 및 맵</block>
 </blocks>
