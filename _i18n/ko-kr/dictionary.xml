@@ -912,7 +912,6 @@
   <block id="2c4a65782f3fcd193e8e3aab503fa515" category="section-title">보존 정책</block>
   <block id="77422aee0786be7f7c1880b7b0954687" category="cell">다음을 시도해 보십시오.</block>
   <block id="eb75aeb3b4b2b9734ba3e52f5483f0b2" category="inline-link-macro">ONTAP 설명서</block>
-  <block id="5aec7bee9bf7098941b7fab790f89ec8" category="cell">아니요 CS 스냅샷에 대해 설정된 퍼징/아카이빙 기간이 없습니다. 사용자는 CS 스냅샷에 대한 제거 정책을 정의해야 합니다. 을 참조하십시오 <block ref="e3477019d6e8e26c6e36a5c10c372344" category="inline-link-macro-rx"></block> 정책을 설정하는 방법에 대한 정보를 제공합니다.</block>
   <block id="97142806b6f8ba5285f1650e6822a478" category="cell">ONTAP에서 최대 스냅샷 수에 도달하면 어떻게 됩니까?</block>
   <block id="c718437c95f9699cf92562f47fc2c706" category="inline-link-macro">스냅샷 삭제 정책 설정 중</block>
   <block id="a2649cdb2384d3388d38543a8ba844c7" category="cell">스냅샷을 생성하는 데 사용되는 역할에 https://docs.netapp.com/us-en/cloudinsights/task_add_collector_svm.html#a-note-about-permissions[proper 권한이 할당됨 링크가 있는지 확인합니다. 스냅샷 촬영을 위한 적절한 액세스 권한으로 _csrole_이(가) 생성되었는지 확인합니다. 보안 로그인 역할 create -vserver &lt;vservername&gt; -role csrole -cmddirname "volume snapshot" -access all</block>
@@ -8638,7 +8637,6 @@
   <block id="2855135907eef979db329ca6aebe0464" category="section-title">시뮬레이터를 실행하기 전에 필요한 지침:</block>
   <block id="d786b68b9cf5f686784afa64b69b3bce" category="list-text">암호화된 파일이 비어 있지 않은지 확인합니다.</block>
   <block id="dc77d098f1840a6fa69f5b878fac260d" category="list-text">50개 이상의 파일을 암호화해야 합니다. 적은 수의 파일이 무시됩니다.</block>
-  <block id="dfabdab4d722d2b248490b96ddf9add5" category="list-text">동일한 사용자로 여러 번 공격을 실행하지 마십시오. 몇 번 후 CS는 이 사용자 동작을 학습하고 이것이 사용자의 정상적인 동작이라고 가정합니다.</block>
   <block id="7a5e4b833809f504d9c40568ed0a5cec" category="list-text">동일한 사용자가 방금 만든 파일은 암호화하지 마십시오. 사용자가 방금 만든 파일을 변경하는 것은 위험한 작업으로 간주되지 않습니다. 대신 다른 사용자가 만든 파일을 사용하거나 파일을 만들고 암호화하는 데 몇 시간이 걸릴 수 있습니다.</block>
   <block id="d96f025cc7db5db06dd47e78c55d8f1e" category="list-text">"공통 서비스" 구성 요소를 호스팅하는 Ops Center 서버의 IP 주소 또는 호스트 이름입니다</block>
   <block id="acf6b70a4e6ba36ec7116e8e7747c507" category="paragraph">한 자산에서 동일한 주석을 업데이트하는 여러 규칙을 실행할 때 첫 번째 규칙(위에서 아래로 실행)이 주석을 적용하고 자산을 업데이트한 다음 두 번째 규칙이 적용되지만 이전 규칙에 의해 이미 설정된 주석은 변경되지 않습니다.</block>
@@ -10331,9 +10329,6 @@
   <block id="8771316aacd1c4b06854e0e9f30a545c" category="list-text">공격 유형(랜섬웨어, 태업) 및 경고 ID(워크로드 보안에서 할당)</block>
   <block id="37fa3057780441193fd46b687aef4974" category="paragraph">워크로드 보안은 악의적인 활동이 감지되면 스냅샷을 자동으로 생성하여 데이터를 보호하고 데이터가 안전하게 백업되도록 합니다.</block>
   <block id="106f889ad7fb5a787f85bc5d8d8471ec" category="paragraph">경고 및 경고는 13개월 동안 유지됩니다. 13개월 이전의 경고 및 경고가 삭제됩니다. 워크로드 보안 환경이 삭제된 경우 환경과 관련된 모든 데이터도 삭제됩니다.</block>
-  <block id="431fef516df90830b5c1c21b6ce07235" category="cell">CS(Workload Security)에서 생성한 스냅샷의 경우 CS 스냅샷의 제거/아카이빙 기간이 있습니까?</block>
-  <block id="e6fb05f0da5acc86f543947f4c4e697e" category="cell">ONTAP에서 매일 매시간 스냅샷을 생성하는 경우가 있습니다. CS(워크로드 보안) 스냅샷이 영향을 미칩니까? CS 스냅샷은 시간별 스냅샷 위치를 가져갈까요? 기본 시간별 스냅샷이 중지됩니까?</block>
-  <block id="726c7f3f596062ccd907feb3815a05e0" category="cell">워크로드 보안 스냅샷은 시간별 스냅샷에 영향을 주지 않습니다. CS 스냅샷은 매시간 스냅샷 공간을 차지하지 않으므로 이전과 같이 계속 진행됩니다. 기본 시간별 스냅샷은 중지되지 않습니다.</block>
   <block id="dbc12ef69e34122bf8f4ac6b397d0011" category="cell">최대 스냅샷 수에 도달하면 후속 스냅샷 찍기가 실패하고 워크로드 보안에서 스냅샷이 가득 찼다는 오류 메시지가 표시됩니다. 사용자는 가장 오래된 스냅샷을 삭제하기 위해 스냅샷 정책을 정의해야 합니다. 그렇지 않으면 스냅샷이 생성되지 않습니다. ONTAP 9.3 이전 버전에서는 볼륨에 최대 255개의 스냅샷 복사본이 포함될 수 있습니다. ONTAP 9.4 이상에서는 볼륨에 최대 1023개의 스냅샷 복사본을 포함할 수 있습니다. 에 대한 자세한 내용은 ONTAP 설명서를 참조하십시오 <block ref="be93a0e4b8c5168a6ec2dc10f7f34d59" category="inline-link-macro-rx"></block>.</block>
   <block id="58eb0692e2d7399b3579ee5ce166cc58" category="cell">워크로드 보안에서 스냅샷을 생성할 수 없습니다.</block>
   <block id="06319d1baa3128a2dcdf122c600b751e" category="cell">워크로드 보안에서 제거된 SVM에 대한 이전 경고에 대해 스냅샷이 실패하고, 이후에 다시 추가됩니다. SVM을 다시 추가한 후에 발생하는 새 경고의 경우 스냅샷이 생성됩니다.</block>
@@ -11412,4 +11407,7 @@ FAS/AFF 8040
 FAS/AFF 8060
 FAS/AFF 8080</block>
   <block id="be7979b5db831ae076c107584fa4f37c" category="sidebar">네트워크 모니터링 및 맵</block>
+  <block id="8d41e3bd6529669109fc47034b6cec4c" category="cell">ONTAP에서 매일 매시간 스냅샷을 생성하는 경우가 있습니다. WS(Workload Security) 스냅샷이 영향을 줍니까? WS 스냅샷은 시간별 스냅샷 위치를 차지합니까? 기본 시간별 스냅샷이 중지됩니까?</block>
+  <block id="9abb3d91142b5821f0ea7a72b15b21d3" category="cell">워크로드 보안 스냅샷은 시간별 스냅샷에 영향을 주지 않습니다. WS 스냅샷은 매시간 스냅샷 공간을 차지하지 않으며 이전과 같이 계속되어야 합니다. 기본 시간별 스냅샷은 중지되지 않습니다.</block>
+  <block id="9cdd30f36b5b67d9fc64c9bd48e9fac8" category="list-text">동일한 사용자로 여러 번 공격을 실행하지 마십시오. 몇 번 지나면 워크로드 보안에서는 이 사용자 동작을 학습하고 이것이 사용자의 정상적인 동작이라고 가정합니다.</block>
 </blocks>
