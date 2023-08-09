@@ -11025,4 +11025,30 @@ FAS/AFF 8080</block>
   <block id="9453f63a9e7f74d7e4aba2db7d3e1d70" category="cell">VMware vCenter Server 6.7.0 빌드 - 10244857, VMware vCenter Server 6.7.0 빌드 - 14368073, VMware vCenter Server 7.0.3 빌드 - 19234570, VMware vCenter Server 7.0.3 빌드 - 2015099, VMware vCenter Server 7.0.3 빌드 - 20990077, VMware vCenter Server 빌드 - 21721870.3</block>
   <block id="56cae3e29c9acf0337232282d32c85c1" category="cell">VMware vCenter Server 8.0.0 빌드 - 21709157, VMware vCenter Server 7.0.3 빌드 - 20870699, VMware vCenter Server 7.0.3 빌드 - 20532039</block>
   <block id="c2c46e278a3a0cfb21101adab5aed33b" category="cell">VMware ESXi 6.0.0 빌드 - 10719132, VMware ESXi 6.0.0 빌드 - 2494585, VMware ESXi 6.0.0 빌드 - 5572656, VMware ESXi 6.0.0 빌드 - 9313334, VMware ESXi 6.5.0 빌드 - 149908.0 - 59303, VMware vCenter Server 빌드 - 5385385.830.0 Build-1750787, VMware vCenter Server 5.5.0 빌드-2442329, VMware vCenter Server 5.5.0 빌드-3000241, VMware vCenter Server 5.5.0 빌드-3252642, VMware vCenter Server 5.5.0 빌드-4180647, VMware vCenter Server 1366.40.0-70.0-71366.45 빌드-6516310, VMware vCenter Server 서버 6.0.0 빌드 - 5960847, VMware vCenter Server 6.0.0 빌드 - 7924803, VMware vCenter Server 6.0.0 빌드 - 8803875, VMware vCenter Server 6.0.0 빌드 - 9313458, VMware vCenter Server 6.5.0 빌드 - 1096411, VMware vCenter Server 빌드 - 7119157, VMware vCenter Server 6.7.0 빌드 - 10244857, VMware vCenter Server 6.7.0 빌드 - 11727113, VMware vCenter Server 6.7.0 빌드 - 13007421, VMware vCenter Server 6.7.0 빌드 - 14366.52867.0, VMware vCenter Server 빌드 - 18737.0 Server 6.7.0 build - 19832247, VMware vCenter Server 6.7.0 build - 19832280, VMware vCenter Server 6.7.0 build - 20504301, VMware vCenter Server 6.7.0 build - 20504362, VMware vCenter Server 6.7.0 build - 9437.0.0 - VMware vCenter Server 7.4270.0 - 16637.0 build - VMware vCenter Server 6917737.0 빌드 - 18455184, VMware vCenter Server 7.0.3 빌드 - 18700403, VMware vCenter Server 7.0.3 빌드 - 18778458, VMware vCenter Server 7.0.3 빌드 - 18778458, VMware vCenter Server 빌드 - 19234570, VMWare vCenter Server 201507.07.07.0.3, VMware vCenter Server 빌드 - 207.39907.07.00.3 서버 7.0.3 빌드 - 21784236, VMware vCenter Server 7.0.3 빌드 - 21958406, VMware vCenter Server 8.0.0 빌드 - 20920323, VMware vCenter Server 8.0.0 빌드 - 21216066, VMware vCenter Server 8.0.0 빌드 - 21457384, VMware vCenter Server 8.0.1 빌드 - 2180.1</block>
+  <block id="6d6bbe0ff14c220c87649b72d24ad927" category="section-title">2023년 8월</block>
+  <block id="2ddfcdc31d5e5de8a48fe5187b0f4eb7" category="section-title">개선된 메뉴</block>
+  <block id="770b665998f011b1710d778c94d090f6" category="paragraph">고객의 워크플로우를 더욱 효과적으로 지원할 수 있도록 좌측 탐색 메뉴를 업데이트했습니다. _Kubernetes_와 같은 새로운 최상위 항목은 고객의 요구 사항에 대한 액세스를 가속화하며, 통합된 관리자 콘솔은 테넌트 소유자 역할을 지원합니다.</block>
+  <block id="57480340f42116feeb42f981543cebf6" category="paragraph">다음은 몇 가지 변경 사항의 추가 예입니다.</block>
+  <block id="060ffbae771393c5fa58e497eae200df" category="list-text">최상위 _관측성_메뉴는 데이터 검색, 경고 및 로그 쿼리를 보여줍니다</block>
+  <block id="a80be63428550b536ba9127edf7efe52" category="list-text">관측성 및 워크로드 보안을 위한 'API 액세스' 기능은 단일 메뉴 아래에 있습니다</block>
+  <block id="1679e9c88d912350a1ef152cb4c30b3c" category="list-text">마찬가지로, 관측성 및 워크로드 보안 '알림' 기능도 한 가지 메뉴로 제공됩니다</block>
+  <block id="20575a36219e26edf0e8eff4cdfd93ca" category="inline-image-macro">왼쪽 탐색 메뉴가 업데이트되었습니다</block>
+  <block id="16b9fc89bf7ba3d8ae2c869378bbf565" category="paragraph"><block ref="16b9fc89bf7ba3d8ae2c869378bbf565" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c25b376d4ad18aade7fe74ca4996ee38" category="paragraph">다음은 각 메뉴에서 찾을 수 있는 기능의 간단한 목록입니다.</block>
+  <block id="b4263a85713fbbc93aec389b541571a9" category="paragraph">관측성:</block>
+  <block id="ab767b7872cc3ea9c0cdd122da02c02b" category="list-text">탐색(대시보드, 메트릭 쿼리, 인프라 인사이트)</block>
+  <block id="65f016c7729d8f39ac07154f40a6cc20" category="list-text">경고(모니터 및 경고)</block>
+  <block id="24bc8c583ee815ab0b0fb5674f1f1ae2" category="list-text">수집기(데이터 수집기 및 획득 장치)</block>
+  <block id="5bcea4e0bbd8a619bf12b3aa1d579b02" category="list-text">보강(주석 및 주석 규칙, 응용 프로그램, 장치 해상도)</block>
+  <block id="bc5611c731b034c5f323419d0258aa44" category="paragraph">쿠버네티스:</block>
+  <block id="e8c0a21a42b471e499e206f09618332b" category="list-text">클러스터 탐색 및 네트워크 맵</block>
+  <block id="d9a678c96702146a2eb5a60f101e495c" category="paragraph">워크로드 보안:</block>
+  <block id="843d2730071ec91250d8f85419275d56" category="list-text">수집기</block>
+  <block id="9e476387322a5c250893cf9c5c4ce78c" category="list-text">정책</block>
+  <block id="45e6c5ebb3c3cf63a5c792a668b7c38d" category="paragraph">ONTAP 요약:</block>
+  <block id="8566fdf95f40ad545423b5340c581b8e" category="list-text">워크로드
+* VMware</block>
+  <block id="bca37b041da64be838599cd43784ed63" category="paragraph">관리자:</block>
+  <block id="bbe1851a4bf6476f10ba4c77ec78d11d" category="list-text">API 액세스</block>
+  <block id="4620823d389a7467f91084ea88f4f104" category="list-text">구독 정보</block>
 </blocks>
