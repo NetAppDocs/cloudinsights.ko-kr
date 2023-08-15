@@ -3701,7 +3701,6 @@
   <block id="6b6d7f0bb3be3abde199877bf4398807" category="cell">ONTAP의 이벤트 발생률은 상담원 박스가 처리할 수 있는 것보다 훨씬 높았습니다. 따라서 연결이 종료되었습니다. 연결이 끊겼을 때 CloudSecure의 최대 트래픽을 확인합니다. 이는 * CloudSecure &gt; Activity Forensics &gt; All Activity * 페이지에서 확인할 수 있습니다. 최대 집계된 트래픽이 Agent Box에서 처리할 수 있는 트래픽보다 높은 경우 Agent Box에서 Collector 배포를 사이징하는 방법에 대한 이벤트 속도 검사기 페이지를 참조하십시오. 2021년 3월 4일 이전에 Agent 상자에 Agent를 설치한 경우, Agent 상자에서 echo 'net.core.rmem_max=8388608'&gt; /etc/sysctl.conf echo'net.ipv4.tcp_rmem=4096 2097152 838608'&gt; /etc/sysctl.sysctl.UI를 다시 시작한 후 다시 시작합니다.</block>
   <block id="7dc1f3b50a6e66da2ae31d89467342c4" category="cell">수집기가 오류 메시지를 보고합니다: "SVM의 데이터 인터페이스에 연결할 수 있는 커넥터에서 로컬 IP 주소를 찾을 수 없습니다."</block>
   <block id="dfb48a2f78b82c90165015b0e73f7e58" category="inline-link-macro">NetApp 지원</block>
-  <block id="6cba87228a06e136ec0afee777c57387" category="cell">이는 ONTAP 측의 네트워킹 문제 때문일 가능성이 가장 높습니다. 다음 단계를 따르십시오. 1. SVM의 연결을 차단하는 관리 리소스나 SVM 데이터 거짓에 방화벽이 없는지 확인합니다. 클러스터 관리 IP를 통해 SVM을 추가할 때 SVM의 데이터 거짓과 관리 거짓이 에이전트 VM에서 핑되도록 하십시오. 문제가 발생한 경우, lif에 대한 게이트웨이, 넷마스크 및 경로를 확인하십시오. 클러스터 관리 IP를 사용하여 ssh를 통해 클러스터에 로그인하고 에이전트 IP를 Ping할 수도 있습니다. 에이전트 IP가 Ping할 수 있는지 확인합니다. _ network ping -vserver &lt;vserver name&gt; -destination &lt;Agent ip&gt; -lif &lt;LIF Name&gt; -show-detail_이 Ping할 수 없는 경우 ONTAP의 네트워크 설정이 올바른지 확인하여 에이전트 시스템이 Ping할 수 있는지 확인합니다. 3.클러스터 IP를 통해 연결을 시도했으나 작동하지 않는 경우 SVM IP를 통해 직접 연결을 시도하십시오. SVM IP를 통해 연결하는 단계는 위 섹션을 참조하십시오. SVM IP 및 vsadmin 자격 증명을 통해 수집기를 추가하는 동안 SVM LIF에서 데이터 및 관리 역할이 활성화되어 있는지 확인합니다. 이 경우 SVM LIF로 ping을 수행할 수 있지만 SVM LIF에 대한 SSH는 작동하지 않습니다. SVM 관리 전용 LIF를 생성한 후 이 SVM 관리 전용 LIF를 통해 연결을 시도하십시오. 그래도 작동하지 않으면 새 SVM LIF를 생성하고 LIF를 통해 연결을 시도합니다. 서브넷 마스크가 올바르게 설정되었는지 확인합니다. 6.고급 디버깅: a) ONTAP에서 패킷 추적을 시작합니다. b) CloudSecure UI에서 데이터 수집기를 SVM에 연결합니다. c) 오류가 나타날 때까지 기다립니다. ONTAP에서 패킷 추적을 중지합니다. d) ONTAP에서 Packet Trace를 엽니다. 이 위치에서 사용할 수 있습니다. _\https://&lt;cluster_mgmt_ip&gt;/spi/&lt;clustername&gt;/etc/log/packet_traces/_ e) ONTAP에서 Agent Box로 SYN이 있는지 확인합니다. f) ONTAP에서 SYN이 없으면 ONTAP의 방화벽과 관련된 문제입니다. g) ONTAP가 에이전트 상자를 연결할 수 있도록 ONTAP에서 방화벽을 엽니다. 7.여전히 작동하지 않는 경우 네트워킹 팀에 문의하여 ONTAP에서 Agent Box로의 연결을 차단하는 외부 방화벽이 없는지 확인하십시오. 8.위의 방법으로 문제가 해결되지 않으면 에서 케이스를 엽니다 <block ref="125077bdbbba42f5228b9828dd761a10" category="inline-link-macro-rx"></block> 추가 지원을 요청하십시오.</block>
   <block id="17f836aa8a8fb1af2d3360f0ff3cda15" category="cell">메시지: "[hostname:&lt;IP Address&gt;에 대한 ONTAP 유형을 확인하지 못했습니다. 이유: 스토리지 시스템에 대한 접속 오류 &lt;IP 주소&gt;: 호스트에 연결할 수 없습니다(호스트에 연결할 수 없음)"</block>
   <block id="e5f53b94e30dcc1b62ef059336b700c9" category="cell">올바른 SVM IP 관리 주소 또는 클러스터 관리 IP가 제공되었는지 확인합니다. 연결할 SVM 또는 클러스터에 SSH를 연결합니다. 연결이 완료되면 SVM 또는 클러스터 이름이 올바른지 확인합니다.</block>
   <block id="17a99211f689747ad8a030b9a5329d3f" category="cell">오류 메시지: "커넥터가 오류 상태입니다. service.name: 감사. 실패 이유: 외부 FPolicy 서버가 종료되었습니다."</block>
@@ -11051,4 +11050,40 @@ FAS/AFF 8080</block>
   <block id="bca37b041da64be838599cd43784ed63" category="paragraph">관리자:</block>
   <block id="bbe1851a4bf6476f10ba4c77ec78d11d" category="list-text">API 액세스</block>
   <block id="4620823d389a7467f91084ea88f4f104" category="list-text">구독 정보</block>
+  <block id="384d2b3681715a5efe4a0e8ae256591a" category="cell">이는 ONTAP 측의 네트워킹 문제 때문일 가능성이 가장 높습니다. 다음 단계를 따르십시오.
+
+SVM 데이터 lif 또는 SVM과의 연결을 차단하는 관리 lif에 방화벽이 없는지 확인합니다.
+
+클러스터 관리 IP를 통해 SVM을 추가할 때 SVM의 데이터 거짓과 관리 거짓이 에이전트 VM에서 핑되도록 하십시오. 문제가 발생한 경우, lif에 대한 게이트웨이, 넷마스크 및 경로를 확인하십시오.
+
+클러스터 관리 IP를 사용하여 ssh를 통해 클러스터에 로그인하고 에이전트 IP를 Ping할 수도 있습니다. 에이전트 IP가 Ping할 수 있는지 확인합니다.
+
+_network ping -vserver &lt;vserver name&gt; -destination &lt;Agent IP&gt; -lif &lt;Lif Name&gt; -show -detail_
+
+Ping할 수 없는 경우 ONTAP의 네트워크 설정이 올바른지 확인하여 Agent 시스템이 Ping할 수 있도록 합니다.
+
+3.클러스터 IP를 통해 연결을 시도했으나 작동하지 않는 경우 SVM IP를 통해 직접 연결을 시도하십시오. SVM IP를 통해 연결하는 단계는 위 섹션을 참조하십시오.
+
+SVM IP 및 vsadmin 자격 증명을 통해 수집기를 추가하는 동안 SVM LIF에서 데이터 및 관리 역할이 활성화되어 있는지 확인합니다. 이 경우 SVM LIF로 ping을 수행할 수 있지만 SVM LIF에 대한 SSH는 작동하지 않습니다.
+SVM 관리 전용 LIF를 생성한 후 이 SVM 관리 전용 LIF를 통해 연결을 시도하십시오.
+
+그래도 작동하지 않으면 새 SVM LIF를 생성하고 LIF를 통해 연결을 시도합니다. 서브넷 마스크가 올바르게 설정되었는지 확인합니다.
+
+6.고급 디버깅:
+a) ONTAP에서 패킷 추적을 시작합니다.
+B) CloudSecure UI에서 데이터 수집기를 SVM에 연결합니다.
+c) 오류가 나타날 때까지 기다립니다. ONTAP에서 패킷 추적을 중지합니다.
+d) ONTAP에서 패킷 추적을 엽니다. 이 위치에서 사용할 수 있습니다
+
+ _\https://&lt;cluster_mgmt_ip&gt;/SPI/&lt;clustername&gt;/etc/log/packet_traces/_
+
+e) ONTAP에서 에이전트 상자로 SYN이 있는지 확인합니다.
+f) ONTAP의 SYN이 없는 경우 ONTAP의 방화벽 문제입니다.
+g) ONTAP에서 방화벽을 열어 ONTAP가 에이전트 상자를 연결할 수 있도록 합니다.
+
+7.여전히 작동하지 않는 경우 네트워킹 팀에 문의하여 ONTAP에서 Agent Box로의 연결을 차단하는 외부 방화벽이 없는지 확인하십시오.
+
+포트 7이 열려 있는지 확인합니다.
+
+9.위의 방법으로 문제가 해결되지 않으면 에서 케이스를 엽니다 <block ref="125077bdbbba42f5228b9828dd761a10" category="inline-link-macro-rx"></block> 추가 지원을 요청하십시오.</block>
 </blocks>
