@@ -10665,7 +10665,6 @@ SE(Security Enhanced) Linux는 지원되지 않습니다.</block>
   <block id="e1e08e40036f927a0e660c22aa837f88" category="inline-link-macro">오염과 내약입니다</block>
   <block id="9680829f0eb82d9736ac7fe477135a87" category="paragraph">Kubernetes에 대해 자세히 알아보십시오 <block ref="2a69bcb19ea6a4db3f5d1b466ff78e77" category="inline-link-macro-rx"></block>.</block>
   <block id="45698e13b1c2f7241751839133834506" category="cell">운용자 설치 후, Telegraf-ds Pod는 CrashLoopBackOff로 진입하고 POD 로그는 "su:Authentication failure"를 나타낸다.</block>
-  <block id="61f9b982e510e8aa9a5efaee7290eb4a" category="cell">NetApp-monitoring-configuration agentconfiguration을 편집하고 set_dockerMetricCollectionEnabled_to false를 설정합니다.  자세한 내용은 조작자를 참조하십시오 <block ref="74a91e6274b6ee5f9fd240fb978eb1d9" category="inline-link-macro-rx"></block>.</block>
   <block id="a3f0ee128de7eabdc5dbd73136882ab6" category="cell">dockerMetricCollectionEnabled를 참조하십시오</block>
   <block id="0710c2522c29e39ba719becf4972a9aa" category="cell">Docker 메트릭을 수집합니다. 기본적으로 이 옵션은 true로 설정되어 있으며, Docker 기반 k8s 구축 시 Docker 메트릭이 수집됩니다. Docker 메트릭 수집을 해제하려면 FALSE로 설정합니다.</block>
   <block id="bb0a12c3834207119851374142a76ac0" category="cell">dsTolerations 를 선택합니다</block>
@@ -11086,4 +11085,21 @@ g) ONTAP에서 방화벽을 열어 ONTAP가 에이전트 상자를 연결할 수
 포트 7이 열려 있는지 확인합니다.
 
 9.위의 방법으로 문제가 해결되지 않으면 에서 케이스를 엽니다 <block ref="125077bdbbba42f5228b9828dd761a10" category="inline-link-macro-rx"></block> 추가 지원을 요청하십시오.</block>
+  <block id="856e2dfd00ab497c6f91560e87be666f" category="cell">_AgentConfiguration_에서 netapp-monitoring-configuration 섹션을 편집하고 _dockerMetricCollectionEnabled_를 false 로 설정합니다. 자세한 내용은 조작자를 참조하십시오 <block ref="74a91e6274b6ee5f9fd240fb978eb1d9" category="inline-link-macro-rx"></block>.
+
+참고: Cloud Insights Federal Edition을 사용하는 경우, Docker 소켓에 액세스하려면 Telegraf 컨테이너를 루트로 실행하거나 _su_를 사용하여 Telegraf 사용자를 Docker 그룹에 추가해야 하기 때문에 _su_ 사용이 제한된 사용자는 Docker 메트릭을 수집할 수 없습니다. Docker 메트릭 수집 및 _su_의 사용은 기본적으로 활성화되어 있습니다. 두 가지를 모두 사용하지 않으려면 _AgentConfiguration_파일에서 _Telegraf.docker_entry를 제거하십시오.
+
+...
+사양:
+...
+텔레그라프:
+    ...
+     -name: docker입니다
+            실행 모드:
+              - DemonSet
+            대체:
+              -key:docker_unix_sock_placeholder입니다
+                값: UNIX:///run/docker.sock
+    ...
+...</block>
 </blocks>
