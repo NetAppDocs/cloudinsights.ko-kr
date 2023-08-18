@@ -10930,99 +10930,11 @@ FAS/AFF 8080</block>
   <block id="a61a9c39243f1f0af5e6bc0eee7e4206" category="section-title">NetApp 7 모드</block>
   <block id="cdae224de44c7ca9779763280e90b457" category="section-title">NetApp StorageGRID(HTTPS)</block>
   <block id="e7fa2f0f68f6e6823354c3bdca9c5e37" category="section-title">Red Hat RHV(REST)</block>
-  <block id="3d1f3cf9eeb8dd797fa223b517831d7e" category="cell">3.1.1 (MU1) P10, P13,3.1.2 (MU3) P16, P48, P49,3.1.3 (MU2), P09,3.1.3 (MU3), P32, P34, P37, P40, P42, P45, P51, P76, P90, P96, P113,3.3.1(MU2) P32, P34, P P132, P135, P140, P141, P146, P150, P151, P155, P156, P170, P172, P173, P175, P177, P180,3.3.2(MU1), 3.3.2(MU1) P04, P08,3.3.4 릴리스 지원 연장 릴리스 유형 지원, 확장 릴리스 유형 지원, 4.5.4 릴리스 유형 지원, 4.5.4 릴리스 유형 지원, 릴리스 유형</block>
-  <block id="f3185bdcfa702fb8e42b686cb6e787de" category="cell">HPE Alletra 9080, HPE_3PAR 20450, HPE_3PAR 20800, HPE_3PAR 20850, HPE_3PAR 7200c, HPE_3PAR 7400, HPE_3PAR 7440c, HPE 3PAR_7400 HP 3PAR_450, HP 3PAR_8400, 3PAR_450, HP 3PAR_3PAR_3PAR_8400, HP 3PAR_450</block>
   <block id="048927a97ef6b1b501acaef70c08eedc" category="section-title">Amazon AWS S3</block>
-  <block id="6b016079003ffc3cd5870c390610559e" category="cell">178.0, 183.0, Brocade 200E, Brocade 300E, Brocade 3900, Brocade 4024 내장, Brocade 48000, Brocade 5000, Brocade 5100, Brocade 5300, Brocade 5480 내장, Brocade 6505, Brocade 6510, Brocade 6520, Brocade 6548, Brocade 7800, Brocade 7840, Brocade DCX, Brocade X610, Brocade X610, Brocade X610, Brocade X854, Brocade X610, Brocade X610, Brocade X610, Brocade X610</block>
-  <block id="7e113c00167ffbb669b2e178c2b0e313" category="cell">v5.3, v2.1b, v6.2.2g, v6.3.2, v6.4.1a, v6.4.2a, v7.0.0, v7.0.1b, v7.1.0c, v7.4.2</block>
-  <block id="a8980624b36685de30b839fe810d7e1c" category="cell">14.4.1,14.4.3,14.4.4,14.4.5</block>
-  <block id="3a8b3267c3a9be8ee4b9d8b14c0ba716" category="cell">Brocade 5300, Brocade 6510, Brocade 6520, Brocade 6548, Brocade DCX 8510-8, Brocade G620, DS-6620B, EMC Connectrix ED-DCX8510-8B</block>
-  <block id="3664a5f88300a0d58dd398d9afe32e55" category="cell">v7.2.1a, v7.3.1a, v7.4.1b, v7.4.2D, v8.2.3b, v8.2.3c, v9.0.1a, v9.0.1b, v9.0.1e1</block>
   <block id="9187ca9a7b77e8c1f820196faa5e17aa" category="section-title">Brocade FOS REST</block>
-  <block id="0a49c7c251df4e02cd6f0ea8d2691e91" category="cell">Brocade 6505, Brocade G720, Brocade X6-8</block>
-  <block id="e6add0e55d6479c50f0e3bc00589a4b7" category="cell">v8.2.3c, v8.2.3c1, v9.0.1e1, v9.1.1b</block>
-  <block id="a987874bd4a59e7c718313d23b3756c0" category="cell">8978, HP-E04, CN1610, DS-C9124-K9, DS-C9124-K9, DS-C9132T-K9, DS-C9148-K9, DS-C9148</block>
-  <block id="80232b65bcda47bf564e37bf9cc5e510" category="cell">, 5.2인치, 5.2인치, 5.2인치, 5.2인치, 5.2인치 N2인치, 5.2인치 N2인치, 5.2인치 N2인치, 5.2인치 N2인치, 4.01인치, 11인치 N2인치, 4.04인치 N2인치, 4.2인치 N2인치, 5.2인치 N2인치 N2인치 N2인치</block>
-  <block id="cba944ba06f97ff79226dd37f7f93f1f" category="cell">C2500, C2500, C2505, C2505, C4600, C4600, C4600, C4000 컴퓨팅 노드, C5036, C5066, C6025, C6035, C6035, C6025, C6055, C4000 컴퓨팅 노드, PXG1, UCS-C240H10, C60240H10, C60M535</block>
-  <block id="b028d7d67db1cc19e2a50a3214a6a82c" category="cell">6.5.1f_release-20210913_13f6a4bf, 6.5.1f_u1_release-20211027_9e4e40cb, 6.6.0d_</block>
-  <block id="37a97e502cede0e0f3d33a7be830837e" category="cell">5.5.38-1,6.0.65-2,7.1.76-4,7.1.79-8,7.1.83-2,8.1.21-266,8.1.21-303,8.1.9-155</block>
-  <block id="18430b2d291c2dc1414a3f5756e42b20" category="cell">NS-480FC, NSX, VG8, VNX5200, VNX5300, VNX5400, VNX5600, VNX7600</block>
-  <block id="fd1bf6d21cde6ccf829a2673401c0c31" category="cell">6.23,6.26,6.28,7.30,7.32,7.33</block>
-  <block id="db3b139a583ed7f27abd9999b7dd133b" category="cell">AX4-5F8, CX3-20f, CX3-40f, CX4-480, VNX5100, VNX5200, VNX5300, VNX5400, VNX5500, VNX5600, VNX5700, VNX5800, VNX7600, VNX8000</block>
-  <block id="0db7c60598fdc8d0f15e670a17740533" category="cell">04.28.000.5.710,04.30.000.5.525,05.32.000.5.219,05.32.000.5.219,05.32.000.5.221,05.32.000.5.249,05.33.000.5.</block>
-  <block id="e6311d9c48f15e675b3f291013b093f3" category="cell">DD VE, DD2200, DD2500, DD3300, DD4200, DD6300, DD6800, DD6900, DD7200, DD9300, DD9400, DD9500, DD9800, DD990, DD9900</block>
-  <block id="cfd1ecd482dd5e30ef59498f867232fe" category="cell">11.7.2.051-633576,6.1.2.50-632120,6.2.0.30-629757,6.2.0.30-629757,6.2.0.30-663869,6.2.1.</block>
-  <block id="55146e3714ede981205c0bdb936c84a4" category="cell">3.6.1.1, 3.6.1.3, 3.6.2.1, 3.6.2.4, 3.7.0.0, 3.7.0.3, 3.7.0.4, 3.7.0.5, 3.8.0.1, 3.8.0.2</block>
-  <block id="9f40a6b0cd8c4c5c7b1007715cbceb21" category="cell">A200, A200, F200, A300, F200, A3000, F600, F800, H500, F900, H400, H400, H500, H500, H500, H500, H500, A200, NL410, A200, L410, X410, N410, X410, N410, X410, L410, X410</block>
-  <block id="77a713a2e9961ad19908007379ccffe4" category="cell">9.1.0.11,9.1.0.6,9.2.1.11,9.2.1.12,9.2.1.16,9.2.1.19,9.2.1.21,9.2.1.7,9.2.1.7,9.2.1.</block>
-  <block id="dfdb4c80953f375f5c86701ca1c53d9a" category="cell">A200, SA200, A300, A200, F800, X210, A200, H500, A200, NL410, A200, A2000, F800, A300, A300, A300, A300, A300, F200, H400, H400, H500, H410, H400, H400, N400, H410, N400, H500, H410, N400, H410, H400, H400, H410, H410, H400, H400, N400, H400, N400, N400, H210, H410, H400, H400, H410, N400, H400, NL410</block>
-  <block id="27652d6de0ee2a6ca5777fbe1b6a5e19" category="cell">9.1.1.0.10,9.1.0.16,9.1.0.18,9.1.0.19,9.1.0.7,9.2.1.11,9.2.1.22,9.2.1.2.1버전</block>
-  <block id="f5ade85c45b96f108416763c9b8c0f82" category="cell">PowerStore 1000T, PowerStore 1200T, PowerStore 3000T, PowerStore 3200T, PowerStore 5000T, PowerStore 5000X, PowerStore 9000T, PowerStore 9200T</block>
-  <block id="257b2716484393b6be3a757c233a2a09" category="cell">2.0.1.3, 2.1.1.0, 2.1.1.1, 3.0.0.1, 3.2.0.0, 3.2.0.1, 3.2.1.0</block>
-  <block id="da8d78c6ff70d174b091b12023196ec0" category="cell">5.1.P1(C.15), 5.1.SP4.P1(H.89), 5.1.SP4.P2(H.101), 5.1.SP4.P3(H.109), 5.1.SP4.P4(H.97)</block>
-  <block id="e2df20c4b66f2e80208c523a61487bdc" category="cell">2.5, 3.5</block>
-  <block id="3f464b3ce56ac07128241e30ad80a930" category="cell">R2_6.1100.113, R2_6.1100.115, R3_0.1400.101, R3_5.1200.104, R3_6.500.113, R3_6.700.103</block>
-  <block id="2f0c768362cdb6002760c5c43fa0c4c0" category="cell">v10.0.0.0, V10.0.1.0, V7.6.2.67, V8.3.0.22, V8.3.0.6, V8.4.0.7, V8.4.0.9, V9.1.0.6, V9.2.0.0, V9.2.1.0, V9.2.1.1, V9.2.3.4.3.0, V9.2.3.6.V9.2.3.6, V9.2.3.6, V9.2.3.0, V9.2.Unavailable</block>
-  <block id="96449430ff212eaa2ec9fe8018af0080" category="cell">DMX3-24, DMX4-24, PMax2000, PowerMax_2000, PowerMax_8000, VMAX-1, VMAX100K, VMAX10K, VMAX200K, VMAX250F, VMAX400K, VMAX40K, VMAX450F, VMAX850F, VMAX950F</block>
-  <block id="b3c51e92901055a99e13b5a9c3fb33d0" category="cell">5773.198.142 (168D0000) 빌드 5,5876.272.177 (16F40000) 빌드 39,5876.286.194 (16F40000) 빌드 115,5979,977979,179,7111.971 빌드 (1797511559,179,179,17711000) 빌드 388,5978.711.711 (175A0000) 빌드 416,5978.711.711 (175A0000) 빌드 436,5978.711.711 (175978.711.711) 빌드 480,5978.711.711 (빌드) 빌드 A97711.5977000 (빌드) 빌드 A97711.597711.711.511.711.511.511.511.0000</block>
-  <block id="fe81004ead67fe3b86143ae4659a281a" category="cell">v10.0.0.5, V10.0.1.3, V9.2.1.6, V9.2.3.20, V9.2.3.22, V9.2.3.4, V9.2.4.1</block>
-  <block id="200f99a7f17904df92fc0b08b77d3388" category="cell">PowerMax_2000, PowerMax_2500, PowerMax_8000, VMAX250F, VMAX950F</block>
-  <block id="75644a65f4ff0b58b6adc91f23a83121" category="cell">5978.479.479.479 빌드 350,5978.711.711.711 빌드 252,5978.711.711.711 빌드 278 빌드 278,5978.711.711.711 빌드 빌드 53 빌드 53,6079.175.0 빌드 0</block>
-  <block id="b63ac51841f8fa4c7dd833b94e81c383" category="cell">7.1.76-4,7.1.80-3,7.33,8.1.9-232</block>
-  <block id="9ebad120ac64012f2f16bcd6352e3c0d" category="cell">VNX5300, VNX5400, VNX5700, VNX5800</block>
-  <block id="c8786cbc5477d2abeda2403e6c5d7467" category="cell">05.33.009.5.231,7.1.76-4,7.1.80-3,8.1.9-232</block>
-  <block id="6651c7c957b5c32742d109c218f2c6c6" category="cell">Unity 300, Unity 300F, Unity 350F, Unity 380F, Unity 400, Unity 400F, Unity 450F, Unity 480F, Unity 500, Unity 550F, Unity 600, Unity 600F, Unity 650F, Unity 680F, Unity 880, VNXe3200</block>
-  <block id="7ae419757a59f53a0b541b82512a7802" category="cell">3.1.17.10223906,3.1.17.10229825,4.1.2.9257522,4.2.1.9535982,4.2.3.9670635,4.5.1.0.5.0.2.</block>
-  <block id="b39af3a69ba9419ef182962dde26814f" category="cell">5.4.1.00.00.07,5.4.1.01.00.05,6.2.0.03.00.02,6.2.0.04.00.07,6.2.0.05.00.11,6.2.0.07.00.02</block>
-  <block id="def56689989c4d5900cea66bedbb610d" category="cell">6.2.1,6.2.2, 6.3.1,6.3.2, 6.3.3,6.4.0</block>
-  <block id="d18d168f625dce371aedb22b1b8daf2a" category="cell">1개의 Brick &amp; 125TB, 1개의 Brick &amp; 24TB, 1개의 Brick &amp; 26TB, 1개의 Brick &amp; 62TB, 1개의 Brick &amp; 8TB, 1X10TB, 1X20TB, 1X40TB, 2개의 Brick &amp; 62TB, 2개의 Brick &amp; 76TB, 2개의 Brick &amp; 83TB, 2X10TB, 425TB</block>
-  <block id="84646b3d1db8bde338a919740b9ffdd6" category="cell">4.0.27-1,4.0.31-11,6.1.0-99_X2,6.3.3-8_X2,6.4.0-22_X2,6.4.0-36_HotFix_2_X2</block>
-  <block id="42b729fe80bf7a2366324a68b856b999" category="cell">2600,2660,2680,2702,2704,2800B, 2804,2806,3000,5480,5486,5488,5504,5564,5600,5700,5700B, 6000</block>
-  <block id="0b91e45fbaf4070ad233832859267370" category="cell">08.40.60.0.8.10.14.0, 8.20.11.0, 8.20.27.0, 8.20.30.0, 8.20.5.0,8.20.8.0.0, 8.25.6.0,8.0.0</block>
-  <block id="3e5f8f3b41554624694e432084da7e1d" category="cell">9.3.7.2, 9.5.0.121</block>
-  <block id="e1a81136e2e4a4cae92769a0d791457b" category="cell">7.6.1,8.7.7, 8.8.1,8.8.3, 8.8.5</block>
-  <block id="9b832a2d85627ef1d3668230cb6a36ed" category="cell">DF850MH, DF850S, HM800, HM850, P9500, RAID700, RAID800, VSP5000, XP24000, XP7</block>
-  <block id="4f2626ced1200b71254a80092cbb7695" category="cell">0983-A-H, 0988-H-S, DKC:60-08-21/00, SVP:60-08-65, SVP:60-08-54/00, SVP:60-08-06-06-06-00/KC-80-00:00, SVP:00-06-80-80-80-00, D06-80-80-80-80-00</block>
-  <block id="0e75cb6682be9470a6a52b557495f96b" category="cell">VSP 5100, VSP 5500, VSP F1500, VSP F600, VSP G800</block>
-  <block id="ab28517eaf057d3ec499ab666a58c36e" category="cell">80-06-92-00/00:01-65-03/05,83-05-46-60/00:01-65-03/05,83-05-47-40:01-65-03/05,83-05-48-40</block>
-  <block id="5ebc4ddf29145e8cba2a7f5033e10f41" category="cell">G600, N800, HNAS 4080, G800, HNAS 4100</block>
-  <block id="eba7b6836101f13d9952ae8826afa6e4" category="cell">14.5.7413.01,13.9.6918.05,14.6.7520.04</block>
-  <block id="f15f746fc311d334ce3a02b2afb31bb9" category="cell">6030, AF1000, AF20Q, AF3000, AF40, AF5000, CS1000, CS300, CS3000, CS500, CS5000, HF20, HF20H, HF40, HF60</block>
-  <block id="006d04fb0065ffaf9af16d1ff8a8ac7b" category="cell">5.0.10.0-742719-OPT, 5.0.7.0-604814-OPT, 5.0.8.0-677726-OPT, 5.2.1.1000-1017822-OPT, 5.2.1.600-841103-OPT, 5.2.1.700-882343-OPT, 5.2-</block>
-  <block id="5a8cd22d2b2b9eed9688e73cae1b646e" category="cell">5300 V5,5500 V3,5500 V5,5800 V3, Dorado 5000 V6 SAS, Dorado 6000 V3, Dorado 6000 V6 NVMe</block>
-  <block id="760f751b3664887473e1728d8cc280d2" category="cell">V300R001C01, V300R002C10, V300R006C20, V300R006C50, V500R007C10, V500R007C30, V600R003C00, V600R005C03</block>
   <block id="3c488986c63ec1eef9b3352d99db04b9" category="section-title">IBM DS 8K(DSCLI)</block>
-  <block id="5bba46fd5ea8f4d7bee35fc6241eb8df" category="cell">2107-951,2107-961,2107-985,2107-996</block>
-  <block id="bf6f08ca14b16e911310b9e3eb8db36f" category="cell">7.6.31.4250,7.7.51.1400,7.8.57.18,7.9.21.91,7.9.32.126</block>
-  <block id="8b0ad05a7169ac93040c184fe333397f" category="cell">2072-12F, 2072-324,2072-2N4,2072-3H4,2072-3H4,2072-3N4,2076-12</block>
-  <block id="0ca6951a3444dca9d05a10b3a1c90884" category="cell">1.9.1.9.1.9.1.9, 1.6.1.5, 7.5.11,7.5.0.12,7.8.1.14,7.8.1.8.1.6,7.8.1.8.2.1.11,8.2.1.1.8.3.1.8.5.0.8.8.3.5.8</block>
-  <block id="8e0dbedcd679a05370e19b99302d9c17" category="cell">415, A14</block>
-  <block id="500538118934f2ed96bf5e13f73c97f2" category="cell">10.2.4.e, 12.3.2.c</block>
-  <block id="150a15ee605b83a0ae3d9903b7dd5e28" category="cell">F6230, F6240, F6303, F6304</block>
-  <block id="a811c32e3869f4ec356b6e47647783a1" category="cell">6.0.31.0, 7.0.14.20</block>
-  <block id="fb30bfde4e0b10a97df79c27dbf2921c" category="cell">ONTAPI 버전 = 1.12, ONTAPI 버전 = 1.14, ONTAPI 버전 = 1.17, ONTAPI 버전 = 1.19, ONTAPI 버전 = 1.20, ONTAPI 버전 = 1.21</block>
-  <block id="62b172c644dc92eb18d0cb6dd410c032" category="cell">FAS2040, FAS2050, FAS2220, FAS2240-2, FAS2240-4, FAS2520, FAS2554, FAS3140, FAS3160, FAS310, FAS3220, FAS3240, FAS3250, FAS3270, FAS6240, FAS6290, FAS8020, FAS8040, FAS8060, FAS8080, N6070, N6240, V3240</block>
-  <block id="808256e0afff0067c8eda4a18d7796d1" category="cell">7.3.ONTAP 4-8.1.1 7-Mode, 8.1.4P1 7-Mode, 8.1.4P10 7-Mode, 8.1.4P9D18 7-Mode, 8.2.1 7-Mode, 8.2.1 7-Mode, 8.2.3 7-Mode, ONTAP 7-Mode, 8.3.2 7-Mode, 8.3.2 7-Mode P4-Mode P4-7.7-Mode, 8.8-Mode P4-Mode, 8.8-Mode, ONTAP</block>
   <block id="1a4c7c9b6e3157ccd0101fd0836c0bfc" category="section-title">NetApp Cloud Volumes Service를 참조하십시오</block>
-  <block id="5fe14592420ef675b5ac83bcfba2aa85" category="cell">NetApp 릴리즈 9.11.0P1:2022 UTC, NetApp 릴리즈 9.11.1P3:목요일 2022년 9월 29일 16:06:51 UTC, NetApp 릴리즈 9.11.1P5:토요일 2022년 12월 10일 23:54:17 UTC, NetApp 릴리즈 9.11.1P6:금 2022년 1월 27일 03:16:05 UTC, NetApp 릴리즈:023 UTC 릴리즈:11.09 UTC 릴리즈:11:09 UTC 11일 2023년 4월 28일 금요일 03:24:07 UTC, NetApp 릴리즈 9.12.1P4:화요일 2023년 6월 6일 20:41:34 UTC</block>
-  <block id="b9d8e2ee403f32b5360948f36741ccb5" category="cell">Data ONTAP 릴리즈 9.12.1P2: 2018년 4월 5일 수요일 19:57:43 UTC 2023(Lenovo), NetApp 릴리즈 8.2.3P5 Cluster-Mode: 2015년 7월 16일 목요일 21:51:07 PDT 2015년 7월 16일 월요일 12:42:08 UTC, NetApp 릴리즈 8.3.1P2: 2009년 2월 12일 수요일 09:10:24 UTC 릴리즈:09 UTC 릴리즈:24 릴리즈 2 릴리즈:09 UTC 릴리즈:29 2017년 8월 14일 월요일 02:57:01 UTC(UTC), NetApp 릴리즈 8.3.2P2: 월요일 2016년 5월 23일 13:45:25 UTC(UTC), NetApp 릴리즈 8.3:8 2022년 1월 15일 토요일 15:04:44 UTC, NetApp 릴리즈 9.10.1P10:일요일 2022년 12월 18일 16:24:34 UTC, NetApp 릴리즈 9.10.1P11:Thu 2023년 2월 23일 06:55:33 UTC, NetApp 릴리즈 9.10.1P12:Tu 2012년 3월 13일 일요일 07:13:58 UTC 2022, NetApp 릴리즈 9.10.1P3:화요일 2022년 4월 19일 17:44:44 UTC 2022년 UTC, NetApp 릴리즈 9.10.1P4:44 UTC 2022년 5월 09:11:44 UTC, NetApp 릴리즈 9.10.1P5:57 UTC 2022년 6월 19일 2022년 9월 13일 화요일 14:10:13 UTC, NetApp 릴리즈 9.10.1P9:목요일 2022년 11월 03:29:00 UTC, NetApp 릴리즈 9.10.1RC1:수요일 2021년 10월 27일 02:46:19 UTC, NetApp 릴리즈 9.11.0P1:41:04 2022년 7월 22일, NetApp 릴리즈 9.11:11.21 UTC 릴리즈:11.1:11.1 UTC 릴리즈 2023년 5월 25일 목요일 12:28:26 UTC, NetApp 릴리즈 9.11.1P1: 화요일 09 8월 13:13:19 UTC, NetApp 릴리즈 9.11.1P2: 2022년 9월 5일 03:40:01 UTC 2022년 9월 29일 16:06:51 2022년 NetApp 릴리즈 9.1P4:목요일 UTC 릴리즈 11.11:목요일 NetApp 릴리즈:목요일 UTC 릴리즈 11.22 UTC 릴리즈:목요일 UTC 릴리즈 11.11:목요일 2023년 1월 27일 금요일 03:16:05 UTC, NetApp 릴리즈 9.11.1P7:Thu 09 2023년 3월 11일 오전 11:22:24 UTC, NetApp 릴리즈 9.11.1P8:금 2023년 4월 7일 금요일 NetApp 릴리즈 9.11.1P9:07 UTC 릴리즈:2022 UTC 릴리즈 6월 2일 09:48:39 UTC 2022, NetApp 릴리즈 9.12.1:Wed Feb 01:10:18 UTC 2023, NetApp 릴리즈 9.12.1P1:Wed Feb 22 18:22:20 UTC 2023년 4월 22일 수요일 14:58:46 수요일 UTC 릴리즈 9.12.1P2, NetApp 릴리즈:46 UTC 릴리즈:43 UTC 릴리즈:UTC 릴리즈 1P2:01 2023년 6월 6일 화요일 20:41:34 UTC, NetApp 릴리즈 9.12.1RC1:금요일 2022년 11월 4일 11:45:36 UTC, NetApp 릴리즈 9.12.1RC1:수요일 2022년 11월 09:14:48 UTC, NetApp 릴리즈 9.13.0:화요일 2월 07 21:20:29:29 UTC 릴리즈 9.023 릴리즈 023:01:23 UTC 릴리즈:23 릴리즈:23 UTC 릴리즈 023 릴리즈 023:01:23 UTC 릴리즈:01 2023년 5월 17일 수요일 16:31:25 UTC, NetApp 릴리즈 9.13.1: 2023년 6월 19일 13:36:41 UTC, NetApp 릴리즈 9.13.1X19:수요일 2023년 4월 26일 월요일 20:51:32 UTC, NetApp 릴리즈 9.13.1X25:2023년 5월 31일 월요일 UTC 릴리즈:13.34 NetApp 릴리즈:2023년 9월 31일 월요일 UTC 릴리즈:33 UTC 릴리즈:13.23 UTC 릴리즈:23 UTC 릴리즈:33 2023년 6월 8일 목요일 오전 10:20:00 UTC, NetApp 릴리즈 9.13.1X35:월 12일 12:12:13 UTC, NetApp 릴리즈 9.13.1X36:목요일 2023년 6월 15일 목요일 04:09:51 UTC 2016, NetApp 릴리즈 9.1P10:09:51 UTC 릴리즈:2017 NetApp 2017년 11월 12월 12월 12월 11일 릴리즈:09:09:01 UTC 릴리즈:01 UTC 릴리즈:09:09:09:09:01 2018년 3월 5일 월요일 17:39:31 UTC 2018, NetApp 릴리즈 9.1P14:수요일 2018년 6월 27일 09:15:16 UTC, NetApp 릴리즈 9.1P15:2018년 8월 30일 목요일 08:19:59 UTC(UTC), NetApp 릴리즈 9.1P17:05:25 UTC 2018년 2월 27일 릴리즈:01 2018년 10월 28일 월요일 14:37:28 UTC, NetApp 릴리즈 9.1P5: 일요일 2017년 6월 11일 02:26:58 UTC 2017, NetApp 릴리즈 9.1P7:월요일 2017년 8월 14일 10:27:14 UTC 2017년 8월 30일 수요일 13:33:41 UTC, NetApp 릴리즈 9.3P10:24 UTC 릴리즈:2018 NetApp 릴리즈:09:23 UTC 릴리즈:09:09:09 UTC 2019년 5월 27일 월요일 19:26:00 UTC, NetApp 릴리즈 9.3P14:38:46 UTC(UTC), NetApp 릴리즈 9.3P15:Tue 2019년 7월 16일 19:40:35 UTC, NetApp 릴리즈 9.3P18:53 UTC(NetApp 릴리즈 9.3P19:53 UTC), 2018년 1월 10일 월요일 UTC 릴리즈:09:00 UTC 릴리즈:00 UTC 릴리즈:00 UTC 릴리즈:00 UTC 릴리즈:00 UTC(UTC) 9월 23일 수요일 21:44:43 UTC 2020, NetApp 릴리즈 9.3P21:43 UTC 2021년 1월 11일 17:25:42 UTC 2021년 1월 11일 17:25:42 UTC, NetApp 릴리즈 9.3P2 2018년 3월 02:58 UTC 2018년 3월 목요일 16:53:13 UTC, NetApp 릴리즈 9.3P2 2018년 7월 25일 수요일 10:11:10 UTC(UTC), NetApp 릴리즈 9.3P8:월 03 20:01:35 UTC(UTC), NetApp 릴리즈 9.3P9:Thu 2018년 10월 25일 07:42:13 UTC, NetApp 릴리즈 9.4P2:2018년 8월 21일 00:08 UTC(UTC), NetApp 릴리즈 9.4P3:2018년 10월 11월 11월 22일 릴리즈:09:18 UTC 릴리즈:18 UTC(UTC(UTC) 2월 22일 금요일 09:43:14 UTC 2019, NetApp 릴리즈 9.4RC1:Thu 2018년 4월 26일 09:13:57 UTC 2018, NetApp 릴리즈 9.5:12 2018년 12월 13일 목요일 20:41:33 UTC 2018, NetApp 릴리즈 9.5P10:45 UTC, NetApp 릴리즈 9.5P12:금요일 8월 17일 월요일 05:32:42 UTC 2020, NetApp 릴리즈 9.5P15:화요일 2007년 11월 17일 07:31:22 UTC 2020, NetApp 릴리즈 9.5P16:화요일 2021년 1월 12일 10:52:07 UTC, NetApp 릴리즈 9.5P17:52 2021년 8월 NetApp 릴리즈 9.5P18:Wed 11:21 UTC 릴리즈 2019년 2월 19일 화요일 21:38:50 UTC, NetApp 릴리즈 9.5P2: 2019년 3월 14일 목요일 13:59:39 UTC, NetApp 릴리즈 9.5P3:2019년 4월 16일 화요일 22:44:27 UTC, NetApp 릴리즈 9.5P3:화요일 2019년 5월 7일:16:16 UTC 릴리즈 534 NetApp 2018년 7월 10일 수요일 18:43:50 UTC, NetApp 릴리즈 9.5P6: 수요일(UTC) 2019년 7월 10일 22:58:11 UTC, NetApp 릴리즈 9.5P7:2019년 8월 6일 화요일 오전 9시 19시 03:08 UTC, NetApp 릴리즈 9.5P9:08 UTC 릴리즈 10:09 UTC 릴리즈:09 UTC 릴리즈 10 2019년 7월 10일 수요일 16:25:33 UTC, NetApp 릴리즈 9.6P11:금요일 2020년 10월 16:13:09 UTC 2020, NetApp 릴리즈 9.6P14:09 UTC 2020, NetApp 릴리즈 9.6P15:55 UTC 2021년 5월 31일 02:25:27 UTC, NetApp 릴리즈 9.6P18:27 UTC 릴리즈:09 UTC, UTC, NetApp 릴리즈 019 릴리즈:08:09 2019년 9월 22일 일요일 08:26:36 UTC, NetApp 릴리즈 9.6P4:Thu 07 01:50:36 UTC 2019, NetApp 릴리즈 9.6P5:금요일 12:21:56 UTC 2019, NetApp 릴리즈 9.6RC1: 2018년 5월 11일:58:14 UTC, NetApp 릴리즈 9.6X11:15:09 UTC 릴리즈:09 NetApp UTC 릴리즈 12월 10일 화요일 00:55:43 UTC 2020, NetApp 릴리즈 9.7P11:화요일 2021년 1월 12일 18:41:08 UTC, NetApp 릴리즈 9.7P11:화요일 2021년 1월 12일 23:00:49 UTC, NetApp 릴리즈 9.7P12:화요일 02 23:38:44 2021년 6월 10일 UTC 릴리즈 9.7P13:화요일 UTC 릴리즈:15 UTC 릴리즈:21 UTC 릴리즈 2021년 8월 6일 금요일 19:56:41 UTC 2021, NetApp 릴리즈 9.7P16:금요일 2021년 9월 10일 22:33:12 UTC, NetApp 릴리즈 9.7P17:53 2021년 11월 27일 13:49:53 UTC, NetApp 릴리즈 9.7P18:Thu 2022년 3월 10일 09:57:16, NetApp 릴리즈 9.7P19:월 22일 UTC 릴리즈 9.7P19:20 UTC 릴리즈 8월 11일 목요일 13:20:52 UTC 2022, NetApp Release 9.7P21:금요일 2022년 12월 23일 11:52:44 UTC, NetApp Release 9.7P22:51 UTC 2023년 3월 27일 14:06:51 UTC 2020, NetApp Release 9.7P3:2020 UTC 릴리즈 9.743 UTC 릴리즈:00 UTC 릴리즈:00 6월 23일 화요일 04:02:30 UTC 2020, NetApp 릴리즈 9.7P6:화요일 2020년 7월 28일 04:06:27 UTC 2020, NetApp 릴리즈 9.7P7:목요일 20:57:05 UTC 2020 UTC 2020, NetApp 릴리즈 9.7P8:Thu 2019년 11월 16일 토요일 22:06:11 UTC, NetApp 릴리즈 9.8: 수요일(UTC) 2020년 12월 09:17:24 UTC 2020, NetApp 릴리즈 9.8P10:21 UTC, NetApp 릴리즈 9.8P11:22 3월 12일 10:19:15 UTC, NetApp 릴리즈 9.8P11D2:목요일(UTC) 릴리즈 9.022 5월 14일 12:50:22 UTC 릴리즈:00 UTC 릴리즈:00 UTC 릴리즈:00 UTC 릴리즈:00 UTC 릴리즈:00 UTC(UTC(UTC) 2022년 7월 15일 금요일 22:40:56 UTC, NetApp 릴리즈 9.8P14:화요일 2022년 8월 23일 15:29:48 UTC, NetApp 릴리즈 9.8P15:수요일 2022년 11월 23일 09:29:16 UTC, NetApp 릴리즈 9.8P16:05 2022년 12월 22일, NetApp 릴리즈 9.8P16:목요일 UTC 릴리즈:목요일 UTC 릴리즈:목요일 UTC 릴리즈:UTC 릴리즈:UTC 릴리즈:22 UTC 릴리즈:UTC 릴리즈 822 2023년 3월 29일 수요일 13:19:30 UTC, NetApp 릴리즈 9.8P19:Thu 2023년 5월 11일 12:52:01 UTC, NetApp 릴리즈 9.8P19:Thu 2023년 5월 11일 17:26:53 UTC, NetApp 릴리즈 9.8P1:Thu 21 01:11:31 UTC 릴리즈 2021년 2월 21일, NetApp 릴리즈 9.8P2 릴리즈 9.8P2:21:21 UTC 릴리즈 2021년 5월 3일 월요일 09:22:00 UTC, NetApp 릴리즈 9.8P5:Thu 2021년 6월 10일 21:52:01 UTC, NetApp 릴리즈 9.8P6:화요일 2021년 8월 3일 16:21:11 UTC, NetApp 릴리즈 9.8P7:Tue 10월 31일 토요일 11:13:09 UTC 2020, NetApp 릴리즈 9.9. 0:2021년 2월 5일 금요일 11:29:21 UTC, NetApp 릴리즈 9.9.1: 2021년 6월 13일 06:06:29 UTC, NetApp 릴리즈 9.9.1:21 UTC, NetApp 릴리즈 9.9:22 UTC 릴리즈 9.9:22 UTC(월 12일) 2022년 9월 16일 금요일 20:50:11 UTC, NetApp 릴리즈 9.9.1P13:금요일 2022년 11월 18일 17:29:45 UTC, NetApp 릴리즈 9.9.1P14:51 UTC(UTC), NetApp 릴리즈 9.9.1P15:51 UTC(UTC), NetApp 릴리즈 9.9:23 2023년 5월 27일 오후 11월 27일 오후 11월 27일 오후 9시 2021년 8월 19일 목요일 13:53:06 UTC 2021, NetApp 릴리즈 9.9.1P3: 2021년 9월 25일 13:10:46 UTC, NetApp 릴리즈 9.9.1P3: 2021년 9월 29일 수요일 12:55:55 UTC(UTC), NetApp 릴리즈 9.9.1P4:31 월요일 UTC 2022년 1월 29일 토요일 01:25:00 UTC, NetApp 릴리즈 9.9.1P8:화요일 2022년 3월 15일 22:46:53 UTC, NetApp 릴리즈 9.9.1P9:Wed 2022년 4월 20일:42:19 UTC, NetApp 릴리즈 9.11:39:07 UTC_LighthoF_UTC, NetApp 릴리즈:07:07 UTC_UTC_UTC 릴리즈:07:07 UTC_UTC 릴리즈:07:07 UTC 릴리즈:07 UTC 릴리즈:UTC 릴리즈:UTC 릴리즈:07 UTC_UTC 릴리즈:UTC SUN Jun 18 05:17:33 UTC 2023, NetApp 릴리즈 롱보드_ 9.0.1: 2016년 6월 4일 09:45:33 UTC 2016, NetApp 릴리스 메트로폴리탄 _ 9.11.1:28 UTC 2022년 7월 12일 04:38:28 UTC, NetApp 릴리스 메트로폴리탄 _ 9.11.1:48:31 UTC, NetApp 릴리스 11.22 UTC_UTC 릴리즈 2023년 1월 31일 19:19:43 UTC, NetApp 릴리즈 Yellowog__9.12.1:화요일 11월 08 20:32:25 UTC, NetApp 릴리즈 Yellowog__9.12.1:Wed 2022년 10월 05:47:17 UTC</block>
-  <block id="116545c8d0c2e9a39b4e005fd5239735" category="cell">AFF-A220, AFF A220, AFF A220, AFF-A220, AFF-A220, AFF-A220, AFF-A220, AFF-A220, AFF-A220, AFF-A200-A220, AFF-A220, AFF-A220, AFF-A200-A220, AFF A200-A220, AFF A220</block>
-  <block id="3acdafbf4c8bfe92f477ed83acb467f3" category="cell">8.2.3P5 clustered Data ONTAP, 8.3.0 clustered Data ONTAP, 8.3.1 clustered Data ONTAP, 8.3.1P2 clustered Data ONTAP, 8.3.2 clustered Data ONTAP, 8.3.2P12 clustered Data ONTAP, 8.3.2P5 clustered Data ONTAP, 9.0.1 clustered Data ONTAP, 9.1.0 clustered Data ONTAP, 9.1.014, P9.1.09.1.P9.1.014, Clustered Data ONTAP Data ONTAP, 9.1.0P19 clustered Data ONTAP, 9.1.0P20 clustered Data ONTAP, 9.1.0P5 clustered Data ONTAP, 9.1.0P7 clustered Data ONTAP, 9.1.0P8 clustered Data ONTAP, 9.10.1 clustered Data ONTAP, 9.110.1, clustered Data ONTAP, 9.110.1P4, Clustered Data ONTAP, 9.110.19.11, Clustered Data ONTAP, Clustered Data ONTAP, 9.110.110.19.11, Clustered Data ONTAP Clustered Data ONTAP, 9.10.1P7 Clustered Data ONTAP, 9.10.1P8 Clustered Data ONTAP, 9.10.1P9 clustered Data ONTAP, 9.11.0P1 clustered Data ONTAP, 9.11.1P1 clustered Data ONTAP, 9.11.1P10 clustered Data ONTAP, 9.11.1P4, Clustered Data ONTAP 11.5, Clustered Data ONTAP 11.19.1P4 ONTAP, 9.11.1X26 Clustered Data ONTAP, 9.12.1 clustered Data ONTAP, 9.12.1P1 clustered Data ONTAP, 9.12.1P3 clustered Data ONTAP, 9.12.1P3 clustered Data ONTAP, 9.12.1P4 clustered Data ONTAP, 9.13.0 clustered Data ONTAP, 9.13.0P1 clustered Data ONTAP, 9.13.113.13 X13.3, Clustered Data ONTAP X113.3 Data ONTAP, 9.3.0P1 clustered Data ONTAP, 9.3.0P10 clustered Data ONTAP, 9.3.0P13 clustered Data ONTAP, 9.3.0P14 clustered Data ONTAP, 9.3.0P18 clustered Data ONTAP, 9.3.0P18 Clustered Data ONTAP, 9.3.09.3, Clustered Data ONTAP Clustered Data ONTAP, 9.4.0P2 clustered Data ONTAP, 9.4.0P3 clustered Data ONTAP, 9.4.0P4 clustered Data ONTAP, 9.5.0 clustered Data ONTAP, 9.5.0P6 Clustered Data ONTAP, 9.5.0P12 clustered Data ONTAP, 9.5.0P13 clustered Data ONTAP, Clustered Data ONTAP 09.5, Clustered Data ONTAP 014, Clustered Data ONTAP 09.5.09.5.09.5.09.5.09.5.09.5.09.5.09.5.Clustered Data ONTAP ONTAP, 9.5.0P3 clustered Data ONTAP, 9.5.0P4 clustered Data ONTAP, 9.5.0P6 clustered Data ONTAP, 9.5.0P7 clustered Data ONTAP, 9.5.0P8 clustered Data ONTAP, 9.5.0P9 clustered Data ONTAP, 9.6.0P4, Clustered Data ONTAP 09.6, Clustered Data ONTAP 09.6, Clustered Data ONTAP 014, Clustered Data ONTAP 09.6.09.6.09.6, Clustered Data ONTAP 09.6.09.6, Clustered Data ONTAP 09.6.09.6.0P4.09.6.0P4.0P4, Clustered Data ONTAP 09.6.0P4, Clustered Data ONTAP Data ONTAP, 9.7.0 Clustered Data ONTAP, 9.7.0P1 clustered Data ONTAP, 9.7.0P10 clustered Data ONTAP, 9.7.0P11 clustered Data ONTAP, 9.7.0P12 clustered Data ONTAP, 9.7.0P13 clustered Data ONTAP, 9.7.0P15 Clustered Data ONTAP, 9.7, Clustered Data ONTAP 9.7.021 P9.7, Clustered Data ONTAP 021 P9.7.09.7, Clustered Data ONTAP, Clustered Data ONTAP 09.7.09.7.021 Clustered Data ONTAP, 9.7.0P4 clustered Data ONTAP, 9.7.0P5 clustered Data ONTAP, 9.7.0P7 clustered Data ONTAP, 9.7.0P8 clustered Data ONTAP, 9.7.0P7 clustered Data ONTAP, 9.8.0P9.8, Clustered Data ONTAP, 9.8.014, Clustered Data ONTAP 09.8.09.8, Clustered Data ONTAP ONTAP, 9.8.0P16 clustered Data ONTAP, 9.8.0P17 clustered Data ONTAP, 9.8.0P18 Clustered Data ONTAP, 9.8.0P19 clustered Data ONTAP, 9.8.0P3 clustered Data ONTAP, 9.8.0P4 clustered Data ONTAP, 9.8.0P9, Clustered Data ONTAP 9.8.9.8, Clustered Data ONTAP 9.8.9.8, Clustered Data ONTAP 9.8.9.8, Clustered Data ONTAP 9.8.P9.8, Clustered Data ONTAP Data ONTAP, 9.9.1P12 clustered Data ONTAP, 9.9.1P13 clustered Data ONTAP, 9.9.1P14 clustered Data ONTAP, 9.9.1P15 clustered Data ONTAP, 9.9.1P16 clustered Data ONTAP, 9.9.1P3 clustered Data ONTAP, 9.9.1P4, clustered Data ONTAP 19.9.9.P4.P4.P4.P4.P4.P4.P4.P4.P9.P9.Clustered Data ONTAP Data ONTAP</block>
-  <block id="037b198e1950ace943c396101a5ba829" category="cell">FCN001, H610S-2, FCN001, H610S-2, SF19210, FCN001, SF19210, SF38410, H300S, H410S-0, H410S-0, H410S-2, H410S-0, H410S-2, H610S-2, H410S-0, SF2405, SF4805, H410S-1, H410S-2, H500S, H610S-1, H610S-1, H610S-2, SF4805, H610S-1, H610S-2, SF9605, H610S-1, SF4805, H610S-1, SF9605, H610S-2, H610S-2, H610S-4, H610S-2, H610S-4, SF19210, H610S-2, H610S-4, SF19210, SF4805, H610S-2, H610S-4, SF19210, SF9605, H610S-2, SF19210, H610S-2, SF19210, SF4805, SF9605, H610S-2, SF4805, H610S-2, SF9608, H610S-4, H610S-4, SF19210, H610S2, SF19210, SF9605, SF38410, SF4805, SF9605, SF9605</block>
-  <block id="9867b9f2b669428fb32237eb91bd1e96" category="cell">11.1.0.72,11.5.0.63,11.7.0.76,11.8.0.23,12.0.0.333,12.2.0.777,12.3.0.958,12.3.1.103,12.3.1.165,12.3.2.3.12.3, 12.0.897,12.7.0.380</block>
-  <block id="56d92ad3e01b3e1f647a67ce89654bc1" category="cell">3.0, 3.2, 3.3, 3.4, 3.5</block>
-  <block id="932d0231d1f3d6fff48dec9af753f6a9" category="cell">11.2.0,11.4.0,11.4.0.3, 11.4.0.4, 11.5.0.1, 11.5.0.111.0.11, 11.5.0.3, 11.5.0.6, 11.5.0.7, 11.5.0.8, 11.6.0.0, 11.6.0.0, 11.6.0.0, 11.6.0.0, 11.6.0.0</block>
-  <block id="4dc021715fa126e95279e32cc8a13754" category="cell">HPE DL360-8 G10, HPE DL380-12 G10, HPE DL380-12 G10, HPE DL360-8 G10, NX-3060-G5, NX-3060-G6, NX-3170-G6, NX-5155-G6, NX-808, GNX-806, GNX-808, GNX-808, GNX-808, GNX-808, GNX-808 NX-8150-G7</block>
-  <block id="48f8725eaa22ce58c416a646dc4698e3" category="cell">6.5.1.6, 6.5.2,6.5.2.5,6.5.2.6,6.5.2.7,6.5.3, 6.5.3.1</block>
   <block id="5ae0ae5f7d8a52fd8d8b0c9920771343" category="section-title">OpenStack(REST API/SSH)</block>
-  <block id="76d378627f8fe64065440e82b31646b6" category="cell">Sun ZFS Storage 7330, Sun ZFS Storage 7335, Sun ZFS Storage 7350, Sun ZFS Storage 7370, Sun ZFS Storage 7420, Sun ZFS Storage 7430, Sun ZFS Storage 7450</block>
-  <block id="509cbc7236f4553c061a29fddf8a54d0" category="cell">2013.06.05.6.12,1-1.3, 2013.06.05.6.15,1-1.2, 2013.06.05.7.21.5.7.24,1-1.1, 2013.06.05.7.25,1-1.1</block>
-  <block id="14e7ada887c5e0513bfd1d334cd6d619" category="cell">DFSC1, FA-X20R3, DFSC1, FA-X50R2, DFSC1, FA-X50R3, DFSC1, FA-X70R3, DFSC1, FA-X70R3, DFFA-X70R3, XFA-X20R3, XFA-R3, XFA-X20R3</block>
-  <block id="22bca4ab764164a431ad86383d4e82b0" category="cell">4.8.8,5.3.14,5.3.15,5.3.18,5.3.20,5.3.21,5.3.6.5.3.8,6.1.10,6.1.14,6.1.15,6.1.18,6</block>
-  <block id="419557b141abd019437165fd08c49b97" category="cell">5.3.3-P1-19391,6.0.3-P3-13584,7.0.2-p4-15876,7.0.3-P1-15949,8.0.3-P2-22743</block>
-  <block id="9453f63a9e7f74d7e4aba2db7d3e1d70" category="cell">VMware vCenter Server 6.7.0 빌드 - 10244857, VMware vCenter Server 6.7.0 빌드 - 14368073, VMware vCenter Server 7.0.3 빌드 - 19234570, VMware vCenter Server 7.0.3 빌드 - 2015099, VMware vCenter Server 7.0.3 빌드 - 20990077, VMware vCenter Server 빌드 - 21721870.3</block>
-  <block id="56cae3e29c9acf0337232282d32c85c1" category="cell">VMware vCenter Server 8.0.0 빌드 - 21709157, VMware vCenter Server 7.0.3 빌드 - 20870699, VMware vCenter Server 7.0.3 빌드 - 20532039</block>
-  <block id="c2c46e278a3a0cfb21101adab5aed33b" category="cell">VMware ESXi 6.0.0 빌드 - 10719132, VMware ESXi 6.0.0 빌드 - 2494585, VMware ESXi 6.0.0 빌드 - 5572656, VMware ESXi 6.0.0 빌드 - 9313334, VMware ESXi 6.5.0 빌드 - 149908.0 - 59303, VMware vCenter Server 빌드 - 5385385.830.0 Build-1750787, VMware vCenter Server 5.5.0 빌드-2442329, VMware vCenter Server 5.5.0 빌드-3000241, VMware vCenter Server 5.5.0 빌드-3252642, VMware vCenter Server 5.5.0 빌드-4180647, VMware vCenter Server 1366.40.0-70.0-71366.45 빌드-6516310, VMware vCenter Server 서버 6.0.0 빌드 - 5960847, VMware vCenter Server 6.0.0 빌드 - 7924803, VMware vCenter Server 6.0.0 빌드 - 8803875, VMware vCenter Server 6.0.0 빌드 - 9313458, VMware vCenter Server 6.5.0 빌드 - 1096411, VMware vCenter Server 빌드 - 7119157, VMware vCenter Server 6.7.0 빌드 - 10244857, VMware vCenter Server 6.7.0 빌드 - 11727113, VMware vCenter Server 6.7.0 빌드 - 13007421, VMware vCenter Server 6.7.0 빌드 - 14366.52867.0, VMware vCenter Server 빌드 - 18737.0 Server 6.7.0 build - 19832247, VMware vCenter Server 6.7.0 build - 19832280, VMware vCenter Server 6.7.0 build - 20504301, VMware vCenter Server 6.7.0 build - 20504362, VMware vCenter Server 6.7.0 build - 9437.0.0 - VMware vCenter Server 7.4270.0 - 16637.0 build - VMware vCenter Server 6917737.0 빌드 - 18455184, VMware vCenter Server 7.0.3 빌드 - 18700403, VMware vCenter Server 7.0.3 빌드 - 18778458, VMware vCenter Server 7.0.3 빌드 - 18778458, VMware vCenter Server 빌드 - 19234570, VMWare vCenter Server 201507.07.07.0.3, VMware vCenter Server 빌드 - 207.39907.07.00.3 서버 7.0.3 빌드 - 21784236, VMware vCenter Server 7.0.3 빌드 - 21958406, VMware vCenter Server 8.0.0 빌드 - 20920323, VMware vCenter Server 8.0.0 빌드 - 21216066, VMware vCenter Server 8.0.0 빌드 - 21457384, VMware vCenter Server 8.0.1 빌드 - 2180.1</block>
   <block id="6d6bbe0ff14c220c87649b72d24ad927" category="section-title">2023년 8월</block>
   <block id="2ddfcdc31d5e5de8a48fe5187b0f4eb7" category="section-title">개선된 메뉴</block>
   <block id="770b665998f011b1710d778c94d090f6" category="paragraph">고객의 워크플로우를 더욱 효과적으로 지원할 수 있도록 좌측 탐색 메뉴를 업데이트했습니다. _Kubernetes_와 같은 새로운 최상위 항목은 고객의 요구 사항에 대한 액세스를 가속화하며, 통합된 관리자 콘솔은 테넌트 소유자 역할을 지원합니다.</block>
@@ -11102,4 +11014,1902 @@ g) ONTAP에서 방화벽을 열어 ONTAP가 에이전트 상자를 연결할 수
                 값: UNIX:///run/docker.sock
     ...
 ...</block>
+  <block id="4511f2a211688512da3a86b3400de7ff" category="paragraph">이 데이터 수집기에서 지원하는 모델 및 버전:</block>
+  <block id="7ab5521b32fba28cefe0f978f2a356cb" category="cell">3.1.1(MU1)
+3.1.1 (MU1) P10
+3.1.2(MU3) P16
+3.1.3(MU1) P07
+3.1.3(MU2)
+3.1.3(MU3)
+3.2.1(MU3) P17
+3.2.1 (MU5) P49
+3.2.2(MU2) P14
+3.2.2(MU4) p56
+3.2.2(MU6) P96
+3.2.2(MU6) P99
+3.2.2 P03
+3.3.1(MU1) P09
+3.3.1(MU2) P30
+3.3.1(MU2) P32
+3.3.1(MU5) P126
+3.3.1(MU5) P132
+3.3.2(MU1)
+3.3.2(MU1) P04
+3.3.2 P01
+4.4.1 릴리스 유형: 표준 지원 릴리스
+4.5.11 릴리스 유형: 확장 지원 릴리스
+4.5.3 릴리스 유형: 연장 지원 릴리스
+4.5.7 릴리스 유형: 확장 지원 릴리스
+9.5.8 릴리스 유형: 연장 지원 릴리스
+P02를 참조하십시오
+P04
+P05
+P08을 참조하십시오
+P09
+P103을 참조하십시오
+P106을 참조하십시오
+P107
+P11
+P111
+P113을 참조하십시오
+P115를 참조하십시오
+P118을 참조하십시오
+P119를 참조하십시오
+P127
+P13을 참조하십시오
+P131을 참조하십시오
+P132를 참조하십시오
+P133을 참조하십시오
+P135를 참조하십시오
+P138을 참조하십시오
+P139를 참조하십시오
+P140을 참조하십시오
+P141을 참조하십시오
+P142를 참조하십시오
+P146
+P148입니다
+P149를 참조하십시오
+15페이지
+P150
+P151을 참조하십시오
+P152를 참조하십시오
+P153을 참조하십시오
+P154를 참조하십시오
+P155를 참조하십시오
+P156을 참조하십시오
+P157을 참조하십시오
+P160
+P161을 참조하십시오
+P162를 참조하십시오
+P164를 참조하십시오
+P165를 참조하십시오
+P166을 참조하십시오
+P167을 참조하십시오
+P168을 참조하십시오
+P170을 참조하십시오
+P172를 참조하십시오
+P173
+P175를 참조하십시오
+P177을 참조하십시오
+P18을 참조하십시오
+P180도
+P19
+P22를 참조하십시오
+P23을 참조하십시오
+P25를 누릅니다
+P27
+P29
+P30
+P32를 참조하십시오
+페이지 34
+P36을 누릅니다
+P37
+39페이지
+40페이지
+P41
+P42를 참조하십시오
+45페이지
+48페이지
+P49를 참조하십시오
+P50
+P51을 참조하십시오
+2페이지
+p53
+56페이지
+P57을 참조하십시오
+59페이지
+60페이지
+P70
+P71
+P72를 누릅니다
+P73
+P75를 누릅니다
+p76
+P78을 참조하십시오
+P80
+P85
+P90
+P93을 참조하십시오
+P94를 참조하십시오
+P96을 누릅니다
+P98
+P99</block>
+  <block id="2c27d357495661792f689f1125b5c6ba" category="cell">HPE Alletra 9080
+HPE_3PAR 20450
+HPE_3PAR 20800
+HPE_3PAR 20850
+HPE_3PAR 20850_R2
+HPE_3PAR 7200c
+HPE_3PAR 7400
+HPE_3PAR 7440c
+HPE_3PAR 7450c
+HPE_3PAR 8200
+HPE_3PAR 8400
+HPE_3PAR 8440
+HPE_3PAR 8450
+HPE_3PAR 9450
+HPE_3PAR A630
+HPE_3PAR A650
+HPE_3PAR A670
+HP_3PAR 20800
+HP_3PAR 7200
+HP_3PAR 7200c
+HP_3PAR 7400
+HP_3PAR 7400c
+HP_3PAR 7450c
+HP_3PAR 8200
+HP_3PAR 8400
+InServ F400
+InServ T400
+InServ T800입니다
+InServ V400</block>
+  <block id="e9f6271a49020907aa1e305c5f6b83d2" category="paragraph">이 데이터 수집기에서 지원하는 제품:</block>
+  <block id="efc565e62bb45e0104d2d4bad32b3470" category="paragraph">이 데이터 수집기에서 사용하는 관리 API:</block>
+  <block id="bcd25ddbd80c9ca3be75c1b216585709" category="cell">Azure NetApp Files REST API</block>
+  <block id="4dd2d172929babcfe64e863987f1cfa4" category="cell">178.0
+183.0
+Brocade 200E
+Brocade 300E
+Brocade 3900
+Brocade 4024 내장
+Brocade 48000
+Brocade 5000
+Brocade 5100
+Brocade 5300
+Brocade 5480 임베디드
+Brocade 6505
+Brocade 6510
+Brocade 6520
+Brocade 6548
+Brocade 7800
+Brocade 7840
+브로케이드 DCX
+Brocade DCX-4S 백본
+Brocade DCX8510-4
+Brocade DCX8510-8
+Brocade G610
+Brocade G620
+Brocade G630
+Brocade G720
+Brocade M5424 임베디드
+Brocade X6-4
+Brocade X6-8
+Brocade X7-4
+Brocade X7-8</block>
+  <block id="df3b04987dc3f4294a68b578ff46c0d5" category="cell">v5.3.2c
+V6.2.1b
+V6.2.2g
+v6.3.2
+v6.4.1a
+v6.4.2
+v6.4.2a
+v7.0.0
+v7.0.1b
+v7.1.0c
+v7.3.0c
+v7.3.1d
+v7.4.1d
+v7.4.1f
+v7.4.2a
+v7.4.2c
+v7.4.2d
+v7.4.2g
+v7.4.2g_CVR_824494_01
+v7.4.2시간
+v7.4.2j1
+v8.0.2a
+v8.0.2c
+v8.0.2d입니다
+v8.1.2g
+v8.1.2j 를 참조하십시오
+v8.1.2k
+버전 8.2.0
+버전 8.2.0b
+버전 8.2.1c
+버전 8.2.1
+v8.2.2a
+버전 8.2.2b
+v8.2.2c
+v8.2.2D입니다
+v8.2.2d4
+버전 8.2.3
+버전 8.2.3a
+v8.2.3a1을 참조하십시오
+버전 8.2.3b
+v8.2.3c
+v8.2.3c1을 참조하십시오
+v9.0.0b
+v9.0.1a
+v9.0.1b4
+v9.0.1c
+v9.0.1d
+v9.0.1e
+v9.0.1e1
+v9.1.0b
+v9.1.1
+v9.1.1_01
+v9.1.1b</block>
+  <block id="bb55acab50fa076ed32232615b8b29e3" category="cell">14.4.1
+14.4.3
+14.4.4
+14.4.5</block>
+  <block id="9cdce79ed00d2dc49af5be1b8e857818" category="cell">Brocade 5300
+Brocade 6510
+Brocade 6520
+Brocade 6548
+Brocade DCX 8510-8
+Brocade G620
+DS-6620B 를 참조하십시오
+EMC Connectrix ED-DCX8510-8B</block>
+  <block id="91ef32794e9ff7c5dbda8a7618d997ae" category="cell">v7.2.1a
+v7.3.1a
+v7.4.1b
+v7.4.2d
+버전 8.2.3b
+v8.2.3c
+v9.0.1a
+v9.0.1b
+v9.0.1e1</block>
+  <block id="a0b3771fba22b49c8375b03bfbff4cc3" category="cell">Brocade 6505
+Brocade G720
+Brocade X6-8</block>
+  <block id="5994ce56255e6f5813d79c8a9680e6a7" category="cell">v8.2.3c
+v8.2.3c1을 참조하십시오
+v9.0.1e1
+v9.1.1b</block>
+  <block id="8c88bd5f8f9a952cd4f079a84aa8cf0b" category="cell">Brocade FOS REST API</block>
+  <block id="e05adcb171c2b15516dfd13bfd27fa18" category="cell">8978-E04
+CN1610
+DS-C9124-2-K9
+DS-C9124-K9
+DS-C9132T-K9
+DS-C9134-K9를 참조하십시오
+DS-C9148-16P-K9
+DS-C9148-32P-K9
+DS-C9148-48P-K9
+DS-C9148S-K9
+DS-C9148T-K9
+DS-C9222I-K9
+DS-C9250I-K9
+DS-C9396S-K9
+DS-C9396T-K9
+DS-C9506 을 참조하십시오
+DS-C9509를 참조하십시오
+DS-C9513을 참조하십시오
+DS-C9706 을 참조하십시오
+DS-C9710
+DS-C9718
+DS-HP-8GFC-K9
+DS-HP-FC-K9 를 참조하십시오
+N5K-C5548UP
+N5K-C5596UP
+N5K-C56128P
+N5K-C5696Q
+UCS-FI-6248UP 을 참조하십시오
+UCS-FI-6296UP 을 참조하십시오
+UCS-FI-6332
+UCS-FI-6332-16UP 을 참조하십시오
+UCS-FI-6454</block>
+  <block id="8a7a2a2bb25d9596bc87ed8b70bbe95a" category="cell">3.3(1c)
+4.1(3a)
+5.0(1a)
+5.0(3)N2(3.11e)
+5.0(3)N2(3.23o)
+5.0(3)N2(4.01d)
+5.0(3)N2(4.04e)
+5.0(3)N2(4.13e)
+5.0(3)N2(4.13i)
+5.0(3)N2(4.21e)
+5.0(3)N2(4.21j)
+5.0(3)N2(4.21k)
+5.0(3)N2(4.22c)
+5.0(8)
+5.2(2D)
+5.2(3)N2(2.28g)
+5.2(6a)
+5.2(8)
+5.2(8b)
+5.2(8C)
+5.2(8일)
+5.2(8F)
+5.2(8G)
+5.2(8시간)
+5.2(8i)
+6.2(1)
+6.2(11)
+6.2(11b)
+6.2(11C)
+6.2(11e)
+6.2(13)
+6.2(13a)
+6.2(15)
+6.2(17)
+6.2(19)
+6.2(21)
+6.2(23)
+6.2(25)
+6.2(27)
+6.2(29)
+6.2(31)
+6.2(33)
+6.2(5)
+6.2(5a)
+6.2(7)
+6.2(9)
+6.2(9a)
+6.2(9c)
+7.3(0) D1(1)
+7.3(0) DY(1)
+7.3(1) DY(1)
+7.3(1)N1(1)
+7.3(13)N1(1)
+7.3(6)N1(1)
+7.3(8)N1(1)
+8.1(1)
+8.1(1a)
+8.1(1b)
+8.2(1)
+8.2(2)
+8.3(1)
+8.3(2)
+8.4(1)
+8.4(1a)
+8.4(2)
+8.4(2a)
+8.4(2b)
+8.4(2c)
+8.4(2D)
+8.4(2e)
+8.4(2f)
+8.5(1)
+9.2(1)
+9.2(1a)
+9.2(2)
+9.3(2)
+9.3(2a)
+9.3(5)I42(2a)
+9.3(5)I42(2c)</block>
+  <block id="425ebc0532b90e45565f33c02ed83695" category="cell">C2500입니다
+C2505
+C4000 컴퓨팅 노드
+C4600 을 참조하십시오
+C5036을 참조하십시오
+C5066을 참조하십시오
+C6025를 참조하십시오
+C6035를 참조하십시오
+C6055를 참조하십시오
+PXG1을 참조하십시오
+UCS-C240M5H10</block>
+  <block id="f905cc892f859515d42c89f4b4cbd151" category="cell">6.5.1f_release - 20210913_13f6a4bf
+6.5.1f_u1_release-20211027_9e4e40cb
+6.6.0d_u6_release - 20221204_c03629f0
+6.8.1_release-20220807_6c9115ef
+6.8.1_u1_release-20221022_6f58ed2a
+6.8.1_U2_RELEASE-20230412_5ced2ed3
+6.8.1_u3_release-20230509_1e641b74
+7.0_u1_release-20230222_8995f044</block>
+  <block id="f775bcf566ad94ec8751e7d62aa26230" category="cell">Cohesity REST API입니다</block>
+  <block id="f9ae0684a88bb8e09ba3f287840d0498" category="cell">5.5.38-1 을 참조하십시오
+6.0.65-2
+7.1.76-4
+7.1.79-8
+7.1.83-2
+8.1.21-266
+8.1.21-303
+8.1.9-155</block>
+  <block id="c1a7b110270fac5be1b2a6b3d0f644c9" category="cell">NS-480FC
+NSX입니다
+VG8을 참조하십시오
+VNX5200 을 참조하십시오
+VNX5300 을 참조하십시오
+VNX5400 을 참조하십시오
+VNX5600 을 참조하십시오
+VNX7600 을 참조하십시오</block>
+  <block id="02624de894403bc204b8d27f658fcebd" category="cell">6.23
+6.26
+6.28
+7.30
+7.32
+7.33</block>
+  <block id="750594fe3e731d9fbf47e4a6892c01bd" category="cell">AX4-5F8
+CX3-20f
+CX3-40f
+CX4-480
+VNX5100 을 참조하십시오
+VNX5200 을 참조하십시오
+VNX5300 을 참조하십시오
+VNX5400 을 참조하십시오
+VNX5500을 참조하십시오
+VNX5600 을 참조하십시오
+VNX5700
+VNX5800 을 참조하십시오
+VNX7600 을 참조하십시오
+VNX8000 을 참조하십시오</block>
+  <block id="a7e8ae21f005f2e76ac2562a6f06e676" category="cell">04.28.000.5.710
+04.30.000.5.525
+05.32.000.5.218
+05.32.000.5.219
+05.32.000.5.221
+05.32.000.5.225
+05.32.000.5.249
+05.33.000.5.074
+05.33.009.5.155
+05.33.009.5.184
+05.33.009.5.186
+05.33.009.5.218
+05.33.009.5.231
+05.33.009.5.236
+05.33.009.5.238
+05.33.009.6.305
+05.33.021.5.256
+05.33.021.5.266
+2.23.50.5.710입니다
+3.26.20.5.011
+3.26.40.5.029</block>
+  <block id="27b204d551ee2242411772494cb6d715" category="cell">DD VE의 약어입니다
+DD2200
+DD2500을 지원합니다
+DD3300 을 참조하십시오
+DD4200
+DD6300
+DD6800을 참조하십시오
+DD6900
+DD7200
+DD9300을 참조하십시오
+DD9400을 참조하십시오
+DD9500
+DD9800을 참조하십시오
+DD990을 참조하십시오
+DD9900입니다</block>
+  <block id="e85e668d96cd8210763f1cebfe9ba03b" category="cell">6.1.2.051-633576
+6.1.2.20-606786
+6.1.2.50-632120
+6.2.0.30-629757
+6.2.0.35-635767
+6.2.1.30-663869
+6.2.1.40-671977
+6.2.1.60-686365 를 참조하십시오
+7.10.0.0-1017741
+7.10.1.0-1042928
+7.2.0.30-663847 을 참조하십시오
+7.2.0.50-671975
+7.2.0.60-682124
+7.2.0.70-686759 를 참조하십시오
+7.2.0.90-692270
+7.6.0.20-689174
+7.6.0.30-690691
+7.7.0.7-1007134
+7.7.1.10-1011247
+7.7.2.011-1011427
+7.7.2.10-1011249
+7.7.3.0-1011963
+7.7.4.0-1017976
+7.7.5.1-1040473
+7.7.5.11-1046187
+7.8.0-1008134</block>
+  <block id="f6333e6d8d9aaeab07de17f646f30c62" category="cell">3.6.1.1
+3.6.1.3
+3.6.2.1
+3.6.2.4.4를 참조하십시오
+3.7.0.0
+3.7.0.3
+3.7.0.4 를 참조하십시오
+3.7.0.5
+3.8.0.1
+3.8.0.2 를 참조하십시오</block>
+  <block id="47b75ba86bc9631012976f9c3bbab804" category="cell">EMC ECS REST API를 참조하십시오</block>
+  <block id="4d5b0d8598aae50452aee3052faabef6" category="cell">A200
+A2000을 참조하십시오
+A300
+a3000입니다
+F200
+F600 을 참조하십시오
+F800을 누릅니다
+F900
+H400을 누릅니다
+H500
+NL410
+S210
+X210
+X400
+X410</block>
+  <block id="ca83789fce1abe4e066fa1ef2f11ef8c" category="cell">9.1.0.11
+9.1.0.6
+9.2.1.10
+9.2.1.11
+9.2.1.12
+9.2.1.16
+9.2.1.19
+9.2.1.21
+9.2.1.6
+9.2.1.7
+9.2.1.9
+9.4.0.11입니다
+9.4.0.12입니다
+9.4.0.13
+9.4.0.14
+9.4.0.5
+9.4.0.7
+9.5.0.3
+버전 8.0.0.4
+버전 8.0.0.6입니다
+버전 8.0.0.7
+v8.1.2.0
+버전 8.2.2.0</block>
+  <block id="1637df9cd961b86fbeb0fabf80ba05a6" category="cell">EMC Isilon 및 PowerScale REST API</block>
+  <block id="5dde3b080c893187156e20414f9764d5" category="cell">A200
+A2000을 참조하십시오
+A300
+F200
+F800을 누릅니다
+F900
+H400을 누릅니다
+H500
+H600을 참조하십시오
+H700을 참조하십시오
+syslogd@ersk의 메시지
+NL400
+NL410
+S210
+시뮬레이터
+X200
+X210
+X400
+X410
+infinity_hba_bay_to_unit: 장치 통과 실패7</block>
+  <block id="89555faebdb0be850c8096d96c21889b" category="cell">9.1.0.10
+9.1.0.12
+9.1.0.16
+9.1.0.18
+9.1.0.19
+9.1.0.7
+9.2.1.11
+9.2.1.13
+9.2.1.15
+9.2.1.22
+9.2.1.7
+9.2.1.9
+9.3.0.3
+9.4.0.0
+9.4.0.10입니다
+9.4.0.12입니다
+9.4.0.13
+9.4.0.14
+9.4.0.6입니다
+9.4.0.7
+v7.1.1.8)을 참조하십시오
+v7.2.0.5
+v7.2.1.3
+v7.2.1.6
+버전 8.0.0.4
+버전 8.0.0.6입니다
+버전 8.0.0.7
+v8.0.1.1
+v8.1.2.0
+버전 8.2.2.0</block>
+  <block id="782b3e3b928de64196e12d879af5133e" category="cell">PowerStore 1000T입니다
+PowerStore 1200T
+PowerStore 3000T
+PowerStore 3200T
+PowerStore 5000T
+PowerStore 5000X
+PowerStore 9000T
+PowerStore 9200T</block>
+  <block id="9283a77c62d557cf709d604584b48fa3" category="cell">2.0.1.3
+2.1.1.0
+2.1.1.1
+3.0.0.1
+3.2.0.0
+3.2.0.1
+3.2.1.0</block>
+  <block id="2f4b1075fd1ed28c7acb3b13c46bba1c" category="cell">EMC PowerStore REST API를 참조하십시오</block>
+  <block id="2246f740ff5e1f129fbfbdac0b060f63" category="cell">5.1.P1(C.15)
+5.1.SP4.P1(H.89)
+5.1.SP4.P2(H.101)
+5.1.SP4.P3(H.109)
+5.1.SP4.P4(H.97)</block>
+  <block id="5ea93ac7e9175685461a3aa7ecd6678d" category="cell">RecoverPoint REST API</block>
+  <block id="9ecd3117b1265682a0ebf5bfab4e6f3a" category="cell">2.5
+3.5</block>
+  <block id="d10754452cfaa4a1e9127718e2623244" category="cell">R2_6.1100.113 을 참조하십시오
+R2_6.1100.115 를 참조하십시오
+R3_0.1400.101 을 참조하십시오
+R3_5.1200.104 을 참조하십시오
+R3_6.500.113을 참조하십시오
+R3_6.700.103을 참조하십시오</block>
+  <block id="ef2bf1c7f778e627ac9f8b235393cefc" category="cell">EMC ScaleIO 및 PowerFlex REST API</block>
+  <block id="ddf9e700baf694bd0e06ea3257f1a7f3" category="cell">v10.0.0.0
+v10.0.1.0
+V7.6.2.67
+V8.3.0.22
+V8.3.0.6을 참조하십시오
+V8.4.0.7
+V8.4.0.9
+V9.1.0.18
+V9.1.0.5
+V9.1.0.6입니다
+V9.2.0.0
+V9.2.1.0
+V9.2.1.1
+V9.2.1.2
+V9.2.2.0
+V9.2.3.0
+V9.2.3.1
+V9.2.3.4
+V9.2.3.5
+V9.2.3.6
+V9.2.4.1
+V9.2.4.2
+사용할 수 없습니다</block>
+  <block id="ced36b4cd1a263f511a018469d008a9a" category="cell">DMX3-24
+DMX4-24
+PMax2000을 참조하십시오
+PowerMax_2000
+PowerMax_8000
+VMAX-1
+VMAX100K
+VMAX10K입니다
+VMAX200K입니다
+VMAX250F 를 참조하십시오
+VMAX400K
+VMAX40K입니다
+VMAX450F 를 참조하십시오
+VMAX850F 를 참조하십시오
+VMAX950F 를 참조하십시오</block>
+  <block id="6dad1236dbf3ed0091e15d0e2d7b6ca0" category="cell">5773.198.142(168D0000) 빌드 5
+5876.272.177(16F40000) 빌드 39
+5876.286.194(16F40000) 빌드 115
+5876.309.196(16F40000) 빌드 162
+5977.1131.1131(17590000) 빌드 551
+5977.1151.1151(17590000) 빌드 45
+5977.1151.1151(17590000) 빌드 59
+5977.1151.1151(17590000) 빌드 60
+5977.1151.1151(17590000) 빌드 9
+5978.479.479(175A0000) 빌드 195
+5978.711.711(175A0000) 빌드 113
+5978.711.711(175A0000) 빌드 139
+5978.711.711(175A0000) 빌드 149
+5978.711.711(175A0000) 빌드 194
+5978.711.711(175A0000) 빌드 196
+5978.711.711(175A0000) 빌드 220
+5978.711.711(175A0000) 빌드 239
+5978.711.711(175A0000) 빌드 252
+5978.711.711(175A0000) 빌드 267
+5978.711.711(175A0000) 빌드 278
+5978.711.711(175A0000) 빌드 287
+5978.711.711(175A0000) 빌드 335
+5978.711.711(175A0000) 빌드 365
+5978.711.711(175A0000) 빌드 366
+5978.711.711(175A0000) 빌드 388
+5978.711.711(175A0000) 빌드 416
+5978.711.711(175A0000) 빌드 436
+5978.711.711(175A0000) 빌드 438
+5978.711.711(175A0000) 빌드 448
+5978.711.711(175A0000) 빌드 461
+5978.711.711(175A0000) 빌드 480
+5978.711.711(175A0000) 빌드 484
+5978.711.711(175A0000) 빌드 502
+5978.711.711(175A0000) 빌드 529
+5978.711.711(175A0000) 빌드 8</block>
+  <block id="ff7b5fce5e9223c087cecbbb4beb0b6a" category="cell">SYMCLI를 참조하십시오</block>
+  <block id="65f2a94c8c2d56d5b43a1a3d9d811102" category="cell">2707</block>
+  <block id="2291f088bb6260a7b8f29b4966d2ee58" category="cell">Symmetrix SMI-S입니다</block>
+  <block id="70de058249cc92a2397759cad04ae0f6" category="cell">v10.0.0.5
+v10.0.1.3 버전
+V9.2.1.6
+V9.2.3.20
+V9.2.3.22
+V9.2.3.4
+V9.2.4.1</block>
+  <block id="28780acc618494810db69c53c0a9fd65" category="cell">PowerMax_2000
+PowerMax_2500입니다
+PowerMax_8000
+VMAX250F 를 참조하십시오
+VMAX950F 를 참조하십시오</block>
+  <block id="5694529c939c8a5c1d97a881f515b59d" category="cell">5978.479.479 빌드 350
+5978.711.711 빌드 252
+5978.711.711 빌드 278 빌드 278
+5978.711.711 빌드 287
+5978.711.711 빌드 329 빌드 329
+5978.711.711 빌드 365
+5978.711.711 빌드 365
+5978.711.711 빌드 376
+5978.711.711 빌드 388 빌드 388
+5978.711.711 빌드 416
+5978.711.711 빌드 435
+5978.711.711 빌드 448
+5978.711.711 빌드 461 빌드 461
+5978.711.711 빌드 481 빌드 481
+5978.711.711 빌드 484
+5978.711.711 빌드 484 빌드 484
+5978.711.711 빌드 502
+6079.125.0 빌드 53 빌드 53
+6079.175.0 빌드 0</block>
+  <block id="248a2ada600649dd9a0defecae5a2871" category="cell">Dell Unisphere API를 참조하십시오</block>
+  <block id="9fce28a0e666c8b62bc169497c0f3166" category="cell">7.1.76-4
+7.1.80-3 을 참조하십시오
+7.33
+8.1.9-232</block>
+  <block id="650583531a5dada75e2debcf9178eb89" category="cell">VNX5300 을 참조하십시오
+VNX5400 을 참조하십시오
+VNX5700
+VNX5800 을 참조하십시오</block>
+  <block id="0a861d74651a7c6ed72ad8961c33d7d8" category="cell">05.33.009.5.231
+7.1.76-4
+7.1.80-3 을 참조하십시오
+8.1.9-232</block>
+  <block id="f043a08758706c0551863a8b0cfc84cd" category="cell">VNX SSH 및 CLI</block>
+  <block id="b9f61630af4dfce521ac084c228591a1" category="cell">Unity 300
+유니티 300F
+유니티 350F
+Unity 380
+유니티 380F
+Unity 400
+유니티 400F
+유니티 450F
+유니티 480F
+Unity 500
+유니티 550F
+유니티 600
+유니티 600F
+유니티 650F
+유니티 680F
+유니티 880
+VNXe3200</block>
+  <block id="1dba3408b3e6c52568a72552681b013d" category="cell">3.1.17.10223906
+3.1.17.10229825
+4.1.2.9257522
+4.2.1.9535982
+4.2.3.9670635
+4.5.1.0.5.001
+5.0.2.0.5.009
+5.0.6.0.5.008
+5.0.8.0.5.007
+5.1.2.0.5.007
+5.1.3.0.5.003
+5.2.1.0.5.013
+5.2.2.0.5.004
+5.2.0.6.201
+5.3.0.0.5.120</block>
+  <block id="68d13764f7761df0def3e72de99042be" category="cell">VNXe 및 Unisphere CLI</block>
+  <block id="cb702b584bf0a55c5f4b1dd3768cb150" category="cell">5.4.1.00.00.07
+5.4.1.01.00.05
+6.2.0.03.00.02
+6.2.0.04.00.07
+6.2.0.05.00.11
+6.2.0.07.00.02 를 참조하십시오</block>
+  <block id="6b46051fc6711bf70599ead288d0a90a" category="cell">EMC VPLEX CLI를 참조하십시오</block>
+  <block id="dfaab1339734d2399b253d2c86d08a0a" category="cell">EMC VPLEX API를 참조하십시오</block>
+  <block id="a90319cf02b8a5489b77183316582cbf" category="cell">6.2.1
+6.2.2
+6.3.1
+6.3.2
+6.3.3
+6.4.0</block>
+  <block id="c7e9de79a26dbfc57a1994e6c962f57c" category="cell">1개의 벽돌 및 125TB
+1개의 벽돌 및 24TB
+Brick 1개 및 26TB
+1개의 벽돌 및 31TB
+Brick 1개 및 62TB
+Brick 1개 및 8TB
+1X10TB입니다
+1x20TB
+1X40TB
+Brick 2개 및 52TB
+2개의 Brick과 62TB
+2개의 Brick 및 76TB
+2개의 벽돌 및 83TB
+2X10TB
+2x20TB
+2X40TB
+Brick 3개 및 251TB
+3개의 벽돌 및 283TB
+4개의 Brick 및 125TB
+4개의 벽돌 및 503TB
+4개의 Brick 및 628TB
+4개의 Brick 및 754TB
+4x20TB
+4X40TB
+6x20TB</block>
+  <block id="b755f268c5a5f89cac5d607c5894621a" category="cell">4.0.27-1
+4.0.31-11
+6.1.0-99_X2
+6.3.3-8_X2
+6.4.0-22_X2
+6.4.0-36_HotFix_2_X2</block>
+  <block id="6cacc8dd39dbd60947aaa200f1f574d4" category="cell">EMC XtremIO REST API</block>
+  <block id="b0f2d1277725ba6fb932bdb40660db62" category="cell">2600입니다
+2660을 참조하십시오
+2680입니다
+2702를 참조하십시오
+2704
+2800B 이하
+2804
+2806
+3000입니다
+5480
+5486입니다
+5488입니다
+5504
+5564
+5600
+5700입니다
+5700B
+6000입니다</block>
+  <block id="40a5db31e4ca9e134d2d1c14d2032a85" category="cell">08.40.60.01
+8.10.14.0
+8.20.11.0
+8.20.27.0
+8.20.30.0
+8.20.5.0
+8.20.8.0
+8.25.14.0
+8.25.6.0
+8.30.1.0
+8.40.0.1
+8.40.0.3
+8.40.20.0입니다
+8.40.30.3
+8.40.40.0
+8.40.50.0
+8.40.60.1
+8.40.60.2 를 참조하십시오
+8.40.60.3
+8.42.20.0입니다
+8.50.0.3
+8.50.0.4
+8.51.0.0
+8.52.0.0
+8.52.0.1
+8.53.0.1
+8.53.0.4
+8.62.0.0
+8.62.0.2 를 참조하십시오
+8.63.0.2 를 참조하십시오
+8.70.0.3 이상
+8.71.2.0
+8.71.3.0
+8.72.0.0
+8.72.1.0
+8.72.2.0
+8.73.0.0
+8.74.0.0
+8.74.1.0
+8.74.2.0
+8.74.3.0
+8.75.0.0</block>
+  <block id="ea7563d4b814fae4d35a0657be6ed685" category="cell">Google Compute Platform REST API를 참조하십시오</block>
+  <block id="bbd8a9cb6dedabd911c1c1d94d0bb25d" category="cell">9.3.7.2
+9.5.0.121입니다</block>
+  <block id="8ba5a01a291075248a9fb648699c4b8b" category="cell">HDS HCP REST API</block>
+  <block id="efbdad2c026e627dee09de7a8291629e" category="cell">7.6.1
+8.7.7
+8.8.1
+8.8.3
+8.8.5</block>
+  <block id="e6f7551311cdb6a03165f1d8de522e1c" category="cell">DF850MH
+DF850S를 참조하십시오
+HM800을 참조하십시오
+HM850을 참조하십시오
+P9500을 참조하십시오
+RAID700
+RAID800
+VSP5000 을 참조하십시오
+XP24000
+XP7입니다</block>
+  <block id="f21a4ffc40bd0114de7ee75a673a4092" category="cell">0983/A-H
+0988/H-S
+DKC: 60-08-22
+DKC: 60-08-65
+DKC: 70-06-46
+DKC: 70-06-67-00/00
+DKC: 80-06-80
+DKC: 80-06-82-00/00
+DKC: 80-06-86-00/00
+DKC: 80-06-87
+DKC: 80-06-88-00/00
+DKC: 80-06-91
+DKC: 80-06-91-00/00
+DKC: 80-06-93-00/00
+DKC: 83-05-45-40/00
+DKC: 83-05-45-60/00
+DKC: 83-05-46-60/00
+DKC: 83-05-47-60/00
+DKC: 83-05-48-40/00
+DKC: 83-05-48-60/00
+DKC: 88-08-08-60/00
+DKC: 88-08-09-60/00
+DKC: 90-08-81-00/00
+DKC: 90-08-83-00/01
+SVP: 60-08-21/00
+SVP: 60-08-54/00
+SVP: 70-06-32/00
+SVP: 70-06-51/00
+SVP: 80-06-76/02
+SVP: 80-06-78/00
+SVP: 80-06-81/00
+SVP: 80-06-82/00
+SVP: 80-06-83/00
+SVP: 80-06-86/00
+SVP: 80-06-88/00
+SVP: 83-05-49-40/00
+SVP: 83-05-49-60/00
+SVP: 83-05-50-60/00
+SVP: 83-05-51-60/00
+SVP: 83-05-52-40/00
+SVP: 83-05-52-60/00
+SVP: 88-08-10-60/00
+SVP: 88-08-11-60/00
+SVP: 90-08-81/00
+SVP: 90-08-83/00</block>
+  <block id="d41da868e7bf844a90bc1a5c78483396" category="cell">VSP 5100입니다
+VSP 5500
+VSP F1500을 참조하십시오
+VSP F600 을 참조하십시오
+VSP G800을 참조하십시오</block>
+  <block id="e86d629c348644ad060a4b625e1f78ea" category="cell">80-06-92-00/00:01-65-03/05
+83-05-46-60/00:01-65-03/05
+83-05-47-40/00:01-65-03/05
+83-05-48-40/00:01-65-03/05
+90-08-81-00/00:01-65-03/05
+90-08-82-00/00:01-65-2005년 3월</block>
+  <block id="d5f04824c2ba6327572c872cf8533e07" category="cell">Hitachi Ops Center REST API를 사용할 수 있습니다</block>
+  <block id="8a6baa02b821ae453f2fa860a06055a6" category="cell">G600을 참조하십시오
+G800을 참조하십시오
+HNAS 4080을 참조하십시오
+HNAS 4100
+N800을 참조하십시오</block>
+  <block id="f447318a45bc7a904e3120d0aa739e66" category="cell">13.9.6918.05
+14.5.7413.01
+14.6.7520.04</block>
+  <block id="18b2b0426959c6ff5ef1e2b73137cb5c" category="cell">HDS HNAS CLI를 참조하십시오</block>
+  <block id="445a523d99de140b06c58856134f2d20" category="cell">6030
+AF1000
+AF20Q
+AF3000을 참조하십시오
+AF40을 참조하십시오
+AF5000을 참조하십시오
+CS1000입니다
+CS300을 참조하십시오
+CS3000 을 참조하십시오
+CS500을 참조하십시오
+CS5000 을 참조하십시오
+HF20을 참조하십시오
+HF20H를 참조하십시오
+HF40을 참조하십시오
+HF60을 참조하십시오</block>
+  <block id="87ab38571142d3a30af3725336a82bc4" category="cell">5.0.10.0-742719-OPT
+5.0.7.0-604814-OPT
+5.0.8.0-677726-OPT
+5.2.1.1000-1017822-OPT
+5.2.1.400-796142-선택
+5.2.1.600-841103-옵션
+5.2.1.700-882343-OPT
+5.2.1.800-930936-OPT
+5.2.1.900-1003439-OPT
+6.0.0.300-956221 - 옵션
+6.0.0.400-991061-OPT
+6.1.1.200-1020304-옵션
+6.1.1.300-1028597-OPT</block>
+  <block id="197aba044fde8cee77874853a89677b3" category="cell">5300 V5
+5500 V3
+5500 V5
+5800 V3
+도라도 5000 V6 SAS
+도라도 6000 V3
+Dorado 6000 V6 NVMe를 지원합니다</block>
+  <block id="7702d08416c8d9f57857d9d99b7906b4" category="cell">V300R001C01을 참조하십시오
+V300R002C10
+V300R006C20을 참조하십시오
+V300R006C50입니다
+V500R007C10
+V500R007C30을 참조하십시오
+V600R003C00입니다
+V600R005C03을 참조하십시오</block>
+  <block id="b99d9e6339c66107303cc64a9c47c625" category="cell">Huawei OceanStor REST API</block>
+  <block id="6a56cccbc57bc9da92069fa8f49c91f9" category="cell">Huawei OceanStor 성능 REST API</block>
+  <block id="86c360de1ccb0f40138c8d34b463e1f5" category="cell">IBM Cleversafe REST API</block>
+  <block id="8edaaf2b6ae5c8874416cd53faf57aae" category="cell">2107-951 을 참조하십시오
+2107-961 을 참조하십시오
+2107-985 를 참조하십시오
+2107-996 을 참조하십시오</block>
+  <block id="04db64fac2b58f7189e2497c41aa8c46" category="cell">7.6.31.4250
+7.51.1400
+7.8.57.18
+7.9.21.91
+7.9.32.126</block>
+  <block id="90dea4c56274bea868949696515087e2" category="cell">IBM DS CLI를 참조하십시오</block>
+  <block id="7b5236651c205cb5069ecb1a5bd445bb" category="cell">IBM Hardware Management Console SSH 액세스</block>
+  <block id="4d68a2c634a27bafcefd84ddb06979c5" category="cell">2072-12F
+2072-12G
+2072-2N4를 참조하십시오
+2072-324
+2072-3H4
+2072-3N4를 참조하십시오
+2076-124 를 참조하십시오
+2076-12F
+2076-224 를 참조하십시오
+2076-24F
+2076-24G
+2076-624 를 참조하십시오
+2076-724 를 참조하십시오
+2076-824 를 참조하십시오
+2076-AF6
+2076-AFF
+2077-24F
+2077-424 를 참조하십시오
+2078-12F
+2078-224 를 참조하십시오
+2078-24C
+2078-24F
+2078-324 를 참조하십시오
+2078-424 를 참조하십시오
+2078-4H4
+2078-92G
+2078-AF3
+4657-924 를 참조하십시오
+4662-12G
+4662-6H2
+4666-AH8을 참조하십시오
+9843-AE2
+9843-AE3
+9846-AG8
+9848-AE2
+9848-AF7
+9848-AF8
+9848-AG8
+서비스</block>
+  <block id="df0e2ebd0bac3e8ded9546636c40acd7" category="cell">1.5.2.7
+1.6.1.2
+1.6.1.4
+1.6.1.5
+7.5.0.11
+7.5.0.12
+7.7.1.8 을 참조하십시오
+7.8.1.14
+7.8.1.6
+7.8.1.8
+8.2.1.10
+8.2.1.11
+8.2.1.14
+8.2.1.9
+8.3.1.1
+8.3.1.2
+8.3.1.5
+8.3.1.6
+8.3.1.7
+8.3.1.9
+8.4.0.10입니다
+8.4.0.11입니다
+8.4.0.6
+8.4.0.7
+8.4.0.8
+8.4.0.9.에서 다시 시작합니다
+8.5.0.5
+8.5.0.6.6을 참조하십시오
+8.5.0.7
+8.5.0.8
+8.5.0.9입니다
+8.5.2.2
+8.5.3.1
+8.5.4.0</block>
+  <block id="139fddbdd4b220cf12dda59ee49de66d" category="cell">IBM SVC CLI를 참조하십시오</block>
+  <block id="9cbb10040cafa3da554e0c67ea2445f2" category="cell">415
+A14를 참조하십시오</block>
+  <block id="bbd02868ac6fdad382bc22081aa783c4" category="cell">10.2.4.e
+12.3.2.c</block>
+  <block id="67e7ece9be902bb5afce715009698108" category="cell">F6230
+F6240을 참조하십시오
+F6303)을 참조하십시오
+F6304를 참조하십시오</block>
+  <block id="3848d054239f288c27c09c643c760357" category="cell">6.0.31.0
+7.0.14.20</block>
+  <block id="47f7060be7cf2bba280a7fc28fd9a923" category="cell">Infinidat REST API를 참조하십시오</block>
+  <block id="ec736ea56f7a370661ecd61258754f69" category="cell">Microsoft Azure 컴퓨팅 REST API</block>
+  <block id="e6dd9171dfadb6c8f73da254cca36935" category="cell">ONTAPI 버전 = 1.12
+ONTAPI 버전 = 1.14
+ONTAPI 버전 = 1.17
+ONTAPI 버전 = 1.19
+ONTAPI 버전 = 1.20
+ONTAPI 버전 = 1.21</block>
+  <block id="f3cb24609643314e7a0326c5f8011a9e" category="cell">FAS2040
+FAS2050
+FAS2220
+냉각 아키텍처
+FAS2240-4
+FAS2520
+FAS2554
+FAS3140
+FAS3160
+FAS3210
+FAS3220
+FAS3240
+FAS3250
+FAS3270
+FAS6240
+함께 사용 가능
+FAS8020
+FAS8040
+FAS8060
+FAS8080
+N6070 을 참조하십시오
+N6240
+V3240을 참조하십시오</block>
+  <block id="e71cb6e4d2070aa9b7286e5a6e24e0bd" category="cell">7.3.6
+8.1.1 7-Mode
+8.1.3P2 7-Mode(8.1.3P2 7-모드)
+8.1.4P1 7-Mode(8.1.4P1 7-Mode)
+8.1.4P10 7-Mode
+8.1.4P9D18 7-Mode
+8.2.1 7-Mode
+8.2.2 7-Mode
+8.2.3 7-Mode
+8.2.3P2 7-Mode
+8.2.3P3 7-Mode
+8.2.4 7-Mode
+8.2.4P2 7-Mode
+8.2.4P4 7-Mode의 약어입니다
+8.2.4P5 7-Mode를 참조하십시오
+8.2.4P6 7-Mode를 참조하십시오
+8.2.5 7-Mode
+8.2.5P1 7-Mode의 약어입니다
+8.2.5P2 7-Mode
+8.2.5P4 7-Mode의 약어입니다
+8.2.5P5 7-Mode
+8.2P3 7-Mode(8.2P3 7-모드)
+8.2P4 7-Mode의 약어입니다
+Data ONTAP 릴리즈 7.3.3
+Data ONTAP 릴리즈 7.3.4
+Data ONTAP 릴리즈 8.2.5 7-Mode</block>
+  <block id="b25d1f10591ecf26b3978de4f3228bc7" category="cell">NetApp 7 모드 ZAPI</block>
+  <block id="837e5317f8f1d06276bea49ab62e99d9" category="cell">없습니다</block>
+  <block id="63713dccbc1364b72d1a00c589b34dda" category="cell">Cloud Volumes Service REST API</block>
+  <block id="499749d8860f3be8018f2197936fe4df" category="cell">NetApp 릴리스 9.11.0P1: 3월 22일 화요일 17:41:04 UTC 2022
+NetApp 릴리즈 9.11.1P3:목요일 9월 29일 16:06:51 UTC 2022
+NetApp 릴리스 9.11.1P5: 12월 10일 토요일 23:54:17 UTC 2022
+NetApp 릴리즈 9.11.1P6: 2023년 1월 27일 금요일 03:16:05 UTC
+NetApp 릴리즈 9.11.1P7: 2023년 3월 9일 목요일 11:22:24 UTC
+NetApp 릴리즈 9.11.1P9: 4월 28일 금요일 03:24:07 UTC 2023
+NetApp 릴리즈 9.12.1P4: 2023년 6월 6일 화요일 20:41:34 UTC</block>
+  <block id="502de0ca02b6a1c74a8a9c374793c768" category="cell">NetApp ONTAP API를 참조하십시오</block>
+  <block id="f50a061006ab57625d218533327934ec" category="cell">Data ONTAP 릴리스 9.12.1P2: 수요일 4월 05 19:57:43 UTC 2023 (Lenovo)
+NetApp 릴리즈 8.2.3P5 Cluster-Mode: 2015년 7월 16일 목요일 21:51:07 PDT
+NetApp 릴리즈 8.3.1:2015년 8월 31일 월요일 12:42:08 UTC
+NetApp 릴리즈 8.3.1P2: 수요일 2015년 12월 9일 03:10:24 UTC
+NetApp 릴리즈 8.3.2: 2016년 2월 24일 03:29:11 UTC
+NetApp 릴리즈 8.3.2P12:8월 14일 월요일 02:57:01 UTC 2017
+NetApp 릴리즈 8.3.2P2: 2016년 5월 23일 13:45:25 UTC
+NetApp 릴리즈 8.3.2P5: 2016년 8월 23일 화요일 12:36:56 UTC
+NetApp 릴리즈 8.3: 2015년 3월 9일 월요일 23:01:28 PDT
+NetApp 릴리즈 9.10.0:2021년 8월 19일 목요일 01:19:53 UTC
+NetApp 릴리즈 9.10.1: 2022년 1월 15일 토요일 10:49:44 UTC
+NetApp 릴리즈 9.10.1: 2022년 1월 15일 토요일 15:04:44 UTC
+NetApp 릴리즈 9.10.1P10: 2012년 12월 18일 일요일 16:24:34 UTC
+NetApp 릴리즈 9.10.1P11:목요일 2023년 2월 23일 06:55:33 UTC
+NetApp 릴리즈 9.10.1P12: 2023년 4월 13일 목요일 00:30:59 UTC
+NetApp 릴리즈 9.10.1P13: 6월 19일 월요일 06:30:54 UTC 2023
+NetApp 릴리즈 9.10.1P1: 2월 20일 일요일 04:09:09 UTC 2022
+NetApp 릴리스 9.10.1P2: 3월 13일 일요일 07:13:58 UTC 2022
+NetApp 릴리즈 9.10.1P3:화요일 4월 19일 17:44:44 UTC 2022
+NetApp 릴리즈 9.10.1P4: 5월 9일 월요일 22:11:44 UTC 2022
+NetApp 릴리스 9.10.1P5: 6월 19일 일요일 14:49:57 UTC 2022
+NetApp 릴리즈 9.10.1P6: 2022년 7월 1일 금요일 12:06:33 UTC
+NetApp 릴리즈 9.10.1P7:화요일(8월 2일) 08:59:50 UTC 2022
+NetApp 릴리즈 9.10.1P8: 2022년 9월 13일 화요일 14:10:13 UTC
+NetApp 릴리즈 9.10.1P9:목요일 11월 3일 23:29:00 UTC 2022
+NetApp 릴리즈 9.10.1RC1:Wed 2021년 10월 27일 02:46:19 UTC
+NetApp 릴리스 9.11.0P1: 3월 22일 화요일 17:41:04 UTC 2022
+NetApp 릴리스 9.11.1: 화요일 12월 12일 04:38:28 UTC 2022
+NetApp 릴리스 9.11.1: UTC 2022 7월 12일 10시 21분 46일
+NetApp 릴리즈 9.11.1P10: 2023년 5월 25일 목요일 12:28:26 UTC
+NetApp 릴리즈 9.11.1P1:화요일(8월 9일) 13:13:19 UTC 2022
+NetApp 릴리스 9.11.1P2: 9월 5일 월 03:40:01 UTC 2022
+NetApp 릴리즈 9.11.1P3:목요일 9월 29일 16:06:51 UTC 2022
+NetApp 릴리즈 9.11.1P4: 10월 27일 목요일 11:37:48 UTC 2022
+NetApp 릴리스 9.11.1P5: 12월 10일 토요일 23:54:17 UTC 2022
+NetApp 릴리즈 9.11.1P6: 2023년 1월 27일 금요일 03:16:05 UTC
+NetApp 릴리즈 9.11.1P7: 2023년 3월 9일 목요일 11:22:24 UTC
+NetApp 릴리즈 9.11.1P8: 2023년 4월 7일 금요일 00:02:50 UTC
+NetApp 릴리즈 9.11.1P9: 4월 28일 금요일 03:24:07 UTC 2023
+NetApp 릴리즈 9.11.1RC1: 4월 27일 수요일 06:57:10 UTC 2022
+NetApp 릴리즈 9.11.1X12: 2022년 3월 24일 목요일 16:38:36 UTC
+NetApp 릴리스 9.11.1X26: 목요일 6월 2일 09:48:39 UTC 2022
+NetApp 릴리즈 9.12.1: 수요일 2023년 2월 1일:10:18 UTC
+NetApp 릴리즈 9.12.1P1: 2023년 2월 22일 수요일 18:22:20 UTC
+NetApp 릴리즈 9.12.1P2: 수요일(월) 4월 05 14:58:46 UTC 2023
+NetApp 릴리즈 9.12.1P2: Wed April 05 19:57:43 UTC 2023
+NetApp 릴리즈 9.12.1P3:화요일 2023년 5월 2일 13:02:11 UTC
+NetApp 릴리즈 9.12.1P4: 2023년 6월 6일 화요일 20:41:34 UTC
+NetApp 릴리즈 9.12.1RC1:11월 4일 금요일 11:45:36 UTC 2022
+NetApp 릴리즈 9.12.1RC1:Wed 11월 09:14:48 UTC 2022
+NetApp 릴리즈 9.13.0: 2023년 2월 7일 화요일 21:20:29 UTC
+NetApp 릴리즈 9.13.0P1:3월 27일 월요일 03:33:38 UTC 2023
+NetApp 릴리즈 9.13.0P2: 2023년 4월 11일 화요일 15:05:31 UTC
+NetApp 릴리즈 9.13.0P3:수요일 2023년 5월 17일 16:31:25 UTC
+NetApp 릴리스 9.13.1: 6월 19일 월요일 13:36:41 UTC 2023
+NetApp 릴리즈 9.13.1RC1: 4월 26일 수요일 15:07:24 UTC 2023
+NetApp 릴리스 9.13.1X19: 4월 3일 월요일 20:51:32 UTC 2023
+NetApp 릴리즈 9.13.1X25: 4월 26일 수요일 15:07:24 UTC 2023
+NetApp 릴리즈 9.13.1X33: 2023년 5월 29일 월요일 12:34:33 UTC
+NetApp 릴리즈 9.13.1X34: 2023년 6월 8일 목요일 10:20:00 UTC
+NetApp 릴리즈 9.13.1X35: 2023년 6월 12일 월요일 12:12:13 UTC
+NetApp 릴리즈 9.13.1X36: 2023년 6월 15일 목요일 13:39:29 UTC
+NetApp 릴리스 9.1: 2016년 12월 23일 금요일 04:09:51 UTC
+NetApp 릴리스 9.1P10: 화요일 2017년 11월 14일 18:03:02 UTC
+NetApp 릴리스 9.1P11: 2012년 12월 21일 목요일 15:05:39 UTC 2017
+NetApp 릴리스 9.1P12: 2018년 3월 5일 17:39:31 UTC
+NetApp 릴리스 9.1P14: 수요일 6월 27일 09:15:16 UTC 2018
+NetApp 릴리스 9.1P15: 2018년 8월 30일 목요일 08:19:59 UTC 2018
+NetApp 릴리스 9.1P17: 2019년 2월 28일 목요일 08:05:25 UTC
+NetApp 릴리스 9.1P19: 2019년 5월 27일 월요일 09:09:01 UTC
+NetApp 릴리스 9.1P1:2017년 2월 14일 화요일 13:14:46 UTC
+NetApp 릴리스 9.1P20: 2019년 10월 28일 월요일 14:37:28 UTC
+NetApp 릴리스 9.1P5: 6월 11일 일요일 02:26:58 UTC 2017
+NetApp 릴리스 9.1P7:8월 14일 월요일 10:27:14 UTC 2017
+NetApp 릴리즈 9.1P8: 2017년 8월 30일 수요일 13:33:41 UTC
+NetApp 릴리스 9.3P10: 2018년 12월 15일 토요일 04:24:49 UTC
+NetApp 릴리스 9.3P12:4월 01 23:33:10 UTC 2019
+NetApp 릴리스 9.3P13: 2019년 5월 27일 월요일 19:26:00 UTC
+NetApp 릴리스 9.3P14: 2018년 7월 10일 수요일 14:38:46 UTC 2019
+NetApp 릴리스 9.3P15: 2019년 7월 16일 화요일 19:40:35 UTC
+NetApp 릴리스 9.3P18: 2018년 12월 30일 월요일 10:39:53 UTC 2019
+NetApp 릴리즈 9.3P19: 2020년 7월 10일 금요일 12:47:52 UTC
+NetApp 릴리스 9.3P1: 2018년 1월 22일 월요일 18:01:29 UTC
+NetApp 릴리즈 9.3P20: 수요일 2020년 9월 23일 21:44:43 UTC
+NetApp 릴리즈 9.3P21: 2021년 1월 11일 월요일 17:25:42 UTC
+NetApp 릴리즈 9.3P2: 2018년 3월 2일 금요일 01:02:58 UTC 2018
+NetApp 릴리즈 9.3P2: 2018년 3월 16일 목요일 16:53:13 UTC 2018
+NetApp 릴리스 9.3P4: 2018년 4월 27일 금요일 19:34:03 UTC
+NetApp 릴리스 9.3P6: 2018년 6월 14일 목요일 20:21:25 UTC
+NetApp 릴리스 9.3P7: 2018년 7월 25일 수요일 10:11:10 UTC
+NetApp 릴리스 9.3P8:9월 3일 월요일 20:01:35 UTC 2018
+NetApp 릴리스 9.3P9: 10월 25일 목요일 07:42:13 UTC 2018
+NetApp 릴리스 9.4P2: 2018년 8월 21일 화요일 00:00:08 UTC
+NetApp 릴리스 9.4P3: 2018년 10월 11일 목요일 22:23:50 UTC
+NetApp 릴리즈 9.4P4: 2018년 11월 1일 목요일 15:18:22 UTC 2018
+NetApp 릴리즈 9.4P6: 2019년 2월 22일 금요일 09:43:14 UTC
+NetApp 릴리스 9.4RC1: 2018년 4월 26일 목요일 09:13:57 UTC
+NetApp 릴리스 9.5: 2018년 12월 13일 목요일 20:41:33 UTC
+NetApp 릴리스 9.5P10: 2018년 12월 13일 금요일 16:01:45 UTC 2019
+NetApp 릴리즈 9.5P12: 2020년 4월 10일 금요일 18:20:31 UTC
+NetApp 릴리즈 9.5P13: 화요일 2020년 5월 19일 02:45:36 UTC
+NetApp 릴리즈 9.5P14:8월 17일 월요일 05:32:42 UTC 2020
+NetApp 릴리즈 9.5P15: 화요일 2020년 11월 17일 07:31:22 UTC
+NetApp 릴리즈 9.5P16: 2021년 1월 12일 화요일 10:52:07 UTC
+NetApp 릴리즈 9.5P17: 2021년 5월 12일 수요일 20:42:52 UTC
+NetApp 릴리즈 9.5P18: 2021년 8월 11일 수요일 19:17:30 UTC
+NetApp 릴리즈 9.5P19: 2021년 11월 27일 토요일 06:39:07 UTC
+NetApp 릴리스 9.5P1:2019년 2월 19일 화요일 21:38:50 UTC
+NetApp 릴리스 9.5P2: 2019년 3월 14일 목요일 13:59:39 UTC
+NetApp 릴리스 9.5P3: 2019년 4월 16일 화요일 18:33:13 UTC
+NetApp 릴리스 9.5P3: 2019년 4월 16일 화요일 22:44:27 UTC
+NetApp 릴리즈 9.5P4: 화요일 2019년 5월 7일 03:16:26 UTC
+NetApp 릴리스 9.5P5: 2019년 6월 14일 금요일 15:33:34 UTC
+NetApp 릴리스 9.5P6: 2018년 7월 10일 수요일 18:43:50 UTC 2019
+NetApp 릴리스 9.5P6: 2018년 7월 10일 수요일 22:58:11 UTC 2019
+NetApp 릴리즈 9.5P7: 2019년 8월 6일 화요일 00:37:41 UTC
+NetApp 릴리즈 9.5P8: 2019년 9월 20일 금요일 19:03:08 UTC
+NetApp 릴리스 9.5P9:10월 28일 월요일 09:18:10 UTC 2019
+NetApp 릴리스 9.6: Wed Jul 10 10:10:43 UTC 2019
+NetApp 릴리스 9.6: Wed Jul 10 16:25:33 UTC 2019
+NetApp 릴리즈 9.6P11: 2016년 10월 16일 금요일 23:13:09 UTC 2020
+NetApp 릴리즈 9.6P14: 2021년 4월 5일 월요일 15:34:55 UTC
+NetApp 릴리즈 9.6P15: 2021년 5월 31일 월요일 02:25:27 UTC
+NetApp 릴리스 9.6P18: 화요일 4월 5일 11:08:11 UTC 2022
+NetApp 릴리스 9.6P2: 2019년 7월 19일 금요일 06:06:59 UTC
+NetApp 릴리스 9.6P3: 2019년 9월 22일 일요일 08:26:36 UTC
+NetApp 릴리즈 9.6P4: 2019년 11월 7일 목요일 01:50:36 UTC
+NetApp 릴리스 9.6P5: 2018년 12월 13일 금요일 18:21:56 UTC 2019
+NetApp 릴리스 9.6RC1: 2019년 5월 11일 토요일 05:58:14 UTC
+NetApp 릴리스 9.6X11: 2019년 3월 10일 12:15:04 UTC
+NetApp 릴리즈 9.7: 2009년 1월 9일 목요일 17:11:21 UTC 2020
+NetApp 릴리스 9.7P10: 목요일 12월 10일 00:55:43 UTC 2020
+NetApp 릴리즈 9.7P11: 2021년 1월 12일 화요일 18:41:08 UTC
+NetApp 릴리즈 9.7P11: 2021년 1월 12일 화요일 23:00:49 UTC
+NetApp 릴리즈 9.7P12: 2021년 3월 2일 23:38:44 UTC
+NetApp 릴리즈 9.7P13: 2021년 4월 15일 목요일 02:06:46 UTC
+NetApp 릴리즈 9.7P14: 2021년 6월 10일 목요일 22:54:31 UTC
+NetApp 릴리즈 9.7P15: 2021년 8월 6일 금요일 19:56:41 UTC
+NetApp 릴리즈 9.7P16: 2021년 9월 10일 금요일 22:33:12 UTC
+NetApp 릴리즈 9.7P17: 2021년 11월 27일 토요일 13:49:53 UTC
+NetApp 릴리스 9.7P18: 3월 10일 09:57:16 UTC 2022
+NetApp 릴리즈 9.7P19: 5월 23일 월요일 20:55:08 UTC 2022
+NetApp 릴리즈 9.7P1:목요일 2020년 2월 27일 01:25:24 UTC
+NetApp 릴리즈 9.7P20: 8월 11일 목요일 13:20:52 UTC 2022
+NetApp 릴리스 9.7P21: 12월 23일 금요일 11:52:44 UTC 2022
+NetApp 릴리즈 9.7P22:3월 27일 월요일 14:06:51 UTC 2023
+NetApp 릴리즈 9.7P2: 2020년 3월 22일 일요일 21:50:44 UTC
+NetApp 릴리즈 9.7P3: 4월 17일 금요일 14:37:51 UTC 2020
+NetApp 릴리즈 9.7P4: 토요일 2020년 5월 23일 00:43:42 UTC
+NetApp 릴리즈 9.7P5: 화요일, 2020년 6월 23일 04:02:30 UTC
+NetApp 릴리스 9.7P6: 화요일 7월 28일 04:06:27 UTC 2020
+NetApp 릴리즈 9.7P7: 8월 27일 목요일 20:57:05 UTC 2020
+NetApp 릴리즈 9.7P8: 10월 15일 목요일 04:11:57 UTC 2020
+NetApp 릴리즈 9.7P9: 2011년 11월 6일 금요일 01:13:45 UTC 2020
+NetApp 릴리스 9.7 RC1: 11월 22일 금요일 07:39:07 UTC 2019
+NetApp 릴리스 9.7X17: 2019년 11월 16일 토요일 22:06:11 UTC
+NetApp 릴리즈 9.8: 수요일 2020년 12월 9일 06:17:24 UTC
+NetApp 릴리즈 9.8P10: 2월 4일 금요일 19:51:21 UTC 2022
+NetApp 릴리즈 9.8P11: 2022년 3월 12일 토요일 10:19:15 UTC
+NetApp 릴리즈 9.8P11D2: 4월 14일 목요일 12:50:07 UTC 2022
+NetApp 릴리즈 9.8P12: 2022년 5월 13일 금요일 00:04:00 UTC
+NetApp 릴리스 9.8P13: 7월 15일 금요일 22:40:56 UTC 2022
+NetApp 릴리즈 9.8P14: 2022년 8월 23일 화요일 15:29:48 UTC
+NetApp 릴리즈 9.8P15: 수요일 11월 23일 09:29:16 UTC 2022
+NetApp 릴리즈 9.8P16: 12월 2일 금요일 02:05:05 UTC 2022
+NetApp 릴리스 9.8P16: 목요일 Dec 01 20:42:37 UTC 2022
+NetApp 릴리즈 9.8P17: 2023년 2월 24일 금요일 15:11:05 UTC
+NetApp 릴리즈 9.8P18: 2023년 3월 29일 수요일 13:19:30 UTC
+NetApp 릴리즈 9.8P19: 2023년 5월 11일 목요일 12:52:01 UTC
+NetApp 릴리즈 9.8P19: 2023년 5월 11일 목요일 17:26:53 UTC
+NetApp 릴리즈 9.8P1:2021년 1월 21일 목요일 01:11:31 UTC
+NetApp 릴리즈 9.8P2: 2021년 2월 16일 03:49:46 UTC
+NetApp 릴리즈 9.8P3: 2021년 3월 27일 토요일 08:43:48 UTC
+NetApp 릴리즈 9.8P4: 2021년 5월 3일 월요일 09:22:00 UTC
+NetApp 릴리즈 9.8P5: 2021년 6월 10일 목요일 21:52:01 UTC
+NetApp 릴리즈 9.8P6: 2021년 8월 3일 화요일 16:21:11 UTC
+NetApp 릴리즈 9.8P7: 2021년 9월 14일 화요일 18:38:58 UTC
+NetApp 릴리즈 9.8P8: 2021년 10월 21일 목요일 19:21:56 UTC
+NetApp 릴리즈 9.8P9: 2021년 12월 22일 수요일 09:39:04 UTC
+NetApp 릴리즈 9.8RC1: 2020년 10월 31일 토요일 11:13:09 UTC
+NetApp 릴리즈 9.9.0:2021년 2월 5일 금요일 11:29:21 UTC
+NetApp 릴리즈 9.9.1: 2021년 6월 13일 일요일 06:06:29 UTC
+NetApp 릴리즈 9.9.1: 2021년 6월 13일 일요일 11:45:05 UTC
+NetApp 릴리즈 9.9.1P10: 2022년 5월 27일 금요일 16:22:46 UTC
+NetApp 릴리즈 9.9.1P11: 2022년 8월 2일 화요일 19:12:28 UTC
+NetApp 릴리즈 9.9.1P12: 2016년 9월 16일 금요일 20:50:11 UTC 2022
+NetApp 릴리즈 9.9.1P13: 11월 18일 금요일 17:29:45 UTC 2022
+NetApp 릴리즈 9.9.1P14: 2023년 1월 27일 금요일 21:45:51 UTC
+NetApp 릴리즈 9.9.1P15: 3월 27일 월요일 12:31:36 UTC 2023
+NetApp 릴리즈 9.9.1P16: 2023년 5월 25일 목요일 01:06:07 UTC
+NetApp 릴리즈 9.9.1P1: 2021년 7월 2일 금요일 20:21:27 UTC
+NetApp 릴리즈 9.9.1P2: 2021년 8월 19일 목요일 13:53:06 UTC
+NetApp 릴리즈 9.9.1P3: 2021년 9월 25일 토요일 13:10:46 UTC
+NetApp 릴리즈 9.9.1P3: 2021년 9월 29일 수요일 12:55:55 UTC
+NetApp 릴리즈 9.9.1P4: 2021년 10월 11일 월요일 09:20:31 UTC
+NetApp 릴리즈 9.9.1P5: 2021년 11월 20일 토요일 12:17:23 UTC
+NetApp 릴리즈 9.9.1P6: 2021년 12월 21일 화요일 13:38:22 UTC
+NetApp 릴리즈 9.9.1P7: 2022년 1월 29일 토요일 01:25:00 UTC
+NetApp 릴리스 9.9.1P8: 3월 15일 화요일 22:46:53 UTC 2022
+NetApp 릴리즈 9.9.1P9: 4월 20일 수요일 00:42:19 UTC 2022
+NetApp 출시 Bluepaddle__9.7.0:2019년 11월 22일 금요일 07:39:07 UTC
+NetApp 릴리즈 Dirtwolf__9.8.0: 화요일 1월 18일 07:07:03 UTC 2022
+NetApp 출시 등대 __9.13.1: 6월 19일 월요일 07:42:08 UTC 2023
+NetApp 출시 Lighthouse__9.13.1: 6월 18일 일요일 05:17:33 UTC 2023
+NetApp 출시 롱보드 __9.0.1: 2016년 6월 4일 토요일 09:45:33 UTC
+NetApp 릴리스 메트로폴리탄 __9.11.1: 화요일 7월 12일 04:38:28 UTC 2022
+NetApp 릴리스 메트로폴리탄 __9.11.1: 수요일 4월 27일 01:48:31 UTC 2022
+NetApp 릴리스 Stormking__9.10.1: 일요일 3월 13일 02:23:34 UTC 2022
+NetApp 릴리즈 Yellowog__9.12.1:11월 28일 월요일 22:02:55 UTC 2022
+NetApp 릴리즈 Yellowog__9.12.1: 2023년 1월 31일 화요일 19:19:43 UTC
+NetApp 릴리즈 Yellowog__9.12.1: 화요일 11월 08 20:32:25 UTC 2022
+NetApp 릴리즈 Yellowog__9.12.1:Wed Oct 05:47:17 UTC 2022</block>
+  <block id="4a07a61fa2c711c9fc5bae0b8a8057fe" category="cell">AFF-A150 을 참조하십시오
+AFF-A200
+AFF-A220
+AFF-A250
+AFF-A300
+AFF-A320을 참조하십시오
+AFF-A400, 즉
+AFF-A700
+AFF-A700s
+AFF-A800
+AFF-A900
+AFF-C190 를 참조하십시오
+AFF-C250을 참조하십시오
+AFF-C400 을 참조하십시오
+AFF-C800을 참조하십시오
+AFF8020
+AFF8040
+AFF8060
+AFF8080
+CDvM100을 참조하십시오
+CDvM200을 참조하십시오
+DM5000H를 참조하십시오
+냉각 아키텍처
+FAS2240-4
+FAS2520
+FAS2552
+FAS2554
+FAS2620
+FAS2650
+FAS2720
+FAS2750
+FAS3220
+FAS3250
+FAS3270
+500f로 설정합니다
+FAS6210 을 참조하십시오
+FAS6220
+FAS8020
+FAS8040
+FAS8060
+FAS8080
+FAS8200
+FAS8300
+FAS8700
+FAS9000
+FAS9500
+FASDvM300
+SIMBOX를 참조하십시오
+V6240</block>
+  <block id="76fe5692a92f8f0664c53254f69ec92c" category="cell">8.2.3P5 clustered Data ONTAP을 참조하십시오
+8.3.0 clustered Data ONTAP
+8.3.1 clustered Data ONTAP
+8.3.1P2 clustered Data ONTAP
+8.3.2 clustered Data ONTAP
+8.3.2P12 clustered Data ONTAP
+8.3.2P2 clustered Data ONTAP
+8.3.2P5 clustered Data ONTAP
+9.0.1 clustered Data ONTAP
+9.1.0 clustered Data ONTAP
+9.1.0P1 clustered Data ONTAP
+9.1.0P10 clustered Data ONTAP
+9.1.0P11 clustered Data ONTAP
+9.1.0P12 clustered Data ONTAP
+9.1.0P14 clustered Data ONTAP
+9.1.0P15 clustered Data ONTAP
+9.1.0P17 clustered Data ONTAP
+9.1.0P19 clustered Data ONTAP
+9.1.0P20 clustered Data ONTAP
+9.1.0P5 clustered Data ONTAP
+9.1.0P7 clustered Data ONTAP
+9.1.0P8 clustered Data ONTAP
+9.10.0 clustered Data ONTAP
+9.10.1 clustered Data ONTAP
+9.10.1P1 clustered Data ONTAP
+9.10.1P10 clustered Data ONTAP
+9.10.1P11 clustered Data ONTAP
+9.10.1P12 clustered Data ONTAP
+9.10.1P13 clustered Data ONTAP
+9.10.1P2 clustered Data ONTAP 을 참조하십시오
+9.10.1P3 clustered Data ONTAP
+9.10.1P4 clustered Data ONTAP
+9.10.1P5 clustered Data ONTAP
+9.10.1P6 clustered Data ONTAP
+9.10.1P7 clustered Data ONTAP
+9.10.1P8 clustered Data ONTAP
+9.10.1P9 clustered Data ONTAP
+9.11.0P1 clustered Data ONTAP
+9.11.1 clustered Data ONTAP
+9.11.1P1 clustered Data ONTAP
+9.11.1P10 clustered Data ONTAP
+9.11.1P2 clustered Data ONTAP
+9.11.1P3 clustered Data ONTAP
+9.11.1P4 clustered Data ONTAP
+9.11.1P5 clustered Data ONTAP
+9.11.1P6 clustered Data ONTAP
+9.11.1P7 clustered Data ONTAP
+9.11.1P8 clustered Data ONTAP
+9.11.1P9 clustered Data ONTAP
+9.11.1X12 clustered Data ONTAP
+9.11.1X26 clustered Data ONTAP
+9.12.1 clustered Data ONTAP
+9.12.1P1 clustered Data ONTAP
+9.12.1P2 clustered Data ONTAP 을 참조하십시오
+9.12.1P3 clustered Data ONTAP
+9.12.1P4 clustered Data ONTAP
+9.13.0 clustered Data ONTAP
+9.13.0P1 clustered Data ONTAP
+9.13.0P2 clustered Data ONTAP
+9.13.0P3 clustered Data ONTAP
+9.13.1 clustered Data ONTAP
+9.13.1X19 clustered Data ONTAP
+9.13.1X25 clustered Data ONTAP
+9.13.1X33 clustered Data ONTAP
+9.13.1X34 clustered Data ONTAP
+9.13.1X35 clustered Data ONTAP
+9.13.1X36 clustered Data ONTAP
+9.3.0P1 clustered Data ONTAP
+9.3.0P10 clustered Data ONTAP
+9.3.0P12 clustered Data ONTAP
+9.3.0P13 clustered Data ONTAP
+9.3.0P14 clustered Data ONTAP
+9.3.0P15 clustered Data ONTAP
+9.3.0P18 clustered Data ONTAP
+9.3.0P19 clustered Data ONTAP
+9.3.0P2 clustered Data ONTAP
+9.3.0P20 clustered Data ONTAP
+9.3.0P21 clustered Data ONTAP
+9.3.0P4 clustered Data ONTAP
+9.3.0P6 clustered Data ONTAP
+9.3.0P7 clustered Data ONTAP
+9.3.0P8 clustered Data ONTAP
+9.3.0P9 clustered Data ONTAP
+9.4.0 clustered Data ONTAP
+9.4.0P2 clustered Data ONTAP 을 참조하십시오
+9.4.0P3 clustered Data ONTAP
+9.4.0P4 clustered Data ONTAP
+9.4.0P6 clustered Data ONTAP
+9.5.0 clustered Data ONTAP에서 제공됩니다
+9.5.0P1 clustered Data ONTAP
+9.5.0P10 clustered Data ONTAP
+9.5.0P12 clustered Data ONTAP
+9.5.0P13 clustered Data ONTAP
+9.5.0P14 clustered Data ONTAP
+9.5.0P15 clustered Data ONTAP
+9.5.0P16 clustered Data ONTAP
+9.5.0P17 clustered Data ONTAP
+9.5.0P18 clustered Data ONTAP
+9.5.0P19 clustered Data ONTAP
+9.5.0P2 clustered Data ONTAP
+9.5.0P3 clustered Data ONTAP
+9.5.0P4 clustered Data ONTAP
+9.5.0P5 clustered Data ONTAP
+9.5.0P6 clustered Data ONTAP
+9.5.0P7 clustered Data ONTAP
+9.5.0P8 clustered Data ONTAP
+9.5.0P9 clustered Data ONTAP
+9.6.0 clustered Data ONTAP
+9.6.0P11 clustered Data ONTAP
+9.6.0P14 clustered Data ONTAP
+9.6.0P15 clustered Data ONTAP
+9.6.0P18 clustered Data ONTAP
+9.6.0P2 clustered Data ONTAP 을 참조하십시오
+9.6.0P3 clustered Data ONTAP
+9.6.0P4 clustered Data ONTAP
+9.6.0P5 클러스터형 Data ONTAP
+9.6.0X11 clustered Data ONTAP
+9.7.0 clustered Data ONTAP
+9.7.0P1 clustered Data ONTAP
+9.7.0P10 clustered Data ONTAP
+9.7.0P11 clustered Data ONTAP
+9.7.0P12 clustered Data ONTAP
+9.7.0P13 clustered Data ONTAP을 참조하십시오
+9.7.0P14 clustered Data ONTAP을 참조하십시오
+9.7.0P15 clustered Data ONTAP
+9.7.0P16 clustered Data ONTAP
+9.7.0P17 clustered Data ONTAP
+9.7.0P18 clustered Data ONTAP
+9.7.0P19 clustered Data ONTAP을 참조하십시오
+9.7.0P2 clustered Data ONTAP을 참조하십시오
+9.7.0P20 clustered Data ONTAP
+9.7.0P21 clustered Data ONTAP
+9.7.0P22 clustered Data ONTAP
+9.7.0P3 clustered Data ONTAP
+9.7.0P4 clustered Data ONTAP
+9.7.0P5 clustered Data ONTAP
+9.7.0P6 clustered Data ONTAP
+9.7.0P7 clustered Data ONTAP
+9.7.0P8 clustered Data ONTAP
+9.7.0P9 clustered Data ONTAP을 참조하십시오
+9.7.0X17 clustered Data ONTAP
+9.8.0 clustered Data ONTAP
+9.8.0P1 clustered Data ONTAP
+9.8.0P10 clustered Data ONTAP
+9.8.0P11 clustered Data ONTAP
+9.8.0P11D2 clustered Data ONTAP
+9.8.0P12 clustered Data ONTAP
+9.8.0P13 clustered Data ONTAP
+9.8.0P14 clustered Data ONTAP
+9.8.0P15 clustered Data ONTAP
+9.8.0P16 clustered Data ONTAP
+9.8.0P17 clustered Data ONTAP
+9.8.0P18 clustered Data ONTAP
+9.8.0P19 clustered Data ONTAP
+9.8.0P2 clustered Data ONTAP
+9.8.0P3 clustered Data ONTAP
+9.8.0P4 clustered Data ONTAP
+9.8.0P5 clustered Data ONTAP
+9.8.0P6 clustered Data ONTAP
+9.8.0P7 clustered Data ONTAP
+9.8.0P8 clustered Data ONTAP
+9.8.0P9 clustered Data ONTAP
+9.9.0 clustered Data ONTAP
+9.9.1 clustered Data ONTAP
+9.9.1P1 clustered Data ONTAP
+9.9.1P10 clustered Data ONTAP
+9.9.1P11 clustered Data ONTAP
+9.9.1P12 clustered Data ONTAP
+9.9.1P13 clustered Data ONTAP
+9.9.1P14 clustered Data ONTAP
+9.9.1P15 clustered Data ONTAP
+9.9.1P16 clustered Data ONTAP
+9.9.1P2 clustered Data ONTAP
+9.9.1P3 clustered Data ONTAP
+9.9.1P4 clustered Data ONTAP
+9.9.1P5 clustered Data ONTAP
+9.9.1P6 clustered Data ONTAP
+9.9.1P7 clustered Data ONTAP
+9.9.1P8 clustered Data ONTAP
+9.9.1P9 clustered Data ONTAP</block>
+  <block id="e0e5e88bf87543da85f0d903d2d6fe42" category="cell">H410S-2
+ H610S-2
+ H610S-4를 참조하십시오
+ SF19210
+ SF2405 를 참조하십시오
+ SF38410
+ SF4805 를 참조하십시오
+ SF9605 를 참조하십시오
+ SF9608
+FCN001 을 참조하십시오
+H300S
+H410S-0
+H410S-1
+H410S-2
+H500S를 참조하십시오
+H610S-1
+H610S-2
+H610S-4를 참조하십시오
+H610S2를 참조하십시오
+SF19210
+SF38410
+SF4805 를 참조하십시오
+SF9605 를 참조하십시오</block>
+  <block id="413d52e367b31c7d05b76dc2b7c97491" category="cell">11.1.0.72
+11.5.0.63
+11.7.0.76
+11.8.0.23
+12.0.0.333을 참조하십시오
+12.2.0.777입니다
+12.3.0.958
+12.3.1.103
+12.3.1.165
+12.3.2.3
+12.5.0.897
+12.7.0.380입니다</block>
+  <block id="e2448c89743cd1dd4759858e0b83ae4f" category="cell">SolidFire REST API</block>
+  <block id="0f2d1ea2dab7112ddf653378efea1189" category="cell">3.0
+3.2
+3.3
+3.4
+3.5</block>
+  <block id="47e0becdfcfbbfd8cdd3a1f6b8503e1c" category="cell">11.2.0
+11.4.0
+11.4.0.3
+11.4.0.4
+11.5.0.1
+11.5.0.11
+11.5.0.2
+11.5.0.3
+11.5.0.6.6을 참조하십시오
+11.5.0.7
+11.5.0.8
+11.5.0.9입니다
+11.6.0
+11.6.0.1
+11.6.0.10
+11.6.0.2
+11.6.0.4
+11.6.0.5
+11.6.0.7
+11.6.0.8
+11.6.0.9
+11.7.0</block>
+  <block id="495abca5b383c7790e42cbda188b8e10" category="cell">HPE DL360-8 G10
+ NX-3060-G6을 참조하십시오
+ NX-3170-G6
+ NX-8035-G6을 참조하십시오
+ NX-8150-G7
+HPE DL360-8 G10
+HPE DL380-12 G10
+NX-3060-G5
+NX-3170-G7
+NX-5155-G6
+NX-8035-G6을 참조하십시오
+NX-8035-G7을 참조하십시오
+NX-8150-G7
+NX-8150-G8을 참조하십시오</block>
+  <block id="89718235e5f7bb8c9b679d639834f085" category="cell">6.5.1.6
+6.5.2
+6.5.2.5
+6.5.2.6
+6.5.2.7
+6.5.3
+6.5.3.1</block>
+  <block id="9b2c53e192e00fce6b71d9fba5af949d" category="cell">Sun ZFS Storage 7330
+Sun ZFS Storage 7335
+Sun ZFS Storage 7350
+Sun ZFS Storage 7370
+Sun ZFS Storage 7420
+Sun ZFS Storage 7430
+Sun ZFS Storage 7450</block>
+  <block id="2a456a375221a21454f58e4d79cd8457" category="cell">1-1.1
+1-1.2
+1-1.3
+1-1.34
+1-1.4
+2013.06.05.6.12
+2013.06.05.6.15
+2013.06.05.7.21
+2013.06.05.7.24
+2013.06.05.7.25
+2013.06.05.7.26
+2013.06.05.8.0
+2013.06.05.8.26
+2013.06.05.8.29
+2013.06.05.8.35
+2013.06.05.8.37
+2013.06.05.8.47
+2013.06.05.8.50
+2013.06.05.8.53
+2013.06.05.8.6
+2013.06.05.8.7</block>
+  <block id="79924c38f548c32717e58f123443cd65" category="cell">DFSC1을 참조하십시오
+FA-420
+FA-450입니다
+FA-C40R3을 참조하십시오
+FA-C60 을 참조하십시오
+FA-C60R3을 참조하십시오
+FA-X10R2를 참조하십시오
+FA-X10R3을 참조하십시오
+FA-X20R2를 참조하십시오
+FA-X20R3을 참조하십시오
+FA-X50R2
+FA-X50R3을 참조하십시오
+FA-X70R2
+FA-X70R3을 참조하십시오
+FA-X90R2
+FA-X90R3을 참조하십시오
+FA-XL130을 참조하십시오
+FA-XL170)을 참조하십시오
+FA-m10r2
+FA-M20 을 참조하십시오
+FA-m20r2
+FA-M50
+FA-m50r2
+FA-M70 을 참조하십시오
+FA-m70r2
+FA-X70을 참조하십시오</block>
+  <block id="f8683aae3b9aff59f33e08b3c1321b74" category="cell">4.8.8
+5.3.14
+5.3.15
+5.3.17
+5.3.18
+5.3.20
+5.3.21
+5.3.6
+5.3.8
+6.1.10
+6.1.11
+6.1.13
+6.1.14
+6.1.15
+6.1.17
+6.1.18
+6.1.19
+6.1.21
+6.1.22
+6.1.23
+6.1.5
+6.2.13
+6.2.7
+6.2.9
+6.3.10
+6.3.11
+6.3.12
+6.3.2
+6.3.5
+6.3.6
+6.3.7
+6.3.9
+6.4.3
+6.4.4
+6.4.5</block>
+  <block id="f7ade9e282e08c1d6d53cd5f4fc13a47" category="cell">Pure Storage REST API</block>
+  <block id="d5c43e381bdc06ed4b571374caed0944" category="cell">Red Hat RHEV REST API</block>
+  <block id="e2b3bb0058fba718c8c21590144ca93d" category="cell">5.3.3-P1-19391
+6.0.3-P3-13584
+7.0.2-p4-15876
+7.0.3-P1-15949
+8.0.3-P2-22743 을 참조하십시오</block>
+  <block id="4bad3d6271e78d79dec31845300a2241" category="cell">Rubrik 스토리지 REST API</block>
+  <block id="77815a7b25e952dd0392c53354bd8485" category="cell">VMware vCenter Server 6.7.0 빌드 - 10244857
+VMware vCenter Server 6.7.0 빌드 - 14368073
+VMware vCenter Server 7.0.3 빌드 - 19234570
+VMware vCenter Server 7.0.3 빌드 - 20150588
+VMware vCenter Server 7.0.3 빌드 - 20395099
+VMware vCenter Server 7.0.3 빌드 - 20990077
+VMware vCenter Server 7.0.3 빌드 - 21477706
+VMware vCenter Server 7.0.3 빌드 - 21784236
+VMware vCenter Server 8.0.1 빌드 - 21815093</block>
+  <block id="daadad26e1c264cad9b4346b69b75269" category="cell">VMware REST API</block>
+  <block id="c9b026fbbc6ced93d00f68c0e0361dbf" category="cell">VMware vCenter Server 7.0.3 빌드 - 20532039
+VMware vCenter Server 7.0.3 빌드 - 20870699
+VMware vCenter Server 8.0.0 빌드 - 21709157</block>
+  <block id="90e487bba5e99c67244b13b78dccf7ab" category="cell">VMware ESXi 6.0.0 빌드 - 10719132
+VMware ESXi 6.0.0 빌드 - 2494585
+VMware ESXi 6.0.0 빌드 - 5572656
+VMware ESXi 6.0.0 빌드 - 9313334
+VMware ESXi 6.5.0 빌드 - 14990892
+VMware ESXi 6.5.0 빌드 - 5969303
+VMware ESXi 7.0.0 빌드 - 15843807
+VMware ESXi 7.0.3 빌드 - 20036589
+VMware ESXi 7.0.3 빌드 - 20328353
+VMware ESXi 7.0.3 빌드 - 20842708
+VMware vCenter Server 5.0.0 빌드 - 3073236
+VMware vCenter Server 5.0.0 빌드 - 455964
+VMware vCenter Server 5.0.0 빌드 - 623373
+VMware vCenter Server 5.1.0 빌드 - 3814779
+VMware vCenter Server 5.5.0 빌드 - 1750787
+VMware vCenter Server 5.5.0 빌드 - 2442329
+VMware vCenter Server 5.5.0 빌드 - 3000241
+VMware vCenter Server 5.5.0 빌드 - 3252642
+VMware vCenter Server 5.5.0 빌드 - 3721164
+VMware vCenter Server 5.5.0 빌드 - 4180647
+VMware vCenter Server 5.5.0 빌드 - 6516310
+VMware vCenter Server 5.5.0 빌드 - 9911218
+VMware vCenter Server 6.0.0 빌드 - 13638472
+VMware vCenter Server 6.0.0 빌드 - 14510545
+VMware vCenter Server 6.0.0 빌드 - 2776511
+VMware vCenter Server 6.0.0 빌드 - 3634793
+VMware vCenter Server 6.0.0 빌드 - 3634794
+VMware vCenter Server 6.0.0 빌드 - 5960847
+VMware vCenter Server 6.0.0 빌드 - 7924803
+VMware vCenter Server 6.0.0 빌드 - 8803875
+VMware vCenter Server 6.0.0 빌드 - 9313458
+VMware vCenter Server 6.5.0 빌드 - 1096411
+VMware vCenter Server 6.5.0 빌드 - 15679215
+VMware vCenter Server 6.5.0 빌드 - 17590285
+VMware vCenter Server 6.5.0 빌드 - 17994927
+VMware vCenter Server 6.5.0 빌드 - 18499837
+VMware vCenter Server 6.5.0 빌드 - 18711281
+VMware vCenter Server 6.5.0 빌드 - 19261680
+VMware vCenter Server 6.5.0 빌드 - 20510539
+VMware vCenter Server 6.5.0 빌드 - 7119157
+VMware vCenter Server 6.7.0 빌드 - 10244857
+VMware vCenter Server 6.7.0 빌드 - 11727113
+VMware vCenter Server 6.7.0 빌드 - 13007421
+VMware vCenter Server 6.7.0 빌드 - 13639324
+VMware vCenter Server 6.7.0 빌드 - 14368073
+VMware vCenter Server 6.7.0 빌드 - 15129973
+VMware vCenter Server 6.7.0 빌드 - 15679289
+VMware vCenter Server 6.7.0 빌드 - 17137327
+VMware vCenter Server 6.7.0 빌드 - 18010599
+VMware vCenter Server 6.7.0 빌드 - 18485185
+VMware vCenter Server 6.7.0 빌드 - 18831049
+VMware vCenter Server 6.7.0 빌드 - 19299595
+VMware vCenter Server 6.7.0 빌드 - 19832247
+VMware vCenter Server 6.7.0 빌드 - 19832280
+VMware vCenter Server 6.7.0 빌드 - 20504301
+VMware vCenter Server 6.7.0 빌드 - 20504362
+VMware vCenter Server 6.7.0 빌드 - 8170161
+VMware vCenter Server 6.7.0 빌드 - 9433931
+VMware vCenter Server 7.0.0 빌드 - 16620013
+VMware vCenter Server 7.0.0 빌드 - 16749670
+VMware vCenter Server 7.0.1 빌드 - 17491160
+VMware vCenter Server 7.0.2 빌드 - 17694817
+VMware vCenter Server 7.0.2 빌드 - 17958471
+VMware vCenter Server 7.0.2 빌드 - 18356314
+VMware vCenter Server 7.0.2 빌드 - 18455184
+VMware vCenter Server 7.0.3 빌드 - 18700403
+VMware vCenter Server 7.0.3 빌드 - 18778458
+VMware vCenter Server 7.0.3 빌드 - 19234570
+VMware vCenter Server 7.0.3 빌드 - 19480866
+VMware vCenter Server 7.0.3 빌드 - 19717403
+VMware vCenter Server 7.0.3 빌드 - 20051473
+VMware vCenter Server 7.0.3 빌드 - 20150588
+VMware vCenter Server 7.0.3 빌드 - 20395099
+VMware vCenter Server 7.0.3 빌드 - 20845200
+VMware vCenter Server 7.0.3 빌드 - 20990077
+VMware vCenter Server 7.0.3 빌드 - 21290409
+VMware vCenter Server 7.0.3 빌드 - 21477706
+VMware vCenter Server 7.0.3 빌드 - 21784236
+VMware vCenter Server 7.0.3 빌드 - 21958406
+VMware vCenter Server 8.0.0 빌드 - 20920323
+VMware vCenter Server 8.0.0 빌드 - 21216066
+VMware vCenter Server 8.0.0 빌드 - 21457384
+VMware vCenter Server 8.0.1 빌드 - 21560480
+VMware vCenter Server 8.0.1 빌드 - 21815093
+VMware vCenter Server 8.0.1 빌드 - 21860503</block>
 </blocks>
