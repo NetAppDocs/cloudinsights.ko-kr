@@ -29,6 +29,54 @@ NOTE: 이러한 기능 중 일부는 Cloud Insights Federal Edition에서 사용
 
 
 
+=== Isilon/PowerScale 로그 및 고급 분석 데이터 수집
+
+Isilon REST 및 PowerScale REST Collector에는 다음과 같은 향상된 기능이 포함되어 있습니다.
+
+* Isilon 로그 이벤트는 쿼리 및 알림에 사용할 수 있습니다
+* Isilon Advanced Analytic 속성은 쿼리, 대시보드 및 알림에 사용할 수 있습니다.
++
+** EMC_Isilon.cluster입니다
+** emc_isilon.node
+** emc_isilon.node_disk
+** emc_isilon.net_iface
+
+
+
+
+이러한 기능은 Isilon REST 및/또는 PowerScale REST Collector 사용자에게 기본적으로 설정됩니다. NetApp는 Isilon CLI 기반 Collector를 사용하는 사용자가 위와 같은 개선 사항을 받으려면 새로운 REST API 기반 Collector로 마이그레이션할 것을 적극 권장합니다.
+
+
+
+=== 개선된 워크로드 맵
+
+워크로드 맵은 보다 유용하고 노이즈가 적으며, 동일한 워크로드와 통신하는 경우 유사한 모든 외부 서비스를 하나의 노드로 그룹화하여 그래프의 복잡성을 줄이고 서비스 상호 연결 방식을 더 쉽게 이해할 수 있도록 합니다.
+
+그룹화된 노드를 선택하면 해당 노드와 관련된 각 외부 서비스에 대한 네트워크 트래픽 메트릭이 포함된 상세 테이블이 표시됩니다.
+
+
+
+=== Kubernetes 관리 유닛 사용 조정
+
+NetApp Kubernetes 모니터링 담당자와 기본 인프라 데이터 수집기(예: VMware)가 Kubernetes 클러스터 환경에서 컴퓨팅 리소스를 계산하는 경우 관리되는 장치의 수를 가장 효율적으로 카운트할 수 있도록 이러한 리소스 사용이 조정됩니다. Kubernetes MU 조정 사항은 요약 및 사용 탭 모두에서 관리자 > 구독 페이지에서 확인할 수 있습니다.
+
+요약 탭:
+image:MU_Adjustments_K8s.png["K8s MU Adjustment(k8s MU 조정)는 추정 계산기에 표시됩니다"]
+
+사용 탭:
+image:MU_Adjustments_K8s_Usage_Tab.png["Usage(사용) 탭에 k8s MU 조정 이 표시됩니다"]
+
+
+
+=== 수집기/획득 변경:
+
+다음 데이터 수집기/획득 장치 변경 사항이 있습니다.
+
+* 이제 Acquisition Unit은 RHEL 8.7을 지원합니다.
+
+
+
+
 === 개선된 메뉴
 
 고객의 워크플로우를 더욱 효과적으로 지원할 수 있도록 좌측 탐색 메뉴를 업데이트했습니다. _Kubernetes_와 같은 새로운 최상위 항목은 고객의 요구 사항에 대한 액세스를 가속화하며, 통합된 관리자 콘솔은 테넌트 소유자 역할을 지원합니다.
