@@ -995,7 +995,6 @@
   <block id="22a6fbd49f601102da3f17cc56176d59" category="cell">노드 이름 노드 IP 노드 UUID 노드 OS</block>
   <block id="592897d62e3575026edb33cb4cb753ae" category="cell">소비자 수 대기열 대기열 수 크기</block>
   <block id="7cf19f2c233335b0e0262d17d9d4f8dd" category="summary">Cloud Insights에서 사용할 수 있는 새로운 기능</block>
-  <block id="92589af47923f82dcbca7ca5709f1005" category="doc">Cloud Insights의 새로운 기능</block>
   <block id="a5091aedd97daf7c5a5297fa5d73a469" category="section-title">2021년 12월</block>
   <block id="e4739a788e45bada83755eece8188d9a" category="section-title">ONTAP 시스템을 위한 더욱 긴밀한 통합</block>
   <block id="2798b81e41cc279af41eeff00d15882f" category="inline-link-macro">탐색 및 경고</block>
@@ -12935,4 +12934,5 @@ VMware vCenter Server 8.0.1 빌드 - 21860503</block>
   <block id="01149343ed19ae68ec1c689ec3722a5c" category="paragraph">자산 페이지의 전문가 보기 섹션을 사용하면 성능 차트 및 관련 자산에 선택한 기간이 있는 컨텍스트에서 적용 가능한 모든 메트릭에 따라 기본 자산의 성능 샘플을 볼 수 있습니다.  데이터 수집기가 폴링 및 업데이트된 데이터를 획득하면 차트의 데이터가 자동으로 새로 고쳐집니다.</block>
   <block id="a529577c999092a8f244f1064ee16c6e" category="paragraph">요약 섹션의 정보는 물론 자산 페이지의 모든 테이블 또는 사용자 정의 위젯에서 선택한 시간 범위에 따라 자동으로 새로 고쳐집니다. 요약 섹션, 표 및 모든 사용자 지정 위젯의 오른쪽 위 모서리에 현재 새로 고침 빈도가 표시됩니다.</block>
   <block id="ffe8a4f426307f8dd53338d7bc39db00" category="paragraph">자산 페이지 요약 섹션뿐 아니라 페이지의 모든 테이블 또는 사용자 정의 위젯에 있는 정보는 선택한 시간 범위에 따라 자동으로 새로 고쳐집니다. 현재 새로 고침 빈도는 요약 섹션의 오른쪽 상단 모서리와 페이지의 관련 테이블 또는 위젯에 표시됩니다.</block>
+  <block id="820c5f3d48103a56a44610787108dad5" category="doc">Cloud Insights의 새로운 기능</block>
 </blocks>
