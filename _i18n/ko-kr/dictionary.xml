@@ -3240,7 +3240,6 @@
   <block id="529b04e834f40481051d6ce9539ddc0f" category="cell">디바이스가 Fibre Channel 포트로 구성되어 있지 않습니다. 현재 FC 구성만 지원됩니다. 이 버전/펌웨어가 지원되는지 확인합니다.</block>
   <block id="27a216601981d13fcf078fa6774638a5" category="summary">자산 페이지의 전문가 보기 섹션은 문제 해결 또는 모니터링을 위한 강력한 도구입니다.</block>
   <block id="b7020f7cb2b885f482e520e38265e6b0" category="doc">전문가 뷰</block>
-  <block id="6769810373d64f6178c70417f3100129" category="paragraph">자산 페이지의 전문가 보기 섹션을 사용하면 성능 차트 및 관련 자산에 선택한 기간이 있는 컨텍스트에서 적용 가능한 모든 메트릭에 따라 기본 자산의 성능 샘플을 볼 수 있습니다.</block>
   <block id="a095544b81060891734744ad5bd2a5c3" category="section-title">전문가 보기 섹션을 사용합니다</block>
   <block id="62329137e14077120c0de9e866ecae4b" category="paragraph">다음은 스토리지 자산 페이지의 전문가 보기 섹션의 예입니다.</block>
   <block id="beaa4bde61b31a115ee598bebfa3f120" category="inline-image-macro">전문가 보기 예제</block>
@@ -12933,4 +12932,7 @@ VMware vCenter Server 8.0.1 빌드 - 21860503</block>
   <block id="6eaf2b51f37d7f4d356ffe2a342af267" category="paragraph">사용 탭:
 <block ref="09c99a3559c7afea569b832bd175894f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f4e0f73d094f0d65c6a05d5a032c2723" category="list-text">이제 Acquisition Unit은 RHEL 8.7을 지원합니다.</block>
+  <block id="01149343ed19ae68ec1c689ec3722a5c" category="paragraph">자산 페이지의 전문가 보기 섹션을 사용하면 성능 차트 및 관련 자산에 선택한 기간이 있는 컨텍스트에서 적용 가능한 모든 메트릭에 따라 기본 자산의 성능 샘플을 볼 수 있습니다.  데이터 수집기가 폴링 및 업데이트된 데이터를 획득하면 차트의 데이터가 자동으로 새로 고쳐집니다.</block>
+  <block id="05c3e307f6dc616e1f39e3e2b33522d0" category="paragraph">자산 페이지 요약 섹션뿐 아니라 페이지의 모든 테이블 또는 사용자 정의 위젯에 있는 정보는 선택한 시간 범위에 따라 자동으로 새로 고쳐집니다. 현재 새로 고침 빈도는 요약 섹션의 오른쪽 상단 모서리와 페이지의 관련 테이블 또는 위젯에 표시됩니다.</block>
+  <block id="a529577c999092a8f244f1064ee16c6e" category="paragraph">요약 섹션의 정보는 물론 자산 페이지의 모든 테이블 또는 사용자 정의 위젯에서 선택한 시간 범위에 따라 자동으로 새로 고쳐집니다. 요약 섹션, 표 및 모든 사용자 지정 위젯의 오른쪽 위 모서리에 현재 새로 고침 빈도가 표시됩니다.</block>
 </blocks>

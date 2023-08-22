@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept_asset_summary_section.html 
 summary: Cloud Insights의 자산 페이지 요약 섹션 개요 
-keywords: asset, summary, landing page, topology 
+keywords: asset, summary, landing page, topology, auto, refresh 
 ---
 = 자산 페이지 요약 섹션
 :toc: macro
@@ -20,6 +20,8 @@ keywords: asset, summary, landing page, topology
 
 [role="lead"]
 자산 페이지의 요약 섹션에는 메트릭이나 성능 정책이 우려할 만한 원인인지 여부를 비롯한 자산에 대한 일반 정보가 표시됩니다. 잠재적 문제 영역은 빨간색 원으로 표시됩니다.
+
+요약 섹션의 정보는 물론 자산 페이지의 모든 테이블 또는 사용자 정의 위젯에서 선택한 시간 범위에 따라 자동으로 새로 고쳐집니다. 요약 섹션, 표 및 모든 사용자 지정 위젯의 오른쪽 위 모서리에 현재 새로 고침 빈도가 표시됩니다.
 
 image:Summary_Section_Example.png[""]
 
