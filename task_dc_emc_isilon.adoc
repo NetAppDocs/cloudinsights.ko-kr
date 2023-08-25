@@ -110,4 +110,4 @@ Cloud Insights는 이 데이터 수집기에서 다음 인벤토리 정보를 �
 
 | "내부 오류" 오류 메시지와 함께 "명령 <사용자 명령> 실행이 <현재 권한>과(와) 함께 실패했습니다. sudo 명령 실행 권한 문제" | 사용자에게 장치에서 다음 명령을 실행할 수 있는 sudo 권한이 있는지 확인합니다 
 |===
-추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].
+추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].

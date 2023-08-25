@@ -107,4 +107,4 @@ Cloud Insights는 VNX File 데이터 수집기에서 다음과 같은 인벤토�
 
 | 오류: DART 업데이트가 진행되는 동안 계속할 수 없습니다 | 가능한 해결 방법: 데이터 수집기를 일시 중지하고 DART 업그레이드가 완료될 때까지 기다린 후 다른 획득 요청을 시도하십시오. 
 |===
-추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].
+추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].

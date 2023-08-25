@@ -316,4 +316,4 @@ ci_user     ontapi      password    ci_readonly   no
 
 | “ZAPI에서 성능을 수집하지 못했습니다.” 오류 | 일반적으로 perf stat이 실행되지 않기 때문입니다. 각 노드에서 >_system node systemshell-node * -command “spmctl -h cmd –stop;spmctl -h cmd –exec” _ 명령을 실행합니다 
 |===
-추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].
+추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].

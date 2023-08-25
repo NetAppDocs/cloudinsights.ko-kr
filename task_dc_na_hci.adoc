@@ -162,4 +162,4 @@ Cloud Insights는 이 데이터 수집기에서 다음 인벤토리 정보를 �
 
 | 오류: IP의 VirtualCenter에는 JVM에 필요한 일치하지 않는 인증서가 있습니다 | 가능한 해결책: * 권장: 더 강력한(예 1024비트) RSA 키. * 권장하지 않음: JDK.certpath 제약 조건을 활용하도록 JVM java.security 구성을 수정하십시오. disabledAlgorithms 512비트 RSA 키를 허용합니다. 에서 JDK 7 업데이트 40 릴리스 노트를 참조하십시오 "http://www.oracle.com/technetwork/java/javase/7u40-relnotes-2004172.html"[] 
 |===
-추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].
+추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].

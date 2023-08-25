@@ -122,4 +122,4 @@ HDS Ops Center "Analyzer" 모듈이 설치되어 있어야 합니다. 스토리�
 
 | 성능 폴링 간격(초) | 성능 폴링 간격입니다. 기본값은 300입니다. 
 |===
-추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].
+추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].

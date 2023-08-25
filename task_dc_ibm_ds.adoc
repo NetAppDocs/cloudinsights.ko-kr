@@ -129,4 +129,4 @@ Cloud Insights는 IBM DS 데이터 수집기에서 다음 인벤토리 정보를
 
 | 오류: * 프로그램을 실행할 수 없음 * 명령 실행 중 오류 | * Cloud Insights 획득 장치에서 CMD * 열기 CLI 홈 디렉토리/lib에서 CLI.CFG 파일을 열고 속성 java_install을 확인합니다. 사용자 환경과 일치하도록 값을 편집합니다. * 이 컴퓨터에 설치된 Java 버전을 표시합니다. 다음을 입력합니다. "java-version" * Ping CLI 명령에 지정된 IBM 스토리지 디바이스의 IP 주소입니다. * 위 항목 모두 정상적으로 작동했다면 CLI 명령을 수동으로 실행하십시오 
 |===
-추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].
+추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].

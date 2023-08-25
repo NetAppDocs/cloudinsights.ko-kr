@@ -85,4 +85,4 @@ Cloud Insights는 Azure 컴퓨팅 데이터 수집기를 사용하여 Azure 컴�
 
 == 문제 해결
 
-이 Data Collector에 대한 추가 정보는 에서 확인할 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].
+이 Data Collector에 대한 추가 정보는 에서 확인할 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].

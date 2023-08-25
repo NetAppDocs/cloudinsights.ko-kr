@@ -138,4 +138,4 @@ Cloud Insights는 이 데이터 수집기에서 다음 인벤토리 정보를 �
 
 | Cloud Insights는 SMI-S 서비스에 연결/로그인할 수 없다고 말합니다. | CI AU와 스토리지 사이에 5988 또는 5989로의 TCP 연결을 차단하는 방화벽이 없는지 확인합니다. 이 작업이 완료되고 방화벽이 없음을 확인한 경우 어레이에 SSH를 사용하고 "showcim" 명령을 사용하여 확인해야 합니다. 서비스 활성화 여부 확인 * HTTPS가 활성화되어 있는지 * HTTPS 포트는 5989여야 합니다. 모든 포트가 활성화되어 있으면 “stopcim”을 수행한 다음 “startcim”을 시도하여 CIM을 다시 시작할 수 있습니다(예 SMI-S 서비스). 
 |===
-추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].
+추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].

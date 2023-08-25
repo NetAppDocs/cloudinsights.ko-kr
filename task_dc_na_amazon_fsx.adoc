@@ -149,4 +149,4 @@ Cloud Insights는 FSx-NetApp 데이터 수집기에서 인벤토리 및 성능 �
 
 | 추가 연결 오류: ZAPI 응답에는 오류 코드 13001, "데이터베이스가 열려 있지 않습니다." ZAPI 오류 코드가 60이고 응답에는 "API가 시간에 완료되지 않았습니다."가 포함되어 있습니다. ZAPI 응답에는 "initialize_session() returned NULL environment" ZAPI가 포함되어 있습니다. ZAPI 오류 코드는 14007이고 응답에는 "노드가 정상 상태가 아닙니다"가 포함되어 있습니다. | 네트워크, 포트 번호 및 IP 주소를 확인합니다. 또한 사용자는 AU 시스템의 명령줄에서 명령을 실행해야 합니다. 
 |===
-추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].
+추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].

@@ -108,4 +108,4 @@ Cloud Insights는 Fujitsu ETERNUS 스토리지에서 다음 인벤토리 정보�
 
 | "Connecting error(연결 오류)"와 "Failed to instantiate an SSH connection to storage(스토리지에 대한 SSH 연결을 인스턴스화하지 못했습니다)" 또는 "Failed to instantiate a connection to VirtualCenter(VirtualCenter 연결을 인스턴스화하지 못했습니다)"라는 오류 메시지 | 가능한 원인: * 잘못된 자격 증명. * 잘못된 IP 주소입니다. * 네트워크 문제. * 스토리지가 중단되거나 응답하지 않을 수 있습니다. 가능한 해결 방법: * 입력한 자격 증명 및 IP 주소를 확인합니다. * SSH 클라이언트를 사용하여 스토리지와 통신을 시도합니다. 
 |===
-추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].
+추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].

@@ -216,4 +216,4 @@ CLI-date 또는 CLI-snap 권한이 제공되지 않는 경우, 획득이 완료�
 
 | "vFiler에 연결하지 못했습니다" 오류 | 구입 사용자 기능에는 최소한 API-* security-api-vFiler login-http-admin 파일러가 최소 ONTAPI 버전 1.7을 실행하고 있는지 확인합니다. 
 |===
-추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].
+추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].
