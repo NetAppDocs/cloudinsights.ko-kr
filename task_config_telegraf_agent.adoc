@@ -493,4 +493,4 @@ Add-Type -Assembly System.Security
 
 | 이미 에이전트가 설치되었지만 Cloud Insights 설치 프로그램을 사용하지 않습니다 | 올바른 기본 구성 파일 설정을 위해 이전 에이전트를 제거하고 Cloud Insights 에이전트 설치를 실행합니다. 완료되면 * 계속 * 또는 * 마침 * 을 클릭합니다. 
 |===
-추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/CloudInsightsDataCollectorSupportMatrix.pdf["Data Collector 지원 매트릭스"].
+추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].

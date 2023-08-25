@@ -262,7 +262,6 @@
   <block id="3b383b19cb2767edd0b06340379b859c" category="cell">오류: "구성 노드에서 실행되지 않아 명령을 시작할 수 없습니다."</block>
   <block id="f76cc97ccb788e95e43d6e238845fd1f" category="cell">명령은 구성 노드에서 실행해야 합니다.</block>
   <block id="5ea8c0bc0f3ff2ad5a8ecd87179c69f1" category="inline-link-macro">Data Collector 지원 매트릭스</block>
-  <block id="38e5a763fdbf601806f64af07cf45787" category="paragraph">이 Data Collector에 대한 추가 정보는 에서 확인할 수 있습니다 <block ref="d34993add17c6dd464dba2ccd7f99cbb" category="inline-link-macro-rx"></block> 페이지 또는 에 있습니다 <block ref="6bcd41b5488d3cd417d31b80921f5af9" category="inline-link-macro-rx"></block>.</block>
   <block id="5f06573aae905166447bf8d646c6bf89" category="summary">쿼리 개요</block>
   <block id="fadb076bccad39c075c50bfa7f81bc31" category="doc">쿼리에 사용된 자산</block>
   <block id="74e62ba1fb3e060a16a3310628a9de3e" category="paragraph">쿼리를 사용하면 사용자 선택 기준(예: 주석)에 따라 사용자 환경에서 자산과 메트릭을 세분화된 수준으로 검색하여 네트워크를 모니터링하고 문제를 해결할 수 있습니다.</block>
@@ -372,7 +371,6 @@
   <block id="533e65443960283ff24073ad80db0e3d" category="paragraph"><block ref="533e65443960283ff24073ad80db0e3d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c52cf8dba7f709e8910813b93418d94" category="section-title">Cloud Insights 데이터 수집기 지원 매트릭스</block>
   <block id="d59e2e05079f7c9c24f5bbba7c6e3547" category="inline-link-macro">* Cloud Insights 데이터 수집기 지원 매트릭스 *, 역할 = "외부"</block>
-  <block id="34a28f543ea4981287965bd3ea1448ef" category="paragraph">에서 지원되는 Data Collector에 대한 정보와 세부 정보를 보거나 다운로드할 수 있습니다 <block ref="4928518ab1eaba703f07b7f823f64b48" category="inline-link-macro-rx"></block>.</block>
   <block id="dc1e65eec84ecdddd9d944665f004c81" category="summary">Kafka 데이터 수집기 구성</block>
   <block id="20c91ea30ac10f88575658fade0888da" category="doc">Kafka 데이터 수집기</block>
   <block id="2f36f64899c7519b8c8cd9277f2bb502" category="paragraph">Cloud Insights는 이 데이터 수집기를 사용하여 Kafka로부터 메트릭을 수집합니다.</block>
@@ -815,7 +813,6 @@
   <block id="47fa8d76306d372c744e15ee8842dfe6" category="cell">HCP_LOCAL 또는 ACTIVE_DIRECTORY 를 선택합니다</block>
   <block id="8853a8367abce0e7b992076dc2ea96d7" category="cell">재고 조사 사이의 간격입니다. 기본값은 60입니다.</block>
   <block id="7b838f138f86c4286a81ea5584878ef8" category="cell">성능 폴링 간격입니다. 기본값은 900입니다.</block>
-  <block id="b13fdf15118fa90916588b42c9eab20f" category="paragraph">추가 정보는 에서 찾을 수 있습니다 <block ref="d34993add17c6dd464dba2ccd7f99cbb" category="inline-link-macro-rx"></block> 페이지 또는 에 있습니다 <block ref="6bcd41b5488d3cd417d31b80921f5af9" category="inline-link-macro-rx"></block>.</block>
   <block id="0982f7ddf38c72531e91321d3b4e198e" category="summary">Docker 데이터 수집기 구성</block>
   <block id="d80788e8d22d139775039533ead6bae8" category="doc">Docker Data Collector 를 참조하십시오</block>
   <block id="6e48769f92efb7218705b56e64b2cc22" category="paragraph">Cloud Insights는 이 데이터 수집기를 사용하여 Docker에서 메트릭을 수집합니다.</block>
@@ -12937,4 +12934,5 @@ VMware vCenter Server 8.0.1 빌드 - 21860503</block>
   <block id="a86bd6cf348747cd34bce0fd7d6a84a9" category="paragraph">이 Data Collector에 대한 추가 정보는 에서 확인할 수 있습니다 <block ref="d34993add17c6dd464dba2ccd7f99cbb" category="inline-link-macro-rx"></block> 페이지 또는 에 있습니다 <block ref="9dd2beb67fe62b2f58f66806d3cbe842" category="inline-link-macro-rx"></block>.</block>
   <block id="47c66df8007a6168673191bfaef7dfab" category="paragraph">추가 정보는 에서 찾을 수 있습니다 <block ref="d34993add17c6dd464dba2ccd7f99cbb" category="inline-link-macro-rx"></block> 페이지 또는 에 있습니다 <block ref="9dd2beb67fe62b2f58f66806d3cbe842" category="inline-link-macro-rx"></block>.</block>
   <block id="e07849f7cb6b62fcc60bd889bb8954df" category="paragraph">이 데이터 수집기에 대한 추가 정보는 에서 찾을 수 있습니다 <block ref="d34993add17c6dd464dba2ccd7f99cbb" category="inline-link-macro-rx"></block> 페이지 또는 에 있습니다 <block ref="9dd2beb67fe62b2f58f66806d3cbe842" category="inline-link-macro-rx"></block>.</block>
+  <block id="4a186b8a397cc2aad62c7d9c7e9d9a66" category="paragraph">에서 지원되는 Data Collector에 대한 정보와 세부 정보를 보거나 다운로드할 수 있습니다 <block ref="1300170f2732d2d2d53f76de553810b4" category="inline-link-macro-rx"></block>.</block>
 </blocks>
