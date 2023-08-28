@@ -212,17 +212,6 @@ Kubernetes에 대해 자세히 알아보십시오 link:https://kubernetes.io/doc
 
 
 
-=== 권한
-
-모니터링 중인 클러스터에 ClusterRole이 없는 사용자 지정 리소스가 포함되어 있는 경우 link:https://kubernetes.io/docs/reference/access-authn-authz/rbac/#aggregated-clusterroles["보려는 애그리게이트"], 이벤트 로그로 이러한 리소스를 모니터링하려면 운영자에게 수동으로 이러한 리소스에 대한 액세스 권한을 부여해야 합니다.
-
-. edit_operator-additional-permissions.yaml_를 설치하기 전이나 설치 후 resource_ClusterRole/<namespace>-additional-permissions_를 편집합니다
-. 동사 ["get", "watch", "list"]를 사용하여 원하는 apiGroups 및 리소스에 대한 새 규칙을 만듭니다. \https://kubernetes.io/docs/reference/access-authn-authz/rbac/ 를 참조하십시오
-. 변경 사항을 클러스터에 적용합니다
-
-
-
-
 == NetApp Kubernetes Monitoring Operator 설치
 
 image:NKMO-Instructions-1.png[""]
@@ -570,8 +559,5 @@ NetApp Kubernetes Monitoring Operator 설정 시 문제가 발생할 경우 다�
 ...
 
 그런 다음 텔레그라프를 다시 시작합니다. 
-
-
-| 일부 이벤트 로그에 대한 _divedobject_data가 없습니다. | 의 단계를 수행했는지 확인합니다 <<permissions,권한>> 섹션을 참조하십시오. 
 |===
 추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].
