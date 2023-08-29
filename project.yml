@@ -205,7 +205,7 @@ sidebar:
       url: "/reporting_schema_diagrams.html"
     - title: 스키마 테이블
       url: "/reference_schemas.html"
-  - title: 스토리지 워크로드 보안
+  - title: 워크로드 보안
     entries:
     - title: 워크로드 보안 정보
       url: "/cs_intro.html"
