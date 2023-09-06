@@ -33,6 +33,9 @@ NOTE: 별도로 언급하지 않는 한, 이 페이지의 정보는 일반적으
 
 Cloud Insights Basic 및 Premium 버전에서 사용할 수 있는 기능에 대한 전체 비교는 를 참조하십시오 link:https://bluexp.netapp.com/cloud-insights-pricing["Cloud Insights 가격"] 페이지.
 
+
+WARNING: 비활성 Cloud Insights Basic Edition 환경이 삭제되고 해당 리소스가 회수됩니다. 연속 7일 동안 수집된 데이터가 없는 경우, 연속으로 30일 동안 사용자 활동이 없는 경우 환경은 비활성 상태로 간주됩니다. Cloud Insights는 알림을 전송하고 환경이 삭제되기 4일 전에 유예 기간을 제공합니다.
+
 Cloud Insights를 사용하는 동안 자물쇠 아이콘이 표시되는 경우 image:padlock.png["자물쇠"]즉, 현재 버전에서 이 기능을 사용할 수 없거나 제한된 형식으로 사용할 수 있습니다. 기능에 대한 전체 액세스 권한을 위해 업그레이드하십시오.
 
 

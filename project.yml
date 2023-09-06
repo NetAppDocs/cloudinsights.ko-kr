@@ -265,12 +265,12 @@ sidebar:
       url: "/task_troubleshooting_windows_acquisition_unit_problems.html"
     - title: 데이터 수집기 오류 조사
       url: "/task_research_failed_collector.html"
+  - title: Data Collector 지원 매트릭스
+    url: "/reference_data_collector_support_matrix.html"
   - title: 참조 지원
     entries:
     - title: 지원을 요청하는 중입니다
       url: "/concept_requesting_support.html"
-    - title: Data Collector 지원 매트릭스
-      url: "/reference_data_collector_support_matrix.html"
     - title: Data Collector 참조 - 인프라
       entries:
       - title: 공급업체 참조 개요
