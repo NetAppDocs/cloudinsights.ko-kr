@@ -42,17 +42,13 @@
   <block id="60cf8e04c47a7705ce07f2d0a3244a2a" category="inline-link-macro">활동 기록</block>
   <block id="1f24e0feac1342d8f35a49c9b98224e8" category="paragraph">에 액세스하려면 * 활동 세부 정보 보기 * 를 클릭합니다 <block ref="d61797bb6c27515ec1bccae4d136d0a1" category="inline-link-macro-rx"></block> 검사 중인 사용자의</block>
   <block id="f605eb6ac9043e9f1502d006629b9dc3" category="doc">로그 탐색기</block>
-  <block id="72ab1611127dabda382ded8d35eabd5f" category="paragraph">로그 탐색을 시작하려면 * 쿼리 &gt; + 새 로그 쿼리 * 를 클릭합니다.</block>
   <block id="0aa526404a7affc36dc5d2429d255945" category="inline-image-macro">로그를 선택합니다</block>
   <block id="32daa822b566f93b5c95aa039268049d" category="paragraph">필터를 설정하여 쿼리 결과를 세부적으로 조정할 수 있습니다. 예를 들어, 오류를 표시하는 모든 로그 메시지를 찾으려면 "failed"라는 단어가 포함된 _messages_에 대한 필터를 설정합니다.</block>
   <block id="e290a1958705f522c7d916c05fcad28c" category="admonition">필터 필드에 원하는 텍스트를 입력할 수 있습니다. 입력할 때 문자열을 포함하는 와일드카드 검색을 생성하라는 메시지가 Cloud Insights에 표시됩니다.</block>
   <block id="4fc206dee5c28b63ff442e3ed9df6b96" category="paragraph">결과는 표시된 각 기간의 로그 인스턴스 수를 보여 주는 그래프에 표시됩니다. 그래프 아래에는 로그 항목이 템플릿입니다. 선택한 시간 범위에 따라 그래프와 항목이 자동으로 새로 고쳐집니다.</block>
   <block id="8ef03d84e3fb3a5e09cc1a40b1e60f8d" category="inline-image-macro">필터를 보여 주는 쿼리 예</block>
   <block id="a5841d3432662ae9190489b4bf13e03c" category="paragraph"><block ref="a5841d3432662ae9190489b4bf13e03c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6525698622e5d4dd87d39bc69750d2e3" category="section-title">로그 그래프</block>
-  <block id="5ca1a83f7b7763185645c408d9237058" category="paragraph">그래프에는 선택한 대시보드 시간 범위를 기반으로 _버킷_ 로 그룹화된 로그 항목 수가 표시됩니다. 각 시간 범위에 대한 버킷은 다음과 같습니다.</block>
   <block id="a311182bfffa770574efa58415204e5e" category="cell">대시보드 시간 범위</block>
-  <block id="1a07cd9ad36405911f4a827c02141cb5" category="cell">버킷 크기</block>
   <block id="a926f64f96f29ebfa9e64241032a55b2" category="cell">최근 15분</block>
   <block id="19835cec9600eb5f9fc332ed671fc46a" category="cell">10초</block>
   <block id="0fd65d7e147096c119c6900ed5b5a8cd" category="cell">마지막 30분</block>
@@ -69,18 +65,11 @@
   <block id="91cffeca95beab0e4685fd8b11a50803" category="cell">최근 24시간</block>
   <block id="0d109f2a2e5b1f92e8b4de51b6bd9363" category="cell">15분</block>
   <block id="caec3712d5844af129c76f18ea0bfcf2" category="cell">최근 2일</block>
-  <block id="06cdf20b6eaa0ae9f8c50b0f6158589f" category="cell">30분</block>
   <block id="0ad331ed80e13a88f270d542cb3fbb40" category="cell">지난 3일</block>
-  <block id="90085ccde7a8c066e1f3a5b7580ef07d" category="cell">45분</block>
   <block id="4b299435d7b213389dfcb754217ab570" category="cell">최근 7일</block>
   <block id="5ce155ac62ee03701f7a117676333008" category="cell">2시간</block>
   <block id="015a82ad52283ebee50f2819fc99d3eb" category="cell">지난 30일</block>
-  <block id="0d730df753ae6a369323fe6dc1641eb2" category="cell">1일</block>
-  <block id="0aa0ba82527e49e5c56d1dfce41fc246" category="paragraph">그래프를 확대하려면 양쪽 모두에서 슬라이더를 드래그하면 됩니다. 확대/축소된 영역을 이동하려면 흰색 영역을 클릭한 상태로 왼쪽이나 오른쪽으로 이동합니다. 확대/축소 수준을 재설정하려면 _ Reset Zoom _ (확대/축소 재설정)을 클릭합니다.</block>
-  <block id="51e0a539e27933abd9022ece5ebb9dc0" category="inline-image-macro">그래프 측면을 드래그하여 확대합니다</block>
-  <block id="03bbd7f405795c5f2f9e6b2aa10a9485" category="paragraph"><block ref="03bbd7f405795c5f2f9e6b2aa10a9485" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-image-macro"></block>
-  <block id="9861da4e593f0d876c27ae2472947ec7" category="paragraph">그래프를 확대/축소하거나 테이블을 스크롤하면 대시보드 자동 새로 고침이 일시 중지되고 시간 범위에 고정 시간이 표시됩니다. 새로 고침을 다시 시작하려면 _Resume_ 단추를 클릭합니다 <block ref="aba9fdfd6cc8b6ea17b1ffd7798083ed" category="inline-image-macro-rx" type="image"></block>. 그러면 확대/축소 수준도 재설정됩니다.</block>
   <block id="d376c886c5ff2fc65131f62ba9752f91" category="paragraph">언제든지 _ 로그 모니터 생성 _ 을(를) 클릭하여 현재 필터를 기반으로 새 모니터를 생성할 수 있습니다.</block>
   <block id="5498a5f4896f117c2848f41304cec816" category="section-title">로그 세부 정보</block>
   <block id="359af7e1e51e6ea2bf3b35d99ff965eb" category="paragraph">목록에서 로그 항목의 아무 곳이나 클릭하면 해당 항목에 대한 세부 정보 창이 열립니다. 여기에서 이벤트에 대한 자세한 정보를 확인할 수 있습니다.</block>
@@ -7507,8 +7496,6 @@
   <block id="a042a0a750858e6060db4dfe64a00752" category="summary">로그 탐색기는 다양한 시스템 로그를 통해 문제를 조사할 수 있는 강력한 도구입니다.</block>
   <block id="8525c63db9fcf944b97e51df898b6440" category="paragraph">Cloud Insights 로그 탐색기는 시스템 로그를 쿼리하는 강력한 도구입니다. 또한 조사에 도움이 될 뿐 아니라 특정 로그 트리거가 활성화될 때 경고를 제공하기 위해 로그 쿼리를 모니터에 저장할 수도 있습니다.</block>
   <block id="20d54bcfce082123adf73a66c93e11f1" category="admonition">쿼리에 사용할 수 있는 로그 유형은 사용자 환경에 따라 다를 수 있습니다. 시간이 지남에 따라 추가 로그 유형을 추가할 수 있습니다.</block>
-  <block id="5e618eb9ef1c438e7d5d6afda86417f3" category="inline-image-macro">로그 쿼리 메뉴, 480</block>
-  <block id="d93346d5cd40cfc415b92ee8b9831053" category="paragraph"><block ref="d93346d5cd40cfc415b92ee8b9831053" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bf74dd0ba8bacde3d960739103ba63c6" category="paragraph">목록에서 사용 가능한 로그를 선택합니다.</block>
   <block id="d64c94573b121a79214c7bf24c4a546d" category="paragraph">모범 사례: AWS Predefined_AmazonEC2ReadOnlyAccess_policy를 EC2 기본 계정에 할당하는 것이 좋습니다. 또한 데이터 소스에서 구성된 사용자는 AWS를 쿼리하기 위해 미리 정의된 _AWSOrganizationReadOnlyAccess_policy 이상을 할당해야 합니다.</block>
   <block id="f0617472d6b597b6d93003c4c1003ad6" category="list-text">* New * (새로 만들기 *): 새 경고의 기본값입니다.</block>
@@ -12464,4 +12451,30 @@ V9.2.4.2</block>
 9.9.1P8
 9.9.1P9</block>
   <block id="c33b15606594c79bf9d409ec6f7e05b0" category="admonition">비활성 Cloud Insights Basic Edition 환경이 삭제되고 해당 리소스가 회수됩니다. 연속 7일 동안 수집된 데이터가 없는 경우, 연속으로 30일 동안 사용자 활동이 없는 경우 환경은 비활성 상태로 간주됩니다. Cloud Insights는 알림을 전송하고 환경이 삭제되기 4일 전에 유예 기간을 제공합니다.</block>
+  <block id="12a4857a4dbeb827f3ccc062e3e95447" category="paragraph">로그 탐색을 시작하려면 * 로그 쿼리 &gt; + 새 로그 쿼리 * 를 클릭합니다.</block>
+  <block id="9a588db8471730dbfebac65cd5467ad8" category="section-title">필터링</block>
+  <block id="c372ce68f746709e625ff6a439caabb9" category="section-title">포함/제외</block>
+  <block id="2787899688f12e7489007de8b12213d5" category="paragraph">로그를 필터링할 때 * 입력 문자열을 * 포함(예: "필터 대상") 또는 * 제외 * 로 선택할 수 있습니다. 제외된 문자열은 완료된 필터에 "Not &lt;string&gt;"로 표시됩니다.</block>
+  <block id="1734ff7c4f75b54c961ad7d4359787e1" category="inline-image-macro">제외 옵션을 표시하는 로그 필터</block>
+  <block id="405c7a3556714c3c384503dcad4e730a" category="paragraph"><block ref="405c7a3556714c3c384503dcad4e730a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="53fe9d76b1ba589991576c0208798009" category="section-title">고급 필터링</block>
+  <block id="110b3aa692108cdd731e2a20e7fab59a" category="paragraph">쿼리 또는 대시보드 위젯에서 텍스트 또는 목록 값을 필터링할 때 입력을 시작하면 현재 텍스트를 기반으로 * 와일드카드 필터 * 를 만드는 옵션이 표시됩니다. 이 옵션을 선택하면 와일드카드 식과 일치하는 모든 결과가 반환됩니다. NOT, AND, OR를 사용하여 식을 만들거나 "없음" 옵션을 선택하여 null 값을 필터링할 수도 있습니다.</block>
+  <block id="ca6fcfb5b3944c9f5e1fc9d91e8b5fc9" category="admonition">필터링을 작성할 때는 쿼리를 자주 저장해야 합니다. 고급 쿼리는 "자유 형식" 문자열 입력이며, 빌드할 때 구문 분석 오류가 발생할 수 있습니다.</block>
+  <block id="6682349270b7766210b24eb769ff2f4b" category="paragraph">이 화면 이미지에서 _logs.kubernetes.event_log의 고급 쿼리에 대해 필터링된 결과를 보여 줍니다. 이 페이지에 많은 일이 일어나고 있으며, 이미지 아래에 설명되어 있습니다:</block>
+  <block id="1e7fa24e8c554b3ada8b33899f9054fb" category="inline-image-macro">고급 쿼리 화면에 대한 설명이 추가되었습니다</block>
+  <block id="67e358a5c19a682585f241c67623688b" category="paragraph"><block ref="67e358a5c19a682585f241c67623688b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="46a8b17ae4f06cb7ca1032e9fd81030d" category="list-text">이 고급 쿼리 문자열은 다음을 필터링합니다.</block>
+  <block id="8cc6fe8efec4a3d6fc5ed7b779e8c094" category="list-text">"failed"라는 단어가 포함되지만 "FailedMount"라는 특정 이유가 있는 것은 아닌 _REASON_을 사용하여 로그 항목을 필터링합니다.</block>
+  <block id="0d08e6b786ad26cf3562710d1355fea7" category="list-text">"모니터링"이라는 단어를 포함하여 _metadata.namespace_ 을 포함하는 모든 항목을 포함하지만 "CM 모니터링" 또는 "예 모니터링"의 특정 네임스페이스는 제외합니다.</block>
+  <block id="2b54fd64a2706073e8bc271891bd6d2d" category="paragraph">위의 경우 "cm-모니터링"과 "예-모니터링"은 모두 대시("-")를 포함하므로 문자열을 큰따옴표로 포함하거나 구문 분석 오류가 표시됩니다. 대시, 공백 등이 포함되지 않은 문자열은 따옴표로 묶을 필요가 없습니다. 확실하지 않은 경우 문자열을 따옴표로 묶어 보십시오.</block>
+  <block id="af949190b79fd7ebdb106c82bad91ccd" category="list-text">"필터 기준" 값 및 고급 쿼리 필터를 포함한 현재 필터의 결과입니다. 표시된 열을 기준으로 목록을 정렬할 수 있습니다. 추가 열을 표시하려면 "기어" 아이콘을 선택합니다.</block>
+  <block id="b61d5955be1f96c1051d023bbbb0885a" category="list-text">특정 기간 내에 발생한 로그 결과만 표시하도록 그래프를 확대했습니다. 여기에 표시된 시간 범위는 현재 확대/축소 수준을 반영합니다. 확대/축소 수준을 현재 Cloud Insights 시간 범위로 다시 설정하려면 _확대/축소 재설정_ 버튼을 선택합니다.</block>
+  <block id="e9c3a605437c1d21260249137747effc" category="list-text">차트 결과는 _source_field별로 그룹화되어 있습니다. 차트는 각 열의 결과를 색상으로 그룹화하여 표시합니다. 차트의 열 위로 마우스를 이동하면 특정 항목에 대한 세부 정보가 표시됩니다.</block>
+  <block id="ddebec2cff3de7b17694a2b5c55254a5" category="inline-image-macro">그룹화된 호버 세부 정보</block>
+  <block id="540bd2dacf8012f1036c7cbb4c950e57" category="paragraph"><block ref="540bd2dacf8012f1036c7cbb4c950e57" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c9bb5a9e84c262c583c25b07c1af190" category="paragraph">단순 필터를 고급 쿼리 필터와 결합할 수 있습니다. 결과 필터는 둘 중 "AND"입니다.</block>
+  <block id="b761d7a9aa49f18da68cf21ea910b857" category="section-title">차트 범례</block>
+  <block id="772a480c61e419a52923d1da92b228e7" category="paragraph">차트 아래의 _Legend_에도 몇 가지 놀라운 점이 있습니다. 범례에 표시된 각 결과(현재 필터 기반)에 대해 해당 줄의 결과만 표시하거나(필터 추가) 해당 줄에 대한 결과만 표시하는 옵션(제외 필터 추가)이 있습니다. 차트 및 로그 항목 목록이 업데이트되어 선택 항목에 따른 결과가 표시됩니다.  이 필터링을 제거하려면 범례를 다시 열고 [X]를 선택하여 범례 기반 필터를 지웁니다.</block>
+  <block id="d14acaf1ab19304c31907532625c28a1" category="inline-image-macro">첫 번째 결과에 대해 "필터 추가"가 표시된 고급 쿼리 레겐</block>
+  <block id="342c7491dc2f013cbb7933ea5b7db958" category="paragraph"><block ref="342c7491dc2f013cbb7933ea5b7db958" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
