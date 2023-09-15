@@ -3467,7 +3467,6 @@
   <block id="76812a2c2f6df7659757d83719299fb8" category="list-text">획득 장치 서버/VM에서 다음 명령을 실행합니다.</block>
   <block id="fcee21cb77c380c25d5b88c1b64869b8" category="list-text">설치 제거에 대한 도움말을 보려면 다음을 실행합니다.</block>
   <block id="c3cda1df3a7bb86d771c8e59aac35b0e" category="list-text">제거할 획득 장치 오른쪽에 있는 옵션 단추를 클릭하고 _Delete_를 선택합니다. 데이터 수집기가 할당되지 않은 경우에만 획득 단위를 삭제할 수 있습니다.</block>
-  <block id="4262a364178344226a6201df72deaa22" category="paragraph">참고: 기본 획득 장치는 삭제할 수 없습니다. 기존 AU를 삭제하기 전에 다른 AU를 기본값으로 선택하십시오.</block>
   <block id="9cfc47a14abb521242e2e73ee615049c" category="section-title">획득 장치 재설치</block>
   <block id="957deaa4b12e9e98b0ee4181b18c7361" category="paragraph">동일한 서버/VM에 획득 장치를 다시 설치하려면 다음 단계를 수행해야 합니다.</block>
   <block id="1405103bcf8e1e217a5c701e0664adf3" category="paragraph">획득 장치를 다시 설치하기 전에 별도의 서버/VM에 임시 획득 장치가 구성되어 있어야 합니다.</block>
@@ -8401,11 +8400,7 @@
   <block id="bc8745f374e91204332a0cd070e3c20c" category="inline-xref">관리 단위</block>
   <block id="6061bb3060aa3de79828df051d62babd" category="paragraph">참고: 499MU 이상을 구성하는 경우 "위반" 상태를 입력합니다. 평가판이 위반 상태인 경우, 구성된 MU 수를 줄이거나 Cloud Insights에 가입하여 위반이 해결될 때까지 일부 Cloud Insights 기능에 대한 액세스가 손실됩니다.</block>
   <block id="562442a302f1457c8c9df7cbde80c0b4" category="doc">NetApp Kubernetes 모니터링 오퍼레이터 구성</block>
-  <block id="5da82ececca61ed15fcd7ca2e6f43b59" category="inline-link-macro">유창한 비트</block>
-  <block id="21b0eec92dd9a89050827e1eb2801ea8" category="paragraph">Cloud Insights는 다음을 포함한 여러 구성 요소를 사용합니다 <block ref="5dd2dd4557ccd99c6f8d2bb01747a70d" category="inline-link-macro-rx"></block> 및 <block ref="603b55048bd80ae5555b5b03845c58cc" category="inline-link-macro-rx"></block>Kubernetes 데이터 수집용 Telegraf는 메트릭, 이벤트 및 로그를 수집 및 보고하는 데 사용할 수 있는 플러그인 기반 서버 에이전트입니다. 입력 플러그인은 시스템/OS에 직접 액세스하거나 타사 API를 호출하거나 구성된 스트림(예 Kafka, statsd 등). 출력 플러그인은 에이전트에서 Cloud Insights로 수집된 메트릭, 이벤트 및 로그를 전송하는 데 사용됩니다.</block>
   <block id="b9f54c4d152facdb82c18e1719662b9f" category="paragraph">Cloud Insights는 Kubernetes 컬렉션을 위한 * NetApp Kubernetes Monitoring Operator * (NKMO)를 제공합니다. 데이터 수집기 추가 시 "Kubernetes" 타일을 선택하면 됩니다.</block>
-  <block id="f34adaf8e760e7cb58ba333e44c4dc52" category="inline-image-macro">Kubernetes Data Collector 타일</block>
-  <block id="a0eda368f17db54a54c6f0246fd5c816" category="paragraph"><block ref="a0eda368f17db54a54c6f0246fd5c816" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6a65175f7f76169aeeaf32acdda0d82f" category="section-title">NetApp Kubernetes Monitoring Operator를 설치하기 전에</block>
   <block id="e7cd0bdb5140849b9f1cd2c88adf53d0" category="list-text">NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 버전 1.20 이상에서 지원됩니다.</block>
   <block id="4085e40ddd1e35991b92d689ee9b414a" category="section-title">시작하기 전에 이 내용을 기록해 두십시오</block>
@@ -9677,9 +9672,6 @@
   <block id="ecb5fa18c7cd0623faea3969f936f4c3" category="cell">아니요 이 스크립트는 SVM 수가 증가하더라도 최대 5분 동안 실행됩니다.</block>
   <block id="ce3d712deda180dd445bfed60562d712" category="cell">기존 에이전트에서 이벤트 속도 검사기를 실행하면 어떻게 됩니까?</block>
   <block id="697ee668360d1c19e858e5fdd25062e6" category="cell">이미 있는 에이전트에 대해 이벤트 속도 검사기를 실행하면 SVM에서 지연 시간이 증가할 수 있습니다. 이 증가율은 기본적으로 이벤트 속도 검사기가 실행되는 동안 일시적으로 발생합니다.</block>
-  <block id="bca1503414d74a046e28b7530006b1be" category="paragraph">다음은 작업자가 사용자 환경에서 어디에 있는지 보여 주는 개략적인 그림입니다. 환경에 따라 _Proxy Server_가 필요할 수도 있고 필요하지 않을 수도 있습니다.</block>
-  <block id="ba242d5a39d9f558e864fb59273d1683" category="inline-image-macro">Kubernetes 클러스터에 있는 NKMO를 보여 주는 상위 레벨 맵과 호스트, 프록시 서버에서 클러스터로 데이터가 이동하는 방법을 보여주는 화살표가 함께 Cloud Insights로 롤업됩니다</block>
-  <block id="40071b38a2f52894172d224dcc8c0caa" category="paragraph"><block ref="40071b38a2f52894172d224dcc8c0caa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fe5c84e62a55503753fc6f02fa98fbd5" category="paragraph">운영자(NKMO) 및 데이터 수집기는 Cloud Insights Docker 레지스트리에서 다운로드할 수 있습니다. 그런 다음 NKMO는 Kubernetes 클러스터 노드에 구축된 운영자 호환 수집기를 관리하여 수집가의 수명 주기를 관리하는 등 데이터를 획득합니다. 이 체인에 이어 수집기에서 데이터를 획득하여 Cloud Insights로 전송합니다.</block>
   <block id="560b3269d8d097187c911ee417754210" category="summary">Rubrik CDM 데이터 수집기 구성</block>
   <block id="58d5d56dba192f09d08e6175eb1db050" category="doc">Rubrik CDM Data Collector</block>
@@ -12402,4 +12394,6 @@ V9.2.4.2</block>
   <block id="82ae7df2222778ee2748567434e1d911" category="section-title">기타 변수</block>
   <block id="327fbef93ac997add024577e1fdbe932" category="cell">curl_CMD_PLACEHOLDER</block>
   <block id="e26f9e15502407e5b6563d355fe4ae2c" category="cell">curl 명령은 다양한 리소스를 다운로드하는 데 사용됩니다. 예) "curl" 또는 "curl-k"</block>
+  <block id="ce657060a1d97a0550e523e90be61acd" category="admonition">연결된 데이터 수집기가 있는 획득 장치(AU)는 삭제할 수 없습니다. 원래 AU를 삭제하기 전에 모든 AU의 데이터 수집기를 다른 AU로 이동합니다(수집기를 편집하고 다른 AU를 선택하기만 하면 됨).
+'''</block>
 </blocks>
