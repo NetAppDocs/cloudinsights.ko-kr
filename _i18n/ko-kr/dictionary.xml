@@ -12394,6 +12394,8 @@ V9.2.4.2</block>
   <block id="82ae7df2222778ee2748567434e1d911" category="section-title">기타 변수</block>
   <block id="327fbef93ac997add024577e1fdbe932" category="cell">curl_CMD_PLACEHOLDER</block>
   <block id="e26f9e15502407e5b6563d355fe4ae2c" category="cell">curl 명령은 다양한 리소스를 다운로드하는 데 사용됩니다. 예) "curl" 또는 "curl-k"</block>
-  <block id="ce657060a1d97a0550e523e90be61acd" category="admonition">연결된 데이터 수집기가 있는 획득 장치(AU)는 삭제할 수 없습니다. 원래 AU를 삭제하기 전에 모든 AU의 데이터 수집기를 다른 AU로 이동합니다(수집기를 편집하고 다른 AU를 선택하기만 하면 됨).
-'''</block>
+  <block id="1f0e93b0a15bd60e04388c6d5ff59fdc" category="admonition">연결된 데이터 수집기가 있는 획득 장치(AU)는 삭제할 수 없습니다. 원래 AU를 삭제하기 전에 모든 AU의 데이터 수집기를 다른 AU로 이동합니다(수집기를 편집하고 다른 AU를 선택하기만 하면 됨).</block>
+  <block id="6ca3f10b5393d86f93fd0734db3cecd7" category="paragraph">옆에 별표가 있는 획득 장치가 장치 해상도에 사용되고 있습니다. 이 AU를 제거하기 전에 장치 해상도에 사용할 다른 AU를 선택해야 합니다. 다른 AU 위에 마우스를 놓고 "점 3개" 메뉴를 열어 "장치 해상도에 사용"을 선택합니다.</block>
+  <block id="c5e5e7a28ba316db52d09e89bd288fc9" category="inline-image-macro">AU 장치 해상도에 사용됩니다</block>
+  <block id="793f9fde8e6064cae75d4cbfd2efe0fb" category="paragraph"><block ref="793f9fde8e6064cae75d4cbfd2efe0fb" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
