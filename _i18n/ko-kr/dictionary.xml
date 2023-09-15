@@ -12398,4 +12398,10 @@ V9.2.4.2</block>
   <block id="6ca3f10b5393d86f93fd0734db3cecd7" category="paragraph">옆에 별표가 있는 획득 장치가 장치 해상도에 사용되고 있습니다. 이 AU를 제거하기 전에 장치 해상도에 사용할 다른 AU를 선택해야 합니다. 다른 AU 위에 마우스를 놓고 "점 3개" 메뉴를 열어 "장치 해상도에 사용"을 선택합니다.</block>
   <block id="c5e5e7a28ba316db52d09e89bd288fc9" category="inline-image-macro">AU 장치 해상도에 사용됩니다</block>
   <block id="793f9fde8e6064cae75d4cbfd2efe0fb" category="paragraph"><block ref="793f9fde8e6064cae75d4cbfd2efe0fb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4099aa818be44a204ef7ec3ba69b96c7" category="inline-link-macro">보려는 애그리게이트</block>
+  <block id="6046897f8c0f41425f2e47227c5932e8" category="paragraph">모니터링 중인 클러스터에 ClusterRole이 없는 사용자 지정 리소스가 포함되어 있는 경우 <block ref="c09eb6051f010e6e01a634a8b6a5c304" category="inline-link-macro-rx"></block>, 이벤트 로그로 이러한 리소스를 모니터링하려면 운영자에게 수동으로 이러한 리소스에 대한 액세스 권한을 부여해야 합니다.</block>
+  <block id="8f0ae9ae8e0fd7f3e8fe6ff175a59943" category="list-text">edit_operator-additional-permissions.yaml_를 설치하기 전이나 설치 후 resource_ClusterRole/&lt;namespace&gt;-additional-permissions_를 편집합니다</block>
+  <block id="8a75e64ac585bb8eb6efae44768cfc8e" category="list-text">동사 ["get", "watch", "list"]를 사용하여 원하는 apiGroups 및 리소스에 대한 새 규칙을 만듭니다. \https://kubernetes.io/docs/reference/access-authn-authz/rbac/ 를 참조하십시오</block>
+  <block id="5aa700b8892918bb447b666e3ba9b2a8" category="list-text">변경 사항을 클러스터에 적용합니다</block>
+  <block id="4973faad22ed5aa285bded803704fa6f" category="paragraph">참고: 이전에 추가한 권한을 제거하려는 경우 _event-exporter_pod가 다시 시작될 때까지 변경 내용이 적용되지 않습니다.</block>
 </blocks>
