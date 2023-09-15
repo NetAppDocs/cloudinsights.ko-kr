@@ -12404,4 +12404,33 @@ V9.2.4.2</block>
   <block id="8a75e64ac585bb8eb6efae44768cfc8e" category="list-text">동사 ["get", "watch", "list"]를 사용하여 원하는 apiGroups 및 리소스에 대한 새 규칙을 만듭니다. \https://kubernetes.io/docs/reference/access-authn-authz/rbac/ 를 참조하십시오</block>
   <block id="5aa700b8892918bb447b666e3ba9b2a8" category="list-text">변경 사항을 클러스터에 적용합니다</block>
   <block id="4973faad22ed5aa285bded803704fa6f" category="paragraph">참고: 이전에 추가한 권한을 제거하려는 경우 _event-exporter_pod가 다시 시작될 때까지 변경 내용이 적용되지 않습니다.</block>
+  <block id="4ae43ffefdaf3c2343be08c2c231978f" category="section-title">2023년 9월</block>
+  <block id="34e28a7e0863af99d5c1703dc6cda717" category="section-title">로그에서 원하는 항목을 쉽게 찾을 수 있습니다</block>
+  <block id="fcf6af69900c1559042fbe3fe72c94a1" category="inline-link-macro">개선 사항</block>
+  <block id="d79e17684f1a24c58bb32d08bef3a3ff" category="paragraph">로그 쿼리(* 관측성 &gt; 로그 쿼리 &gt; + 새 로그 쿼리 *)에는 많은 수가 포함됩니다 <block ref="86ca1f2cb3e438ee4c22e212690c972d" category="inline-link-macro-rx"></block> 로그 탐색이 더 쉽고 더 많은 정보를 제공합니다.</block>
+  <block id="848fb0e63e13a4434909fdea6458ed6d" category="section-title">포함/제외</block>
+  <block id="e60e1b57ed4e38e138695033de1e9d1e" category="paragraph">값을 필터링할 때 필터와 일치하는 * 포함 * 또는 * 제외 * 결과를 선택할 수 있습니다. "제외"를 선택하면 "Not &lt;value&gt;" 필터가 생성됩니다. 단일 필터에서 포함 및 제외 값을 결합할 수 있습니다.</block>
+  <block id="0792509c03d281def53e2cbb6d7f07df" category="inline-image-macro">제외 라디오 버튼이 표시된 필터</block>
+  <block id="ba1b079c59ef8c16f8f957aa0df9c4de" category="paragraph"><block ref="ba1b079c59ef8c16f8f957aa0df9c4de" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b45c0ca13c55b7f66782e958a84142d4" category="section-title">고급 쿼리</block>
+  <block id="95f02ff52db65fe00fc8634318fba90e" category="paragraph">* 고급 쿼리 * 는 AND, NOT, OR, 와일드카드 등을 사용하여 값을 결합 또는 제외하고 "자유 형식" 필터를 만들 수 있는 기회를 제공합니다</block>
+  <block id="b0afc67d027a88643736219f858d2596" category="inline-image-macro">AND, NOT 및 OR 함수를 나타내는 로그 쿼리 예</block>
+  <block id="c6d89674714a140b24e4a9d11d190824" category="paragraph"><block ref="c6d89674714a140b24e4a9d11d190824" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="190febc1a687d2e28053104a1cffd7c7" category="paragraph">"필터 기준"과 "고급 쿼리"는 "및"로 함께 표시되어 단일 쿼리를 형성합니다. 결과 목록과 차트에 결과가 표시됩니다.</block>
+  <block id="82b7b893771cf0e9f3adb5b42ae6ee7e" category="section-title">차트의 그룹화</block>
+  <block id="496613147f6975d1aa2dac2ceaa46634" category="paragraph">Group By * 에 대한 로그 속성을 선택하면 목록과 차트에 현재 필터의 결과가 표시됩니다. 차트에서 열이 색으로 그룹화되어 있습니다. 차트의 열 위로 마우스를 이동하면 차트 범례를 확장할 때 표시되는 전체 정보와 유사하게 특정 항목에 대한 세부 정보가 표시됩니다.  범례에서는 특정 그룹화에 대해 포함 또는 제외 필터를 설정하도록 선택할 수도 있습니다.</block>
+  <block id="44f9aec87f1c51a61aeca11ad9786542" category="inline-image-macro">차트에 누적 열을 표시하는 예제로 쿼리 그룹 기록</block>
+  <block id="e9523ec897a9823fb02ccbd1944b7f3f" category="paragraph"><block ref="e9523ec897a9823fb02ccbd1944b7f3f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0a80f4dd9b1327eb6d1bd68998aa54c3" category="section-title">"유동" 로그 세부 정보 패널</block>
+  <block id="91d94db59fc7134cda265c7016d2dd86" category="paragraph">로그 쿼리를 사용하여 로그를 탐색할 때 목록에서 항목을 선택하면 해당 항목에 대한 세부 정보 패널이 열립니다. 이제 슬라이드 아웃 패널 "Floating(부동)"(즉, 화면의 나머지 부분에 표시됨) 또는 "In Page(페이지 내)"(즉, 페이지 내 자체 프레임으로 표시됨)를 표시하도록 선택할 수 있습니다. 이러한 보기 사이를 전환하려면 패널의 오른쪽 상단 모서리에 있는 "페이지/부동" 버튼을 선택합니다.</block>
+  <block id="fb8b0b641df922f8eab6bd7c3c4a1131" category="inline-image-macro">버튼이 강조 표시된 "페이지 내" 슬라이드 아웃 패널</block>
+  <block id="e8d14fa9be7f94fb8271ac286e2294a8" category="paragraph"><block ref="e8d14fa9be7f94fb8271ac286e2294a8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d5f3e5dd25b324aa763247302dd4e5ba" category="section-title">메뉴를 축소합니다</block>
+  <block id="21425fa36b8a56c29ff0c7d71c2109fa" category="paragraph">메뉴 아래에 있는 "최소화" 버튼을 선택하여 왼쪽 Cloud Insights 탐색 메뉴를 축소할 수 있습니다. 메뉴가 최소화된 상태에서 아이콘 위에 마우스를 올려 놓으면 열리는 섹션이 표시됩니다. 아이콘을 선택하면 메뉴가 열리고 해당 섹션으로 바로 이동합니다.</block>
+  <block id="063ac5c87e9ce20ce0f904d0551f0a18" category="inline-image-macro">메뉴를 최소화합니다</block>
+  <block id="a42f1d09ea5508165ffbb74fd0d019d7" category="paragraph"><block ref="a42f1d09ea5508165ffbb74fd0d019d7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="36ffaf16e7982bb87a23ee56b05db6df" category="section-title">데이터 수집기 개선</block>
+  <block id="8c5de4bef31a79ea191d0f5740fcd0d7" category="paragraph">Cloud Insights를 사용하면 데이터 수집기 정보를 보다 쉽게 표시하고 찾을 수 있습니다.</block>
+  <block id="203714762dd5efde1be30c09220249eb" category="list-text">* 데이터 수집기 목록 * 처리는 더 효율적입니다. 즉, 이 목록을 표시하고 탐색하는 데 걸리는 시간이 크게 단축됩니다. 많은 데이터 수집기가 있는 대규모 환경의 경우 데이터 수집기를 나열할 때 성능이 크게 향상됩니다.</block>
+  <block id="213f6f47f9ff1cc9f4851725d89b4a7e" category="list-text">데이터 수집기 지원 매트릭스 * 는 .pdf 파일에서 .html 기반 페이지로 이동하므로 탐색이 더 빠르고 유지 관리가 용이합니다. 새로운 매트릭스는 다음 웹 사이트에서 확인하십시오.<block ref="8ac5ec571a7bfa27b3b068af3462bfb9" category="inline-link-rx"></block></block>
 </blocks>
