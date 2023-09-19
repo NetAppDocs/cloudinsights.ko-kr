@@ -87,7 +87,9 @@ sidebar:
     entries:
     - title: Kubernetes 개요 페이지
       url: "/kubernetes_landing_page.html"
-    - title: 모니터링 오퍼레이터 시작하기
+    - title: 오퍼레이터를 설치 또는 업그레이드하기 전에
+      url: "/pre-requisites_for_k8s_operator.html"
+    - title: 모니터링 오퍼레이터 설치
       url: "/task_config_telegraf_agent_k8s.html"
     - title: 모니터링 오퍼레이터 옵션
       url: "/telegraf_agent_k8s_config_options.html"

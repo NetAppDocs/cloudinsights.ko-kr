@@ -21,55 +21,164 @@ summary: Cloud Insights는 Kubernetes에서 통합 데이터를 수집하는 에
 [role="lead"]
 Cloud Insights는 Kubernetes 컬렉션을 위한 * NetApp Kubernetes Monitoring Operator * (NKMO)를 제공합니다. 데이터 수집기 추가 시 "Kubernetes" 타일을 선택하면 됩니다.
 
+image:kubernetes_tile.png["Kubernetes Data Collector 타일"]
+
 
 toc::[]
-운영자(NKMO) 및 데이터 수집기는 Cloud Insights Docker 레지스트리에서 다운로드할 수 있습니다. 그런 다음 NKMO는 Kubernetes 클러스터 노드에 구축된 운영자 호환 수집기를 관리하여 수집가의 수명 주기를 관리하는 등 데이터를 획득합니다. 이 체인에 이어 수집기에서 데이터를 획득하여 Cloud Insights로 전송합니다.
+연산자 및 데이터 수집기는 Cloud Insights Docker 레지스트리에서 다운로드됩니다. 그런 다음 NKMO는 Kubernetes 클러스터 노드에 구축된 운영자 호환 수집기를 관리하여 수집가의 수명 주기를 관리하는 등 데이터를 획득합니다. 이 체인에 이어 수집기에서 데이터를 획득하여 Cloud Insights로 전송합니다.
 
 
 
 == NetApp Kubernetes Monitoring Operator를 설치하기 전에
 
-.전제 조건:
-* 사용자 지정 또는 프라이빗 Docker 저장소를 사용하는 경우 사용자 지정 또는 프라이빗 Docker 저장소 사용 섹션의 지침을 따릅니다
-* NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 버전 1.20 이상에서 지원됩니다.
-* Cloud Insights가 백엔드 스토리지를 모니터링하고 Docker 컨테이너 런타임과 함께 Kubernetes를 사용하는 경우 Cloud Insights는 NFS 및 iSCSI에 대한 POD-PV-스토리지 매핑 및 메트릭을 표시할 수 있고, 다른 런타임에는 NFS만 표시할 수 있습니다.
-* 2022년 8월부터 NetApp Kubernetes Monitoring Operator는 Pod 보안 정책(PSP)을 지원합니다. 환경에서 PSP를 사용하는 경우 최신 NetApp Kubernetes Monitoring Operator로 업그레이드해야 합니다.
-* OpenShift 4.6 이상에서 실행 중인 경우 이러한 전제 조건이 충족되는지 확인하는 것 외에도 아래의 OpenShift 지침을 따라야 합니다.
-* 모니터링은 Linux 노드에만 설치됩니다. Cloud Insights에서는 해당 플랫폼에서 다음 Kubernetes 레이블을 찾는 Kubernetes 노드 선택기를 지정하여 Linux를 실행하는 Kubernetes 노드 모니터링을 지원합니다.
 
-
-|===
-
-
-| 플랫폼 | 라벨 
-
-
-| Kubernetes v1.20 이상 | Kubernetes.IO/OS = Linux 
-
-
-| Rancher + Cattle.IO를 오케스트레이션/Kubernetes 플랫폼으로 사용 | Cattle.io/OS = Linux 
-|===
-* NetApp Kubernetes Monitoring Operator 및 해당 종속성(Telegraf, kubbe-state-metrics, fluentbit 등)은 Arm64 아키텍처를 실행하는 노드에서 지원되지 않습니다.
-* curl, kubbtl 명령을 사용할 수 있어야 합니다. 옵션 설치 단계에서는 Docker 명령이 필요합니다. 최상의 결과를 얻으려면 이러한 명령을 경로에 추가하십시오. 최소한 에이전트, 클러스터 역할, clusterrolebindings, customresourcedefinitions, Deployments 와 같은 Kubernetes 개체에 대한 액세스 권한으로 kubctl을 구성해야 합니다. 네임스페이스, 역할, rolebindings, 비밀, serviceaccount, 등을 다룹니다. 이러한 최소 클러스터 역할 권한이 있는 YAML 파일의 예는 여기 를 참조하십시오.
-* NetApp Kubernetes 모니터링 운영자 설치에 사용할 호스트는 타겟 K8s 클러스터와 통신하도록 kubtl을 구성하고 Cloud Insights 환경에 인터넷에 연결되어 있어야 합니다.
-* 설치 중에 프록시 뒤에 있거나 모니터링할 K8s 클러스터를 작동하는 경우 프록시 지원 구성 섹션의 지침을 따르십시오.
-* NetApp Kubernetes Monitoring Operator는 다른 인스턴스와 충돌을 피하기 위해 고유한 kube-state-metrics를 설치합니다. 정확한 감사 및 데이터 보고를 위해 NTP(Network Time Protocol) 또는 SNTP(Simple Network Time Protocol)를 사용하여 Agent 시스템의 시간을 동기화하는 것이 좋습니다.
-* Operator를 다시 배포하는 경우(즉, 업데이트 또는 교체 중인 경우) _new_api 토큰을 생성할 필요가 없습니다. 이전 토큰을 다시 사용할 수 있습니다.
-* 또한, 최신 NetApp Kubernetes Monitoring Operator가 설치되어 있고 재생 가능한 API 액세스 토큰을 사용 중인 경우 만료되는 토큰이 자동으로 새/업데이트된 API 액세스 토큰으로 대체됩니다.
+IMPORTANT: 를 읽습니다 link:/pre-requisites_for_k8s_operator.html["*설치 또는 업그레이드 전*"] NetApp Kubernetes 모니터링 운영자를 설치 또는 업그레이드하기 위한 설명서입니다.
 
 
 
+== NetApp Kubernetes Monitoring Operator 설치
 
-== 시작하기 전에 이 내용을 기록해 두십시오
+image:NKMO-Instructions-1.png[""]
+image:NKMO-Instructions-2.png[""]
 
-을(를) 사용하여 실행 중인 경우 <<configuring-proxy-support,프록시>>, 가 있습니다 <<using-a-custom-or-private-docker-repository,사용자 지정 리포지토리>>또는 을(를) 사용하고 있습니다 <<openshift-instructions,OpenShift>>다음 섹션을 주의 깊게 읽으십시오.
+.Kubernetes에 NetApp Kubernetes Monitoring Operator Agent를 설치하는 단계:
+. 고유한 클러스터 이름 및 네임스페이스를 입력합니다. 있는 경우 <<업그레이드 중,업그레이드 중>> 이전 Kubernetes Operator에서 동일한 클러스터 이름과 네임스페이스를 사용합니다.
+. 이러한 내용을 입력하면 다운로드 명령 스니펫을 클립보드에 복사할 수 있습니다.
+. 스니펫을 _bash_window에 붙여 넣고 실행합니다. 오퍼레이터 설치 파일이 다운로드됩니다. 스니펫에는 고유한 키가 있으며 24시간 동안 유효합니다.
+. 사용자 지정 또는 개인 리포지토리가 있는 경우 선택적 이미지 풀 스니펫을 복사하여 _bash_shell에 붙여 넣고 실행합니다. 이미지를 가져온 후 개인 저장소에 복사합니다. 동일한 태그 및 폴더 구조를 유지해야 합니다. operator-deployment.YAML_의 경로와 _operator-config.YAML_의 Docker 리포지토리 설정을 업데이트합니다.
+. 필요한 경우 프록시 또는 개인 리포지토리 설정과 같은 사용 가능한 구성 옵션을 검토합니다. 에 대해 자세히 알아볼 수 있습니다 link:telegraf_agent_k8s_config_options.html["구성 옵션"].
+. 준비가 되면 kubeck Apply 스니펫을 복사하고 다운로드한 다음 실행하여 Operator 를 배포합니다.
+. 설치가 자동으로 진행됩니다. 완료되면 _Next_ 단추를 클릭합니다.
+. 설치가 완료되면 _Next_ 단추를 클릭합니다. 또한 _operator-비밀.YAML_파일을 삭제하거나 안전하게 보관하십시오.
 
-이전 설치에서 업그레이드하는 경우 도 참조하십시오 <<업그레이드 중,업그레이드 중>> 정보.
+
+에 대해 자세히 알아보십시오 <<configuring-proxy-support,프록시를 구성하는 중입니다>>.
+
+에 대해 자세히 알아보십시오 <<using-a-custom-or-private-docker-repository,사용자 지정/프라이빗 Docker 저장소 사용>>.
+
+NetApp Kubernetes Monitoring Operator를 설치할 때 Kubernetes EMS 로그 수집이 기본적으로 활성화됩니다. 설치 후 이 컬렉션을 비활성화하려면 Kubernetes 클러스터 세부 정보 페이지 상단의 * Modify Deployment * 버튼을 클릭하고 "Log collection"을 선택 취소합니다.
+
+image:K8s_Modify_Deployment_Screen.png["\"로그 수집\" 확인란을 표시하는 배포 화면 수정"]
+
+이 화면에는 현재 로그 수집 상태도 표시됩니다. 가능한 상태는 다음과 같습니다.
+
+* 사용 안 함
+* 활성화됨
+* Enabled - 설치가 진행 중입니다
+* 사용 - 오프라인
+* 활성화됨 - 온라인
+* 오류 - API 키에 권한이 부족합니다
 
 
 
-== 오퍼레이터 구성
 
+== 업그레이드 중
+
+
+
+=== 최신 NetApp Kubernetes 모니터링 사업자로 업그레이드
+
+기존 운영자와 함께 AgentConfiguration이 존재하는지 확인합니다(네임스페이스가 DEFAULT_NetApp-MONITORING_이 아닌 경우 해당 네임스페이스를 대체합니다).
+
+ kubectl -n netapp-monitoring get agentconfiguration netapp-monitoring-configuration
+AgentConfiguration이 있는 경우:
+
+* <<installing-the-netapp-kubernetes-monitoring-operator,설치합니다>> 기존 오퍼레이터에 대한 최신 운영자.
++
+** 항상 확인하십시오 <<using-a-custom-or-private-docker-repository,최신 컨테이너 이미지를 가져오는 중입니다>> 사용자 지정 리포지토리를 사용하는 경우
+
+
+
+
+AgentConfiguration이 없는 경우:
+
+* Cloud Insights에서 인식하는 클러스터 이름을 기록합니다(네임스페이스가 기본 NetApp 모니터링이 아닌 경우 해당 네임스페이스를 대체).
++
+ kubectl -n netapp-monitoring get agent -o jsonpath='{.items[0].spec.cluster-name}'
+* 기존 운영자의 백업을 생성합니다(네임스페이스가 기본 NetApp 모니터링이 아닌 경우 적절한 네임스페이스를 대체).
++
+ kubectl -n netapp-monitoring get agent -o yaml > agent_backup.yaml
+* <<to-remove-the-netapp-kubernetes-monitoring-operator,설치 제거>> 기존 연산자.
+* <<installing-the-netapp-kubernetes-monitoring-operator,설치합니다>> 최신 운영자.
++
+** 동일한 클러스터 이름을 사용합니다.
+** 최신 운영자 YAML 파일을 다운로드한 후 배포하기 전에 agent_backup.YAML에서 발견된 모든 사용자 정의를 다운로드한 operator-config.YAML에 이식하십시오.
+** 항상 확인하십시오 <<using-a-custom-or-private-docker-repository,최신 컨테이너 이미지를 가져오는 중입니다>> 사용자 지정 리포지토리를 사용하는 경우
+
+
+
+
+
+
+== NetApp Kubernetes Monitoring Operator를 중지하고 시작합니다
+
+NetApp Kubernetes Monitoring Operator를 중지하려면 다음을 수행합니다.
+
+ kubectl -n netapp-monitoring scale deploy monitoring-operator --replicas=0
+NetApp Kubernetes Monitoring Operator를 시작하려면 다음을 수행합니다.
+
+ kubectl -n netapp-monitoring scale deploy monitoring-operator --replicas=1
+
+
+== 제거 중
+
+
+
+=== NetApp Kubernetes Monitoring Operator를 제거하려면 다음을 수행합니다
+
+NetApp Kubernetes Monitoring Operator의 기본 네임스페이스는 "NetApp 모니터링"입니다.  고유한 네임스페이스를 설정한 경우 이러한 네임스페이스 및 모든 후속 명령 및 파일로 대체합니다.
+
+다음 명령을 사용하여 모니터링 연산자의 최신 버전을 제거할 수 있습니다.
+
+....
+kubectl delete agent -A -l installed-by=nkmo-<name-space>
+kubectl delete ns,clusterrole,clusterrolebinding,crd -l installed-by=nkmo-<name-space>
+....
+첫 번째 명령이 "리소스를 찾을 수 없음"을 반환하면 다음 지침에 따라 모니터링 연산자의 이전 버전을 제거합니다.
+
+다음 명령을 순서대로 실행합니다. 현재 설치에 따라 이러한 명령 중 일부는 '개체를 찾을 수 없음' 메시지를 반환할 수 있습니다. 이러한 메시지는 무시해도 됩니다.
+
+....
+kubectl -n <NAMESPACE> delete agent agent-monitoring-netapp
+kubectl delete crd agents.monitoring.netapp.com
+kubectl -n <NAMESPACE> delete role agent-leader-election-role
+kubectl delete clusterrole agent-manager-role agent-proxy-role agent-metrics-reader <NAMESPACE>-agent-manager-role <NAMESPACE>-agent-proxy-role <NAMESPACE>-cluster-role-privileged
+kubectl delete clusterrolebinding agent-manager-rolebinding agent-proxy-rolebinding agent-cluster-admin-rolebinding <NAMESPACE>-agent-manager-rolebinding <NAMESPACE>-agent-proxy-rolebinding <NAMESPACE>-cluster-role-binding-privileged
+kubectl delete <NAMESPACE>-psp-nkmo
+kubectl delete ns <NAMESPACE>
+....
+보안 컨텍스트 제약 조건이 이전에 생성된 경우:
+
+ kubectl delete scc telegraf-hostaccess
+
+
+== Kube-state-metrics 정보
+
+NetApp Kubernetes Monitoring Operator가 자동으로 Kudbe-state-metrics를 설치하므로 사용자 개입이 필요하지 않습니다.
+
+
+
+=== Kudbe-state-Metrics 카운터
+
+다음 링크를 사용하여 이러한 kubbe 상태 메트릭 카운터에 대한 정보에 액세스할 수 있습니다.
+
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/configmap-metrics.md["ConfigMap 메트릭입니다"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/daemonset-metrics.md["메트릭 분월 설정"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/deployment-metrics.md["구현 메트릭"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/ingress-metrics.md["수신 메트릭"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/namespace-metrics.md["네임스페이스 메트릭"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/node-metrics.md["노드 메트릭"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/persistentvolume-metrics.md["영구 볼륨 메트릭"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/persistentvolumeclaim-metrics.md["잔류 볼륨 클레임 메트릭"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/pod-metrics.md["POD 메트릭"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/replicaset-metrics.md["ReplicaSet 메트릭입니다"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/secret-metrics.md["비밀 지표"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/service-metrics.md["서비스 메트릭"]
+. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/statefulset-metrics.md["StatefulSet 메트릭입니다"]
+
+
+'''
+ == Configuring the Operator
 새로운 버전의 연산자에서는 가장 일반적으로 수정된 설정을 _AgentConfiguration_custom 리소스에서 구성할 수 있습니다. 운용자를 배포하기 전에 _operator-config.YAML_file을 편집하여 이 리소스를 편집할 수 있습니다. 이 파일에는 일부 설정의 주석 처리된 예제가 포함되어 있습니다. 의 목록을 참조하십시오 link:telegraf_agent_k8s_config_options.html["사용 가능한 설정"] 를 참조하십시오.
 
 다음 명령을 사용하여 연산자를 배포한 후에도 이 리소스를 편집할 수 있습니다.
@@ -90,7 +199,7 @@ NetApp Kubernetes Monitoring Operator를 설치하기 위해 사용자 환경에
 * 대상 Kubernetes 클러스터에서 Cloud Insights 환경과 통신하는 데 프록시가 필요합니다
 
 
-둘 중 하나 또는 둘 모두에 대해 프록시를 사용하는 경우 NetApp Kubernetes 운영 모니터를 설치하려면 먼저 프록시가 Cloud Insights 환경에 대한 올바른 통신을 허용하도록 구성되어 있는지 확인해야 합니다. 예를 들어 운영자를 설치하려는 서버/VM에서 Cloud Insights에 액세스하고 Cloud Insights에서 바이너리를 다운로드할 수 있어야 합니다.
+이 중 하나 또는 둘 모두에 대해 프록시를 사용하는 경우 NetApp Kubernetes 운영 모니터를 설치하려면 먼저 프록시가 Cloud Insights 환경에 대한 올바른 통신을 허용하도록 구성되어 있는지 확인해야 합니다. 프록시가 있고 운영자를 설치하려는 서버/VM에서 Cloud Insights에 액세스할 수 있는 경우 프록시가 제대로 구성되었을 수 있습니다.
 
 NetApp Kubernetes 운영 모니터를 설치하는 데 사용되는 프록시에 대해 Operator를 설치하기 전에 _http_proxy/https_proxy_environment 변수를 설정하십시오. 일부 프록시 환경에서는 _no_proxy 환경_변수를 설정해야 할 수도 있습니다.
 
@@ -194,226 +303,225 @@ runPrivileged: true
 ....
 OpenShift는 일부 Kubernetes 구성 요소에 대한 액세스를 차단할 수 있는 수준 높은 보안을 구현할 수 있습니다.
 
+ '''
 
 
-=== 톨레러스와 얼룩을 볼 수 있습니다
+== Kubernetes 체크섬 확인 중
 
-모든 노드에서 데이터를 올바르게 수집하려면 _Telegraf_, _fluent-bit_ 및 _net-observer_DemonSets가 클러스터의 모든 노드에서 POD를 예약해야 합니다. 운용자는 잘 알려진 일부 * 얼룩을 견딜 수 있도록 구성되었습니다. 노드에서 사용자 지정 얼룩을 구성하여 모든 노드에서 Pod가 실행되지 않도록 하는 경우 이러한 얼룩에 대해 * 공차 * 를 생성할 수 있습니다 link:telegraf_agent_k8s_config_options.html["상담원 구성 _ 에서"]. 클러스터의 모든 노드에 사용자 지정 얼룩을 적용한 경우 운영자 포드를 예약 및 실행할 수 있도록 운영자 구축에 필요한 허용 오차도 추가해야 합니다.
+Cloud Insights 에이전트 설치 프로그램은 무결성 검사를 수행하지만 일부 사용자는 다운로드한 아티팩트를 설치하거나 적용하기 전에 자체 검증을 수행하려고 할 수 있습니다. 기본 다운로드 및 설치 대신 다운로드 전용 작업을 수행하기 위해 이러한 사용자는 UI에서 가져온 에이전트 설치 명령을 편집하고 뒤에 오는 "설치" 옵션을 제거할 수 있습니다.
 
-Kubernetes에 대해 자세히 알아보십시오 link:https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/["오염과 내약입니다"].
+다음 단계를 수행하십시오.
 
-
-
-=== 권한
-
-모니터링 중인 클러스터에 ClusterRole이 없는 사용자 지정 리소스가 포함되어 있는 경우 link:https://kubernetes.io/docs/reference/access-authn-authz/rbac/#aggregated-clusterroles["보려는 애그리게이트"], 이벤트 로그로 이러한 리소스를 모니터링하려면 운영자에게 수동으로 이러한 리소스에 대한 액세스 권한을 부여해야 합니다.
-
-. edit_operator-additional-permissions.yaml_를 설치하기 전이나 설치 후 resource_ClusterRole/<namespace>-additional-permissions_를 편집합니다
-. 동사 ["get", "watch", "list"]를 사용하여 원하는 apiGroups 및 리소스에 대한 새 규칙을 만듭니다. \https://kubernetes.io/docs/reference/access-authn-authz/rbac/ 를 참조하십시오
-. 변경 사항을 클러스터에 적용합니다
-
-
-참고: 이전에 추가한 권한을 제거하려는 경우 _event-exporter_pod가 다시 시작될 때까지 변경 내용이 적용되지 않습니다.
-
-
-
-== NetApp Kubernetes Monitoring Operator 설치
-
-image:NKMO-Instructions-1.png[""]
-image:NKMO-Instructions-2.png[""]
-
-.Kubernetes에 NetApp Kubernetes Monitoring Operator Agent를 설치하는 단계:
-. 고유한 클러스터 이름 및 네임스페이스를 입력합니다. 있는 경우 <<업그레이드 중,업그레이드 중>> 이전 Kubernetes Operator에서 동일한 클러스터 이름과 네임스페이스를 사용합니다.
-. 이러한 내용을 입력하면 다운로드 명령 스니펫을 클립보드에 복사할 수 있습니다.
-. 스니펫을 _bash_window에 붙여 넣고 실행합니다. 오퍼레이터 설치 파일이 다운로드됩니다. 스니펫에는 고유한 키가 있으며 24시간 동안 유효합니다.
-. 사용자 지정 또는 개인 리포지토리가 있는 경우 선택적 이미지 풀 스니펫을 복사하여 _bash_shell에 붙여 넣고 실행합니다. 이미지를 가져온 후 개인 저장소에 복사합니다. 동일한 태그 및 폴더 구조를 유지해야 합니다. operator-deployment.YAML_의 경로와 _operator-config.YAML_의 Docker 리포지토리 설정을 업데이트합니다.
-. 필요한 경우 프록시 또는 개인 리포지토리 설정과 같은 사용 가능한 구성 옵션을 검토합니다. 에 대해 자세히 알아볼 수 있습니다 link:telegraf_agent_k8s_config_options.html["구성 옵션"].
-. 준비가 되면 kubeck Apply 스니펫을 복사하고 다운로드한 다음 실행하여 Operator 를 배포합니다.
-. 설치가 자동으로 진행됩니다. 완료되면 _Next_ 단추를 클릭합니다.
-. 설치가 완료되면 _Next_ 단추를 클릭합니다. 또한 _operator-비밀.YAML_파일을 삭제하거나 안전하게 보관하십시오.
-
-
-에 대해 자세히 알아보십시오 <<configuring-proxy-support,프록시를 구성하는 중입니다>>.
-
-에 대해 자세히 알아보십시오 <<using-a-custom-or-private-docker-repository,사용자 지정/프라이빗 Docker 저장소 사용>>.
-
-NetApp Kubernetes Monitoring Operator를 설치할 때 Kubernetes EMS 로그 수집이 기본적으로 활성화됩니다. 설치 후 이 컬렉션을 비활성화하려면 Kubernetes 클러스터 세부 정보 페이지 상단의 * Modify Deployment * 버튼을 클릭하고 "Log collection"을 선택 취소합니다.
-
-image:K8s_Modify_Deployment_Screen.png["\"로그 수집\" 확인란을 표시하는 배포 화면 수정"]
-
-이 화면에는 현재 로그 수집 상태도 표시됩니다. 가능한 상태는 다음과 같습니다.
-
-* 사용 안 함
-* 활성화됨
-* Enabled - 설치가 진행 중입니다
-* 사용 - 오프라인
-* 활성화됨 - 온라인
-* 오류 - API 키에 권한이 부족합니다
-
-
-
-
-== 업그레이드 중
-
-. 기존 구성 백업:
+. 지시에 따라 Agent Installer 스니펫을 복사합니다.
+. 코드 조각을 명령 창에 붙여 넣는 대신 텍스트 편집기에 붙여 넣습니다.
+. 명령에서 뒤에 오는 "--install"을 제거합니다.
+. 텍스트 편집기에서 전체 명령을 복사합니다.
+. 이제 명령 창(작업 디렉토리)에 붙여넣고 실행합니다.
 +
- kubectl --namespace ci-monitoring get cm -o yaml > /tmp/telegraf-configs.yaml
-. K8s 운영자 기반 모니터링 솔루션을 설치할 때 사용할 K8s 클러스터 이름을 저장하여 데이터 연속성을 보장합니다.
+** 다운로드 및 설치(기본값):
 +
-CI에서 K8s 클러스터의 이름을 잊은 경우 다음 명령줄을 사용하여 저장된 구성에서 추출할 수 있습니다.
-
+ installerName=cloudinsights-kubernetes.sh … && sudo -E -H ./$installerName --download –-install
+** 다운로드 전용:
 +
- cat /tmp/telegraf-configs.yaml | grep kubernetes_cluster | head -2
-. 스크립트 기반 모니터링을 제거합니다
-+
-Kubernetes에서 스크립트 기반 에이전트를 제거하려면 다음을 수행합니다.
-
-+
-모니터링 네임스페이스를 Telegraf 전용으로 사용하는 경우:
-
-+
- kubectl --namespace ci-monitoring delete ds,rs,cm,sa,clusterrole,clusterrolebinding -l app=ci-telegraf
-+
- kubectl delete ns ci-monitoring
-+
-모니터링 네임스페이스를 Telegraf(전신) 외에 다른 용도로 사용하는 경우:
-
-+
- kubectl --namespace ci-monitoring delete ds,rs,cm,sa,clusterrole,clusterrolebinding -l app=ci-telegraf
-. <<installing-the-netapp-kubernetes-monitoring-operator,설치합니다>> 현재 작동자. 위의 1단계에서 기록한 것과 동일한 클러스터 이름을 사용해야 합니다.
+ installerName=cloudinsights-kubernetes.sh … && sudo -E -H ./$installerName --download
 
 
 
-NOTE: 이전에 설치된 스크립트 기반 Kubernetes 에이전트에서 을 실행 중인 경우, 반드시 다음을 수행해야 합니다 <<업그레이드 중,업그레이드>> NetApp Kubernetes 모니터링 사업자로 이동합니다.
+
+download-only 명령은 필요한 모든 아티팩트를 Cloud Insights에서 작업 디렉토리로 다운로드합니다.  아티팩트에는 다음이 포함되지만 이에 국한되지는 않습니다.
+
+* 설치 스크립트
+* 환경 파일입니다
+* YAML 파일
+* 서명된 체크섬 파일(SHA256.signed)
+* 서명 확인을 위한 PEM 파일(NetApp_cert.pem
 
 
+육안 검사를 통해 설치 스크립트, 환경 파일 및 YAML 파일을 확인할 수 있습니다.
 
-=== 더 이상 사용되지 않는 스크립트 기반 에이전트를 제거합니다
+PEM 파일의 지문이 다음과 같은 것인지 확인하여 PEM 파일을 확인할 수 있습니다.
 
-이러한 명령은 기본 네임스페이스 "CI-모니터링"을 사용합니다. 고유한 네임스페이스를 설정한 경우 이러한 네임스페이스 및 모든 후속 명령 및 파일로 대체합니다.
+ 1A918038E8E127BB5C87A202DF173B97A05B4996
+보다 구체적으로,
 
-Kubernetes에서 스크립트 기반 에이전트를 제거하려면(예: NetApp Kubernetes Monitoring Operator로 업그레이드할 때) 다음을 수행합니다.
+ openssl x509 -fingerprint -sha1 -noout -inform pem -in netapp_cert.pem
+서명된 체크섬 파일은 PEM 파일을 사용하여 확인할 수 있습니다.
 
-모니터링 네임스페이스를 Telegraf 전용으로 사용하는 경우:
-
- kubectl --namespace ci-monitoring delete ds,rs,cm,sa,clusterrole,clusterrolebinding -l app=ci-telegraf
- kubectl delete ns ci-monitoring
-모니터링 네임스페이스를 Telegraf(전신) 외에 다른 용도로 사용하는 경우:
-
- kubectl --namespace ci-monitoring delete ds,rs,cm,sa,clusterrole,clusterrolebinding -l app=ci-telegraf
-
-
-== 오퍼레이터 튜닝
-
-맞춤형 리소스에 대한 특정 변수를 미세 조정하여 NetApp Kubernetes Monitoring Operator를 조정하여 성능을 최적화할 수 있습니다. 조정할 수 있는 변수의 지침과 목록은 설치 패키지에 포함된 README 파일을 참조하십시오. 운영자를 설치한 후 다음 명령을 사용하여 README를 봅니다.
+ openssl smime -verify -in sha256.signed -CAfile netapp_cert.pem -purpose any
+모든 아티팩트가 만족스럽게 확인되면 다음을 실행하여 에이전트 설치를 시작할 수 있습니다.
 
  sudo -E -H ./<installation_script_name> --install
 
-NOTE: 사용자 튜닝은 Cloud Insights Federal Edition에서 사용할 수 없습니다
 
-맞춤형 리소스에 대한 특정 변수를 미세 조정하여 NetApp Kubernetes Monitoring Operator를 조정하여 성능을 최적화할 수 있습니다.  설정할 수 있는 변수는 다음 표를 참조하십시오.
+== 문제 해결
 
-이러한 값을 수정하려면 다음 명령을 사용하여 상담원 CR을 편집합니다(이름 공간에 <namespace> 대체).
+NetApp Kubernetes Monitoring Operator 설정 시 문제가 발생할 경우 다음과 같은 사항을 고려해야 합니다.
 
- kubectl edit agent agent-monitoring-netapp -n <namespace>
-CR 사양은 다음과 같은 형식을 따릅니다.
+[cols="stretch"]
+|===
+| 문제: | 다음을 시도해 보십시오. 
+
+
+| Kubernetes 영구 볼륨과 해당 백엔드 스토리지 장치 간의 하이퍼링크/연결이 표시되지 않습니다. 내 Kubernetes 영구 볼륨은 스토리지 서버의 호스트 이름을 사용하여 구성됩니다. | 기존 Telegraf 에이전트를 제거한 다음 최신 Telegraf 에이전트를 다시 설치하는 단계를 따릅니다. Telegraf 버전 2.0 이상을 사용해야 하며 Kubernetes 클러스터 스토리지를 Cloud Insights에서 능동적으로 모니터링해야 합니다. 
+
+
+| 로그에 다음과 같은 메시지가 표시됩니다.
+
+E0901 15:21:39.962145 1 reflector.go:178] k8s.io/kube-state-metrics/internal/store/builder.go:352: * v1.mutatingWebhookConfiguration: 서버에서 요청한 리소스를 찾을 수 없습니다
+E0901 15:21:43.168161 반사판. go:178] k8s.io/kube-state-metrics/internal/store/builder.go:352: 목록*v1. 임대: 서버가 요청된 리소스를 찾을 수 없습니다(Get leases.coordination.k8s.io).
+등 | 이러한 메시지는 Kubernetes 버전이 1.20 미만인 경우 kube-state-metrics 버전 2.0.0 이상을 실행하는 경우에 발생할 수 있습니다.
+
+
+Kubernetes 버전 가져오기:
+
+ _kubectl 버전 _
+
+kube-state-metrics 버전을 얻으려면:
+
+ _kubectl get deploy/kube-state-metrics -o jsonpath='{..image}'_
+
+이러한 메시지가 발생하지 않도록 하기 위해 사용자는 kube-state-metrics 배포를 수정하여 다음 임대 서비스를 비활성화할 수 있습니다.
+
+_mutatingwebhookconfiguration_
+_validingwebhookconfiguration_
+_volumeAttachments 리소스 _
+
+보다 구체적으로 다음과 같은 CLI 인수를 사용할 수 있습니다.
+
+리소스 = certificatesigningrequests, configmap, cronjobs, demonset, 배포, 엔드포인트, 수평적 podautoscalers, ingresses, 작업, 제한 범위, 네임스페이스, 네트워크 정책, 노드, 영구 볼륨권, podrightiondecudies, 포드, 자원 컨트롤러, 리플리케이션, 풀 소스, 서비스
+
+기본 리소스 목록은 다음과 같습니다.
+
+"인증 요청, 구성 맵, cronjobs, demonset, 배포, 엔드포인트, 수평 포드오토칼러, ingresses, 작업, 임대, 제한 범위, mutatingwebhookconfiguration, 네임스페이스, 네트워크 정책, 노드, 지속형, 지속형, 지속형, 볼륨, 볼륨 구성, 복제, 웹후크구성, 볼륨 첨부 파일 확인" 
+
+
+| Telegraf에서 다음과 유사한 오류 메시지가 표시되지만 Telegraf가 시작되고 실행됩니다.
+
+10월 11일 14:23:41 IP-172-31-39-47 systemd [1]: 인플루엔자 DB에 메트릭을 보고하기 위한 플러그인 기반 서버 에이전트를 시작했습니다.
+10월 11일 14:23:41 IP-172-31-39-47 Telegraf[1827]: time="2021-10-11T14:23:41Z" level=error msg="캐시 디렉토리를 만들지 못했습니다. /etc/Telegraf/.cache/snowflake, err:mkdir/etc/Telegraf/.ca
+CHE: 권한이 거부되었습니다. 무시됨 \n "func="gosnowflake.(* defaultLogger).Errorf" file="log.Go:120"
+10월 11일 14:23:41 IP-172-31-39-47 Telegraf[1827]: time="2021-10-11T14:23:41Z" level=error msg="를 열지 못했습니다. 무시되었습니다. /etc/Telegraf/.cache/snowflake/OCSP_response_cache.json을 엽니다. 해당 없음
+파일 또는 디렉터리\n"func="gosnowflake.(* defaultLogger).Errorf" file="log.Go:120"
+10월 11일 14:23:41 IP-172-31-39-47 Telegraf[1827]:2021-10-11T14:23:41Z i! 텔레그라프 1.19.3 시작 | 이는 알려진 문제입니다.  을 참조하십시오 link:https://github.com/influxdata/telegraf/issues/9407["이 GitHub 기사를 참조하십시오"] 를 참조하십시오. Telegraf가 실행 중인 경우 사용자는 이러한 오류 메시지를 무시할 수 있습니다. 
+
+
+| Kubernetes에서 Telegraf POD가 다음 오류를 보고합니다.
+"mountstats 정보 처리 중 오류 발생: mountstats 파일을 열지 못했습니다. /hostfs/proc/1/mountstats, 오류: open/hostfs/proc/1/mountstats: permission denied" | SELinux가 설정되어 있고 강제 적용되는 경우 Telegraf 포드가 Kubernetes 노드의 /proc/1/mountstats 파일에 액세스하지 못할 수 있습니다. 이 제한을 해결하려면 agentconfiguration을 편집하고 runPrivileged 설정을 활성화하십시오. 자세한 내용은 다음을 참조하십시오. https://docs.netapp.com/us-en/cloudinsights/task_config_telegraf_agent_k8s.html#openshift-instructions[]. 
+
+
+| Kubernetes에서 내 Telegraf ReplicaSet POD가 다음 오류를 보고합니다.
+
+ [inputs.prometheus] 플러그인 오류: keypair /etc/kubernetes/pki/etcd/server.crt:/etc/kubernetes/pki/etcd/server.key: open/etc/Kubernetes/pki/etcd/server.crt: 해당 파일 또는 디렉토리가 없습니다 | Telegraf ReplicaSet POD는 마스터나 etcd로 지정된 노드에서 실행되도록 설계되었습니다. ReplicaSet 포드가 이러한 노드 중 하나에서 실행되고 있지 않으면 이러한 오류가 발생합니다. 마스터/etcd 노드에 문제가 있는지 확인합니다. 만약 그렇다면, 텔레그라프 ReplicaSet, 텔레그라프-RS에 필요한 내약성을 추가한다.
+
+예를 들어 ReplicaSet을 편집합니다.
+
+ kubectl 편집 RS Telegraf-RS
+
+... 그리고 사양에 적절한 공차를 추가합니다. 그런 다음 ReplicaSet 포드를 다시 시작합니다. 
+
+
+| PSP/PSA 환경이 있습니다. 이 문제가 모니터링 오퍼레이터에게 영향을 미칩니까? | PSP(Pod Security Policy) 또는 PSA(Pod Security Admission)를 통해 Kubernetes 클러스터를 실행 중인 경우, 최신 NetApp Kubernetes Monitoring Operator로 업그레이드해야 합니다. 다음 단계에 따라 PSP/PSA를 지원하여 현재 NKMO로 업그레이드합니다.
+
+1. <<uninstalling,설치 제거>> 이전 모니터링 오퍼레이터:
+
+ kubectl delete agent-monitoring-netapp-n netapp-monitoring
+ kubectl delete ns NetApp-monitoring
+ kubectl 삭제 CRD agents.monitoring.netapp.com
+ clusterrole agent-manager-role agent-proxy-role agent-metrics-reader를 삭제합니다
+ clusterrolebinding agent-manager-rolebinding agent-proxy-rolebinding agent-cluster-admin-rolebinding 을 삭제합니다
+
+2. <<installing-the-netapp-kubernetes-monitoring-operator,설치합니다>> 모니터링 운용자의 최신 버전 
+
+
+| NKMO를 배포하는 데 문제가 발생했고 PSP/PSA를 사용하고 있습니다. | 다음 명령을 사용하여 에이전트를 편집합니다.
+
+kubectl -n <name-space> 편집 에이전트
+
+'보안 정책 사용'을 '거짓'으로 표시합니다. 이렇게 하면 Pod 보안 정책과 Pod 보안 입장은 비활성화되고 NKMO가 배포될 수 있습니다. 다음 명령을 사용하여 확인합니다.
+
+kubectl get psp(Pod 보안 정책이 제거됨)
+kubectl get all -n <namespace> | grep -i psp (아무것도 발견되지 않았음을 보여줌) 
+
+
+| "ImagePullBackoff" 오류가 표시됩니다 | 이러한 오류는 사용자 지정 또는 프라이빗 Docker 저장소가 있고 NetApp Kubernetes Monitoring Operator가 이를 제대로 인식하도록 구성하지 않은 경우 나타날 수 있습니다.  <<using-a-custom-or-private-docker-repository,자세히 보기>> 사용자 지정/개인 저장소 구성 정보 
+
+
+| 모니터링 운영자 구축에 문제가 있는데 현재 설명서를 참조해도 문제를 해결하는 데 도움이 되지 않습니다.  a| 
+다음 명령의 출력을 캡처하거나 기록해 두고 기술 지원 팀에 문의하십시오.
 
 [listing]
 ----
- - name: <plugin-name>
-   ...
-   substitutions:
-   - key: <variable-name>
-     value: <desired-value>
-     ...
+ kubectl -n netapp-monitoring get all
+ kubectl -n netapp-monitoring describe all
+ kubectl -n netapp-monitoring logs <monitoring-operator-pod> --all-containers=true
+ kubectl -n netapp-monitoring logs <telegraf-pod> --all-containers=true
 ----
-"기본 CR에 포함됨"에 대해 "예"로 표시된 항목은 이미 상담원 CR에 있으며 해당 플러그인에서 찾을 수 있습니다. "아니요"로 표시된 항목은 포함된 기본 대체 항목에서 제공하는 예제 다음에 수동으로 추가해야 합니다.
 
 
+| NKMO 네임스페이스의 net-observer(워크로드 맵) 포드가 CrashLoopBackOff에 있습니다 | 이러한 포드는 네트워크 관찰 가능성을 위한 워크로드 맵 데이터 수집기에 해당합니다. 다음을 시도해 보십시오.
+• 최소 커널 버전을 확인하려면 pods 중 하나의 로그를 확인하십시오. 예를 들면 다음과 같습니다.
 
-=== 자원 관련 변수
+--
+{"ci-tenant-id":"your-tenant-id","collector-cluster":"your-k8s-cluster-name","environment":"prod","level":"error","msg":"유효성 검사에 실패했습니다. 이유: 커널 버전 3.10.0이 최소 커널 버전 4.18.0", "time":"2022-11-09T08:23:08Z"}보다 작습니다
+--
 
-을 참조하십시오 https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/[]	Kubernetes 리소스에 대한 자세한 내용은
+• Net-observer Pod를 사용하려면 Linux 커널 버전이 4.18.0 이상이어야 합니다. "uname -r" 명령을 사용하여 커널 버전을 확인하고 해당 버전이 4.18.0 이상인지 확인합니다 
 
+
+| NKMO 네임스페이스의 net-observer Pod는 OpenShift 4 환경의 CrashLoopBackoff에 있습니다 | 현재 지원되지 않습니다. 향후 업데이트에 지원이 추가될 예정입니다. 
+
+
+| Pod는 NKMO 네임스페이스(기본값: NetApp 모니터링)에서 실행되지만, 쿼리의 워크로드 맵 또는 Kubernetes 메트릭의 UI에는 데이터가 표시되지 않습니다 | K8S 클러스터의 노드에서 시간 설정을 확인합니다. 정확한 감사 및 데이터 보고를 위해 NTP(Network Time Protocol) 또는 SNTP(Simple Network Time Protocol)를 사용하여 Agent 시스템의 시간을 동기화하는 것이 좋습니다. 
+
+
+| NKMO 네임스페이스의 일부 net-observer POD가 Pending 상태입니다 | Net-observer는 DemonSet로, k8s 클러스터의 각 노드에서 포드를 실행합니다.
+• 보류 중인 Pod를 확인하고 CPU 또는 메모리에 리소스 문제가 있는지 확인합니다. 노드에서 필요한 메모리 및 CPU를 사용할 수 있는지 확인합니다. 
+
+
+| NetApp Kubernetes 모니터링 운영자를 설치한 직후 로그에 다음이 표시됩니다.
+
+[inputs.prometheus] 플러그인 오류: HTTP 요청을 보내는 중 오류가 발생했습니다 http://kube-state-metrics.<namespace>.svc.cluster.local:8080/metrics:[] 가져오기 http://kube-state-metrics.<namespace>.svc.cluster.local:8080/metrics:[] TCP: lookup kudo-state-metrics.<namespace>.svc.cluster.local: 해당 호스트가 없습니다 | 이 메시지는 일반적으로 새 오퍼레이터가 설치되어 있고 _Telegraf-RS_POD가 _KSM_POD가 가동되기 전에 작동 중일 때만 표시됩니다. 이러한 메시지는 모든 Pod가 실행되면 중지되어야 합니다. 
+
+
+| 클러스터에 존재하는 Kubernetes CronJobs에 대해 어떤 메트릭도 수집되지 않습니다. | Kubernetes 버전 확인(예 `kubectl version`)를 클릭합니다.  v1.20.x 이하일 경우 이는 예상되는 제한 사항입니다.  NetApp Kubernetes 모니터링 오퍼레이터와 함께 구축되는 Kubbe-state-metrics 릴리즈는 v1.crontjob만 지원합니다.  Kubernetes 1.20.x 이하에서는 crontjob 리소스가 v1beta.crontjob에 있습니다.  따라서 kube-state-metrics는 crontjob 리소스를 찾을 수 없습니다. 
+
+
+| 운용자 설치 후, Telegraf-ds Pod는 CrashLoopBackOff로 진입하고 POD 로그는 "su:Authentication failure"를 나타낸다. | _AgentConfiguration_에서 netapp-monitoring-configuration 섹션을 편집하고 _dockerMetricCollectionEnabled_를 false 로 설정합니다. 자세한 내용은 조작자를 참조하십시오 link:telegraf_agent_k8s_config_options.html["구성 옵션"].
+
+참고: Cloud Insights Federal Edition을 사용하는 경우, Docker 소켓에 액세스하려면 Telegraf 컨테이너를 루트로 실행하거나 _su_를 사용하여 Telegraf 사용자를 Docker 그룹에 추가해야 하기 때문에 _su_ 사용이 제한된 사용자는 Docker 메트릭을 수집할 수 없습니다. Docker 메트릭 수집 및 _su_의 사용은 기본적으로 활성화되어 있습니다. 두 가지를 모두 사용하지 않으려면 _AgentConfiguration_파일에서 _Telegraf.docker_entry를 제거하십시오.
+
+...
+사양:
+...
+텔레그라프:
+    ...
+     -name: docker입니다
+            실행 모드:
+              - DemonSet
+            대체:
+              -key:docker_unix_sock_placeholder입니다
+                값: UNIX:///run/docker.sock
+    ...
+... 
+
+
+| Telegraf 로그에 다음과 유사한 오류 메시지가 반복적으로 표시됩니다.
+
+ E! [agent] outputs.http:Post에 쓰는 동안 오류가 발생했습니다 "https://<tenant_url>/rest/v1/lake/ingest/influxdb":[] 컨텍스트 마감일이 초과되었습니다(헤더를 기다리는 동안 클라이언트 시간 초과됨). | 각 Telegraf 구성 파일(예: /etc/Telegraf/Telegraf.d/ *.conf)을 편집하고 Telegraf 출력 플러그인의 시간 초과를 늘립니다.  예를 들어, 각 .conf 파일에서...
+
+[[outputs.http]([출력.http])
+...
+시간 초과 = "5초"
+...
+
+
+...다음 항목 사용:
+
+[[outputs.http]([출력.http])
+...
+시간 초과 = "10s"
+...
+
+그런 다음 텔레그라프를 다시 시작합니다. 
 |===
-
-
-| 변수 이름 | 플러그인 이름 | 기본 CR에 포함되어 있습니다 | 설명 
-
-
-| dS_CPU_limits_placeholder | 에이전트 | 예 | Telegraf-DS용 Kubernetes CPU 제한 
-
-
-| DS_MEM_LIMITS_PLACEHOLDER | 에이전트 | 예 | Telegraf-DS에 대한 Kubernetes의 제한 
-
-
-| dS_CPU_REQUEST_PLACEHOLDER | 에이전트 | 예 | Telegraf-DS에 대한 Kubernetes CPU 요청 
-
-
-| DS_MEM_REQUEST_PLACEHOLDER | 에이전트 | 예 | Telegraf-DS에 대한 Kubernetes 메모리 요청 
-
-
-| RS_CPU_limits_placeholder | 에이전트 | 예 | Telegraf-RS용 Kubernetes CPU 제한. 
-
-
-| RS_MEM_LIMITS_PLACEHOLDER | 에이전트 | 예 | Telegraf-RS에 대한 Kubernetes의 제한 
-
-
-| RS_CPU_REQUEST_PLACEHOLDER | 에이전트 | 예 | Telegraf-RS에 대한 Kubernetes CPU 요청 
-
-
-| RS_MEM_REQUEST_PLACEHOLDER | 에이전트 | 예 | Telegraf-RS에 대한 Kubernetes 메모리 요청 
-
-
-| KSM_CPU_REQUEST_PLACEHOLDER: | KSM | 예 | 쿠버네티스 CPU에서 쿠버형 상태 메트릭 구축 요청 
-
-
-| KSM_MEM_REQUEST_PLACEHOLDER: | KSM | 예 | 쿠버네티스 CPU에서 쿠버형 상태 메트릭 구축 요청 
-|===
-
-
-=== 텔레그라프 관련 변수
-
-을 참조하십시오 https://github.com/influxdata/telegraf/blob/master/docs/CONFIGURATION.md#agent[] Telegraf 변수에 대한 정보
-
-|===
-
-
-| 자리 표시자 | 플러그인 이름 | 기본 CR에 포함되어 있습니다 | 설명 
-
-
-| collection_interval_placeholder 를 선택합니다 | 에이전트 | 아니요 | (Telegraf interval, type interval 설정): 모든 플러그인에 대한 입력 사이에서 텔레그라프가 대기하는 기본 시간입니다. 유효한 시간 단위는 ns, us(또는 µs), ms, s, m, H. 
-
-
-| round_interval_placeholder | 에이전트 | 아니요 | (Telegraf round_interval을 설정하고 boolean을 입력합니다) 간격의 배수로 메트릭을 수집합니다 
-
-
-| metric_batch_size_placeholder | 에이전트 | 아니요 | (Telegraf metric_batch_size를 설정하고 int를 입력합니다) 출력에 대한 최대 레코드 수 Telegraf가 한 번에 쓸 수 있습니다 
-
-
-| metric_buffer_limit_placeholder | 에이전트 | 아니요 | (Telegraf metric_buffer_limit를 설정하고 int를 입력) 출력에 대한 최대 레코드 수 텔레그라프가 쓰기 성공 보류 중인 캐시를 캐시합니다 
-
-
-| collection_jitter_placeholder | 에이전트 | 아니요 | (Telegraf collection_jitter, type interval 설정): 각 플러그인은 입력을 수집하기 전에 예약된 수집 시간과 해당 시간 + collection_jitter 사이의 임의 시간을 기다립니다 
-
-
-| Precision_PLACEHOLDER | 에이전트 | 아니요 | (Telegraf 정밀도 설정, 유형 간격): 수집된 메트릭은 지정된 정밀도로 반올림됩니다. "0"으로 설정하면 정밀도가 간격별로 지정된 단위로 설정됩니다 
-
-
-| Flush_interval_placeholder | 에이전트 | 아니요 | (Telegraf flush_interval, type interval 설정): 쓰기 출력 사이에 텔레그라프가 대기하는 기본 시간. 
-
-
-| flush_jitter_placeholder | 에이전트 | 아니요 | (Telegraf flush_jitter, type interval 설정): 각 출력은 예약된 쓰기 시간과 출력 쓰기 전 해당 시간 + flush_jitter 사이의 임의 시간을 대기하게 됩니다 
-|===
-
-
-=== 기타 변수
-
-|===
-
-
-| 자리 표시자 | 플러그인 이름 | 기본 CR에 포함되어 있습니다 | 설명 
-
-
-| curl_CMD_PLACEHOLDER | 에이전트 | 예 | curl 명령은 다양한 리소스를 다운로드하는 데 사용됩니다. 예) "curl" 또는 "curl-k" 
-|===
+추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].
