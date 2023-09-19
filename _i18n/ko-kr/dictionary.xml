@@ -12442,4 +12442,5 @@ V9.2.4.2</block>
 * Ubuntu 서버: 18.04 및 20.04 LTS
 
 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
+  <block id="bef6178937f26cf5776d5c67e6c1d23c" category="cell">NET-observer-L4-DS 추가 허용 오차</block>
 </blocks>
