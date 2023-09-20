@@ -180,7 +180,7 @@ persistentvolumeclaims=[*], persistentvolumes=[*], pod=[*], replicasets=[*], res
 |  | MemRequest입니다 | net observer DS에 대한 MEM 요청 
 
 
-|  | 설명 이 메서드를 사용합니다 | 메트릭 집계 간격(초 
+|  | MetricAggregationInterval입니다 | 메트릭 집계 간격(초 
 
 
 |  | bpfPollInterval입니다 | BPF 폴링 간격(초 
