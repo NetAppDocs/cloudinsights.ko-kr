@@ -4488,17 +4488,10 @@
   <block id="5d43336b0046b068224b4a4c606863ba" category="list-text">리소스를 더 추가합니다</block>
   <block id="31fa4ab3e19080703e914efb949bbced" category="paragraph">공유 리소스(예: 스토리지 풀)가 IOPS 포화 지점에 도달한 경우 풀에 더 많은 또는 더 빠른 디스크를 추가하면 사용 가능한 충분한 리소스를 확보하여 포화도를 줄일 수 있습니다.</block>
   <block id="ac62625b23d0635d3eaed0e05c830d36" category="paragraph">마지막으로, * Insight Link 복사 * 를 클릭하여 페이지 URL을 클립보드에 복사하여 동료와 보다 쉽게 공유할 수 있습니다.</block>
-  <block id="4a4a6b257377a1be5e4488cf0a12459b" category="summary">TTL(Time-to-Live) 및 다운샘플링에 대해 설명합니다</block>
-  <block id="ded51882afc1e18389057617d96454cb" category="doc">TTL(Time-to-Live) 및 다운샘플링 데이터</block>
   <block id="6ced38f7d8372fb9ae8761297e3a7cee" category="paragraph">Cloud Insights는 설정된 기간(Edition당)에 대한 데이터를 유지하므로 수천 개의 데이터 포인트를 처리할 수 있습니다. 따라서 차트 및 표에 표시되기 전에 데이터를 다운샘플링할 수 있습니다.</block>
-  <block id="9f006f2f14b484069511ef4a3f5315b3" category="section-title">데이터 보존(Time-to-Live)</block>
   <block id="997ee7d33c8902a31e71ef5f06a181ea" category="paragraph">Cloud Insights는 활성 구독한 Edition에 의해 결정된 시간 동안 데이터를 유지합니다. 데이터 보존은 TTL(Time-to-Live)이라고도 합니다.</block>
   <block id="226c03c443192cffffa4a924b4ccffde" category="cell">발행</block>
-  <block id="433a6d1dc9f59395173b9c44da198568" category="cell">TTL</block>
   <block id="374616a0b786e9bffadc7f28e68d6c59" category="cell">7일</block>
-  <block id="4ad5aab71ddf80b1c8c2c18804db012d" category="cell">90일</block>
-  <block id="025025548582d3777fd0b072c16e2656" category="cell">13개월</block>
-  <block id="c6de11ce9bf3311bd827033947947ad4" category="paragraph">500개 이상의 Managed Unit(MU)이 포함된 Premium Edition 서브스크립션에도 13개월 동안 Business Intelligence 및 Reporting 데이터가 유지됩니다.</block>
   <block id="876f04f443f4acb1176812eb95c5206c" category="section-title">데이터 다운샘플링</block>
   <block id="832befb5fcd1bf513bc9413c7b9a2e13" category="paragraph">* Downsampling * 은 차트에 있는 데이터의 통계적 근사치를 제공하여 수집된 데이터의 정확한 뷰를 유지하는 동시에 모든 데이터 지점을 표시할 필요 없이 데이터를 효율적으로 파악할 수 있습니다.</block>
   <block id="b75dadfce21049a86b69409a71f9d89d" category="section-title">다운샘플링이 필요한 이유는 무엇입니까?</block>
@@ -12730,4 +12723,9 @@ kubectl get all -n &lt;namespace&gt; | grep -i psp (아무것도 발견되지 �
   <block id="efe4baadff5bd15b524eb5bdb921fc23" category="sidebar">오퍼레이터를 설치 또는 업그레이드하기 전에</block>
   <block id="0fa09a2babfce9f13e5281cf6d3521b9" category="sidebar">모니터링 오퍼레이터 설치</block>
   <block id="1de805c2687b2c30b46a937270519488" category="cell">MetricAggregationInterval입니다</block>
+  <block id="fb16f782ec011ac7ae93ce05210079df" category="summary">TTL(Time-To-Live) - 즉, 데이터 보존 및 다운샘플링에 대해 설명합니다</block>
+  <block id="782b9b68a916b155b0332eb5fb675b34" category="doc">데이터 보존 및 다운샘플링 데이터</block>
+  <block id="8ba5588aa6038b7e374c4f0c61705cf9" category="section-title">데이터 보존(일명 Time-To-Live)</block>
+  <block id="ed0c9b5fb2f44a77915d0ce45d0c501c" category="cell">90일</block>
+  <block id="33d8f1359dfc1ccc57d04578cc9e1907" category="paragraph">500개 이상의 관리형 유닛(MU)이 포함된 Premium Edition 서브스크립션은 13개월 동안 비즈니스 인텔리전스 및 보고 데이터를 유지합니다.</block>
 </blocks>

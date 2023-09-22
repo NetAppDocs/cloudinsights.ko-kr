@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: concept_ttl_and_downsampling.html 
-summary: 'TTL(Time-to-Live) 및 다운샘플링에 대해 설명합니다' 
-keywords: time-to-live, TTL, downsampling, downsample, 
+summary: 'TTL(Time-To-Live) - 즉, 데이터 보존 및 다운샘플링에 대해 설명합니다' 
+keywords: time-to-live, TTL, downsampling, downsample, retention 
 ---
-= TTL(Time-to-Live) 및 다운샘플링 데이터
+= 데이터 보존 및 다운샘플링 데이터
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -23,23 +23,20 @@ Cloud Insights는 설정된 기간(Edition당)에 대한 데이터를 유지하�
 
 
 
-== 데이터 보존(Time-to-Live)
+== 데이터 보존(일명 Time-To-Live)
 
 Cloud Insights는 활성 구독한 Edition에 의해 결정된 시간 동안 데이터를 유지합니다. 데이터 보존은 TTL(Time-to-Live)이라고도 합니다.
 
 |===
-| 발행 | TTL 
+| 발행 | 데이터 보존 
 
 
 | 기본 | 7일 
 
 
-| 표준 | 90일 
-
-
-| 프리미엄 | 13개월 
+| 프리미엄 | 90일 
 |===
-500개 이상의 Managed Unit(MU)이 포함된 Premium Edition 서브스크립션에도 13개월 동안 Business Intelligence 및 Reporting 데이터가 유지됩니다.
+500개 이상의 관리형 유닛(MU)이 포함된 Premium Edition 서브스크립션은 13개월 동안 비즈니스 인텔리전스 및 보고 데이터를 유지합니다.
 
 
 
