@@ -10367,18 +10367,6 @@
   <block id="ea0512b988d2823de06af98254ea6811" category="section-title">Kubernetes Network Performance Monitoring 및 Map 아이콘:</block>
   <block id="9039c950f48328372952e360cb5e909a" category="inline-image-macro">Kubernetes Network Performance Monitoring and Map, 너비 = 640</block>
   <block id="680bf29e063b6b3133c4881cb55b6d34" category="paragraph"><block ref="680bf29e063b6b3133c4881cb55b6d34" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c21ecdc3b22488b71dfec9e5360e46ce" category="cell">다음 중 하나의 라이센스 버전을 실행하는 컴퓨터:
-
-Red Hat Enterprise Linux 7.x, 8.x 64비트, SELinux
-CentOS 7.x 64비트, SELinux
-CentOS 8 Stream, SELinux
-Ubuntu 20 ~ 22 64비트
-Rocky 8.x 64비트, Rocky 9.x 64비트, SELinux
-SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 15 SP3의 SELinux
-
-이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.
-
-SE(Security Enhanced) Linux는 지원되지 않습니다.</block>
   <block id="63c80d21f4266efe4883c2f6f1d26fc2" category="list-text">데이터 보존 기간 이후 삭제(자세한 내용은 에디션 페이지 참조) Monitor에는 정의에 따른 해결 조건이 없으므로 데이터 보존 기간이 경과할 때까지 Alert는 _ACTIVE_로 유지되고 이 모니터에서 생성된 Matching_group_by_로 이후의 모든 알림이 표시되지 않습니다.</block>
   <block id="46f506a87cfed781f4ca50c5456e5dea" category="list-text">로그 항목에 따라 해결: 다음 정의에 설명된 대로 로그 라인이 검색되면 알림을 해결하거나 데이터 보존 기간 이후에 제거합니다.</block>
   <block id="e3177fae37278722b7908e612a5b872b" category="list-text">SMB 프로토콜 버전 3.1 이하  워크로드 보안은 FlexCache를 사용하는 SMB 구성에서는 작동하지 않습니다. FlexCache를 사용하는 시스템에서 ONTAP 9.7부터 Fpolicy는 NFS 환경에서만 지원됩니다.</block>
@@ -12728,4 +12716,14 @@ kubectl get all -n &lt;namespace&gt; | grep -i psp (아무것도 발견되지 �
   <block id="8ba5588aa6038b7e374c4f0c61705cf9" category="section-title">데이터 보존(일명 Time-To-Live)</block>
   <block id="ed0c9b5fb2f44a77915d0ce45d0c501c" category="cell">90일</block>
   <block id="33d8f1359dfc1ccc57d04578cc9e1907" category="paragraph">500개 이상의 관리형 유닛(MU)이 포함된 Premium Edition 서브스크립션은 13개월 동안 비즈니스 인텔리전스 및 보고 데이터를 유지합니다.</block>
+  <block id="fc053bcc2bca8112838f33be578f7479" category="cell">다음 중 하나의 라이센스 버전을 실행하는 컴퓨터:
+
+Red Hat Enterprise Linux 7.x, 8.x 64비트, SELinux
+CentOS 7.x 64비트, SELinux
+CentOS 8 Stream, SELinux
+Ubuntu 20 ~ 22 64비트
+Rocky 8.x 64비트, Rocky 9.x 64비트, SELinux
+SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 15 SP3의 SELinux
+
+이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
 </blocks>
