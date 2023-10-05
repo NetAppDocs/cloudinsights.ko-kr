@@ -12507,7 +12507,6 @@ Pod CPU 활용률이 높은지 확인합니다.
   <block id="a0eda368f17db54a54c6f0246fd5c816" category="paragraph"><block ref="a0eda368f17db54a54c6f0246fd5c816" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eaee203e2e728070e3c454936f257fdf" category="paragraph">연산자 및 데이터 수집기는 Cloud Insights Docker 레지스트리에서 다운로드됩니다. 그런 다음 NKMO는 Kubernetes 클러스터 노드에 구축된 운영자 호환 수집기를 관리하여 수집가의 수명 주기를 관리하는 등 데이터를 획득합니다. 이 체인에 이어 수집기에서 데이터를 획득하여 Cloud Insights로 전송합니다.</block>
   <block id="3e4299c002d64ba4e1a384acbdafad4c" category="inline-link-macro">*설치 또는 업그레이드 전*</block>
-  <block id="f8d86927776a602d23bcf32f5dc5ea76" category="admonition">를 읽습니다 <block ref="0b7fc724dd1c400c20e2b859e6c06230" category="inline-link-macro-rx"></block> NetApp Kubernetes 모니터링 운영자를 설치 또는 업그레이드하기 위한 설명서입니다.</block>
   <block id="20e38ff1d741d05cb351043049612af2" category="section-title">최신 NetApp Kubernetes 모니터링 사업자로 업그레이드</block>
   <block id="59f9e8b92a6bc55e991031f0b5fea324" category="paragraph">기존 운영자와 함께 AgentConfiguration이 존재하는지 확인합니다(네임스페이스가 DEFAULT_NetApp-MONITORING_이 아닌 경우 해당 네임스페이스를 대체합니다).</block>
   <block id="bb5c0afa0b80550de02b1ac19c1226b4" category="paragraph">AgentConfiguration이 있는 경우:</block>
@@ -12726,4 +12725,12 @@ Rocky 8.x 64비트, Rocky 9.x 64비트, SELinux
 SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 15 SP3의 SELinux
 
 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
+  <block id="4099aa818be44a204ef7ec3ba69b96c7" category="inline-link-macro">보려는 애그리게이트</block>
+  <block id="6046897f8c0f41425f2e47227c5932e8" category="paragraph">모니터링 중인 클러스터에 ClusterRole이 없는 사용자 지정 리소스가 포함되어 있는 경우 <block ref="c09eb6051f010e6e01a634a8b6a5c304" category="inline-link-macro-rx"></block>, 이벤트 로그로 이러한 리소스를 모니터링하려면 운영자에게 수동으로 이러한 리소스에 대한 액세스 권한을 부여해야 합니다.</block>
+  <block id="8f0ae9ae8e0fd7f3e8fe6ff175a59943" category="list-text">edit_operator-additional-permissions.yaml_를 설치하기 전이나 설치 후 resource_ClusterRole/&lt;namespace&gt;-additional-permissions_를 편집합니다</block>
+  <block id="8a75e64ac585bb8eb6efae44768cfc8e" category="list-text">동사 ["get", "watch", "list"]를 사용하여 원하는 apiGroups 및 리소스에 대한 새 규칙을 만듭니다. \https://kubernetes.io/docs/reference/access-authn-authz/rbac/ 를 참조하십시오</block>
+  <block id="5aa700b8892918bb447b666e3ba9b2a8" category="list-text">변경 사항을 클러스터에 적용합니다</block>
+  <block id="449735a59883598ca6b4afe7cb57336a" category="admonition">를 읽습니다 <block ref="98b00674e05edc386cc19257d013cae8" category="inline-link-macro-rx"></block> NetApp Kubernetes 모니터링 운영자를 설치 또는 업그레이드하기 위한 설명서입니다.</block>
+  <block id="4f05106cca363b0f3c492314ab777534" category="cell">일부 이벤트 로그에 대한 _divedobject_data가 없습니다.</block>
+  <block id="67ee92e19812baa7cedb346320ca0182" category="cell">의 단계를 수행했는지 확인합니다 <block ref="d9283cdb1b027ed2a61fa92c8dc3e314" category="inline-link-macro-rx"></block> 섹션을 참조하십시오.</block>
 </blocks>

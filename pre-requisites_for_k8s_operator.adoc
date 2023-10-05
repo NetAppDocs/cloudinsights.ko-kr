@@ -193,6 +193,17 @@ OpenShift는 일부 Kubernetes 구성 요소에 대한 액세스를 차단할 �
 
 
 
+=== 권한
+
+모니터링 중인 클러스터에 ClusterRole이 없는 사용자 지정 리소스가 포함되어 있는 경우 link:https://kubernetes.io/docs/reference/access-authn-authz/rbac/#aggregated-clusterroles["보려는 애그리게이트"], 이벤트 로그로 이러한 리소스를 모니터링하려면 운영자에게 수동으로 이러한 리소스에 대한 액세스 권한을 부여해야 합니다.
+
+. edit_operator-additional-permissions.yaml_를 설치하기 전이나 설치 후 resource_ClusterRole/<namespace>-additional-permissions_를 편집합니다
+. 동사 ["get", "watch", "list"]를 사용하여 원하는 apiGroups 및 리소스에 대한 새 규칙을 만듭니다. \https://kubernetes.io/docs/reference/access-authn-authz/rbac/ 를 참조하십시오
+. 변경 사항을 클러스터에 적용합니다
+
+
+
+
 === 톨레러스와 얼룩을 볼 수 있습니다
 
 모든 노드에서 데이터를 올바르게 수집하려면 _Telegraf_, _fluent-bit_ 및 _net-observer_DemonSets가 클러스터의 모든 노드에서 POD를 예약해야 합니다. 운용자는 잘 알려진 일부 * 얼룩을 견딜 수 있도록 구성되었습니다. 노드에서 사용자 지정 얼룩을 구성하여 모든 노드에서 Pod가 실행되지 않도록 하는 경우 이러한 얼룩에 대해 * 공차 * 를 생성할 수 있습니다 link:telegraf_agent_k8s_config_options.html["상담원 구성 _ 에서"]. 클러스터의 모든 노드에 사용자 지정 얼룩을 적용한 경우 운영자 포드를 예약 및 실행할 수 있도록 운영자 구축에 필요한 허용 오차도 추가해야 합니다.
