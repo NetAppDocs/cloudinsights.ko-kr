@@ -113,18 +113,8 @@ Cloud Insights의 가격은 * 관리형 단위 * 입니다. 관리되는 유닛�
 
 * 관리 유닛 1개 = 호스트 2개(가상 또는 물리적 시스템)
 * 1 관리 유닛 = 4TiB의 물리적 디스크 또는 가상 디스크 포맷 안 됨 용량
+* 1개의 관리형 유닛 = 일부 보조 스토리지의 포맷되지 않은 용량 40TiB(AWS S3, Cohesity SmartFiles, Dell EMC Data Domain, Dell EMC ECS, Hitachi Content Platform, IBM Cleversafe, NetApp StorageGRID)
 * 관리 유닛 1개 = Kuberentes의 vCPU 4개
-
-
-다음 데이터 수집기는 다른 Raw TiB에서 관리되는 Unit Rate로 측정된다는 점에 유의하십시오. 이러한 데이터 수집기에서 40TiB의 포맷되지 않은 용량마다 1MU(Managed Unit)로 충전됩니다.
-
-* 설치하고
-* Cohesity SmartFiles를 참조하십시오
-* Dell EMC Data Domain을 참조하십시오
-* Dell EMC ECS를 참조하십시오
-* Hitachi 컨텐츠 플랫폼
-* IBM Cleversafe
-* NetApp StorageGRID를 참조하십시오
 
 
 사용자 환경에 1,000개 이상의 관리되는 장치가 포함되거나 포함될 것으로 예상되는 경우 * Volume Pricing * 을 받을 자격이 있으며 NetApp 영업 팀에 연락하여 구독을 신청하라는 메시지가 표시됩니다. 을 참조하십시오 <<how-do-i-subscribe,아래에 있습니다>> 를 참조하십시오.

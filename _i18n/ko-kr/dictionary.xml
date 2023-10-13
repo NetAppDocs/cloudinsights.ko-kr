@@ -7413,11 +7413,8 @@
   <block id="794a9d57da2bd5b4b16e0d11525d4f16" category="paragraph">API 토큰을 영구적으로 제거하려면 메뉴에서 "해지"를 선택합니다. 해지된 토큰은 다시 사용할 수 없습니다. 새 토큰을 만들어야 합니다.</block>
   <block id="57d4e87edd35e992f8e4d3c6326ac8d8" category="inline-image-macro">API 토큰을 비활성화하거나 해제합니다</block>
   <block id="209d3712889d6411bf67708e93ef6c63" category="paragraph"><block ref="209d3712889d6411bf67708e93ef6c63" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5c478d648857e82323360d2328b3dc12" category="paragraph">다음 데이터 수집기는 다른 Raw TiB에서 관리되는 Unit Rate로 측정된다는 점에 유의하십시오. 이러한 데이터 수집기에서 40TiB의 포맷되지 않은 용량마다 1MU(Managed Unit)로 충전됩니다.</block>
-  <block id="e7289067e05f71335c1c33ab4cb274b5" category="list-text">Dell EMC ECS를 참조하십시오</block>
   <block id="de9af54682ac41397db654efb63c031a" category="list-text">Hitachi 컨텐츠 플랫폼</block>
   <block id="3228838520c4e897de47c1133cf36394" category="list-text">IBM Cleversafe</block>
-  <block id="7f0f78f6c5c0c1767395318a59e0e62a" category="list-text">NetApp StorageGRID를 참조하십시오</block>
   <block id="3f5fb2a45a144339f9591a104342f79b" category="paragraph">모니터를 사용하면 스토리지, VM, EC2 및 포트와 같은 "인프라" 객체에서 생성되는 메트릭과 Kubernetes, ONTAP 고급 메트릭, Teleraf 플러그인과 같이 "통합" 데이터에 대한 임계값을 설정할 수 있습니다. 이러한 _metric_monitor는 경고 수준 또는 위험 수준 임계값을 초과할 때 사용자에게 경고합니다.</block>
   <block id="e730b9c349889018dc9deaccaa5a438b" category="paragraph">또한 지정된_log events_가 감지되면 경고를 트리거하는 모니터를 생성할 수도 있습니다.</block>
   <block id="9fbe6c7c1c16d6c2079f167ca8001516" category="paragraph">Cloud Insights는 의 수를 제공합니다 <block ref="c48a3e56f23a81aaf8fad75ccfbc3d89" category="inline-link-macro-rx"></block> 또한 고객의 환경을 기반으로 합니다.</block>
@@ -9621,7 +9618,6 @@
   <block id="ed862f710faf8808be6c0eb3e9619e30" category="paragraph"><block ref="4f633f9ad87e78d3d93ed9f152d5549a" category="inline-image-macro-rx" type="image"></block>
 <block ref="45e1a131f383b4a3d591b6b7f4008d87" category="inline-image-macro-rx" type="image"></block>
 <block ref="1fc0e7df8bd287d2b4b5569c861bc29d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="128edc3ff8c2d69c9c76b866643314ec" category="list-text">설치하고</block>
   <block id="239169e06fcc5c8354859b561ff0a0b6" category="paragraph">개요 * 대시보드에는 전체 용량 및 성능 백분율과 함께 사용자 환경의 클러스터 수와 같은 유용한 정보가 표시됩니다. 또한 스토리지 용량 또는 성능 용량이 공간 부족해질 때까지 예상 일 수에 대한 예측 데이터도 볼 수 있습니다. 또한, 인프라에서 CPU가 65% 이상인 컨트롤러가 실행 중이면 페일오버가 발생할 가능성이 있는 클러스터 상황에 놓입니다. ONTAP Essentials는 이러한 컨트롤러를 "핫" 컨트롤러로 표시합니다.</block>
   <block id="a97ea56b0e00b2379736ae60869ff66a" category="cell">질문</block>
   <block id="3751695c17afed4055a7a5ad5d46f6f5" category="cell">답변</block>
@@ -10250,8 +10246,6 @@
   <block id="e33adffcdf8ab2922b108932f9937051" category="paragraph">AWS Marketplace를 통해 무료 평가판을 등록할 수도 있습니다. AWS 마켓플레이스 무료 평가판을 사용하면 33일 평가판 Cloud Insights에 액세스할 수 있으며 최대 499가 가능합니다 <block ref="0dffd7fe70b4d03069ea72db3faf598d" category="inline-xref-macro-rx"></block> (MU).</block>
   <block id="8d36d0a28768ec9f4de7566b028eb00b" category="paragraph">AWS Marketplace 무료 평가판을 연장할 수 없습니다. 평가 기간 중 언제든지 * 관리자 -&gt; 가입 * 페이지를 방문하여 Cloud Insights Basic Edition 가입으로 다운그레이드하거나 유료 Cloud Insights 구독으로 변경할 수 있습니다.</block>
   <block id="e26a4046c7e3fdd09a0a0aa9204017f9" category="paragraph">구독하려면 * 관리자 -&gt; 구독 * 으로 이동하십시오. * Subscribe * 버튼 외에도 설치된 데이터 수집기를 보고 예상 가격을 계산할 수 있습니다. 일반적인 환경의 경우 셀프 서비스 AWS Marketplace 버튼을 클릭합니다. 사용자 환경에 1,000개 이상의 관리되는 단위가 포함되거나 포함될 것으로 예상되는 경우 볼륨 가격 책정을 이용할 수 있습니다.</block>
-  <block id="260d3a5336ca87727913d1aaec8359f7" category="list-text">Cohesity SmartFiles를 참조하십시오</block>
-  <block id="a1a04ea3436c6b700db87f125d4f2daa" category="list-text">Dell EMC Data Domain을 참조하십시오</block>
   <block id="840c1d56416cb9ee31be4cf00ea5851b" category="paragraph">예상 정가 비용은 가입 기간에 따라 달라집니다.
 참고: 계산기는 추정 용도로만 사용됩니다. 구독하면 정확한 가격이 설정됩니다.</block>
   <block id="3d3a14a6970653e82934d70556e92edc" category="inline-image-macro">인프라 및 Kubernetes 비용 산정 계산기를 보여주는 구독 페이지</block>
@@ -12756,4 +12750,5 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="3fd4ae48fb6a82b317e55d474c186cee" category="list-text">기본 도메인으로 액세스 제한: 기본 도메인은 Cloud Insights 환경 계정 소유자가 사용하는 도메인입니다. 이러한 도메인은 항상 액세스할 수 있습니다.</block>
   <block id="846c4bffd2bae99bec40857d4f18da12" category="list-text">기본 및 지정한 도메인으로 액세스를 제한합니다. 기본 도메인 외에 Cloud Insights 환경에 액세스할 수 있는 모든 도메인을 나열합니다.</block>
   <block id="d604b89dedd622b0113a230ac1a109cc" category="paragraph"><block ref="d604b89dedd622b0113a230ac1a109cc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1a67db23e86df970f58242b726cddbe4" category="list-text">1개의 관리형 유닛 = 일부 보조 스토리지의 포맷되지 않은 용량 40TiB(AWS S3, Cohesity SmartFiles, Dell EMC Data Domain, Dell EMC ECS, Hitachi Content Platform, IBM Cleversafe, NetApp StorageGRID)</block>
 </blocks>
