@@ -25,6 +25,35 @@ NOTE: 이러한 기능 중 일부는 Cloud Insights Federal Edition에서 사용
 
 
 
+== 2023년 10월
+
+
+
+=== 모듈 시험
+
+Cloud Insights의 초기 평가판 외에 의 이점을 활용할 수도 있습니다 link:/concept_subscribing_to_cloud_insights.html#module-trials["모듈 시험"]. 예를 들어, 이미 Infrastructure 관측성 에 가입하고 Kubernetes를 환경에 추가하고 있는 경우 Kubernetes 관측성 30일 시험판에 자동으로 등록됩니다. 평가판 기간이 끝날 때까지만 Kubernetes 관측성 관리형 유닛 사용에 대한 요금을 청구합니다.
+
+
+
+=== 지정된 도메인에 대한 액세스를 제한합니다
+
+관리자 및 계정 소유자는 이제 이 기능을 사용할 수 있습니다 link:/concept_user_roles.html#restricting-access-by-domain["Cloud Insights 액세스를 제한합니다"] 전자 메일 도메인으로 지정합니다. 관리자 > 사용자 관리 * 로 이동하고 _도메인 제한_ 버튼을 선택합니다.
+
+image:Restrict_Domains_Modal.png["도메인 모달 제한"]
+
+
+
+=== Data Collector 업데이트
+
+다음 데이터 수집기/획득 장치 변경 사항이 있습니다.
+
+* * Isilon/PowerScale REST *: _emc_isilon.node_pool.*_ 이름으로 Cloud Insights의 향상된 분석 기능에 다양한 새로운 특성 및 메트릭이 추가되었습니다. 이러한 카운터와 속성을 통해 사용자는 대시보드를 구축하고 _node_pool_capacity 소비를 모니터링할 수 있습니다. 서로 다른 하드웨어 노드 모델로 구축된 Isilon 클러스터를 사용하는 사용자는 여러 노드 풀을 갖게 되며, 노드 풀 레벨에서 HDD/SSD/총 용량 소비를 이해하는 것은 모니터링과 계획에 모두 유용합니다.
+* * Rubrik * "서비스 계정" 인증 지원: Cloud Insights의 Rubrik Collector는 이제 기존의 HTTP 기본 인증(사용자 이름 및 암호)과 사용자 이름 + 비밀 + 조직 ID가 필요한 Rubrik의 서비스 계정 접근 방식을 모두 지원합니다.
+
+
+'''
+
+
 == 2023년 9월
 
 

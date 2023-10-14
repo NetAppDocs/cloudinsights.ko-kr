@@ -12751,4 +12751,17 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="846c4bffd2bae99bec40857d4f18da12" category="list-text">기본 및 지정한 도메인으로 액세스를 제한합니다. 기본 도메인 외에 Cloud Insights 환경에 액세스할 수 있는 모든 도메인을 나열합니다.</block>
   <block id="d604b89dedd622b0113a230ac1a109cc" category="paragraph"><block ref="d604b89dedd622b0113a230ac1a109cc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1a67db23e86df970f58242b726cddbe4" category="list-text">1개의 관리형 유닛 = 일부 보조 스토리지의 포맷되지 않은 용량 40TiB(AWS S3, Cohesity SmartFiles, Dell EMC Data Domain, Dell EMC ECS, Hitachi Content Platform, IBM Cleversafe, NetApp StorageGRID)</block>
+  <block id="b0ec3d3ab3b33bd69418a7bd9e4d8f9e" category="section-title">2023년 10월</block>
+  <block id="1635c81c535bebd1d71a550697cceedf" category="paragraph">Cloud Insights의 초기 평가판 외에 의 이점을 활용할 수도 있습니다 <block ref="0a393d5915f3031e3913a845dbcd9869" category="inline-link-macro-rx"></block>. 예를 들어, 이미 Infrastructure 관측성 에 가입하고 Kubernetes를 환경에 추가하고 있는 경우 Kubernetes 관측성 30일 시험판에 자동으로 등록됩니다. 평가판 기간이 끝날 때까지만 Kubernetes 관측성 관리형 유닛 사용에 대한 요금을 청구합니다.</block>
+  <block id="e76d326e7377a93bd9d473077ecdd257" category="section-title">지정된 도메인에 대한 액세스를 제한합니다</block>
+  <block id="e391d7f1ca15dcf0f9409952796c6e9f" category="inline-link-macro">Cloud Insights 액세스를 제한합니다</block>
+  <block id="e00c08ca1d34e9c7ed5fb663ec3ef083" category="paragraph">관리자 및 계정 소유자는 이제 이 기능을 사용할 수 있습니다 <block ref="1f768d08438f0d475784e27a98b86880" category="inline-link-macro-rx"></block> 전자 메일 도메인으로 지정합니다. 관리자 &gt; 사용자 관리 * 로 이동하고 _도메인 제한_ 버튼을 선택합니다.</block>
+  <block id="03f0a9b50f7190c4b9c37f5692c049e7" category="inline-image-macro">도메인 모달 제한</block>
+  <block id="d8b198c983a9ca0805f2b1190da10dff" category="paragraph"><block ref="d8b198c983a9ca0805f2b1190da10dff" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ef2fcf22f1eb38c485f3be87c8df5354" category="list-text">* Isilon/PowerScale REST *: _emc_isilon.node_pool.*_ 이름으로 Cloud Insights의 향상된 분석 기능에 다양한 새로운 특성 및 메트릭이 추가되었습니다. 이러한 카운터와 속성을 통해 사용자는 대시보드를 구축하고 _node_pool_capacity 소비를 모니터링할 수 있습니다. 서로 다른 하드웨어 노드 모델로 구축된 Isilon 클러스터를 사용하는 사용자는 여러 노드 풀을 갖게 되며, 노드 풀 레벨에서 HDD/SSD/총 용량 소비를 이해하는 것은 모니터링과 계획에 모두 유용합니다.</block>
+  <block id="cbaf27d15911e54e13929953ff6c237a" category="list-text">* Rubrik * "서비스 계정" 인증 지원: Cloud Insights의 Rubrik Collector는 이제 기존의 HTTP 기본 인증(사용자 이름 및 암호)과 사용자 이름 + 비밀 + 조직 ID가 필요한 Rubrik의 서비스 계정 접근 방식을 모두 지원합니다.</block>
+  <block id="5e77ada1a807785ef1b03c3f1b96779c" category="cell">두 개의 모니터링 운영자 Pod가 실행 중인 것을 볼 수 있는데, 하나는 netapp-ci-monitoring-operator-&lt;pod&gt;이고 다른 하나는 monitoring-operator-&lt;pod&gt;입니다.</block>
+  <block id="1c1bebc9155c93bfe8263d7dd59e4d97" category="inline-xref">기존 연산자를 제거합니다</block>
+  <block id="3aadd91c93bca2d335851fd692f310be" category="inline-xref">새 장치를 장착하십시오</block>
+  <block id="e7d6cf6485500824df0535ac307eb301" category="cell">2023년 10월 12일부터 Cloud Insights은 사용자에게 더 나은 서비스를 제공하기 위해 운영자를 리팩토링했습니다. 변경 사항을 완전히 채택하려면 반드시 필요합니다 <block ref="860504374016936ed59489a365e20672" category="inline-xref-macro-rx"></block> 및 <block ref="d0e6f11bd593aa32efc140a3c31c51b6" category="inline-xref-macro-rx"></block>.</block>
 </blocks>

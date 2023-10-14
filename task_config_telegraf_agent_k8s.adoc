@@ -526,5 +526,8 @@ kubectl get all -n <namespace> | grep -i psp (아무것도 발견되지 않았�
 
 
 | 일부 이벤트 로그에 대한 _divedobject_data가 없습니다. | 의 단계를 수행했는지 확인합니다 link:pre-requisites_for_k8s_operator.html["권한"] 섹션을 참조하십시오. 
+
+
+| 두 개의 모니터링 운영자 Pod가 실행 중인 것을 볼 수 있는데, 하나는 netapp-ci-monitoring-operator-<pod>이고 다른 하나는 monitoring-operator-<pod>입니다. | 2023년 10월 12일부터 Cloud Insights은 사용자에게 더 나은 서비스를 제공하기 위해 운영자를 리팩토링했습니다. 변경 사항을 완전히 채택하려면 반드시 필요합니다 <<uninstalling,기존 연산자를 제거합니다>> 및 <<installing-the-netapp-kubernetes-monitoring-operator,새 장치를 장착하십시오>>. 
 |===
 추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].
