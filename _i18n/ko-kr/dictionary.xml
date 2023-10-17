@@ -2358,7 +2358,6 @@
   <block id="98349559eceadcec0dc76cadc5fbcc36" category="list-text">CloudSecure의 지침에 따라 Agent를 설치합니다.</block>
   <block id="2ec48fb989cd0668ab2b0f0b34915834" category="list-text">에이전트가 설치되면 sudo 사용자로 _server_data_rate_checker.sh_script를 실행합니다.</block>
   <block id="7ad6363059d1736f3a11960eab53e364" category="list-text">이 스크립트를 사용하려면 Linux 시스템에 _sshpass_를 설치해야 합니다. 두 가지 방법으로 설치할 수 있습니다.</block>
-  <block id="6cf31abcd39b8549a7f488c6aa8b2fef" category="list-text">다음 명령을 실행합니다.</block>
   <block id="de60349d54fe34d614b0fb4793843635" category="list-text">그렇지 않으면 웹에서 Linux 시스템으로 _sshpass_를 다운로드하고 다음 명령을 실행합니다.</block>
   <block id="22716ce17ab9464ee020ed67252afe9c" category="list-text">메시지가 표시되면 올바른 값을 입력합니다. 예를 보려면 아래를 참조하십시오.</block>
   <block id="cd0c9650e0d2fb93465de9f54297b6d5" category="list-text">스크립트는 약 5분 정도 소요됩니다.</block>
@@ -8007,7 +8006,6 @@
   <block id="7b4027634c44a41ce42886c7383adeb4" category="paragraph">이제 ONTAP 시스템에서 FlexVols, 노드 및 SVM의 수정 또는 제거가 감지될 때 Cloud Insights를 구성할 수 있습니다.</block>
   <block id="ba5ed4798f807b143761ea5211f06ea2" category="cell">획득 장치 서버 서비스를 시작할 때 권한이 거부되었습니다</block>
   <block id="abb32e1da1ad856744ba53e096ef4ba3" category="cell">AU가 SELinux에 설치된 경우 SE를 _permissive_mode로 설정해야 합니다. _Enforcing_mode는 지원되지 않습니다. SELinux를 허용 모드로 설정한 후 AU 서비스를 다시 시작합니다. <block ref="a82c78a8c8abe174de58c3bb493cbdd3" category="inline-link-macro-rx"></block>.</block>
-  <block id="81b0a686a7f070f4718258f6f1c90eea" category="paragraph">a) 이 표를 일반 사이징 가이드로 사용합니다.</block>
   <block id="ff7c0fcd6a31e735a61c001f75426961" category="section-title">예</block>
   <block id="f2803148b76b5b63f68b31927cb35d83" category="section-title">예 9</block>
   <block id="2c9ef91324ec8d07844a54c6151dc4cb" category="paragraph">이 예제에서는 1_ 이후의 모든 것과 두 번째 _ 까지의 모든 것을 찾습니다.</block>
@@ -9447,7 +9445,6 @@
   <block id="7e21d0cb987bd6dbc8582754783e182c" category="list-text">Get/{schema}/** - 보고 데이터베이스에서 데이터를 검색합니다.</block>
   <block id="b3431d54476e0f70ea6fc00bae48572b" category="summary">ONTAP SVM DSC를 설치하기 전에 이 스크립트를 실행하여 SVM의 이벤트 속도를 확인할 수 있습니다</block>
   <block id="0a2bd44573247d8e7748ce7d2d2a4b8f" category="paragraph">이벤트 속도 검사기는 ONTAP SVM 데이터 수집기를 설치하기 전에 SVM에서 NFS/SMB의 결합된 이벤트 속도를 확인하여 에이전트 시스템 한 대를 모니터링할 수 있는 SVM의 수를 확인하는 데 사용됩니다. 이벤트 속도 검사기를 크기 조정 가이드로 사용하여 보안 환경을 계획할 수 있습니다.</block>
-  <block id="ee884395b0c6bb018cd831452f073916" category="paragraph">Agent는 최대 50개의 데이터 수집기를 지원할 수 있습니다.</block>
   <block id="2723c4d559ff96bb42870d86c109708e" category="doc">SVM Event Rate Checker(에이전트 크기 지정 가이드)</block>
   <block id="abc492c54ab99cf963d50d67acb42565" category="sidebar">이벤트 속도 검사기(에이전트 크기 지정 가이드)</block>
   <block id="344b15b7319e7ac5af178bf86f71332e" category="cell">이 오류와 유사한 오류가 발생했습니다. '요청 실행 실패: &lt;AWS region endpoint&gt;에 연결: 8080 [&lt;AWS region endpoint&gt;/AWS 지역 엔드포인트 IP&gt;] 실패: 연결 시간 초과: 가져오기<block ref="c76ccb25cb3c0e03bc187c29ed42806c" category="inline-link-rx"></block> Region Endpoint FQDN&gt;:8080/v1/Storage/IPRanges HTTP/1.1'</block>
@@ -12764,4 +12761,7 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="1c1bebc9155c93bfe8263d7dd59e4d97" category="inline-xref">기존 연산자를 제거합니다</block>
   <block id="3aadd91c93bca2d335851fd692f310be" category="inline-xref">새 장치를 장착하십시오</block>
   <block id="e7d6cf6485500824df0535ac307eb301" category="cell">2023년 10월 12일부터 Cloud Insights은 사용자에게 더 나은 서비스를 제공하기 위해 운영자를 리팩토링했습니다. 변경 사항을 완전히 채택하려면 반드시 필요합니다 <block ref="860504374016936ed59489a365e20672" category="inline-xref-macro-rx"></block> 및 <block ref="d0e6f11bd593aa32efc140a3c31c51b6" category="inline-xref-macro-rx"></block>.</block>
+  <block id="40202f910a40e1ff8a02506c288b507e" category="paragraph">Agent는 최대 50개의 데이터 수집기를 지원할 수 있습니다.</block>
+  <block id="337d79852891a37d41285c9101c3fff4" category="list-text">다음 명령을 실행합니다.</block>
+  <block id="94870525f3ad4e44c2a59a8a8c218033" category="paragraph">a) 이 표를 일반 사이징 가이드로 사용합니다. 코어 및/또는 메모리의 수를 늘려 지원되는 데이터 수집기 수를 최대 50개까지 늘릴 수 있습니다.</block>
 </blocks>
