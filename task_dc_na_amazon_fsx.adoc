@@ -22,6 +22,9 @@ summary: NetApp ONTAP Data Collector용 Amazon FSx
 이 데이터 수집기는 NetApp ONTAP용 Amazon FSx에서 인벤토리 및 성능 데이터를 가져옵니다. 이 데이터 수집기는 Cloud Insights 서비스 지역 전체에서 점증적으로 사용할 수 있습니다. Cloud Insights 환경에서 이 수집기의 아이콘이 보이지 않으면 영업 담당자에게 문의하십시오.
 
 
+NOTE: 이 Cloud Insights Collector에는 _filesystem-scoped_role이 있는 ONTAP 사용자가 필요합니다. AWS를 검토하십시오 link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/roles-and-users.html["역할 및 규칙"] 사용 가능한 옵션에 대한 설명서. 현재 AWS는 Filesystem Scope인 _fsxadmin_의 한 가지 사용자 역할만 지원합니다. Cloud Insights Collector에 사용할 적절한 역할입니다.
+
+
 
 == 용어
 

@@ -12764,4 +12764,6 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="94870525f3ad4e44c2a59a8a8c218033" category="paragraph">a) 이 표를 일반 사이징 가이드로 사용합니다. 코어 및/또는 메모리의 수를 늘려 지원되는 데이터 수집기 수를 최대 50개까지 늘릴 수 있습니다.</block>
   <block id="1735ce1061c1858dd6651e91b4e18f24" category="paragraph">Cloud Insights의 초기 평가판 외에 의 이점을 활용할 수도 있습니다 <block ref="5e0a10d0899fa6ad6bbdfd72b26442bb" category="inline-link-macro-rx"></block>. 예를 들어, 이미 Infrastructure 관측성 에 가입하고 Kubernetes를 환경에 추가하고 있는 경우 Kubernetes 관측성 30일 시험판에 자동으로 등록됩니다. 평가판 기간이 끝날 때까지만 Kubernetes 관측성 관리형 유닛 사용에 대한 요금을 청구합니다.</block>
   <block id="33c5eb3627d84eaead652d4a93ba52dc" category="paragraph">관리자 및 계정 소유자는 이제 이 기능을 사용할 수 있습니다 <block ref="e2c73aceed008b4a66710907280db867" category="inline-link-macro-rx"></block> 전자 메일 도메인으로 지정합니다. 관리자 &gt; 사용자 관리 * 로 이동하고 _도메인 제한_ 버튼을 선택합니다.</block>
+  <block id="ad61c1ba38ff9af26797e324a38dc514" category="inline-link-macro">역할 및 규칙</block>
+  <block id="020c152c55787ea0a64eb78645d75f3e" category="admonition">이 Cloud Insights Collector에는 _filesystem-scoped_role이 있는 ONTAP 사용자가 필요합니다. AWS를 검토하십시오 <block ref="800e02d33bb8784b1a5d31d79acfd455" category="inline-link-macro-rx"></block> 사용 가능한 옵션에 대한 설명서. 현재 AWS는 Filesystem Scope인 _fsxadmin_의 한 가지 사용자 역할만 지원합니다. Cloud Insights Collector에 사용할 적절한 역할입니다.</block>
 </blocks>
