@@ -4316,11 +4316,6 @@
   <block id="ee5c6c936b3e5e6b3191a941d5161f88" category="doc">비활성 장치 식별</block>
   <block id="dedb4128ca8f8589aeee2da1198fdc45" category="paragraph">보유하고 있는 자산과 자산을 사용하는 사람을 파악하는 것은 "적합한 사이징"과 사용되지 않는 인프라를 확보하는 데 매우 중요합니다. 사용량이 적은 리소스를 쉽게 재할당하거나 사용 중단할 수 있으며 불필요한 구매를 방지할 수 있습니다.</block>
   <block id="89335488274d94cea3defd958dbbabbe" category="paragraph">다음 단계에 따라 비활성 자산을 식별합니다.</block>
-  <block id="74f2d5af3d35830fbffe4e065b028732" category="list-text">Cloud Insights 메뉴에서 * 쿼리 &gt; 새 쿼리 * 를 클릭합니다</block>
-  <block id="355d0fe6f460ad7e9e4be906a083f7e4" category="list-text">'검색 대상' 메뉴에서 쿼리할 자산 유형을 선택합니다</block>
-  <block id="08b0a890022d521dd17d275bcefd82ef" category="list-text">가 활성 * 입니다</block>
-  <block id="cc1d1782b616d7d5b18a8e83247f82c9" category="list-text">아무 * 나 * 를 클릭하고 * 아니오 * 로 변경합니다</block>
-  <block id="d6badef7150cd45268b7ee1f29045a26" category="paragraph">선택한 장치 유형의 비활성 자산 목록이 표시됩니다.</block>
   <block id="f03c797101edb46ecd6d2c9846c389fa" category="summary">Microsoft 팀의 성능 또는 인벤토리 임계값에 대한 알림을 제공하는 웹 후크를 만듭니다</block>
   <block id="55fea06d7da733c48fe60e575f7364ae" category="doc">Webhook Microsoft 팀의 예</block>
   <block id="4a566388ab998f7ad82049fcca153e95" category="paragraph">Webhook을 사용하면 사용자 지정된 Webhook 채널을 사용하여 다양한 응용 프로그램에 경고 알림을 보낼 수 있습니다. 이 페이지에서는 팀을 위한 Webhook을 설정하는 예를 제공합니다.</block>
@@ -12766,4 +12761,8 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="025025548582d3777fd0b072c16e2656" category="cell">13개월</block>
   <block id="a4d110a0ddc628e94b4e9223300af49b" category="inline-link-macro">에디션 및 가격</block>
   <block id="8a5a5004d445ce710c5fb829b859257b" category="paragraph">각 에디션에서 사용할 수 있는 전체 기능 목록은 Cloud Insights에서 확인할 수 있습니다 <block ref="9f9283f57379e70b90560c22a58eac88" category="inline-link-macro-rx"></block> 페이지.</block>
+  <block id="62a2ac40719f6cb31d5e1ad43d9d8a19" category="list-text">Explore -&gt;+New Metric Query * 로 이동합니다.</block>
+  <block id="9ec73c52f582999e7cc8d920ca844c81" category="list-text">드롭다운에서 _Storage_를 선택합니다.</block>
+  <block id="4c6af067d4990a4c05731f55b8095467" category="list-text">기어를 클릭하고 _IsActive_를 열로 추가합니다.</block>
+  <block id="49eec5d17a233960170b22a7e35d15a7" category="paragraph">검사를 표시하는 행이 활성화됩니다. "X"는 비활성 장치를 나타냅니다.</block>
 </blocks>
