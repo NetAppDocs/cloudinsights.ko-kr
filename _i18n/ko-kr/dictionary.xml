@@ -12765,4 +12765,6 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="9ec73c52f582999e7cc8d920ca844c81" category="list-text">드롭다운에서 _Storage_를 선택합니다.</block>
   <block id="4c6af067d4990a4c05731f55b8095467" category="list-text">기어를 클릭하고 _IsActive_를 열로 추가합니다.</block>
   <block id="49eec5d17a233960170b22a7e35d15a7" category="paragraph">검사를 표시하는 행이 활성화됩니다. "X"는 비활성 장치를 나타냅니다.</block>
+  <block id="94199173f712baeb6cb5de3780bf07fa" category="cell">인벤토리 최근 상태: 예기치 않은 데이터가 검색됨 - 어레이가 0개의 볼륨을 보고했습니다</block>
+  <block id="7e7b57722f915378d4f91beba7dfeeda" category="cell">일반적으로 인증(인증이 아님) 문제를 나타냅니다. 자격 증명이 올바르고 사용자 이름에 모든 볼륨을 나열하고 해당 속성을 볼 수 있는 권한이 있는지 확인합니다.</block>
 </blocks>
