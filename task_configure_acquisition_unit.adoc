@@ -36,7 +36,7 @@ NOTE: 정확한 감사 및 데이터 보고를 위해 * NTP(Network Time Protoco
 
 .Linux 획득 장치 설치 단계
 . Cloud Insights 환경에 관리자 또는 계정 소유자로 로그인합니다.
-. Admin > Data Collector > Acquisition Units > + Acquisition Unit * 을 클릭합니다
+. AObservability > Collectors > Acquisition Units > + Acquisition Unit * 을 클릭합니다
 +
 시스템에 _Install Acquisition Unit_(획득 장치 설치) 대화 상자가 표시됩니다. Linux 를 선택합니다.
 
@@ -52,7 +52,7 @@ image:NewLinuxAUInstall.png["Linux AU 지침"]
 
 
 .작업을 마친 후
-* Admin(관리) > Data Collector(데이터 수집기) > Acquisition units(획득 단위) * 를 클릭하여 획득 장치의 상태를 확인합니다.
+* 획득 장치의 상태를 확인하려면 * 관측성 > 수집기 > 획득 장치 * 를 클릭합니다.
 * 획득 장치 로그는 /var/log/netapp/클라우드 볼거리/acq/acq.log 에서 액세스할 수 있습니다
 * 다음 스크립트를 사용하여 획득 장치를 제어합니다.
 +
@@ -112,7 +112,7 @@ image:ProxyEndpoints_NewTable.png["프록시 끝점 테이블"]
 .Windows 획득 장치 설치 단계
 . 획득 장치 서버/VM에 관리자 권한이 있는 사용자로 로그인합니다.
 . 해당 서버에서 브라우저 창을 열고 Cloud Insights 환경에 관리자 또는 계정 소유자로 로그인합니다.
-. Admin > Data Collector > Acquisition Units > + Acquisition Unit * 을 클릭합니다.
+. 관측성 > 수집기 > 촬영 단위 > + 촬영 단위 * 를 클릭합니다.
 +
 시스템에 _Install Acquisition Unit_(획득 장치 설치) 대화 상자가 표시됩니다. Windows 를 선택합니다.
 
@@ -130,7 +130,7 @@ image::NewWindowsAUInstall.png[Windows AU 설치]
 
 
 .작업을 마친 후
-* Admin(관리) > Data Collector(데이터 수집기) > Acquisition units(획득 단위) * 를 클릭하여 획득 장치의 상태를 확인합니다.
+* 획득 장치의 상태를 확인하려면 * > 관측성 > 수집기 > 획득 장치 * 를 클릭합니다.
 * 설치 디렉터리>\Cloud Insights\Acquisition Unit\log\acq.log 에서 획득 장치 로그에 액세스할 수 있습니다
 * 다음 스크립트를 사용하여 획득 장치의 상태를 중지, 시작, 다시 시작 또는 확인합니다.
 +
@@ -194,7 +194,7 @@ Linux* 획득 장치를 제거하는 경우:
 
 * AU 제거 후 *:
 
-. Cloud Insights에서 * 관리자 > 데이터 수집기 * 로 이동하고 * 획득 단위 * 탭을 선택합니다.
+. Cloud Insights에서 * 관측성 > 수집기 로 이동하여 * Acquisition Units * 탭을 선택합니다.
 . 제거할 획득 장치 오른쪽에 있는 옵션 단추를 클릭하고 _Delete_를 선택합니다. 데이터 수집기가 할당되지 않은 경우에만 획득 단위를 삭제할 수 있습니다.
 
 
@@ -216,12 +216,12 @@ image:AU_for_Device_Resolution.png["AU 장치 해상도에 사용됩니다"]
 
 .단계
 . 획득 장치 서버/VM에 로그인하고 AU 소프트웨어를 제거합니다.
-. Cloud Insights 환경에 로그인하고 * 관리자 > 데이터 수집기 * 로 이동합니다.
+. Cloud Insights 환경에 로그인하고 * 관측성 > 수집기 * 로 이동합니다.
 . 각 데이터 수집기에 대해 오른쪽에 있는 옵션 메뉴를 클릭하고 _Edit_를 선택합니다. 임시 획득 장치에 데이터 수집기를 지정하고 * Save * (저장 *)를 클릭합니다.
 +
 동일한 유형의 여러 데이터 수집기를 선택하고 * Bulk Actions * 버튼을 클릭할 수도 있습니다. Edit_를 선택하고 데이터 수집기를 임시 획득 장치에 할당합니다.
 
-. 모든 데이터 수집기가 임시 획득 장치로 이동한 후 * Admin > Data Collector * 로 이동하여 * Acquisition Units * 탭을 선택합니다.
+. 모든 데이터 수집기를 임시 획득 장치로 이동한 후 * 관측성 > 수집기 * 로 이동하여 * Acquisition Units * 탭을 선택합니다.
 . 재설치할 획득 장치 오른쪽에 있는 옵션 버튼을 클릭하고 _Delete_를 선택합니다. 데이터 수집기가 할당되지 않은 경우에만 획득 단위를 삭제할 수 있습니다.
 . 이제 원본 서버/VM에 획득 장치 소프트웨어를 다시 설치할 수 있습니다. 획득 장치 * 를 클릭하고 위의 지침에 따라 획득 장치를 설치합니다.
 . 획득 장치가 다시 설치되면 데이터 수집기를 획득 장치에 다시 할당합니다.

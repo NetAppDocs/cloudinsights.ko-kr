@@ -167,10 +167,10 @@ ls -al /var/lib/netapp/cloudinsights/acq/datasources.war
  -rw-rw---- 1 test-user2 test-group1  3420067 Mar 10 17:20 netapp_ontap.jar
 
 
-. 참고: 다른 사용자 지정 사용자를 사용하여 AU를 관리하려는 경우 소유자와 그룹 모두에 대해 그룹 권한이 읽기 및 쓰기로 설정되어 있는지 확인하십시오(_chmod 660…_).
+. 참고: 다른 사용자 지정 사용자를 사용하여 AU를 등록하려는 경우 그룹 권한이 소유자와 그룹 모두에 대해 읽기 및 쓰기로 설정되어 있는지 확인합니다(_chmod 660 ....).
 . AU를 다시 시작합니다.
 +
-.. Cloud Insights에서 * Admin > Data Collector * 로 이동하고 * Acquisition Units * 탭을 선택합니다. AU 오른쪽의 "점 3개" 메뉴에서 _Restart_를 선택합니다.
+.. Cloud Insights에서 * 관측성 > 수집기 * 로 이동하고 * Acquisition Units * 탭을 선택합니다. AU 오른쪽의 "점 3개" 메뉴에서 _Restart_를 선택합니다.
 
 
 

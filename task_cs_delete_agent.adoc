@@ -42,7 +42,7 @@ IMPORTANT: Agent를 삭제하면 Agent와 연결된 모든 Data Collector가 삭
 sudo /opt/netapp/cloudsecure/agent/install/cloudsecure-agent-uninstall.sh
 Uninstall CloudSecure Agent? [y|N]:
 ....
-. Admin > Data Collector > Agents * 를 클릭합니다
+. Workload Security > Collector > Agents * 를 클릭합니다
 +
 구성된 에이전트 목록이 표시됩니다.
 

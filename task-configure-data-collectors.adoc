@@ -28,7 +28,7 @@ Cloud Insights 환경에서 데이터 센터에 있는 디바이스의 데이터
 
 
 .단계
-. Cloud Insights 메뉴에서 * 관리자 > 데이터 수집기 * 를 클릭합니다
+. Cloud Insights 메뉴에서 * 관측성 > 수집기 * 를 클릭합니다
 +
 공급업체별로 정렬된 사용 가능한 데이터 Collector가 표시됩니다.
 

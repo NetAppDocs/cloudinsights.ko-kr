@@ -49,7 +49,13 @@ link:https://netapp.hubs.vidyard.com/watch/Lce7EaGg7NZfvCUw4Jwy5P?["* 비디오 
 link:https://netapp.hubs.vidyard.com/watch/NEmbmYrFjCHvPps7QMy8me?["* 비디오 *: Active Directory 연결"] 
 
 
-| 데이터 수집기를 구성합니다 | Admin > Data Collector * 를 클릭하고 구성하려는 데이터 수집기를 클릭합니다. 설명서의 Data Collector 공급업체 참조 섹션을 참조하십시오.link:https://netapp.hubs.vidyard.com/watch/YSQrcYA7DKXbj1UGeLYnSF?["* 비디오 *: ONTAP SVM 연결"] 
+| 데이터 수집기를 구성합니다 | Workload Security > Collector * 를 클릭합니다
+
+구성할 데이터 수집기를 클릭합니다.
+
+설명서의 Data Collector 공급업체 참조 섹션을 참조하십시오.
+
+link:https://netapp.hubs.vidyard.com/watch/YSQrcYA7DKXbj1UGeLYnSF?["* 비디오 *: ONTAP SVM 연결"] 
 
 
 | 사용자 계정을 생성합니다 | link:concept_user_roles.html["사용자 계정 관리"] 

@@ -25,7 +25,7 @@ Cloud Insights는 이 데이터 수집기를 사용하여 Docker에서 메트릭
 
 == 설치
 
-. 관리자 > 데이터 수집기 * 에서 * + 데이터 수집기 * 를 클릭합니다. Services * 에서 Docker 를 선택합니다.
+. 관측성 > 수집기 * 에서 * + Data Collector * 를 클릭합니다. Services * 에서 Docker 를 선택합니다.
 +
 컬렉션에 대한 Agent를 구성하지 않은 경우 메시지가 표시됩니다 link:task_config_telegraf_agent.html["에이전트를 설치합니다"] 있습니다.
 

@@ -27,7 +27,7 @@ keywords: AU, acquisition unit, trioubleshooting
 | * 문제: * | * 사용해 보세요. * 
 
 
-| 획득 장치 * 탭의 * 관리 > 데이터 수집기 * 페이지에 있는 AU 상태는 "인증서 만료" 또는 "인증서 해지"를 표시합니다. | AU 오른쪽의 메뉴를 클릭하고 * 연결 복원 * 을 선택합니다. 지침에 따라 획득 장치를 복원합니다: 1. 획득 장치(AU) 서비스를 중지합니다. Copy Stop Command _ (복사 중지 명령) 버튼을 클릭하여 명령을 클립보드로 빠르게 복사한 다음, 이 명령을 획득 장치 시스템의 명령 프롬프트에 붙여넣을 수 있습니다. AU의 _c:\Program Files\Cloud Insights\Acquisition Unit\conf\_ 폴더에 "token"이라는 이름의 파일을 생성합니다. 3.Copy Token_ 단추를 클릭하고 이 토큰을 만든 파일에 붙여 넣습니다. AU 서비스를 다시 시작합니다. Copy Restart Command _ 버튼을 클릭하고 AU의 명령 프롬프트에 명령을 붙여 넣습니다. 
+| 획득 장치 * 탭의 * 관측성 > 수집기 * 페이지에 AU 상태가 "인증서 만료됨" 또는 "인증서 해지됨"으로 표시됩니다. | AU 오른쪽의 메뉴를 클릭하고 * 연결 복원 * 을 선택합니다. 지침에 따라 획득 장치를 복원합니다: 1. 획득 장치(AU) 서비스를 중지합니다. Copy Stop Command _ (복사 중지 명령) 버튼을 클릭하여 명령을 클립보드로 빠르게 복사한 다음, 이 명령을 획득 장치 시스템의 명령 프롬프트에 붙여넣을 수 있습니다. AU의 _c:\Program Files\Cloud Insights\Acquisition Unit\conf\_ 폴더에 "token"이라는 이름의 파일을 생성합니다. 3.Copy Token_ 단추를 클릭하고 이 토큰을 만든 파일에 붙여 넣습니다. AU 서비스를 다시 시작합니다. Copy Restart Command _ 버튼을 클릭하고 AU의 명령 프롬프트에 명령을 붙여 넣습니다. 
 
 
 | 서버 요구 사항이 충족되지 않았습니다 | 획득 장치 서버 또는 VM이 을 충족하는지 확인합니다 link:concept_acquisition_unit_requirements.html["요구 사항"] 
