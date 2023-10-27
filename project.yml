@@ -245,6 +245,8 @@ sidebar:
         url: "/forensic_user_overview.html"
     - title: 자동 응답 정책
       url: "/cs_automated_response_policies.html"
+    - title: 허용된 파일 형식 정책
+      url: "/ws_allowed_file_types.html"
     - title: ONTAP 자율 랜섬웨어 보호 통합
       url: "/concept_cs_integration_with_ontap_arp.html"
     - title: 사용자 액세스 차단

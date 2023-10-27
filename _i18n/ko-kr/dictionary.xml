@@ -12780,4 +12780,12 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="65a869cae61dbb29a2477a2c4b396c71" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 Flink 를 선택합니다.</block>
   <block id="a5436f2e1642a935e668be1ae1bc7cb4" category="list-text">Workload Security * Collector * 로 이동한 후 * Agents * 탭을 클릭합니다.</block>
   <block id="3db8e6e28be63b5639b42d1210ec94f9" category="list-text">Collector * 를 클릭하고 구성할 데이터 수집기를 선택합니다.</block>
+  <block id="4933fe8ec451e47e707dad28cf0d6a6f" category="summary">허용 목록에 파일 확장자를 추가하여 경고를 줄입니다</block>
+  <block id="2b38e4e9371e68c324f4d975aeec0b8b" category="doc">허용된 파일 형식 정책</block>
+  <block id="e028554bdfbf2b31dfa2c86ea5c58f3b" category="paragraph">알려진 파일 확장명에 대한 랜섬웨어 공격이 감지되고 Alerts 화면에서 경고가 생성되는 경우 해당 파일 확장명을 화이트리스트로 설정하여 불필요한 경고를 방지할 수 있습니다.</block>
+  <block id="66c0454949e8e45058f66b8dbe1d1a38" category="paragraph">Workload Security &gt; Policies * 로 이동한 후 _Allowed File Type Policies_tab으로 이동합니다.</block>
+  <block id="8c06b62ca830efbad93bfb2ce294e0ef" category="paragraph"><block ref="8c06b62ca830efbad93bfb2ce294e0ef" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="36d54fae49a56a7a2d78ca70082b370b" category="paragraph">화이트리스트가 등록되면 해당 허용되는 파일 유형에 대한 랜섬웨어 공격 경고가 생성되지 않습니다. _allowed File Types_policy는 랜섬웨어 탐지에만 적용됩니다.</block>
+  <block id="0aad5fb8995241aab40da2f6461ed327" category="paragraph">예를 들어, 이름이 _test.txt_인 파일의 이름이 _test.txt.abc_로 변경되고 Workload Security가 _.abc_extension으로 인해 랜섬웨어 공격을 감지하는 경우 _.abc_extension을 화이트리스트할 수 있습니다. 화이트리스트 후에는 _.abc_extension을 가진 파일에 대해 랜섬웨어 공격이 더 이상 생성되지 않습니다.</block>
+  <block id="b778d3252b5cc52999f0c844a033362f" category="paragraph">허용되는 파일 형식은 정확히 일치하는 파일(예: ".abc") 또는 식(예: ". * type", ".type *" 또는 " * type *")일 수 있습니다. ".a * c", ".p * f" 형식의 식은 지원되지 않습니다.</block>
 </blocks>
