@@ -5558,7 +5558,6 @@
   <block id="1affaa3c0d19c2e084afa700debb8740" category="paragraph">OpenStack(REST API/KVM) 데이터 수집기는 모든 OpenStack 인스턴스에 대한 인벤토리 데이터를 수집하며 선택적으로 VM 성능 데이터를 가져옵니다.</block>
   <block id="ee627d472fc6df1e0c1367deb7ee0063" category="list-text">OpenStack 컨트롤러의 IP 주소입니다</block>
   <block id="280f91bd66acb7cf04ec960fca75f64a" category="list-text">OpenStack 관리자 역할 자격 증명 및 Linux KVM 하이퍼바이저에 대한 sudo 액세스 admin 계정 또는 admin 등가 권한을 사용하지 않는 경우, 데이터 수집기 사용자 ID에 대해 휴식을 취할 기본 정책을 식별하기 위해 시행착오 및 오류를 사용해야 합니다.</block>
-  <block id="ab920cce93179165ef5649da2b8c17f4" category="list-text">OpenStack Ceilometer 모듈을 설치하고 성능 수집을 위해 구성해야 합니다. Ceilometer 구성은 각 하이퍼바이저에 대한 nova.conf 파일을 편집한 다음 각 하이퍼바이저에서 Nova Compute 서비스를 다시 시작하여 수행됩니다. 옵션 이름이 OpenStack의 다양한 릴리즈에서 변경되었습니다.</block>
   <block id="8beeeec38dbc6258291f2e47130835d8" category="list-text">아이스하우스</block>
   <block id="291b02b25fbb9789119d2383e9f08e29" category="list-text">준오</block>
   <block id="3afe87a2a8c61f8023e56883b9baccb8" category="list-text">킬로</block>
@@ -5572,7 +5571,6 @@
   <block id="5829ef3d89411d46f0a05f6867ff2efd" category="list-text">22 KVM SSH의 경우</block>
   <block id="a58963a7c2c9eafce2ab09ca28270ee0" category="list-text">Nova 컴퓨팅 서비스: 8774</block>
   <block id="745b1ee1989bc6dd0ac838e4dcb448e5" category="list-text">8776을 참조하십시오</block>
-  <block id="3c96098040036cf157077588c3a5792d" category="list-text">Ceilometer 성능 서비스용 8777</block>
   <block id="ca3d2d05f916b41d8f53f506ace2e80e" category="list-text">Glance 이미지 서비스의 경우 9292 * 참고 * 포트는 특정 서비스에 바인딩되며, 대규모 환경의 컨트롤러 또는 다른 호스트에서 서비스가 실행될 수 있습니다.</block>
   <block id="9be07620e581c90b777b5fef1296cc28" category="cell">OpenStack 컨트롤러 IP 주소입니다</block>
   <block id="c5e968faf75175530ec61fb1846cfdce" category="cell">OpenStack 컨트롤러의 IP 주소 또는 정규화된 도메인 이름입니다</block>
@@ -12788,4 +12786,6 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="36d54fae49a56a7a2d78ca70082b370b" category="paragraph">화이트리스트가 등록되면 해당 허용되는 파일 유형에 대한 랜섬웨어 공격 경고가 생성되지 않습니다. _allowed File Types_policy는 랜섬웨어 탐지에만 적용됩니다.</block>
   <block id="0aad5fb8995241aab40da2f6461ed327" category="paragraph">예를 들어, 이름이 _test.txt_인 파일의 이름이 _test.txt.abc_로 변경되고 Workload Security가 _.abc_extension으로 인해 랜섬웨어 공격을 감지하는 경우 _.abc_extension을 화이트리스트할 수 있습니다. 화이트리스트 후에는 _.abc_extension을 가진 파일에 대해 랜섬웨어 공격이 더 이상 생성되지 않습니다.</block>
   <block id="b778d3252b5cc52999f0c844a033362f" category="paragraph">허용되는 파일 형식은 정확히 일치하는 파일(예: ".abc") 또는 식(예: ". * type", ".type *" 또는 " * type *")일 수 있습니다. ".a * c", ".p * f" 형식의 식은 지원되지 않습니다.</block>
+  <block id="c0ea429a2fadacc206fdc8f17cfa492c" category="list-text">성능 수집을 위해 OpenStack Gnocchi 모듈을 설치하고 구성해야 합니다. Gnocchi 구성은 각 하이퍼바이저에 대한 nova.conf 파일을 편집한 다음 각 하이퍼바이저에서 Nova Compute 서비스를 다시 시작하여 수행합니다. 옵션 이름이 OpenStack의 다양한 릴리즈에서 변경되었습니다.</block>
+  <block id="dfe1b74026ff6682b451240881e76be4" category="list-text">Gnocchi Performance Service용 8777</block>
 </blocks>

@@ -27,7 +27,7 @@ OpenStack(REST API/KVM) 데이터 수집기는 모든 OpenStack 인스턴스에 
 
 * OpenStack 컨트롤러의 IP 주소입니다
 * OpenStack 관리자 역할 자격 증명 및 Linux KVM 하이퍼바이저에 대한 sudo 액세스 admin 계정 또는 admin 등가 권한을 사용하지 않는 경우, 데이터 수집기 사용자 ID에 대해 휴식을 취할 기본 정책을 식별하기 위해 시행착오 및 오류를 사용해야 합니다.
-* OpenStack Ceilometer 모듈을 설치하고 성능 수집을 위해 구성해야 합니다. Ceilometer 구성은 각 하이퍼바이저에 대한 nova.conf 파일을 편집한 다음 각 하이퍼바이저에서 Nova Compute 서비스를 다시 시작하여 수행됩니다. 옵션 이름이 OpenStack의 다양한 릴리즈에서 변경되었습니다.
+* 성능 수집을 위해 OpenStack Gnocchi 모듈을 설치하고 구성해야 합니다. Gnocchi 구성은 각 하이퍼바이저에 대한 nova.conf 파일을 편집한 다음 각 하이퍼바이저에서 Nova Compute 서비스를 다시 시작하여 수행합니다. 옵션 이름이 OpenStack의 다양한 릴리즈에서 변경되었습니다.
 +
 ** 아이스하우스
 ** 준오
@@ -45,7 +45,7 @@ OpenStack(REST API/KVM) 데이터 수집기는 모든 OpenStack 인스턴스에 
 ** 22 KVM SSH의 경우
 ** Nova 컴퓨팅 서비스: 8774
 ** 8776을 참조하십시오
-** Ceilometer 성능 서비스용 8777
+** Gnocchi Performance Service용 8777
 ** Glance 이미지 서비스의 경우 9292 * 참고 * 포트는 특정 서비스에 바인딩되며, 대규모 환경의 컨트롤러 또는 다른 호스트에서 서비스가 실행될 수 있습니다.
 
 
