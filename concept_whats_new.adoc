@@ -29,6 +29,16 @@ NOTE: 이러한 기능 중 일부는 Cloud Insights Federal Edition에서 사용
 
 
 
+=== 향상된 워크로드 보안
+
+워크로드 보안은 다음과 같이 개선되었습니다.
+
+* * 액세스 거부 *: 워크로드 보안은 ONTAP와 통합되어 "액세스 거부" 이벤트를 수신하고 추가 분석 및 자동 응답 계층을 제공합니다.
+* 화이트리스트 * 허용된 파일 유형 *: 알려진 파일 확장자에 대한 랜섬웨어 공격이 감지되면 불필요한 경고를 방지하기 위해 해당 파일 확장자를 화이트리스트할 수 있습니다. - link:/ws_allowed_file_types.html["자세한 정보"]
+
+
+
+
 === 모듈 시험
 
 Cloud Insights의 초기 평가판 외에 의 이점을 활용할 수도 있습니다 link:concept_subscribing_to_cloud_insights.html#module-trials["모듈 시험"]. 예를 들어, 이미 Infrastructure 관측성 에 가입하고 Kubernetes를 환경에 추가하고 있는 경우 Kubernetes 관측성 30일 시험판에 자동으로 등록됩니다. 평가판 기간이 끝날 때까지만 Kubernetes 관측성 관리형 유닛 사용에 대한 요금을 청구합니다.
