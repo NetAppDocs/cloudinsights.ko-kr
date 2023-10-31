@@ -12588,8 +12588,6 @@ kubectl get all -n &lt;namespace&gt; | grep -i psp (아무것도 발견되지 �
 --
 
 • Net-observer Pod를 사용하려면 Linux 커널 버전이 4.18.0 이상이어야 합니다. "uname -r" 명령을 사용하여 커널 버전을 확인하고 해당 버전이 4.18.0 이상인지 확인합니다</block>
-  <block id="43eb2ebe757bb3f2957ebacdbe1e409c" category="cell">NKMO 네임스페이스의 net-observer Pod는 OpenShift 4 환경의 CrashLoopBackoff에 있습니다</block>
-  <block id="c16b414538506d32ed8a234fa2331767" category="cell">현재 지원되지 않습니다. 향후 업데이트에 지원이 추가될 예정입니다.</block>
   <block id="c37dcb848a7244594adc1af67cc44fb5" category="cell">Pod는 NKMO 네임스페이스(기본값: NetApp 모니터링)에서 실행되지만, 쿼리의 워크로드 맵 또는 Kubernetes 메트릭의 UI에는 데이터가 표시되지 않습니다</block>
   <block id="b301a7b156c241fb466de1bca776811c" category="cell">K8S 클러스터의 노드에서 시간 설정을 확인합니다. 정확한 감사 및 데이터 보고를 위해 NTP(Network Time Protocol) 또는 SNTP(Simple Network Time Protocol)를 사용하여 Agent 시스템의 시간을 동기화하는 것이 좋습니다.</block>
   <block id="4ded7a1a9e117c3e40fb8fd746b0652d" category="cell">NKMO 네임스페이스의 일부 net-observer POD가 Pending 상태입니다</block>
@@ -12792,4 +12790,8 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="ed2b4bf5978e7c4c0546efaff8756311" category="paragraph">워크로드 보안은 다음과 같이 개선되었습니다.</block>
   <block id="b1f51a36e1f83c62064c47e5488e10c9" category="list-text">* 액세스 거부 *: 워크로드 보안은 ONTAP와 통합되어 "액세스 거부" 이벤트를 수신하고 추가 분석 및 자동 응답 계층을 제공합니다.</block>
   <block id="b96f76a4321a90cf4dd8cf2472f58624" category="list-text">화이트리스트 * 허용된 파일 유형 *: 알려진 파일 확장자에 대한 랜섬웨어 공격이 감지되면 불필요한 경고를 방지하기 위해 해당 파일 확장자를 화이트리스트할 수 있습니다. - <block ref="9ca779e4c57ed180231e35c02d12040d" category="inline-link-macro-rx"></block></block>
+  <block id="23cda888e57eaac9d48f4167127da1b8" category="cell">내 Kubernetes 이벤트가 예기치 않게 Cloud Insights 보고에 대한 보고를 중단했습니다.</block>
+  <block id="530877d75874db688a349c68f4d664d6" category="cell">이벤트 내보내기 포드`kubectl-n NetApp-monitoring get pods의 이름을 검색합니다</block>
+  <block id="40de8508a016cb1e936ce464cfc06e93" category="cell">GRIP 이벤트 - 수출자</block>
+  <block id="60154ad86ed086052b09e30faded046b" category="cell">'{print $1}' awk</block>
 </blocks>
