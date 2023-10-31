@@ -12793,14 +12793,17 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="b0ee45b6cf0875310e7eca0039f3378c" category="cell">ECS의 사용자 ID입니다</block>
   <block id="fe98497efedbe156ecc4b953aea77e07" category="inline-xref">설치 제거</block>
   <block id="7b4d917229221f1292dd0dc7b693cccf" category="inline-xref">다시 설치합니다</block>
-  <block id="8469e2ae035ceb8a5938bd217eb94df0" category="cell">이벤트 내보내기 포드의 이름을 검색합니다.
+  <block id="6491871b517e6620a9b0675a45a5322a" category="cell">이벤트 내보내기 포드의 이름을 검색합니다.
 
 <block ref="981dffeaa3be6364470478327b8dd179" prefix=" " category="inline-code"></block>
 
 "netapp-ci-event-exporter" 또는 "event-exporter"여야 합니다.  그런 다음 모니터링 에이전트를 편집합니다<block ref="254deec50834604297ddd3caab0d8ce7" prefix=" " category="inline-code"></block>를 입력하고 log_file 의 값을 이전 단계에서 찾은 적절한 이벤트 내보내기 포드 이름을 반영하도록 설정합니다.  보다 구체적으로 log_file을 "/var/log/containers/netapp-ci-event-exporter.log" 또는 "/var/log/containers/event-exporter *.log"로 설정해야 합니다.
 
-    -key: log_file
-      값:
-      -/var/log/containers/netapp-ci-event-exporter *.log
+...
+ -key: log_file
+   값:
+   -/var/log/containers/netapp-ci-event-exporter *.log
+...
+
 또는, 하나를 할 수도 있습니다 <block ref="eb03b2f692ebf826fa07016cc9fa15a6" category="inline-xref-macro-rx"></block> 및 <block ref="2be7be71447d2c340aab35ab29970e30" category="inline-xref-macro-rx"></block> 에이전트</block>
 </blocks>
