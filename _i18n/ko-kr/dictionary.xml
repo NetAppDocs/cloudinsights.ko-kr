@@ -4105,20 +4105,14 @@
   <block id="a53a32f48009c614f61507a6499dfbf6" category="cell">클래스 로드 클래스 로드 총 클래스 언로드 메모리 힙 커밋 메모리 힙 초기화 메모리 힙 사용 최대 메모리 힙 사용 메모리 비 힙 커밋된 메모리 비 힙 초기화 메모리 비 힙 사용된 메모리 객체 비힙 사용 메모리 객체 보류 완료 OS 프로세서 사용 가능 OS 커밋된 가상 메모리 크기 OS 사용 가능 물리적 메모리 크기 OS 가용 스왑 공간 크기 OS 최대 파일 설명자 수 OS 열린 파일 설명자 수 OS 프로세서 CPU 로드 OS 프로세서 CPU 시간 OS 시스템 CPU 로드 OS 평균 로드 OS 총 물리적 메모리 크기 OS 총 스왑 공간 크기 스레드 데몬 수 스레드 피크 카운트 스레드 카운트 스레드 총 시작 카운트 가비지 수집기 복제 컬렉션 카운트 가비지 수집기 복제 컬렉션 시간 가비지 수집기 표시-스윕 컬렉션 카운트 가비지 수집기 G1 이전 세대 컬렉션 개수 가비지 수집기 G1 이전 세대 컬렉션 개수 가비지 수집기 G1 이전 세대 컬렉션 시간 가비지 수집기 G1 이전 세대 컬렉션 시간 가비지 수집기 G1 이전 세대 컬렉션 개수 가비지 수집기 G1 젊은 세대 컬렉션 시간 가비지 수집기 동시 마크-스윕 컬렉션 개수 가비지 수집기 동시 마크-스윕 컬렉션 시간 가비지 수집기 병렬 컬렉션 수 가비지 수집기 병렬 컬렉션 시간 가비지 수집기 병렬 청소 컬렉션 수 가비지 수집기 병렬 청소 컬렉션 수 가비지 수집기 병렬 청소 컬렉션 표시-스윕 컬렉션 시간 가비지 수집기 병렬 배유 컬렉션 수 가비지 수집기 병렬 배유 수집 시간</block>
   <block id="97d56c15017ad32b1cbc85383d592281" category="summary">ECS 데이터 수집기 구성.</block>
   <block id="696067539a48ac7ca42724de79fbd051" category="doc">EMC ECS 데이터 수집기 구성</block>
-  <block id="0dd54ea5de1f0186d88f6171945bf17a" category="paragraph">이 데이터 수집기는 EMC ECS 스토리지 시스템에서 인벤토리 및 성능 데이터를 가져옵니다. 구성을 위해 데이터 수집기는 ECS 서버의 IP 주소와 관리 수준 도메인 계정을 필요로 합니다.</block>
   <block id="babd4a2879d509662ea2e8a9168f34ed" category="paragraph">Cloud Insights는 ECS 데이터 수집기에서 다음과 같은 인벤토리 정보를 가져옵니다. 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.</block>
   <block id="30edf70db68aa84f05d3e72326807b0c" category="cell">버킷</block>
-  <block id="f3d2ef1b407f9dac845144f7222446b0" category="list-text">ECS Management Console의 IP 주소입니다</block>
-  <block id="d53717de9f42bb927d66332c1b99aa0a" category="list-text">ECS 시스템의 관리 수준 도메인 계정입니다</block>
-  <block id="b28ad04cb96e374334fe66f0c126a953" category="list-text">포트 443(HTTPS). ECS 시스템에서 TCP 포트 443에 대한 아웃바운드 연결이 필요합니다.</block>
   <block id="c7ddbb8aa01975e2d488fdf90d356f2e" category="list-text">성능을 위해 ssh/scp 액세스를 위한 읽기 전용 사용자 이름과 암호를 사용합니다.</block>
   <block id="7f493bcc752a7f12df179d4529291e82" category="list-text">성능을 위해서는 포트 22가 필요합니다.</block>
   <block id="7a03f89966abe32a9145c5711baac2c6" category="cell">ECS 호스트</block>
   <block id="60103158e1fa8a921007c1692b656462" category="cell">ECS 시스템의 IP 주소 또는 정규화된 도메인 이름입니다</block>
   <block id="2ef0586f8254b68b62f3912e0765fb08" category="cell">ECS 호스트 포트</block>
   <block id="55f849af32f2bc9f6a84120627639721" category="cell">ECS 호스트와 통신하는 데 사용되는 포트입니다</block>
-  <block id="2e610591aff0a1797343c00ad6a93ae8" category="cell">ECS 공급업체 ID입니다</block>
-  <block id="b523f7997888942f06b8d3a5bcbc4a29" category="cell">ECS의 공급업체 ID입니다</block>
   <block id="0750f8ac8a07b8a8acba23993fc3de34" category="cell">ECS에 사용되는 암호입니다</block>
   <block id="2d74084218f04becb882422545c77d5f" category="cell">기본값은 360분입니다.</block>
   <block id="a5dfaed67b2749f907deb26db5abcb10" category="summary">일반 Cloud Insights 문제 해결 팁</block>
@@ -12794,4 +12788,10 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="530877d75874db688a349c68f4d664d6" category="cell">이벤트 내보내기 포드`kubectl-n NetApp-monitoring get pods의 이름을 검색합니다</block>
   <block id="40de8508a016cb1e936ce464cfc06e93" category="cell">GRIP 이벤트 - 수출자</block>
   <block id="60154ad86ed086052b09e30faded046b" category="cell">'{print $1}' awk</block>
+  <block id="51a7a0a9ece41f3000834202c4f9b529" category="paragraph">이 데이터 수집기는 EMC ECS 스토리지 시스템에서 인벤토리 및 성능 데이터를 가져옵니다. 구성을 위해 Data Collector에는 ECS 클러스터의 IP 주소 또는 호스트 이름과 사용자 이름 및 암호가 필요합니다.</block>
+  <block id="f62de35c42266dd92c1a10e3daf56fd2" category="list-text">ECS 클러스터의 IP 주소 또는 호스트 이름입니다</block>
+  <block id="2ed72e68497591d0803bef6bc9c16f79" category="list-text">ECS 시스템의 사용자 이름 및 암호</block>
+  <block id="4b10979e526e6c6ecbe9f247ba883305" category="list-text">포트 4443(HTTPS).  ECS 시스템의 TCP 포트 4443에 대한 아웃바운드 연결이 필요합니다.</block>
+  <block id="e3bd341282cc459a09900310d9ce8e73" category="cell">ECS 사용자 ID입니다</block>
+  <block id="b0ee45b6cf0875310e7eca0039f3378c" category="cell">ECS의 사용자 ID입니다</block>
 </blocks>
