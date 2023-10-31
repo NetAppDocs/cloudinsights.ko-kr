@@ -12807,4 +12807,8 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
 
 또는, 하나를 할 수도 있습니다 <block ref="eb03b2f692ebf826fa07016cc9fa15a6" category="inline-xref-macro-rx"></block> 및 <block ref="2be7be71447d2c340aab35ab29970e30" category="inline-xref-macro-rx"></block> 에이전트</block>
   <block id="548f0024784a56dbfee8711265bd0855" category="paragraph">FSx CLI 명령은 FSx가 API를 통해 금지하는 일부 용량 값을 검색합니다. Cloud Insights이 API를 통해 FSx 데이터를 검색하려고 하므로 Cloud Insights의 특정 용량 값(예: 스토리지 풀에 대한 값)이 FSx 자체에 있는 값과 다를 수 있습니다. 자세한 내용은 아마존 담당자에게 문의하십시오.</block>
+  <block id="2ec4305521a87758c3d2cf93b9fd5b14" category="cell">Cognos 보고서 일정 시간을 입력할 때 일정 시간에 "m"이 추가로 나타나는 경우가 있습니다. 예를 들어 시간을 "02:15 PM"으로 입력하면 "02:15 PMM"(또는 PMM)이라는 추가 문자를 추가할 수 있습니다. 바깥쪽을 클릭하면 "오전 2:15"로 변경됩니다.
+
+보고서를 저장할 수 있지만 저장된 보고서를 다시 열면 일정 시간에 AM 또는 PM을 입력했는지 여부에 관계없이 예약 시간이 오전(예: 오전)으로 표시됩니다.</block>
+  <block id="05b4ddcb7946bd7615ac3f1458e51d47" category="cell">예약 시간을 다시 입력하십시오. 전체 "AM" 또는 "PM" 문자를 입력하지 않도록 주의하십시오. "AM"에는 "A"를, "PM"에는 "P"를 입력하면 됩니다. 추가 문자가 표시되지 않으면 예약 시간이 올바르게 설정됩니다.</block>
 </blocks>
