@@ -12806,4 +12806,5 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
 ...
 
 또는, 하나를 할 수도 있습니다 <block ref="eb03b2f692ebf826fa07016cc9fa15a6" category="inline-xref-macro-rx"></block> 및 <block ref="2be7be71447d2c340aab35ab29970e30" category="inline-xref-macro-rx"></block> 에이전트</block>
+  <block id="548f0024784a56dbfee8711265bd0855" category="paragraph">FSx CLI 명령은 FSx가 API를 통해 금지하는 일부 용량 값을 검색합니다. Cloud Insights이 API를 통해 FSx 데이터를 검색하려고 하므로 Cloud Insights의 특정 용량 값(예: 스토리지 풀에 대한 값)이 FSx 자체에 있는 값과 다를 수 있습니다. 자세한 내용은 아마존 담당자에게 문의하십시오.</block>
 </blocks>
