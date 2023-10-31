@@ -528,9 +528,15 @@ kubectl get all -n <namespace> | grep -i psp (아무것도 발견되지 않았�
 | 두 개의 모니터링 운영자 Pod가 실행 중인 것을 볼 수 있는데, 하나는 netapp-ci-monitoring-operator-<pod>이고 다른 하나는 monitoring-operator-<pod>입니다. | 2023년 10월 12일부터 Cloud Insights은 사용자에게 더 나은 서비스를 제공하기 위해 운영자를 리팩토링했습니다. 변경 사항을 완전히 채택하려면 반드시 필요합니다 <<uninstalling,기존 연산자를 제거합니다>> 및 <<installing-the-netapp-kubernetes-monitoring-operator,새 장치를 장착하십시오>>. 
 
 
-| 내 Kubernetes 이벤트가 예기치 않게 Cloud Insights 보고에 대한 보고를 중단했습니다. | 이벤트 내보내기 포드`kubectl-n NetApp-monitoring get pods의 이름을 검색합니다 
+| 내 Kubernetes 이벤트가 예기치 않게 Cloud Insights 보고에 대한 보고를 중단했습니다. | 이벤트 내보내기 포드의 이름을 검색합니다.
 
+ `kubectl -n netapp-monitoring get pods |grep event-exporter |awk '{print $1}' |sed 's/event-exporter./event-exporter/`
 
-| GRIP 이벤트 - 수출자 | '{print $1}' awk 
+"netapp-ci-event-exporter" 또는 "event-exporter"여야 합니다.  그런 다음 모니터링 에이전트를 편집합니다 `kubectl -n netapp-monitoring edit agent`를 입력하고 log_file 의 값을 이전 단계에서 찾은 적절한 이벤트 내보내기 포드 이름을 반영하도록 설정합니다.  보다 구체적으로 log_file을 "/var/log/containers/netapp-ci-event-exporter.log" 또는 "/var/log/containers/event-exporter *.log"로 설정해야 합니다.
+
+    -key: log_file
+      값:
+      -/var/log/containers/netapp-ci-event-exporter *.log
+또는, 하나를 할 수도 있습니다 <<uninstalling,설치 제거>> 및 <<installing-the-netapp-kubernetes-monitoring-operator,다시 설치합니다>> 에이전트 
 |===
 추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].
