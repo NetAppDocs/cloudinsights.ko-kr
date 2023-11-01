@@ -12770,20 +12770,15 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="65a869cae61dbb29a2477a2c4b396c71" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 Flink 를 선택합니다.</block>
   <block id="a5436f2e1642a935e668be1ae1bc7cb4" category="list-text">Workload Security * Collector * 로 이동한 후 * Agents * 탭을 클릭합니다.</block>
   <block id="3db8e6e28be63b5639b42d1210ec94f9" category="list-text">Collector * 를 클릭하고 구성할 데이터 수집기를 선택합니다.</block>
-  <block id="4933fe8ec451e47e707dad28cf0d6a6f" category="summary">허용 목록에 파일 확장자를 추가하여 경고를 줄입니다</block>
   <block id="2b38e4e9371e68c324f4d975aeec0b8b" category="doc">허용된 파일 형식 정책</block>
-  <block id="e028554bdfbf2b31dfa2c86ea5c58f3b" category="paragraph">알려진 파일 확장명에 대한 랜섬웨어 공격이 감지되고 Alerts 화면에서 경고가 생성되는 경우 해당 파일 확장명을 화이트리스트로 설정하여 불필요한 경고를 방지할 수 있습니다.</block>
   <block id="66c0454949e8e45058f66b8dbe1d1a38" category="paragraph">Workload Security &gt; Policies * 로 이동한 후 _Allowed File Type Policies_tab으로 이동합니다.</block>
   <block id="8c06b62ca830efbad93bfb2ce294e0ef" category="paragraph"><block ref="8c06b62ca830efbad93bfb2ce294e0ef" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="36d54fae49a56a7a2d78ca70082b370b" category="paragraph">화이트리스트가 등록되면 해당 허용되는 파일 유형에 대한 랜섬웨어 공격 경고가 생성되지 않습니다. _allowed File Types_policy는 랜섬웨어 탐지에만 적용됩니다.</block>
-  <block id="0aad5fb8995241aab40da2f6461ed327" category="paragraph">예를 들어, 이름이 _test.txt_인 파일의 이름이 _test.txt.abc_로 변경되고 Workload Security가 _.abc_extension으로 인해 랜섬웨어 공격을 감지하는 경우 _.abc_extension을 화이트리스트할 수 있습니다. 화이트리스트 후에는 _.abc_extension을 가진 파일에 대해 랜섬웨어 공격이 더 이상 생성되지 않습니다.</block>
   <block id="b778d3252b5cc52999f0c844a033362f" category="paragraph">허용되는 파일 형식은 정확히 일치하는 파일(예: ".abc") 또는 식(예: ". * type", ".type *" 또는 " * type *")일 수 있습니다. ".a * c", ".p * f" 형식의 식은 지원되지 않습니다.</block>
   <block id="c0ea429a2fadacc206fdc8f17cfa492c" category="list-text">성능 수집을 위해 OpenStack Gnocchi 모듈을 설치하고 구성해야 합니다. Gnocchi 구성은 각 하이퍼바이저에 대한 nova.conf 파일을 편집한 다음 각 하이퍼바이저에서 Nova Compute 서비스를 다시 시작하여 수행합니다. 옵션 이름이 OpenStack의 다양한 릴리즈에서 변경되었습니다.</block>
   <block id="dfe1b74026ff6682b451240881e76be4" category="list-text">Gnocchi Performance Service용 8777</block>
   <block id="ef4b4f7d7c8a48dd95b30b14ab90dd62" category="section-title">향상된 워크로드 보안</block>
   <block id="ed2b4bf5978e7c4c0546efaff8756311" category="paragraph">워크로드 보안은 다음과 같이 개선되었습니다.</block>
   <block id="b1f51a36e1f83c62064c47e5488e10c9" category="list-text">* 액세스 거부 *: 워크로드 보안은 ONTAP와 통합되어 "액세스 거부" 이벤트를 수신하고 추가 분석 및 자동 응답 계층을 제공합니다.</block>
-  <block id="b96f76a4321a90cf4dd8cf2472f58624" category="list-text">화이트리스트 * 허용된 파일 유형 *: 알려진 파일 확장자에 대한 랜섬웨어 공격이 감지되면 불필요한 경고를 방지하기 위해 해당 파일 확장자를 화이트리스트할 수 있습니다. - <block ref="9ca779e4c57ed180231e35c02d12040d" category="inline-link-macro-rx"></block></block>
   <block id="23cda888e57eaac9d48f4167127da1b8" category="cell">내 Kubernetes 이벤트가 예기치 않게 Cloud Insights 보고에 대한 보고를 중단했습니다.</block>
   <block id="51a7a0a9ece41f3000834202c4f9b529" category="paragraph">이 데이터 수집기는 EMC ECS 스토리지 시스템에서 인벤토리 및 성능 데이터를 가져옵니다. 구성을 위해 Data Collector에는 ECS 클러스터의 IP 주소 또는 호스트 이름과 사용자 이름 및 암호가 필요합니다.</block>
   <block id="f62de35c42266dd92c1a10e3daf56fd2" category="list-text">ECS 클러스터의 IP 주소 또는 호스트 이름입니다</block>
@@ -12811,4 +12806,10 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
 
 보고서를 저장할 수 있지만 저장된 보고서를 다시 열면 일정 시간에 AM 또는 PM을 입력했는지 여부에 관계없이 예약 시간이 오전(예: 오전)으로 표시됩니다.</block>
   <block id="05b4ddcb7946bd7615ac3f1458e51d47" category="cell">예약 시간을 다시 입력하십시오. 전체 "AM" 또는 "PM" 문자를 입력하지 않도록 주의하십시오. "AM"에는 "A"를, "PM"에는 "P"를 입력하면 됩니다. 추가 문자가 표시되지 않으면 예약 시간이 올바르게 설정됩니다.</block>
+  <block id="ec6303682456657014f28b879941ffc3" category="inline-link-macro">허용되는 파일 형식</block>
+  <block id="a962ae55ac740140e0980c56c9ca3d02" category="list-text">* 허용 파일 유형 * : 알려진 파일 확장자에 대한 랜섬웨어 공격이 감지되면 해당 파일 확장자를 에 추가할 수 있습니다 <block ref="dc41f7077cede687c60abe45cd8114a8" category="inline-link-macro-rx"></block> 불필요한 경고를 방지하기 위한 목록</block>
+  <block id="f998abe6d6e1433185e617432fa562a7" category="summary">허용된 파일 형식 목록에 파일 확장명을 추가하여 경고를 줄입니다.</block>
+  <block id="3a0a3011be8f34f267c24177c748de10" category="paragraph">알려진 파일 확장명에 대한 랜섬웨어 공격이 감지되고 경고 화면에서 경고가 생성되는 경우 불필요한 경고를 방지하기 위해 해당 파일 확장명을 _allowed file types_list 에 추가할 수 있습니다.</block>
+  <block id="bdf27b4c983630ae6531f89136fe0963" category="paragraph">허용된 파일 유형_목록에 추가되면 해당 허용된 파일 유형에 대한 랜섬웨어 공격 경고가 생성되지 않습니다. _allowed File Types_policy는 랜섬웨어 탐지에만 적용됩니다.</block>
+  <block id="492f463a35ea215d77ae021c64cddb64" category="paragraph">예를 들어, 이름이 _test.txt_인 파일의 이름이 _test.txt.abc_로 변경되고 Workload Security가 _.abc_extension으로 인해 랜섬웨어 공격을 감지하는 경우 _.abc_extension을 _allowed file types_list에 추가할 수 있습니다. 목록에 추가된 후에는 _.abc_extension을 가진 파일에 대해 랜섬웨어 공격이 더 이상 생성되지 않습니다.</block>
 </blocks>
