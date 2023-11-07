@@ -23,7 +23,7 @@ Cloud Insights는 을 사용합니다 link:https://docs.influxdata.com/telegraf[
 
 Cloud Insights의 최신 Telegraf 버전은 * 1.24.0 * 입니다.
 
-Kubernetes에 설치하는 방법에 대한 자세한 내용은 를 참조하십시오 link:/task_config_telegraf_agent_k8s.html["이 페이지"].
+Kubernetes에 설치하는 방법에 대한 자세한 내용은 를 참조하십시오 link:task_config_telegraf_agent_k8s.html["이 페이지"].
 
 
 NOTE: 정확한 감사 및 데이터 보고를 위해 * NTP(Network Time Protocol) * 또는 * SNTP(Simple Network Time Protocol) * 를 사용하여 Agent 시스템의 시간을 동기화하는 것이 좋습니다.

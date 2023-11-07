@@ -12813,5 +12813,5 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="b85d0b41b181eb69881d2617c5514ba3" category="list-text">ssh, ontapi, http 등 세 개의 응용 프로그램이 할당된 "fsxadmin" 역할의 계정에 액세스할 수 있어야 합니다</block>
   <block id="702a15850842eff4dc2587a96c210640" category="list-text">포트 요구 사항: 443</block>
   <block id="6106de3fb9edc97d16b4426ca0ae0dc8" category="paragraph">FSx CLI 및 API 명령은 Cloud Insights ZAPI가 수집하지 않는 일부 용량 값을 검색하므로 Cloud Insights의 특정 용량 값(예: 스토리지 풀에 대한 값)은 FSx 자체에 있는 값과 다를 수 있습니다.</block>
-  <block id="283dda2d69780214459b88b24889f026" category="paragraph">Kubernetes에 설치하는 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="795cb2fef65468e8b6a28f3da1c0d62b" category="inline-link-macro-rx"></block>.</block>
+  <block id="6dac8d8f7e40ada8d5686e3e8192f90f" category="paragraph">Kubernetes에 설치하는 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="36dbd85d6f83f853e5478a62019a359b" category="inline-link-macro-rx"></block>.</block>
 </blocks>
