@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_install_manual_au.html 
-keywords: Acquisition Unit, AU, install, configure, Linux, add, remove, uninstall, delete, deleting, move, moving 
+keywords: Acquisition Unit, AU, install, configure, Linux, add, remove, uninstall, delete, deleting, move, moving, manual, AU, Patch 
 summary: AU 소프트웨어가 수동으로 업데이트되도록 Cloud Insights를 구성하여 사용자 환경에 설치된 소프트웨어를 보다 효과적으로 제어할 수 있습니다. 
 ---
 = 획득 장치 소프트웨어 수동 설치
@@ -27,14 +27,14 @@ AU 소프트웨어를 수동으로 다운로드하고 설치하려면 다음 단
 
 
 
-=== Linux에서 새 AU 설치 수행:
+== Linux에서 새 AU 설치 수행:
 
 . Cloud Insights에서 API 토큰을 생성합니다.
 +
 .. Admin > API Access * 로 이동하여 * + API Access Token * 을 선택합니다.
 +
 ... 쉽게 식별할 수 있는 * 이름 * 및 * 설명 * 을 설정합니다
-... 유형: * 획득 장치 *
+... 유형: * 획득 단위 * 와 * 데이터 수집 * 을 선택합니다
 ... 권한: * 읽기/쓰기 *
 ... 원하는 * 만료 * 및 * 자동 갱신 * 값을 선택합니다
 
@@ -109,68 +109,90 @@ image:Manual_AU_one_time_token_response.png[""]
 
 
 
-이때 AU 소프트웨어는 시스템에 설치되며 사용자 지정 사용자 및 그룹에서 액세스할 수 있습니다. 그러나 데이터 수집기를 추가할 수 있는 기능은 없습니다. 이 작업을 수동으로 수행하려면 datasources.war 파일을 적절한 위치에 복사해야 합니다.
+이때 AU 소프트웨어는 시스템에 설치되며 사용자 지정 사용자 및 그룹에서 액세스할 수 있습니다. 그러나 데이터 수집기를 추가할 수 있는 기능은 없습니다. 이 작업을 수동으로 수행하려면 다음 지침을 읽으십시오. 패치만 설치하려면 를 참조하십시오 <<downloading-a-patch,패치>> 섹션을 참조하십시오.
 
-. datasources.war의 소스 위치로 이동하여 zip 파일을 확인합니다.
-+
-....
-cd /opt/netapp/cloudinsights/acq
-ls -al
-…
--rw-rw----  1 test-user1 test-group1 282103053 Mar 12 12:27 datasources-war-<version>>.zip
-…
-....
-. 기본 datasources.war 폴더에 대한 권한을 확인합니다.
-+
-....
-ls -al /var/lib/netapp/cloudinsights/acq/
-…
-drwxrwx--- 2 test-user1 test-group-1  4096 Feb 16 10:10 datasources.war
-…
-....
+
+
+== 데이터 수집기 수동 설치
+
+/collector/patch/datasourceswar/최신 API를 사용하여 최신 datasources.war를 다운로드합니다.
+
+image:API_Manual_Download_datasources.png["최신 datasources.war를 검색하는 API"]
+
+참고: 최신 버전을 다운로드하지 않는 경우 NetApp에서 다운로드할 버전을 지정합니다.
+
+파일 다운로드를 클릭합니다. AU 시스템 이외의 시스템에서 이러한 단계를 수행하는 경우 다운로드한 datasources.war zip 번들을 AU 시스템에 복사합니다.
+
+datasources.war zip 번들이 /var/lib/netapp/cloudinsights/acq/download 디렉토리에 복사되었는지 확인합니다
+
+/var/lib/netapp/cloudinsights/acq/download 디렉토리에서 datasources.war로 이동하여 zip 파일을 확인합니다.
+
 . 다음 단계를 수행하려면 사용자 지정 사용자로 전환(또는 루트 로그아웃 및 로그인)해야 합니다.
 +
  su <custom user>
 +
-.. 참고: 기본 "csys" 사용자 및 그룹을 사용하는 경우 이 단계를 수행할 필요가 없습니다.
-.. 참고: 사용자 지정 사용자는 AU 설치 중에 cloudinsights-install.sh 에 제공한 사용자 지정 그룹의 구성원일 수 있으며, AU 설치 중에 제공한 사용자 지정 사용자와 같거나 다를 수 있습니다.
+참고: 기본 "csys" 사용자 및 그룹을 사용하는 경우 이 단계를 수행할 필요가 없습니다.
 
++
+참고: 사용자 지정 사용자는 AU 설치 중에 cloudinsights-install.sh 에 제공한 사용자 지정 그룹의 구성원일 수 있으며, AU 설치 중에 제공한 사용자 지정 사용자와 같거나 다를 수 있습니다.
 
-. 작업 폴더를 만들고 해당 폴더에 대해 동일한 권한으로 조정합니다.
+. 다음을 수행합니다.
 +
 ....
-mkdir /var/lib/netapp/cloudinsights/acq/download
-chmod 770 /var/lib/netapp/cloudinsights/acq/download
-ls -al /var/lib/netapp/cloudinsights/acq
+chmod 770 /var/lib/netapp/cloudinsights/acq/download/datasources-war-<version>.zip
+ls -al /var/lib/netapp/cloudinsights/acq/download
 …
-drwxrwx--- 2 test-user2 test-group-1  4096 Feb 16 10:10 datasources.war
+drwxrwx--- 2 test-user2 test-group-1  4096 Feb 16 10:10 datasources-war-<version>.zip
 …
 ....
 +
-.. 참고: "csys" 사용자 및 그룹을 사용하는 경우 위의 출력에 표시됩니다.
+참고: "csys" 사용자 및 그룹을 사용하는 경우 위의 출력에 표시됩니다.
+
++
+참고: 다른 사용자 지정 사용자를 사용하여 설치할 계획이라면 그룹 권한이 소유자와 그룹 모두에 대해 읽기 및 쓰기로 설정되어 있는지 확인합니다(chmod 660 ....).
+
+. AU를 다시 시작합니다. Cloud Insights에서 관측성 > 수집기 로 이동하고 Acquisition Units (획득 단위) 탭을 선택합니다. AU의 오른쪽에 있는 "세 개의 점" 메뉴에서 다시 시작 을 선택합니다.
 
 
-. datasources-war-<version>.zip_을 작업 폴더로 복사합니다. 예를 들면 다음과 같습니다.
+
+
+== 패치 다운로드
+
+/collector/patch/file/{version} API를 사용하여 패치를 다운로드합니다.
+
+image:API_Manual_Download_patch.png["패치를 검색할 API입니다"]
+
+참고: 다운로드할 버전을 NetApp로 확인합니다.
+
+파일 다운로드를 클릭합니다. AU 시스템 이외의 시스템에서 이러한 단계를 수행하는 경우 다운로드한 패치 zip 번들을 AU 시스템에 복사합니다.
+
+패치 zip 번들이 /var/lib/netapp/cloudinsights/acq/download 디렉토리에 복사되었는지 확인합니다
+
+패치의 /var/lib/netapp/cloudinsights/acq/download 디렉토리로 이동하여 .zip 파일을 확인합니다.
+
+. 다음 단계를 수행하려면 사용자 지정 사용자로 전환(또는 루트 로그아웃 및 로그인)해야 합니다.
 +
- cp /opt/netapp/cloudinsights/acq/ TBD/var/lib/netapp/cloudinsights/acq/download
-. 다운로드 폴더로 변경하고 파일의 압축을 풉니다.
+ su <custom user>
 +
- cd /var/lib/netapp/cloudinsights/acq/download
+참고: 기본 "csys" 사용자 및 그룹을 사용하는 경우 이 단계를 수행할 필요가 없습니다.
+
++
+참고: 사용자 지정 사용자는 AU 설치 중에 cloudinsights-install.sh 에 제공한 사용자 지정 그룹의 구성원일 수 있으며, AU 설치 중에 제공한 사용자 지정 사용자와 같거나 다를 수 있습니다.
+
+. 다음을 수행합니다.
 +
 ....
-unzip datasources-war-<version>.zip -d /var/lib/netapp/cloudinsights/acq/datasources.war/
-ls -al /var/lib/netapp/cloudinsights/acq/datasources.war
+chmod 770 /var/lib/netapp/cloudinsights/acq/download/<patch_file_name>.zip
+ls -al /var/lib/netapp/cloudinsights/acq/download
+…
+drwxrwx--- 2 test-user2 test-group-1  4096 Feb 16 10:10 <patch_file_name>.zip
+…
 ....
 +
-.. 모든 파일에 대해 사용자, 그룹 및 권한이 올바른지 확인합니다.
+참고: "csys" 사용자 및 그룹을 사용하는 경우 위의 출력에 표시됩니다.
+
 +
- -rw-rw---- 1 test-user2 test-group1  3420067 Mar 10 17:20 netapp_ontap.jar
+참고: 다른 사용자 지정 사용자를 사용하여 설치할 계획이라면 그룹 권한이 소유자와 그룹 모두에 대해 읽기 및 쓰기로 설정되어 있는지 확인합니다(chmod 660 ....).
 
-
-. 참고: 다른 사용자 지정 사용자를 사용하여 AU를 등록하려는 경우 그룹 권한이 소유자와 그룹 모두에 대해 읽기 및 쓰기로 설정되어 있는지 확인합니다(_chmod 660 ....).
-. AU를 다시 시작합니다.
-+
-.. Cloud Insights에서 * 관측성 > 수집기 * 로 이동하고 * Acquisition Units * 탭을 선택합니다. AU 오른쪽의 "점 3개" 메뉴에서 _Restart_를 선택합니다.
-
-
+. AU를 다시 시작합니다. Cloud Insights에서 관측성 > 수집기 로 이동하고 Acquisition Units (획득 단위) 탭을 선택합니다. AU의 오른쪽에 있는 "세 개의 점" 메뉴에서 다시 시작 을 선택합니다.
 

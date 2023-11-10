@@ -10235,7 +10235,6 @@
   <block id="f472c9f862f3493f5a8208582f693c5f" category="list-text">Cloud Insights에서 API 토큰을 생성합니다.</block>
   <block id="a2bab409e871524b831f0d1ac1686378" category="list-text">Admin &gt; API Access * 로 이동하여 * + API Access Token * 을 선택합니다.</block>
   <block id="c3a742ff169c1de23c1c540f84b7ba61" category="list-text">쉽게 식별할 수 있는 * 이름 * 및 * 설명 * 을 설정합니다</block>
-  <block id="095edbf2eeed607f4203d4060d6bebab" category="list-text">유형: * 획득 장치 *</block>
   <block id="c76ff4f2fa2b9f076ccfd7a6d6b3ce57" category="list-text">권한: * 읽기/쓰기 *</block>
   <block id="e340f8e9c364a8bf77e13de322139268" category="list-text">원하는 * 만료 * 및 * 자동 갱신 * 값을 선택합니다</block>
   <block id="438e82c6edd42a4c9ff5f88696126a91" category="list-text">생성된 API 액세스 토큰을 복사합니다. 창을 닫으려면 이 단계를 수행해야 합니다.</block>
@@ -10266,18 +10265,10 @@
   <block id="b03ba9c0b65f3d61c05a13e6e0556f6e" category="list-text">다음을 실행하여 일회성 토큰 및 설치 관리자 버전을 환경 변수로 내보냅니다.</block>
   <block id="f355abfc0309011b2480d033a0bd5a7c" category="list-text">다음을 실행하여 사용자 정의 사용자 및 그룹과 함께 CI를 설치합니다.</block>
   <block id="c2edf0fde07151d96c99ce933b5db7fc" category="paragraph">참고: 사용자 지정 사용자 및 그룹을 사용하지 않으려면 기본 "csys" 사용자 및 그룹을 사용할 수 있습니다.  이 경우 위의 설치 명령을 실행하되 사용자 및 그룹을 지정하지 마십시오.</block>
-  <block id="442acde7a27750391de6a8358d813ebf" category="paragraph">이때 AU 소프트웨어는 시스템에 설치되며 사용자 지정 사용자 및 그룹에서 액세스할 수 있습니다. 그러나 데이터 수집기를 추가할 수 있는 기능은 없습니다. 이 작업을 수동으로 수행하려면 datasources.war 파일을 적절한 위치에 복사해야 합니다.</block>
-  <block id="aa65691c6297c950fcee712307bb1a91" category="list-text">datasources.war의 소스 위치로 이동하여 zip 파일을 확인합니다.</block>
-  <block id="a97626ad22c898bbe0080f7f7799f0e0" category="list-text">기본 datasources.war 폴더에 대한 권한을 확인합니다.</block>
   <block id="43b4370cb1861295e2cf1d82e2cf71ce" category="list-text">다음 단계를 수행하려면 사용자 지정 사용자로 전환(또는 루트 로그아웃 및 로그인)해야 합니다.</block>
   <block id="c228e145e9e61000d0f54dd253874651" category="list-text">참고: 기본 "csys" 사용자 및 그룹을 사용하는 경우 이 단계를 수행할 필요가 없습니다.</block>
   <block id="579e7c70138d11bebf2d5787d6df5c96" category="list-text">참고: 사용자 지정 사용자는 AU 설치 중에 cloudinsights-install.sh 에 제공한 사용자 지정 그룹의 구성원일 수 있으며, AU 설치 중에 제공한 사용자 지정 사용자와 같거나 다를 수 있습니다.</block>
-  <block id="802dfb282c205a5ce3de537f88b12f68" category="list-text">작업 폴더를 만들고 해당 폴더에 대해 동일한 권한으로 조정합니다.</block>
   <block id="93fb085f87c8ff2c36aa100fa213c9c8" category="list-text">참고: "csys" 사용자 및 그룹을 사용하는 경우 위의 출력에 표시됩니다.</block>
-  <block id="1c4e1e0caf2fa69be4c90526b51f5f8e" category="list-text">datasources-war-&lt;version&gt;.zip_을 작업 폴더로 복사합니다. 예를 들면 다음과 같습니다.</block>
-  <block id="bf52ab28c85a4589393e5d683a2d027e" category="list-text">다운로드 폴더로 변경하고 파일의 압축을 풉니다.</block>
-  <block id="0fcc45fcd734d4323f5a5d9ea3360815" category="list-text">모든 파일에 대해 사용자, 그룹 및 권한이 올바른지 확인합니다.</block>
-  <block id="c894bcc14d41b007df81ed9d077a249c" category="list-text">AU를 다시 시작합니다.</block>
   <block id="c35a33c9875991494585fbfbed175784" category="paragraph">를 클릭합니다 <block ref="f0d3e43e41da35ba651820db811551cd" category="inline-link-macro-rx"></block> 설치 및 구성을 사용자 지정할 수 있습니다.</block>
   <block id="8d44687186d37f705aa7f2282722aeb5" category="sidebar">모니터링 오퍼레이터 옵션</block>
   <block id="8b673d5f702e58efd947465ead5c9647" category="cell">kubbe-state-metrics 구축을 위한 CPU 제한입니다</block>
@@ -12737,8 +12728,6 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="5fbd88686e262efcf8b00d22f5dffa35" category="list-text">워크로드 보안 메뉴에서 다음을 클릭합니다.
 * Collectors &gt; 사용자 디렉토리 수집기 &gt; + 사용자 디렉토리 수집기 * 를 선택하고 * LDAP 디렉토리 서버 * 를 선택합니다</block>
   <block id="4af3803e0bed14e15bd7e0f351022969" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 영술 을 선택합니다.</block>
-  <block id="232088b7a66f0b9f18bd94f0ff1ccbd9" category="list-text">참고: 다른 사용자 지정 사용자를 사용하여 AU를 등록하려는 경우 그룹 권한이 소유자와 그룹 모두에 대해 읽기 및 쓰기로 설정되어 있는지 확인합니다(_chmod 660 ....).</block>
-  <block id="d9089236da8f5cf946e4497f9e886125" category="list-text">Cloud Insights에서 * 관측성 &gt; 수집기 * 로 이동하고 * Acquisition Units * 탭을 선택합니다. AU 오른쪽의 "점 3개" 메뉴에서 _Restart_를 선택합니다.</block>
   <block id="e54adc338b6508055df6c2c6fb796a92" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 아파치를 선택합니다.</block>
   <block id="658caf28e4d04a4c56e83fd4c34621bd" category="list-text">여러 데이터 수집기에 대한 정보를 동시에 편집할 수 있습니다. 관측성 &gt; 수집기 * 페이지에서 각 항목의 왼쪽 확인란을 선택하고 * Bulk Actions * 버튼을 클릭하여 수정할 데이터 수집기를 선택합니다. 편집 * 을 선택하고 필요한 필드를 수정합니다.</block>
   <block id="a1093e0f58751f9a01960a1fbf7beb53" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 멤캐시드 를 선택합니다.</block>
@@ -12815,4 +12804,26 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="6106de3fb9edc97d16b4426ca0ae0dc8" category="paragraph">FSx CLI 및 API 명령은 Cloud Insights ZAPI가 수집하지 않는 일부 용량 값을 검색하므로 Cloud Insights의 특정 용량 값(예: 스토리지 풀에 대한 값)은 FSx 자체에 있는 값과 다를 수 있습니다.</block>
   <block id="6dac8d8f7e40ada8d5686e3e8192f90f" category="paragraph">Kubernetes에 설치하는 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="36dbd85d6f83f853e5478a62019a359b" category="inline-link-macro-rx"></block>.</block>
   <block id="4f39aea7decea72af93c7cb4ba3fe487" category="admonition">Cloud Insights Federal Edition을 사용하는 경우 설치 및 구성 지침이 이 페이지의 지침과 다를 수 있습니다. Cloud Insights의 지침에 따라 NetApp Kubernetes 모니터링 운영자를 설치합니다.</block>
+  <block id="a5e641ea50deeae492ae44180a6c1cd9" category="list-text">유형: * 획득 단위 * 와 * 데이터 수집 * 을 선택합니다</block>
+  <block id="156e10596fdc76ee5300bab931d89c0f" category="inline-xref">패치</block>
+  <block id="1b61043ff027934bc2900e3c686978de" category="paragraph">이때 AU 소프트웨어는 시스템에 설치되며 사용자 지정 사용자 및 그룹에서 액세스할 수 있습니다. 그러나 데이터 수집기를 추가할 수 있는 기능은 없습니다. 이 작업을 수동으로 수행하려면 다음 지침을 읽으십시오. 패치만 설치하려면 를 참조하십시오 <block ref="40c0527ef35e12c3a3ce0496a70ee226" category="inline-xref-macro-rx"></block> 섹션을 참조하십시오.</block>
+  <block id="7235d692fc62fcacd964ca3ad6df04b4" category="section-title">데이터 수집기 수동 설치</block>
+  <block id="afa6999c343d1ebcba786b51f19dd530" category="paragraph">/collector/patch/datasourceswar/최신 API를 사용하여 최신 datasources.war를 다운로드합니다.</block>
+  <block id="c627c3d68517a1230074d11fcf8e07e0" category="inline-image-macro">최신 datasources.war를 검색하는 API</block>
+  <block id="bbfdaaee0b61ad57c8df04fd101b7d16" category="paragraph"><block ref="bbfdaaee0b61ad57c8df04fd101b7d16" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3c1ab1322fbfe20363f4fc51283afd1d" category="paragraph">참고: 최신 버전을 다운로드하지 않는 경우 NetApp에서 다운로드할 버전을 지정합니다.</block>
+  <block id="00945739bcbd26c8c0d12c48597c0dbb" category="paragraph">파일 다운로드를 클릭합니다. AU 시스템 이외의 시스템에서 이러한 단계를 수행하는 경우 다운로드한 datasources.war zip 번들을 AU 시스템에 복사합니다.</block>
+  <block id="efe48ed5576d7a3ea1584a18c0c39de9" category="paragraph">datasources.war zip 번들이 /var/lib/netapp/cloudinsights/acq/download 디렉토리에 복사되었는지 확인합니다</block>
+  <block id="5edf51309b0e54b161dde9f3f2dbe815" category="paragraph">/var/lib/netapp/cloudinsights/acq/download 디렉토리에서 datasources.war로 이동하여 zip 파일을 확인합니다.</block>
+  <block id="ed7dc5789cb36687315d95140bf88b49" category="list-text">다음을 수행합니다.</block>
+  <block id="60b0ec4bd2a387eb3da948b9a799f786" category="paragraph">참고: 다른 사용자 지정 사용자를 사용하여 설치할 계획이라면 그룹 권한이 소유자와 그룹 모두에 대해 읽기 및 쓰기로 설정되어 있는지 확인합니다(chmod 660 ....).</block>
+  <block id="9acc35fb262bf83f278335070c7ea2f2" category="list-text">AU를 다시 시작합니다. Cloud Insights에서 관측성 &gt; 수집기 로 이동하고 Acquisition Units (획득 단위) 탭을 선택합니다. AU의 오른쪽에 있는 "세 개의 점" 메뉴에서 다시 시작 을 선택합니다.</block>
+  <block id="57858de47985c55285f0cbb5890decfc" category="section-title">패치 다운로드</block>
+  <block id="fc5e990e77fa1bad66c2b07f217c85ab" category="paragraph">/collector/patch/file/{version} API를 사용하여 패치를 다운로드합니다.</block>
+  <block id="be2277f73c347adaa72509bcb1829517" category="inline-image-macro">패치를 검색할 API입니다</block>
+  <block id="0c80703f9063a302ebd010cfe3b646e3" category="paragraph"><block ref="0c80703f9063a302ebd010cfe3b646e3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="de0ee35fb580f6913af161cbc6c1cc65" category="paragraph">참고: 다운로드할 버전을 NetApp로 확인합니다.</block>
+  <block id="b20aea1fa1664bcc048770ea0e008918" category="paragraph">파일 다운로드를 클릭합니다. AU 시스템 이외의 시스템에서 이러한 단계를 수행하는 경우 다운로드한 패치 zip 번들을 AU 시스템에 복사합니다.</block>
+  <block id="3e7f4643e7c9ebf9318c59a568b2521c" category="paragraph">패치 zip 번들이 /var/lib/netapp/cloudinsights/acq/download 디렉토리에 복사되었는지 확인합니다</block>
+  <block id="9cb12f64263025528c33b8d045cd0c4a" category="paragraph">패치의 /var/lib/netapp/cloudinsights/acq/download 디렉토리로 이동하여 .zip 파일을 확인합니다.</block>
 </blocks>
