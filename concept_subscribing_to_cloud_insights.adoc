@@ -113,7 +113,7 @@ Cloud Insights의 가격은 * 관리형 단위 * 입니다. 관리되는 유닛�
 
 * 관리 유닛 1개 = 호스트 2개(가상 또는 물리적 시스템)
 * 1 관리 유닛 = 4TiB의 물리적 디스크 또는 가상 디스크 포맷 안 됨 용량
-* 1개의 관리형 유닛 = 일부 보조 스토리지의 포맷되지 않은 용량 40TiB(AWS S3, Cohesity SmartFiles, Dell EMC Data Domain, Dell EMC ECS, Hitachi Content Platform, IBM Cleversafe, NetApp StorageGRID)
+* 1개의 관리형 유닛 = 일부 보조 스토리지의 포맷되지 않은 용량 40TiB(AWS S3, Cohesity SmartFiles, Dell EMC Data Domain, Dell EMC ECS, Hitachi Content Platform, IBM Cleversafe, NetApp StorageGRID, Rubrik 포함.
 * 관리 유닛 1개 = Kuberentes의 vCPU 4개
 
 

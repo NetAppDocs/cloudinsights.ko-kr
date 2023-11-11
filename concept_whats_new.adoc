@@ -25,6 +25,33 @@ NOTE: 이러한 기능 중 일부는 Cloud Insights Federal Edition에서 사용
 
 
 
+== 2023년 11월
+
+
+
+=== 스토리지 노드 지원 정보입니다
+
+스토리지 노드 랜딩 페이지에서 _User Data_ 섹션은 지원 제공 서비스, 현재 상태, 지원 상태 및 보증 종료 날짜에 대한 정보를 한 눈에 제공합니다. 현재 Cloud Insights는 NetApp 장치에 대해서만 이 정보를 자동 게시합니다. 또한 이러한 지원 필드는 주석이므로 쿼리 및 대시보드에서 사용할 수 있습니다.
+
+image:StorageNodeSupportData.png["스토리지 노드 지원 정보입니다"]
+
+
+
+=== VMware 태그를 Cloud Insights 주석에 매핑합니다
+
+를 클릭합니다 link:task_dc_vmware.html#mapping-vmware-tags-to-cloud-insights-annotations["VMware"] Data Collector를 사용하면 VMware에 구성된 동일한 이름의 태그로 Cloud Insights 텍스트 주석을 채울 수 있습니다.
+
+
+
+=== FOS 9.1.1c 이상 펌웨어에 대한 Brocade CLI Collector 안정성 향상
+
+9.1.1c 펌웨어를 실행하는 일부 Brocade 파이버 채널 스위치에서 특정 CLI 명령의 출력 앞에 "mott" 로그인 배너 텍스트 또는 기본 암호 변경에 대한 사용자 경고가 표시될 수 있습니다. Brocade CLI Collector는 이러한 두 가지 유형의 불필요한 텍스트를 무시하도록 개선되었습니다.
+
+이 개선 사항 이전에는 가상 패브릭이 없는 FOS 9.1.1c 스위치만 이 컬렉터 유형으로 검색할 수 있었습니다.
+
+'''
+
+
 == 2023년 10월
 
 

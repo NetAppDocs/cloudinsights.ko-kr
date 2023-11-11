@@ -12664,7 +12664,6 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="3fd4ae48fb6a82b317e55d474c186cee" category="list-text">기본 도메인으로 액세스 제한: 기본 도메인은 Cloud Insights 환경 계정 소유자가 사용하는 도메인입니다. 이러한 도메인은 항상 액세스할 수 있습니다.</block>
   <block id="846c4bffd2bae99bec40857d4f18da12" category="list-text">기본 및 지정한 도메인으로 액세스를 제한합니다. 기본 도메인 외에 Cloud Insights 환경에 액세스할 수 있는 모든 도메인을 나열합니다.</block>
   <block id="d604b89dedd622b0113a230ac1a109cc" category="paragraph"><block ref="d604b89dedd622b0113a230ac1a109cc" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1a67db23e86df970f58242b726cddbe4" category="list-text">1개의 관리형 유닛 = 일부 보조 스토리지의 포맷되지 않은 용량 40TiB(AWS S3, Cohesity SmartFiles, Dell EMC Data Domain, Dell EMC ECS, Hitachi Content Platform, IBM Cleversafe, NetApp StorageGRID)</block>
   <block id="b0ec3d3ab3b33bd69418a7bd9e4d8f9e" category="section-title">2023년 10월</block>
   <block id="e76d326e7377a93bd9d473077ecdd257" category="section-title">지정된 도메인에 대한 액세스를 제한합니다</block>
   <block id="e391d7f1ca15dcf0f9409952796c6e9f" category="inline-link-macro">Cloud Insights 액세스를 제한합니다</block>
@@ -12826,4 +12825,20 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="b20aea1fa1664bcc048770ea0e008918" category="paragraph">파일 다운로드를 클릭합니다. AU 시스템 이외의 시스템에서 이러한 단계를 수행하는 경우 다운로드한 패치 zip 번들을 AU 시스템에 복사합니다.</block>
   <block id="3e7f4643e7c9ebf9318c59a568b2521c" category="paragraph">패치 zip 번들이 /var/lib/netapp/cloudinsights/acq/download 디렉토리에 복사되었는지 확인합니다</block>
   <block id="9cb12f64263025528c33b8d045cd0c4a" category="paragraph">패치의 /var/lib/netapp/cloudinsights/acq/download 디렉토리로 이동하여 .zip 파일을 확인합니다.</block>
+  <block id="1c5c258274f71ebb61b16a0e0935d305" category="list-text">1개의 관리형 유닛 = 일부 보조 스토리지의 포맷되지 않은 용량 40TiB(AWS S3, Cohesity SmartFiles, Dell EMC Data Domain, Dell EMC ECS, Hitachi Content Platform, IBM Cleversafe, NetApp StorageGRID, Rubrik 포함.</block>
+  <block id="fb784db76f57bc935639ba5340089d77" category="section-title">2023년 11월</block>
+  <block id="1cbf46f257da65cfaddea13008fd61b1" category="section-title">스토리지 노드 지원 정보입니다</block>
+  <block id="13914928279d372f0f0a3086f0823ccd" category="paragraph">스토리지 노드 랜딩 페이지에서 _User Data_ 섹션은 지원 제공 서비스, 현재 상태, 지원 상태 및 보증 종료 날짜에 대한 정보를 한 눈에 제공합니다. 현재 Cloud Insights는 NetApp 장치에 대해서만 이 정보를 자동 게시합니다. 또한 이러한 지원 필드는 주석이므로 쿼리 및 대시보드에서 사용할 수 있습니다.</block>
+  <block id="135a3d8d94bbc8eb1cd03dbd8fa28277" category="paragraph"><block ref="135a3d8d94bbc8eb1cd03dbd8fa28277" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad437072c1980f7cddeaf25e082880bb" category="section-title">VMware 태그를 Cloud Insights 주석에 매핑합니다</block>
+  <block id="b67ffcdf52573a01af5e6400d8043174" category="paragraph">를 클릭합니다 <block ref="eb8043f75c4f74e4780785affa0e63c3" category="inline-link-macro-rx"></block> Data Collector를 사용하면 VMware에 구성된 동일한 이름의 태그로 Cloud Insights 텍스트 주석을 채울 수 있습니다.</block>
+  <block id="02892541231ed9b9797890da851659d1" category="section-title">FOS 9.1.1c 이상 펌웨어에 대한 Brocade CLI Collector 안정성 향상</block>
+  <block id="f451a3db1d946e0e6f7a6faff75241f4" category="paragraph">9.1.1c 펌웨어를 실행하는 일부 Brocade 파이버 채널 스위치에서 특정 CLI 명령의 출력 앞에 "mott" 로그인 배너 텍스트 또는 기본 암호 변경에 대한 사용자 경고가 표시될 수 있습니다. Brocade CLI Collector는 이러한 두 가지 유형의 불필요한 텍스트를 무시하도록 개선되었습니다.</block>
+  <block id="08cc9fe40f6d675ceb9852acf6cb4d2d" category="paragraph">이 개선 사항 이전에는 가상 패브릭이 없는 FOS 9.1.1c 스위치만 이 컬렉터 유형으로 검색할 수 있었습니다.</block>
+  <block id="fdbc837080bf746694718923941b3ca6" category="section-title">VMware 태그를 Cloud Insights 주석에 매핑</block>
+  <block id="556f5b9e77a7546a1dbeab74aa1190e0" category="paragraph">VMware 데이터 수집기를 사용하면 Cloud Insights 주석에 VMware에 구성된 태그를 채울 수 있습니다. 주석의 이름은 VMware 태그와 동일하게 지정해야 합니다. Cloud Insights는 항상 같은 이름의 텍스트 유형 주석을 채우고 다른 유형의 주석(숫자, 부울 등)을 채우기 위한 "최선의 시도"를 만듭니다. 주석이 다른 유형이고 데이터 수집기가 주석을 채우지 못할 경우 주석을 제거하고 텍스트 유형으로 다시 생성해야 할 수 있습니다.</block>
+  <block id="8354fa58be11dc6519c7b2d92ba17795" category="paragraph">VMware 태그는 대소문자를 구분하지만 Cloud Insights 태그는 대소문자를 구분하지 않습니다. 따라서 Cloud Insights에서 "소유자"라는 주석을 생성하고 VMware에서 "소유자", "소유자" 및 "소유자"라는 태그를 생성하는 경우 이러한 모든 "소유자" 변형은 Cloud Insight의 "소유자" 주석에 매핑됩니다.</block>
+  <block id="f528aa737a09ffef3755a1a747557c7a" category="list-text">Cloud Insights는 현재 NetApp 장치에 대한 지원 정보만 자동 게시합니다.</block>
+  <block id="8455a8bde7347555ff461cd652af2821" category="list-text">이 지원 정보는 주석 형식으로 유지되므로 이를 쿼리하거나 대시보드에서 사용할 수 있습니다.</block>
+  <block id="8ed3dc52c7734ad3388658bf20175200" category="list-text">사용자가 주석 값을 덮어쓰거나 비우는 경우 Cloud Insights가 하루에 한 번 주석을 업데이트할 때 값이 다시 자동 채워집니다.</block>
 </blocks>
