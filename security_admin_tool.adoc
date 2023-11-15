@@ -48,8 +48,8 @@ SecurityAdmin 도구를 사용하면 Cloud Insights에 대한 보안 옵션을 �
 AU 설치 후 다음 위치 중 하나에 있는 획득 장치 시스템에서 SecurityAdmin 도구를 찾을 수 있습니다.
 
 ....
-Windows - C:\Program Files\SANscreen\securityadmin\bin\securityadmin.bat
-Linux - /bin/oci-securityadmin.sh
+Windows: C:\Program Files\Cloud Insights\Acquisition Unit\acq\securityadmin\bin\securityadmin.bat
+Linux: /opt/netapp/cloudinsights/securityadmin/bin/securityadmin.sh
 ....
 
 
@@ -70,8 +70,8 @@ image:SecurityAdminMenuChoices.png["SecurityAdmin 도구(Linux) 옵션"]
 
 +
 ....
-Windows - C:\Program Files\SANscreen\backup\vault
-Linux - /var/log/netapp/oci/backup/vault
+Windows: C:\Program Files\Cloud Insights\Acquisition Unit\backup\vault
+Linux: /var/log/netapp/cloudinsights/backup/vault
 ....
 +
 볼트 백업은 중요한 정보를 포함하기 때문에 안전하게 유지하는 것이 좋습니다.
