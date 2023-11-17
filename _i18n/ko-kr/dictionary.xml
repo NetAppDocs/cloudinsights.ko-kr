@@ -12841,4 +12841,23 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="f528aa737a09ffef3755a1a747557c7a" category="list-text">Cloud Insights는 현재 NetApp 장치에 대한 지원 정보만 자동 게시합니다.</block>
   <block id="8455a8bde7347555ff461cd652af2821" category="list-text">이 지원 정보는 주석 형식으로 유지되므로 이를 쿼리하거나 대시보드에서 사용할 수 있습니다.</block>
   <block id="8ed3dc52c7734ad3388658bf20175200" category="list-text">사용자가 주석 값을 덮어쓰거나 비우는 경우 Cloud Insights가 하루에 한 번 주석을 업데이트할 때 값이 다시 자동 채워집니다.</block>
+  <block id="b63d58d10a7cf952ba50c71631f55b80" category="section-title">워크로드 보안: Collector를 일시 중지/다시 시작합니다</block>
+  <block id="84a9e424bdf106d03d3d28925f9d139f" category="paragraph">워크로드 보안에서 수집기가 _running_or_Error_state인 경우 데이터 수집기를 일시 중지할 수 있습니다. 수집기에 대한 "세 개의 점" 메뉴를 열고 일시 중지를 선택합니다. Collector가 일시 중지되는 동안 ONTAP에서 수집된 데이터는 없고 Collector에서 ONTAP로 전송되는 데이터는 없습니다. 다시 수집을 시작하려면 다시 시작을 선택하십시오.</block>
+  <block id="27f986eca60850ba6afaf4deb6c8be29" category="section-title">데이터 수집기 재생 - 일시 중지</block>
+  <block id="fc0a37407f79a45598558116e07830ba" category="paragraph">이제 컬렉터의 kebab 메뉴에 2개의 새 작업이 표시됩니다(일시 중지 및 다시 시작).</block>
+  <block id="a1f56413bb240260818b1874baafc3b6" category="paragraph">Data Collector가 _running_or_Error_state인 경우 수집을 일시 중지할 수 있습니다. 수집기에 대한 "세 개의 점" 메뉴를 열고 일시 중지를 선택합니다. Collector가 일시 중지되는 동안 ONTAP에서 수집된 데이터는 없고 Collector에서 ONTAP로 전송되는 데이터는 없습니다. 즉, Fpolicy 이벤트가 ONTAP에서 데이터 수집기로, 그리고 거기서 Cloud Insights로 전달되지 않습니다.</block>
+  <block id="12a77ef251456c14c7516a531e07f62b" category="paragraph">Collector가 일시 중지된 동안 ONTAP에 새 볼륨 등이 생성되면 워크로드 보안이 데이터를 수집하지 않고 해당 볼륨 등이 대시보드나 테이블에 반영되지 않습니다.</block>
+  <block id="01abfc750a0c942167651c40d088531d" category="cell">번호</block>
+  <block id="a466ef2a0eac5ccca070b3013eaba386" category="cell">Collector 일시 중지됨 동작입니다</block>
+  <block id="c4ca4238a0b923820dcc509a6f75849b" category="cell">1</block>
+  <block id="ac08b45e1e6b3f3cb0a5ffc7cb738447" category="cell">일시 중지된 수집기에 구성된 설정에 따라 스냅샷 삭제가 수행되지 않습니다.</block>
+  <block id="301be6cbe57eeb518e76a0dacc06942b" category="cell">ONTAP ARP와 같은 EMS 이벤트는 일시 중지된 Collector에서 처리되지 않습니다. 즉, ONTAP에서 랜섬웨어 공격을 식별하면 Cloud Insights 워크로드 보안으로 이 이벤트를 파악할 수 없습니다.</block>
+  <block id="eccbc87e4b5ce2fe28308fd9f2a7baf3" category="cell">3</block>
+  <block id="7e41836b686c17a31fd348a24ad244d1" category="cell">일시 중지된 수집기에 대해 상태 알림 이메일이 전송되지 않습니다.</block>
+  <block id="3683774ed8a4e1ec359bda17c740e07d" category="cell">수동 또는 자동 작업(예: 스냅샷 또는 사용자 차단)은 일시 중지된 수집기에서 지원되지 않습니다.</block>
+  <block id="e4da3b7fbbce2345d7772b0674a318d5" category="cell">5</block>
+  <block id="fa80f305470263b5f75374e020afeacd" category="cell">에이전트 또는 수집기 업그레이드, 에이전트 VM 다시 시작/재부팅 또는 에이전트 서비스 다시 시작 시 일시 중지된 수집기는 _Paused_state에 남아 있습니다.</block>
+  <block id="1679091c5a880faf6fb5e6087eb1b2dc" category="cell">6</block>
+  <block id="90328fccc937505ade5c16d577869c88" category="cell">데이터 수집기가 _Error_state 인 경우 수집기를 _Paused_state 로 변경할 수 없습니다. 일시 중지 버튼은 수집기의 상태가 _running_인 경우에만 활성화됩니다.</block>
+  <block id="59a5587328a48d1f89316c0bf4e4be6f" category="cell">에이전트의 연결이 끊어진 경우 수집기를 _Paused_state 로 변경할 수 없습니다. Collector가 _stopped_state로 이동하고 Pause 버튼이 비활성화됩니다.</block>
 </blocks>
