@@ -408,24 +408,10 @@ download-only 명령은 필요한 모든 아티팩트를 Cloud Insights에서 �
 * 설치 스크립트
 * 환경 파일입니다
 * YAML 파일
-* 서명된 체크섬 파일(SHA256.signed 또는 SHA256.ps1로 끝)
-* 서명 확인을 위한 PEM 파일(NetApp_cert.pem
+* 체크섬 파일(SHA256.signed 또는 SHA256.PS1로 끝남)
 
 
 육안 검사를 통해 설치 스크립트, 환경 파일 및 YAML 파일을 확인할 수 있습니다.
-
-PEM 파일의 지문이 다음과 같은 것인지 확인하여 PEM 파일을 확인할 수 있습니다.
-
- 1A918038E8E127BB5C87A202DF173B97A05B4996
-보다 구체적으로,
-
-* 비 Windows:
-+
- openssl x509 -fingerprint -sha1 -noout -inform pem -in netapp_cert.pem
-* 창:
-+
- Import-Certificate -Filepath .\netapp_cert.pem -CertStoreLocation Cert:\CurrentUser\Root
-
 
 
 
@@ -443,24 +429,18 @@ PEM 파일의 지문이 다음과 같은 것인지 확인하여 PEM 파일을 �
 
 
 
-=== PEM 파일을 사용하여 체크섬을 확인합니다
+=== 체크섬을 확인합니다
 
-서명된 체크섬 파일은 PEM 파일을 사용하여 확인할 수 있습니다.
+체크섬 파일에서 필요한 체크섬을 추출합니다
 
 * 비 Windows:
++
+ openssl smime -verify -in telegraf*.sha256.signed -CAfile netapp_cert.pem -purpose any -nosigs -noverify
+* 창:
++
+ (Get-Content telegraf.zip.sha256.ps1 -First 1).toUpper()
 
 
- openssl smime -verify -in telegraf*.sha256.signed -CAfile netapp_cert.pem -purpose any
-* Windows(위의 Import-Certificate를 통해 인증서 설치 후):
-
-
-....
-Get-AuthenticodeSignature -FilePath .\telegraf.zip.sha256.ps1
-$result = Get-AuthenticodeSignature -FilePath .\telegraf.zip.sha256.ps1
-$signer = $result.SignerCertificate
-Add-Type -Assembly System.Security
-[Security.Cryptography.x509Certificates.X509Certificate2UI]::DisplayCertificate($signer)
-....
 
 
 === 다운로드한 패키지를 설치합니다
