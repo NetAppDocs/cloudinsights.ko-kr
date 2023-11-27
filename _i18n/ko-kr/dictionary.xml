@@ -2823,8 +2823,6 @@
   <block id="1b109b38fea9959dbc53058628693aef" category="cell"><block ref="1b109b38fea9959dbc53058628693aef" category="inline-link-macro-rx"></block></block>
   <block id="f8e3c055426933bde369444cdafa0c6b" category="inline-link-macro">Dell EMC RecoverPoint를 참조하십시오</block>
   <block id="32f16e66f82b765e2355b037f437f0d6" category="cell"><block ref="32f16e66f82b765e2355b037f437f0d6" category="inline-link-macro-rx"></block></block>
-  <block id="9e41c813bafe9260d22ac12ca1d86d6b" category="inline-link-macro">Dell EMC ScaleIO</block>
-  <block id="e05a976ebc9a4cca05ffe391dc9aea64" category="cell"><block ref="e05a976ebc9a4cca05ffe391dc9aea64" category="inline-link-macro-rx"></block></block>
   <block id="42658796d03fcc8216277518ea2d5203" category="inline-link-macro">Dell EMC Unity</block>
   <block id="7d4fe4e454bc9f68e87ed3a86244c35a" category="cell"><block ref="7d4fe4e454bc9f68e87ed3a86244c35a" category="inline-link-macro-rx"></block></block>
   <block id="20efc9aa81289aa30cb8621f0a4eadf8" category="inline-link-macro">Dell EMC VMAX/PowerMax 장치 제품군</block>
@@ -4713,19 +4711,10 @@
   <block id="58e1b019dfb18a656bddd772932b2be5" category="paragraph">권장 대시보드 * 목록이 표시됩니다. 각 대시보드의 이름은 대시보드가 해결할 수 있는 특정 질문으로 지정됩니다. 대시보드를 이용하면 AWS, NetApp, 스토리지, VMware, VMware 등 다양한 유형의 오브젝트 관련 질문에 있습니다</block>
   <block id="4915483ae3205b553b3e977503ffdcc5" category="list-text">목록에서 하나 이상의 대시보드를 선택하고 * 대시보드 추가 * 를 클릭합니다. 대시보드 목록에 이러한 대시보드가 표시됩니다.</block>
   <block id="09339c347014dcb0ab0269c229d7014b" category="paragraph">권장 대시보드 외에 현재 데이터와 관련이 없는 * 추가 대시보드 * 를 가져올 수도 있습니다. 예를 들어, 현재 설치된 스토리지 데이터 수집기가 없지만 나중에 일부 수집기를 구성할 계획이라면 스토리지 관련 대시보드를 가져오도록 선택할 수 있습니다. 이러한 대시보드는 표시할 수 있지만 하나 이상의 스토리지 데이터 수집기가 구성될 때까지 관련 데이터를 표시하지 않을 수 있습니다.</block>
-  <block id="cf38d319bc1b083afe717ce8be4a0e2a" category="summary">Dell EMC ScaleIO 데이터 수집기 구성</block>
-  <block id="a502d590a35b78e5a42f13e7f79aefd5" category="doc">Dell EMC ScaleIO 데이터 수집기</block>
-  <block id="c502d2755afbc827d0b78e7bf29a63c3" category="paragraph">ScaleIO 데이터 수집기는 ScaleIO 스토리지로부터 인벤토리 정보를 수집합니다. 구성을 위해 이 데이터 수집기는 ScaleIO 게이트웨이 주소와 관리자 사용자 이름 및 암호가 필요합니다.</block>
-  <block id="0711dbe30737a04c398a5d6577ea7fb6" category="paragraph">Cloud Insights는 ScaleIO 데이터 수집기에서 다음 인벤토리 정보를 가져옵니다. Cloud Insights에서 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.</block>
   <block id="d84428ff629eae2252af86f5b0c68597" category="cell">MDM(Meta Data Manager) 클러스터</block>
-  <block id="32de3bca35dcedbe5dd77438efe818cd" category="cell">SDS(ScaleIO 데이터 서버)</block>
   <block id="e0ac20adce6ffee48c7151b070aa5737" category="cell">장치</block>
   <block id="9bc4ba1e74d4345d8fb67c1039e8ee31" category="list-text">Admin 사용자 계정에 대한 읽기 전용 액세스</block>
   <block id="0e75d3cb4ff238983ed93446b3df10b4" category="list-text">포트 요구 사항: HTTPS 포트 443</block>
-  <block id="b598786f418563a6288a22d6b801761e" category="cell">ScaleIO 게이트웨이</block>
-  <block id="7f1dace1c2447400ca7e254d9f7c680d" category="cell">쉼표(,) 또는 세미콜론(;)으로 구분된 ScaleIO 게이트웨이의 IP 주소 또는 FQDN</block>
-  <block id="d44a2e308ec90ea99344ff3ca9a81883" category="cell">ScaleIO 디바이스에 로그인하는 데 사용되는 관리자 이름입니다</block>
-  <block id="358e9f4d894beeefdde1369e74db160f" category="cell">ScaleIO 디바이스에 로그인하는 데 사용되는 암호입니다</block>
   <block id="fd4515531c9ce1d6eae38a306629e6eb" category="paragraph">인벤토리 확인란을 클릭하여 인벤토리 수집을 활성화합니다.</block>
   <block id="f7130526f999ef4eed4ac1dbf86a0a03" category="cell">HTTPS 포트</block>
   <block id="5fdb13066473bd6f58da638bc9c08a77" category="cell">기본값은 60입니다.</block>
@@ -12900,4 +12889,15 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="9f32134bbefffdc9df70a2d73c2df6a6" category="list-text">체크섬 파일(SHA256.signed 또는 SHA256.PS1로 끝남)</block>
   <block id="aacd43790bd404cab1a350cb047a9a9d" category="section-title">체크섬을 확인합니다</block>
   <block id="43e3c65a555911ad6d7235d9e9206e4c" category="paragraph">체크섬 파일에서 필요한 체크섬을 추출합니다</block>
+  <block id="e399d76f82d333fa1c49eb069522e8ac" category="inline-link-macro">Dell EMC ScaleIO/PowerFlex를 참조하십시오 </block>
+  <block id="f7ee83c5589aae26abcd6b7c1b853e5a" category="cell"><block ref="f7ee83c5589aae26abcd6b7c1b853e5a" category="inline-link-macro-rx"></block></block>
+  <block id="e3628e8ad35243dc8938a2b601a40729" category="summary">Dell EMC ScaleIO/PowerFlex 데이터 수집기 구성</block>
+  <block id="b7cfbf9d7104ab3206a9e36e4f1cfed8" category="doc">Dell EMC ScaleIO/PowerFlex 데이터 수집기</block>
+  <block id="eb2970c74f4003234e24b8bb86f7f1b1" category="paragraph">ScaleIO/PowerFlex 데이터 수집기는 ScaleIO 및 PowerFlex 스토리지에서 인벤토리 정보를 수집합니다. 이 데이터 수집기를 구성하려면 ScaleIO/PowerFlex 게이트웨이 주소와 관리자 사용자 이름 및 암호가 필요합니다.</block>
+  <block id="0605f6ce75ae8707c23e729bfc341dd5" category="paragraph">Cloud Insights는 ScaleIO/PowerFlex 데이터 수집기에서 다음 인벤토리 정보를 가져옵니다. Cloud Insights에서 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.</block>
+  <block id="1504819ba5c6757e9100d77628a826a2" category="cell">SDS(ScaleIO/PowerFlex 데이터 서버)</block>
+  <block id="52775d60a5ff510b7b7db324e92a528a" category="cell">ScaleIO/PowerFlex 게이트웨이</block>
+  <block id="4fd45e6b48ed24b4e3dbd4f7522cab8c" category="cell">쉼표(,) 또는 세미콜론(;)으로 구분된 ScaleIO/PowerFlex 게이트웨이의 IP 주소 또는 FQDN</block>
+  <block id="68d34ea912eb8ba5af30d244ed0f9227" category="cell">ScaleIO/PowerFlex 장치에 로그인하는 데 사용되는 관리자 사용자 이름입니다</block>
+  <block id="682ba587c3d6c301fba76aadc4ddd8af" category="cell">ScaleIO/PowerFlex 장치에 로그인하는 데 사용되는 암호입니다</block>
 </blocks>

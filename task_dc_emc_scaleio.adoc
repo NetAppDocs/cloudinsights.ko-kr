@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: task_dc_emc_scaleio.html 
-keywords: data collector, scaleIO, EMC, DELL 
-summary: Dell EMC ScaleIO 데이터 수집기 구성 
+keywords: data collector, scaleIO, PowerFlex EMC, DELL 
+summary: Dell EMC ScaleIO/PowerFlex 데이터 수집기 구성 
 ---
-= Dell EMC ScaleIO 데이터 수집기
+= Dell EMC ScaleIO/PowerFlex 데이터 수집기
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,13 +19,13 @@ summary: Dell EMC ScaleIO 데이터 수집기 구성
 
 
 [role="lead"]
-ScaleIO 데이터 수집기는 ScaleIO 스토리지로부터 인벤토리 정보를 수집합니다. 구성을 위해 이 데이터 수집기는 ScaleIO 게이트웨이 주소와 관리자 사용자 이름 및 암호가 필요합니다.
+ScaleIO/PowerFlex 데이터 수집기는 ScaleIO 및 PowerFlex 스토리지에서 인벤토리 정보를 수집합니다. 이 데이터 수집기를 구성하려면 ScaleIO/PowerFlex 게이트웨이 주소와 관리자 사용자 이름 및 암호가 필요합니다.
 
 
 
 == 용어
 
-Cloud Insights는 ScaleIO 데이터 수집기에서 다음 인벤토리 정보를 가져옵니다. Cloud Insights에서 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
+Cloud Insights는 ScaleIO/PowerFlex 데이터 수집기에서 다음 인벤토리 정보를 가져옵니다. Cloud Insights에서 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
 
 [cols="2*"]
 |===
@@ -35,7 +35,7 @@ Cloud Insights는 ScaleIO 데이터 수집기에서 다음 인벤토리 정보�
 | MDM(Meta Data Manager) 클러스터 | 스토리지 
 
 
-| SDS(ScaleIO 데이터 서버) | 스토리지 노드 
+| SDS(ScaleIO/PowerFlex 데이터 서버) | 스토리지 노드 
 
 
 | 스토리지 풀 | 스토리지 풀 
@@ -65,13 +65,13 @@ Cloud Insights는 ScaleIO 데이터 수집기에서 다음 인벤토리 정보�
 | 필드에 입력합니다 | 설명 
 
 
-| ScaleIO 게이트웨이 | 쉼표(,) 또는 세미콜론(;)으로 구분된 ScaleIO 게이트웨이의 IP 주소 또는 FQDN 
+| ScaleIO/PowerFlex 게이트웨이 | 쉼표(,) 또는 세미콜론(;)으로 구분된 ScaleIO/PowerFlex 게이트웨이의 IP 주소 또는 FQDN 
 
 
-| 사용자 이름 | ScaleIO 디바이스에 로그인하는 데 사용되는 관리자 이름입니다 
+| 사용자 이름 | ScaleIO/PowerFlex 장치에 로그인하는 데 사용되는 관리자 사용자 이름입니다 
 
 
-| 암호 | ScaleIO 디바이스에 로그인하는 데 사용되는 암호입니다 
+| 암호 | ScaleIO/PowerFlex 장치에 로그인하는 데 사용되는 암호입니다 
 |===
 
 

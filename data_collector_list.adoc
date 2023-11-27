@@ -94,7 +94,7 @@ Cloud Insights에서 지원하는 데이터 수집기 목록 사전순:
 | link:task_dc_emc_recoverpoint.html["Dell EMC RecoverPoint를 참조하십시오"] | 검토할 수 있습니다 
 
 
-| link:task_dc_emc_scaleio.html["Dell EMC ScaleIO"] | 검토할 수 있습니다 
+| link:task_dc_emc_scaleio.html["Dell EMC ScaleIO/PowerFlex를 참조하십시오 "] | 검토할 수 있습니다 
 
 
 | link:task_dc_emc_unity.html["Dell EMC Unity"] | 검토할 수 있습니다 
