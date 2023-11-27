@@ -7776,7 +7776,6 @@
   <block id="779ce1f6c23a08b510ed7a6c996d255a" category="list-text">Telegraf 구성 파일을 편집하고 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 교체합니다.</block>
   <block id="e89f4056c39669637fb609320173681a" category="list-text">텔레그라프를 다시 시작합니다.</block>
   <block id="e31fe47af805d4bd3f7f8847ce8bdf7a" category="list-text">C:\Program Files\Telegraf\Telegraf.d_의 각 Telegraf 구성 파일에 대해 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 교체합니다.</block>
-  <block id="474b549bf76599f904f9c951a609a127" category="cell">Linux의 경우 50GB, 디스크 공간은 다음과 같은 방식으로 할당해야 합니다. /opt/NetApp 10GB/var/log/NetApp 40GB/tmp 설치 시 사용 가능한 최소 1GB</block>
   <block id="e7e11e47420c10995bd13aa4ca018d9d" category="inline-link-macro">NetApp Config Advisor를 참조하십시오</block>
   <block id="b0dfae0e334f78eb272eea393c0dbe9c" category="cell"><block ref="b0dfae0e334f78eb272eea393c0dbe9c" category="inline-link-macro-rx"></block></block>
   <block id="fbf36f3c6d60eb5668138c4d75d88089" category="summary">NetApp Config Advisor 데이터 수집기</block>
@@ -12901,4 +12900,12 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="682ba587c3d6c301fba76aadc4ddd8af" category="cell">ScaleIO/PowerFlex 장치에 로그인하는 데 사용되는 암호입니다</block>
   <block id="9f3d8c0615d1ceba9f0f905f22c7d950" category="cell">사용자가 디렉터리를 검색할 수 있습니다. 예: _username@companyname.com_ 또는 _username@domainname.com_
 또한 도메인 읽기 전용 권한이 필요합니다.</block>
+  <block id="dada9839975856f2fd06228d265fea07" category="list-text">네트워크 모니터링:</block>
+  <block id="50e4ed16bb9f1a58d102b41d11b009d5" category="list-text">Linux 커널 버전 4.18.0 이상이 필요합니다</block>
+  <block id="7ae2ba2018b8e11d966acfdd0fce7a55" category="list-text">Photon OS는 지원되지 않습니다.</block>
+  <block id="e51abfd3fc3e12a9fe8f5f800312a852" category="cell">50GB(100GB 권장)
+Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 합니다.
+/opt/NetApp 10GB(대규모 환경의 경우 20GB)
+/var/log/netapp 40GB(대규모 환경의 경우 80GB)
+/tmp 설치 중 최소 1GB 사용 가능</block>
 </blocks>
