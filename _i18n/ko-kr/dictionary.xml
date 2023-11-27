@@ -5354,7 +5354,6 @@
   <block id="592b09bd3291d67037bc036b0c714470" category="cell">포리스트 이름</block>
   <block id="7d29f1962bf2529a2067967e962ee3dd" category="cell">디렉터리 구조의 포리스트 수준입니다. 포리스트 이름을 사용하면 SVM에 있는 것과 같은 _x.x.y.z_=&gt;직접 도메인 이름을 사용할 수 있습니다. [예: hq.companyname.com]_dc=x, dc=y, dc=z_=&gt; 상대 고유 이름 [예: dc=HQ, dc=CompanyName, dc=com] 또는 다음과 같이 지정할 수 있습니다. _OU=engineering,DC=HQ,DC=CompanyName,DC=com_[특정 OU 엔지니어링으로 필터링하기]_CN=username,OU=engineering,DC=CompanyName,DC=NetApp,DC=com_[OU&lt;engineering&gt;에서 특정 사용자만 가져오려면]_CN=Acrobat=Users,CN=Users,DC=Users,DC=Users,DC=CompanyName=Active,MA_DC=Users,CompanyName=Trusted,DC=Active_DC=CompanyName=CompanyName=Users=Active,DC=CompanyName=CompanyName=CompanyName=Users,DC=CompanyName=CompanyName=A,DC=Users,DC=CompanyName=</block>
   <block id="58384d924f3205aaac5f4a09d3b33801" category="cell">DN 바인딩</block>
-  <block id="c84f7a37a2691cf36f1774d52de72e5c" category="cell">사용자가 디렉터리를 검색할 수 있습니다. 예: _username@companyname.com_ 또는 _username@domainname.com_</block>
   <block id="7066ea6d497311d6e3c4be6a9523999c" category="cell">암호를 바인딩합니다</block>
   <block id="0d91a6f24e197b2dbd20b358e4f84785" category="cell">디렉터리 서버 암호(예: Bind DN에서 사용되는 사용자 이름의 암호)</block>
   <block id="aebd636047453941f5450b96d44c3195" category="cell">LDAP, LDAPS, LDAP-START-TLS</block>
@@ -12900,4 +12899,6 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="4fd45e6b48ed24b4e3dbd4f7522cab8c" category="cell">쉼표(,) 또는 세미콜론(;)으로 구분된 ScaleIO/PowerFlex 게이트웨이의 IP 주소 또는 FQDN</block>
   <block id="68d34ea912eb8ba5af30d244ed0f9227" category="cell">ScaleIO/PowerFlex 장치에 로그인하는 데 사용되는 관리자 사용자 이름입니다</block>
   <block id="682ba587c3d6c301fba76aadc4ddd8af" category="cell">ScaleIO/PowerFlex 장치에 로그인하는 데 사용되는 암호입니다</block>
+  <block id="9f3d8c0615d1ceba9f0f905f22c7d950" category="cell">사용자가 디렉터리를 검색할 수 있습니다. 예: _username@companyname.com_ 또는 _username@domainname.com_
+또한 도메인 읽기 전용 권한이 필요합니다.</block>
 </blocks>

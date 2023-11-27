@@ -56,7 +56,8 @@ Active Directory 서버에서 사용자 속성을 수집하도록 워크로드 �
 | 포리스트 이름 | 디렉터리 구조의 포리스트 수준입니다. 포리스트 이름을 사용하면 SVM에 있는 것과 같은 _x.x.y.z_=>직접 도메인 이름을 사용할 수 있습니다. [예: hq.companyname.com]_dc=x, dc=y, dc=z_=> 상대 고유 이름 [예: dc=HQ, dc=CompanyName, dc=com] 또는 다음과 같이 지정할 수 있습니다. _OU=engineering,DC=HQ,DC=CompanyName,DC=com_[특정 OU 엔지니어링으로 필터링하기]_CN=username,OU=engineering,DC=CompanyName,DC=NetApp,DC=com_[OU<engineering>에서 특정 사용자만 가져오려면]_CN=Acrobat=Users,CN=Users,DC=Users,DC=Users,DC=CompanyName=Active,MA_DC=Users,CompanyName=Trusted,DC=Active_DC=CompanyName=CompanyName=Users=Active,DC=CompanyName=CompanyName=CompanyName=Users,DC=CompanyName=CompanyName=A,DC=Users,DC=CompanyName= 
 
 
-| DN 바인딩 | 사용자가 디렉터리를 검색할 수 있습니다. 예: _username@companyname.com_ 또는 _username@domainname.com_ 
+| DN 바인딩 | 사용자가 디렉터리를 검색할 수 있습니다. 예: _username@companyname.com_ 또는 _username@domainname.com_
+또한 도메인 읽기 전용 권한이 필요합니다. 
 
 
 | 암호를 바인딩합니다 | 디렉터리 서버 암호(예: Bind DN에서 사용되는 사용자 이름의 암호) 
