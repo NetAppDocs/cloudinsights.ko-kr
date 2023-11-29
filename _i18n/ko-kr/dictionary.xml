@@ -12907,4 +12907,6 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
   <block id="60d7b95e24d1ecfc57f6986cabb1871a" category="paragraph">워크로드 보안에서 수집기가 _running_state에 있으면 데이터 수집기를 일시 중지할 수 있습니다. 수집기에 대한 "세 개의 점" 메뉴를 열고 일시 중지를 선택합니다. Collector가 일시 중지되는 동안 ONTAP에서 수집된 데이터는 없고 Collector에서 ONTAP로 전송되는 데이터는 없습니다. 다시 수집을 시작하려면 다시 시작을 선택하십시오.</block>
   <block id="cb4cb59ec3d83f1c614ac2210509e260" category="paragraph">Data Collector가 _running_state인 경우 수집을 일시 중지할 수 있습니다. 수집기에 대한 "세 개의 점" 메뉴를 열고 일시 중지를 선택합니다. Collector가 일시 중지되는 동안 ONTAP에서 수집된 데이터는 없고 Collector에서 ONTAP로 전송되는 데이터는 없습니다. 즉, Fpolicy 이벤트가 ONTAP에서 데이터 수집기로, 그리고 거기서 Cloud Insights로 전달되지 않습니다.</block>
   <block id="7cf0ebff62dd478662f71d56cd0334d1" category="list-text">다음 단계를 수행하기 전에 수집기를 일시 중지한 경우 을 참조하십시오 <block ref="277e805b18142e57dd69c30e47ad86c3" category="inline-link-macro-rx"></block>.</block>
+  <block id="17f6f686e23fbca9f92a7a9926136c2d" category="cell">성능 수집이 "SNMP 요청 전송 중 시간 초과"와 함께 실패합니다.</block>
+  <block id="212277044ae3f4c8673a76ebbe182cbd" category="cell">쿼리 변수 및 스위치 구성에 따라 일부 쿼리가 기본 시간 제한을 초과할 수 있습니다.  <block ref="0374e985eaa396deda9975ede578752d" category="inline-link-macro-rx"></block>.</block>
 </blocks>
