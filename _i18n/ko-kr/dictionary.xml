@@ -12904,7 +12904,7 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
   <block id="ce9b2cd4bcab7dbbf52b62cd18cb5c55" category="inline-link-macro">수집기를 일시 중지합니다</block>
   <block id="3fc1bb029faccb362d05bb964b9a5532" category="admonition">권장 옵션은 입니다 <block ref="fab3704c9565365da788d72b33d2f55f" category="inline-link-macro-rx"></block> 파일을 작성하기 전에.]</block>
   <block id="77b868151a2234cc10d342f43b6cbb14" category="inline-link-macro">수집기를 다시 시작합니다</block>
-  <block id="d7392010d6df617dd55d326f0d9bf442" category="list-text">이러한 단계를 수행하기 전에 Collector i를 일시 중지한 경우 을 참조하십시오 <block ref="277e805b18142e57dd69c30e47ad86c3" category="inline-link-macro-rx"></block>.</block>
   <block id="60d7b95e24d1ecfc57f6986cabb1871a" category="paragraph">워크로드 보안에서 수집기가 _running_state에 있으면 데이터 수집기를 일시 중지할 수 있습니다. 수집기에 대한 "세 개의 점" 메뉴를 열고 일시 중지를 선택합니다. Collector가 일시 중지되는 동안 ONTAP에서 수집된 데이터는 없고 Collector에서 ONTAP로 전송되는 데이터는 없습니다. 다시 수집을 시작하려면 다시 시작을 선택하십시오.</block>
   <block id="cb4cb59ec3d83f1c614ac2210509e260" category="paragraph">Data Collector가 _running_state인 경우 수집을 일시 중지할 수 있습니다. 수집기에 대한 "세 개의 점" 메뉴를 열고 일시 중지를 선택합니다. Collector가 일시 중지되는 동안 ONTAP에서 수집된 데이터는 없고 Collector에서 ONTAP로 전송되는 데이터는 없습니다. 즉, Fpolicy 이벤트가 ONTAP에서 데이터 수집기로, 그리고 거기서 Cloud Insights로 전달되지 않습니다.</block>
+  <block id="7cf0ebff62dd478662f71d56cd0334d1" category="list-text">다음 단계를 수행하기 전에 수집기를 일시 중지한 경우 을 참조하십시오 <block ref="277e805b18142e57dd69c30e47ad86c3" category="inline-link-macro-rx"></block>.</block>
 </blocks>

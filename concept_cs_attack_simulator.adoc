@@ -173,5 +173,5 @@ echo 3 > /proc/sys/vm/drop_caches ; sync
 +
 1단계에서 데이터 수집기를 비활성화한 경우 데이터 수집기를 편집하고 올바른 암호를 입력한 후 저장합니다. 데이터 수집기가 다시 실행 중 상태인지 확인합니다.
 
-. 이러한 단계를 수행하기 전에 Collector i를 일시 중지한 경우 을 참조하십시오 link:task_add_collector_svm.html#play-pause-data-collector["수집기를 다시 시작합니다"].
+. 다음 단계를 수행하기 전에 수집기를 일시 중지한 경우 을 참조하십시오 link:task_add_collector_svm.html#play-pause-data-collector["수집기를 다시 시작합니다"].
 
