@@ -3673,7 +3673,6 @@
   <block id="9c1397faec00b5e5c1414c787d14358e" category="cell">이 문제는 일반적으로 다음 시나리오에서 발생합니다. 1. 추가된 데이터 수집기가 여러 개 있습니다. 이러한 동작을 보여 주는 데이터 수집기는 이러한 데이터 수집기에 1개의 SVM이 추가됩니다. 즉, 2개 이상의 데이터 수집기가 1개의 SVM에 연결됩니다. 데이터 수집기 1개가 1개의 SVM에 연결되는지 확인합니다. 동일한 SVM에 연결된 다른 데이터 수집기를 삭제합니다.</block>
   <block id="2d964cb606454cdebb2ea12ed310dbab" category="cell">커넥터가 오류 상태입니다. 서비스 이름: 감사. 실패 원인: 구성하지 못했습니다(SVM svmname에 대한 정책). 이유: 'FPolicy.policy.scope-modify:"연방" 내의 '포함할' 요소에 대해 잘못된 값이 지정되었습니다.</block>
   <block id="82e15291d012761eb5c9c9dc7f78a45f" category="cell">공유 이름은 따옴표 없이 지정해야 합니다. ONTAP SVM DSC 구성을 편집하여 공유 이름을 수정하십시오. _INCLUDE 및 EXCLUDE_는 긴 공유 이름 목록에 사용할 수 없습니다. 포함 또는 제외할 공유 수가 많은 경우 대신 볼륨별 필터링을 사용합니다.</block>
-  <block id="5ba6c86df3ea77e978bb9c685d6bec25" category="cell">Data ONTAP 버전을 사용하고 있는지 확인합니다 <block ref="d09f6391dd7b77f4533e98569b4c1494" category="inline-link-macro-rx"></block> 고정되어 있습니다. 권장되는 최소 ONTAP 버전은 9.8P7입니다. 9.8p7 이전의 ONTAP 버전을 사용하고 이 성능 문제가 발생하면 ONTAP 전송 버퍼 크기를 변경하여 ONTAP 성능을 향상시킬 수 있습니다. 이 옵션을 살펴보고 새 데이터 수집기를 추가하거나 기존 데이터 수집기를 편집할 때 이 설정이 표시되지 않으면 NetApp Support에 문의하십시오.</block>
   <block id="723f73d5b4ee441851ae64cbfe823522" category="cell">데이터 수집기가 오류 중입니다. 이 오류 메시지를 표시합니다. "오류: 커넥터가 오류 상태입니다. 서비스 이름: 감사. 실패 원인: SVM svm_test에서 정책을 구성하지 못했습니다. 이유: ZAPI 필드에 값이 없습니다. 이벤트 “</block>
   <block id="1b852bd0522bb1e9abdc5b85f45b2eff" category="cell">Data Collector에 다음과 같은 오류 메시지가 표시됩니다. "오류: 2회 재시도에서 Collector 상태를 확인하지 못했습니다. Collector를 다시 시작하십시오(오류 코드: AGENT008)."</block>
   <block id="489efd89349dbbe0899a6a7b922044da" category="paragraph">그래도 문제가 발생하면 * 도움말 &gt; 지원 * 페이지에 나와 있는 지원 링크를 참조하십시오.</block>
@@ -12909,4 +12908,10 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
   <block id="7cf0ebff62dd478662f71d56cd0334d1" category="list-text">다음 단계를 수행하기 전에 수집기를 일시 중지한 경우 을 참조하십시오 <block ref="277e805b18142e57dd69c30e47ad86c3" category="inline-link-macro-rx"></block>.</block>
   <block id="17f6f686e23fbca9f92a7a9926136c2d" category="cell">성능 수집이 "SNMP 요청 전송 중 시간 초과"와 함께 실패합니다.</block>
   <block id="212277044ae3f4c8673a76ebbe182cbd" category="cell">쿼리 변수 및 스위치 구성에 따라 일부 쿼리가 기본 시간 제한을 초과할 수 있습니다.  <block ref="0374e985eaa396deda9975ede578752d" category="inline-link-macro-rx"></block>.</block>
+  <block id="25de52ee95bc069e80aae94425213b53" category="inline-link-macro">1372994를 참조하십시오</block>
+  <block id="a23b44fdff4bcafe023f18c4c11815e0" category="inline-link">141515152를 참조하십시오</block>
+  <block id="1728bd23561a7ad8c0a5ece1af1fc9e1" category="inline-link">1438207을 참조하십시오</block>
+  <block id="36e30a439910e67f76754ab0874aef1b" category="inline-link">1479704</block>
+  <block id="7e18cc81c15bd72df03b7461c26d6e4a" category="inline-link">1354659를 참조하십시오</block>
+  <block id="40e2d40b31fb9557e4b0f6ca0bff37f3" category="cell">워크로드 보안과 함께 ONTAP를 사용할 때 ONTAP에서 지연 시간 문제가 나타날 수 있습니다. 다음과 같은 여러 가지 가능한 이유가 있습니다. <block ref="5b7caa0ef6cc830703e594488c525913" category="inline-link-macro-rx"></block>,<block ref="b861ec6ca06b8e18b9d090dd75b00a26" category="inline-link-rx"></block>,<block ref="a5fade3ab29d18b9b976189fcb9919ed" category="inline-link-rx"></block>,<block ref="8899da2205eee6e62b28641da3533e12" category="inline-link-rx"></block>,<block ref="c9d1d03c1b92a8bbffc617ad493e8619" category="inline-link-rx"></block>. 이러한 모든 문제는 ONTAP 9.13.1 이상에서 수정되었으며 이러한 최신 버전 중 하나를 사용하는 것이 좋습니다.</block>
 </blocks>
