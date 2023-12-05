@@ -7773,70 +7773,11 @@
   <block id="779ce1f6c23a08b510ed7a6c996d255a" category="list-text">Telegraf 구성 파일을 편집하고 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 교체합니다.</block>
   <block id="e89f4056c39669637fb609320173681a" category="list-text">텔레그라프를 다시 시작합니다.</block>
   <block id="e31fe47af805d4bd3f7f8847ce8bdf7a" category="list-text">C:\Program Files\Telegraf\Telegraf.d_의 각 Telegraf 구성 파일에 대해 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 교체합니다.</block>
-  <block id="e7e11e47420c10995bd13aa4ca018d9d" category="inline-link-macro">NetApp Config Advisor를 참조하십시오</block>
-  <block id="b0dfae0e334f78eb272eea393c0dbe9c" category="cell"><block ref="b0dfae0e334f78eb272eea393c0dbe9c" category="inline-link-macro-rx"></block></block>
-  <block id="fbf36f3c6d60eb5668138c4d75d88089" category="summary">NetApp Config Advisor 데이터 수집기</block>
-  <block id="88e2274e499f8ed26ef4781524c0c669" category="doc">NetApp Config Advisor 데이터 수집기</block>
-  <block id="6046ad7e81a04054b1054dd18be646fc" category="paragraph">이 데이터 수집기는 읽기 전용 호출을 사용하여 ONTAP 및 접속된 스위치를 실행하는 스토리지 시스템에서 구성 데이터를 가져옵니다. 또한 이 데이터 수집기는 ONTAP 클러스터 구성의 전체 스택에서 구성 검증 및 상태 점검을 실행하여 케이블 연결, 구성, 복원력, 가용성 및 보안 문제를 식별합니다.</block>
-  <block id="ad1fa18840d24ed6975856dc6929d1ca" category="paragraph">Cloud Insights는 ONTAP에서 구성 데이터를 가져오고 Config Advisor 데이터 수집기를 사용하여 스위치를 가져옵니다. 획득한 각 자산 유형에 대해 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.</block>
-  <block id="29caeecf8c2860ef16376efde64f566c" category="inline-image-macro">configadvisor 메트릭 태그를 보여 주는 드롭다운</block>
-  <block id="e9adec50c1719bc25df0c99f074f2d62" category="paragraph">또한 Config Advisor 메트릭은 _NetApp_ONTAP.configAdvisor_tag를 사용하여 대시보드 및 기타 쿼리에서 사용할 수 있습니다.<block ref="3cb2c1d441e158e4834a77dea830d323" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="24b9e08fd1f7ee3ff738c574a84a91af" category="section-title">Config Advisor 용어</block>
-  <block id="06d58427354787f0e6d7c893fe2243bc" category="paragraph">다음 용어는 Config Advisor 대시보드에서 찾을 수 있는 개체 또는 참조에 적용됩니다.</block>
-  <block id="30c7128fd20d47795972c28c056858e9" category="section-title">장치 요약</block>
-  <block id="744d9871512feec9f51d65f3dd1c47ab" category="list-text">Device Type/Type – 데이터 소스의 디바이스 유형으로 스토리지 컨트롤러/스위치입니다</block>
-  <block id="624932da51cedff9d7ac173a91c610a1" category="list-text">공급업체/하위 유형 - 새 데이터 원본을 구성하는 경우 동일한 공급업체 이름입니다.</block>
-  <block id="7d43a6f99fa2a91e1af6d7d2c7c18f13" category="list-text">Hostname – 데이터 소스에 구성된 호스트 이름입니다.</block>
-  <block id="cb46dd80b8d9a5b9d45de5e217aaa9df" category="list-text">버전 - OS 또는 펌웨어 버전입니다.</block>
-  <block id="b1fa038342539dd3908a11c162ea4c27" category="section-title">규칙 결과</block>
-  <block id="36dce5e2b74a110ae5a36da007cf06f5" category="list-text">규칙 – 권장 방법으로부터의 구성 편차를 분석하거나 알려진 문제를 식별하는 시스템에 대해 실행되는 검사.</block>
-  <block id="7f571e862fdd40095520423d149828d8" category="list-text">규칙 이름 - 규칙 또는 실행 확인의 간단한 이름입니다.</block>
-  <block id="f742f640bcdf429ec002619c5b306bfb" category="list-text">규칙 ID - 규칙의 식별자입니다.</block>
-  <block id="d5f2db6c184f1d03095ebed8fab38f6d" category="list-text">타겟 - 규칙이 적용되는 구성 요소입니다. 클러스터 이름, 노드 이름 또는 스위치 이름입니다.</block>
-  <block id="07e9e3b11dbfe13fae2d6a989de1722c" category="list-text">영향 – 위험이 시스템에 미치는 영향 영향 수준은 아래와 같이 분류됩니다</block>
-  <block id="f9465122ea451d5ec730ea7884c2879f" category="list-text">높은 영향: 데이터 액세스 손실 또는 노드 이중화 장기 손실 가능성</block>
-  <block id="59917e42806fa2d873b1567e2fab2ed8" category="list-text">중간 수준의 영향: 노드 중복성의 성능 저하 또는 단기적 손실</block>
-  <block id="0296cc1b8c1bba2993b2bf444d65e226" category="list-text">낮은 영향: 낮은 영향 시나리오</block>
-  <block id="35c28fe615929955e070ca34eea74a58" category="list-text">모범 사례: 문서화된 모범 사례의 편차</block>
-  <block id="da671d02becd0b448278c88d7cae5f0c" category="list-text">설명 – 오류에 대한 간단한 설명입니다.</block>
-  <block id="4684fb2fabd191161c08c96564158dfa" category="list-text">세부 정보 - 영향을 받는 구성 요소를 나열하는 오류에 대한 자세한 설명입니다</block>
-  <block id="107a9bd1e11fd68e05b0eca047c2d0a3" category="list-text">권장 사항 – 위험 또는 문제 해결에 대한 추가 정보를 제공하는 KB 문서 또는 NetApp 문서 링크</block>
-  <block id="32e0e75cce51d9a86e3d9548e662cad3" category="list-text">ONTAP에서 SSH 및 ONTAPi 호출에 대한 읽기 전용 액세스를 위해 구성된 관리자 계정에 액세스할 수 있어야 합니다.</block>
-  <block id="0a51523b7b104781f9276319d7728e78" category="list-text">스위치에 대한 SSH 호출 시 읽기 전용으로 구성된 관리자 계정에 대한 액세스 권한이 있어야 합니다(컬렉션에 포함된 경우)</block>
-  <block id="905f005d189dfca41c588dfb3a86c577" category="list-text">계정 세부 정보에는 사용자 이름 및 암호가 포함됩니다. ONTAP가 SSH 키 기반 인증 또는 MFA(Multi Factor Authentication)용으로 구성된 경우 선택적으로 SSH 개인 키를 전달할 수 있습니다.</block>
-  <block id="ccdc4e4e1923b0b16ce7eea299ea4163" category="list-text">포트 요구 사항: 22, 80 또는 443</block>
-  <block id="6598e142ccb1746c77267497f22d951b" category="list-text">ssh 또는 /및 ontapi 애플리케이션에 대한 읽기 전용 역할 이름을 기본 SVM에 지정합니다</block>
-  <block id="3b8258085ea914c50770f05a8c8040cf" category="list-text">스위치에 대한 최소 읽기 전용 권한이 있는 관리자 계정입니다</block>
-  <block id="881e28667d3bfa6ea28cdd40ef5acdb4" category="cell">ONTAP에 대해 MFA를 사용하도록 설정합니다</block>
-  <block id="892219065257846dd04f00fcdffe9e12" category="cell">ONTAP에서 다중 요소 인증을 사용하려면 이 옵션을 선택합니다</block>
-  <block id="fab1bac8f68d0e85c7d853e7cc89dee8" category="cell">SSH 개인 키</block>
-  <block id="b243383d42c261781fda74277075a9bf" category="cell">ONTAP가 SSH 키 인증 또는 MFA를 사용 중인 경우 SSH 개인 키 콘텐츠를 붙여 넣습니다</block>
-  <block id="1ad2c997667844425cb79936e5d49437" category="cell">ONTAP SSH 포트</block>
-  <block id="043854f925a3ddec09321e61f0796cb1" category="cell">ONTAP 연결에 대한 사용자 지정 SSH 포트를 지정할 수 있습니다</block>
-  <block id="1e5fb47b2115f5fd80852bf2d19f9931" category="cell">SSH 포트를 전환합니다</block>
-  <block id="3d56802b24eb9202180b8a5869ee4f5a" category="cell">스위치 연결에 대한 사용자 지정 SSH 포트를 지정할 수 있습니다</block>
-  <block id="dfdfdc8cf35c1a03b11bc6b5c58e09f8" category="cell">폴링 간격(분)</block>
-  <block id="a0c828f2046ae9b82d4a8bcdc9c02147" category="cell">기본값은 1440분 또는 24시간입니다. 최소 60분을 설정할 수 있습니다</block>
-  <block id="6cc75295aec583ed79034eb36a15cdae" category="section-title">지원되는 운영 체제</block>
-  <block id="3c4d9416409219cf9622042be0436a75" category="paragraph">Config Advisor는 다음 운영 체제에서 실행할 수 있습니다. 이 목록에 없는 운영 체제가 설치된 획득 장치에 수집기가 설치되어 있으면 수집에 실패합니다.</block>
-  <block id="1c9b42d9cdad3e650c7fc63dfa544dd3" category="list-text">Windows 10(64비트)</block>
-  <block id="f943cc21622ce70821e7210ca18fa6dd" category="list-text">Windows 2012 R2 Server(64비트)</block>
-  <block id="d58eb715e810c3f2ac46575a5aacd90b" category="list-text">Windows 2016 서버(64비트)</block>
-  <block id="7785a24bb948afb1d1b24ea64d912ee6" category="list-text">Windows 2019 Server(64비트)</block>
-  <block id="d5955c6525a9a5ef57ea83f30159a996" category="list-text">Red Hat Enterprise Linux(RHEL) 7.7 이상(64비트)</block>
-  <block id="64f069bd95ef26cdc0d665c7b1dfdf15" category="list-text">Ubuntu 14.0 이상</block>
-  <block id="f9be17421d77a57baae245776004d9fc" category="sidebar">Config Advisor</block>
   <block id="68f0f62deae94ea2573e440bd6203542" category="summary">미리 보기 기능은 제한된 용량으로 사용할 수 있으며, 아직 준비 상태가 아닌 기능을 강조합니다.</block>
   <block id="b865b0f0f94674aa0d7878e2253f2c1b" category="doc">피처 및 기능 미리보기</block>
   <block id="f06798e708a78e76d30364617ea53340" category="paragraph">Cloud Insights는 _Preview_매너 방식으로 새로운 기능과 특징을 강조합니다. 미리 보기 기능은 제한된 환경 또는 제한된 용량에서 사용할 수 있습니다.</block>
   <block id="1faeb81be1b403bf2b660e33e3c7e5f7" category="paragraph">이러한 기능 중 하나 이상을 미리 보려면 에 문의하십시오 <block ref="16ff11ed878ec2cb7f479192bb9f1a7d" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="6e1238d84ff9d81dac586bf262a824f6" category="cell">이 목록은 정확히 일치하는 문자열을 구성해야 합니다. ESX_HOST로 필터링하려는 경우 Cloud Insights 및 vSphere에 모두 보고되는 대로 ESX 호스트의 정확한 "이름"을 쉼표로 구분된 목록으로 작성해야 합니다. 이러한 "이름"은 IP 주소, 단순 호스트 이름 또는 FQDN(정규화된 도메인 이름)일 수 있습니다. 이는 해당 호스트가 vSphere에 처음 추가될 때 이름이 어떻게 지정되었는지 기준으로 결정됩니다. 클러스터로 필터링할 경우 하이퍼바이저에서 CI에 의해 보고된 Cloud Insights 스타일 클러스터 이름 사용 - Cloud Insights는 vSphere 클러스터 이름을 vSphere 데이터 센터 이름으로 미리 지정하고 슬래시 "DC1/clusterA"는 Cloud Insights가 데이터 센터 DC1 내의 클러스터 A에서 하이퍼바이저에 보고하는 클러스터 이름입니다.</block>
-  <block id="6a9aea5a3e6edbc2fbcfb0b82e833894" category="section-title">지원 및 비디오</block>
-  <block id="d8c4d821533431837ec1b03f5fad4fe4" category="paragraph">이 비디오를 통해 데이터 수집기를 설치하고 대시보드를 사용하여 Cloud Insights에서 Config Advisor를 최대한 활용하는 방법을 알아보십시오.</block>
-  <block id="e66d50cebc6c93b253c97ae0dec229f2" category="section-title">데이터 수집기 설치 및 구성:</block>
-  <block id="cff2fb2b5c25be825b4648d0960cad38" category="section-title">Config Advisor 대시보드 생성:</block>
-  <block id="ffdc0a4c20353f02a36d86c39af145b7" category="section-title">기타 지원</block>
-  <block id="fa53b8785b0f7af8203d347d9f3e6edb" category="paragraph">Config Advisor와 관련된 다른 질문은 도움말 -&gt; 지원 티켓 열기를 클릭하여 Config Advisor 도구에서 티켓을 엽니다.</block>
   <block id="d07e55df7f133c0213955a67c979d808" category="admonition">ONTAP 데이터 수집기 알림은 클러스터/데이터 수집기와 관련된 특정 모니터 알림보다 우선합니다. Data Collector 자체에 대해 설정한 받는 사람 목록에는 데이터 수집기 경고가 표시됩니다. 활성 데이터 수집기 경고가 없는 경우 모니터에서 생성된 알림이 특정 모니터 수신자에게 전송됩니다.</block>
   <block id="9e3717c8a856a8fff78d3ed35be3524a" category="section-title">로그 모니터</block>
   <block id="0031016ba9d6e28ef548d4a2f95332e3" category="cell">볼륨 오프라인</block>
@@ -12920,10 +12861,15 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
   <block id="78803855559e90468b9778e0cfe3fb9d" category="paragraph">Cloud Insights는 Brocade FOS REST Collector를 사용하여 FabricOS(FOS) 펌웨어 8.2 이상을 실행하는 Brocade 스위치 장치의 인벤토리 및 성능을 검색합니다.</block>
   <block id="2a8ee44741d591b5a5bbaeb9a53b8601" category="paragraph">기본적으로 이 컬렉터는 스위치가 속한 모든 패브릭의 일부인 모든 FOS 장치를 검색하려고 시도합니다.</block>
   <block id="632dd9f1c3d874c126028ed203b0dd9f" category="paragraph">Cloud Insights는 Brocade FOS Rest Data Collector에서 다음과 같은 인벤토리 정보를 획득합니다. Cloud Insights에서 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.</block>
-  <block id="de498d77f85838129d5e5e0244f3218d" category="list-text">Fabric의 모든 스위치에 대한 IP 연결이 있어야 합니다. fabric_에서 모든 스위치 검색 확인란을 선택한 경우 Cloud Insights는 패브릭의 모든 스위치를 식별하지만, 이러한 추가 스위치에 대한 IP 연결이 필요합니다.</block>
-  <block id="52ee9cef67200578c869ec0a47f47d75" category="cell">폴링에서 제외할 장치 ID의 쉼표로 구분된 목록입니다.</block>
   <block id="809ecc8a9a52f55bd82e3c640ecb9190" category="cell">패브릭의 모든 스위치를 검색하려면 선택합니다.</block>
   <block id="5ed56420d721e3c99ed9cd5fe2bb84c1" category="cell">HBA 또는 존 별칭을 사용할지 여부를 선택합니다.</block>
   <block id="42bf55c2417a1711c1eea84d1c100c52" category="cell">HTTP 또는 HTTPS.</block>
   <block id="fd2660e8af5b6a90d0b853f19433e552" category="cell">기본값을 사용하지 않는 경우 포트를 지정합니다.</block>
+  <block id="fa54865ee3e5060e95de2db0939bb141" category="list-text">Fabric의 모든 스위치에 TCP 연결이 있어야 합니다. 이 데이터 수집기 유형은 패브릭의 각 장치에 대해 HTTP와 HTTPS를 모두 원활하게 시도합니다. fabric_에서 모든 스위치 검색 확인란을 선택한 경우 Cloud Insights는 패브릭의 모든 스위치를 식별하지만, 이러한 추가 스위치를 검색하려면 TCP 연결이 필요합니다.</block>
+  <block id="0c5002d65cc5f10f6e18141ac2704b54" category="list-text">Fabric의 모든 스위치에서 동일한 계정이 전 세계적으로 필요합니다. 장치의 웹 인터페이스를 사용하여 액세스를 확인할 수 있습니다.</block>
+  <block id="bf05c9a08b659ee97017024af4c9309f" category="cell">FOS 스위치의 IP 주소 또는 정규화된 도메인 이름입니다</block>
+  <block id="e22e1a04d650adc7ca588d795e7461c2" category="cell">폴링에서 제외할 장치 IPv4 주소의 쉼표로 구분된 목록입니다.</block>
+  <block id="7339b2d54f0d972dcd8f403df7ed08df" category="cell">이 설정은 장치별로 먼저 사용을 시도하는 프로토콜 CI만 변경합니다. 기본값이 실패할 경우 CI가 자동으로 반대 프로토콜을 시도합니다</block>
+  <block id="5ea4f4a83e327d73eba3355881f8048d" category="cell">테스트 기능은 프로토콜에 액세스할 수 없다는 경고 메시지를 표시합니다</block>
+  <block id="8eb07dc327c14e3d1af48bf6f3b15f2a" category="cell">특정 Brocade FOS 8.2+ 장치는 HTTP 또는 HTTPS에서만 통신하려고 합니다. - 스위치에 디지털 인증서가 설치되어 있는 경우 암호화되지 않은 HTTP와 HTTPS를 사용하여 통신하려고 하면 스위치에서 HTTP 오류가 발생합니다. 테스트 기능은 HTTP와 HTTPS 모두와 통신을 시도합니다. - 테스트에서 한 프로토콜이 통과한다고 말하면 수집기를 안전하게 저장할 수 있으며 다른 프로토콜이 실패해도 걱정할 필요가 없습니다. 수집기는 수집 중에 두 프로토콜을 모두 시도하며 두 프로토콜이 작동하지 않을 경우에만 실패합니다.</block>
 </blocks>
