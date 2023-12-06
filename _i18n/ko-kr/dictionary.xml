@@ -10104,7 +10104,6 @@
 참고: 계산기는 추정 용도로만 사용됩니다. 구독하면 정확한 가격이 설정됩니다.</block>
   <block id="3d3a14a6970653e82934d70556e92edc" category="inline-image-macro">인프라 및 Kubernetes 비용 산정 계산기를 보여주는 구독 페이지</block>
   <block id="93dd899a28072850f389977b64f3eb1b" category="paragraph"><block ref="93dd899a28072850f389977b64f3eb1b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e45641d408ce7d31aa423768c5c36d43" category="paragraph">Amazon Marketplace 링크를 클릭하면 AWS가 열립니다 <block ref="18f95e1d1c5900ac50aeb97eecf08dc0" category="inline-link-macro-rx"></block> 구독을 완료할 수 있는 구독 페이지입니다. 계산기에 입력한 값은 AWS 가입 페이지에 채워지지 않습니다. 이 페이지에서 총 관리 단위 수를 입력해야 합니다.</block>
   <block id="380912a894b2ed4e52150b87b17024b2" category="paragraph">AWS 가입 프로세스가 완료되면 Cloud Insights 환경으로 되돌아갑니다. 또는 환경이 더 이상 활성 상태가 아닌 경우(예: 로그아웃한 경우) NetApp BlueXP 로그인 페이지로 이동합니다. Cloud Insights에 다시 로그인하면 구독이 활성화됩니다.</block>
   <block id="d1f15ae17b64c6a381736fceb36824b1" category="paragraph">Subscription Summary(가입 요약) 탭에는 다음과 같은 항목이 표시됩니다.</block>
   <block id="2638d109f7501322af782022ec53f096" category="list-text">최신 버전</block>
@@ -12873,4 +12872,5 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
   <block id="5ea4f4a83e327d73eba3355881f8048d" category="cell">테스트 기능은 프로토콜에 액세스할 수 없다는 경고 메시지를 표시합니다</block>
   <block id="8eb07dc327c14e3d1af48bf6f3b15f2a" category="cell">특정 Brocade FOS 8.2+ 장치는 HTTP 또는 HTTPS에서만 통신하려고 합니다. - 스위치에 디지털 인증서가 설치되어 있는 경우 암호화되지 않은 HTTP와 HTTPS를 사용하여 통신하려고 하면 스위치에서 HTTP 오류가 발생합니다. 테스트 기능은 HTTP와 HTTPS 모두와 통신을 시도합니다. - 테스트에서 한 프로토콜이 통과한다고 말하면 수집기를 안전하게 저장할 수 있으며 다른 프로토콜이 실패해도 걱정할 필요가 없습니다. 수집기는 수집 중에 두 프로토콜을 모두 시도하며 두 프로토콜이 작동하지 않을 경우에만 실패합니다.</block>
   <block id="aee5f180cc531b30ec6cf8dcf509d9b8" category="paragraph">모니터링 운영자가 자체 전용 네임스페이스에 배포된 경우 네임스페이스를 삭제합니다.</block>
+  <block id="8e457ed4c1581d4ae53957e8e78fd202" category="paragraph">Amazon Marketplace 링크를 클릭하면 AWS가 열립니다<block ref="3f7ea064444693988ba2187721fbf454" category="inline-link-rx"></block> 구독을 완료할 수 있는 구독 페이지입니다. 계산기에 입력한 값은 AWS 가입 페이지에 채워지지 않습니다. 이 페이지에서 총 관리 단위 수를 입력해야 합니다.</block>
 </blocks>

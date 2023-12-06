@@ -151,7 +151,7 @@ Cloud Insights 환경에 유료 가입을 적용하려면 NetApp 세일즈 담�
 
 NOTE: 기존 Cloud Insights 평가판 계정에 AWS Marketplace 구독을 적용하려면 계정 소유자 또는 관리자여야 합니다. 또한 AWS(Amazon Web Services) 계정이 있어야 합니다.
 
-Amazon Marketplace 링크를 클릭하면 AWS가 열립니다 link:https://aws.amazon.com/marketplace/pp/B07HM8QQGY["Cloud Insights"] 구독을 완료할 수 있는 구독 페이지입니다. 계산기에 입력한 값은 AWS 가입 페이지에 채워지지 않습니다. 이 페이지에서 총 관리 단위 수를 입력해야 합니다.
+Amazon Marketplace 링크를 클릭하면 AWS가 열립니다 https://aws.amazon.com/marketplace/pp/prodview-pbc3h2mkgaqxe["Cloud Insights"] 구독을 완료할 수 있는 구독 페이지입니다. 계산기에 입력한 값은 AWS 가입 페이지에 채워지지 않습니다. 이 페이지에서 총 관리 단위 수를 입력해야 합니다.
 
 총 관리 단위 수를 입력하고 12개월 또는 36개월 가입 기간을 선택한 후 * 계정 설정 * 을 클릭하여 가입 프로세스를 완료합니다.
 
