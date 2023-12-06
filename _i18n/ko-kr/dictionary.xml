@@ -12872,4 +12872,5 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
   <block id="7339b2d54f0d972dcd8f403df7ed08df" category="cell">이 설정은 장치별로 먼저 사용을 시도하는 프로토콜 CI만 변경합니다. 기본값이 실패할 경우 CI가 자동으로 반대 프로토콜을 시도합니다</block>
   <block id="5ea4f4a83e327d73eba3355881f8048d" category="cell">테스트 기능은 프로토콜에 액세스할 수 없다는 경고 메시지를 표시합니다</block>
   <block id="8eb07dc327c14e3d1af48bf6f3b15f2a" category="cell">특정 Brocade FOS 8.2+ 장치는 HTTP 또는 HTTPS에서만 통신하려고 합니다. - 스위치에 디지털 인증서가 설치되어 있는 경우 암호화되지 않은 HTTP와 HTTPS를 사용하여 통신하려고 하면 스위치에서 HTTP 오류가 발생합니다. 테스트 기능은 HTTP와 HTTPS 모두와 통신을 시도합니다. - 테스트에서 한 프로토콜이 통과한다고 말하면 수집기를 안전하게 저장할 수 있으며 다른 프로토콜이 실패해도 걱정할 필요가 없습니다. 수집기는 수집 중에 두 프로토콜을 모두 시도하며 두 프로토콜이 작동하지 않을 경우에만 실패합니다.</block>
+  <block id="aee5f180cc531b30ec6cf8dcf509d9b8" category="paragraph">모니터링 운영자가 자체 전용 네임스페이스에 배포된 경우 네임스페이스를 삭제합니다.</block>
 </blocks>
