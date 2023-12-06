@@ -326,10 +326,10 @@ Cloud Insights 에이전트 설치 프로그램은 무결성 검사를 수행하
 +
 ** 다운로드 및 설치(기본값):
 +
- installerName=cloudinsights-kubernetes.sh … && sudo -E -H ./$installerName --download –-install
+ installerName=cloudinsights-rhel_centos.sh … && sudo -E -H ./$installerName --download –-install
 ** 다운로드 전용:
 +
- installerName=cloudinsights-kubernetes.sh … && sudo -E -H ./$installerName --download
+ installerName=cloudinsights-rhel_centos.sh … && sudo -E -H ./$installerName --download
 
 
 
