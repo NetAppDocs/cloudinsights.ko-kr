@@ -5661,7 +5661,6 @@
   <block id="8bc50a0b28a2cb63377733efc9b75798" category="cell">* 100% *</block>
   <block id="9abc552e8e9480b60ac735a93fa16b7c" category="section-title">직접 구독하고 평가판을 건너뛰십시오</block>
   <block id="cab27dc53edb571cac663ce2e16450dc" category="inline-link-macro">AWS 마켓플레이스 를 참조하십시오</block>
-  <block id="ba90132b61afa4afdc494902547c62bf" category="paragraph">에서 직접 Cloud Insights를 구독할 수도 있습니다 <block ref="71bf9afbc646fc95bce99ca169e1cd95" category="inline-link-macro-rx"></block>를 선택합니다. 가입이 완료되고 환경이 설정되면 즉시 가입됩니다.</block>
   <block id="eb6885d6f664b5497f03e959d40f3cec" category="section-title">권한 ID 추가</block>
   <block id="a159f2d918a0f780067f357af177a7d4" category="paragraph">Cloud Insights 구독에 자격 ID를 추가하려면 * 관리자 &gt; 구독 * 페이지에서 _ + 자격 ID _ 를 클릭합니다.</block>
   <block id="1a62a39ff140f77355b83522e3f6dae5" category="inline-image-macro">구독에 권한 ID를 추가합니다</block>
@@ -12873,4 +12872,5 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
   <block id="8eb07dc327c14e3d1af48bf6f3b15f2a" category="cell">특정 Brocade FOS 8.2+ 장치는 HTTP 또는 HTTPS에서만 통신하려고 합니다. - 스위치에 디지털 인증서가 설치되어 있는 경우 암호화되지 않은 HTTP와 HTTPS를 사용하여 통신하려고 하면 스위치에서 HTTP 오류가 발생합니다. 테스트 기능은 HTTP와 HTTPS 모두와 통신을 시도합니다. - 테스트에서 한 프로토콜이 통과한다고 말하면 수집기를 안전하게 저장할 수 있으며 다른 프로토콜이 실패해도 걱정할 필요가 없습니다. 수집기는 수집 중에 두 프로토콜을 모두 시도하며 두 프로토콜이 작동하지 않을 경우에만 실패합니다.</block>
   <block id="aee5f180cc531b30ec6cf8dcf509d9b8" category="paragraph">모니터링 운영자가 자체 전용 네임스페이스에 배포된 경우 네임스페이스를 삭제합니다.</block>
   <block id="8e457ed4c1581d4ae53957e8e78fd202" category="paragraph">Amazon Marketplace 링크를 클릭하면 AWS가 열립니다<block ref="3f7ea064444693988ba2187721fbf454" category="inline-link-rx"></block> 구독을 완료할 수 있는 구독 페이지입니다. 계산기에 입력한 값은 AWS 가입 페이지에 채워지지 않습니다. 이 페이지에서 총 관리 단위 수를 입력해야 합니다.</block>
+  <block id="cf15bbe6cd227a924c3717e47e474a31" category="paragraph">에서 직접 Cloud Insights를 구독할 수도 있습니다<block ref="eae66bec507f0b1bc5acf3fdd4b6a83b" category="inline-link-rx"></block>를 선택합니다. 가입이 완료되고 환경이 설정되면 즉시 가입됩니다.</block>
 </blocks>

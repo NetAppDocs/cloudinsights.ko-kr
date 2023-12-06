@@ -217,7 +217,7 @@ NOTE: 관리되는 유닛의 합계는 요약 섹션의 데이터 수집기 수�
 
 == 직접 구독하고 평가판을 건너뛰십시오
 
-에서 직접 Cloud Insights를 구독할 수도 있습니다 link:https://aws.amazon.com/marketplace/pp/B07HM8QQGY["AWS 마켓플레이스 를 참조하십시오"]를 선택합니다. 가입이 완료되고 환경이 설정되면 즉시 가입됩니다.
+에서 직접 Cloud Insights를 구독할 수도 있습니다 https://aws.amazon.com/marketplace/pp/prodview-pbc3h2mkgaqxe["AWS 마켓플레이스 를 참조하십시오"]를 선택합니다. 가입이 완료되고 환경이 설정되면 즉시 가입됩니다.
 
 
 
