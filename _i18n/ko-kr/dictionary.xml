@@ -12873,4 +12873,53 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
   <block id="aee5f180cc531b30ec6cf8dcf509d9b8" category="paragraph">모니터링 운영자가 자체 전용 네임스페이스에 배포된 경우 네임스페이스를 삭제합니다.</block>
   <block id="8e457ed4c1581d4ae53957e8e78fd202" category="paragraph">Amazon Marketplace 링크를 클릭하면 AWS가 열립니다<block ref="3f7ea064444693988ba2187721fbf454" category="inline-link-rx"></block> 구독을 완료할 수 있는 구독 페이지입니다. 계산기에 입력한 값은 AWS 가입 페이지에 채워지지 않습니다. 이 페이지에서 총 관리 단위 수를 입력해야 합니다.</block>
   <block id="cf15bbe6cd227a924c3717e47e474a31" category="paragraph">에서 직접 Cloud Insights를 구독할 수도 있습니다<block ref="eae66bec507f0b1bc5acf3fdd4b6a83b" category="inline-link-rx"></block>를 선택합니다. 가입이 완료되고 환경이 설정되면 즉시 가입됩니다.</block>
+  <block id="c33f6b520ad3c202db9ed1b825ac8b3d" category="section-title">2023년 12월</block>
+  <block id="e5c497adc9cc22e52e97b4b5e964a73a" category="section-title">한 눈에 변경 분석</block>
+  <block id="6af5d0d36d2880461f4a893b2fda8c49" category="inline-link-macro">변경 분석</block>
+  <block id="9d47984568626758f79f59b8ab594e47" category="paragraph">쿠버네티스 <block ref="e15dca0da93b1f27987e351a6e71f29b" category="inline-link-macro-rx"></block> Kubernetes 환경의 최근 변화에 대한 올인원 뷰를 제공합니다. 알림 및 배포 상태를 즉시 확인할 수 있습니다. 변경 분석을 사용하여 모든 배포 및 구성 변경을 추적하고 Kubernetes 서비스, 인프라 및 클러스터의 상태 및 성능과 상호 연관시킬 수 있습니다.</block>
+  <block id="7096eb784c49db459b9e81d7144677b6" category="inline-image-macro">변경 분석 대시보드</block>
+  <block id="a00e9c277f678474cec2c7bb314fb3d9" category="paragraph"><block ref="a00e9c277f678474cec2c7bb314fb3d9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e1945d973cbf784106cf63f5c92dd03c" category="section-title">Kubernetes 워크로드 성능 대시보드</block>
+  <block id="0094a2cabaf94a50315415703ffad246" category="paragraph">포괄적인 Kubernetes 워크로드 성능 대시보드에서 워크로드 성능을 한눈에 파악할 수 있습니다. 볼륨, 처리량, 지연 시간, 재전송 추세에 대한 그래프와 환경의 각 네임스페이스에 대한 워크로드 트래픽 표를 빠르게 확인합니다. 필터를 사용하면 관심 영역에 쉽게 집중할 수 있습니다.</block>
+  <block id="359764412be7b85d82a0fede6f294fd8" category="inline-image-macro">워크로드 성능 메뉴, 폭 = 400</block>
+  <block id="6f0c6e70c5bdbec159d2aff314f95ca0" category="paragraph"><block ref="6f0c6e70c5bdbec159d2aff314f95ca0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="23ba06ac0886515dd5b526ead5ff8ee9" category="inline-image-macro">워크로드 성능 대시보드</block>
+  <block id="ac4c1402903407a0a891f2bb0c81c5f1" category="paragraph"><block ref="ac4c1402903407a0a891f2bb0c81c5f1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2054c9cef75769f02391e24b33913a1b" category="section-title">한 화면에서 세부 정보를 쿼리합니다</block>
+  <block id="2e7e5c9d39542249aa31c6133e40c262" category="paragraph">쿼리에서 행을 선택하면 선택한 행에 대한 속성, 주석 및 메트릭 세부 정보를 보여 주는 측면 패널이 열리고 개체의 랜딩 페이지로 드릴링할 필요 없이 유용한 정보를 제공합니다. 행 또는 측면 패널의 링크를 통해 쉽게 탐색할 수 있습니다.</block>
+  <block id="62cdb0814cb6471da325b4d35d9a9201" category="inline-image-macro">메트릭 쿼리에 대한 슬라이드아웃 패널</block>
+  <block id="828a2733738238dd63a3e8997aefd019" category="paragraph"><block ref="828a2733738238dd63a3e8997aefd019" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5090ffe948a87ecbd0fec886d682a30a" category="section-title">데이터 수집기 업데이트:</block>
+  <block id="b9fc953f4ecb0e9185cc45fc4d0d85c5" category="list-text">* Brocade FOS REST * : 이 수집기는 "미리보기"에서 이동되었으며 현재 일반적으로 사용할 수 있습니다. 참고 사항:</block>
+  <block id="834136be905525d9d1bd5340e9f78870" category="list-text">FOS는 FOS 8.2에서 REST API를 도입했습니다. 하지만 라우팅과 같은 일부 기능은 9.0의 REST API 기능만 제공되었습니다.</block>
+  <block id="6259752b8e7b6328c771bee6f8ad586c" category="list-text">일부 &lt;8.2&gt;와 혼합 FOS 자산으로 구성된 패브릭이 있는 경우 Cloud Insights FOS REST Collector는 이러한 이전 자산을 검색하지 못합니다. FOS REST Collector를 편집하고 해당 Collector에서 제외할 장치의 IPv4 주소 목록을 쉼표로 구분하여 작성할 수 있습니다.</block>
+  <block id="fd03b080e03c993770237986acf19dc1" category="list-text">* SELinux *: Cloud Insights는 SELinux 시행이 활성화된 Linux 환경 내에서 운영의 안정성을 보장하기 위해 Linux 수집 장치의 초기 설치에 대한 개선 사항을 포함합니다. 이러한 개선 사항은 IMPACT_NEW_AU 배포에만 적용됩니다. AU 업그레이드와 관련된 SELinux 문제가 있는 경우 NetApp 지원 팀에 문의하여 SELinux 구성을 수정하십시오.</block>
+  <block id="5142ab8747c5da1b5115ffa35bacd522" category="summary">Kubernetes 변경 사항을 그 어느 때보다 쉽게 추적할 수 있습니다.</block>
+  <block id="d75550072217b58f67a7216961c2bb8c" category="doc">Kubernetes 변경 분석</block>
+  <block id="745bf0c93bc131f89ec736fc36e64da7" category="paragraph">Kubernetes 변경 분석을 사용하면 Kubernetes 환경의 최근 변경에 대한 올인원 뷰를 제공합니다. 알림 및 배포 상태를 즉시 확인할 수 있습니다. 변경 분석을 사용하여 모든 배포 및 구성 변경을 추적하고 Kubernetes 서비스, 인프라 및 클러스터의 상태 및 성능과 상호 연관시킬 수 있습니다.</block>
+  <block id="baa67b8c9085fb7f1ab7886843918360" category="list-text">멀티 테넌트 Kubernetes 환경에서는 잘못 구성된 변경으로 인해 중단이 발생할 수 있습니다. 매우 동적인 환경에서는 Cloud Insights가 모든 변경 사항을 제대로 추적하지 못할 수 있습니다.</block>
+  <block id="ee48ad51c38d1e68f90591ef3918ee29" category="list-text">Change Analytics는 워크로드 상태와 구성 변경의 상태를 보고 상호 연관시킬 수 있는 단일 창을 제공합니다. 이는 동적 Kubernetes 환경 문제를 해결하는 데 도움이 될 수 있습니다.</block>
+  <block id="caa181b8cdb1a4fd1333f8f02b1cbaf6" category="paragraph">Kubernetes 변경 분석을 보려면 * Kubernetes &gt; 변경 분석 * 으로 이동하십시오.</block>
+  <block id="b23bbfd3989a8a0ebfbb036357fa19a6" category="inline-image-macro">경고 및 치명적 경고, 성공 및 실패 구축, 경고를 트리거하는 상위 3개 워크로드에 대한 Kubernetes Change Analytics 기본 화면</block>
+  <block id="133002591c6fbf37228759e489e746fc" category="paragraph"><block ref="2f43357f28dd56d00dc87ace24a5086f" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="a9ac2dc1ccf01db5959d4e16563a6bba" category="paragraph">현재 선택한 Cloud Insights 시간 범위에 따라 페이지가 자동으로 새로 고쳐집니다.  시간 범위가 작을수록 화면 새로 고침이 더 자주 발생합니다.</block>
+  <block id="11dc88e059709832ab0f8280cc54eecf" category="paragraph">Cloud Insights의 모든 기능과 마찬가지로 변경 목록을 필터링하는 것도 직관적입니다. 페이지 상단에서 Kubernetes 클러스터, 네임스페이스 또는 워크로드의 값을 입력하거나 선택하거나 {+] 버튼을 선택하여 고유한 필터를 추가할 수 있습니다.</block>
+  <block id="3dec7ee4035d7384095c6f5a0454b2a8" category="paragraph">특정 클러스터, 네임스페이스 및 워크로드(사용자가 설정한 다른 필터 포함)로 필터링하면 해당 클러스터의 해당 네임스페이스에 있는 해당 워크로드에 대한 배포 타임라인과 경고가 표시됩니다. 그래프를 클릭하고 끌어서 보다 구체적인 시간 범위에 초점을 맞춰 확대합니다.</block>
+  <block id="aa8e7ddd32230c18cfcb5371423cb0d3" category="inline-image-macro">워크로드 타임라인의 예</block>
+  <block id="b7cab2994bcbd4be950a067ce498791c" category="paragraph"><block ref="b7cab2994bcbd4be950a067ce498791c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d88cbd80f5b46f532c77eee8288f787b" category="section-title">빠른 상태</block>
+  <block id="798426d7e0a7153e9595b4baf74e0077" category="paragraph">필터링 영역 아래에는 여러 개의 상위 수준 표시기가 있습니다. 왼쪽에는 경고(Warning) 및 위험(Critical)의 수가 표시됩니다. 이 수에는 _Active_와 _Resolved_alerts 가 포함됩니다. Active_alerts만 보려면 "Status"에 대한 필터를 설정하고 "Active"를 선택합니다.</block>
+  <block id="37357e10649c59b80f8f74168d40b929" category="inline-image-macro">분석 알림 변경</block>
+  <block id="b58e9f19bc5a7e5d850afb7712dfc43b" category="paragraph"><block ref="b58e9f19bc5a7e5d850afb7712dfc43b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="184829ac15599f93f6a04572f14f760f" category="paragraph">배포 상태도 여기에 표시됩니다. 기본적으로 _Started_,_Complete_ 및 _Failed_deployments의 개수가 표시됩니다. Only_Failed_Deployments를 보려면 "Status"에 필터를 설정하고 "Failed"를 선택합니다.</block>
+  <block id="9e6e0b4ddf1bd5bb169293dd8bdbbc91" category="inline-image-macro">변경 분석 부서</block>
+  <block id="515fe35177706f902d42aacba2cb3732" category="paragraph"><block ref="515fe35177706f902d42aacba2cb3732" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="73f4838ec94a4da6e87f88b514573adb" category="paragraph">다음 워크로드로는 경고가 가장 많은 상위 3개 워크로드가 있습니다. 각 워크로드 옆의 빨간색 숫자는 해당 워크로드와 관련된 알림 수를 나타냅니다. 워크로드 링크를 클릭하여 인프라(Kubernetes Explorer), 종속성(워크로드 맵) 또는 로그 분석(이벤트 로그)을 탐색합니다.</block>
+  <block id="9178d83020e12a25e2fc67bcbf52cb10" category="inline-image-macro">분석 워크로드 탐색 옵션 변경</block>
+  <block id="1210a7f3bbc3fd1446c85109622a2bed" category="paragraph"><block ref="1210a7f3bbc3fd1446c85109622a2bed" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a4018bd0799cc93add471a8969cb9c41" category="section-title">세부 정보 패널</block>
+  <block id="af8e06fb12f5fdcc5176850dfc46d65f" category="paragraph">목록에서 변경을 선택하면 변경 사항을 자세히 설명하는 패널이 열립니다. 예를 들어 실패한 배포를 선택하면 배포 요약, 시작 및 종료 시간, 기간, 배포가 트리거된 위치, 해당 리소스를 탐색할 수 있는 링크가 표시됩니다. 또한 실패 이유, 관련 변경 사항 및 관련 이벤트도 표시합니다.</block>
+  <block id="48a3bc3cb899a72fd89e65ce93812a1b" category="inline-image-macro">배포 실패 세부 정보 패널</block>
+  <block id="14414cf8ddb2977c5888a488317daa8d" category="paragraph"><block ref="14414cf8ddb2977c5888a488317daa8d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cec6efc84112c97bd14aba77f80d27d1" category="paragraph">마찬가지로 경고를 선택하면 경고를 트리거한 모니터와 경고에 대한 시각적 타임라인을 보여 주는 차트를 비롯하여 알림에 대한 세부 정보가 제공됩니다.</block>
 </blocks>

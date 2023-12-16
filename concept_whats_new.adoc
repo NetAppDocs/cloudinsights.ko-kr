@@ -25,6 +25,50 @@ NOTE: 이러한 기능 중 일부는 Cloud Insights Federal Edition에서 사용
 
 
 
+== 2023년 12월
+
+
+
+=== 한 눈에 변경 분석
+
+쿠버네티스 link:kubernetes_change_analytics.html["변경 분석"] Kubernetes 환경의 최근 변화에 대한 올인원 뷰를 제공합니다. 알림 및 배포 상태를 즉시 확인할 수 있습니다. 변경 분석을 사용하여 모든 배포 및 구성 변경을 추적하고 Kubernetes 서비스, 인프라 및 클러스터의 상태 및 성능과 상호 연관시킬 수 있습니다.
+
+image:ChangeAnalytitcs_Main_Screen.png["변경 분석 대시보드"]
+
+
+
+=== Kubernetes 워크로드 성능 대시보드
+
+포괄적인 Kubernetes 워크로드 성능 대시보드에서 워크로드 성능을 한눈에 파악할 수 있습니다. 볼륨, 처리량, 지연 시간, 재전송 추세에 대한 그래프와 환경의 각 네임스페이스에 대한 워크로드 트래픽 표를 빠르게 확인합니다. 필터를 사용하면 관심 영역에 쉽게 집중할 수 있습니다.
+
+image:K8s_Workload_performance.png["워크로드 성능 메뉴, 폭 = 400"]
+
+image:K8s_Workload_performance_dashboard.png["워크로드 성능 대시보드"]
+
+
+
+=== 한 화면에서 세부 정보를 쿼리합니다
+
+쿼리에서 행을 선택하면 선택한 행에 대한 속성, 주석 및 메트릭 세부 정보를 보여 주는 측면 패널이 열리고 개체의 랜딩 페이지로 드릴링할 필요 없이 유용한 정보를 제공합니다. 행 또는 측면 패널의 링크를 통해 쉽게 탐색할 수 있습니다.
+
+image:MetricQuerySlideoutPanel.png["메트릭 쿼리에 대한 슬라이드아웃 패널"]
+
+
+
+=== 데이터 수집기 업데이트:
+
+* * Brocade FOS REST * : 이 수집기는 "미리보기"에서 이동되었으며 현재 일반적으로 사용할 수 있습니다. 참고 사항:
++
+** FOS는 FOS 8.2에서 REST API를 도입했습니다. 하지만 라우팅과 같은 일부 기능은 9.0의 REST API 기능만 제공되었습니다.
+** 일부 <8.2>와 혼합 FOS 자산으로 구성된 패브릭이 있는 경우 Cloud Insights FOS REST Collector는 이러한 이전 자산을 검색하지 못합니다. FOS REST Collector를 편집하고 해당 Collector에서 제외할 장치의 IPv4 주소 목록을 쉼표로 구분하여 작성할 수 있습니다.
+
+
+* * SELinux *: Cloud Insights는 SELinux 시행이 활성화된 Linux 환경 내에서 운영의 안정성을 보장하기 위해 Linux 수집 장치의 초기 설치에 대한 개선 사항을 포함합니다. 이러한 개선 사항은 IMPACT_NEW_AU 배포에만 적용됩니다. AU 업그레이드와 관련된 SELinux 문제가 있는 경우 NetApp 지원 팀에 문의하여 SELinux 구성을 수정하십시오.
+
+
+'''
+
+
 == 2023년 11월
 
 
