@@ -40,7 +40,15 @@ keywords: AU, acquisition unit, RAU, requirements, sizing
 * Rocky 9.0, 9.1
 * Ubuntu 서버: 18.04 및 20.04 LTS
 
-이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다. | 다음 중 하나의 라이센스 버전을 실행하는 컴퓨터: * Microsoft Windows 10 64비트 * Microsoft Windows Server 2012 * Microsoft Windows Server 2012 R2 * Microsoft Windows Server 2016 * Microsoft Windows Server 2019 * Microsoft Windows Server 2022 * Microsoft Windows 11 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다. 
+이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.
+
+<<<<<<<링크>> 있습니다
+SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 실행하는 것이 좋습니다.
+
+ _sudo semanage fcontext -a -t usr_t "/opt/netapp/cloudinsights(/. *)?" _
+ _sudo restorecon -R/opt/netapp/cloudinsights_
+=======
+>>>> 기본 | 다음 중 하나의 라이센스 버전을 실행하는 컴퓨터: * Microsoft Windows 10 64비트 * Microsoft Windows Server 2012 * Microsoft Windows Server 2012 R2 * Microsoft Windows Server 2016 * Microsoft Windows Server 2019 * Microsoft Windows Server 2022 * Microsoft Windows 11 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다. 
 
 
 | CPU | CPU 코어 2개 | 동일합니다 

@@ -12151,16 +12151,6 @@ V9.2.4.2</block>
   <block id="8c5de4bef31a79ea191d0f5740fcd0d7" category="paragraph">Cloud Insights를 사용하면 데이터 수집기 정보를 보다 쉽게 표시하고 찾을 수 있습니다.</block>
   <block id="203714762dd5efde1be30c09220249eb" category="list-text">* 데이터 수집기 목록 * 처리는 더 효율적입니다. 즉, 이 목록을 표시하고 탐색하는 데 걸리는 시간이 크게 단축됩니다. 많은 데이터 수집기가 있는 대규모 환경의 경우 데이터 수집기를 나열할 때 성능이 크게 향상됩니다.</block>
   <block id="213f6f47f9ff1cc9f4851725d89b4a7e" category="list-text">데이터 수집기 지원 매트릭스 * 는 .pdf 파일에서 .html 기반 페이지로 이동하므로 탐색이 더 빠르고 유지 관리가 용이합니다. 새로운 매트릭스는 다음 웹 사이트에서 확인하십시오.<block ref="8ac5ec571a7bfa27b3b068af3462bfb9" category="inline-link-rx"></block></block>
-  <block id="76bcb8d1f49c96aae75d78c035df4a9b" category="cell">다음 중 하나의 라이센스 버전을 실행하는 컴퓨터:
-
-* CentOS (64비트): 7.2 ~ 7.9, Stream 8, Stream 9
-* 데비안 (64비트): 9와 10
-* Oracle Enterprise Linux(64비트): 7.5 - 7.9, 8.1 - 8.4
-* Red Hat Enterprise Linux(64비트): 7.2 - 7.9, 8.1 - 8.7, 9.1
-* Rocky 9.0, 9.1
-* Ubuntu 서버: 18.04 및 20.04 LTS
-
-이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
   <block id="bef6178937f26cf5776d5c67e6c1d23c" category="cell">NET-observer-L4-DS 추가 허용 오차</block>
   <block id="5549e3ded48b31ecc7b00b810fa6b7ea" category="cell">수정 조치</block>
   <block id="dacff74646dd80517d0cffd123266041" category="cell">심각도/임계값</block>
@@ -12924,4 +12914,22 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
   <block id="cec6efc84112c97bd14aba77f80d27d1" category="paragraph">마찬가지로 경고를 선택하면 경고를 트리거한 모니터와 경고에 대한 시각적 타임라인을 보여 주는 차트를 비롯하여 알림에 대한 세부 정보가 제공됩니다.</block>
   <block id="cf6b021661e577ef1017b5fe1ce38625" category="section-title">Webhook 목록 페이지</block>
   <block id="5bd2d7e216efca647c8b9d69cedb9410" category="paragraph">Webhooks 목록 페이지에 이름, 만든 사람, 만든 사람, 상태, 보안, 및 마지막으로 보고된 필드</block>
+  <block id="160f07c3cffd1000365e042aeeaeb427" category="cell">다음 중 하나의 라이센스 버전을 실행하는 컴퓨터:
+
+* CentOS (64비트): 7.2 ~ 7.9, Stream 8, Stream 9
+* 데비안 (64비트): 9와 10
+* Oracle Enterprise Linux(64비트): 7.5 - 7.9, 8.1 - 8.4
+* Red Hat Enterprise Linux(64비트): 7.2 - 7.9, 8.1 - 8.7, 9.1
+* Rocky 9.0, 9.1
+* Ubuntu 서버: 18.04 및 20.04 LTS
+
+이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.
+
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;링크&gt;&gt; 있습니다
+SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 실행하는 것이 좋습니다.
+
+ _sudo semanage fcontext -a -t usr_t "/opt/netapp/cloudinsights(/. *)?" _
+ _sudo restorecon -R/opt/netapp/cloudinsights_
+=======
+&gt;&gt;&gt;&gt; 기본</block>
 </blocks>
