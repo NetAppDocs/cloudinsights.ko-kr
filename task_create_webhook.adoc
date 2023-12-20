@@ -84,6 +84,12 @@ image:Webhook_Default_Parameters.png["Cloud Insights 기본 Webhook 매개 변�
 
 
 
+=== Webhook 목록 페이지
+
+Webhooks 목록 페이지에 이름, 만든 사람, 만든 사람, 상태, 보안, 및 마지막으로 보고된 필드
+
+
+
 == 모니터에서 Webhook 알림 선택
 
 에서 웹 후크 알림을 선택합니다 link:task_create_monitor.html#creating-a-monitor["모니터링"], * 경고 > 모니터 관리 * 로 이동하여 원하는 모니터를 선택하거나 새 모니터를 추가합니다. 팀 알림 설정 섹션에서 전달 방법으로 _Webhook_을 선택합니다. 경고 수준(위험, 경고, 해결)을 선택한 다음 원하는 웹 후크를 선택합니다.
