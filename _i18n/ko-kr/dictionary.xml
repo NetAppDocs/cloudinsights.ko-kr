@@ -12914,7 +12914,7 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
   <block id="cec6efc84112c97bd14aba77f80d27d1" category="paragraph">마찬가지로 경고를 선택하면 경고를 트리거한 모니터와 경고에 대한 시각적 타임라인을 보여 주는 차트를 비롯하여 알림에 대한 세부 정보가 제공됩니다.</block>
   <block id="cf6b021661e577ef1017b5fe1ce38625" category="section-title">Webhook 목록 페이지</block>
   <block id="5bd2d7e216efca647c8b9d69cedb9410" category="paragraph">Webhooks 목록 페이지에 이름, 만든 사람, 만든 사람, 상태, 보안, 및 마지막으로 보고된 필드</block>
-  <block id="160f07c3cffd1000365e042aeeaeb427" category="cell">다음 중 하나의 라이센스 버전을 실행하는 컴퓨터:
+  <block id="f58657b4c7806c2ae7d24a62c56cfb94" category="cell">다음 중 하나의 라이센스 버전을 실행하는 컴퓨터:
 
 * CentOS (64비트): 7.2 ~ 7.9, Stream 8, Stream 9
 * 데비안 (64비트): 9와 10
@@ -12925,11 +12925,8 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
 
 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt;링크&gt;&gt; 있습니다
 SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 실행하는 것이 좋습니다.
 
- _sudo semanage fcontext -a -t usr_t "/opt/netapp/cloudinsights(/. *)?" _
- _sudo restorecon -R/opt/netapp/cloudinsights_
-=======
-&gt;&gt;&gt;&gt; 기본</block>
+ sudo semanage fcontext -a -t usr_t "/opt/netapp/cloudinsights(/. *)?"
+ sudo restorecon -R/opt/netapp/cloudinsights 를 참조하십시오</block>
 </blocks>
