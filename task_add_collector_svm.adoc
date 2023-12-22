@@ -28,7 +28,7 @@ summary: 워크로드 보안 데이터 수집기 추가
 * 이 데이터 수집기는 다음 구성 요소를 통해 지원됩니다.
 +
 ** Data ONTAP 9.2 이상 버전 최상의 성능을 얻으려면 Data ONTAP 버전을 사용하십시오 link:https://mysupport.netapp.com/site/bugs-online/product/ONTAP/BURT/1372994["이 문제"] 고정되어 있습니다.
-** SMB 프로토콜 버전 3.1 이하  워크로드 보안은 FlexCache를 사용하는 SMB 구성에서는 작동하지 않습니다. FlexCache를 사용하는 시스템에서 ONTAP 9.7부터 Fpolicy는 NFS 환경에서만 지원됩니다.
+** SMB 프로토콜 버전 3.1 이하
 ** NFS 프로토콜 버전 4.0 이전 버전
 ** FlexGroup는 ONTAP 9.4 이상 버전에서 지원됩니다
 ** ONTAP Select가 지원됩니다
