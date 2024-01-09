@@ -26,6 +26,8 @@ Cloud Insights는 로컬 서버에 설치된 하나 이상의 획득 장치를 �
 
 NOTE: 정확한 감사 및 데이터 보고를 위해 * NTP(Network Time Protocol) * 또는 * SNTP(Simple Network Time Protocol) * 를 사용하여 획득 장치 시스템의 시간을 동기화하는 것이 좋습니다.
 
+Cloud Insights 보안에 대해 알아보십시오 link:security_overview.html["여기"].
+
 
 
 == Linux 획득 장치 추가

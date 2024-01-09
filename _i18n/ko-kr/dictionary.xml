@@ -6179,8 +6179,6 @@
   <block id="6d850c1b8745f8f15a5216d868cd9cd7" category="inline-image-macro">Slack Webhook 을 만듭니다</block>
   <block id="1718403f08c32585848d7d3c2dcf311b" category="paragraph"><block ref="1718403f08c32585848d7d3c2dcf311b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ad8a37e07ad3b700a99d9565d7a44843" category="list-text">들어오는 Webhook으로 이동하여 들어오는 Webhook_ 활성화, 새 Webhook_ 추가 요청 을 클릭하고 게시할 채널을 선택합니다.</block>
-  <block id="55077038253242c2be9a96af7725a814" category="inline-image-macro">슬랙 Webhook URL</block>
-  <block id="0c818f35934ac007c89967d7ee8faa3c" category="paragraph"><block ref="0c818f35934ac007c89967d7ee8faa3c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="703a2fff4ffc0a10f86335937d4af331" category="list-text">웹 후크에 "Slack Webhook"과 같은 의미 있는 이름을 지정합니다.</block>
   <block id="82097f3f5575ce3befccf2d55fab468d" category="list-text">Template Type_드롭다운에서 * Slack * 을 선택합니다.</block>
   <block id="b8be5d787d20404395e80ce1c1614ddb" category="inline-image-macro">슬랙 웹후크 템플릿</block>
@@ -12929,4 +12927,8 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
  sudo semanage fcontext -a -t usr_t "/opt/netapp/cloudinsights(/. *)?"
  sudo restorecon -R/opt/netapp/cloudinsights 를 참조하십시오</block>
   <block id="343a405f2f06197f662e42373c7fb059" category="list-text">SMB 프로토콜 버전 3.1 이하</block>
+  <block id="44922767e817f1f23f68cda06b3e0da9" category="list-text">Cloud Insights 보안에 대해 알아볼 수 있습니다 <block ref="543da5bd260d801b98cf781252e71d7c" category="inline-link-macro-rx"></block>.</block>
+  <block id="eebaff443664fe8dffc2c87c72413ce8" category="paragraph">Cloud Insights 보안에 대해 알아보십시오 <block ref="543da5bd260d801b98cf781252e71d7c" category="inline-link-macro-rx"></block>.</block>
+  <block id="33443a936cc78a75cfb9473405764a37" category="section-title">NetApp 보안 권고</block>
+  <block id="eaf8ac7783e69f8aba13d1bece2acbd5" category="paragraph">NetApp의 사용 가능한 보안 보고서를 볼 수 있습니다 <block ref="c748e422d42ad69f84a6f8d804551466" category="inline-link-macro-rx"></block>.</block>
 </blocks>
