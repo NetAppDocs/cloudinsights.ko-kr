@@ -12931,4 +12931,5 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="eebaff443664fe8dffc2c87c72413ce8" category="paragraph">Cloud Insights 보안에 대해 알아보십시오 <block ref="543da5bd260d801b98cf781252e71d7c" category="inline-link-macro-rx"></block>.</block>
   <block id="33443a936cc78a75cfb9473405764a37" category="section-title">NetApp 보안 권고</block>
   <block id="eaf8ac7783e69f8aba13d1bece2acbd5" category="paragraph">NetApp의 사용 가능한 보안 보고서를 볼 수 있습니다 <block ref="c748e422d42ad69f84a6f8d804551466" category="inline-link-macro-rx"></block>.</block>
+  <block id="5d0efaff5017b27ebd557fe6acfbf979" category="paragraph">보안 로그인 create-user-or-group-name csUser-application ontapi-AuthMethod password-role csrole-vserver &lt;vservername&gt;</block>
 </blocks>
