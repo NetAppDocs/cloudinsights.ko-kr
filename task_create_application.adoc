@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_create_application.html 
-summary: 사용자가 정의한 기준에 따라 주석을 여러 자산에 자동으로 적용하는 주석 규칙을 만들 수 있습니다. 
+summary: 필요에 따라 환경 자산에 적용할 애플리케이션을 정의합니다. 
 keywords: application, create application, 
 ---
 = 응용 프로그램 만들기

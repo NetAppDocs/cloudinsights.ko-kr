@@ -4790,7 +4790,6 @@
   <block id="3109cfeae79b76c71475be9bfd3c2938" category="list-text">Data Collector를 선택합니다</block>
   <block id="34ae1a7b1b914e59ce0a8fde553aaca7" category="list-text">메시지가 나타나면 Agent 또는 Acquisition Unit(획득 장치)을 설치합니다</block>
   <block id="5e80381d4063fd3519fda3181ce1160c" category="list-text">Data Collector를 구성합니다</block>
-  <block id="2837a19125070133e6e88f25d23f955b" category="summary">사용자가 정의한 기준에 따라 주석을 여러 자산에 자동으로 적용하는 주석 규칙을 만들 수 있습니다.</block>
   <block id="e42dae64f8e80d611352315992a2460d" category="doc">응용 프로그램 만들기</block>
   <block id="a2f4ff91518afeccf570d0fb794c2f7f" category="paragraph">사용자 환경에서 실행 중인 특정 애플리케이션과 관련된 데이터를 추적하려면 Cloud Insights에서 애플리케이션을 정의할 수 있습니다.</block>
   <block id="598c4639acaf0f3c5a419f9cf865ef56" category="paragraph">애플리케이션을 업무 엔티티에 연결하려면 애플리케이션을 정의하기 전에 업무 엔티티를 생성해야 합니다.</block>
@@ -12931,5 +12930,5 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="eebaff443664fe8dffc2c87c72413ce8" category="paragraph">Cloud Insights 보안에 대해 알아보십시오 <block ref="543da5bd260d801b98cf781252e71d7c" category="inline-link-macro-rx"></block>.</block>
   <block id="33443a936cc78a75cfb9473405764a37" category="section-title">NetApp 보안 권고</block>
   <block id="eaf8ac7783e69f8aba13d1bece2acbd5" category="paragraph">NetApp의 사용 가능한 보안 보고서를 볼 수 있습니다 <block ref="c748e422d42ad69f84a6f8d804551466" category="inline-link-macro-rx"></block>.</block>
-  <block id="5d0efaff5017b27ebd557fe6acfbf979" category="paragraph">보안 로그인 create-user-or-group-name csUser-application ontapi-AuthMethod password-role csrole-vserver &lt;vservername&gt;</block>
+  <block id="570e0fa2a37c6838af341575ad05aec5" category="summary">필요에 따라 환경 자산에 적용할 애플리케이션을 정의합니다.</block>
 </blocks>
