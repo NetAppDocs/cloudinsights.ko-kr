@@ -537,7 +537,7 @@ kubectl get all -n <namespace> | grep -i psp (아무것도 발견되지 않았�
 | 내 Kubernetes 이벤트가 예기치 않게 Cloud Insights 보고에 대한 보고를 중단했습니다.  a| 
 이벤트 내보내기 포드의 이름을 검색합니다.
 
- `kubectl -n netapp-monitoring get pods |grep event-exporter |awk '{print $1}' |sed 's/event-exporter./event-exporter/`
+ `kubectl -n netapp-monitoring get pods |grep event-exporter |awk '{print $1}' |sed 's/event-exporter./event-exporter/'`
 "netapp-ci-event-exporter" 또는 "event-exporter"여야 합니다.  그런 다음 모니터링 에이전트를 편집합니다 `kubectl -n netapp-monitoring edit agent`를 입력하고 log_file 의 값을 이전 단계에서 찾은 적절한 이벤트 내보내기 포드 이름을 반영하도록 설정합니다.  보다 구체적으로 log_file을 "/var/log/containers/netapp-ci-event-exporter.log" 또는 "/var/log/containers/event-exporter *.log"로 설정해야 합니다.
 
 ....
