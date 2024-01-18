@@ -12923,4 +12923,8 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="8878dc3c5cd3e696f38ddc994eba9593" category="paragraph">또는, 하나를 할 수도 있습니다 <block ref="eb03b2f692ebf826fa07016cc9fa15a6" category="inline-xref-macro-rx"></block> 및 <block ref="2be7be71447d2c340aab35ab29970e30" category="inline-xref-macro-rx"></block> 에이전트</block>
   <block id="5be7a9b90aa61d46f99cd06715e40a54" category="cell">리소스 부족으로 인해 NetApp Kubernetes Monitoring Operator에 의해 구축된 Pod가 충돌하는 것을 볼 수 있습니다.</block>
   <block id="740cd109d583d1b28a1ebd66338906b7" category="cell">자세한 내용은 NetApp Kubernetes 모니터링 오퍼레이터 를 참조하십시오 <block ref="74a91e6274b6ee5f9fd240fb978eb1d9" category="inline-link-macro-rx"></block> 필요한 경우 CPU 및/또는 메모리 제한을 늘립니다.</block>
+  <block id="d8c9294ea12d1c7d12e34008f3ecee39" category="section-title">비밀에 대한 참고 사항</block>
+  <block id="1169bc31edb2122ab9876b9b0289225c" category="paragraph">NetApp Kubernetes 모니터링 운영자가 클러스터 전체의 비밀을 볼 수 있는 권한을 제거하려면 설치하기 전에 _operator-setup.yaml_file 에서 다음 리소스를 삭제하십시오.</block>
+  <block id="1790cdbccc4ddd4389eb90d73e043f4b" category="paragraph">업그레이드인 경우 클러스터에서 리소스도 삭제합니다.</block>
+  <block id="a66e68a20b3b94a700f3a3b9baa06764" category="paragraph">변경 분석이 활성화된 경우 _AgentConfiguration_or_operator-config.yaml_를 수정하여 변경 관리 섹션의 주석을 해제하고 변경 관리 섹션 아래에 _kindsToIgnoreFromWatch: '"비밀"'_를 포함시킵니다. 이 줄에서 작은따옴표와 큰따옴표의 존재 및 위치를 확인합니다.</block>
 </blocks>
