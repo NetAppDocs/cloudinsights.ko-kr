@@ -12940,4 +12940,5 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="5770f841572da2cfe361b72b1ca45ae8" category="section-title">Data Domain ID입니다</block>
   <block id="255f8c35566fa90bd6092dbfbebecfe2" category="paragraph">Data Domain Collector는 페일오버 이벤트 전반에 걸쳐 HA 시스템을 더 잘 식별할 수 있도록 개선되었습니다. 이 변경 사항으로 인해 HA 시스템에서 Data Domain 어플라이언스를 * 한 번 * 재식별할 수 있게 되어 해당 자산의 주석이 제거됩니다(이러한 스토리지가 다시 식별되기 때문에). 주석을 Data Domain 객체에 다시 연결해야 합니다.</block>
   <block id="6961ed92ff5a391c2815df010a84b302" category="paragraph">Cloud Insights의 초기 평가판 외에 의 이점을 활용할 수도 있습니다 <block ref="5e0a10d0899fa6ad6bbdfd72b26442bb" category="inline-link-macro-rx"></block>. 예를 들어, Cloud Insights를 구독하고 스토리지 및 가상 머신을 모니터링한 경우, Kubernetes를 환경에 추가하면 Kubernetes 관측성 30일 평가판을 자동으로 시작합니다. Kubernetes 관측성 관리형 유닛 사용은 평가 기간이 만료될 때까지 구독한 자격 조건에 포함되지 않습니다.</block>
+  <block id="3a16a434dce801908698971e622dd4d6" category="paragraph">새 워크로드 보안 API를 사용하여 데이터 수집기(추가/업데이트/삭제) 및 에이전트를 관리할 수 있습니다. Admin &gt; API Access &gt; API Documentation * 으로 이동한 후 _Workload Security_API 유형을 선택하여 자세히 알아보십시오.</block>
 </blocks>

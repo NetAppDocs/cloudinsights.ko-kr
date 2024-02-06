@@ -29,6 +29,12 @@ NOTE: 이러한 기능 중 일부는 Cloud Insights Federal Edition에서 사용
 
 
 
+=== 워크로드 보안 API
+
+새 워크로드 보안 API를 사용하여 데이터 수집기(추가/업데이트/삭제) 및 에이전트를 관리할 수 있습니다. Admin > API Access > API Documentation * 으로 이동한 후 _Workload Security_API 유형을 선택하여 자세히 알아보십시오.
+
+
+
 === 아직 사용하지 않은 Cloud Insights 기능을 사용해 보십시오
 
 Cloud Insights의 초기 평가판 외에 의 이점을 활용할 수도 있습니다 link:concept_subscribing_to_cloud_insights.html#module-trials["모듈 시험"]. 예를 들어, Cloud Insights를 구독하고 스토리지 및 가상 머신을 모니터링한 경우, Kubernetes를 환경에 추가하면 Kubernetes 관측성 30일 평가판을 자동으로 시작합니다. Kubernetes 관측성 관리형 유닛 사용은 평가 기간이 만료될 때까지 구독한 자격 조건에 포함되지 않습니다.
