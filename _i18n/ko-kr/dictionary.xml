@@ -12941,4 +12941,20 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="255f8c35566fa90bd6092dbfbebecfe2" category="paragraph">Data Domain Collector는 페일오버 이벤트 전반에 걸쳐 HA 시스템을 더 잘 식별할 수 있도록 개선되었습니다. 이 변경 사항으로 인해 HA 시스템에서 Data Domain 어플라이언스를 * 한 번 * 재식별할 수 있게 되어 해당 자산의 주석이 제거됩니다(이러한 스토리지가 다시 식별되기 때문에). 주석을 Data Domain 객체에 다시 연결해야 합니다.</block>
   <block id="6961ed92ff5a391c2815df010a84b302" category="paragraph">Cloud Insights의 초기 평가판 외에 의 이점을 활용할 수도 있습니다 <block ref="5e0a10d0899fa6ad6bbdfd72b26442bb" category="inline-link-macro-rx"></block>. 예를 들어, Cloud Insights를 구독하고 스토리지 및 가상 머신을 모니터링한 경우, Kubernetes를 환경에 추가하면 Kubernetes 관측성 30일 평가판을 자동으로 시작합니다. Kubernetes 관측성 관리형 유닛 사용은 평가 기간이 만료될 때까지 구독한 자격 조건에 포함되지 않습니다.</block>
   <block id="3a16a434dce801908698971e622dd4d6" category="paragraph">새 워크로드 보안 API를 사용하여 데이터 수집기(추가/업데이트/삭제) 및 에이전트를 관리할 수 있습니다. Admin &gt; API Access &gt; API Documentation * 으로 이동한 후 _Workload Security_API 유형을 선택하여 자세히 알아보십시오.</block>
+  <block id="fbfc60b12bca0c131c59f525f76f22bf" category="summary">워크로드 보안은 ONTAP와 통합되어 액세스 거부 이벤트를 수신하고 추가적인 분석 및 자동 응답 계층을 제공합니다.</block>
+  <block id="3ba4371c57b90b9ee49e030d7db47a1f" category="doc">ONTAP 액세스와의 통합이 거부되었습니다</block>
+  <block id="c74fa865502a71610c2bcdb74da1afac" category="paragraph">ONTAP 액세스 거부 기능은 NAS 환경(NFS 및 SMB)에서 워크로드 분석을 사용하여 실패한 파일 작업을 사전에 감지하여 경고합니다(예: 권한이 없는 작업을 수행하려는 사용자). 특히 보안 관련 오류의 경우 이러한 파일 작업 알림 실패 시 초기에 내부자 공격을 차단하는 데 도움이 됩니다.</block>
+  <block id="454eafdb8e7a9a5507e578af411d82d5" category="paragraph">Cloud Insights 워크로드 보안은 ONTAP와 통합되어 액세스 거부 이벤트를 수신하고 추가적인 분석 및 자동 응답 계층을 제공합니다.</block>
+  <block id="265cb660bad001dd1edf92723a8d4d4e" category="list-text">최소 ONTAP 버전: 9.13.0.</block>
+  <block id="b125c8dabe7599cb2999397450c6d677" category="list-text">워크로드 보안 관리자는 고급 구성 아래에서 _액세스 거부 이벤트 모니터링_ 확인란을 선택하여 새 수집기를 추가하거나 기존 수집기를 편집하는 동안 액세스 거부 기능을 활성화해야 합니다.</block>
+  <block id="1a4be5ca764787caaf41b91668c3ea9f" category="inline-image-macro">ONTAP Collector 고급 구성에서 액세스 거부됨 을 설정합니다</block>
+  <block id="6e0dfd81ddc34b1c1736fb0d236a55db" category="paragraph"><block ref="6e0dfd81ddc34b1c1736fb0d236a55db" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8e590479d69be0679e0d2b7c5a78d3ab" category="paragraph">클러스터 관리 자격 증명을 사용하여 Data Collector를 추가하는 경우 새 권한이 필요하지 않습니다.</block>
+  <block id="a3fef797358352dd57f209719f4590ca" category="paragraph">사용자에게 부여된 권한이 있는 사용자 지정 사용자(예: _CsUser_)를 사용하여 수집기를 추가하는 경우, 아래 단계에 따라 ONTAP에 액세스 거부 이벤트를 등록하는 데 필요한 권한을 워크로드 보안에 부여합니다.</block>
+  <block id="04b888e98eb37f7a0061538c4af0da8a" category="paragraph">cluster_credentials를 사용하는 CsUser의 경우 ONTAP 명령줄에서 다음 명령을 실행합니다. _csrole_은(는) 사용자 지정 역할이고 _csUser_는 ONTAP 사용자 지정 사용자입니다.</block>
+  <block id="7a1aa4b5b013e91e379aedbfb6a633f3" category="paragraph">csUser with_SVM_credentials의 경우 ONTAP 명령줄에서 다음 명령을 실행합니다.</block>
+  <block id="6b112db6b76b4a3d519b727558f34cb6" category="section-title">액세스가 거부되었습니다</block>
+  <block id="d3717aec38baca9f86dd49ee974d2ccf" category="paragraph">ONTAP 시스템에서 이벤트를 가져오면 워크로드 보안 포렌식 페이지에 액세스 거부 이벤트가 표시됩니다. 표시되는 정보 외에도 기어 아이콘에서 테이블에 _WARGED Activity_ 열을 추가하여 특정 작업에 대해 누락된 사용자 권한을 볼 수 있습니다.</block>
+  <block id="fb4e4dc5cb185934a7a50a8b788d9a18" category="inline-image-macro">액세스 거부 이벤트의 예</block>
+  <block id="ad7abfbe23406b97a783bcc153795841" category="paragraph"><block ref="ad7abfbe23406b97a783bcc153795841" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
