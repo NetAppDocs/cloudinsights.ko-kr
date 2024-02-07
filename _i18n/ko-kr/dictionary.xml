@@ -12599,7 +12599,6 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="49eec5d17a233960170b22a7e35d15a7" category="paragraph">검사를 표시하는 행이 활성화됩니다. "X"는 비활성 장치를 나타냅니다.</block>
   <block id="94199173f712baeb6cb5de3780bf07fa" category="cell">인벤토리 최근 상태: 예기치 않은 데이터가 검색됨 - 어레이가 0개의 볼륨을 보고했습니다</block>
   <block id="7e7b57722f915378d4f91beba7dfeeda" category="cell">일반적으로 인증(인증이 아님) 문제를 나타냅니다. 자격 증명이 올바르고 사용자 이름에 모든 볼륨을 나열하고 해당 속성을 볼 수 있는 권한이 있는지 확인합니다.</block>
-  <block id="ff4b0f3d8b62285c71936aba1b29d4cc" category="list-text">AObservability &gt; Collectors &gt; Acquisition Units &gt; + Acquisition Unit * 을 클릭합니다</block>
   <block id="293bcc0e7d6a9406090147d0fa8794ee" category="list-text">획득 장치의 상태를 확인하려면 * 관측성 &gt; 수집기 &gt; 획득 장치 * 를 클릭합니다.</block>
   <block id="2e275d8e6835810edeb214f1d2d93419" category="list-text">관측성 &gt; 수집기 &gt; 촬영 단위 &gt; + 촬영 단위 * 를 클릭합니다.</block>
   <block id="304161318d9b8fb676a16c964b6f8f50" category="list-text">획득 장치의 상태를 확인하려면 * &gt; 관측성 &gt; 수집기 &gt; 획득 장치 * 를 클릭합니다.</block>
@@ -12957,4 +12956,5 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="d3717aec38baca9f86dd49ee974d2ccf" category="paragraph">ONTAP 시스템에서 이벤트를 가져오면 워크로드 보안 포렌식 페이지에 액세스 거부 이벤트가 표시됩니다. 표시되는 정보 외에도 기어 아이콘에서 테이블에 _WARGED Activity_ 열을 추가하여 특정 작업에 대해 누락된 사용자 권한을 볼 수 있습니다.</block>
   <block id="fb4e4dc5cb185934a7a50a8b788d9a18" category="inline-image-macro">액세스 거부 이벤트의 예</block>
   <block id="ad7abfbe23406b97a783bcc153795841" category="paragraph"><block ref="ad7abfbe23406b97a783bcc153795841" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fa7fb7843c2ca38571ee7a2500a1072e" category="list-text">관측성 &gt; 수집기 &gt; 촬영 단위 &gt; + 촬영 단위 * 를 클릭합니다</block>
 </blocks>
