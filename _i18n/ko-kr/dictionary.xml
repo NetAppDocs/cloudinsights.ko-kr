@@ -12893,10 +12893,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="1790cdbccc4ddd4389eb90d73e043f4b" category="paragraph">업그레이드인 경우 클러스터에서 리소스도 삭제합니다.</block>
   <block id="a66e68a20b3b94a700f3a3b9baa06764" category="paragraph">변경 분석이 활성화된 경우 _AgentConfiguration_or_operator-config.yaml_를 수정하여 변경 관리 섹션의 주석을 해제하고 변경 관리 섹션 아래에 _kindsToIgnoreFromWatch: '"비밀"'_를 포함시킵니다. 이 줄에서 작은따옴표와 큰따옴표의 존재 및 위치를 확인합니다.</block>
   <block id="efe846805e5476fec607bbf54e45dc44" category="section-title">2024년 1월</block>
-  <block id="03fe115860a60e02eaf2df94adba350a" category="section-title">향상된 워크로드 보안</block>
-  <block id="c8bb883652ae26ad6b1ae229879d02ef" category="paragraph">워크로드 보안에는 다음과 같은 개선 사항이 포함됩니다.</block>
-  <block id="39d95be3c95b6807c34781066d955324" category="list-text">위양성 경고의 수를 줄이기 위해 감지 알고리즘이 향상되었습니다.</block>
-  <block id="ee1e8678e1e060e50af00e870fcbfa17" category="list-text">Forensics 페이지를 로드, 표시 및 스크롤하는 동안 사용자 인터페이스 성능이 향상되었습니다.</block>
   <block id="a06394795b8f53802b059da7ff53b836" category="section-title">아직 사용하지 않은 Cloud Insights 기능을 사용해 보십시오</block>
   <block id="5dbb51f66b1a3074265f272db5200fa9" category="section-title">내 워크로드가 얼마나 정상적인가?</block>
   <block id="724d9fcddedbe051bb60333c24d60088" category="paragraph">워크로드 상태는 * Kubernetes &gt; Explore &gt; 워크로드 * 페이지에서 한눈에 확인할 수 있으므로 제대로 작동하는 워크로드와 도움이 필요할 수 있는 워크로드를 빠르게 확인할 수 있습니다.</block>
@@ -12905,7 +12901,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="5770f841572da2cfe361b72b1ca45ae8" category="section-title">Data Domain ID입니다</block>
   <block id="255f8c35566fa90bd6092dbfbebecfe2" category="paragraph">Data Domain Collector는 페일오버 이벤트 전반에 걸쳐 HA 시스템을 더 잘 식별할 수 있도록 개선되었습니다. 이 변경 사항으로 인해 HA 시스템에서 Data Domain 어플라이언스를 * 한 번 * 재식별할 수 있게 되어 해당 자산의 주석이 제거됩니다(이러한 스토리지가 다시 식별되기 때문에). 주석을 Data Domain 객체에 다시 연결해야 합니다.</block>
   <block id="6961ed92ff5a391c2815df010a84b302" category="paragraph">Cloud Insights의 초기 평가판 외에 의 이점을 활용할 수도 있습니다 <block ref="5e0a10d0899fa6ad6bbdfd72b26442bb" category="inline-link-macro-rx"></block>. 예를 들어, Cloud Insights를 구독하고 스토리지 및 가상 머신을 모니터링한 경우, Kubernetes를 환경에 추가하면 Kubernetes 관측성 30일 평가판을 자동으로 시작합니다. Kubernetes 관측성 관리형 유닛 사용은 평가 기간이 만료될 때까지 구독한 자격 조건에 포함되지 않습니다.</block>
-  <block id="3a16a434dce801908698971e622dd4d6" category="paragraph">새 워크로드 보안 API를 사용하여 데이터 수집기(추가/업데이트/삭제) 및 에이전트를 관리할 수 있습니다. Admin &gt; API Access &gt; API Documentation * 으로 이동한 후 _Workload Security_API 유형을 선택하여 자세히 알아보십시오.</block>
   <block id="fbfc60b12bca0c131c59f525f76f22bf" category="summary">워크로드 보안은 ONTAP와 통합되어 액세스 거부 이벤트를 수신하고 추가적인 분석 및 자동 응답 계층을 제공합니다.</block>
   <block id="3ba4371c57b90b9ee49e030d7db47a1f" category="doc">ONTAP 액세스와의 통합이 거부되었습니다</block>
   <block id="c74fa865502a71610c2bcdb74da1afac" category="paragraph">ONTAP 액세스 거부 기능은 NAS 환경(NFS 및 SMB)에서 워크로드 분석을 사용하여 실패한 파일 작업을 사전에 감지하여 경고합니다(예: 권한이 없는 작업을 수행하려는 사용자). 특히 보안 관련 오류의 경우 이러한 파일 작업 알림 실패 시 초기에 내부자 공격을 차단하는 데 도움이 됩니다.</block>
@@ -12946,4 +12941,9 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="f6682194485ec630bf22981ff1031e29" category="list-text">* 액세스 거부 *: 워크로드 보안은 ONTAP와 통합되어 수신됩니다 <block ref="cf689af48c341111dcdcd455a22874dd" category="inline-link-macro-rx"></block> 추가 분석 및 자동 응답 계층을 제공합니다.</block>
   <block id="e7b6c39291eb31c1a3a49eb83274bc99" category="cell">경로 필터를 사용할 때 "상태 코드 500/503으로 요청 실패" 오류가 발생합니다.</block>
   <block id="62ce499553ccf0270c3a01cc146e46fd" category="cell">레코드를 필터링하려면 더 작은 날짜 범위를 사용하십시오.</block>
+  <block id="0cf476fa861dbe86c3426536da9f3734" category="section-title">워크로드 보안 Data Collector API</block>
+  <block id="a9db33e90d7bc84178320a82514d183b" category="paragraph">대규모 환경에서는 새로운 Data Collector API를 사용하여 워크로드 보안 수집기 생성을 자동화할 수 있습니다. Admin &gt; API Access &gt; API Documentation * 으로 이동한 후 _Workload Security_API 유형을 선택하여 자세히 알아보십시오.</block>
+  <block id="f3f66b8b59d9644a598941acf89639a4" category="section-title">향상된 랜섬웨어 감지 ML 알고리즘</block>
+  <block id="c8bf494d8f410006e7c19ac8fa00ded4" category="paragraph">워크로드 보안에는 가장 정교한 공격을 더 빠르고 정확하게 감지하는 새로운 2세대 랜섬웨어 감지 ML 알고리즘이 포함되어 있습니다.</block>
+  <block id="c082d0e57443bf019246b67c029c585b" category="paragraph">행동의 "계절성": 주말 행동은 평일 또는 오후의 아침 행동과 다른 패턴을 따를 수 있습니다. 워크로드 보안 알고리즘은 이러한 계절성을 고려합니다.</block>
 </blocks>
