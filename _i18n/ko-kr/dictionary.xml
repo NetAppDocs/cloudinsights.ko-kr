@@ -12944,4 +12944,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="0f282a47af79839bfb5e052b5cb08dcd" category="cell">_AgentConfiguration_에서 Telegraf 섹션을 편집하고 _dockerMetricCollectionEnabled_를 false 로 설정합니다. 자세한 내용은 조작자를 참조하십시오  <block ref="74a91e6274b6ee5f9fd240fb978eb1d9" category="inline-link-macro-rx"></block>.</block>
   <block id="1ec5bf0286a53dd8fc091a9a9b037623" category="inline-link-macro">"액세스 거부됨" 이벤트입니다</block>
   <block id="f6682194485ec630bf22981ff1031e29" category="list-text">* 액세스 거부 *: 워크로드 보안은 ONTAP와 통합되어 수신됩니다 <block ref="cf689af48c341111dcdcd455a22874dd" category="inline-link-macro-rx"></block> 추가 분석 및 자동 응답 계층을 제공합니다.</block>
+  <block id="e7b6c39291eb31c1a3a49eb83274bc99" category="cell">경로 필터를 사용할 때 "상태 코드 500/503으로 요청 실패" 오류가 발생합니다.</block>
+  <block id="62ce499553ccf0270c3a01cc146e46fd" category="cell">레코드를 필터링하려면 더 작은 날짜 범위를 사용하십시오.</block>
 </blocks>
