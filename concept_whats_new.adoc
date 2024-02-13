@@ -160,7 +160,7 @@ image:StorageNodeSupportData.png["스토리지 노드 지원 정보입니다"]
 
 워크로드 보안은 다음과 같이 개선되었습니다.
 
-* * 액세스 거부 *: 워크로드 보안은 ONTAP와 통합되어 "액세스 거부" 이벤트를 수신하고 추가 분석 및 자동 응답 계층을 제공합니다.
+* * 액세스 거부 *: 워크로드 보안은 ONTAP와 통합되어 수신됩니다 link:concept_ws_integration_with_ontap_access_denied.html[""액세스 거부됨" 이벤트입니다"] 추가 분석 및 자동 응답 계층을 제공합니다.
 * * 허용 파일 유형 * : 알려진 파일 확장자에 대한 랜섬웨어 공격이 감지되면 해당 파일 확장자를 에 추가할 수 있습니다 link:ws_allowed_file_types.html["허용되는 파일 형식"] 불필요한 경고를 방지하기 위한 목록
 
 
