@@ -95,6 +95,8 @@ sidebar:
       url: "/kubernetes_cluster_detail.html"
     - title: 네트워크 모니터링 및 맵
       url: "/concept_kubernetes_network_monitoring_and_map.html"
+    - title: 변경 분석
+      url: "/kubernetes_change_analytics.html"
   - title: 인사이트
     entries:
     - title: 개요
