@@ -249,6 +249,8 @@ sidebar:
       url: "/ws_allowed_file_types.html"
     - title: ONTAP 자율 랜섬웨어 보호 통합
       url: "/concept_cs_integration_with_ontap_arp.html"
+    - title: ONTAP 액세스 통합이 거부되었습니다
+      url: "/concept_ws_integration_with_ontap_access_denied.html"
     - title: 사용자 액세스 차단
       url: "/cs_restrict_user_access.html"
     - title: 랜섬웨어 공격 시뮬레이션
