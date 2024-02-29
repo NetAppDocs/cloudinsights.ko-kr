@@ -79,7 +79,7 @@ NetApp Kubernetes 모니터링 운영자를 업그레이드하기 전에 이 정
 
 을(를) 사용하여 실행 중인 경우 <<configuring-proxy-support,프록시>>, 가 있습니다 <<using-a-custom-or-private-docker-repository,사용자 지정 리포지토리>>또는 을(를) 사용하고 있습니다 <<openshift-instructions,OpenShift>>다음 섹션을 주의 깊게 읽으십시오.
 
-에 대해서도 읽어 보세요 <<permissions,권한>>.
+에 대해서도 읽어 보세요 <<권한,권한>>.
 
 이전 설치에서 업그레이드하는 경우 를 읽으십시오 <<업그레이드 중,업그레이드 중>> 정보.
 

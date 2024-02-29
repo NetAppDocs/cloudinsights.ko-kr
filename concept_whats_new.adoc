@@ -5,17 +5,14 @@ summary: Cloud Insights에서 사용할 수 있는 새로운 기능
 keywords: features 
 ---
 = Cloud Insights의 새로운 기능
-:toc: macro
 :hardbreaks:
 :toclevels: 2
 :allow-uri-read: 
-:toc: 
 :toclevels: 2
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 NetApp은 제품과 서비스를 지속적으로 개선 및 개선하고 있습니다. 다음은 Cloud Insights의 상용 버전에서 사용할 수 있는 최신 기능 중 일부입니다.
@@ -26,6 +23,52 @@ NOTE: 이러한 기능 중 일부는 Cloud Insights Federal Edition에서 사용
 
 
 == 2024년 2월
+
+
+
+=== 사용 편의성 개선
+
+오른쪽 드롭다운 메뉴에서 _Export as Image_를 선택하여 현재 대시보드의 * 스냅샷 * 을 저장합니다. Cloud Insights는 현재 위젯 상태의 .PNG를 생성합니다.
+
+image:ExportAsImage.png["Export as Image(이미지로 내보내기) 드롭다운"]
+
+* 오브젝트 및 메트릭 선택 * 위젯, 모니터 등의 경우 그 어느 때보다 쉽게 선택할 수 있습니다 원하는 개체 유형을 선택한 다음 별도의 드롭다운에서 해당 개체와 관련된 메트릭을 선택합니다.
+
+image:ObjectAndMetricSelection.png["개체 및 메트릭 선택기는 별개입니다"]
+
+* 데이터 수집기 및 수집 장치 내보내기 * 는 해당 페이지 상단의 아이콘을 선택하여 .csv로 목록을 표시합니다.
+
+image:ExportDCList.png["DC 및 AU 목록을 .csv로 내보냅니다"]
+
+도움말 > 지원 * 페이지를 재구성했으므로 필요한 항목을 더 쉽게 찾을 수 있습니다. NetApp은 귀하의 요청에 따라 이 페이지에 * API Swagger * 및 사용자 설명서에 직접 링크를 추가했습니다.
+
+image:Support_APIAccess.png["도움말 및 GT; 지원 페이지의 API 링크"]
+
+* 링크 * 경고 목록 페이지의 "triggeredOn" 열에 있는 링크 * 해당 개체에 랜딩 페이지를 사용할 수 있는 경우 해당 랜딩 페이지로 이동합니다.
+
+image:TriggeredOnLink.png["TriggeredOn 경고 필드의 링크"]
+
+
+
+=== 네임스페이스의 모든 변경 내용을 확인합니다
+
+이제 Kubernetes 변경 분석을 통해 클러스터 및 네임스페이스를 선택할 때 변경 일정을 확인할 수 있습니다. 이전에는 작업량도 선택해야 했습니다.  클러스터 및 네임스페이스에서 필터링하면 해당 네임스페이스의 모든 워크로드 변경 타임라인이 한 줄에 표시됩니다.
+
+image:NamespaceTimeline.png["네임스페이스 타임라인"]
+
+
+
+=== 경고에 대한 관련 로그
+
+로그 경고를 볼 때 관련 로그 항목이 새 테이블에 표시됩니다.  로그 항목은 알림과 동일한 소스 및 시간 내에 발생하고 동일한 조건이 적용되는 경우 연결됩니다. 더 자세히 살펴보려면 "Analyze Logs"를 선택하십시오.
+
+image:RelatedLogsTable.png["로그 경고 랜딩 페이지의 관련 로그"]
+
+
+
+=== ONTAP 스위치 데이터를 수집합니다
+
+Cloud Insights는 ONTAP 시스템의 백엔드 스위치에서 데이터를 수집할 수 있습니다. 데이터 수집기의 _Advanced Configuration_ 섹션에서 수집을 활성화하고 ONTAP 시스템이 제공하도록 구성되었는지 확인합니다 link:https://docs.netapp.com/us-en/ontap-cli-98/system-switch-ethernet-create.html["스위치 정보"] 을(를) 가지고 있습니다 link:["권한"] 설정.
 
 
 
