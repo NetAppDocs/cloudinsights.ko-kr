@@ -12971,4 +12971,8 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="ff435ef5470e714750e57427557cc34e" category="inline-link-macro">스위치 정보</block>
   <block id="41275a535677f79ff347e01bc530c176" category="inline-link-macro">권한</block>
   <block id="006486695c60df697c0abcefc81426d9" category="paragraph">Cloud Insights는 ONTAP 시스템의 백엔드 스위치에서 데이터를 수집할 수 있습니다. 데이터 수집기의 _Advanced Configuration_ 섹션에서 수집을 활성화하고 ONTAP 시스템이 제공하도록 구성되었는지 확인합니다 <block ref="d459f31dbd039334427e234b6edb8373" category="inline-link-macro-rx"></block> 을(를) 가지고 있습니다 <block ref="8500b277c562368e86ad7d69d1827230" category="inline-link-macro-rx"></block> 설정.</block>
+  <block id="cce3c9f8c5193ee861459b69a1aed6b4" category="cell">클러스터 스위치 메트릭입니다</block>
+  <block id="85ba393ee9d8bf6787cbec3a43f3e58c" category="cell">Cloud Insights이 클러스터 스위치 데이터를 수집하도록 허용합니다. Cloud Insights 측에서 이 기능을 활성화하는 것 외에도 ONTAP 시스템에서도 이 기능을 제공하도록 구성해야 합니다 <block ref="d459f31dbd039334427e234b6edb8373" category="inline-link-macro-rx"></block>를 선택하고 가 올바른지 확인합니다 <block ref="e83cb79e34a9adb49ab5c30ebb0b6c54" category="inline-xref-macro-rx"></block> 스위치 데이터를 Cloud Insights로 전송할 수 있도록 설정됩니다. 아래의 "권한에 대한 참고 사항"을 참조하십시오.</block>
+  <block id="466b14af7b02408eac035880aecf9915" category="paragraph">클러스터 스위치 데이터를 수집하는 경우:</block>
+  <block id="4ba371a33d0081d06951a5868ba9b9f6" category="admonition">ONTAP 액세스 제어가 올바르게 설정되어 있지 않으면 Cloud Insights REST 호출이 실패하여 장치의 데이터 공백이 발생할 수 있습니다.  예를 들어, Cloud Insights Collector에서 활성화했지만 ONTAP에 대한 권한을 구성하지 않은 경우 획득이 실패합니다.  또한 역할이 이전에 ONTAP에 정의되어 있고 REST API 기능을 추가하는 경우 _http_가 역할에 추가되었는지 확인합니다.</block>
 </blocks>
