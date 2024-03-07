@@ -12906,7 +12906,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="6e0dfd81ddc34b1c1736fb0d236a55db" category="paragraph"><block ref="6e0dfd81ddc34b1c1736fb0d236a55db" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8e590479d69be0679e0d2b7c5a78d3ab" category="paragraph">클러스터 관리 자격 증명을 사용하여 Data Collector를 추가하는 경우 새 권한이 필요하지 않습니다.</block>
   <block id="a3fef797358352dd57f209719f4590ca" category="paragraph">사용자에게 부여된 권한이 있는 사용자 지정 사용자(예: _CsUser_)를 사용하여 수집기를 추가하는 경우, 아래 단계에 따라 ONTAP에 액세스 거부 이벤트를 등록하는 데 필요한 권한을 워크로드 보안에 부여합니다.</block>
-  <block id="04b888e98eb37f7a0061538c4af0da8a" category="paragraph">cluster_credentials를 사용하는 CsUser의 경우 ONTAP 명령줄에서 다음 명령을 실행합니다. _csrole_은(는) 사용자 지정 역할이고 _csUser_는 ONTAP 사용자 지정 사용자입니다.</block>
   <block id="7a1aa4b5b013e91e379aedbfb6a633f3" category="paragraph">csUser with_SVM_credentials의 경우 ONTAP 명령줄에서 다음 명령을 실행합니다.</block>
   <block id="6b112db6b76b4a3d519b727558f34cb6" category="section-title">액세스가 거부되었습니다</block>
   <block id="d3717aec38baca9f86dd49ee974d2ccf" category="paragraph">ONTAP 시스템에서 이벤트를 가져오면 워크로드 보안 포렌식 페이지에 액세스 거부 이벤트가 표시됩니다. 표시되는 정보 외에도 기어 아이콘에서 테이블에 _WARGED Activity_ 열을 추가하여 특정 작업에 대해 누락된 사용자 권한을 볼 수 있습니다.</block>
@@ -12983,4 +12982,5 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
 *.cloudinsights.netapp.com 참조하십시오
 
 자세한 내용은 프록시 정보 를 참조하십시오 <block ref="05c875968683001fc59f206218314b72" category="inline-link-macro-rx"></block> 또는 <block ref="554efdd06704a764ab0a7e3947e279ff" category="inline-link-macro-rx"></block>.</block>
+  <block id="b30a6e7a75eaf5af9f2106e8d96d324b" category="paragraph">cluster_credentials를 사용하는 CsUser의 경우 ONTAP 명령줄에서 다음 명령을 실행합니다. _csrestrole_은(는) 사용자 지정 역할이고 _csUser_는 ONTAP 사용자 지정 사용자입니다.</block>
 </blocks>
