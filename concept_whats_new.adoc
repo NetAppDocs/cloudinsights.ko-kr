@@ -22,6 +22,31 @@ NOTE: 이러한 기능 중 일부는 Cloud Insights Federal Edition에서 사용
 
 
 
+== 2024년 3월
+
+
+
+=== 워크로드 보안 에이전트 세부 정보
+
+각 워크로드 보안 에이전트에는 자체 시작 페이지가 있으며, 이 페이지에서 에이전트와 연결된 설치된 데이터 및 사용자 디렉터리 수집기는 물론 에이전트에 대한 요약 정보를 쉽게 볼 수 있습니다.
+
+image:Agent_Detail_Page.png["상담원 세부 정보 랜딩 페이지 예"]
+
+
+
+=== 더 많은 데이터를 보다 빠르게 차트로 작성할 수 있습니다
+
+자산의 시작 페이지에서 데이터를 분석할 때 전문가 보기 차트에 데이터를 추가하는 것은 매우 간단합니다. 랜딩 페이지의 각 테이블에 대해 개체 유형에 관련 데이터가 있는 경우 해당 개체 위로 마우스를 가져가면 "전문가 보기에 추가" 아이콘이 표시됩니다. 이 아이콘을 선택하면 해당 개체가 추가 리소스에 추가되고 전문가 보기 차트에 표시됩니다.
+
+image:AddToChartIcon.png["전문가 보기에 테이블 데이터를 추가합니다"]
+
+또는 랜딩 페이지 표의 데이터를 자체 차트로 표시하려는 경우도 있습니다. 간단히 _Show Chart_icon을 선택하여 표 아래의 차트를 엽니다.
+
+image:LPTableShowChartIcon.png["차트 아이콘 표시"]
+
+'''
+
+
 == 2024년 2월
 
 
@@ -68,7 +93,7 @@ image:RelatedLogsTable.png["로그 경고 랜딩 페이지의 관련 로그"]
 
 === ONTAP 스위치 데이터를 수집합니다
 
-Cloud Insights는 ONTAP 시스템의 백엔드 스위치에서 데이터를 수집할 수 있습니다. 데이터 수집기의 _Advanced Configuration_ 섹션에서 수집을 활성화하고 ONTAP 시스템이 제공하도록 구성되었는지 확인합니다 link:https://docs.netapp.com/us-en/ontap-cli-98/system-switch-ethernet-create.html["스위치 정보"] 을(를) 가지고 있습니다 link:["권한"] 설정.
+Cloud Insights는 ONTAP 시스템의 백엔드 스위치에서 데이터를 수집할 수 있습니다. 데이터 수집기의 _Advanced Configuration_ 섹션에서 수집을 활성화하고 ONTAP 시스템이 제공하도록 구성되었는지 확인합니다 link:https://docs.netapp.com/us-en/ontap-cli-98/system-switch-ethernet-create.html["스위치 정보"] 을(를) 가지고 있습니다 <<a-note-about-permissions,권한>> 설정.
 
 
 

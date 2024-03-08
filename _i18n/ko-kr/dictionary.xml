@@ -4848,40 +4848,6 @@
   <block id="98ecb80de38f6648e61086a9a5b64ff7" category="cell">Solutions Enabler의 상태 및 로드 프로필을 조사합니다</block>
   <block id="172dd74353afa80677adb4f2c78c7a63" category="cell">오류: • Solutions Enabler 서버 8.x에서 Solutions Enabler 7.x와 함께 수집하면 "symcfg list -tdev" CLI 명령이 잘못된 데이터를 반환할 수 있습니다 • Solutions Enabler Server 8.3 이상에서 Solutions Enabler 8.1.0 이전 버전을 사용하여 취합한 경우 "symcfg list -SRP" CLI 명령은 잘못된 데이터를 반환할 수 있습니다.</block>
   <block id="2a7cdfe9f90dc7c57a7921223d8155cf" category="cell">동일한 Solutions Enabler 주요 릴리즈를 사용하고 있는지 확인합니다</block>
-  <block id="c7a7127c54e3e8ac9e699f2540a909f5" category="summary">클라우드 비용 시작</block>
-  <block id="15870627e10ad6ebeb6e55af499ed0ce" category="doc">클라우드 비용 시작</block>
-  <block id="617bd6c0c962503351aba8343b7e2031" category="paragraph">클라우드 비용 은 과거, 현재 및 예상 지출에 대한 상세한 비용 분석을 제공하여 고객 환경에서 클라우드 사용량을 파악하는 데 사용됩니다. Cloud Cost 대시보드에서는 조직의 클라우드 비용을 명확하게 파악하고 개별 워크로드, 계정 및 서비스를 세부적으로 파악할 수 있습니다.</block>
-  <block id="2436885db1284f5d1c2ff04e166657c2" category="paragraph">클라우드 비용은 다음과 같은 주요 과제를 해결하는 데 도움이 될 수 있습니다.</block>
-  <block id="58ef2f09c91f0fd135a3d546f584315b" category="paragraph">클라우드 비용을 구성하거나 보려면 Cloud Insights_Administrator_or_Account Owner_permissions가 있어야 합니다. 구성이 완료되면 해당 권한을 가진 모든 Cloud Insights 사용자가 클라우드 비용에 액세스할 수 있습니다.</block>
-  <block id="38a46fd15de299d3085b6d3dcc7d3430" category="inline-link-macro">관리 _</block>
-  <block id="da164e3dc4a981bd337a49f689e13200" category="paragraph">Cloud Cost를 _AWS Organizations_account에 연결하여 구성합니다. 이를 라고도 합니다 <block ref="3aa6332afca6836ed5a3930d857d43b2" category="inline-link-macro-rx"></block> 계정.</block>
-  <block id="8618496c14a763783ab7f0c9eb553da9" category="admonition">Cloud Cost는 미국 지역 Cloud Insights 환경에서만 사용할 수 있으며, 단일 AWS 조직 계정에만 구성할 수 있습니다. 클라우드 비용은 Cloud Insights에 있을 수 있는 AWS Collector와 별도로 구성해야 합니다.</block>
-  <block id="f208452147328c902e5da2feaa57ec40" category="section-title">클라우드 비용 설정</block>
-  <block id="619dbf025f83f3c776b6a035aa29dc02" category="paragraph">Cloud Insights에 로그인하고 * 클라우드 비용 * 메뉴 항목을 처음 클릭하면 시작 화면이 나타나고 클라우드 비용 설정을 시작하라는 메시지가 표시됩니다.</block>
-  <block id="27588501638faf04454522b3d6a19cd9" category="paragraph"><block ref="27588501638faf04454522b3d6a19cd9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2963dc85866064c6cb6cb2543783d2b4" category="list-text">시작하려면 * 시작에 AWS 자격 증명 추가 * 버튼을 클릭합니다. AWS 연결 화면이 나타납니다. 이 화면의 지침에 따라 * AWS Organizations Account * 를 Cloud Cost에 연결합니다.</block>
-  <block id="9023e604130974a0e2aead65b2a53c56" category="inline-image-macro">설치하고</block>
-  <block id="f0446b6fd2f4706bc37399b459a99543" category="paragraph"><block ref="f0446b6fd2f4706bc37399b459a99543" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="39199f99ce2b20fe642d78ec53195f92" category="list-text">계정 구성을 완료하면 Cloud Cost에 "Welcome" 메시지가 표시됩니다.</block>
-  <block id="8a2bb02f16fe17b41c9642016536e145" category="inline-image-macro">클라우드 비용에 오신 것을 환영합니다!</block>
-  <block id="7643e3d44596fe8d41e06fd8ef5d5008" category="paragraph"><block ref="7643e3d44596fe8d41e06fd8ef5d5008" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ad9da31b13649ea1789aabfc332bab9c" category="inline-link-macro">NetApp Spot 지원</block>
-  <block id="2ff55ebf268b23235a4afaed6bf89fb0" category="admonition">Cloud Cost를 완전히 구성하는 데 최대 24시간이 걸릴 수 있습니다. 구성이 완료되면 이메일 알림을 받게 됩니다. 문제가 있는 경우 채팅 아이콘을 클릭하거나 을 방문하여 NetApp Support에 문의할 수 있습니다 <block ref="ddb599aec35fadd08f10b2a7f518a6f5" category="inline-link-macro-rx"></block>.</block>
-  <block id="dfda23b36ad3b1b19c6acceaf8146420" category="list-text">설정이 완료되면 * Cloud Cost * (클라우드 비용 *) 메뉴 항목을 클릭하면 다음 예제와 같이 비용 분석 대시보드가 표시됩니다.</block>
-  <block id="2be09169680c9bdccb002888ac05e690" category="inline-image-macro">클라우드 비용 예 대시보드</block>
-  <block id="ebbee65277192e15bc1a4fcba1601350" category="paragraph"><block ref="ebbee65277192e15bc1a4fcba1601350" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d2ec72f5faac6ab8927b0c00e7f4c5ff" category="section-title">클라우드 비용에 대해 자세히 알아보십시오</block>
-  <block id="b02d07667db7239b36a8fa517318b9b8" category="inline-link-macro">Spot을 선택합니다</block>
-  <block id="1d57a93afc649a9c2d41f3fefc479f4a" category="paragraph">Cloud Cost는 Cloud Insights 환경을 의 Cloud Analyzer 기능과 연결합니다 <block ref="6367240bb380cab47f55b37fa9dde00f" category="inline-link-macro-rx"></block>Cloud Insights에서 클라우드 비용 데이터에 대한 가장 적절한 뷰를 제공합니다. 클라우드 비용 대시보드 오른쪽 위에 있는 _Get Full Analysis_링크를 클릭하면 스폿에서 전체 Cloud Analyzer 대시보드를 열 수 있습니다. 전체 분석을 통해 추가 데이터 및 세부 정보를 제공하여 클라우드 지출에 대한 통찰력을 얻을 수 있습니다.</block>
-  <block id="2f0b05ac17e2cbf6a46b1c047243119b" category="paragraph">문제가 발생할 경우 다음과 같이 시도해 볼 수 있습니다.</block>
-  <block id="3a67edf2eb58216defabf9354d0156ad" category="cell">설정을 확인하는 Spot에서 이메일을 받았지만 링크가 Cloud Insights와 관련이 없는 것 같습니다</block>
-  <block id="f272bb9eb6f00902a89ad005fe94d698" category="cell">Spot 이메일의 링크는 Cloud Insights 클라우드 비용과 관련이 없습니다. Spot에서 보낸 이메일의 링크를 무시합니다.</block>
-  <block id="eb3a1bdcddcd493484c3a1038b124c46" category="cell">Cloud Cost에서 Spot 로그인 프롬프트를 표시합니다.</block>
-  <block id="c5983ab7d31b675699b599da7e266e76" category="cell">Cloud Cost 세션이 만료되었을 수 있습니다. Cloud Insights 홈 화면으로 이동한 다음 클라우드 비용으로 돌아가 클라우드 비용 세션을 다시 시작합니다.</block>
-  <block id="35b56f4439b474687713caf1080761c0" category="cell">"Cloud Cost session conflict detected(클라우드 비용 세션 충돌이 감지되었습니다)" 메시지를 받았습니다.</block>
-  <block id="b09b95fdf3a131d8cd1e62eca14f3c7d" category="cell">여러 계정에서 연 클라우드 비용 세션은 동일한 브라우저에서 지원되지 않습니다. Cloud Insights에서 로그아웃한 후 다시 로그인하여 계정에 대한 클라우드 비용 정보를 확인하십시오.</block>
-  <block id="1e46d28a00235a5e640c2a81d0bdade0" category="cell">로그인을 시도할 때 "권한 없음"이라는 오류가 표시됩니다. 잘못된 자격 증명입니다."</block>
-  <block id="e4a2acf8eb6f077af0a6c0c59fbe6b64" category="cell">올바른 자격 증명으로 로그인하고 있는지 확인합니다. 문제가 지속되면 NetApp Spot Support에 문의하십시오.</block>
   <block id="5976a9e9a3634f5fad61b59fc6e5f3b1" category="summary">현재 자산과 직접 연결된 객체를 필터링할 수 있습니다.</block>
   <block id="fbfcfab099aafa47bc184bea6b497663" category="doc">Objects In-Context의 필터링입니다</block>
   <block id="f9256897f86ead02cdf0f61137106423" category="paragraph">자산의 랜딩 페이지에서 위젯을 구성할 때 _in-context_filters를 설정하여 현재 자산과 직접 관련된 객체만 표시할 수 있습니다. 기본적으로 위젯을 추가하면 환경에서 선택한 유형의 _ALL_OBJECTS가 표시됩니다. 상황 내 필터를 사용하면 현재 자산과 관련된 데이터만 표시할 수 있습니다.</block>
@@ -12968,7 +12934,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="c15484a80236e65cd94c3fa859c0aca2" category="section-title">ONTAP 스위치 데이터를 수집합니다</block>
   <block id="ff435ef5470e714750e57427557cc34e" category="inline-link-macro">스위치 정보</block>
   <block id="41275a535677f79ff347e01bc530c176" category="inline-link-macro">권한</block>
-  <block id="006486695c60df697c0abcefc81426d9" category="paragraph">Cloud Insights는 ONTAP 시스템의 백엔드 스위치에서 데이터를 수집할 수 있습니다. 데이터 수집기의 _Advanced Configuration_ 섹션에서 수집을 활성화하고 ONTAP 시스템이 제공하도록 구성되었는지 확인합니다 <block ref="d459f31dbd039334427e234b6edb8373" category="inline-link-macro-rx"></block> 을(를) 가지고 있습니다 <block ref="8500b277c562368e86ad7d69d1827230" category="inline-link-macro-rx"></block> 설정.</block>
   <block id="cce3c9f8c5193ee861459b69a1aed6b4" category="cell">클러스터 스위치 메트릭입니다</block>
   <block id="85ba393ee9d8bf6787cbec3a43f3e58c" category="cell">Cloud Insights이 클러스터 스위치 데이터를 수집하도록 허용합니다. Cloud Insights 측에서 이 기능을 활성화하는 것 외에도 ONTAP 시스템에서도 이 기능을 제공하도록 구성해야 합니다 <block ref="d459f31dbd039334427e234b6edb8373" category="inline-link-macro-rx"></block>를 선택하고 가 올바른지 확인합니다 <block ref="e83cb79e34a9adb49ab5c30ebb0b6c54" category="inline-xref-macro-rx"></block> 스위치 데이터를 Cloud Insights로 전송할 수 있도록 설정됩니다. 아래의 "권한에 대한 참고 사항"을 참조하십시오.</block>
   <block id="466b14af7b02408eac035880aecf9915" category="paragraph">클러스터 스위치 데이터를 수집하는 경우:</block>
@@ -12983,4 +12948,17 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
 
 자세한 내용은 프록시 정보 를 참조하십시오 <block ref="05c875968683001fc59f206218314b72" category="inline-link-macro-rx"></block> 또는 <block ref="554efdd06704a764ab0a7e3947e279ff" category="inline-link-macro-rx"></block>.</block>
   <block id="b30a6e7a75eaf5af9f2106e8d96d324b" category="paragraph">cluster_credentials를 사용하는 CsUser의 경우 ONTAP 명령줄에서 다음 명령을 실행합니다. _csrestrole_은(는) 사용자 지정 역할이고 _csUser_는 ONTAP 사용자 지정 사용자입니다.</block>
+  <block id="d7a15f16d93378f9428254d47703abd2" category="section-title">2024년 3월</block>
+  <block id="375ee0c976167dd35b8f93758415f360" category="section-title">워크로드 보안 에이전트 세부 정보</block>
+  <block id="a59325a77a64da5b76b0405b20ca4aa1" category="paragraph">각 워크로드 보안 에이전트에는 자체 시작 페이지가 있으며, 이 페이지에서 에이전트와 연결된 설치된 데이터 및 사용자 디렉터리 수집기는 물론 에이전트에 대한 요약 정보를 쉽게 볼 수 있습니다.</block>
+  <block id="1ebfa37f92431bca4f057938f83d738b" category="inline-image-macro">상담원 세부 정보 랜딩 페이지 예</block>
+  <block id="bf03dc5843be707280c57c5a93024db8" category="paragraph"><block ref="bf03dc5843be707280c57c5a93024db8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9661fefae66a141a067dc636d0fea82a" category="section-title">더 많은 데이터를 보다 빠르게 차트로 작성할 수 있습니다</block>
+  <block id="ca7f408ca9b8a293ab5c4fdeac08cd5e" category="paragraph">자산의 시작 페이지에서 데이터를 분석할 때 전문가 보기 차트에 데이터를 추가하는 것은 매우 간단합니다. 랜딩 페이지의 각 테이블에 대해 개체 유형에 관련 데이터가 있는 경우 해당 개체 위로 마우스를 가져가면 "전문가 보기에 추가" 아이콘이 표시됩니다. 이 아이콘을 선택하면 해당 개체가 추가 리소스에 추가되고 전문가 보기 차트에 표시됩니다.</block>
+  <block id="cff2d6fe0f7f87e18aab8d5161b8ea50" category="inline-image-macro">전문가 보기에 테이블 데이터를 추가합니다</block>
+  <block id="e5c53045d0520fd4816c1ccc930d7386" category="paragraph"><block ref="e5c53045d0520fd4816c1ccc930d7386" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4dc21e298acee929dd835589e6d5c640" category="paragraph">또는 랜딩 페이지 표의 데이터를 자체 차트로 표시하려는 경우도 있습니다. 간단히 _Show Chart_icon을 선택하여 표 아래의 차트를 엽니다.</block>
+  <block id="03e73ba3232dcca3cc695f108f44c898" category="inline-image-macro">차트 아이콘 표시</block>
+  <block id="66a14226acec760a4af6f762f938df66" category="paragraph"><block ref="66a14226acec760a4af6f762f938df66" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d51ad7ff0d214fb056992b26bfed4ced" category="paragraph">Cloud Insights는 ONTAP 시스템의 백엔드 스위치에서 데이터를 수집할 수 있습니다. 데이터 수집기의 _Advanced Configuration_ 섹션에서 수집을 활성화하고 ONTAP 시스템이 제공하도록 구성되었는지 확인합니다 <block ref="d459f31dbd039334427e234b6edb8373" category="inline-link-macro-rx"></block> 을(를) 가지고 있습니다 <block ref="e83cb79e34a9adb49ab5c30ebb0b6c54" category="inline-xref-macro-rx"></block> 설정.</block>
 </blocks>
