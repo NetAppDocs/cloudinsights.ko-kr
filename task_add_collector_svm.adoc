@@ -162,7 +162,7 @@ csUser with_SVM_credentials의 경우 ONTAP 명령줄에서 다음 명령을 실
  security login rest-role create -role csrestrole -api /api/protocols/fpolicy -access all -vserver <svm_name>
  security login create -user-or-group-name csuser -application http -authmethod password -role csrestrole -vserver <svm_name>
 ----
-자세한 내용은 정보 를 참조하십시오 <<concept_ws_integration_with_ontap_access_denied.html,ONTAP 액세스와의 통합이 거부되었습니다>>
+자세한 내용은 정보 를 참조하십시오 link:\concept_ws_integration_with_ontap_access_denied.html["ONTAP 액세스와의 통합이 거부되었습니다"]
 
 
 
