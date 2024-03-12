@@ -12961,4 +12961,10 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="03e73ba3232dcca3cc695f108f44c898" category="inline-image-macro">차트 아이콘 표시</block>
   <block id="66a14226acec760a4af6f762f938df66" category="paragraph"><block ref="66a14226acec760a4af6f762f938df66" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d51ad7ff0d214fb056992b26bfed4ced" category="paragraph">Cloud Insights는 ONTAP 시스템의 백엔드 스위치에서 데이터를 수집할 수 있습니다. 데이터 수집기의 _Advanced Configuration_ 섹션에서 수집을 활성화하고 ONTAP 시스템이 제공하도록 구성되었는지 확인합니다 <block ref="d459f31dbd039334427e234b6edb8373" category="inline-link-macro-rx"></block> 을(를) 가지고 있습니다 <block ref="e83cb79e34a9adb49ab5c30ebb0b6c54" category="inline-xref-macro-rx"></block> 설정.</block>
+  <block id="67c73d0c05c627af68622cc01164ae15" category="inline-xref">ONTAP 권한</block>
+  <block id="b4adf3d9e051be6ec8f7f311fd08d8dc" category="paragraph">기타 구성에 대한 자세한 정보 <block ref="364cb0af9008be29fffbb0635783d098" category="inline-xref-macro-rx"></block>.</block>
+  <block id="11949a37d3edcc91b37d386025b80680" category="section-title">ONTAP 자율적 랜섬웨어 방어에 대한 권한</block>
+  <block id="b015c01a5cd691f38c07727636f5e429" category="paragraph">자세한 내용은 정보 를 참조하십시오 <block ref="619ffa717a0c9eee469ccc9f3ce569e2" category="inline-xref-macro-rx"></block></block>
+  <block id="27bc78f063867505b2f0e7f6cdd03799" category="section-title">ONTAP 액세스에 대한 권한이 거부되었습니다</block>
+  <block id="2bf48db6b4ef5793137bd23562d2759b" category="paragraph">자세한 내용은 정보 를 참조하십시오 <block ref="56f4e785b0c10fe49372cccb28182a22" category="inline-xref-macro-rx"></block></block>
 </blocks>
