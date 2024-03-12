@@ -3592,8 +3592,6 @@
   <block id="aca759ec023e2e4c6156b1c2ced1b16b" category="summary">데이터 수집기 추가 중</block>
   <block id="d137e11c6c77aa671e4c6d21140e86fc" category="doc">ONTAP SVM Data Collector 구성</block>
   <block id="6b6a5e540baae01020db6abcb69752a2" category="list-text">이 데이터 수집기는 다음 구성 요소를 통해 지원됩니다.</block>
-  <block id="951c04e880867f48ee0c8c023c066950" category="inline-link-macro">이 문제</block>
-  <block id="c335e20fcf63e64f7ad3799d0c6d5e4f" category="list-text">Data ONTAP 9.2 이상 버전 최상의 성능을 얻으려면 Data ONTAP 버전을 사용하십시오 <block ref="1a759d0cc6a190cf88e8cd818eb0eba6" category="inline-link-macro-rx"></block> 고정되어 있습니다.</block>
   <block id="a65bf0155aa66d72adb09356ef35ba5b" category="list-text">NFS 프로토콜 버전 4.0 이전 버전</block>
   <block id="ca25fd447f71b95ab21d53b012fa1ddc" category="list-text">FlexGroup는 ONTAP 9.4 이상 버전에서 지원됩니다</block>
   <block id="37f8c5eb442d46d5ec5da0275366c9c8" category="list-text">데이터 유형 SVM만 지원됩니다. 무한 확장 볼륨이 있는 SVM은 지원되지 않습니다.</block>
@@ -12963,8 +12961,9 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="d51ad7ff0d214fb056992b26bfed4ced" category="paragraph">Cloud Insights는 ONTAP 시스템의 백엔드 스위치에서 데이터를 수집할 수 있습니다. 데이터 수집기의 _Advanced Configuration_ 섹션에서 수집을 활성화하고 ONTAP 시스템이 제공하도록 구성되었는지 확인합니다 <block ref="d459f31dbd039334427e234b6edb8373" category="inline-link-macro-rx"></block> 을(를) 가지고 있습니다 <block ref="e83cb79e34a9adb49ab5c30ebb0b6c54" category="inline-xref-macro-rx"></block> 설정.</block>
   <block id="67c73d0c05c627af68622cc01164ae15" category="inline-xref">ONTAP 권한</block>
   <block id="11949a37d3edcc91b37d386025b80680" category="section-title">ONTAP 자율적 랜섬웨어 방어에 대한 권한</block>
-  <block id="b015c01a5cd691f38c07727636f5e429" category="paragraph">자세한 내용은 정보 를 참조하십시오 <block ref="619ffa717a0c9eee469ccc9f3ce569e2" category="inline-xref-macro-rx"></block></block>
   <block id="27bc78f063867505b2f0e7f6cdd03799" category="section-title">ONTAP 액세스에 대한 권한이 거부되었습니다</block>
-  <block id="c6c97bd1479ffe465a30e57bf1ff7581" category="paragraph">기타 구성에 대한 자세한 정보 <block ref="3990874aa220042887a75572ad807b54" category="inline-link-macro-rx"></block>.</block>
-  <block id="1200ae7d3913c7aad712f5d03b78b8b3" category="paragraph">자세한 내용은 정보 를 참조하십시오 <block ref="b67f08aa6844c92496ffea9c366ea7ee" category="inline-link-macro-rx"></block></block>
+  <block id="5dfd36f9b502b0a938cb4adb94d23ffa" category="paragraph">기타 구성에 대한 자세한 정보 <block ref="7848240acae0977cc36a630dabe55aa3" category="inline-link-macro-rx"></block>.</block>
+  <block id="b497cf0f1b1568d837947f6ad7ece7af" category="list-text">Data ONTAP 9.2 이상 버전 최상의 성능을 얻으려면 9.13.1 이상의 Data ONTAP 버전을 사용하십시오.</block>
+  <block id="74f912aa47d1bbf141926fbf2185abdf" category="paragraph">자세한 내용은 정보 를 참조하십시오 <block ref="b175fa20c42bfc20eae9965f6210437c" category="inline-link-macro-rx"></block></block>
+  <block id="8a943496be1ad7baf6ce391c6f895b32" category="paragraph">자세한 내용은 정보 를 참조하십시오 <block ref="263966d0f12d0c50ce396f6ff55a2e0d" category="inline-link-macro-rx"></block></block>
 </blocks>
