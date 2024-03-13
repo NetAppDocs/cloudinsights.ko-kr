@@ -12966,4 +12966,31 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="b497cf0f1b1568d837947f6ad7ece7af" category="list-text">Data ONTAP 9.2 이상 버전 최상의 성능을 얻으려면 9.13.1 이상의 Data ONTAP 버전을 사용하십시오.</block>
   <block id="74f912aa47d1bbf141926fbf2185abdf" category="paragraph">자세한 내용은 정보 를 참조하십시오 <block ref="b175fa20c42bfc20eae9965f6210437c" category="inline-link-macro-rx"></block></block>
   <block id="8a943496be1ad7baf6ce391c6f895b32" category="paragraph">자세한 내용은 정보 를 참조하십시오 <block ref="263966d0f12d0c50ce396f6ff55a2e0d" category="inline-link-macro-rx"></block></block>
+  <block id="2b9be21f00b184f2a6ee90f1574df505" category="summary">ONTAP REST 데이터 수집기</block>
+  <block id="e61b2d254813ba4e2bc2a8a223f0e0eb" category="doc">NetApp ONTAP REST 데이터 수집기</block>
+  <block id="51c8777ccbe8cbbe060fa364f308995c" category="paragraph">이 데이터 수집기는 ONTAP 계정의 읽기 전용 REST API 호출을 사용하여 ONTAP를 실행하는 스토리지 시스템에서 인벤토리 및 성능 데이터를 수집합니다. 또한 이 데이터 수집기는 지원을 가속화하기 위해 클러스터 응용 프로그램 레지스트리에 레코드를 만듭니다.</block>
+  <block id="90242ff563fa212860e5c6a5b21da8f6" category="list-text">IOPS – 노드 개체의 ONTAP REST 호출에서 직접 파생됩니다.</block>
+  <block id="ea32a37fff2b9c40d4e8dd0e0803a04b" category="list-text">지연 시간 – 노드 개체의 ONTAP REST 호출에서 직접 파생됩니다.</block>
+  <block id="4084aa6c02ea4a6ea3d32bd1c73f4888" category="list-text">처리량 – 노드 개체의 ONTAP REST 호출에서 직접 파생됩니다.</block>
+  <block id="4493cd6343183bf0a790cf01a53cddd1" category="list-text">읽기 전용 REST API 호출용으로 구성된 Administrator 계정에 대한 액세스 권한이 있어야 합니다.</block>
+  <block id="cc5802bcc5281dcb68264fed31e4a4a1" category="cell">ONTAP 관리 IP 주소입니다</block>
+  <block id="7bcaf6369b1398f73e17d298aa39db60" category="cell">ONTAP REST 사용자 이름입니다</block>
+  <block id="bdb8fd1a64839a7885f10d1e33166bec" category="cell">ONTAP REST 암호입니다</block>
+  <block id="87a7b8cc9265881e0bc0f09c410ec474" category="cell">기본값은 60초입니다.</block>
+  <block id="5062d1b8a50da7152b0877114d23bf65" category="cell">ONTAP 고급 카운터 데이터를 폴에 포함하려면 이 옵션을 선택합니다.</block>
+  <block id="216ade60a8bebfa7b9ef8f8fec32e876" category="cell">EMS 이벤트 수집을 활성화합니다</block>
+  <block id="615eb0992cfadcf1dacb23db15c3598d" category="cell">ONTAP EMS 로그 이벤트 데이터를 포함하려면 선택합니다.</block>
+  <block id="22454981300d227862b5ebd81b19f7de" category="cell">EMS 폴링 간격(초)</block>
+  <block id="961f9cd0cfe447f73a20455c4f8f7973" category="paragraph">또한 ONTAP REST API에 대한 쓰기 권한이 활성화되어 있는지 확인해야 합니다. 이 경우 일반적으로 필요한 권한이 있는 클러스터 수준의 계정이 필요합니다.</block>
+  <block id="cfb13b3b743770c7f9772001c506ed28" category="list-text">다음 명령을 사용하여 역할을 생성합니다.</block>
+  <block id="7d0153c84324ec12ea855f4910fdc574" category="paragraph">보안 로그인 REST-ROLE CREATE-ROLE {ROLE NAME} - api/api-access readonly
+보안 로그인 REST-ROLE CREATE-ROLE {ROLE NAME} - api/api/cluster/agent - 모두 액세스</block>
+  <block id="6765c1ce40f9ed10162dff1db4e987ca" category="paragraph">SVM 서비스 웹 액세스 create-name spi-role {role name}-vserver{name from above command}
+security login create -user-or -group-name {username} -application http-authentication -method password -role {role name}</block>
+  <block id="7483de82186016bc69ffb8a75489f338" category="cell">ONTAP REST 데이터 수집기를 생성하려고 하면 다음과 같은 오류가 표시됩니다.
+구성: 10.193.70.14: 10.193.70.14의 ONTAP REST API를 사용할 수 없음: 10.193.70.14 /api/cluster:400 잘못된 요청을 가져오지 못했습니다</block>
+  <block id="40c54a6b7dcfa9b1202222c4928cb872" category="cell">이는 REST API 기능이 없는 9.6)와 같은 ONTAP ONTAP 어레이가 원인일 수 있습니다. ONTAP 9.14.1은 ONTAP REST Collector에서 지원하는 최소 ONTAP 버전입니다. 사전 REST ONTAP 릴리스에서 "400 Bad Request" 응답이 예상되어야 합니다.
+
+REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과 같은 메시지가 표시될 수 있습니다.
+구성: 10.193.98.84: 10.193.98.84의 ONTAP REST API 사용 불가: 10.193.98.84: 10.193.98.84: ONTAP REST API at 10.193.98.84 사용 가능: cheryl5-cluster-2 9.10.1 a3cb3247-3d3c-11ee-8ff3-005056b364a7</block>
 </blocks>
