@@ -6549,7 +6549,6 @@
   <block id="ac60c998c7a8dc4dde987fedb05c0f55" category="paragraph">이제 지연 시간 선이 차트 오른쪽에 표시되는 자체 배율로 그려집니다.</block>
   <block id="7dbc268ba4014394e1084d227d3b8b49" category="image-alt">보조 축 예제</block>
   <block id="05e5b67cad098092f46a63799fe75cca" category="section-title">위젯의 식</block>
-  <block id="39785ac77a465811e3584e33640cbff4" category="paragraph">대시보드에서 시간 시리즈 위젯(선, 스플라인, 영역, 누적 영역), 단일 값, 또는 Gauge Widget 을 사용하면 선택한 메트릭에서 식을 작성하고 이러한 식의 결과를 단일 그래프에 표시할 수 있습니다. 다음 예제에서는 식을 사용하여 특정 문제를 해결합니다. 첫 번째 예에서는 환경의 모든 스토리지 자산에 대해 총 IOPS의 백분율로 읽기 IOPS를 표시하려고 합니다. 두 번째 예에서는 사용자 환경에서 발생하는 "시스템" 또는 "오버헤드" IOPS, 즉 데이터를 읽거나 쓰는 데 직접 영향을 받지 않는 IOPS에 대한 가시성을 제공합니다.</block>
   <block id="295ae6b0d3f79982844cbe49616552f4" category="paragraph">식에 변수를 사용할 수 있습니다(예: _$var1 * 100_).</block>
   <block id="dba748e01f6c17fbbaa14a2441a39cb7" category="section-title">표현식 예: 읽기 IOPS 백분율</block>
   <block id="ce28af985b1b52bd86ddbc97a3281b27" category="paragraph">이 예에서는 총 IOPS의 백분율로 읽기 IOPS를 표시하려고 합니다. 이 수식을 다음과 같은 수식으로 생각할 수 있습니다.</block>
@@ -6567,7 +6566,6 @@
   <block id="a03c76235dfe1278dd742bbf81c45283" category="list-text">단위 * 필드를 "%" 또는 "%"로 변경합니다.</block>
   <block id="296ee886ac2db46f818124c2c72ace21" category="paragraph">선택한 스토리지 디바이스에 대한 IOPS 읽기 백분율이 차트에 표시됩니다. 원하는 경우 필터를 설정하거나 다른 롤업 방법을 선택할 수 있습니다. 합계 를 롤업 방법으로 선택하면 모든 백분율 값이 함께 추가되며, 이 값은 100%보다 높아질 수 있습니다.</block>
   <block id="8cc1f1662d28c12dd361aa641ce8a9de" category="list-text">차트를 대시보드에 저장하려면 * 저장 * 을 클릭합니다.</block>
-  <block id="ff66fe277c0c407bea9d4ee21c5148f3" category="paragraph">선형 차트, 스플라인 차트 또는 누적 영역형 차트 위젯에서 식을 사용할 수도 있습니다.</block>
   <block id="2164661e44bb6d157bb0697319a902cb" category="section-title">식 예: "System" I/O</block>
   <block id="247041ff979b61cd999f4f2c24a31eb9" category="paragraph">예 2: 데이터 소스에서 수집된 메트릭 중 읽기, 쓰기 및 총 IOPS가 있습니다. 그러나 데이터 소스에서 보고하는 총 IOPS 수에 "시스템" IOPS가 포함되는 경우가 있습니다. 이는 데이터 읽기 또는 쓰기의 직접적인 부분이 아닌 IO 작업입니다. 또한 이 시스템 I/O는 적절한 시스템 작동에 필요하지만 데이터 작업과 직접 관련이 없는 "오버헤드" I/O로 생각할 수 있습니다.</block>
   <block id="423d1df3523f2a34cef35f332f00c002" category="paragraph">이러한 시스템 I/O를 표시하기 위해 획득에서 보고된 총 IOPS에서 읽기 및 쓰기 IOPS를 뺄 수 있습니다. 수식은 다음과 같습니다.</block>
@@ -12997,4 +12995,10 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="267142a6c5298e3a85dfd745d6a91771" category="list-text">기능적으로 Cloud Insights는 읽기 요청을 하지만 Cloud Insights가 ONTAP 스토리지에 등록하려면 일부 쓰기 권한이 필요합니다. 를 참조하십시오 <block ref="2cd5e7e54a305dd942a55b6d20ef8f9c" category="inline-xref-macro-rx"></block> 아래에 있습니다.</block>
   <block id="45d6bfd686219a198a0983bc084e3b92" category="cell">ONTAP 고급 카운터 데이터를 폴에 포함하려면 이 옵션을 선택합니다. 기본적으로 사용됩니다.</block>
   <block id="19decc8950209e44f521507a99ab0792" category="cell">ONTAP EMS 로그 이벤트 데이터를 포함하려면 선택합니다. 기본적으로 사용됩니다.</block>
+  <block id="b8da12392eaf9647590629afc8e5e321" category="inline-xref">표 위젯</block>
+  <block id="c886b395cb0cef3864cbd88d54b558b3" category="paragraph">대시보드에서 모든 시계열 위젯(선, 자유곡선, 영역, 누적 영역) 막대 차트, 세로 막대형 차트, 원형 차트 또는 테이블 위젯을 사용하면 선택한 메트릭에서 표현식을 작성하고 이러한 표현식의 결과를 단일 그래프(또는 의 경우 열)에 표시할 수 있습니다 <block ref="71a5b5d38cba985f9b4b8f746073d5cb" category="inline-xref-macro-rx"></block>)를 클릭합니다. 다음 예제에서는 식을 사용하여 특정 문제를 해결합니다. 첫 번째 예에서는 환경의 모든 스토리지 자산에 대해 총 IOPS의 백분율로 읽기 IOPS를 표시하려고 합니다. 두 번째 예에서는 사용자 환경에서 발생하는 "시스템" 또는 "오버헤드" IOPS, 즉 데이터를 읽거나 쓰는 데 직접 영향을 받지 않는 IOPS에 대한 가시성을 제공합니다.</block>
+  <block id="4b10d5d55ab9803778e910ea6ce31bf3" category="section-title">테이블 위젯의 식</block>
+  <block id="57b48c75a9a8cae2e174d4d2e1a20e06" category="paragraph">테이블 위젯은 식을 약간 다르게 처리합니다. 하나의 테이블 위젯에 최대 5개의 표현식을 포함할 수 있으며 각 표현식은 테이블에 새 칼럼으로 추가됩니다. 각 식은 계산을 수행할 값을 최대 5개까지 포함할 수 있습니다. 열에 의미 있는 이름을 쉽게 지정할 수 있습니다.</block>
+  <block id="65d2c24b071888fa849372a7a32969e8" category="inline-image-macro">테이블 위젯의 식</block>
+  <block id="87e868e2dc8c898d0c4017d8f7f66ea8" category="paragraph"><block ref="87e868e2dc8c898d0c4017d8f7f66ea8" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
