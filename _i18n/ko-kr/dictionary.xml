@@ -12975,9 +12975,7 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="7bcaf6369b1398f73e17d298aa39db60" category="cell">ONTAP REST 사용자 이름입니다</block>
   <block id="bdb8fd1a64839a7885f10d1e33166bec" category="cell">ONTAP REST 암호입니다</block>
   <block id="87a7b8cc9265881e0bc0f09c410ec474" category="cell">기본값은 60초입니다.</block>
-  <block id="5062d1b8a50da7152b0877114d23bf65" category="cell">ONTAP 고급 카운터 데이터를 폴에 포함하려면 이 옵션을 선택합니다.</block>
   <block id="216ade60a8bebfa7b9ef8f8fec32e876" category="cell">EMS 이벤트 수집을 활성화합니다</block>
-  <block id="615eb0992cfadcf1dacb23db15c3598d" category="cell">ONTAP EMS 로그 이벤트 데이터를 포함하려면 선택합니다.</block>
   <block id="22454981300d227862b5ebd81b19f7de" category="cell">EMS 폴링 간격(초)</block>
   <block id="cfb13b3b743770c7f9772001c506ed28" category="list-text">다음 명령을 사용하여 역할을 생성합니다.</block>
   <block id="7d0153c84324ec12ea855f4910fdc574" category="paragraph">보안 로그인 REST-ROLE CREATE-ROLE {ROLE NAME} - api/api-access readonly
@@ -12993,7 +12991,10 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="550bad6f96e635103df31a148cb33c00" category="paragraph">이 데이터 수집기는 REST API 호출을 사용하여 ONTAP 9.14.1 이상을 실행하는 스토리지 시스템에서 인벤토리, EMS 로그 및 성능 데이터를 수집합니다. 이전 릴리스의 ONTAP 시스템의 경우 ZAPI 기반 "NetApp ONTAP 데이터 관리 소프트웨어" 수집기 유형을 사용하십시오.</block>
   <block id="65e871e42dd717b74cdb0435f27e32f6" category="paragraph">Cloud Insights는 ONTAP 데이터 수집기에서 인벤토리, 로그 및 성능 데이터를 가져옵니다. 획득한 각 자산 유형에 대해 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.</block>
   <block id="5eeda23f92dad663daa058631cc10210" category="list-text">일련 번호 – 스토리지 UUID입니다</block>
-  <block id="fb6ea45004cffe21e52cde14678c6744" category="list-text">액세스 권한이 필요한 사용자 계정에 대한 액세스 권한이 있어야 합니다</block>
-  <block id="c40d45712b08c1aba1ce04dd1ac4cc5e" category="list-text">기능적으로 Cloud Insights가 읽기 요청을 하고 있지만 CI가 ONTAP 스토리지에 등록하려면 일부 쓰기 권한이 필요합니다. 아래의 사용 권한에 대한 참고 사항을 참조하십시오.</block>
   <block id="b697879d40ceeef13c6f9527808724fe" category="paragraph">많은 Cloud Insights의 ONTAP 대시보드가 고급 ONTAP 카운터를 사용하기 때문에 데이터 수집기 고급 구성 섹션에서 * 고급 카운터 데이터 수집 사용 * 을 사용하도록 설정해야 합니다.</block>
+  <block id="992ec6f152c405f64da205561d5810c3" category="list-text">필요한 액세스 권한이 있는 사용자 계정에 대한 액세스 권한이 있어야 합니다. 새 REST 사용자/역할을 생성하는 경우 관리자 권한이 필요합니다.</block>
+  <block id="7716cde88803d3b7d809cbffb39a1d82" category="inline-xref">사용 권한에 대한 참고 사항</block>
+  <block id="267142a6c5298e3a85dfd745d6a91771" category="list-text">기능적으로 Cloud Insights는 읽기 요청을 하지만 Cloud Insights가 ONTAP 스토리지에 등록하려면 일부 쓰기 권한이 필요합니다. 를 참조하십시오 <block ref="2cd5e7e54a305dd942a55b6d20ef8f9c" category="inline-xref-macro-rx"></block> 아래에 있습니다.</block>
+  <block id="45d6bfd686219a198a0983bc084e3b92" category="cell">ONTAP 고급 카운터 데이터를 폴에 포함하려면 이 옵션을 선택합니다. 기본적으로 사용됩니다.</block>
+  <block id="19decc8950209e44f521507a99ab0792" category="cell">ONTAP EMS 로그 이벤트 데이터를 포함하려면 선택합니다. 기본적으로 사용됩니다.</block>
 </blocks>
