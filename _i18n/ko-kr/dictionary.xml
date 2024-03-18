@@ -13003,4 +13003,5 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="865ccb9e69aad9a527770df196a2c282" category="list-text">운영 체제(예: VMware 또는 Windows)</block>
   <block id="6244cebffae6eb1472a9a0487a099c77" category="cell">일반 iSCSI 블록 정보, VMware VMFS</block>
   <block id="56079badd056a19303cc26e6a4fcc7e0" category="sidebar">VMware</block>
+  <block id="45dd5be4ea94f7d41cb728ccc4186440" category="list-text">Workload Security &gt; Collector &gt; + Data Collector * 를 클릭합니다</block>
 </blocks>
