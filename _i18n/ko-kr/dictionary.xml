@@ -3572,7 +3572,6 @@
   <block id="ada50db1408dec13820898d804a4f56f" category="list-text">포트 443의 HTTPS가 필요합니다</block>
   <block id="c4134f3d42be02defd9c28083deab940" category="list-text">EMC Unity 데이터 수집기는 인벤토리에 대한 NAS 및 iSCSI 지원을 제공합니다. Fibre Channel 볼륨이 검색되지만 Cloud Insights는 FC 매핑, 마스킹 또는 스토리지 포트에 대해 보고하지 않습니다.</block>
   <block id="57d5e0d738a7b9b51fbd2b265b3a1c52" category="paragraph">Cloud Insights는 Unity 데이터 수집기에서 다음 인벤토리 정보를 가져옵니다. Cloud Insights에서 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.</block>
-  <block id="34c07cab78ed0e865a0f65e8c93c21fb" category="cell">일반 iSCSI 블록 정보, VMware VMFS</block>
   <block id="823c34885b0ed3470261b5a7d915fc12" category="cell">복제 원격 시스템</block>
   <block id="454c65346b592d2a6ddcf6e6cd91d9b3" category="cell">동기화</block>
   <block id="1b5c8b57673db23e69bf32b928fab1da" category="cell">iSCSI 노드</block>
@@ -9068,7 +9067,6 @@
   <block id="7bb1c93f44835a04f1a5d46dd4f4b400" category="cell"><block ref="7bb1c93f44835a04f1a5d46dd4f4b400" category="inline-link-macro-rx"></block></block>
   <block id="924501eebf901f2348c9e37f56b7f6f0" category="paragraph">Cloud Insights는 세 가지 유형의 데이터 수집기를 사용할 수 있습니다.</block>
   <block id="d877172ec451e194a086d0d40021e8b8" category="list-text">인프라(스토리지 장치, 네트워크 스위치, 컴퓨팅 인프라)</block>
-  <block id="31b29af38563f95fcd16900aef967adf" category="list-text">운영 체제(예: VMware 또는 Windows)</block>
   <block id="ab9f8384afda29296f5ceaa4ff77f3b8" category="list-text">서비스(예: Kafka)</block>
   <block id="3e3d1f4256fe73b88a0ea758b3951eb9" category="paragraph">Infrastructure_data Collector를 선택한 경우 Cloud Insights에 데이터를 주입하려면 획득 장치가 필요합니다. 수집할 데이터 센터의 서버나 VM에 획득 장치 소프트웨어를 다운로드하여 설치해야 합니다. 단일 획득 장치는 여러 데이터 수집기에 사용할 수 있습니다.</block>
   <block id="344ab1c74a04a4daec201f19f0c5e693" category="list-text">장치에 연결할 자격 증명(사용자 이름 및 암호)을 적절하게 입력합니다.</block>
@@ -12646,9 +12644,6 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="02892541231ed9b9797890da851659d1" category="section-title">FOS 9.1.1c 이상 펌웨어에 대한 Brocade CLI Collector 안정성 향상</block>
   <block id="f451a3db1d946e0e6f7a6faff75241f4" category="paragraph">9.1.1c 펌웨어를 실행하는 일부 Brocade 파이버 채널 스위치에서 특정 CLI 명령의 출력 앞에 "mott" 로그인 배너 텍스트 또는 기본 암호 변경에 대한 사용자 경고가 표시될 수 있습니다. Brocade CLI Collector는 이러한 두 가지 유형의 불필요한 텍스트를 무시하도록 개선되었습니다.</block>
   <block id="08cc9fe40f6d675ceb9852acf6cb4d2d" category="paragraph">이 개선 사항 이전에는 가상 패브릭이 없는 FOS 9.1.1c 스위치만 이 컬렉터 유형으로 검색할 수 있었습니다.</block>
-  <block id="fdbc837080bf746694718923941b3ca6" category="section-title">VMware 태그를 Cloud Insights 주석에 매핑</block>
-  <block id="556f5b9e77a7546a1dbeab74aa1190e0" category="paragraph">VMware 데이터 수집기를 사용하면 Cloud Insights 주석에 VMware에 구성된 태그를 채울 수 있습니다. 주석의 이름은 VMware 태그와 동일하게 지정해야 합니다. Cloud Insights는 항상 같은 이름의 텍스트 유형 주석을 채우고 다른 유형의 주석(숫자, 부울 등)을 채우기 위한 "최선의 시도"를 만듭니다. 주석이 다른 유형이고 데이터 수집기가 주석을 채우지 못할 경우 주석을 제거하고 텍스트 유형으로 다시 생성해야 할 수 있습니다.</block>
-  <block id="8354fa58be11dc6519c7b2d92ba17795" category="paragraph">VMware 태그는 대소문자를 구분하지만 Cloud Insights 태그는 대소문자를 구분하지 않습니다. 따라서 Cloud Insights에서 "소유자"라는 주석을 생성하고 VMware에서 "소유자", "소유자" 및 "소유자"라는 태그를 생성하는 경우 이러한 모든 "소유자" 변형은 Cloud Insight의 "소유자" 주석에 매핑됩니다.</block>
   <block id="f528aa737a09ffef3755a1a747557c7a" category="list-text">Cloud Insights는 현재 NetApp 장치에 대한 지원 정보만 자동 게시합니다.</block>
   <block id="8455a8bde7347555ff461cd652af2821" category="list-text">이 지원 정보는 주석 형식으로 유지되므로 이를 쿼리하거나 대시보드에서 사용할 수 있습니다.</block>
   <block id="8ed3dc52c7734ad3388658bf20175200" category="list-text">사용자가 주석 값을 덮어쓰거나 비우는 경우 Cloud Insights가 하루에 한 번 주석을 업데이트할 때 값이 다시 자동 채워집니다.</block>
@@ -13002,4 +12997,10 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="690b59689f385d15b45ee131216725c7" category="list-text">워크로드 보안에서 * 워크로드 보안 &gt; 정책 &gt; 자동화된 대응 정책 * 으로 이동합니다.  공격 정책 * 을 선택합니다.</block>
   <block id="a0e5daf37fbc5d356df1518610cdff22" category="list-text">사용자 파일 액세스 차단 _ 을(를) 선택합니다.</block>
   <block id="97436105e7ddd0da98d7e0207d74958a" category="list-text">선택 취소(선택 취소) _ 사용자 파일 액세스 차단 _.</block>
+  <block id="b1a9e545f7d7952c0575fd3c825b523c" category="section-title">VMware 태그를 Cloud Insights 주석에 매핑</block>
+  <block id="98d5008742fe1974f056048f2891c18d" category="paragraph">VMware 데이터 수집기를 사용하면 Cloud Insights 주석에 VMware에 구성된 태그를 채울 수 있습니다. 주석의 이름은 VMware 태그와 동일하게 지정해야 합니다. Cloud Insights는 항상 같은 이름의 텍스트 유형 주석을 채우고 다른 유형의 주석(숫자, 부울 등)을 채우기 위한 "최선의 시도"를 만듭니다. 주석이 다른 유형이고 데이터 수집기가 주석을 채우지 못할 경우 주석을 제거하고 텍스트 유형으로 다시 생성해야 할 수 있습니다.</block>
+  <block id="8d1b85d225aca014c162676a1f06f465" category="paragraph">VMware 태그는 대소문자를 구분하지만 Cloud Insights 태그는 대소문자를 구분하지 않습니다. 따라서 Cloud Insights에서 "소유자"라는 주석을 생성하고 VMware에서 "소유자", "소유자" 및 "소유자"라는 태그를 생성하는 경우 이러한 모든 "소유자" 변형은 Cloud Insight의 "소유자" 주석에 매핑됩니다.</block>
+  <block id="865ccb9e69aad9a527770df196a2c282" category="list-text">운영 체제(예: VMware 또는 Windows)</block>
+  <block id="6244cebffae6eb1472a9a0487a099c77" category="cell">일반 iSCSI 블록 정보, VMware VMFS</block>
+  <block id="56079badd056a19303cc26e6a4fcc7e0" category="sidebar">VMware</block>
 </blocks>
