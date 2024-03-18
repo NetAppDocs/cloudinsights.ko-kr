@@ -7904,7 +7904,6 @@
   <block id="09ea31b2f879daa3575f90741cc1d791" category="section-title">사용자 액세스 차단을 위한 필수 조건</block>
   <block id="4c03839c4d4987ac81496c7f17d6f092" category="paragraph">이 기능을 사용하려면 클러스터 레벨 자격 증명이 필요합니다.</block>
   <block id="9a517e6700abab3e080100846703ab51" category="paragraph">클러스터 관리 자격 증명을 사용하는 경우 새 권한이 필요하지 않습니다.</block>
-  <block id="d024f8c400c18ed25e7c797f6b13a110" category="list-text">"사용자 액세스 차단 사용"을 _ENABLED_로 설정합니다.</block>
   <block id="8bdb8cb044f5c9cc0cc87ec310782e1a" category="section-title">자동 사용자 액세스 차단을 설정하는 방법은 무엇입니까?</block>
   <block id="83fce3228306e4223f72e5a98ed7923e" category="list-text">“Block User File Access(사용자 파일 액세스 차단)” 확인란을 클릭합니다. 이 옵션을 선택하면 기능이 활성화됩니다.</block>
   <block id="982ff1f57d1f125e6f9bb1f94dcef71e" category="list-text">“Time Period(기간)”에서 차단 적용 기간을 선택합니다.</block>
@@ -7916,7 +7915,6 @@
   <block id="f169ac98d63faf28e5387c7068cdc42d" category="list-text">경고 세부 정보 또는 사용자 세부 정보 화면으로 이동한 다음 해당 화면에서 사용자를 수동으로 차단 또는 복원할 수 있습니다.</block>
   <block id="f21a59e38c0c86324abe189f2666efd8" category="section-title">사용자 액세스 제한 기록</block>
   <block id="b030dc666e324798ee9403442dd23eb1" category="paragraph">경고 세부 정보 및 사용자 세부 정보 페이지의 사용자 패널에서 사용자의 액세스 제한 기록에 대한 감사(시간, 작업(차단, 차단 해제), 기간, 수행한 작업, NFS에 대한 수동/자동 및 영향을 받는 IP</block>
-  <block id="01aa451dc1421e1b9d5fe5148ef31be7" category="list-text">"사용자 액세스 차단 활성화"를 선택 해제하여 비활성화합니다.</block>
   <block id="fdf597bf8083a921059736ff839ffae8" category="section-title">NFS에 대한 IP를 수동으로 복구합니다</block>
   <block id="b368496b943e902a72e3e0bed2267ee2" category="cell">정책을 수정할 수 없습니다. 원인: 해당 명령에 대해 권한이 없습니다.</block>
   <block id="b0b134473b7922feefa2eaac79b9fb75" category="cell">CsUser 사용 시, 위에서 설명한 대로 사용자에게 권한이 부여되는지 확인</block>
@@ -9330,8 +9328,6 @@
   <block id="036ce35e40fa3fbcc9c9e500c29c6bf9" category="paragraph">사용자가 SMB 및 호스트 시스템의 IP 주소에 대해 직접 차단되어 NFS에 대한 공격이 차단됩니다. 이러한 시스템 IP 주소는 워크로드 보안에서 모니터링하는 SVM(Storage Virtual Machine)에 액세스하지 못하도록 차단됩니다.</block>
   <block id="f19379ce165a902f81548ae9d7b2e07c" category="paragraph">예를 들어, 워크로드 보안이 10개의 SVM을 관리하고 자동 응답 정책이 4개의 SVM에 대해 구성되었다고 가정해 보겠습니다. 4개의 SVM 중 하나에서 공격이 발생한 경우 10개의 SVM에서 사용자의 액세스가 차단됩니다. 원래 SVM에 대해 스냅샷이 여전히 촬영됩니다.</block>
   <block id="4965f6590d5121fa73cf823f64ef219b" category="paragraph">사용자에게 부여된 권한으로 사용자 지정 사용자(예: _CsUser_)를 사용하는 경우 아래 단계에 따라 사용자를 차단하는 워크로드 보안에 권한을 부여합니다.</block>
-  <block id="8e0c9f34f42be5c07c87ecae239a8823" category="list-text">워크로드 보안에서 * Admin &gt; Automated Response Policies &gt; Response Policy Settings &gt; Block User Access * 로 이동합니다.</block>
-  <block id="d9c1a964d322cb7ed68da85eaa8a06b0" category="list-text">워크로드 보안에서 * Admin &gt; Automated Response Policies &gt; Response Policy Settings &gt; Block User Access * 로 이동합니다</block>
   <block id="ef3c0a55c240483a8b3ffe2b395d514d" category="paragraph">워크로드 보안 평가판이 만료되었거나 에이전트/수집기가 중단된 경우 다음 단계를 사용하여 ONTAP에서 IP를 수동으로 복원합니다.</block>
   <block id="1b0bdf15231b05a92c86cf44b6c5280e" category="list-text">각 RuleIndex를 지정하여 "cloudsecure_rule"이 Client match인 SVM의 모든 정책 전반에 걸쳐 규칙을 삭제합니다. 워크로드 보안 규칙은 일반적으로 1입니다.</block>
   <block id="a117ae2a490977bedd4a55878386b06c" category="list-text">워크로드 보안 규칙이 삭제되었는지 확인합니다(선택적 단계 확인).</block>
@@ -12721,8 +12717,6 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="4fd45e6b48ed24b4e3dbd4f7522cab8c" category="cell">쉼표(,) 또는 세미콜론(;)으로 구분된 ScaleIO/PowerFlex 게이트웨이의 IP 주소 또는 FQDN</block>
   <block id="68d34ea912eb8ba5af30d244ed0f9227" category="cell">ScaleIO/PowerFlex 장치에 로그인하는 데 사용되는 관리자 사용자 이름입니다</block>
   <block id="682ba587c3d6c301fba76aadc4ddd8af" category="cell">ScaleIO/PowerFlex 장치에 로그인하는 데 사용되는 암호입니다</block>
-  <block id="9f3d8c0615d1ceba9f0f905f22c7d950" category="cell">사용자가 디렉터리를 검색할 수 있습니다. 예: _username@companyname.com_ 또는 _username@domainname.com_
-또한 도메인 읽기 전용 권한이 필요합니다.</block>
   <block id="dada9839975856f2fd06228d265fea07" category="list-text">네트워크 모니터링:</block>
   <block id="50e4ed16bb9f1a58d102b41d11b009d5" category="list-text">Linux 커널 버전 4.18.0 이상이 필요합니다</block>
   <block id="7ae2ba2018b8e11d966acfdd0fce7a55" category="list-text">Photon OS는 지원되지 않습니다.</block>
@@ -13001,4 +12995,11 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="57b48c75a9a8cae2e174d4d2e1a20e06" category="paragraph">테이블 위젯은 식을 약간 다르게 처리합니다. 하나의 테이블 위젯에 최대 5개의 표현식을 포함할 수 있으며 각 표현식은 테이블에 새 칼럼으로 추가됩니다. 각 식은 계산을 수행할 값을 최대 5개까지 포함할 수 있습니다. 열에 의미 있는 이름을 쉽게 지정할 수 있습니다.</block>
   <block id="65d2c24b071888fa849372a7a32969e8" category="inline-image-macro">테이블 위젯의 식</block>
   <block id="87e868e2dc8c898d0c4017d8f7f66ea8" category="paragraph"><block ref="87e868e2dc8c898d0c4017d8f7f66ea8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6dd0ae1f18b7c9b4d5e3b4eec7ff6352" category="cell">사용자가 디렉터리를 검색할 수 있습니다. 예: _username@companyname.com_ 또는 _username@domainname.com_
+또한 도메인 읽기 전용 권한이 필요합니다.
+사용자는 보안 그룹 _읽기 전용 도메인 컨트롤러_의 구성원이어야 합니다.</block>
+  <block id="644ee4d8e32f0fd5525b3665f3b1be90" category="cell">링크: task_dc_brocade_rest.html</block>
+  <block id="690b59689f385d15b45ee131216725c7" category="list-text">워크로드 보안에서 * 워크로드 보안 &gt; 정책 &gt; 자동화된 대응 정책 * 으로 이동합니다.  공격 정책 * 을 선택합니다.</block>
+  <block id="a0e5daf37fbc5d356df1518610cdff22" category="list-text">사용자 파일 액세스 차단 _ 을(를) 선택합니다.</block>
+  <block id="97436105e7ddd0da98d7e0207d74958a" category="list-text">선택 취소(선택 취소) _ 사용자 파일 액세스 차단 _.</block>
 </blocks>

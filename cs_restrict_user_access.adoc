@@ -50,8 +50,8 @@ security login role create -role csrole -cmddirname "vserver name-mapping" -acce
 
 == 이 기능을 활성화하는 방법은 무엇입니까?
 
-* 워크로드 보안에서 * Admin > Automated Response Policies > Response Policy Settings > Block User Access * 로 이동합니다.
-* "사용자 액세스 차단 사용"을 _ENABLED_로 설정합니다.
+* 워크로드 보안에서 * 워크로드 보안 > 정책 > 자동화된 대응 정책 * 으로 이동합니다.  공격 정책 * 을 선택합니다.
+* 사용자 파일 액세스 차단 _ 을(를) 선택합니다.
 
 
 
@@ -93,8 +93,8 @@ security login role create -role csrole -cmddirname "vserver name-mapping" -acce
 
 언제든지 이 기능을 비활성화할 수 있습니다. 시스템에 제한된 사용자가 있는 경우 먼저 액세스 권한을 복원해야 합니다.
 
-* 워크로드 보안에서 * Admin > Automated Response Policies > Response Policy Settings > Block User Access * 로 이동합니다
-* "사용자 액세스 차단 활성화"를 선택 해제하여 비활성화합니다.
+* 워크로드 보안에서 * 워크로드 보안 > 정책 > 자동화된 대응 정책 * 으로 이동합니다.  공격 정책 * 을 선택합니다.
+* 선택 취소(선택 취소) _ 사용자 파일 액세스 차단 _.
 
 
 이 기능은 모든 페이지에서 숨겨집니다.
