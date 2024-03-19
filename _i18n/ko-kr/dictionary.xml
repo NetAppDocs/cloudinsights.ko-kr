@@ -12961,10 +12961,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="216ade60a8bebfa7b9ef8f8fec32e876" category="cell">EMS 이벤트 수집을 활성화합니다</block>
   <block id="22454981300d227862b5ebd81b19f7de" category="cell">EMS 폴링 간격(초)</block>
   <block id="cfb13b3b743770c7f9772001c506ed28" category="list-text">다음 명령을 사용하여 역할을 생성합니다.</block>
-  <block id="7d0153c84324ec12ea855f4910fdc574" category="paragraph">보안 로그인 REST-ROLE CREATE-ROLE {ROLE NAME} - api/api-access readonly
-보안 로그인 REST-ROLE CREATE-ROLE {ROLE NAME} - api/api/cluster/agent - 모두 액세스</block>
-  <block id="6765c1ce40f9ed10162dff1db4e987ca" category="paragraph">SVM 서비스 웹 액세스 create-name spi-role {role name}-vserver{name from above command}
-security login create -user-or -group-name {username} -application http-authentication -method password -role {role name}</block>
   <block id="7483de82186016bc69ffb8a75489f338" category="cell">ONTAP REST 데이터 수집기를 생성하려고 하면 다음과 같은 오류가 표시됩니다.
 구성: 10.193.70.14: 10.193.70.14의 ONTAP REST API를 사용할 수 없음: 10.193.70.14 /api/cluster:400 잘못된 요청을 가져오지 못했습니다</block>
   <block id="40c54a6b7dcfa9b1202222c4928cb872" category="cell">이는 REST API 기능이 없는 9.6)와 같은 ONTAP ONTAP 어레이가 원인일 수 있습니다. ONTAP 9.14.1은 ONTAP REST Collector에서 지원하는 최소 ONTAP 버전입니다. 사전 REST ONTAP 릴리스에서 "400 Bad Request" 응답이 예상되어야 합니다.
@@ -13021,4 +13017,6 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="ac5ff7aa53ae721accfc89d2e8327f56" category="cell">WWN 별칭을 보고합니다</block>
   <block id="2d97586297f1c09c58d04825a03405cf" category="cell">WWN 별칭을 보고하려면 선택합니다</block>
   <block id="fd3eaf47a54b3fb99f483aa91af951ad" category="cell">Fpolicy 이벤트에 대한 ONTAP와의 통신. ONTAP가 워크로드 보안 에이전트(있는 경우)에 방화벽을 포함하여 이벤트를 보내려면 이러한 포트를 워크로드 보안 에이전트에 개방해야 합니다.</block>
+  <block id="a5bc5e25da90f0de3436e66f223df7bc" category="inline-link-macro">ONTAP 9.14.1 ONTAPI-REST 매핑</block>
+  <block id="6e2fe63a1853939e7fbcdfb785f57e86" category="admonition">ONTAP REST Collector는 이전 ONTAPI 기반 Collector를 대체하는 용도로 사용할 수 있습니다. 따라서 수집되거나 보고되는 메트릭에는 차이가 있을 수 있습니다. ONTAPI와 REST의 차이점에 대한 자세한 내용은 를 참조하십시오 <block ref="239e0ab1e46437458ce3ffae42b58457" category="inline-link-macro-rx"></block> 문서화:</block>
 </blocks>
