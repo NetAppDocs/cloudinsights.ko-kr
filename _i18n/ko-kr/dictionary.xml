@@ -3141,7 +3141,6 @@
   <block id="9bf305870fa281c6eff0d16d2e8d6b6d" category="cell">ONTAP와의 API 통신</block>
   <block id="c1d0965e767c67506aa60bc80d5b716e" category="cell">35000-55000</block>
   <block id="2c2ee9a7d99b7adb60d6152c3090a0f0" category="cell">SVM 데이터 LIF IP 주소</block>
-  <block id="3931fc64139cf87ea57a9ac2d318fe52" category="cell">Fpolicy 이벤트에 대한 ONTAP와의 통신</block>
   <block id="8f14e45fceea167a5a36dedd4bea2543" category="cell">7</block>
   <block id="b81e4f797b30e131d43ea14e3bc8322c" category="inline-link-macro">이벤트 속도 검사기</block>
   <block id="1a46e02a3754d0daf83001fffc7c7c46" category="paragraph">를 참조하십시오 <block ref="fd6f609b977fb641a06defa631019934" category="inline-link-macro-rx"></block> 사이징에 대한 정보를 제공하는 문서입니다.</block>
@@ -13021,4 +13020,5 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="d0768c091a340f3c6007fff30de3ea50" category="cell">SSL을 통한 연결을 활성화하려면 선택합니다</block>
   <block id="ac5ff7aa53ae721accfc89d2e8327f56" category="cell">WWN 별칭을 보고합니다</block>
   <block id="2d97586297f1c09c58d04825a03405cf" category="cell">WWN 별칭을 보고하려면 선택합니다</block>
+  <block id="fd3eaf47a54b3fb99f483aa91af951ad" category="cell">Fpolicy 이벤트에 대한 ONTAP와의 통신. ONTAP가 워크로드 보안 에이전트(있는 경우)에 방화벽을 포함하여 이벤트를 보내려면 이러한 포트를 워크로드 보안 에이전트에 개방해야 합니다.</block>
 </blocks>
