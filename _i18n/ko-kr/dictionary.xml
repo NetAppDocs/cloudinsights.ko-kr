@@ -3124,11 +3124,9 @@
   <block id="2209fa650bb8459f4028b704176e2a4b" category="section-title">클라우드 네트워크 액세스 규칙</block>
   <block id="888a77f5ac0748b6c8001822417df8b6" category="cell">프로토콜</block>
   <block id="12007e1d59f4d09c87dbe2c438256244" category="cell">목적지</block>
-  <block id="02674a4ef33e11c879283629996c8ff8" category="cell">방향</block>
   <block id="b136ef5f6a01d816991fe3cf7a6ac763" category="cell">TCP</block>
   <block id="13f3cf8c531952d72e5847c4183e6910" category="cell">443</block>
   <block id="1e5d29d467aa39ff7343d30dc2f8de5b" category="cell">site_name&gt; .cs01.cloudinsights.netapp.com &lt;site_name&gt; .c01.cloudinsights.netapp.com &lt;site_name&gt; .c02.cloudinsights.netapp.com 을 참조하십시오</block>
-  <block id="4c32be4a0b4f48cdd593aef35fd69e44" category="cell">아웃바운드</block>
   <block id="800d899720a1567094af6346ee35787a" category="cell">Cloud Insights에 대한 액세스</block>
   <block id="4ce4e8664144d2ca2f89818a65da41cc" category="cell">gateway.c01.cloudinsights.netapp.com agentlogin.cs01.cloudinsights.netapp.com</block>
   <block id="d4fedc7f035f96436f1598f9626876e2" category="cell">인증 서비스에 대한 액세스</block>
@@ -9724,7 +9722,6 @@
   <block id="c0404d66fec1056cbbdcf7bc76589700" category="paragraph"><block ref="c0404d66fec1056cbbdcf7bc76589700" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f6706b55dc0bef6b9951c40daa3a0ee2" category="admonition">스토리지 워크로드 보안은 Cloud Insights Federal Edition에서 사용할 수 없습니다.</block>
   <block id="af5f3409a3cec43a03f959371f642cae" category="admonition">대부분의 시스템 모니터는 기본적으로 _Paused_상태입니다. 모니터의 _Resume_옵션을 선택하여 시스템 모니터를 활성화할 수 있습니다. Data Collector에서 _고급 카운터 데이터 수집_ 및 _ONTAP EMS 로그 수집 활성화_가 활성화되어 있는지 확인합니다. 이러한 옵션은 _고급 구성_ 아래의 ONTAP 데이터 수집기에서 찾을 수 있습니다.<block ref="c9fb5b808ac97b65ea1073e21fb359f9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6c7e3200049198face0d2648e9d1a27d" category="cell">인바운드</block>
   <block id="52e3eb8960d4500b67360febd3b16b26" category="cell">ONTAP와 워크로드 보안 간의 단방향 에이전트가 SVM 수명에서 ping을 보냅니다.</block>
   <block id="8fee42a04811f34097bb06266a925ef6" category="paragraph"><block ref="f1d16f360380bc347a5a9e8768937aa7" category="inline-link-macro-rx"></block>
 <block ref="536041084bffaf10e48c1cc03ccee7a2" category="inline-link-macro-rx"></block></block>
@@ -13004,4 +13001,5 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="6244cebffae6eb1472a9a0487a099c77" category="cell">일반 iSCSI 블록 정보, VMware VMFS</block>
   <block id="56079badd056a19303cc26e6a4fcc7e0" category="sidebar">VMware</block>
   <block id="45dd5be4ea94f7d41cb728ccc4186440" category="list-text">Workload Security &gt; Collector &gt; + Data Collector * 를 클릭합니다</block>
+  <block id="d0c65e48e2de27f37b54853eb602f10b" category="cell">워크로드 보안 에이전트</block>
 </blocks>
