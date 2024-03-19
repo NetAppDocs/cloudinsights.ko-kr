@@ -8052,7 +8052,6 @@
   <block id="a1667a4627338ab4bba192e79668af02" category="paragraph"><block ref="a1667a4627338ab4bba192e79668af02" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d37e34400d307dbed8b2907c8c7e8964" category="cell">이 오류는 지원되지 않는 시스템에 Agent를 설치하려고 할 때 나타납니다. 을 참조하십시오 <block ref="7db04bd496cdb9ab394c662c3f00f7ed" category="inline-link-macro-rx"></block>.</block>
   <block id="e09245effc62059e51f926fad603e413" category="inline-link-macro">문제 해결</block>
-  <block id="64ecfa2ee741849d8a5def32fdb1eef6" category="cell">디스크 공간은 다음과 같은 방식으로 할당해야 합니다. /opt/NetApp 35GB(최소) /opt가 NAS 스토리지의 마운트된 폴더인 경우 로컬 사용자가 이 폴더에 액세스할 수 있는지 확인하십시오. 로컬 사용자에게 이 폴더에 대한 권한이 없는 경우 에이전트 또는 데이터 수집기를 설치하지 못할 수 있습니다. 를 참조하십시오 <block ref="b8e4bfa44cc0a900c6c15b3a86438fdc" category="inline-link-macro-rx"></block> 섹션을 참조하십시오.</block>
   <block id="fde8afa3fd65a9f38d9b11377453846e" category="doc">NetApp ONTAP Collector용 Cloud Volumes ONTAP 및 Amazon FSx 구성</block>
   <block id="4aa02491d3ee690a6a014b190a75060e" category="section-title">지원되는 플랫폼</block>
   <block id="bf6a182a4bf96601e8aa50ed356b9b9f" category="list-text">Cloud Volumes ONTAP - 사용 가능한 모든 클라우드 서비스 공급자에서 지원됩니다. 예: Amazon, Azure, Google Cloud</block>
@@ -13019,4 +13018,11 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="fd3eaf47a54b3fb99f483aa91af951ad" category="cell">Fpolicy 이벤트에 대한 ONTAP와의 통신. ONTAP가 워크로드 보안 에이전트(있는 경우)에 방화벽을 포함하여 이벤트를 보내려면 이러한 포트를 워크로드 보안 에이전트에 개방해야 합니다.</block>
   <block id="a5bc5e25da90f0de3436e66f223df7bc" category="inline-link-macro">ONTAP 9.14.1 ONTAPI-REST 매핑</block>
   <block id="6e2fe63a1853939e7fbcdfb785f57e86" category="admonition">ONTAP REST Collector는 이전 ONTAPI 기반 Collector를 대체하는 용도로 사용할 수 있습니다. 따라서 수집되거나 보고되는 메트릭에는 차이가 있을 수 있습니다. ONTAPI와 REST의 차이점에 대한 자세한 내용은 를 참조하십시오 <block ref="239e0ab1e46437458ce3ffae42b58457" category="inline-link-macro-rx"></block> 문서화:</block>
+  <block id="e8e49e7a35d758d776738dccc87a87b1" category="cell">디스크 공간은 다음과 같은 방식으로 할당되어야 합니다.
+/opt/NetApp 35GB(최소)
+
+참고: 파일 시스템을 생성할 수 있도록 추가 디스크 공간을 할당하는 것이 좋습니다. 파일 시스템에 최소 35GB의 여유 공간이 있는지 확인합니다.
+
+
+/opt가 NAS 스토리지에서 마운트된 폴더인 경우 로컬 사용자가 이 폴더에 액세스할 수 있는지 확인합니다. 로컬 사용자에게 이 폴더에 대한 권한이 없는 경우 에이전트 또는 데이터 수집기를 설치하지 못할 수 있습니다. 를 참조하십시오 <block ref="b8e4bfa44cc0a900c6c15b3a86438fdc" category="inline-link-macro-rx"></block> 섹션을 참조하십시오.</block>
 </blocks>
