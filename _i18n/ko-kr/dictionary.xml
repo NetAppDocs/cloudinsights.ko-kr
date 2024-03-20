@@ -12984,7 +12984,6 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="6dd0ae1f18b7c9b4d5e3b4eec7ff6352" category="cell">사용자가 디렉터리를 검색할 수 있습니다. 예: _username@companyname.com_ 또는 _username@domainname.com_
 또한 도메인 읽기 전용 권한이 필요합니다.
 사용자는 보안 그룹 _읽기 전용 도메인 컨트롤러_의 구성원이어야 합니다.</block>
-  <block id="644ee4d8e32f0fd5525b3665f3b1be90" category="cell">링크: task_dc_brocade_rest.html</block>
   <block id="690b59689f385d15b45ee131216725c7" category="list-text">워크로드 보안에서 * 워크로드 보안 &gt; 정책 &gt; 자동화된 대응 정책 * 으로 이동합니다.  공격 정책 * 을 선택합니다.</block>
   <block id="a0e5daf37fbc5d356df1518610cdff22" category="list-text">사용자 파일 액세스 차단 _ 을(를) 선택합니다.</block>
   <block id="97436105e7ddd0da98d7e0207d74958a" category="list-text">선택 취소(선택 취소) _ 사용자 파일 액세스 차단 _.</block>
@@ -13025,4 +13024,6 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
 
 
 /opt가 NAS 스토리지에서 마운트된 폴더인 경우 로컬 사용자가 이 폴더에 액세스할 수 있는지 확인합니다. 로컬 사용자에게 이 폴더에 대한 권한이 없는 경우 에이전트 또는 데이터 수집기를 설치하지 못할 수 있습니다. 를 참조하십시오 <block ref="b8e4bfa44cc0a900c6c15b3a86438fdc" category="inline-link-macro-rx"></block> 섹션을 참조하십시오.</block>
+  <block id="764f447ccb3bf87ad75ec71c633b9966" category="inline-link-macro">Brocade FOS REST </block>
+  <block id="882354c20e5e22e1c581f6c0c24ef8f3" category="cell"><block ref="882354c20e5e22e1c581f6c0c24ef8f3" category="inline-link-macro-rx"></block></block>
 </blocks>
