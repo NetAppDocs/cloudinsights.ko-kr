@@ -79,6 +79,27 @@ SVM 이름, CIFS 서버 이름 및 추가 필드가 반환됩니다.
 
 
 
+== 사용자 액세스 차단을 위한 필수 조건
+
+에 대해 다음 사항을 염두에 두십시오 link:/cloudinsights/cs_restrict_user_access.html["사용자 액세스 차단"]:
+
+이 기능을 사용하려면 클러스터 레벨 자격 증명이 필요합니다.
+
+클러스터 관리 자격 증명을 사용하는 경우 새 권한이 필요하지 않습니다.
+
+사용자에게 부여된 권한으로 사용자 지정 사용자(예: _CsUser_)를 사용하는 경우 아래 단계에 따라 사용자를 차단하는 워크로드 보안에 권한을 부여합니다.
+
+클러스터 자격 증명이 있는 CsUser의 경우 ONTAP 명령줄에서 다음을 수행하십시오.
+
+....
+security login role create -role csrole -cmddirname "vserver export-policy rule" -access all
+security login role create -role csrole -cmddirname set -access all
+security login role create -role csrole -cmddirname "vserver cifs session" -access all
+security login role create -role csrole -cmddirname "vserver services access-check authentication translate" -access all
+security login role create -role csrole -cmddirname "vserver name-mapping" -access all
+....
+
+
 == 사용 권한에 대한 참고 사항
 
 

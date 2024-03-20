@@ -46,6 +46,8 @@ security login role create -role csrole -cmddirname "vserver cifs session" -acce
 security login role create -role csrole -cmddirname "vserver services access-check authentication translate" -access all
 security login role create -role csrole -cmddirname "vserver name-mapping" -access all
 ....
+의 사용 권한 섹션을 검토하십시오 link:/cloudinsights/task_add_collector_svm.html["ONTAP SVM Data Collector 구성"] 페이지를 참조하십시오.
+
 
 
 == 이 기능을 활성화하는 방법은 무엇입니까?
