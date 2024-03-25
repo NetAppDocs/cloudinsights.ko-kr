@@ -23,6 +23,18 @@ NOTE: ONTAP REST Collector는 이전 ONTAPI 기반 Collector를 대체하는 용
 
 
 
+== 마이그레이션
+
+이전 ONTAP(ontapi) 데이터 수집기에서 최신 ONTAP REST 수집기로 마이그레이션하려면 다음을 수행합니다.
+
+. REST Collector를 추가하고 동일한 사용자/권한 등을 모두 입력합니다 이전 컬렉터를 사용했습니다.
+. 이전 Collector를 일시 중지합니다.
+. 시스템에서 30분 동안 데이터를 수집합니다. 이 시간 동안 모든 데이터 유형을 무시합니다.
+. 휴식 기간 후, 당신은 나머지 수집기에 데이터의 안정적인 연속 볼 수 있습니다.
+
+
+
+
 == 용어
 
 Cloud Insights는 ONTAP 데이터 수집기에서 인벤토리, 로그 및 성능 데이터를 가져옵니다. 획득한 각 자산 유형에 대해 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
@@ -51,6 +63,9 @@ Cloud Insights는 ONTAP 데이터 수집기에서 인벤토리, 로그 및 성�
 
 
 | 볼륨 | 내부 볼륨 
+
+
+| 스토리지 가상 시스템/Vserver | 스토리지 가상 머신 
 |===
 
 
@@ -113,6 +128,7 @@ Cloud Insights는 ONTAP 데이터 수집기에서 인벤토리, 로그 및 성�
 다음은 이 데이터 수집기를 구성하고 사용하기 위한 요구 사항입니다.
 
 * 필요한 액세스 권한이 있는 사용자 계정에 대한 액세스 권한이 있어야 합니다. 새 REST 사용자/역할을 생성하는 경우 관리자 권한이 필요합니다.
+* ONTAP 버전 9.14.1 이상
 * 계정 세부 정보에는 사용자 이름 및 암호가 포함됩니다.
 * 포트 요구 사항: 443
 * 계정 권한:
@@ -131,7 +147,7 @@ Cloud Insights는 ONTAP 데이터 수집기에서 인벤토리, 로그 및 성�
 | 필드에 입력합니다 | 설명 
 
 
-| ONTAP 관리 IP 주소입니다 | NetApp 클러스터의 IP 주소 또는 정규화된 도메인 이름입니다 
+| ONTAP 관리 IP 주소입니다 | NetApp 클러스터의 IP 주소 또는 정규화된 도메인 이름입니다. 클러스터 관리 IP/FQDN이어야 합니다. 
 
 
 | ONTAP REST 사용자 이름입니다 | NetApp 클러스터의 사용자 이름입니다 
@@ -212,41 +228,47 @@ FAS/AFF 8080
 클러스터 수준에서 Cloud Insights에 대한 로컬 계정을 생성하려면 클러스터 관리 관리자 사용자 이름/암호를 사용하여 ONTAP에 로그인하고 ONTAP 서버에서 다음 명령을 실행합니다.
 
 . 시작하기 전에 _관리자_계정으로 ONTAP에 로그인해야 하며 _DIAGNOSTIC-LEVEL 명령_ 을 활성화해야 합니다.
+. type_admin_인 가상 서버의 이름을 검색합니다. 이 이름은 이후의 명령에서 사용됩니다.
++
+ vserver show -type admin
 . 다음 명령을 사용하여 역할을 생성합니다.
 +
 ....
 security login rest-role create -role {role name} -api /api -access readonly
 security login rest-role create -role {role name} -api /api/cluster/agents -access all
-vserver services web access create -name spi -role {role name} -vserver {name from above command}
+vserver services web access create -name spi -role {role name} -vserver {vserver name as retrieved above}
 security login create -user-or-group-name {username} -application http -authentication-method password -role {role name}
 ....
-
-
 . 다음 명령을 사용하여 읽기 전용 사용자를 생성합니다. create 명령을 실행하면 이 사용자의 암호를 입력하라는 메시지가 표시됩니다.
 +
- security login create -username ci_user -application ontapi -authentication-method password -role ci_readonly
+ security login create -username ci_user -application http -authentication-method password -role ci_readonly
 
 
 AD/LDAP 계정을 사용하는 경우 명령은 여야 합니다
 
- security login create -user-or-group-name DOMAIN\aduser/adgroup -application ontapi -authentication-method domain -role ci_readonly
+ security login create -user-or-group-name DOMAIN\aduser/adgroup -application http -authentication-method domain -role ci_readonly
 그 결과로 생성되는 역할 및 사용자 로그인은 다음과 같습니다. 실제 출력은 다음과 같이 다를 수 있습니다.
 
-....
-Role Command/ Access
-Vserver Name Directory Query Level
----------- ------------- --------- ------------------ --------
-cluster1   ci_readonly   DEFAULT   read only
-cluster1   ci_readonly   security  read only
-....
-....
-cluster1::security login> show
-Vserver: cluster1
-Authentication Acct
-UserName    Application   Method      Role Name      Locked
----------   -------      ----------- -------------- --------
-ci_user     ontapi       password    ci_readonly    no
-....
+[listing]
+----
+security login rest-role show -vserver <vserver name> -role restRole
+
+               Role                                    Access
+Vserver        Name            API                     Level
+----------     -------------   -------------------     ------
+<vserver name> restRole        /api                    readonly
+                               /api/cluster/agents     all
+2 entries were displayed.
+
+security login show -vserver <vserver name> -user-or-group-name restUser
+
+Vserver: <vserver name>
+                                                                 Second
+User/Group                 Authentication                 Acct   Authentication
+Name           Application Method        Role Name        Locked Method
+-------------- ----------- ------------- ---------------- ------ --------------
+restUser       http        password      restRole         no     none
+----
 
 
 == 문제 해결
@@ -263,5 +285,8 @@ ci_user     ontapi       password    ci_readonly    no
 
 REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과 같은 메시지가 표시될 수 있습니다.
 구성: 10.193.98.84: 10.193.98.84의 ONTAP REST API 사용 불가: 10.193.98.84: 10.193.98.84: ONTAP REST API at 10.193.98.84 사용 가능: cheryl5-cluster-2 9.10.1 a3cb3247-3d3c-11ee-8ff3-005056b364a7 
+
+
+| ONTAP ontapi 수집기가 데이터를 표시하는 비어 있거나 "0" 메트릭이 표시됩니다. | ONTAP REST는 ONTAP 시스템에서만 내부적으로 사용되는 메트릭은 보고하지 않습니다. 예를 들어, 시스템 애그리게이트는 ONTAP REST에서 수집되지 않고 "data" 유형의 SVM만 수집됩니다. 
 |===
 추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].
