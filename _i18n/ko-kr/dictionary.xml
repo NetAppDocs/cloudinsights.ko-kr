@@ -9719,7 +9719,6 @@
   <block id="c0404d66fec1056cbbdcf7bc76589700" category="paragraph"><block ref="c0404d66fec1056cbbdcf7bc76589700" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f6706b55dc0bef6b9951c40daa3a0ee2" category="admonition">스토리지 워크로드 보안은 Cloud Insights Federal Edition에서 사용할 수 없습니다.</block>
   <block id="af5f3409a3cec43a03f959371f642cae" category="admonition">대부분의 시스템 모니터는 기본적으로 _Paused_상태입니다. 모니터의 _Resume_옵션을 선택하여 시스템 모니터를 활성화할 수 있습니다. Data Collector에서 _고급 카운터 데이터 수집_ 및 _ONTAP EMS 로그 수집 활성화_가 활성화되어 있는지 확인합니다. 이러한 옵션은 _고급 구성_ 아래의 ONTAP 데이터 수집기에서 찾을 수 있습니다.<block ref="c9fb5b808ac97b65ea1073e21fb359f9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="52e3eb8960d4500b67360febd3b16b26" category="cell">ONTAP와 워크로드 보안 간의 단방향 에이전트가 SVM 수명에서 ping을 보냅니다.</block>
   <block id="8fee42a04811f34097bb06266a925ef6" category="paragraph"><block ref="f1d16f360380bc347a5a9e8768937aa7" category="inline-link-macro-rx"></block>
 <block ref="536041084bffaf10e48c1cc03ccee7a2" category="inline-link-macro-rx"></block></block>
   <block id="13c40afab8bb116e2a274838e229f575" category="paragraph">활동 기록 테이블 위에 있는 _Export_ 단추를 클릭하여 활동 기록을 .csv 파일로 내보낼 수 있습니다. 상위 100,000개의 레코드만 내보내집니다. 데이터 양에 따라 내보내기가 완료될 때까지 몇 초에서 몇 분 정도 걸릴 수 있습니다.</block>
@@ -13013,7 +13012,6 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="d0768c091a340f3c6007fff30de3ea50" category="cell">SSL을 통한 연결을 활성화하려면 선택합니다</block>
   <block id="ac5ff7aa53ae721accfc89d2e8327f56" category="cell">WWN 별칭을 보고합니다</block>
   <block id="2d97586297f1c09c58d04825a03405cf" category="cell">WWN 별칭을 보고하려면 선택합니다</block>
-  <block id="fd3eaf47a54b3fb99f483aa91af951ad" category="cell">Fpolicy 이벤트에 대한 ONTAP와의 통신. ONTAP가 워크로드 보안 에이전트(있는 경우)에 방화벽을 포함하여 이벤트를 보내려면 이러한 포트를 워크로드 보안 에이전트에 개방해야 합니다.</block>
   <block id="a5bc5e25da90f0de3436e66f223df7bc" category="inline-link-macro">ONTAP 9.14.1 ONTAPI-REST 매핑</block>
   <block id="6e2fe63a1853939e7fbcdfb785f57e86" category="admonition">ONTAP REST Collector는 이전 ONTAPI 기반 Collector를 대체하는 용도로 사용할 수 있습니다. 따라서 수집되거나 보고되는 메트릭에는 차이가 있을 수 있습니다. ONTAPI와 REST의 차이점에 대한 자세한 내용은 를 참조하십시오 <block ref="239e0ab1e46437458ce3ffae42b58457" category="inline-link-macro-rx"></block> 문서화:</block>
   <block id="e8e49e7a35d758d776738dccc87a87b1" category="cell">디스크 공간은 다음과 같은 방식으로 할당되어야 합니다.
@@ -13041,4 +13039,6 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="01489ea97f62d455d744d92e643e44a9" category="cell">ONTAP ontapi 수집기가 데이터를 표시하는 비어 있거나 "0" 메트릭이 표시됩니다.</block>
   <block id="e33c3a41c8a37e74fdb59ca792c91d5a" category="cell">ONTAP REST는 ONTAP 시스템에서만 내부적으로 사용되는 메트릭은 보고하지 않습니다. 예를 들어, 시스템 애그리게이트는 ONTAP REST에서 수집되지 않고 "data" 유형의 SVM만 수집됩니다.</block>
   <block id="93411b670be12318c5a6613f3fca054f" category="list-text">Rest Collector를 추가하고 동일한 사용자/권한 등을 모두 입력합니다 이전 컬렉터를 사용했습니다.</block>
+  <block id="7e0b2932c814704a91b543d4f713d658" category="cell">Fpolicy 이벤트에 대해 ONTAP에서 워크로드 보안 에이전트로의 통신  ONTAP가 워크로드 보안 에이전트(있는 경우)에 방화벽을 포함하여 이벤트를 보내려면 이러한 포트를 워크로드 보안 에이전트에 개방해야 합니다.</block>
+  <block id="a01bf0188d9c5ff4efed61a66bd7061b" category="cell">Agent에서 SVM 데이터 LIF로 에코</block>
 </blocks>
