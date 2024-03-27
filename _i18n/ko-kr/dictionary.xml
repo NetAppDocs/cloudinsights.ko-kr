@@ -12968,8 +12968,6 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="5eeda23f92dad663daa058631cc10210" category="list-text">일련 번호 – 스토리지 UUID입니다</block>
   <block id="b697879d40ceeef13c6f9527808724fe" category="paragraph">많은 Cloud Insights의 ONTAP 대시보드가 고급 ONTAP 카운터를 사용하기 때문에 데이터 수집기 고급 구성 섹션에서 * 고급 카운터 데이터 수집 사용 * 을 사용하도록 설정해야 합니다.</block>
   <block id="992ec6f152c405f64da205561d5810c3" category="list-text">필요한 액세스 권한이 있는 사용자 계정에 대한 액세스 권한이 있어야 합니다. 새 REST 사용자/역할을 생성하는 경우 관리자 권한이 필요합니다.</block>
-  <block id="7716cde88803d3b7d809cbffb39a1d82" category="inline-xref">사용 권한에 대한 참고 사항</block>
-  <block id="267142a6c5298e3a85dfd745d6a91771" category="list-text">기능적으로 Cloud Insights는 읽기 요청을 하지만 Cloud Insights가 ONTAP 스토리지에 등록하려면 일부 쓰기 권한이 필요합니다. 를 참조하십시오 <block ref="2cd5e7e54a305dd942a55b6d20ef8f9c" category="inline-xref-macro-rx"></block> 아래에 있습니다.</block>
   <block id="45d6bfd686219a198a0983bc084e3b92" category="cell">ONTAP 고급 카운터 데이터를 폴에 포함하려면 이 옵션을 선택합니다. 기본적으로 사용됩니다.</block>
   <block id="19decc8950209e44f521507a99ab0792" category="cell">ONTAP EMS 로그 이벤트 데이터를 포함하려면 선택합니다. 기본적으로 사용됩니다.</block>
   <block id="b8da12392eaf9647590629afc8e5e321" category="inline-xref">표 위젯</block>
@@ -13027,9 +13025,6 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="d725c02924790a2eff9bb2c7121e839d" category="paragraph">의 사용 권한 섹션을 검토하십시오 <block ref="8a91694a94b506bcdf4d50b0df6ab8bc" category="inline-link-macro-rx"></block> 페이지를 참조하십시오.</block>
   <block id="19f59b74448f6a27519db281a44e4b12" category="section-title">마이그레이션</block>
   <block id="326a85558498d8aa2718dbf52e3bf722" category="paragraph">이전 ONTAP(ontapi) 데이터 수집기에서 최신 ONTAP REST 수집기로 마이그레이션하려면 다음을 수행합니다.</block>
-  <block id="7aa31458c5152c5d27f8fbb18c369015" category="list-text">이전 Collector를 일시 중지합니다.</block>
-  <block id="36c201f32e3f02bd95c1dd1ccdbc73dc" category="list-text">시스템에서 30분 동안 데이터를 수집합니다. 이 시간 동안 모든 데이터 유형을 무시합니다.</block>
-  <block id="dede93f696efdb5fb1be1cde69b231cb" category="list-text">휴식 기간 후, 당신은 나머지 수집기에 데이터의 안정적인 연속 볼 수 있습니다.</block>
   <block id="0a6cb81f2c451b8ffdd5fb04d030bc4b" category="cell">스토리지 가상 시스템/Vserver</block>
   <block id="40a9aa8d8be93bdef25a488011f71fcb" category="cell">스토리지 가상 머신</block>
   <block id="b34043f2adcaed7afb95502f8e304bd7" category="list-text">ONTAP 버전 9.14.1 이상</block>
@@ -13037,7 +13032,6 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="ee57d855cd754beda08e0483c4002ab2" category="list-text">type_admin_인 가상 서버의 이름을 검색합니다. 이 이름은 이후의 명령에서 사용됩니다.</block>
   <block id="01489ea97f62d455d744d92e643e44a9" category="cell">ONTAP ontapi 수집기가 데이터를 표시하는 비어 있거나 "0" 메트릭이 표시됩니다.</block>
   <block id="e33c3a41c8a37e74fdb59ca792c91d5a" category="cell">ONTAP REST는 ONTAP 시스템에서만 내부적으로 사용되는 메트릭은 보고하지 않습니다. 예를 들어, 시스템 애그리게이트는 ONTAP REST에서 수집되지 않고 "data" 유형의 SVM만 수집됩니다.</block>
-  <block id="93411b670be12318c5a6613f3fca054f" category="list-text">Rest Collector를 추가하고 동일한 사용자/권한 등을 모두 입력합니다 이전 컬렉터를 사용했습니다.</block>
   <block id="7e0b2932c814704a91b543d4f713d658" category="cell">Fpolicy 이벤트에 대해 ONTAP에서 워크로드 보안 에이전트로의 통신  ONTAP가 워크로드 보안 에이전트(있는 경우)에 방화벽을 포함하여 이벤트를 보내려면 이러한 포트를 워크로드 보안 에이전트에 개방해야 합니다.</block>
   <block id="a01bf0188d9c5ff4efed61a66bd7061b" category="cell">Agent에서 SVM 데이터 LIF로 에코</block>
   <block id="d6f0c62217650cf8ede1bd5e1e862b5a" category="paragraph">NetApp-CI-Telegraf-DS_,_netapp-ci-fluent-bit-DS_ 및_netapp-ci-net-observer-L4-DS_Demets는 모든 노드에서 데이터를 올바르게 수집하기 위해 클러스터의 모든 노드에 Pod를 예약해야 합니다. 운용자는 잘 알려진 일부 * 얼룩을 견딜 수 있도록 구성되었습니다. 노드에서 사용자 지정 얼룩을 구성하여 모든 노드에서 Pod가 실행되지 않도록 하는 경우 이러한 얼룩에 대해 * 공차 * 를 생성할 수 있습니다 <block ref="dc90f93af5ccf5020646213d9b7d2c3d" category="inline-link-macro-rx"></block>. 클러스터의 모든 노드에 사용자 지정 얼룩을 적용한 경우 운영자 포드를 예약 및 실행할 수 있도록 운영자 구축에 필요한 허용 오차도 추가해야 합니다.</block>
@@ -13046,4 +13040,10 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="217b41d0f229477b95c3b46b9905e8a6" category="list-text">CI - 텔레그라프</block>
   <block id="7357e4ce1b613c72370aa11b8881c327" category="list-text">CI 플루언트 비트</block>
   <block id="fe05143e1e28d056a7092a13c7ef1fda" category="list-text">ci-cubernetes-event-exporter를 의미합니다</block>
+  <block id="b13ab503ee5934c2c0407ff674faaeb8" category="list-text">기능적으로 Cloud Insights는 주로 읽기 요청을 하지만 Cloud Insights가 ONTAP 스토리지에 등록하려면 일부 쓰기 권한이 필요합니다. 바로 아래의 _권한에 대한 참고_를 참조하십시오.</block>
+  <block id="de9f71590e427b6d3c16175ce4dda19f" category="list-text">REST Collector를 추가합니다. 이전 Collector에 대해 구성된 사용자 이외의 다른 사용자에 대한 정보를 입력하는 것이 좋습니다. 예를 들어, 위의 권한 섹션에 표시된 사용자를 사용합니다.</block>
+  <block id="46788dbd82cfe187cc4603bdb4760c26" category="list-text">이전 Collector를 일시 중지하면 데이터가 계속 수집되지 않습니다.</block>
+  <block id="5b006d79d014a1860daf684ecea7e093" category="list-text">새 휴면 수집기가 최소 30분 동안 데이터를 수집하도록 합니다. 이 시간 동안 "정상"으로 표시되지 않는 데이터는 무시합니다.</block>
+  <block id="6e81cdef5dd14e3cf193147eefe83cc4" category="list-text">휴지 기간 후, 휴지 수집기가 취득을 계속하는 동안 데이터가 안정화해야합니다.</block>
+  <block id="d2098b0b84e989c49759cf70450a78d8" category="paragraph">원하는 경우 이 동일한 프로세스를 사용하여 이전 컬렉터로 돌아갈 수 있습니다.</block>
 </blocks>

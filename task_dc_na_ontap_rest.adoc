@@ -23,16 +23,123 @@ NOTE: ONTAP REST Collector는 이전 ONTAPI 기반 Collector를 대체하는 용
 
 
 
+== 요구 사항
+
+다음은 이 데이터 수집기를 구성하고 사용하기 위한 요구 사항입니다.
+
+* 필요한 액세스 권한이 있는 사용자 계정에 대한 액세스 권한이 있어야 합니다. 새 REST 사용자/역할을 생성하는 경우 관리자 권한이 필요합니다.
++
+** 기능적으로 Cloud Insights는 주로 읽기 요청을 하지만 Cloud Insights가 ONTAP 스토리지에 등록하려면 일부 쓰기 권한이 필요합니다. 바로 아래의 _권한에 대한 참고_를 참조하십시오.
+
+
+* ONTAP 버전 9.14.1 이상
+* 포트 요구 사항: 443
+
+
+
+
+== 사용 권한에 대한 참고 사항
+
+많은 Cloud Insights의 ONTAP 대시보드가 고급 ONTAP 카운터를 사용하기 때문에 데이터 수집기 고급 구성 섹션에서 * 고급 카운터 데이터 수집 사용 * 을 사용하도록 설정해야 합니다.
+
+클러스터 수준에서 Cloud Insights에 대한 로컬 계정을 생성하려면 클러스터 관리 관리자 사용자 이름/암호를 사용하여 ONTAP에 로그인하고 ONTAP 서버에서 다음 명령을 실행합니다.
+
+. 시작하기 전에 _관리자_계정으로 ONTAP에 로그인해야 하며 _DIAGNOSTIC-LEVEL 명령_ 을 활성화해야 합니다.
+. type_admin_인 가상 서버의 이름을 검색합니다. 이 이름은 이후의 명령에서 사용됩니다.
++
+ vserver show -type admin
+. 다음 명령을 사용하여 역할을 생성합니다.
++
+....
+security login rest-role create -role {role name} -api /api -access readonly
+security login rest-role create -role {role name} -api /api/cluster/agents -access all
+vserver services web access create -name spi -role {role name} -vserver {vserver name as retrieved above}
+security login create -user-or-group-name {username} -application http -authentication-method password -role {role name}
+....
+. 다음 명령을 사용하여 읽기 전용 사용자를 생성합니다. create 명령을 실행하면 이 사용자의 암호를 입력하라는 메시지가 표시됩니다.
++
+ security login create -username ci_user -application http -authentication-method password -role ci_readonly
+
+
+AD/LDAP 계정을 사용하는 경우 명령은 여야 합니다
+
+ security login create -user-or-group-name DOMAIN\aduser/adgroup -application http -authentication-method domain -role ci_readonly
+그 결과로 생성되는 역할 및 사용자 로그인은 다음과 같습니다. 실제 출력은 다음과 같이 다를 수 있습니다.
+
+[listing]
+----
+security login rest-role show -vserver <vserver name> -role restRole
+
+               Role                                    Access
+Vserver        Name            API                     Level
+----------     -------------   -------------------     ------
+<vserver name> restRole        /api                    readonly
+                               /api/cluster/agents     all
+2 entries were displayed.
+
+security login show -vserver <vserver name> -user-or-group-name restUser
+
+Vserver: <vserver name>
+                                                                 Second
+User/Group                 Authentication                 Acct   Authentication
+Name           Application Method        Role Name        Locked Method
+-------------- ----------- ------------- ---------------- ------ --------------
+restUser       http        password      restRole         no     none
+----
+
+
 == 마이그레이션
 
 이전 ONTAP(ontapi) 데이터 수집기에서 최신 ONTAP REST 수집기로 마이그레이션하려면 다음을 수행합니다.
 
-. Rest Collector를 추가하고 동일한 사용자/권한 등을 모두 입력합니다 이전 컬렉터를 사용했습니다.
-. 이전 Collector를 일시 중지합니다.
-. 시스템에서 30분 동안 데이터를 수집합니다. 이 시간 동안 모든 데이터 유형을 무시합니다.
-. 휴식 기간 후, 당신은 나머지 수집기에 데이터의 안정적인 연속 볼 수 있습니다.
+. REST Collector를 추가합니다. 이전 Collector에 대해 구성된 사용자 이외의 다른 사용자에 대한 정보를 입력하는 것이 좋습니다. 예를 들어, 위의 권한 섹션에 표시된 사용자를 사용합니다.
+. 이전 Collector를 일시 중지하면 데이터가 계속 수집되지 않습니다.
+. 새 휴면 수집기가 최소 30분 동안 데이터를 수집하도록 합니다. 이 시간 동안 "정상"으로 표시되지 않는 데이터는 무시합니다.
+. 휴지 기간 후, 휴지 수집기가 취득을 계속하는 동안 데이터가 안정화해야합니다.
 
 
+원하는 경우 이 동일한 프로세스를 사용하여 이전 컬렉터로 돌아갈 수 있습니다.
+
+
+
+== 구성
+
+[cols="2*"]
+|===
+| 필드에 입력합니다 | 설명 
+
+
+| ONTAP 관리 IP 주소입니다 | NetApp 클러스터의 IP 주소 또는 정규화된 도메인 이름입니다. 클러스터 관리 IP/FQDN이어야 합니다. 
+
+
+| ONTAP REST 사용자 이름입니다 | NetApp 클러스터의 사용자 이름입니다 
+
+
+| ONTAP REST 암호입니다 | NetApp 클러스터의 암호입니다 
+|===
+
+
+== 고급 구성
+
+[cols="2*"]
+|===
+| 필드에 입력합니다 | 설명 
+
+
+| 재고 폴링 간격(분) | 기본값은 60분입니다. 
+
+
+| 성능 폴링 간격(초) | 기본값은 60초입니다. 
+
+
+| 고급 카운터 데이터 수집 | ONTAP 고급 카운터 데이터를 폴에 포함하려면 이 옵션을 선택합니다. 기본적으로 사용됩니다. 
+
+
+| EMS 이벤트 수집을 활성화합니다 | ONTAP EMS 로그 이벤트 데이터를 포함하려면 선택합니다. 기본적으로 사용됩니다. 
+
+
+| EMS 폴링 간격(초) | 기본값은 60초입니다. 
+|===
 
 
 == 용어
@@ -123,63 +230,6 @@ Cloud Insights는 ONTAP 데이터 수집기에서 인벤토리, 로그 및 성�
 
 
 
-== 요구 사항
-
-다음은 이 데이터 수집기를 구성하고 사용하기 위한 요구 사항입니다.
-
-* 필요한 액세스 권한이 있는 사용자 계정에 대한 액세스 권한이 있어야 합니다. 새 REST 사용자/역할을 생성하는 경우 관리자 권한이 필요합니다.
-* ONTAP 버전 9.14.1 이상
-* 계정 세부 정보에는 사용자 이름 및 암호가 포함됩니다.
-* 포트 요구 사항: 443
-* 계정 권한:
-+
-** 기능적으로 Cloud Insights는 읽기 요청을 하지만 Cloud Insights가 ONTAP 스토리지에 등록하려면 일부 쓰기 권한이 필요합니다. 를 참조하십시오 <<a-note-about-permissions,사용 권한에 대한 참고 사항>> 아래에 있습니다.
-
-
-
-
-
-
-== 구성
-
-[cols="2*"]
-|===
-| 필드에 입력합니다 | 설명 
-
-
-| ONTAP 관리 IP 주소입니다 | NetApp 클러스터의 IP 주소 또는 정규화된 도메인 이름입니다. 클러스터 관리 IP/FQDN이어야 합니다. 
-
-
-| ONTAP REST 사용자 이름입니다 | NetApp 클러스터의 사용자 이름입니다 
-
-
-| ONTAP REST 암호입니다 | NetApp 클러스터의 암호입니다 
-|===
-
-
-== 고급 구성
-
-[cols="2*"]
-|===
-| 필드에 입력합니다 | 설명 
-
-
-| 재고 폴링 간격(분) | 기본값은 60분입니다. 
-
-
-| 성능 폴링 간격(초) | 기본값은 60초입니다. 
-
-
-| 고급 카운터 데이터 수집 | ONTAP 고급 카운터 데이터를 폴에 포함하려면 이 옵션을 선택합니다. 기본적으로 사용됩니다. 
-
-
-| EMS 이벤트 수집을 활성화합니다 | ONTAP EMS 로그 이벤트 데이터를 포함하려면 선택합니다. 기본적으로 사용됩니다. 
-
-
-| EMS 폴링 간격(초) | 기본값은 60초입니다. 
-|===
-
-
 == ONTAP 전력 측정 기준
 
 여러 ONTAP 모델은 Cloud Insights에 대한 전력 메트릭을 제공하므로 모니터링 또는 알림에 사용할 수 있습니다. 아래의 지원 모델과 지원되지 않는 모델 목록은 포괄하지는 않지만 몇 가지 지침을 제공해야 합니다. 일반적으로 모델이 목록에 있는 모델과 동일한 제품군에 속하는 경우 지원은 동일해야 합니다.
@@ -219,56 +269,6 @@ FAS/AFF 8040
 FAS/AFF 8060
 FAS/AFF 8080
 
-
-
-== 사용 권한에 대한 참고 사항
-
-많은 Cloud Insights의 ONTAP 대시보드가 고급 ONTAP 카운터를 사용하기 때문에 데이터 수집기 고급 구성 섹션에서 * 고급 카운터 데이터 수집 사용 * 을 사용하도록 설정해야 합니다.
-
-클러스터 수준에서 Cloud Insights에 대한 로컬 계정을 생성하려면 클러스터 관리 관리자 사용자 이름/암호를 사용하여 ONTAP에 로그인하고 ONTAP 서버에서 다음 명령을 실행합니다.
-
-. 시작하기 전에 _관리자_계정으로 ONTAP에 로그인해야 하며 _DIAGNOSTIC-LEVEL 명령_ 을 활성화해야 합니다.
-. type_admin_인 가상 서버의 이름을 검색합니다. 이 이름은 이후의 명령에서 사용됩니다.
-+
- vserver show -type admin
-. 다음 명령을 사용하여 역할을 생성합니다.
-+
-....
-security login rest-role create -role {role name} -api /api -access readonly
-security login rest-role create -role {role name} -api /api/cluster/agents -access all
-vserver services web access create -name spi -role {role name} -vserver {vserver name as retrieved above}
-security login create -user-or-group-name {username} -application http -authentication-method password -role {role name}
-....
-. 다음 명령을 사용하여 읽기 전용 사용자를 생성합니다. create 명령을 실행하면 이 사용자의 암호를 입력하라는 메시지가 표시됩니다.
-+
- security login create -username ci_user -application http -authentication-method password -role ci_readonly
-
-
-AD/LDAP 계정을 사용하는 경우 명령은 여야 합니다
-
- security login create -user-or-group-name DOMAIN\aduser/adgroup -application http -authentication-method domain -role ci_readonly
-그 결과로 생성되는 역할 및 사용자 로그인은 다음과 같습니다. 실제 출력은 다음과 같이 다를 수 있습니다.
-
-[listing]
-----
-security login rest-role show -vserver <vserver name> -role restRole
-
-               Role                                    Access
-Vserver        Name            API                     Level
-----------     -------------   -------------------     ------
-<vserver name> restRole        /api                    readonly
-                               /api/cluster/agents     all
-2 entries were displayed.
-
-security login show -vserver <vserver name> -user-or-group-name restUser
-
-Vserver: <vserver name>
-                                                                 Second
-User/Group                 Authentication                 Acct   Authentication
-Name           Application Method        Role Name        Locked Method
--------------- ----------- ------------- ---------------- ------ --------------
-restUser       http        password      restRole         no     none
-----
 
 
 == 문제 해결
