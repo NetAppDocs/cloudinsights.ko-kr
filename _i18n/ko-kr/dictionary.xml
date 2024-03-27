@@ -10209,7 +10209,6 @@
   <block id="d43e029b6a4626717198326d15889721" category="list-text">모니터의 백엔드 성능 문제를 사전 예방적으로 감지합니다</block>
   <block id="ae233b4bee0ed9f611ffe211f5804e00" category="section-title">톨레러스와 얼룩을 볼 수 있습니다</block>
   <block id="6aae913b976c156306d8a5cbbbc06ad5" category="inline-link-macro">상담원 구성 _ 에서</block>
-  <block id="896815f9ea37359e86504cac9ab58b31" category="paragraph">모든 노드에서 데이터를 올바르게 수집하려면 _Telegraf_, _fluent-bit_ 및 _net-observer_DemonSets가 클러스터의 모든 노드에서 POD를 예약해야 합니다. 운용자는 잘 알려진 일부 * 얼룩을 견딜 수 있도록 구성되었습니다. 노드에서 사용자 지정 얼룩을 구성하여 모든 노드에서 Pod가 실행되지 않도록 하는 경우 이러한 얼룩에 대해 * 공차 * 를 생성할 수 있습니다 <block ref="dc90f93af5ccf5020646213d9b7d2c3d" category="inline-link-macro-rx"></block>. 클러스터의 모든 노드에 사용자 지정 얼룩을 적용한 경우 운영자 포드를 예약 및 실행할 수 있도록 운영자 구축에 필요한 허용 오차도 추가해야 합니다.</block>
   <block id="e1e08e40036f927a0e660c22aa837f88" category="inline-link-macro">오염과 내약입니다</block>
   <block id="9680829f0eb82d9736ac7fe477135a87" category="paragraph">Kubernetes에 대해 자세히 알아보십시오 <block ref="2a69bcb19ea6a4db3f5d1b466ff78e77" category="inline-link-macro-rx"></block>.</block>
   <block id="a3f0ee128de7eabdc5dbd73136882ab6" category="cell">dockerMetricCollectionEnabled를 참조하십시오</block>
@@ -13041,4 +13040,10 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="93411b670be12318c5a6613f3fca054f" category="list-text">Rest Collector를 추가하고 동일한 사용자/권한 등을 모두 입력합니다 이전 컬렉터를 사용했습니다.</block>
   <block id="7e0b2932c814704a91b543d4f713d658" category="cell">Fpolicy 이벤트에 대해 ONTAP에서 워크로드 보안 에이전트로의 통신  ONTAP가 워크로드 보안 에이전트(있는 경우)에 방화벽을 포함하여 이벤트를 보내려면 이러한 포트를 워크로드 보안 에이전트에 개방해야 합니다.</block>
   <block id="a01bf0188d9c5ff4efed61a66bd7061b" category="cell">Agent에서 SVM 데이터 LIF로 에코</block>
+  <block id="d6f0c62217650cf8ede1bd5e1e862b5a" category="paragraph">NetApp-CI-Telegraf-DS_,_netapp-ci-fluent-bit-DS_ 및_netapp-ci-net-observer-L4-DS_Demets는 모든 노드에서 데이터를 올바르게 수집하기 위해 클러스터의 모든 노드에 Pod를 예약해야 합니다. 운용자는 잘 알려진 일부 * 얼룩을 견딜 수 있도록 구성되었습니다. 노드에서 사용자 지정 얼룩을 구성하여 모든 노드에서 Pod가 실행되지 않도록 하는 경우 이러한 얼룩에 대해 * 공차 * 를 생성할 수 있습니다 <block ref="dc90f93af5ccf5020646213d9b7d2c3d" category="inline-link-macro-rx"></block>. 클러스터의 모든 노드에 사용자 지정 얼룩을 적용한 경우 운영자 포드를 예약 및 실행할 수 있도록 운영자 구축에 필요한 허용 오차도 추가해야 합니다.</block>
+  <block id="b1dbe9124bd000f8918a20bf61bc24f6" category="list-text">ci-kube-RBAC-프록시</block>
+  <block id="67efe5df179f0f50a5a5e82fd46a07fc" category="list-text">CI - KSM을 참조하십시오</block>
+  <block id="217b41d0f229477b95c3b46b9905e8a6" category="list-text">CI - 텔레그라프</block>
+  <block id="7357e4ce1b613c72370aa11b8881c327" category="list-text">CI 플루언트 비트</block>
+  <block id="fe05143e1e28d056a7092a13c7ef1fda" category="list-text">ci-cubernetes-event-exporter를 의미합니다</block>
 </blocks>

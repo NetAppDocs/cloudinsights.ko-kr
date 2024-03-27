@@ -260,16 +260,16 @@ NetApp 모니터링 오퍼레이터 설치 타일에서 "이미지 풀 스니펫
 핵심 운영자 기능 및 Kubernetes 모니터링
 
 * NetApp - 모니터링
-* kubbe-RBAC-proxy입니다
-* Kudbe-state-metrics를 나타냅니다
-* 텔레그라프
+* ci-kube-RBAC-프록시
+* CI - KSM을 참조하십시오
+* CI - 텔레그라프
 * distroless-root-user.(거리 없는 루트 사용자
 
 
 이벤트 로그
 
-* 유창한 비트
-* Kubernetes - 이벤트 - 수출자
+* CI 플루언트 비트
+* ci-cubernetes-event-exporter를 의미합니다
 
 
 네트워크 성능 및 맵
@@ -282,7 +282,7 @@ NetApp 모니터링 오퍼레이터 설치 타일에서 "이미지 풀 스니펫
 운영자 배포에서 모니터링 - 운영자 배포를 편집합니다. YAML을 편집하고 모든 이미지 참조를 수정하여 개인 Docker 저장소를 사용하십시오.
 
 ....
-image: <docker repo of the enterprise/corp docker repo>/kube-rbac-proxy:<kube-rbac-proxy version>
+image: <docker repo of the enterprise/corp docker repo>/kube-rbac-proxy:<ci-kube-rbac-proxy version>
 image: <docker repo of the enterprise/corp docker repo>/netapp-monitoring:<version>
 ....
 operator-config.yAML에서 AgentConfiguration을 편집하여 새로운 Docker 저장소 위치를 반영하십시오. 개인 리포지토리에 대한 새 imagePullSecret을 만듭니다. 자세한 내용은 _https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/_ 참조하십시오
