@@ -1835,7 +1835,6 @@
   <block id="c3e78df51911e54e9bf950f6adb83f17" category="cell">노드 UUID</block>
   <block id="e9017792019e9d0101cc81616e5cec41" category="summary">Cloud Insights에 등록하고 환경을 만듭니다.</block>
   <block id="695d7a391bb9043561bcc3c254868311" category="doc">Cloud Insights 온보딩</block>
-  <block id="25866b1c01dcfb4e4ba435720ed78045" category="section-title">NetApp Cloud Central 계정 생성</block>
   <block id="05d2a837df7692f0d65e4466b2fb05bd" category="list-text">유효한 업무용 전자 메일 주소를 입력하고 암호를 선택하십시오.</block>
   <block id="ad66d403ef43ddd58a7b527874c51878" category="list-text">회사 이름과 전체 이름을 입력합니다.</block>
   <block id="d02f5d878903034a62253cb17ae51c2d" category="paragraph">Cloud Insights 를 선택합니다.</block>
@@ -1846,13 +1845,9 @@
   <block id="93219f4a6fd1dbd20138a0a65d6e08de" category="paragraph">무료 평가판 사용 시 가능합니다 <block ref="822a67eb96671d13fff372a75b259713" category="inline-link-macro-rx"></block> Cloud Insights에 언제든지. 구독하면 현재 구독에 따라 Cloud Insights 기능을 사용할 수 있습니다.</block>
   <block id="2c4bb88652ba26d23266d851053ba465" category="section-title">로그인 후 이동</block>
   <block id="8dac70c4541c93f0deed8b8bd734a673" category="paragraph">브라우저를 Cloud Insights 환경 URL로 직접 열 수도 있습니다. 예를 들면 다음과 같습니다.</block>
-  <block id="0e15f0ff9eb552105028ff08fc92e09f" category="paragraph">URL은 각 사용자의 초대 이메일에도 포함되어 있어 간단한 액세스와 북마크 기능을 제공합니다. 사용자가 Cloud Central에 아직 로그인하지 않은 경우 로그인하라는 메시지가 표시됩니다.</block>
-  <block id="0df3e25ccf83cd4779234f7f928bebb5" category="admonition">새 사용자는 계속해서 Cloud Central에 등록하여 해당 환경 URL에 액세스할 수 있어야 합니다.</block>
   <block id="da115c4fc9cae6fc87764395ef9ff331" category="inline-link-macro">* 데이터 수집 시작 *</block>
   <block id="8308d29f13c3d3cc69f506dfead0a733" category="paragraph">새 환경에 처음 로그인할 때 에서 로 설정하는 과정을 안내합니다 <block ref="2949f1254245e371c2d697f481723a7e" category="inline-link-macro-rx"></block>.</block>
   <block id="cc580c5eecd9c28053db6de1830561ee" category="section-title">로그아웃하는 중입니다</block>
-  <block id="5f5052459ed746a225d85b63238531d1" category="paragraph">Cloud Insights에서 로그아웃하려면 * 사용자 이름 * 을 클릭하고 * 로그아웃 * 을 선택합니다. Cloud Central 로그인 화면으로 돌아갑니다.</block>
-  <block id="21648aceb436779ee1938a15ced12e7e" category="admonition">Cloud Insights에서 로그아웃하면 Cloud Central에서 로그아웃됩니다. Cloud Central 로그인을 사용하는 다른 NetApp Cloud 서비스에서도 로그아웃됩니다.</block>
   <block id="276e994cf948a6c752060d65f4332540" category="section-title">에이전트 시스템 구성</block>
   <block id="efb10f5a307574138e00f348ca720e50" category="list-text">EC2 인스턴스를 만듭니다.</block>
   <block id="e24a1d497706260167f8a13cf71db79a" category="list-text">YUM 패키지 관리자를 사용하여 필요한 Linux 패키지를 설치합니다.</block>
@@ -9116,7 +9111,6 @@
   <block id="bd4968db059d70adcf0b67815d5ba188" category="list-text">Unisphere 서버의 IP 주소/정규화된 도메인 이름입니다</block>
   <block id="d81b3ffd1c59a02baf7dbf4e905471a5" category="list-text">사용자 이름 및 암호</block>
   <block id="4723d1b438a15598881f85467c0b7be8" category="cell">성능 폴링 간격입니다.</block>
-  <block id="485f7bb9e7cc7894cf2e75343120bbf5" category="paragraph">환경이 생성되면 언제든지 NetApp Cloud Portal에 로그인하여 * Go to Cloud Insights * 을 클릭하면 됩니다. Cloud Insights 환경으로 바로 이동합니다.</block>
   <block id="39930ddf87d2960ef2f5a8ff06e4993e" category="cell">설치된 Telegraf 버전이 오래되었습니다. 이 페이지의 단계를 따라 해당 플랫폼에 대해 Agent * 를 업그레이드합니다.</block>
   <block id="3a0f609bf65bf53f905fdcfae464bcae" category="cell">새 플러그인을 구성하고 Telegraf를 다시 시작한 후 Teleraf가 시작되지 않습니다. 로그에 다음과 유사한 오류가 표시됩니다. "[텔레그라프] 에이전트 실행 중 오류: 구성 파일 /etc/Telegraf/Telegraf.d/클라우드.conf: plugin outputs.http: line &lt;linenumber&gt;: 구성에서 ["use_system_proxy"] 필드를 지정했지만 사용되지 않았습니다."</block>
   <block id="90388b17e672eeaae8e092ebd4bf6362" category="cell">이전 설치에서 설치 프로그램 스크립트를 실행했는데 에이전트가 데이터를 전송하지 않습니다</block>
@@ -9452,7 +9446,6 @@
   <block id="8d3d5857627846ebb0bfd18533d81373" category="list-text">즉시 해결합니다</block>
   <block id="e9e214a6e16f6beca61f905fa6ce3ab9" category="inline-image-macro">경고 해결 옵션</block>
   <block id="990eaf3ef2e3748beed4f15a2dc6d080" category="paragraph"><block ref="990eaf3ef2e3748beed4f15a2dc6d080" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="964a8b3315ffa6f99cb6f09543be37c8" category="paragraph">Cloud Insights로 작업하기 전에 * NetApp BlueXP * (이전의 Cloud Central) 포털에 가입해야 합니다. NetApp Cloud Central에 이미 로그인한 경우 몇 가지 간단한 단계를 통해 Cloud Insights 무료 평가판을 시작할 수 있습니다.</block>
   <block id="21a763771df4e64b083a2b050ce81f09" category="inline-link">* NetApp BlueXP *</block>
   <block id="79f4eac777cfb8f368485c1ed783c385" category="paragraph">NetApp 클라우드 서비스를 시작하려면 로 이동하십시오<block ref="bb4bedb035450655c109a482f18f7a40" category="inline-link-rx"></block> 를 클릭하고 * 시작하기 * 를 클릭합니다.</block>
   <block id="1e26781b207fa848ce81c7268cf016a7" category="list-text">아직 등록하지 않은 경우 * 등록 * 을 선택합니다</block>
@@ -9463,7 +9456,6 @@
   <block id="87174dc7b61ea27d55ab152cfdbfcbb0" category="inline-image-macro">BlueXP에서 Cloud Insights 무료 평가판을 사용해 보십시오</block>
   <block id="5d6203b83b93ae1cf7e9b34368cd7f9d" category="paragraph"><block ref="5d6203b83b93ae1cf7e9b34368cd7f9d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7395877188489ccb99fbacc8cc003a01" category="paragraph">Cloud Insights에 처음 로그인하는 경우 Cloud Insights 서비스 아래에서 * 무료 평가판 시작 * 을 클릭합니다. Cloud Insights에서 회사 환경을 구축하는 방법을 안내합니다.</block>
-  <block id="5787741cafb89158f9880654c9e9b5a5" category="paragraph">환경 생성이 완료되면 Cloud Central 자격 증명을 사용하여 로그인하고 Cloud Insights 30일 무료 평가판을 시작할 수 있습니다. 이 평가판을 통해 Cloud Insights에서 제공하는 기능을 살펴볼 수 있습니다.</block>
   <block id="1eb5ae63609e68a11106494d272615bf" category="cell">클러스터 관리</block>
   <block id="269ab41459ba8b3de391eb30b649d222" category="cell">CIFS/SMB 사용자 차단에 필요합니다.</block>
   <block id="0d04c76d344b77c4e10b41c28526be07" category="paragraph">팀 콘텐츠에서 * 스토리지 관리자 대시보드 * 를 선택하면 트래픽 및 스토리지에 대한 정보를 제공하는 여러 보고서가 제공됩니다.</block>
@@ -13044,4 +13036,14 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="6e79cf0edf33ec7a0066155d964eeb57" category="list-text">Cloud Insights 메뉴에서 * 관측성 &gt; 수집기 * 를 클릭하고 * + Data Collector * 버튼을 클릭합니다.</block>
   <block id="710ec696cccefe4c3faa1d7ebf8fca87" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Kibana를 선택합니다.</block>
   <block id="c71f6654a45927e285ab22a697438b43" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. MongoDB를 선택하십시오.</block>
+  <block id="2e95a4622d16ffb729672b5838f5732b" category="paragraph">Cloud Insights로 작업을 시작하려면 * NetApp BlueXP * 포털에 등록해야 합니다. BlueXP 로그인을 이미 보유하고 있는 경우 몇 단계를 빠르게 진행하여 Cloud Insights 무료 평가판을 시작할 수 있습니다.</block>
+  <block id="5bff30d13ce98c505187872963af1f25" category="section-title">NetApp BlueXP 계정 생성</block>
+  <block id="f21c4669cdc7c8b69bb7b9e4f65412b9" category="paragraph">환경 생성이 완료되면 BlueXP 자격 증명을 사용하여 로그인하여 Cloud Insights 30일 무료 평가판을 시작할 수 있습니다. 이 평가판을 통해 Cloud Insights에서 제공하는 기능을 살펴볼 수 있습니다.</block>
+  <block id="43e7ba0a52e8b0f8e52ee853f0e4ece5" category="paragraph">환경이 생성되면 언제든지 NetApp BlueXP 포털에 로그인하고 * Go to Cloud Insights * 를 클릭하기만 하면 됩니다. Cloud Insights 환경으로 바로 이동합니다.</block>
+  <block id="c95038e09e37b3186bbce880a572f8f5" category="paragraph">URL은 각 사용자의 초대 이메일에도 포함되어 있어 간단한 액세스와 북마크 기능을 제공합니다. 사용자가 BlueXP에 아직 로그인하지 않은 경우 로그인하라는 메시지가 표시됩니다.</block>
+  <block id="30a2b0510383d7eabe73f5621c5ec906" category="admonition">신규 사용자가 환경 URL에 액세스하려면 먼저 BlueXP에 대한 액세스를 등록해야 합니다.</block>
+  <block id="73d58318fd6991da49fe32dc00a56f19" category="paragraph">Cloud Insights에서 로그아웃하려면 * 사용자 이름 * 을 클릭하고 * 로그아웃 * 을 선택합니다. BlueXP 로그인 화면으로 돌아갑니다.</block>
+  <block id="201ec49877bf4303e362a0aac3add32b" category="admonition">Cloud Insights에서 로그아웃하면 BlueXP에서 로그아웃됩니다. BlueXP 로그인을 사용하는 다른 NetApp 클라우드 서비스에서도 로그아웃됩니다.</block>
+  <block id="8463a61dd94ff5934036d4c8a8936e32" category="section-title">비활성 시간 초과</block>
+  <block id="db7d4581c8073d9c4dda50c4994c4383" category="paragraph">기본적으로 BlueXP는 6시간(360분) 동안 활동이 없는 경우 사용자를 로그아웃합니다. 활동에 관계없이 사용자는 7일 후에 로그아웃됩니다.</block>
 </blocks>
