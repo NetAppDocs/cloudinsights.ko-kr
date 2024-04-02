@@ -1838,7 +1838,6 @@
   <block id="05d2a837df7692f0d65e4466b2fb05bd" category="list-text">유효한 업무용 전자 메일 주소를 입력하고 암호를 선택하십시오.</block>
   <block id="ad66d403ef43ddd58a7b527874c51878" category="list-text">회사 이름과 전체 이름을 입력합니다.</block>
   <block id="d02f5d878903034a62253cb17ae51c2d" category="paragraph">Cloud Insights 를 선택합니다.</block>
-  <block id="136e3fa9a2b8381149c5e720a65374fa" category="section-title">NetApp Cloud에 이미 로그인되어 있는 경우, 어떻게 해야 합니까?</block>
   <block id="a46b8a484704b65f978247cb9b3901aa" category="paragraph">이메일 주소와 비밀번호를 입력합니다. 그런 다음 NetApp의 클라우드 오퍼링 페이지로 이동합니다.</block>
   <block id="b1d39b97c6fe789fe5e7963f078e112d" category="section-title">Cloud Insights 무료 평가판을 시작합니다</block>
   <block id="3b1f676d06286548e11b332567f42bbd" category="inline-link-macro">구독을 시작합니다</block>
@@ -13042,8 +13041,10 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="43e7ba0a52e8b0f8e52ee853f0e4ece5" category="paragraph">환경이 생성되면 언제든지 NetApp BlueXP 포털에 로그인하고 * Go to Cloud Insights * 를 클릭하기만 하면 됩니다. Cloud Insights 환경으로 바로 이동합니다.</block>
   <block id="c95038e09e37b3186bbce880a572f8f5" category="paragraph">URL은 각 사용자의 초대 이메일에도 포함되어 있어 간단한 액세스와 북마크 기능을 제공합니다. 사용자가 BlueXP에 아직 로그인하지 않은 경우 로그인하라는 메시지가 표시됩니다.</block>
   <block id="30a2b0510383d7eabe73f5621c5ec906" category="admonition">신규 사용자가 환경 URL에 액세스하려면 먼저 BlueXP에 대한 액세스를 등록해야 합니다.</block>
-  <block id="73d58318fd6991da49fe32dc00a56f19" category="paragraph">Cloud Insights에서 로그아웃하려면 * 사용자 이름 * 을 클릭하고 * 로그아웃 * 을 선택합니다. BlueXP 로그인 화면으로 돌아갑니다.</block>
-  <block id="201ec49877bf4303e362a0aac3add32b" category="admonition">Cloud Insights에서 로그아웃하면 BlueXP에서 로그아웃됩니다. BlueXP 로그인을 사용하는 다른 NetApp 클라우드 서비스에서도 로그아웃됩니다.</block>
   <block id="8463a61dd94ff5934036d4c8a8936e32" category="section-title">비활성 시간 초과</block>
   <block id="db7d4581c8073d9c4dda50c4994c4383" category="paragraph">기본적으로 BlueXP는 6시간(360분) 동안 활동이 없는 경우 사용자를 로그아웃합니다. 활동에 관계없이 사용자는 7일 후에 로그아웃됩니다.</block>
+  <block id="6670eac4232d1c66e6c936fe67e52aff" category="section-title">NetApp BlueXP 로그인을 이미 가지고 있는 경우에는 어떻게 해야 합니까?</block>
+  <block id="e3ad3e57d0a33a78b565817ed4710dea" category="inline-link-macro">BlueXP 로그인</block>
+  <block id="b00323e3fc84f69070c5dc2be8e5ce9e" category="paragraph">Cloud Insights에서 로그아웃하려면 * 사용자 이름 * 을 클릭하고 * 로그아웃 * 을 선택합니다. 로 돌아갑니다 <block ref="8d1c4f3c88725cbe8b8d86c07fb5d410" category="inline-link-macro-rx"></block> 화면.</block>
+  <block id="4405c285662a5ac6f84ad517037907a7" category="admonition">Cloud Insights에서 로그아웃하면 BlueXP에서 로그아웃됩니다. BlueXP 로그인을 사용하는 다른 NetApp 클라우드 서비스에서도 로그아웃됩니다.</block>
 </blocks>
