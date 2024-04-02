@@ -34,9 +34,6 @@ Cloud Insights에서 지원하는 데이터 수집기 목록 사전순:
 | 데이터 수집기 | 유형 
 
 
-| link:task_config_telegraf_activemq.html["ActiveMQ"] | 서비스 
-
-
 | link:task_dc_amazon_ec2.html["Amazon EC2 및 EBS"] | 검토할 수 있습니다 
 
 

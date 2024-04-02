@@ -2786,8 +2786,6 @@
   <block id="63bee0ce61faf34ba2eb5eaf1772a185" category="list-text">서비스: Kubernetes 또는 Docker와 같은 서비스에서 구입 통합 _ 이라고도 합니다.</block>
   <block id="8d1b7e78620c4edd1b1cb04c457422e7" category="paragraph">Cloud Insights에서 지원하는 데이터 수집기 목록 사전순:</block>
   <block id="2f704538f6c9d6459a97314be98124e2" category="cell">데이터 수집기</block>
-  <block id="440599e693054b36db08ebf86d960001" category="inline-link-macro">ActiveMQ</block>
-  <block id="01c33ba55f3a95c562cab844795d98bf" category="cell"><block ref="01c33ba55f3a95c562cab844795d98bf" category="inline-link-macro-rx"></block></block>
   <block id="c2ba7e785c49050f48da9aacc45c2b85" category="cell">서비스</block>
   <block id="9c767a6f4aebc77e391afa6a6ca9c4ca" category="inline-link-macro">Amazon EC2 및 EBS</block>
   <block id="9fe90fd7f13100c2c90971039d08207b" category="cell"><block ref="9fe90fd7f13100c2c90971039d08207b" category="inline-link-macro-rx"></block></block>
@@ -5243,7 +5241,6 @@
   <block id="689738a624a7f72a8b98c8ed8f1ab58b" category="summary">Apache ZooKeeper 데이터 수집기 구성</block>
   <block id="b640a79fa52794aecc8878f82be8c28e" category="doc">ZooKeeper 데이터 수집기</block>
   <block id="7c19206117ce83d65989db0a25c382ee" category="paragraph">Cloud Insights는 이 데이터 수집기를 사용하여 Apache ZooKeeper에서 메트릭을 수집합니다.</block>
-  <block id="9eacca645d0260ad873e91bf1da19a71" category="list-text">관리자 &gt; 데이터 수집기 * 에서 * + 데이터 수집기 * 를 클릭합니다. 서비스 * 에서 Apache ZooKeeper를 선택합니다.</block>
   <block id="8429b9b7552e9131928dae7613de806c" category="inline-image-macro">ZooKeeper 구성</block>
   <block id="95e6ebb37419864b276c313f8f6c3cbb" category="paragraph"><block ref="95e6ebb37419864b276c313f8f6c3cbb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fb4ac192a5f039c2e2c335ba5ced3583" category="inline-link-macro">ZooKeeper</block>
@@ -12520,7 +12517,6 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
 2.사용자 디렉토리 수집기가 구성되었지만 중지되었거나 오류 상태입니다. Collectors &gt; User Directory Collectors * 로 이동하여 상태를 확인하십시오. 을 참조하십시오 <block ref="700dae282c67631ab7fef060d50fba0f" category="inline-link-macro-rx"></block> 문제 해결 팁에 대한 문서 섹션.
 올바르게 구성하면 24시간 내에 자동으로 이름이 확인됩니다.
 그래도 해결되지 않으면 올바른 사용자 데이터 수집기를 추가했는지 확인합니다. 사용자가 실제로 추가된 Active Directory/LDAP Directory Server에 속하는지 확인합니다.</block>
-  <block id="43d39371e7465fe75cfe3d390dbe2744" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Services * 에서 RethinkDB 를 선택합니다.</block>
   <block id="7ef7f61ee5433c00d6e2bd93b6a72b5f" category="cell">획득 장치 * 탭의 * 관측성 &gt; 수집기 * 페이지에 AU 상태가 "인증서 만료됨" 또는 "인증서 해지됨"으로 표시됩니다.</block>
   <block id="d6f8e9ba9cfb77dee7f1eacdddd32143" category="list-text">Collector &gt; Agents &gt; + Agent * 를 선택합니다</block>
   <block id="b0bdf1289c168696fcf69f90ddc82ab2" category="cell">Workload Security &gt; Collector * 를 클릭합니다
@@ -12530,45 +12526,20 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
 설명서의 Data Collector 공급업체 참조 섹션을 참조하십시오.
 
 <block ref="49902fc743c67e64ddcf4901ef2c69bf" category="inline-link-macro-rx"></block></block>
-  <block id="0408a4c64dc1f3ab40855164b4b6f38d" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 Nginx 를 선택합니다.</block>
-  <block id="bdb77c4a55fae38966a8493c526d4be0" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 Redis 를 선택합니다.</block>
-  <block id="2652c4ffbd453ec1aefdecf31ada9e0b" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 Kafka를 선택합니다.</block>
-  <block id="4ee3dacc3b31186e6116102c2ab72d19" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 MySQL을 선택합니다.</block>
-  <block id="ebb792d33abbc8326e1a943e8426035a" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Services * 에서 Docker 를 선택합니다.</block>
-  <block id="dbc1393b73d772391a52f39c8694a13c" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 키바나 를 선택합니다.</block>
-  <block id="9db4a00fe92c69a4d0bf878ff50fc95a" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 JVM을 선택합니다.</block>
   <block id="b655d6566293cffcbf9e4e65bb4f042d" category="list-text">관측성 &gt; 수집기 &gt; + Data Collectors * 를 클릭합니다</block>
   <block id="baaf023f6d75d85198bf4906a1760b9a" category="list-text">관측성 &gt; 수집기 * 에서 운영 체제/플랫폼을 선택합니다. 통합 데이터 수집기(Kubernetes, Docker, Apache 등)를 설치하면 노드 데이터 수집도 구성됩니다.</block>
   <block id="5fbd88686e262efcf8b00d22f5dffa35" category="list-text">워크로드 보안 메뉴에서 다음을 클릭합니다.
 * Collectors &gt; 사용자 디렉토리 수집기 &gt; + 사용자 디렉토리 수집기 * 를 선택하고 * LDAP 디렉토리 서버 * 를 선택합니다</block>
-  <block id="4af3803e0bed14e15bd7e0f351022969" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 영술 을 선택합니다.</block>
-  <block id="e54adc338b6508055df6c2c6fb796a92" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 아파치를 선택합니다.</block>
   <block id="658caf28e4d04a4c56e83fd4c34621bd" category="list-text">여러 데이터 수집기에 대한 정보를 동시에 편집할 수 있습니다. 관측성 &gt; 수집기 * 페이지에서 각 항목의 왼쪽 확인란을 선택하고 * Bulk Actions * 버튼을 클릭하여 수정할 데이터 수집기를 선택합니다. 편집 * 을 선택하고 필요한 필드를 수정합니다.</block>
-  <block id="a1093e0f58751f9a01960a1fbf7beb53" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 멤캐시드 를 선택합니다.</block>
-  <block id="f5d9cddb5529cde22dbbfac64ed116e4" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Services * 에서 MongoDB를 선택합니다.</block>
   <block id="601816c89a0810f8802681f16fb50cc5" category="list-text">워크로드 보안 메뉴에서 다음을 클릭합니다.
 * Collectors &gt; 사용자 디렉토리 수집기 &gt; + 사용자 디렉토리 수집기 * 를 선택하고 * Active Directory * 를 선택합니다</block>
   <block id="6c9b3e4dd62551cbb0cf3069e831b84b" category="list-text">Cloud Insights 메뉴에서 * 관측성 &gt; 수집기 * 를 클릭합니다</block>
   <block id="2b7c39a8b273585cdba65d37a11b97e0" category="list-text">Cloud Insights 메뉴에서 * 관측성 &gt; 수집기 * 를 클릭하여 설치된 데이터 수집기 목록을 엽니다.</block>
   <block id="41e52ba1f9b8b7cdf15e151317830ed2" category="list-text">Cloud Insights 메뉴에서 * 관측성 &gt; 수집기 * 를 클릭합니다.</block>
-  <block id="f47fcfa022338bb85388c62d011288a2" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Services * 에서 PostgreSQL을 선택합니다.</block>
-  <block id="b375a95628217618f913ff0addcb4f8e" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 OpenZFS 를 선택합니다.</block>
   <block id="513f11f8d213c209a990a1bb086ea780" category="list-text">Cloud Insights 환경에 로그인하고 * 관측성 &gt; 수집기 * 로 이동합니다.</block>
   <block id="4b079dc3088a9e53c6c6851870343850" category="list-text">Workload Security &gt; Collector &gt; Agents * 를 클릭합니다</block>
-  <block id="f7a71c08cded2c36e48dd402ecadd5ba" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 Puppet을 선택합니다.</block>
-  <block id="8bcbe1a1fde4e3d96f7aca6694b75230" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 Couchbase를 선택합니다.</block>
-  <block id="29f60eabcc5e39b67a2b7e9560e07dc6" category="list-text">Cloud Insights 메뉴에서 * 관측성 &gt; 수집기 * 를 클릭하고 * + Data Collector * 버튼을 클릭합니다. 모든 데이터 수집기를 표시하도록 선택하거나 구독에 따라 사용 가능한 데이터 수집기만 표시하도록 필터링할 수 있습니다.</block>
-  <block id="fd3211acf4f48156142e8f687cbe6c6b" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 Kapacitor 를 선택합니다.</block>
-  <block id="588c730d062048ef78564e2278564813" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 netstat 을 선택합니다.</block>
   <block id="e65f7cc9f07286d1ff22f4c88e1d6fdb" category="list-text">구성한 수집기의 상태를 확인하려면 * Workload Security &gt; Collectors * 를 클릭하십시오.</block>
-  <block id="38d938dede033e6fd6e3fba721cdf402" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 HAProxy 를 선택합니다.</block>
-  <block id="b9e357a2b86f1ae6976d85b140c34304" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 * DC/OS * 를 선택합니다.</block>
   <block id="efe524f42d2c837542d4da8626dd93a7" category="list-text">Cloud Insights 메뉴에서 * 관측성 &gt; 수집기 * 를 클릭합니다</block>
-  <block id="ec35f90f2dd5badf0a40cb0d12d855be" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 ActiveMQ 를 선택합니다.</block>
-  <block id="ca888e8799d75a60bf8835194141e443" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 Elasticsearch를 선택합니다.</block>
-  <block id="f1f3071daba335689c22cb4ecf169b27" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 Hadoop을 선택합니다.</block>
-  <block id="0cf0ef4f45a100c43159cff0855fdcd8" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 CouchDB를 선택합니다.</block>
-  <block id="65a869cae61dbb29a2477a2c4b396c71" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 서비스 * 에서 Flink 를 선택합니다.</block>
   <block id="a5436f2e1642a935e668be1ae1bc7cb4" category="list-text">Workload Security * Collector * 로 이동한 후 * Agents * 탭을 클릭합니다.</block>
   <block id="3db8e6e28be63b5639b42d1210ec94f9" category="list-text">Collector * 를 클릭하고 구성할 데이터 수집기를 선택합니다.</block>
   <block id="2b38e4e9371e68c324f4d975aeec0b8b" category="doc">허용된 파일 형식 정책</block>
@@ -13046,4 +13017,31 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="5b006d79d014a1860daf684ecea7e093" category="list-text">새 휴면 수집기가 최소 30분 동안 데이터를 수집하도록 합니다. 이 시간 동안 "정상"으로 표시되지 않는 데이터는 무시합니다.</block>
   <block id="6e81cdef5dd14e3cf193147eefe83cc4" category="list-text">휴지 기간 후, 휴지 수집기가 취득을 계속하는 동안 데이터가 안정화해야합니다.</block>
   <block id="d2098b0b84e989c49759cf70450a78d8" category="paragraph">원하는 경우 이 동일한 프로세스를 사용하여 이전 컬렉터로 돌아갈 수 있습니다.</block>
+  <block id="34328c30b9aeceaed8fcff2dfe3eec30" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Kapacitor를 선택합니다.</block>
+  <block id="3c9d727e041ea1596d9e67f7568b3d4b" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Redis를 선택합니다.</block>
+  <block id="3d0738af358079dc547755789be4774a" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. netstat를 선택합니다.</block>
+  <block id="419697cbdba3ded9f042d2b7a045a7be" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. HAProxy를 선택합니다.</block>
+  <block id="c22bbce40f7866184fc5238e4cf0526d" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Elasticsearch를 선택합니다.</block>
+  <block id="6ed4f0f0b93d3def9b1fe51a22e44d7a" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. 영사를 선택합니다.</block>
+  <block id="4bcd3cf21ebb34b835f0e6aa0d638f54" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. ActiveMQ를 선택합니다.</block>
+  <block id="5ccd9dd8e50ca94f3cd4db51f6b42c50" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. RethinkDB 를 선택합니다.</block>
+  <block id="b0896396e0f3a7aa981b2ef8957b9208" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Apache를 선택합니다.</block>
+  <block id="0ba3615a02f45b8a7b485192d849f02b" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. PostgreSQL을 선택합니다.</block>
+  <block id="589728f32967406f1fdbd032c3fe018d" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Memcached 를 선택합니다.</block>
+  <block id="5888b2a0267a27f9f34b34863d7a8110" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. OpenZFS를 선택하세요.</block>
+  <block id="2f646a2871ea4aa3befe55d29f178062" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. JVM을 선택합니다.</block>
+  <block id="6f449010e727da85fc5dba4dc0566129" category="list-text">관리자 &gt; 데이터 수집기 * 에서 * + 데이터 수집기 * 를 클릭합니다. Apache ZooKeeper를 선택합니다.</block>
+  <block id="e71ca37de84258d54f5428c43e7d7278" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Kafka를 선택합니다.</block>
+  <block id="ada6106f548a6369154652d4ea69d9a1" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. DC/OS * 를 선택합니다.</block>
+  <block id="993b018a6d59665db1ee4e45e62026f4" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Nginx를 선택합니다.</block>
+  <block id="8a8e72cdfe9e0062f257b6b3af0a66fc" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Puppet을 선택합니다.</block>
+  <block id="c3dba9c80e9fa5a82c71abb7fa5cf37f" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Couchbase를 선택합니다.</block>
+  <block id="65f4403a1570898156c13c0053e0d957" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Hadoop 선택</block>
+  <block id="9ee6c12aac4505f529c285b136202ce5" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Docker를 선택합니다.</block>
+  <block id="80502f098bcf776c1d9ceec1ba9d636a" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Couchbase를 선택하십시오.</block>
+  <block id="b9edb2d8cbff35711b7021f32a2692dd" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Flink 를 선택합니다.</block>
+  <block id="53a22ff7bf05343afd43baa85e5c7883" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. MySQL을 선택합니다.</block>
+  <block id="6e79cf0edf33ec7a0066155d964eeb57" category="list-text">Cloud Insights 메뉴에서 * 관측성 &gt; 수집기 * 를 클릭하고 * + Data Collector * 버튼을 클릭합니다.</block>
+  <block id="710ec696cccefe4c3faa1d7ebf8fca87" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Kibana를 선택합니다.</block>
+  <block id="c71f6654a45927e285ab22a697438b43" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. MongoDB를 선택하십시오.</block>
 </blocks>
