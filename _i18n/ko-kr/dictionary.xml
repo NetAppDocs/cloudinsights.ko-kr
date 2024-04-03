@@ -9805,7 +9805,6 @@
   <block id="3b7c5615013c6b42362845591653e503" category="cell">enableDNSLookup</block>
   <block id="1d2b775d8b166dda0a22ca0ffa3f537c" category="cell">True/false, DNS 조회를 사용하도록 설정합니다</block>
   <block id="349a396fe021418ac0edbee3b447f4d5" category="section-title">AgentConfiguration 파일 예</block>
-  <block id="fc8a8119975d70c9ea4470d26aa4640b" category="paragraph">다음은 AgentConfiguration 파일의 예입니다. 일부 옵션은 여기에 캡처되지 않습니다.</block>
   <block id="13f0cf7e64ed13ef0b58a80209d8e032" category="list-text">사용자 지정 또는 프라이빗 Docker 저장소를 사용하는 경우 사용자 지정 또는 프라이빗 Docker 저장소 사용 섹션의 지침을 따릅니다</block>
   <block id="64cf739e279a21fbfd5a0a55d9453e9d" category="list-text">2022년 8월부터 NetApp Kubernetes Monitoring Operator는 Pod 보안 정책(PSP)을 지원합니다. 환경에서 PSP를 사용하는 경우 최신 NetApp Kubernetes Monitoring Operator로 업그레이드해야 합니다.</block>
   <block id="324c304c8e53f41411f3a55226c16d14" category="list-text">OpenShift 4.6 이상에서 실행 중인 경우 이러한 전제 조건이 충족되는지 확인하는 것 외에도 아래의 OpenShift 지침을 따라야 합니다.</block>
@@ -13047,4 +13046,6 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="e3ad3e57d0a33a78b565817ed4710dea" category="inline-link-macro">BlueXP 로그인</block>
   <block id="b00323e3fc84f69070c5dc2be8e5ce9e" category="paragraph">Cloud Insights에서 로그아웃하려면 * 사용자 이름 * 을 클릭하고 * 로그아웃 * 을 선택합니다. 로 돌아갑니다 <block ref="8d1c4f3c88725cbe8b8d86c07fb5d410" category="inline-link-macro-rx"></block> 화면.</block>
   <block id="4405c285662a5ac6f84ad517037907a7" category="admonition">Cloud Insights에서 로그아웃하면 BlueXP에서 로그아웃됩니다. BlueXP 로그인을 사용하는 다른 NetApp 클라우드 서비스에서도 로그아웃됩니다.</block>
+  <block id="e04813a849ce9da2afe9f3bfcaf85f0e" category="cell">참/거짓 - Kubernetes 노드에서 SELinux가 활성화된 경우 runprivileged 를 true 로 설정합니다.</block>
+  <block id="e40d435b2f81693776ecb79899e30849" category="paragraph">다음은 AgentConfiguration 파일의 예입니다.</block>
 </blocks>
