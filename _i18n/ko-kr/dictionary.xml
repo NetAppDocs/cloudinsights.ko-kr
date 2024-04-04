@@ -9736,8 +9736,6 @@
   <block id="9f033a5b208feb9ef67ab1def3051525" category="cell">선택 사항: 고객의 비공개 리포의 비밀</block>
   <block id="343d28c140c3f5ce20a1ac3f8f7dae2c" category="cell">클러스터 이름</block>
   <block id="c21207144818cb50a67a3aa45ad90cc1" category="cell">모든 고객 클러스터에서 클러스터를 고유하게 식별하는 자유 텍스트 필드입니다. 이는 Cloud Insights 테넌트 전체에서 고유해야 합니다. 기본값은 고객이 "클러스터 이름" 필드의 UI에 입력하는 것입니다</block>
-  <block id="b5249bb082b669e275606cdef10879b6" category="cell">프록시 형식: proxy:server:port:username:password:nProxy:isTelegyxyEnabled:isAuProxyEnabled:isFluentbitProxyEnabled:isCollectionorProxyEnabled:isCollectorProxyEnabled:</block>
-  <block id="f430d84b3603b6c921d2a45741baab1e" category="cell">고객이 프록시를 설정할 수 있는 옵션입니다. 일반적으로 고객 회사 대리점입니다.</block>
   <block id="aa3a0177193f5479812eadbbb3e6c303" category="cell">텔레그라프</block>
   <block id="0c8011c6947aae43789eb8972c306e85" category="cell">작업자의 Telegraf 설치를 사용자 정의할 수 있는 구성 옵션</block>
   <block id="fe071453b5b9af9d9a481afb504f78cb" category="cell">수집 간격</block>
@@ -9794,9 +9792,7 @@
   <block id="6f70b1b29646b4f3864aa8abbbca1c59" category="cell">워크로드 맵</block>
   <block id="061016eea4bb256a8b08c9190fbefeec" category="cell">작업자의 작업량 맵 수집 및 설치를 사용자 정의할 수 있는 구성 옵션입니다</block>
   <block id="8804d25db5f16b9db006116b6edf45bc" category="cell">cpuLimit</block>
-  <block id="3a8e375aaa03d4b48cdd1a1758a69d81" category="cell">net observer DS에 대한 CPU 제한</block>
   <block id="65a010afe1e2186ecb5c9ef8cf978e2d" category="cell">MemLimit</block>
-  <block id="3803b93f400a67f6fef5fecdec95cb8c" category="cell">net observer DS에 대한 MEM 제한</block>
   <block id="967cc12aa2f5f95e9e26d28fae3bd7b3" category="cell">net observer DS에 대한 CPU 요청입니다</block>
   <block id="0ae1bca85ce414d0f1862e84b9f66acc" category="cell">net observer DS에 대한 MEM 요청</block>
   <block id="8d5efaeb90931394d0afdcc8d00b6b90" category="cell">메트릭 집계 간격(초</block>
@@ -13048,4 +13044,46 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="4405c285662a5ac6f84ad517037907a7" category="admonition">Cloud Insights에서 로그아웃하면 BlueXP에서 로그아웃됩니다. BlueXP 로그인을 사용하는 다른 NetApp 클라우드 서비스에서도 로그아웃됩니다.</block>
   <block id="e04813a849ce9da2afe9f3bfcaf85f0e" category="cell">참/거짓 - Kubernetes 노드에서 SELinux가 활성화된 경우 runprivileged 를 true 로 설정합니다.</block>
   <block id="e40d435b2f81693776ecb79899e30849" category="paragraph">다음은 AgentConfiguration 파일의 예입니다.</block>
+  <block id="5c7af4a6b686285084e62f255503c141" category="cell">프록시
+
+형식:
+
+프록시:
+
+  서버:
+  포트:
+  사용자 이름:
+  암호:
+  프록시 없음:
+  텔레그라프프록시 사용:
+  isAuProxyEnabled: 사용 안 함:
+  isFluentbitProxyEnabled:
+  isCollectorProxyEnabled(isCollectorProxyEnabled):</block>
+  <block id="f8ac74d8a3668ddf89efeb8e806ca908" category="cell">프록시를 설정하는 선택 사항입니다. 일반적으로 고객의 기업 대리인입니다.</block>
+  <block id="27f8013ee549a9c4b57f90e2187cfe5f" category="cell">순 관찰자 DS에 대한 CPU 제한입니다</block>
+  <block id="579e696b8054af08af33dfd55dfad78b" category="cell">순 관찰자 DS에 대한 MEM 한도</block>
+  <block id="78835e1c315b219e4c62fc613fdfd311" category="cell">변경 관리</block>
+  <block id="02b609b32da65dbc17b9446c8542f3dd" category="cell">Kubernetes 변경 관리 및 분석에 대한 구성 옵션</block>
+  <block id="75f551b07991fea9589bce25b6abb363" category="cell">change-observer-watch-RS에 대한 CPU 제한값입니다</block>
+  <block id="6e753299d008aca89690ad5b5c6b784f" category="cell">change-observer-watch-RS에 대한 MEM 한계</block>
+  <block id="582e83d73d36aa6674624867468704da" category="cell">change-observer-watch-RS에 대한 CPU 요청입니다</block>
+  <block id="d73c96f8e69fcf08ffd440cc16f573af" category="cell">change-observer-watch-RS에 대한 MEM 요청</block>
+  <block id="5190879b0edfb4a53603a0ab23ab40e8" category="cell">FailureDeclarationIntervalMins 를 참조하십시오</block>
+  <block id="6e18e5efc4d170de4ac66b784ca443b6" category="cell">실패한 워크로드 배포가 실패로 표시되는 간격(분)입니다</block>
+  <block id="c055d40d7bbe856522ad8c59006f6754" category="cell">deployAggrIntervalSeconds입니다</block>
+  <block id="e06e4cc3c2b6796e0850387e7147734e" category="cell">작업 부하 배포 진행 중 이벤트가 전송되는 빈도입니다</block>
+  <block id="43aa9b44901fa9982cd6c7faf3f97402" category="cell">비작업 로드 AggrIntervalSeconds입니다</block>
+  <block id="cff422cbad1df823699a6830f754d451" category="cell">비워크로드 구축이 결합되고 전송되는 빈도입니다</block>
+  <block id="6d53bc2f7711e2d9a24631defb23b18f" category="cell">TERmsToRedact 를 참조하십시오</block>
+  <block id="532aa006f97c495d1734618405645779" category="cell">env 이름 및 데이터 맵에서 사용되는 정규식 집합으로, 값이 교정됩니다
+예제 용어: "pwd", "password", "token", "apikey", "api-key", "JWT"</block>
+  <block id="44011a6b8af68cc46d2d0dfb669fd887" category="cell">AditionalKindsToWatch 를 참조하십시오</block>
+  <block id="ac3fd52049b8a2c3ba2e8b8a5eff74e0" category="cell">수집기에서 감시하는 기본 종류 집합에서 볼 수 있는 추가 종류의 쉼표로 구분된 목록</block>
+  <block id="20e3bce2d07b4e6d70959f7793b18bc9" category="cell">KindsToIgnoreFromWatch 를 참조하십시오</block>
+  <block id="003936f0b815c468a99ed57f900f3d8a" category="cell">수집기에서 감시하는 기본 종류의 집합에서 감시하는 것을 무시할 수 있는 쉼표로 구분된 종류의 목록입니다</block>
+  <block id="eee9690c1174453d706353a8a678c8a1" category="cell">LogRecordAggrIntervalSeconds입니다</block>
+  <block id="284d60e68534479175e5c3f018cecc45" category="cell">수집기에서 CI로 로그 레코드를 보내는 빈도입니다</block>
+  <block id="73f0200abaec8d804a671e6ce4dac861" category="cell">시계의 내약성</block>
+  <block id="bab1b701df004b067b068da86a62e2cf" category="cell">change-observer-watch-DS 추가 허용 오차. 축약된 단일 선 형식만 해당.
+예: '{key:taint1,operator:exists,effect:NoSchedule}, {key:taint2,operator:exists,effect:NoExecute}'</block>
 </blocks>
