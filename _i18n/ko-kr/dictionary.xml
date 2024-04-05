@@ -6942,7 +6942,6 @@
   <block id="88773c59e894d8416f71b9658d5a03fc" category="paragraph">위젯(예: 원형 차트, 표 위젯, 막대, 열, 분산형 플롯, 및 단일 가치 위젯)을 활용하여 Active IQ에서 모니터링하는 NetApp clustered Data ONTAP 시스템의 스토리지 및 스토리지 노드에 대한 오브젝트 위험을 시각화합니다. "오브젝트 위험"은 스토리지 또는 스토리지 노드가 초점의 개체인 이러한 위젯에서 열 또는 메트릭으로 선택할 수 있습니다.</block>
   <block id="e0ca94f4a4b2b9a6b7968e11a7757d03" category="inline-image-macro">위젯의 개체 위험</block>
   <block id="4a7b46f5ae3d121fb437f8755e468f60" category="paragraph"><block ref="4a7b46f5ae3d121fb437f8755e468f60" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="961208029de208a5d667bc4557cd4628" category="summary">획득 장치로 사용하는 서버 또는 VM은 최소 요구 사항을 충족해야 합니다</block>
   <block id="1e6f2d5fb7c78a27ba0dc78e9cc7c9b5" category="doc">획득 장치 요구 사항</block>
   <block id="15948ad6c9474a20f044eee0ea809fda" category="paragraph">인프라스트럭처 데이터 수집기(스토리지, VM, 포트, EC2 등)로부터 정보를 가져오려면 획득 장치(AU)를 설치해야 합니다. 획득 장치를 설치하기 전에 운영 체제, CPU, 메모리 및 디스크 공간 요구 사항을 충족하는지 확인해야 합니다.</block>
   <block id="033d64e0352a24070b4d6ba6e37207af" category="cell">Windows 요구 사항</block>
@@ -12757,21 +12756,6 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
   <block id="cec6efc84112c97bd14aba77f80d27d1" category="paragraph">마찬가지로 경고를 선택하면 경고를 트리거한 모니터와 경고에 대한 시각적 타임라인을 보여 주는 차트를 비롯하여 알림에 대한 세부 정보가 제공됩니다.</block>
   <block id="cf6b021661e577ef1017b5fe1ce38625" category="section-title">Webhook 목록 페이지</block>
   <block id="5bd2d7e216efca647c8b9d69cedb9410" category="paragraph">Webhooks 목록 페이지에 이름, 만든 사람, 만든 사람, 상태, 보안, 및 마지막으로 보고된 필드</block>
-  <block id="f58657b4c7806c2ae7d24a62c56cfb94" category="cell">다음 중 하나의 라이센스 버전을 실행하는 컴퓨터:
-
-* CentOS (64비트): 7.2 ~ 7.9, Stream 8, Stream 9
-* 데비안 (64비트): 9와 10
-* Oracle Enterprise Linux(64비트): 7.5 - 7.9, 8.1 - 8.4
-* Red Hat Enterprise Linux(64비트): 7.2 - 7.9, 8.1 - 8.7, 9.1
-* Rocky 9.0, 9.1
-* Ubuntu 서버: 18.04 및 20.04 LTS
-
-이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.
-
-SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 실행하는 것이 좋습니다.
-
- sudo semanage fcontext -a -t usr_t "/opt/netapp/cloudinsights(/. *)?"
- sudo restorecon -R/opt/netapp/cloudinsights 를 참조하십시오</block>
   <block id="343a405f2f06197f662e42373c7fb059" category="list-text">SMB 프로토콜 버전 3.1 이하</block>
   <block id="44922767e817f1f23f68cda06b3e0da9" category="list-text">Cloud Insights 보안에 대해 알아볼 수 있습니다 <block ref="543da5bd260d801b98cf781252e71d7c" category="inline-link-macro-rx"></block>.</block>
   <block id="eebaff443664fe8dffc2c87c72413ce8" category="paragraph">Cloud Insights 보안에 대해 알아보십시오 <block ref="543da5bd260d801b98cf781252e71d7c" category="inline-link-macro-rx"></block>.</block>
@@ -13086,4 +13070,23 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="73f0200abaec8d804a671e6ce4dac861" category="cell">시계의 내약성</block>
   <block id="bab1b701df004b067b068da86a62e2cf" category="cell">change-observer-watch-DS 추가 허용 오차. 축약된 단일 선 형식만 해당.
 예: '{key:taint1,operator:exists,effect:NoSchedule}, {key:taint2,operator:exists,effect:NoExecute}'</block>
+  <block id="ab8e405c19b7905ee11081815f3188e8" category="summary">획득 장치로 사용하는 서버 또는 VM이 최소 요구 사항을 충족해야 합니다.</block>
+  <block id="a09b5775576e1f992d4b31384ff11e67" category="cell">다음 중 하나의 라이센스 버전을 실행하는 컴퓨터:
+
+* CentOS (64비트): 7.2 ~ 7.9, 8.1 ~ 8.4, Stream 8, Stream 9
+* 데비안 (64비트): 9와 10
+* OpenSUSE Leap 15.1에서 15.5까지
+* Oracle Enterprise Linux(64비트): 7.5 - 7.9, 8.1 - 8.8
+* Red Hat Enterprise Linux(64비트): 7.2 - 7.9, 8.1 - 8.8, 9.1, 9.2
+* Rocky 9.0, 9.1, 9.3
+* SUSE Enterprise Linux Server 15, 15 SP2 ~ 15 SP5
+*Ubuntu 서버: 18.04, 20.04, 22.04 LTS
+* 위의 플랫폼에서 SELinux
+
+이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.
+
+SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 실행하는 것이 좋습니다.
+
+ sudo semanage fcontext -a -t usr_t "/opt/netapp/cloudinsights(/. *)?"
+ sudo restorecon -R/opt/netapp/cloudinsights 를 참조하십시오</block>
 </blocks>
