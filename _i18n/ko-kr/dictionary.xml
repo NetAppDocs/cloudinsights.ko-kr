@@ -12774,7 +12774,6 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
   <block id="efe846805e5476fec607bbf54e45dc44" category="section-title">2024년 1월</block>
   <block id="a06394795b8f53802b059da7ff53b836" category="section-title">아직 사용하지 않은 Cloud Insights 기능을 사용해 보십시오</block>
   <block id="5dbb51f66b1a3074265f272db5200fa9" category="section-title">내 워크로드가 얼마나 정상적인가?</block>
-  <block id="724d9fcddedbe051bb60333c24d60088" category="paragraph">워크로드 상태는 * Kubernetes &gt; Explore &gt; 워크로드 * 페이지에서 한눈에 확인할 수 있으므로 제대로 작동하는 워크로드와 도움이 필요할 수 있는 워크로드를 빠르게 확인할 수 있습니다.</block>
   <block id="32881fe09cf4dd3fd8228ed220fe9e0b" category="inline-image-macro">워크로드 상태 개요</block>
   <block id="89498d5fe061f9d0cd5bfa262fb798d6" category="paragraph"><block ref="89498d5fe061f9d0cd5bfa262fb798d6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5770f841572da2cfe361b72b1ca45ae8" category="section-title">Data Domain ID입니다</block>
@@ -12878,7 +12877,6 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
   <block id="4dc21e298acee929dd835589e6d5c640" category="paragraph">또는 랜딩 페이지 표의 데이터를 자체 차트로 표시하려는 경우도 있습니다. 간단히 _Show Chart_icon을 선택하여 표 아래의 차트를 엽니다.</block>
   <block id="03e73ba3232dcca3cc695f108f44c898" category="inline-image-macro">차트 아이콘 표시</block>
   <block id="66a14226acec760a4af6f762f938df66" category="paragraph"><block ref="66a14226acec760a4af6f762f938df66" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d51ad7ff0d214fb056992b26bfed4ced" category="paragraph">Cloud Insights는 ONTAP 시스템의 백엔드 스위치에서 데이터를 수집할 수 있습니다. 데이터 수집기의 _Advanced Configuration_ 섹션에서 수집을 활성화하고 ONTAP 시스템이 제공하도록 구성되었는지 확인합니다 <block ref="d459f31dbd039334427e234b6edb8373" category="inline-link-macro-rx"></block> 을(를) 가지고 있습니다 <block ref="e83cb79e34a9adb49ab5c30ebb0b6c54" category="inline-xref-macro-rx"></block> 설정.</block>
   <block id="67c73d0c05c627af68622cc01164ae15" category="inline-xref">ONTAP 권한</block>
   <block id="11949a37d3edcc91b37d386025b80680" category="section-title">ONTAP 자율적 랜섬웨어 방어에 대한 권한</block>
   <block id="27bc78f063867505b2f0e7f6cdd03799" category="section-title">ONTAP 액세스에 대한 권한이 거부되었습니다</block>
@@ -13089,4 +13087,14 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
 
  sudo semanage fcontext -a -t usr_t "/opt/netapp/cloudinsights(/. *)?"
  sudo restorecon -R/opt/netapp/cloudinsights 를 참조하십시오</block>
+  <block id="3b3d7bce734c0832c20ba464b1f2d199" category="section-title">2024년 4월</block>
+  <block id="f3ef1b9644edf713f62c657ef54694d0" category="section-title">iSCSI 볼륨 지연 시간</block>
+  <block id="6251d6375601d27b7a63aae2bde6bf54" category="paragraph">iSCSI 볼륨 지연 시간 메트릭은 대시보드, 알림 등에서 사용할 수 있습니다. iSCSI Latency 메트릭을 수집하려면 Kubernetes Collector "Modify Deployment(배포 수정)" 메뉴 항목에서 _Network Performance(네트워크 성능) 및 Map_을 켭니다.</block>
+  <block id="d18f4b3cae368b2ec43457dddff4af20" category="list-text">Oracle Enterprise Linux 8.8</block>
+  <block id="55b374c5f09d1fe118ccac20abfe40c1" category="list-text">Red Hat Enterprise Linux 8.8</block>
+  <block id="c3571084e6793888922121d12a2dca13" category="list-text">로키 9.3</block>
+  <block id="7c5f962bedfb419a0baae6396bf5594d" category="list-text">openSUSE 리프 15.1 ~ 15.5</block>
+  <block id="ef72ce3dbba91fd3b44036502dd167dd" category="list-text">SUSE Enterprise Linux Server 15, 15 SP2~15 SP5</block>
+  <block id="04178a20ab55400da1419fd8fb46d169" category="paragraph">Cloud Insights는 ONTAP 시스템의 백엔드 스위치에서 데이터를 수집할 수 있습니다. 데이터 수집기의 _Advanced Configuration_ 섹션에서 수집을 활성화하고 ONTAP 시스템이 제공하도록 구성되었는지 확인합니다 <block ref="d459f31dbd039334427e234b6edb8373" category="inline-link-macro-rx"></block> 을(를) 가지고 있습니다 <block ref="d90f3f5210a51c1e01a73513b6257018" category="inline-link-macro-rx"></block> 설정.</block>
+  <block id="4cfa97a1b14caa2256ef4dc5cd3d0fed" category="paragraph">워크로드 상태는 * Kubernetes &gt; Explore &gt; 워크로드 * 페이지에서 한눈에 확인할 수 있으므로 제대로 작동하는 워크로드와 도움이 필요할 수 있는 워크로드를 빠르게 확인할 수 있습니다. 상태 문제가 인프라, 네트워크 또는 구성 변경과 관련되어 있는지 쉽게 식별하고 드릴다운하여 근본 원인을 분석합니다.</block>
 </blocks>
