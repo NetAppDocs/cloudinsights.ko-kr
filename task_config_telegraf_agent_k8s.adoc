@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task_config_telegraf_agent_k8s.html 
 keywords: telegraf, installation, install, agent, telegraf agent, kubernetes, eks, operator, k8s 
-summary: Cloud Insights는 Kubernetes에서 통합 데이터를 수집하는 에이전트로 Teleraf를 지원합니다. 
+summary: NetApp Kubernetes 모니터링 운영자는 Cloud Insights에서 사용할 Kubernetes 데이터를 수집합니다. 
 ---
 = NetApp Kubernetes 모니터링 오퍼레이터 구성
 :toc: macro

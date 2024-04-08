@@ -5087,8 +5087,6 @@
   <block id="913dfc086e79c502265186eeb737ce10" category="paragraph">이 방법을 사용하면 자산에 연결된 값만 복사할 수 있습니다. 단일 값(예: 비목록)이 포함된 필드에만 복사 아이콘이 있습니다.</block>
   <block id="ccb06b64aa7e8cb6a869d22deb1de8bd" category="summary">Kubernetes 데이터 수집기 구성</block>
   <block id="e93e9e1daf8e7243cd54ae6878bcbd91" category="paragraph">Cloud Insights는 이 데이터 수집기를 사용하여 Kubernetes Pod, 노드 및 컨테이너 메트릭을 수집합니다.</block>
-  <block id="853a529a2cb031ba8c442d361b80f74e" category="paragraph">Kubernetes 설치 지침은 를 참조하십시오 <block ref="83baed86820f9347147bd19d20167e7d" category="inline-link-macro-rx"></block> 페이지.</block>
-  <block id="9202ccff1bbfb1125df09b7eb605eb6c" category="admonition">kubbe-state-metrics * 에 대한 정보가 로 이동되었습니다 <block ref="83baed86820f9347147bd19d20167e7d" category="inline-link-macro-rx"></block> 페이지.</block>
   <block id="2c1099d2eb2a8a08bba13169800b9ecb" category="cell">Kubernetes 컨테이너</block>
   <block id="5415e066c63454268882855520be8f45" category="cell">네임스페이스 포드 컨테이너 클러스터</block>
   <block id="7bc7c32edd5f6378984b7385ffc0ed80" category="cell">Kubernetes 노드 이름 노드 OS 노드 UUID 노드 IP입니다</block>
@@ -12558,7 +12556,6 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="b85d0b41b181eb69881d2617c5514ba3" category="list-text">ssh, ontapi, http 등 세 개의 응용 프로그램이 할당된 "fsxadmin" 역할의 계정에 액세스할 수 있어야 합니다</block>
   <block id="702a15850842eff4dc2587a96c210640" category="list-text">포트 요구 사항: 443</block>
   <block id="6106de3fb9edc97d16b4426ca0ae0dc8" category="paragraph">FSx CLI 및 API 명령은 Cloud Insights ZAPI가 수집하지 않는 일부 용량 값을 검색하므로 Cloud Insights의 특정 용량 값(예: 스토리지 풀에 대한 값)은 FSx 자체에 있는 값과 다를 수 있습니다.</block>
-  <block id="6dac8d8f7e40ada8d5686e3e8192f90f" category="paragraph">Kubernetes에 설치하는 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="36dbd85d6f83f853e5478a62019a359b" category="inline-link-macro-rx"></block>.</block>
   <block id="4f39aea7decea72af93c7cb4ba3fe487" category="admonition">Cloud Insights Federal Edition을 사용하는 경우 설치 및 구성 지침이 이 페이지의 지침과 다를 수 있습니다. Cloud Insights의 지침에 따라 NetApp Kubernetes 모니터링 운영자를 설치합니다.</block>
   <block id="a5e641ea50deeae492ae44180a6c1cd9" category="list-text">유형: * 획득 단위 * 와 * 데이터 수집 * 을 선택합니다</block>
   <block id="156e10596fdc76ee5300bab931d89c0f" category="inline-xref">패치</block>
@@ -13097,4 +13094,7 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="ef72ce3dbba91fd3b44036502dd167dd" category="list-text">SUSE Enterprise Linux Server 15, 15 SP2~15 SP5</block>
   <block id="04178a20ab55400da1419fd8fb46d169" category="paragraph">Cloud Insights는 ONTAP 시스템의 백엔드 스위치에서 데이터를 수집할 수 있습니다. 데이터 수집기의 _Advanced Configuration_ 섹션에서 수집을 활성화하고 ONTAP 시스템이 제공하도록 구성되었는지 확인합니다 <block ref="d459f31dbd039334427e234b6edb8373" category="inline-link-macro-rx"></block> 을(를) 가지고 있습니다 <block ref="d90f3f5210a51c1e01a73513b6257018" category="inline-link-macro-rx"></block> 설정.</block>
   <block id="4cfa97a1b14caa2256ef4dc5cd3d0fed" category="paragraph">워크로드 상태는 * Kubernetes &gt; Explore &gt; 워크로드 * 페이지에서 한눈에 확인할 수 있으므로 제대로 작동하는 워크로드와 도움이 필요할 수 있는 워크로드를 빠르게 확인할 수 있습니다. 상태 문제가 인프라, 네트워크 또는 구성 변경과 관련되어 있는지 쉽게 식별하고 드릴다운하여 근본 원인을 분석합니다.</block>
+  <block id="2041337c363c1ecaeb2a1aa9c8999494" category="paragraph">Kubernetes에 설치하는 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="f0d3e43e41da35ba651820db811551cd" category="inline-link-macro-rx"></block> 페이지.</block>
+  <block id="ed300e62408d01715c593931df6a2352" category="paragraph">Kubernetes 설치 지침은 를 참조하십시오 <block ref="f0d3e43e41da35ba651820db811551cd" category="inline-link-macro-rx"></block> 페이지.</block>
+  <block id="9475d89ab72707a841c177322d6462fa" category="summary">NetApp Kubernetes 모니터링 운영자는 Cloud Insights에서 사용할 Kubernetes 데이터를 수집합니다.</block>
 </blocks>
