@@ -5085,7 +5085,6 @@
   <block id="23e5a7b7976e412ece233ceaf8257bc2" category="inline-image-macro">클립보드</block>
   <block id="6b641455fdb8589d23f95572689d0f15" category="list-text">방법 2: 단일 값 필드의 경우 필드 위로 마우스를 가져가서 클립보드 아이콘을 클릭합니다 <block ref="912972ddaade6e61825e0ccea1850738" category="inline-image-macro-rx" type="image"></block> 나타납니다. 검색 필드 또는 기타 응용 프로그램에서 사용할 수 있도록 값이 클립보드에 복사됩니다.</block>
   <block id="913dfc086e79c502265186eeb737ce10" category="paragraph">이 방법을 사용하면 자산에 연결된 값만 복사할 수 있습니다. 단일 값(예: 비목록)이 포함된 필드에만 복사 아이콘이 있습니다.</block>
-  <block id="ccb06b64aa7e8cb6a869d22deb1de8bd" category="summary">Kubernetes 데이터 수집기 구성</block>
   <block id="e93e9e1daf8e7243cd54ae6878bcbd91" category="paragraph">Cloud Insights는 이 데이터 수집기를 사용하여 Kubernetes Pod, 노드 및 컨테이너 메트릭을 수집합니다.</block>
   <block id="2c1099d2eb2a8a08bba13169800b9ecb" category="cell">Kubernetes 컨테이너</block>
   <block id="5415e066c63454268882855520be8f45" category="cell">네임스페이스 포드 컨테이너 클러스터</block>
@@ -8159,7 +8158,6 @@
   <block id="de41af8028b5287cc6d65bb0e73cae11" category="section-title">AWS 마켓플레이스를 통해 평가하십시오</block>
   <block id="bc8745f374e91204332a0cd070e3c20c" category="inline-xref">관리 단위</block>
   <block id="6061bb3060aa3de79828df051d62babd" category="paragraph">참고: 499MU 이상을 구성하는 경우 "위반" 상태를 입력합니다. 평가판이 위반 상태인 경우, 구성된 MU 수를 줄이거나 Cloud Insights에 가입하여 위반이 해결될 때까지 일부 Cloud Insights 기능에 대한 액세스가 손실됩니다.</block>
-  <block id="562442a302f1457c8c9df7cbde80c0b4" category="doc">NetApp Kubernetes 모니터링 오퍼레이터 구성</block>
   <block id="b9f54c4d152facdb82c18e1719662b9f" category="paragraph">Cloud Insights는 Kubernetes 컬렉션을 위한 * NetApp Kubernetes Monitoring Operator * (NKMO)를 제공합니다. 데이터 수집기 추가 시 "Kubernetes" 타일을 선택하면 됩니다.</block>
   <block id="6a65175f7f76169aeeaf32acdda0d82f" category="section-title">NetApp Kubernetes Monitoring Operator를 설치하기 전에</block>
   <block id="e7cd0bdb5140849b9f1cd2c88adf53d0" category="list-text">NetApp Kubernetes 모니터링 오퍼레이터 설치는 Kubernetes 버전 1.20 이상에서 지원됩니다.</block>
@@ -12434,7 +12432,6 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="8f0ae9ae8e0fd7f3e8fe6ff175a59943" category="list-text">edit_operator-additional-permissions.yaml_를 설치하기 전이나 설치 후 resource_ClusterRole/&lt;namespace&gt;-additional-permissions_를 편집합니다</block>
   <block id="8a75e64ac585bb8eb6efae44768cfc8e" category="list-text">동사 ["get", "watch", "list"]를 사용하여 원하는 apiGroups 및 리소스에 대한 새 규칙을 만듭니다. \https://kubernetes.io/docs/reference/access-authn-authz/rbac/ 를 참조하십시오</block>
   <block id="5aa700b8892918bb447b666e3ba9b2a8" category="list-text">변경 사항을 클러스터에 적용합니다</block>
-  <block id="449735a59883598ca6b4afe7cb57336a" category="admonition">를 읽습니다 <block ref="98b00674e05edc386cc19257d013cae8" category="inline-link-macro-rx"></block> NetApp Kubernetes 모니터링 운영자를 설치 또는 업그레이드하기 위한 설명서입니다.</block>
   <block id="4f05106cca363b0f3c492314ab777534" category="cell">일부 이벤트 로그에 대한 _divedobject_data가 없습니다.</block>
   <block id="67ee92e19812baa7cedb346320ca0182" category="cell">의 단계를 수행했는지 확인합니다 <block ref="d9283cdb1b027ed2a61fa92c8dc3e314" category="inline-link-macro-rx"></block> 섹션을 참조하십시오.</block>
   <block id="dafe147a7f0074749f1e1c76f1e05008" category="section-title">모듈 시험</block>
@@ -13097,4 +13094,8 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="2041337c363c1ecaeb2a1aa9c8999494" category="paragraph">Kubernetes에 설치하는 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="f0d3e43e41da35ba651820db811551cd" category="inline-link-macro-rx"></block> 페이지.</block>
   <block id="ed300e62408d01715c593931df6a2352" category="paragraph">Kubernetes 설치 지침은 를 참조하십시오 <block ref="f0d3e43e41da35ba651820db811551cd" category="inline-link-macro-rx"></block> 페이지.</block>
   <block id="9475d89ab72707a841c177322d6462fa" category="summary">NetApp Kubernetes 모니터링 운영자는 Cloud Insights에서 사용할 Kubernetes 데이터를 수집합니다.</block>
+  <block id="8c362b737d9d3a6fff5acfc29aaa5225" category="summary">Kubernetes용 데이터 수집기</block>
+  <block id="3ce5067a26bb6509b15cfb6487590ed5" category="doc">데이터 수집기: Kubernetes</block>
+  <block id="c7e254ef92577e872c85b9cc18b384ea" category="doc">Kubernetes Monitoring Operator 설치 및 구성</block>
+  <block id="0ec327c74f375d121d057b61ae7dc1be" category="admonition">를 읽습니다 <block ref="98b00674e05edc386cc19257d013cae8" category="inline-link-macro-rx"></block> NetApp Kubernetes 모니터링 운영자를 설치 또는 업그레이드하기 전에 사전 설명서를 제공해야 합니다.</block>
 </blocks>
