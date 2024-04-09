@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: task_config_telegraf_agent_k8s.html 
-keywords: kubernetes, k8s, telegraf, installation, install, agent, telegraf agent, eks, operator 
-summary: NetApp Kubernetes 모니터링 운영자는 Cloud Insights에서 사용할 Kubernetes 데이터를 수집합니다. 
+keywords: kubernetes, Kubernetes, k8s, telegraf, installation, install, agent, telegraf agent, eks, operator 
+summary: Kubernetes 모니터링 운영자는 Cloud Insights에서 사용할 Kubernetes 데이터를 수집합니다. 
 ---
 = Kubernetes Monitoring Operator 설치 및 구성
 :hardbreaks:
@@ -25,7 +25,7 @@ image:kubernetes_tile.png["Kubernetes Data Collector 타일"]
 
 
 toc::[]
-연산자 및 데이터 수집기는 Cloud Insights Docker 레지스트리에서 다운로드됩니다. 그런 다음 NKMO는 Kubernetes 클러스터 노드에 구축된 운영자 호환 수집기를 관리하여 수집가의 수명 주기를 관리하는 등 데이터를 획득합니다. 이 체인에 이어 수집기에서 데이터를 획득하여 Cloud Insights로 전송합니다.
+Cloud Insights Docker 레지스트리에서 Kubernetes Operator 및 데이터 수집기를 다운로드할 수 있습니다. 그런 다음 운영자는 이 수집기의 수명 주기 관리를 포함하여 데이터를 획득하기 위해 Kubernetes 클러스터 노드에 배포된 운영자 호환 수집기를 관리합니다. 이 체인에 이어 수집기에서 데이터를 획득하여 Cloud Insights로 전송합니다.
 
 
 

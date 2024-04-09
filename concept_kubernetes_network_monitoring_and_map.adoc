@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept_kubernetes_network_monitoring_and_map.html 
-keywords: service map, workloads, Kubernetes, 
+keywords: service map, workloads, 
 summary: Kubernetes 워크로드 종속성 및 흐름을 소개하고 네트워크 및 성능 문제를 강조합니다 
 ---
 = Kubernetes 네트워크 성능 모니터링 및 맵
@@ -19,10 +19,8 @@ summary: Kubernetes 워크로드 종속성 및 흐름을 소개하고 네트워�
 
 
 [role="lead"]
-Kubernetes Network Performance Monitoring 및 Map 기능은 Kubernetes 서비스(워크로드라고도 함) 간의 종속성을 매핑하여 문제 해결을 간소화합니다. Kubernetes 네트워크 성능 지연 시간 및 이상 징후를 실시간으로 파악하여 사용자에게 영향을 미치기 전에 성능 문제를 식별할 수 있습니다. 이 기능은 조직이 Kubernetes 트래픽 흐름을 분석하고 감사하여 전체 비용을 절감할 수 있도록 도와줍니다.
-
-
-NOTE: Kubernetes Network Performance Monitoring and Map은 입니다 link:concept_preview_features.html["미리보기"] 변경될 수 있습니다.
+Kubernetes 네트워크 성능 모니터링 및 맵 기능은 서비스 간 종속성(워크로드라고도 함)을 매핑하여 문제 해결을 간소화하고 네트워크 성능 지연 시간 및 이상 징후를 실시간으로 확인하여 사용자에게 영향을 미치기 전에 성능 문제를 식별합니다.
+이 기능은 조직이 Kubernetes 트래픽 흐름을 분석하고 감사하여 전체 비용을 절감할 수 있도록 도와줍니다.
 
 주요 기능: • 워크로드 맵은 Kubernetes 워크로드 종속성 및 흐름을 제공하고 네트워크 및 성능 문제를 강조합니다. • Kubernetes Pod, 워크로드 및 노드 간의 네트워크 트래픽을 모니터링하고, 트래픽 및 지연 문제의 원인을 식별합니다. • 수신, 송신, 지역 간 및 교차 영역 네트워크 트래픽을 분석하여 전체 비용을 절감합니다.
 
