@@ -13082,8 +13082,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
  sudo semanage fcontext -a -t usr_t "/opt/netapp/cloudinsights(/. *)?"
  sudo restorecon -R/opt/netapp/cloudinsights 를 참조하십시오</block>
   <block id="3b3d7bce734c0832c20ba464b1f2d199" category="section-title">2024년 4월</block>
-  <block id="f3ef1b9644edf713f62c657ef54694d0" category="section-title">iSCSI 볼륨 지연 시간</block>
-  <block id="6251d6375601d27b7a63aae2bde6bf54" category="paragraph">iSCSI 볼륨 지연 시간 메트릭은 대시보드, 알림 등에서 사용할 수 있습니다. iSCSI Latency 메트릭을 수집하려면 Kubernetes Collector "Modify Deployment(배포 수정)" 메뉴 항목에서 _Network Performance(네트워크 성능) 및 Map_을 켭니다.</block>
   <block id="d18f4b3cae368b2ec43457dddff4af20" category="list-text">Oracle Enterprise Linux 8.8</block>
   <block id="55b374c5f09d1fe118ccac20abfe40c1" category="list-text">Red Hat Enterprise Linux 8.8</block>
   <block id="c3571084e6793888922121d12a2dca13" category="list-text">로키 9.3</block>
@@ -13098,4 +13096,9 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="3ce5067a26bb6509b15cfb6487590ed5" category="doc">데이터 수집기: Kubernetes</block>
   <block id="c7e254ef92577e872c85b9cc18b384ea" category="doc">Kubernetes Monitoring Operator 설치 및 구성</block>
   <block id="0ec327c74f375d121d057b61ae7dc1be" category="admonition">를 읽습니다 <block ref="98b00674e05edc386cc19257d013cae8" category="inline-link-macro-rx"></block> NetApp Kubernetes 모니터링 운영자를 설치 또는 업그레이드하기 전에 사전 설명서를 제공해야 합니다.</block>
+  <block id="f198d7bd876499c7a876c665606e2d82" category="section-title">Kubernetes 네트워크 맵에 대한 iSCSI SAN 지원</block>
+  <block id="d14b2ad81a63e0273293afd80b29ec37" category="paragraph">NFS 및 iSCSI에 대한 Kubernetes 기본 스토리지 종속성을 식별합니다.
+Kubernetes 애플리케이션의 스토리지 네트워크 활동 및 정확한 스토리지 메트릭에 대한 통찰력을 확보하여 문제를 빠르게 해결합니다. Kubernetes 애플리케이션이 비용청구 및 쇼백 보고를 위해 스토리지 인프라를 사용하는 방법을 이해합니다.</block>
+  <block id="54fc47ade0e8b56477f3a565a1183811" category="inline-image-macro">Pod-to-Storage 예</block>
+  <block id="b4ee1759943c32311eab48ecd432c0d9" category="paragraph"><block ref="b4ee1759943c32311eab48ecd432c0d9" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

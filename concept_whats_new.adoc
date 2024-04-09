@@ -26,9 +26,12 @@ NOTE: 이러한 기능 중 일부는 Cloud Insights Federal Edition에서 사용
 
 
 
-=== iSCSI 볼륨 지연 시간
+=== Kubernetes 네트워크 맵에 대한 iSCSI SAN 지원
 
-iSCSI 볼륨 지연 시간 메트릭은 대시보드, 알림 등에서 사용할 수 있습니다. iSCSI Latency 메트릭을 수집하려면 Kubernetes Collector "Modify Deployment(배포 수정)" 메뉴 항목에서 _Network Performance(네트워크 성능) 및 Map_을 켭니다.
+NFS 및 iSCSI에 대한 Kubernetes 기본 스토리지 종속성을 식별합니다.
+Kubernetes 애플리케이션의 스토리지 네트워크 활동 및 정확한 스토리지 메트릭에 대한 통찰력을 확보하여 문제를 빠르게 해결합니다. Kubernetes 애플리케이션이 비용청구 및 쇼백 보고를 위해 스토리지 인프라를 사용하는 방법을 이해합니다.
+
+image:pod-to-storage.png["Pod-to-Storage 예"]
 
 
 
