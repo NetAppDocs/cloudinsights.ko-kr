@@ -293,6 +293,8 @@ sidebar:
           url: "/task_dc_brocade_bna.html"
         - title: 파이버 채널 스위치
           url: "/task_dc_brocade_fc_switch.html"
+        - title: Brocade FOS REST
+          url: "/task_dc_brocade_rest.html"
       - title: Cisco의
         url: "/task_dc_cisco_fc_switch.html"
       - title: Cohesity SmartfFiles를 참조하십시오
