@@ -124,6 +124,27 @@ security login role create -role csrole -cmddirname "security certificate" -acce
 security login create -user-or-group-name csuser -application ontapi -authmethod password -role csrole
 security login create -user-or-group-name csuser -application ssh -authmethod password -role csrole
 ....
+ONTAP ARP 통합에 대한 권한:
+
+....
+security login rest-role create -role arwrole -api /api/storage/volumes -access readonly -vserver <cluster_name>
+security login rest-role create -api /api/security/anti-ransomware -access readonly  -role arwrole -vserver <cluster_name>
+security login create -user-or-group-name csuser -application http -authmethod password -role arwrole
+....
+ONTAP 액세스 권한 거부됨:
+
+....
+security login rest-role create -role csrestrole -api /api/protocols/fpolicy -access all -vserver <cluster_name>
+security login create -user-or-group-name csuser -application http -authmethod password -role csrestrole
+....
+참고: 하나의 REST-role이 이미 추가된 경우(_arwrole_or_csrestrole_-) 두 번째 REST-role을 추가할 필요가 없습니다. 아래 예와 같이 간단히 API 권한을 추가할 수 있습니다.
+
+예: _csrestrole_이 이미 있으므로 랜섬웨어 방지 기능을 활성화하고 기존_csrestrole_ 에 API 권한을 부여하기만 하면 됩니다.
+
+....
+security login rest-role create -role csrestrole -api /api/storage/volumes -access readonly -vserver <cluster_name>
+security login rest-role create -api /api/security/anti-ransomware -access readonly  -role arwrole -vserver <cluster_name>
+....
 
 
 === vVserver 관리 IP * 를 통해 추가할 때의 권한:
@@ -144,6 +165,12 @@ security login role create -vserver <vservername> -role csrole -cmddirname "vser
 security login role create -vserver <vservername> -role csrole -cmddirname "volume snapshot" -access all
 ....
  security login create -user-or-group-name csuser -application ontapi -authmethod password -role csrole -vserver <vservername>
+ONTAP 액세스 권한 거부됨:
+
+....
+security login rest-role create -role csrestrole -api /api/protocols/fpolicy -access all -vserver <svm_name>
+security login create -user-or-group-name csuser -application http -authmethod password -role csrestrole -vserver <svm_name>
+....
 
 
 === ONTAP 자율적 랜섬웨어 방어에 대한 권한

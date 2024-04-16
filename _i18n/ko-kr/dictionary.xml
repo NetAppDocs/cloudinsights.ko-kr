@@ -8392,8 +8392,6 @@
   <block id="264c2ff438f1c2937cbafcf5ecabe5b5" category="paragraph">ONTAP 버전 9.9.1의 서비스 정책을 사용하는 경우 데이터 소스 수집기에 연결하려면 데이터 서비스 _data-nfs_ 및/또는 _data-cifs_와 함께 _data-fPolicy-client_service가 필요합니다.</block>
   <block id="ee22588534e4e3b699a85e968f56f4a7" category="paragraph">9.9.1 이전의 ONTAP 버전에서는 _data-FPolicy-client_를 설정할 필요가 없습니다.</block>
   <block id="cab974fdccabc8d42fdf59c797a3fc04" category="paragraph">참고: 최신 NetApp Kubernetes Monitoring Operator가 설치되어 있고 재생 가능한 API 액세스 토큰을 사용하는 경우, 만료되는 토큰이 자동으로 새/업데이트된 API 액세스 토큰으로 대체됩니다. 아래 나열된 수동 단계를 수행할 필요는 없습니다.</block>
-  <block id="44ba65ef8e60d1727d77c9b3244b6b01" category="inline-xref">사용자</block>
-  <block id="a8f52a9563e47eb33fbdc4c48dfcf8f5" category="paragraph">를 추가할 때 주의하십시오<block ref="d95c3cfe38a15370491721a373f38df2" category="inline-link-macro-rx"></block>_, 이 사용자는 ONTAP 관리 LIF에 대한 SSH 액세스를 필요로 합니다.</block>
   <block id="db18ee26726e25e2183f42a056469c60" category="summary">Dell EMC Unisphere REST 데이터 수집기 구성</block>
   <block id="35c1883b40d011465b36533e553b9174" category="doc">Dell EMC Unisphere REST 데이터 수집기 구성</block>
   <block id="0dd81cc00ee33beff836edf2f63e0184" category="list-text">포트 8443.</block>
@@ -13101,4 +13099,8 @@ Kubernetes 애플리케이션의 스토리지 네트워크 활동 및 정확한 
   <block id="41f9e4070ff69cb3ab05150a383b982d" category="summary">Kubernetes 모니터링 운영자는 Cloud Insights에서 사용할 Kubernetes 데이터를 수집합니다.</block>
   <block id="3c25ca8d0b15faf67f1de6aacaaaa615" category="paragraph">Cloud Insights Docker 레지스트리에서 Kubernetes Operator 및 데이터 수집기를 다운로드할 수 있습니다. 그런 다음 운영자는 이 수집기의 수명 주기 관리를 포함하여 데이터를 획득하기 위해 Kubernetes 클러스터 노드에 배포된 운영자 호환 수집기를 관리합니다. 이 체인에 이어 수집기에서 데이터를 획득하여 Cloud Insights로 전송합니다.</block>
   <block id="99caa80e6c446108c367beb2add705b3" category="list-text">멀티 테넌트 환경에서는 잘못 구성된 변경으로 인해 중단이 발생할 수 있습니다. 매우 동적인 환경에서는 Cloud Insights 변경 분석이 모든 변경 사항을 제대로 추적하지 못할 수 있습니다.</block>
+  <block id="1efee558528b235998f6c37634f18ec9" category="paragraph">ONTAP ARP 통합에 대한 권한:</block>
+  <block id="ea68be0a35687ab64afad562f46dff32" category="paragraph">ONTAP 액세스 권한 거부됨:</block>
+  <block id="64ac4b9298207f0fc756c6288f8c1a80" category="paragraph">참고: 하나의 REST-role이 이미 추가된 경우(_arwrole_or_csrestrole_-) 두 번째 REST-role을 추가할 필요가 없습니다. 아래 예와 같이 간단히 API 권한을 추가할 수 있습니다.</block>
+  <block id="2e99c7c5f8b0c692f20c07f49b37d122" category="paragraph">예: _csrestrole_이 이미 있으므로 랜섬웨어 방지 기능을 활성화하고 기존_csrestrole_ 에 API 권한을 부여하기만 하면 됩니다.</block>
 </blocks>
