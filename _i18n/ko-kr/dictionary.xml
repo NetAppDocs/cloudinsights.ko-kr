@@ -13103,4 +13103,7 @@ Kubernetes 애플리케이션의 스토리지 네트워크 활동 및 정확한 
   <block id="ea68be0a35687ab64afad562f46dff32" category="paragraph">ONTAP 액세스 권한 거부됨:</block>
   <block id="64ac4b9298207f0fc756c6288f8c1a80" category="paragraph">참고: 하나의 REST-role이 이미 추가된 경우(_arwrole_or_csrestrole_-) 두 번째 REST-role을 추가할 필요가 없습니다. 아래 예와 같이 간단히 API 권한을 추가할 수 있습니다.</block>
   <block id="2e99c7c5f8b0c692f20c07f49b37d122" category="paragraph">예: _csrestrole_이 이미 있으므로 랜섬웨어 방지 기능을 활성화하고 기존_csrestrole_ 에 API 권한을 부여하기만 하면 됩니다.</block>
+  <block id="2b9cb1c6561901b8c103aee1d5c61dfd" category="cell">"하트비트 오류:" 메시지가 표시됩니다</block>
+  <block id="a79a7a75840b1e266cc0c6c037c2d7f0" category="cell">획득 장치를 다시 설치할 때 "ValueError: /opt/netapp/cloudinsights(/. *)에 대한 파일 컨텍스트"가 표시됩니다. 이미 정의됨".</block>
+  <block id="ae27abd8286d1b98e00b46440cd90926" category="cell">SELinux가 설치된 시스템에서는 이 오류 메시지가 다음에 나타날 수 있습니다<block ref="36f17859b55b3c1f8840366ccf62d8d6" prefix=" " category="inline-code"></block> 이(가) 실행되고 획득 장치를 다시 설치해야 합니다. 명령을 실행합니다<block ref="42f732f1bf8255184086b8f48ec741c3" prefix=" " category="inline-code"></block> 문제를 해결하고 메시지를 제거해야 합니다.</block>
 </blocks>
