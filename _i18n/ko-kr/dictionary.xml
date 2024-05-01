@@ -13106,4 +13106,11 @@ Kubernetes 애플리케이션의 스토리지 네트워크 활동 및 정확한 
   <block id="2b9cb1c6561901b8c103aee1d5c61dfd" category="cell">"하트비트 오류:" 메시지가 표시됩니다</block>
   <block id="a79a7a75840b1e266cc0c6c037c2d7f0" category="cell">획득 장치를 다시 설치할 때 "ValueError: /opt/netapp/cloudinsights(/. *)에 대한 파일 컨텍스트"가 표시됩니다. 이미 정의됨".</block>
   <block id="ae27abd8286d1b98e00b46440cd90926" category="cell">SELinux가 설치된 시스템에서는 이 오류 메시지가 다음에 나타날 수 있습니다<block ref="36f17859b55b3c1f8840366ccf62d8d6" prefix=" " category="inline-code"></block> 이(가) 실행되고 획득 장치를 다시 설치해야 합니다. 명령을 실행합니다<block ref="42f732f1bf8255184086b8f48ec741c3" prefix=" " category="inline-code"></block> 문제를 해결하고 메시지를 제거해야 합니다.</block>
+  <block id="ae2e91be06ba70b73fa6c74eeeb93115" category="section-title">더 이상 사용되지 않는 기능</block>
+  <block id="4b19ce62e1686c6b02dce6a6a618fab8" category="paragraph">기능이 발전함에 따라 기능이 더 이상 사용되지 않는 경우가 있습니다. 다음은 Cloud Insights에서 더 이상 사용되지 않는 몇 가지 특징과 기능입니다.</block>
+  <block id="f10826ff9826bc53b76b340699d7486c" category="section-title">워크로드 보안 REST 클라우드시큐어_forensics.activities.v1 API는 더 이상 사용되지 않습니다</block>
+  <block id="22e1977c2373212d5a86d5500fb987b6" category="paragraph">_cloudsecure_forensics.activities.v1_API는 더 이상 사용되지 않습니다. 이 API는 스토리지 워크로드 보안 환경의 엔터티와 연결된 작업에 대한 정보를 반환합니다. 이 API는 cloudsecure_forensics.activities. * v2 * _ 로 대체되었습니다.</block>
+  <block id="2f536f055cc49f30b2b045622c25fdbc" category="paragraph">이 API에 대한 Get은 이전에 다음을 반환했습니다.</block>
+  <block id="4d50bab3a705e7ae04c75813a7d22ad2" category="paragraph">이 API는 이제 다음을 반환합니다.</block>
+  <block id="c124771302bfe76ccd178d7854d906f5" category="paragraph">자세한 내용은 "Admin &gt; API Access &gt; API Documentation &gt; Workload Security"의 Swagger 설명서를 참조하십시오.</block>
 </blocks>
