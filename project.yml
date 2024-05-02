@@ -381,14 +381,14 @@ sidebar:
           url: "/task_dc_ms_hyperv.html"
       - title: 넷엡
         entries:
-        - title: ONTAP 9.9+용 클라우드 연결
-          url: "/task_dc_na_cloud_connection.html"
         - title: Cloud Volumes ONTAP
           url: "/task_dc_na_cloud_volumes_ontap.html"
         - title: AWS용 Cloud Volumes Services
           url: "/task_dc_na_cloud_volumes.html"
         - title: ONTAP 데이터 관리 소프트웨어
           url: "/task_dc_na_cdot.html"
+        - title: ONTAP REST 수집기입니다
+          url: "/task_dc_na_ontap_rest.html"
         - title: Data ONTAP 7-Mode를 지원합니다
           url: "/task_dc_na_7mode.html"
         - title: E-Series 를 참조하십시오
