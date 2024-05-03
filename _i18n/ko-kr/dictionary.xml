@@ -13116,4 +13116,6 @@ Kubernetes 애플리케이션의 스토리지 네트워크 활동 및 정확한 
   <block id="01d9a0d595dd9694b83ce5628a29f326" category="inline-link-macro">NetApp ONTAP REST 수집기입니다 </block>
   <block id="de38f5c9c41b0a8b6187edd7a04b16b2" category="cell"><block ref="de38f5c9c41b0a8b6187edd7a04b16b2" category="inline-link-macro-rx"></block></block>
   <block id="bf9973f393dbc9824e3e96f831e12c25" category="sidebar">ONTAP REST 수집기입니다</block>
+  <block id="b6544593f70ff0a8915cbd1f9aabb49f" category="cell">event-exporter-maxEventAgeSeconds입니다</block>
+  <block id="ec57a05c2326d433af7b24b3adb77f1a" category="cell">이벤트 내보내기 최대 이벤트 기간.  을 참조하십시오<block ref="6708727d05fa40eed58ce8404e60b4a3" category="inline-link-rx"></block></block>
 </blocks>
