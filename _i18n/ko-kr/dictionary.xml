@@ -13044,7 +13044,6 @@ Rancher + Cates.io 오케스트레이션/Kubernetes 플랫폼: cool.io/OS = Linu
   <block id="807c67eb6796ba389d19bd183fc2b317" category="paragraph">Kube-State-Metrics에 대한 자세한 내용은 를 참조하십시오 <block ref="73f7e5446269af2d39c747140597d176" category="inline-link-macro-rx"></block>.</block>
   <block id="4f20cb3e8959a7865ba5aaa5af540ddb" category="section-title">오퍼레이터 구성/사용자 지정</block>
   <block id="67dea165315ff79ce5620f051688d07c" category="paragraph">이 섹션에서는 운영자 구성을 사용자 지정하거나, 프록시를 사용하거나, 사용자 지정 또는 개인 Docker 리포지토리를 사용하거나, OpenShift를 사용하는 방법에 대한 정보를 제공합니다.</block>
-  <block id="039369597a340d41c2e4a9df62b375fb" category="paragraph">새로운 버전의 연산자에서는 가장 일반적으로 수정된 설정을 _AgentConfiguration_custom 리소스에서 구성할 수 있습니다. 운용자를 배포하기 전에 _operator-config.YAML_file을 편집하여 이 리소스를 편집할 수 있습니다. 이 파일에는 주석 처리된 설정 예가 포함되어 있습니다. 의 목록을 참조하십시오 <block ref="d0a687c4569dc784e63f3960b33ab7c7" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="27aa502b8f8f23143b77f0800d6dd42f" category="paragraph">다음 명령을 사용하여 연산자를 배포한 후에 이 리소스를 편집할 수도 있습니다.</block>
   <block id="c8cb2db38f5ff99219b7338226473fd2" category="paragraph">Kubernetes Monitoring Operator를 설치하기 위해 사용자 환경에서 프록시를 사용할 수 있는 위치는 두 곳입니다. 이러한 시스템은 동일하거나 별도의 프록시 시스템일 수 있습니다.</block>
   <block id="a7f189b94dda98958771dc1a3345eb8f" category="paragraph">이 중 하나 또는 둘 모두에 프록시를 사용하는 경우 Kubernetes 운영 모니터를 설치하려면 먼저 프록시가 Cloud Insights 환경과의 원활한 통신을 허용하도록 구성되었는지 확인해야 합니다. 프록시가 있고 운영자를 설치하려는 서버/VM에서 Cloud Insights에 액세스할 수 있는 경우 프록시가 제대로 구성되었을 수 있습니다.</block>
@@ -13085,4 +13084,6 @@ kubectl get all -n &lt;namespace&gt; | grep -i psp (아무것도 발견되지 �
   <block id="b3b6bea000b13acbfcb412bad49ee494" category="cell">Kubernetes 버전 확인(예<block ref="4fc58818ca77fb3a60cbd34a7f7d5071" prefix=" " category="inline-code"></block>)를 클릭합니다.  v1.20.x 이하일 경우 이는 예상되는 제한 사항입니다.  Kubernetes Monitoring Operator와 함께 배포된 kube-state-metrics 릴리스는 v1.cronjob만 지원합니다.  Kubernetes 1.20.x 이하에서는 crontjob 리소스가 v1beta.crontjob에 있습니다.  따라서 kube-state-metrics는 crontjob 리소스를 찾을 수 없습니다.</block>
   <block id="cacd73b257654b42f59477320860f203" category="cell">리소스 부족으로 인해 Kubernetes Monitoring Operator에 의해 구축된 Pod가 충돌하는 것을 볼 수 있습니다.</block>
   <block id="1bf4c34fd6e2ff1bf1741953bce0f5e1" category="cell">Kubernetes 모니터링 운영자를 참조하십시오 <block ref="74a91e6274b6ee5f9fd240fb978eb1d9" category="inline-link-macro-rx"></block> 필요한 경우 CPU 및/또는 메모리 제한을 늘립니다.</block>
+  <block id="d9a52817194c8be56b59a9d57114278a" category="section-title">설정 옵션</block>
+  <block id="8baa15e22ac6c7ee4ce4e0a88da9798e" category="paragraph">가장 일반적으로 수정된 설정은 _AgentConfiguration_custom 리소스에서 구성할 수 있습니다. 운용자를 배포하기 전에 _operator-config.YAML_file을 편집하여 이 리소스를 편집할 수 있습니다. 이 파일에는 주석 처리된 설정 예가 포함되어 있습니다. 의 목록을 참조하십시오 <block ref="d0a687c4569dc784e63f3960b33ab7c7" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
 </blocks>

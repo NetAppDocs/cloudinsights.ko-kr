@@ -165,7 +165,11 @@ Kube-State-Metrics에 대한 자세한 내용은 를 참조하십시오 link:tas
 
 이 섹션에서는 운영자 구성을 사용자 지정하거나, 프록시를 사용하거나, 사용자 지정 또는 개인 Docker 리포지토리를 사용하거나, OpenShift를 사용하는 방법에 대한 정보를 제공합니다.
 
-새로운 버전의 연산자에서는 가장 일반적으로 수정된 설정을 _AgentConfiguration_custom 리소스에서 구성할 수 있습니다. 운용자를 배포하기 전에 _operator-config.YAML_file을 편집하여 이 리소스를 편집할 수 있습니다. 이 파일에는 주석 처리된 설정 예가 포함되어 있습니다. 의 목록을 참조하십시오 link:telegraf_agent_k8s_config_options.html["사용 가능한 설정"] 를 참조하십시오.
+
+
+=== 설정 옵션
+
+가장 일반적으로 수정된 설정은 _AgentConfiguration_custom 리소스에서 구성할 수 있습니다. 운용자를 배포하기 전에 _operator-config.YAML_file을 편집하여 이 리소스를 편집할 수 있습니다. 이 파일에는 주석 처리된 설정 예가 포함되어 있습니다. 의 목록을 참조하십시오 link:telegraf_agent_k8s_config_options.html["사용 가능한 설정"] 를 참조하십시오.
 
 다음 명령을 사용하여 연산자를 배포한 후에 이 리소스를 편집할 수도 있습니다.
 
