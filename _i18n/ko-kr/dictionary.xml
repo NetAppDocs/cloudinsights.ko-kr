@@ -13088,4 +13088,6 @@ kubectl get all -n &lt;namespace&gt; | grep -i psp (아무것도 발견되지 �
   <block id="8baa15e22ac6c7ee4ce4e0a88da9798e" category="paragraph">가장 일반적으로 수정된 설정은 _AgentConfiguration_custom 리소스에서 구성할 수 있습니다. 운용자를 배포하기 전에 _operator-config.YAML_file을 편집하여 이 리소스를 편집할 수 있습니다. 이 파일에는 주석 처리된 설정 예가 포함되어 있습니다. 의 목록을 참조하십시오 <block ref="d0a687c4569dc784e63f3960b33ab7c7" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="55daf72da742e811f565e4ab709d3c49" category="section-title">ONTAP 스위치 메트릭을 수집하기 위한 권한 요구 사항</block>
   <block id="1a565d9a88c6cc1a17ed9ec577431947" category="paragraph">Cloud Insights에는 Collector의 옵션으로 ONTAP 클러스터 스위치 데이터를 수집하는 기능이 있습니다 <block ref="0a74ef7985c5cbe5eb3ab6c199d26582" category="inline-xref-macro-rx"></block> 설정. Cloud Insights Collector에서 이 기능을 활성화하는 것 외에도 ONTAP 시스템 * 자체에서 제공할 수 있도록 구성해야 합니다 <block ref="d459f31dbd039334427e234b6edb8373" category="inline-link-macro-rx"></block>를 선택하고 가 올바른지 확인합니다 <block ref="e83cb79e34a9adb49ab5c30ebb0b6c54" category="inline-xref-macro-rx"></block> 스위치 데이터를 Cloud Insights로 전송할 수 있도록 설정됩니다.</block>
+  <block id="e77307796c2832560f84fa94d82cd573" category="list-text">Rubrik 클러스터 IP 주소 또는 호스트 이름.</block>
+  <block id="fb36183a15285a9f1f23d79072c763f7" category="list-text">기본 인증의 경우 클러스터에 대한 사용자 이름과 암호가 필요합니다. 서비스 계정 기반 인증을 사용하려면 서비스 계정, 암호 및 조직 ID가 필요합니다</block>
 </blocks>
