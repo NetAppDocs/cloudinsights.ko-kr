@@ -130,6 +130,12 @@ Cloud Insights는 ONTAP 데이터 수집기에서 인벤토리 및 성능 데이
 
 
 
+=== ONTAP 스위치 메트릭을 수집하기 위한 권한 요구 사항
+
+Cloud Insights에는 Collector의 옵션으로 ONTAP 클러스터 스위치 데이터를 수집하는 기능이 있습니다 <<advanced-configuration,고급 구성>> 설정. Cloud Insights Collector에서 이 기능을 활성화하는 것 외에도 ONTAP 시스템 * 자체에서 제공할 수 있도록 구성해야 합니다 link:https://docs.netapp.com/us-en/ontap-cli-98/system-switch-ethernet-create.html["스위치 정보"]를 선택하고 가 올바른지 확인합니다 <<a-note-about-permissions,권한>> 스위치 데이터를 Cloud Insights로 전송할 수 있도록 설정됩니다.
+
+
+
 == 구성
 
 [cols="2*"]
