@@ -6356,7 +6356,6 @@
   <block id="554c387b4cc54e5b15b7b9ce27d28df0" category="section-title">위젯 이름 지정</block>
   <block id="59f8ad2450d81d69bb7178de28870ace" category="paragraph">위젯은 첫 번째 위젯 쿼리에 대해 선택한 오브젝트, 메트릭 또는 속성을 기반으로 자동으로 이름이 지정됩니다. 위젯에 대한 그룹화를 선택한 경우 "그룹화 기준" 특성이 자동 명명(집계 방법 및 메트릭)에 포함됩니다.</block>
   <block id="f311dd325e3f7f8553f9d8fda43458a7" category="inline-image-macro">위젯 이름 지정 예</block>
-  <block id="b22dfa24432a78bdc096d5f0126a1668" category="paragraph"><block ref="b22dfa24432a78bdc096d5f0126a1668" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5ad6fcc59633fa84a4ef87cb86b15271" category="paragraph">새 개체 또는 그룹화 특성을 선택하면 자동 이름이 업데이트됩니다.</block>
   <block id="3d6c314d1d40b7ae81ed46c8b5c0488d" category="paragraph">자동 위젯 이름을 사용하지 않으려면 새 이름을 입력하기만 하면 됩니다.</block>
   <block id="d15f90fbf11bb930e4311a597bd577da" category="section-title">위젯 배치 및 크기</block>
@@ -6414,7 +6413,6 @@
   <block id="3d0486264987eff198cb8489a591c919" category="section-title">그룹화(압연)</block>
   <block id="e251f9ae37a0914ac3ed0861aee9d003" category="paragraph">위젯에 표시되는 데이터는 획득 중에 수집된 기본 데이터 포인트로부터 그룹화됩니다(롤업이라고도 함). 예를 들어, 시간에 따른 스토리지 IOPS를 보여 주는 선형 차트 위젯이 있는 경우 각 데이터 센터에 대해 별도의 줄을 표시하여 빠르게 비교할 수 있습니다. 다음 방법 중 하나로 이 데이터를 그룹화할 수 있습니다.</block>
   <block id="1a284984e082a2cc2ceecd12b5c25e50" category="list-text">* Sum *: 각 행을 원본 데이터의 _sum_으로 표시합니다.</block>
-  <block id="419981855bdd80d78c67ae74ed237d6c" category="list-text">* Count *: 지정된 기간 내에 데이터를 보고한 개체의 _ count_을 표시합니다. 대시보드 시간 범위(또는 대시보드 시간을 재정의하도록 설정된 경우 위젯 시간 범위)에 의해 결정되는 _전체 시간 창_ 또는 선택한 _사용자 정의 시간 창_을 선택할 수 있습니다.</block>
   <block id="d186cba97a995601fc12d97defd879c7" category="paragraph">그룹화 방법을 설정하려면 다음을 실행합니다.</block>
   <block id="0886591e8bd637066947802b2c681da8" category="list-text">위젯의 쿼리에서 자산 유형 및 메트릭(예: _Storage_) 및 메트릭(예: _Performance IOPS Total_)을 선택합니다.</block>
   <block id="5545e86f2a092d7eeeeae79320003a7a" category="paragraph">위젯이 자동으로 업데이트되고 각 데이터 센터의 데이터가 표시됩니다.</block>
@@ -6461,7 +6459,6 @@
   <block id="f23403e4c909f91a6bbdedfd4c63a940" category="paragraph">사용자 지정 시간 범위를 사용하면 최대 31일 연속 선택할 수 있습니다. 이 범위에 대한 시작 시간 및 종료 시간을 설정할 수도 있습니다. 기본 시작 시간은 선택한 첫 번째 날짜의 오전 12:00이고 기본 종료 시간은 선택한 마지막 날짜의 오후 11:59입니다. 적용 * 을 클릭하면 사용자 지정 시간 범위가 대시보드에 적용됩니다.</block>
   <block id="82c286e5c07573df31c7da74d9781c0b" category="section-title">개별 위젯에서 대시보드 시간 재정의</block>
   <block id="2234ef4841bda451602966ff52e300f5" category="paragraph">개별 위젯에서 기본 대시보드 시간 범위 설정을 재정의할 수 있습니다. 이러한 위젯은 대시보드 타임프레임이 아닌 설정된 기간을 기준으로 데이터를 표시합니다.</block>
-  <block id="284bed60740c7fa22f92630c7d8768d8" category="paragraph">대시보드 시간을 무시하고 위젯이 자체 시간 프레임을 사용하도록 하려면 위젯의 편집 모드에서 * 대시보드 시간 재정의 * 를 * 켜짐 * (확인란 선택)으로 설정하고 위젯의 시간 범위를 선택합니다. * 위젯을 대시보드에 * 저장 * 합니다.</block>
   <block id="86d95d157786463201d03f8cdf84019b" category="paragraph">위젯은 대시보드 자체에서 선택한 기간에 관계없이 위젯에 설정된 시간 프레임에 따라 데이터를 표시합니다.</block>
   <block id="00eb21356b96cac7e56ee66948f7292e" category="paragraph">한 위젯에 대해 설정한 기간은 대시보드의 다른 위젯에 영향을 주지 않습니다.</block>
   <block id="499df5a235e391725a79f411742e8626" category="section-title">기본 및 보조 축</block>
@@ -6634,7 +6631,6 @@
   <block id="515e48f96ed2602b236b85efb8e1f9cb" category="cell">나노코레스 마이크로코어 밀리코레스 코어 킬로코레스 메가코레스 테라코레스 페타코레스 텍사코레스</block>
   <block id="0b85467ebafa7ca3c47e82dc38184484" category="cell">처리량</block>
   <block id="13a7932e1c9548786b77fba7d6a94a48" category="cell">I/O 작업/초 작업/초 요청/초 읽기/초 쓰기/초 작업/분 읽기/분 쓰기/분</block>
-  <block id="e8262a129757d59390413661a0f53d16" category="paragraph">대시보드 및 자산 랜딩 페이지의 위젯에 있는 데이터는 선택한 대시보드 시간 범위에 의해 결정되는 새로 고침 간격에 따라 자동으로 새로 고쳐집니다(또는 대시보드 시간을 재정의하도록 설정된 경우 위젯 시간 범위). 새로 고침 간격은 위젯이 시계열(선, 스플라인, 영역, 누적 영역형 차트) 또는 비시계열(다른 모든 차트)인지 여부를 기준으로 합니다.</block>
   <block id="a381288575a9ee2b7d6fbee5abc730ee" category="cell">Time - 시리즈 새로 고침 간격입니다</block>
   <block id="696496081bb055864a75308dfe96791e" category="cell">Non-Time-Series Refresh Interval(비시간 시리즈 새로 고침 간격)</block>
   <block id="21ff05570d361fe86c0060a77c3e509b" category="cell">1시간</block>
@@ -13132,4 +13128,10 @@ Firefox에서 쿠키 예외는 간단히 _auth0.com _ 및 _netapp.com _ 로 지�
   <block id="9c420799ef765483eddc7865804e6371" category="admonition">A_Module Evaluation_은(는) _ Trial_ 이(가) 아닙니다. 당사는 고객에게 CI 서비스를 사용하여 적합성을 확인하고 구매를 활성화하는 무료 평가판 기간을 제공할 때 이 용어 평가판을 사용합니다. 모듈 평가는 다릅니다. 유료 고객이 최근 몇 달 동안 사용한 적이 없는 Cloud Insights 모듈을 사용해 볼 수 있도록 하는 것입니다. 평가가 활성화되면 새로 구성된 모듈에 대한 요금이 면제됩니다. 작업 중인 고객 환경은 아직 구독 중이며 무료 평가판으로 전환되지 않았습니다. 구독이 변경되지 않았습니다.</block>
   <block id="8fe818ace86e2479958161998bd57015" category="paragraph">모듈 평가 중에는 모듈에 사용된 리소스에 대한 MU 사용량이 변경되지 않습니다. 그러나 _Summary_tab에 있는 * Estimator * 를 열어 평가 후 MU 비용이 어떻게 부과되는지 확인하고 향후 필요한 MU의 수를 사용하여 "What if" 시나리오를 연습할 수 있습니다. 추정기를 종료하여 숫자를 재설정합니다.</block>
   <block id="bb2065e29292a8686e6f017d42762298" category="paragraph">고객은 구독당 한 번만 모듈 평가를 받을 수 있습니다.</block>
+  <block id="d0016e09a888d8ae5f9a3507bcdda17c" category="paragraph"><block ref="d0016e09a888d8ae5f9a3507bcdda17c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fada1c7705d134b1361677f79eef7e6a" category="list-text">* Count *: 지정된 기간 내에 데이터를 보고한 개체의 _ count_을 표시합니다. 대시보드 시간 범위에 따라 _Entire Time Window_를 선택할 수 있습니다.</block>
+  <block id="9bd256c4a0f18dc34f706a5b2ffde80a" category="paragraph">대시보드 시간을 무시하고 위젯이 자체 시간 프레임을 사용하도록 하려면 위젯의 편집 모드에서 표시된 시간 범위를 선택하고 위젯을 대시보드에 저장합니다.</block>
+  <block id="3b1dbe846304b427475d6a670fb96413" category="inline-image-macro">위젯에 대한 대시보드 시간 범위 재정의</block>
+  <block id="c9b0370dc5d789bfc283022e4c0d9d9e" category="paragraph"><block ref="c9b0370dc5d789bfc283022e4c0d9d9e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="776202c829612e565a462d31af745afd" category="paragraph">대시보드 및 자산 랜딩 페이지의 위젯에 있는 데이터는 선택한 대시보드 시간 범위에 따라 결정된 새로 고침 간격에 따라 자동으로 새로 고쳐집니다. 새로 고침 간격은 위젯이 시계열(선, 스플라인, 영역, 누적 영역형 차트) 또는 비시계열(다른 모든 차트)인지 여부를 기준으로 합니다.</block>
 </blocks>
