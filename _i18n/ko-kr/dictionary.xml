@@ -12266,19 +12266,13 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
   <block id="4f05106cca363b0f3c492314ab777534" category="cell">일부 이벤트 로그에 대한 _divedobject_data가 없습니다.</block>
   <block id="67ee92e19812baa7cedb346320ca0182" category="cell">의 단계를 수행했는지 확인합니다 <block ref="d9283cdb1b027ed2a61fa92c8dc3e314" category="inline-link-macro-rx"></block> 섹션을 참조하십시오.</block>
   <block id="dafe147a7f0074749f1e1c76f1e05008" category="section-title">모듈 시험</block>
-  <block id="7f82331674ae138af79c9ab94e1fac67" category="paragraph">출시 예정!</block>
-  <block id="5ed0b3b1884385a11f0ddcb69c41afbf" category="admonition">모듈 평가판은 미리 보기 기능으로 간주되므로 변경될 수 있습니다.</block>
-  <block id="2b8d4048177d738d1e55b5d352a76442" category="paragraph">Cloud Insights의 최초 평가판 외에 * 모듈 시험 * 을 이용할 수도 있습니다. 예를 들어, 인프라 관측성을 이미 구독하고 있지만 Kubernetes를 환경에 추가하고 있는 경우, NetApp Kubernetes 모니터링 운영자를 설치하는 시점부터 시작하여 Kubernetes 관측성 30일 시험판에 자동으로 등록됩니다. 평가판 기간이 끝날 때까지만 Kubernetes 관측성 관리형 유닛 사용에 대한 요금을 청구합니다.</block>
-  <block id="c8ff921ed8862475c3fbdfc6e58cbc82" category="admonition">시험 기간 후에 새 관리형 유닛(MU) 사용료가 청구되므로 이에 따라 계획을 세워야 합니다. 모듈 평가판이 종료되면 서비스 중단을 방지하기 위해 MU를 더 추가해야 하는 경우 알림이 표시됩니다.</block>
   <block id="49ebde544abc61604ad7c6c491131bf2" category="paragraph">사용 * 탭의 * 관리 &gt; 구독 * 페이지에서 관리 유닛의 사용을 모니터링할 수 있습니다.</block>
   <block id="522299d35366d8b59cb57f013ff640aa" category="inline-image-macro">MU 사용 화면</block>
   <block id="aa0083acb9559c9abfc7553890f8f78e" category="paragraph"><block ref="aa0083acb9559c9abfc7553890f8f78e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="da2a1b654dd8965375b17b81a0874e1d" category="section-title">평가자</block>
-  <block id="12b403caef8918465c7ebf1024a4ee26" category="paragraph">모듈 시험 중에는 모듈에 사용된 리소스에 대한 MU 사용량이 변경되지 않습니다. 하지만 평가 후 MU 비용이 청구되는 방식을 보려면 *Estimator*(_Summary_tab)를 열고 향후 필요한 MU의 수를 사용하여 "What if" 시나리오를 연습할 수 있습니다. 추정기를 종료하여 숫자를 재설정합니다.</block>
   <block id="de81da28c1db344902ce9fbb40bd9e3a" category="paragraph"><block ref="de81da28c1db344902ce9fbb40bd9e3a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="23639e5972e5f3878de9fd64c5a01f73" category="paragraph">모듈 옆에 있는 확인란을 선택하여 예상 비용에서 전체 모듈의 MU를 추가하거나 제거합니다.</block>
   <block id="3406a9b7847cf7a53e580c01031639d0" category="paragraph">Estimator를 사용하면 현재 구독 기간을 유지하고 라이선스가 부여된 관리 유닛 수를 늘리는 추가 기능 또는 현재 구독 시 구입할 갱신 구독의 갱신 옵션을 확인할 수 있습니다 기간 종료.</block>
-  <block id="e88abbac5caee1a1c8d8af2d838a7e97" category="paragraph">고객은 구독당 한 번만 모듈 평가판을 사용할 수 있습니다.</block>
   <block id="51551d892e3008a0a15372506e7c3778" category="section-title">도메인별 액세스 제한</block>
   <block id="3a61360418d262f9d84cc867c9f6dafd" category="paragraph">Cloud Insights는 사용자가 지정한 도메인에만 대한 사용자 액세스를 제한할 수 있습니다. 관리자 &gt; 사용자 관리 * 페이지에서 "도메인 제한"을 선택합니다.</block>
   <block id="c55e947bf98f22cc4e8f7588d8766267" category="inline-image-macro">도메인을 기본 도메인으로만 제한, 기본값 및 사용자가 지정한 추가 도메인으로 제한 또는 제한 없음</block>
@@ -13132,4 +13126,10 @@ Firefox에서 쿠키 예외는 간단히 _auth0.com _ 및 _netapp.com _ 로 지�
   <block id="d3b55f9a8374f81f85e7606ece767371" category="paragraph">History * 탭은 지난 7-90일 동안의 MU 사용량에 대한 정보를 제공합니다. 차트의 열 위로 마우스를 가져가면 모듈별 분류(예: 관측성, Kubernetes)가 제공됩니다.</block>
   <block id="fbc13ba96b933d65afd4caf522ab96b6" category="inline-image-macro">MU 사용 기록</block>
   <block id="2319aa26c375ca721d328685f3585394" category="paragraph"><block ref="2319aa26c375ca721d328685f3585394" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="12ddfc86083937d7a126f2fd8615aa6b" category="section-title">모듈 평가</block>
+  <block id="76064df620f99261dce25de296d7e769" category="paragraph">모듈 평가 * 를 활용할 수도 있습니다. 예를 들어, 인프라 관측성을 이미 구독하고 있지만 Kubernetes를 환경에 추가하고 있는 경우, NetApp Kubernetes 모니터링 운영자를 설치하는 시점부터 Kubernetes 관측성 30일 평가를 자동으로 시작합니다. 평가 기간이 끝날 때까지만 Kubernetes 관측성 관리형 유닛 사용에 대한 요금이 부과됩니다.</block>
+  <block id="dcfe192ef3f3cab1ff1183df37b17e47" category="admonition">평가 후 새 관리형 유닛(MU) 사용에 대한 비용이 청구되므로 이에 따라 계획을 세워야 합니다. 모듈 평가가 종료되면 서비스 중단을 방지하기 위해 MU를 더 추가해야 하는 경우 알림이 표시됩니다.</block>
+  <block id="9c420799ef765483eddc7865804e6371" category="admonition">A_Module Evaluation_은(는) _ Trial_ 이(가) 아닙니다. 당사는 고객에게 CI 서비스를 사용하여 적합성을 확인하고 구매를 활성화하는 무료 평가판 기간을 제공할 때 이 용어 평가판을 사용합니다. 모듈 평가는 다릅니다. 유료 고객이 최근 몇 달 동안 사용한 적이 없는 Cloud Insights 모듈을 사용해 볼 수 있도록 하는 것입니다. 평가가 활성화되면 새로 구성된 모듈에 대한 요금이 면제됩니다. 작업 중인 고객 환경은 아직 구독 중이며 무료 평가판으로 전환되지 않았습니다. 구독이 변경되지 않았습니다.</block>
+  <block id="8fe818ace86e2479958161998bd57015" category="paragraph">모듈 평가 중에는 모듈에 사용된 리소스에 대한 MU 사용량이 변경되지 않습니다. 그러나 _Summary_tab에 있는 * Estimator * 를 열어 평가 후 MU 비용이 어떻게 부과되는지 확인하고 향후 필요한 MU의 수를 사용하여 "What if" 시나리오를 연습할 수 있습니다. 추정기를 종료하여 숫자를 재설정합니다.</block>
+  <block id="bb2065e29292a8686e6f017d42762298" category="paragraph">고객은 구독당 한 번만 모듈 평가를 받을 수 있습니다.</block>
 </blocks>
