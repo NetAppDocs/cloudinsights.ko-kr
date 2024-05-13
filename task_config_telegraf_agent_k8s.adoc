@@ -562,5 +562,8 @@ fluent-bit:
 
 
 | 리소스 부족으로 인해 Kubernetes Monitoring Operator에 의해 구축된 Pod가 충돌하는 것을 볼 수 있습니다. | Kubernetes 모니터링 운영자를 참조하십시오 link:telegraf_agent_k8s_config_options.html["구성 옵션"] 필요한 경우 CPU 및/또는 메모리 제한을 늘립니다. 
+
+
+| 이미지가 없거나 잘못된 구성으로 인해 NetApp-ci-kube-상태 메트릭 Pod가 시작되지 않거나 준비되지 않았습니다. 이제 StatefulSet이 중단되고 구성 변경 사항이 NetApp-ci-kube-state-metrics Pod에 적용되지 않습니다. | StatefulSet 은 에 있습니다 link:https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/#forced-rollback["고장"] 상태. 구성 문제를 해결한 후에는 NetApp-ci-kube-state-metrics Pod를 바운스하게 만들 수 있습니다. 
 |===
 추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].

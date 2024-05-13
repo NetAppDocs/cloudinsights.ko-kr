@@ -31,22 +31,35 @@ keywords: troubleshooting, problems, browser, login, log in, accessing, access t
 | * 문제: * | * 사용해 보세요. * 
 
 
-| Cloud Insights는 5분마다 로그아웃합니다 | 396149d67edd166e53b49c38f4b707ba 
+| Cloud Insights는 5분마다 로그아웃합니다 | 필요한 NetApp 및 auth0 쿠키에 대해 제3자가 수락하도록 설정합니다.
+
+예:
+Chrome에서 브라우저 URL에 "chrome://settings/cookies"를 입력합니다.
+
+"모든 쿠키 허용" 옵션을 선택합니다.
+* 또는 *
+"타사 쿠키 차단"을 선택하고 [\ *.]auth0.com 및 [ *.]netapp.com 에 대한 예외를 추가합니다.
+
+참고: 예외를 만들 때 "이 사이트에 타사 쿠키 포함" 옵션을 선택해야 합니다. 
 
 
-| e4ff2e59dd571d2bbd5a906b6fad2546 | a9a216fbb1fb9d774e7cedfcf74c00cf 
+| BlueXP 계정이 있지만 BlueXP에 로그인할 수 없습니다. | 에서 티켓을 엽니다 https://mysupport.netapp.com/site/help[]. "blueXP.netapp.com > 계정/로그인 문제" 또는 "bluexp.netapp.com > 페더레이션 문제" 범주를 선택합니다.  이는 특히 BlueXP 문제 또는 질문을 대상으로 한 것입니다.
+기타 모든 Cloud Insights 기술 지원 문제는 에 문의하십시오 link:concept_requesting_support.html["NetApp 지원"]. 
 
 
-| Cloud Insights에 초대를 받았는데 "승인되지 않음" 메시지가 나타납니다. | 199017f1d912993f091b6b969d3442ad 
+| Cloud Insights에 초대를 받았는데 "승인되지 않음" 메시지가 나타납니다. | BlueXP 계정에 등록했는지 또는 조직에서 BlueXP를 통해 SSO 로그인을 사용하는지 확인하십시오.
+
+BlueXP 프로필 이메일 주소가 Cloud Insights 환영 이메일에 표시된 이메일 주소와 일치하는지 확인하십시오. 이메일이 일치하지 않으면 올바른 이메일 주소로 새 초대를 요청하십시오. 
 
 
-| 176f8c6fa466059df49f2717c021d306 | 7a8624fb56224e907698f45ef2e4cc47 
+| BlueXP에서 로그아웃하고 Cloud Insights에서 자동으로 로그아웃되었습니다. | NetApp 클라우드 서비스 전체에서 SSO(Single Sign-On)가 모든 Cloud Insights 세션을 로그아웃합니다. 여러 Cloud Insights 계정에 액세스할 수 있는 경우 한 계정에서 로그아웃하면 모든 활성 세션이 로그아웃됩니다. 계정에 액세스하려면 다시 로그인하십시오. 
 
 
-| 며칠 후에 자동으로 로그아웃되었습니다. | ed6e79e2f9b9c201ed834c6efeb7f356 
+| 며칠 후에 자동으로 로그아웃되었습니다. | NetApp 클라우드 계정은 며칠 간격으로 다시 인증해야 합니다(현재 BlueXP 설정은 7일). 계정에 액세스하려면 다시 로그인하십시오. 
 
 
-| "더 이상 로그인할 수 없습니다"라는 오류 메시지가 나타납니다. | acf29dcaa06698c29122cba5402e3145 
+| "더 이상 로그인할 수 없습니다"라는 오류 메시지가 나타납니다. | 계정 관리자에게 문의하여 Cloud Insights에 대한 액세스 권한을 확인하십시오.
+BlueXP 프로필 이메일 주소가 Cloud Insights 환영 이메일에 표시된 이메일 주소와 일치하는지 확인하십시오 
 
 
 | 기타 로그인 오류 | Chrome에서 시크릿 모드를 시도하거나 브라우저 기록, 쿠키 및 캐시를 지웁니다. 다른 브라우저 프로필(예 Chrome - 사람 추가). 
