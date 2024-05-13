@@ -31,16 +31,18 @@ keywords: troubleshooting, problems, browser, login, log in, accessing, access t
 | * 문제: * | * 사용해 보세요. * 
 
 
-| Cloud Insights는 5분마다 로그아웃합니다 | 필요한 NetApp 및 auth0 쿠키에 대해 제3자가 수락하도록 설정합니다.
+| Cloud Insights는 6시간마다 자동으로 로그아웃됩니다 | 이는 비활성화된 브라우저 타사 쿠키가 원인입니다. 사용자는 모든 타사 쿠키를 사용하도록 브라우저를 구성하거나 더 좁은 예외 목록을 사용하여 Cloud Insights에 대해서만 활성화할 수 있습니다.
 
 예:
-Chrome에서 브라우저 URL에 "chrome://settings/cookies"를 입력합니다.
+브라우저의 설정을 엽니다
 
 "모든 쿠키 허용" 옵션을 선택합니다.
 * 또는 *
-"타사 쿠키 차단"을 선택하고 [\ *.]auth0.com 및 [ *.]netapp.com 에 대한 예외를 추가합니다.
+"타사 쿠키 차단"을 선택하고 _[\ *.]auth0.com_및 _[ *.]netapp.com_에 대한 예외를 추가합니다.
 
-참고: 예외를 만들 때 "이 사이트에 타사 쿠키 포함" 옵션을 선택해야 합니다. 
+Microsoft Edge는 Chrome과 동일한 형식의 예외 항목을 접습니다.
+
+Firefox에서 쿠키 예외는 간단히 _auth0.com _ 및 _netapp.com _ 로 지정됩니다. 
 
 
 | BlueXP 계정이 있지만 BlueXP에 로그인할 수 없습니다. | 에서 티켓을 엽니다 https://mysupport.netapp.com/site/help[]. "blueXP.netapp.com > 계정/로그인 문제" 또는 "bluexp.netapp.com > 페더레이션 문제" 범주를 선택합니다.  이는 특히 BlueXP 문제 또는 질문을 대상으로 한 것입니다.

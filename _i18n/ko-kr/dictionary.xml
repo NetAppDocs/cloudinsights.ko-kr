@@ -4084,7 +4084,6 @@
   <block id="33d5b65987e920095c97ae5d99207a0e" category="inline-link-macro">Linux 획득 장치 문제 해결</block>
   <block id="62c67fa153e5c97540977071f595a3e2" category="inline-link-macro">Windows 획득 장치 문제 해결</block>
   <block id="06aca4757909dd673728a20d193d0656" category="paragraph">도 참조하십시오 <block ref="35efea8886727053938c867d4e4688d5" category="inline-link-macro-rx"></block> 및 <block ref="5e216da5f7cd032fff10ef75fa563a40" category="inline-link-macro-rx"></block>.</block>
-  <block id="55117c7bec968b88df3f1dfc434eac84" category="cell">Cloud Insights는 5분마다 로그아웃합니다</block>
   <block id="0659d428df833a806e29e65e632d380a" category="inline-link-macro">NetApp 지원</block>
   <block id="6630a98adbdb71bde030ce83a4d0a274" category="cell">Cloud Insights에 초대를 받았는데 "승인되지 않음" 메시지가 나타납니다.</block>
   <block id="6db6d0d20a3dd35029f13f472f68dbbd" category="cell">며칠 후에 자동으로 로그아웃되었습니다.</block>
@@ -13100,16 +13099,6 @@ InternalVolumes: Rest가 vol0을 더 이상 보고하지 않습니다.
   <block id="a84e9c9e2352076ba01af70b577a7e6e" category="paragraph">위치 URL을 쿼리하면 응답이 아직 준비되지 않은 경우 동일한 헤더가 반환되고 응답이 준비되면 상태 200으로 반환됩니다. 응답 내용은 텍스트 형식이며 원본 쿼리의 http 상태와 일부 메타데이터를 포함하고 그 다음에 원본 쿼리의 결과가 나옵니다.</block>
   <block id="b0ed84b2f2f19c2de4e5ffef83497b41" category="paragraph">모든 비동기 쿼리 목록과 준비된 쿼리를 보려면 다음 명령을 사용합니다.</block>
   <block id="699058fd0a28bd24bd4721ecd1db6615" category="paragraph">응답의 형식은 다음과 같습니다.</block>
-  <block id="1d87793fac8c219c888ab86c18c15b01" category="cell">필요한 NetApp 및 auth0 쿠키에 대해 제3자가 수락하도록 설정합니다.
-
-예:
-Chrome에서 브라우저 URL에 "chrome://settings/cookies"를 입력합니다.
-
-"모든 쿠키 허용" 옵션을 선택합니다.
-* 또는 *
-"타사 쿠키 차단"을 선택하고 [\ *.]auth0.com 및 [ *.]netapp.com 에 대한 예외를 추가합니다.
-
-참고: 예외를 만들 때 "이 사이트에 타사 쿠키 포함" 옵션을 선택해야 합니다.</block>
   <block id="8ff0a6baa556dcfc21fcb29db0eff472" category="cell">BlueXP 계정이 있지만 BlueXP에 로그인할 수 없습니다.</block>
   <block id="11412b458ed06c197e73ff0aaecb2e6c" category="cell">에서 티켓을 엽니다<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block>. "blueXP.netapp.com &gt; 계정/로그인 문제" 또는 "bluexp.netapp.com &gt; 페더레이션 문제" 범주를 선택합니다.  이는 특히 BlueXP 문제 또는 질문을 대상으로 한 것입니다.
 기타 모든 Cloud Insights 기술 지원 문제는 에 문의하십시오 <block ref="1a8b44ad735b0e8f3f08395032e9cb16" category="inline-link-macro-rx"></block>.</block>
@@ -13126,4 +13115,17 @@ BlueXP 프로필 이메일 주소가 Cloud Insights 환영 이메일에 표시�
   <block id="201ec49877bf4303e362a0aac3add32b" category="admonition">Cloud Insights에서 로그아웃하면 BlueXP에서 로그아웃됩니다. BlueXP 로그인을 사용하는 다른 NetApp 클라우드 서비스에서도 로그아웃됩니다.</block>
   <block id="d7a21ae00693a409dd262b09be87f4f7" category="paragraph">예: _ 사용자 * Tony Lavoie * 는 * 10.1.120.15 * 에서 로그인했으며 사용자 에이전트 * Mozilla/5.0(Windows NT 10.0; Win64; x64) AppleWebKit/537.36(KHTML, Gecko 등) Chrome/85.0.4183.121 Safari/537.36 *, 로그인 방법 * BlueXP 포털 로그인 _ *</block>
   <block id="2cff43f0f641bc8705f38ceb3049b8ca" category="sidebar">관리자 및 기타 작업</block>
+  <block id="c0662b30d3408e55d4ca86a4556ab305" category="cell">Cloud Insights는 6시간마다 자동으로 로그아웃됩니다</block>
+  <block id="125d2f260a38158435c7e7d5900894da" category="cell">이는 비활성화된 브라우저 타사 쿠키가 원인입니다. 사용자는 모든 타사 쿠키를 사용하도록 브라우저를 구성하거나 더 좁은 예외 목록을 사용하여 Cloud Insights에 대해서만 활성화할 수 있습니다.
+
+예:
+브라우저의 설정을 엽니다
+
+"모든 쿠키 허용" 옵션을 선택합니다.
+* 또는 *
+"타사 쿠키 차단"을 선택하고 _[\ *.]auth0.com_및 _[ *.]netapp.com_에 대한 예외를 추가합니다.
+
+Microsoft Edge는 Chrome과 동일한 형식의 예외 항목을 접습니다.
+
+Firefox에서 쿠키 예외는 간단히 _auth0.com _ 및 _netapp.com _ 로 지정됩니다.</block>
 </blocks>
