@@ -13057,57 +13057,6 @@ kubectl get all -n &lt;namespace&gt; | grep -i psp (아무것도 발견되지 �
   <block id="1a565d9a88c6cc1a17ed9ec577431947" category="paragraph">Cloud Insights에는 Collector의 옵션으로 ONTAP 클러스터 스위치 데이터를 수집하는 기능이 있습니다 <block ref="0a74ef7985c5cbe5eb3ab6c199d26582" category="inline-xref-macro-rx"></block> 설정. Cloud Insights Collector에서 이 기능을 활성화하는 것 외에도 ONTAP 시스템 * 자체에서 제공할 수 있도록 구성해야 합니다 <block ref="d459f31dbd039334427e234b6edb8373" category="inline-link-macro-rx"></block>를 선택하고 가 올바른지 확인합니다 <block ref="e83cb79e34a9adb49ab5c30ebb0b6c54" category="inline-xref-macro-rx"></block> 스위치 데이터를 Cloud Insights로 전송할 수 있도록 설정됩니다.</block>
   <block id="e77307796c2832560f84fa94d82cd573" category="list-text">Rubrik 클러스터 IP 주소 또는 호스트 이름.</block>
   <block id="fb36183a15285a9f1f23d79072c763f7" category="list-text">기본 인증의 경우 클러스터에 대한 사용자 이름과 암호가 필요합니다. 서비스 계정 기반 인증을 사용하려면 서비스 계정, 암호 및 조직 ID가 필요합니다</block>
-  <block id="07564ad1af1bd4ed017ae241054bd345" category="paragraph">Cloud Insights는 계정 소유자, 관리자, 사용자 및 게스트의 최대 4개의 사용자 계정 역할을 제공합니다. 각 계정에는 아래 표에 명시된 특정 권한 수준이 할당됩니다.  사용자는 둘 중 하나입니다 <block ref="6a05e97c185d2e103748dff93c559f3b" category="inline-link-macro-rx"></block> Cloud Insights에 로그인하여 특정 역할을 할당하거나 을 통해 로그인할 수 있습니다 <block ref="47c69771a9bdd41067d8486727a07273" category="inline-link-macro-rx"></block> 기본 역할을 사용합니다. SSO 인증은 Cloud Insights 프리미엄 에디션의 기능으로 제공됩니다.</block>
-  <block id="2e28d2e91336191eb4cfb9f135bf4ce2" category="paragraph">새 사용자 계정은 BlueXP를 통해 생성됩니다. 사용자는 이메일을 통해 보낸 초대에 응답할 수 있지만 BlueXP 계정이 없는 경우 사용자는 BlueXP 초대를 수락할 수 있도록 BlueXP에 등록해야 합니다.</block>
-  <block id="d26ae26dfaa208a028ca6437966e9b43" category="section-title">ID 페더레이션이란 무엇입니까?</block>
-  <block id="08f656c4c33fd00fad5ab1ef569dae11" category="list-text">사용자는 모든 NetApp BlueXP 서비스(단일 사인온)에 한 번 로그인합니다.</block>
-  <block id="02f6b1d6847323521b6d5dfdeb3f5dbf" category="paragraph">모든 클라우드 서비스의 NetApp BlueXP에서 사용자 계정을 관리합니다. 기본적으로 인증은 BlueXP 로컬 사용자 프로필을 통해 수행됩니다. 다음은 이 프로세스에 대한 간단한 개요입니다.</block>
-  <block id="58ccf39c430354a2330777ebbfdc320c" category="inline-image-macro">로컬을 사용한 BlueXP 인증</block>
-  <block id="6e7c9d2ac3ef07c7bcfe628147140973" category="paragraph"><block ref="6e7c9d2ac3ef07c7bcfe628147140973" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1efb7531b4ff57cf7e5dad319f452ce8" category="paragraph">그러나 일부 고객은 자체 ID 공급자를 사용하여 Cloud Insights 및 다른 NetApp BlueXP 서비스에 대한 사용자를 인증하려고 합니다. ID 페더레이션을 사용하면 NetApp BlueXP 계정은 회사 디렉터리의 자격 증명을 사용하여 인증됩니다.</block>
-  <block id="34dde67853699a7c5e92b37ac717d586" category="inline-image-macro">Federation을 사용한 BlueXP 인증</block>
-  <block id="14bf8864e0c03f214a9531c84f7509ff" category="paragraph"><block ref="14bf8864e0c03f214a9531c84f7509ff" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="41f5e02dabb202e2e56ff56a913cc88b" category="section-title">ID 페더레이션을 사용하도록 설정하는 중입니다</block>
-  <block id="76ef581d75f4d1e4d3bdceeb091433ef" category="inline-link-macro">BlueXP Federation 지침</block>
-  <block id="f68beb94c4510489905761611b802b02" category="paragraph">BlueXP는 Auth0을 사용하여 Identity Federation을 구현하고 ADFS(Active Directory Federation Services) 및 Microsoft Azure AD(Active Directory) 등의 서비스와 통합됩니다. ID 페더레이션을 구성하려면 을 참조하십시오 <block ref="dcb213271585f680aa429c2cd0d8d64f" category="inline-link-macro-rx"></block>.</block>
-  <block id="e806ab1149571cd13505dfbc97c18648" category="admonition">Cloud Insights에서 SSO를 사용하려면 먼저 BlueXP ID 페더레이션을 구성해야 합니다.</block>
-  <block id="3d447ee9850a212906099a2f2e71dd7b" category="paragraph">BlueXP의 변화하는 ID 페더레이션이 Cloud Insights뿐만 아니라 모든 NetApp BlueXP 서비스에도 적용된다는 것을 이해하는 것이 중요합니다. 고객은 자신이 소유한 각 BlueXP 제품의 NetApp 팀과 이 변경 사항에 대해 논의하여 사용 중인 구성이 ID Federation과 연동되는지 또는 계정을 조정해야 하는 경우. 고객은 ID 페더레이션의 변경에 내부 SSO 팀을 참여시켜야 합니다.</block>
-  <block id="9ebe3356d760f8536e9bb24151537fda" category="paragraph">또한 ID 페더레이션이 활성화되면 회사 ID 공급자를 변경(SAML에서 Microsoft AD로 이동)할 때 사용자 프로필을 업데이트하기 위해 BlueXP의 문제 해결/변경/주의가 필요할 수 있음을 인지해야 합니다.</block>
-  <block id="5688f19f1e497727b537222451f54cc6" category="paragraph">이 문제나 다른 페더레이션 문제에 대해 에서 지원 티켓을 열 수 있습니다<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block> "bluexp.netapp.com &gt; Federation Issues" 범주를 선택합니다.</block>
-  <block id="1290a9c844484dfb0ecb66679bb02236" category="admonition">_SSO 사용자 자동 프로비저닝 _ 은(는) Cloud Insights 프리미엄 에디션에서 사용할 수 있으며 Cloud Insights에 대해 사용하려면 먼저 구성해야 합니다. SSO 사용자 자동 프로비저닝 구성에는 이 포함됩니다 <block ref="822fb5372050010317b40dcb63a546f0" category="inline-link-macro-rx"></block> 위의 섹션에 설명된 것처럼 NetApp BlueXP를 이용함으로써 페더레이션을 사용하면 SAML(Security Assertion Markup Language) 및 OIDC(OpenID Connect)와 같은 공개 표준을 사용하여 기업 디렉터리의 자격 증명을 사용하여 NetApp BlueXP 계정에 액세스할 수 있습니다.</block>
-  <block id="5f47dcd3204dc1bc6c36abf1ce4be4cc" category="paragraph">SSO 사용자 자동 프로비저닝 _ 을(를) 구성하려면 * 관리자 &gt; 사용자 관리 * 페이지에서 먼저 BlueXP ID 페더레이션을 설정해야 합니다. 배너에서 * Set Up Federation * 링크를 선택하여 BlueXP Federation으로 이동합니다. 구성이 완료되면 Cloud Insights 관리자가 SSO 사용자 로그인을 활성화할 수 있습니다. 관리자가 _SSO 사용자 자동 프로비저닝_ 을(를) 사용하도록 설정할 경우, 모든 SSO 사용자(예: 게스트 또는 사용자)의 기본 역할을 선택합니다. SSO를 통해 로그인하는 사용자는 이 기본 역할을 갖게 됩니다.</block>
-  <block id="bbeb55e7d4d240b66f4ca24218cf7de0" category="admonition">NetApp BlueXP의 사용자 로그인 시간 제한은 7일이므로 Cloud Insights도 이 이벤트를 사용하여 로그아웃해야 합니다. 다시 로그인하면 대시보드가 계속 표시됩니다.</block>
-  <block id="10c296499c1a789621926ca2df89bad4" category="paragraph">사용자 승인과 관련된 데이터를 비롯하여 NetApp BlueXP가 지역 Cloud Insights 사이트와 통신할 수 있도록 지원하는 인증 및 액세스 정보</block>
-  <block id="32b8c42dbc2b21fb7881d9a36bb2727a" category="list-text">사용자 승인과 관련된 모든 작업을 포함하여 NetApp BlueXP가 지역 Cloud Insights 사이트와 통신할 수 있도록 해 주는 정보</block>
-  <block id="c8c46afa6f003113c7d643310bade896" category="inline-xref">_Sync_ 또는 _Async_</block>
-  <block id="54ebec075b0ae24d1fe36b1a78b7014f" category="paragraph">APIkeys는 에 적합합니다 <block ref="9966ea080d2324311c0da20a04f19491" category="inline-xref-macro-rx"></block>.</block>
-  <block id="1c545b4af283ca5836cafe431d1ea06a" category="section-title">동기식 또는 비동기식?</block>
-  <block id="1f5c701838fc1e9c08d402a2d3562c8c" category="paragraph">기본적으로 API 명령은 _synchronous_mode에서 작동하므로 요청을 보내고 응답이 즉시 반환됩니다. 그러나 쿼리를 실행하는 데 시간이 오래 걸릴 수 있으므로 요청 시간이 초과될 수 있습니다. 이 문제를 해결하려면 요청을 비동기적으로 _ 실행할 수 있습니다. 비동기 모드에서 요청은 실행을 모니터링할 수 있는 URL을 반환합니다. URL이 준비되면 결과가 반환됩니다.</block>
-  <block id="3559171ac28b17714bc92816d17b2a17" category="paragraph">비동기 모드에서 쿼리를 실행하려면 머리글을 추가합니다<block ref="1f82ebaa5a99226ba28d8d76ae41a3f8" prefix=" " category="inline-code"></block> 요청에 보냅니다. 성공적으로 실행되면 응답에 다음 헤더가 포함됩니다.</block>
-  <block id="a84e9c9e2352076ba01af70b577a7e6e" category="paragraph">위치 URL을 쿼리하면 응답이 아직 준비되지 않은 경우 동일한 헤더가 반환되고 응답이 준비되면 상태 200으로 반환됩니다. 응답 내용은 텍스트 형식이며 원본 쿼리의 http 상태와 일부 메타데이터를 포함하고 그 다음에 원본 쿼리의 결과가 나옵니다.</block>
-  <block id="b0ed84b2f2f19c2de4e5ffef83497b41" category="paragraph">모든 비동기 쿼리 목록과 준비된 쿼리를 보려면 다음 명령을 사용합니다.</block>
-  <block id="699058fd0a28bd24bd4721ecd1db6615" category="paragraph">응답의 형식은 다음과 같습니다.</block>
-  <block id="1d87793fac8c219c888ab86c18c15b01" category="cell">필요한 NetApp 및 auth0 쿠키에 대해 제3자가 수락하도록 설정합니다.
-
-예:
-Chrome에서 브라우저 URL에 "chrome://settings/cookies"를 입력합니다.
-
-"모든 쿠키 허용" 옵션을 선택합니다.
-* 또는 *
-"타사 쿠키 차단"을 선택하고 [\ *.]auth0.com 및 [ *.]netapp.com 에 대한 예외를 추가합니다.
-
-참고: 예외를 만들 때 "이 사이트에 타사 쿠키 포함" 옵션을 선택해야 합니다.</block>
-  <block id="8ff0a6baa556dcfc21fcb29db0eff472" category="cell">BlueXP 계정이 있지만 BlueXP에 로그인할 수 없습니다.</block>
-  <block id="11412b458ed06c197e73ff0aaecb2e6c" category="cell">에서 티켓을 엽니다<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block>. "blueXP.netapp.com &gt; 계정/로그인 문제" 또는 "bluexp.netapp.com &gt; 페더레이션 문제" 범주를 선택합니다.  이는 특히 BlueXP 문제 또는 질문을 대상으로 한 것입니다.
-기타 모든 Cloud Insights 기술 지원 문제는 에 문의하십시오 <block ref="1a8b44ad735b0e8f3f08395032e9cb16" category="inline-link-macro-rx"></block>.</block>
-  <block id="14c4408fc03fb9285fba74c7c30e2a8d" category="cell">BlueXP 계정에 등록했는지 또는 조직에서 BlueXP를 통해 SSO 로그인을 사용하는지 확인하십시오.
-
-BlueXP 프로필 이메일 주소가 Cloud Insights 환영 이메일에 표시된 이메일 주소와 일치하는지 확인하십시오. 이메일이 일치하지 않으면 올바른 이메일 주소로 새 초대를 요청하십시오.</block>
-  <block id="1b58998adf7a89d496bd43804045852f" category="cell">BlueXP에서 로그아웃하고 Cloud Insights에서 자동으로 로그아웃되었습니다.</block>
-  <block id="3cb73ed658069638368ac0c0f59b6393" category="cell">NetApp 클라우드 서비스 전체에서 SSO(Single Sign-On)가 모든 Cloud Insights 세션을 로그아웃합니다. 여러 Cloud Insights 계정에 액세스할 수 있는 경우 한 계정에서 로그아웃하면 모든 활성 세션이 로그아웃됩니다. 계정에 액세스하려면 다시 로그인하십시오.</block>
-  <block id="d6d54ee6b6dfdd2783aff066e96f7330" category="cell">NetApp 클라우드 계정은 며칠 간격으로 다시 인증해야 합니다(현재 BlueXP 설정은 7일). 계정에 액세스하려면 다시 로그인하십시오.</block>
-  <block id="73fa543b200644c9d90cfad28a8def24" category="cell">계정 관리자에게 문의하여 Cloud Insights에 대한 액세스 권한을 확인하십시오.
-BlueXP 프로필 이메일 주소가 Cloud Insights 환영 이메일에 표시된 이메일 주소와 일치하는지 확인하십시오</block>
   <block id="d5d48d5f4dfc82bc722dda03c00023b2" category="cell">ONTAP REST는 ONTAP 시스템에서만 내부적으로 사용되는 메트릭은 보고하지 않습니다. 예를 들어, 시스템 애그리게이트는 ONTAP REST에서 수집되지 않고 "data" 유형의 SVM만 수집됩니다.
 
 0개 또는 빈 데이터를 보고할 수 있는 ONTAP REST 메트릭의 다른 예:
@@ -13118,9 +13067,4 @@ InternalVolumes: Rest가 vol0을 더 이상 보고하지 않습니다.
 스토리지 가상 시스템: REST는 더 이상 '데이터'(예: '클러스터', 'GMT', '노드')가 아닌 SVM 유형을 보고하지 않습니다.
 
 또한 기본 성능 폴링 기간이 15분에서 5분으로 변경되어 데이터가 있는 그래프의 모양이 변경될 수 있습니다.  폴링 빈도가 높으면 더 많은 데이터 포인트를 표시할 수 있습니다.</block>
-  <block id="fa3c2d77fbba0d391ebafed4f6bf2cb1" category="paragraph">Cloud Insights로 작업을 시작하려면 * NetApp BlueXP * 포털에 등록해야 합니다. NetApp BlueXP 로그인을 이미 보유하고 있는 경우 몇 단계를 빠르게 수행하여 Cloud Insights 무료 평가판을 시작할 수 있습니다.</block>
-  <block id="73d58318fd6991da49fe32dc00a56f19" category="paragraph">Cloud Insights에서 로그아웃하려면 * 사용자 이름 * 을 클릭하고 * 로그아웃 * 을 선택합니다. BlueXP 로그인 화면으로 돌아갑니다.</block>
-  <block id="201ec49877bf4303e362a0aac3add32b" category="admonition">Cloud Insights에서 로그아웃하면 BlueXP에서 로그아웃됩니다. BlueXP 로그인을 사용하는 다른 NetApp 클라우드 서비스에서도 로그아웃됩니다.</block>
-  <block id="d7a21ae00693a409dd262b09be87f4f7" category="paragraph">예: _ 사용자 * Tony Lavoie * 는 * 10.1.120.15 * 에서 로그인했으며 사용자 에이전트 * Mozilla/5.0(Windows NT 10.0; Win64; x64) AppleWebKit/537.36(KHTML, Gecko 등) Chrome/85.0.4183.121 Safari/537.36 *, 로그인 방법 * BlueXP 포털 로그인 _ *</block>
-  <block id="2cff43f0f641bc8705f38ceb3049b8ca" category="sidebar">관리자 및 기타 작업</block>
 </blocks>
