@@ -19,7 +19,7 @@ summary: Cloud Insights는 여러 사용자 계정에 서로 다른 권한 수�
 
 
 [role="lead"]
-Cloud Insights는 계정 소유자, 관리자, 사용자 및 게스트의 최대 4개의 사용자 계정 역할을 제공합니다. 각 계정에는 아래 표에 명시된 특정 권한 수준이 할당됩니다. 사용자는 둘 중 하나입니다 link:#creating-accounts-by-inviting-users["초대되었습니다"] Cloud Insights에 로그인하여 특정 역할을 할당하거나 을 통해 로그인할 수 있습니다 link:#single-sign-on-sso-accounts["SSO(Single Sign-On) 인증"] 기본 역할을 사용합니다. SSO 인증은 Cloud Insights 프리미엄 에디션의 기능으로 제공됩니다.
+Cloud Insights는 계정 소유자, 관리자, 사용자 및 게스트의 최대 4개의 사용자 계정 역할을 제공합니다. 각 계정에는 아래 표에 명시된 특정 권한 수준이 할당됩니다.  사용자는 둘 중 하나입니다 link:#creating-accounts-by-inviting-users["초대되었습니다"] Cloud Insights에 로그인하여 특정 역할을 할당하거나 을 통해 로그인할 수 있습니다 link:#single-sign-on-sso-and-identity-federation["SSO(Single Sign-On) 인증"] 기본 역할을 사용합니다. SSO 인증은 Cloud Insights 프리미엄 에디션의 기능으로 제공됩니다.
 
 
 NOTE: Cloud Insights Federal Edition의 사용자 로그인은 구성된 ID 공급자(지정된 전자 메일 도메인)로 제한됩니다. 새 사용자를 Cloud Insights 연방 환경에 초대하는 경우 해당 이메일 주소는 해당 환경에 구성된 도메인과 일치해야 합니다.
@@ -136,7 +136,7 @@ NOTE: Cloud Insights Federal Edition의 사용자 로그인은 구성된 ID 공�
 
 == 사용자를 초대하여 계정 만들기
 
-Cloud Central을 통해 새 사용자 계정을 생성할 수 있습니다. 사용자가 이메일을 통해 보낸 초대에 응답할 수 있지만 Cloud Central 계정이 없는 경우 사용자는 초대를 수락할 수 있도록 Cloud Central에 등록해야 합니다.
+새 사용자 계정은 BlueXP를 통해 생성됩니다. 사용자는 이메일을 통해 보낸 초대에 응답할 수 있지만 BlueXP 계정이 없는 경우 사용자는 BlueXP 초대를 수락할 수 있도록 BlueXP에 등록해야 합니다.
 
 .시작하기 전에
 * 사용자 이름은 초대의 전자 메일 주소입니다.
@@ -216,31 +216,40 @@ image:Assign_Account_Owner.png["계정 소유자 선택을 보여 주는 사용�
 
 
 
-=== Cloud Insights에서 SSO에 대한 ID 페더레이션을 사용하도록 설정합니다
+=== ID 페더레이션이란 무엇입니까?
 
 ID 페더레이션 사용:
 
 * 기업 디렉토리에서 고객의 자격 증명을 사용하여 고객의 ID 관리 시스템에 인증을 위임하고 MFA(Multi-Factor Authentication)와 같은 자동 인증 정책을 수행합니다.
-* 사용자는 모든 NetApp Cloud Services에 한 번 로그인합니다(단일 사인온).
+* 사용자는 모든 NetApp BlueXP 서비스(단일 사인온)에 한 번 로그인합니다.
 
 
-사용자 계정은 NetApp Cloud Central에서 모든 클라우드 서비스를 통해 관리됩니다. 기본적으로 인증은 Cloud Central 로컬 사용자 프로필을 사용하여 수행됩니다. 다음은 이 프로세스에 대한 간단한 개요입니다.
+모든 클라우드 서비스의 NetApp BlueXP에서 사용자 계정을 관리합니다. 기본적으로 인증은 BlueXP 로컬 사용자 프로필을 통해 수행됩니다. 다음은 이 프로세스에 대한 간단한 개요입니다.
 
-image:CloudCentralAuthentication.png["Cloud Central 인증"]
+image:BlueXP_Authentication_Local.png["로컬을 사용한 BlueXP 인증"]
 
-그러나 일부 고객은 자사 ID 공급자를 사용하여 Cloud Insights 및 다른 NetApp Cloud Central Services의 사용자를 인증하려고 합니다. NetApp Cloud Central 계정은 Identity Federation을 통해 회사 디렉터리의 자격 증명을 사용하여 인증됩니다.
+그러나 일부 고객은 자체 ID 공급자를 사용하여 Cloud Insights 및 다른 NetApp BlueXP 서비스에 대한 사용자를 인증하려고 합니다. ID 페더레이션을 사용하면 NetApp BlueXP 계정은 회사 디렉터리의 자격 증명을 사용하여 인증됩니다.
 
 다음은 이 프로세스의 간단한 예입니다.
 
-image:IdentityFederationDiagram-2.png["ID 페더레이션을 예시했습니다"]
+image:BlueXP_Authentication_Federated.png["Federation을 사용한 BlueXP 인증"]
 
 위 다이어그램에서 사용자가 Cloud Insights에 액세스하면 해당 사용자는 인증을 위해 고객의 ID 관리 시스템으로 연결됩니다. 계정이 인증되면 사용자는 Cloud Insights 테넌트 URL로 연결됩니다.
 
-Cloud Central은 Auth0을 사용하여 ID 페더레이션을 구현하고 ADFS(Active Directory Federation Services) 및 AD(Microsoft Azure Active Directory)와 같은 서비스와 통합됩니다. Identity Federation 설정 및 구성에 대한 자세한 내용은 의 Cloud Central 설명서를 참조하십시오 link:https://services.cloud.netapp.com/misc/federation-support["ID 페더레이션"].
 
-Cloud Central에서 ID 페더레이션 변경이 Cloud Insights에만 적용되는 것이 아니라 모든 NetApp 클라우드 서비스에 적용된다는 점을 이해하는 것이 중요합니다. 고객은 자신이 소유한 각 Cloud Central 제품의 NetApp 팀과 이러한 변경 사항에 대해 논의하여 사용 중인 구성이 Identity Federation과 연동되는지 또는 어떤 계정에서도 조정이 필요한지 확인해야 합니다. 고객은 ID 페더레이션의 변경에 내부 SSO 팀을 참여시켜야 합니다.
 
-ID 페더레이션이 활성화되면 회사의 ID 공급자에 대한 변경(예: SAML에서 Microsoft AD로 이동)이 발생할 경우 Cloud Central에서 사용자 프로필을 업데이트하기 위해 문제 해결/변경/주의가 필요할 수 있다는 점도 알아야 합니다.
+=== ID 페더레이션을 사용하도록 설정하는 중입니다
+
+BlueXP는 Auth0을 사용하여 Identity Federation을 구현하고 ADFS(Active Directory Federation Services) 및 Microsoft Azure AD(Active Directory) 등의 서비스와 통합됩니다. ID 페더레이션을 구성하려면 을 참조하십시오 link:https://services.cloud.netapp.com/misc/federation-support["BlueXP Federation 지침"].
+
+
+NOTE: Cloud Insights에서 SSO를 사용하려면 먼저 BlueXP ID 페더레이션을 구성해야 합니다.
+
+BlueXP의 변화하는 ID 페더레이션이 Cloud Insights뿐만 아니라 모든 NetApp BlueXP 서비스에도 적용된다는 것을 이해하는 것이 중요합니다. 고객은 자신이 소유한 각 BlueXP 제품의 NetApp 팀과 이 변경 사항에 대해 논의하여 사용 중인 구성이 ID Federation과 연동되는지 또는 계정을 조정해야 하는 경우. 고객은 ID 페더레이션의 변경에 내부 SSO 팀을 참여시켜야 합니다.
+
+또한 ID 페더레이션이 활성화되면 회사 ID 공급자를 변경(SAML에서 Microsoft AD로 이동)할 때 사용자 프로필을 업데이트하기 위해 BlueXP의 문제 해결/변경/주의가 필요할 수 있음을 인지해야 합니다.
+
+이 문제나 다른 페더레이션 문제에 대해 에서 지원 티켓을 열 수 있습니다 https://mysupport.netapp.com/site/help[] "bluexp.netapp.com > Federation Issues" 범주를 선택합니다.
 
 
 
@@ -249,9 +258,9 @@ ID 페더레이션이 활성화되면 회사의 ID 공급자에 대한 변경(�
 관리자는 사용자를 초대하는 것 외에도 기업 도메인의 모든 사용자가 개별적으로 초대하지 않고도 * SSO(Single Sign-On) 사용자 자동 프로비저닝 * 액세스를 Cloud Insights에 액세스할 수 있습니다. SSO를 사용하면 동일한 도메인 이메일 주소를 가진 모든 사용자가 회사 자격 증명을 사용하여 Cloud Insights에 로그인할 수 있습니다.
 
 
-NOTE: _SSO 사용자 자동 프로비저닝 _ 은(는) Cloud Insights 프리미엄 에디션에서 사용할 수 있으며 Cloud Insights에 대해 사용하려면 먼저 구성해야 합니다. SSO 사용자 자동 연결 구성에는 이 포함됩니다 link:https://services.cloud.netapp.com/misc/federation-support["ID 페더레이션"] 위 섹션에 설명된 대로 NetApp Cloud Central을 통해 페더레이션을 사용하면 SAML(Security Assertion Markup Language 2.0) 및 OIDC(OpenID Connect)와 같은 공개 표준을 사용하여 회사 디렉터리의 자격 증명을 사용하여 NetApp Cloud Central 계정에 액세스할 수 있습니다.
+NOTE: _SSO 사용자 자동 프로비저닝 _ 은(는) Cloud Insights 프리미엄 에디션에서 사용할 수 있으며 Cloud Insights에 대해 사용하려면 먼저 구성해야 합니다. SSO 사용자 자동 프로비저닝 구성에는 이 포함됩니다 link:https://services.cloud.netapp.com/misc/federation-support["ID 페더레이션"] 위의 섹션에 설명된 것처럼 NetApp BlueXP를 이용함으로써 페더레이션을 사용하면 SAML(Security Assertion Markup Language) 및 OIDC(OpenID Connect)와 같은 공개 표준을 사용하여 기업 디렉터리의 자격 증명을 사용하여 NetApp BlueXP 계정에 액세스할 수 있습니다.
 
-SSO 사용자 자동 프로비저닝 _ 을(를) 구성하려면 * 관리 > 사용자 관리 * 페이지에서 * 페더레이션 요청 * 버튼을 클릭합니다. 구성이 완료되면 관리자는 SSO 사용자 로그인을 활성화할 수 있습니다. 관리자가 _SSO 사용자 자동 프로비저닝_ 을(를) 사용하도록 설정할 경우, 모든 SSO 사용자(예: 게스트 또는 사용자)의 기본 역할을 선택합니다. SSO를 통해 로그인하는 사용자는 이 기본 역할을 갖게 됩니다.
+SSO 사용자 자동 프로비저닝 _ 을(를) 구성하려면 * 관리자 > 사용자 관리 * 페이지에서 먼저 BlueXP ID 페더레이션을 설정해야 합니다. 배너에서 * Set Up Federation * 링크를 선택하여 BlueXP Federation으로 이동합니다. 구성이 완료되면 Cloud Insights 관리자가 SSO 사용자 로그인을 활성화할 수 있습니다. 관리자가 _SSO 사용자 자동 프로비저닝_ 을(를) 사용하도록 설정할 경우, 모든 SSO 사용자(예: 게스트 또는 사용자)의 기본 역할을 선택합니다. SSO를 통해 로그인하는 사용자는 이 기본 역할을 갖게 됩니다.
 
 image:Roles_federation_Banner.png["페더레이션을 사용한 사용자 관리"]
 

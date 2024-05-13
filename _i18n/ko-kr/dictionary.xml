@@ -436,7 +436,6 @@
   <block id="e79313bfe03c4561628e01c7102ba5fb" category="section-title">감사된 이벤트 및 조치</block>
   <block id="6fffa02826aca9a14ee11d85609b3e25" category="paragraph">Cloud Insights에서 감사한 이벤트 및 작업은 다음과 같은 광범위한 영역에서 분류할 수 있습니다.</block>
   <block id="c5c594e685367681b202d84ba0c87407" category="list-text">* 사용자 계정 *: 로그인, 로그아웃, 역할 변경 등</block>
-  <block id="5a3b3866ed7beab8b728614f1d33c0b5" category="paragraph">예: _User* Tony Lavoie*가 * 10.1.120.15 * 에서 로그인했습니다. 사용자 에이전트 * Mozilla/5.0(Windows NT 10.0, Win64, x64) AppleWebKit/537.36(KHTML, Gecko와 유사) Chrome/85.0.4183.121 Safari/537.36 *, 로그인 방법 * Cloud Central Portal 로그인_ *</block>
   <block id="f8c4f6c2455f59fa0c1cc9fed5a8c6c1" category="list-text">* 획득 장치 *: 생성, 삭제 등</block>
   <block id="c1e8e78730ec648eeb7339e916d33231" category="paragraph">예: _ 획득 장치 * AU - Boston-1 * 제거됨 _.</block>
   <block id="fa421109b9971a24c53c504a4c5ef88d" category="list-text">* Data Collector *: 추가, 제거, 수정, 연기/재개, 획득 단위 변경, 시작/중지 등</block>
@@ -2963,7 +2962,6 @@
   <block id="6bf565eb0af1d9c4319c14b7f1ed3b40" category="list-text">기능 데이터</block>
   <block id="acc33fbeb51f2c273dbbbe898cd55111" category="paragraph">이 데이터는 NetApp에서 클라우드 데이터 서비스를 제공하여 생성되는 것으로, 클라우드 데이터 서비스의 개발, 구축, 운영, 유지보수, 보안에 대해 NetApp에 알려줍니다. 기능 데이터에는 고객 정보 또는 개인 정보가 포함되어 있지 않습니다.</block>
   <block id="8a0aeae003bb44ce51746437118cac5d" category="list-text">사용자 액세스 데이터</block>
-  <block id="a020ee54398cbdbb6220eb6dbbb2eea3" category="paragraph">NetApp Cloud Central에서 사용자 인증과 관련된 데이터를 비롯한 지역 Cloud Insights 사이트와 통신할 수 있는 인증 및 액세스 정보</block>
   <block id="56843f14a5fd059011e157622d7a2db2" category="paragraph">* 인프라 및 서비스 리소스에서 명시적 개인 데이터 * 가 수집되지 않습니다. 수집된 정보는 성능 메트릭, 구성 정보 및 인프라 메타데이터로만 구성되며, NetApp의 자동 지원 및 ActiveIQ를 비롯한 수많은 공급업체 Phone-Home과 매우 유사합니다. 그러나 고객의 명명 규칙에 따라 공유, 볼륨, VM, qtree, 응용 프로그램 등에 개인 식별 정보가 포함될 수 있습니다.</block>
   <block id="0848bc91e44ee86e5df6e2c72cf1fe7a" category="paragraph">또한 Cloud Insights에 대한 액세스 로그는 유지 관리되며 서비스에 로그인하는 데 사용되는 사용자의 IP 및 이메일 주소를 포함합니다.</block>
   <block id="eda5bd9f930c539c1e3a13adfdf11fcb" category="section-title">내 정보는 어디에 저장됩니까?</block>
@@ -2975,7 +2973,6 @@
   <block id="18a0eda54a9f6bb830d8c84899c0ac27" category="list-text">Cloud Insights 내부 사용자 활동에 대한 감사 정보</block>
   <block id="1a8b073d683b352fc06cc3bc800bc823" category="paragraph">다음 정보는 Cloud Insights 환경을 호스팅하는 지역에 관계없이 미국에 상주합니다.</block>
   <block id="2a56580b4f73dbbdeb1ee18d500fa3e8" category="list-text">사이트/계정 소유자와 같은 환경 사이트("테넌트"라고도 함) 정보</block>
-  <block id="477495be48e10387478849fdda012566" category="list-text">NetApp Cloud Central에서 사용자 승인과 관련된 작업을 포함하여 지역 Cloud Insights 사이트와 통신할 수 있는 정보</block>
   <block id="ca5794f9a5913506d29b3ae1d97f5871" category="list-text">Cloud Insights 사용자와 테넌트 간의 관계와 관련된 정보입니다.</block>
   <block id="18206c5add24b8898426959c811b779b" category="section-title">추가 정보</block>
   <block id="4e85b536571f514e502457526a23655c" category="paragraph">다음 링크에서 NetApp의 개인 정보 보호 및 보안에 대해 자세히 확인할 수 있습니다.</block>
@@ -3703,7 +3700,6 @@
   <block id="19afc2b6de08730341fe43a49d74b17f" category="cell">사용자 관리: 초대/추가/수정/비활성화</block>
   <block id="99fb7036d3e93ba3319d093dfe84cd02" category="paragraph">* Premium Edition이 필요합니다</block>
   <block id="c6050a6ee22484e6d99c05b9079a54e6" category="section-title">사용자를 초대하여 계정 만들기</block>
-  <block id="577ad4d536287e761cfcca07c709967a" category="paragraph">Cloud Central을 통해 새 사용자 계정을 생성할 수 있습니다. 사용자가 이메일을 통해 보낸 초대에 응답할 수 있지만 Cloud Central 계정이 없는 경우 사용자는 초대를 수락할 수 있도록 Cloud Central에 등록해야 합니다.</block>
   <block id="2261218e5eda0b1a833ad7434d235af5" category="list-text">사용자 이름은 초대의 전자 메일 주소입니다.</block>
   <block id="ee878f787b1f1f1d4994736d075986bd" category="list-text">할당할 사용자 역할을 이해합니다.</block>
   <block id="b9d905aec198b1e4b3ae4b7e048ef2e4" category="list-text">암호는 등록 프로세스 중에 사용자가 정의합니다.</block>
@@ -3723,25 +3719,12 @@
   <block id="22d99a67c79bd33570e7939b98936b65" category="paragraph">관리자 역할을 가진 사용자는 사용자 이름을 클릭하고 대화 상자에서 _사용자 삭제_를 클릭하여 사용자(예: 더 이상 회사에 없는 사용자)를 삭제할 수 있습니다. 사용자가 Cloud Insights 환경에서 제거됩니다.</block>
   <block id="75a9e302cafe4be34215caa129cabcfc" category="paragraph">사용자가 만든 대시보드, 쿼리 등은 사용자가 제거된 후에도 Cloud Insights 환경에서 계속 사용할 수 있습니다.</block>
   <block id="ae34cecb877a210f81bf4d446541e619" category="section-title">SSO(Single Sign-On) 및 ID 페더레이션</block>
-  <block id="4743b9c396b4a51215bcc90cb20ea986" category="section-title">Cloud Insights에서 SSO에 대한 ID 페더레이션을 사용하도록 설정합니다</block>
   <block id="3c55703ac1b754437c4ca4d09b9083c0" category="paragraph">ID 페더레이션 사용:</block>
   <block id="1fa3ec89d7b92a55ab22349de75a4680" category="list-text">기업 디렉토리에서 고객의 자격 증명을 사용하여 고객의 ID 관리 시스템에 인증을 위임하고 MFA(Multi-Factor Authentication)와 같은 자동 인증 정책을 수행합니다.</block>
-  <block id="5a31a45adb468f47c1f0b1e80f5171f7" category="list-text">사용자는 모든 NetApp Cloud Services에 한 번 로그인합니다(단일 사인온).</block>
-  <block id="192320e6f55720b5664a47f5c666baca" category="paragraph">사용자 계정은 NetApp Cloud Central에서 모든 클라우드 서비스를 통해 관리됩니다. 기본적으로 인증은 Cloud Central 로컬 사용자 프로필을 사용하여 수행됩니다. 다음은 이 프로세스에 대한 간단한 개요입니다.</block>
-  <block id="56450eba64c0d00cde410611439dc78c" category="inline-image-macro">Cloud Central 인증</block>
-  <block id="9ab07284bc5b71a2d5cea4881836c513" category="paragraph"><block ref="9ab07284bc5b71a2d5cea4881836c513" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4e2be1ac16d688153b9bf995c933023c" category="paragraph">그러나 일부 고객은 자사 ID 공급자를 사용하여 Cloud Insights 및 다른 NetApp Cloud Central Services의 사용자를 인증하려고 합니다. NetApp Cloud Central 계정은 Identity Federation을 통해 회사 디렉터리의 자격 증명을 사용하여 인증됩니다.</block>
   <block id="5bdf50c3632df05e809cd15e1fcb4ca9" category="paragraph">다음은 이 프로세스의 간단한 예입니다.</block>
-  <block id="456ec3716eb5484d780f58629b9d6b71" category="inline-image-macro">ID 페더레이션을 예시했습니다</block>
-  <block id="da667ed7886fe1fad31ff9dd3c806a5d" category="paragraph"><block ref="da667ed7886fe1fad31ff9dd3c806a5d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b8922583597ff9f65c02b62c61bfa22a" category="paragraph">위 다이어그램에서 사용자가 Cloud Insights에 액세스하면 해당 사용자는 인증을 위해 고객의 ID 관리 시스템으로 연결됩니다. 계정이 인증되면 사용자는 Cloud Insights 테넌트 URL로 연결됩니다.</block>
-  <block id="e0272c481804e7b56f3bd750203259b0" category="paragraph">Cloud Central은 Auth0을 사용하여 ID 페더레이션을 구현하고 ADFS(Active Directory Federation Services) 및 AD(Microsoft Azure Active Directory)와 같은 서비스와 통합됩니다. Identity Federation 설정 및 구성에 대한 자세한 내용은 의 Cloud Central 설명서를 참조하십시오 <block ref="822fb5372050010317b40dcb63a546f0" category="inline-link-macro-rx"></block>.</block>
-  <block id="2dca6320aaa2ae28cf6938308c945311" category="paragraph">Cloud Central에서 ID 페더레이션 변경이 Cloud Insights에만 적용되는 것이 아니라 모든 NetApp 클라우드 서비스에 적용된다는 점을 이해하는 것이 중요합니다. 고객은 자신이 소유한 각 Cloud Central 제품의 NetApp 팀과 이러한 변경 사항에 대해 논의하여 사용 중인 구성이 Identity Federation과 연동되는지 또는 어떤 계정에서도 조정이 필요한지 확인해야 합니다. 고객은 ID 페더레이션의 변경에 내부 SSO 팀을 참여시켜야 합니다.</block>
-  <block id="005faded672314bc475a7800de0ef460" category="paragraph">ID 페더레이션이 활성화되면 회사의 ID 공급자에 대한 변경(예: SAML에서 Microsoft AD로 이동)이 발생할 경우 Cloud Central에서 사용자 프로필을 업데이트하기 위해 문제 해결/변경/주의가 필요할 수 있다는 점도 알아야 합니다.</block>
   <block id="d6034d333b0966edaeeea729724c4988" category="section-title">SSO(Single Sign-On) 사용자 자동 프로비저닝</block>
   <block id="6c59be6231105da08319ced12f4e659b" category="paragraph">관리자는 사용자를 초대하는 것 외에도 기업 도메인의 모든 사용자가 개별적으로 초대하지 않고도 * SSO(Single Sign-On) 사용자 자동 프로비저닝 * 액세스를 Cloud Insights에 액세스할 수 있습니다. SSO를 사용하면 동일한 도메인 이메일 주소를 가진 모든 사용자가 회사 자격 증명을 사용하여 Cloud Insights에 로그인할 수 있습니다.</block>
-  <block id="a4e769bbaabeca7372ca6634d43bf1a5" category="admonition">_SSO 사용자 자동 프로비저닝 _ 은(는) Cloud Insights 프리미엄 에디션에서 사용할 수 있으며 Cloud Insights에 대해 사용하려면 먼저 구성해야 합니다. SSO 사용자 자동 연결 구성에는 이 포함됩니다 <block ref="822fb5372050010317b40dcb63a546f0" category="inline-link-macro-rx"></block> 위 섹션에 설명된 대로 NetApp Cloud Central을 통해 페더레이션을 사용하면 SAML(Security Assertion Markup Language 2.0) 및 OIDC(OpenID Connect)와 같은 공개 표준을 사용하여 회사 디렉터리의 자격 증명을 사용하여 NetApp Cloud Central 계정에 액세스할 수 있습니다.</block>
-  <block id="8454d6429fbbbb85edb89463f6d1f0a6" category="paragraph">SSO 사용자 자동 프로비저닝 _ 을(를) 구성하려면 * 관리 &gt; 사용자 관리 * 페이지에서 * 페더레이션 요청 * 버튼을 클릭합니다. 구성이 완료되면 관리자는 SSO 사용자 로그인을 활성화할 수 있습니다. 관리자가 _SSO 사용자 자동 프로비저닝_ 을(를) 사용하도록 설정할 경우, 모든 SSO 사용자(예: 게스트 또는 사용자)의 기본 역할을 선택합니다. SSO를 통해 로그인하는 사용자는 이 기본 역할을 갖게 됩니다.</block>
   <block id="69b24ac806086d8120c6941f51bea8c7" category="inline-image-macro">페더레이션을 사용한 사용자 관리</block>
   <block id="141cee4c6d3099b12c6927aace6bf538" category="paragraph"><block ref="141cee4c6d3099b12c6927aace6bf538" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8180ff7e185bcd2693971907be3065b6" category="paragraph">관리자가 단일 사용자를 기본 SSO 역할(예: 관리자로 설정)에서 승격하려고 하는 경우가 있습니다. 사용자는 * Admin &gt; User Management * 페이지에서 오른쪽 메뉴를 클릭하고 _Assign Role_을 선택하여 이 작업을 수행할 수 있습니다. 이러한 방식으로 명시적 역할이 할당된 사용자는 _ SSO 사용자 자동 프로비저닝 _ 이(가) 이후에 비활성화되더라도 계속해서 Cloud Insights에 액세스할 수 있습니다.</block>
@@ -4102,16 +4085,10 @@
   <block id="62c67fa153e5c97540977071f595a3e2" category="inline-link-macro">Windows 획득 장치 문제 해결</block>
   <block id="06aca4757909dd673728a20d193d0656" category="paragraph">도 참조하십시오 <block ref="35efea8886727053938c867d4e4688d5" category="inline-link-macro-rx"></block> 및 <block ref="5e216da5f7cd032fff10ef75fa563a40" category="inline-link-macro-rx"></block>.</block>
   <block id="55117c7bec968b88df3f1dfc434eac84" category="cell">Cloud Insights는 5분마다 로그아웃합니다</block>
-  <block id="e4ff2e59dd571d2bbd5a906b6fad2546" category="cell">Cloud Central 계정이 있지만 Cloud Central에 로그인할 수 없습니다.</block>
   <block id="0659d428df833a806e29e65e632d380a" category="inline-link-macro">NetApp 지원</block>
   <block id="6630a98adbdb71bde030ce83a4d0a274" category="cell">Cloud Insights에 초대를 받았는데 "승인되지 않음" 메시지가 나타납니다.</block>
-  <block id="199017f1d912993f091b6b969d3442ad" category="cell">Cloud Central 계정에 등록했는지 또는 조직에서 Cloud Central에서 SSO 로그인을 사용하는지 확인합니다. Cloud Central 프로필 이메일 주소가 Cloud Insights 환영 이메일에 표시된 이메일 주소와 일치하는지 확인하십시오. 이메일이 일치하지 않으면 올바른 이메일 주소로 새 초대를 요청하십시오.</block>
-  <block id="176f8c6fa466059df49f2717c021d306" category="cell">Cloud Central 또는 Cloud Secure에서 로그아웃하고 Cloud Insights에서 자동으로 로그아웃했습니다.</block>
-  <block id="7a8624fb56224e907698f45ef2e4cc47" category="cell">NetApp 클라우드에서 SSO(Single Sign-On)를 사용하면 모든 Cloud Insights, Cloud Secure 및 보고 세션이 로그아웃됩니다. 여러 Cloud Insights 계정에 액세스할 수 있는 경우 한 계정에서 로그아웃하면 모든 활성 세션이 로그아웃됩니다. 계정에 액세스하려면 다시 로그인하십시오.</block>
   <block id="6db6d0d20a3dd35029f13f472f68dbbd" category="cell">며칠 후에 자동으로 로그아웃되었습니다.</block>
-  <block id="ed6e79e2f9b9c201ed834c6efeb7f356" category="cell">NetApp Cloud 어카운트는 몇 일마다 재인증을 요구합니다(현재 Cloud Central 설정은 7일). 계정에 액세스하려면 다시 로그인하십시오.</block>
   <block id="8b6ee0d30d0749811a1b65835a1d82ad" category="cell">"더 이상 로그인할 수 없습니다"라는 오류 메시지가 나타납니다.</block>
-  <block id="acf29dcaa06698c29122cba5402e3145" category="cell">계정 관리자에게 문의하여 Cloud Insights에 대한 액세스 권한을 확인하십시오. Cloud Central 프로필 이메일 주소가 Cloud Insights 환영 이메일에 표시된 이메일 주소와 일치하는지 확인하십시오</block>
   <block id="96121ba0b77816de52c6e906145fa0f1" category="cell">기타 로그인 오류</block>
   <block id="f4300936bf66917c778b4197c0a05315" category="cell">Chrome에서 시크릿 모드를 시도하거나 브라우저 기록, 쿠키 및 캐시를 지웁니다. 다른 브라우저 프로필(예 Chrome - 사람 추가).</block>
   <block id="8e4250e46b39cafa83925c4406214353" category="paragraph">활성 Cloud Insights 구독이 있는 경우 다음 지원 옵션을 사용할 수 있습니다.</block>
@@ -6665,7 +6642,6 @@
   <block id="b7ead3a19a9e810bd9a56c2d0ba0970d" category="paragraph">각 위젯은 위젯의 오른쪽 상단 모서리에 자동 새로 고침 간격을 표시합니다.</block>
   <block id="2d5591e725889a349c977cc4e7cae6db" category="paragraph">사용자 지정 대시보드 시간 범위에는 자동 새로 고침을 사용할 수 없습니다.</block>
   <block id="b9aa7ebd34479fa35d4742937dc6d82d" category="paragraph">TV 모드 * 와 함께 사용할 경우 자동 새로 고침을 통해 대시보드 또는 자산 페이지에 거의 실시간으로 데이터를 표시할 수 있습니다. TV 모드는 간결한 화면을 제공합니다. 탐색 메뉴는 숨겨져 있으며, 편집 단추처럼 데이터 디스플레이에 더 많은 화면 공간을 제공합니다. TV 모드는 인증 보안 프로토콜에 의해 수동 또는 자동으로 로그아웃될 때까지 디스플레이를 라이브로 유지하는 일반적인 Cloud Insights 시간 제한을 무시합니다.</block>
-  <block id="9fd11a00d0217c79c8723171888d8b89" category="admonition">NetApp Cloud Central은 사용자 로그인 시간 제한이 7일이므로 Cloud Insights도 해당 이벤트에 대해 로그아웃해야 합니다. 다시 로그인하면 대시보드가 계속 표시됩니다.</block>
   <block id="a5c9402f6bc75dd26f443654668a4a43" category="inline-image-macro">TV 모드</block>
   <block id="03d1874e32a13bf5497f4e8dffa69f6f" category="list-text">TV 모드를 활성화하려면 를 클릭합니다 <block ref="72428a0fd2f81e10aeae46bebf0ee590" category="inline-image-macro-rx" type="image"></block> 단추를 클릭합니다.</block>
   <block id="071f107bd9f41c0ac7ee5100c0d752b8" category="inline-image-macro">종료 버튼</block>
@@ -6815,7 +6791,6 @@
   <block id="b035f264e2d66667aac580634dbe607d" category="list-text">권한을 읽기/쓰기로 설정합니다.</block>
   <block id="8cf4a3bec43eb5523f7aebc751974a95" category="list-text">욕망 만료 날짜를 설정합니다.</block>
   <block id="180ebf1ad2f81cbd9a8112c041856a19" category="list-text">"저장"을 클릭한 다음 * 키를 복사하여 안전한 곳에 저장합니다 *. 나중에 전체 키에 액세스할 수 없습니다.</block>
-  <block id="a60abfe03b8079f9f0eac07879fdf93b" category="paragraph">APIkeys는 _Sync_or_Async_에 적합합니다.</block>
   <block id="3d62db14635eb8da302c8e072258a87b" category="section-title">테이블 직접 쿼리</block>
   <block id="461dd189a57c1dc872768b7c8d5359aa" category="paragraph">API 키가 있으면 이제 보고 데이터베이스의 직접 쿼리를 수행할 수 있습니다. 긴 URL은 전체 \https://&lt;Cloud Insights URL &gt; /REST/v1/dWh-management/OData/ 대신 표시 목적으로 \https://.../odata/ 으로 단순화될 수 있습니다</block>
   <block id="a2a3fc9e51cdd71061084aa6403ef9df" category="paragraph">과 같은 간단한 쿼리를 사용해 보세요</block>
@@ -7868,7 +7843,6 @@
   <block id="fdf597bf8083a921059736ff839ffae8" category="section-title">NFS에 대한 IP를 수동으로 복구합니다</block>
   <block id="b368496b943e902a72e3e0bed2267ee2" category="cell">정책을 수정할 수 없습니다. 원인: 해당 명령에 대해 권한이 없습니다.</block>
   <block id="b0b134473b7922feefa2eaac79b9fb75" category="cell">CsUser 사용 시, 위에서 설명한 대로 사용자에게 권한이 부여되는지 확인</block>
-  <block id="a9a216fbb1fb9d774e7cedfcf74c00cf" category="cell">에서 티켓을 엽니다<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block>. “cloud.netapp.com &gt; 계정/로그인 문제” 또는 “cloud.netapp.com &gt; 페더레이션 문제”를 선택합니다. 특히, Cloud Central 문제 또는 질문을 위한 것입니다. 기타 모든 Cloud Insights 기술 지원 문제는 에 문의하십시오 <block ref="1a8b44ad735b0e8f3f08395032e9cb16" category="inline-link-macro-rx"></block>.</block>
   <block id="abd4328c725637aabedbd02d3b7ffd40" category="cell">양방향</block>
   <block id="8334797b9b3383d4f48d98178b8845ea" category="inline-link-macro">이 페이지</block>
   <block id="116c0009f8a6c3650a8638213dafb58f" category="cell">Data Collector 페이지에서 오류를 제공하는 데이터 수집기의 오른쪽으로 스크롤하고 3개의 점 메뉴를 클릭합니다. 편집 _ 을(를) 선택합니다. 데이터 수집기의 암호를 다시 입력합니다. Save _ 버튼을 눌러 데이터 수집기를 저장합니다. Data Collector가 다시 시작되고 오류가 해결되어야 합니다. 2.Agent 시스템이 CPU 또는 RAM 여유 공간이 부족할 수 있습니다. 이것이 바로 DSC가 실패하는 이유입니다. 시스템의 에이전트에 추가되는 데이터 수집기 수를 확인하십시오. 20개를 초과하는 경우 Agent 시스템의 CPU 및 RAM 용량을 늘리십시오. CPU와 RAM이 증가되면 DSC가 초기화 중 상태로 전환되었다가 자동으로 실행 상태로 전환됩니다. 의 사이징 가이드를 참조하십시오 <block ref="d78d6535469308a93bd2a6c42408feef" category="inline-link-macro-rx"></block>.</block>
@@ -8063,7 +8037,6 @@
   <block id="c0e8766f47222b9a1596583017a6d2c7" category="paragraph">AWS는 대소문자를 구분하며, Cloud Insights는 대/소문자를 구분합니다. 따라서 Cloud Insights에서 "owner"라는 주석을 생성하고 "owner", "Owner" 및 "owner"라는 태그를 S3로 지정하면 "owner"의 S3 선택사항이 모두 Cloud Insight의 "owner" 주석에 매핑됩니다.</block>
   <block id="b58d88529471c847df19b1d8e63b1fe9" category="list-text">기본 계정 ID가 하위 계정에서 S3 세부 정보에 액세스할 수 있도록 각 하위 계정에 AWS 역할을 구성해야 합니다.</block>
   <block id="38cfe5a8a180b915d5558a3770b76e3e" category="paragraph">모범 사례: AWS Predefined_AmazonS3ReadOnlyAccess_policy를 S3 메인 계정에 할당하는 것이 좋습니다. 또한 데이터 소스에서 구성된 사용자는 AWS를 쿼리하기 위해 미리 정의된 _AWSOrganizationReadOnlyAccess_policy 이상을 할당해야 합니다.</block>
-  <block id="396149d67edd166e53b49c38f4b707ba" category="cell">필요한 NetApp 및 auth0 쿠키에 대해 제3자가 수락하도록 설정합니다. 예: Chrome에서 브라우저 URL에 "chrome://settings/cookies"를 입력합니다. "모든 쿠키 허용" 옵션을 선택합니다. * 또는 * "타사 쿠키 차단"을 선택하고 [*.] auth0.com 및 [*.] netapp.com 에 대한 예외를 추가합니다. 참고: 예외를 만들 때 "이 사이트에 타사 쿠키 포함" 옵션을 선택해야 합니다.</block>
   <block id="3e58ddc58d5563a5027058f56555ea62" category="paragraph">Cloud Insights가 주요 컴퓨팅 워크로드를 발견하지 못하면 볼륨 또는 내부 볼륨 자체가 워크로드라는 것을 알게 됩니다. 이는 까다롭고 영향을 받는 작업 부하에 모두 적용됩니다.</block>
   <block id="b6679962f8c42c1ba1776113605353b7" category="section-title">필수 성능 메트릭</block>
   <block id="024e28f9b56c22af28ebfa120fdb57f0" category="paragraph">Oracle ZFS 어플라이언스는 스토리지 관리자에게 성능 통계를 수집할 수 있는 많은 유연성을 제공합니다. Cloud Insights는 다음 메트릭을 캡처하도록 구성된 고가용성 쌍의 _Each_controller를 가지고 있어야 합니다.</block>
@@ -9348,7 +9321,6 @@
   <block id="575b95a19de7e191bf400580ceab0b27" category="cell">Solutions Enabler 서버의 데몬 구성 파일에 사용 권한이 선언되지 않은 경우 이 메시지가 표시될 수 있습니다(참조) <block ref="48ee54aab4fee6d43a8bd3ed26dff2b5" category="inline-xref-macro-rx"></block> 위) SE 클라이언트 버전이 SE 서버 버전과 일치하는 것으로 가정합니다. 이 오류는 /var/symapi/config/daemon_users 구성 파일에서 필요한 데몬 권한으로 _cisys_user(Solutions Enabler 명령을 실행하는)를 구성하지 않은 경우에도 발생할 수 있습니다. 이 문제를 해결하려면 /var/symapi/config/daemon_users 파일을 편집하고 isys 사용자에게 storapid 데몬에 대해 지정된 &lt;all&gt; 권한이 있는지 확인합니다. 예: 14:11:25#tail/var/symapi/config/daemon_users... 시스의 storapid &lt;all&gt;입니다</block>
   <block id="347129195bfdcce2fcf0d362a84ed033" category="inline-link-macro">Knowledgbase를 참조하십시오</block>
   <block id="6ad0fb78b8821fe632ae6653b56991b5" category="paragraph">프록시 구성에 대한 자세한 내용은 NetApp에서 확인할 수 있습니다 <block ref="9ee959d13eb0fcadf2047adb8fe84539" category="inline-link-macro-rx"></block>.</block>
-  <block id="21495a8ea3304b589e7d69a7ec0ce1cc" category="paragraph">Cloud Insights는 계정 소유자, 관리자, 사용자 및 게스트의 최대 4개의 사용자 계정 역할을 제공합니다. 각 계정에는 아래 표에 명시된 특정 권한 수준이 할당됩니다. 사용자는 둘 중 하나입니다 <block ref="6a05e97c185d2e103748dff93c559f3b" category="inline-link-macro-rx"></block> Cloud Insights에 로그인하여 특정 역할을 할당하거나 을 통해 로그인할 수 있습니다 <block ref="5714c3cacaaaa4fdc97a235dfa644756" category="inline-link-macro-rx"></block> 기본 역할을 사용합니다. SSO 인증은 Cloud Insights 프리미엄 에디션의 기능으로 제공됩니다.</block>
   <block id="b83a60c5de546ea3d085bb1ce6636d9a" category="inline-image-macro">랜섬웨어 경보 상단 섹션</block>
   <block id="ed862f710faf8808be6c0eb3e9619e30" category="paragraph"><block ref="4f633f9ad87e78d3d93ed9f152d5549a" category="inline-image-macro-rx" type="image"></block>
 <block ref="45e1a131f383b4a3d591b6b7f4008d87" category="inline-image-macro-rx" type="image"></block>
@@ -12818,7 +12790,6 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="90c88d106e5c777681ffd00809e3e11f" category="cell">NetApp 클러스터의 IP 주소 또는 정규화된 도메인 이름입니다. 클러스터 관리 IP/FQDN이어야 합니다.</block>
   <block id="ee57d855cd754beda08e0483c4002ab2" category="list-text">type_admin_인 가상 서버의 이름을 검색합니다. 이 이름은 이후의 명령에서 사용됩니다.</block>
   <block id="01489ea97f62d455d744d92e643e44a9" category="cell">ONTAP ontapi 수집기가 데이터를 표시하는 비어 있거나 "0" 메트릭이 표시됩니다.</block>
-  <block id="e33c3a41c8a37e74fdb59ca792c91d5a" category="cell">ONTAP REST는 ONTAP 시스템에서만 내부적으로 사용되는 메트릭은 보고하지 않습니다. 예를 들어, 시스템 애그리게이트는 ONTAP REST에서 수집되지 않고 "data" 유형의 SVM만 수집됩니다.</block>
   <block id="7e0b2932c814704a91b543d4f713d658" category="cell">Fpolicy 이벤트에 대해 ONTAP에서 워크로드 보안 에이전트로의 통신  ONTAP가 워크로드 보안 에이전트(있는 경우)에 방화벽을 포함하여 이벤트를 보내려면 이러한 포트를 워크로드 보안 에이전트에 개방해야 합니다.</block>
   <block id="a01bf0188d9c5ff4efed61a66bd7061b" category="cell">Agent에서 SVM 데이터 LIF로 에코</block>
   <block id="d6f0c62217650cf8ede1bd5e1e862b5a" category="paragraph">NetApp-CI-Telegraf-DS_,_netapp-ci-fluent-bit-DS_ 및_netapp-ci-net-observer-L4-DS_Demets는 모든 노드에서 데이터를 올바르게 수집하기 위해 클러스터의 모든 노드에 Pod를 예약해야 합니다. 운용자는 잘 알려진 일부 * 얼룩을 견딜 수 있도록 구성되었습니다. 노드에서 사용자 지정 얼룩을 구성하여 모든 노드에서 Pod가 실행되지 않도록 하는 경우 이러한 얼룩에 대해 * 공차 * 를 생성할 수 있습니다 <block ref="dc90f93af5ccf5020646213d9b7d2c3d" category="inline-link-macro-rx"></block>. 클러스터의 모든 노드에 사용자 지정 얼룩을 적용한 경우 운영자 포드를 예약 및 실행할 수 있도록 운영자 구축에 필요한 허용 오차도 추가해야 합니다.</block>
@@ -12860,7 +12831,6 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="6e79cf0edf33ec7a0066155d964eeb57" category="list-text">Cloud Insights 메뉴에서 * 관측성 &gt; 수집기 * 를 클릭하고 * + Data Collector * 버튼을 클릭합니다.</block>
   <block id="710ec696cccefe4c3faa1d7ebf8fca87" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Kibana를 선택합니다.</block>
   <block id="c71f6654a45927e285ab22a697438b43" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. MongoDB를 선택하십시오.</block>
-  <block id="2e95a4622d16ffb729672b5838f5732b" category="paragraph">Cloud Insights로 작업을 시작하려면 * NetApp BlueXP * 포털에 등록해야 합니다. BlueXP 로그인을 이미 보유하고 있는 경우 몇 단계를 빠르게 진행하여 Cloud Insights 무료 평가판을 시작할 수 있습니다.</block>
   <block id="5bff30d13ce98c505187872963af1f25" category="section-title">NetApp BlueXP 계정 생성</block>
   <block id="f21c4669cdc7c8b69bb7b9e4f65412b9" category="paragraph">환경 생성이 완료되면 BlueXP 자격 증명을 사용하여 로그인하여 Cloud Insights 30일 무료 평가판을 시작할 수 있습니다. 이 평가판을 통해 Cloud Insights에서 제공하는 기능을 살펴볼 수 있습니다.</block>
   <block id="43e7ba0a52e8b0f8e52ee853f0e4ece5" category="paragraph">환경이 생성되면 언제든지 NetApp BlueXP 포털에 로그인하고 * Go to Cloud Insights * 를 클릭하기만 하면 됩니다. Cloud Insights 환경으로 바로 이동합니다.</block>
@@ -12869,9 +12839,6 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="8463a61dd94ff5934036d4c8a8936e32" category="section-title">비활성 시간 초과</block>
   <block id="db7d4581c8073d9c4dda50c4994c4383" category="paragraph">기본적으로 BlueXP는 6시간(360분) 동안 활동이 없는 경우 사용자를 로그아웃합니다. 활동에 관계없이 사용자는 7일 후에 로그아웃됩니다.</block>
   <block id="6670eac4232d1c66e6c936fe67e52aff" category="section-title">NetApp BlueXP 로그인을 이미 가지고 있는 경우에는 어떻게 해야 합니까?</block>
-  <block id="e3ad3e57d0a33a78b565817ed4710dea" category="inline-link-macro">BlueXP 로그인</block>
-  <block id="b00323e3fc84f69070c5dc2be8e5ce9e" category="paragraph">Cloud Insights에서 로그아웃하려면 * 사용자 이름 * 을 클릭하고 * 로그아웃 * 을 선택합니다. 로 돌아갑니다 <block ref="8d1c4f3c88725cbe8b8d86c07fb5d410" category="inline-link-macro-rx"></block> 화면.</block>
-  <block id="4405c285662a5ac6f84ad517037907a7" category="admonition">Cloud Insights에서 로그아웃하면 BlueXP에서 로그아웃됩니다. BlueXP 로그인을 사용하는 다른 NetApp 클라우드 서비스에서도 로그아웃됩니다.</block>
   <block id="e04813a849ce9da2afe9f3bfcaf85f0e" category="cell">참/거짓 - Kubernetes 노드에서 SELinux가 활성화된 경우 runprivileged 를 true 로 설정합니다.</block>
   <block id="5c7af4a6b686285084e62f255503c141" category="cell">프록시
 
@@ -13090,4 +13057,70 @@ kubectl get all -n &lt;namespace&gt; | grep -i psp (아무것도 발견되지 �
   <block id="1a565d9a88c6cc1a17ed9ec577431947" category="paragraph">Cloud Insights에는 Collector의 옵션으로 ONTAP 클러스터 스위치 데이터를 수집하는 기능이 있습니다 <block ref="0a74ef7985c5cbe5eb3ab6c199d26582" category="inline-xref-macro-rx"></block> 설정. Cloud Insights Collector에서 이 기능을 활성화하는 것 외에도 ONTAP 시스템 * 자체에서 제공할 수 있도록 구성해야 합니다 <block ref="d459f31dbd039334427e234b6edb8373" category="inline-link-macro-rx"></block>를 선택하고 가 올바른지 확인합니다 <block ref="e83cb79e34a9adb49ab5c30ebb0b6c54" category="inline-xref-macro-rx"></block> 스위치 데이터를 Cloud Insights로 전송할 수 있도록 설정됩니다.</block>
   <block id="e77307796c2832560f84fa94d82cd573" category="list-text">Rubrik 클러스터 IP 주소 또는 호스트 이름.</block>
   <block id="fb36183a15285a9f1f23d79072c763f7" category="list-text">기본 인증의 경우 클러스터에 대한 사용자 이름과 암호가 필요합니다. 서비스 계정 기반 인증을 사용하려면 서비스 계정, 암호 및 조직 ID가 필요합니다</block>
+  <block id="07564ad1af1bd4ed017ae241054bd345" category="paragraph">Cloud Insights는 계정 소유자, 관리자, 사용자 및 게스트의 최대 4개의 사용자 계정 역할을 제공합니다. 각 계정에는 아래 표에 명시된 특정 권한 수준이 할당됩니다.  사용자는 둘 중 하나입니다 <block ref="6a05e97c185d2e103748dff93c559f3b" category="inline-link-macro-rx"></block> Cloud Insights에 로그인하여 특정 역할을 할당하거나 을 통해 로그인할 수 있습니다 <block ref="47c69771a9bdd41067d8486727a07273" category="inline-link-macro-rx"></block> 기본 역할을 사용합니다. SSO 인증은 Cloud Insights 프리미엄 에디션의 기능으로 제공됩니다.</block>
+  <block id="2e28d2e91336191eb4cfb9f135bf4ce2" category="paragraph">새 사용자 계정은 BlueXP를 통해 생성됩니다. 사용자는 이메일을 통해 보낸 초대에 응답할 수 있지만 BlueXP 계정이 없는 경우 사용자는 BlueXP 초대를 수락할 수 있도록 BlueXP에 등록해야 합니다.</block>
+  <block id="d26ae26dfaa208a028ca6437966e9b43" category="section-title">ID 페더레이션이란 무엇입니까?</block>
+  <block id="08f656c4c33fd00fad5ab1ef569dae11" category="list-text">사용자는 모든 NetApp BlueXP 서비스(단일 사인온)에 한 번 로그인합니다.</block>
+  <block id="02f6b1d6847323521b6d5dfdeb3f5dbf" category="paragraph">모든 클라우드 서비스의 NetApp BlueXP에서 사용자 계정을 관리합니다. 기본적으로 인증은 BlueXP 로컬 사용자 프로필을 통해 수행됩니다. 다음은 이 프로세스에 대한 간단한 개요입니다.</block>
+  <block id="58ccf39c430354a2330777ebbfdc320c" category="inline-image-macro">로컬을 사용한 BlueXP 인증</block>
+  <block id="6e7c9d2ac3ef07c7bcfe628147140973" category="paragraph"><block ref="6e7c9d2ac3ef07c7bcfe628147140973" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1efb7531b4ff57cf7e5dad319f452ce8" category="paragraph">그러나 일부 고객은 자체 ID 공급자를 사용하여 Cloud Insights 및 다른 NetApp BlueXP 서비스에 대한 사용자를 인증하려고 합니다. ID 페더레이션을 사용하면 NetApp BlueXP 계정은 회사 디렉터리의 자격 증명을 사용하여 인증됩니다.</block>
+  <block id="34dde67853699a7c5e92b37ac717d586" category="inline-image-macro">Federation을 사용한 BlueXP 인증</block>
+  <block id="14bf8864e0c03f214a9531c84f7509ff" category="paragraph"><block ref="14bf8864e0c03f214a9531c84f7509ff" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="41f5e02dabb202e2e56ff56a913cc88b" category="section-title">ID 페더레이션을 사용하도록 설정하는 중입니다</block>
+  <block id="76ef581d75f4d1e4d3bdceeb091433ef" category="inline-link-macro">BlueXP Federation 지침</block>
+  <block id="f68beb94c4510489905761611b802b02" category="paragraph">BlueXP는 Auth0을 사용하여 Identity Federation을 구현하고 ADFS(Active Directory Federation Services) 및 Microsoft Azure AD(Active Directory) 등의 서비스와 통합됩니다. ID 페더레이션을 구성하려면 을 참조하십시오 <block ref="dcb213271585f680aa429c2cd0d8d64f" category="inline-link-macro-rx"></block>.</block>
+  <block id="e806ab1149571cd13505dfbc97c18648" category="admonition">Cloud Insights에서 SSO를 사용하려면 먼저 BlueXP ID 페더레이션을 구성해야 합니다.</block>
+  <block id="3d447ee9850a212906099a2f2e71dd7b" category="paragraph">BlueXP의 변화하는 ID 페더레이션이 Cloud Insights뿐만 아니라 모든 NetApp BlueXP 서비스에도 적용된다는 것을 이해하는 것이 중요합니다. 고객은 자신이 소유한 각 BlueXP 제품의 NetApp 팀과 이 변경 사항에 대해 논의하여 사용 중인 구성이 ID Federation과 연동되는지 또는 계정을 조정해야 하는 경우. 고객은 ID 페더레이션의 변경에 내부 SSO 팀을 참여시켜야 합니다.</block>
+  <block id="9ebe3356d760f8536e9bb24151537fda" category="paragraph">또한 ID 페더레이션이 활성화되면 회사 ID 공급자를 변경(SAML에서 Microsoft AD로 이동)할 때 사용자 프로필을 업데이트하기 위해 BlueXP의 문제 해결/변경/주의가 필요할 수 있음을 인지해야 합니다.</block>
+  <block id="5688f19f1e497727b537222451f54cc6" category="paragraph">이 문제나 다른 페더레이션 문제에 대해 에서 지원 티켓을 열 수 있습니다<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block> "bluexp.netapp.com &gt; Federation Issues" 범주를 선택합니다.</block>
+  <block id="1290a9c844484dfb0ecb66679bb02236" category="admonition">_SSO 사용자 자동 프로비저닝 _ 은(는) Cloud Insights 프리미엄 에디션에서 사용할 수 있으며 Cloud Insights에 대해 사용하려면 먼저 구성해야 합니다. SSO 사용자 자동 프로비저닝 구성에는 이 포함됩니다 <block ref="822fb5372050010317b40dcb63a546f0" category="inline-link-macro-rx"></block> 위의 섹션에 설명된 것처럼 NetApp BlueXP를 이용함으로써 페더레이션을 사용하면 SAML(Security Assertion Markup Language) 및 OIDC(OpenID Connect)와 같은 공개 표준을 사용하여 기업 디렉터리의 자격 증명을 사용하여 NetApp BlueXP 계정에 액세스할 수 있습니다.</block>
+  <block id="5f47dcd3204dc1bc6c36abf1ce4be4cc" category="paragraph">SSO 사용자 자동 프로비저닝 _ 을(를) 구성하려면 * 관리자 &gt; 사용자 관리 * 페이지에서 먼저 BlueXP ID 페더레이션을 설정해야 합니다. 배너에서 * Set Up Federation * 링크를 선택하여 BlueXP Federation으로 이동합니다. 구성이 완료되면 Cloud Insights 관리자가 SSO 사용자 로그인을 활성화할 수 있습니다. 관리자가 _SSO 사용자 자동 프로비저닝_ 을(를) 사용하도록 설정할 경우, 모든 SSO 사용자(예: 게스트 또는 사용자)의 기본 역할을 선택합니다. SSO를 통해 로그인하는 사용자는 이 기본 역할을 갖게 됩니다.</block>
+  <block id="bbeb55e7d4d240b66f4ca24218cf7de0" category="admonition">NetApp BlueXP의 사용자 로그인 시간 제한은 7일이므로 Cloud Insights도 이 이벤트를 사용하여 로그아웃해야 합니다. 다시 로그인하면 대시보드가 계속 표시됩니다.</block>
+  <block id="10c296499c1a789621926ca2df89bad4" category="paragraph">사용자 승인과 관련된 데이터를 비롯하여 NetApp BlueXP가 지역 Cloud Insights 사이트와 통신할 수 있도록 지원하는 인증 및 액세스 정보</block>
+  <block id="32b8c42dbc2b21fb7881d9a36bb2727a" category="list-text">사용자 승인과 관련된 모든 작업을 포함하여 NetApp BlueXP가 지역 Cloud Insights 사이트와 통신할 수 있도록 해 주는 정보</block>
+  <block id="c8c46afa6f003113c7d643310bade896" category="inline-xref">_Sync_ 또는 _Async_</block>
+  <block id="54ebec075b0ae24d1fe36b1a78b7014f" category="paragraph">APIkeys는 에 적합합니다 <block ref="9966ea080d2324311c0da20a04f19491" category="inline-xref-macro-rx"></block>.</block>
+  <block id="1c545b4af283ca5836cafe431d1ea06a" category="section-title">동기식 또는 비동기식?</block>
+  <block id="1f5c701838fc1e9c08d402a2d3562c8c" category="paragraph">기본적으로 API 명령은 _synchronous_mode에서 작동하므로 요청을 보내고 응답이 즉시 반환됩니다. 그러나 쿼리를 실행하는 데 시간이 오래 걸릴 수 있으므로 요청 시간이 초과될 수 있습니다. 이 문제를 해결하려면 요청을 비동기적으로 _ 실행할 수 있습니다. 비동기 모드에서 요청은 실행을 모니터링할 수 있는 URL을 반환합니다. URL이 준비되면 결과가 반환됩니다.</block>
+  <block id="3559171ac28b17714bc92816d17b2a17" category="paragraph">비동기 모드에서 쿼리를 실행하려면 머리글을 추가합니다<block ref="1f82ebaa5a99226ba28d8d76ae41a3f8" prefix=" " category="inline-code"></block> 요청에 보냅니다. 성공적으로 실행되면 응답에 다음 헤더가 포함됩니다.</block>
+  <block id="a84e9c9e2352076ba01af70b577a7e6e" category="paragraph">위치 URL을 쿼리하면 응답이 아직 준비되지 않은 경우 동일한 헤더가 반환되고 응답이 준비되면 상태 200으로 반환됩니다. 응답 내용은 텍스트 형식이며 원본 쿼리의 http 상태와 일부 메타데이터를 포함하고 그 다음에 원본 쿼리의 결과가 나옵니다.</block>
+  <block id="b0ed84b2f2f19c2de4e5ffef83497b41" category="paragraph">모든 비동기 쿼리 목록과 준비된 쿼리를 보려면 다음 명령을 사용합니다.</block>
+  <block id="699058fd0a28bd24bd4721ecd1db6615" category="paragraph">응답의 형식은 다음과 같습니다.</block>
+  <block id="1d87793fac8c219c888ab86c18c15b01" category="cell">필요한 NetApp 및 auth0 쿠키에 대해 제3자가 수락하도록 설정합니다.
+
+예:
+Chrome에서 브라우저 URL에 "chrome://settings/cookies"를 입력합니다.
+
+"모든 쿠키 허용" 옵션을 선택합니다.
+* 또는 *
+"타사 쿠키 차단"을 선택하고 [\ *.]auth0.com 및 [ *.]netapp.com 에 대한 예외를 추가합니다.
+
+참고: 예외를 만들 때 "이 사이트에 타사 쿠키 포함" 옵션을 선택해야 합니다.</block>
+  <block id="8ff0a6baa556dcfc21fcb29db0eff472" category="cell">BlueXP 계정이 있지만 BlueXP에 로그인할 수 없습니다.</block>
+  <block id="11412b458ed06c197e73ff0aaecb2e6c" category="cell">에서 티켓을 엽니다<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block>. "blueXP.netapp.com &gt; 계정/로그인 문제" 또는 "bluexp.netapp.com &gt; 페더레이션 문제" 범주를 선택합니다.  이는 특히 BlueXP 문제 또는 질문을 대상으로 한 것입니다.
+기타 모든 Cloud Insights 기술 지원 문제는 에 문의하십시오 <block ref="1a8b44ad735b0e8f3f08395032e9cb16" category="inline-link-macro-rx"></block>.</block>
+  <block id="14c4408fc03fb9285fba74c7c30e2a8d" category="cell">BlueXP 계정에 등록했는지 또는 조직에서 BlueXP를 통해 SSO 로그인을 사용하는지 확인하십시오.
+
+BlueXP 프로필 이메일 주소가 Cloud Insights 환영 이메일에 표시된 이메일 주소와 일치하는지 확인하십시오. 이메일이 일치하지 않으면 올바른 이메일 주소로 새 초대를 요청하십시오.</block>
+  <block id="1b58998adf7a89d496bd43804045852f" category="cell">BlueXP에서 로그아웃하고 Cloud Insights에서 자동으로 로그아웃되었습니다.</block>
+  <block id="3cb73ed658069638368ac0c0f59b6393" category="cell">NetApp 클라우드 서비스 전체에서 SSO(Single Sign-On)가 모든 Cloud Insights 세션을 로그아웃합니다. 여러 Cloud Insights 계정에 액세스할 수 있는 경우 한 계정에서 로그아웃하면 모든 활성 세션이 로그아웃됩니다. 계정에 액세스하려면 다시 로그인하십시오.</block>
+  <block id="d6d54ee6b6dfdd2783aff066e96f7330" category="cell">NetApp 클라우드 계정은 며칠 간격으로 다시 인증해야 합니다(현재 BlueXP 설정은 7일). 계정에 액세스하려면 다시 로그인하십시오.</block>
+  <block id="73fa543b200644c9d90cfad28a8def24" category="cell">계정 관리자에게 문의하여 Cloud Insights에 대한 액세스 권한을 확인하십시오.
+BlueXP 프로필 이메일 주소가 Cloud Insights 환영 이메일에 표시된 이메일 주소와 일치하는지 확인하십시오</block>
+  <block id="d5d48d5f4dfc82bc722dda03c00023b2" category="cell">ONTAP REST는 ONTAP 시스템에서만 내부적으로 사용되는 메트릭은 보고하지 않습니다. 예를 들어, 시스템 애그리게이트는 ONTAP REST에서 수집되지 않고 "data" 유형의 SVM만 수집됩니다.
+
+0개 또는 빈 데이터를 보고할 수 있는 ONTAP REST 메트릭의 다른 예:
+
+InternalVolumes: Rest가 vol0을 더 이상 보고하지 않습니다.
+집계: REST가 더 이상 aggr0을 보고하지 않습니다.
+스토리지: 대부분의 메트릭은 내부 볼륨 메트릭의 롤업이며 위의 영향을 받습니다.
+스토리지 가상 시스템: REST는 더 이상 '데이터'(예: '클러스터', 'GMT', '노드')가 아닌 SVM 유형을 보고하지 않습니다.
+
+또한 기본 성능 폴링 기간이 15분에서 5분으로 변경되어 데이터가 있는 그래프의 모양이 변경될 수 있습니다.  폴링 빈도가 높으면 더 많은 데이터 포인트를 표시할 수 있습니다.</block>
+  <block id="fa3c2d77fbba0d391ebafed4f6bf2cb1" category="paragraph">Cloud Insights로 작업을 시작하려면 * NetApp BlueXP * 포털에 등록해야 합니다. NetApp BlueXP 로그인을 이미 보유하고 있는 경우 몇 단계를 빠르게 수행하여 Cloud Insights 무료 평가판을 시작할 수 있습니다.</block>
+  <block id="73d58318fd6991da49fe32dc00a56f19" category="paragraph">Cloud Insights에서 로그아웃하려면 * 사용자 이름 * 을 클릭하고 * 로그아웃 * 을 선택합니다. BlueXP 로그인 화면으로 돌아갑니다.</block>
+  <block id="201ec49877bf4303e362a0aac3add32b" category="admonition">Cloud Insights에서 로그아웃하면 BlueXP에서 로그아웃됩니다. BlueXP 로그인을 사용하는 다른 NetApp 클라우드 서비스에서도 로그아웃됩니다.</block>
+  <block id="d7a21ae00693a409dd262b09be87f4f7" category="paragraph">예: _ 사용자 * Tony Lavoie * 는 * 10.1.120.15 * 에서 로그인했으며 사용자 에이전트 * Mozilla/5.0(Windows NT 10.0; Win64; x64) AppleWebKit/537.36(KHTML, Gecko 등) Chrome/85.0.4183.121 Safari/537.36 *, 로그인 방법 * BlueXP 포털 로그인 _ *</block>
+  <block id="2cff43f0f641bc8705f38ceb3049b8ca" category="sidebar">관리자 및 기타 작업</block>
 </blocks>
