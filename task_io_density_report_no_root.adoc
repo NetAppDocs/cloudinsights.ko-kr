@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: task_isolate_root_volume.html 
+permalink: task_io_density_report_no_root.html 
 summary: 입출력 밀도가 높은 경우 루트 볼륨을 제외하려는 경우 
 keywords: NetApp, root volume, high I/O, 
 ---

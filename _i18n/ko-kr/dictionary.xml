@@ -2379,41 +2379,19 @@
   <block id="993bb582982b324ee6465cc1d0c1a2bd" category="paragraph">사용자 지정 시간 범위를 사용하면 최대 31일 연속 선택할 수 있습니다. 이 범위에 대한 시작 시간 및 종료 시간을 설정할 수도 있습니다. 기본 시작 시간은 선택한 첫 번째 날짜의 오전 12:00이고 기본 종료 시간은 선택한 마지막 날짜의 오후 11:59입니다. 적용 을 클릭하면 자산 페이지에 사용자 지정 시간 범위가 적용됩니다.</block>
   <block id="4feea054535349a31f7c12b7dcbc4d2b" category="section-title">사용자 지정 위젯을 추가합니다</block>
   <block id="2c6503d76e77d1cf4b2836c66fb29d6e" category="paragraph">자체 위젯을 모든 자산 페이지에 추가할 수 있습니다. 추가한 위젯은 해당 유형의 모든 객체에 대한 자산 페이지에 표시됩니다. 예를 들어 스토리지 자산 페이지에 사용자 지정 위젯을 추가하면 모든 스토리지 자산에 대한 자산 페이지에 해당 위젯이 표시됩니다.</block>
-  <block id="e5f2463f379aba48a0f9ca6c913203cc" category="summary">IO 밀도</block>
-  <block id="169c132355ddfd9b9cf9d499b71aeb68" category="doc">입출력 밀도 데이터가 내부 데이터 볼륨만 기술하도록 보장</block>
-  <block id="7bb98d35c109da2ebbaa1c7a65d3f399" category="paragraph">NetApp 스토리지 시스템에서 루트 애그리게이트에는 루트 볼륨이 포함되어 있으며 스토리지 시스템을 관리 및 제어하기 위한 특수 디렉토리와 구성 파일이 포함되어 있습니다. 이러한 작업은 루트 집계에서 많은 양의 작업을 초래할 수 있습니다. IO 밀도가 가장 높은 상위 10개 내부 볼륨에 대해 Cloud Insights을 쿼리하면 상위 10개의 멤버로 NetApp 루트 애그리게이트를 포함할 수 있습니다.</block>
   <block id="7a1632b55f7e986af31872ad12602af6" category="paragraph">환경을 모니터링할 때 높은 I/O 밀도를 생성하는 내부 데이터 볼륨을 확인하는 것이 더 중요합니다. 데이터 볼륨만 정확하게 식별하려면 NetApp 내부 볼륨을 I/O 밀도를 모니터링하는 데 사용하는 쿼리와 격리해야 합니다.</block>
-  <block id="46b224de326ea16a55f2530720d59843" category="paragraph">이 가이드에서는 NetApp 루트 애그리게이트를 쉽게 식별하고, 내부 볼륨 쿼리 결과에서 해당 애그리게이트를 파악하고, 새 NetApp 루트 애그리게이트를 시스템에 추가할 때 제외하는 규칙을 생성하는 방법에 대해 설명합니다. 다음 Cloud Insights 기능은 I/O 밀도 보고서가 내부 데이터 볼륨에서 파생되도록 하는 데 사용됩니다.</block>
-  <block id="ea13f09d1bfd316504e8a7c0dfcf2fb4" category="list-text">쿼리가 생성되어 Cloud Insights에서 모니터링하는 모든 NetApp 루트 애그리게이트를 식별합니다.</block>
   <block id="8700faa20755e344888acd970889234f" category="list-text">각 NetApp 루트 애그리게이트에 하나의 주석이 할당됩니다.</block>
-  <block id="289afca30f86dfd5f20fe4a89589b1db" category="list-text">NetApp 루트 애그리게이트를 제외할 주석 규칙이 생성됩니다.</block>
   <block id="7bd58bbae4d324679ac6d2e2c28b03bc" category="section-title">사용자 환경에서 NetApp 루트 애그리게이트를 식별하는 쿼리를 생성합니다</block>
   <block id="9f8d4499d918e16a737d6bf8d37dbddb" category="paragraph">쿼리는 사용자가 선택한 기준에 따라 세분화된 수준으로 검색을 제공합니다. 쿼리를 사용하여 NetApp 루트 애그리게이트가 포함된 환경에서 내부 볼륨을 검색할 수 있습니다.</block>
-  <block id="c0bea941d1547f078dda6774ee69c9dd" category="list-text">Cloud Insights에서 쿼리를 생성하여 * 쿼리 &gt; + 새 쿼리 &gt; 스토리지 풀 * 에서 NetApp 루트 애그리게이트를 식별합니다</block>
   <block id="f8b3cf53a4e69e8d205a5c6f4a5dd4c8" category="list-text">루트 애그리게이트의 이름을 입력합니다</block>
-  <block id="68eef2c4bf0c1205a9d57f62ff34da2c" category="paragraph">이 예제에서는 이름에 "aggr0"을 사용합니다. Aggregate를 생성할 때 이름의 다음 요구 사항만을 따라야 합니다.</block>
-  <block id="908b60c3be27b2357fa1238e02988f51" category="list-text">문자 또는 밑줄(_)으로 시작해야 합니다.</block>
-  <block id="aadc1aba5d247eca2f42714ed5bcd8cf" category="list-text">문자, 숫자 및 밑줄만 포함할 수 있습니다.</block>
-  <block id="7ce969a0dacdf30d2053f97537327dfe" category="list-text">250자 이하일 수 있습니다.</block>
-  <block id="ddc5fe45a1f8c76f3176ef59297915a5" category="paragraph">대부분의 경우 Aggregate는 aggr0, aggr_0 또는 이와 유사한 이름을 사용합니다. 사용자 환경에서 모든 NetApp 루트 애그리게이트를 식별하려면 반복적인 프로세스가 필요할 수 있습니다.</block>
   <block id="681dee9bbf117a59d6590ee3c6051976" category="list-text">저장 * 을 클릭하고 새 쿼리의 이름을 입력합니다.</block>
   <block id="3ed6c78a3c2f0d621e647df2b3796fca" category="paragraph">앞에서 설명한 대로 이 프로세스는 반복 프로세스이며 모든 NetApp 루트 애그리게이트를 확인하기 위해 여러 쿼리가 필요합니다.</block>
   <block id="783606c01e3c46054cfad5b469434086" category="section-title">쿼리에서 반환된 루트 볼륨에 대한 주석을 생성합니다</block>
-  <block id="36460e710952fbc968c76ef4e9f3d51e" category="paragraph">주석은 자산에 할당하는 특수 노트로서 주석을 기준으로 자산을 필터링할 수 있습니다. 생성하는 주석은 사용자 환경에서 NetApp 루트 애그리게이트를 파악하고, IO 밀도가 가장 높은 내부 볼륨 목록에 포함되지 않도록 하는 데 사용됩니다.</block>
   <block id="42551f0bbf0137c002ae83a65e5ca80e" category="paragraph">"높은 I/O 밀도" 보고서에서 제외할 루트 애그리게이트를 모두 식별해야 합니다.</block>
-  <block id="019f9302ad1b005fa5fa6e0bdda042c7" category="list-text">쿼리로 식별된 모든 NetApp 루트 애그리게이트를 연결하는 주석을 생성합니다. * 관리 &gt; 주석 *</block>
   <block id="e63d06501304a9c184018eb58a729103" category="list-text">주석의 이름을 * RootAggregr * 로 입력합니다</block>
-  <block id="554a808ec0af233c17e7e70b43072e1f" category="list-text">주석에 대한 설명을 입력합니다. * "높은 I/O 밀도" 목록에서 루트 애그리게이트 제거 *</block>
   <block id="e3d01768f4feeb31194225e495d78ad9" category="list-text">주석 유형 * 부울 * 을 입력합니다</block>
   <block id="216cccf9a11330381ead4d645bc105a9" category="section-title">I/O 밀도 보고서에서 특정 애그리게이트를 제외하도록 주석 규칙을 생성합니다</block>
-  <block id="146fab5bc96cd6aa587f1c2a260a7b70" category="paragraph">개별 자산에 주석을 수동으로 적용하는 대신 주석 규칙을 사용하여 여러 자산에 주석을 자동으로 적용할 수 있습니다. 주석 규칙은 사용자가 만든 쿼리를 기반으로 하며 시스템에서 실행할 때 기존 자산 집합에 새 자산을 추가합니다. 이러한 자산 세트를 포함에서 제외하면 새 자산도 자동으로 제외됩니다.</block>
-  <block id="6273dfead9d8cac501012af839fb8f91" category="paragraph">사용자 환경에서 식별한 NetApp 루트 애그리게이트를 식별하는 쿼리를 작성하여 저장해야 합니다.</block>
-  <block id="21611fc590adaaf65bfbe5d847c57bdd" category="list-text">Cloud Insights 메뉴에서 * 관리 &gt; 주석 * 을 클릭합니다</block>
   <block id="cd55bfd42602b8f720a9d41caf148f78" category="list-text">추가 * 를 클릭합니다</block>
-  <block id="d6bed7bad1624af0fa9be87684edae09" category="list-text">이름 상자에 규칙을 설명하는 고유한 이름 * RootAggrExclude * 를 입력합니다</block>
-  <block id="d5e6634ae4019ea4993c5fee3a276807" category="list-text">Query를 클릭하고 Cloud Insights가 주석 규칙을 적용할 때 사용해야 하는 Query를 * Aggregate0 * 으로 선택합니다</block>
-  <block id="a8297ead7d4d1f0590bf46a98e70b494" category="list-text">주석 을 클릭하고 * Root agg exclude * 를 선택합니다</block>
-  <block id="e62dcc88e7504fa135502828cf3f3374" category="list-text">값 * 을 클릭하고 * True * 를 입력합니다</block>
   <block id="2e846daa38d7e7ac9350b703448d2886" category="summary">모니터에 의해 트리거된 경고 보기</block>
   <block id="f00316e5ead98cd18800712fd32c80d3" category="doc">모니터에서 경고 보기 및 관리</block>
   <block id="599031b826edb36138668c214857c5ee" category="inline-link-macro">모니터링된 임계값</block>
@@ -2634,54 +2612,9 @@
   <block id="483009c845c12271e1af9e7688f6a2ad" category="cell">RHEV에 대한 HTTPS 통신에 사용되는 포트입니다</block>
   <block id="2e2b969f480baa0eb25691e2ed348b22" category="cell">기본값은 20분입니다.</block>
   <block id="96633c4bbe4066df6cca5184b0c3138c" category="doc">데이터 수집기 구성</block>
-  <block id="f2c00107b5158d2563b78a7e2ec3a970" category="paragraph">Cloud Insights 환경에서 데이터 센터에 있는 호스트, 서비스 또는 디바이스의 데이터를 수집하도록 데이터 Collector를 구성합니다.</block>
-  <block id="22265760d3379d0bb5a64374d95aa587" category="list-text">데이터 수집기를 구성하려면 계정 소유자 또는 관리자 권한이 있어야 합니다.</block>
-  <block id="b8ad8b1d3e73e72eeba197fe8cfed4ef" category="list-text">데이터 수집을 시작하려면 먼저 획득 장치(인프라트르의 경우) 또는 에이전트(서비스 또는 호스트의 경우)를 구성해야 합니다.</block>
-  <block id="b776d95fcadabfbede1f04ed42e70b38" category="list-text">데이터를 수집하는 인프라스트럭처 디바이스에 대한 자격 증명이 필요합니다.</block>
-  <block id="46b64733605b7642b18a0bb2d586bd5c" category="paragraph">데이터를 수집하려는 모든 장치에는 장치 네트워크 주소, 계정 정보 및 암호가 필요합니다.</block>
-  <block id="f4b59a337513071e6d4843f553d49bc6" category="section-title">자격 증명 보안</block>
-  <block id="4a2fd5083496ddce3be60eef8073b637" category="paragraph">데이터 수집기 자격 증명은 Cloud Insights에 입력되면 암호화되며, AU의 공개 키에 의해 먼저 암호화된 획득 장치(AU)로 전송된 다음 HTTPS를 통해 암호화됩니다. 암호화된 값은 AU가 장치 및 소프트웨어와 통신하기 위해 이 값을 사용할 때 해독됩니다.</block>
-  <block id="ca28d4c52bb2a654a2678ff8d3dcefa2" category="section-title">Data Collector 구성</block>
-  <block id="c339d1a32a95310d9e4a053f77cad28b" category="list-text">선택한 데이터 수집기 유형에 따라 설치 단계가 달라집니다.</block>
-  <block id="13762a4c9e8fa47d574db722fc1b3fa2" category="section-title">운영 체제:</block>
-  <block id="b00d7c7ac92f4aaddc21f00ae51e9ffb" category="paragraph">사용자 환경에서 운영 체제 또는 서비스 데이터 수집을 시작하려면 Cloud Insights 에이전트를 하나 이상 설치해야 합니다. 원하는 만큼 에이전트를 설치할 수 있습니다. 각 에이전트는 여러 서비스에서 데이터를 수집할 수 있습니다.</block>
-  <block id="6caa4b361faebcb803a409db1b88d8a6" category="paragraph">각 에이전트는 서비스에서 데이터를 수집하는 것 외에도 서비스가 설치된 VM/호스트의 데이터 수집기 역할도 합니다. 수집된 데이터는 대시보드 위젯 또는 쿼리에 "노드" 데이터로 표시됩니다.</block>
-  <block id="78ace3389e374f5f298be8d67bfa4a58" category="list-text">Cloud Insights에 액세스하는 VM 또는 호스트(예: 노드)의 플랫폼 유형 또는 운영 체제를 클릭합니다.</block>
   <block id="08c86f7c6085b75b443831ac2339b9eb" category="list-text">상담원 액세스 키를 선택합니다.</block>
-  <block id="c2bfe2eaf58eb4609047a3e1eea65778" category="list-text">표시된 명령을 클립보드에 복사합니다. 클립보드 아이콘을 클릭하여 명령을 빠르게 복사할 수 있습니다.</block>
-  <block id="a53af23d658a9535fc02012c55ef38c8" category="list-text">에이전트 VM/호스트에서 터미널/명령 창을 열고 명령을 붙여 넣습니다. Enter 키를 눌러 명령을 실행합니다.</block>
-  <block id="c3b9d0200b01f416076842501c9ae206" category="list-text">에이전트를 설치한 후 * 마침 * 을 클릭합니다. 에이전트가 데이터 수집을 시작합니다.</block>
-  <block id="5010b1ac42dba70893a9d0885fbe6153" category="paragraph">노드에 대한 데이터가 대시보드에 표시되거나 쿼리에 사용하기 전에 최대 2회의 폴링 기간이 소요될 수 있습니다.</block>
   <block id="2feb695214b35f4b4c9ae83eac6164ee" category="section-title">서비스:</block>
-  <block id="0e5b9bfd33de4aacc0a1ca8f5719168a" category="paragraph">서비스 데이터 수집기는 Docker 또는 Kibana와 같은 Telegraf 에이전트를 기반으로 합니다.</block>
-  <block id="95237aad105439410978d832422ec5f8" category="list-text">사용자 환경에서 서비스 데이터를 수집하려면 Cloud Insights 에이전트가 하나 이상 있어야 합니다. 에이전트가 설치되지 않은 경우 서비스 데이터 수집기를 구성할 때 에이전트를 설치하라는 메시지가 표시됩니다.</block>
-  <block id="9d1d946c56f906fe4eda196507962e75" category="list-text">데이터를 수집할 서비스가 사용자 환경에 설치되어 실행되고 있어야 합니다.</block>
-  <block id="f5b3a38421e3564dc407081a58490b3b" category="list-text">서비스 데이터 수집기를 클릭합니다.</block>
-  <block id="7aaf5cf369a105094116ca809d0cc0c2" category="list-text">에이전트 운영 체제 또는 플랫폼을 선택합니다. 플랫폼용 에이전트를 설치하지 않은 경우 지침에 따라 설치합니다.</block>
-  <block id="26983a904e0717c520032a2178795368" category="list-text">계속 * 을 클릭합니다.</block>
-  <block id="04d6e043600695763216a74149b824d0" category="list-text">데이터 수집기 구성에 대한 지침을 따릅니다. 클립보드 아이콘을 클릭하여 표시된 명령 또는 코드 조각을 빠르게 복사할 수 있습니다.</block>
-  <block id="33365fcfbdf45a4d9ec1761cc9bb43e2" category="list-text">데이터 수집기가 올바르게 구성되었으면 * Finish * 를 클릭합니다.</block>
   <block id="de0a3477c1c391a811d9b2911a84fb19" category="paragraph">서비스의 데이터가 대시보드에 표시되거나 쿼리에 사용 가능하려면 폴링 기간을 최대 2회 정도 소요될 수 있습니다.</block>
-  <block id="cfd3e8ee788479f95905fd7f4ae27be6" category="section-title">인프라:</block>
-  <block id="7b7102b6e1f4866e3babe053b86b90ac" category="paragraph">인프라 데이터 수집기는 스토리지 또는 스위치와 같은 항목을 포함합니다.</block>
-  <block id="ac637daa3ccd1254a990c56b13cbf3e9" category="list-text">인프라 데이터 수집을 시작하려면 하나 이상의 획득 장치가 구성되어 있어야 합니다.</block>
-  <block id="c050d9221193610ab179db826d0ebe03" category="list-text">인프라 데이터 수집기를 클릭합니다.</block>
-  <block id="211512ec77b8c6e0ce1dab5a4bb593aa" category="list-text">데이터 수집기의 이름을 입력합니다. 이름에는 다음 문자가 포함될 수 있습니다.</block>
-  <block id="3fd760f5a5dc71312ce1dd808d747265" category="list-text">문자(a-z)</block>
-  <block id="c941c7696194a60a16e5962a0d5dbb37" category="list-text">번호(0-9)</block>
-  <block id="e5e058c4eece6b2f44372f1be024219c" category="list-text">하이픈(-)</block>
-  <block id="7d36ba9acc13f7a9d2fc56dcb952101b" category="list-text">밑줄(_)</block>
-  <block id="ec69cea1e605a2ea754da699ed4b967b" category="list-text">기간(.)</block>
-  <block id="35f7e769e75dabc896b7969ce411cfaa" category="list-text">공백()</block>
-  <block id="ab36095ea637c9091ba22ae50c85cc76" category="paragraph">이름은 공백, 마침표 또는 하이픈으로 시작하거나 끝날 수 없습니다.</block>
-  <block id="13ea58a04825bf78b2f2da7f3b0831b5" category="list-text">이 데이터 수집기와 연결할 획득 장치를 입력합니다.</block>
-  <block id="82f142e6d7380c3d45f29c8550f338a3" category="list-text">Configuration(구성) 화면에 필수 필드를 입력합니다.</block>
-  <block id="19110098d937705ce65c4bb5ad97a475" category="list-text">추가 구성 필드를 입력하려면 * 고급 구성 * 을 클릭합니다. 일부 데이터 수집기는 고급 구성이 필요하지 않습니다.</block>
-  <block id="4279b596662924e6b4010f919f84d17c" category="list-text">구성 테스트 * 를 클릭하여 데이터 수집기가 올바르게 구성되었는지 확인합니다.</block>
-  <block id="618758304f92b490c243390d7a43774d" category="list-text">완료되면 * 수집기 추가 * 를 클릭합니다.</block>
-  <block id="644b4fa94e97c40a6df4575a32bdb388" category="inline-link-macro">획득 장치 구성</block>
-  <block id="0d72fee8b671c19a26656d7fb11ab5c7" category="paragraph">새 획득 장치 추가에 대한 자세한 내용은 을 참조하십시오 <block ref="f6d6d1d8bb58f56bfd9166104e49bf6e" category="inline-link-macro-rx"></block></block>
-  <block id="03600e14e8c249775af21bb69579dc2c" category="paragraph">+ 환경의 데이터가 대시보드에 표시되거나 쿼리에 사용하기 전에 폴링 기간을 최대 2개까지 소요될 수 있습니다.</block>
   <block id="c8722d0a5f0f718756806afb0f63faf3" category="section-title">시작하기 전에 주의해야 할 사항</block>
   <block id="228b6b559614ae017988e0b66c4ab82c" category="list-text">랜섬웨어 시뮬레이션 스크립트는 Linux에서만 작동합니다.</block>
   <block id="7507a6fc6500d36cd4c727aec7187901" category="section-title">샘플 파일이 1,000개 이상 있어야 합니다</block>
@@ -3458,29 +3391,6 @@
   <block id="31be054ef32957d0b09e260052ca7194" category="paragraph"><block ref="31be054ef32957d0b09e260052ca7194" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a16ab7a0e2729553abea3c5bef941286" category="paragraph">각 데이터 수집기에 대해 "점 3개" 메뉴를 클릭하여 데이터 수집기를 복제, 편집, 폴링 또는 삭제할 수 있습니다. 이 목록에서 여러 데이터 수집기를 선택하여 대량 작업을 수행할 수도 있습니다.</block>
   <block id="ea88145436c3d93ffad8cb3aaa3f29d2" category="paragraph">획득 장치를 다시 시작하려면 페이지 상단의 * Restart * (재시작 *) 버튼을 클릭합니다. 연결 문제가 발생할 경우 이 버튼을 선택하여 AU에 * 연결 * 복원을 시도합니다.</block>
-  <block id="de2080ec5e0e147976f00793ebd67db1" category="summary">법의학적 엔터티 세부 정보</block>
-  <block id="ab440e736c2d9e3403efa72117388494" category="doc">법의학적 엔티티 세부 정보</block>
-  <block id="0759459fd7984031945fba78588c75bb" category="paragraph">엔터티 세부 정보 페이지를 사용하여 엔터티에 대한 자세한 정보에 액세스할 수 있습니다.</block>
-  <block id="f8db4b534ba055c3a01a896220cf7409" category="paragraph">에 액세스합니다</block>
-  <block id="153bbbe3830b008df288fad38c0b3a83" category="list-text">요소 프로파일</block>
-  <block id="4a4a73d66611aace8d92f097448ce81b" category="list-text">에서는 다음을 포함한 세부 정보를 설명합니다.</block>
-  <block id="8947a09168ba764c52eb7b93be315a8f" category="list-text">[Entity Overview](엔터티 개요)에 액세스하려면 클릭합니다.</block>
-  <block id="14526abd8bda5af347775025cd5342cf" category="list-text">커뮤니티</block>
-  <block id="54bc6f9dec592e510fe90ddcb5c6e572" category="list-text">마지막 액세스</block>
-  <block id="22936c219b9fad247df75a21ff0a7b0e" category="list-text">사용자를 클릭하여 [User Overview](사용자 개요)에 액세스합니다.</block>
-  <block id="6f6cb72d544962fa333e2e34ce64f719" category="list-text">크기</block>
-  <block id="85525c565d3741d72d4f4f86d783bd00" category="list-text">사용자 및 커뮤니티</block>
-  <block id="c1e735eead256ce16dddd5709aaef387" category="list-text">사용자가 엔티티에 액세스한 횟수입니다</block>
-  <block id="0e24ee04bc9ce222c893aba101ef6d43" category="list-text">커뮤니티가 엔티티에 액세스한 횟수입니다.</block>
-  <block id="5679e71f2012621385ed2e7789f3207b" category="list-text">개체 바하베이입니다</block>
-  <block id="40926e069052929a1c74d824a8e32295" category="list-text">최근 활동:</block>
-  <block id="a1f6abd56494e8f8aa2dd028fe6e8327" category="list-text">마지막 액세스 날짜입니다</block>
-  <block id="d31527e48f3e267b31ebf68a8452a926" category="list-text">엔티티에 마지막으로 액세스한 사용자입니다</block>
-  <block id="282662c8bc8f4ccffd063bc4179b8d94" category="list-text">엔티티가 액세스된 위치입니다</block>
-  <block id="456d0deba6a86c9585590550c797502d" category="list-text">운영</block>
-  <block id="e1796f873ff8ad4bc99c1496e6eb7f87" category="list-text">쓰기 작업 수입니다</block>
-  <block id="740155e144f4a52eaeb72a9385ed0d33" category="list-text">읽기 작업 수입니다</block>
-  <block id="c1e108c2f999f00f38cf1ce52cc8164f" category="list-text">메타 데이터에 대한 액세스 수입니다</block>
   <block id="8dc4e28c9ab949997514364957b2aa39" category="summary">포렌식 활동 기록 데이터</block>
   <block id="4bf5863c996526f74970c19dc17d7167" category="doc">법의학 - 모든 활동</block>
   <block id="33a203d3623a54e6d264ebf5af5db210" category="section-title">모든 활동 데이터 검토</block>
@@ -5167,15 +5077,6 @@
   <block id="8ee4098d58fcec0a8ad1bbc6ef3a278b" category="paragraph">공급업체별로 정렬된 사용 가능한 데이터 Collector가 표시됩니다.</block>
   <block id="d0db1cfd406b8574a7bc2d171e484e1e" category="paragraph">대화 상자에서 데이터 수집기를 구성하고 획득 장치를 추가할 수 있습니다.</block>
   <block id="8e90b5dce519000dad943c071bfdb2d7" category="list-text">데이터 수집기의 이름을 입력합니다.</block>
-  <block id="b24e662ae4d73165d52933b92edea048" category="paragraph">이름에는 문자(a-z), 숫자(0-9), 대시(-), 밑줄(_), 아포스트로피('), 및 마침표(.).</block>
-  <block id="e2b330c7ae678ef7cd6514d5ae7e7e7c" category="list-text">알림을 구성할지 묻는 메시지가 표시되면 e-메일, Webhook 또는 두 가지 모두로 알림을 보내도록 선택하고 알릴 알림 유형(위험, 경고, 정보 및/또는 해결)을 선택합니다. 전역 모니터 수신자 목록(* Admin &gt; Notifications * 에서 구성됨)에 알리도록 선택하거나 추가 수신자를 지정할 수 있습니다. 계속할 준비가 되면 * 설치 완료 * 를 클릭합니다.</block>
-  <block id="0292cc6d66cbe7b6a5ec202251834d24" category="inline-image-macro">Collector 알림</block>
-  <block id="6e4e94174c881dd343d58645dcd7fece" category="paragraph"><block ref="6e4e94174c881dd343d58645dcd7fece" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5d1096bf66c89ad0f817c4dc28e58b2f" category="inline-image-macro">Collector 알림 편집</block>
-  <block id="1016031bc19103211cb4e343acdc32cc" category="paragraph"><block ref="1016031bc19103211cb4e343acdc32cc" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="792171f0bd1e324307f6b4ba189249a8" category="list-text">추가 구성 필드를 추가하려면 * 고급 구성 * 을 클릭합니다. (일부 데이터 수집기는 고급 구성이 필요하지 않습니다.)</block>
-  <block id="fde3f7c671a4c40a9d5099c319bbabaa" category="list-text">[수집기 추가]를 클릭하여 구성을 저장하고 데이터 수집기를 Cloud Insights 테넌트에 추가합니다.</block>
-  <block id="62ab4599363ab12f861dc69c2a905582" category="paragraph">새 데이터 수집기를 추가한 후 Cloud Insights은 세 개의 설문을 시작합니다.</block>
   <block id="98be204914713a1fd39ff19bbc956666" category="list-text">첫 번째 재고 조사: 즉시</block>
   <block id="f8be5685f8c7c5768bbc90c8ce7fb95d" category="list-text">초기 계획을 설정하기 위한 첫 번째 성능 데이터 폴링: 인벤토리 폴링 직후</block>
   <block id="9baa8b33ea662dffa7faa1d9b47e5e8d" category="list-text">2차 성능 설문: 1차 성능 설문 조사 완료 후 15초 이내</block>
@@ -7699,7 +7600,6 @@
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link-macro">자세한 정보</block>
   <block id="c1c7efc58c7b64cc21f3ae15934e8271" category="section-title">공간이 부족되는 Kubernetes 네임스페이스</block>
   <block id="806f6dbcc954f0a88489885f517d1d1d" category="paragraph">Space Insight가 없는 Kubernetes 네임스페이스 에서는 공간이 부족할 위험이 있는 Kubernetes 네임스페이스의 워크로드를 볼 수 있으며 각 공간이 가득 채워지기 전의 남은 일 수에 대한 추정치가 있습니다. <block ref="604196d3b206e62dba15152db76beddc" category="inline-link-macro-rx"></block></block>
-  <block id="f9696d5ebb5a2bc3b4e557d0f479e831" category="paragraph">ONTAP 데이터 수집기 * 랜딩 페이지를 볼 때 데이터 수집기 요약 섹션의 "알림" 필드에서 연필 아이콘을 클릭하여 알림을 수정할 수 있습니다.</block>
   <block id="851540d32e033a0c14b63879881da871" category="summary">통찰력은 Kubernetes 공간이 가득 찰 가능성을 예측하는 데 도움이 될 수 있습니다.</block>
   <block id="4fef891481b95674ba195bcf5ebf7efb" category="doc">인사이트: Kubernetes 네임스페이스가 공간 부족입니다</block>
   <block id="8754218641c0cb64c48e8a8cc68703c4" category="paragraph">귀사의 환경에서 공간이 부족하게 되는 것은 결코 좋은 일이 아닙니다. Cloud Insights를 사용하면 Kubernetes 영구 볼륨이 꽉 차게 되기 전의 시간을 예측할 수 있습니다.</block>
@@ -9707,10 +9607,7 @@
   <block id="3b7c5615013c6b42362845591653e503" category="cell">enableDNSLookup</block>
   <block id="1d2b775d8b166dda0a22ca0ffa3f537c" category="cell">True/false, DNS 조회를 사용하도록 설정합니다</block>
   <block id="349a396fe021418ac0edbee3b447f4d5" category="section-title">AgentConfiguration 파일 예</block>
-  <block id="44df9c10959f57dfdf2dd50f7591a9c9" category="section-title">오퍼레이터 구성</block>
   <block id="cac54dc379f23a7aed8745bde8386662" category="inline-link-macro">사용 가능한 설정</block>
-  <block id="cfda62a17e54042dffdf6eb6a74c7977" category="paragraph">새로운 버전의 연산자에서는 가장 일반적으로 수정된 설정을 _AgentConfiguration_custom 리소스에서 구성할 수 있습니다. 운용자를 배포하기 전에 _operator-config.YAML_file을 편집하여 이 리소스를 편집할 수 있습니다. 이 파일에는 일부 설정의 주석 처리된 예제가 포함되어 있습니다. 의 목록을 참조하십시오 <block ref="d0a687c4569dc784e63f3960b33ab7c7" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
-  <block id="342414165099895140bbfbd3ffb613ca" category="paragraph">다음 명령을 사용하여 연산자를 배포한 후에도 이 리소스를 편집할 수 있습니다.</block>
   <block id="3ab04e244a91c8a73c48633c62ac613a" category="paragraph">배포된 버전의 운영자가 AgentConfiguration을 지원하는지 확인하려면 다음 명령을 실행합니다.</block>
   <block id="51ba9262aad7e83aa5f74ed6dc93a039" category="paragraph">"서버에서 오류 발생(NotFound)" 메시지가 표시되는 경우 AgentConfiguration을 사용하려면 먼저 연산자를 업그레이드해야 합니다.</block>
   <block id="664cfa316d48b417a500c0e898f37409" category="paragraph">NetApp 모니터링 오퍼레이터 설치 타일에서 "이미지 풀 스니펫"을 실행합니다. 이 명령은 Cloud Insights 리포지토리에 로그인하고 오퍼레이터의 모든 이미지 종속성을 풀한 다음 Cloud Insights 리포지토리에서 로그아웃합니다. 메시지가 표시되면 제공된 리포지토리 임시 암호를 입력합니다. 이 명령은 옵션 기능을 포함하여 오퍼레이터가 사용하는 모든 이미지를 다운로드합니다. 이러한 이미지가 사용되는 기능은 아래를 참조하십시오.</block>
@@ -10182,7 +10079,6 @@ FAS/AFF 8080</block>
   <block id="29dc284dcf38e4fe32feb8a0fd5c0b4b" category="cell">AWS 클라우드 볼륨</block>
   <block id="36df1b975561708b246ef1801ea416e5" category="cell">ONTAP용 FSX</block>
   <block id="13816363e2eaa66d7be294be0dbaef8c" category="cell">Data ONTAP</block>
-  <block id="64b14a7e6bb27e2b2b4b1397266f46b8" category="cell">Qtree.1 이상</block>
   <block id="341a7ed392b3acf42503f54b89dd0954" category="cell">사용된 라이센스 비율</block>
   <block id="88bf89db528a107f9dcf9d0ab7b1203b" category="cell">내부 볼륨 제한</block>
   <block id="7212522e5e7c1b74429f93734919f229" category="cell">클론 저장 용량 합계</block>
@@ -12813,7 +12709,6 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="80502f098bcf776c1d9ceec1ba9d636a" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Couchbase를 선택하십시오.</block>
   <block id="b9edb2d8cbff35711b7021f32a2692dd" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Flink 를 선택합니다.</block>
   <block id="53a22ff7bf05343afd43baa85e5c7883" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. MySQL을 선택합니다.</block>
-  <block id="6e79cf0edf33ec7a0066155d964eeb57" category="list-text">Cloud Insights 메뉴에서 * 관측성 &gt; 수집기 * 를 클릭하고 * + Data Collector * 버튼을 클릭합니다.</block>
   <block id="710ec696cccefe4c3faa1d7ebf8fca87" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. Kibana를 선택합니다.</block>
   <block id="c71f6654a45927e285ab22a697438b43" category="list-text">관측성 &gt; 수집기 * 에서 * + Data Collector * 를 클릭합니다. MongoDB를 선택하십시오.</block>
   <block id="5bff30d13ce98c505187872963af1f25" category="section-title">NetApp BlueXP 계정 생성</block>
@@ -12895,7 +12790,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="04178a20ab55400da1419fd8fb46d169" category="paragraph">Cloud Insights는 ONTAP 시스템의 백엔드 스위치에서 데이터를 수집할 수 있습니다. 데이터 수집기의 _Advanced Configuration_ 섹션에서 수집을 활성화하고 ONTAP 시스템이 제공하도록 구성되었는지 확인합니다 <block ref="d459f31dbd039334427e234b6edb8373" category="inline-link-macro-rx"></block> 을(를) 가지고 있습니다 <block ref="d90f3f5210a51c1e01a73513b6257018" category="inline-link-macro-rx"></block> 설정.</block>
   <block id="4cfa97a1b14caa2256ef4dc5cd3d0fed" category="paragraph">워크로드 상태는 * Kubernetes &gt; Explore &gt; 워크로드 * 페이지에서 한눈에 확인할 수 있으므로 제대로 작동하는 워크로드와 도움이 필요할 수 있는 워크로드를 빠르게 확인할 수 있습니다. 상태 문제가 인프라, 네트워크 또는 구성 변경과 관련되어 있는지 쉽게 식별하고 드릴다운하여 근본 원인을 분석합니다.</block>
   <block id="2041337c363c1ecaeb2a1aa9c8999494" category="paragraph">Kubernetes에 설치하는 방법에 대한 자세한 내용은 를 참조하십시오 <block ref="f0d3e43e41da35ba651820db811551cd" category="inline-link-macro-rx"></block> 페이지.</block>
-  <block id="ed300e62408d01715c593931df6a2352" category="paragraph">Kubernetes 설치 지침은 를 참조하십시오 <block ref="f0d3e43e41da35ba651820db811551cd" category="inline-link-macro-rx"></block> 페이지.</block>
   <block id="8c362b737d9d3a6fff5acfc29aaa5225" category="summary">Kubernetes용 데이터 수집기</block>
   <block id="3ce5067a26bb6509b15cfb6487590ed5" category="doc">데이터 수집기: Kubernetes</block>
   <block id="c7e254ef92577e872c85b9cc18b384ea" category="doc">Kubernetes Monitoring Operator 설치 및 구성</block>
@@ -13030,9 +12924,6 @@ kubectl get all -n &lt;namespace&gt; | grep -i psp (아무것도 발견되지 �
   <block id="70d79a6ca6098037988336f11346dce8" category="cell">Operator 네임스페이스의 NET-observer(워크로드 맵) 포드는 CrashLoopBackOff에 있습니다</block>
   <block id="e49c236734fe2ea50ae36fcb5353eed9" category="cell">Pod는 운영자 네임스페이스(기본값: NetApp-모니터링)에서 실행되지만, 워크로드 맵 또는 Kubernetes 메트릭에 대한 UI에는 데이터가 표시되지 않습니다</block>
   <block id="665dddc2adb2f34c745ef47345ee5e93" category="cell">Operator 네임스페이스의 일부 NET-observer Pod가 Pending 상태입니다</block>
-  <block id="a5ecb374e5b37ce04e31d68dc3716305" category="cell">Kubernetes Monitoring Operator를 설치한 직후 로그에 다음이 표시됩니다.
-
-[inputs.prometheus] 플러그인 오류: HTTP 요청을 보내는 중 오류가 발생했습니다<block ref="189319aba70d8b3a1cf8eef70b48f546" category="inline-link-rx"></block> 가져오기<block ref="189319aba70d8b3a1cf8eef70b48f546" category="inline-link-rx"></block> TCP: lookup kudo-state-metrics.&lt;namespace&gt;.svc.cluster.local: 해당 호스트가 없습니다</block>
   <block id="b3b6bea000b13acbfcb412bad49ee494" category="cell">Kubernetes 버전 확인(예<block ref="4fc58818ca77fb3a60cbd34a7f7d5071" prefix=" " category="inline-code"></block>)를 클릭합니다.  v1.20.x 이하일 경우 이는 예상되는 제한 사항입니다.  Kubernetes Monitoring Operator와 함께 배포된 kube-state-metrics 릴리스는 v1.cronjob만 지원합니다.  Kubernetes 1.20.x 이하에서는 crontjob 리소스가 v1beta.crontjob에 있습니다.  따라서 kube-state-metrics는 crontjob 리소스를 찾을 수 없습니다.</block>
   <block id="cacd73b257654b42f59477320860f203" category="cell">리소스 부족으로 인해 Kubernetes Monitoring Operator에 의해 구축된 Pod가 충돌하는 것을 볼 수 있습니다.</block>
   <block id="1bf4c34fd6e2ff1bf1741953bce0f5e1" category="cell">Kubernetes 모니터링 운영자를 참조하십시오 <block ref="74a91e6274b6ee5f9fd240fb978eb1d9" category="inline-link-macro-rx"></block> 필요한 경우 CPU 및/또는 메모리 제한을 늘립니다.</block>
@@ -13134,4 +13025,29 @@ Firefox에서 쿠키 예외는 간단히 _auth0.com _ 및 _netapp.com _ 로 지�
   <block id="3b1dbe846304b427475d6a670fb96413" category="inline-image-macro">위젯에 대한 대시보드 시간 범위 재정의</block>
   <block id="c9b0370dc5d789bfc283022e4c0d9d9e" category="paragraph"><block ref="c9b0370dc5d789bfc283022e4c0d9d9e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="776202c829612e565a462d31af745afd" category="paragraph">대시보드 및 자산 랜딩 페이지의 위젯에 있는 데이터는 선택한 대시보드 시간 범위에 따라 결정된 새로 고침 간격에 따라 자동으로 새로 고쳐집니다. 새로 고침 간격은 위젯이 시계열(선, 스플라인, 영역, 누적 영역형 차트) 또는 비시계열(다른 모든 차트)인지 여부를 기준으로 합니다.</block>
+  <block id="16a53ba18c619dcf3d471d85becaeee6" category="section-title">시작하기 전에 유의해야 할 중요 사항</block>
+  <block id="ef2fbd69b6e60cf6860a0466960c15a2" category="inline-xref">사용자 지정 리포지토리</block>
+  <block id="ca988e68e82cbabbd81d5c8fe6c458c2" category="inline-xref">OpenShift</block>
+  <block id="fd75e30f03557ae02b87c843dca05eef" category="paragraph">을(를) 사용하여 실행 중인 경우 <block ref="1997cc9e11e3840958347d54a5502495" category="inline-xref-macro-rx"></block>, 가 있습니다 <block ref="8117c39ae2fe2d46fc88eb3e138ef1e6" category="inline-xref-macro-rx"></block>또는 을(를) 사용하고 있습니다 <block ref="355c126f2151d7a3495e6210dabdd072" category="inline-xref-macro-rx"></block>다음 섹션을 주의 깊게 읽으십시오.</block>
+  <block id="ccd3239a9f19d6d508e3603882b2f0a7" category="paragraph">에 대해서도 읽어 보세요 <block ref="abccd48aba555dd896a8cc74442f4360" category="inline-xref-macro-rx"></block>.</block>
+  <block id="cc2bb73c3e6fbe9cfa1882cd8e797fd4" category="paragraph">이전 설치에서 업그레이드하는 경우 를 읽으십시오 <block ref="8c16618fd0a2a4546027523bc90153a9" category="inline-xref-macro-rx"></block> 정보.</block>
+  <block id="4ce29774235b5ad70135520aad0c4a92" category="paragraph">NetApp Kubernetes Monitoring Operator를 설치하기 위해 사용자 환경에서 프록시를 사용할 수 있는 두 가지 위치가 있습니다. 이러한 시스템은 동일하거나 별도의 프록시 시스템일 수 있습니다.</block>
+  <block id="3aabe2789e92746b5404b30428bb4f9e" category="paragraph">둘 중 하나 또는 둘 모두에 대해 프록시를 사용하는 경우 NetApp Kubernetes 운영 모니터를 설치하려면 먼저 프록시가 Cloud Insights 환경에 대한 올바른 통신을 허용하도록 구성되어 있는지 확인해야 합니다. 예를 들어 운영자를 설치하려는 서버/VM에서 Cloud Insights에 액세스하고 Cloud Insights에서 바이너리를 다운로드할 수 있어야 합니다.</block>
+  <block id="73689eeba538dc0b4e24b0c08682858c" category="paragraph">NetApp Kubernetes 운영 모니터를 설치하는 데 사용되는 프록시에 대해 Operator를 설치하기 전에 _http_proxy/https_proxy_environment 변수를 설정하십시오. 일부 프록시 환경에서는 _no_proxy 환경_변수를 설정해야 할 수도 있습니다.</block>
+  <block id="05de88b1f0962d418af51426b2e42b5c" category="paragraph">변수를 설정하려면 * NetApp Kubernetes Monitoring Operator를 설치하기 전에 * 시스템에서 다음 단계를 수행하십시오.</block>
+  <block id="a4e1e6009cd02048a3c4c625810efdde" category="paragraph">Kubernetes 클러스터가 Cloud Insights 환경과 통신하는 데 사용되는 프록시의 경우 이러한 지침을 모두 읽은 후 NetApp Kubernetes 모니터링 운영자를 설치하십시오.</block>
+  <block id="6a487db38d52ee4c14d91f1b1ddd2fac" category="paragraph">NetApp Kubernetes Monitoring Operator를 구축하기 전에 operator-config.yAML에서 AgentConfiguration의 프록시 섹션을 구성하십시오.</block>
+  <block id="496310011786854d1bf0863b20b159b3" category="paragraph">기본적으로 NetApp Kubernetes 모니터링 운영자는 Cloud Insights 저장소에서 컨테이너 이미지를 가져옵니다. 모니터링을 위한 타겟으로 사용되는 Kubernetes 클러스터가 있고 해당 클러스터가 사용자 지정 또는 프라이빗 Docker 저장소 또는 컨테이너 레지스트리에서만 컨테이너 이미지를 풀도록 구성된 경우 NetApp Kubernetes Monitoring Operator가 필요로 하는 컨테이너에 대한 액세스를 구성해야 합니다.</block>
+  <block id="4a3ecd51c30dc55cebd7ed9babbb7931" category="list-text">kubbe-RBAC-proxy입니다</block>
+  <block id="bb84790255aac66744320e4417143dd8" category="list-text">유창한 비트</block>
+  <block id="2941fa605b5a46d4cf07aade64af8b6e" category="list-text">Kubernetes - 이벤트 - 수출자</block>
+  <block id="4099aa818be44a204ef7ec3ba69b96c7" category="inline-link-macro">보려는 애그리게이트</block>
+  <block id="6046897f8c0f41425f2e47227c5932e8" category="paragraph">모니터링 중인 클러스터에 ClusterRole이 없는 사용자 지정 리소스가 포함되어 있는 경우 <block ref="c09eb6051f010e6e01a634a8b6a5c304" category="inline-link-macro-rx"></block>, 이벤트 로그로 이러한 리소스를 모니터링하려면 운영자에게 수동으로 이러한 리소스에 대한 액세스 권한을 부여해야 합니다.</block>
+  <block id="8f0ae9ae8e0fd7f3e8fe6ff175a59943" category="list-text">edit_operator-additional-permissions.yaml_를 설치하기 전이나 설치 후 resource_ClusterRole/&lt;namespace&gt;-additional-permissions_를 편집합니다</block>
+  <block id="8a75e64ac585bb8eb6efae44768cfc8e" category="list-text">동사 ["get", "watch", "list"]를 사용하여 원하는 apiGroups 및 리소스에 대한 새 규칙을 만듭니다. \https://kubernetes.io/docs/reference/access-authn-authz/rbac/ 를 참조하십시오</block>
+  <block id="5aa700b8892918bb447b666e3ba9b2a8" category="list-text">변경 사항을 클러스터에 적용합니다</block>
+  <block id="0b681475d547cee4e6a8aa2975d2a6ad" category="cell">Kubernetes Monitoring Operator를 설치한 직후 로그에 다음이 표시됩니다.
+
+[inputs.prometheus] 플러그인에서 오류 발생:\http://kube-state-metrics.&lt;namespace&gt;.svc.cluster.local:8080/metrics:get\http://kube-state-metrics.&lt;namespace&gt;.svc.cluster.local:8080/metrics:다이얼 tcp:lookup kube-state-metrics.&lt;namespace&gt;.svc.cluster.local: 해당 호스트가 없습니다</block>
+  <block id="079771aecc679d555303419cd98137ca" category="paragraph">Kubernetes 설치 지침은 를 참조하십시오 <block ref="c4dd0ed9c7aa586e1ccc41d08bd166bb" category="inline-link-macro-rx"></block> 페이지.</block>
 </blocks>
