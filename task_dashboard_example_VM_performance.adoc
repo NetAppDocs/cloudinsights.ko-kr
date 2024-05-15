@@ -47,7 +47,7 @@ keywords: dashboard, widget, custom, example, virtual machine, vm, performance
 
 
 
-image:VMDashboard-TableWidget1.png[""]
+image:VMDashboard-TableWidget1.png["테이블 위젯 편집 대화 상자"]
 
 . 이 위젯을 사용자 지정할 수 있습니다. 상단의 Name 필드에서 "Widget 1"을 삭제하고 "Virtual Machine Performance table"을 입력합니다.
 . 자산 유형 드롭다운을 클릭하고 _Storage_to_Virtual Machine_을 변경합니다.
@@ -68,7 +68,7 @@ image:VMDashboard-TableWidget1.png[""]
 
 
 
-image:VMDashboard-TableWidgetGroup.png[""]
+image:VMDashboard-TableWidgetGroup.png["표 위젯 그룹화의 예"]
 
 . 표 위젯을 원하는 대로 사용자 정의했으면 * [Save] * (저장) * 버튼을 클릭합니다.
 +
@@ -88,7 +88,7 @@ image:VMDashboard-TableWidgetGroup.png[""]
 . 이 위젯을 대시보드에 추가하려면 * [Save] * 를 클릭합니다.
 
 
-image:VMDashboard-LineChartVMLatency.png[""]
+image:VMDashboard-LineChartVMLatency.png["지연 시간 데이터를 보여 주는 꺾은선형 차트"]
 
 다음으로 단일 차트에서 VM 읽기, 쓰기 및 총 IOPS를 보여 주는 차트를 추가합니다.
 
@@ -100,7 +100,7 @@ image:VMDashboard-LineChartVMLatency.png[""]
 . 이 위젯에 대한 범례를 대시보드에 표시하려면 * 범례 표시 * 를 클릭합니다.
 
 
-image:VMDashboard-AreaChartVMIOPS.png[""]
+image:VMDashboard-AreaChartVMIOPS.png["VM IOPS를 보여 주는 영역 차트입니다"]
 
 . 이 위젯을 대시보드에 추가하려면 * [Save] * 를 클릭합니다.
 
@@ -121,4 +121,4 @@ image:VMDashboard-AreaChartVMIOPS.png[""]
 
 최종 VM 성능 대시보드는 다음과 같습니다.
 
-image:VMDashExample1.png[""]
+image:VMDashExample1.png["모든 위젯을 보여 주는 VM 대시보드 전체 예"]

@@ -15,6 +15,7 @@ keywords: features
 :imagesdir: ./media/
 
 
+[role="lead"]
 NetApp은 제품과 서비스를 지속적으로 개선 및 개선하고 있습니다. 다음은 Cloud Insights의 상용 버전에서 사용할 수 있는 최신 기능 중 일부입니다.
 
 
@@ -1418,8 +1419,8 @@ _위젯에서 변수를 사용하는 기능과 속성에 대한 새 변수.
 
 이제 대시보드는 그 어느 때보다 강력하고 유연해졌습니다. 속성 변수가 포함된 적응형 대시보드를 구축하여 대시보드를 즉시 빠르게 필터링할 수 있습니다. 기존 및 기타 기존 구성 요소 사용 link:concept_dashboard_features.html#variables["변수"] 이제 하나의 상위 레벨 대시보드를 생성하여 전체 환경에 대한 메트릭을 확인하고 리소스 이름, 유형, 위치 등을 기준으로 완벽하게 필터링할 수 있습니다. 위젯에서 숫자 변수를 사용하여 원시 메트릭과 비용(예: 서비스형 스토리지의 경우 GB당 비용)을 연결합니다.
 
-image:Variables_Drop_Down_Showing_Annotations.png[""]
-image:Variables_Attribute_Filtering.png[""]
+image:Variables_Drop_Down_Showing_Annotations.png["변수의 드롭다운 주석"]
+image:Variables_Attribute_Filtering.png["변수의 특성 필터링"]
 
 
 
@@ -1594,19 +1595,19 @@ Cloud Insights의 강력한 API는 그 어느 때보다 쉽게 액세스할 수 
 | API 범주 | 기본 | 표준 | 프리미엄 
 
 
-| 획득 장치 | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
+| 획득 장치 | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] 
 
 
-| 데이터 수집 | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
+| 데이터 수집 | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] 
 
 
-| 경고 |  | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
+| 경고 |  | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] 
 
 
-| 자산 |  | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
+| 자산 |  | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] 
 
 
-| 데이터 수집 |  | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
+| 데이터 수집 |  | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] 
 |===
 
 
@@ -1688,19 +1689,19 @@ image:Monitors_Alert_Description.png["경고 시정 조치 및 설명"]
 | API 범주 | 기본 | 표준 | 프리미엄 
 
 
-| 획득 장치 | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
+| 획득 장치 | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] 
 
 
-| 데이터 수집 | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
+| 데이터 수집 | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] 
 
 
-| 자산 |  | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
+| 자산 |  | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] 
 
 
-| 데이터 수집 |  | image:SmallCheckMark.png[""] | image:SmallCheckMark.png[""] 
+| 데이터 수집 |  | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] 
 
 
-| 데이터 웨어하우스 |  |  | image:SmallCheckMark.png[""] 
+| 데이터 웨어하우스 |  |  | image:SmallCheckMark.png["체크 표시"] 
 |===
 API 사용에 대한 자세한 내용은 를 참조하십시오 link:https://docs.netapp.com/us-en/cloudinsights/API_Overview.html#api-documentation-swagger["API 설명서"].
 

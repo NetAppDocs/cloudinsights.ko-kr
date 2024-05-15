@@ -45,7 +45,7 @@ AU 소프트웨어를 수동으로 다운로드하고 설치하려면 다음 단
 
 
 
-image:Manual_AU_Create_API_Token.png[""]
+image:Manual_AU_Create_API_Token.png["API 토큰을 생성합니다"]
 
 . Swagger(관리자 > API 액세스 > API 설명서)에서 토큰을 사용하여 Cloud Insights API를 승인합니다
 +
@@ -57,7 +57,7 @@ image:Manual_AU_Create_API_Token.png[""]
 
 
 
-image:Manual_AU_Authorization.png[""]
+image:Manual_AU_Authorization.png["API 토큰을 인증합니다"]
 
 . AU Installer를 다운로드 하려면 _/au/installers/{platform}/latest_or_/au/installers/{platform}/{version}_api:
 +
@@ -89,8 +89,8 @@ IMPORTANT: 다음 단계에서는 임시 토큰을 사용해야 합니다. 위�
 
 
 
-image:Manual_AU_one_time_token.png[""]
-image:Manual_AU_one_time_token_response.png[""]
+image:Manual_AU_one_time_token.png["일회용 API 토큰을 생성합니다"]
+image:Manual_AU_one_time_token_response.png["일회용 API 토큰 예제에 대한 응답입니다"]
 
 . AU가 설치될 컴퓨터에서 다운로드한 설치 관리자 파일이 들어 있는 폴더로 이동합니다. 아래 명령을 사용하려면 사용자에게 루트 권한이 있어야 합니다.
 +

@@ -32,23 +32,21 @@ Kubernetes Monitoring Operator는 kube 상태 메트릭을 자동으로 설치�
 
 
 
-=== Kudbe-state-Metrics 카운터
+=== Kube-state-metrics 카운터
 
-다음 링크를 사용하여 이러한 kubbe 상태 메트릭 카운터에 대한 정보에 액세스할 수 있습니다.
+NetApp Kubernetes 모니터링 오퍼레이터는 아래에 나열된 kube-state-metrics 카운터를 추출합니다. 각 카운터에 대한 자세한 내용은 다음을 참조하십시오. https://github.com/kubernetes/kube-state-metrics/tree/main/docs#exposed-metrics[].
 
-. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/configmap-metrics.md["ConfigMap 메트릭입니다"]
-. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/daemonset-metrics.md["메트릭 분월 설정"]
-. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/deployment-metrics.md["구현 메트릭"]
-. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/ingress-metrics.md["수신 메트릭"]
-. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/namespace-metrics.md["네임스페이스 메트릭"]
-. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/node-metrics.md["노드 메트릭"]
-. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/persistentvolume-metrics.md["영구 볼륨 메트릭"]
-. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/persistentvolumeclaim-metrics.md["잔류 볼륨 클레임 메트릭"]
-. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/pod-metrics.md["POD 메트릭"]
-. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/replicaset-metrics.md["ReplicaSet 메트릭입니다"]
-. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/secret-metrics.md["비밀 지표"]
-. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/service-metrics.md["서비스 메트릭"]
-. https://github.com/kubernetes/kube-state-metrics/blob/master/docs/statefulset-metrics.md["StatefulSet 메트릭입니다"]
+. ConfigMap 메트릭입니다
+. 메트릭 분월 설정
+. 구현 메트릭
+. 수신 메트릭
+. 네임스페이스 메트릭
+. 노드 메트릭
+. 영구 볼륨 메트릭
+. 영구 볼륨 클레임 메트릭
+. POD 메트릭
+. ReplicaSet 메트릭입니다
+. 비밀 지표
+. 서비스 메트릭
+. StatefulSet 메트릭입니다
 
-
-'''

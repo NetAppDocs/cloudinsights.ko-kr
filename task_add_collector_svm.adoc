@@ -124,6 +124,10 @@ security login role create -role csrole -cmddirname "security certificate" -acce
 security login create -user-or-group-name csuser -application ontapi -authmethod password -role csrole
 security login create -user-or-group-name csuser -application ssh -authmethod password -role csrole
 ....
+<<<<<<< 머리
+
+[]
+====
 ONTAP ARP 통합에 대한 권한:
 
 ....
@@ -145,9 +149,8 @@ security login create -user-or-group-name csuser -application http -authmethod p
 security login rest-role create -role csrestrole -api /api/storage/volumes -access readonly -vserver <cluster_name>
 security login rest-role create -api /api/security/anti-ransomware -access readonly  -role arwrole -vserver <cluster_name>
 ....
-
-
-=== vVserver 관리 IP * 를 통해 추가할 때의 권한:
+>>>> b8087143154c7d9f5d1d3f33e1bdf97a7c9d1
+=== * SVM 관리 IP * 를 통해 추가할 때 사용 권한:
 
 클러스터 관리 관리자 사용자를 사용하여 워크로드 보안이 ONTAP SVM 데이터 수집기에 액세스할 수 없는 경우 아래 명령에 나와 있는 역할을 사용하여 "CsUser"라는 새 사용자를 생성할 수 있습니다. 워크로드 보안 데이터 수집기에서 SVM 관리 IP를 사용하도록 구성할 때 "CsUser"의 사용자 이름 "CsUser"와 암호를 사용합니다.
 
@@ -165,14 +168,16 @@ security login role create -vserver <vservername> -role csrole -cmddirname "vser
 security login role create -vserver <vservername> -role csrole -cmddirname "volume snapshot" -access all
 ....
  security login create -user-or-group-name csuser -application ontapi -authmethod password -role csrole -vserver <vservername>
+<<<<<<< 머리
+
+====
 ONTAP 액세스 권한 거부됨:
 
 ....
 security login rest-role create -role csrestrole -api /api/protocols/fpolicy -access all -vserver <svm_name>
 security login create -user-or-group-name csuser -application http -authmethod password -role csrestrole -vserver <svm_name>
 ....
-
-
+>>>> b8087143154c7d9f5d1d3f33e1bdf97a7c9d1
 === ONTAP 자율적 랜섬웨어 방어에 대한 권한
 
 클러스터 관리 자격 증명을 사용하는 경우 새 권한이 필요하지 않습니다.
@@ -334,7 +339,7 @@ Collector가 일시 중지된 동안 ONTAP에 새 볼륨 등이 생성되면 워
 
 오류의 경우, _Status_열에서 _more detail_을 클릭하여 오류에 대한 세부 정보를 확인하십시오.
 
-image:CS_Data_Collector_Error.png[""]
+image:CS_Data_Collector_Error.png["워크로드 보안 수집기 오류 추가 세부 정보 링크"]
 
 [cols="2*"]
 |===

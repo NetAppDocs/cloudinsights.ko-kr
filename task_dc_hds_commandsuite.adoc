@@ -111,7 +111,7 @@ Cloud Insights는 용량을 두 배로 늘리는 것을 방지하기 위해 강�
 * HiCommand Device Manager 소프트웨어 및 피어 권한에 대한 읽기 전용 사용자 이름 및 암호입니다
 * 포트 요구 사항: 2001(http) 또는 2443(https)
 * 사용자 이름과 암호를 사용하여 HiCommand Device Manager 소프트웨어에 로그인합니다
-* HiCommand 장치 관리자에 대한 액세스를 확인합니다 http://<HiCommand_Device_Manager_IP>:2001/service/StorageManager[]
+* HiCommand 장치 관리자\http://<HiCommand_Device_Manager_IP>:2001/service/StorageManager에 대한 액세스를 확인합니다
 
 
 

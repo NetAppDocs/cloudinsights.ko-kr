@@ -23,7 +23,7 @@ keywords: asset, summary, landing page, topology, auto, refresh
 
 요약 섹션의 정보는 물론 자산 페이지의 모든 테이블 또는 사용자 정의 위젯에서 선택한 시간 범위에 따라 자동으로 새로 고쳐집니다. 요약 섹션, 표 및 모든 사용자 지정 위젯의 오른쪽 위 모서리에 현재 새로 고침 빈도가 표시됩니다.
 
-image:Summary_Section_Example.png[""]
+image:Summary_Section_Example.png["랜딩 페이지 요약 섹션의 예"]
 
 참고: 요약 섹션에 표시되는 정보는 보고 있는 자산의 유형에 따라 달라집니다.
 
@@ -56,4 +56,4 @@ NOTE: 일부 스토리지 자산에서는 볼륨 용량이 100% 이상 표시될
 * 볼륨
 
 
-image:TopologyExample.png[""]
+image:TopologyExample.png["랜딩 페이지 토폴로지 섹션의 예"]

@@ -33,13 +33,13 @@ NOTE: 보고 기능은 Cloud Insights에서 사용할 수 있습니다 link:conc
 
 === 주석
 
-image:annotations.png[""]
+image:annotations.png["주석"]
 
 
 
 === 응용 프로그램
 
-image:apps_annot.png[""]
+image:apps_annot.png["응용 프로그램"]
 
 
 
@@ -81,43 +81,43 @@ image:k8s_workload_metrics_fact.jpg["Kubernetes 워크로드 메트릭 팩트"]
 
 === NAS
 
-image:nas.png[""]
+image:nas.png["NAS"]
 
 
 
 === 경로 및 위반
 
-image:logical.png[""]
+image:logical.png["경로 및 위반"]
 
 
 
 === 포트 연결
 
-image:connectivity.png[""]
+image:connectivity.png["포트 연결"]
 
 
 
 === SAN 패브릭
 
-image:fabric.png[""]
+image:fabric.png["SAN 패브릭"]
 
 
 
 === 스토리지
 
-image:storage.png[""]
+image:storage.png["스토리지"]
 
 
 
 === 스토리지 노드
 
-image:storage_node.png[""]
+image:storage_node.png["스토리지 노드"]
 
 
 
 === VM
 
-image:vm.png[""]
+image:vm.png["가상 머신"]
 
 '''
 
@@ -130,73 +130,73 @@ image:vm.png[""]
 
 === 비용 청구
 
-image:Chargeback_Fact.png[""]
+image:Chargeback_Fact.png["비용 청구"]
 
 
 
 === 디스크 그룹 용량
 
-image:Disk_Group_Capacity.png[""]
+image:Disk_Group_Capacity.png["디스크 그룹 용량"]
 
 
 
 === 파일 시스템 활용률
 
-image:fs_util.png[""]
+image:fs_util.png["파일 시스템 활용률"]
 
 
 
 === 내부 볼륨 용량
 
-image:Internal_Volume_Capacity_Fact.png[""]
+image:Internal_Volume_Capacity_Fact.png["내부 볼륨 용량"]
 
 
 
 === Kubernetes PV 용량
 
-image:k8s_pvc_capacity_fact.jpg[""]
+image:k8s_pvc_capacity_fact.jpg["Kubernetes PV 용량"]
 
 
 
 === 포트 용량
 
-image:ports.png[""]
+image:ports.png["포트 용량"]
 
 
 
 === Qtree 용량
 
-image:Qtree_Capacity_Fact.png[""]
+image:Qtree_Capacity_Fact.png["Qtree 용량"]
 
 
 
 === 스토리지 용량 효율성
 
-image:efficiency.png[""]
+image:efficiency.png["스토리지 용량 효율성"]
 
 
 
 === 스토리지 및 스토리지 풀 용량
 
-image:Storage_and_Storage_Pool_Capacity_Fact.png[""]
+image:Storage_and_Storage_Pool_Capacity_Fact.png["스토리지 및 스토리지 풀 용량"]
 
 
 
 === 스토리지 노드 용량
 
-image:Storage_Node_Capacity_Fact.jpg[""]
+image:Storage_Node_Capacity_Fact.jpg["스토리지 노드 용량"]
 
 
 
 === VM 용량
 
-image:VM_Capacity_Fact.png[""]
+image:VM_Capacity_Fact.png["VM 용량"]
 
 
 
 === 볼륨 용량
 
-image:Volume_Capacity.png[""]
+image:Volume_Capacity.png["볼륨 용량"]
 
 '''
 
@@ -209,130 +209,130 @@ image:Volume_Capacity.png[""]
 
 === 애플리케이션 볼륨의 시간별 성능
 
-image:application_performance_fact.jpg[""]
+image:application_performance_fact.jpg["애플리케이션 볼륨의 시간별 성능"]
 
 
 
 === 디스크 일일 성능
 
-image:disk_daily_performance_fact.png[""]
+image:disk_daily_performance_fact.png["디스크 일일 성능"]
 
 
 
 === 디스크 시간별 성능
 
-image:disk_hourly_performance_fact.png[""]
+image:disk_hourly_performance_fact.png["디스크 시간별 성능"]
 
 
 
 === 호스트 시간별 성능
 
-image:host_performance_fact.jpg[""]
+image:host_performance_fact.jpg["호스트 시간별 성능"]
 
 
 
 === 내부 볼륨 시간별 성능
 
-image:internal_volume_performance_fact.jpg[""]
+image:internal_volume_performance_fact.jpg["내부 볼륨 시간별 성능"]
 
 
 
 === 내부 볼륨 일일 성능
 
-image:internal_volume_daily_performance_fact.jpg[""]
+image:internal_volume_daily_performance_fact.jpg["내부 볼륨 일일 성능"]
 
 
 
 === Qtree 일별 성능
 
-image:QtreeDailyPerformanceFact.png[""]
+image:QtreeDailyPerformanceFact.png["Qtree 일별 성능"]
 
 
 
 === 스토리지 노드 일별 성능
 
-image:storage_node_daily_performance_fact.jpg[""]
+image:storage_node_daily_performance_fact.jpg["스토리지 노드 일별 성능"]
 
 
 
 === 스토리지 노드 시간별 성능 향상
 
-image:storage_node_hourly_performance_fact.jpg[""]
+image:storage_node_hourly_performance_fact.jpg["스토리지 노드 시간별 성능 향상"]
 
 
 
 === 호스트에 대한 시간별 성능 전환
 
-image:switch_performance_for_host_hourly_fact.png[""]
+image:switch_performance_for_host_hourly_fact.png["호스트에 대한 시간별 성능 전환"]
 
 
 
 === 포트의 시간별 성능 전환
 
-image:switch_performance_for_port_hourly_fact.png[""]
+image:switch_performance_for_port_hourly_fact.png["포트의 시간별 성능 전환"]
 
 
 
 === 스토리지에 대한 시간별 성능 전환
 
-image:switch_performance_for_storage_hourly_fact.png[""]
+image:switch_performance_for_storage_hourly_fact.png["스토리지에 대한 시간별 성능 전환"]
 
 
 
 === 테이프에 대한 시간별 성능 전환
 
-image:switch_performance_for_tape_hourly_fact.png[""]
+image:switch_performance_for_tape_hourly_fact.png["테이프에 대한 시간별 성능 전환"]
 
 
 
 === VM 성능
 
-image:vm_hourly_performance_fact.png[""]
+image:vm_hourly_performance_fact.png["VM 성능"]
 
 
 
 === 호스트의 VM 일일 성능
 
-image:vm_daily_performance_fact.png[""]
+image:vm_daily_performance_fact.png["호스트의 VM 일일 성능"]
 
 
 
 === 호스트에 대한 VM 시간별 성능
 
-image:vm_hourly_performance_fact.png[""]
+image:vm_hourly_performance_fact.png["호스트에 대한 VM 시간별 성능"]
 
 
 
 === 호스트의 VM 일일 성능
 
-image:vm_daily_performance_fact.png[""]
+image:vm_daily_performance_fact.png["호스트의 VM 일일 성능"]
 
 
 
 === 호스트에 대한 VM 시간별 성능
 
-image:vm_hourly_performance_fact.png[""]
+image:vm_hourly_performance_fact.png["호스트에 대한 VM 시간별 성능"]
 
 
 
 === VMDK 일별 성능
 
-image:vmdk_daily_performance_fact.png[""]
+image:vmdk_daily_performance_fact.png["VMDK 일별 성능"]
 
 
 
 === VMDK의 시간별 성능
 
-image:vmdk_hourly_performance_fact.png[""]
+image:vmdk_hourly_performance_fact.png["VMDK의 시간별 성능"]
 
 
 
 === 볼륨 시간별 성능
 
-image:volume_performance_fact.jpg[""]
+image:volume_performance_fact.jpg["볼륨 시간별 성능"]
 
 
 
 === 볼륨 일일 성능
 
-image:volume_daily_performance_fact.jpg[""]
+image:volume_daily_performance_fact.jpg["볼륨 일일 성능"]

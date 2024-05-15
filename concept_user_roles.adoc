@@ -291,4 +291,4 @@ image:Restrict_Domains_Modal.png["도메인을 기본 도메인으로만 제한,
 * 기본 및 지정한 도메인으로 액세스를 제한합니다. 기본 도메인 외에 Cloud Insights 환경에 액세스할 수 있는 모든 도메인을 나열합니다.
 
 
-image:Restrict_Domains_Tooltip.png[""]
+image:Restrict_Domains_Tooltip.png["도메인 제한 도구 설명"]
