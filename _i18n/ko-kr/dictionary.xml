@@ -110,7 +110,6 @@
   <block id="227a088b608ffd64b71ecc436b993f13" category="paragraph">이 섹션에서는 원하는 사용자 지정 매개 변수 및/또는 암호를 추가할 수 있습니다. 보안상의 이유로 암호를 정의한 경우 웹 후크 생성자만 이 웹 후크 채널을 수정할 수 있습니다. 다른 사람에게는 읽기 전용입니다. URL/헤더에서 _%&lt;secret_name&gt;%%_(으)로 비밀을 사용할 수 있습니다.</block>
   <block id="9f0bfcad9805fdb266c75890257a496e" category="section-title">모니터에서 Webhook 알림 선택</block>
   <block id="08b5411f848a2581a41672a759c87380" category="inline-link-macro">모니터링</block>
-  <block id="12cfd5219151c53639372267440b1f0f" category="paragraph">에서 웹 후크 알림을 선택합니다 <block ref="1896b2660f404c5b1ef983b849bd2fa1" category="inline-link-macro-rx"></block>, * 경고 &gt; 모니터 관리 * 로 이동하여 원하는 모니터를 선택하거나 새 모니터를 추가합니다. 팀 알림 설정 섹션에서 전달 방법으로 _Webhook_을 선택합니다. 경고 수준(위험, 경고, 해결)을 선택한 다음 원하는 웹 후크를 선택합니다.</block>
   <block id="7f44d407783e89c1aced666e867dd410" category="inline-image-macro">Webhook 모니터 알림</block>
   <block id="4b43841fab74d16cf87af7d828515aa0" category="paragraph"><block ref="4b43841fab74d16cf87af7d828515aa0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="41e96c412b3694cd49b21435dba2aa8b" category="section-title">Webhook 예:</block>
@@ -304,7 +303,6 @@
   <block id="b9bfbe11ded79fa1b72b327d0497f9dd" category="inline-image-macro">지원 페이지</block>
   <block id="e9d356ec51ae4d84881e70ea3c98b6dc" category="section-title">지원 권한 활성화 중</block>
   <block id="27792947ed5d5da7c0d1f43327ed9dab" category="inline-link-macro">세부 정보</block>
-  <block id="1b179bc63122b8c6c97a198ea6812e2a" category="paragraph">Cloud Insights는 평가판 모드로 실행할 때 셀프 서비스 및 이메일 지원을 제공합니다. 서비스에 가입한 후에는 지원 권한을 활성화하는 것이 좋습니다. 지원 권한을 활성화하면 온라인 채팅, 웹 티켓 시스템 및 전화를 통해 기술 지원에 액세스할 수 있습니다. 기본 지원 모드는 등록이 완료될 때까지 셀프 서비스로 설정됩니다. 을 참조하십시오 <block ref="0ac112fddddbe1a53d74b73cbe92356e" category="inline-link-macro-rx"></block> 아래에 있습니다.</block>
   <block id="8c3419f130ad04caaa52bc7ca345b657" category="paragraph">초기 구독 프로세스 중에 Cloud Insights 인스턴스에서는 "950"으로 시작하는 20자리의 NetApp 일련 번호를 생성합니다. 이 NetApp 일련 번호는 계정과 연결된 Cloud Insights 구독을 나타냅니다. 지원 자격을 활성화하려면 NetApp 일련 번호를 등록해야 합니다. NetApp에서는 두 가지 지원 등록 옵션을 제공합니다.</block>
   <block id="cc8ae441e8fc2d8b41c5c0efa830b99e" category="list-text">기존 NetApp Support 사이트(NSS) SSO 계정을 가진 사용자(예: 현재 NetApp 고객)</block>
   <block id="0a0b0ec9b756ca7bf1c8323bc90df282" category="list-text">기존 NetApp Support Site(NSS) SSO 계정이 없는 새로운 NetApp 고객</block>
@@ -3076,7 +3074,6 @@
   <block id="aabf05c4f0e7b6d67364c9c3287c3f76" category="cell">오류: 구성된 IP 주소의 서비스 프로세서에서 스토리지 풀이 디스크를 보고하지 않습니다</block>
   <block id="5c794ce4033cc9a38588fdf417c99b4c" category="cell">두 서비스 프로세서 IP를 쉼표로 구분하여 데이터 수집기를 구성합니다</block>
   <block id="eec4a8f5738e0ab13381d33020ad0b24" category="cell">오류: 수정본 불일치 오류입니다</block>
-  <block id="fd5876ba02b2687e0f759426e0298df1" category="cell">• 일반적으로 VNX 블록 스토리지 디바이스의 펌웨어를 업데이트하지만 NaviCLI.exe의 설치를 업데이트하지 않아 발생합니다. 다른 펌웨어를 사용하는 다른 장치가 있지만 하나의 CLI만 설치된 경우(다른 펌웨어 버전 사용) 이 문제가 발생할 수도 있습니다. • 장치와 호스트가 모두 동일한 소프트웨어 버전을 실행하고 있는지 확인합니다. Cloud Insights 획득 장치에서 명령줄 창을 엽니다. - 디렉토리를 구성된 설치 디렉토리로 변경합니다. - "navicli -h ${ip} getagent"를 입력하여 CLARiX 디바이스에 연결합니다. - 첫 번째 두 줄의 버전 번호를 찾습니다. 예: “에이전트 개정: 6.16.2 (0.1)” - 첫 번째 줄의 버전을 찾아 비교합니다. 예: “Navisphere CLI 개정 6.07.00.04.07”</block>
   <block id="2224c0524fbd6e8f44ccc50ce4a96ad5" category="cell">오류: 지원되지 않는 구성 - Fibre Channel 포트가 없습니다</block>
   <block id="529b04e834f40481051d6ce9539ddc0f" category="cell">디바이스가 Fibre Channel 포트로 구성되어 있지 않습니다. 현재 FC 구성만 지원됩니다. 이 버전/펌웨어가 지원되는지 확인합니다.</block>
   <block id="27a216601981d13fcf078fa6774638a5" category="summary">자산 페이지의 전문가 보기 섹션은 문제 해결 또는 모니터링을 위한 강력한 도구입니다.</block>
@@ -3454,7 +3451,6 @@
   <block id="b0fa17525d310a01406e22a6a3792d8b" category="list-text">SVM 이름은 ONTAP에 표시된 대로 대소문자를 구분합니다.</block>
   <block id="988cfc885910cb57855c7d1e3055000a" category="list-text">SVM Vserver 관리 IP, 사용자 이름 및 암호를 사용합니다</block>
   <block id="4f063ab303b475997c571fed2a4d2d7e" category="inline-link-macro">"권한에 대한 참고 사항"</block>
-  <block id="b19cd1e15a68af6b243893fbf6531cb2" category="list-text">전체 관리자 클러스터/SVM 관리 사용자 이름 및 암호를 사용할 수 없거나 사용할 수 없는 경우 에 설명된 대로 더 낮은 권한으로 사용자 지정 사용자를 생성할 수 있습니다 <block ref="257f1904b32a0b6b3ad6c048be9351a6" category="inline-link-macro-rx"></block> 섹션을 참조하십시오. 이 맞춤형 사용자는 SVM 또는 클러스터 액세스를 위해 생성할 수 있습니다.</block>
   <block id="af3222f57064502de0a6067116f97f3e" category="list-text">o 아래 "권한에 대한 참고 사항" 섹션에서 언급한 csrole 이상의 권한이 있는 역할을 가진 AD 사용자를 사용할 수도 있습니다. 을 참조하십시오 <block ref="d4aa194db895e3203d834756bc431bad" category="inline-link-macro-rx"></block>.</block>
   <block id="af53996a121bcf0b43c612a8465b5398" category="list-text">다음 명령을 실행하여 SVM에 올바른 애플리케이션이 설정되었는지 확인합니다.</block>
   <block id="cce32d87b6a1e3cf5567d9c84f96be3f" category="inline-image-macro">SVM 명령 출력의 예</block>
@@ -3896,7 +3892,6 @@
   <block id="1c86ffb67b6c557efd57f02a8124391f" category="inline-image-macro">서식 있는 단일 값 위젯 및 서식 없는 단일 값 위젯</block>
   <block id="54fd4ea8e77a36f86dbd7eb0c586dbfd" category="paragraph"><block ref="54fd4ea8e77a36f86dbd7eb0c586dbfd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cbd63d84b143ca4d977c56413f0636f8" category="inline-link-macro">사용자 지정</block>
-  <block id="0645d2bfff769e917835d157e691f0be" category="list-text">* 게이지 위젯 *: 기존(솔리드) 게이지 또는 글머리 기호 게이지에 단일 값 데이터를 표시하고 "경고" 또는 "위험" 값을 기준으로 색상을 표시합니다 <block ref="7b06cec2bc04bb3452943fbeb3b82682" category="inline-link-macro-rx"></block>.</block>
   <block id="750f1ef44e948ec90cac7cb3f1abb83c" category="inline-image-macro">서식, 기존 게이지, 글머리 기호 게이지가 있는 단일 값</block>
   <block id="fd3db0ae2d5cb2c027ca4fb5235885fd" category="paragraph"><block ref="fd3db0ae2d5cb2c027ca4fb5235885fd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="134fad64e91be8733fd79da18b8f3061" category="list-text">* 막대, 세로 막대형 차트 *: 위쪽 또는 아래쪽 N 값(예: 용량별 상위 10개 스토리지 또는 하위 5개 볼륨 IOPS 기준)을 표시합니다.</block>
@@ -4141,7 +4136,6 @@
   <block id="3cfba54c70b6969bcb6d6cf2f956498a" category="cell">AWS 지역을 선택하십시오</block>
   <block id="a9e18ceb0cf33b5fa58eee464eb5119b" category="cell">IAM 역할</block>
   <block id="5af83476a58c870df52d1d246574922c" category="inline-link-macro">IAM 역할</block>
-  <block id="263820305fad40ce46e17fb4c0dcd2f0" category="cell">AWS의 AU에서 획득한 경우에만 사용합니다. 에 대한 자세한 내용은 아래를 참조하십시오 <block ref="b1fa9c7402c411a5cbbd77540aba7325" category="inline-link-macro-rx"></block>.</block>
   <block id="0e174ead80150bd1646bbe3dff5be348" category="cell">AWS IAM 액세스 키 ID</block>
   <block id="ee70e7971d85d7d2d77742381912070b" category="cell">AWS IAM 액세스 키 ID를 입력합니다. IAM Role을 사용하지 않는 경우 필수입니다.</block>
   <block id="f55ad0ad249bea7ede23875a3038fe11" category="cell">AWS IAM 비밀 액세스 키</block>
@@ -4381,11 +4375,9 @@
   <block id="6acc33ae48cab5cb2335531500f89b02" category="paragraph">이 페이지에서 사용할 수 있는 데이터에 대한 설명은 다음과 같습니다.</block>
   <block id="add45c9b3192a1741f0078c1e3a26199" category="list-text">월, 일, 년 및 시간을 포함한 엔티티 액세스 시간입니다.</block>
   <block id="2ba01387eb193f306ecd9e0aa92ec18b" category="inline-link-macro">사용자 세부 정보 데이터</block>
-  <block id="d392843964c335c1c9dd5d3a73ecffa9" category="list-text">에 대한 링크를 사용하여 엔티티에 액세스한 사용자입니다 <block ref="7c73493d9f7ea518160cd9b15865320b" category="inline-link-macro-rx"></block>.</block>
   <block id="5620854eb6d9dfc6232bbccefdbb4f0e" category="list-text">사용자가 수행한 작업:</block>
   <block id="1129c0e4d43f2d121652a7302712cff6" category="list-text">쓰기</block>
   <block id="db7ee224458b6b939d2f759930e9a9f1" category="list-text">메타 데이터 액세스</block>
-  <block id="02d2d907a8cea574883286e56e5834d0" category="list-text">에 대한 링크가 있는 요소의 경로입니다 <block ref="48ae99400f35b5a30544095c0b977e4d" category="inline-link-macro-rx"></block></block>
   <block id="234e95e32a1ea9eb274c2e8437dfb0a7" category="list-text">요소 유형:</block>
   <block id="0b27918290ff5323bea1e3b78a9cf04e" category="list-text">파일</block>
   <block id="51d68bd940901bf218b5d1798790ca09" category="list-text">작업이 수행된 IP 주소입니다.</block>
@@ -6188,7 +6180,6 @@
   <block id="c74022ec3500804719ac4dae2639c107" category="cell">Include(포함): 목록의 장치에서만 수집된 데이터입니다. 제외: 이러한 장치에서 데이터가 수집되지 않습니다</block>
   <block id="67f88e9638429025aedc9459c104dc99" category="cell">성능 컬렉션에서 포함하거나 제외할 장치 ID의 쉼표로 구분된 목록입니다</block>
   <block id="13cb776e94eedbe31790c3da868fce4f" category="cell">오류 포함: CMUC00192E, CMUC00191E 또는 CMUC00190E</block>
-  <block id="74ce3011edbe24d23741ab64757e01b3" category="cell">* 입력한 자격 증명 및 IP 주소를 확인합니다. * 웹 관리 콘솔을 통해 어레이와 통신해 보십시오<block ref="05cc9b0aa4749686afc5de5ae5526f25" category="inline-link-rx"></block>. ${ip}을(를) 데이터 수집기가 구성된 IP로 교체합니다.</block>
   <block id="b18a21f855b9b4e7ca0fae5355812eb5" category="cell">오류: * 프로그램을 실행할 수 없음 * 명령 실행 중 오류</block>
   <block id="d3fb13aa93c07b18952569ac666e58a4" category="cell">* Cloud Insights 획득 장치에서 CMD * 열기 CLI 홈 디렉토리/lib에서 CLI.CFG 파일을 열고 속성 java_install을 확인합니다. 사용자 환경과 일치하도록 값을 편집합니다. * 이 컴퓨터에 설치된 Java 버전을 표시합니다. 다음을 입력합니다. "java-version" * Ping CLI 명령에 지정된 IBM 스토리지 디바이스의 IP 주소입니다. * 위 항목 모두 정상적으로 작동했다면 CLI 명령을 수동으로 실행하십시오</block>
   <block id="55d1aacd9076657a9c3f2551a759f3f7" category="summary">Cloud Insights의 자산 페이지 관련 경고 섹션 개요</block>
@@ -6621,7 +6612,6 @@
   <block id="957341b9f61ce41f315f6a58199dcab3" category="paragraph">Kubernetes 노드 페이지에서 노드의 VM 페이지를 클릭하여 열 수 있습니다. VM 페이지에는 노드 자체에 대한 링크도 포함되어 있습니다.</block>
   <block id="0899fcc28c04aa81ead738e68e460060" category="summary">Cloud Insights API를 사용하여 보고 DB를 직접 쿼리합니다.</block>
   <block id="e6c1acbe24ac928f9d0ef2fae722595a" category="paragraph">Cloud Insights의 강력한 API를 사용하면 Cognos 보고 환경을 거치지 않고 Cloud Insights 보고 데이터베이스를 직접 쿼리할 수 있습니다.</block>
-  <block id="839e9965620da680dac976910eb42800" category="admonition">이 설명서는 에서 사용할 수 있는 Cloud Insights 보고 기능을 참조합니다 <block ref="4403a1ad625c6a857c60069d4bc3b41a" category="inline-link-macro-rx"></block>.</block>
   <block id="2946f573e2e09deeeecdc2af8dba7379" category="section-title">OData입니다</block>
   <block id="ebb397c50a10a758892e24ffe755b4e4" category="inline-link-macro">OData v4</block>
   <block id="a755b355075d62b57c54f7a8a785c054" category="inline-link-macro">이 자습서</block>
@@ -7691,7 +7681,6 @@
   <block id="b0b134473b7922feefa2eaac79b9fb75" category="cell">CsUser 사용 시, 위에서 설명한 대로 사용자에게 권한이 부여되는지 확인</block>
   <block id="abd4328c725637aabedbd02d3b7ffd40" category="cell">양방향</block>
   <block id="8334797b9b3383d4f48d98178b8845ea" category="inline-link-macro">이 페이지</block>
-  <block id="116c0009f8a6c3650a8638213dafb58f" category="cell">Data Collector 페이지에서 오류를 제공하는 데이터 수집기의 오른쪽으로 스크롤하고 3개의 점 메뉴를 클릭합니다. 편집 _ 을(를) 선택합니다. 데이터 수집기의 암호를 다시 입력합니다. Save _ 버튼을 눌러 데이터 수집기를 저장합니다. Data Collector가 다시 시작되고 오류가 해결되어야 합니다. 2.Agent 시스템이 CPU 또는 RAM 여유 공간이 부족할 수 있습니다. 이것이 바로 DSC가 실패하는 이유입니다. 시스템의 에이전트에 추가되는 데이터 수집기 수를 확인하십시오. 20개를 초과하는 경우 Agent 시스템의 CPU 및 RAM 용량을 늘리십시오. CPU와 RAM이 증가되면 DSC가 초기화 중 상태로 전환되었다가 자동으로 실행 상태로 전환됩니다. 의 사이징 가이드를 참조하십시오 <block ref="d78d6535469308a93bd2a6c42408feef" category="inline-link-macro-rx"></block>.</block>
   <block id="e2bb2679868c6a4cb2113cadeba2c17b" category="summary">Cloud Insights API를 사용하여 주석 및 애플리케이션을 가져올 수 있습니다.</block>
   <block id="0dc88092036f29d0c951123c9b9f932e" category="section-title">데이터가 없을 때 경고합니다</block>
   <block id="525a57ad5c1f150ce2c13c4797278523" category="paragraph">Cloud Insights와 같은 실시간 시스템에서는 경고를 생성할지 여부를 결정하기 위해 모니터 분석을 트리거하기 위해 다음 두 가지 중 하나를 사용합니다.</block>
@@ -7875,7 +7864,6 @@
   <block id="51222d9334f8421be01a4c67bba211f0" category="list-text">IAM 액세스 키 인증을 사용하는 경우 AWS 클라우드 계정의 * IAM 액세스 키 * ID 및 비밀 액세스 키</block>
   <block id="059cecdb406ea318583165dbd87ae76a" category="list-text">AWS S3 인스턴스를 가상 머신 또는 (자연스럽게) 호스트로 보고할 수 있습니다. EBS 볼륨은 VM에서 사용하는 가상 디스크와 가상 디스크의 용량을 제공하는 데이터 저장소로 보고될 수 있습니다.</block>
   <block id="eabf633dc74f78f079f74efeb11ba4c2" category="paragraph">액세스 키는 액세스 키 ID(예: AKIAIOSFODN7EXAMPLE)와 비밀 액세스 키(예: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY)로 구성됩니다. AWS SDK, REST 또는 쿼리 API 작업을 사용하는 경우 액세스 키를 사용하여 AWS에 대해 수행하는 프로그래밍 방식 요청에 서명할 수 있습니다. 이러한 키는 아마존에서 귀하의 계약과 함께 제공됩니다.</block>
-  <block id="c556d79cf119c0275f5a7e5ffe17e25e" category="cell">AWS의 AU에서 획득한 경우에만 사용합니다. 에 대한 자세한 내용은 아래를 참조하십시오 <block ref="abcc3869ca9e9148fb25f0d23e298b7f" category="inline-xref-macro-rx"></block>.</block>
   <block id="a9798702903d4f5ee46de22467eb3ccd" category="paragraph">예를 들어, 이름이 _InstanceS3ReadOnly_인 IAM 역할을 생성하는 경우 이 IAM 역할에 대한 모든 S3 읽기 전용 목록 액세스 권한을 부여하도록 정책을 설정해야 합니다. 또한 이 역할이 계정 간에 역할을 수행할 수 있도록 STS(보안 토큰 서비스) 액세스를 부여해야 합니다.</block>
   <block id="56fbeb9e954ace68d534e66e58b364a1" category="paragraph">IAM 역할을 생성한 후 새 S3 인스턴스 또는 기존 S3 인스턴스를 생성할 때 연결할 수 있습니다.</block>
   <block id="ddaf3f263ed6f7d926e96caad7b5d807" category="paragraph">IAM role_InstanceS3ReadOnly_를 S3 인스턴스에 연결하면 IAM 역할 이름으로 인스턴스 메타데이터를 통해 임시 자격 증명을 검색하고 이 S3 인스턴스에서 실행되는 모든 응용 프로그램에서 이 자격 증명을 사용하여 AWS 리소스에 액세스할 수 있습니다.</block>
@@ -9009,9 +8997,7 @@
   <block id="0a2bd44573247d8e7748ce7d2d2a4b8f" category="paragraph">이벤트 속도 검사기는 ONTAP SVM 데이터 수집기를 설치하기 전에 SVM에서 NFS/SMB의 결합된 이벤트 속도를 확인하여 에이전트 시스템 한 대를 모니터링할 수 있는 SVM의 수를 확인하는 데 사용됩니다. 이벤트 속도 검사기를 크기 조정 가이드로 사용하여 보안 환경을 계획할 수 있습니다.</block>
   <block id="2723c4d559ff96bb42870d86c109708e" category="doc">SVM Event Rate Checker(에이전트 크기 지정 가이드)</block>
   <block id="abc492c54ab99cf963d50d67acb42565" category="sidebar">이벤트 속도 검사기(에이전트 크기 지정 가이드)</block>
-  <block id="344b15b7319e7ac5af178bf86f71332e" category="cell">이 오류와 유사한 오류가 발생했습니다. '요청 실행 실패: &lt;AWS region endpoint&gt;에 연결: 8080 [&lt;AWS region endpoint&gt;/AWS 지역 엔드포인트 IP&gt;] 실패: 연결 시간 초과: 가져오기<block ref="c76ccb25cb3c0e03bc187c29ed42806c" category="inline-link-rx"></block> Region Endpoint FQDN&gt;:8080/v1/Storage/IPRanges HTTP/1.1'</block>
   <block id="ef756d1229bc6f51e983884d984a03f3" category="inline-link-macro">NetApp KB 문서</block>
-  <block id="59ac6af58fe53beeb9262552cb4288e4" category="cell">를 클릭합니다 <block ref="588cebdad26ee4a9a3bb08c290310eb7" category="inline-link-macro-rx"></block> Cloud Insights가 획득 장치와 통신하는 데 사용하는 것은 Cloud Insights와 데이터 수집기 자체 간에 통신하지 않습니다. 다음과 같은 몇 가지 방법을 시도해 볼 수 있습니다. 획득 장치가 FQDN을 확인하고 필요한 포트에 도달할 수 있는지 확인하십시오. 프록시가 오류 메시지의 지정된 끝점에 도달할 필요가 없는지 확인합니다. curl(말림)은 획득 장치와 끝점 사이의 통신을 테스트하는 데 사용할 수 있습니다. 이 테스트에 프록시를 사용하고 있지 * 않은지 확인하십시오. 예: root@acquisionunit# curl -s -H accept: application/json -H "content-type: application/json" -H api -key: &lt;api key used in the data collector credentials -H secret-key:&lt;secret key used in the data collector credentials&gt;-X get<block ref="c76ccb25cb3c0e03bc187c29ed42806c" category="inline-link-rx"></block> 지역 엔드포인트 &gt;:8080/v1/스토리지/IPRanges 이 항목을 참조하십시오 <block ref="776b569bb4fd625ede408f144a17e02c" category="inline-link-macro-rx"></block>.</block>
   <block id="eb1d5185404b1a4f21a4da9c88cb536d" category="paragraph">Cloud Insights에 등록하고 환경이 활성화되어 있는 경우 Cloud Insights 30일 무료 평가판에 들어갑니다. 이 시험판 평가 중에 Cloud Insights가 귀사의 환경에서 제공하는 기능을 살펴볼 수 있습니다.</block>
   <block id="fca4fedbe53af4420a279beead573bdf" category="doc">워크로드 보안: 공격 시뮬레이션</block>
   <block id="85bec7dd725b26542ae7c0d1c759836a" category="paragraph">이 페이지의 지침을 사용하여 포함된 랜섬웨어 시뮬레이션 스크립트를 사용하여 워크로드 보안을 테스트 또는 시연하기 위한 공격을 시뮬레이션할 수 있습니다.</block>
@@ -10075,42 +10061,6 @@ FAS/AFF 8080</block>
   <block id="bca37b041da64be838599cd43784ed63" category="paragraph">관리자:</block>
   <block id="bbe1851a4bf6476f10ba4c77ec78d11d" category="list-text">API 액세스</block>
   <block id="4620823d389a7467f91084ea88f4f104" category="list-text">구독 정보</block>
-  <block id="384d2b3681715a5efe4a0e8ae256591a" category="cell">이는 ONTAP 측의 네트워킹 문제 때문일 가능성이 가장 높습니다. 다음 단계를 따르십시오.
-
-SVM 데이터 lif 또는 SVM과의 연결을 차단하는 관리 lif에 방화벽이 없는지 확인합니다.
-
-클러스터 관리 IP를 통해 SVM을 추가할 때 SVM의 데이터 거짓과 관리 거짓이 에이전트 VM에서 핑되도록 하십시오. 문제가 발생한 경우, lif에 대한 게이트웨이, 넷마스크 및 경로를 확인하십시오.
-
-클러스터 관리 IP를 사용하여 ssh를 통해 클러스터에 로그인하고 에이전트 IP를 Ping할 수도 있습니다. 에이전트 IP가 Ping할 수 있는지 확인합니다.
-
-_network ping -vserver &lt;vserver name&gt; -destination &lt;Agent IP&gt; -lif &lt;Lif Name&gt; -show -detail_
-
-Ping할 수 없는 경우 ONTAP의 네트워크 설정이 올바른지 확인하여 Agent 시스템이 Ping할 수 있도록 합니다.
-
-3.클러스터 IP를 통해 연결을 시도했으나 작동하지 않는 경우 SVM IP를 통해 직접 연결을 시도하십시오. SVM IP를 통해 연결하는 단계는 위 섹션을 참조하십시오.
-
-SVM IP 및 vsadmin 자격 증명을 통해 수집기를 추가하는 동안 SVM LIF에서 데이터 및 관리 역할이 활성화되어 있는지 확인합니다. 이 경우 SVM LIF로 ping을 수행할 수 있지만 SVM LIF에 대한 SSH는 작동하지 않습니다.
-SVM 관리 전용 LIF를 생성한 후 이 SVM 관리 전용 LIF를 통해 연결을 시도하십시오.
-
-그래도 작동하지 않으면 새 SVM LIF를 생성하고 LIF를 통해 연결을 시도합니다. 서브넷 마스크가 올바르게 설정되었는지 확인합니다.
-
-6.고급 디버깅:
-a) ONTAP에서 패킷 추적을 시작합니다.
-B) CloudSecure UI에서 데이터 수집기를 SVM에 연결합니다.
-c) 오류가 나타날 때까지 기다립니다. ONTAP에서 패킷 추적을 중지합니다.
-d) ONTAP에서 패킷 추적을 엽니다. 이 위치에서 사용할 수 있습니다
-
- _\https://&lt;cluster_mgmt_ip&gt;/SPI/&lt;clustername&gt;/etc/log/packet_traces/_
-
-e) ONTAP에서 에이전트 상자로 SYN이 있는지 확인합니다.
-f) ONTAP의 SYN이 없는 경우 ONTAP의 방화벽 문제입니다.
-g) ONTAP에서 방화벽을 열어 ONTAP가 에이전트 상자를 연결할 수 있도록 합니다.
-
-7.여전히 작동하지 않는 경우 네트워킹 팀에 문의하여 ONTAP에서 Agent Box로의 연결을 차단하는 외부 방화벽이 없는지 확인하십시오.
-
-포트 7이 열려 있는지 확인합니다.
-
-9.위의 방법으로 문제가 해결되지 않으면 에서 케이스를 엽니다 <block ref="125077bdbbba42f5228b9828dd761a10" category="inline-link-macro-rx"></block> 추가 지원을 요청하십시오.</block>
   <block id="4511f2a211688512da3a86b3400de7ff" category="paragraph">이 데이터 수집기에서 지원하는 모델 및 버전:</block>
   <block id="2c27d357495661792f689f1125b5c6ba" category="cell">HPE Alletra 9080
 HPE_3PAR 20450
@@ -12023,7 +11973,6 @@ CHE: 권한이 거부되었습니다. 무시됨 \n "func="gosnowflake.(* default
   <block id="8f176f657f418586c2a4828045ab0c37" category="cell">이는 알려진 문제입니다.  을 참조하십시오 <block ref="23bd9a1f0b26414ad35f4299a95464f0" category="inline-link-macro-rx"></block> 를 참조하십시오. Telegraf가 실행 중인 경우 사용자는 이러한 오류 메시지를 무시할 수 있습니다.</block>
   <block id="9aab00e938cede2932654042bc507309" category="cell">Kubernetes에서 Telegraf POD가 다음 오류를 보고합니다.
 "mountstats 정보 처리 중 오류 발생: mountstats 파일을 열지 못했습니다. /hostfs/proc/1/mountstats, 오류: open/hostfs/proc/1/mountstats: permission denied"</block>
-  <block id="cf0c5ed1e47d7431af16b71ad06bfcba" category="cell">SELinux가 설정되어 있고 강제 적용되는 경우 Telegraf 포드가 Kubernetes 노드의 /proc/1/mountstats 파일에 액세스하지 못할 수 있습니다. 이 제한을 해결하려면 agentconfiguration을 편집하고 runPrivileged 설정을 활성화하십시오. 자세한 내용은 다음을 참조하십시오.<block ref="b799c83c0330c0824f3118282f39ee9e" category="inline-link-rx"></block>.</block>
   <block id="f997e79142f159c33823b9deeab809eb" category="cell">Kubernetes에서 내 Telegraf ReplicaSet POD가 다음 오류를 보고합니다.
 
  [inputs.prometheus] 플러그인 오류: keypair /etc/kubernetes/pki/etcd/server.crt:/etc/kubernetes/pki/etcd/server.key: open/etc/Kubernetes/pki/etcd/server.crt: 해당 파일 또는 디렉토리가 없습니다</block>
@@ -12570,7 +12519,6 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="882354c20e5e22e1c581f6c0c24ef8f3" category="cell"><block ref="882354c20e5e22e1c581f6c0c24ef8f3" category="inline-link-macro-rx"></block></block>
   <block id="5c62f1c9f30e0ad47fc12431846b6858" category="inline-link-macro">사용자 액세스 차단</block>
   <block id="8ddc916ec9b2ba8508e95584974411cf" category="paragraph">에 대해 다음 사항을 염두에 두십시오 <block ref="84987077236e5a9982c9d1eae9e06415" category="inline-link-macro-rx"></block>:</block>
-  <block id="d725c02924790a2eff9bb2c7121e839d" category="paragraph">의 사용 권한 섹션을 검토하십시오 <block ref="8a91694a94b506bcdf4d50b0df6ab8bc" category="inline-link-macro-rx"></block> 페이지를 참조하십시오.</block>
   <block id="19f59b74448f6a27519db281a44e4b12" category="section-title">마이그레이션</block>
   <block id="326a85558498d8aa2718dbf52e3bf722" category="paragraph">이전 ONTAP(ontapi) 데이터 수집기에서 최신 ONTAP REST 수집기로 마이그레이션하려면 다음을 수행합니다.</block>
   <block id="0a6cb81f2c451b8ffdd5fb04d030bc4b" category="cell">스토리지 가상 시스템/Vserver</block>
@@ -12710,10 +12658,6 @@ Kubernetes 애플리케이션의 스토리지 네트워크 활동 및 정확한 
   <block id="60a414e81fe118967fa6232e8eb9f5ed" category="paragraph">Kubernetes 네트워크 성능 모니터링 및 맵 기능은 서비스 간 종속성(워크로드라고도 함)을 매핑하여 문제 해결을 간소화하고 네트워크 성능 지연 시간 및 이상 징후를 실시간으로 확인하여 사용자에게 영향을 미치기 전에 성능 문제를 식별합니다.
 이 기능은 조직이 Kubernetes 트래픽 흐름을 분석하고 감사하여 전체 비용을 절감할 수 있도록 도와줍니다.</block>
   <block id="41f9e4070ff69cb3ab05150a383b982d" category="summary">Kubernetes 모니터링 운영자는 Cloud Insights에서 사용할 Kubernetes 데이터를 수집합니다.</block>
-  <block id="1efee558528b235998f6c37634f18ec9" category="paragraph">ONTAP ARP 통합에 대한 권한:</block>
-  <block id="ea68be0a35687ab64afad562f46dff32" category="paragraph">ONTAP 액세스 권한 거부됨:</block>
-  <block id="64ac4b9298207f0fc756c6288f8c1a80" category="paragraph">참고: 하나의 REST-role이 이미 추가된 경우(_arwrole_or_csrestrole_-) 두 번째 REST-role을 추가할 필요가 없습니다. 아래 예와 같이 간단히 API 권한을 추가할 수 있습니다.</block>
-  <block id="2e99c7c5f8b0c692f20c07f49b37d122" category="paragraph">예: _csrestrole_이 이미 있으므로 랜섬웨어 방지 기능을 활성화하고 기존_csrestrole_ 에 API 권한을 부여하기만 하면 됩니다.</block>
   <block id="2b9cb1c6561901b8c103aee1d5c61dfd" category="cell">"하트비트 오류:" 메시지가 표시됩니다</block>
   <block id="a79a7a75840b1e266cc0c6c037c2d7f0" category="cell">획득 장치를 다시 설치할 때 "ValueError: /opt/netapp/cloudinsights(/. *)에 대한 파일 컨텍스트"가 표시됩니다. 이미 정의됨".</block>
   <block id="ae27abd8286d1b98e00b46440cd90926" category="cell">SELinux가 설치된 시스템에서는 이 오류 메시지가 다음에 나타날 수 있습니다<block ref="36f17859b55b3c1f8840366ccf62d8d6" prefix=" " category="inline-code"></block> 이(가) 실행되고 획득 장치를 다시 설치해야 합니다. 명령을 실행합니다<block ref="42f732f1bf8255184086b8f48ec741c3" prefix=" " category="inline-code"></block> 문제를 해결하고 메시지를 제거해야 합니다.</block>
@@ -12730,8 +12674,6 @@ Kubernetes 애플리케이션의 스토리지 네트워크 활동 및 정확한 
   <block id="b6544593f70ff0a8915cbd1f9aabb49f" category="cell">event-exporter-maxEventAgeSeconds입니다</block>
   <block id="ec57a05c2326d433af7b24b3adb77f1a" category="cell">이벤트 내보내기 최대 이벤트 기간.  을 참조하십시오<block ref="6708727d05fa40eed58ce8404e60b4a3" category="inline-link-rx"></block></block>
   <block id="639bed0f86ee37975166505f25500f59" category="paragraph">변경 분석은 어떻게 도움이 됩니까?</block>
-  <block id="8c0ffb3a96aefd29a8b298519ff82eb8" category="list-text">멀티 테넌트 Kubernetes 환경에서는 잘못 구성된 변경으로 인해 중단이 발생할 수 있습니다. 매우 동적인 환경에서는 Cloud Insights 인프라 모니터링이 모든 변경을 제대로 추적하지 못할 수 있습니다.</block>
-  <block id="6cfc89cbc741a775222e1cd65f12a4a0" category="list-text">Change Analytics는 워크로드 상태와 구성 변경의 상태를 보고 상호 연관시킬 수 있는 단일 창을 제공하여 이러한 작업을 지원합니다. 이는 동적 Kubernetes 환경 문제를 해결하는 데 도움이 될 수 있습니다.</block>
   <block id="9c64a0e0a0e22cc18b7137e967889926" category="doc">Kubernetes 모니터링 운영자 구성 옵션</block>
   <block id="3371b7c42a338a1d63764ce6cc96fdcb" category="inline-link-macro">Kubernetes 모니터링 운영자</block>
   <block id="f32519ffeecd98f4c4f06a7bf1c7a34c" category="paragraph">를 클릭합니다 <block ref="025a80672f7feae526479c9984c435c7" category="inline-link-macro-rx"></block> 구성을 사용자 지정할 수 있습니다.</block>
@@ -12759,12 +12701,6 @@ Kubernetes v1.20 이상: Kubernetes.IO/OS = Linux
 Rancher + Cates.io 오케스트레이션/Kubernetes 플랫폼: cool.io/OS = Linux</block>
   <block id="b0c7368729c7094129da2a9003691e56" category="cell">curl 및 kubectl 명령을 사용할 수 있어야 합니다. 최상의 결과를 얻으려면 이러한 명령을 경로에 추가하십시오.</block>
   <block id="9bd9d0ebc081bd74f5bef4e136bb1aed" category="cell">연결성</block>
-  <block id="55a65c182f00e32a2ec3792167680870" category="cell">kubectl CLI는 대상 K8s 클러스터와 통신하도록 구성되고 Cloud Insights 환경에 인터넷이 연결됩니다.
-
-설치하는 동안 프록시 뒤에 있는 경우 의 지침을 따릅니다 <block ref="64cf37673a6ed79c9da34b6623735516" category="inline-link-macro-rx"></block> 작업자 설치의 섹션.
-
-정확한 감사 및 데이터 보고를 위해 NTP(Network Time Protocol) 또는 SNTP(Simple Network Time Protocol)를 사용하여 Agent 시스템의 시간을 동기화합니다.</block>
-  <block id="a4b54dca162f049f992f72e7505f2056" category="cell">OpenShift 4.6 이상에서 실행 중인 경우 다음 링크를 따라야 합니다. task_config_telegraf_agent_k8s.html#openshift-instructions [OpenShift Instructions]</block>
   <block id="5161b4f9ce9a8b7d966e8bf3c049f6f3" category="cell">API 토큰</block>
   <block id="6f45f482f0e5142bd1fcac264b61790c" category="cell">Operator를 다시 배포하는 경우(예: 업데이트 또는 교체) 새 API 토큰을 생성할 필요가 없습니다. 이전 토큰을 다시 사용할 수 있습니다.</block>
   <block id="40bdea93b8749ee61a47530602b78ba0" category="cell"><block ref="40bdea93b8749ee61a47530602b78ba0" category="inline-link-macro-rx"></block></block>
@@ -13047,11 +12983,6 @@ Firefox에서 쿠키 예외는 간단히 _auth0.com _ 및 _netapp.com _ 로 지�
   <block id="401fed57c814eb5c6cee47d79b354f59" category="inline-image-macro">모든 위젯을 보여 주는 VM 대시보드 전체 예</block>
   <block id="00c340d0d431c9fa05836d10d9d9cee7" category="paragraph"><block ref="00c340d0d431c9fa05836d10d9d9cee7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="97d8e9a07abc13937635fa4d8bfc72e4" category="list-text">내보내기 * 를 클릭합니다 <block ref="7d9204e8192ad34899f7f874d914194c" category="inline-image-macro-rx" type="image"></block> 단추를 클릭합니다.</block>
-  <block id="697dfb9b235783676b63d2f1ed07cad5" category="paragraph">&lt;&lt;&lt;&lt;&lt;&lt;&lt; 머리</block>
-  <block id="3aa39f9c69e0586976520ec48d9ad3c6" category="paragraph">&gt;&gt;&gt;&gt; b8087143154c7d9f5d1d3f33e1bdf97a7c9d1
-=== * SVM 관리 IP * 를 통해 추가할 때 사용 권한:</block>
-  <block id="dd1d0dc7a37fe63b5e2c257349aa6532" category="paragraph">&gt;&gt;&gt;&gt; b8087143154c7d9f5d1d3f33e1bdf97a7c9d1
-=== ONTAP 자율적 랜섬웨어 방어에 대한 권한</block>
   <block id="9308a4a251c0b6f099fc32506e41c24d" category="inline-image-macro">워크로드 보안 수집기 오류 추가 세부 정보 링크</block>
   <block id="6a6fcf99d83d56b2429dfa3ef83b50a0" category="paragraph"><block ref="6a6fcf99d83d56b2429dfa3ef83b50a0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="05245c9c713dbc0e818edff595a4246c" category="inline-image-macro">랜딩 페이지 요약 섹션의 예</block>
@@ -13079,4 +13010,99 @@ Firefox에서 쿠키 예외는 간단히 _auth0.com _ 및 _netapp.com _ 로 지�
   <block id="a2a865d86d0249910ef35168356aaa62" category="inline-image-macro">일회용 API 토큰 예제에 대한 응답입니다</block>
   <block id="22633d390ea43b8d615492e9fc7001be" category="paragraph"><block ref="4744c410fb085b5ca5fc5f63d8aecf39" category="inline-image-macro-rx" type="image"></block>
 <block ref="b20eef6fad4f32d2d331ae785e0dc25f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="88624c8c7afb5c98f1c473e14dcbf963" category="cell">kubectl CLI는 대상 K8s 클러스터와 통신하도록 구성되고 Cloud Insights 환경에 인터넷이 연결됩니다.
+
+설치하는 동안 프록시 뒤에 있는 경우 의 지침을 따릅니다 <block ref="013ef47d0dbd50be424736fae93491dd" category="inline-link-macro-rx"></block> 작업자 설치의 섹션.
+
+정확한 감사 및 데이터 보고를 위해 NTP(Network Time Protocol) 또는 SNTP(Simple Network Time Protocol)를 사용하여 Agent 시스템의 시간을 동기화합니다.</block>
+  <block id="7c32e6404e015057fc5db282b24077f0" category="cell">OpenShift 4.6 이상에서 실행 중인 경우 를 따라야 합니다 <block ref="f28efb863bb7dfcdf91b1badf5c0c340" category="inline-link-macro-rx"></block> 이러한 사전 요구 사항이 충족되었는지 확인하는 것 외에도</block>
+  <block id="122fc5eb4b307e2a1b2bef4475345326" category="cell">AWS의 AU에서 획득한 경우에만 사용합니다. 에 대한 자세한 내용은 아래를 참조하십시오 <block ref="83d528ecd9060fb6ba0317241e0017ba" category="inline-xref-macro-rx"></block>.</block>
+  <block id="24c6fef3c58adc63ac779bde77c4fbce" category="cell">• 이 문제는 대개 VNX 블록 스토리지 디바이스에서 펌웨어를 업데이트하지만 NaviCLI.exe의 설치를 업데이트하지 않아 발생합니다. 다른 펌웨어를 사용하는 다른 장치가 있지만 하나의 CLI만 설치된 경우(다른 펌웨어 버전 사용) 이 문제가 발생할 수도 있습니다.
+• 장치와 호스트가 모두 동일한 버전의 소프트웨어를 실행하고 있는지 확인합니다.
+    - Cloud Insights 획득 장치에서 명령줄 창을 엽니다
+    - 디렉터리를 구성된 설치 디렉터리로 변경합니다
+    - "navicli -h &lt;ip&gt; getagent"를 입력하여 CLARiX 디바이스와 연결합니다.
+    - 첫 번째 두 줄의 버전 번호를 찾습니다. 예: “에이전트 개정: 6.16.2(0.1)"
+    - 첫 번째 줄에서 버전을 찾아 비교합니다. 예: “Navisphere CLI 개정 6.07.00.04.07”</block>
+  <block id="39d9aa164a7b16c29e56edd3252953f6" category="paragraph">에서 웹 후크 알림을 선택합니다 <block ref="79bf0d490adb807cbc06cd7e0b796905" category="inline-link-macro-rx"></block>, * 경고 &gt; 모니터 관리 * 로 이동하여 원하는 모니터를 선택하거나 새 모니터를 추가합니다. 팀 알림 설정 섹션에서 전달 방법으로 _Webhook_을 선택합니다. 경고 수준(위험, 경고, 해결)을 선택한 다음 원하는 웹 후크를 선택합니다.</block>
+  <block id="4123cf4f6521073cef46192908207644" category="cell">SELinux가 설정되어 있고 강제 적용되는 경우 Telegraf 포드가 Kubernetes 노드의 /proc/1/mountstats 파일에 액세스하지 못할 수 있습니다. 이 제한을 해결하려면 agentconfiguration을 편집하고 runPrivileged 설정을 활성화하십시오. 자세한 내용은 를 참조하십시오 <block ref="f28efb863bb7dfcdf91b1badf5c0c340" category="inline-link-macro-rx"></block>.</block>
+  <block id="59452d431b0a4e230ef72ae0b0b00085" category="admonition">이 문서에서는 Cloud Insights 프리미엄 에디션에서 사용할 수 있는 Cloud Insights 보고 기능에 대해 설명합니다.</block>
+  <block id="f09f88f2a0cd4d59d1c5dc91fdce034b" category="cell">*명령 프롬프트를 열고 디렉터리를 구성된 경로로 변경합니다
+*“set=STONAVM_HOME=.” 명령을 실행합니다.
+*“auunitref” 명령을 실행합니다.
+* 명령 출력에 IP가 있는 어레이의 세부 정보가 포함되어 있는지 확인합니다
+* 출력에 스토리지 세부 정보가 포함되지 않은 경우 Storage Navigator CLI를 사용하여 어레이를 등록합니다.
+    - 명령 프롬프트를 열고 디렉토리를 구성된 경로로 변경합니다
+    - “set=STONAVM_HOME=.” 명령을 실행합니다.
+    - "auunitaddauto-IP &lt;ip&gt;" 명령을 실행합니다. &lt;ip&gt;를 올바른 IP로 교체합니다.</block>
+  <block id="106b0b60f6d1a63a5d090bb5d33b4b6a" category="list-text">* 게이지 위젯 *: 기존(솔리드) 게이지 또는 글머리 기호 게이지에 단일 값 데이터를 표시하고 "경고" 또는 "위험" 값을 기준으로 색상을 표시합니다 <block ref="ce9cfc657985aa685104d6bcb1ead4a8" category="inline-link-macro-rx"></block>.</block>
+  <block id="31ec8abc1c2fff3171b9e6ba5d038ad8" category="list-text">에 대한 링크를 사용하여 엔티티에 액세스한 사용자입니다 <block ref="168fc69c3032b784e96b74cdbf6c371b" category="inline-link-macro-rx"></block>.</block>
+  <block id="9a5d498bf9b8403940f19e1ef7148f1d" category="list-text">에 대한 링크가 있는 요소의 경로입니다 <block ref="633539366fa6408c302917ca137b4662" category="inline-link-macro-rx"></block></block>
+  <block id="476381b52fc0e8c9c312bfbd66594653" category="paragraph">Cloud Insights는 평가판 모드로 실행할 때 셀프 서비스 및 이메일 지원을 제공합니다. 서비스에 가입한 후에는 지원 권한을 활성화하는 것이 좋습니다. 지원 권한을 활성화하면 온라인 채팅, 웹 티켓 시스템 및 전화를 통해 기술 지원에 액세스할 수 있습니다. 기본 지원 모드는 등록이 완료될 때까지 셀프 서비스로 설정됩니다. 을 참조하십시오 <block ref="055db438ec51479bd53b937469434a7e" category="inline-xref-macro-rx"></block> 아래에 있습니다.</block>
+  <block id="ad99b83e7b10ea825777161cb8f5594b" category="cell">* 입력한 자격 증명 및 IP 주소를 확인합니다.
+* 웹 관리 콘솔\https://&lt;ip&gt;:8452/DS8000/콘솔을 통해 어레이와 통신하십시오.  &lt;ip&gt;를 데이터 수집기가 구성된 IP로 교체합니다.</block>
+  <block id="bc47800fe62365013d4adf7232c1c738" category="paragraph">의 사용 권한 섹션을 검토하십시오 <block ref="c5b253e6d28e76aaaf37feb5e0119ce8" category="inline-link-macro-rx"></block> 페이지를 참조하십시오.</block>
+  <block id="63d71c9c8919be72ed5d5d19a3aea524" category="list-text">전체 관리자 클러스터/SVM 관리 사용자 이름 및 암호를 사용할 수 없거나 사용할 수 없는 경우 에 설명된 대로 더 낮은 권한으로 사용자 지정 사용자를 생성할 수 있습니다 <block ref="00e97c40bcd2b78ce8600bf90267e3e7" category="inline-xref-macro-rx"></block> 섹션을 참조하십시오. 이 맞춤형 사용자는 SVM 또는 클러스터 액세스를 위해 생성할 수 있습니다.</block>
+  <block id="79b84e26b610d3ce15109f8d174cdf3a" category="section-title">vVserver 관리 IP * 를 통해 추가할 때의 권한:</block>
+  <block id="11949a37d3edcc91b37d386025b80680" category="section-title">ONTAP 자율적 랜섬웨어 방어에 대한 권한</block>
+  <block id="ce2c442b24aec5c08788260869132fdd" category="cell">이는 ONTAP 측의 네트워킹 문제 때문일 가능성이 가장 높습니다. 다음 단계를 따르십시오.
+
+SVM 데이터 lif 또는 SVM과의 연결을 차단하는 관리 lif에 방화벽이 없는지 확인합니다.
+
+클러스터 관리 IP를 통해 SVM을 추가할 때 SVM의 데이터 거짓과 관리 거짓이 에이전트 VM에서 핑되도록 하십시오. 문제가 발생한 경우, lif에 대한 게이트웨이, 넷마스크 및 경로를 확인하십시오.
+
+클러스터 관리 IP를 사용하여 ssh를 통해 클러스터에 로그인하고 에이전트 IP를 Ping할 수도 있습니다. 에이전트 IP가 Ping할 수 있는지 확인합니다.
+
+_network ping -vserver &lt;vserver name&gt; -destination &lt;Agent IP&gt; -lif &lt;Lif Name&gt; -show -detail_
+
+Ping할 수 없는 경우 ONTAP의 네트워크 설정이 올바른지 확인하여 Agent 시스템이 Ping할 수 있도록 합니다.
+
+3.클러스터 IP를 통해 연결을 시도했으나 작동하지 않는 경우 SVM IP를 통해 직접 연결을 시도하십시오. SVM IP를 통해 연결하는 단계는 위 섹션을 참조하십시오.
+
+SVM IP 및 vsadmin 자격 증명을 통해 수집기를 추가하는 동안 SVM LIF에서 데이터 및 관리 역할이 활성화되어 있는지 확인합니다. 이 경우 SVM LIF로 ping을 수행할 수 있지만 SVM LIF에 대한 SSH는 작동하지 않습니다.
+SVM 관리 전용 LIF를 생성한 후 이 SVM 관리 전용 LIF를 통해 연결을 시도하십시오.
+
+그래도 작동하지 않으면 새 SVM LIF를 생성하고 LIF를 통해 연결을 시도합니다. 서브넷 마스크가 올바르게 설정되었는지 확인합니다.
+
+6.고급 디버깅:
+a) ONTAP에서 패킷 추적을 시작합니다.
+B) CloudSecure UI에서 데이터 수집기를 SVM에 연결합니다.
+c) 오류가 나타날 때까지 기다립니다. ONTAP에서 패킷 추적을 중지합니다.
+d) ONTAP에서 패킷 추적을 엽니다. 이 위치에서 사용할 수 있습니다
+
+ _\https://&lt;cluster_mgmt_ip&gt;/SPI/&lt;clustername&gt;/etc/log/packet_traces/_
+
+e) ONTAP에서 에이전트 상자로 SYN이 있는지 확인합니다.
+f) ONTAP의 SYN이 없는 경우 ONTAP의 방화벽 문제입니다.
+g) ONTAP에서 방화벽을 열어 ONTAP가 에이전트 상자를 연결할 수 있도록 합니다.
+
+7.여전히 작동하지 않는 경우 네트워킹 팀에 문의하여 ONTAP에서 Agent Box로의 연결을 차단하는 외부 방화벽이 없는지 확인하십시오.
+
+포트 7이 열려 있는지 확인합니다.
+
+9.위의 방법으로 문제가 해결되지 않으면 에서 케이스를 엽니다 <block ref="d0162286c59c67bf86d01f060ee7cd04" category="inline-link-macro-rx"></block> 추가 지원을 요청하십시오.</block>
+  <block id="c54f0cb7ebe859ae013e2a39e57b38c0" category="cell">Data Collector 페이지에서 오류를 제공하는 데이터 수집기의 오른쪽으로 스크롤하고 3개의 점 메뉴를 클릭합니다. 편집 _ 을(를) 선택합니다.
+데이터 수집기의 암호를 다시 입력합니다.
+Save _ 버튼을 눌러 데이터 수집기를 저장합니다.
+Data Collector가 다시 시작되고 오류가 해결되어야 합니다.
+
+2.Agent 시스템이 CPU 또는 RAM 여유 공간이 부족할 수 있습니다. 이것이 바로 DSC가 실패하는 이유입니다.
+시스템의 에이전트에 추가되는 데이터 수집기 수를 확인하십시오.
+20개를 초과하는 경우 Agent 시스템의 CPU 및 RAM 용량을 늘리십시오.
+CPU와 RAM이 증가되면 DSC가 초기화 중 상태로 전환되었다가 자동으로 실행 상태로 전환됩니다.
+의 사이징 가이드를 참조하십시오 <block ref="830ad31fe88c5bf31dcfcc5f15ccdf0e" category="inline-link-macro-rx"></block>.</block>
+  <block id="36d35d8bdb33f254c1406a404bc7c125" category="cell">다음과 유사한 오류가 발생했습니다.
+'요청을 실행하지 못했습니다. &lt;AWS 지역 엔드포인트&gt;:8080 [&lt;AWS 지역 엔드포인트&gt;/AWS 지역 엔드포인트 IP&gt;] 실패: 연결 시간 초과: \https://&lt;AWS 지역 엔드포인트 FQDN 가져오기 &gt;:8080/v1/스토리지/IPHTTP 범위/1.1'</block>
+  <block id="eb146021cef6507d29dcdce3e2090a16" category="cell">를 클릭합니다 <block ref="588cebdad26ee4a9a3bb08c290310eb7" category="inline-link-macro-rx"></block> Cloud Insights가 획득 장치와 통신하는 데 사용하는 것은 Cloud Insights와 데이터 수집기 자체 간에 통신하지 않습니다. 다음과 같은 몇 가지 방법을 시도해 볼 수 있습니다.
+
+획득 장치가 FQDN을 확인하고 필요한 포트에 도달할 수 있는지 확인합니다.
+프록시가 오류 메시지의 지정된 끝점에 도달할 필요가 없는지 확인합니다.
+curl(말림)은 획득 장치와 끝점 사이의 통신을 테스트하는 데 사용할 수 있습니다. 이 테스트에 프록시를 사용하고 있지 * 않은지 확인하십시오.
+
+예:
+
+root@acquisitionunit #curl-s-H 수락: application/json-H "콘텐츠 유형: application/json" -H API-키:&lt;데이터 수집기 자격 증명에 사용되는 API 키 - H 비밀 키:&lt;데이터 수집기 자격 증명에 사용된 비밀 키&gt;-X \https://&lt;AWS 지역 엔드포인트 가져오기 &gt;:8080/v1/스토리지/IPRanges
+
+자세한 내용은 다음을 참조하십시오 <block ref="776b569bb4fd625ede408f144a17e02c" category="inline-link-macro-rx"></block>.</block>
+  <block id="f1a3b56f57a450a14c2cf03113d0ffcf" category="list-text">멀티 테넌트 Kubernetes 환경에서는 잘못 구성된 변경으로 인해 중단이 발생할 수 있습니다. Change Analytics는 워크로드 상태와 구성 변경의 상태를 보고 상호 연관시킬 수 있는 단일 창을 제공하여 이러한 작업을 지원합니다. 이는 동적 Kubernetes 환경 문제를 해결하는 데 도움이 될 수 있습니다.</block>
 </blocks>

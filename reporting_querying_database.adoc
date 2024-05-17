@@ -22,7 +22,7 @@ keywords: reporting, cognos, data warehouse, dwh, API
 Cloud Insights의 강력한 API를 사용하면 Cognos 보고 환경을 거치지 않고 Cloud Insights 보고 데이터베이스를 직접 쿼리할 수 있습니다.
 
 
-NOTE: 이 설명서는 에서 사용할 수 있는 Cloud Insights 보고 기능을 참조합니다 link:/concept_subscribing_to_cloud_insights.html#editions["Premium Edition을 참조하십시오"].
+NOTE: 이 문서에서는 Cloud Insights 프리미엄 에디션에서 사용할 수 있는 Cloud Insights 보고 기능에 대해 설명합니다.
 
 
 

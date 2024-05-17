@@ -52,12 +52,12 @@ Rancher + Cates.io 오케스트레이션/Kubernetes 플랫폼: cool.io/OS = Linu
 
 | 연결성 | kubectl CLI는 대상 K8s 클러스터와 통신하도록 구성되고 Cloud Insights 환경에 인터넷이 연결됩니다.
 
-설치하는 동안 프록시 뒤에 있는 경우 의 지침을 따릅니다 link:/task_config_telegraf_agent_k8s.html#configuring-proxy-support["프록시 지원을 구성하는 중입니다"] 작업자 설치의 섹션.
+설치하는 동안 프록시 뒤에 있는 경우 의 지침을 따릅니다 link:task_config_telegraf_agent_k8s.html#configuring-proxy-support["프록시 지원을 구성하는 중입니다"] 작업자 설치의 섹션.
 
 정확한 감사 및 데이터 보고를 위해 NTP(Network Time Protocol) 또는 SNTP(Simple Network Time Protocol)를 사용하여 Agent 시스템의 시간을 동기화합니다. 
 
 
-| 기타 | OpenShift 4.6 이상에서 실행 중인 경우 다음 링크를 따라야 합니다. task_config_telegraf_agent_k8s.html#openshift-instructions [OpenShift Instructions] 
+| 기타 | OpenShift 4.6 이상에서 실행 중인 경우 를 따라야 합니다 link:task_config_telegraf_agent_k8s.html#openshift-instructions["OpenShift 지침"] 이러한 사전 요구 사항이 충족되었는지 확인하는 것 외에도 
 
 
 | API 토큰 | Operator를 다시 배포하는 경우(예: 업데이트 또는 교체) 새 API 토큰을 생성할 필요가 없습니다. 이전 토큰을 다시 사용할 수 있습니다. 
@@ -169,7 +169,7 @@ operator-config.yAML에서 AgentConfiguration을 편집하여 새로운 Docker �
 agent:
   ...
   # An optional docker registry where you want docker images to be pulled from as compared to CI's docker registry
-  # Please see documentation link here: https://docs.netapp.com/us-en/cloudinsights/task_config_telegraf_agent_k8s.html#using-a-custom-or-private-docker-repository
+  # Please see documentation for link:task_config_telegraf_agent_k8s.html#using-a-custom-or-private-docker-repository[using a custom or private docker repository].
   dockerRepo: your.docker.repo/long/path/to/test
   # Optional: A docker image pull secret that maybe needed for your private docker registry
   dockerImagePullSecret: docker-secret-name

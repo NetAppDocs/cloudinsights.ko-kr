@@ -74,7 +74,7 @@ image:Time-Series Charts.png["면적, 일렬 면적, 선, 스플라인 차트"]
 +
 image:Single-Value Widgets.png["서식 있는 단일 값 위젯 및 서식 없는 단일 값 위젯"]
 
-* * 게이지 위젯 *: 기존(솔리드) 게이지 또는 글머리 기호 게이지에 단일 값 데이터를 표시하고 "경고" 또는 "위험" 값을 기준으로 색상을 표시합니다 link:concept_dashboard_features.adoc#formatting-gauge-widgets["사용자 지정"].
+* * 게이지 위젯 *: 기존(솔리드) 게이지 또는 글머리 기호 게이지에 단일 값 데이터를 표시하고 "경고" 또는 "위험" 값을 기준으로 색상을 표시합니다 link:concept_dashboard_features.html#formatting-gauge-widgets["사용자 지정"].
 +
 image:Gauge Widgets.png["서식, 기존 게이지, 글머리 기호 게이지가 있는 단일 값"]
 
