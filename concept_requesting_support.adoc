@@ -95,13 +95,11 @@ NetApp은 다양한 방법으로 Cloud Insights를 지원합니다. 기술 자�
 +
 이 섹션의 링크를 클릭하면 NetApp Knowledgebase로 이동하고 관련 기사, 방법 등을 검색할 수 있습니다.
 
-
-
 * *link:https://docs.netapp.com/us-en/cloudinsights/["문서화"]*
 +
 설명서 링크를 클릭하면 이 설명서 센터로 이동합니다.
 
-* *link:https://mysupport.netapp.com/site/search?q=cloud%20insights&offset=0&searchType=Manual&autocorrect=true&origin=CI_Support_Community&filter=%28content_type%3D%3D%22community%22;product%3D%3D%22Cloud%20Insights%22%29["커뮤니티"]*
+* *link:https://community.netapp.com/t5/Cloud-Insights/bd-p/CloudInsights["커뮤니티"]*
 +
 커뮤니티 링크를 클릭하면 NetApp Cloud Insights 커뮤니티에서 동료 및 전문가와 연결할 수 있습니다.
 
@@ -116,7 +114,7 @@ NetApp은 다양한 방법으로 Cloud Insights를 지원합니다. 기술 자�
 위의 자체 지원 옵션 외에도, 모니터링된 NetApp 제품 또는 서비스에 대한 Cloud Insights 가입 또는 유료 지원 서비스가 있는 경우 NetApp 지원 엔지니어와 협력하여 문제를 해결할 수 있습니다.
 
 
-NOTE: 에 등록하려면 등록해야 합니다 <<Activating support entitlement and accessing support,지원을 활성화합니다>> NetApp Cloud 제품: 등록하려면 NetApp로 이동하십시오 link:https://register.netapp.com["클라우드 데이터 서비스 지원 등록"].
+NOTE: 에 등록하려면 등록해야 합니다 <<activating-support-entitlement,지원을 활성화합니다>> NetApp Cloud 제품: 등록하려면 NetApp로 이동하십시오 link:https://register.netapp.com["클라우드 데이터 서비스 지원 등록"].
 
 지원 세션 중에 NetApp 지원 엔지니어가 Cloud Insights 환경에 액세스할 수 있도록 확인란을 선택하는 것이 좋습니다. 그러면 엔지니어가 문제를 해결하고 신속하게 해결할 수 있습니다. 문제가 해결되거나 지원 세션이 종료된 경우 확인란을 선택 취소할 수 있습니다.
 

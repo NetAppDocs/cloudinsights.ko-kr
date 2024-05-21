@@ -127,7 +127,10 @@ naviseccli.exe -h <IP address> -user <user> -password <password> -scope <scope, 
 | 오류: 4.29 emc235848 emc241018 getall에서 호스트 별칭 정보를 구문 분석하지 못했습니다 | 이는 스토리지 자체에 있는 호스트 이니시에이터 데이터베이스의 FLARE 29 손상 문제로 인해 발생할 수 있습니다. EMC 기술 자료 문서 emc235848, emc241018을 참조하십시오. 또한 확인할 수도 있습니다 https://now.netapp.com/Knowledgebase/solutionarea.asp?id=kb58128[] 
 
 
-| 오류: 메타 LUN을 검색할 수 없습니다. Java-jar navicli.jar 실행 중 오류가 발생했습니다 | • 보안 클라이언트를 사용하도록 데이터 수집기 구성을 수정합니다(권장). • navicli.jar 또는 naviseccli.exe CLI 경로에 NaviCLI.exe 설치 • 참고: navicli.jar 은 EMC Navisphere 버전 6.26부터 사용되지 않습니다. • navicli.jar 에서 사용할 수 있습니다 http://powerlink.emc.com[] 
+| 오류: 메타 LUN을 검색할 수 없습니다. Java-jar navicli.jar 실행 중 오류가 발생했습니다 | • 보안 클라이언트를 사용하도록 데이터 수집기 구성 수정(권장)
+• NaviCLI.exe 또는 naviseccli.exe CLI 경로에 navicli.jar 를 설치합니다
+• 참고: EMC Navisphere 버전 6.26부터는 navicli.jar 버전이 더 이상 사용되지 않습니다
+• navicli.jar \http://powerlink.emc.com에서 사용할 수 있습니다 
 
 
 | 오류: 구성된 IP 주소의 서비스 프로세서에서 스토리지 풀이 디스크를 보고하지 않습니다 | 두 서비스 프로세서 IP를 쉼표로 구분하여 데이터 수집기를 구성합니다 

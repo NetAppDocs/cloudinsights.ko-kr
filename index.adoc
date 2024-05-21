@@ -46,10 +46,11 @@ Cloud Insights는 하이브리드 멀티 클라우드 모니터링을 통해 인
 * 방법 link:task_cloud_insights_onboarding_1.html["* 시작하기 *"] Cloud Insights?
 * 가입했습니다. 이제 어떻게 해야 할까요?link:task_getting_started_with_cloud_insights.html["데이터 획득"]
 link:concept_user_roles.html["사용자 설정 중"]
-* 멋집니다! 다음 단계link:task_defining_annotations.html["자산 준비:주석 달기"]
+* 멋집니다! 다음 단계
+link:task_defining_annotations.html["자산 준비:주석 달기"]
 link:concept_querying_assets.html["원하는 자산 찾기:쿼리"]
 link:concept_dashboards_overview.html["원하는 데이터 보기: 대시보드"]
-link:https:task_create_monitor.html["모니터링 및 경고"]
-link:https://docs.netapp.com/us-en/cloudinsights/task_cs_getting_started.html["데이터 보안"]
+link:task_create_monitor.html["모니터링 및 경고"]
+link:task_cs_getting_started.html["데이터 보안"]
 * 정말 멋진 곳이에요! 이제 준비가 되었습니다 link:concept_subscribing_to_cloud_insights.html["* 가입 *"].
 

@@ -81,7 +81,7 @@ SVM 이름, CIFS 서버 이름 및 추가 필드가 반환됩니다.
 
 == 사용자 액세스 차단을 위한 필수 조건
 
-에 대해 다음 사항을 염두에 두십시오 link:/cloudinsights/cs_restrict_user_access.html["사용자 액세스 차단"]:
+에 대해 다음 사항을 염두에 두십시오 link:cs_restrict_user_access.html["사용자 액세스 차단"]:
 
 이 기능을 사용하려면 클러스터 레벨 자격 증명이 필요합니다.
 
