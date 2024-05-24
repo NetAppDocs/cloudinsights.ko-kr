@@ -1099,11 +1099,9 @@
   <block id="9639a8d17623d8208d1bfa965acfd83f" category="paragraph">이제 모든 버전의 Cloud Insights에서 API 액세스를 사용할 수 있습니다. 이제 Basic Edition 사용자는 획득 장치 및 데이터 수집기 작업을 자동화할 수 있으며 Standard Edition 사용자는 메트릭을 쿼리하고 사용자 지정 메트릭을 수집할 수 있습니다. Premium Edition은 모든 API 범주의 모든 사용을 계속 허용합니다.</block>
   <block id="e7394567670b4276802996b88134c0a5" category="cell">데이터 웨어하우스</block>
   <block id="7495d9f71402d3b1d20f08bd19ac6562" category="inline-link-macro">API 설명서</block>
-  <block id="838c002eb118e710e5d61b71fc780f8f" category="paragraph">API 사용에 대한 자세한 내용은 를 참조하십시오 <block ref="e9ed95f163178f5ba2f40600e4067842" category="inline-link-macro-rx"></block>.</block>
   <block id="9a4bface9098ff4cd4b35cca641c0042" category="section-title">2021년 4월</block>
   <block id="36366a2669f22ce91b34ad6b41571aae" category="section-title">보다 간편한 모니터 관리</block>
   <block id="b9a016ada9a329e58ded80ea7a0b1790" category="inline-link-macro">모니터 그룹화</block>
-  <block id="13b7f54c5b81552a88e3fcdf41c1053b" category="paragraph"><block ref="44c67d721560e8a84c351ce2405bfdf7" category="inline-link-macro-rx"></block> 환경의 모니터 관리를 간소화합니다. 이제 여러 모니터를 하나로 그룹화하여 일시 중지할 수 있습니다. 예를 들어 인프라 스택에서 업데이트가 발생하는 경우 클릭 한 번으로 모든 장치에서 경고를 일시 중지할 수 있습니다.</block>
   <block id="973ec05886dc84294d5bb00f09eed546" category="paragraph">모니터 그룹은 ONTAP 장치의 향상된 관리를 Cloud Insights에 제공하는 흥미로운 새 기능의 첫 번째 부분입니다.</block>
   <block id="4b9f459db26fdb8e016065d628e26578" category="paragraph"><block ref="4b9f459db26fdb8e016065d628e26578" category="inline-image-macro-rx" type="image"></block></block>
   <block id="562e0f00195363fb03d04ff04ed49b74" category="section-title">Webhook를 사용한 향상된 경고 옵션</block>
@@ -1505,8 +1503,6 @@
   <block id="347d1bfe383416d66c880f50a77cb60f" category="list-text">1개의 관리 유닛 = 물리적 또는 가상 디스크의 포맷되지 않은 용량 4TB</block>
   <block id="0e46275de0a113142f9932c6b8964924" category="paragraph">이러한 변경을 통해 기존 Cloud Insights 서브스크립션을 사용하여 모니터링할 수 있는 환경 용량이 두 배로 효과적으로 늘어납니다.</block>
   <block id="aafb48343bbcbc586f011c8f87a52d7f" category="section-title">2019년 11월</block>
-  <block id="01c11021cc38b74d02dfdb2ef5e77fca" category="section-title">버전 기능 비교 표</block>
-  <block id="f9acaf912b63febf0bcf7a9e4d298e9f" category="inline-link-macro">비교 표</block>
   <block id="e10986a4d8d7c27e4a9031d551cb15f3" category="section-title">2019년 10월</block>
   <block id="c5562ce2e22a86c247849904ecef3dc8" category="section-title">보고</block>
   <block id="4d581ab73b477b0058e9a556a352a77a" category="inline-link-macro">* Cloud Insights 보고 *</block>
@@ -5225,7 +5221,6 @@
   <block id="730fe644f1d87eaec727a65945705b30" category="section-title">장치 확인</block>
   <block id="4f64e4d2d0b40a09df727cdb00378860" category="summary">NetApp E-Series 데이터 수집기 구성 중.</block>
   <block id="9ecd148a1dc3fb1669ddf8b6b428a5e4" category="doc">NetApp E-Series 데이터 수집기</block>
-  <block id="99f7508fc77f6415a72debd8f680d7cf" category="paragraph">NetApp E-Series 데이터 수집기는 인벤토리 및 성능 데이터를 수집합니다. Collector는 동일한 구성을 사용하여 동일한 데이터를 보고하는 펌웨어 7.x+를 지원합니다.</block>
   <block id="20d1b58bf59d1451203fb42bdc412ad3" category="paragraph">Cloud INSIGHT는 NetApp E-Series 데이터 수집기에서 다음 인벤토리 정보를 가져옵니다. 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.</block>
   <block id="36627e0e4a34d0cb2aca55f4fd1a0112" category="section-title">E-Series 용어(랜딩 페이지)</block>
   <block id="5c51efdc811f9ced021d566d81d1adcb" category="paragraph">다음 용어는 NetApp E-Series 자산 랜딩 페이지에서 볼 수 있는 오브젝트 또는 참조에 적용됩니다. 이러한 용어 중 다수는 다른 데이터 수집기에도 적용됩니다.</block>
@@ -7565,11 +7560,9 @@
   <block id="e1c87fa2897a7e209d3911ea7c640c39" category="section-title">데이터 수집 모니터</block>
   <block id="2745e86ed1540385bf34b3d3a304cd23" category="cell">데이터 수집기 또는 대상 시스템의 구성을 확인합니다. Collector Warning용 모니터는 다른 모니터 유형보다 더 많은 경고를 보낼 수 있으므로 문제 해결을 수행하지 않는 한 알림 수신자를 설정하지 않는 것이 좋습니다.</block>
   <block id="3f2608784f855ab79eaabba7e20db8cd" category="paragraph">Cloud Insights의 고급 Kubernetes 모니터링 및 클러스터 탐색기를 사용하여 쉽게 시작 및 실행할 수 있습니다.</block>
-  <block id="c99dc7f44e492bb96fd08368b4a3ddbc" category="paragraph">를 클릭합니다 <block ref="59560f912a73dc2f4cdb9ad27b9948a6" category="inline-link-macro-rx"></block> (NKMO)는 Cloud Insights Insights를 위한 Kubernetes를 설치하는 데 권장되는 방법입니다. 더 적은 수의 단계로 보다 유연하게 모니터링을 구성할 수 있을 뿐만 아니라 K8s 클러스터에서 실행 중인 다른 소프트웨어를 모니터링할 수 있는 기회도 더 많아집니다.</block>
   <block id="d957cd4e3ae2f67fec227c3e2c78ab16" category="paragraph">자세한 정보와 사전 요구 사항을 보려면 위의 링크를 클릭하십시오</block>
   <block id="58943c1999eff55c3f818d8cd9208708" category="paragraph">Collector 실패로 인해 중요한 메트릭을 놓치지 마십시오!</block>
   <block id="abca7cba75e5a9ff86b1490f32891f82" category="inline-link-macro">경고</block>
-  <block id="b07c25215a61dbc162c04ac4e8cf464f" category="paragraph">새로운 을 사용하면 데이터 수집기를 훨씬 쉽게 추적할 수 있습니다 <block ref="465d95cf415e2e3bb54b69142e1e3a2d" category="inline-link-macro-rx"></block> 데이터 수집기 및 획득 장치 고장입니다. 이러한 모니터는 기본적으로 _일시 중지됨_입니다. 활성화하려면 모니터 페이지로 이동하여 "획득 장치 종료" 및 "수집기 실패"를 찾아서 재개합니다.</block>
   <block id="d79ca0965e13425b418413735c2f77b4" category="section-title">ONTAP 스토리지 변경 사항에 대한 알림을 표시합니다</block>
   <block id="3093b62af2aca236846ea1b6c223c129" category="paragraph">예기치 않은 스토리지 변경으로 인해 운영 중단이 발생하는 것을 방지할 수 있습니다.</block>
   <block id="7b4027634c44a41ce42886c7383adeb4" category="paragraph">이제 ONTAP 시스템에서 FlexVols, 노드 및 SVM의 수정 또는 제거가 감지될 때 Cloud Insights를 구성할 수 있습니다.</block>
@@ -8961,7 +8954,6 @@
   <block id="028a813ab7ca0ec1e490e58e353d0782" category="paragraph">거의 20개를 추가했습니다 <block ref="21d27926b20de95eb7fd4474ce156c92" category="inline-link-macro-rx"></block> 끊어진 상호 연결 링크, 하트비트 문제 등에 대해 경고합니다. 또한 SnapMirror 자동 재동기화, MetroCluster 미러링 및 FabricPool 미러 재동기화 변경 사항을 알리기 위해 세 개의 새로운 데이터 보호 로그 모니터가 추가되었습니다.</block>
   <block id="0fa70c383e62bf46ebd5707879e9b6c5" category="paragraph">이러한 모니터 중 일부는 기본적으로 _ENABLED_로 설정됩니다. 이러한 모니터에 대해 경고를 표시하지 않으려면 _PAUSE_로 설정해야 합니다. 또한 이러한 모니터는 알림을 전달하도록 구성되지 않았습니다. e-메일 또는 웹 후크를 통해 알림을 보내려면 이러한 모니터에서 알림 수신자를 구성해야 합니다.</block>
   <block id="3b89213aa4589489bac13286c1bc5e29" category="section-title">모든 대시보드 테이블 위젯에 대한 .csv 내보내기</block>
-  <block id="ae021423f4c5fde86bb37ab0f8579f55" category="inline-image-macro">CSV 내보내기 아이콘</block>
   <block id="09a68724f426e941c09d3df1f6170779" category="paragraph">이제 열 선택, 열 이름 바꾸기, 단위 변환과 같은 데이터 사용자 지정 기능도 새로운 내보내기 기능에 포함됩니다.</block>
   <block id="f5f5c23c1738f3c9d968460a7922f3de" category="list-text">Cloud Insights에 로그인합니다.</block>
   <block id="09e37f1ff0e476ebcf643d237fbafa6c" category="admonition">CSV로 내보내기는 대시보드 테이블 위젯의 "점 3개" 메뉴와 대부분의 랜딩 페이지 테이블에서도 사용할 수 있습니다.</block>
@@ -9316,7 +9308,6 @@
   <block id="a9d1cbf71942327e98b40cf5ef38a960" category="list-text">대기열</block>
   <block id="541661622185851c248b41bf0cea7ad0" category="list-text">카프카</block>
   <block id="d487fd41764429863b69436bcc72483a" category="paragraph">NetApp은 제품과 서비스를 지속적으로 개선 및 개선하고 있습니다. 다음은 Cloud Insights의 상용 버전에서 사용할 수 있는 최신 기능 중 일부입니다.</block>
-  <block id="a67cb8d242ecba5601e34e5b2dbdff12" category="admonition">이러한 기능 중 일부는 Cloud Insights Federal Edition에서 사용할 수 없거나 기능이 축소된 상태로 사용할 수 있습니다. 가능한 경우 이러한 차이는 설명서에 나와 있습니다.</block>
   <block id="904837c9cf9bc52a96ce17d051fddec9" category="section-title">2023년 4월</block>
   <block id="ff13f3d2e68843ff68c076f0df232858" category="inline-link-macro">_Kubernetes 네트워크 성능 및 맵 _</block>
   <block id="c7e0f6549ee8e023d19670a2bd355d16" category="paragraph">주요 기능: • 워크로드 맵은 Kubernetes 워크로드 종속성 및 흐름을 제공하고 네트워크 및 성능 문제를 강조합니다. • Kubernetes Pod, 워크로드 및 노드 간의 네트워크 트래픽을 모니터링하고, 트래픽 및 지연 문제의 원인을 식별합니다. • 수신, 송신, 지역 간 및 교차 영역 네트워크 트래픽을 분석하여 전체 비용을 절감합니다.</block>
@@ -12482,13 +12473,6 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="2d97586297f1c09c58d04825a03405cf" category="cell">WWN 별칭을 보고하려면 선택합니다</block>
   <block id="a5bc5e25da90f0de3436e66f223df7bc" category="inline-link-macro">ONTAP 9.14.1 ONTAPI-REST 매핑</block>
   <block id="6e2fe63a1853939e7fbcdfb785f57e86" category="admonition">ONTAP REST Collector는 이전 ONTAPI 기반 Collector를 대체하는 용도로 사용할 수 있습니다. 따라서 수집되거나 보고되는 메트릭에는 차이가 있을 수 있습니다. ONTAPI와 REST의 차이점에 대한 자세한 내용은 를 참조하십시오 <block ref="239e0ab1e46437458ce3ffae42b58457" category="inline-link-macro-rx"></block> 문서화:</block>
-  <block id="e8e49e7a35d758d776738dccc87a87b1" category="cell">디스크 공간은 다음과 같은 방식으로 할당되어야 합니다.
-/opt/NetApp 35GB(최소)
-
-참고: 파일 시스템을 생성할 수 있도록 추가 디스크 공간을 할당하는 것이 좋습니다. 파일 시스템에 최소 35GB의 여유 공간이 있는지 확인합니다.
-
-
-/opt가 NAS 스토리지에서 마운트된 폴더인 경우 로컬 사용자가 이 폴더에 액세스할 수 있는지 확인합니다. 로컬 사용자에게 이 폴더에 대한 권한이 없는 경우 에이전트 또는 데이터 수집기를 설치하지 못할 수 있습니다. 를 참조하십시오 <block ref="b8e4bfa44cc0a900c6c15b3a86438fdc" category="inline-link-macro-rx"></block> 섹션을 참조하십시오.</block>
   <block id="764f447ccb3bf87ad75ec71c633b9966" category="inline-link-macro">Brocade FOS REST </block>
   <block id="882354c20e5e22e1c581f6c0c24ef8f3" category="cell"><block ref="882354c20e5e22e1c581f6c0c24ef8f3" category="inline-link-macro-rx"></block></block>
   <block id="5c62f1c9f30e0ad47fc12431846b6858" category="inline-link-macro">사용자 액세스 차단</block>
@@ -12622,9 +12606,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="8c362b737d9d3a6fff5acfc29aaa5225" category="summary">Kubernetes용 데이터 수집기</block>
   <block id="3ce5067a26bb6509b15cfb6487590ed5" category="doc">데이터 수집기: Kubernetes</block>
   <block id="c7e254ef92577e872c85b9cc18b384ea" category="doc">Kubernetes Monitoring Operator 설치 및 구성</block>
-  <block id="f198d7bd876499c7a876c665606e2d82" category="section-title">Kubernetes 네트워크 맵에 대한 iSCSI SAN 지원</block>
-  <block id="d14b2ad81a63e0273293afd80b29ec37" category="paragraph">NFS 및 iSCSI에 대한 Kubernetes 기본 스토리지 종속성을 식별합니다.
-Kubernetes 애플리케이션의 스토리지 네트워크 활동 및 정확한 스토리지 메트릭에 대한 통찰력을 확보하여 문제를 빠르게 해결합니다. Kubernetes 애플리케이션이 비용청구 및 쇼백 보고를 위해 스토리지 인프라를 사용하는 방법을 이해합니다.</block>
   <block id="54fc47ade0e8b56477f3a565a1183811" category="inline-image-macro">Pod-to-Storage 예</block>
   <block id="b4ee1759943c32311eab48ecd432c0d9" category="paragraph"><block ref="b4ee1759943c32311eab48ecd432c0d9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9ec645581caafa9fbb6d571ba008b9cc" category="paragraph">Kubernetes Change Analytics는 Kubernetes 환경의 최근 변경에 대한 올인원 뷰를 제공합니다. 알림 및 배포 상태를 즉시 확인할 수 있습니다. 변경 분석을 사용하여 모든 배포 및 구성 변경을 추적하고 Kubernetes 서비스, 인프라 및 클러스터의 상태 및 성능과 상호 연관시킬 수 있습니다.</block>
@@ -13091,13 +13072,8 @@ root@acquisitionunit #curl-s-H 수락: application/json-H "콘텐츠 유형: app
 2. <block ref="6fd69549c3aeb303e3b2df8a94f1263f" category="inline-xref-macro-rx"></block> 모니터링 운용자의 최신 버전</block>
   <block id="24f2b5ad86e12ea4b5db8fe4e651ad48" category="cell">2023년 10월 12일부터 Cloud Insights은 사용자에게 더 나은 서비스를 제공하기 위해 운영자를 리팩토링했습니다. 변경 사항을 완전히 채택하려면 반드시 필요합니다 <block ref="860504374016936ed59489a365e20672" category="inline-xref-macro-rx"></block> 및 <block ref="26142c5a68eb5609ee139db77de754bb" category="inline-xref-macro-rx"></block>.</block>
   <block id="e832e916ac4edbd5ff4fc3ce13949058" category="paragraph">또는, 하나를 할 수도 있습니다 <block ref="eb03b2f692ebf826fa07016cc9fa15a6" category="inline-xref-macro-rx"></block> 및 <block ref="f33f6e060928000e7af3fed4c4e6c6a0" category="inline-xref-macro-rx"></block> 에이전트</block>
-  <block id="a6310e9ccedf4149dc3c1ac0eac9b701" category="paragraph">Cloud Insights의 초기 평가판 외에 의 이점을 활용할 수도 있습니다 <block ref="237f682afdde35b908e076b42143082f" category="inline-link-macro-rx"></block>. 예를 들어, Cloud Insights를 구독하고 스토리지 및 가상 머신을 모니터링한 경우, Kubernetes를 환경에 추가하면 Kubernetes 관측성 30일 평가판을 자동으로 시작합니다. Kubernetes 관측성 관리형 유닛 사용은 평가 기간이 만료될 때까지 구독한 자격 조건에 포함되지 않습니다.</block>
-  <block id="51ad37bbaedf65e990986c7c45cecf6b" category="paragraph">Cloud Insights의 초기 평가판 외에 의 이점을 활용할 수도 있습니다 <block ref="237f682afdde35b908e076b42143082f" category="inline-link-macro-rx"></block>. 예를 들어, 이미 Infrastructure 관측성 에 가입하고 Kubernetes를 환경에 추가하고 있는 경우 Kubernetes 관측성 30일 시험판에 자동으로 등록됩니다. 평가판 기간이 끝날 때까지만 Kubernetes 관측성 관리형 유닛 사용에 대한 요금을 청구합니다.</block>
-  <block id="7db8a9734f4a7b5feca7a8af308c36d8" category="paragraph">데이터 액세스를 보장하는 것이 필수이므로 .csv 내보내기를 만들었습니다 <block ref="b3235708a4be37e405526094c229e25f" category="inline-image-macro-rx" type="image"></block> 쿼리 중인 데이터 유형(자산 또는 통합)에 관계없이 모든 메트릭 쿼리, 대시보드 테이블 위젯 및 개체 랜딩 페이지에 사용할 수 있습니다.</block>
   <block id="7daeb1e9ffa3386f002669f9634f6b0d" category="paragraph">과거, 현재 및 예상 지출에 대한 상세 비용 분석을 제공하여 귀사의 환경에서 클라우드 사용량에 대한 가시성을 제공하는 클라우드 비용을 지원하는 Spot by NetApp의 기능을 체험해 보십시오. Cloud Cost 대시보드에서는 클라우드 비용을 명확하게 파악하고 개별 워크로드, 계정 및 서비스를 세부적으로 확인할 수 있습니다.</block>
   <block id="e0364f4b0da4fc898b2bf6ba9b559d80" category="paragraph">Kubernetes Agent 설치를 간소화하여 더 적은 수의 사용자 상호 작용이 필요합니다. <block ref="a001394c8ad50807ceb51bed4f9925c0" category="inline-link-macro-rx"></block> Kubernetes 데이터 수집도 포함됩니다.</block>
-  <block id="b4caded524c5b960f2078625c9674837" category="paragraph">Cloud Insights 프리미엄 에디션을 사용하면 관리자가 * 를 활성화할 수 있습니다<block ref="5c8d95133de190c8d2aa29b2263f0a3f" category="inline-link-macro-rx"></block>개별적으로 초대할 필요 없이 회사 도메인의 모든 사용자에 대해 Cloud Insights에 대한 * (SSO) 액세스. SSO를 사용하면 동일한 도메인 이메일 주소를 가진 모든 사용자가 회사 자격 증명을 사용하여 Cloud Insights에 로그인할 수 있습니다.</block>
-  <block id="55dc3e9ac4ea7deea6bba8489b3a7ebb" category="paragraph">Admin &gt; Subscription * 페이지 <block ref="40b8c748cb211bbeb30a24d831f9ddd4" category="inline-link-macro-rx"></block> Cloud Insights의 기본, 표준 및 프리미엄 버전에서 사용할 수 있는 기능 집합을 나열하도록 업데이트되었습니다. NetApp은 계속해서 클라우드 서비스를 개선하고 있으므로, 이 페이지를 자주 방문하여 진화하는 비즈니스 요구사항에 맞는 에디션을 찾아보십시오.</block>
   <block id="641d04ada5e7fc82332bfdbadb6f2873" category="list-text"><block ref="641d04ada5e7fc82332bfdbadb6f2873" category="inline-link-macro-rx"></block></block>
   <block id="ed5e0acf9669f57fff84572a31621d1b" category="list-text">Cloud Insights 지원 <block ref="97c4c7cd3efb536ad349bb18a2afdd73" category="inline-link-macro-rx"></block> 단일 데이터 수집기 내에서 Cloud Insights가 하위 계정에서 수집하도록 AWS 환경을 구성해야 합니다.</block>
   <block id="6341e61d6dc641d29b3f2e7300137ea9" category="list-text">에서 계정을 등록하십시오 <block ref="e0b3e45a049f223d3b91d005d1e31db5" category="inline-link-macro-rx"></block> 를 다운로드하십시오.</block>
@@ -13107,4 +13083,40 @@ root@acquisitionunit #curl-s-H 수락: application/json-H "콘텐츠 유형: app
   <block id="c5f846375be5434ca084ef54324ae76b" category="list-text">*<block ref="e8f6304d27d1ce95657a904423bb24f0" category="inline-link-macro-rx"></block>*</block>
   <block id="801ef9b405d4e49db3e3da2aa073e5f6" category="admonition">에 등록하려면 등록해야 합니다 <block ref="5dae4a2b8da6e9eee160d72287b835e3" category="inline-xref-macro-rx"></block> NetApp Cloud 제품: 등록하려면 NetApp로 이동하십시오 <block ref="c5b01460a42d58b3ab6bc662dda87194" category="inline-link-macro-rx"></block>.</block>
   <block id="3307ea9b101dea248dbf60bf6f93ed75" category="paragraph">에 대해 다음 사항을 염두에 두십시오 <block ref="e513c094cbe732163e31cf30e277e8bc" category="inline-link-macro-rx"></block>:</block>
+  <block id="caab88a7f89273838ab79f84c1c8a49d" category="summary">NetApp E-Series REST 데이터 수집기를 구성합니다.</block>
+  <block id="7d9a2bf43caef4a2c2ccab31b58ad1fb" category="doc">NetApp E-Series REST 데이터 수집기</block>
+  <block id="02bbac9de1d6cf62350e13b0ebc66279" category="paragraph">NetApp E-Series REST 데이터 수집기는 인벤토리 및 성능 데이터를 수집합니다. Collector는 동일한 구성을 사용하여 동일한 데이터를 보고하는 펌웨어 7.x+를 지원합니다. REST Collector는 스토리지 풀의 암호화 상태와 관련 디스크 및 볼륨의 암호화 상태를 모니터링하여 스토리지 노드 CPU 사용률을 성능 카운터로 제공합니다. 이는 레거시 SANtricity E-Series Collector에는 제공되지 않는 기능입니다.</block>
+  <block id="06026757f9dde1467a9d040a8e0ca5e8" category="paragraph">Cloud Insight는 NetApp E-Series에서 REST를 사용하여 다음 인벤토리 정보를 수집합니다. 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.</block>
+  <block id="199cdaad4b2e2da65f3c12904a570c15" category="inline-link-macro">E-Series SANtricity API를 참조하십시오</block>
+  <block id="637b0100ed897846e49020047a7a69f0" category="list-text">이 Collector는 * 기본 REST API 기능 * 을 갖춘 E-Series 모델 어레이만 지원합니다. E-Series 조직은 이전 E-Series 어레이에 대해 설치 가능한 REST API 배포를 오프 어레이에 출고합니다. 이 수집기는 이 시나리오를 지원하지 않습니다. 이전 스토리지 시스템을 사용하는 사용자는 계속해서 Cloud Insights를 사용해야 합니다. <block ref="1e9e2e04984e423436b9d1423e41c8ce" category="inline-link-macro-rx"></block> 수집기.</block>
+  <block id="1dec37be48852b1e80d1d4ddd48a1698" category="list-text">"E-Series Controller IP addresses" 필드는 쉼표로 구분된 2개의 IP/호스트 이름으로 구성된 문자열을 지원합니다. 첫 번째 IP/호스트 이름에 액세스할 수 없는 경우 수집기는 두 번째 IP/호스트 이름을 지능적으로 시도합니다.</block>
+  <block id="483afc2b0c89bbcbc08179996afd1bd3" category="list-text">HTTPS 포트: 기본값은 8443입니다.</block>
+  <block id="9ae1165f709f672a335b55af672fcede" category="cell">E-Series 컨트롤러 IP 주소</block>
+  <block id="0e8766b280f750325a542b5489199d1e" category="cell">스토리지 컨트롤러에 대해 쉼표로 구분된 IP 주소 및/또는 정규화된 도메인 이름입니다</block>
+  <block id="92484fec13cdc76ac141bbc4fa556717" category="doc">NetApp E-Series 레거시 SANtricity API 데이터 수집기</block>
+  <block id="8e9fa018c5fbfdcbcf5f7eb6c96db8ca" category="paragraph">NetApp E-Series 레거시 SANtricity API 데이터 수집기가 인벤토리 및 성능 데이터를 수집합니다. Collector는 동일한 구성을 사용하여 동일한 데이터를 보고하는 펌웨어 7.x+를 지원합니다.</block>
+  <block id="5b44aad20fbc2491f38bc99fd2eb8086" category="section-title">2024년 5월</block>
+  <block id="cc0bc6461a822caeea316a8f3210d21f" category="section-title">시간에 따라 자동으로 경고 해결</block>
+  <block id="2741e130f2ac71e99ac0cbafbb9723e0" category="paragraph">로그 경고는 시간에 따라 해결할 수 있습니다. 경고 조건이 더 이상 발생하지 않으면 Cloud Insights는 지정된 시간이 경과한 후 자동으로 경고를 해결할 수 있습니다. 알림을 분, 시간 또는 일 단위로 해결할 수 있습니다.</block>
+  <block id="6a16c8c6db694c5bd9f5d2b182956c8b" category="inline-image-macro">경과된 시간에 따라 경고를 해결합니다</block>
+  <block id="e77cf5300b07c5139b04469146e62ab7" category="paragraph"><block ref="e77cf5300b07c5139b04469146e62ab7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a48ce2d2ead926908bf3e2f5d7de56b8" category="section-title">Kubernetes에 대한 iSCSI 지원</block>
+  <block id="f16e629d6abf8685ee4d974de80f76a2" category="paragraph">이제 Cloud Insights는 Kubernetes와 연결된 iSCSI 스토리지를 매핑하는 기능을 지원하므로 Kubernetes 네트워크 맵을 사용하여 더 빠르게 문제를 해결하고 Reporting을 통해 비용 청구 또는 쇼백 보고서를 제공할 수 있습니다.</block>
+  <block id="31a81d987a44cbfb0c2a597eabf114c6" category="inline-link-macro">모듈 평가</block>
+  <block id="92f61f316ed304aa59fc2f9b20e73b00" category="paragraph">Cloud Insights의 초기 평가판 외에 의 이점을 활용할 수도 있습니다 <block ref="4bd4692292d9f732bb0caf31164d4a95" category="inline-link-macro-rx"></block>. 예를 들어, Cloud Insights를 구독하고 스토리지 및 가상 머신을 모니터링한 경우, Kubernetes를 환경에 추가하면 Kubernetes 관측성 30일 평가판을 자동으로 시작합니다. Kubernetes 관측성 관리형 유닛 사용은 평가 기간이 만료될 때까지 구독한 자격 조건에 포함되지 않습니다.</block>
+  <block id="99b27c504f0c3fcdb98f75b276b0c15a" category="paragraph">Cloud Insights의 초기 평가판 외에 의 이점을 활용할 수도 있습니다 <block ref="4bd4692292d9f732bb0caf31164d4a95" category="inline-link-macro-rx"></block>. 예를 들어, 이미 Infrastructure 관측성 에 가입하고 Kubernetes를 환경에 추가하고 있는 경우 Kubernetes 관측성 30일 시험판에 자동으로 등록됩니다. 평가 기간이 끝날 때까지만 Kubernetes 관측성 관리형 유닛 사용에 대한 요금이 부과됩니다.</block>
+  <block id="2e4d31af0f73e73316d16040c201d754" category="paragraph">데이터에 대한 접근성을 보장하는 것이 매우 중요합니다. 쿼리하는 데이터 유형(자산 또는 통합)에 관계없이 모든 메트릭 쿼리, 대시보드 테이블 위젯 및 객체 랜딩 페이지에 대해 CSV 내보내기를 사용할 수 있습니다.</block>
+  <block id="14fd8d5705fd5b8176b77dfebb7d13e4" category="paragraph">를 클릭합니다 <block ref="c4dd0ed9c7aa586e1ccc41d08bd166bb" category="inline-link-macro-rx"></block> (NKMO)는 Cloud Insights Insights를 위한 Kubernetes를 설치하는 데 권장되는 방법입니다. 더 적은 수의 단계로 보다 유연하게 모니터링을 구성할 수 있을 뿐만 아니라 K8s 클러스터에서 실행 중인 다른 소프트웨어를 모니터링할 수 있는 기회도 더 많아집니다.</block>
+  <block id="49980d8cbfcf467e48dd828ddb798a3e" category="paragraph">새로운 을 사용하면 데이터 수집기를 훨씬 쉽게 추적할 수 있습니다 <block ref="e932cbc2a5cd1eae0c0f9f3536a1f66d" category="inline-link-macro-rx"></block> 데이터 수집기 및 획득 장치 고장입니다.
+이러한 모니터는 기본적으로 _일시 중지됨_입니다. 활성화하려면 모니터 페이지로 이동하여 "획득 장치 종료" 및 "수집기 실패"를 찾아서 재개합니다.</block>
+  <block id="bc27a46c4d07716aed4c7e1c5668263e" category="paragraph">API 사용에 대한 자세한 내용은 를 참조하십시오 <block ref="84dd77938b21867afe38f6d659bbcd26" category="inline-link-macro-rx"></block>.</block>
+  <block id="b646c2538957d172cf56722332fc0c64" category="paragraph"><block ref="c1a6f5b95fc09a1273de65d4f5176a14" category="inline-link-macro-rx"></block> 환경의 모니터 관리를 간소화합니다. 이제 여러 모니터를 하나로 그룹화하여 일시 중지할 수 있습니다. 예를 들어 인프라 스택에서 업데이트가 발생하는 경우 클릭 한 번으로 모든 장치에서 경고를 일시 중지할 수 있습니다.</block>
+  <block id="47615e5adf328078e0feeaf4f57b3085" category="paragraph">Cloud Insights 프리미엄 에디션을 사용하면 관리자가 * 를 활성화할 수 있습니다<block ref="45710841bd1398dde71fdeae8706a5eb" category="inline-link-macro-rx"></block>개별적으로 초대할 필요 없이 회사 도메인의 모든 사용자에 대해 Cloud Insights에 대한 * (SSO) 액세스. SSO를 사용하면 동일한 도메인 이메일 주소를 가진 모든 사용자가 회사 자격 증명을 사용하여 Cloud Insights에 로그인할 수 있습니다.</block>
+  <block id="ff6c00b335fc80bde3d634aaad097f47" category="cell">디스크 공간은 다음과 같은 방식으로 할당되어야 합니다.
+/opt/NetApp 36GB(파일 시스템 생성 후 최소 35GB의 여유 공간)
+
+참고: 파일 시스템을 생성할 수 있도록 추가 디스크 공간을 할당하는 것이 좋습니다. 파일 시스템에 최소 35GB의 여유 공간이 있는지 확인합니다.
+
+
+/opt가 NAS 스토리지에서 마운트된 폴더인 경우 로컬 사용자가 이 폴더에 액세스할 수 있는지 확인합니다. 로컬 사용자에게 이 폴더에 대한 권한이 없는 경우 에이전트 또는 데이터 수집기를 설치하지 못할 수 있습니다. 를 참조하십시오 <block ref="b8e4bfa44cc0a900c6c15b3a86438fdc" category="inline-link-macro-rx"></block> 섹션을 참조하십시오.</block>
 </blocks>

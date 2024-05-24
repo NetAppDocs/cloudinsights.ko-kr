@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
-permalink: task_dc_na_eseries.html 
-keywords: data collector, ontap, clustered ontap, e-series, santricity 
-summary: NetApp E-Series 데이터 수집기 구성 중. 
+permalink: task_dc_na_eseries_rest.html 
+keywords: data collector, ontap, clustered ontap, REST 
+summary: NetApp E-Series REST 데이터 수집기를 구성합니다. 
 ---
-= NetApp E-Series 레거시 SANtricity API 데이터 수집기
+= NetApp E-Series REST 데이터 수집기
 :toc: macro
 :hardbreaks:
 :toclevels: 2
@@ -19,13 +19,13 @@ summary: NetApp E-Series 데이터 수집기 구성 중.
 
 
 [role="lead"]
-NetApp E-Series 레거시 SANtricity API 데이터 수집기가 인벤토리 및 성능 데이터를 수집합니다. Collector는 동일한 구성을 사용하여 동일한 데이터를 보고하는 펌웨어 7.x+를 지원합니다.
+NetApp E-Series REST 데이터 수집기는 인벤토리 및 성능 데이터를 수집합니다. Collector는 동일한 구성을 사용하여 동일한 데이터를 보고하는 펌웨어 7.x+를 지원합니다. REST Collector는 스토리지 풀의 암호화 상태와 관련 디스크 및 볼륨의 암호화 상태를 모니터링하여 스토리지 노드 CPU 사용률을 성능 카운터로 제공합니다. 이는 레거시 SANtricity E-Series Collector에는 제공되지 않는 기능입니다.
 
 
 
 == 용어
 
-Cloud INSIGHT는 NetApp E-Series 데이터 수집기에서 다음 인벤토리 정보를 가져옵니다. 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
+Cloud Insight는 NetApp E-Series에서 REST를 사용하여 다음 인벤토리 정보를 수집합니다. 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
 
 [cols="2*"]
 |===
@@ -51,6 +51,41 @@ Cloud INSIGHT는 NetApp E-Series 데이터 수집기에서 다음 인벤토리 �
 |===
 참고: 이러한 용어 매핑은 일반적인 용어 매핑일 뿐이며 이 데이터 수집기의 모든 경우를 나타내는 것은 아닙니다.
 
+
+
+== 요구 사항
+
+* 어레이에 있는 각 컨트롤러의 IP 주소입니다
+* 이 Collector는 * 기본 REST API 기능 * 을 갖춘 E-Series 모델 어레이만 지원합니다. E-Series 조직은 이전 E-Series 어레이에 대해 설치 가능한 REST API 배포를 오프 어레이에 출고합니다. 이 수집기는 이 시나리오를 지원하지 않습니다. 이전 스토리지 시스템을 사용하는 사용자는 계속해서 Cloud Insights를 사용해야 합니다. link:task_dc_na_eseries.html["E-Series SANtricity API를 참조하십시오"] 수집기.
+* "E-Series Controller IP addresses" 필드는 쉼표로 구분된 2개의 IP/호스트 이름으로 구성된 문자열을 지원합니다. 첫 번째 IP/호스트 이름에 액세스할 수 없는 경우 수집기는 두 번째 IP/호스트 이름을 지능적으로 시도합니다.
+* HTTPS 포트: 기본값은 8443입니다.
+
+
+
+
+== 구성
+
+[cols="2*"]
+|===
+| 필드에 입력합니다 | 설명 
+
+
+| E-Series 컨트롤러 IP 주소 | 스토리지 컨트롤러에 대해 쉼표로 구분된 IP 주소 및/또는 정규화된 도메인 이름입니다 
+|===
+
+
+== 고급 구성
+
+[cols="2*"]
+|===
+| 필드에 입력합니다 | 설명 
+
+
+| 재고 폴링 간격(분) | 기본값은 30분입니다 
+
+
+| 성능 폴링 간격 최대 3600초 | 기본값은 300초입니다 
+|===
 
 
 == E-Series 용어(랜딩 페이지)
@@ -107,39 +142,6 @@ Cloud INSIGHT는 NetApp E-Series 데이터 수집기에서 다음 인벤토리 �
 * 프로세서 - CPU 수입니다
 
 
-
-
-== 요구 사항
-
-* 어레이에 있는 각 컨트롤러의 IP 주소입니다
-* 포트 요구 사항 2463
-
-
-
-
-== 구성
-
-[cols="2*"]
-|===
-| 필드에 입력합니다 | 설명 
-
-
-| 쉼표로 구분된 Array SANtricity 컨트롤러 IP 목록입니다 | 스토리지 컨트롤러의 IP 주소 및/또는 정규화된 도메인 이름입니다 
-|===
-
-
-== 고급 구성
-
-[cols="2*"]
-|===
-| 필드에 입력합니다 | 설명 
-
-
-| 재고 폴링 간격(분) | 기본값은 30분입니다 
-
-
-| 성능 폴링 간격 최대 3600초 | 기본값은 300초입니다 
-|===
 
 
 == 문제 해결

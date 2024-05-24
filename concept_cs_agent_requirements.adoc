@@ -51,7 +51,7 @@ SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 1
 
 
 | 사용 가능한 디스크 공간입니다 | 디스크 공간은 다음과 같은 방식으로 할당되어야 합니다.
-/opt/NetApp 35GB(최소)
+/opt/NetApp 36GB(파일 시스템 생성 후 최소 35GB의 여유 공간)
 
 참고: 파일 시스템을 생성할 수 있도록 추가 디스크 공간을 할당하는 것이 좋습니다. 파일 시스템에 최소 35GB의 여유 공간이 있는지 확인합니다.
 

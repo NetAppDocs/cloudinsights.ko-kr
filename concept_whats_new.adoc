@@ -19,18 +19,27 @@ keywords: features
 NetApp은 제품과 서비스를 지속적으로 개선 및 개선하고 있습니다. 다음은 Cloud Insights의 상용 버전에서 사용할 수 있는 최신 기능 중 일부입니다.
 
 
-NOTE: 이러한 기능 중 일부는 Cloud Insights Federal Edition에서 사용할 수 없거나 기능이 축소된 상태로 사용할 수 있습니다. 가능한 경우 이러한 차이는 설명서에 나와 있습니다.
 
+== 2024년 5월
+
+
+
+=== 시간에 따라 자동으로 경고 해결
+
+로그 경고는 시간에 따라 해결할 수 있습니다. 경고 조건이 더 이상 발생하지 않으면 Cloud Insights는 지정된 시간이 경과한 후 자동으로 경고를 해결할 수 있습니다. 알림을 분, 시간 또는 일 단위로 해결할 수 있습니다.
+
+image:alerts_resolve_based_on_time.png["경과된 시간에 따라 경고를 해결합니다"]
+
+'''
 
 
 == 2024년 4월
 
 
 
-=== Kubernetes 네트워크 맵에 대한 iSCSI SAN 지원
+=== Kubernetes에 대한 iSCSI 지원
 
-NFS 및 iSCSI에 대한 Kubernetes 기본 스토리지 종속성을 식별합니다.
-Kubernetes 애플리케이션의 스토리지 네트워크 활동 및 정확한 스토리지 메트릭에 대한 통찰력을 확보하여 문제를 빠르게 해결합니다. Kubernetes 애플리케이션이 비용청구 및 쇼백 보고를 위해 스토리지 인프라를 사용하는 방법을 이해합니다.
+이제 Cloud Insights는 Kubernetes와 연결된 iSCSI 스토리지를 매핑하는 기능을 지원하므로 Kubernetes 네트워크 맵을 사용하여 더 빠르게 문제를 해결하고 Reporting을 통해 비용 청구 또는 쇼백 보고서를 제공할 수 있습니다.
 
 image:pod-to-storage.png["Pod-to-Storage 예"]
 
@@ -305,7 +314,7 @@ image:StorageNodeSupportData.png["스토리지 노드 지원 정보입니다"]
 
 === 모듈 시험
 
-Cloud Insights의 초기 평가판 외에 의 이점을 활용할 수도 있습니다 link:concept_subscribing_to_cloud_insights.html#module-evaluation["모듈 평가"]. 예를 들어, 이미 Infrastructure 관측성 에 가입하고 Kubernetes를 환경에 추가하고 있는 경우 Kubernetes 관측성 30일 시험판에 자동으로 등록됩니다. 평가판 기간이 끝날 때까지만 Kubernetes 관측성 관리형 유닛 사용에 대한 요금을 청구합니다.
+Cloud Insights의 초기 평가판 외에 의 이점을 활용할 수도 있습니다 link:concept_subscribing_to_cloud_insights.html#module-evaluation["모듈 평가"]. 예를 들어, 이미 Infrastructure 관측성 에 가입하고 Kubernetes를 환경에 추가하고 있는 경우 Kubernetes 관측성 30일 시험판에 자동으로 등록됩니다. 평가 기간이 끝날 때까지만 Kubernetes 관측성 관리형 유닛 사용에 대한 요금이 부과됩니다.
 
 
 
@@ -767,7 +776,7 @@ ONTAP 9.9 이상의 데이터 수집기에 대한 클라우드 연결이 더 이
 
 === 모든 대시보드 테이블 위젯에 대한 .csv 내보내기
 
-데이터 액세스를 보장하는 것이 필수이므로 .csv 내보내기를 만들었습니다 image:csv_export_icon.png["CSV 내보내기 아이콘"] 쿼리 중인 데이터 유형(자산 또는 통합)에 관계없이 모든 메트릭 쿼리, 대시보드 테이블 위젯 및 개체 랜딩 페이지에 사용할 수 있습니다.
+데이터에 대한 접근성을 보장하는 것이 매우 중요합니다. 쿼리하는 데이터 유형(자산 또는 통합)에 관계없이 모든 메트릭 쿼리, 대시보드 테이블 위젯 및 객체 랜딩 페이지에 대해 CSV 내보내기를 사용할 수 있습니다.
 
 이제 열 선택, 열 이름 바꾸기, 단위 변환과 같은 데이터 사용자 지정 기능도 새로운 내보내기 기능에 포함됩니다.
 
@@ -1133,7 +1142,7 @@ image:ChatIcon.png["파란색 NetApp \"N\"이 웃는 얼굴로 표시된 채팅 
 
 Cloud Insights의 고급 Kubernetes 모니터링 및 클러스터 탐색기를 사용하여 쉽게 시작 및 실행할 수 있습니다.
 
-를 클릭합니다 link:https://docs.netapp.com/us-en/cloudinsights/task_config_telegraf_agent_k8s.html#operator-based-install-or-script-based-install["NetApp Kubernetes 모니터링 운영자"] (NKMO)는 Cloud Insights Insights를 위한 Kubernetes를 설치하는 데 권장되는 방법입니다. 더 적은 수의 단계로 보다 유연하게 모니터링을 구성할 수 있을 뿐만 아니라 K8s 클러스터에서 실행 중인 다른 소프트웨어를 모니터링할 수 있는 기회도 더 많아집니다.
+를 클릭합니다 link:task_config_telegraf_agent_k8s.html["Kubernetes 모니터링 운영자"] (NKMO)는 Cloud Insights Insights를 위한 Kubernetes를 설치하는 데 권장되는 방법입니다. 더 적은 수의 단계로 보다 유연하게 모니터링을 구성할 수 있을 뿐만 아니라 K8s 클러스터에서 실행 중인 다른 소프트웨어를 모니터링할 수 있는 기회도 더 많아집니다.
 
 자세한 정보와 사전 요구 사항을 보려면 위의 링크를 클릭하십시오
 
@@ -1149,7 +1158,8 @@ Cloud Insights의 고급 Kubernetes 모니터링 및 클러스터 탐색기를 �
 
 Collector 실패로 인해 중요한 메트릭을 놓치지 마십시오!
 
-새로운 을 사용하면 데이터 수집기를 훨씬 쉽게 추적할 수 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/task_system_monitors.html#data-collection-monitors["경고"] 데이터 수집기 및 획득 장치 고장입니다. 이러한 모니터는 기본적으로 _일시 중지됨_입니다. 활성화하려면 모니터 페이지로 이동하여 "획득 장치 종료" 및 "수집기 실패"를 찾아서 재개합니다.
+새로운 을 사용하면 데이터 수집기를 훨씬 쉽게 추적할 수 있습니다 link:task_system_monitors.html#data-collection-monitors["경고"] 데이터 수집기 및 획득 장치 고장입니다.
+이러한 모니터는 기본적으로 _일시 중지됨_입니다. 활성화하려면 모니터 페이지로 이동하여 "획득 장치 종료" 및 "수집기 실패"를 찾아서 재개합니다.
 
 
 
@@ -1703,7 +1713,7 @@ image:Monitors_Alert_Description.png["경고 시정 조치 및 설명"]
 
 | 데이터 웨어하우스 |  |  | image:SmallCheckMark.png["체크 표시"] 
 |===
-API 사용에 대한 자세한 내용은 를 참조하십시오 link:https://docs.netapp.com/us-en/cloudinsights/API_Overview.html#api-documentation-swagger["API 설명서"].
+API 사용에 대한 자세한 내용은 를 참조하십시오 link:API_Overview.html#api-documentation-swagger["API 설명서"].
 
 '''
 
@@ -1714,7 +1724,7 @@ API 사용에 대한 자세한 내용은 를 참조하십시오 link:https://doc
 
 === 보다 간편한 모니터 관리
 
-link:https://docs.netapp.com/us-en/cloudinsights/task_create_monitor.html#monitor-grouping["모니터 그룹화"] 환경의 모니터 관리를 간소화합니다. 이제 여러 모니터를 하나로 그룹화하여 일시 중지할 수 있습니다. 예를 들어 인프라 스택에서 업데이트가 발생하는 경우 클릭 한 번으로 모든 장치에서 경고를 일시 중지할 수 있습니다.
+link:task_create_monitor.html#monitor-groups["모니터 그룹화"] 환경의 모니터 관리를 간소화합니다. 이제 여러 모니터를 하나로 그룹화하여 일시 중지할 수 있습니다. 예를 들어 인프라 스택에서 업데이트가 발생하는 경우 클릭 한 번으로 모든 장치에서 경고를 일시 중지할 수 있습니다.
 
 모니터 그룹은 ONTAP 장치의 향상된 관리를 Cloud Insights에 제공하는 흥미로운 새 기능의 첫 번째 부분입니다.
 
@@ -2492,7 +2502,7 @@ image:DuplicateWidget.png["위젯을 복제합니다"]
 
 === SSO(Single Sign-On)
 
-Cloud Insights 프리미엄 에디션을 사용하면 관리자가 * 를 활성화할 수 있습니다link:concept_user_roles.html["SSO(Single Sign-On)"]개별적으로 초대할 필요 없이 회사 도메인의 모든 사용자에 대해 Cloud Insights에 대한 * (SSO) 액세스. SSO를 사용하면 동일한 도메인 이메일 주소를 가진 모든 사용자가 회사 자격 증명을 사용하여 Cloud Insights에 로그인할 수 있습니다.
+Cloud Insights 프리미엄 에디션을 사용하면 관리자가 * 를 활성화할 수 있습니다link:concept_user_roles.html#what-is-identity-federation["SSO(Single Sign-On)"]개별적으로 초대할 필요 없이 회사 도메인의 모든 사용자에 대해 Cloud Insights에 대한 * (SSO) 액세스. SSO를 사용하면 동일한 도메인 이메일 주소를 가진 모든 사용자가 회사 자격 증명을 사용하여 Cloud Insights에 로그인할 수 있습니다.
 
 
 NOTE: SSO는 Cloud Insights 프리미엄 버전에서만 사용할 수 있으며 Cloud Insights에 대해 사용하려면 먼저 구성해야 합니다. SSO 구성에는 이 포함됩니다 link:https://services.cloud.netapp.com/misc/federation-support["ID 페더레이션"] 부터 살펴보십시오. 페더레이션을 사용하면 SSO 사용자가 회사 디렉터리의 자격 증명을 사용하여 NetApp Cloud Central 계정에 액세스할 수 있습니다.
@@ -2586,13 +2596,6 @@ Cloud Insights의 관리 단위(MU) 계산이 다음과 같이 변경되었습�
 
 == 2019년 11월
 
-
-
-=== 버전 기능 비교 표
-
-Admin > Subscription * 페이지 link:concept_subscribing_to_cloud_insights.html["비교 표"] Cloud Insights의 기본, 표준 및 프리미엄 버전에서 사용할 수 있는 기능 집합을 나열하도록 업데이트되었습니다. NetApp은 계속해서 클라우드 서비스를 개선하고 있으므로, 이 페이지를 자주 방문하여 진화하는 비즈니스 요구사항에 맞는 에디션을 찾아보십시오.
-
-'''
 
 
 == 2019년 10월
