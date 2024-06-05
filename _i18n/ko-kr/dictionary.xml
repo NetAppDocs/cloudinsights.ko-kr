@@ -13119,4 +13119,7 @@ root@acquisitionunit #curl-s-H 수락: application/json-H "콘텐츠 유형: app
 
 
 /opt가 NAS 스토리지에서 마운트된 폴더인 경우 로컬 사용자가 이 폴더에 액세스할 수 있는지 확인합니다. 로컬 사용자에게 이 폴더에 대한 권한이 없는 경우 에이전트 또는 데이터 수집기를 설치하지 못할 수 있습니다. 를 참조하십시오 <block ref="b8e4bfa44cc0a900c6c15b3a86438fdc" category="inline-link-macro-rx"></block> 섹션을 참조하십시오.</block>
+  <block id="8fd194517d64c215a9c8b5e2b8d0f67e" category="inline-link-macro">NetApp E-Series REST </block>
+  <block id="015094a403d71d47872c1d0819be899a" category="cell"><block ref="015094a403d71d47872c1d0819be899a" category="inline-link-macro-rx"></block></block>
+  <block id="8f4063b3e2653e9f3c560f79c771819b" category="sidebar">E-Series REST를</block>
 </blocks>
