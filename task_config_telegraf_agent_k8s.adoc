@@ -565,5 +565,8 @@ fluent-bit:
 
 
 | 이미지가 없거나 잘못된 구성으로 인해 NetApp-ci-kube-상태 메트릭 Pod가 시작되지 않거나 준비되지 않았습니다. 이제 StatefulSet이 중단되고 구성 변경 사항이 NetApp-ci-kube-state-metrics Pod에 적용되지 않습니다. | StatefulSet 은 에 있습니다 link:https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/#forced-rollback["고장"] 상태. 구성 문제를 해결한 후에는 NetApp-ci-kube-state-metrics Pod를 바운스하게 만들 수 있습니다. 
+
+
+| Kubernetes Operator 업그레이드를 실행하고 ErrImagePull(이미지를 가져오지 못함)을 throw하는 후 NetApp-ci-kube-state-metrics Pod가 시작되지 않습니다. | 포드 재설정을 수동으로 시도하십시오. 
 |===
 추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].

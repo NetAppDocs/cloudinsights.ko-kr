@@ -13122,4 +13122,6 @@ root@acquisitionunit #curl-s-H 수락: application/json-H "콘텐츠 유형: app
   <block id="8fd194517d64c215a9c8b5e2b8d0f67e" category="inline-link-macro">NetApp E-Series REST </block>
   <block id="015094a403d71d47872c1d0819be899a" category="cell"><block ref="015094a403d71d47872c1d0819be899a" category="inline-link-macro-rx"></block></block>
   <block id="8f4063b3e2653e9f3c560f79c771819b" category="sidebar">E-Series REST를</block>
+  <block id="ab53b155d3f5f63613ea9034aaafadbd" category="cell">Kubernetes Operator 업그레이드를 실행하고 ErrImagePull(이미지를 가져오지 못함)을 throw하는 후 NetApp-ci-kube-state-metrics Pod가 시작되지 않습니다.</block>
+  <block id="da4a57ccdb996916b48d63fa3e08bb40" category="cell">포드 재설정을 수동으로 시도하십시오.</block>
 </blocks>
