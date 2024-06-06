@@ -568,5 +568,8 @@ fluent-bit:
 
 
 | Kubernetes Operator 업그레이드를 실행하고 ErrImagePull(이미지를 가져오지 못함)을 throw하는 후 NetApp-ci-kube-state-metrics Pod가 시작되지 않습니다. | 포드 재설정을 수동으로 시도하십시오. 
+
+
+| "이벤트가 maxEventAgeSeconds보다 오래된 것으로 폐기됨" 메시지가 Log Analysis에서 내 Kubernetes 클러스터에 대해 관찰되고 있습니다. | Operator_agentconfiguration_을 수정하고 _event-exporter-maxEventAgeSeconds_(예: 60s), _event-exporter-kubeQPS_(예: 100) 및 _event-exporter-kubeBurst_(예: 500)를 증가시킵니다. 이러한 구성 옵션에 대한 자세한 내용은 를 참조하십시오 link:telegraf_agent_k8s_config_options.html["구성 옵션"] 페이지. 
 |===
 추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].

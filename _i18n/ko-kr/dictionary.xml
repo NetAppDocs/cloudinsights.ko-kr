@@ -13124,4 +13124,6 @@ root@acquisitionunit #curl-s-H 수락: application/json-H "콘텐츠 유형: app
   <block id="8f4063b3e2653e9f3c560f79c771819b" category="sidebar">E-Series REST를</block>
   <block id="ab53b155d3f5f63613ea9034aaafadbd" category="cell">Kubernetes Operator 업그레이드를 실행하고 ErrImagePull(이미지를 가져오지 못함)을 throw하는 후 NetApp-ci-kube-state-metrics Pod가 시작되지 않습니다.</block>
   <block id="da4a57ccdb996916b48d63fa3e08bb40" category="cell">포드 재설정을 수동으로 시도하십시오.</block>
+  <block id="2bc94fccd24faa68b4153886af40ec57" category="cell">"이벤트가 maxEventAgeSeconds보다 오래된 것으로 폐기됨" 메시지가 Log Analysis에서 내 Kubernetes 클러스터에 대해 관찰되고 있습니다.</block>
+  <block id="6c71496a372f3b5c0cbc9e2eb84a5fd0" category="cell">Operator_agentconfiguration_을 수정하고 _event-exporter-maxEventAgeSeconds_(예: 60s), _event-exporter-kubeQPS_(예: 100) 및 _event-exporter-kubeBurst_(예: 500)를 증가시킵니다. 이러한 구성 옵션에 대한 자세한 내용은 를 참조하십시오 <block ref="74a91e6274b6ee5f9fd240fb978eb1d9" category="inline-link-macro-rx"></block> 페이지.</block>
 </blocks>
