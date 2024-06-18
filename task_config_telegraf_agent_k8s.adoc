@@ -571,5 +571,8 @@ fluent-bit:
 
 
 | "이벤트가 maxEventAgeSeconds보다 오래된 것으로 폐기됨" 메시지가 Log Analysis에서 내 Kubernetes 클러스터에 대해 관찰되고 있습니다. | Operator_agentconfiguration_을 수정하고 _event-exporter-maxEventAgeSeconds_(예: 60s), _event-exporter-kubeQPS_(예: 100) 및 _event-exporter-kubeBurst_(예: 500)를 증가시킵니다. 이러한 구성 옵션에 대한 자세한 내용은 를 참조하십시오 link:telegraf_agent_k8s_config_options.html["구성 옵션"] 페이지. 
+
+
+| Telegraf는 잠금식 메모리가 부족하거나 충돌할 수 있습니다. | 기본 운영 체제/노드에서 Telegraf의 잠금 가능한 메모리 제한을 늘리십시오. 제한을 늘리는 것이 옵션이 아닌 경우 NKMO agentconfiguration을 수정하고 set_skipLockedMemory_to_true_로 설정합니다.  그러면 Telegraf가 잠긴 메모리 페이지를 예약하지 않도록 지시합니다. 암호 해독된 암호가 디스크로 교체될 수 있기 때문에 보안 위험이 발생할 수 있지만 잠긴 메모리를 예약할 수 없는 환경에서 실행할 수 있습니다. _skipLockedMemory_configuration 옵션에 대한 자세한 내용은 를 참조하십시오 link:telegraf_agent_k8s_config_options.html["구성 옵션"] 페이지. 
 |===
 추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].

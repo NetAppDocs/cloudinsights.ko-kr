@@ -13126,4 +13126,9 @@ root@acquisitionunit #curl-s-H 수락: application/json-H "콘텐츠 유형: app
   <block id="da4a57ccdb996916b48d63fa3e08bb40" category="cell">포드 재설정을 수동으로 시도하십시오.</block>
   <block id="2bc94fccd24faa68b4153886af40ec57" category="cell">"이벤트가 maxEventAgeSeconds보다 오래된 것으로 폐기됨" 메시지가 Log Analysis에서 내 Kubernetes 클러스터에 대해 관찰되고 있습니다.</block>
   <block id="6c71496a372f3b5c0cbc9e2eb84a5fd0" category="cell">Operator_agentconfiguration_을 수정하고 _event-exporter-maxEventAgeSeconds_(예: 60s), _event-exporter-kubeQPS_(예: 100) 및 _event-exporter-kubeBurst_(예: 500)를 증가시킵니다. 이러한 구성 옵션에 대한 자세한 내용은 를 참조하십시오 <block ref="74a91e6274b6ee5f9fd240fb978eb1d9" category="inline-link-macro-rx"></block> 페이지.</block>
+  <block id="ab504a720d67f8b1d6fb93a2e0fd41aa" category="cell">Telegraf는 잠금식 메모리가 부족하거나 충돌할 수 있습니다.</block>
+  <block id="26ac9b3550be2e8570d1d9e6f0eec62a" category="cell">기본 운영 체제/노드에서 Telegraf의 잠금 가능한 메모리 제한을 늘리십시오. 제한을 늘리는 것이 옵션이 아닌 경우 NKMO agentconfiguration을 수정하고 set_skipLockedMemory_to_true_로 설정합니다.  그러면 Telegraf가 잠긴 메모리 페이지를 예약하지 않도록 지시합니다. 암호 해독된 암호가 디스크로 교체될 수 있기 때문에 보안 위험이 발생할 수 있지만 잠긴 메모리를 예약할 수 없는 환경에서 실행할 수 있습니다. _skipLockedMemory_configuration 옵션에 대한 자세한 내용은 를 참조하십시오 <block ref="74a91e6274b6ee5f9fd240fb978eb1d9" category="inline-link-macro-rx"></block> 페이지.</block>
+  <block id="20670de5c205eea8e371d467d2711cb1" category="cell">SkipLockedMemory 를 참조하십시오</block>
+  <block id="9091b3fb9f4d43844af8dc0a973c67e0" category="inline-link-macro">알려진 Telegraf 문제입니다</block>
+  <block id="8478d994e083e4a9e16764020a471cbb" category="cell">자세한 내용은 다음을 참조하십시오 <block ref="0dcd3ea27696029fecb8ccd7e247f633" category="inline-link-macro-rx"></block>.  skipLockedMemory를 설정하면 Kubernetes 모니터링 운영자가 에서 Telegraf를 실행하도록 지시합니다<block ref="3a41393afb053a415e6dc30cf704d899" prefix=" " category="inline-code"></block> 깃발.</block>
 </blocks>
