@@ -34,11 +34,12 @@ keywords: AU, acquisition unit, requirements, sizing
 | 운영 체제 | 다음 중 하나의 라이센스 버전을 실행하는 컴퓨터:
 
 * CentOS (64비트): 7.2 ~ 7.9, 8.1 ~ 8.4, Stream 8, Stream 9
+* AlmaLinux 9.3 및 9.4
 * 데비안 (64비트): 9와 10
 * OpenSUSE Leap 15.1에서 15.5까지
 * Oracle Enterprise Linux(64비트): 7.5 - 7.9, 8.1 - 8.8
-* Red Hat Enterprise Linux(64비트): 7.2 - 7.9, 8.1 - 8.8, 9.1, 9.2
-* Rocky 9.0, 9.1, 9.3
+* Red Hat Enterprise Linux(64비트): 7.2 - 7.9, 8.1 - 8.10, 9.1 - 9.4
+*Rocky 9.0 ~ 9.4
 * SUSE Enterprise Linux Server 15, 15 SP2 ~ 15 SP5
 *Ubuntu 서버: 18.04, 20.04, 22.04 LTS
 * 위의 플랫폼에서 SELinux

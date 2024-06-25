@@ -20,6 +20,21 @@ NetApp은 제품과 서비스를 지속적으로 개선 및 개선하고 있습�
 
 
 
+== 2024년 6월
+
+
+
+=== 운영 체제 지원
+
+Cloud Insights 획득 장치 외에 다음과 같은 운영 체제가 지원됩니다 link:https://docs.netapp.com/us-en/cloudinsights/concept_acquisition_unit_requirements.html["이미 지원됩니다"]:
+
+* Red Hat Enterprise Linux 8.9, 8.10, 9.4
+* 로키 9.4
+* AlmaLinux 9.3 및 9.4
+
+
+
+
 == 2024년 5월
 
 
