@@ -13281,4 +13281,24 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="0f7a6275819f9811b54d1e8c38069670" category="paragraph"><block ref="0f7a6275819f9811b54d1e8c38069670" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3cb0a3ec16e76962936843ae69672ce5" category="list-text">2.승인되지 않은 오류</block>
   <block id="c10b2daccdd9136337eaaa94938222bc" category="paragraph">이 오류는 모든 필수 API 범주를 선택하지 않고 API 액세스 토큰이 생성된 경우 표시됩니다. 필요한 모든 API 범주를 선택하여 새 API 액세스 토큰을 생성합니다.</block>
+  <block id="c7c184039a7fffa14bc4f7273cfd594f" category="paragraph">API를 통해 포렌식 데이터를 추출하는 샘플 스크립트는 _/opt/netapp/cloudsecure/agent/export-script/_에 있습니다. 스크립트에 대한 자세한 내용은 이 위치에 있는 Readme 파일을 참조하십시오.</block>
+  <block id="1fb20c216d1008aa26dd3559c9f0c877" category="cell">Forensic UI에서 _PATH_FILTER를 사용할 때 데이터가 느리게 로드되고 있습니다.</block>
+  <block id="4ef9ea59ad225f2c525fb8c4286f39e1" category="cell">경로가 _/AAA/BBB/CCC/DDD_인 경우 다음을 검색하는 대신 다음을 수행합니다.
+
+AAA/BBB/CCC *
+
+또는
+
+AAA/BBB/C *
+
+다음을 검색해 보십시오.
+
+AAA/BBB/CCC/ *
+
+이 검색을 사용하면 데이터를 더 빨리 로드할 수 있습니다.</block>
+  <block id="cdce2e96d795e7005dca434f2ebf323f" category="list-text">• ONTAP 영구 저장소는 9.15.1부터 지원됩니다.</block>
+  <block id="61d7d5d4ab7b186759d0452bd45c99d7" category="list-text">일시 중지된 데이터 수집기는 삭제할 수 없습니다.</block>
+  <block id="e2fd699ea37a6e30f71f4e37a88d3eaa" category="list-text">일시 중지되는 동안 ONTAP의 FPolicy 설정은 비활성화되지만 삭제되지는 않습니다. 다시 시작하면 ONTAP의 FPolicy 설정이 다시 활성화됩니다.</block>
+  <block id="f4635255d83c947a8f5c0873878fce73" category="cell">SVM 모드를 선택하면 Data Collector에서 오류가 발생합니다.</block>
+  <block id="e01a5196bbb9ef19ecab5eb2b9c9a7a8" category="cell">SVM 모드로 연결하는 동안 SVM 관리 IP 대신 클러스터 관리 IP를 사용하여 연결하면 연결 오류가 발생합니다. 올바른 SVM IP를 사용하는지 확인하십시오.</block>
 </blocks>
