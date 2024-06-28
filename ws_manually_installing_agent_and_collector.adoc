@@ -24,7 +24,7 @@ summary: 작업 부하 보안 에이전트는 수동으로 설치 또는 업데�
 
 . swagger에서 "cloudsecure_installers.agent" 및 "cloudsecure_installers.collector"라는 API 범주를 사용할 수 있는지 확인합니다. 그렇지 않은 경우 수동 에이전트 설치에 대한 지원이 활성화되지 않습니다. 이 기능을 활성화하려면 NetApp 지원에 문의하십시오.
 +
-image:ws_manual_install_APIs.png[""]
+image:ws_manual_install_APIs.png["API 수동 설치"]
 
 . 이 문서에 언급된 모든 명령을 '루트' 사용자로 실행하거나, 다른 사용자와 함께 실행하는 경우 'SUDO'로 명령을 실행합니다.
 
@@ -45,16 +45,16 @@ image:ws_manual_install_APIs.png[""]
 .. Save(저장) 를 클릭합니다.
 .. 생성된 API 액세스 토큰을 복사합니다. 창이 닫히면 토큰을 더 이상 검색할 수 없습니다. 이 경우 새 토큰을 생성해야 합니다.
 +
-image:ws_create_and_save_token.png[""]
+image:ws_create_and_save_token.png["API 토큰을 생성하고 저장합니다"]
 
 +
-image:ws_create_and_save_token_confirm.png[""]
+image:ws_create_and_save_token_confirm.png["토큰 생성을 확인합니다"]
 
 
 
 . Admin > API Access > API Documentation * (페이지 오른쪽 상단)으로 이동하고 _Workload Security_icon 을 선택합니다. 그러면 워크로드 보안 API에 대한 Swagger 문서가 열립니다.
 +
-image:ws_swagger_documentation_link.png[""]
+image:ws_swagger_documentation_link.png["워크로드 보안에 대한 Swagger 문서"]
 
 . _Workload Security_API에 대한 액세스 권한을 부여합니다.
 +
@@ -62,7 +62,7 @@ image:ws_swagger_documentation_link.png[""]
 .. Customer ApiKey (apiKey)_text 필드에 단계 1c에서 이전에 복사한 API 토큰을 붙여 넣습니다.
 .. authorize_를 클릭하고 창을 닫습니다.
 +
-image:ws_API_authorization.png[""]
+image:ws_API_authorization.png["API를 인증합니다"]
 
 
 
@@ -71,8 +71,8 @@ image:ws_API_authorization.png[""]
 .. Swagger에서 _cloudsecure_installers.agent_>_/v1/cloudsecure/agent/installers/{platform}/latest_(get) API를 선택합니다. 클릭_시험_을(를) 클릭하십시오.
 .. platform_필드에 _linux_를 입력합니다. 실행 _ 을(를) 클릭합니다.
 +
-image:ws_installers_agent_api_swagger.png[""]
-image:ws_installers_agent_api_swagger-2.png[""]
+image:ws_installers_agent_api_swagger.png["에이전트 설치 프로그램 API-TOP용 Swagger"]
+image:ws_installers_agent_api_swagger-2.png["에이전트 설치 관리자 API 응답용 Swagger"]
 
 .. '파일 다운로드'를 클릭하여 설치 프로그램을 다운로드합니다.
 .. 설치 관리자 파일이 에이전트를 설치할 시스템이 아닌 다른 컴퓨터에 외부에서 다운로드된 경우 설치 관리자 파일을 해당 시스템에 복사합니다.
@@ -80,7 +80,7 @@ image:ws_installers_agent_api_swagger-2.png[""]
 +
 *** curl 명령에 "-o{{file_name}}" 인수를 추가하여 원하는 이름으로 설치 프로그램 파일을 저장합니다. 설치 관리자 파일의 실제 이름은 swagger 응답 헤더 섹션에서 찾을 수 있습니다. 해당 이름을 사용할 수도 있습니다.
 +
-image:ws_installers_agent_api_swagger_installer_file.png[""]
+image:ws_installers_agent_api_swagger_installer_file.png["API-Swagger를 통해 최신 에이전트 선택"]
 
 *** 파일을 원하는 위치에 다운로드할 수 있지만 uninstaller.zip의 압축을 풀 수 있는 빈 폴더에 다운로드하는 것이 좋습니다.
 
@@ -188,7 +188,7 @@ sudo /bin/bash -c "TOKEN=<<one time token generated in step 7>> HTTPS_PROXY=<<pr
 ----
 .. 상담원은 "상담원" 페이지에 표시되고 '연결됨' 상태여야 합니다.
 +
-image:ws_agentsPageShowingConnected.png[""]
+image:ws_agentsPageShowingConnected.png["연결된 에이전트를 표시하는 UI"]
 
 
 
@@ -225,13 +225,13 @@ drwx------ 2 cssys         cssys 4096 Apr 26 15:56 collectors
 . "cloudsecure_config.collector-types>/v1/cloudsecure/collector-types"(get) API 로 이동합니다. “collectorCategory” 드롭다운에서 수집기 유형을 “data”로 선택합니다. 모든 수집기 유형 세부 정보를 가져오려면 "모두"를 선택하십시오.
 . 필요한 Collector 유형의 UUID를 복사합니다.
 +
-image:ws_collectorAPIShowingUUID.png[""]
+image:ws_collectorAPIShowingUUID.png["UUID를 표시하는 Collector API 응답입니다"]
 
 . Collector 설치 프로그램을 다운로드합니다.
 +
 .. "cloudsecure_installers.collector>/v1/cloudsecure/collector-types/installers/{collectorTypeUUID}"(get) API로 이동합니다. 이전 단계에서 복사한 UUID를 입력하고 설치 관리자 파일을 다운로드합니다.
 +
-image:ws_downloadCollectorByUUID.png[""]
+image:ws_downloadCollectorByUUID.png["UUID로 Collector를 다운로드하는 API입니다"]
 
 .. 설치 관리자 파일이 다른 컴퓨터에 외부에서 다운로드되면 설치 관리자 파일을 에이전트가 실행 중인 시스템에 복사하고 "/tmp/collectors" 디렉토리에 저장합니다.
 .. 또는 동일한 API에서 curl 명령을 복사하여 Collector를 설치할 시스템에서 직접 실행할 수 있습니다.
@@ -239,7 +239,7 @@ image:ws_downloadCollectorByUUID.png[""]
 파일 이름은 다운로드 수집기 API의 응답 헤더에 있는 것과 동일해야 합니다. 아래 스크린샷을 참조하십시오.
 
 +
-image:ws_curl_command.png[""]
+image:ws_curl_command.png["난독 처리된 토큰을 보여 주는 Curl 명령의 예"]
 
 +
 [listing]
@@ -264,13 +264,13 @@ total 49716
 .. "cloudsecure_config.collectors"> "/v1/cloudsecure/collectors"(POST) API로 이동합니다.
 .. 예 드롭다운에서 "ONTAP SVM data collector json sample"를 선택하고, collector 구성 세부 정보를 업데이트하고, Execute를 선택합니다.
 +
-image:ws_API_add_collector.png[""]
+image:ws_API_add_collector.png["Collector를 추가할 API입니다"]
 
 
 
 . 이제 '데이터 수집기' 섹션 아래에 수집기가 표시됩니다.
 +
-image:ws_collectorPageList.png[""]
+image:ws_collectorPageList.png["수집기를 보여 주는 UI 목록 페이지"]
 
 . 설치 후 정리.
 +
@@ -297,17 +297,17 @@ drwx------ 2 cssys         cssys 4096 Apr 26 15:56 collectors
 ----
 . 이제 Collector 버전과 UUID를 가져와야 합니다. "cloudsecure_config.collector-types" API로 이동합니다. collectorCategory 드롭다운에서 수집기 유형을 "user"로 선택합니다. 단일 요청에서 모든 수집기 유형 세부 정보를 가져오려면 "모두"를 선택하십시오.
 +
-image:ws_API_collector_all.png[""]
+image:ws_API_collector_all.png["API를 사용하여 모든 수집기를 가져옵니다"]
 
 . LDAP 수집기의 UUID를 복사합니다.
 +
-image:ws_LDAP_collector_UUID.png[""]
+image:ws_LDAP_collector_UUID.png["LDAP 수집기 UUID를 보여 주는 API 응답입니다"]
 
 . Collector 설치 프로그램을 다운로드합니다.
 +
 .. "cloudsecure_installers.collector"> "/v1/cloudsecure/collector-types/installers/{collectorTypeUUID}"(GET) API로 이동합니다. 이전 단계에서 복사한 UUID를 입력하고 설치 관리자 파일을 다운로드합니다.
 +
-image:ws_LDAP_collector_UUID_download.png[""]
+image:ws_LDAP_collector_UUID_download.png["API 및 Reponse Collector 다운로드"]
 
 .. 설치 관리자 파일이 다른 컴퓨터에 외부에서 다운로드되면 설치 관리자 파일을 에이전트가 실행 중인 시스템과 "/tmp/collectors" 디렉토리에 복사합니다.
 .. 또는 동일한 API에서 curl 명령을 복사하여 Collector를 설치해야 하는 시스템에서 직접 실행할 수 있습니다.
@@ -318,7 +318,7 @@ image:ws_LDAP_collector_UUID_download.png[""]
 
 +
 를 누릅니다
-image:ws_curl_command.png[""]
+image:ws_curl_command.png["curl 명령 API"]
 
 +
 를 누릅니다
@@ -345,15 +345,15 @@ total 37156
 ----
 . '사용자 디렉터리 수집기' 페이지로 이동하고 '+사용자 디렉터리 수집기'를 클릭합니다.
 +
-image:ws_user_directory_collector.png[""]
+image:ws_user_directory_collector.png["사용자 디렉토리 수집기를 추가하는 중입니다"]
 
 . 'LDAP Directory Server'를 선택합니다.
 +
-image:ws_LDAP_user_select.png[""]
+image:ws_LDAP_user_select.png["LDAP 사용자를 선택하기 위한 UI 창입니다"]
 
 . LDAP Directory Server 세부 정보를 입력하고 '저장'을 클릭합니다
 +
-image:ws_LDAP_user_Details.png[""]
+image:ws_LDAP_user_Details.png["LDAP 사용자 세부 정보를 보여 주는 UI"]
 
 . “Save(저장)”를 클릭하면 에이전트 서비스가 "/tmp/Collectors/" 디렉터리에서 Collector 설치 프로그램을 찾아 Collector를 설치합니다.
 . 대체 옵션으로 UI를 통해 Collector를 추가하는 대신 API를 통해서도 추가할 수 있습니다.
@@ -361,13 +361,13 @@ image:ws_LDAP_user_Details.png[""]
 .. "cloudsecure_config.collectors"> "/v1/cloudsecure/collectors"(POST) API로 이동합니다.
 .. 예제 드롭다운에서 "LDAP Directory Server user collector json sample"(LDAP 디렉터리 서버 사용자 수집기 json sample)"을 선택하고 Collector 구성 세부 정보를 업데이트한 다음 "Execute(실행)"를 클릭합니다.
 +
-image:ws_API_LDAP_Collector.png[""]
+image:ws_API_LDAP_Collector.png["LDAP Collector용 API"]
 
 
 
 . 이제 컬렉터가 "User Directory Collector" 섹션에 표시됩니다.
 +
-image:ws_LDAP_collector_list.png[""]
+image:ws_LDAP_collector_list.png["UI의 LDAP Collector 목록입니다"]
 
 . 설치 후 정리.
 +
@@ -451,7 +451,7 @@ drwx------  2 root  root  4096 Apr 26 17:38 tmp
 ----
 .. 상담원은 "상담원" 페이지에 표시되고 '연결됨' 상태여야 합니다.
 +
-image:ws_agentsPageShowingConnected.png[""]
+image:ws_agentsPageShowingConnected.png["연결된 상담원을 표시하는 UI"]
 
 
 
@@ -490,14 +490,14 @@ drwx------ 2 cssys         cssys 4096 Apr 26 15:56 collectors
 
 
 
-image:ws_collector_UUID_and_version.png[""]
+image:ws_collector_uuid_and_version.png["Collector UUID 및 버전이 강조 표시된 API 응답입니다"]
 
 . 최신 Collector 설치 프로그램 파일을 다운로드합니다.
 +
 .. "cloudsecure_installers.collector"> "/v1/cloudsecure/collector-types/installers/{collectorTypeUUID}" API로 이동합니다. 이전 단계에서 복사한 "collectorTypeUUID"를 입력하십시오. 설치 프로그램을 "/tmp/collectors" 디렉토리에 다운로드합니다.
 .. 또는 동일한 API의 curl 명령을 사용할 수도 있습니다.
 +
-image:ws_curl_command_only.png[""]
+image:ws_curl_command_only.png["curl 명령 예"]
 
 
 
@@ -524,7 +524,7 @@ total 55024
 .. "Examples" 드롭다운에서 "ONTAP SVM data collector upgrade json sample"을 선택하여 샘플 페이로드를 채웁니다.
 .. 버전을 3단계에서 복사한 버전으로 교체하고 '실행'을 클릭합니다.
 +
-image:ws_svm_ontap_collector_upgrade_example_json.png[""]
+image:ws_svm_ontap_collector_upgrade_example_json.png["Swagger UI의 SVM 업그레이드 예"]
 
 
 
@@ -554,7 +554,7 @@ image:ws_svm_ontap_collector_upgrade_example_json.png[""]
 이 오류는 수집기 설치 파일이 "/tmp/collectors" 디렉토리에 없거나 액세스할 수 없는 경우에 발생합니다. 설치 프로그램 파일이 다운로드되었고 디렉터리 "Collector" 및 설치 관리자 zip 파일이 cssys:cssys에 의해 소유되었는지 확인하고 에이전트 서비스를 다시 시작합니다. "systemctl restart cloudsecure-agent.service”
 
 +
-image:ws_agent014_error.png[""]
+image:ws_agent014_error.png["\"agent 014\" 오류 호버 팁을 보여 주는 UI 화면"]
 
 . 2.승인되지 않은 오류
 +
