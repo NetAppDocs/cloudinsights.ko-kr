@@ -894,7 +894,6 @@
   <block id="ac2ddb56e922acac513828fc77bc85f6" category="cell">"REST 서비스가 비활성화되었습니다" 오류 메시지와 함께 "구성 오류"</block>
   <block id="8c2e7ed091a4f8575b17f8af2bb59449" category="cell">이 장치에서 REST 서비스가 활성화되어 있는지 확인합니다.</block>
   <block id="8bf875173a6afe9bba37e4713c91c421" category="cell">"User unauthorized for command" 오류 메시지와 함께 "구성 오류"</block>
-  <block id="be63a0599db0a9d29e7d2b328c74dc03" category="cell">특정 역할(예: 'advanced_analytics')이 구성된 사용자 &lt;username&gt;에 포함되지 않기 때문일 수 있습니다. 가능한 해결책: * 읽기 전용 역할을 사용하여 ${user} 사용자의 분석(통계) 범위를 수정하십시오. - 구성 -&gt; 사용자 화면에서 마우스를 역할 위에 놓고 두 번 클릭하여 편집을 허용합니다. - 범위 드롭다운 메뉴에서 "분석"을 선택합니다. 가능한 속성 목록이 나타납니다. 맨 위 확인란을 클릭하면 세 가지 속성이 모두 선택됩니다. 오른쪽에 있는 추가 단추를 클릭합니다. 팝업 창의 오른쪽 위에 있는 적용 단추를 클릭합니다. 팝업 창이 닫힙니다.</block>
   <block id="cd83da6b8675e2660027f1d689252b6f" category="summary">Data Collector 지원 매트릭스에는 지원되는 데이터 수집기에 대한 자세한 정보가 포함되어 있습니다.</block>
   <block id="ef4bf6f0faac05bfc1b9c6d8660008c2" category="summary">VNX Data Collector 구성</block>
   <block id="444d4c127af1a977c6edbecdc0165c56" category="cell">디스크 폴더</block>
@@ -4006,8 +4005,6 @@
   <block id="c888462b6bfcb7d60ef70f30c22e0c51" category="paragraph">주석은 자산에 할당하는 특수 노트로서 주석을 기준으로 자산을 필터링할 수 있습니다. 생성하는 주석은 사용자 환경에서 NetApp 루트 애그리게이트를 파악하고 이러한 애그리게이트가 특정 보고서에 포함되지 않도록 하는 데 사용됩니다.</block>
   <block id="f65b484d944bbb5696490852b2d2c6d0" category="list-text">주석에 대한 설명을 입력합니다. * "높은 I/O 밀도" 보고서에서 루트 애그리게이트 제거 *</block>
   <block id="e4731b310642ca51f9042d77c31a36cc" category="paragraph">개별 자산에 주석을 수동으로 적용하는 대신 주석 규칙을 사용하여 여러 자산에 주석을 자동으로 적용할 수 있습니다. 주석 규칙은 사용자가 만든 쿼리를 기반으로 하며 시스템에서 실행할 때 기존 자산 집합에 새 자산을 추가합니다. 이러한 자산 세트를 보고서에서 제외하면 새 자산도 자동으로 제외됩니다.</block>
-  <block id="066dd3116632d178996fcf4d32b30c70" category="paragraph">사용자 환경에서 식별한 NetApp 루트 애그리게이트를 식별하는 쿼리를 작성하여 저장해야 합니다. . 단계. Cloud Insights 도구 모음에서 * 관리 &gt; 주석 규칙 * 을 클릭합니다. 추가 * 를 클릭합니다</block>
-  <block id="5a4064cefa68bcf6be0e69870c969e3d" category="paragraph">+ 규칙 추가 대화 상자가 표시됩니다. 이름 상자에 규칙을 설명하는 고유한 이름 * "RootAggrExclude" * 를 입력합니다. Query를 클릭하고 Insight가 주석 규칙을 적용할 때 사용해야 하는 Query를 * "Aggregate0" * 에 선택합니다. 주석 을 클릭하고 * "Root agg exclude" * 를 선택합니다. 값 * 을 클릭하고 * True * 를 입력합니다</block>
   <block id="170ac79db4abf3af53c36b5ba23d297a" category="summary">Couchbase 데이터 수집기 구성</block>
   <block id="1aa7fb61fdaf60c81a318c790c7e545e" category="doc">Couchbase Data Collector</block>
   <block id="2aa655c0610f5e45884f5257e54d539e" category="paragraph">Cloud Insights는 이 데이터 수집기를 사용하여 Couchbase DB에서 메트릭을 수집합니다.</block>
@@ -6528,14 +6525,10 @@
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">상표</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, NetApp 로고, NetApp 상표 페이지에 나열된 마크는 NetApp Inc.의 상표입니다. 기타 회사 및 제품 이름은 해당 소유자의 상표일 수 있습니다.</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp 소유 특허 목록은 다음 사이트에서 확인할 수 있습니다.</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
   <block id="4e9ba34cd64303c28d17d7ef9da12d0b" category="inline-link-macro">Cloud Insights에 대한 고지 사항</block>
@@ -9426,8 +9419,6 @@
   <block id="c0404d66fec1056cbbdcf7bc76589700" category="paragraph"><block ref="c0404d66fec1056cbbdcf7bc76589700" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f6706b55dc0bef6b9951c40daa3a0ee2" category="admonition">스토리지 워크로드 보안은 Cloud Insights Federal Edition에서 사용할 수 없습니다.</block>
   <block id="af5f3409a3cec43a03f959371f642cae" category="admonition">대부분의 시스템 모니터는 기본적으로 _Paused_상태입니다. 모니터의 _Resume_옵션을 선택하여 시스템 모니터를 활성화할 수 있습니다. Data Collector에서 _고급 카운터 데이터 수집_ 및 _ONTAP EMS 로그 수집 활성화_가 활성화되어 있는지 확인합니다. 이러한 옵션은 _고급 구성_ 아래의 ONTAP 데이터 수집기에서 찾을 수 있습니다.<block ref="c9fb5b808ac97b65ea1073e21fb359f9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8fee42a04811f34097bb06266a925ef6" category="paragraph"><block ref="f1d16f360380bc347a5a9e8768937aa7" category="inline-link-macro-rx"></block>
-<block ref="536041084bffaf10e48c1cc03ccee7a2" category="inline-link-macro-rx"></block></block>
   <block id="13c40afab8bb116e2a274838e229f575" category="paragraph">활동 기록 테이블 위에 있는 _Export_ 단추를 클릭하여 활동 기록을 .csv 파일로 내보낼 수 있습니다. 상위 100,000개의 레코드만 내보내집니다. 데이터 양에 따라 내보내기가 완료될 때까지 몇 초에서 몇 분 정도 걸릴 수 있습니다.</block>
   <block id="75089fe944982f39be6142328f8b77cf" category="paragraph">Windows 및 Linux용 에이전트를 설치하는 동안 체크섬 값을 제공하도록 요청했으며 이는 좋은 생각이라고 생각합니다. 주요 내용은 다음과 같습니다.</block>
   <block id="89be6ffd9cf2244c68503bbda41ae112" category="summary">Cloud Insights는 통합 데이터 수집을 위한 에이전트로 Telegraf를 지원하며 Windows 또는 Linux에서 구성할 수 있습니다.</block>
@@ -13326,10 +13317,24 @@ AAA/BBB/CCC/ *
   <block id="06f1d2abcf2870548b998e073289d617" category="paragraph">대시보드를 그룹화하면 필요한 가시성을 빠르게 얻을 수 있으며, 이제 새로운 탐색 메뉴를 통해 자리를 잃지 않고 서로 다른 대시보드 간에 이동할 수 있으므로 인프라를 쉽게 탐색하고 관리할 수 있습니다. 대시보드 그룹을 운영 Runbook과 연계하여 환경을 더욱 개선할 수 있습니다.</block>
   <block id="88de6acb1a05ed53be1eb11796125d52" category="inline-image-macro">현재 대시보드와 동일한 그룹에 있는 다른 대시보드를 선택하려면 드롭다운 메뉴를 사용합니다</block>
   <block id="ebde4cb30069bf7811bcab479a98b1de" category="paragraph"><block ref="ebde4cb30069bf7811bcab479a98b1de" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cf85d02f145fd398f6b83e53e7eae578" category="section-title">새 개체 아이콘</block>
-  <block id="e1146db7650c421537a792eef24c30b4" category="paragraph">Cloud Insights에는 이제 객체 아이콘그래프가 업데이트되어 다양한 Cloud Insights 페이지에 사용되는 아이콘의 전체적인 분산을 줄이고 유사한 객체(예: 볼륨 관련 객체)를 그룹화합니다. 이전의 '문자 기반' 아이콘이 이미지 기반 그래픽으로 대체되어 Cloud Insights 화면을 보다 사용자 친화적이고 쉽게 사용할 수 있습니다.</block>
-  <block id="f8064c9450e605d5bbbf34b0cea86cf7" category="paragraph">아이콘의 의미를 잘 모르십니까? 아래 표(페이지에서도 사용 가능 <block ref="77ae8c6d870a7e114fd79dc75e0e0c29" category="inline-link-macro-rx"></block> )에 모두 설명되어 있습니다.</block>
-  <block id="6668a5009a3cd3a27f3cb362ac89ff43" category="inline-image-macro">'스토리지, 네트워킹, 컴퓨팅 및 통합(Kubernetes 포함) 및 추가 아래에 그룹화된 Cloud Insights에 사용되는 모든 오브젝트 아이콘을 보여주는 이미지'</block>
-  <block id="f45804d947a7b131eecbbbf3efb0603f" category="paragraph"><block ref="f45804d947a7b131eecbbbf3efb0603f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cf0b6689b45787134fc0c6f10cd64fd2" category="paragraph">Cloud Insights에 사용되는 개체 아이콘입니다.</block>
+  <block id="f1d16f360380bc347a5a9e8768937aa7" category="paragraph"><block ref="f1d16f360380bc347a5a9e8768937aa7" category="inline-link-macro-rx"></block></block>
+  <block id="536041084bffaf10e48c1cc03ccee7a2" category="paragraph"><block ref="536041084bffaf10e48c1cc03ccee7a2" category="inline-link-macro-rx"></block></block>
+  <block id="4d0f1a88ac64f025d3fa96e291e7a276" category="section-title">인프라 아이콘:</block>
+  <block id="2a8b7bf5296e8ac5b8214e85ec2bab16" category="inline-image-macro">인프라 아이콘 참조</block>
+  <block id="4e28165ac3c643283efd04c55df2d70d" category="paragraph"><block ref="4e28165ac3c643283efd04c55df2d70d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="736b641409d5a49654659a490becb9df" category="section-title">Kubernetes 아이콘:</block>
+  <block id="8c33e4b99d8bd8524b8cd4b67b114b73" category="inline-image-macro">Kubernetes 아이콘 참조, 너비 = 180</block>
+  <block id="374b7286b134bc4e5b85eb1d48980842" category="paragraph"><block ref="374b7286b134bc4e5b85eb1d48980842" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ea0512b988d2823de06af98254ea6811" category="section-title">Kubernetes Network Performance Monitoring 및 Map 아이콘:</block>
+  <block id="9039c950f48328372952e360cb5e909a" category="inline-image-macro">Kubernetes Network Performance Monitoring and Map, 너비 = 640</block>
+  <block id="680bf29e063b6b3133c4881cb55b6d34" category="paragraph"><block ref="680bf29e063b6b3133c4881cb55b6d34" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f206f600866607637821c713ae2b63cc" category="cell">이 오류는 구성된 사용자에 대해 특정 역할(예: 'advanced_analytics')이 포함되지 않았기 때문일 수 있습니다. 읽기 전용 역할을 가진 사용자에 대해 분석 범위를 적용하면 오류가 제거될 수 있습니다. 다음 단계를 따르십시오. 1. ZFS 시스템의 Configuration -&gt; Users 화면에서 해당 역할 위로 마우스를 이동한 후 두 번 클릭하여 편집할 수 있습니다 2. 범위 드롭다운 메뉴에서 "분석"을 선택합니다. 가능한 속성 목록이 나타납니다. 3. 맨 위에 있는 확인란을 클릭하면 세 개의 속성이 모두 선택됩니다. 4. 오른쪽에 있는 추가 버튼을 클릭합니다. 5. 팝업 창의 오른쪽 위에 있는 적용 단추를 클릭합니다. 팝업 창이 닫힙니다.</block>
+  <block id="6273dfead9d8cac501012af839fb8f91" category="paragraph">사용자 환경에서 식별한 NetApp 루트 애그리게이트를 식별하는 쿼리를 작성하여 저장해야 합니다.</block>
+  <block id="67820097ebadd10933dfa2562494a60e" category="list-text">Cloud Insights 도구 모음에서 * 관리 &gt; 주석 규칙 * 을 클릭합니다.</block>
+  <block id="8292471fb31a2cafa37cc14eeade4da2" category="list-text">추가 * 를 클릭합니다. 규칙 추가 대화 상자가 표시됩니다.</block>
+  <block id="37826f4028925f8d7c2568e9a34fb119" category="list-text">이름 상자에 * "RootAggrExclude" * 규칙을 설명하는 고유한 이름을 입력합니다</block>
+  <block id="3cd59483bde57e839ca908da4280cde9" category="list-text">Query(쿼리) 를 클릭하고 Insight에서 주석 규칙을 * "Aggregate0" * 에 적용하는 데 사용해야 하는 Query(쿼리) 를 선택합니다</block>
+  <block id="b3e5b96fb95a6c5ae373e50472986766" category="list-text">Annotation(주석)을 클릭하고 * "Root agg exclude(루트 agg 제외)" * 를 선택합니다</block>
+  <block id="e62dcc88e7504fa135502828cf3f3374" category="list-text">값 * 을 클릭하고 * True * 를 입력합니다</block>
 </blocks>
