@@ -3052,8 +3052,6 @@
   <block id="c986424b59283e1aa18a7ebe90190f7c" category="cell">재고 조사 사이의 간격입니다. 기본값은 40분입니다.</block>
   <block id="5d113f2038d289f391614c39043629e8" category="cell">범위</block>
   <block id="529cf703eca7100792de266841b2b06b" category="cell">보안 클라이언트 범위 기본값은 Global 입니다.</block>
-  <block id="7e4665920f5ea9564b167402b303e931" category="cell">오류: • 에이전트가 실행되지 않음 • naviseccli를 찾지 못함 • 명령을 실행하지 못했습니다</block>
-  <block id="6c8224496d7bc35b0ff1714bff1939e9" category="cell">• Navisphere CLI가 Cloud Insight 획득 장치에 설치되어 있는지 확인 • 데이터 수집기 구성 마법사에서 "보안 클라이언트 사용" 옵션을 선택하지 않았거나 비보안 버전의 Naviphere CLI가 설치되어 있지 않습니다. • 데이터 수집기 구성에서 Navisphere CLI 설치 디렉토리가 올바른지 확인합니다. • 데이터 수집기 구성에서 VNX 블록 스토리지의 IP가 올바른지 확인합니다. • Cloud Insights 획득 장치에서: - CMD를 엽니다. - 디렉토리를 구성된 설치 디렉토리로 변경합니다. - "navicli -h {IP} getagent"를 입력하여 VNX 블록 스토리지 디바이스에 대한 접속을 시도합니다({IP}를 실제 IP로 대체).</block>
   <block id="080a50fd42890f08f122c21be3187e4b" category="cell">오류: 4.29 emc235848 emc241018 getall에서 호스트 별칭 정보를 구문 분석하지 못했습니다</block>
   <block id="a6037a5a8dc19085b823e803eeb236da" category="cell">이는 스토리지 자체에 있는 호스트 이니시에이터 데이터베이스의 FLARE 29 손상 문제로 인해 발생할 수 있습니다. EMC 기술 자료 문서 emc235848, emc241018을 참조하십시오. 또한 확인할 수도 있습니다<block ref="fcbe74266ffebefc607cd58d1002be58" category="inline-link-rx"></block></block>
   <block id="2846bc6366ffc91aee2075a2d5607161" category="cell">오류: 메타 LUN을 검색할 수 없습니다. Java-jar navicli.jar 실행 중 오류가 발생했습니다</block>
@@ -4001,7 +3999,6 @@
   <block id="e9845712cabf8536f0d8a78bca8306af" category="paragraph">이 가이드의 단계를 다른 공급업체의 스토리지 시스템에도 적용할 수 있습니다. 스토리지 시스템을 관리하기 위한 디렉토리와 구성 파일이 포함된 볼륨을 식별하고 이와 유사한 단계를 사용하여 해당 볼륨을 제외해야 합니다.</block>
   <block id="34d1e1ec387494ae7adb4531e99bcdaa" category="list-text">사용자 환경에서 NetApp 루트 애그리게이트를 식별하는 쿼리를 생성합니다. * 쿼리 &gt; 새 쿼리 &gt; 리소스 유형 선택 * (?) 을 클릭합니다.</block>
   <block id="7d67bb4f1a6063faca1a41fe36394d3e" category="list-text">스토리지 풀 * 을 클릭합니다</block>
-  <block id="256df3a597f7a147ef4c2594c915c7ba" category="paragraph">이 예제에서는 이름에 "aggr0"을 사용합니다. Aggregate를 생성할 때 이름에 대한 다음 요구 사항만을 따라야 합니다. 문자 또는 밑줄(_)으로 시작해야 합니다. ... 문자, 숫자 및 밑줄만 포함할 수 있습니다. ... 250자 이하일 수 있습니다. 대부분의 경우 Aggregate는 aggr0, aggr_0 또는 이와 유사한 이름을 사용합니다. 사용자 환경에서 모든 NetApp 루트 애그리게이트를 식별하려면 반복적인 프로세스가 필요할 수 있습니다.</block>
   <block id="c888462b6bfcb7d60ef70f30c22e0c51" category="paragraph">주석은 자산에 할당하는 특수 노트로서 주석을 기준으로 자산을 필터링할 수 있습니다. 생성하는 주석은 사용자 환경에서 NetApp 루트 애그리게이트를 파악하고 이러한 애그리게이트가 특정 보고서에 포함되지 않도록 하는 데 사용됩니다.</block>
   <block id="f65b484d944bbb5696490852b2d2c6d0" category="list-text">주석에 대한 설명을 입력합니다. * "높은 I/O 밀도" 보고서에서 루트 애그리게이트 제거 *</block>
   <block id="e4731b310642ca51f9042d77c31a36cc" category="paragraph">개별 자산에 주석을 수동으로 적용하는 대신 주석 규칙을 사용하여 여러 자산에 주석을 자동으로 적용할 수 있습니다. 주석 규칙은 사용자가 만든 쿼리를 기반으로 하며 시스템에서 실행할 때 기존 자산 집합에 새 자산을 추가합니다. 이러한 자산 세트를 보고서에서 제외하면 새 자산도 자동으로 제외됩니다.</block>
@@ -11955,16 +11952,6 @@ CHE: 권한이 거부되었습니다. 무시됨 \n "func="gosnowflake.(* default
   <block id="efe4baadff5bd15b524eb5bdb921fc23" category="sidebar">오퍼레이터를 설치 또는 업그레이드하기 전에</block>
   <block id="0fa09a2babfce9f13e5281cf6d3521b9" category="sidebar">모니터링 오퍼레이터 설치</block>
   <block id="1de805c2687b2c30b46a937270519488" category="cell">MetricAggregationInterval입니다</block>
-  <block id="fc053bcc2bca8112838f33be578f7479" category="cell">다음 중 하나의 라이센스 버전을 실행하는 컴퓨터:
-
-Red Hat Enterprise Linux 7.x, 8.x 64비트, SELinux
-CentOS 7.x 64비트, SELinux
-CentOS 8 Stream, SELinux
-Ubuntu 20 ~ 22 64비트
-Rocky 8.x 64비트, Rocky 9.x 64비트, SELinux
-SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 15 SP3의 SELinux
-
-이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
   <block id="4f05106cca363b0f3c492314ab777534" category="cell">일부 이벤트 로그에 대한 _divedobject_data가 없습니다.</block>
   <block id="67ee92e19812baa7cedb346320ca0182" category="cell">의 단계를 수행했는지 확인합니다 <block ref="d9283cdb1b027ed2a61fa92c8dc3e314" category="inline-link-macro-rx"></block> 섹션을 참조하십시오.</block>
   <block id="dafe147a7f0074749f1e1c76f1e05008" category="section-title">모듈 시험</block>
@@ -12893,12 +12880,6 @@ Firefox에서 쿠키 예외는 간단히 _auth0.com _ 및 _netapp.com _ 로 지�
   <block id="65ef2d3ac9b8dfdd7b17c10af9a602da" category="paragraph"><block ref="65ef2d3ac9b8dfdd7b17c10af9a602da" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b3e588c8b8cdde417ea31ee3bbefd9a9" category="inline-image-macro">랜딩 페이지 토폴로지 섹션의 예</block>
   <block id="3cb6e63269aa6edf3cc66859826feb7d" category="paragraph"><block ref="3cb6e63269aa6edf3cc66859826feb7d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="609716a86af2f9467366b90e750be49d" category="paragraph">&lt;&lt;&lt;&lt;&lt;&lt;&lt; 머리
-. 추가 구성 필드를 추가하려면 * 고급 구성 * 을 클릭합니다. (일부 데이터 수집기는 고급 구성이 필요하지 않습니다.)
-. 구성 테스트 * 를 클릭하여 데이터 수집기가 올바르게 구성되었는지 확인합니다.
-. [수집기 추가]를 클릭하여 구성을 저장하고 데이터 수집기를 Cloud Insights 테넌트에 추가합니다.</block>
-  <block id="599f97fbfc2fc945eb562d68c9aca1a8" category="paragraph">서비스의 데이터가 대시보드에 표시되거나 쿼리에 사용 가능하려면 폴링 기간을 최대 2회 정도 소요될 수 있습니다.
-&gt;&gt;&gt;&gt; b8087143154c7d9f5d1d3f33e1bdf97a7c9d1</block>
   <block id="67dd8a9c7300c7a68539b856568b643c" category="inline-image-macro">내보내기 버튼</block>
   <block id="e075c22a2e254de2972fc152e1c02118" category="list-text">내보내기 * 를 클릭합니다 <block ref="3b91e5b29194b7fd2b5cb067b5b3e811" category="inline-image-macro-rx" type="image"></block> 단추를 클릭합니다.</block>
   <block id="b73a83fb453d4638343c31abb0f03dfc" category="paragraph">NetApp 클라우드 서비스를 시작하려면 로 이동하십시오 <block ref="b4c824fcd8d5915314065a3371563411" category="inline-link-macro-rx"></block> 를 클릭하고 * 시작하기 * 를 클릭합니다.</block>
@@ -12921,13 +12902,6 @@ Firefox에서 쿠키 예외는 간단히 _auth0.com _ 및 _netapp.com _ 로 지�
 정확한 감사 및 데이터 보고를 위해 NTP(Network Time Protocol) 또는 SNTP(Simple Network Time Protocol)를 사용하여 Agent 시스템의 시간을 동기화합니다.</block>
   <block id="7c32e6404e015057fc5db282b24077f0" category="cell">OpenShift 4.6 이상에서 실행 중인 경우 를 따라야 합니다 <block ref="f28efb863bb7dfcdf91b1badf5c0c340" category="inline-link-macro-rx"></block> 이러한 사전 요구 사항이 충족되었는지 확인하는 것 외에도</block>
   <block id="122fc5eb4b307e2a1b2bef4475345326" category="cell">AWS의 AU에서 획득한 경우에만 사용합니다. 에 대한 자세한 내용은 아래를 참조하십시오 <block ref="83d528ecd9060fb6ba0317241e0017ba" category="inline-xref-macro-rx"></block>.</block>
-  <block id="24c6fef3c58adc63ac779bde77c4fbce" category="cell">• 이 문제는 대개 VNX 블록 스토리지 디바이스에서 펌웨어를 업데이트하지만 NaviCLI.exe의 설치를 업데이트하지 않아 발생합니다. 다른 펌웨어를 사용하는 다른 장치가 있지만 하나의 CLI만 설치된 경우(다른 펌웨어 버전 사용) 이 문제가 발생할 수도 있습니다.
-• 장치와 호스트가 모두 동일한 버전의 소프트웨어를 실행하고 있는지 확인합니다.
-    - Cloud Insights 획득 장치에서 명령줄 창을 엽니다
-    - 디렉터리를 구성된 설치 디렉터리로 변경합니다
-    - "navicli -h &lt;ip&gt; getagent"를 입력하여 CLARiX 디바이스와 연결합니다.
-    - 첫 번째 두 줄의 버전 번호를 찾습니다. 예: “에이전트 개정: 6.16.2(0.1)"
-    - 첫 번째 줄에서 버전을 찾아 비교합니다. 예: “Navisphere CLI 개정 6.07.00.04.07”</block>
   <block id="39d9aa164a7b16c29e56edd3252953f6" category="paragraph">에서 웹 후크 알림을 선택합니다 <block ref="79bf0d490adb807cbc06cd7e0b796905" category="inline-link-macro-rx"></block>, * 경고 &gt; 모니터 관리 * 로 이동하여 원하는 모니터를 선택하거나 새 모니터를 추가합니다. 팀 알림 설정 섹션에서 전달 방법으로 _Webhook_을 선택합니다. 경고 수준(위험, 경고, 해결)을 선택한 다음 원하는 웹 후크를 선택합니다.</block>
   <block id="4123cf4f6521073cef46192908207644" category="cell">SELinux가 설정되어 있고 강제 적용되는 경우 Telegraf 포드가 Kubernetes 노드의 /proc/1/mountstats 파일에 액세스하지 못할 수 있습니다. 이 제한을 해결하려면 agentconfiguration을 편집하고 runPrivileged 설정을 활성화하십시오. 자세한 내용은 를 참조하십시오 <block ref="f28efb863bb7dfcdf91b1badf5c0c340" category="inline-link-macro-rx"></block>.</block>
   <block id="59452d431b0a4e230ef72ae0b0b00085" category="admonition">이 문서에서는 Cloud Insights 프리미엄 에디션에서 사용할 수 있는 Cloud Insights 보고 기능에 대해 설명합니다.</block>
@@ -13015,10 +12989,6 @@ root@acquisitionunit #curl-s-H 수락: application/json-H "콘텐츠 유형: app
 <block ref="4a83477a1c1cd11a9cc88c7f83441cbd" category="inline-link-macro-rx"></block>
 <block ref="0a7046f023aad7ac467f1bc6bd4c7520" category="inline-link-macro-rx"></block></block>
   <block id="8f14dd0b95751e262de2483f4584b301" category="list-text">SMI-S 성능 수집에 대한 계정을 생성하는 방법은 다음 링크를 참조하십시오.<block ref="2f1321aada2838c155155111cf14faf5" category="inline-link-rx"></block></block>
-  <block id="ca1a7da31fc2fe7999e74f8aa736345c" category="cell">• 보안 클라이언트를 사용하도록 데이터 수집기 구성 수정(권장)
-• NaviCLI.exe 또는 naviseccli.exe CLI 경로에 navicli.jar 를 설치합니다
-• 참고: EMC Navisphere 버전 6.26부터는 navicli.jar 버전이 더 이상 사용되지 않습니다
-• navicli.jar \http://powerlink.emc.com에서 사용할 수 있습니다</block>
   <block id="47a3c2ef85d7b8f59098e0a3e25e7fed" category="list-text"><block ref="69b3420fb24fd81786681a7bce7bbc4d" category="inline-xref-macro-rx"></block> 기존 오퍼레이터에 대한 최신 운영자.</block>
   <block id="68a0b7243f029dd3130a0fb114a7ca00" category="list-text"><block ref="4cb6ecff5b560ef65768b9939bfe491e" category="inline-xref-macro-rx"></block> 기존 연산자.</block>
   <block id="a87371c8f3e6091825251b0817597ab0" category="list-text"><block ref="69b3420fb24fd81786681a7bce7bbc4d" category="inline-xref-macro-rx"></block> 최신 운영자.</block>
@@ -13329,7 +13299,6 @@ AAA/BBB/CCC/ *
   <block id="ea0512b988d2823de06af98254ea6811" category="section-title">Kubernetes Network Performance Monitoring 및 Map 아이콘:</block>
   <block id="9039c950f48328372952e360cb5e909a" category="inline-image-macro">Kubernetes Network Performance Monitoring and Map, 너비 = 640</block>
   <block id="680bf29e063b6b3133c4881cb55b6d34" category="paragraph"><block ref="680bf29e063b6b3133c4881cb55b6d34" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f206f600866607637821c713ae2b63cc" category="cell">이 오류는 구성된 사용자에 대해 특정 역할(예: 'advanced_analytics')이 포함되지 않았기 때문일 수 있습니다. 읽기 전용 역할을 가진 사용자에 대해 분석 범위를 적용하면 오류가 제거될 수 있습니다. 다음 단계를 따르십시오. 1. ZFS 시스템의 Configuration -&gt; Users 화면에서 해당 역할 위로 마우스를 이동한 후 두 번 클릭하여 편집할 수 있습니다 2. 범위 드롭다운 메뉴에서 "분석"을 선택합니다. 가능한 속성 목록이 나타납니다. 3. 맨 위에 있는 확인란을 클릭하면 세 개의 속성이 모두 선택됩니다. 4. 오른쪽에 있는 추가 버튼을 클릭합니다. 5. 팝업 창의 오른쪽 위에 있는 적용 단추를 클릭합니다. 팝업 창이 닫힙니다.</block>
   <block id="6273dfead9d8cac501012af839fb8f91" category="paragraph">사용자 환경에서 식별한 NetApp 루트 애그리게이트를 식별하는 쿼리를 작성하여 저장해야 합니다.</block>
   <block id="67820097ebadd10933dfa2562494a60e" category="list-text">Cloud Insights 도구 모음에서 * 관리 &gt; 주석 규칙 * 을 클릭합니다.</block>
   <block id="8292471fb31a2cafa37cc14eeade4da2" category="list-text">추가 * 를 클릭합니다. 규칙 추가 대화 상자가 표시됩니다.</block>
@@ -13337,4 +13306,48 @@ AAA/BBB/CCC/ *
   <block id="3cd59483bde57e839ca908da4280cde9" category="list-text">Query(쿼리) 를 클릭하고 Insight에서 주석 규칙을 * "Aggregate0" * 에 적용하는 데 사용해야 하는 Query(쿼리) 를 선택합니다</block>
   <block id="b3e5b96fb95a6c5ae373e50472986766" category="list-text">Annotation(주석)을 클릭하고 * "Root agg exclude(루트 agg 제외)" * 를 선택합니다</block>
   <block id="e62dcc88e7504fa135502828cf3f3374" category="list-text">값 * 을 클릭하고 * True * 를 입력합니다</block>
+  <block id="108ba1ee72dc04eca8f69cdd3be5042b" category="cell">다음 중 하나의 라이센스 버전을 실행하는 컴퓨터: * CentOS 8 Stream(64비트), SELinux * OpenSUSE Leap 15.3 - 15.5(64비트) * Oracle Linux 8.6 - 8.8, 9.1에서 9.2(64비트) * Red Hat Enterprise Linux 8.6 - 8.8, 9.1 - 9.2(64비트), SELinux * Rocky 9.2(64비트), SELinux * SUSE Linux Enterprise Server 15 SP3 - 15 SP3(64비트) * Ubuntu 20.04 LTS 및 22.04 LTS(64비트) 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다.</block>
+  <block id="4550bd733b367bee1e03cd59abc31e8d" category="cell">Error Message_SID translate failed. __reason: 255: Error: command failed: 해당 명령에 대해 승인되지 않았습니다. Error: "access-check"는 인식할 수 없는 command _ 입니다. 사용자가 차단되어야 합니다.</block>
+  <block id="f5ce9e1caf923fc5af4671571a0fa7de" category="cell">이 문제는 _CsUser_에 올바른 권한이 없을 때 발생할 수 있습니다. 자세한 내용은 을 <block ref="54b565a562b697bec979a5b58e397a1a" category="inline-link-macro-rx"></block> 참조하십시오. 권한을 적용한 후에는 ONTAP 데이터 수집기 및 사용자 디렉터리 데이터 수집기를 다시 시작하는 것이 좋습니다. 필요한 권한 명령은 다음과 같습니다. --- 보안 로그인 역할 create-role csrole-cmddirname "vserver export-policy rule" - 모든 보안 로그인 역할 create-role csrole-cmdirname "vserver cifs session" - access 모든 보안 로그인 역할 create-role 로그인 역할 -dirname role create -role csrole -cmddirname "vserver name -mapping" -access all-----</block>
+  <block id="aebb627cd726b3cef553d204f38a30e1" category="cell">총 IOPS</block>
+  <block id="0e7eeb5ae5a9b72d3c35c2ccece0b487" category="cell">용량 할당량 하드 제한입니다</block>
+  <block id="42912c555e8bff9f4a5fd6443fef82fe" category="cell">용량 할당량 소프트 제한입니다</block>
+  <block id="b05f0d41b637f86ee2555bfc971f76bf" category="cell">파일 개수</block>
+  <block id="792171f0bd1e324307f6b4ba189249a8" category="list-text">추가 구성 필드를 추가하려면 * 고급 구성 * 을 클릭합니다. (일부 데이터 수집기는 고급 구성이 필요하지 않습니다.)</block>
+  <block id="4279b596662924e6b4010f919f84d17c" category="list-text">구성 테스트 * 를 클릭하여 데이터 수집기가 올바르게 구성되었는지 확인합니다.</block>
+  <block id="fde3f7c671a4c40a9d5099c319bbabaa" category="list-text">[수집기 추가]를 클릭하여 구성을 저장하고 데이터 수집기를 Cloud Insights 테넌트에 추가합니다.</block>
+  <block id="de0a3477c1c391a811d9b2911a84fb19" category="paragraph">서비스의 데이터가 대시보드에 표시되거나 쿼리에 사용 가능하려면 폴링 기간을 최대 2회 정도 소요될 수 있습니다.</block>
+  <block id="3d9f514d46849760ef1b1412e314fd99" category="paragraph">오류:</block>
+  <block id="0764744c95ee6244fcf44e9abace1780" category="list-text">에이전트가 실행되고 있지</block>
+  <block id="50fe01395cf06f0bda9c7785c7850b3c" category="list-text">naviseccli를 찾지 못했습니다</block>
+  <block id="eef81c9905bf29aaca9fc2c2372b2d7d" category="list-text">명령을 실행하지 못했습니다</block>
+  <block id="adda4fad94eddad68c81a536f6fe276b" category="list-text">Navisphere CLI가 Cloud Insight 수집 장치에 설치되어 있는지 확인합니다</block>
+  <block id="1840df5cb1968b467a032c9069eeb9c6" category="list-text">데이터 수집기 구성 마법사에서 "보안 클라이언트 사용" 옵션을 선택하지 않았으며 Naviphere CLI의 비보안 버전이 설치되어 있지 않습니다.</block>
+  <block id="45588a7df87bd65a1a96f5f04007af97" category="list-text">데이터 수집기 구성에서 Navisphere CLI 설치 디렉토리가 올바른지 확인합니다</block>
+  <block id="fb08276f28e0821f5afdc80679822211" category="list-text">Data Collector 구성에서 VNX 블록 스토리지의 IP가 올바른지 확인합니다.</block>
+  <block id="20a681cc8b895e56eb4a894d551cb442" category="list-text">Cloud Insights 수집 장치에서:</block>
+  <block id="be5615c3dd501caa54c15cd9e2bfcf45" category="list-text">CMD를 엽니다.</block>
+  <block id="886ad310965204f7168440eb252a084a" category="list-text">디렉토리를 구성된 설치 디렉토리로 변경합니다</block>
+  <block id="3c43e9ac93c272aa4bfdc57cc935352f" category="list-text">"navicli -h{ip} getagent"를 입력하여 VNX 블록 스토리지 디바이스와 연결을 시도합니다({IP}를 실제 IP로 대체).</block>
+  <block id="a82401284e008612408db511edcb09c1" category="list-text">보안 클라이언트를 사용하도록 데이터 수집기 구성 수정(권장)</block>
+  <block id="1df66018941e95008e15a2e1c78e3726" category="list-text">NaviCLI.exe 또는 naviseccli.exe 의 CLI 경로에 navicli.jar 을 설치합니다</block>
+  <block id="85b53449ad4b0a390d5a28a3901d67b3" category="list-text">참고: EMC Navisphere 버전 6.26에서는 navicli.jar 버전이 더 이상 사용되지 않습니다</block>
+  <block id="97000b8c373b07cac3f4aaa0293db3ff" category="list-text">navicli.jar 은 \http://powerlink.emc.com 에서 이용할 수 있습니다</block>
+  <block id="a09b98ae7e225d29e48bc82a2a3cdcc2" category="list-text">이 문제는 대개 VNX 블록 스토리지 디바이스에서 펌웨어를 업데이트하지만 NaviCLI.exe 설치를 업데이트하지 않아 발생합니다. 다른 펌웨어를 사용하는 다른 장치가 있지만 하나의 CLI만 설치된 경우(다른 펌웨어 버전 사용) 이 문제가 발생할 수도 있습니다.</block>
+  <block id="8d8c9c49b1496662a04f576b02a94c85" category="list-text">디바이스와 호스트가 모두 동일한 버전의 소프트웨어를 실행하고 있는지 확인합니다.</block>
+  <block id="328dc93550d7121f2379427072c81a06" category="list-text">Cloud Insights 획득 장치에서 명령줄 창을 엽니다</block>
+  <block id="56fd873a352d97a50759ba9cf0c3f815" category="list-text">"navicli -h &lt;ip&gt; getagent"를 입력하여 CLARiX 디바이스에 접속합니다.</block>
+  <block id="449910d5dfa39e01156bf9f68dd57eca" category="list-text">처음 두 줄의 버전 번호를 찾습니다. 예: “에이전트 수정: 6.16.2(0.1)”</block>
+  <block id="04adf764800f5c8a53f3220e26174673" category="list-text">첫 번째 줄에서 버전을 찾아 비교합니다. 예: “Navisphere CLI 개정 6.07.00.04.07”</block>
+  <block id="49de05ff5e80d977931bb78ae77b1fb6" category="paragraph">이 오류는 구성된 사용자에 대해 특정 역할(예: 'advanced_analytics')이 포함되지 않았기 때문일 수 있습니다.</block>
+  <block id="6660bb65ec23c92ba285586a7b130d42" category="paragraph">읽기 전용 역할을 가진 사용자에 대해 분석 범위를 적용하면 오류가 제거될 수 있습니다. 다음 단계를 수행하십시오.</block>
+  <block id="e26dcd427fecb2b0cd4c8a29c5778144" category="list-text">ZFS 시스템의 Configuration -&gt; Users 화면에서 해당 역할 위로 마우스를 이동한 후 두 번 클릭하여 편집할 수 있습니다</block>
+  <block id="1b6d2e448d401a05eb632c37be03a078" category="list-text">범위 드롭다운 메뉴에서 "분석"을 선택합니다. 가능한 속성 목록이 나타납니다.</block>
+  <block id="aed974f658af4bbc8b55b50f9e1144ac" category="list-text">맨 위에 있는 확인란을 클릭하면 세 개의 속성이 모두 선택됩니다.</block>
+  <block id="df1eafe25ea8ef9c03eef34a7b2fa3c0" category="list-text">오른쪽에 있는 추가 버튼을 클릭합니다.</block>
+  <block id="1dc9ebcdf41f3814f2793bf8b9cc03c2" category="list-text">팝업 창의 오른쪽 위에 있는 적용 단추를 클릭합니다. 팝업 창이 닫힙니다.</block>
+  <block id="68eef2c4bf0c1205a9d57f62ff34da2c" category="paragraph">이 예제에서는 이름에 "aggr0"을 사용합니다. Aggregate를 생성할 때 이름의 다음 요구 사항만을 따라야 합니다.</block>
+  <block id="908b60c3be27b2357fa1238e02988f51" category="list-text">문자 또는 밑줄(_)으로 시작해야 합니다.</block>
+  <block id="aadc1aba5d247eca2f42714ed5bcd8cf" category="list-text">문자, 숫자 및 밑줄만 포함할 수 있습니다.</block>
+  <block id="916689960ce65e1de22db9f36e52d7cb" category="list-text">250자 이하일 수 있습니다. 대부분의 경우 Aggregate는 aggr0, aggr_0 또는 이와 유사한 이름을 사용합니다. 사용자 환경에서 모든 NetApp 루트 애그리게이트를 식별하려면 반복적인 프로세스가 필요할 수 있습니다.</block>
 </blocks>

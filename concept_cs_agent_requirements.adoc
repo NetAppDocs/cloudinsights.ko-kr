@@ -29,16 +29,7 @@ NOTE: 스토리지 워크로드 보안은 Cloud Insights Federal Edition에서 �
 | 구성 요소 | Linux 요구 사항 
 
 
-| 운영 체제 | 다음 중 하나의 라이센스 버전을 실행하는 컴퓨터:
-
-Red Hat Enterprise Linux 7.x, 8.x 64비트, SELinux
-CentOS 7.x 64비트, SELinux
-CentOS 8 Stream, SELinux
-Ubuntu 20 ~ 22 64비트
-Rocky 8.x 64비트, Rocky 9.x 64비트, SELinux
-SUSE Linux Enterprise Server 15 SP3, SUSE Linux Enterprise Server 15 SP4, SUSE 15 SP3의 SELinux
-
-이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다. 
+| 운영 체제 | 다음 중 하나의 라이센스 버전을 실행하는 컴퓨터: * CentOS 8 Stream(64비트), SELinux * OpenSUSE Leap 15.3 - 15.5(64비트) * Oracle Linux 8.6 - 8.8, 9.1에서 9.2(64비트) * Red Hat Enterprise Linux 8.6 - 8.8, 9.1 - 9.2(64비트), SELinux * Rocky 9.2(64비트), SELinux * SUSE Linux Enterprise Server 15 SP3 - 15 SP3(64비트) * Ubuntu 20.04 LTS 및 22.04 LTS(64비트) 이 컴퓨터는 다른 응용 프로그램 수준 소프트웨어를 실행하지 않아야 합니다. 전용 서버가 권장됩니다. 
 
 
 | 명령 | 설치를 위해 '압축 해제'가 필요합니다. 또한 설치, 스크립트 실행 및 제거에 'SUDO su –' 명령이 필요합니다. 
