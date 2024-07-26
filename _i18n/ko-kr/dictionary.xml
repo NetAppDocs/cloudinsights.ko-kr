@@ -3424,7 +3424,6 @@
   <block id="aca759ec023e2e4c6156b1c2ced1b16b" category="summary">데이터 수집기 추가 중</block>
   <block id="d137e11c6c77aa671e4c6d21140e86fc" category="doc">ONTAP SVM Data Collector 구성</block>
   <block id="6b6a5e540baae01020db6abcb69752a2" category="list-text">이 데이터 수집기는 다음 구성 요소를 통해 지원됩니다.</block>
-  <block id="a65bf0155aa66d72adb09356ef35ba5b" category="list-text">NFS 프로토콜 버전 4.0 이전 버전</block>
   <block id="ca25fd447f71b95ab21d53b012fa1ddc" category="list-text">FlexGroup는 ONTAP 9.4 이상 버전에서 지원됩니다</block>
   <block id="37f8c5eb442d46d5ec5da0275366c9c8" category="list-text">데이터 유형 SVM만 지원됩니다. 무한 확장 볼륨이 있는 SVM은 지원되지 않습니다.</block>
   <block id="3f1a7a2048c619e7b3997ddc8b02ae5e" category="inline-link-macro">구성해야 합니다</block>
@@ -5346,18 +5345,14 @@
   <block id="b1753b5e08c7b339c92f3054363e10bb" category="paragraph">등록 프로세스 중에 Cloud Insights 환경을 호스팅할 글로벌 영역을 선택할 수 있습니다. 자세한 내용은 Cloud Insights 정보 를 참조하십시오 <block ref="286a302a1ee50fd59eb368d3d9779037" category="inline-link-macro-rx"></block>.</block>
   <block id="fd8da5ef10133e4ba884d6f85e21c49d" category="cell">데이터 보존</block>
   <block id="d618d9be50e37adf260935938e49af96" category="inline-image-macro">자물쇠</block>
-  <block id="b6dea3b24cc18d2214ac0d7ea31d17ec" category="paragraph">Cloud Insights를 사용하는 동안 자물쇠 아이콘이 표시되는 경우 <block ref="3d68554889a6297f572b65a3534d0ef0" category="inline-image-macro-rx" type="image"></block>즉, 현재 버전에서 이 기능을 사용할 수 없거나 제한된 형식으로 사용할 수 있습니다. 기능에 대한 전체 액세스 권한을 위해 업그레이드하십시오.</block>
   <block id="564722cf2b61356d50f1ce28203b167b" category="inline-link-macro">* 제품 지원 *</block>
   <block id="016d7f2723a52bdce0ab9e79e02b82e3" category="paragraph">평가판 사용 기간 중 언제든지 Cloud Insights에 가입할 수 있습니다. Cloud Insights를 구독하면 데이터에 대한 중단 없는 액세스뿐 아니라 더욱 확장된 액세스도 가능합니다 <block ref="bfa717e8cd11c457bc6ce53c21f09bbe" category="inline-link-macro-rx"></block> 옵션.</block>
   <block id="d728dbb9717bde0a11f721b13a23533c" category="admonition">Cloud Insights 평가 시간이 추가로 필요하고 평가판이 4일 이내에 만료되도록 설정된 경우 30일 동안 평가판을 추가로 연장할 수 있습니다. 평가판을 한 번만 연장할 수 있습니다. 평가판이 만료된 경우 연장할 수 없습니다.</block>
   <block id="03742c91392961db83c5540550a3500a" category="section-title">평가판이 만료된 경우 어떻게 합니까?</block>
   <block id="c23cd2c1b4017692f424447c29e0e94a" category="paragraph">무료 평가판이 만료되었지만 아직 Cloud Insights에 가입하지 않은 경우, 구독할 때까지 기능이 제한됩니다.</block>
   <block id="6dfeca588bd5c0da6ea024447ccdb31c" category="section-title">구독 옵션</block>
-  <block id="e22ac25b066b201473de7aa700ef5d92" category="section-title">가격</block>
-  <block id="5fc2de3da890d5a9abd4414ec9849028" category="paragraph">Cloud Insights의 가격은 * 관리형 단위 * 입니다. 관리되는 유닛의 사용은 인프라 환경에서 관리되는 * 호스트 또는 가상 머신 * 수와 * 포맷되지 않은 용량 * 의 양에 따라 계산됩니다.</block>
   <block id="6cede1cfde12fc6d88ad1d8b6636a977" category="inline-xref">아래에 있습니다</block>
   <block id="d8be2988f45df4b59f1cfe2e32869556" category="paragraph">사용자 환경에 1,000개 이상의 관리되는 장치가 포함되거나 포함될 것으로 예상되는 경우 * Volume Pricing * 을 받을 자격이 있으며 NetApp 영업 팀에 연락하여 구독을 신청하라는 메시지가 표시됩니다. 을 참조하십시오 <block ref="e38bca6fb8f053d6cea5cce9993ed45c" category="inline-xref-macro-rx"></block> 를 참조하십시오.</block>
-  <block id="bbf59ac32c05b550772acb1ca3799847" category="section-title">서브스크립션 비용 예측</block>
   <block id="c015ba02347af3d8c00ede570637622a" category="section-title">가입하려면 어떻게 해야 합니까?</block>
   <block id="61951f38f686ce7c31ccc7f65173062c" category="section-title">NetApp Sales Direct를 통해 구독하십시오</block>
   <block id="e3b70cffc25d522a4137f9cafd0f3c50" category="paragraph">예상 관리 단위 수가 1,000 이상인 경우 를 클릭합니다 <block ref="57d2406fdd9ad62e0bb0722bd44749df" category="inline-link-macro-rx"></block> NetApp 세일즈 팀을 통해 구독하는 단추</block>
@@ -5379,10 +5374,6 @@
   <block id="8bc50a0b28a2cb63377733efc9b75798" category="cell">* 100% *</block>
   <block id="9abc552e8e9480b60ac735a93fa16b7c" category="section-title">직접 구독하고 평가판을 건너뛰십시오</block>
   <block id="cab27dc53edb571cac663ce2e16450dc" category="inline-link-macro">AWS 마켓플레이스 를 참조하십시오</block>
-  <block id="eb6885d6f664b5497f03e959d40f3cec" category="section-title">권한 ID 추가</block>
-  <block id="a159f2d918a0f780067f357af177a7d4" category="paragraph">Cloud Insights 구독에 자격 ID를 추가하려면 * 관리자 &gt; 구독 * 페이지에서 _ + 자격 ID _ 를 클릭합니다.</block>
-  <block id="1a62a39ff140f77355b83522e3f6dae5" category="inline-image-macro">구독에 권한 ID를 추가합니다</block>
-  <block id="c7eef52484be0c21d2593dac7ed32583" category="paragraph"><block ref="c7eef52484be0c21d2593dac7ed32583" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a340c5b7f266efeac22f4296085584ff" category="summary">고급 검색 기술 검색을 통해 원하는 자산을 찾을 수 있습니다.</block>
   <block id="43523ef8cffdeaaafa0e6c8e15986699" category="doc">자산 및 경고 검색을 위한 힌트 및 팁</block>
   <block id="3121ce4fa317f6b95a4b480d97ce359b" category="paragraph">모니터링되는 환경에서 데이터 또는 개체를 검색하는 데 여러 검색 기술을 사용할 수 있습니다.</block>
@@ -7861,7 +7852,6 @@
   <block id="d083a25eaaef06276bb90fa3eb228bb6" category="cell"><block ref="d083a25eaaef06276bb90fa3eb228bb6" category="inline-link-macro-rx"></block></block>
   <block id="8b71307bde3e4b16765dbb61a626d4d2" category="cell">인프라스트ure</block>
   <block id="b33361bde0bcb58125ffdc8fc36d8b99" category="section-title">프록시 지원을 구성하는 중입니다</block>
-  <block id="860cea525f63406af55925d01de59c97" category="paragraph">Cloud Insights와 함께 번들로 제공되는 유효한 NetApp 제품을 보유한 경우 해당 제품 일련 번호를 기존 Cloud Insights 구독에 추가할 수 있습니다. 예를 들어, NetApp Astra Control Center를 구입한 경우 Astra Control Center 라이센스 일련 번호를 사용하여 Cloud Insights의 구독을 식별할 수 있습니다. Cloud Insights는 _ 소유 권한 ID _ 을(를) 참조합니다.</block>
   <block id="5c42bfffed923b7136ae5aee981826dd" category="list-text">대시보드 &gt; 대시보드 * 를 선택합니다</block>
   <block id="486f30ea223e9ebeeba1fe336355cc78" category="paragraph">관리자 또는 계정 소유자 역할이 있는 사용자는 대시보드 갤러리에서 가져올 수 있습니다.</block>
   <block id="dea63246826e0f6304016e25a14623cf" category="section-title">보안 모범 사례</block>
@@ -9671,26 +9661,16 @@
   <block id="8816114441548a7f4d390de764f25ad9" category="paragraph">특정 장치 또는 모든 장치에 정책을 설정할 수 있습니다. 응답 정책을 설정하려면 * Admin &gt; Automated Response Policies * 를 선택하고 해당 * + Policy * 버튼을 클릭합니다. 공격에 대한 정책 또는 경고에 대한 정책을 만들 수 있습니다.</block>
   <block id="7ee8aae70113b376d8eb550719ded4da" category="paragraph"><block ref="7ee8aae70113b376d8eb550719ded4da" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c4f72d869c0634e89ac792627bb8171a" category="list-text">* 를 통해 지속적으로 데이터에 중단 없이 액세스하려면 Cloud Insights에 구독 * 하십시오 <block ref="ae0970f4d06315494d31beaa05a7be05" category="inline-link-macro-rx"></block> 직접 또는 <block ref="e91d3f98f4b43abdea3c839a7777954c" category="inline-link-macro-rx"></block>.</block>
-  <block id="7895749038d1aa7c4c74721d3ee829e7" category="admonition">별도로 언급하지 않는 한, 이 페이지의 정보는 일반적으로 Cloud Insights 상업용 버전에 적용됩니다. Cloud Insights 연방 에디션에는 이 페이지에 설명된 일부 기능이 포함되어 있지 않을 수 있습니다.</block>
   <block id="2b06b1f90516f17e69e0eb44bcdea94a" category="inline-link-macro">Cloud Insights 가격</block>
   <block id="f7b1eb7dc7d080352b166e30f7b16297" category="paragraph">Cloud Insights Basic 및 Premium 버전에서 사용할 수 있는 기능에 대한 전체 비교는 를 참조하십시오 <block ref="5e4426af7e9ec6d5ba0a8454594d1f33" category="inline-link-macro-rx"></block> 페이지.</block>
   <block id="a3212607b61ab6e23624ab9cfe54fd1a" category="section-title">평가판</block>
   <block id="011273891e0a49f42abc1a209e58868a" category="paragraph">무료 평가판의 끝 부분에 이르면 Cloud Insights에서 배너를 표시합니다 배너 내에는 _View Subscription_link가 있으며, 이 링크를 클릭하면 * Admin -&gt; Subscription * 페이지가 열립니다. 관리자가 아닌 사용자는 배너를 볼 수 있지만 구독 페이지로 이동할 수 없습니다.</block>
-  <block id="e33adffcdf8ab2922b108932f9937051" category="paragraph">AWS Marketplace를 통해 무료 평가판을 등록할 수도 있습니다. AWS 마켓플레이스 무료 평가판을 사용하면 33일 평가판 Cloud Insights에 액세스할 수 있으며 최대 499가 가능합니다 <block ref="0dffd7fe70b4d03069ea72db3faf598d" category="inline-xref-macro-rx"></block> (MU).</block>
   <block id="8d36d0a28768ec9f4de7566b028eb00b" category="paragraph">AWS Marketplace 무료 평가판을 연장할 수 없습니다. 평가 기간 중 언제든지 * 관리자 -&gt; 가입 * 페이지를 방문하여 Cloud Insights Basic Edition 가입으로 다운그레이드하거나 유료 Cloud Insights 구독으로 변경할 수 있습니다.</block>
-  <block id="e26a4046c7e3fdd09a0a0aa9204017f9" category="paragraph">구독하려면 * 관리자 -&gt; 구독 * 으로 이동하십시오. * Subscribe * 버튼 외에도 설치된 데이터 수집기를 보고 예상 가격을 계산할 수 있습니다. 일반적인 환경의 경우 셀프 서비스 AWS Marketplace 버튼을 클릭합니다. 사용자 환경에 1,000개 이상의 관리되는 단위가 포함되거나 포함될 것으로 예상되는 경우 볼륨 가격 책정을 이용할 수 있습니다.</block>
-  <block id="840c1d56416cb9ee31be4cf00ea5851b" category="paragraph">예상 정가 비용은 가입 기간에 따라 달라집니다.
-참고: 계산기는 추정 용도로만 사용됩니다. 구독하면 정확한 가격이 설정됩니다.</block>
-  <block id="3d3a14a6970653e82934d70556e92edc" category="inline-image-macro">인프라 및 Kubernetes 비용 산정 계산기를 보여주는 구독 페이지</block>
-  <block id="93dd899a28072850f389977b64f3eb1b" category="paragraph"><block ref="93dd899a28072850f389977b64f3eb1b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="380912a894b2ed4e52150b87b17024b2" category="paragraph">AWS 가입 프로세스가 완료되면 Cloud Insights 환경으로 되돌아갑니다. 또는 환경이 더 이상 활성 상태가 아닌 경우(예: 로그아웃한 경우) NetApp BlueXP 로그인 페이지로 이동합니다. Cloud Insights에 다시 로그인하면 구독이 활성화됩니다.</block>
   <block id="2638d109f7501322af782022ec53f096" category="list-text">최신 버전</block>
   <block id="19cf2ec0c9b04a9d1e83a5c88cfd0526" category="list-text">가입 일련 번호</block>
   <block id="d3d856c02816952b24a5110171a09834" category="paragraph">Usage Management 탭에는 Managed Unit 사용량에 대한 개요와 Collector 또는 Kubernetes Cluster에 의한 Managed Unit Consumption을 세분하는 탭이 표시됩니다.</block>
   <block id="7702a4028f8e4df8a4c7cc7e0e9629c9" category="paragraph">사용량이 구독 금액을 거의 또는 초과하는 경우 데이터 수집기를 삭제하거나 Kubernetes 클러스터 모니터링을 중지하여 사용량을 줄일 수 있습니다. "점 3개" 메뉴를 클릭하고 _Delete_를 선택하여 이 목록의 항목을 삭제합니다.</block>
-  <block id="718a66b23c9ea5a577883d447f892296" category="cell">오류 배너가 표시되고 다음 중 하나를 수행할 때까지 기능이 제한됩니다.
-* 관리되는 유닛 사용량이 구독한 금액 이하가 되도록 데이터 Collector를 제거합니다
-* 구독한 관리 단위 수를 늘리려면 구독을 수정하십시오</block>
   <block id="411d690288852abddc39378b2989bfda" category="section-title">2023년 6월</block>
   <block id="291a655a304c4b76742b53402a12bbc9" category="section-title">사용 현황을 확인합니다</block>
   <block id="0086a587e865c983a5de9f9b4d992e51" category="paragraph">2023년 6월부터 Cloud Insights는 기능 세트를 기준으로 관리되는 장치 사용에 대한 분석을 제공합니다. 이제 인프라의 관리 장치(MU) 사용량과 Kubernetes와 연결된 MU 사용량을 빠르게 확인하고 모니터링할 수 있습니다.</block>
@@ -9767,8 +9747,6 @@
   <block id="e49ddab01d68c08aeef7fdff59e6def6" category="cell">kubbe-state-metrics 구축을 위한 MEM 한도</block>
   <block id="63c80d21f4266efe4883c2f6f1d26fc2" category="list-text">데이터 보존 기간 이후 삭제(자세한 내용은 에디션 페이지 참조) Monitor에는 정의에 따른 해결 조건이 없으므로 데이터 보존 기간이 경과할 때까지 Alert는 _ACTIVE_로 유지되고 이 모니터에서 생성된 Matching_group_by_로 이후의 모든 알림이 표시되지 않습니다.</block>
   <block id="46f506a87cfed781f4ca50c5456e5dea" category="list-text">로그 항목에 따라 해결: 다음 정의에 설명된 대로 로그 라인이 검색되면 알림을 해결하거나 데이터 보존 기간 이후에 제거합니다.</block>
-  <block id="c418d072678072a9d451ca92f8cbbcdd" category="list-text">관리 유닛 1개 = Kuberentes의 vCPU 4개</block>
-  <block id="72a8f3e5ddcd565deaadfe888f6ec6ad" category="paragraph">구독 계산기는 필요한 관리 장치 수를 기준으로 Cloud Insights 구독 비용을 추정하는 데 도움이 됩니다. 현재 값이 미리 채워지고 이러한 값을 조정하여 예상 향후 성장을 계획하는 데 도움을 줄 수 있습니다. 인프라, Kubernetes 또는 둘 다에 대한 값을 조정할 수 있습니다.</block>
   <block id="5fe48850b2ef6a213ed01dde1958dfa4" category="section-title">기존 보고서 편집</block>
   <block id="5bd415396ca9b48afa3306c238307445" category="paragraph">기본 위치에서 파일을 편집하면 다음 보고서 카탈로그를 새로 고칠 때 해당 보고서를 덮어쓸 위험이 있습니다. 편집한 보고서를 새 이름으로 저장하거나 기본이 아닌 위치에 저장하는 것이 좋습니다.</block>
   <block id="9bb3efbd29374edfd5411d3bf02b3b92" category="cell">Forensics_All Activity_or_Entities_pages의 필터에 별표(*)와 같은 와일드카드 문자가 포함된 일부 문자를 입력하면 페이지가 매우 느리게 로드됩니다.</block>
@@ -11860,16 +11838,13 @@ Pod CPU 활용률이 높은지 확인합니다.
   <block id="0b14d0fbc4256c7ec7c3bb39b2c28854" category="paragraph">다음 명령을 순서대로 실행합니다. 현재 설치에 따라 이러한 명령 중 일부는 '개체를 찾을 수 없음' 메시지를 반환할 수 있습니다. 이러한 메시지는 무시해도 됩니다.</block>
   <block id="82a8cca794947463478c2f08445a8ff4" category="paragraph">보안 컨텍스트 제약 조건이 이전에 생성된 경우:</block>
   <block id="a945216a5c61e628c867b8948c797454" category="section-title">Kube-state-metrics 정보</block>
-  <block id="dcd18b6a9c1c857332184b4ab6b6b876" category="inline-link">ConfigMap 메트릭입니다</block>
   <block id="8369bd4693cb273c71ad92f42fb3e791" category="inline-link">메트릭 분월 설정</block>
   <block id="b1a7a1cd05f9351c6bef8223f686cd0b" category="inline-link">구현 메트릭</block>
-  <block id="3743b47b26a692a03362afc5a67c0463" category="inline-link">수신 메트릭</block>
   <block id="e1f5942f12d62c7e887c901f5f6c7e30" category="inline-link">네임스페이스 메트릭</block>
   <block id="1e8f3ee4ce1dbb00442a7fb041fa09e7" category="inline-link">노드 메트릭</block>
   <block id="551df464e5bd2444d259057c7eacc9f7" category="inline-link">영구 볼륨 메트릭</block>
   <block id="7fc93683f45a50f207241b90641f402b" category="inline-link">POD 메트릭</block>
   <block id="0017245fe792a61975ebc02c48b109c5" category="inline-link">ReplicaSet 메트릭입니다</block>
-  <block id="8f9fbab4275b3c6156f4a1e2bd589d5e" category="inline-link">비밀 지표</block>
   <block id="de3e236a6c33c06117bf9ae35e2b9bb0" category="inline-link">서비스 메트릭</block>
   <block id="e0c0cc3c69b0271b0179dc71d1e9bfa7" category="inline-link">StatefulSet 메트릭입니다</block>
   <block id="342761835c95d3618833ced82b6260ac" category="section-title">Kubernetes 체크섬 확인 중</block>
@@ -12370,10 +12345,8 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
   <block id="03e73ba3232dcca3cc695f108f44c898" category="inline-image-macro">차트 아이콘 표시</block>
   <block id="66a14226acec760a4af6f762f938df66" category="paragraph"><block ref="66a14226acec760a4af6f762f938df66" category="inline-image-macro-rx" type="image"></block></block>
   <block id="67c73d0c05c627af68622cc01164ae15" category="inline-xref">ONTAP 권한</block>
-  <block id="27bc78f063867505b2f0e7f6cdd03799" category="section-title">ONTAP 액세스에 대한 권한이 거부되었습니다</block>
   <block id="5dfd36f9b502b0a938cb4adb94d23ffa" category="paragraph">기타 구성에 대한 자세한 정보 <block ref="7848240acae0977cc36a630dabe55aa3" category="inline-link-macro-rx"></block>.</block>
   <block id="b497cf0f1b1568d837947f6ad7ece7af" category="list-text">Data ONTAP 9.2 이상 버전 최상의 성능을 얻으려면 9.13.1 이상의 Data ONTAP 버전을 사용하십시오.</block>
-  <block id="74f912aa47d1bbf141926fbf2185abdf" category="paragraph">자세한 내용은 정보 를 참조하십시오 <block ref="b175fa20c42bfc20eae9965f6210437c" category="inline-link-macro-rx"></block></block>
   <block id="8a943496be1ad7baf6ce391c6f895b32" category="paragraph">자세한 내용은 정보 를 참조하십시오 <block ref="263966d0f12d0c50ce396f6ff55a2e0d" category="inline-link-macro-rx"></block></block>
   <block id="2b9be21f00b184f2a6ee90f1574df505" category="summary">ONTAP REST 데이터 수집기</block>
   <block id="e61b2d254813ba4e2bc2a8a223f0e0eb" category="doc">NetApp ONTAP REST 데이터 수집기</block>
@@ -12452,7 +12425,6 @@ REST를 지원하지만 9.14.1 이상이 아닌 ONTAP 버전의 경우 다음과
   <block id="90c88d106e5c777681ffd00809e3e11f" category="cell">NetApp 클러스터의 IP 주소 또는 정규화된 도메인 이름입니다. 클러스터 관리 IP/FQDN이어야 합니다.</block>
   <block id="ee57d855cd754beda08e0483c4002ab2" category="list-text">type_admin_인 가상 서버의 이름을 검색합니다. 이 이름은 이후의 명령에서 사용됩니다.</block>
   <block id="01489ea97f62d455d744d92e643e44a9" category="cell">ONTAP ontapi 수집기가 데이터를 표시하는 비어 있거나 "0" 메트릭이 표시됩니다.</block>
-  <block id="7e0b2932c814704a91b543d4f713d658" category="cell">Fpolicy 이벤트에 대해 ONTAP에서 워크로드 보안 에이전트로의 통신  ONTAP가 워크로드 보안 에이전트(있는 경우)에 방화벽을 포함하여 이벤트를 보내려면 이러한 포트를 워크로드 보안 에이전트에 개방해야 합니다.</block>
   <block id="a01bf0188d9c5ff4efed61a66bd7061b" category="cell">Agent에서 SVM 데이터 LIF로 에코</block>
   <block id="d6f0c62217650cf8ede1bd5e1e862b5a" category="paragraph">NetApp-CI-Telegraf-DS_,_netapp-ci-fluent-bit-DS_ 및_netapp-ci-net-observer-L4-DS_Demets는 모든 노드에서 데이터를 올바르게 수집하기 위해 클러스터의 모든 노드에 Pod를 예약해야 합니다. 운용자는 잘 알려진 일부 * 얼룩을 견딜 수 있도록 구성되었습니다. 노드에서 사용자 지정 얼룩을 구성하여 모든 노드에서 Pod가 실행되지 않도록 하는 경우 이러한 얼룩에 대해 * 공차 * 를 생성할 수 있습니다 <block ref="dc90f93af5ccf5020646213d9b7d2c3d" category="inline-link-macro-rx"></block>. 클러스터의 모든 노드에 사용자 지정 얼룩을 적용한 경우 운영자 포드를 예약 및 실행할 수 있도록 운영자 구축에 필요한 허용 오차도 추가해야 합니다.</block>
   <block id="b1dbe9124bd000f8918a20bf61bc24f6" category="list-text">ci-kube-RBAC-프록시</block>
@@ -12752,7 +12724,6 @@ Firefox에서 쿠키 예외는 간단히 _auth0.com _ 및 _netapp.com _ 로 지�
   <block id="12ddfc86083937d7a126f2fd8615aa6b" category="section-title">모듈 평가</block>
   <block id="76064df620f99261dce25de296d7e769" category="paragraph">모듈 평가 * 를 활용할 수도 있습니다. 예를 들어, 인프라 관측성을 이미 구독하고 있지만 Kubernetes를 환경에 추가하고 있는 경우, NetApp Kubernetes 모니터링 운영자를 설치하는 시점부터 Kubernetes 관측성 30일 평가를 자동으로 시작합니다. 평가 기간이 끝날 때까지만 Kubernetes 관측성 관리형 유닛 사용에 대한 요금이 부과됩니다.</block>
   <block id="dcfe192ef3f3cab1ff1183df37b17e47" category="admonition">평가 후 새 관리형 유닛(MU) 사용에 대한 비용이 청구되므로 이에 따라 계획을 세워야 합니다. 모듈 평가가 종료되면 서비스 중단을 방지하기 위해 MU를 더 추가해야 하는 경우 알림이 표시됩니다.</block>
-  <block id="9c420799ef765483eddc7865804e6371" category="admonition">A_Module Evaluation_은(는) _ Trial_ 이(가) 아닙니다. 당사는 고객에게 CI 서비스를 사용하여 적합성을 확인하고 구매를 활성화하는 무료 평가판 기간을 제공할 때 이 용어 평가판을 사용합니다. 모듈 평가는 다릅니다. 유료 고객이 최근 몇 달 동안 사용한 적이 없는 Cloud Insights 모듈을 사용해 볼 수 있도록 하는 것입니다. 평가가 활성화되면 새로 구성된 모듈에 대한 요금이 면제됩니다. 작업 중인 고객 환경은 아직 구독 중이며 무료 평가판으로 전환되지 않았습니다. 구독이 변경되지 않았습니다.</block>
   <block id="8fe818ace86e2479958161998bd57015" category="paragraph">모듈 평가 중에는 모듈에 사용된 리소스에 대한 MU 사용량이 변경되지 않습니다. 그러나 _Summary_tab에 있는 * Estimator * 를 열어 평가 후 MU 비용이 어떻게 부과되는지 확인하고 향후 필요한 MU의 수를 사용하여 "What if" 시나리오를 연습할 수 있습니다. 추정기를 종료하여 숫자를 재설정합니다.</block>
   <block id="bb2065e29292a8686e6f017d42762298" category="paragraph">고객은 구독당 한 번만 모듈 평가를 받을 수 있습니다.</block>
   <block id="d0016e09a888d8ae5f9a3507bcdda17c" category="paragraph"><block ref="d0016e09a888d8ae5f9a3507bcdda17c" category="inline-image-macro-rx" type="image"></block></block>
@@ -12921,7 +12892,6 @@ Firefox에서 쿠키 예외는 간단히 _auth0.com _ 및 _netapp.com _ 로 지�
   <block id="bc47800fe62365013d4adf7232c1c738" category="paragraph">의 사용 권한 섹션을 검토하십시오 <block ref="c5b253e6d28e76aaaf37feb5e0119ce8" category="inline-link-macro-rx"></block> 페이지를 참조하십시오.</block>
   <block id="63d71c9c8919be72ed5d5d19a3aea524" category="list-text">전체 관리자 클러스터/SVM 관리 사용자 이름 및 암호를 사용할 수 없거나 사용할 수 없는 경우 에 설명된 대로 더 낮은 권한으로 사용자 지정 사용자를 생성할 수 있습니다 <block ref="00e97c40bcd2b78ce8600bf90267e3e7" category="inline-xref-macro-rx"></block> 섹션을 참조하십시오. 이 맞춤형 사용자는 SVM 또는 클러스터 액세스를 위해 생성할 수 있습니다.</block>
   <block id="79b84e26b610d3ce15109f8d174cdf3a" category="section-title">vVserver 관리 IP * 를 통해 추가할 때의 권한:</block>
-  <block id="11949a37d3edcc91b37d386025b80680" category="section-title">ONTAP 자율적 랜섬웨어 방어에 대한 권한</block>
   <block id="ce2c442b24aec5c08788260869132fdd" category="cell">이는 ONTAP 측의 네트워킹 문제 때문일 가능성이 가장 높습니다. 다음 단계를 따르십시오.
 
 SVM 데이터 lif 또는 SVM과의 연결을 차단하는 관리 lif에 방화벽이 없는지 확인합니다.
@@ -13204,7 +13174,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="21375ff3b38428634b0bb8f11745059a" category="paragraph">이 오류는 수집기 설치 파일이 "/tmp/collectors" 디렉토리에 없거나 액세스할 수 없는 경우에 발생합니다. 설치 프로그램 파일이 다운로드되었고 디렉터리 "Collector" 및 설치 관리자 zip 파일이 cssys:cssys에 의해 소유되었는지 확인하고 에이전트 서비스를 다시 시작합니다. "systemctl restart cloudsecure-agent.service”</block>
   <block id="3cb0a3ec16e76962936843ae69672ce5" category="list-text">2.승인되지 않은 오류</block>
   <block id="c10b2daccdd9136337eaaa94938222bc" category="paragraph">이 오류는 모든 필수 API 범주를 선택하지 않고 API 액세스 토큰이 생성된 경우 표시됩니다. 필요한 모든 API 범주를 선택하여 새 API 액세스 토큰을 생성합니다.</block>
-  <block id="c7c184039a7fffa14bc4f7273cfd594f" category="paragraph">API를 통해 포렌식 데이터를 추출하는 샘플 스크립트는 _/opt/netapp/cloudsecure/agent/export-script/_에 있습니다. 스크립트에 대한 자세한 내용은 이 위치에 있는 Readme 파일을 참조하십시오.</block>
   <block id="1fb20c216d1008aa26dd3559c9f0c877" category="cell">Forensic UI에서 _PATH_FILTER를 사용할 때 데이터가 느리게 로드되고 있습니다.</block>
   <block id="4ef9ea59ad225f2c525fb8c4286f39e1" category="cell">경로가 _/AAA/BBB/CCC/DDD_인 경우 다음을 검색하는 대신 다음을 수행합니다.
 
@@ -13221,7 +13190,6 @@ AAA/BBB/CCC/ *
 이 검색을 사용하면 데이터를 더 빨리 로드할 수 있습니다.</block>
   <block id="cdce2e96d795e7005dca434f2ebf323f" category="list-text">• ONTAP 영구 저장소는 9.15.1부터 지원됩니다.</block>
   <block id="61d7d5d4ab7b186759d0452bd45c99d7" category="list-text">일시 중지된 데이터 수집기는 삭제할 수 없습니다.</block>
-  <block id="e2fd699ea37a6e30f71f4e37a88d3eaa" category="list-text">일시 중지되는 동안 ONTAP의 FPolicy 설정은 비활성화되지만 삭제되지는 않습니다. 다시 시작하면 ONTAP의 FPolicy 설정이 다시 활성화됩니다.</block>
   <block id="f4635255d83c947a8f5c0873878fce73" category="cell">SVM 모드를 선택하면 Data Collector에서 오류가 발생합니다.</block>
   <block id="e01a5196bbb9ef19ecab5eb2b9c9a7a8" category="cell">SVM 모드로 연결하는 동안 SVM 관리 IP 대신 클러스터 관리 IP를 사용하여 연결하면 연결 오류가 발생합니다. 올바른 SVM IP를 사용하는지 확인하십시오.</block>
   <block id="6a5710d8de4bc30f9d19e0130e1b9cc1" category="inline-image-macro">API 수동 설치</block>
@@ -13353,4 +13321,50 @@ AAA/BBB/CCC/ *
   <block id="ea0b91ea0d8c2da2db5e90fb9a4e9e26" category="doc">Pure Storage FlashBlade 데이터 수집기</block>
   <block id="c86126d1dbfe0404d7466362d438f513" category="paragraph">Cloud Insights은 Pure Storage FlashBlade 데이터 수집기를 사용하여 인벤토리 및 성능 데이터를 수집합니다.</block>
   <block id="f9d3bec9195ec6c5658d84fa106cf520" category="cell">FlashBlade 호스트 IP 주소입니다</block>
+  <block id="5ba53e5a2add537346e5d283255d419a" category="cell">Fpolicy 이벤트에 대해 ONTAP에서 워크로드 보안 에이전트로의 통신 ONTAP가 워크로드 보안 에이전트(있는 경우)에 방화벽을 포함하여 이벤트를 보내려면 이러한 포트를 워크로드 보안 에이전트에 개방해야 합니다. 이러한 포트를 * 모두 * 예약할 필요는 없지만 이 범위 내에 예약하는 포트가 있어야 합니다. 우선 100개 이하의 포트를 예약하여 필요한 경우 늘리는 것이 좋습니다.</block>
+  <block id="fd6114e047225ac69533d6082b3f731b" category="admonition">Forensics Activity API를 호출하는 경우 cloudsecure_forensics.activities. * v2 * API를 사용합니다. 이 API를 여러 번 호출하는 경우 호출이 병렬로 발생하지 않고 순차적으로 발생했는지 확인합니다. 여러 병렬 호출로 인해 API 시간이 초과될 수 있습니다.</block>
+  <block id="5649187108c4f32ee74dd6b5543c6f73" category="paragraph">Cloud Insights를 사용하는 동안 자물쇠 아이콘이 <block ref="3d68554889a6297f572b65a3534d0ef0" category="inline-image-macro-rx" type="image"></block>표시되면 현재 구독에서 이 기능을 사용할 수 없거나 제한된 형태로 사용할 수 있음을 의미합니다. 전체 액세스를 위해 해당 기능을 구독하십시오. 일부 기능은 구독하기 전에 사용할 수 <block ref="7f89ca2c071a1700db286ba62f9d3c95" category="inline-xref-macro-rx"></block> 있습니다.</block>
+  <block id="09b74e911376515159253ee372fe044b" category="paragraph">AWS Marketplace를 통해 무료 평가판을 등록할 수도 있습니다. AWS 마켓플레이스 무료 평가판에서는 33일 동안 Cloud Insights에 액세스할 수 있으며 최대 499개의 <block ref="74100db5c6c154a5b13e17b29feeccc3" category="inline-xref-macro-rx"></block> MU(MU)가 허용됩니다.</block>
+  <block id="b8af84dbd472dd10145b90235b35bb6b" category="admonition">A_Module Evaluation_은(는) _ Trial_이(가) 아닙니다. 당사는 고객에게 Cloud Insights 서비스를 사용하여 적합성 및 구매 가능성을 확인하는 무료 평가판 기간을 제공할 때 이 용어 평가판을 사용합니다. 모듈 평가는 다릅니다. 유료 고객이 최근 몇 달 동안 사용한 적이 없는 Cloud Insights 모듈을 사용해 볼 수 있도록 하는 것입니다. 평가가 활성화되면 새로 구성된 모듈에 대한 요금이 면제됩니다. 작업 중인 고객 환경은 아직 구독 중이며 무료 평가판으로 전환되지 않았습니다. 구독이 변경되지 않았습니다.</block>
+  <block id="b5ddfc508b0b9510d47c505df23b6a45" category="paragraph">구독하려면 * 관리자 -&gt; 구독 * 으로 이동하십시오. * Subscribe * 버튼 외에도 설치된 데이터 수집기를 보고 예상 측량을 계산할 수 있습니다. 일반적인 환경의 경우 셀프 서비스 AWS Marketplace 버튼을 클릭합니다. 사용자 환경에 1,000개 이상의 관리되는 단위가 포함되거나 포함될 것으로 예상되는 경우 볼륨 가격 책정을 이용할 수 있습니다.</block>
+  <block id="b5c16ff734c99fe07b51b9c660dfc912" category="section-title">관측성 계측</block>
+  <block id="92cab4ee09c983b6dbf1ec4c00c04076" category="paragraph">Cloud Insights 인프라 관측성 및 Kubernetes 관측성 은 * Managed Unit * 에 따라 측정됩니다. 관리되는 유닛의 사용은 인프라 환경에서 관리되는 * 호스트 또는 가상 머신 * 수와 * 포맷되지 않은 용량 * 의 양에 따라 계산됩니다.</block>
+  <block id="1552a022e1b90a3bc06148ff722ce4a0" category="list-text">1개의 관리형 유닛 = Kuberentes의 vCPU 4개</block>
+  <block id="959487d08cec8dfae823bcdea09da795" category="list-text">1 관리 유닛 K8 조정 = 2개의 노드 또는 호스트도 인프라에서 모니터링됨</block>
+  <block id="f057d707b9d5c17f0fad56f8204f6bff" category="section-title">워크로드 보안 측정</block>
+  <block id="b5dbf3908d3c6b22dae178d413d4ce4e" category="paragraph">워크로드 보안은 다음 MU(Managed Unit) 수에 따라 사용된 노드가 하이엔드, 미드레인지 또는 엔트리 레벨인지 여부에 따라 측정됩니다.</block>
+  <block id="9deac637ce81c2ff5c02dd677114b046" category="cell">노드 유형:</block>
+  <block id="5c6b02f3e1e66cf6bc61770896381c0c" category="cell">예제 모델:</block>
+  <block id="36f40ed2512ba28c547d66d7d491162f" category="cell">용량제:</block>
+  <block id="6e01164f2c9cb0a5194189abb25109bd" category="cell">하이엔드 노드 1개</block>
+  <block id="170a94d41c76a81a1b946d250f220856" category="cell">700, 800, 900, 9xxx</block>
+  <block id="e590a5366379c2508c4a67e27f2113df" category="cell">80개의 관리형 유닛</block>
+  <block id="12382b0c1437be6dd1acc8bc87687420" category="cell">미드레인지 노드 1개</block>
+  <block id="683af03ee72fbf8b08496a0ce7512c64" category="cell">300, 400, 500, 8x00입니다</block>
+  <block id="5d7e414148bc2dc4fe724922baf5c29c" category="cell">40개의 관리형 유닛</block>
+  <block id="4d163b200e42b8b9ca12ceb09cf806e4" category="cell">엔트리 레벨 노드 1개</block>
+  <block id="1dfa056fe0e2fe2064a0a2d6557b6f51" category="cell">1xx, 2xx, 2xxx</block>
+  <block id="55e705ba2a458ac1ceaac25be1541fdc" category="cell">20개의 관리 유닛</block>
+  <block id="c348d250ed74551e60d0bbe9cf4411cf" category="cell">1 소프트웨어 ONTAP</block>
+  <block id="e9b32f06458a1207182046e76c5b5de8" category="cell">CVO, FSx</block>
+  <block id="27c5cf27d09e53151bd6502189ffb375" category="cell">10개의 관리 유닛</block>
+  <block id="0c57b1acf3284a22d04607fb0452db54" category="cell">1 알 수 없는 노드</block>
+  <block id="3943920606f23b23925f15408e26cae2" category="paragraph">워크로드 보안 * 탭의 * Admin &gt; Subscription * 페이지에서 워크로드 보안 사용을 볼 수 있습니다.</block>
+  <block id="36e75837cd661882faf4ce93d35cafea" category="inline-image-macro">'Admin &amp; GT, Subscription &amp; GT, Workload Security 탭 - 하이엔드, 미드레인지 및 엔트리 레벨 노드 수 표시'</block>
+  <block id="78770d4128ce656a56bd8e8ecd580a0e" category="paragraph"><block ref="9d3e296bb7e7c4cf7ec09d1ec6e96740" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="019ede2125ee965dbf8adb0346c58f55" category="admonition">기존 워크로드 보안 서브스크립션의 MU 사용량이 조정되어 노드 사용량이 관리되는 유닛을 소비하지 않습니다. Cloud Insights는 사용 허가를 받은 사용을 확인하기 위해 사용을 측정합니다.</block>
+  <block id="48eb2e3cd501957838ba5a76d243edf2" category="paragraph">오류 배너는 다음 중 하나를 수행할 때까지 표시됩니다.</block>
+  <block id="eaeeb5a6079506171dcd917d7b71a8a3" category="list-text">데이터 수집기를 제거하여 관리 유닛 사용량이 구독 금액 이하가 되도록 합니다</block>
+  <block id="92ba817bcf69387f3ad0bdb24161ab8e" category="list-text">구독한 관리되는 유닛 수를 늘리려면 구독을 수정하십시오</block>
+  <block id="667677d8bd1877e973ea57e00d3810db" category="section-title">워크로드 보안 개선</block>
+  <block id="5918f5af03cf64b439fa77e65a5e7850" category="paragraph">* NFS 4.1 지원 *</block>
+  <block id="ccecb67a3f8de46bc8414046f6069d3d" category="paragraph">SVM Data Collector는 이제 * NFS 4.1 * 까지 NFS 버전을 지원합니다.</block>
+  <block id="04bcd65528979db2a56f4aa0e2aa03d7" category="paragraph">* 새로운 포렌식 활동 API *</block>
+  <block id="712b4529dbd7ed8d4ab547cb0d833ecc" category="paragraph">법의학 활동에 <block ref="75acd4de005cc0eb64ec0713808ffe03" category="inline-link-macro-rx"></block> 새 버전이 있습니다. Forensics 작업을 위해 API를 호출할 때 * cloudsecure_forensics.activities._v2_ * API를 사용합니다.</block>
+  <block id="7e83289e012180c50c5327cfe3e51094" category="paragraph">이 API를 여러 번 호출하는 경우 최상의 결과를 얻으려면 호출이 병렬로 수행되는 것이 아니라 순차적으로 수행되도록 해야 합니다. 여러 병렬 호출로 인해 API 시간이 초과될 수 있습니다.</block>
+  <block id="1440701fe8e2d4ab8f09b74a7443df20" category="paragraph">API를 통해 포렌식 데이터를 추출하는 샘플 스크립트는 _/opt/netapp/cloudsecure/agent/export-script/_에 있습니다. 스크립트에 대한 자세한 내용은 이 위치에 있는 Readme 파일을 참조하십시오.</block>
+  <block id="e440db99ab8972afb639115c16f2426c" category="list-text">NFS 프로토콜 버전 4.1 이전 버전</block>
+  <block id="f58ea91d80c99ab7a1779372e221d889" category="section-title">ONTAP 자율적 랜섬웨어 방어 및 ONTAP 액세스에 대한 권한이 거부되었습니다</block>
+  <block id="f08061ff72c0b74c50af5b9af0dddb55" category="paragraph">및 <block ref="b175fa20c42bfc20eae9965f6210437c" category="inline-link-macro-rx"></block></block>
+  <block id="243b99ee952c73f66e7461d943f01834" category="list-text">일시 중지되는 동안 ONTAP의 FPolicy 설정은 비활성화되지만 삭제되지는 않습니다. 다시 시작하면 ONTAP의 FPolicy 설정이 다시 활성화됩니다.</block>
 </blocks>
