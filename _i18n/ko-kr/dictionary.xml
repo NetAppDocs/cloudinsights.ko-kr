@@ -13358,7 +13358,6 @@ AAA/BBB/CCC/ *
   <block id="92ba817bcf69387f3ad0bdb24161ab8e" category="list-text">구독한 관리되는 유닛 수를 늘리려면 구독을 수정하십시오</block>
   <block id="667677d8bd1877e973ea57e00d3810db" category="section-title">워크로드 보안 개선</block>
   <block id="5918f5af03cf64b439fa77e65a5e7850" category="paragraph">* NFS 4.1 지원 *</block>
-  <block id="ccecb67a3f8de46bc8414046f6069d3d" category="paragraph">SVM Data Collector는 이제 * NFS 4.1 * 까지 NFS 버전을 지원합니다.</block>
   <block id="04bcd65528979db2a56f4aa0e2aa03d7" category="paragraph">* 새로운 포렌식 활동 API *</block>
   <block id="712b4529dbd7ed8d4ab547cb0d833ecc" category="paragraph">법의학 활동에 <block ref="75acd4de005cc0eb64ec0713808ffe03" category="inline-link-macro-rx"></block> 새 버전이 있습니다. Forensics 작업을 위해 API를 호출할 때 * cloudsecure_forensics.activities._v2_ * API를 사용합니다.</block>
   <block id="7e83289e012180c50c5327cfe3e51094" category="paragraph">이 API를 여러 번 호출하는 경우 최상의 결과를 얻으려면 호출이 병렬로 수행되는 것이 아니라 순차적으로 수행되도록 해야 합니다. 여러 병렬 호출로 인해 API 시간이 초과될 수 있습니다.</block>
@@ -13367,4 +13366,5 @@ AAA/BBB/CCC/ *
   <block id="f58ea91d80c99ab7a1779372e221d889" category="section-title">ONTAP 자율적 랜섬웨어 방어 및 ONTAP 액세스에 대한 권한이 거부되었습니다</block>
   <block id="f08061ff72c0b74c50af5b9af0dddb55" category="paragraph">및 <block ref="b175fa20c42bfc20eae9965f6210437c" category="inline-link-macro-rx"></block></block>
   <block id="243b99ee952c73f66e7461d943f01834" category="list-text">일시 중지되는 동안 ONTAP의 FPolicy 설정은 비활성화되지만 삭제되지는 않습니다. 다시 시작하면 ONTAP의 FPolicy 설정이 다시 활성화됩니다.</block>
+  <block id="580c0c98d8c4eb79fb929b7b1eb5f4f2" category="paragraph">SVM Data Collector는 이제 ONTAP 9.15.1 이상의 * NFS 4.1 * 을 포함한 최대 NFS 버전을 지원합니다.</block>
 </blocks>
