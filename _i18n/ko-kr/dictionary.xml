@@ -4322,7 +4322,6 @@
   <block id="3edcb2400ce9f6580e362c8a9d6102ff" category="cell">컨트롤러 노드</block>
   <block id="89693d6595f0aef621cb8fd0804326a5" category="cell">공통 프로비저닝 그룹</block>
   <block id="83cac05fbb9085b4e62fdefebc04af60" category="cell">가상 볼륨</block>
-  <block id="2083196b10cec6f027f8645b9e960b3c" category="paragraph">이 데이터 수집을 구성하려면 다음이 필요합니다.</block>
   <block id="c3deb2066e20cbed62d1bfed93943bb1" category="list-text">InServ 클러스터의 IP 주소 또는 FQDN입니다</block>
   <block id="1b4137d092037ad17a20e57351c33d8e" category="list-text">인벤토리의 경우 StoreServ 서버에 대한 읽기 전용 사용자 이름 및 암호입니다</block>
   <block id="7abd5032a929f340867545508d1a1933" category="list-text">성능을 위해 StoreServ 서버에 대한 읽기-쓰기 사용자 이름 및 암호</block>
@@ -13188,8 +13187,6 @@ AAA/BBB/C *
 AAA/BBB/CCC/ *
 
 이 검색을 사용하면 데이터를 더 빨리 로드할 수 있습니다.</block>
-  <block id="cdce2e96d795e7005dca434f2ebf323f" category="list-text">• ONTAP 영구 저장소는 9.15.1부터 지원됩니다.</block>
-  <block id="61d7d5d4ab7b186759d0452bd45c99d7" category="list-text">일시 중지된 데이터 수집기는 삭제할 수 없습니다.</block>
   <block id="f4635255d83c947a8f5c0873878fce73" category="cell">SVM 모드를 선택하면 Data Collector에서 오류가 발생합니다.</block>
   <block id="e01a5196bbb9ef19ecab5eb2b9c9a7a8" category="cell">SVM 모드로 연결하는 동안 SVM 관리 IP 대신 클러스터 관리 IP를 사용하여 연결하면 연결 오류가 발생합니다. 올바른 SVM IP를 사용하는지 확인하십시오.</block>
   <block id="6a5710d8de4bc30f9d19e0130e1b9cc1" category="inline-image-macro">API 수동 설치</block>
@@ -13362,9 +13359,67 @@ AAA/BBB/CCC/ *
   <block id="712b4529dbd7ed8d4ab547cb0d833ecc" category="paragraph">법의학 활동에 <block ref="75acd4de005cc0eb64ec0713808ffe03" category="inline-link-macro-rx"></block> 새 버전이 있습니다. Forensics 작업을 위해 API를 호출할 때 * cloudsecure_forensics.activities._v2_ * API를 사용합니다.</block>
   <block id="7e83289e012180c50c5327cfe3e51094" category="paragraph">이 API를 여러 번 호출하는 경우 최상의 결과를 얻으려면 호출이 병렬로 수행되는 것이 아니라 순차적으로 수행되도록 해야 합니다. 여러 병렬 호출로 인해 API 시간이 초과될 수 있습니다.</block>
   <block id="1440701fe8e2d4ab8f09b74a7443df20" category="paragraph">API를 통해 포렌식 데이터를 추출하는 샘플 스크립트는 _/opt/netapp/cloudsecure/agent/export-script/_에 있습니다. 스크립트에 대한 자세한 내용은 이 위치에 있는 Readme 파일을 참조하십시오.</block>
-  <block id="e440db99ab8972afb639115c16f2426c" category="list-text">NFS 프로토콜 버전 4.1 이전 버전</block>
   <block id="f58ea91d80c99ab7a1779372e221d889" category="section-title">ONTAP 자율적 랜섬웨어 방어 및 ONTAP 액세스에 대한 권한이 거부되었습니다</block>
   <block id="f08061ff72c0b74c50af5b9af0dddb55" category="paragraph">및 <block ref="b175fa20c42bfc20eae9965f6210437c" category="inline-link-macro-rx"></block></block>
-  <block id="243b99ee952c73f66e7461d943f01834" category="list-text">일시 중지되는 동안 ONTAP의 FPolicy 설정은 비활성화되지만 삭제되지는 않습니다. 다시 시작하면 ONTAP의 FPolicy 설정이 다시 활성화됩니다.</block>
   <block id="580c0c98d8c4eb79fb929b7b1eb5f4f2" category="paragraph">SVM Data Collector는 이제 ONTAP 9.15.1 이상의 * NFS 4.1 * 을 포함한 최대 NFS 버전을 지원합니다.</block>
+  <block id="be2f9224b979c292cb15fb8ca6626094" category="summary">메트릭 이상 징후를 모니터링합니다</block>
+  <block id="de4898eb228c5960d7add96b5bd2ad82" category="doc">이상 징후 감지 모니터</block>
+  <block id="cbcb7e323368454d1aaea827422f8ab4" category="paragraph">이상 징후 탐지를 통해 사용자 환경에서 발생한 데이터 패턴의 예기치 않은 변화에 대한 통찰력을 제공합니다. 예를 들어, 개체에서 수요일에 특정 시간에 특정 수준의 지연 시간을 경험하지만 이후 수요일에 해당 수준보다 지연 시간이 급증하는 경우, 해당 환경에서 개체의 동작 패턴이 변경되면 발생합니다. 이러한 스파이크는 이상 증상으로 간주될 것입니다. Cloud Insights를 사용하면 이와 같은 이상 상황이 발생할 경우 경고를 보내는 모니터를 만들 수 있습니다.</block>
+  <block id="6ee4ef3e25dbca514480336d70c68b6f" category="paragraph">이상 징후 탐지는 반복적이고 예측 가능한 패턴을 보이는 개체 메트릭에 적합합니다. 이러한 개체 메트릭이 예상 수준보다 높거나 낮으면 Cloud Insights에서 알림을 생성하여 즉시 조사할 수 있습니다.</block>
+  <block id="f9e98659236dd136d51fbe90184c9350" category="inline-image-macro">감지된 이상 현상을 보여 주는 그래프</block>
+  <block id="6d45093f10be1c53f9db64c498f5d580" category="paragraph"><block ref="6d45093f10be1c53f9db64c498f5d580" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2d2575e3b331dd7b57d604dc713e48c2" category="section-title">이상 탐지란 무엇입니까?</block>
+  <block id="9191e0d6339fc5dc7a81e5a8c55ed26b" category="paragraph">이상 현상은 메트릭의 평균 값이 이전 몇 주 동안 해당 메트릭의 가중치 평균에서 벗어난 표준 편차 수일 때 발생하며 최근 몇 주가 이전 주보다 가중치가 더 높은 경우에 발생합니다. Cloud Insights를 사용하면 데이터를 모니터링하고 이상 징후가 감지될 경우 경고할 수 있습니다. 감지의 "감도" 수준을 설정할 수 있습니다. 예를 들어, 평균 값이 평균에서 더 적은 표준 편차가 발생하여 더 많은 알림이 생성되는 경우 감도가 더 높을 수 있습니다. 반대로 민감도가 낮을수록 평균보다 표준 편차가 크면 알림 수가 줄어듭니다.</block>
+  <block id="833e967d7ee3cf2f23601ccdafe6306f" category="section-title">이상 징후 감지 모니터링은 임계값 모니터링과 다릅니다.</block>
+  <block id="707a70f8b64924d439fa4e0679dc94e9" category="list-text">* 임계값 기반 모니터링 * 은 특정 메트릭에 대해 사전 정의된 임계값이 있을 때 작동합니다. 즉, 기대되는 바를 명확하게 이해할 수 있는 경우(예: 정상 범위 이내)</block>
+  <block id="c1045d44e2c7b706bb670c2d93126209" category="inline-image-macro">미터법 모니터는 작동 범위를 알고 있을 때 사용합니다</block>
+  <block id="8a651de0b445271791957a02b7f7ab12" category="paragraph"><block ref="8a651de0b445271791957a02b7f7ab12" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="248d11a06c917163d4c218e182751e10" category="list-text">* 이상 검출 감시 * 는 "정상"의 정의가 명확하지 않은 경우 기계 학습 알고리즘을 사용하여 규범에서 벗어나는 이상치를 식별합니다.</block>
+  <block id="050471a8ed4b8c04c6b9d753064cc4d4" category="inline-image-macro">이상 징후 감지 모니터는 스파이크 또는 낙하를 알고 싶을 때 사용합니다</block>
+  <block id="44cf95d43f633731498e7905f9aa796f" category="paragraph"><block ref="44cf95d43f633731498e7905f9aa796f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="89998a7699ba0967d4747309973670d5" category="section-title">언제 이상 탐지가 필요합니까?</block>
+  <block id="cbe837020343dfcd14bef7b99f21f113" category="paragraph">이상 징후 감지 모니터링은 다음과 같은 여러 상황에 대해 유용한 알림을 제공할 수 있습니다.</block>
+  <block id="515e7be6213cf58d48b39c170b448353" category="list-text">normal_의 정의가 불분명한 경우 예를 들어 SAN 오류율은 포트에 따라 달라질 수 있습니다. 하나의 오류에 대해 경고하는 것은 시끄럽고 불필요하지만 갑작스럽거나 심각한 증가는 광범위한 문제를 나타낼 수 있습니다.</block>
+  <block id="858889ea561e10cb6de83250a829bb72" category="list-text">시간이 지남에 따라 변화가 있는 곳 계절성이 나타나는 워크로드(즉, 특정 시간에 바쁘거나 조용함) 여기에는 배치 정지를 나타낼 수 있는 예기치 않은 조용한 기간이 포함될 수 있습니다.</block>
+  <block id="07cd3ac948fc0a9966297e9ebb6e200a" category="list-text">수동으로 임계값을 정의하고 조정하는 것이 불가능한 대량의 데이터로 작업합니다. 예를 들어, 다양한 워크로드에 많은 수의 호스트 및/또는 볼륨이 있는 환경을 예로 들 수 있습니다. 각 SLA는 서로 다를 수 있으므로 기준을 초과하는 SLA를 이해하는 것이 중요합니다.</block>
+  <block id="4bf3bd72ae0959df9c9f71dc2ca7782c" category="section-title">비정상 감지 모니터 만들기</block>
+  <block id="181074ffe7428fd491335b80f676903b" category="paragraph">이상 징후를 경고하려면 * 관측성 &gt; 경고 &gt;+모니터 * 로 이동하여 모니터를 생성하십시오. 모니터 유형으로 _비정상 감지 모니터 _ 를 선택합니다.</block>
+  <block id="53f0acb9650a3311851819fb2a0f49b0" category="inline-image-macro">모니터 생성 시 이상 탐지 선택, 너비 = 480</block>
+  <block id="e252e58b0713f9856d0a0d0b5aba870b" category="paragraph"><block ref="e252e58b0713f9856d0a0d0b5aba870b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="53475b0e462d8632e63ce95786693f94" category="paragraph">모니터링할 개체 및 메트릭을 선택합니다. 다른 유형의 모니터와 마찬가지로 필터 및 그룹화를 설정할 수 있습니다.</block>
+  <block id="a622dfc527a1cb769a9cb8f5251c5722" category="paragraph">그런 다음 모니터 조건을 설정합니다.</block>
+  <block id="a2adecda270991bbe54f4b599329e2fe" category="list-text">선택한 메트릭이 예측된 경계를 _specks_로, _ 이(가) 해당 경계 아래로 떨어지거나 둘 다 있을 때 알림을 트리거합니다.</block>
+  <block id="8bc993e57aef8f829550768090da9b0d" category="list-text">민감도를 _Medium_,_Low_(더 적은 이상 징후가 감지됨) 또는 _High_(더 많은 이상 징후가 감지됨)로 설정합니다.</block>
+  <block id="24167a985b902e0e2d7a081b6013a2c9" category="list-text">경고 수준이 _Critical_인지 _Warning_인지 확인합니다.</block>
+  <block id="2e8e6d4492fccf3be846da219495beea" category="list-text">필요한 경우, 아래 값을 설정하여 비정상이 _ 무시되는 _ 을(를) 지정합니다. 이렇게 하면 노이즈를 줄일 수 있습니다. 이 값은 샘플 그래프에서 파선으로 표시됩니다.</block>
+  <block id="f69a8cf61f4e95828fa362a7a3789fcc" category="inline-image-macro">비정상 상태 감지 모니터에 대한 조건을 설정합니다</block>
+  <block id="abf46926497e07e99587de4807a2ab2a" category="paragraph"><block ref="abf46926497e07e99587de4807a2ab2a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="512aa9e270052050fd7133f7c815aba4" category="paragraph">마지막으로 알림(이메일, Webhook 또는 둘 다)에 대한 전달 방법을 구성하고, 모니터에 설명 또는 수정 조치를 선택적으로 제공하고, 원하는 경우 모니터를 사용자 지정 그룹에 추가할 수 있습니다.</block>
+  <block id="fab06889941e3b5c2391fd34bd7beaac" category="paragraph">의미 있는 이름으로 모니터를 저장하면 됩니다.</block>
+  <block id="5b168d18500cad56ba4dfe58f2ff34a0" category="paragraph">생성시 모니터는 이전 주의 데이터를 분석하여 초기 기준선을 설정합니다. 시간이 지나고 기록이 많아질수록 이상 탐지가 더 정확해집니다.</block>
+  <block id="56fcf918982ae9c2b1aec4da88526a61" category="section-title">이상 징후 보기</block>
+  <block id="1d58d2f2ca69574aba1ed5f31bde491c" category="paragraph">경고 랜딩 페이지에서, 이상 징후가 감지될 때 트리거된 경고는 메트릭이 예측 경계를 벗어나는 시점부터 메트릭이 해당 경계 안으로 다시 이동된 시점까지 차트에 강조 표시된 밴드를 표시합니다.</block>
+  <block id="2ab54321d1ba259795df47fcabb17a13" category="inline-image-macro">이상이 발생한 시간을 보여 주는 차트입니다</block>
+  <block id="2ad61a846e7819f62ef6d6e841319792" category="paragraph"><block ref="2ad61a846e7819f62ef6d6e841319792" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5dc3af95092fd8c3105a28d3093349e2" category="paragraph">경고 랜딩 페이지에서 이상 징후 차트를 보면서 다음 옵션을 선택할 수 있습니다.</block>
+  <block id="cad64385bb1c47803c5bd69ef88cfa2a" category="list-text">Weekly Trend(주간 추세): 값을 이전 주의 동일한 시간과 비교합니다.</block>
+  <block id="9c221afc4c43a58770febf3135de5c16" category="list-text">전체 이상 경계: 기본적으로 그래프는 메트릭 값에 초점을 맞추므로 메트릭 동작을 보다 잘 분석할 수 있습니다. 전체 이상 경계(최대값 등)를 표시하려면 선택합니다.</block>
+  <block id="1f8a18333ce962d420f009316db68135" category="paragraph">랜딩 페이지의 전문가 보기에서 해당 개체를 선택하여 이상 징후를 유발한 개체를 볼 수도 있습니다. 선택한 개체의 동작이 차트에 표시됩니다.</block>
+  <block id="7db867678d69bd78eaeb6b23565fbadb" category="inline-image-macro">이상을 유발하는 개체 차트 작성</block>
+  <block id="7a739c7bd23951027862cb0746253d51" category="paragraph"><block ref="7a739c7bd23951027862cb0746253d51" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="27f579af3362e110ecd440dc8bf9e526" category="section-title">AIOps:비정상 상태 감지</block>
+  <block id="bb488ae395c5a616e026cebeb1d22b11" category="paragraph">Cloud Insights는 머신 러닝을 사용하여 사용자 환경에서 예기치 않은 데이터 패턴 변경을 감지하고 사전 예방적 알림을 제공하여 문제를 조기에 파악할 수 있도록 지원합니다.</block>
+  <block id="ed665f31221c4a08eef181ec8d0a72db" category="paragraph">데이터 센터는 하루 중 다른 시간과 요일에 서로 다른 방식으로 동작합니다. Cloud Insights는 주별 계절성을 사용하여 각 날짜와 시간에 대한 과거 행동을 비교합니다.</block>
+  <block id="bf43ac8b8257828bb0ffddb4736d081c" category="paragraph">이상 징후 감지 모니터링은 "정상"의 정의가 불분명하거나 시간이 지남에 따라 동작이 변경되는 경우 또는 수동으로 임계값을 정의하기가 어려운 대량의 데이터로 작업하는 경우 등에 대한 알림을 제공할 수 있습니다.</block>
+  <block id="fb60a89ddc5f4c906fea295c053a5be0" category="paragraph">이와 같은 이상 현상이 선택한 오브젝트 메트릭에서 발생할 경우 새로운 <block ref="d288de494ea9d7a329c8dfc0fccf699b" category="inline-link-macro-rx"></block> 경고 메시지가 나타납니다.</block>
+  <block id="7c6a37577f49fc25a4c899cda17f9040" category="list-text">ONTAP 9.15.1 이상이 설치된 NFS 4.1까지의 NFS 버전</block>
+  <block id="b8667da3102e0adbbd2fe25017f00394" category="list-text">• ONTAP 영구 저장소는 9.14.1부터 지원됩니다.</block>
+  <block id="fa10b18dd52742e5f2cd029f0249346b" category="section-title">영구 저장</block>
+  <block id="b611ad23a0a26f050542f8157d95cb61" category="paragraph">영구 저장소는 ONTAP 9.14.1 이상에서 지원됩니다. 볼륨 이름 지침은 ONTAP 9.14부터 9.15까지 다양합니다.</block>
+  <block id="928fe55cae4b263961426402bcf31be7" category="paragraph">영구 저장소는 수집기 편집/추가 페이지에서 확인란을 선택하여 활성화할 수 있습니다. 이 확인란을 선택하면 볼륨 이름을 수락할 수 있는 텍스트 필드가 표시됩니다. 볼륨 이름은 영구 저장을 활성화하기 위한 필수 필드입니다.</block>
+  <block id="0241f48b4ba5acc2c0fe7c5ebae0b009" category="list-text">ONTAP 9.14.1의 경우 기능을 활성화하기 전에 볼륨을 생성하고 _Volume Name_ 필드에 동일한 이름을 제공해야 합니다. 권장 볼륨 크기는 16GB입니다.</block>
+  <block id="9ba8df77f1ed6f2669acdf983da92bd3" category="list-text">ONTAP 9.15.1의 경우 수집기에서 _Volume Name_ 필드에 제공된 이름을 사용하여 16GB 크기로 볼륨이 자동으로 생성됩니다.</block>
+  <block id="90d00ac7078d36b9a3f2093e6708b52e" category="paragraph">영구 저장소에 대한 특정 권한이 필요합니다(일부 또는 모두 이미 존재할 수 있음).</block>
+  <block id="f9555b564ff818367b2bbeb217f9f4aa" category="paragraph">클러스터 모드:</block>
+  <block id="d21d9916425ed680af643d24ed5db91d" category="paragraph">SVM 모드:</block>
 </blocks>
