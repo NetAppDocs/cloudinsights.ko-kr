@@ -13313,7 +13313,6 @@ AAA/BBB/CCC/ *
   <block id="aadc1aba5d247eca2f42714ed5bcd8cf" category="list-text">문자, 숫자 및 밑줄만 포함할 수 있습니다.</block>
   <block id="916689960ce65e1de22db9f36e52d7cb" category="list-text">250자 이하일 수 있습니다. 대부분의 경우 Aggregate는 aggr0, aggr_0 또는 이와 유사한 이름을 사용합니다. 사용자 환경에서 모든 NetApp 루트 애그리게이트를 식별하려면 반복적인 프로세스가 필요할 수 있습니다.</block>
   <block id="ea0b91ea0d8c2da2db5e90fb9a4e9e26" category="doc">Pure Storage FlashBlade 데이터 수집기</block>
-  <block id="c86126d1dbfe0404d7466362d438f513" category="paragraph">Cloud Insights은 Pure Storage FlashBlade 데이터 수집기를 사용하여 인벤토리 및 성능 데이터를 수집합니다.</block>
   <block id="f9d3bec9195ec6c5658d84fa106cf520" category="cell">FlashBlade 호스트 IP 주소입니다</block>
   <block id="5ba53e5a2add537346e5d283255d419a" category="cell">Fpolicy 이벤트에 대해 ONTAP에서 워크로드 보안 에이전트로의 통신 ONTAP가 워크로드 보안 에이전트(있는 경우)에 방화벽을 포함하여 이벤트를 보내려면 이러한 포트를 워크로드 보안 에이전트에 개방해야 합니다. 이러한 포트를 * 모두 * 예약할 필요는 없지만 이 범위 내에 예약하는 포트가 있어야 합니다. 우선 100개 이하의 포트를 예약하여 필요한 경우 늘리는 것이 좋습니다.</block>
   <block id="fd6114e047225ac69533d6082b3f731b" category="admonition">Forensics Activity API를 호출하는 경우 cloudsecure_forensics.activities. * v2 * API를 사용합니다. 이 API를 여러 번 호출하는 경우 호출이 병렬로 발생하지 않고 순차적으로 발생했는지 확인합니다. 여러 병렬 호출로 인해 API 시간이 초과될 수 있습니다.</block>
@@ -13425,4 +13424,16 @@ AAA/BBB/CCC/ *
   <block id="3e2b646677d9c80b1923b7be8d77407e" category="cell">모든 관측성 기능과 데이터 수집기 관리를 수행할 수 있습니다.</block>
   <block id="7d86034e4b4cb78c8bb38a5020649dbd" category="cell">다른 사용자를 초대할 수 있지만 관측성 역할만 할당할 수 있습니다. SSO 구성을 볼 수는 있지만 수정할 수는 없습니다. API 액세스 토큰을 생성하고 관리할 수 있습니다. 감사 정보를 볼 수 있습니다. 구독 정보, 사용 현황 및 기록을 볼 수 있습니다. 전역 경고 알림 및 구독 알림 수신자 목록을 관리할 수 있습니다.</block>
   <block id="2d25c72c1b18e562f6654fff8e11711e" category="cell">사용할 수 없습니다</block>
+  <block id="a8724e88fefdacdec22b256079efbc3b" category="paragraph">참고: FOS의 기본 "사용자" 수준은 Cloud Insights가 장치의 모든 논리적 측면을 볼 수 있을 정도로 강력하지 않습니다. "섀시 역할"이 활성화된 사용자 계정과 스위치에서 구성된 모든 가상 패브릭에 대한 권한이 필요합니다.</block>
+  <block id="c98bbcb8f16f41d79d40524732f5085a" category="paragraph">다음은 FOS 디바이스에 대한 SSH 세션에서 Cloud Insights 사용에 대한 "최소 권한" 사용자 계정을 생성하는 방법의 예입니다.</block>
+  <block id="87acb0f928436de44c10589e7dfad434" category="paragraph">userConfig--add NetAppCIUser-r user-l 1-128-c user-p QWERTY!</block>
+  <block id="13a225ee351dfd6def3fc0db9ef2c5d0" category="paragraph">이렇게 하면 암호가 "QWERTY!"인 "NetAppCIUser" 사용자가 생성됩니다. 이 사용자는 128개의 가능한 모든 가상 Fabric(-l)에서 "user" 역할(-r)을 갖습니다. 또한 이 사용자는 사용자 수준 액세스 권한이 할당된 필수 “섀시” 역할(-c)을 갖습니다.</block>
+  <block id="9269037f4e86b08be75df1f65affd8d8" category="cell">403 금지됨으로 인해 재고가 실패합니다</block>
+  <block id="5300b225712833815322a70076b43af1" category="cell">이는 단순히 잘못된 자격 증명이거나, 사용자가 충분히 강력한 역할을 사용하려 한다는 것을 나타낼 수 있습니다. "사용자" 수준의 사용자에게 필요한 "섀시 역할" 권한이 없거나 기본값이 아닌 가상 패브릭에 대한 액세스 권한을 볼 수 없다는 점을 기억하십시오.</block>
+  <block id="a5acdd594b390d17ff4ed98ab41acb5f" category="paragraph">Cloud Insights은 Pure Storage FlashBlade 데이터 수집기를 사용하여 REST API 버전 2를 표시하는 FlashBlade 클러스터에서 인벤토리 및 성능 데이터를 수집합니다</block>
+  <block id="26c7e129f928f6ba8485b8308659b929" category="cell">오브젝트 스토리지 버킷</block>
+  <block id="c307e1b8edd2b5d784d81d211f67c2e5" category="list-text">스토리지 시스템 IP 주소 또는 정규화된 도메인 이름입니다</block>
+  <block id="ae4fab3dbcbe018dadb4c33b8b70b2e8" category="list-text">API 토큰은 수명 제한이 없는 이상적인 제품입니다. 읽기 전용 레벨 사용자라면 충분해야 합니다.</block>
+  <block id="a4f4fd88594a0ac02050f5e403bde903" category="cell">Cloud Insights 관리자가 자신의 API 토큰이 속한 사용자를 기억하는 데 도움이 되는 사용자 이름입니다</block>
+  <block id="51408f1c75ab7bcc90f67b3ab1801733" category="cell">API 토큰</block>
 </blocks>
