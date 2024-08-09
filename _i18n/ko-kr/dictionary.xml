@@ -5348,7 +5348,6 @@
   <block id="016d7f2723a52bdce0ab9e79e02b82e3" category="paragraph">평가판 사용 기간 중 언제든지 Cloud Insights에 가입할 수 있습니다. Cloud Insights를 구독하면 데이터에 대한 중단 없는 액세스뿐 아니라 더욱 확장된 액세스도 가능합니다 <block ref="bfa717e8cd11c457bc6ce53c21f09bbe" category="inline-link-macro-rx"></block> 옵션.</block>
   <block id="d728dbb9717bde0a11f721b13a23533c" category="admonition">Cloud Insights 평가 시간이 추가로 필요하고 평가판이 4일 이내에 만료되도록 설정된 경우 30일 동안 평가판을 추가로 연장할 수 있습니다. 평가판을 한 번만 연장할 수 있습니다. 평가판이 만료된 경우 연장할 수 없습니다.</block>
   <block id="03742c91392961db83c5540550a3500a" category="section-title">평가판이 만료된 경우 어떻게 합니까?</block>
-  <block id="c23cd2c1b4017692f424447c29e0e94a" category="paragraph">무료 평가판이 만료되었지만 아직 Cloud Insights에 가입하지 않은 경우, 구독할 때까지 기능이 제한됩니다.</block>
   <block id="6dfeca588bd5c0da6ea024447ccdb31c" category="section-title">구독 옵션</block>
   <block id="6cede1cfde12fc6d88ad1d8b6636a977" category="inline-xref">아래에 있습니다</block>
   <block id="d8be2988f45df4b59f1cfe2e32869556" category="paragraph">사용자 환경에 1,000개 이상의 관리되는 장치가 포함되거나 포함될 것으로 예상되는 경우 * Volume Pricing * 을 받을 자격이 있으며 NetApp 영업 팀에 연락하여 구독을 신청하라는 메시지가 표시됩니다. 을 참조하십시오 <block ref="e38bca6fb8f053d6cea5cce9993ed45c" category="inline-xref-macro-rx"></block> 를 참조하십시오.</block>
@@ -13325,23 +13324,6 @@ AAA/BBB/CCC/ *
   <block id="1552a022e1b90a3bc06148ff722ce4a0" category="list-text">1개의 관리형 유닛 = Kuberentes의 vCPU 4개</block>
   <block id="959487d08cec8dfae823bcdea09da795" category="list-text">1 관리 유닛 K8 조정 = 2개의 노드 또는 호스트도 인프라에서 모니터링됨</block>
   <block id="f057d707b9d5c17f0fad56f8204f6bff" category="section-title">워크로드 보안 측정</block>
-  <block id="b5dbf3908d3c6b22dae178d413d4ce4e" category="paragraph">워크로드 보안은 다음 MU(Managed Unit) 수에 따라 사용된 노드가 하이엔드, 미드레인지 또는 엔트리 레벨인지 여부에 따라 측정됩니다.</block>
-  <block id="9deac637ce81c2ff5c02dd677114b046" category="cell">노드 유형:</block>
-  <block id="5c6b02f3e1e66cf6bc61770896381c0c" category="cell">예제 모델:</block>
-  <block id="36f40ed2512ba28c547d66d7d491162f" category="cell">용량제:</block>
-  <block id="6e01164f2c9cb0a5194189abb25109bd" category="cell">하이엔드 노드 1개</block>
-  <block id="170a94d41c76a81a1b946d250f220856" category="cell">700, 800, 900, 9xxx</block>
-  <block id="e590a5366379c2508c4a67e27f2113df" category="cell">80개의 관리형 유닛</block>
-  <block id="12382b0c1437be6dd1acc8bc87687420" category="cell">미드레인지 노드 1개</block>
-  <block id="683af03ee72fbf8b08496a0ce7512c64" category="cell">300, 400, 500, 8x00입니다</block>
-  <block id="5d7e414148bc2dc4fe724922baf5c29c" category="cell">40개의 관리형 유닛</block>
-  <block id="4d163b200e42b8b9ca12ceb09cf806e4" category="cell">엔트리 레벨 노드 1개</block>
-  <block id="1dfa056fe0e2fe2064a0a2d6557b6f51" category="cell">1xx, 2xx, 2xxx</block>
-  <block id="55e705ba2a458ac1ceaac25be1541fdc" category="cell">20개의 관리 유닛</block>
-  <block id="c348d250ed74551e60d0bbe9cf4411cf" category="cell">1 소프트웨어 ONTAP</block>
-  <block id="e9b32f06458a1207182046e76c5b5de8" category="cell">CVO, FSx</block>
-  <block id="27c5cf27d09e53151bd6502189ffb375" category="cell">10개의 관리 유닛</block>
-  <block id="0c57b1acf3284a22d04607fb0452db54" category="cell">1 알 수 없는 노드</block>
   <block id="3943920606f23b23925f15408e26cae2" category="paragraph">워크로드 보안 * 탭의 * Admin &gt; Subscription * 페이지에서 워크로드 보안 사용을 볼 수 있습니다.</block>
   <block id="36e75837cd661882faf4ce93d35cafea" category="inline-image-macro">'Admin &amp; GT, Subscription &amp; GT, Workload Security 탭 - 하이엔드, 미드레인지 및 엔트리 레벨 노드 수 표시'</block>
   <block id="78770d4128ce656a56bd8e8ecd580a0e" category="paragraph"><block ref="9d3e296bb7e7c4cf7ec09d1ec6e96740" category="inline-image-macro-rx" type="image"></block></block>
@@ -13436,4 +13418,10 @@ AAA/BBB/CCC/ *
   <block id="ae4fab3dbcbe018dadb4c33b8b70b2e8" category="list-text">API 토큰은 수명 제한이 없는 이상적인 제품입니다. 읽기 전용 레벨 사용자라면 충분해야 합니다.</block>
   <block id="a4f4fd88594a0ac02050f5e403bde903" category="cell">Cloud Insights 관리자가 자신의 API 토큰이 속한 사용자를 기억하는 데 도움이 되는 사용자 이름입니다</block>
   <block id="51408f1c75ab7bcc90f67b3ab1801733" category="cell">API 토큰</block>
+  <block id="72fb59b13b553d470d4daf5fafe5e2ea" category="paragraph">무료 평가판이 만료되었지만 아직 Cloud Insights에 가입하지 않은 경우, 구독할 때까지 기능이 제한됩니다. 데이터 수집이 중지될 수 있으며 몇 주 후에는 데이터 보존 정책에 따라 데이터가 삭제됩니다.</block>
+  <block id="b3aa21e2b7855df7d2d86e0bcb7a55d9" category="section-title">구독이 만료된 경우 어떻게 해야 합니까?</block>
+  <block id="be739afed3708aea5b887ed48586b187" category="paragraph">Cloud Insights 구독이 있지만 구독이 만료된 경우 구독을 갱신하기 위해 5일의 유예 기간이 주어집니다. 이 유예 기간 동안에는 모든 Cloud Insights 기능이 활성 상태로 유지됩니다.</block>
+  <block id="1f679308dcaa1cf09288bcb2c3cdaabc" category="paragraph">유예 기간이 경과하면 갱신할 때까지 Cloud Insights 기능이 일시 중단됩니다. 갱신하려면 * 관리 &gt; 구독 * 페이지를 참조하거나 NetApp 세일즈 팀에 문의하십시오.</block>
+  <block id="0a20fc316ac6795053a9cfbf1a2cdb5b" category="admonition">유예 기간이 종료될 때까지 수집된 Cloud Insights 데이터는 유예 기간 후 30일 동안 그대로 유지됩니다. 이 시간 내에 구독을 갱신하면 유예 기간이 경과할 때까지 모든 데이터를 사용할 수 있습니다.</block>
+  <block id="c3ef097c271469a3ca9718d35396087c" category="paragraph">워크로드 보안은 관측성 측정과 동일한 접근 방식을 사용하여 클러스터에 의해 측정됩니다.</block>
 </blocks>
