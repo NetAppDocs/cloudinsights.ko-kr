@@ -4222,7 +4222,6 @@
   <block id="f6ee2d35944570b247cc02129e0311be" category="paragraph">* 기준 * 은 감지된 포화 직전의 시간 내에 각 작업 부하에 대해 보고된 최대 데이터 포인트로 정의됩니다.</block>
   <block id="bf306d07c3ed41852c5f9cb551a07b59" category="paragraph">IOPS가 공유 스토리지 풀의 다른 리소스 또는 워크로드에 영향을 미치는 것으로 확인되면 * 경합 * 또는 * 채도 * 가 발생합니다.</block>
   <block id="0b34f00d1d4a3885b35a431a55efeb18" category="section-title">까다로운 작업 부하</block>
-  <block id="f59f9eea55ba2a2439645d8e6d60708c" category="inline-image-macro">워크로드 목록</block>
   <block id="d7c664bf82d9e14603a845f0ffe47993" category="paragraph">워크로드에 대한 세부 정보 페이지를 보려면 워크로드를 클릭합니다. 위 차트에는 경합/포화가 발생하는 공유 리소스(예: 스토리지 풀)의 작업이 표시됩니다.</block>
   <block id="2ca1e64d0a4fdfcf135961f6931ac68b" category="inline-image-macro">공유 리소스에 경합이 표시됩니다</block>
   <block id="7e4a0aeb0ee372dc4742c55ad85d4088" category="paragraph">다음 두 개의 차트는 까다로운 작업 부하의 _요구_워크로드 및 _영향_을 보여 줍니다.</block>
@@ -8742,11 +8741,6 @@
   <block id="684e1f5d1d8f7ac135116fe2276f6ffa" category="paragraph">영향을 받는 워크로드 * 는 공유 스토리지 풀에서 많은 비용이 소모되는 워크로드의 영향을 받는 워크로드입니다. 이러한 워크로드는 까다로운 워크로드로 인해 IOPS 및/또는 지연 시간이 감소되고 있습니다.</block>
   <block id="3367fa0ed89a38c283ceec91a93c76d8" category="paragraph">경합 * 은 IOPS가 공유 스토리지 풀의 다른 리소스 또는 워크로드에 영향을 미치는 것으로 확인될 때 발생합니다.</block>
   <block id="37a9aae3864b377f0900828ee037f208" category="section-title">많이 사용하는 워크로드</block>
-  <block id="b3ce303d0c6722ce9fdb558bffac60ef" category="paragraph">공유 리소스의 영향을 받는 워크로드에 대한 영향 을 보려면 Cloud Insights 메뉴에서 * 대시보드 &gt; 많이 사용하는 워크로드 * 를 클릭합니다.</block>
-  <block id="b992bc0e08350e51fd4652894eac27af" category="inline-image-macro">다양한 작업 부하 메뉴</block>
-  <block id="6fb82f846ba607879c539a718d458a0a" category="paragraph"><block ref="6fb82f846ba607879c539a718d458a0a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5a72c824988fe0db628e9972163040bd" category="paragraph">Cloud Insights 포화 상태가 감지된 모든 작업 부하 목록을 표시합니다. 워크로드를 클릭하여 워크로드 대시보드를 엽니다.</block>
-  <block id="de2c31e33c3872ea890351741fe0ae8b" category="paragraph"><block ref="de2c31e33c3872ea890351741fe0ae8b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7cc92b6bf3533cd5cdb88e08f278b791" category="paragraph">워크로드에 대한 세부 정보 페이지를 보려면 워크로드를 클릭합니다. 위 차트에는 경합이 발생하는 공유 리소스(예: 스토리지 풀)의 작업이 표시됩니다.</block>
   <block id="21ba7591ebed3b77699071ac2c45a2fe" category="inline-image-macro">공유 리소스의 활동을 보여 주는 차트입니다</block>
   <block id="3cda1acec37e60b5404717c83d727453" category="paragraph"><block ref="3cda1acec37e60b5404717c83d727453" category="inline-image-macro-rx" type="image"></block></block>
@@ -13424,4 +13418,7 @@ AAA/BBB/CCC/ *
   <block id="1f679308dcaa1cf09288bcb2c3cdaabc" category="paragraph">유예 기간이 경과하면 갱신할 때까지 Cloud Insights 기능이 일시 중단됩니다. 갱신하려면 * 관리 &gt; 구독 * 페이지를 참조하거나 NetApp 세일즈 팀에 문의하십시오.</block>
   <block id="0a20fc316ac6795053a9cfbf1a2cdb5b" category="admonition">유예 기간이 종료될 때까지 수집된 Cloud Insights 데이터는 유예 기간 후 30일 동안 그대로 유지됩니다. 이 시간 내에 구독을 갱신하면 유예 기간이 경과할 때까지 모든 데이터를 사용할 수 있습니다.</block>
   <block id="c3ef097c271469a3ca9718d35396087c" category="paragraph">워크로드 보안은 관측성 측정과 동일한 접근 방식을 사용하여 클러스터에 의해 측정됩니다.</block>
+  <block id="b740b52e59449de8ca69c0abf8f65235" category="paragraph">Cloud Insights에서 감지하는 사용량이 많은 워크로드는 Stress_Insight의 _Shared Resources 에 표시됩니다. 이 Insights를 보려면 * 관측성 &gt; Infrastructure Insights * 로 이동하십시오.</block>
+  <block id="559b55d2ef8b4ca8873098ababc8733e" category="inline-image-macro">리소스를 공유합니다</block>
+  <block id="104a62c301b2c9494638e2812254d98d" category="paragraph"><block ref="104a62c301b2c9494638e2812254d98d" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
