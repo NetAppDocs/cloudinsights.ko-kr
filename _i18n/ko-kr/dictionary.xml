@@ -13063,7 +13063,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="180648243db0d9593e75e0a7dcc9e70c" category="list-text">Admin &gt; API Access &gt; API Documentation * (페이지 오른쪽 상단)으로 이동하고 _Workload Security_icon 을 선택합니다. 그러면 워크로드 보안 API에 대한 Swagger 문서가 열립니다.</block>
   <block id="c6e324f498c45c040c62a6fa6c3ee605" category="list-text">_Workload Security_API에 대한 액세스 권한을 부여합니다.</block>
   <block id="2fb830e83b717250d3913a3a0b88988e" category="list-text">페이지 오른쪽 상단에 있는 _authorize_ 버튼을 클릭합니다.</block>
-  <block id="1742f0a5fd9e84cc6abbac0f91f20145" category="list-text">Customer ApiKey (apiKey)_text 필드에 단계 1c에서 이전에 복사한 API 토큰을 붙여 넣습니다.</block>
   <block id="4d72ae66caf6c8d221f1265fef5074a4" category="list-text">authorize_를 클릭하고 창을 닫습니다.</block>
   <block id="92d059abe745a2f9412e7e28cf8d4b7a" category="list-text">Agent 설치 프로그램을 다운로드합니다.</block>
   <block id="9bfb10dfddb775b19e5382b100f3b95c" category="list-text">Swagger에서 _cloudsecure_installers.agent_&gt;_/v1/cloudsecure/agent/installers/{platform}/latest_(get) API를 선택합니다. 클릭_시험_을(를) 클릭하십시오.</block>
@@ -13076,7 +13075,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="ff324aae593d3293768656baf930a788" category="list-text">새 폴더를 만들고(권장), 설치 프로그램 파일을 이 폴더에 복사하고 압축을 풉니다.</block>
   <block id="6ce9d80723d57729143449d1cd127853" category="list-text">"cloudsecure-agent-install.sh" 파일에 대한 set_execute_permission.</block>
   <block id="a9446988374a9bcb4db7d1e2cb812e4e" category="list-text">새 에이전트 설치를 위한 일회성 토큰을 생성합니다.</block>
-  <block id="7b02da3e5513b578e65441f615ac8fc3" category="paragraph">참고: 이 단계에서 생성된 일회성 토큰은 1c단계에서 생성된 API 액세스 토큰과 다릅니다.</block>
   <block id="a3022c8d916e0189ce254d35f8530250" category="list-text">Swagger에서 execute_cloudsecure_installers.agent&gt;/v1/cloudsecure/agent/oneTimeToken_api를 실행하고 응답에서 토큰을 복사합니다.</block>
   <block id="b49b775ebd025a1d541016edb46cce1f" category="list-text">1회 토큰을 환경 변수로 내보냅니다.</block>
   <block id="9df5c6030692622039f21c49d8d01552" category="list-text">프록시 서버를 사용하는 경우 https_proxy를 아래에 설명된 형식의 환경 변수로 내보냅니다.</block>
@@ -13112,13 +13110,11 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="e2dcb3aa661588b80bf624cee20a4d9a" category="list-text">Collector 설치에 성공하면 "/tmp/Collector" 디렉토리의 모든 파일을 삭제할 수 있습니다.</block>
   <block id="5c988949b33fdff8d1cb685edd772a78" category="section-title">새 사용자 디렉터리 수집기를 설치하는 중입니다</block>
   <block id="c1d3d73ef2be97edc6318c8b9e1be652" category="paragraph">참고: 이 문서에서는 LDAP Collector를 설치하는 단계에 대해 설명했습니다. AD Collector 설치에도 동일한 단계가 적용됩니다.</block>
-  <block id="2ab3b812979b03e6897a80c035d884e3" category="list-text">이제 Collector 버전과 UUID를 가져와야 합니다. "cloudsecure_config.collector-types" API로 이동합니다. collectorCategory 드롭다운에서 수집기 유형을 "user"로 선택합니다. 단일 요청에서 모든 수집기 유형 세부 정보를 가져오려면 "모두"를 선택하십시오.</block>
   <block id="aa26819573f8d5de196d75c2940b9140" category="list-text">LDAP 수집기의 UUID를 복사합니다.</block>
   <block id="28a727e9a70db036cc6e4b1381a93f66" category="list-text">Collector 설치 프로그램을 다운로드합니다.</block>
   <block id="cac3390b8d7c3963dd149f531a17b42d" category="list-text">"cloudsecure_installers.collector"&gt; "/v1/cloudsecure/collector-types/installers/{collectorTypeUUID}"(GET) API로 이동합니다. 이전 단계에서 복사한 UUID를 입력하고 설치 관리자 파일을 다운로드합니다.</block>
   <block id="4c57cd0ffcecf9cea5cc8cd058524581" category="list-text">설치 관리자 파일이 다른 컴퓨터에 외부에서 다운로드되면 설치 관리자 파일을 에이전트가 실행 중인 시스템과 "/tmp/collectors" 디렉토리에 복사합니다.</block>
   <block id="58237ddf4e8c451c3f1c93e5c96bf452" category="list-text">또는 동일한 API에서 curl 명령을 복사하여 Collector를 설치해야 하는 시스템에서 직접 실행할 수 있습니다.</block>
-  <block id="26b17225b626fb9238849fd60eabdf60" category="paragraph">를 누릅니다</block>
   <block id="5709666caa5256a262f0055350a1c41f" category="list-text">Collector 설치 프로그램 zip 파일의 소유권을 cssys:cssys로 변경합니다.</block>
   <block id="841d5bf0ac1c3f88a052517da8b24155" category="list-text">'사용자 디렉터리 수집기' 페이지로 이동하고 '+사용자 디렉터리 수집기'를 클릭합니다.</block>
   <block id="0e9198d5902f64b3cae6ac3671c1677e" category="list-text">'LDAP Directory Server'를 선택합니다.</block>
@@ -13130,7 +13126,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="62c9ab325204f66c9fca63c88b31f244" category="section-title">에이전트 업그레이드</block>
   <block id="d6d45cdaacc8f0955983f7639a303c90" category="paragraph">에이전트/수집기의 새 버전을 사용할 수 있을 때 이메일 알림이 전송됩니다.</block>
   <block id="e1484285201e25aff4afdd10c3789c4e" category="list-text">최신 에이전트 설치 프로그램을 다운로드합니다.</block>
-  <block id="4c0a042538180edd06a6c8106e212114" category="list-text">최신 설치 프로그램을 다운로드하는 단계는 "새 에이전트 설치"와 비슷합니다. swagger에서 "cloudsecure_installers.agent" à "/v1/cloudsecure/agent/installers/{platform}/latest" api를 선택하고 플랫폼을 "linux"로 입력한 다음 설치 프로그램 zip 파일을 다운로드합니다. 또는 curl 명령을 사용할 수도 있습니다. 설치 프로그램 파일의 압축을 풉니다.</block>
   <block id="a6d8035a7c771338e6fad3bae1787e02" category="list-text">"cloudsecure-agent-upgrade.sh" 파일에 대한 실행 권한을 설정합니다.</block>
   <block id="a6d806d0183611768f05da5cdda916fc" category="list-text">"cloudsecure-agent-upgrade.sh" 스크립트를 실행합니다. 스크립트가 성공적으로 실행되면 "Cloudsecure 에이전트가 성공적으로 업그레이드되었습니다."라는 메시지가 인쇄됩니다. 출력에서.</block>
   <block id="bb7c03c78b9c284bc5c206564d483190" category="list-text">다음 명령 'systemctl daemon -reload'를 실행합니다</block>
@@ -13141,7 +13136,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="f8f9f7f0d4337aaef721604bd0326c44" category="section-title">Collector 업그레이드 중</block>
   <block id="d64a61695a0497568adb11f38b555611" category="paragraph">참고: 업그레이드 단계는 모든 유형의 Collector에 대해 동일합니다. 이 문서에서는 "ONTAP SVM" 수집기 업그레이드를 시연합니다.</block>
   <block id="1788421524c681e92ffb072cb2b16ba4" category="list-text">Collector를 업그레이드해야 하는 시스템으로 이동하여 "/tmp/collectors" 디렉토리가 없는 경우 생성합니다.</block>
-  <block id="84409f99ba6f01bcc3c8c3cfe5f4edab" category="list-text">"Collector" 디렉터리가 cssys:cssys에 의해 소유되었는지 확인합니다.</block>
   <block id="30cb8ff7690cb51e2ba4a45fa1fec47b" category="list-text">swagger에서 "cloudsecure_config.collector-types" get API로 이동합니다. "collectorCategory" 드롭다운에서 "data"를 선택합니다(사용자 디렉토리 수집기의 경우 "user"를 선택하거나 "all"을 선택).</block>
   <block id="b63f1156c2b0b306d2c21686c4671290" category="paragraph">응답 본문에서 UUID 및 버전을 복사합니다.</block>
   <block id="26f085ec96f326a83a2cd1c9a101547a" category="list-text">최신 Collector 설치 프로그램 파일을 다운로드합니다.</block>
@@ -13151,17 +13145,12 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="1e161bf723a8e1aeb010097d8893525c" category="list-text">업그레이드 Collector API를 트리거합니다.</block>
   <block id="4e8e4b67b8a4e686cd0697d1631ba57f" category="list-text">swagger에서 "cloudsecure_installers.collector"&gt; "/v1/cloudsecure/collector-types/upgrade"(PUT) API로 이동하십시오.</block>
   <block id="c702d61016e786540c3423a56068d5fa" category="list-text">"Examples" 드롭다운에서 "ONTAP SVM data collector upgrade json sample"을 선택하여 샘플 페이로드를 채웁니다.</block>
-  <block id="1658e77190c6002b3789ca2dd5bbdc65" category="list-text">버전을 3단계에서 복사한 버전으로 교체하고 '실행'을 클릭합니다.</block>
-  <block id="ac934065e06072ceec86257a2f72087d" category="paragraph">몇 초 동안 기다리면 수집기가 자동으로 업그레이드됩니다.</block>
   <block id="59e00ac512bd959d2a3ded4209823e6f" category="list-text">상태 점검.</block>
   <block id="eac5a780e5ba342d31bf3d406ab502ca" category="paragraph">수집기는 UI에서 실행 중이어야 합니다.</block>
-  <block id="ab515596662ea64e3e544564ff79aeab" category="list-text">업그레이드 후 정리.</block>
   <block id="f27db76a6388239fb1cfc200d1f859b7" category="list-text">Collector 업그레이드에 성공하면 "/tmp/Collector" 디렉토리의 모든 파일을 삭제할 수 있습니다.</block>
   <block id="991fefa76287bfa32eacbff100d426b8" category="paragraph">다른 유형의 수집기도 업그레이드하려면 위의 단계를 반복합니다.</block>
   <block id="9d72500e8a5c053eafcdfe4056754eb8" category="section-title">Commons 문제 및 수정 사항.</block>
-  <block id="b69ea6725a0b6525e6cf544da1adc773" category="list-text">AGENT014 오류.</block>
   <block id="21375ff3b38428634b0bb8f11745059a" category="paragraph">이 오류는 수집기 설치 파일이 "/tmp/collectors" 디렉토리에 없거나 액세스할 수 없는 경우에 발생합니다. 설치 프로그램 파일이 다운로드되었고 디렉터리 "Collector" 및 설치 관리자 zip 파일이 cssys:cssys에 의해 소유되었는지 확인하고 에이전트 서비스를 다시 시작합니다. "systemctl restart cloudsecure-agent.service”</block>
-  <block id="3cb0a3ec16e76962936843ae69672ce5" category="list-text">2.승인되지 않은 오류</block>
   <block id="c10b2daccdd9136337eaaa94938222bc" category="paragraph">이 오류는 모든 필수 API 범주를 선택하지 않고 API 액세스 토큰이 생성된 경우 표시됩니다. 필요한 모든 API 범주를 선택하여 새 API 액세스 토큰을 생성합니다.</block>
   <block id="1fb20c216d1008aa26dd3559c9f0c877" category="cell">Forensic UI에서 _PATH_FILTER를 사용할 때 데이터가 느리게 로드되고 있습니다.</block>
   <block id="4ef9ea59ad225f2c525fb8c4286f39e1" category="cell">경로가 _/AAA/BBB/CCC/DDD_인 경우 다음을 검색하는 대신 다음을 수행합니다.
@@ -13211,11 +13200,7 @@ AAA/BBB/CCC/ *
   <block id="e9218de6b059dbe3d0a4b2254272060b" category="paragraph"><block ref="e9218de6b059dbe3d0a4b2254272060b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="64b7e0b2c44effc1f95d5d234d97115e" category="inline-image-macro">LDAP 수집기 UUID를 보여 주는 API 응답입니다</block>
   <block id="4d86ae17564f5e192a9f10e1696cafc6" category="paragraph"><block ref="4d86ae17564f5e192a9f10e1696cafc6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f3406bb8f978777c1724d6e8ca96adf4" category="inline-image-macro">API 및 Reponse Collector 다운로드</block>
-  <block id="91601075b46dcf50d3b1909d0a4bbceb" category="paragraph"><block ref="91601075b46dcf50d3b1909d0a4bbceb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1408f74b7a92dffe6114bf5f799f0f8a" category="inline-image-macro">curl 명령 API</block>
-  <block id="d37182c813875a19f3816d91aff11fbb" category="paragraph">를 누릅니다
-<block ref="1eecc7532bc0ff49c5414691e450bb66" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b01eb85bee8dd2ac8125b4e646707f45" category="inline-image-macro">사용자 디렉토리 수집기를 추가하는 중입니다</block>
   <block id="1c4b72f32b1ec160176f3d57f7519993" category="paragraph"><block ref="1c4b72f32b1ec160176f3d57f7519993" category="inline-image-macro-rx" type="image"></block></block>
   <block id="29c5aece735f28f4fe582851e174f98a" category="inline-image-macro">LDAP 사용자를 선택하기 위한 UI 창입니다</block>
@@ -13421,4 +13406,20 @@ AAA/BBB/CCC/ *
   <block id="b740b52e59449de8ca69c0abf8f65235" category="paragraph">Cloud Insights에서 감지하는 사용량이 많은 워크로드는 Stress_Insight의 _Shared Resources 에 표시됩니다. 이 Insights를 보려면 * 관측성 &gt; Infrastructure Insights * 로 이동하십시오.</block>
   <block id="559b55d2ef8b4ca8873098ababc8733e" category="inline-image-macro">리소스를 공유합니다</block>
   <block id="104a62c301b2c9494638e2812254d98d" category="paragraph"><block ref="104a62c301b2c9494638e2812254d98d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5c2ddd5fbb490260fb0b081ca3636f47" category="inline-xref">1c단계</block>
+  <block id="7ed1296708d839485be173aeb5a79f04" category="list-text">Customer ApiKey(apiKey)_text 필드에 이전에 복사한 API 토큰을 붙여 <block ref="2ac1b114773e0e9c04779c9483b2de2b" category="inline-xref-macro-rx"></block>넣습니다.</block>
+  <block id="7faeefc8118dfbbbc47b861240db0774" category="paragraph">참고: 이 단계에서 생성된 일회성 토큰은 에서 생성된 API 액세스 토큰과 다릅니다<block ref="2ac1b114773e0e9c04779c9483b2de2b" category="inline-xref-macro-rx"></block>.</block>
+  <block id="c19db618d23b8481a170708a9d8e0ff7" category="list-text">이제 Collector의 버전과 UUID를 가져와야 합니다. "cloudsecure_config.collector-types" API로 이동합니다. collectorCategory 드롭다운에서 수집기 유형을 "user"로 선택합니다. 단일 요청에서 모든 수집기 유형 세부 정보를 가져오려면 "모두"를 선택하십시오.</block>
+  <block id="5be257826b8572b5399a6ac7cb45e005" category="inline-image-macro">API 및 다운로드 수집기에 대한 응답입니다</block>
+  <block id="24c87b789cdc065736704bc2ddff3be6" category="paragraph"><block ref="24c87b789cdc065736704bc2ddff3be6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8bafa229baea4166d12e6934ba137aa8" category="paragraph">파일 이름은 다운로드 수집기 API의 응답 헤더에 있는 것과 동일해야 합니다. 아래 스크린샷을 참조하십시오.</block>
+  <block id="1eecc7532bc0ff49c5414691e450bb66" category="paragraph"><block ref="1eecc7532bc0ff49c5414691e450bb66" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e60228189debb9ac1cdd6bd6e4c53ec8" category="list-text">최신 설치 프로그램을 다운로드하는 단계는 “새 에이전트 설치”의 단계와 유사합니다. swagger에서 "cloudsecure_installers.agent"&gt; "/v1/cloudsecure/agent/installers/{platform}/latest" api를 선택하고 플랫폼을 "linux"로 입력한 다음 설치 프로그램 zip 파일을 다운로드합니다. 또는 curl 명령을 사용할 수도 있습니다. 설치 프로그램 파일의 압축을 풉니다.</block>
+  <block id="055271148610e8cb492f1a5f67d7061f" category="list-text">"Collector" 디렉토리가 _cssys:cssys_에 의해 소유되었는지 확인하십시오.</block>
+  <block id="2d5ce426423eeeead4f35769cd8b1b27" category="inline-xref">3단계</block>
+  <block id="20260bd9c940a3c6d27657b4a5923265" category="list-text">에서 복사한 버전으로 버전을 <block ref="babb0bb47ec5fba80a09d1ff184b7544" category="inline-xref-macro-rx"></block>교체하고 '실행'을 클릭합니다.</block>
+  <block id="34cf29e49d5754e7536e8d72c5a866cf" category="paragraph">몇 초 동안 기다립니다. 수집기가 자동으로 업그레이드됩니다.</block>
+  <block id="aefca8640c6f7317db4ede982986441e" category="list-text">업그레이드 후 정리:</block>
+  <block id="0b2c01fe038efdc8f7b27285140c4a04" category="list-text">AGENT014 오류</block>
+  <block id="80c03754030e95a93e8d8526693ae86d" category="list-text">승인되지 않은 오류입니다</block>
 </blocks>

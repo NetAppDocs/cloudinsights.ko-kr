@@ -43,51 +43,53 @@ image:ws_manual_install_APIs.png["API 수동 설치"]
 
 
 .. Save(저장) 를 클릭합니다.
-.. 생성된 API 액세스 토큰을 복사합니다. 창이 닫히면 토큰을 더 이상 검색할 수 없습니다. 이 경우 새 토큰을 생성해야 합니다.
+
+
+
+
+[[copy-access-token]]
+. 생성된 API 액세스 토큰을 복사합니다. 창이 닫히면 토큰을 더 이상 검색할 수 없습니다. 이 경우 새 토큰을 생성해야 합니다.
 +
 image:ws_create_and_save_token.png["API 토큰을 생성하고 저장합니다"]
 
 +
 image:ws_create_and_save_token_confirm.png["토큰 생성을 확인합니다"]
 
-
-
-. Admin > API Access > API Documentation * (페이지 오른쪽 상단)으로 이동하고 _Workload Security_icon 을 선택합니다. 그러면 워크로드 보안 API에 대한 Swagger 문서가 열립니다.
++
+.. Admin > API Access > API Documentation * (페이지 오른쪽 상단)으로 이동하고 _Workload Security_icon 을 선택합니다. 그러면 워크로드 보안 API에 대한 Swagger 문서가 열립니다.
 +
 image:ws_swagger_documentation_link.png["워크로드 보안에 대한 Swagger 문서"]
 
-. _Workload Security_API에 대한 액세스 권한을 부여합니다.
-+
-.. 페이지 오른쪽 상단에 있는 _authorize_ 버튼을 클릭합니다.
-.. Customer ApiKey (apiKey)_text 필드에 단계 1c에서 이전에 복사한 API 토큰을 붙여 넣습니다.
-.. authorize_를 클릭하고 창을 닫습니다.
+.. _Workload Security_API에 대한 액세스 권한을 부여합니다.
+
+
+. 페이지 오른쪽 상단에 있는 _authorize_ 버튼을 클릭합니다.
+. Customer ApiKey(apiKey)_text 필드에 이전에 복사한 API 토큰을 붙여 <<copy-access-token,1c단계>>넣습니다.
+. authorize_를 클릭하고 창을 닫습니다.
 +
 image:ws_API_authorization.png["API를 인증합니다"]
 
-
-
-. Agent 설치 프로그램을 다운로드합니다.
 +
-.. Swagger에서 _cloudsecure_installers.agent_>_/v1/cloudsecure/agent/installers/{platform}/latest_(get) API를 선택합니다. 클릭_시험_을(를) 클릭하십시오.
-.. platform_필드에 _linux_를 입력합니다. 실행 _ 을(를) 클릭합니다.
+.. Agent 설치 프로그램을 다운로드합니다.
+
+
+. Swagger에서 _cloudsecure_installers.agent_>_/v1/cloudsecure/agent/installers/{platform}/latest_(get) API를 선택합니다. 클릭_시험_을(를) 클릭하십시오.
+. platform_필드에 _linux_를 입력합니다. 실행 _ 을(를) 클릭합니다.
 +
 image:ws_installers_agent_api_swagger.png["에이전트 설치 프로그램 API-TOP용 Swagger"]
 image:ws_installers_agent_api_swagger-2.png["에이전트 설치 관리자 API 응답용 Swagger"]
 
-.. '파일 다운로드'를 클릭하여 설치 프로그램을 다운로드합니다.
-.. 설치 관리자 파일이 에이전트를 설치할 시스템이 아닌 다른 컴퓨터에 외부에서 다운로드된 경우 설치 관리자 파일을 해당 시스템에 복사합니다.
-.. 또는 curl 명령을 복사하여 에이전트가 설치되어야 하는 시스템에서 직접 실행할 수 있습니다.
+. '파일 다운로드'를 클릭하여 설치 프로그램을 다운로드합니다.
+. 설치 관리자 파일이 에이전트를 설치할 시스템이 아닌 다른 컴퓨터에 외부에서 다운로드된 경우 설치 관리자 파일을 해당 시스템에 복사합니다.
+. 또는 curl 명령을 복사하여 에이전트가 설치되어야 하는 시스템에서 직접 실행할 수 있습니다.
 +
-*** curl 명령에 "-o{{file_name}}" 인수를 추가하여 원하는 이름으로 설치 프로그램 파일을 저장합니다. 설치 관리자 파일의 실제 이름은 swagger 응답 헤더 섹션에서 찾을 수 있습니다. 해당 이름을 사용할 수도 있습니다.
+** curl 명령에 "-o{{file_name}}" 인수를 추가하여 원하는 이름으로 설치 프로그램 파일을 저장합니다. 설치 관리자 파일의 실제 이름은 swagger 응답 헤더 섹션에서 찾을 수 있습니다. 해당 이름을 사용할 수도 있습니다.
 +
 image:ws_installers_agent_api_swagger_installer_file.png["API-Swagger를 통해 최신 에이전트 선택"]
 
-*** 파일을 원하는 위치에 다운로드할 수 있지만 uninstaller.zip의 압축을 풀 수 있는 빈 폴더에 다운로드하는 것이 좋습니다.
-
-
-
-
-. 새 폴더를 만들고(권장), 설치 프로그램 파일을 이 폴더에 복사하고 압축을 풉니다.
+** 파일을 원하는 위치에 다운로드할 수 있지만 uninstaller.zip의 압축을 풀 수 있는 빈 폴더에 다운로드하는 것이 좋습니다.
++
+... 새 폴더를 만들고(권장), 설치 프로그램 파일을 이 폴더에 복사하고 압축을 풉니다.
 +
 [listing]
 ----
@@ -111,7 +113,7 @@ Archive:  cloudsecure-linux-agent-installer-1.617.0.zip
   inflating: cloudsecure-agent-install.sh
   inflating: cloudsecure-agent-upgrade.sh
 ----
-. "cloudsecure-agent-install.sh" 파일에 대한 set_execute_permission.
+... "cloudsecure-agent-install.sh" 파일에 대한 set_execute_permission.
 +
 [listing]
 ----
@@ -124,27 +126,29 @@ total 153344
 -rw------- 1 root root 77834705 Apr 26 14:34 cloudsecure-linux-agent-installer-1.617.0.zip
 
 ----
-. 새 에이전트 설치를 위한 일회성 토큰을 생성합니다.
+... 새 에이전트 설치를 위한 일회성 토큰을 생성합니다.
 +
-참고: 이 단계에서 생성된 일회성 토큰은 1c단계에서 생성된 API 액세스 토큰과 다릅니다.
+참고: 이 단계에서 생성된 일회성 토큰은 에서 생성된 API 액세스 토큰과 다릅니다<<copy-access-token,1c단계>>.
 
+
+
+
+
+. Swagger에서 execute_cloudsecure_installers.agent>/v1/cloudsecure/agent/oneTimeToken_api를 실행하고 응답에서 토큰을 복사합니다.
 +
-.. Swagger에서 execute_cloudsecure_installers.agent>/v1/cloudsecure/agent/oneTimeToken_api를 실행하고 응답에서 토큰을 복사합니다.
-
-
-. 1회 토큰을 환경 변수로 내보냅니다.
+.. 1회 토큰을 환경 변수로 내보냅니다.
 +
 [listing]
 ----
 [root@demo-agent ~]# export TOKEN=<<one time token generated in step 7>>
 ----
-. 프록시 서버를 사용하는 경우 https_proxy를 아래에 설명된 형식의 환경 변수로 내보냅니다.
+.. 프록시 서버를 사용하는 경우 https_proxy를 아래에 설명된 형식의 환경 변수로 내보냅니다.
 +
 [listing]
 ----
 [root@demo-agent ~]# export HTTPS_PROXY='USER:PASSWORD@PROXY_SERVER:PORT'
 ----
-. 선택 사항: 기본적으로 에이전트 및 수집기는 "/opt/NetApp" 경로에 설치됩니다. 다른 경로에 설치하려면 다음 환경 변수를 설정하십시오."
+.. 선택 사항: 기본적으로 에이전트 및 수집기는 "/opt/NetApp" 경로에 설치됩니다. 다른 경로에 설치하려면 다음 환경 변수를 설정하십시오."
 +
 [listing]
 ----
@@ -153,7 +157,7 @@ total 153344
 +
 참고: 사용자 지정 경로에 설치된 경우 데이터 수집기 및 에이전트 로그와 같은 기타 모든 아티팩트는 사용자 지정 경로 내에만 생성됩니다. 설치 로그는 계속해서 -_/var/log/netapp/cloudsecure/install_에 표시됩니다.
 
-. 에이전트 설치 프로그램을 다운로드한 디렉터리로 돌아가서 "cloudsecure-agent-install.sh"를 실행합니다.
+.. 에이전트 설치 프로그램을 다운로드한 디렉터리로 돌아가서 "cloudsecure-agent-install.sh"를 실행합니다.
 +
 [listing]
 ----
@@ -170,9 +174,10 @@ sudo /bin/bash -c "TOKEN=<<one time token generated in step 7>> HTTPS_PROXY=<<pr
 +
 이 때 에이전트가 성공적으로 설치되어야 합니다.
 
-. 에이전트 설치를 위한 상태 점검:
-+
-.. "systemctl status cloudsecure-agent.service” 실행하고 에이전트 서비스가 _running_state에 있는지 확인합니다.
+.. 에이전트 설치를 위한 상태 점검:
+
+
+. "systemctl status cloudsecure-agent.service” 실행하고 에이전트 서비스가 _running_state에 있는지 확인합니다.
 +
 [listing]
 ----
@@ -186,17 +191,15 @@ sudo /bin/bash -c "TOKEN=<<one time token generated in step 7>> HTTPS_PROXY=<<pr
            ├─15887 java -Dconfig.file=/test_user/apps/cloudsecure/agent/conf/application.conf -Dagent.proxy.host= -Dagent.proxy.port= -Dagent.proxy.user= -Dagent.proxy.password= -Dagent.env=prod -Dagent.base.path=/test_user/apps/cloudsecure/agent -...
 
 ----
-.. 상담원은 "상담원" 페이지에 표시되고 '연결됨' 상태여야 합니다.
+. 상담원은 "상담원" 페이지에 표시되고 '연결됨' 상태여야 합니다.
 +
 image:ws_agentsPageShowingConnected.png["연결된 에이전트를 표시하는 UI"]
 
-
-
-. 설치 후 정리.
 +
-.. 에이전트 설치에 성공하면 다운로드한 에이전트 설치 관리자 파일을 삭제할 수 있습니다.
+.. 설치 후 정리.
 
 
+. 에이전트 설치에 성공하면 다운로드한 에이전트 설치 관리자 파일을 삭제할 수 있습니다.
 
 
 
@@ -295,7 +298,7 @@ image:ws_collectorPageList.png["수집기를 보여 주는 UI 목록 페이지"]
 [root@demo-agent tmp]# ll | grep collectors
 drwx------ 2 cssys         cssys 4096 Apr 26 15:56 collectors
 ----
-. 이제 Collector 버전과 UUID를 가져와야 합니다. "cloudsecure_config.collector-types" API로 이동합니다. collectorCategory 드롭다운에서 수집기 유형을 "user"로 선택합니다. 단일 요청에서 모든 수집기 유형 세부 정보를 가져오려면 "모두"를 선택하십시오.
+. 이제 Collector의 버전과 UUID를 가져와야 합니다. "cloudsecure_config.collector-types" API로 이동합니다. collectorCategory 드롭다운에서 수집기 유형을 "user"로 선택합니다. 단일 요청에서 모든 수집기 유형 세부 정보를 가져오려면 "모두"를 선택하십시오.
 +
 image:ws_API_collector_all.png["API를 사용하여 모든 수집기를 가져옵니다"]
 
@@ -307,21 +310,17 @@ image:ws_LDAP_collector_UUID.png["LDAP 수집기 UUID를 보여 주는 API 응�
 +
 .. "cloudsecure_installers.collector"> "/v1/cloudsecure/collector-types/installers/{collectorTypeUUID}"(GET) API로 이동합니다. 이전 단계에서 복사한 UUID를 입력하고 설치 관리자 파일을 다운로드합니다.
 +
-image:ws_LDAP_collector_UUID_download.png["API 및 Reponse Collector 다운로드"]
+image:ws_LDAP_collector_UUID_download.png["API 및 다운로드 수집기에 대한 응답입니다"]
 
 .. 설치 관리자 파일이 다른 컴퓨터에 외부에서 다운로드되면 설치 관리자 파일을 에이전트가 실행 중인 시스템과 "/tmp/collectors" 디렉토리에 복사합니다.
 .. 또는 동일한 API에서 curl 명령을 복사하여 Collector를 설치해야 하는 시스템에서 직접 실행할 수 있습니다.
-
-
 +
 파일 이름은 다운로드 수집기 API의 응답 헤더에 있는 것과 동일해야 합니다. 아래 스크린샷을 참조하십시오.
 
 +
-를 누릅니다
 image:ws_curl_command.png["curl 명령 API"]
 
-+
-를 누릅니다
+
 
 +
 [listing]
@@ -384,7 +383,7 @@ image:ws_LDAP_collector_list.png["UI의 LDAP Collector 목록입니다"]
 
 . 최신 에이전트 설치 프로그램을 다운로드합니다.
 +
-.. 최신 설치 프로그램을 다운로드하는 단계는 "새 에이전트 설치"와 비슷합니다. swagger에서 "cloudsecure_installers.agent" à "/v1/cloudsecure/agent/installers/{platform}/latest" api를 선택하고 플랫폼을 "linux"로 입력한 다음 설치 프로그램 zip 파일을 다운로드합니다. 또는 curl 명령을 사용할 수도 있습니다. 설치 프로그램 파일의 압축을 풉니다.
+.. 최신 설치 프로그램을 다운로드하는 단계는 “새 에이전트 설치”의 단계와 유사합니다. swagger에서 "cloudsecure_installers.agent"> "/v1/cloudsecure/agent/installers/{platform}/latest" api를 선택하고 플랫폼을 "linux"로 입력한 다음 설치 프로그램 zip 파일을 다운로드합니다. 또는 curl 명령을 사용할 수도 있습니다. 설치 프로그램 파일의 압축을 풉니다.
 
 
 . "cloudsecure-agent-upgrade.sh" 파일에 대한 실행 권한을 설정합니다.
@@ -474,7 +473,7 @@ image:ws_agentsPageShowingConnected.png["연결된 상담원을 표시하는 UI"
 ----
 mkdir -p /tmp/collectors
 ----
-. "Collector" 디렉터리가 cssys:cssys에 의해 소유되었는지 확인합니다.
+. "Collector" 디렉토리가 _cssys:cssys_에 의해 소유되었는지 확인하십시오.
 +
 [listing]
 ----
@@ -488,8 +487,7 @@ drwx------ 2 cssys         cssys 4096 Apr 26 15:56 collectors
 +
 응답 본문에서 UUID 및 버전을 복사합니다.
 
-
-
++
 image:ws_collector_uuid_and_version.png["Collector UUID 및 버전이 강조 표시된 API 응답입니다"]
 
 . 최신 Collector 설치 프로그램 파일을 다운로드합니다.
@@ -499,11 +497,10 @@ image:ws_collector_uuid_and_version.png["Collector UUID 및 버전이 강조 표
 +
 image:ws_curl_command_only.png["curl 명령 예"]
 
-
-
-
-
++
 참고: 파일 이름은 다운로드 수집기 API의 응답 헤더에 있는 것과 같아야 합니다.
+
+
 
 . Collector 설치 프로그램 zip 파일의 소유권을 cssys:cssys로 변경합니다.
 +
@@ -522,21 +519,20 @@ total 55024
 +
 .. swagger에서 "cloudsecure_installers.collector"> "/v1/cloudsecure/collector-types/upgrade"(PUT) API로 이동하십시오.
 .. "Examples" 드롭다운에서 "ONTAP SVM data collector upgrade json sample"을 선택하여 샘플 페이로드를 채웁니다.
-.. 버전을 3단계에서 복사한 버전으로 교체하고 '실행'을 클릭합니다.
+.. 에서 복사한 버전으로 버전을 <<copy-access-token,3단계>>교체하고 '실행'을 클릭합니다.
 +
 image:ws_svm_ontap_collector_upgrade_example_json.png["Swagger UI의 SVM 업그레이드 예"]
 
++
+몇 초 동안 기다립니다. 수집기가 자동으로 업그레이드됩니다.
 
 
-
-
-몇 초 동안 기다리면 수집기가 자동으로 업그레이드됩니다.
 
 . 상태 점검.
 +
 수집기는 UI에서 실행 중이어야 합니다.
 
-. 업그레이드 후 정리.
+. 업그레이드 후 정리:
 +
 .. Collector 업그레이드에 성공하면 "/tmp/Collector" 디렉토리의 모든 파일을 삭제할 수 있습니다.
 
@@ -549,14 +545,14 @@ image:ws_svm_ontap_collector_upgrade_example_json.png["Swagger UI의 SVM 업그�
 
 == Commons 문제 및 수정 사항.
 
-. AGENT014 오류.
+. AGENT014 오류
 +
 이 오류는 수집기 설치 파일이 "/tmp/collectors" 디렉토리에 없거나 액세스할 수 없는 경우에 발생합니다. 설치 프로그램 파일이 다운로드되었고 디렉터리 "Collector" 및 설치 관리자 zip 파일이 cssys:cssys에 의해 소유되었는지 확인하고 에이전트 서비스를 다시 시작합니다. "systemctl restart cloudsecure-agent.service”
 
 +
 image:ws_agent014_error.png["\"agent 014\" 오류 호버 팁을 보여 주는 UI 화면"]
 
-. 2.승인되지 않은 오류
+. 승인되지 않은 오류입니다
 +
 [listing]
 ----
