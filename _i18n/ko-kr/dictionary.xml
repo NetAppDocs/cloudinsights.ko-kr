@@ -13422,4 +13422,23 @@ AAA/BBB/CCC/ *
   <block id="aefca8640c6f7317db4ede982986441e" category="list-text">업그레이드 후 정리:</block>
   <block id="0b2c01fe038efdc8f7b27285140c4a04" category="list-text">AGENT014 오류</block>
   <block id="80c03754030e95a93e8d8526693ae86d" category="list-text">승인되지 않은 오류입니다</block>
+  <block id="9765c3765694fadf98843a154096fbc8" category="section-title">2024년 8월</block>
+  <block id="1e6efa140bfb7e4679629d8194b62518" category="section-title">해당 시간 범위에 해당하는 데이터를 봅니다</block>
+  <block id="63466a1339697704533771c662e97a95" category="paragraph">경고 조사? 차트를 확대하시겠습니까? 이러한 작업은 해당 페이지의 시간 범위를 변경합니다. 이제 해당 시간 범위를 잠그고, 다른 Cloud Insights 페이지를 탐색하고, 잠긴 시간 범위에 해당하는 데이터를 볼 수 있습니다. 조사 및 문제 해결이 훨씬 더 쉬워졌습니다!</block>
+  <block id="b4d4f3a9a060bb1e2ec83e69b952584b" category="inline-image-macro">다른 페이지에서 사용할 시간 범위를 잠그려면 아이콘을 클릭하라는 도구 설명</block>
+  <block id="380958dc02dd73e95eaa4a082063f871" category="paragraph"><block ref="380958dc02dd73e95eaa4a082063f871" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b2b019dcd0bf47e844870e8113a09653" category="section-title">변경 및 변경 비율(%) 분석</block>
+  <block id="a683fea3c6e8375ed9b41bdc7ffe4a52" category="paragraph">변경 비율 시간 집계는 시간 경과에 따른 메트릭 값의 중요한 변화와 추세를 식별하는 데 도움이 됩니다. 이러한 인사이트는 특정 시간 동안 용량이 대폭 증가하거나 단일 포트 성능의 변화와 같은 변경 사항을 이해하는 데 핵심적인 역할을 합니다.</block>
+  <block id="615b3d3d31be175d0b1eee89348e65ab" category="list-text">* 변경 * - 선택한 기간 내에 두 지점 사이의 메트릭 변화를 관찰합니다.</block>
+  <block id="74809a036bca54139a2d261d2626d034" category="list-text">* Change Ratio * - 선택한 기간 내에 두 지점 사이의 비례 변화를 초기 지점에 대해 관찰합니다.</block>
+  <block id="476dc2fbda7f575b4fa5a12c84315d97" category="inline-image-macro">비율 변경 및 변경 집계 선택 항목을 보여 주는 막대 차트 예</block>
+  <block id="7babf63048a268c171c9a35946c31542" category="paragraph"><block ref="7babf63048a268c171c9a35946c31542" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b422b4687d8e61310c31588c0f40502a" category="section-title">로그 쿼리 결과를 .csv로 내보냅니다</block>
+  <block id="9cea24be2464c00b86b714b65366d6f7" category="paragraph">로그 쿼리 결과를 볼 때 새로운 "내보내기" 버튼을 클릭하여 최대 10,000개의 행을 .csv로 쉽게 내보낼 수 있습니다. 따라서 데이터 접근성이 향상되고 데이터 분석 및 보고가 간편해지며 다른 Data Processing 툴과 원활하게 통합됩니다.</block>
+  <block id="7a2e6dfd3424cc782f8ace3835b61f07" category="inline-image-macro">로그 쿼리 페이지의 CSV로 내보내기 단추</block>
+  <block id="0477f9f6d00aae30603158474a92755a" category="paragraph"><block ref="0477f9f6d00aae30603158474a92755a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="97ee1f978fba9c94fb5be3fd10c7458f" category="section-title">시간별 알림 해결</block>
+  <block id="b0d5063317400902cd605d3e001cdfe3" category="paragraph">이제 Cloud Insights에서는 모니터링되는 메트릭이 지정된 기간 동안 허용 가능한 범위 내에 있을 때 알림을 해결할 수 있는 옵션을 제공합니다. 이를 통해 여러 경고를 하나로 통합하여 정의된 임계값을 초과하는 메트릭과 관련된 잡음을 반복적으로 줄여 진정한 문제에 집중할 수 있습니다.</block>
+  <block id="e321661400eff0a6d2ff74375e581dfe" category="inline-image-macro">시간에 따라 알림 해결</block>
+  <block id="bf06ca1c7f8b70edeba39bebe3b60e6e" category="paragraph"><block ref="bf06ca1c7f8b70edeba39bebe3b60e6e" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
