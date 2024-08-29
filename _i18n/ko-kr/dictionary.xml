@@ -13441,4 +13441,5 @@ AAA/BBB/CCC/ *
   <block id="e321661400eff0a6d2ff74375e581dfe" category="inline-image-macro">시간에 따라 알림 해결</block>
   <block id="bf06ca1c7f8b70edeba39bebe3b60e6e" category="paragraph"><block ref="bf06ca1c7f8b70edeba39bebe3b60e6e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6eca91256cc474aa6b595cae920d2b6a" category="paragraph">VMware vSphere용 데이터 수집기는 VM 게스트 및 ESXi 호스트 성능 및 구성 정보를 수집하며 vSphere 내의 모든 개체에 대해 읽기 전용 Privileges이 필요합니다. 2024년 8월 현재 vSphere Collector는 vSphere 환경의 로그 메시지와 일부 VMware 관련 메트릭을 추가로 제공합니다. Cloud Insights는 vSphere 8.0.1 이상 환경에서 VMware 로그 정보만 검색할 수 있습니다. 마찬가지로 공급업체별 메트릭은 vSphere 7+ 환경에서만 지원됩니다. 따라서 이전 vSphere 인스턴스를 가리키는 경우 해당 Collector에서 로그 및/또는 공급업체별 메트릭 확인란을 비활성화할 수 있습니다.</block>
+  <block id="88a839c0b82eee34733678fcc5ffb8bd" category="cell">Fluent Bit이 시작되지 않고 데이터베이스를 열거나 만들려고 하면 runPrivileged를 true로 설정합니다.</block>
 </blocks>
