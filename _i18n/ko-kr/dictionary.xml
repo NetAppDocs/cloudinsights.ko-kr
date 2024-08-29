@@ -5016,7 +5016,6 @@
   <block id="263026a1c82c98e0f26e5963c3c57811" category="cell">대략적인 데이터 크기 평균 지연 시간 천문력 최대 파일 설명자 수 최대 지연 시간 최소 대기 시간 활성 연결 수 열린 파일 설명자 수 처리되지 않은 요청 수 시계 수 Znode 수</block>
   <block id="aa7bcff87c480aa90d0e5d1001e89590" category="summary">VMware 데이터 수집기 구성 중</block>
   <block id="3642158841a114e36a8c869b919b1091" category="doc">VMware vSphere Data Collector 구성</block>
-  <block id="954ef6f49e5d8376c237f5d66acaff1f" category="paragraph">VMware vSphere용 데이터 수집기는 ESX 호스트 정보를 수집하며 Virtual Center 내의 모든 개체에 대해 읽기 전용 권한이 필요합니다.</block>
   <block id="575e07e277bc9b78e55e69d062be7785" category="paragraph">Cloud Insights는 VMware vSphere 데이터 수집기에서 다음과 같은 인벤토리 정보를 가져옵니다. 획득한 각 자산 유형에 대해 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.</block>
   <block id="f686f10e90744245b3af81001faaf7ad" category="cell">가상 디스크</block>
   <block id="e8eba49eee07dcd0ffda65538b25f178" category="cell">데이터 저장소</block>
@@ -13441,4 +13440,5 @@ AAA/BBB/CCC/ *
   <block id="b0d5063317400902cd605d3e001cdfe3" category="paragraph">이제 Cloud Insights에서는 모니터링되는 메트릭이 지정된 기간 동안 허용 가능한 범위 내에 있을 때 알림을 해결할 수 있는 옵션을 제공합니다. 이를 통해 여러 경고를 하나로 통합하여 정의된 임계값을 초과하는 메트릭과 관련된 잡음을 반복적으로 줄여 진정한 문제에 집중할 수 있습니다.</block>
   <block id="e321661400eff0a6d2ff74375e581dfe" category="inline-image-macro">시간에 따라 알림 해결</block>
   <block id="bf06ca1c7f8b70edeba39bebe3b60e6e" category="paragraph"><block ref="bf06ca1c7f8b70edeba39bebe3b60e6e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6eca91256cc474aa6b595cae920d2b6a" category="paragraph">VMware vSphere용 데이터 수집기는 VM 게스트 및 ESXi 호스트 성능 및 구성 정보를 수집하며 vSphere 내의 모든 개체에 대해 읽기 전용 Privileges이 필요합니다. 2024년 8월 현재 vSphere Collector는 vSphere 환경의 로그 메시지와 일부 VMware 관련 메트릭을 추가로 제공합니다. Cloud Insights는 vSphere 8.0.1 이상 환경에서 VMware 로그 정보만 검색할 수 있습니다. 마찬가지로 공급업체별 메트릭은 vSphere 7+ 환경에서만 지원됩니다. 따라서 이전 vSphere 인스턴스를 가리키는 경우 해당 Collector에서 로그 및/또는 공급업체별 메트릭 확인란을 비활성화할 수 있습니다.</block>
 </blocks>
