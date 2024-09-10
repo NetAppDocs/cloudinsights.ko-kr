@@ -5685,7 +5685,6 @@
   <block id="b0ce4b6c932ff5bff57734c112bda53e" category="list-text">SUDO firewall-cmd--zone=public--list-ports|grep 35000'(CentOS 8의 경우)</block>
   <block id="04d265de0148836a00102bb171aa6456" category="section-title">상담원 오류 문제 해결</block>
   <block id="e71794867788b5cf67da8f5fae629c4c" category="cell">Agent 설치가 /opt/netapp/cloudsecure/agent/logs/agent.log 폴더를 생성하지 못하고 install.log 파일은 관련 정보를 제공하지 않습니다.</block>
-  <block id="1d46e6c358fd06d5a1f7a440acc48347" category="cell">이 오류는 에이전트의 부트스트래핑 중에 발생합니다. 로그 파일이 로거가 초기화되기 전에 발생하므로 이 오류는 로그 파일에 기록되지 않습니다. 이 오류는 표준 출력으로 리디렉션되고 서비스 로그에서 '저널 - u cloudsecure-agent.service` 명령을 사용하여 확인할 수 있습니다. 이 명령을 사용하여 문제를 더 자세히 해결할 수 있습니다.</block>
   <block id="0a21e5a6656a19032e65faf86ec69c83" category="cell">에이전트 설치가 '이 Linux 배포는 지원되지 않습니다. 설치를 종료하는 중입니다.</block>
   <block id="3a7e14f279ad4988e72d190c932c04e4" category="cell">"-bash:unzip:command not found" 오류와 함께 에이전트 설치가 실패했습니다.</block>
   <block id="6ffa35eb057e4e4c2feada5be42e5766" category="cell">압축을 푼 다음 설치 명령을 다시 실행합니다. 시스템에 Yum이 설치되어 있는 경우 "yum install unzip"을 시도하여 unzip 소프트웨어를 설치합니다. 그런 다음 Agent 설치 UI에서 명령을 다시 복사하여 CLI에 붙여 넣어 설치를 다시 실행합니다.</block>
@@ -13441,5 +13440,15 @@ AAA/BBB/CCC/ *
   <block id="e321661400eff0a6d2ff74375e581dfe" category="inline-image-macro">시간에 따라 알림 해결</block>
   <block id="bf06ca1c7f8b70edeba39bebe3b60e6e" category="paragraph"><block ref="bf06ca1c7f8b70edeba39bebe3b60e6e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6eca91256cc474aa6b595cae920d2b6a" category="paragraph">VMware vSphere용 데이터 수집기는 VM 게스트 및 ESXi 호스트 성능 및 구성 정보를 수집하며 vSphere 내의 모든 개체에 대해 읽기 전용 Privileges이 필요합니다. 2024년 8월 현재 vSphere Collector는 vSphere 환경의 로그 메시지와 일부 VMware 관련 메트릭을 추가로 제공합니다. Cloud Insights는 vSphere 8.0.1 이상 환경에서 VMware 로그 정보만 검색할 수 있습니다. 마찬가지로 공급업체별 메트릭은 vSphere 7+ 환경에서만 지원됩니다. 따라서 이전 vSphere 인스턴스를 가리키는 경우 해당 Collector에서 로그 및/또는 공급업체별 메트릭 확인란을 비활성화할 수 있습니다.</block>
-  <block id="88a839c0b82eee34733678fcc5ffb8bd" category="cell">Fluent Bit이 시작되지 않고 데이터베이스를 열거나 만들려고 하면 runPrivileged를 true로 설정합니다.</block>
+  <block id="aacf7c114a34df5c220f4e375bcd0f6c" category="section-title">현재 버전에서 에이전트 "고정"</block>
+  <block id="a9c7e2aeb7f9f9d656ca872f21bc9a3a" category="paragraph">기본적으로 Cloud Insights 워크로드 보안은 에이전트를 자동으로 업데이트합니다. 일부 고객은 다음 중 하나가 발생할 때까지 Agent를 현재 버전으로 유지하는 자동 업데이트를 일시 중지할 수 있습니다.</block>
+  <block id="dea8f428de371d2483508970ea18bd9c" category="list-text">고객이 Agent 자동 업데이트를 재개합니다.</block>
+  <block id="7a82a4df03996c48bae61a1b40043abe" category="list-text">30일이 지났습니다. 30일은 Agent가 일시 중지된 날이 아니라 가장 최근의 이전 Agent 업데이트 날짜부터 시작됩니다.</block>
+  <block id="772bc0b6f8f9cb094b4c25a1cdebdd38" category="paragraph">이러한 각 경우에 에이전트는 다음 워크로드 보안 새로 고침 시 업데이트됩니다. 자동 에이전트 업데이트를 일시 중지하거나 다시 시작하려면 _cloudsecure_config.agent API_:</block>
+  <block id="3de76c45f03acf84c51fdc95c48547c8" category="inline-image-macro">WS Pin Agent API</block>
+  <block id="d3cea9cb845d99f575c1c78a6cbcbfeb" category="paragraph"><block ref="d3cea9cb845d99f575c1c78a6cbcbfeb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="43bc274fafd4f24a6e53e70d34b7d027" category="paragraph">일시 중지 또는 다시 시작 작업이 적용되는 데 최대 5분이 소요될 수 있습니다. 현재 에이전트 버전은 워크로드 보안 &gt; 수집기 페이지의 에이전트 탭에서 볼 수 있습니다.</block>
+  <block id="1979148f99c797a36ae97c5382f95179" category="inline-image-macro">WS Agent 버전</block>
+  <block id="1958af1f939092e25b5d78caf2a1b150" category="paragraph"><block ref="1958af1f939092e25b5d78caf2a1b150" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="09d5457f1f20be8a89fee7b6f96b30e4" category="cell">이 오류는 에이전트의 부트스트래핑 중에 발생합니다. 로그 파일이 로거가 초기화되기 전에 발생하므로 이 오류는 로그 파일에 기록되지 않습니다. 오류는 표준 출력으로 리디렉션되며<block ref="f66ee45f9a926233b13f330bfa05ee2e" prefix=" " category="inline-code"></block> 명령을 사용하여 서비스 로그에 표시됩니다. 이 명령을 사용하여 문제를 추가로 해결할 수 있습니다. est</block>
 </blocks>
