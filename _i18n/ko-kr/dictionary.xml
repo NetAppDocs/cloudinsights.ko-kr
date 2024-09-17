@@ -4851,9 +4851,6 @@
   <block id="e38bf2476e8d2e225da1a053aacfd12c" category="cell">관리 작업을 수행합니다</block>
   <block id="654a32ee33803fd11261b8d650858744" category="section-title">보고(Cognos) 전자 메일 기본 설정 지정</block>
   <block id="17ea205c242f02ff29a6c35d09220094" category="admonition">Cloud Insights 보고(예: Cognos 응용 프로그램) 내에서 사용자 전자 메일 기본 설정을 변경하는 경우 해당 기본 설정은 현재 세션 _ 에 대해서만 활성화됩니다. Cognos에서 로그아웃했다가 다시 로그인하면 이메일 기본 설정이 재설정됩니다.</block>
-  <block id="68ee8ec8a294e5cd7317a22a04835d18" category="section-title">기존 고객을 위한 중요 참고 사항</block>
-  <block id="de1257fde6a6c03e2ac180d51c8c79f6" category="paragraph">보고 기능이 있는 Cloud Insights를 처음 사용하는 경우 환영합니다! 더 이상 보고 기능을 즐기기 위해 해야 할 일은 없습니다.</block>
-  <block id="a3a23e64a26caa2ba68aabe6a653f8a3" category="paragraph">현재 Premium Edition 고객인 경우 사용자 환경에 SSO가 자동으로 활성화되지 않습니다. SSO를 활성화하면 보고 포털(Cognos)의 관리자 사용자가 더 이상 존재하지 않습니다. 즉, _My Content_폴더에 있는 모든 보고서가 제거되므로 _Team Content_에서 다시 설치하거나 다시 작성해야 합니다. 또한 SSO가 활성화되면 예약된 보고서를 구성해야 합니다.</block>
   <block id="64e8aee8ab5bbf42a82844d113285456" category="section-title">SSO를 활성화하기 위해 기존 환경을 준비하기 위해 어떤 단계를 수행해야 합니까?</block>
   <block id="30cf09810334fcbe4d4ece63c4a34c1f" category="paragraph">보고서가 보존되도록 하려면 다음 단계를 사용하여 모든 보고서를 _My Content_to_Team Content_에서 마이그레이션합니다. 이 작업은 사용자 환경에서 SSO를 활성화하기 전에 수행해야 합니다.</block>
   <block id="380c82a01daf44bff25a9fba8565a8fc" category="list-text">여러 사용자가 생성된 경우, 중복된 이름으로 보고서를 덮어쓰지 않도록 각 사용자에 대해 별도의 폴더를 만드십시오</block>
@@ -13451,4 +13448,10 @@ AAA/BBB/CCC/ *
   <block id="1958af1f939092e25b5d78caf2a1b150" category="paragraph"><block ref="1958af1f939092e25b5d78caf2a1b150" category="inline-image-macro-rx" type="image"></block></block>
   <block id="09d5457f1f20be8a89fee7b6f96b30e4" category="cell">이 오류는 에이전트의 부트스트래핑 중에 발생합니다. 로그 파일이 로거가 초기화되기 전에 발생하므로 이 오류는 로그 파일에 기록되지 않습니다. 오류는 표준 출력으로 리디렉션되며<block ref="f66ee45f9a926233b13f330bfa05ee2e" prefix=" " category="inline-code"></block> 명령을 사용하여 서비스 로그에 표시됩니다. 이 명령을 사용하여 문제를 추가로 해결할 수 있습니다. est</block>
   <block id="3215409bdfa80bc0793df35265a10206" category="paragraph">Cloud Insights Basic 및 Premium 버전에서 사용할 수 있는 기능에 대한 전체 비교는 <block ref="5ae6a719f15b2f1023483afd4997e05f" category="inline-link-macro-rx"></block>페이지를 참조하십시오.</block>
+  <block id="6170d8ef618bd7f0badc437283eafda2" category="section-title">로컬 루트 SVM 사용자 활동 변경</block>
+  <block id="d8622ff198a6c984d167c00f2cf7a110" category="paragraph">로컬 루트 SVM 사용자가 작업을 수행하는 경우 NFS 공유가 마운트된 클라이언트의 IP가 사용자 이름에 고려됩니다. 이 사용자 이름은 법의학 활동 및 사용자 활동 페이지에서 _root@&lt;ip-address-of-the-client&gt;_로 표시됩니다.</block>
+  <block id="506c2c0c7f5b70af3df68c45c46f45a7" category="paragraph">예를 들면 다음과 같습니다.</block>
+  <block id="f3798d278d520536cd288461ba2c1858" category="list-text">SVM-1이 워크로드 보안에 의해 모니터링되고 해당 SVM의 루트 사용자가 IP 주소가 10.197.12.40인 클라이언트에 공유를 마운트하는 경우, 포렌식 활동 페이지에 표시되는 사용자 이름은 _root@10.197.12.40_ 입니다.</block>
+  <block id="b9d319d8c871cc037bbb64830c075261" category="list-text">IP 주소가 10.197.12.41인 다른 클라이언트에 동일한 SVM-1을 마운트하는 경우 포렌식 활동 페이지에 표시되는 사용자 이름은 _root@10.197.12.41_ 입니다.</block>
+  <block id="e3c2786769604634cbe42574b350b28f" category="list-text">이 작업은 NFS 루트 사용자 활동을 IP 주소별로 분리합니다. 이전에는 모든 활동이 IP 구분 없이 _root_user 만 수행하는 것으로 간주되었습니다.</block>
 </blocks>
