@@ -13454,4 +13454,11 @@ AAA/BBB/CCC/ *
   <block id="f3798d278d520536cd288461ba2c1858" category="list-text">SVM-1이 워크로드 보안에 의해 모니터링되고 해당 SVM의 루트 사용자가 IP 주소가 10.197.12.40인 클라이언트에 공유를 마운트하는 경우, 포렌식 활동 페이지에 표시되는 사용자 이름은 _root@10.197.12.40_ 입니다.</block>
   <block id="b9d319d8c871cc037bbb64830c075261" category="list-text">IP 주소가 10.197.12.41인 다른 클라이언트에 동일한 SVM-1을 마운트하는 경우 포렌식 활동 페이지에 표시되는 사용자 이름은 _root@10.197.12.41_ 입니다.</block>
   <block id="e3c2786769604634cbe42574b350b28f" category="list-text">이 작업은 NFS 루트 사용자 활동을 IP 주소별로 분리합니다. 이전에는 모든 활동이 IP 구분 없이 _root_user 만 수행하는 것으로 간주되었습니다.</block>
+  <block id="ce86a5aaf36b8b44516c9a3d547bc544" category="section-title">API를 통해 데이터를 추출하는 스크립트</block>
+  <block id="abd1c518dbb73a973f62bdeac0383a1f" category="paragraph">워크로드 보안 에이전트에는 요청된 시간 범위를 더 작은 배치로 나누어 v2 API에 대한 병렬 호출을 용이하게 하기 위한 내보내기 스크립트가 포함되어 있습니다.</block>
+  <block id="9691b74510440e767ebe140708556d4a" category="paragraph">스크립트는 _/opt/NetApp/cloudsecure/agent/export-script _ 에 있습니다. 동일한 디렉토리에 있는 README 파일은 사용 지침을 제공합니다.</block>
+  <block id="b33ce51cf90f2cebc1848ee9bdd86a73" category="paragraph">다음은 스크립트를 호출하는 명령 예입니다.</block>
+  <block id="4cee2cbc95e55efcd827954ec63679ef" category="paragraph">주요 파라미터: -<block ref="86768c9197497f61803d2cccda886c2b" prefix=" " category="inline-code"></block>: 요청한 시간 범위를 12시간 간격으로 분할합니다. <block ref="90bf4ae9a260a1dab39cf85f9b78e62f" prefix=" " category="inline-code"></block>-: 3개의 스레드를 사용하여 이러한 간격을 병렬로 가져옵니다.</block>
+  <block id="6bcfb21e09554dca2e39878feec63052" category="inline-link-macro">AWS 설명서</block>
+  <block id="27bd1734310b9ef60e677eeb8578ef51" category="list-text">Collector가 설치된 계정에는 _delegate 액세스 권한이 있는 administrator_Privileges가 있어야 합니다. <block ref="c2b17d165b23584303b797053451136e" category="inline-link-macro-rx"></block>자세한 내용은 를 참조하십시오.</block>
 </blocks>
