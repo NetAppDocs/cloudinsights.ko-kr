@@ -19,7 +19,7 @@ summary: Cisco MDS ablic Switch 데이터 수집기 구성.
 
 
 [role="lead"]
-Cloud Insights는 Cisco MDS 패브릭 스위치 데이터 수집기를 사용하여 Cisco MDS 패브릭 스위치의 인벤토리와 FC 서비스가 사용되는 다양한 Cisco Nexus FCoE 스위치를 검색합니다.
+Data Infrastructure Insights는 Cisco MDS 패브릭 스위치 데이터 수집기를 사용하여 Cisco MDS 패브릭 스위치 및 FC 서비스가 활성화된 다양한 Cisco Nexus FCoE 스위치의 인벤토리를 검색합니다.
 
 또한 이 데이터 수집기를 사용하여 NPV 모드에서 실행되는 여러 Cisco 장치 모델을 검색할 수 있습니다.
 
@@ -27,11 +27,11 @@ Cloud Insights는 Cisco MDS 패브릭 스위치 데이터 수집기를 사용하
 
 == 용어
 
-Cloud Insights는 Cisco FC 스위치 데이터 수집기에서 다음 인벤토리 정보를 가져옵니다. Cloud Insights에서 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
+Data Infrastructure Insights는 Cisco FC 스위치 데이터 수집기에서 다음과 같은 인벤토리 정보를 수집합니다. Data Infrastructure Insights에서 구입한 각 자산 유형에 대해 이 자산에 사용되는 가장 일반적인 용어가 표시되어 있습니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
 
 [cols="2*"]
 |===
-| 공급업체/모델 기간 | Cloud Insights 용어입니다 
+| 공급업체/모델 기간 | Data Infrastructure Insights 용어 
 
 
 | 스위치 | 스위치 
@@ -169,7 +169,7 @@ Cloud Insights는 Cisco FC 스위치 데이터 수집기에서 다음 인벤토�
 | 오류: 장치가 Cisco MDS 스위치가 아닙니다 | • 장치에 대해 구성된 데이터 소스 IP가 올바른지 확인 • Cisco Device Manager GUI를 사용하여 장치에 로그인 • CLI를 사용하여 장치에 로그인 
 
 
-| 오류: Cloud Insights가 스위치의 WWN을 가져올 수 없습니다. | FC 또는 FCoE 스위치가 아닐 수 있으므로 지원되지 않을 수 있습니다. 데이터 소스에 구성된 IP/FQDN이 실제로 FC/FCoE 스위치인지 확인합니다. 
+| 오류: Data Infrastructure Insights에서 스위치의 WWN을 가져올 수 없습니다. | FC 또는 FCoE 스위치가 아닐 수 있으므로 지원되지 않을 수 있습니다. 데이터 소스에 구성된 IP/FQDN이 실제로 FC/FCoE 스위치인지 확인합니다. 
 
 
 | 오류: NPV 스위치 포트에 로그인한 노드가 두 개 이상 있습니다 | NPV 스위치의 직접 획득을 비활성화합니다 

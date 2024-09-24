@@ -19,17 +19,17 @@ summary: Nutanix 데이터 수집기를 구성하는 중입니다.
 
 
 [role="lead"]
-Cloud Insights는 Nutanix 데이터 수집기를 사용하여 Nutanix NX 스토리지 시스템의 인벤토리 및 성능 데이터를 검색합니다.
+Data Infrastructure Insights는 Nutanix 데이터 수집기를 사용하여 Nutanix NX 스토리지 시스템의 인벤토리 및 성능 데이터를 검색합니다.
 
 
 
 == 용어
 
-Cloud Insights는 Nutanix 데이터 수집기로부터 다음과 같은 인벤토리 정보를 획득한다. Cloud Insights에서 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
+Data Infrastructure Insights는 Nutanix 데이터 수집기에서 다음과 같은 인벤토리 정보를 수집합니다. Data Infrastructure Insights에서 구입한 각 자산 유형에 대해 이 자산에 사용되는 가장 일반적인 용어가 표시되어 있습니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
 
 [cols="2*"]
 |===
-| 공급업체/모델 기간 | Cloud Insights 용어입니다 
+| 공급업체/모델 기간 | Data Infrastructure Insights 용어 
 
 
 | 스토리지 풀 | 스토리지 풀 

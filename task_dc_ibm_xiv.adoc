@@ -27,7 +27,7 @@ IBM XIV 및 A9000(CLI) 데이터 수집기는 XIV 명령줄 인터페이스를 �
 
 [cols="2*"]
 |===
-| 공급업체/모델 기간 | Cloud Insights 용어입니다 
+| 공급업체/모델 기간 | Data Infrastructure Insights 용어 
 
 
 | 디스크 | 디스크 

@@ -19,17 +19,17 @@ summary: HP Enterprise Command View 데이터 수집기 구성.
 
 
 [role="lead"]
-HP Enterprise Command View Advanced Edition 데이터 수집기는 CVAE(Command View Advanced Edition) 서버를 통해 XP 및 P9500 어레이 검색을 지원합니다. Cloud Insights는 표준 Command View API를 사용하여 CVAE와 통신하여 인벤토리 및 성능 데이터를 수집합니다.
+HP Enterprise Command View Advanced Edition 데이터 수집기는 CVAE(Command View Advanced Edition) 서버를 통해 XP 및 P9500 어레이 검색을 지원합니다. Data Infrastructure Insights는 표준 Command View API를 사용하여 CVAE와 통신하여 인벤토리 및 성능 데이터를 수집합니다.
 
 
 
 == 용어
 
-Cloud Insights는 HP Enterprise Command View 데이터 수집기에서 다음 인벤토리 정보를 가져옵니다. Cloud Insights에서 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
+Data Infrastructure Insights는 HP Enterprise Command View 데이터 수집기에서 다음과 같은 인벤토리 정보를 수집합니다. Data Infrastructure Insights에서 구입한 각 자산 유형에 대해 이 자산에 사용되는 가장 일반적인 용어가 표시되어 있습니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
 
 [cols="2*"]
 |===
-| 공급업체/모델 기간 | Cloud Insights 용어입니다 
+| 공급업체/모델 기간 | Data Infrastructure Insights 용어 
 
 
 | 개발 | 디스크 
@@ -72,14 +72,14 @@ Cloud Insights는 HP Enterprise Command View 데이터 수집기에서 다음 �
 +
 ** 성능 모니터에 라이센스가 있어야 합니다.
 ** 모니터링 스위치를 활성화해야 합니다.
-** 내보내기 도구(Export.exe)를 Cloud Insights AU에 복사하고 해당 위치로 추출해야 합니다. CI Linux AUS에서 "cisys"에 읽기 및 실행 권한이 있는지 확인합니다.
+** 내보내기 도구(Export.exe)를 Data Infrastructure Insights AU에 복사하고 위치로 추출해야 합니다. CI Linux AUS에서 "cisys"에 읽기 및 실행 권한이 있는지 확인합니다.
 ** 내보내기 도구 버전은 대상 스토리지의 마이크로코드 버전과 일치해야 합니다.
 
 
 * AMS 성능:
 +
 ** 성능 모니터에 라이센스가 있어야 합니다.
-** SNM2(Storage Navigator Modular 2) CLI 유틸리티는 Cloud Insights AU에 설치됩니다.
+** SNM2(Storage Navigator Modular 2) CLI 유틸리티는 Data Infrastructure Insights AU에 설치됩니다.
 
 
 * 네트워크 요구 사항
@@ -191,13 +191,13 @@ Cloud Insights는 HP Enterprise Command View 데이터 수집기에서 다음 �
 | 문제: | 다음을 시도해 보십시오. 
 
 
-| 오류: * 내보내기 유틸리티 실행 중 오류 * 외부 명령 실행 중 오류 | * 내보내기 유틸리티가 Cloud Insights 획득 장치에 설치되었는지 확인 * 데이터 수집기 구성에서 내보내기 유틸리티 위치가 올바른지 확인 * 데이터 수집기 구성에서 USP/R600 어레이의 IP가 올바른지 확인 * 사용자 이름을 확인합니다 데이터 수집기 구성에서 암호가 올바른지 확인하십시오. * 내보내기 유틸리티 버전이 Cloud Insights 획득 장치에서 스토리지 배열 마이크로 코드 버전*과 호환되는지 확인하고 CMD 프롬프트를 열고 다음을 수행하십시오. -디렉터리를 구성된 설치 디렉터리로 변경합니다. -배치 파일 runWin.bat 을 실행하여 구성된 스토리지 배열과의 연결을 시도합니다 
+| 오류: * 내보내기 유틸리티 실행 중 오류 * 외부 명령 실행 중 오류 | * 데이터 인프라 인사이트 획득 장치에 내보내기 유틸리티가 설치되어 있는지 확인 * 데이터 수집기 구성에서 내보내기 유틸리티 위치가 올바른지 확인 * 데이터 수집기 구성에서 USP/R600 어레이의 IP가 올바른지 확인 * 데이터 수집기 구성에서 사용자 이름 및 암호가 올바른지 확인 * 구성 된 마이크로 어레이 코드와 호환되는지 확인 후 CMD 스토리지 디렉토리 내보내기 를 사용하여 구성 runWin.bat 
 
 
 | 오류: 대상 IP에 대한 내보내기 도구 로그인에 실패했습니다 | * 사용자 이름/암호가 올바른지 확인 * 이 HDS 데이터 수집기에 대한 사용자 ID 생성 * 이 어레이를 획득하도록 구성된 다른 데이터 수집기가 없는지 확인합니다 
 
 
-| 오류: Export tools logged "Unable to get time range for monitoring". | * 스토리지에서 성능 모니터링이 활성화되었는지 확인합니다. * Cloud Insights 외부에서 내보내기 도구를 호출하여 문제가 Cloud Insights 외부에 있는지 확인합니다. 
+| 오류: Export tools logged "Unable to get time range for monitoring". | * 스토리지에서 성능 모니터링이 활성화되었는지 확인합니다. * Data Infrastructure Insights 외부에서 내보내기 도구를 호출하여 문제가 Data Infrastructure Insights 외부에 있는지 확인하십시오. 
 
 
 | 오류: * 구성 오류: 스토리지 어레이가 내보내기 유틸리티에서 지원되지 않음 * 구성 오류: 스토리지 어레이가 Storage Navigator Modular CLI에서 지원되지 않습니다 | * 지원되는 스토리지 어레이만 구성합니다. * "장치 목록 필터"를 사용하여 지원되지 않는 스토리지 배열을 제외합니다. 
@@ -206,7 +206,7 @@ Cloud Insights는 HP Enterprise Command View 데이터 수집기에서 다음 �
 | 오류: * 외부 명령 실행 중 오류 * 구성 오류: 스토리지 어레이가 인벤토리에서 보고되지 않음 * 구성 오류: 내보내기 폴더에 jar 파일이 없습니다 | * 내보내기 유틸리티 위치를 확인합니다. * 문제가 되는 스토리지 배열이 Command View 서버에 구성되어 있는지 확인합니다. * 성능 폴링 간격을 60초의 배수로 설정합니다. 
 
 
-| 오류: * 오류 Storage navigator CLI * auperform 명령 실행 중 오류 * 외부 명령 실행 중 오류 | * Cloud Insights 획득 장치에 Storage Navigator Modular CLI가 설치되어 있는지 확인 * Data Collector 구성에서 Storage Navigator Modular CLI 위치가 올바른지 확인 * 데이터 수집기 구성에서 WMS/SMS/SMS 어레이의 IP가 올바른지 확인 * 확인 해당 Storage Navigator Modular CLI 버전은 Cloud Insights 획득 장치의 데이터 수집기 * 에 구성된 스토리지 배열의 마이크로 코드 버전과 호환되며 CMD 프롬프트를 열고 다음을 수행합니다. - 디렉터리를 구성된 설치 디렉터리로 변경합니다. - "aunitref.exe" 명령을 실행하여 구성된 스토리지 배열과의 연결을 시도합니다. 
+| 오류: * 오류 Storage navigator CLI * auperform 명령 실행 중 오류 * 외부 명령 실행 중 오류 | * Storage Navigator Modular CLI가 데이터 인프라 인사이트 획득 장치에 설치되어 있는지 확인 * Storage Navigator Modular CLI 위치가 데이터 수집기 구성에서 올바른지 확인 * 데이터 수집기 구성에 WMS/SMS/SMS 어레이의 IP가 올바른지 확인 * Storage Navigator Modular CLI 버전이 데이터 수집기의 마이크로 코드 버전과 호환되는지 확인 * 다음과 같이 구성된 스토리지 참조 디렉토리에서 "CMD-exe"를 실행하여 스토리지 구성 해제 명령을 실행하여 스토리지 디렉토리를 여십시오. 
 
 
 | 오류: 구성 오류: 인벤토리에서 스토리지 배열을 보고하지 않았습니다 | Command View 서버에 해당 스토리지 배열이 구성되어 있는지 확인합니다 

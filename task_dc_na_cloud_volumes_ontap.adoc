@@ -80,7 +80,7 @@ keywords: data collector, NetApp, Cloud, ONTAP
 | 성능 동시 스레드 수입니다 | 동시 스레드 수입니다. 
 
 
-| 고급 카운터 데이터 수집 | Cloud Insights가 아래 목록에서 고급 메트릭을 수집하도록 하려면 이 확인란을 선택합니다. 
+| 고급 카운터 데이터 수집 | Data Infrastructure Insights가 아래 목록에서 고급 메트릭을 수집하도록 하려면 이 옵션을 선택합니다. 
 |===
 
 

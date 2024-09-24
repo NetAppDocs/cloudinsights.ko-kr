@@ -25,11 +25,11 @@ summary: ONTAP 데이터 수집기
 
 == 용어
 
-Cloud Insights는 ONTAP 데이터 수집기에서 인벤토리 및 성능 데이터를 가져옵니다. 획득한 각 자산 유형에 대해 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
+Data Infrastructure Insights는 ONTAP 데이터 수집기에서 인벤토리 및 성능 데이터를 가져옵니다. 획득한 각 자산 유형에 대해 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
 
 [cols="2*"]
 |===
-| 공급업체/모델 기간 | Cloud Insights 용어입니다 
+| 공급업체/모델 기간 | Data Infrastructure Insights 용어 
 
 
 | 디스크 | 디스크 
@@ -68,8 +68,8 @@ Cloud Insights는 ONTAP 데이터 수집기에서 인벤토리 및 성능 데이
 * IP – 일반적으로 데이터 소스에 구성된 IP 또는 호스트 이름이 됩니다.
 * 마이크로코드 버전 – 펌웨어.
 * 물리적 용량 – 역할에 관계없이 시스템의 모든 물리적 디스크에 대한 기본 2의 합계.
-* 지연 시간 – 읽기 및 쓰기 모두에서 호스트에서 발생하는 워크로드를 나타냅니다. Cloud Insights는 이러한 가치를 직접 소싱하는 것이 가장 바람직하지만, 이는 종종 그렇지 않습니다. 이러한 기능을 제공하는 스토리지 대신 Cloud Insights는 일반적으로 개별 내부 볼륨의 통계에서 파생된 IOP 가중 계산을 수행합니다.
-* 처리량 – 내부 볼륨에서 집계됩니다. 관리 - 장치의 관리 인터페이스에 대한 하이퍼링크가 포함될 수 있습니다. 인벤토리 보고의 일부로 Cloud Insights 데이터 소스에서 프로그래밍 방식으로 만듭니다.
+* 지연 시간 – 읽기 및 쓰기 모두에서 호스트에서 발생하는 워크로드를 나타냅니다. Data Infrastructure Insights는 이러한 가치를 직접 소싱하는 것이 좋지만, 그렇게 할 경우에는 그렇지 않은 경우가 많습니다. Data Infrastructure Insights는 이러한 기능을 제공하는 어레이 대신 일반적으로 개별 내부 볼륨의 통계에서 도출된 IOPS 가중 계산을 수행합니다.
+* 처리량 – 내부 볼륨에서 집계됩니다. 관리 - 장치의 관리 인터페이스에 대한 하이퍼링크가 포함될 수 있습니다. 인벤토리 보고의 일부로 Data Infrastructure Insights 데이터 소스에 의해 프로그래밍 방식으로 생성되었습니다.
 
 
 
@@ -132,7 +132,7 @@ Cloud Insights는 ONTAP 데이터 수집기에서 인벤토리 및 성능 데이
 
 === ONTAP 스위치 메트릭을 수집하기 위한 권한 요구 사항
 
-Cloud Insights에는 Collector의 옵션으로 ONTAP 클러스터 스위치 데이터를 수집하는 기능이 있습니다 <<advanced-configuration,고급 구성>> 설정. Cloud Insights Collector에서 이 기능을 활성화하는 것 외에도 ONTAP 시스템 * 자체에서 제공할 수 있도록 구성해야 합니다 link:https://docs.netapp.com/us-en/ontap-cli-98/system-switch-ethernet-create.html["스위치 정보"]를 선택하고 가 올바른지 확인합니다 <<a-note-about-permissions,권한>> 스위치 데이터를 Cloud Insights로 전송할 수 있도록 설정됩니다.
+Data Infrastructure Insights에는 ONTAP 클러스터 스위치 데이터를 수집기 <<advanced-configuration,고급 구성>>설정에서 옵션으로 수집하는 기능이 있습니다. 데이터 인프라 인사이트 수집기에서 이를 활성화할 뿐 아니라, link:https://docs.netapp.com/us-en/ontap-cli-98/system-switch-ethernet-create.html["스위치 정보"]<<a-note-about-permissions,권한>>스위치 데이터를 데이터 인프라 인사이트(Insights)로 전송할 수 있도록 ONTAP 시스템 * 자체를 구성하고 올바르게 설정되었는지 확인해야 합니다.
 
 
 
@@ -190,13 +190,13 @@ Cloud Insights에는 Collector의 옵션으로 ONTAP 클러스터 스위치 데�
 | 고급 카운터 데이터 수집 | ONTAP 통합을 활성화합니다. ONTAP 고급 카운터 데이터를 폴에 포함하려면 이 옵션을 선택합니다. 목록에서 원하는 카운터를 선택합니다. 
 
 
-| 클러스터 스위치 메트릭입니다 | Cloud Insights이 클러스터 스위치 데이터를 수집하도록 허용합니다. Cloud Insights 측에서 이 기능을 활성화하는 것 외에도 ONTAP 시스템에서도 이 기능을 제공하도록 구성해야 합니다 link:https://docs.netapp.com/us-en/ontap-cli-98/system-switch-ethernet-create.html["스위치 정보"]를 선택하고 가 올바른지 확인합니다 <<a-note-about-permissions,권한>> 스위치 데이터를 Cloud Insights로 전송할 수 있도록 설정됩니다. 아래의 "권한에 대한 참고 사항"을 참조하십시오. 
+| 클러스터 스위치 메트릭입니다 | Data Infrastructure Insights가 클러스터 스위치 데이터를 수집할 수 있도록 허용합니다. 참고link:https://docs.netapp.com/us-en/ontap-cli-98/system-switch-ethernet-create.html["스위치 정보"] <<a-note-about-permissions,권한>>: 데이터 인프라 인사이트 측에서 이 기능을 활성화하는 동시에 스위치 데이터를 데이터 인프라 인사이트 로 보낼 수 있도록 ONTAP 시스템을 구성해야 합니다. 아래의 "권한에 대한 참고 사항"을 참조하십시오. 
 |===
 
 
 == ONTAP 전력 측정 기준
 
-여러 ONTAP 모델은 Cloud Insights에 대한 전력 메트릭을 제공하므로 모니터링 또는 알림에 사용할 수 있습니다. 아래의 지원 모델과 지원되지 않는 모델 목록은 포괄하지는 않지만 몇 가지 지침을 제공해야 합니다. 일반적으로 모델이 목록에 있는 모델과 동일한 제품군에 속하는 경우 지원은 동일해야 합니다.
+여러 ONTAP 모델이 모니터링 또는 알림에 사용할 수 있는 데이터 인프라 Insights에 대한 전력 메트릭을 제공합니다. 아래의 지원 모델과 지원되지 않는 모델 목록은 포괄하지는 않지만 몇 가지 지침을 제공해야 합니다. 일반적으로 모델이 목록에 있는 모델과 동일한 제품군에 속하는 경우 지원은 동일해야 합니다.
 
 지원되는 모델:
 
@@ -237,11 +237,11 @@ FAS/AFF 8080
 
 == 사용 권한에 대한 참고 사항
 
-많은 Cloud Insights의 ONTAP 대시보드는 고급 ONTAP 카운터를 사용하기 때문에 데이터 수집기 고급 구성 섹션에서 * 고급 카운터 데이터 수집 * 을 활성화해야 합니다.
+많은 데이터 인프라 인사이트 ONTAP 대시보드가 고급 ONTAP 카운터를 사용하기 때문에 데이터 수집기 고급 구성 섹션에서 * 고급 카운터 데이터 수집 * 을 활성화해야 합니다.
 
 또한 ONTAP API에 대한 쓰기 권한이 활성화되어 있는지도 확인해야 합니다. 이 경우 일반적으로 필요한 권한이 있는 클러스터 수준의 계정이 필요합니다.
 
-클러스터 수준에서 Cloud Insights에 대한 로컬 계정을 생성하려면 클러스터 관리 관리자 사용자 이름/암호를 사용하여 ONTAP에 로그인하고 ONTAP 서버에서 다음 명령을 실행합니다.
+클러스터 수준에서 Data Infrastructure Insights에 대한 로컬 계정을 생성하려면 클러스터 관리 관리자 사용자 이름/암호를 사용하여 ONTAP에 로그인하고 ONTAP 서버에서 다음 명령을 실행합니다.
 
 . 시작하기 전에 _관리자_계정으로 ONTAP에 로그인해야 하며 _DIAGNOSTIC-LEVEL 명령_ 을 활성화해야 합니다.
 . 다음 명령을 사용하여 읽기 전용 역할을 만듭니다.
@@ -280,7 +280,7 @@ UserName    Application   Method      Role Name      Locked
 ci_user     ontapi      password    ci_readonly   no
 ....
 
-NOTE: ONTAP 액세스 제어가 올바르게 설정되어 있지 않으면 Cloud Insights REST 호출이 실패하여 장치의 데이터 공백이 발생할 수 있습니다.  예를 들어, Cloud Insights Collector에서 활성화했지만 ONTAP에 대한 권한을 구성하지 않은 경우 획득이 실패합니다.  또한 역할이 이전에 ONTAP에 정의되어 있고 REST API 기능을 추가하는 경우 _http_가 역할에 추가되었는지 확인합니다.
+NOTE: ONTAP 액세스 제어가 올바르게 설정되어 있지 않으면 Data Infrastructure Insights REST 호출이 실패하여 장치의 데이터 갭이 생길 수 있습니다. 예를 들어, 데이터 인프라 인사이트 수집기에서 이 기능을 활성화했지만 ONTAP에 대한 권한을 구성하지 않은 경우 획득이 실패합니다. 또한 역할이 이전에 ONTAP에 정의되어 있고 REST API 기능을 추가하는 경우 _http_가 역할에 추가되었는지 확인합니다.
 
 
 

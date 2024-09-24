@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: index.html 
-summary: Cloud Insights 설명서 포털에 오신 것을 환영합니다. 
+summary: Data Infrastructure Insights의 설명서 포털에 오신 것을 환영합니다. 
 keywords:  
 ---
-= Cloud Insights 설명서
+= Data Infrastructure Insights 설명서
 :toc: macro
 :hardbreaks:
 :toclevels: 2
@@ -19,13 +19,13 @@ keywords:
 
 
 [role="lead"]
-NetApp Cloud Insights는 전체 인프라에 대한 가시성을 제공하는 클라우드 인프라 모니터링 툴입니다. Cloud Insights를 사용하면 퍼블릭 클라우드 및 프라이빗 데이터 센터를 비롯한 모든 리소스에 대한 모니터링, 문제 해결 및 최적화 등이 가능합니다.
+NetApp 데이터 인프라 인사이트(이전의 Cloud Insights)는 전체 인프라에 대한 가시성을 제공하는 클라우드 인프라 모니터링 툴입니다. 데이터 인프라 Insight를 사용하면 퍼블릭 클라우드 및 프라이빗 데이터 센터를 비롯한 모든 리소스에 대한 모니터링, 문제 해결 및 최적화 등이 가능합니다.
 
 
 
-== Cloud Insights이 무슨 일을 할 수 있습니까?
+== 데이터 인프라 Insights를 통해 얻을 수 있는 이점
 
-Cloud Insights는 하이브리드 멀티 클라우드 모니터링을 통해 인프라 및 워크로드를 전체 스택에 대한 관찰 가능성을 제공합니다.
+Data Infrastructure Insights는 하이브리드 멀티 클라우드 모니터링 기능을 제공하여 인프라 및 워크로드에 대한 전체 스택을 관찰할 수 있도록 지원합니다.
 
 * Kubernetes를 포함한 이기종 인프라 및 워크로드의 데이터 수집기가 있습니다
 * Open Telegraf Collector 및 개방형 API를 통해 간편하게 통합할 수 있습니다
@@ -42,7 +42,7 @@ Cloud Insights는 하이브리드 멀티 클라우드 모니터링을 통해 인
 
 == 시작하기
 
-* 방법 link:task_cloud_insights_onboarding_1.html["* 시작하기 *"] Cloud Insights?
+* link:task_cloud_insights_onboarding_1.html["* 시작하기 *"]데이터 인프라 인사이트 활용 방법
 * 가입했습니다. 이제 어떻게 해야 할까요?link:task_getting_started_with_cloud_insights.html["데이터 획득"]
 link:concept_user_roles.html["사용자 설정 중"]
 * 멋집니다! 다음 단계

@@ -19,7 +19,7 @@ summary: Flink 데이터 수집기 구성
 
 
 [role="lead"]
-Cloud Insights는 에이전트를 설치한 노드에서 메트릭을 수집합니다.
+Data Infrastructure Insights는 에이전트를 설치하는 노드에서 메트릭을 수집합니다.
 
 
 

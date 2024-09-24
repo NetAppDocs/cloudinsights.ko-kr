@@ -19,7 +19,7 @@ summary: Brocade 데이터 수집기 구성 중.
 
 
 [role="lead"]
-Cloud Insights는 Brocade EFCM(Enterprise Fabric Connectivity Manager) 데이터 수집기를 사용하여 Brocade EFCM 스위치의 인벤토리를 검색합니다. Cloud Insights는 EFCM 버전 9.5, 9.6 및 9.7을 지원합니다.
+Data Infrastructure Insights는 Brocade EFCM(Enterprise Fabric Connectivity Manager) 데이터 수집기를 사용하여 Brocade EFCM 스위치의 인벤토리를 검색합니다. Data Infrastructure Insights는 EFCM 버전 9.5, 9.6 및 9.7을 지원합니다.
 
 
 
@@ -29,7 +29,7 @@ Cloud Insights는 Brocade EFCM(Enterprise Fabric Connectivity Manager) 데이터
 * EFCM 버전은 9.5, 9.6 또는 9.7이어야 합니다
 * EFCM 서버의 IP 주소입니다
 * EFCM 서버에 대한 읽기 전용 사용자 이름 및 암호입니다
-* 포트 51512에서 읽기 전용 사용자 이름과 암호를 사용하여 Cloud Insights 서버에서 텔넷을 통해 Connectrix 스위치에 대한 액세스를 검증했습니다
+* 포트 51512를 통해 읽기 전용 사용자 이름과 암호를 사용하여 Data Infrastructure Insights 서버에서 텔넷을 통해 Connectrix 스위치에 대한 액세스를 검증했습니다
 
 
 
@@ -82,7 +82,7 @@ Cloud Insights는 Brocade EFCM(Enterprise Fabric Connectivity Manager) 데이터
 | 장치 제외 | 폴링에서 포함하거나 제외할 단위 이름의 쉼표로 구분된 목록입니다 
 
 
-| EFCM 스위치 별칭을 스위치 이름으로 사용합니다 | EFCM 스위치 별칭을 Cloud Insights 스위치 이름으로 사용하려면 선택합니다. 
+| EFCM 스위치 별칭을 스위치 이름으로 사용합니다 | EFCM 스위치 별명을 Data Infrastructure Insights 스위치 이름으로 사용하려면 선택합니다. 
 
 
 | 성능 폴링 간격(초) | 성능 폴링 간격입니다. 기본값은 300초입니다. 

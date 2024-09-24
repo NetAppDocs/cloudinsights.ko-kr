@@ -29,7 +29,7 @@ Cloud Insight는 NetApp E-Series에서 REST를 사용하여 다음 인벤토리 
 
 [cols="2*"]
 |===
-| 공급업체/모델 기간 | Cloud Insights 용어입니다 
+| 공급업체/모델 기간 | Data Infrastructure Insights 용어 
 
 
 | 디스크 | 디스크 
@@ -56,7 +56,7 @@ Cloud Insight는 NetApp E-Series에서 REST를 사용하여 다음 인벤토리 
 == 요구 사항
 
 * 어레이에 있는 각 컨트롤러의 IP 주소입니다
-* 이 Collector는 * 기본 REST API 기능 * 을 갖춘 E-Series 모델 어레이만 지원합니다. E-Series 조직은 이전 E-Series 어레이에 대해 설치 가능한 REST API 배포를 오프 어레이에 출고합니다. 이 수집기는 이 시나리오를 지원하지 않습니다. 이전 스토리지 시스템을 사용하는 사용자는 계속해서 Cloud Insights를 사용해야 합니다. link:task_dc_na_eseries.html["E-Series SANtricity API를 참조하십시오"] 수집기.
+* 이 Collector는 * 기본 REST API 기능 * 을 갖춘 E-Series 모델 어레이만 지원합니다. E-Series 조직은 이전 E-Series 어레이에 대해 설치 가능한 REST API 배포를 오프 어레이에 출고합니다. 이 수집기는 이 시나리오를 지원하지 않습니다. 이전 스토리지 시스템을 사용하는 사용자는 Data Infrastructure Insights의 link:task_dc_na_eseries.html["E-Series SANtricity API를 참조하십시오"] Collector를 계속 사용해야 합니다.
 * "E-Series Controller IP addresses" 필드는 쉼표로 구분된 2개의 IP/호스트 이름으로 구성된 문자열을 지원합니다. 첫 번째 IP/호스트 이름에 액세스할 수 없는 경우 수집기는 두 번째 IP/호스트 이름을 지능적으로 시도합니다.
 * HTTPS 포트: 기본값은 8443입니다.
 
@@ -102,9 +102,9 @@ Cloud Insight는 NetApp E-Series에서 REST를 사용하여 다음 인벤토리 
 * IP – 일반적으로 데이터 소스에 구성된 IP 또는 호스트 이름이 됩니다
 * 마이크로코드 버전 – 펌웨어
 * 물리적 용량 – 역할에 관계없이 시스템의 모든 물리적 디스크에 대한 기본 2의 합계
-* 지연 시간 – 읽기 및 쓰기 모두에서 호스트에서 발생하는 워크로드를 나타냅니다. Cloud Insights는 이러한 가치를 직접 소싱하는 것이 가장 바람직하지만, 이는 종종 그렇지 않습니다. 이러한 기능을 제공하는 스토리지 대신 Cloud Insights는 일반적으로 개별 볼륨의 통계에서 파생된 IOP 가중 계산을 수행합니다.
-* 처리량 – 처리량(throughput)을 보이는 스토리지의 총 호스트입니다. 스토리지에서 직접 소싱하는 것이 가장 이상적이며, 사용할 수 없는 경우 Cloud Insights는 이 값을 도출하기 위해 볼륨의 처리량을 합산하고 있습니다
-* 관리 - 장치의 관리 인터페이스에 대한 하이퍼링크가 포함될 수 있습니다. 인벤토리 보고의 일부로 Cloud Insights 데이터 소스가 프로그래밍 방식으로 만듭니다
+* 지연 시간 – 읽기 및 쓰기 모두에서 호스트에서 발생하는 워크로드를 나타냅니다. Data Infrastructure Insights는 이러한 가치를 직접 소싱하는 것이 좋지만, 그렇게 할 경우에는 그렇지 않은 경우가 많습니다. Data Infrastructure Insights는 이러한 기능을 제공하는 어레이 대신 일반적으로 개별 볼륨의 통계에서 파생된 IOPS 가중 계산을 수행합니다.
+* 처리량 – 처리량(throughput)을 보이는 스토리지의 총 호스트입니다. 어레이에서 직접 소싱하는 것이 가장 좋으며, 사용할 수 없는 경우 Data Infrastructure Insights에서는 볼륨의 처리량을 합산하여 이 가치를 도출합니다
+* 관리 - 장치의 관리 인터페이스에 대한 하이퍼링크가 포함될 수 있습니다. 인벤토리 보고의 일부로 Data Infrastructure Insights 데이터 소스에 의해 프로그래밍 방식으로 생성됩니다  
 
 
 

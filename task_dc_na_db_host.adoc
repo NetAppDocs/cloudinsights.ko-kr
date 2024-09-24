@@ -22,7 +22,7 @@ summary: 일반 DB 호스트 확인자 수집기입니다
 
 == 용어
 
-Cloud Insights가 이 수집기에서 재고를 가져옵니다.
+Data Infrastructure Insights가 이 수집기의 인벤토리를 가져옵니다.
 
 
 

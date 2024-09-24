@@ -23,7 +23,7 @@ summary: Dell EMC Unisphere REST 데이터 수집기 구성
 
 Dell/EMC는 Unisphere 10.0까지 볼륨 통계를 제공하지 않았습니다. 이 데이터 수집기는 9.2.0+를 지원하지만 볼륨 통계가 없으므로 이 통계를 수집할 수 없습니다.
 
-한 Unisphere for VMAX/PowerMax 인스턴스가 하나 이상의 Symmetrix VMAX 3 이상의 스토리지 시스템을 관리하고 있을 수 있습니다. 이 수집기는 기본적으로 해당 Unisphere 인스턴스에 대해 "로컬"인 모든 스토리지 시스템을 검색하려고 시도합니다. Unisphere 인스턴스에서 "원격" 스토리지(즉, SRDF 복제를 통해 연결된 스토리지)가 표시되면 해당 스토리지가 무시되고 Cloud Insights에서 해당 사이트의 Unisphere 인스턴스에서 로컬 스토리지 시스템으로 인식되는 항목을 가리켰을 때 필요한 추가 Unisphere Collector를 생성해야 합니다.
+한 Unisphere for VMAX/PowerMax 인스턴스가 하나 이상의 Symmetrix VMAX 3 이상의 스토리지 시스템을 관리하고 있을 수 있습니다. 이 수집기는 기본적으로 해당 Unisphere 인스턴스에 대해 "로컬"인 모든 스토리지 시스템을 검색하려고 시도합니다. Unisphere 인스턴스에 "원격" 스토리지(즉, SRDF 복제를 통해 연결된 스토리지)가 표시되는 경우 해당 스토리지가 무시되며, 이러한 스토리지를 검색하려면 해당 사이트의 Unisphere 인스턴스가 로컬로 표시되는 Data Infrastructure Insights에서 추가 Unisphere Collector를 생성해야 합니다.
 
 구성을 위해 데이터 수집기는 Unisphere 서버의 IP 주소/FQDN, 포트 8443에 대한 TCP 연결, 사용자 이름 및 암호가 필요합니다.
 

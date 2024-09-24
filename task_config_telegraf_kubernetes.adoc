@@ -16,7 +16,7 @@ summary: Kubernetes용 데이터 수집기
 
 
 [role="lead"]
-Cloud Insights는 이 데이터 수집기를 사용하여 Kubernetes Pod, 노드 및 컨테이너 메트릭을 수집합니다.
+Data Infrastructure Insights는 이 데이터 수집기를 사용하여 Kubernetes Pod, 노드 및 컨테이너 메트릭을 수집합니다.
 
 
 

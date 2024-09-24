@@ -47,8 +47,6 @@ image:WidgetNamingExample-C.png["위젯 이름 지정 예"]
 
 대시보드 편집 모드에서 위젯의 메뉴를 클릭하고 * 복제 * 를 선택합니다. 위젯 편집기가 시작되고, 원래 위젯의 구성이 미리 채워지고 위젯 이름에 "copy" 접미사가 붙습니다. 필요한 사항을 쉽게 변경하고 새 위젯을 저장할 수 있습니다. 위젯은 대시보드 하단에 배치되며 필요에 따라 배치할 수 있습니다. 모든 변경이 완료되면 대시보드를 저장해야 합니다.
 
-image:DuplicateWidget.png["위젯을 복제합니다"]
-
 
 
 == 위젯 범례 표시 중
@@ -471,7 +469,7 @@ image::SecondaryAxisExplained.png[보조 축 예제]
 +
 차트는 총 IOPS의 합계를 표시하는 선을 표시합니다.
 
-. Duplicate this Query _ 아이콘을 클릭합니다 image:DuplicateQueryIcon.png["Duplicat 쿼리"] 쿼리의 복사본을 만듭니다.
+. 쿼리 복사본을 만들려면 _Duplicate this Query_icon을 클릭하십시오.
 +
 쿼리의 복제본이 원본 아래에 추가됩니다.
 
@@ -505,7 +503,7 @@ image::SecondaryAxisExplained.png[보조 축 예제]
 
 테이블 위젯은 식을 약간 다르게 처리합니다. 하나의 테이블 위젯에 최대 5개의 표현식을 포함할 수 있으며 각 표현식은 테이블에 새 칼럼으로 추가됩니다. 각 식은 계산을 수행할 값을 최대 5개까지 포함할 수 있습니다. 열에 의미 있는 이름을 쉽게 지정할 수 있습니다.
 
-image:Expression Example.png["테이블 위젯의 식"]
+image:ExpressionExample.png["테이블 위젯의 식"]
 
 
 
@@ -612,7 +610,7 @@ image:Variables_Automatic_Filter_Button.png["자동 필터"]
 
 단색 및 글머리 기호 게이지 위젯을 사용하여 _Warning_ 및/또는 _Critical_levels에 대한 임계값을 설정하여 지정한 데이터를 명확하게 표시할 수 있습니다.
 
-image:Gauge Widget Formatting.png["게이지 위젯에 대한 형식 설정"]
+image:GaugeWidgetFormatting.png["게이지 위젯에 대한 형식 설정"]
 
 이러한 위젯에 대한 서식을 설정하려면 다음 단계를 수행하십시오.
 
@@ -632,7 +630,7 @@ image:Gauge-Bullet.png["bullet 게이지, 폭 = 374"]
 
 단일 값 위젯에서 경고(주황색) 및 위험(빨간색) 임계값을 설정하는 것 외에도 "범위 내" 값(경고 수준 미만)이 녹색 또는 흰색 배경으로 표시되도록 선택할 수 있습니다.
 
-image:Single-Value Widgets.png["포맷이 있는 단일 값 위젯 및 포맷이 없는 위젯"]
+image:Single-ValueWidgets.png["포맷이 있는 단일 값 위젯 및 포맷이 없는 위젯"]
 
 단일 값 위젯 또는 게이지 위젯에서 링크를 클릭하면 위젯의 첫 번째 쿼리에 해당하는 쿼리 페이지가 표시됩니다.
 
@@ -692,7 +690,7 @@ NOTE: Cloud Insights는 미국 영어 번호 명명 표준을 사용합니다. �
 
 두 개의 쿼리가 있는 시간 시리즈 위젯(예: 선, 스플라인, 영역, 스택 영역)이 둘 다 기본 Y축을 플롯하는 경우 기본 단위는 Y축 상단에 표시되지 않습니다. 하지만 위젯에 기본 Y축에 쿼리가 있고 보조 Y축에 쿼리가 있는 경우 각 항목의 기본 단위가 표시됩니다.
 
-image:UnitsOnPrimaryAnd SecondaryYAxis.png["두 Y축 모두에 단위"]
+image:UnitsOnPrimaryAndSecondaryYAxis.png["두 Y축 모두에 단위"]
 
 위젯에 쿼리가 3개 이상 있는 경우 Y축에 기본 단위가 표시되지 않습니다.
 
@@ -802,8 +800,8 @@ TV 모드 * 와 함께 사용할 경우 자동 새로 고침을 통해 대시보
 
 NOTE: NetApp BlueXP의 사용자 로그인 시간 제한은 7일이므로 Cloud Insights도 이 이벤트를 사용하여 로그아웃해야 합니다. 다시 로그인하면 대시보드가 계속 표시됩니다.
 
-* TV 모드를 활성화하려면 를 클릭합니다 image:ActivateTVMode.png["TV 모드"] 단추를 클릭합니다.
-* TV 모드를 비활성화하려면 화면 왼쪽 상단의 * Exit * (종료 *) 버튼을 클릭합니다. image:ExitTVMode.png["종료 버튼"]
+* TV 모드를 활성화하려면 TV 모드 버튼을 클릭합니다.
+* TV 모드를 비활성화하려면 화면 왼쪽 상단의 * Exit * (종료 *) 버튼을 클릭합니다.
 
 
 오른쪽 상단의 일시 중지 버튼을 클릭하여 자동 새로 고침을 일시적으로 중단할 수 있습니다. 일시 중지된 동안 대시보드 시간 범위 필드에 일시 중지된 데이터의 활성 시간 범위가 표시됩니다. 자동 새로 고침이 일시 중지되어 있는 동안 데이터가 계속 수집되고 업데이트됩니다. 데이터 자동 새로 고침을 계속하려면 재개 버튼을 클릭합니다.

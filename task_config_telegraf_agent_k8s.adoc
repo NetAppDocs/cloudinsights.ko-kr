@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task_config_telegraf_agent_k8s.html 
 keywords: kubernetes, Kubernetes, k8s, telegraf, installation, install, agent, telegraf agent, eks, operator 
-summary: Kubernetes 모니터링 운영자는 Cloud Insights에서 사용할 Kubernetes 데이터를 수집합니다. 
+summary: Kubernetes 모니터링 운영자는 Data Infrastructure Insights에 사용할 Kubernetes 데이터를 수집합니다. 
 ---
 = Kubernetes Monitoring Operator 설치 및 구성
 :hardbreaks:
@@ -16,7 +16,7 @@ summary: Kubernetes 모니터링 운영자는 Cloud Insights에서 사용할 Kub
 
 
 [role="lead"]
-Cloud Insights은 Kubernetes 컬렉션을 위한 * Kubernetes Monitoring Operator * 를 제공합니다. Kubernetes > Collectors > + Kubernetes Collector * 로 이동하여 새 연산자를 구축합니다.
+Data Infrastructure Insights는 Kubernetes 컬렉션을 위한 * Kubernetes Monitoring Operator * 를 제공합니다. Kubernetes > Collectors > + Kubernetes Collector * 로 이동하여 새 연산자를 구축합니다.
 
 
 toc::[]
@@ -52,7 +52,7 @@ image:NKMO-Instructions-2.png["모니터링 작업자 지침"]
 
 == Kubernetes 모니터링 구성 요소
 
-Cloud Insights Kubernetes 모니터링은 다음 4가지 모니터링 구성 요소로 구성됩니다.
+Data Infrastructure Insights Kubernetes Monitoring은 네 가지 모니터링 구성 요소로 이루어져 있습니다.
 
 * 클러스터 메트릭입니다
 * 네트워크 성능 및 맵(옵션)
@@ -90,7 +90,7 @@ AgentConfiguration이 있는 경우:
 
 AgentConfiguration이 없는 경우:
 
-* Cloud Insights에서 인식하는 클러스터 이름을 기록합니다(네임스페이스가 기본 NetApp 모니터링이 아닌 경우 해당 네임스페이스를 대체).
+* 데이터 인프라 인사이트 에서 인식된 클러스터 이름을 기록합니다(네임스페이스가 기본 NetApp-monitoring이 아닌 경우 해당 네임스페이스를 대체).
 +
  kubectl -n netapp-monitoring get agent -o jsonpath='{.items[0].spec.cluster-name}'
 * 기존 운영자의 백업을 생성합니다(네임스페이스가 기본 NetApp 모니터링이 아닌 경우 적절한 네임스페이스를 대체).
@@ -185,11 +185,11 @@ Kube-State-Metrics에 대한 자세한 내용은 를 참조하십시오 link:tas
 
 Kubernetes Monitoring Operator를 설치하기 위해 사용자 환경에서 프록시를 사용할 수 있는 위치는 두 곳입니다. 이러한 시스템은 동일하거나 별도의 프록시 시스템일 수 있습니다.
 
-* 설치 코드 조각을 실행하는 동안("curl" 사용) 프록시가 있어야 스니펫이 실행되는 시스템을 Cloud Insights 환경에 연결할 수 있습니다
-* 대상 Kubernetes 클러스터에서 Cloud Insights 환경과 통신하는 데 프록시가 필요합니다
+* 설치 코드 스니펫을 실행하는 동안("curl" 사용) 프록시를 사용하여 스니펫이 실행되는 시스템을 Data Infrastructure Insights 환경에 연결해야 합니다
+* Data Infrastructure Insights 환경과 통신하는 데 필요한 프록시입니다
 
 
-이 중 하나 또는 둘 모두에 프록시를 사용하는 경우 Kubernetes 운영 모니터를 설치하려면 먼저 프록시가 Cloud Insights 환경과의 원활한 통신을 허용하도록 구성되었는지 확인해야 합니다. 프록시가 있고 운영자를 설치하려는 서버/VM에서 Cloud Insights에 액세스할 수 있는 경우 프록시가 제대로 구성되었을 수 있습니다.
+이 중 하나 또는 둘 모두에 프록시를 사용하는 경우 Kubernetes 운영 모니터를 설치하려면 먼저 프록시가 Data Infrastructure Insights 환경과 통신할 수 있도록 구성되었는지 확인해야 합니다. 프록시가 있고 운영자를 설치하려는 서버/VM에서 Data Infrastructure Insights에 액세스할 수 있는 경우 프록시가 제대로 구성된 것일 수 있습니다.
 
 Kubernetes 운영 모니터를 설치하는 데 사용되는 프록시의 경우 Operator를 설치하기 전에 _http_proxy/https_proxy_environment 변수를 설정합니다. 일부 프록시 환경에서는 _no_proxy 환경_변수를 설정해야 할 수도 있습니다.
 
@@ -207,7 +207,7 @@ Kubernetes 운영 모니터를 설치하는 데 사용되는 프록시의 경우
 
 
 
-Kubernetes 클러스터가 Cloud Insights 환경과 통신하는 데 사용되는 프록시의 경우 이 지침을 모두 읽은 후 Kubernetes 모니터링 운영자를 설치합니다.
+Kubernetes 클러스터가 Data Infrastructure Insights 환경과 통신하는 데 사용되는 프록시의 경우 이 모든 지침을 읽은 후 Kubernetes Monitoring Operator를 설치합니다.
 
 Kubernetes 모니터링 연산자를 배포하기 전에 operator-config.yaml에서 AgentConfiguration의 프록시 섹션을 구성합니다.
 
@@ -237,9 +237,9 @@ agent:
 
 === 사용자 지정 또는 프라이빗 Docker 저장소 사용
 
-기본적으로 Kubernetes 모니터링 운영자는 Cloud Insights 저장소에서 컨테이너 이미지를 가져옵니다. Kubernetes 클러스터를 모니터링 대상으로 사용하고 있고 해당 클러스터가 사용자 지정 또는 프라이빗 Docker 저장소 또는 컨테이너 레지스트리에서 컨테이너 이미지만을 가져오도록 구성된 경우, Kubernetes Monitoring Operator가 필요한 컨테이너에 대한 액세스를 구성해야 합니다.
+기본적으로 Kubernetes Monitoring Operator는 Data Infrastructure Insights 저장소에서 컨테이너 이미지를 가져옵니다. Kubernetes 클러스터를 모니터링 대상으로 사용하고 있고 해당 클러스터가 사용자 지정 또는 프라이빗 Docker 저장소 또는 컨테이너 레지스트리에서 컨테이너 이미지만을 가져오도록 구성된 경우, Kubernetes Monitoring Operator가 필요한 컨테이너에 대한 액세스를 구성해야 합니다.
 
-NetApp 모니터링 오퍼레이터 설치 타일에서 "이미지 풀 스니펫"을 실행합니다. 이 명령은 Cloud Insights 리포지토리에 로그인하고 오퍼레이터의 모든 이미지 종속성을 풀한 다음 Cloud Insights 리포지토리에서 로그아웃합니다. 메시지가 표시되면 제공된 리포지토리 임시 암호를 입력합니다. 이 명령은 옵션 기능을 포함하여 오퍼레이터가 사용하는 모든 이미지를 다운로드합니다. 이러한 이미지가 사용되는 기능은 아래를 참조하십시오.
+NetApp 모니터링 오퍼레이터 설치 타일에서 "이미지 풀 스니펫"을 실행합니다. 이 명령은 Data Infrastructure Insights 저장소에 로그인하고 운영자의 모든 이미지 종속성을 가져온 다음 Data Infrastructure Insights 저장소에서 로그아웃합니다. 메시지가 표시되면 제공된 리포지토리 임시 암호를 입력합니다. 이 명령은 옵션 기능을 포함하여 오퍼레이터가 사용하는 모든 이미지를 다운로드합니다. 이러한 이미지가 사용되는 기능은 아래를 참조하십시오.
 
 핵심 운영자 기능 및 Kubernetes 모니터링
 
@@ -261,7 +261,7 @@ NetApp 모니터링 오퍼레이터 설치 타일에서 "이미지 풀 스니펫
 * CI-NET-관찰자
 
 
-회사 정책에 따라 운영 Docker 이미지를 프라이빗/로컬/엔터프라이즈 Docker 저장소로 밀어 넣습니다. 리포지토리에서 이러한 이미지에 대한 이미지 태그 및 디렉터리 경로가 Cloud Insights 리포지토리의 이미지 태그 및 디렉터리 경로와 일치하는지 확인합니다.
+회사 정책에 따라 운영 Docker 이미지를 프라이빗/로컬/엔터프라이즈 Docker 저장소로 밀어 넣습니다. 리포지토리에 있는 이러한 이미지에 대한 이미지 태그와 디렉터리 경로가 Data Infrastructure Insights 리포지토리에 있는 이미지와 일치하는지 확인합니다.
 
 운영자 배포에서 모니터링 - 운영자 배포를 편집합니다. YAML을 편집하고 모든 이미지 참조를 수정하여 개인 Docker 저장소를 사용하십시오.
 
@@ -326,7 +326,7 @@ Kubernetes 모니터링 운영자가 클러스터 전체의 비밀을 볼 수 �
 
 == Kubernetes 체크섬 확인 중
 
-Cloud Insights 에이전트 설치 프로그램은 무결성 검사를 수행하지만 일부 사용자는 다운로드한 아티팩트를 설치하거나 적용하기 전에 자체 검증을 수행하려고 할 수 있습니다. 기본 다운로드 및 설치 대신 다운로드 전용 작업을 수행하기 위해 이러한 사용자는 UI에서 가져온 에이전트 설치 명령을 편집하고 뒤에 오는 "설치" 옵션을 제거할 수 있습니다.
+Data Infrastructure Insights 에이전트 설치 관리자가 무결성 검사를 수행하지만 일부 사용자는 다운로드한 아티팩트를 설치하거나 적용하기 전에 자체 검증을 수행할 수 있습니다. 기본 다운로드 및 설치 대신 다운로드 전용 작업을 수행하기 위해 이러한 사용자는 UI에서 가져온 에이전트 설치 명령을 편집하고 뒤에 오는 "설치" 옵션을 제거할 수 있습니다.
 
 다음 단계를 수행하십시오.
 
@@ -346,7 +346,7 @@ Cloud Insights 에이전트 설치 프로그램은 무결성 검사를 수행하
 
 
 
-download-only 명령은 필요한 모든 아티팩트를 Cloud Insights에서 작업 디렉토리로 다운로드합니다.  아티팩트에는 다음이 포함되지만 이에 국한되지는 않습니다.
+download-only 명령은 Data Infrastructure Insights에서 작업 디렉토리로 필요한 모든 아티팩트를 다운로드합니다. 아티팩트에는 다음이 포함되지만 이에 국한되지는 않습니다.
 
 * 설치 스크립트
 * 환경 파일입니다
@@ -390,7 +390,7 @@ Kubernetes Monitoring Operator를 설정하는 데 문제가 발생할 경우 �
 | 문제: | 다음을 시도해 보십시오. 
 
 
-| Kubernetes 영구 볼륨과 해당 백엔드 스토리지 장치 간의 하이퍼링크/연결이 표시되지 않습니다. 내 Kubernetes 영구 볼륨은 스토리지 서버의 호스트 이름을 사용하여 구성됩니다. | 기존 Telegraf 에이전트를 제거한 다음 최신 Telegraf 에이전트를 다시 설치하는 단계를 따릅니다. Telegraf 버전 2.0 이상을 사용해야 하며 Kubernetes 클러스터 스토리지를 Cloud Insights에서 능동적으로 모니터링해야 합니다. 
+| Kubernetes 영구 볼륨과 해당 백엔드 스토리지 장치 간의 하이퍼링크/연결이 표시되지 않습니다. 내 Kubernetes 영구 볼륨은 스토리지 서버의 호스트 이름을 사용하여 구성됩니다. | 기존 Telegraf 에이전트를 제거한 다음 최신 Telegraf 에이전트를 다시 설치하는 단계를 따릅니다. Telegraf 버전 2.0 이상을 사용 중이고 Kubernetes 클러스터 스토리지를 Data Infrastructure Insights에서 능동적으로 모니터링해야 합니다. 
 
 
 | 로그에 다음과 같은 메시지가 표시됩니다.
@@ -511,23 +511,7 @@ kubectl get all -n <namespace> | grep -i psp (아무것도 발견되지 않았�
 | 클러스터에 존재하는 Kubernetes CronJobs에 대해 어떤 메트릭도 수집되지 않습니다. | Kubernetes 버전 확인(예 `kubectl version`)를 클릭합니다.  v1.20.x 이하일 경우 이는 예상되는 제한 사항입니다.  Kubernetes Monitoring Operator와 함께 배포된 kube-state-metrics 릴리스는 v1.cronjob만 지원합니다.  Kubernetes 1.20.x 이하에서는 crontjob 리소스가 v1beta.crontjob에 있습니다.  따라서 kube-state-metrics는 crontjob 리소스를 찾을 수 없습니다. 
 
 
-| 운용자 설치 후, Telegraf-ds Pod는 CrashLoopBackOff로 진입하고 POD 로그는 "su:Authentication failure"를 나타낸다. | _AgentConfiguration_에서 Telegraf 섹션을 편집하고 _dockerMetricCollectionEnabled_를 false 로 설정합니다. 자세한 내용은 조작자를 참조하십시오  link:telegraf_agent_k8s_config_options.html["구성 옵션"].
-
-참고: Cloud Insights Federal Edition을 사용하는 경우, Docker 소켓에 액세스하려면 Telegraf 컨테이너를 루트로 실행하거나 _su_를 사용하여 Telegraf 사용자를 Docker 그룹에 추가해야 하기 때문에 _su_ 사용이 제한된 사용자는 Docker 메트릭을 수집할 수 없습니다. Docker 메트릭 수집 및 _su_의 사용은 기본적으로 활성화되어 있습니다. 두 가지를 모두 사용하지 않으려면 _AgentConfiguration_파일에서 _Telegraf.docker_entry를 제거하십시오.
-
-...
-사양:
-...
-텔레그라프:
-    ...
-     -name: docker입니다
-            실행 모드:
-              - DemonSet
-            대체:
-              -key:docker_unix_sock_placeholder입니다
-                값: UNIX:///run/docker.sock
-    ...
-... 
+| 운용자 설치 후, Telegraf-ds Pod는 CrashLoopBackOff로 진입하고 POD 로그는 "su:Authentication failure"를 나타낸다. | _AgentConfiguration_에서 Telegraf 섹션을 편집하고 _dockerMetricCollectionEnabled_를 false 로 설정합니다. 자세한 내용은 조작자를 link:telegraf_agent_k8s_config_options.html["구성 옵션"]참조하십시오. 참고: Data Infrastructure Insights Federal Edition을 사용하는 경우 Docker 소켓에 액세스하려면 Telegraf 컨테이너를 루트로 실행하거나 _su_를 사용하여 Telegraf 사용자를 Docker 그룹에 추가해야 하기 때문에 _su_ 사용이 제한된 사용자는 Docker 메트릭을 수집할 수 없습니다. Docker 메트릭 수집 및 _su_의 사용은 기본적으로 활성화되어 있습니다. 이 두 가지를 모두 사용하지 않으려면 _AgentConfiguration_파일에서 _Telegraf.docker_entry를 제거하십시오. ... spec:... Telegraf:...           -name:docker       run-mode:                    -DemonSet 대체:-key:docker_unix_sock_placeholder         값: unix://run/docker.sock... ... 
 
 
 | Telegraf 로그에 다음과 유사한 오류 메시지가 반복적으로 표시됩니다.
@@ -538,10 +522,10 @@ kubectl get all -n <namespace> | grep -i psp (아무것도 발견되지 않았�
 | 일부 이벤트 로그에 대한 _divedobject_data가 없습니다. | 의 단계를 수행했는지 확인합니다 link:pre-requisites_for_k8s_operator.html["권한"] 섹션을 참조하십시오. 
 
 
-| 두 개의 모니터링 운영자 Pod가 실행 중인 것을 볼 수 있는데, 하나는 netapp-ci-monitoring-operator-<pod>이고 다른 하나는 monitoring-operator-<pod>입니다. | 2023년 10월 12일부터 Cloud Insights은 사용자에게 더 나은 서비스를 제공하기 위해 운영자를 리팩토링했습니다. 변경 사항을 완전히 채택하려면 반드시 필요합니다 <<uninstalling,기존 연산자를 제거합니다>> 및 <<installing-the-kubernetes-monitoring-operator,새 장치를 장착하십시오>>. 
+| 두 개의 모니터링 운영자 Pod가 실행 중인 것을 볼 수 있는데, 하나는 netapp-ci-monitoring-operator-<pod>이고 다른 하나는 monitoring-operator-<pod>입니다. | 2023년 10월 12일부터 Data Infrastructure Insights는 사용자에게 더 나은 서비스를 제공하기 위해 운영자를 재고했습니다. 변경 사항을 완전히 채택하려면 반드시 <<uninstalling,기존 연산자를 제거합니다>> AND를 준수해야  합니다.<<installing-the-kubernetes-monitoring-operator,새 장치를 장착하십시오>> 
 
 
-| 내 Kubernetes 이벤트가 예기치 않게 Cloud Insights 보고에 대한 보고를 중단했습니다.  a| 
+| 저의 Kubernetes 이벤트가 예기치 않게 Data Infrastructure Insights에 대한 보고를 중단했습니다.  a| 
 이벤트 내보내기 포드의 이름을 검색합니다.
 
  `kubectl -n netapp-monitoring get pods |grep event-exporter |awk '{print $1}' |sed 's/event-exporter./event-exporter/'`

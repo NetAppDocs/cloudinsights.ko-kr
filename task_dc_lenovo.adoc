@@ -19,7 +19,7 @@ summary: Lenovo 데이터 수집기 구성 중.
 
 
 [role="lead"]
-Cloud Insights는 Lenovo 데이터 수집기를 사용하여 Lenovo HX 스토리지 시스템의 인벤토리 및 성능 데이터를 검색합니다.
+Data Infrastructure Insights는 Lenovo 데이터 수집기를 사용하여 Lenovo HX 스토리지 시스템의 인벤토리 및 성능 데이터를 검색합니다.
 
 참고: 이러한 용어 매핑은 일반적인 용어 매핑일 뿐이며 이 데이터 수집기의 모든 경우를 나타내는 것은 아닙니다.
 

@@ -19,7 +19,7 @@ keywords: data collector, queries, create
 
 
 [role="lead"]
-이 데이터 수집기는 Google Compute 클라우드 플랫폼 구성의 인벤토리 및 성능 수집을 지원합니다. 이 수집기는 하나의 Google 조직 내의 모든 프로젝트 내의 모든 컴퓨팅 리소스를 검색합니다. Cloud Insights를 사용하여 검색하려는 Google 조직이 여러 개인 경우 조직당 하나의 Cloud Insights Collector를 배포하려고 합니다.
+이 데이터 수집기는 Google Compute 클라우드 플랫폼 구성의 인벤토리 및 성능 수집을 지원합니다. 이 수집기는 하나의 Google 조직 내의 모든 프로젝트 내의 모든 컴퓨팅 리소스를 검색합니다. Data Infrastructure Insights로 검색할 Google 조직이 여러 개 있는 경우 조직당 하나의 Data Infrastructure Insights 수집기를 배포해야 합니다.
 
 
 
@@ -33,7 +33,7 @@ keywords: data collector, queries, create
 | 조직 ID입니다 | 이 수집기로 검색할 조직 ID입니다. 서비스 계정이 둘 이상의 조직을 볼 수 있는 경우 이 필드는 필수입니다 
 
 
-| GCP 프로젝트를 ID로 필터링하려면 '제외' 또는 '포함'을 선택하십시오 | Cloud Insights에 가져올 프로젝트 리소스를 제한하려는 경우 
+| GCP 프로젝트를 ID로 필터링하려면 '제외' 또는 '포함'을 선택하십시오 | Data Infrastructure Insights에 가져올 프로젝트 리소스를 제한하려는 경우 
 
 
 | 프로젝트 ID | "제외 선택"..." 값의 값에 따라 검색 또는 검색에서 필터링하려는 프로젝트 ID 목록입니다. 기본 목록은 비어 있습니다 

@@ -19,7 +19,7 @@ summary: VNXe 데이터 수집기 구성 중
 
 
 [role="lead"]
-Dell EMC Unity(이전의 VNXe) 데이터 수집기는 VNXe 유니파이드 스토리지 시스템에 대한 인벤토리 지원을 제공합니다. Cloud Insights는 현재 iSCSI 및 NAS 프로토콜을 지원합니다.
+Dell EMC Unity(이전의 VNXe) 데이터 수집기는 VNXe 유니파이드 스토리지 시스템에 대한 인벤토리 지원을 제공합니다. Data Infrastructure Insights는 현재 iSCSI 및 NAS 프로토콜을 지원합니다.
 
 
 
@@ -30,18 +30,18 @@ Dell EMC Unity(이전의 VNXe) 데이터 수집기는 VNXe 유니파이드 스�
 * Unity 장치의 IP 주소 또는 정규화된 도메인 이름입니다
 * 데이터 수집기에서 사용할 수 있는 읽기 전용 사용자가 적어도 있어야 합니다.
 * 포트 443의 HTTPS가 필요합니다
-* EMC Unity 데이터 수집기는 인벤토리에 대한 NAS 및 iSCSI 지원을 제공합니다. Fibre Channel 볼륨이 검색되지만 Cloud Insights는 FC 매핑, 마스킹 또는 스토리지 포트에 대해 보고하지 않습니다.
+* EMC Unity 데이터 수집기는 인벤토리에 대한 NAS 및 iSCSI 지원을 제공합니다. Fibre Channel 볼륨은 검색되지만 Data Infrastructure Insights는 FC 매핑, 마스킹 또는 스토리지 포트에 대해 보고하지 않습니다.
 
 
 
 
 == 용어
 
-Cloud Insights는 Unity 데이터 수집기에서 다음 인벤토리 정보를 가져옵니다. Cloud Insights에서 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
+Data Infrastructure Insights는 Unity 데이터 수집기에서 다음과 같은 인벤토리 정보를 수집합니다. Data Infrastructure Insights에서 구입한 각 자산 유형에 대해 이 자산에 사용되는 가장 일반적인 용어가 표시되어 있습니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
 
 [cols="2*"]
 |===
-| 공급업체/모델 기간 | Cloud Insights 용어입니다 
+| 공급업체/모델 기간 | Data Infrastructure Insights 용어 
 
 
 | 디스크 | 디스크 
@@ -121,6 +121,6 @@ Cloud Insights는 Unity 데이터 수집기에서 다음 인벤토리 정보를 
 | 문제: | 다음을 시도해 보십시오. 
 
 
-| "Failed to execute external utility"(외부 유틸리티 실행 실패) 및 "Failed to find Unisphere executable uemcli" 오류 메시지 | * 올바른 IP 주소, 사용자 이름 및 암호 확인 * Cloud Insights 획득 유닛에 Unisphere CLI가 설치되어 있는지 확인 * 데이터 소스 구성에서 Unisphere CLI 설치 디렉토리가 올바른지 확인 * 데이터 소스 구성에서 VNXe의 IP가 올바른지 확인 Cloud Insights 획득 장치에서 CMD를 열고 구성된 설치 디렉토리 ${INSTALLDIR로 변경합니다. uemcli -d <your IP> -u <your ID>/sys/general show 를 입력하여 VNXe 디바이스에 대한 접속을 시도합니다 
+| "Failed to execute external utility"(외부 유틸리티 실행 실패) 및 "Failed to find Unisphere executable uemcli" 오류 메시지 | * IP 주소, 사용자 이름 및 암호가 올바른지 확인 * Data Infrastructure Insights 획득 유닛에 Unisphere CLI가 설치되어 있는지 확인 * 데이터 소스 구성에서 Unisphere CLI 설치 디렉토리가 올바른지 확인 * 데이터 소스 구성에서 VNXe의 IP가 올바른지 확인합니다. Data Infrastructure Insights 획득 장치에서 CMD를 열고 구성된 설치 디렉터리(${INSTALLDIR)로 변경합니다. uemcli -d <your IP> -u <your ID>/sys/general show 를 입력하여 VNXe 디바이스에 대한 접속을 시도합니다 
 |===
 추가 정보는 에서 찾을 수 있습니다 link:concept_requesting_support.html["지원"] 페이지 또는 에 있습니다 link:reference_data_collector_support_matrix.html["Data Collector 지원 매트릭스"].

@@ -19,7 +19,7 @@ summary: Cohesity SmartFiles 데이터 수집기 구성
 
 
 [role="lead"]
-이 REST API 기반 수집기는 Cohesity 클러스터를 획득하여 "보기"(Cloud Insights 내부 볼륨)와 다양한 노드를 검색하고 성능 메트릭을 수집합니다.
+이 REST API 기반 수집기는 Cohesity 클러스터를 획득하여 "Views"(Data Infrastructure Insights 내부 볼륨으로) 및 다양한 노드를 검색하고 성능 메트릭을 수집합니다.
 
 
 

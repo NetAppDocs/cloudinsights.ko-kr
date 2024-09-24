@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: concept_whats_new.html 
-summary: Cloud Insights에서 사용할 수 있는 새로운 기능 
+summary: Data Infrastructure Insights에서 사용 가능한 새로운 기능 
 keywords: features 
 ---
-= Cloud Insights의 새로운 기능
+= Data Infrastructure Insights의 새로운 기능
 :hardbreaks:
 :toclevels: 2
 :allow-uri-read: 
@@ -16,7 +16,19 @@ keywords: features
 
 
 [role="lead"]
-NetApp은 제품과 서비스를 지속적으로 개선 및 개선하고 있습니다. 다음은 Cloud Insights의 상용 버전에서 사용할 수 있는 최신 기능 중 일부입니다.
+NetApp은 제품과 서비스를 지속적으로 개선 및 개선하고 있습니다. 다음은 Data Infrastructure Insights(이전의 Cloud Insights)에서 사용할 수 있는 몇 가지 최신 기능입니다.
+
+
+
+== 2024년 9월
+
+
+
+=== 이전의 Cloud Insights인 Data Infrastructure Insights를 소개합니다
+
+2024년 9월 24일 화요일에 NetApp은 Cloud Insights의 이름을 * Data Infrastructure Insights * (DII)로 공식 변경했습니다. 이 발표는 Haiyan Song이 주요 무대 기조 프레젠테이션과 Insight 컨퍼런스 제품 보도 자료를 통해 Insight 사용자 컨퍼런스에서 진행되었습니다.
+
+DII 서비스는 동일하게 유지되며 기능에 변경 또는 수정이 없습니다. 이는 모든 IT 인프라에 대한 기능과 서비스 이름을 보다 효과적으로 조정하기 위한 이름입니다.
 
 
 

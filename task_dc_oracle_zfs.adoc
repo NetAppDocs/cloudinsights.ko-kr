@@ -19,17 +19,17 @@ summary: Oracle ZFS 데이터 수집기 구성.
 
 
 [role="lead"]
-Cloud Insights는 Oracle ZFS Storage Appliance 데이터 수집기를 사용하여 인벤토리 및 성능 데이터를 수집합니다.
+Data Infrastructure Insights는 Oracle ZFS Storage Appliance 데이터 수집기를 사용하여 인벤토리 및 성능 데이터를 수집합니다.
 
 
 
 == 용어
 
-Cloud Insights는 Oracle ZFS 데이터 수집기로 인벤토리 정보를 가져옵니다. Cloud Insights에서 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
+Data Infrastructure Insights는 Oracle ZFS 데이터 수집기를 사용하여 재고 정보를 수집합니다. Data Infrastructure Insights에서 구입한 각 자산 유형에 대해 이 자산에 사용되는 가장 일반적인 용어가 표시되어 있습니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
 
 [cols="2*"]
 |===
-| 공급업체/모델 기간 | Cloud Insights 용어입니다 
+| 공급업체/모델 기간 | Data Infrastructure Insights 용어 
 
 
 | 디스크(SSD) | 디스크 
@@ -67,7 +67,7 @@ Cloud Insights는 Oracle ZFS 데이터 수집기로 인벤토리 정보를 가�
 
 == 필수 성능 메트릭
 
-Oracle ZFS 어플라이언스는 스토리지 관리자에게 성능 통계를 수집할 수 있는 많은 유연성을 제공합니다. Cloud Insights는 다음 메트릭을 캡처하도록 구성된 고가용성 쌍의 _Each_controller를 가지고 있어야 합니다.
+Oracle ZFS 어플라이언스는 스토리지 관리자에게 성능 통계를 수집할 수 있는 많은 유연성을 제공합니다. Data Infrastructure Insights에서는 고가용성 쌍의 _ Each_컨트롤러를 다음 메트릭을 캡처하도록 구성할 것으로 예상합니다.
 
 * SMB2.ops [공유]
 * NFS3.ops [share]
@@ -75,7 +75,7 @@ Oracle ZFS 어플라이언스는 스토리지 관리자에게 성능 통계를 �
 * NFS4-1.ops [공유]
 
 
-컨트롤러가 이러한 워크로드 중 일부 또는 전부를 캡처하지 못할 경우 Cloud Insights에서 "내부 볼륨"의 워크로드를 사용하지 않거나 성능 저하 문제가 발생할 수 있습니다.
+컨트롤러가 이러한 중 일부 또는 전부를 캡처하지 못하면 Data Infrastructure Insights가 "내부 볼륨"의 워크로드를 수행하지 않거나 과소 보고할 수 있습니다.
 
 
 

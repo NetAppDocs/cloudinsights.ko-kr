@@ -19,7 +19,7 @@ summary: Azure NetApp Files 데이터 수집기 구성 중.
 
 
 [role="lead"]
-Cloud Insights는 Azure NetApp Files 데이터 수집기를 사용하여 인벤토리 및 성능 데이터를 가져옵니다.
+Data Infrastructure Insights는 Azure NetApp Files 데이터 수집기를 사용하여 인벤토리 및 성능 데이터를 획득합니다.
 
 
 
@@ -31,9 +31,9 @@ Cloud Insights는 Azure NetApp Files 데이터 수집기를 사용하여 인벤�
 * Azure 관리 REST IP(management.azure.com)
 * Azure 서비스 주 클라이언트 ID(사용자 계정)
 * Azure 서비스 주 인증 키(사용자 암호)
-* Cloud Insights 검색을 위해 Azure 계정을 설정해야 합니다.
+* Data Infrastructure Insights 검색을 위해 Azure 계정을 설정해야 합니다.
 +
-계정이 올바르게 구성되고 Azure에 애플리케이션을 등록하면 Cloud Insights로 Azure 인스턴스를 검색하는 데 필요한 자격 증명이 제공됩니다. 다음 링크에서는 검색을 위해 계정을 설정하는 방법에 대해 설명합니다.
+계정이 올바르게 구성되고 Azure에 애플리케이션을 등록하면 Data Infrastructure Insights를 통해 Azure 인스턴스를 검색하는 데 필요한 자격 증명이 제공됩니다. 다음 링크에서는 검색을 위해 계정을 설정하는 방법에 대해 설명합니다.
 
 
 

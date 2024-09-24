@@ -25,11 +25,11 @@ HP Enterprise Alletra 6000(이전의 Nimble) 데이터 수집기는 Alletra 6000
 
 == 용어
 
-Cloud Insights는 이 수집기에서 다음 재고 정보를 가져옵니다. Cloud Insights에서 획득한 각 자산 유형에 대해 이 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
+Data Infrastructure Insights는 이 수집기에서 다음과 같은 인벤토리 정보를 수집합니다. Data Infrastructure Insights에서 구입한 각 자산 유형에 대해 이 자산에 사용되는 가장 일반적인 용어가 표시되어 있습니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
 
 [cols="2*"]
 |===
-| 공급업체/모델 기간 | Cloud Insights 용어입니다 
+| 공급업체/모델 기간 | Data Infrastructure Insights 용어 
 
 
 | 스토리지 | 스토리지 
@@ -69,7 +69,7 @@ Cloud Insights는 이 수집기에서 다음 재고 정보를 가져옵니다. C
 스토리지 어레이에서 성능 데이터를 수집하려면 다음이 있어야 합니다.
 
 * 스토리지에서 NimbleOS 4.0.0 이상을 실행해야 합니다
-* 어레이에 볼륨이 구성되어 있어야 합니다. 통계 Cloud Insights 보고서는 볼륨에 대한 유일한 성능 API NimbleOS의 것으로, 볼륨에 대한 통계에서 파생됩니다
+* 어레이에 볼륨이 구성되어 있어야 합니다. NimbleOS의 유일한 성능 API는 볼륨에 대한 것이며 모든 통계 Data Infrastructure Insights 보고서는 볼륨 통계에서 도출됩니다
 
 
 

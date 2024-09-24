@@ -19,17 +19,17 @@ summary: Pure Storage 데이터 수집기 구성.
 
 
 [role="lead"]
-Cloud Insights은 Pure Storage FlashBlade 데이터 수집기를 사용하여 REST API 버전 2를 표시하는 FlashBlade 클러스터에서 인벤토리 및 성능 데이터를 수집합니다
+Data Infrastructure Insights는 Pure Storage FlashBlade 데이터 수집기를 사용하여 REST API 버전 2를 표시하는 FlashBlade 클러스터에서 인벤토리 및 성능 데이터를 수집합니다
 
 
 
 == 용어
 
-Cloud Insights에서 획득한 각 자산 유형에 대해 자산에 가장 일반적으로 사용되는 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
+Data Infrastructure Insights에서 구입한 각 자산 유형에 대해 자산에 사용되는 가장 일반적인 용어가 표시됩니다. 이 데이터 수집기를 보거나 문제를 해결할 때 다음 용어를 염두에 두십시오.
 
 [cols="2*"]
 |===
-| 공급업체/모델 기간 | Cloud Insights 용어입니다 
+| 공급업체/모델 기간 | Data Infrastructure Insights 용어 
 
 
 | 드라이브(SSD) | 디스크 
@@ -72,7 +72,7 @@ Cloud Insights에서 획득한 각 자산 유형에 대해 자산에 가장 일�
 | FlashBlade 호스트 IP 주소입니다 | 스토리지 시스템의 IP 주소입니다 
 
 
-| 사용자 이름입니다 | Cloud Insights 관리자가 자신의 API 토큰이 속한 사용자를 기억하는 데 도움이 되는 사용자 이름입니다 
+| 사용자 이름입니다 | Data Infrastructure Insights 관리자가 자신의 API 토큰이 속한 사용자를 기억하는 데 도움이 되는 사용자 이름입니다 
 
 
 | API 토큰 | API 토큰 

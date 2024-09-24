@@ -19,7 +19,7 @@ summary: Apache ZooKeeper 데이터 수집기 구성
 
 
 [role="lead"]
-Cloud Insights는 이 데이터 수집기를 사용하여 Apache ZooKeeper에서 메트릭을 수집합니다.
+Data Infrastructure Insights는 이 데이터 수집기를 사용하여 Apache ZooKeeper에서 메트릭을 수집합니다.
 
 
 
