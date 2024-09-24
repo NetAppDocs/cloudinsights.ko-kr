@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept_dashboards_overview.html 
-summary: Cloud Insights의 대시보드 개요 
+summary: Data Infrastructure Insights의 대시보드 개요 
 keywords: dashboard, widget, custom, view, data 
 ---
 = 대시보드 개요
@@ -19,7 +19,7 @@ keywords: dashboard, widget, custom, view, data
 
 
 [role="lead"]
-Cloud Insights를 사용하면 다양한 위젯이 포함된 맞춤형 대시보드를 생성할 수 있으므로 인프라 데이터의 운영 보기를 유연하게 생성할 수 있습니다. 각 대시보드는 데이터를 표시하고 차트에 작성할 때 매우 유연하게 사용할 수 있습니다.
+Data Infrastructure Insights는 다양한 위젯을 사용하여 사용자 지정 대시보드를 생성할 수 있도록 함으로써 사용자가 인프라 데이터의 운영 뷰를 생성할 수 있는 유연성을 제공하며, 각 위젯은 데이터를 표시하고 차트화할 수 있는 광범위한 유연성을 제공합니다.
 
 
 IMPORTANT: 이 섹션의 예는 설명을 위한 것이며 가능한 모든 시나리오를 다루지는 않습니다. 이 문서의 개념 및 단계를 사용하여 자신의 대시보드를 만들어 특정 요구 사항에 맞는 데이터를 강조할 수 있습니다.

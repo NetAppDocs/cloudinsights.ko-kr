@@ -44,7 +44,6 @@
   <block id="f605eb6ac9043e9f1502d006629b9dc3" category="doc">로그 탐색기</block>
   <block id="0aa526404a7affc36dc5d2429d255945" category="inline-image-macro">로그를 선택합니다</block>
   <block id="32daa822b566f93b5c95aa039268049d" category="paragraph">필터를 설정하여 쿼리 결과를 세부적으로 조정할 수 있습니다. 예를 들어, 오류를 표시하는 모든 로그 메시지를 찾으려면 "failed"라는 단어가 포함된 _messages_에 대한 필터를 설정합니다.</block>
-  <block id="e290a1958705f522c7d916c05fcad28c" category="admonition">필터 필드에 원하는 텍스트를 입력할 수 있습니다. 입력할 때 문자열을 포함하는 와일드카드 검색을 생성하라는 메시지가 Cloud Insights에 표시됩니다.</block>
   <block id="4fc206dee5c28b63ff442e3ed9df6b96" category="paragraph">결과는 표시된 각 기간의 로그 인스턴스 수를 보여 주는 그래프에 표시됩니다. 그래프 아래에는 로그 항목이 템플릿입니다. 선택한 시간 범위에 따라 그래프와 항목이 자동으로 새로 고쳐집니다.</block>
   <block id="8ef03d84e3fb3a5e09cc1a40b1e60f8d" category="inline-image-macro">필터를 보여 주는 쿼리 예</block>
   <block id="a5841d3432662ae9190489b4bf13e03c" category="paragraph"><block ref="a5841d3432662ae9190489b4bf13e03c" category="inline-image-macro-rx" type="image"></block></block>
@@ -298,28 +297,22 @@
   <block id="b9bfbe11ded79fa1b72b327d0497f9dd" category="inline-image-macro">지원 페이지</block>
   <block id="e9d356ec51ae4d84881e70ea3c98b6dc" category="section-title">지원 권한 활성화 중</block>
   <block id="27792947ed5d5da7c0d1f43327ed9dab" category="inline-link-macro">세부 정보</block>
-  <block id="8c3419f130ad04caaa52bc7ca345b657" category="paragraph">초기 구독 프로세스 중에 Cloud Insights 인스턴스에서는 "950"으로 시작하는 20자리의 NetApp 일련 번호를 생성합니다. 이 NetApp 일련 번호는 계정과 연결된 Cloud Insights 구독을 나타냅니다. 지원 자격을 활성화하려면 NetApp 일련 번호를 등록해야 합니다. NetApp에서는 두 가지 지원 등록 옵션을 제공합니다.</block>
   <block id="cc8ae441e8fc2d8b41c5c0efa830b99e" category="list-text">기존 NetApp Support 사이트(NSS) SSO 계정을 가진 사용자(예: 현재 NetApp 고객)</block>
   <block id="0a0b0ec9b756ca7bf1c8323bc90df282" category="list-text">기존 NetApp Support Site(NSS) SSO 계정이 없는 새로운 NetApp 고객</block>
   <block id="46ccdfc99b7c3549431cd8228c7969aa" category="section-title">옵션 1: 기존 NSS(NetApp Support Site) SSO 계정을 가진 사용자를 위한 단계</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
   <block id="9908d321822f7404bb0eafaba2bfdd4f" category="list-text">NetApp 등록 웹 사이트로 이동합니다<block ref="25901fb2084c068b072ad2e600cb7393" category="inline-link-rx"></block></block>
-  <block id="8694dd7d89b8138c63654f3ad3d52d60" category="list-text">"NetApp 고객으로 이미 등록되어 있습니다"를 선택하고 제품 라인으로 _Cloud Insights_를 선택합니다. 청구 공급자(NetApp 또는 AWS)를 선택하고 Cloud Insights 사용자 인터페이스 내의 "도움말 &gt; 지원" 메뉴를 참조하여 일련 번호와 NetApp 구독 이름 또는 AWS 고객 ID를 제공하십시오.</block>
   <block id="4ec6efe1597d12aeecb3770711c6b28e" category="inline-image-macro">SN_화면</block>
   <block id="25318cb05f745d8a82809b53bdcd98cb" category="paragraph"><block ref="25318cb05f745d8a82809b53bdcd98cb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="528a21e927794c9e56d9aa019556d356" category="list-text">기존 고객 등록 양식을 작성하고 * 제출 * 을 클릭합니다.</block>
   <block id="bdbfe218df1a9d120c971b693e61849c" category="inline-image-macro">기존 고객 양식</block>
   <block id="16ed2e83008b21b0f31573753edaead2" category="paragraph"><block ref="16ed2e83008b21b0f31573753edaead2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f23c46d71e19dfb195752037ae011e67" category="list-text">오류가 발생하지 않으면 "Registration Submitted successfully(등록 제출됨)" 페이지로 이동합니다. 등록에 사용되는 NSS SSO 사용자 이름과 연결된 이메일 주소는 몇 분 이내에 "Your product is now eligible for support"라는 이메일을 받게 됩니다.</block>
-  <block id="c30a3265bc001e80f716f8d152bb02bf" category="list-text">Cloud Insights NetApp 일련 번호에 대한 일회성 등록입니다.</block>
   <block id="d168d988bc50e92c9d125916b9fd204b" category="section-title">옵션 2: 기존 NetApp Support 사이트(NSS) SSO 계정이 없는 새로운 NetApp 고객을 위한 단계</block>
   <block id="12306141d4f52746734da7a6d2fcbcd3" category="list-text">"등록된 NetApp 고객이 아닙니다."를 선택하고 아래 예시 양식에 필요한 정보를 입력합니다.</block>
   <block id="86ff60e4ea8410ddf103afe0ac4a2c04" category="inline-image-macro">새 고객 양식</block>
   <block id="9ff2e299ad4aa21f1b2da73ae35e14c1" category="paragraph"><block ref="9ff2e299ad4aa21f1b2da73ae35e14c1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="46907f9e919eaa8e36538ae653230af5" category="list-text">제품 라인으로 _ Cloud Insights _ 을(를) 선택합니다. 청구 공급자(NetApp 또는 AWS)를 선택하고 Cloud Insights 사용자 인터페이스 내의 "도움말 &gt; 지원" 메뉴를 참조하여 일련 번호와 NetApp 구독 이름 또는 AWS 고객 ID를 제공하십시오.</block>
   <block id="310e9bfbb0987bc588b6f281357bc81c" category="list-text">오류가 발생하지 않으면 "Registration Submitted successfully(등록 제출됨)" 페이지로 이동합니다. 등록에 사용되는 NSS SSO 사용자 이름과 연결된 이메일 주소는 몇 시간 이내에 "Your product is now eligible for support"라는 이메일을 받게 됩니다.</block>
-  <block id="563ab1cab19237118c0d565ded4f7493" category="list-text">또한 새로운 NetApp 고객은 NSS(NetApp Support Site) 사용자 계정을 생성하여 향후 등록을 해야 하며 기술 지원 채팅 및 웹 티켓 지원을 위한 지원 포털에 액세스해야 합니다. 이 링크는 에 있습니다<block ref="4b0df7f6652ef877e322a199d6b6edce" category="inline-link-rx"></block>. 새로 등록한 Cloud Insights 일련 번호를 제공하여 프로세스를 신속하게 처리할 수 있습니다.</block>
-  <block id="0e458a16f853c4e326f689913acf2dfe" category="list-text">Cloud Insights NetApp 일련 번호에 대한 1회 등록입니다.</block>
   <block id="bc4afdcc32d9a7d1bc03c2d8ad5b1828" category="section-title">지원 정보 얻기</block>
   <block id="0ead5de583924ac8d48848b85f68e778" category="section-title">셀프 서비스 지원:</block>
   <block id="6c0afebc7e7822e3ca22734d7b5d42c0" category="paragraph">이러한 지원 옵션은 평가판 모드에서 사용할 수 있으며 연중무휴 24시간 무료로 제공됩니다.</block>
@@ -328,28 +321,19 @@
   <block id="7cef246d709d34533b9dea3e15d3f5a2" category="list-text">*<block ref="2ecfa39652ed0f06ca436cc3b19d2bbb" category="inline-link-macro-rx"></block>*</block>
   <block id="15d10c3fd39c9846221b3ea9c93b55e0" category="paragraph">설명서 링크를 클릭하면 이 설명서 센터로 이동합니다.</block>
   <block id="7d61983c34edc2a8cabbea71c4732f62" category="inline-link-macro">커뮤니티</block>
-  <block id="a7a9e9720c642358ce4d75836f0323d7" category="paragraph">커뮤니티 링크를 클릭하면 NetApp Cloud Insights 커뮤니티에서 동료 및 전문가와 연결할 수 있습니다.</block>
   <block id="c48730cb532534ed8ded87a7e1e63743" category="inline-link-macro">* 피드백 *</block>
-  <block id="1ee12c9d2a4f0460caa4b5f609d4b32e" category="paragraph">또한 링크를 통해 제공할 수 있습니다 <block ref="845d40e8369612c1d8dd285f0ebc254e" category="inline-link-macro-rx"></block> Cloud Insights 개선을 위해 필요한 도움을 드릴 수 있습니다.</block>
   <block id="52fcceb1925114589eec173daab1c999" category="section-title">구독 지원</block>
-  <block id="8af88bdd2f4549eb670a6c4568c51014" category="paragraph">위의 자체 지원 옵션 외에도, 모니터링된 NetApp 제품 또는 서비스에 대한 Cloud Insights 가입 또는 유료 지원 서비스가 있는 경우 NetApp 지원 엔지니어와 협력하여 문제를 해결할 수 있습니다.</block>
   <block id="8e2e894a8f2d0c798eda10b04a6aae2c" category="inline-link-macro">클라우드 데이터 서비스 지원 등록</block>
   <block id="960807b3a38d77ca1916570b1732dda1" category="inline-xref">지원을 활성화합니다</block>
-  <block id="59ec599572265c11af88366fc10b5d22" category="paragraph">지원 세션 중에 NetApp 지원 엔지니어가 Cloud Insights 환경에 액세스할 수 있도록 확인란을 선택하는 것이 좋습니다. 그러면 엔지니어가 문제를 해결하고 신속하게 해결할 수 있습니다. 문제가 해결되거나 지원 세션이 종료된 경우 확인란을 선택 취소할 수 있습니다.</block>
-  <block id="1178d064739e36d66d617e550b890b3c" category="paragraph">다음 방법 중 하나를 사용하여 지원을 요청할 수 있습니다. 다음 지원 옵션을 사용하려면 Cloud Insights에 가입되어 있어야 합니다.</block>
   <block id="e145a699aa519b4431527a84030fe1fd" category="inline-link-macro">* 전화 *</block>
   <block id="d509e88fe0d420e546f838c2bf3149e4" category="list-text"><block ref="d509e88fe0d420e546f838c2bf3149e4" category="inline-link-macro-rx"></block></block>
   <block id="78ce7a1ba00884845ede733dc79b1141" category="inline-link-macro">* 지원 티켓 *</block>
   <block id="1ce9a43d63998783a781596de13b0965" category="list-text"><block ref="fa5b9c38e8e5b8e1f4e408b08ce16532" category="inline-link-macro-rx"></block></block>
   <block id="ac2ae10a8c7bd50e80c93d5e57fc84da" category="inline-link-macro">* 영업팀에 문의 *</block>
   <block id="5c0e6c90408c98d6eca3e09416c4ee77" category="paragraph">을 클릭하여 영업 지원을 요청할 수도 있습니다 <block ref="57d2406fdd9ad62e0bb0722bd44749df" category="inline-link-macro-rx"></block> 링크.</block>
-  <block id="6c45ba81e807bdb7fd46fdc507e78d04" category="paragraph">Cloud Insights 일련 번호는 서비스 내에서 도움말 &gt; 지원* 메뉴에서 확인할 수 있습니다. 서비스에 액세스하는 데 문제가 있고 이전에 NetApp에 일련 번호를 등록한 경우 다음과 같이 NetApp Support 사이트에서 Cloud Insights 일련 번호 목록을 볼 수도 있습니다.</block>
   <block id="290bf19e1ed3fabfc80a0ac6d77f6466" category="list-text">mysupport.netapp.com 에 로그인합니다</block>
-  <block id="96535de75983e775c212ac1a50cbb261" category="list-text">제품 &gt; 내 제품 메뉴 탭에서 제품군 “SaaS Cloud Insights”를 사용하여 등록된 모든 일련 번호를 찾습니다.</block>
   <block id="159164cf75b6b2213362f17761977a0c" category="inline-image-macro">지원 SN을 봅니다</block>
   <block id="533e65443960283ff24073ad80db0e3d" category="paragraph"><block ref="533e65443960283ff24073ad80db0e3d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1c52cf8dba7f709e8910813b93418d94" category="section-title">Cloud Insights 데이터 수집기 지원 매트릭스</block>
-  <block id="d59e2e05079f7c9c24f5bbba7c6e3547" category="inline-link-macro">* Cloud Insights 데이터 수집기 지원 매트릭스 *, 역할 = "외부"</block>
   <block id="dc1e65eec84ecdddd9d944665f004c81" category="summary">Kafka 데이터 수집기 구성</block>
   <block id="20c91ea30ac10f88575658fade0888da" category="doc">Kafka 데이터 수집기</block>
   <block id="a57380b3846ffa1f0e4bfb5181cdd4cc" category="inline-image-macro">Kafka 구성</block>
@@ -371,14 +355,11 @@
   <block id="80d610f6ec2e0d70bb310ea6b21d8e09" category="cell">클러스터 네임스페이스 브로커</block>
   <block id="8439f36077726e546877845c0ee98c4a" category="cell">노드 이름 노드 IP입니다</block>
   <block id="344d982f50f03dc86d09f356f5f05441" category="cell">복제본 관리자 Fetcher 최대 Lag ZooKeeper 클라이언트 연결 ZooKeeper 클라이언트 연결(15m 속도) ZooKeeper 클라이언트 연결(5m 속도) ZooKeeper 클라이언트 연결(평균 속도) ZooKeeper 클라이언트 연결(1m 속도) 복제본 관리자 파티션 수 스레드 수 데몬 스레드 수 피크 스레드 수 현재 스레드 카운트 시작된 총 오프라인 파티션 요청 생성 총 시간(50 백분위수) 요청 생성 총 시간(75번째 백분위수) 요청 생성 총 시간(95번째 백분위수) 요청 생성 총 시간(98백분위수) 요청 생성 총 시간(999번째 백분위수) 생성 요청 총 시간(99번째 백분위수) 생성 요청 총 시간 생성 요청 총 시간 최대 생성 요청 총 시간 평균 생성 요청 총 시간 최소 생성 요청 총 시간 Stddev 복제본 관리자 ISR 축소 복제본 관리자 ISR 축소(15m 비율) 복제본 관리자 ISR 축소(5m 속도) 복제본 관리자 ISR 축소 (평균 속도) 복제본 관리자 ISR 축소(1m 속도) 요청 처리기 평균 유휴 요청 처리기 평균 유휴 상태(15m 속도) 요청 처리기 평균 유휴 상태(5m 속도) 요청 처리기 평균 유휴 상태(평균 속도) 요청 처리기 평균 유휴 상태(1m 속도) 가비지 수집 G1 이전 세대 카운트 가비지 수집 G1 이전 세대 시간 가비지 수집 G1 이전 세대 카운트 가비지 수집 G1 젊은 세대 시간 ZooKeeper 읽기 전용 연결 ZooKeeper 읽기 전용 연결(15m 속도) ZooKeeper 읽기 전용 연결(5m 속도) ZooKeeper 읽기 전용 연결(평균 속도) ZooKeeper 읽기 전용 연결 (1m 비율) 네트워크 프로세서 평균 유휴 요청 Follower 총 시간(50% 백분위수) 요청 Fetch Follower 총 시간(75% 백분위수) 요청 Follower 총 시간(95% 백분위수) 요청 Fetch Follower 총 시간(98th 백분위수) 요청 Follower 총 시간(999%) 요청 Follower 총 시간(99th 백분위수) 요청 Follower 총 시간 요청 Fetch Follower 총 시간 최대 요청 Follower 총 시간 평균 요청 Fetch Follower 총 시간 최소 요청 Follower 총 시간 최소 요청 Follower Stddev 요청이 생성 대기 중인 총 시간 Purgatory 네트워크 요청 Fetch Consumer Network Requests Fetch Consumer(5m 비율) 네트워크 요청 소비자 가져오기(15m 비율) 네트워크 요청 소비자 가져오기 (평균 비율) 네트워크 요청 소비자 가져오기 (1m 비율) 불결한 지도자 선거 (15m 비율) 불결한 지도자 선거 (5m 비율) 불결한 지도자 선거 (평균 비율) 불결한 지도자 선거 (1m 비율) 활성 컨트롤러 힙 메모리 커밋된 힙 메모리 초기화 힙 메모리 사용된 최대 힙 메모리 ZooKeeper 세션 만료 ZooKeeper 세션 만료(15m 속도) ZooKeeper 세션 만료(5m 속도) ZooKeeper 세션 만료(평균 속도) ZooKeeper 세션 만료(1m 속도) ZooKeeper 인증 실패 ZooKeeper 인증 실패(15m 속도) ZooKeeper 인증 실패(5m 속도) ZooKeeper 인증 실패(평균 비율) ZooKeeper 인증 실패(1m 비율) 리더 선거 시간(백분위수 50) 리더 선거 시간(백분위수 75) 리더 선거 시간(95번째 백분위수) 리더 선거 시간(90번째 백분위수) 리더 선거 시간(999번째 백분위수) 리더 선거시간 (5m 비율) 리더 선거시간 최대 리더 선거시간 평균 리더 선거시간 (평균 비율) 리더 선거시간 최소 리더 선거시간 (1m 비율) 리더 선거시간 (stddev) 네트워크 요청 Follower 네트워크 요청 Follower (15m 비율) 네트워크 요청 Follower (5m 비율) Follower (5m 비율) 네트워크 요청 Follower(평균 속도) 네트워크 요청 Follower(1m 속도) 브로커 주제 메시지 Broker 주제 메시지(15m 속도) 브로커 주제 메시지(5m 속도) 브로커 주제 메시지(평균 속도) 브로커 주제 메시지(1m 속도) 브로커 항목 바이트 (15m 비율) 브로커의 항목 바이트 항목 (5m 속도) 브로커 주제 바이트 (평균 속도) 브로커 주제 바이트 (1m 속도) ZooKeeper Disconnects Count ZooKeeper Disconnects (15m 속도) ZooKeeper Disconnects (평균 속도) ZooKeeper Disconnects (1m 속도) ZooKeeper Disconnects (1m속도) 네트워크 요청 소비자 총 시간 (50 백분위수) 가져오기 (75th 백분위수) 네트워크 요청 소비자 총 시간 가져오기(95번째 백분위수) 네트워크 요청 소비자 총 시간 가져오기(98번째 백분위수) 네트워크 요청 소비자 총 시간 가져오기(999번째 백분위수) 네트워크 요청 고객 총 시간 가져오기(99th 백분위수) 네트워크 요청 소비자 총 시간 네트워크 요청 가져오기 소비자 총 시간 최대 네트워크 요청 가져오기 소비자 총 시간 평균 네트워크 요청 가져오기 소비자 총 시간 최소 네트워크 요청 소비자 총 시간 Stddev LeaderCount 요청 대기 중 요청 구매 브로커 항목 바이트 아웃 브로커 항목 바이트 아웃(15m 비율) 브로커 주제 바이트 아웃(5m 속도) 브로커 주제 바이트 아웃(평균 속도) 브로커 주제 바이트 아웃(1m 비율) ZooKeeper 인증 ZooKeeper 인증(15m 비율) ZooKeeper 인증(5m 속도) ZooKeeper 인증(평균 속도) ZooKeeper 인증 요청 생성 카운트 요청 생성(15m 속도) 요청 생성(5m 속도) 요청 생성(5m 속도) 요청 생성 (평균 속도) 요청 생성(1m 속도) 복제본 관리자 ISR 복제본 관리자 확장 ISR 확장(15m 속도) 복제본 관리자 ISR 확장(5m 속도) 복제본 관리자 ISR 확장(평균 속도) 복제본 관리자가 ISR(1m 속도) 복제본 관리자를 복제 파티션에서 확장합니다</block>
-  <block id="8cddd68e9275728e34c400e58a9183d1" category="summary">Audit Cloud Insights 시스템의 시스템 및 사용자 활동을 보여 줍니다.</block>
   <block id="78f48b8a03facd61000db8f7ae6f9227" category="doc">감사</block>
-  <block id="96da8a4e581dd2bee953a91b4a726a87" category="paragraph">예상된(추적) 또는 예기치 않은(문제 해결) 변경 사항을 모두 식별하려면 Cloud Insights 시스템 이벤트 및 사용자 활동의 감사 추적을 볼 수 있습니다.</block>
   <block id="651bba7950593ebb3a30ce056e02d435" category="section-title">감사된 이벤트 보기</block>
   <block id="50c2e307c62b6bdee9bab7a06a0f94bd" category="paragraph">감사 페이지를 보려면 메뉴에서 * 관리자 &gt; 감사 * 를 클릭합니다. 감사 페이지가 표시되어 각 감사 항목에 대해 다음 세부 정보를 제공합니다.</block>
   <block id="ddd4c9a31b3ca91ed60983b390c54a28" category="list-text">* Time * - 이벤트 또는 활동의 날짜 및 시간입니다</block>
   <block id="328ce41e650b8ebabdfb846f83c36310" category="list-text">* 사용자 * - 작업을 시작한 사용자입니다</block>
-  <block id="d17a9db742265dcdd4ca05c00d1d0b96" category="list-text">* 역할 * - Cloud Insights에서 사용자의 역할(게스트, 사용자, 관리자)</block>
   <block id="2371d3134aba5e426570bddc2f309af4" category="list-text">* IP * - 이벤트와 연결된 IP 주소입니다</block>
   <block id="57a6064ecdf5f0ef23cc5dc68b3df3ed" category="list-text">* 조치 * - 활동 유형(예: 로그인, 생성, 업데이트</block>
   <block id="5cfe8205bb7066b1f512040e2274a7ee" category="list-text">* 범주 * - 활동 범주입니다</block>
@@ -425,7 +406,6 @@
   <block id="08612e5f3ea69a3841565d99fc760eed" category="cell">리터럴 문자열 _NetApp*_을 포함한 결과를 반환합니다</block>
   <block id="ada50da782fbdc59146dd0633df83869" category="paragraph">필터 문자열을 큰따옴표로 묶으면 Insight는 첫 번째 견적과 마지막 견적 사이의 모든 항목을 정확히 일치하는 것으로 간주합니다. 따옴표 안에 있는 모든 특수 문자나 연산자는 리터럴로 처리됩니다. 예를 들어 "*"를 필터링하면 리터럴 별표로 된 결과가 반환되고, 이 경우 별표는 와일드카드로 처리되지 않습니다. 연산자 또는 는 큰따옴표로 묶으면 리터럴 문자열로 처리됩니다.</block>
   <block id="e79313bfe03c4561628e01c7102ba5fb" category="section-title">감사된 이벤트 및 조치</block>
-  <block id="6fffa02826aca9a14ee11d85609b3e25" category="paragraph">Cloud Insights에서 감사한 이벤트 및 작업은 다음과 같은 광범위한 영역에서 분류할 수 있습니다.</block>
   <block id="c5c594e685367681b202d84ba0c87407" category="list-text">* 사용자 계정 *: 로그인, 로그아웃, 역할 변경 등</block>
   <block id="f8c4f6c2455f59fa0c1cc9fed5a8c6c1" category="list-text">* 획득 장치 *: 생성, 삭제 등</block>
   <block id="c1e8e78730ec648eeb7339e916d33231" category="paragraph">예: _ 획득 장치 * AU - Boston-1 * 제거됨 _.</block>
@@ -443,7 +423,6 @@
   <block id="a7db7dc4150ec783edb2d63c007de590" category="paragraph">예: Recipient_CI-alerts-notifications-dl_created</block>
   <block id="448e25eb5970504212b6d755b8adce41" category="section-title">감사 이벤트 내보내기</block>
   <block id="17d3fac6e64b0db4110d016480972d5a" category="paragraph">감사 표시 결과를 .csv 파일로 내보내면 데이터를 분석하거나 다른 응용 프로그램으로 가져올 수 있습니다.</block>
-  <block id="4654b0becf9d1cd6185abd5644dddf77" category="list-text">감사 페이지에서 원하는 시간 범위와 원하는 필터를 설정합니다. Cloud Insights는 사용자가 설정한 필터링 및 시간 범위와 일치하는 감사 항목만 내보냅니다.</block>
   <block id="e5bcf73c937d17ab5c2459e257f2fbf3" category="inline-image-macro">내보내기 버튼</block>
   <block id="81e9e10a5416438d2549dae075160792" category="list-text">Export _ 버튼을 클릭합니다 <block ref="7d9204e8192ad34899f7f874d914194c" category="inline-image-macro-rx" type="image"></block> 테이블 오른쪽 위에 있습니다.</block>
   <block id="7201440e51225680b60dccf28366c73d" category="paragraph">표시된 감사 이벤트는 최대 10,000개의 행까지 .csv 파일로 내보내집니다.</block>
@@ -546,7 +525,6 @@
   <block id="a9056fadee2a71f2b772c5b13ca6a7cd" category="paragraph">할당된 응용 프로그램을 변경하거나 응용 프로그램 또는 추가 응용 프로그램을 할당하려면 * 응용 프로그램 * 목록을 드롭다운하여 자산에 할당할 응용 프로그램을 선택합니다. 을 입력하여 응용 프로그램을 검색하거나 목록에서 하나를 선택할 수 있습니다.</block>
   <block id="c0c2054f108c67bf07db8edb2e5f4577" category="paragraph">응용 프로그램을 제거하려면 응용 프로그램 목록을 드롭다운하고 응용 프로그램을 선택 취소합니다.</block>
   <block id="75fe6daf02320a7a9ee762011885ad71" category="section-title">User Data(사용자 데이터) 섹션을 사용하여 주석을 할당하거나 수정합니다</block>
-  <block id="d98f3dd7446db00a31cb738430ad7c20" category="paragraph">Cloud Insights를 사용자 지정하여 회사 요구 사항에 맞는 데이터를 추적할 때 주석이라는 특수 메모를 정의하고 자산에 할당할 수 있습니다. 자산 페이지의 사용자 데이터 섹션에는 자산에 할당된 주석이 표시되며 해당 자산에 할당된 주석을 변경할 수도 있습니다.</block>
   <block id="3640c2deb76d280217ae871d65f34c63" category="list-text">자산에 주석을 추가하려면 자산 페이지의 사용자 데이터 섹션에서 * + 주석 * 을 클릭합니다.</block>
   <block id="3f9aa85c405b39caddd477733f834792" category="list-text">목록에서 주석을 선택합니다.</block>
   <block id="ea20cf5fa742f86c840afcc567f2d7a1" category="list-text">값을 클릭하고 선택한 주석 유형에 따라 다음 중 하나를 수행합니다.</block>
@@ -1992,9 +1970,7 @@
   <block id="b4bfb3ce4e8b9e9d62106cb32011d02d" category="paragraph">추가 문제 해결 팁은 에서 찾을 수 있습니다 <block ref="15447e468ec3e05469147de69518b15c" category="inline-link-macro-rx"></block> (지원 로그인 필요)</block>
   <block id="aae5f077ba03e56d1d16eaba111b41fa" category="paragraph">추가 지원 정보는 Cloud Insights에서 확인할 수 있습니다 <block ref="d34993add17c6dd464dba2ccd7f99cbb" category="inline-link-macro-rx"></block> 페이지.</block>
   <block id="f3affd068b3b1c8b1c14040de68e962f" category="doc">정규식 예</block>
-  <block id="6e56e07c6a060470f30f55387ae47aef" category="paragraph">정규식을 소스 명명 전략으로 선택한 경우 정규식 예제를 Cloud Insights 자동 확인 메서드에서 사용하는 자체 식에 대한 가이드로 사용할 수 있습니다.</block>
   <block id="29fcd384116085fb186a63a78e0b427c" category="section-title">정규식 서식 지정</block>
-  <block id="6eceb3c9a6a31e416295ccd0bc808749" category="paragraph">Cloud Insights 자동 확인을 위한 정규식을 만들 때 _format_ 필드에 값을 입력하여 출력 형식을 구성할 수 있습니다.</block>
   <block id="27bed4f48c0572f7db0283ee7a726fe8" category="paragraph">기본 설정은 \1입니다. 즉, 정규식과 일치하는 영역 이름이 정규식에서 만든 첫 번째 변수의 내용으로 대체됩니다. 정규식에서 변수 값은 괄호를 사용하여 만들어집니다. 괄호를 여러 개 사용하면 변수가 왼쪽에서 오른쪽으로 숫자로 참조됩니다. 변수는 출력 형식으로 어떤 순서로든 사용할 수 있습니다. 형식 필드에 상수 텍스트를 추가하여 출력에 상수 텍스트를 삽입할 수도 있습니다.</block>
   <block id="953494e81bcdc49b5ba6d90cca70794e" category="paragraph">예를 들어 이 영역 명명 규칙에 다음과 같은 영역 이름이 있을 수 있습니다.</block>
   <block id="eb12761d3747588f445ba4a991bad602" category="list-text">S123_Miami_hostname1_filer_FC1</block>
@@ -2096,7 +2072,6 @@
   <block id="e8db211169651e6f9c932a841a4efe25" category="paragraph">^(circumflex 또는 caret) * 대괄호 안에 * * 는 식을 부정합니다. 예를 들어 [^FF]는 대문자 또는 소문자 F를 제외한 모든 것을 의미하고 [^a-z]는 소문자 a ~ z를 제외한 모든 것을 의미합니다. 위의 경우 _ 을 제외한 모든 내용을 의미합니다. format 문은 출력 호스트 이름에 "-"를 추가합니다.</block>
   <block id="49eebef5fc03c181abe50e8ac9ba8d43" category="paragraph">* 존: * MHS_apps44_d_a_10a0_0429</block>
   <block id="5618ec066e657e6ffd45163c0a7a3cc9" category="paragraph">* 호스트 이름: * MHS-apps44-d</block>
-  <block id="89f9c722a29b74cffe37426ad75f33e0" category="paragraph">* RegExp: * ([^_]+) _ ([AB]). * Cloud Insights의 형식:\1-\2 ([^_]+) _ ([^_]+)_([^_]+). * Cloud Insights의 형식:\1-\2-\3</block>
   <block id="a67fd3ed749ccfc3d39b84b143d59aae" category="section-title">예 13</block>
   <block id="8ec5b00d8e9c513bebcde49493909a5a" category="paragraph">이 예제에서 저장소 별칭은 "\"로 구분되며 표현식은 "\\"를 사용하여 문자열에 실제로 "\"가 사용되고 있으며 해당 별칭이 표현식 자체의 일부가 아닌 것을 정의해야 합니다.</block>
   <block id="f643dab2031d4677d444418a50ecb694" category="paragraph">* 스토리지 별칭: *\Hosts\EDOC01C1\EDOC01N1</block>
@@ -2276,7 +2251,6 @@
   <block id="033cb70e428cff3c1584d7206da08f9c" category="doc">자산 페이지 개요</block>
   <block id="ab24a36f89b07d59e5cf53d5754754b1" category="paragraph">자산 페이지는 자산의 현재 상태를 요약하고 자산 및 관련 자산에 대한 추가 정보에 대한 링크를 포함합니다.</block>
   <block id="39e070e3a04350745af06b7d21eb87f6" category="section-title">자산 페이지 유형</block>
-  <block id="f7fb011bfea370495ed789e2e9a46026" category="paragraph">Cloud Insights는 다음 자산에 대한 자산 페이지를 제공합니다.</block>
   <block id="76c3fe1d90eec0f4dbe5dd8bf85ff05b" category="list-text">가상 머신</block>
   <block id="1ceffbda4be274c0fd1204742b0a6d69" category="list-text">내부 볼륨</block>
   <block id="8327b45350e2f660072f5939017f4549" category="list-text">호스트(하이퍼바이저 포함)</block>
@@ -2337,8 +2311,6 @@
   <block id="30d41b0aa6a845f67fdda29577dfc2e7" category="doc">대시보드 및 위젯에 대한 모범 사례</block>
   <block id="d012476aa8fdb87aabf9587f68381dc1" category="paragraph">대시보드와 위젯의 강력한 기능을 최대한 활용할 수 있도록 도와주는 팁과 요령.</block>
   <block id="d934b755bc4f16d28bfbe3aefa9c9927" category="section-title">적합한 메트릭 찾기</block>
-  <block id="5130b21031ccad28c4211013e95525cf" category="paragraph">Cloud Insights는 데이터 수집기에서 데이터 수집기까지의 이름과 다른 이름을 사용하여 카운터 및 메트릭을 획득합니다.</block>
-  <block id="18b7dd989d250b86f1143d178cee117d" category="paragraph">대시보드 위젯에 대한 적절한 메트릭이나 카운터를 검색할 때 원하는 메트릭이 생각하려는 메트릭과 다른 이름으로 표시될 수 있다는 점에 유의하십시오. Cloud Insights의 드롭다운 목록은 대개 사전순 목록이지만, 경우에 따라 필요할 것으로 생각되는 목록에 용어가 나타나지 않을 수 있습니다. 예를 들어 "물리적 용량" 및 "사용된 용량"과 같은 용어는 대부분의 목록에 함께 나타나지 않습니다.</block>
   <block id="b20ec3101e268b1e96921e05f0b6591f" category="paragraph">* 모범 사례 *: 필터 기준 또는 열 선택기와 같은 위치의 필드에 있는 검색 기능을 사용하여 원하는 항목을 찾습니다. 예를 들어, "CAP"를 검색하면 목록에서 어떤 상황이 발생하든 이름에 "capacity"가 포함된 모든 메트릭이 표시됩니다. 그런 다음 해당 짧은 목록에서 원하는 메트릭을 쉽게 선택할 수 있습니다.</block>
   <block id="085fe6b732602e100988fd61c10a4a3e" category="paragraph">메트릭을 검색할 때 다음과 같은 몇 가지 대체 문구를 사용할 수 있습니다.</block>
   <block id="6f5dff1913b7ce19d92d1d49c3377bba" category="cell">찾을 내용:</block>
@@ -2583,12 +2555,9 @@
   <block id="4e65544840cf1a76b8d7ff99e3d3c032" category="inline-image-macro">엔티티 개요 페이지</block>
   <block id="b7919853e15168e340641df87996f534" category="paragraph"><block ref="b7919853e15168e340641df87996f534" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3305ac26b15ec00c4372c85a08bb7042" category="summary">지원되는 데이터 수집기 목록입니다.</block>
-  <block id="9a08f57372dad69b83256b6cf3081404" category="doc">Cloud Insights 데이터 수집기 목록</block>
-  <block id="16d256dc1b7b58638a9529e552435cb7" category="paragraph">Cloud Insights는 다양한 공급업체 및 서비스의 다양한 데이터 Collector를 지원합니다.</block>
   <block id="247727b698ccc6204ad7466cac97b566" category="paragraph">데이터 수집기 는 다음 유형에 따라 분류됩니다.</block>
   <block id="3688337d7dae83e1ae45c29303993fc2" category="list-text">인프라: 스토리지 어레이, 스위치, 하이퍼바이저 또는 백업 장치와 같은 공급업체 장치에서 수집</block>
   <block id="63bee0ce61faf34ba2eb5eaf1772a185" category="list-text">서비스: Kubernetes 또는 Docker와 같은 서비스에서 구입 통합 _ 이라고도 합니다.</block>
-  <block id="8d1b7e78620c4edd1b1cb04c457422e7" category="paragraph">Cloud Insights에서 지원하는 데이터 수집기 목록 사전순:</block>
   <block id="2f704538f6c9d6459a97314be98124e2" category="cell">데이터 수집기</block>
   <block id="c2ba7e785c49050f48da9aacc45c2b85" category="cell">서비스</block>
   <block id="9c767a6f4aebc77e391afa6a6ca9c4ca" category="inline-link-macro">Amazon EC2 및 EBS</block>
@@ -2806,15 +2775,9 @@
   <block id="09dbc445e39eaaa3cef7962d56b08f19" category="cell">기본값은 900초입니다</block>
   <block id="90b1f6651953fcf8b43ddc0da6760aaf" category="inline-link-macro">사용자 프로필</block>
   <block id="6adf97f83acf6453d4a6a4b1070f3754" category="list-text">없음</block>
-  <block id="137b3f649398a1f9fa1259c39d880c93" category="summary">Cloud Insights API를 사용하면 모니터링 및 보고 시스템과 같은 다른 애플리케이션과 통합할 수 있습니다.</block>
-  <block id="2be3c4c4132fe06361d81b1c1784eac3" category="doc">Cloud Insights API를 참조하십시오</block>
-  <block id="551279e83d2a3c07e1a53609f28238f1" category="paragraph">Cloud Insights API를 통해 NetApp 고객 및 ISV(독립 소프트웨어 공급업체)는 Cloud Insights를 CMDB 또는 기타 티켓 시스템과 같은 다른 애플리케이션과 통합할 수 있습니다.</block>
-  <block id="842ffa230636a6a4c9507048374c4b1b" category="paragraph">Cloud Insights API는 현재 버전을 기반으로 사용할 수 있습니다.</block>
   <block id="d8202577b4c172c137f1ab3f213b8496" category="section-title">API 액세스에 대한 요구 사항</block>
   <block id="93a0562a2b63ec1b782c635861ca9d50" category="list-text">액세스 권한을 부여하기 위해 API 액세스 토큰 모델이 사용됩니다.</block>
-  <block id="e47707bad3d8c571eb585885b9d8e5ea" category="list-text">API 토큰 관리는 관리자 역할을 가진 Cloud Insights 사용자가 수행합니다.</block>
   <block id="76090d35c59f1912752ed0abdd2b8feb" category="section-title">API 설명서(Swagger)</block>
-  <block id="cbc8f04159b7864cfdf1f3f9a0639b83" category="paragraph">최신 API 정보는 Cloud Insights에 로그인하고 * 관리자 &gt; API 액세스 * 로 이동하여 확인할 수 있습니다. API Documentation * 링크를 클릭합니다.</block>
   <block id="cbb70567b5f7ab27a565172b8e1bc114" category="inline-image-macro">API Swagger 예</block>
   <block id="fc7607d363ea08dec8a8340a1030dd17" category="paragraph"><block ref="fc7607d363ea08dec8a8340a1030dd17" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2dc554f3bbe39578deadcf21e6d30345" category="section-title">API 액세스 토큰</block>
@@ -2831,13 +2794,11 @@
   <block id="a3edb14694b58a006156d05e3c4b6d5b" category="paragraph">예를 들어, 다음을 사용하여 스토리지 자산을 검색할 수 있습니다.</block>
   <block id="eceeec5380f54a75da4fa160c300d56b" category="paragraph">여기서 _&lt;API_Access_Token&gt;_은 API 액세스 키를 생성하는 동안 저장한 토큰입니다.</block>
   <block id="bf9403ca9242451b7ef055feae5711bb" category="list-text">자산: 최상위 객체를 열거하고 특정 오브젝트 또는 오브젝트 계층을 검색합니다.</block>
-  <block id="8a471bf409138f673b99273d8183156b" category="list-text">쿼리: Cloud Insights 쿼리 검색 및 관리</block>
   <block id="c9de14b5a5af8684e29a00e86f5ea9f1" category="list-text">가져오기: 주석이나 응용 프로그램을 가져와 개체에 할당합니다</block>
   <block id="cfce3085ae85f2087671061798f85476" category="list-text">검색: 개체의 고유 ID 또는 전체 이름을 모르는 상태에서 특정 개체를 찾습니다.</block>
   <block id="c99f25325f86d3f0c79c43f7e35c908e" category="inline-link-macro">API Swagger 문서</block>
   <block id="7bc31a95e4a1ee6f8948af20440df0c6" category="inline-link-macro">사용자 역할</block>
   <block id="f62c375c71b04a523593c5019e4aa100" category="section-title">재고 탐색</block>
-  <block id="f4f1eb3a3565596e151b069fef518185" category="paragraph">이 섹션에서는 Cloud Insights 개체의 계층 구조를 이동하는 방법을 설명합니다.</block>
   <block id="c22744ffcc9ee65a97cb166bcf41b4f4" category="section-title">상위 수준 개체</block>
   <block id="b5d25a3c87971757e3508e3927c1eb57" category="paragraph">개별 개체는 고유 URL( JSON의 "자체")을 통해 요청에서 식별되며 개체 유형 및 내부 ID에 대한 지식이 필요합니다 일부 최상위 객체(호스트, 스토리지 등)의 경우 REST API를 통해 전체 컬렉션에 액세스할 수 있습니다.</block>
   <block id="68bbea204e2fc73e16b79f9ab4eee347" category="paragraph">API URL의 일반적인 형식은 다음과 같습니다.</block>
@@ -2855,7 +2816,6 @@
   <block id="4d43ae6abcd24740518bcb12bcc96e08" category="paragraph">확장을 사용하면 하나의 응답에서 많은 관련 데이터를 가져올 수 있습니다. NetApp은 한 번에 너무 많은 정보를 요청하지 않을 것을 권장합니다. 이로 인해 성능 저하가 발생할 수 있습니다.</block>
   <block id="c77a0d869d2583884da5938fccd502a7" category="paragraph">이를 방지하기 위해 최상위 컬렉션 요청은 확장할 수 없습니다. 예를 들어, 모든 스토리지 오브젝트의 확장 데이터를 한 번에 요청할 수 없습니다. 클라이언트는 개체 목록을 검색한 다음 확장할 특정 개체를 선택해야 합니다.</block>
   <block id="d5b98609a55b3150795644a9edeed62e" category="section-title">성능 데이터</block>
-  <block id="f40f528afef0cb9f4ed55bbb94522864" category="paragraph">성능 데이터는 여러 장치에 걸쳐 별도의 샘플로 수집됩니다. 매 시간(기본값)마다 Cloud Insights는 성능 샘플을 집계하고 요약합니다.</block>
   <block id="ca5a65340e1e9968b3ba72279d4368f3" category="paragraph">API를 사용하면 샘플과 요약된 데이터에 모두 액세스할 수 있습니다. 성능 데이터가 있는 개체의 경우 성능 요약을 _EXPORTED=performance_로 사용할 수 있습니다. 성능 기록 시간 시리즈는 nested_expand=performance.history_를 통해 사용할 수 있습니다.</block>
   <block id="d89836bffdb6530b2e666cac7c77f872" category="paragraph">성능 데이터 오브젝트의 예는 다음과 같습니다.</block>
   <block id="e84c5392fd775dfbe036fde574b8c406" category="list-text">스토리지성능</block>
@@ -2896,7 +2856,6 @@
   <block id="85aa7a55c03d4a7d205562096674066a" category="inline-image-macro">스토리지 풀 용량 예</block>
   <block id="6f0ac10b550f7a116f9d902d16213da3" category="paragraph"><block ref="6f0ac10b550f7a116f9d902d16213da3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="109d056fe4a5bfafadc37d21bc6e5654" category="section-title">검색을 사용하여 개체를 검색합니다</block>
-  <block id="01ebbdd0a50dbc56d987ceb25032be7b" category="paragraph">Cloud Insights는 타사 오케스트레이션, 비즈니스 관리, 변경 제어 및 티켓 시스템과 사용자 정의 CMDB 통합을 지원하는 확장 가능한 개방형 솔루션입니다.</block>
   <block id="b64fa7905e81fd64c5b00971051ce0f8" category="paragraph">Cloud Insight의 RESTful API는 데이터를 간단하고 효과적으로 이동할 수 있을 뿐 아니라 사용자가 데이터에 원활하게 액세스할 수 있도록 하는 기본적인 통합 지점입니다.</block>
   <block id="03b8f305db2c82bc6a850a57ec12d044" category="summary">Agent로 사용하는 서버 또는 VM은 최소 요구 사항을 충족해야 합니다</block>
   <block id="b6818f4aea164eb8b94acf9d70d2e034" category="inline-link-macro">Agent를 설치합니다</block>
@@ -2918,7 +2877,6 @@
   <block id="b136ef5f6a01d816991fe3cf7a6ac763" category="cell">TCP</block>
   <block id="13f3cf8c531952d72e5847c4183e6910" category="cell">443</block>
   <block id="1e5d29d467aa39ff7343d30dc2f8de5b" category="cell">site_name&gt; .cs01.cloudinsights.netapp.com &lt;site_name&gt; .c01.cloudinsights.netapp.com &lt;site_name&gt; .c02.cloudinsights.netapp.com 을 참조하십시오</block>
-  <block id="800d899720a1567094af6346ee35787a" category="cell">Cloud Insights에 대한 액세스</block>
   <block id="4ce4e8664144d2ca2f89818a65da41cc" category="cell">gateway.c01.cloudinsights.netapp.com agentlogin.cs01.cloudinsights.netapp.com</block>
   <block id="d4fedc7f035f96436f1598f9626876e2" category="cell">인증 서비스에 대한 액세스</block>
   <block id="c4bd63902a8959d209469ec987ed87db" category="cell">site_name&gt; .cs01-eu-1.cloudinsights.netapp.com &lt;site_name&gt; .c01-eu-1.cloudinsights.netapp.com &lt;site_name&gt; .c02-eu-1.cloudinsights.netapp.com 을 참조하십시오</block>
@@ -3296,9 +3254,6 @@
   <block id="993bee13d79883a291c5bf94757d27d8" category="list-text">프로토콜 특정 작업을 가져오려면 * 프로토콜 * 을 선택합니다.</block>
   <block id="c3d430182436845185c1ac182ba51c05" category="list-text">* 작업을 수행하는 사용자의 사용자 이름 * 입니다. 필터링할 정확한 사용자 이름을 입력해야 합니다. 부분 사용자 이름 또는 접두사가 붙은 부분 사용자 이름 또는 ' * '로 접미사를 바꾼 검색은 작동하지 않습니다.</block>
   <block id="5e5226f8443d6c79a977ffd6e71a8d9d" category="paragraph">다음 필드에는 특수 필터링 규칙이 적용됩니다.</block>
-  <block id="3d96016f7628ba3b55f9ed124fe9a321" category="list-text">요소(파일) 확장자를 사용하는 * 요소 유형 *</block>
-  <block id="5c50b1e65ca02ceaca4a85e8cc5af6bf" category="list-text">요소의 * 경로 * 입니다</block>
-  <block id="1ff83304db55b980e25a5b333c61a80c" category="list-text">* 사용자 * 작업을 수행하는 중입니다</block>
   <block id="793b0425edef55b10657fd6cc2a5ab5a" category="list-text">엔터티가 상주하는 * 장치 * (SVM</block>
   <block id="6bbd4f26d0615caf6a29b9c2d238dad2" category="list-text">* 볼륨 * 요소가 상주하는 곳입니다</block>
   <block id="6edcb8abb66cf4a0700d1ea8dac389e5" category="list-text">원본 파일의 이름을 바꿀 때 이름 바꾸기 이벤트에 사용되는 * Original Path * 입니다.</block>
@@ -3418,12 +3373,10 @@
   <block id="723f73d5b4ee441851ae64cbfe823522" category="cell">데이터 수집기가 오류 중입니다. 이 오류 메시지를 표시합니다. "오류: 커넥터가 오류 상태입니다. 서비스 이름: 감사. 실패 원인: SVM svm_test에서 정책을 구성하지 못했습니다. 이유: ZAPI 필드에 값이 없습니다. 이벤트 “</block>
   <block id="1b852bd0522bb1e9abdc5b85f45b2eff" category="cell">Data Collector에 다음과 같은 오류 메시지가 표시됩니다. "오류: 2회 재시도에서 Collector 상태를 확인하지 못했습니다. Collector를 다시 시작하십시오(오류 코드: AGENT008)."</block>
   <block id="489efd89349dbbe0899a6a7b922044da" category="paragraph">그래도 문제가 발생하면 * 도움말 &gt; 지원 * 페이지에 나와 있는 지원 링크를 참조하십시오.</block>
-  <block id="350ff3e6edca65920342bf3e930281fd" category="summary">Cloud Insights는 여러 사용자 계정에 서로 다른 권한 수준을 제공합니다.</block>
   <block id="11a7aeec2e88edd275331af35166c8ec" category="doc">사용자 계정 및 역할</block>
   <block id="0f9642bcff1dc3cd224f1f3e2f1ca629" category="inline-link-macro">초대되었습니다</block>
   <block id="fc1a24cc0d6d7c3e25a51a3d66a9d033" category="inline-link-macro">SSO(Single Sign-On) 인증</block>
   <block id="4239d1a0d4b43b912ff81e4656377274" category="section-title">사용 권한 수준</block>
-  <block id="9e81fe47cff9df70ea875a449221eb62" category="paragraph">관리자 권한이 있는 계정을 사용하여 사용자 계정을 만들거나 수정합니다. 각 사용자 계정에는 다음과 같은 권한 수준에서 각 Cloud Insights 기능에 대한 역할이 할당됩니다.</block>
   <block id="305de530147912d72a50568ee4d65d26" category="cell">계정 소유자</block>
   <block id="9912eb0cfbb27a071ceaf89334fe4dbc" category="cell">대시보드, 쿼리, 알림, 주석, 주석 규칙, 장치 해상도를 관리할 수 있습니다.</block>
   <block id="d4b92ffff3f3199f4cb5dc53c8c0cf84" category="cell">알림을 확인 및 관리하고 Forensics를 볼 수 있습니다. 사용자 역할은 알림 상태를 변경하고, 메모를 추가하고, 스냅샷을 수동으로 생성하고, 사용자 액세스 제한을 관리할 수 있습니다.</block>
@@ -3431,8 +3384,6 @@
   <block id="76da35e3189c47f58355f9b7d58e7e97" category="cell">자산 페이지, 대시보드, 알림에 대한 읽기 전용 액세스를 제공하며 쿼리를 보고 실행할 수 있습니다.</block>
   <block id="024adade9cb0061af998b7d3f3e85f0a" category="cell">에서는 보고서를 보고 일정을 잡고 실행할 수 있으며 언어 및 표준 시간대와 같은 개인 기본 설정을 설정할 수 있습니다. 게스트/소비자는 보고서를 만들거나 관리 작업을 수행할 수 없습니다.</block>
   <block id="14c247a563d9d05855d0098eb6c48901" category="paragraph">관리자 권한이 있는 사용자의 수를 제한하는 것이 가장 좋습니다. 최대 계정 수는 사용자 또는 게스트 계정이어야 합니다.</block>
-  <block id="ec0921e40c81a97ba64c076f0ada5cc3" category="section-title">사용자 역할별 Cloud Insights 권한</block>
-  <block id="493f8916db2d1425825fe2b7b914f379" category="paragraph">다음 표에서는 각 사용자 역할에 부여된 Cloud Insights 권한을 보여 줍니다.</block>
   <block id="21021ea0e52be8e9c599f4dff41e5be0" category="cell">피처</block>
   <block id="6072e63b8d5a9912977c211ab173fe58" category="cell">관리자/계정 소유자</block>
   <block id="3215d767bcd86ea09bd6b7eadd24b35e" category="cell">획득 단위: 추가/수정/삭제</block>
@@ -3463,36 +3414,25 @@
   <block id="2261218e5eda0b1a833ad7434d235af5" category="list-text">사용자 이름은 초대의 전자 메일 주소입니다.</block>
   <block id="ee878f787b1f1f1d4994736d075986bd" category="list-text">할당할 사용자 역할을 이해합니다.</block>
   <block id="b9d905aec198b1e4b3ae4b7e048ef2e4" category="list-text">암호는 등록 프로세스 중에 사용자가 정의합니다.</block>
-  <block id="98d89b3de3b439c5c0a0c9ee73d7bd3b" category="list-text">Cloud Insights에 로그인합니다</block>
   <block id="d40cbac53e949a73a04e1b3c9429ce6d" category="list-text">메뉴에서 * Admin &gt; User Management * 를 클릭합니다</block>
   <block id="3e6242ac7db75513d10bbda86f1b5f28" category="paragraph">사용자 관리 화면이 표시됩니다. 화면에는 시스템의 모든 계정 목록이 표시됩니다.</block>
   <block id="067d60b53a30aa45ea83511a9c364c37" category="list-text">사용자 * 를 클릭합니다</block>
   <block id="b6a0e047e7e6ca00fb7aa5b12314c2c8" category="paragraph">사용자 초대 * 화면이 표시됩니다.</block>
   <block id="1f8dd0c047e5f2c6c0d3267fff9f2bdb" category="list-text">이메일 주소 또는 여러 주소를 입력하여 초대를 보냅니다.</block>
   <block id="b1e58a6582b4b8cf5f1631eac44903a9" category="paragraph">* 참고: * 여러 주소를 입력하면 모두 동일한 역할로 생성됩니다. 여러 명의 사용자만 동일한 역할로 설정할 수 있습니다.</block>
-  <block id="83182dfe9652d91a9dff49ae5051115e" category="list-text">Cloud Insights의 각 기능에 대한 사용자 역할을 선택합니다.</block>
   <block id="0e37aaee59fd92b0c2231a3435ccb705" category="inline-image-macro">사용자 역할 선택</block>
   <block id="be79de8824d9bc14fde4037b481d09cf" category="paragraph"><block ref="be79de8824d9bc14fde4037b481d09cf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3b44544b9d947c143a9cfcb45be1aeff" category="list-text">초대 * 를 클릭합니다</block>
-  <block id="1b4bbf8ddf0638b3bdfb9ee9619e8b51" category="paragraph">초대가 사용자에게 전송됩니다. 사용자는 14일 내에 초대를 수락할 수 있습니다. 사용자가 초대를 수락하면 해당 사용자가 NetApp Cloud Portal로 이동하게 되며 초대장의 이메일 주소를 사용하여 등록하게 됩니다. 해당 이메일 주소에 대한 기존 계정이 있는 경우 로그인하기만 하면 Cloud Insights 환경에 액세스할 수 있습니다.</block>
   <block id="36e498f46668dc7b2127a0e5f83abd6c" category="section-title">사용자 삭제</block>
-  <block id="22d99a67c79bd33570e7939b98936b65" category="paragraph">관리자 역할을 가진 사용자는 사용자 이름을 클릭하고 대화 상자에서 _사용자 삭제_를 클릭하여 사용자(예: 더 이상 회사에 없는 사용자)를 삭제할 수 있습니다. 사용자가 Cloud Insights 환경에서 제거됩니다.</block>
-  <block id="75a9e302cafe4be34215caa129cabcfc" category="paragraph">사용자가 만든 대시보드, 쿼리 등은 사용자가 제거된 후에도 Cloud Insights 환경에서 계속 사용할 수 있습니다.</block>
   <block id="ae34cecb877a210f81bf4d446541e619" category="section-title">SSO(Single Sign-On) 및 ID 페더레이션</block>
   <block id="3c55703ac1b754437c4ca4d09b9083c0" category="paragraph">ID 페더레이션 사용:</block>
   <block id="1fa3ec89d7b92a55ab22349de75a4680" category="list-text">기업 디렉토리에서 고객의 자격 증명을 사용하여 고객의 ID 관리 시스템에 인증을 위임하고 MFA(Multi-Factor Authentication)와 같은 자동 인증 정책을 수행합니다.</block>
   <block id="5bdf50c3632df05e809cd15e1fcb4ca9" category="paragraph">다음은 이 프로세스의 간단한 예입니다.</block>
-  <block id="b8922583597ff9f65c02b62c61bfa22a" category="paragraph">위 다이어그램에서 사용자가 Cloud Insights에 액세스하면 해당 사용자는 인증을 위해 고객의 ID 관리 시스템으로 연결됩니다. 계정이 인증되면 사용자는 Cloud Insights 테넌트 URL로 연결됩니다.</block>
   <block id="d6034d333b0966edaeeea729724c4988" category="section-title">SSO(Single Sign-On) 사용자 자동 프로비저닝</block>
-  <block id="6c59be6231105da08319ced12f4e659b" category="paragraph">관리자는 사용자를 초대하는 것 외에도 기업 도메인의 모든 사용자가 개별적으로 초대하지 않고도 * SSO(Single Sign-On) 사용자 자동 프로비저닝 * 액세스를 Cloud Insights에 액세스할 수 있습니다. SSO를 사용하면 동일한 도메인 이메일 주소를 가진 모든 사용자가 회사 자격 증명을 사용하여 Cloud Insights에 로그인할 수 있습니다.</block>
   <block id="69b24ac806086d8120c6941f51bea8c7" category="inline-image-macro">페더레이션을 사용한 사용자 관리</block>
   <block id="141cee4c6d3099b12c6927aace6bf538" category="paragraph"><block ref="141cee4c6d3099b12c6927aace6bf538" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8180ff7e185bcd2693971907be3065b6" category="paragraph">관리자가 단일 사용자를 기본 SSO 역할(예: 관리자로 설정)에서 승격하려고 하는 경우가 있습니다. 사용자는 * Admin &gt; User Management * 페이지에서 오른쪽 메뉴를 클릭하고 _Assign Role_을 선택하여 이 작업을 수행할 수 있습니다. 이러한 방식으로 명시적 역할이 할당된 사용자는 _ SSO 사용자 자동 프로비저닝 _ 이(가) 이후에 비활성화되더라도 계속해서 Cloud Insights에 액세스할 수 있습니다.</block>
-  <block id="784219fd668203a8e5c8b86ac08efba1" category="paragraph">사용자에게 더 이상 상승된 역할이 필요하지 않으면 메뉴를 클릭하여 사용자 _ 제거 _ 를 수행할 수 있습니다. 사용자가 목록에서 제거됩니다. SSO 사용자 자동 프로비저닝 _ 이(가) 활성화된 경우 사용자는 기본 역할을 사용하여 SSO를 통해 Cloud Insights에 계속 로그인할 수 있습니다.</block>
   <block id="5b838d1db2b0c90f3965d582815bd387" category="paragraph">SSO 사용자 표시 * 확인란의 선택을 취소하여 SSO 사용자를 숨기도록 선택할 수 있습니다.</block>
   <block id="b8ebf4409c7ad7b050814935893a9c1f" category="paragraph">그러나 다음 중 하나에 해당하는 경우 _SSO 사용자 자동 프로비저닝_을 활성화하지 마십시오.</block>
-  <block id="0a4ddee9467e17088a4ed61c86d33e29" category="list-text">조직에 Cloud Insights 테넌트가 두 개 이상 있습니다</block>
-  <block id="5fa16e988bd57824af7b89bb4e983aef" category="list-text">조직에서 통합 도메인의 모든 사용자가 Cloud Insights 테넌트에 대해 일정 수준의 자동 액세스를 갖는 것을 원하지 않습니다. _ 이 시점에는 _ 옵션을 사용하여 그룹을 사용하여 역할 액세스를 제어할 수 없습니다.</block>
   <block id="96cfad9bf45103ee0ef58fa25c0cfa6b" category="summary">보고서 출력 및 전달 사용자 지정, 보고서를 클립보드로 복사, 보고서 열기(XML).</block>
   <block id="e1039935b082dfd38ef43eb7fef4b452" category="doc">보고서 관리</block>
   <block id="ce2ce538c48e429c8dc98553649f3bbd" category="paragraph">보고서의 출력 형식과 배달, 보고서 속성 또는 일정, 전자 메일 보고서를 사용자 지정할 수 있습니다.</block>
@@ -3648,14 +3588,12 @@
   <block id="1d3092a2cd5069209f6c8a3a894f204c" category="cell">할당된 바이트 Buck 해시 시스템 GC 시스템 GCC PU Fraction 힙 할당 힙 유휴 힙 사용 힙 개체 힙 릴리스 힙 시스템 마지막 GC(ns) 사용 중인 UPS Mallocs Mcache 사용 중 Mcache 시스템 사용 메모리 사용 시스템 다음 GC(ns) Num GC 기타 시스템 일시 중지 합계 스택 사용 중인 스택 시스템 시스템 바이트 총 할당 바이트 평균 실행 시간(ns) 오류</block>
   <block id="f68bfcaa8f466fab04e83d0324cf5ddb" category="summary">자동 장치 해결 기능을 통해 작업 환경의 성능 및 인벤토리를 정확하게 추적할 수 있습니다.</block>
   <block id="652c7f9f62814b7bef155e603c66cf80" category="doc">자동 장치 해상도 개요</block>
-  <block id="17d5e27deb6e020cf193c0bac4cb29b1" category="paragraph">Cloud Insights를 사용하여 모니터링하려는 모든 장치를 식별해야 합니다. 작업 환경의 성능 및 재고를 정확하게 추적하려면 식별이 필요합니다. 일반적으로 사용자 환경에서 검색된 대부분의 장치는 _ 자동 장치 해상도 _ 를 통해 식별됩니다.</block>
   <block id="886acc65f9d8a83db54bcb8c080e5bd3" category="paragraph">데이터 수집기를 구성한 후에는 스위치, 스토리지 시스템, 하이퍼바이저 및 VM의 가상 인프라를 비롯한 환경의 디바이스가 식별됩니다. 그러나 이 경우 일반적으로 사용자 환경의 디바이스 중 100%는 식별되지 않습니다.</block>
   <block id="eb540e24eeed2c1bd302626c15930ba9" category="paragraph">데이터 수집기 유형 장치를 구성한 후 가장 좋은 방법은 장치 해결 규칙을 활용하여 사용자 환경에 남아 있는 알 수 없는 장치를 식별하는 것입니다. 장치 해상도를 통해 알 수 없는 장치를 다음 장치 유형으로 해결할 수 있습니다.</block>
   <block id="fb04a8a878080ea8c029ce81da959c55" category="list-text">물리적 호스트</block>
   <block id="a390959c210a5bb0121c5a6ddb212a48" category="list-text">지원합니다</block>
   <block id="339b6fc9a3f07b3c7c1163a94575b69a" category="list-text">테이프</block>
   <block id="0c1402fd06dfee899cf7242173fe4072" category="paragraph">디바이스 확인 후 알 수 없는 것으로 남아 있는 디바이스는 일반 디바이스로 간주되어 쿼리 및 대시보드에도 표시할 수 있습니다.</block>
-  <block id="afb114cd68723466101a7b03cbc7cc6c" category="paragraph">차례로 생성된 규칙은 사용자 환경에 추가되는 것과 유사한 특성을 가진 새 디바이스를 자동으로 식별합니다. 경우에 따라 장치 해상도를 통해 Cloud Insights 내에서 검색되지 않은 장치에 대한 장치 해결 규칙을 우회하여 수동으로 식별할 수도 있습니다.</block>
   <block id="b6f270b8f672d86446f73aff850cc503" category="paragraph">기기 식별이 완료되지 않으면 다음과 같은 문제가 발생할 수 있습니다.</block>
   <block id="83d0aa8b7352bbb7f2adeaadfac4275c" category="list-text">불완전한 경로</block>
   <block id="912955e0fcea2c7fb6c97abdb885d27c" category="list-text">알 수 없는 다중 경로 연결</block>
@@ -3749,9 +3687,7 @@
   <block id="bbef21bde58ce5660bf49b595ad948a3" category="cell">IP를 확인하고 IP를 7-Mode 클러스터로 변경합니다.</block>
   <block id="4f2490c45ca71d6ad32a37be2b36a67c" category="cell">"vFiler에 연결하지 못했습니다" 오류</block>
   <block id="4b728fe0674da6a6020b7dfe0a399d2a" category="cell">구입 사용자 기능에는 최소한 API-* security-api-vFiler login-http-admin 파일러가 최소 ONTAPI 버전 1.7을 실행하고 있는지 확인합니다.</block>
-  <block id="9762d6effdc4ec8c70238aef8eebc7c7" category="summary">Cloud Insights의 대시보드 개요</block>
   <block id="36d33d9f788712f837a1b7b78bd38df7" category="doc">대시보드 개요</block>
-  <block id="2e3abda56100e1b82e53593a641dfd55" category="paragraph">Cloud Insights를 사용하면 다양한 위젯이 포함된 맞춤형 대시보드를 생성할 수 있으므로 인프라 데이터의 운영 보기를 유연하게 생성할 수 있습니다. 각 대시보드는 데이터를 표시하고 차트에 작성할 때 매우 유연하게 사용할 수 있습니다.</block>
   <block id="4445b92d47c6064291aa06a6396a0733" category="admonition">이 섹션의 예는 설명을 위한 것이며 가능한 모든 시나리오를 다루지는 않습니다. 이 문서의 개념 및 단계를 사용하여 자신의 대시보드를 만들어 특정 요구 사항에 맞는 데이터를 강조할 수 있습니다.</block>
   <block id="760d211d5ae560f52f862c13806f5865" category="section-title">대시보드 생성</block>
   <block id="1da60b5bc1bcd40bbbacad066fdf2da8" category="paragraph">다음 두 위치 중 하나에 새 대시보드를 만듭니다.</block>
@@ -4092,7 +4028,6 @@
   <block id="3f1b70a3ec875ea55e15beb4035704a0" category="cell">성능 폴링 간격입니다. 기본값은 300초입니다.</block>
   <block id="137130f586fe8fbaec289a38be336008" category="summary">Insights를 통해 리소스가 사용자 환경의 다른 리소스에 미치는 영향을 파악할 수 있습니다.</block>
   <block id="2d78443087bc495d923e93521efb0c1d" category="doc">인사이트: 부하 상태의 공유 리소스</block>
-  <block id="a8ec16373cb24bc082189b278c4cb448" category="paragraph">워크로드가 큰 경우 공유 리소스에 있는 다른 워크로드의 성능이 저하될 수 있습니다. 이렇게 하면 공유 리소스가 스트레스를 받게 됩니다. Cloud Insights는 사용자 환경의 리소스 포화 및 영향을 조사하는 데 도움이 되는 도구를 제공합니다.</block>
   <block id="7f595b1ef82026007f2533413106e7d8" category="paragraph">작업 부하 또는 리소스 영향에 대해 이야기할 때 다음 정의가 유용합니다.</block>
   <block id="aea124b45b62324984b67a059ea0da7f" category="paragraph">까다로운 워크로드 * 는 현재 공유 스토리지 풀의 다른 리소스에 영향을 미치는 것으로 식별된 워크로드입니다. 이러한 워크로드는 더 높은 IOPS(예:)를 유도하여 영향을 받는 워크로드의 IOPS를 줄입니다. 수요가 많은 워크로드를 _ 이(가) 많이 사용되는 워크로드라고 합니다.</block>
   <block id="7bddab02c6c096040f0edf52e1623868" category="paragraph">영향을 받는 워크로드 * 는 공유 스토리지 풀에서 많은 비용이 소모되는 워크로드의 영향을 받는 워크로드입니다. 이러한 워크로드는 까다로운 워크로드로 인해 IOPS 및/또는 지연 시간이 감소되고 있습니다.</block>
@@ -4117,7 +4052,6 @@
   <block id="5d43336b0046b068224b4a4c606863ba" category="list-text">리소스를 더 추가합니다</block>
   <block id="31fa4ab3e19080703e914efb949bbced" category="paragraph">공유 리소스(예: 스토리지 풀)가 IOPS 포화 지점에 도달한 경우 풀에 더 많은 또는 더 빠른 디스크를 추가하면 사용 가능한 충분한 리소스를 확보하여 포화도를 줄일 수 있습니다.</block>
   <block id="ac62625b23d0635d3eaed0e05c830d36" category="paragraph">마지막으로, * Insight Link 복사 * 를 클릭하여 페이지 URL을 클립보드에 복사하여 동료와 보다 쉽게 공유할 수 있습니다.</block>
-  <block id="6ced38f7d8372fb9ae8761297e3a7cee" category="paragraph">Cloud Insights는 설정된 기간(Edition당)에 대한 데이터를 유지하므로 수천 개의 데이터 포인트를 처리할 수 있습니다. 따라서 차트 및 표에 표시되기 전에 데이터를 다운샘플링할 수 있습니다.</block>
   <block id="226c03c443192cffffa4a924b4ccffde" category="cell">발행</block>
   <block id="374616a0b786e9bffadc7f28e68d6c59" category="cell">7일</block>
   <block id="876f04f443f4acb1176812eb95c5206c" category="section-title">데이터 다운샘플링</block>
@@ -4134,7 +4068,6 @@
   <block id="1b59194b7f83d1b9f7c8f6c8b95f73b0" category="paragraph">7일 미만의 시간 범위를 선택하고 차트에 사용할 데이터 요소가 1,000개 미만인 경우 표시되는 데이터는 실제 데이터입니다. 다운샘플링이 발생하지 않습니다.</block>
   <block id="63fbd3cd056c3f311a965ba53124aa1b" category="inline-image-macro">다운샘플링 없음</block>
   <block id="abb49dbb2174a9d9b3ca4e4aec43a737" category="paragraph"><block ref="abb49dbb2174a9d9b3ca4e4aec43a737" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f9887e610719e8fb427e5f65a9f3b26e" category="paragraph">그러나 자산 페이지 시간 선택기에서 30d 중 하나를 선택하여 데이터를 보는 경우 또는 7일 이상의 사용자 지정 시간 범위를 설정하여(또는 Cloud Insights가 선택한 기간 동안 1,000개 이상의 데이터 샘플을 수집한 경우) 데이터가 표시되기 전에 다운샘플링됩니다. 다운샘플링된 차트를 확대하면 디스플레이에 근사화된 데이터가 계속 표시됩니다.</block>
   <block id="89d0f4224105c74f5ba553c8e1d6eae9" category="admonition">다운샘플링된 차트를 확대할 때 확대/축소는 디지털 확대/축소입니다. 디스플레이에 근사치 데이터가 계속 표시됩니다.</block>
   <block id="60feee952ab2bc7f5b90562b3201bfd8" category="paragraph">다음 그림에서 시간 범위가 처음 30d로 설정된 것을 볼 수 있으며, 그런 다음 차트를 확대하여 위와 동일한 24시간 기간을 표시할 수 있습니다.</block>
   <block id="917d8a1ae9d36081db734856e16d57f7" category="inline-image-macro">다운샘플링</block>
@@ -4254,12 +4187,8 @@
   <block id="0bb0dd664084e8e132010f6b5d28fa7e" category="cell">* 대체 SSH 클라이언트 * 증가 시간 초과로 명령을 시도하십시오</block>
   <block id="bf6fdea107f27972d7b53c64df40a276" category="cell">"연결 중 오류 발생" 또는 "잘못된 로그인 자격 증명"과 "장치와 통신할 수 없음:" 오류 메시지</block>
   <block id="1c112244e88f15fc7cbfa96418645de1" category="cell">* IP 주소 확인 * 사용자 이름 및 암호 확인 * 대체 SSH 클라이언트와의 연결 확인</block>
-  <block id="c7f969b5afde9ddd59008de6e90242fd" category="summary">이 섹션에서는 Cloud Insights 환경의 문제를 해결하는 데 도움이 되는 팁과 요령을 확인할 수 있습니다.</block>
-  <block id="1da3ee5df88bebf25333c76ca47fa680" category="doc">Cloud Insights 문제 해결</block>
-  <block id="595d5a6ca6bc47b43d6f21ee94bcfc0e" category="paragraph">이 섹션의 항목에서는 Cloud Insights 환경에 문제가 발생할 경우 문제 해결에 대한 조언을 제공합니다.</block>
   <block id="651139665bc5c206486de63f5570eaa4" category="paragraph">해당 범주의 문제 해결 정보를 보려면 왼쪽 메뉴에서 범주를 클릭하십시오.</block>
   <block id="434990c8a25d2be94863561ae98bd682" category="inline-link-macro">지원</block>
-  <block id="95e51c7c04a63a565b8ae1bf3258cf9e" category="paragraph">더 많은 문제 해결 및 기타 정보를 찾을 수 있습니다 <block ref="f3a940944ed2b77ff0757ee9675312e7" category="inline-link-macro-rx"></block> Cloud Insights* 도움말 &gt; 지원* 페이지에 대한 정보입니다.</block>
   <block id="f23d43a2f8827bf71755047f9233d1d7" category="summary">Flink 데이터 수집기 구성</block>
   <block id="760f80f90fb384d40bb66a9f0b4823fd" category="doc">Flink Data Collector</block>
   <block id="c1a584a645c5a21efa505b7deca25b2b" category="inline-image-macro">Flink 구성</block>
@@ -4295,7 +4224,6 @@
   <block id="36492bf47ea19332301e1b80a8878538" category="cell">현재 입력 워터마크 현재 출력 워터마크 초당 레코드 수 초당 레코드 수 초당 레코드 수 초당 레코드 수 레코드 수 초당 레코드 수 레코드 수 초당 레코드 수 초당 레코드 수 수 초당 레코드 수 처리 수 지연 레코드 수 삭제된 할당된 파티션 바이트 소비 속도 커밋 지연 시간 평균 커밋 지연 시간 최대 커밋 속도 Commit 실패 Commit 성공 연결 종료 속도 연결 수 연결 생성 속도 카운트 지연 시간 평균 가져오기 지연 시간 최대 가져오기 속도 가져오기 평균 페치 크기 최대 페치 스로틀 시간 평균 페치 스로틀 시간 최대 하트비트 속도 수신 바이트 속도 IO 비율 평균 IO 시간(ns) IO 대기 비율 IO 대기 시간 평균(ns) 연결 속도 연결 시간 평균 마지막 하트비트 전 네트워크 IO 속도 발신 바이트 속도 레코드 소비 속도 레코드 지연 요청 평균 요청 속도 요청 크기 평균 요청 크기 최대 응답 속도 동기화 속도 동기화 시간 평균 하트비트 응답 최대 조인 시간 최대 동기화 시간 최대</block>
   <block id="98f1b16edd9c418c18f29042ee157677" category="summary">Telegraf 데이터 표시 옵션</block>
   <block id="59a039b9bdde97f886d094af635410bd" category="doc">메트릭 혁신</block>
-  <block id="d66e199a7109fa5e8cb92ddc071162c4" category="paragraph">Cloud Insights는 위젯에서 특정 메트릭의 다양한 * 변환 * 옵션을 제공합니다(특히, Kubernetes, ONTAP 고급 데이터, Teleraf 플러그인 등과 같은 "사용자 지정" 또는 통합 메트릭이라고 함). 이를 통해 다양한 방식으로 데이터를 표시할 수 있습니다. 변환될 수 있는 메트릭을 위젯에 추가하면 다음과 같은 변환 선택 사항을 제공하는 드롭다운이 표시됩니다.</block>
   <block id="8dff9b3275d903bce911a227cbed3634" category="list-text">데이터는 조작 없이 그대로 표시됩니다.</block>
   <block id="dcb66ff6e4a2517ade22183779939c9d" category="list-text">속도</block>
   <block id="9b3e9f4a548e4f107c31fe2a21eed22a" category="list-text">현재 값을 이전 관찰 이후의 시간 범위로 나눈 값입니다.</block>
@@ -4362,7 +4290,6 @@
   <block id="ed5c4f798b6d55f2a89cb97884f0d548" category="section-title">게이지에 대한 참고 사항</block>
   <block id="4e2217a1fba6817d301befaa05659074" category="summary">비즈니스 통찰력 질문에 대한 답변을 돕기 위해 권장 대시보드를 가져올 수 있습니다.</block>
   <block id="cfa4bbfe8fe25421b55d6bc77170da89" category="doc">대시보드 갤러리에서 가져오기</block>
-  <block id="75ff2ecca247e32bd11a679fc97fbdab" category="paragraph">Cloud Insights는 데이터에 대한 비즈니스 통찰력을 제공하는 다양한 권장 대시보드를 제공합니다. 각 대시보드에는 특정 질문에 답하거나 현재 사용자 환경에서 수집 중인 데이터와 관련된 특정 문제를 해결하는 데 도움이 되도록 설계된 위젯이 포함되어 있습니다.</block>
   <block id="62a23650084673f5c844edf6588b4cbc" category="paragraph">갤러리에서 대시보드를 가져오려면 다음을 실행합니다.</block>
   <block id="bb6ec7619f5b7d24eeed488d054902d5" category="list-text">Gallery * 에서 * + 를 클릭합니다</block>
   <block id="58e1b019dfb18a656bddd772932b2be5" category="paragraph">권장 대시보드 * 목록이 표시됩니다. 각 대시보드의 이름은 대시보드가 해결할 수 있는 특정 질문으로 지정됩니다. 대시보드를 이용하면 AWS, NetApp, 스토리지, VMware, VMware 등 다양한 유형의 오브젝트 관련 질문에 있습니다</block>
@@ -4827,7 +4754,6 @@
   <block id="bdaf6ab402ed62b6993826e531f83a19" category="cell">"Connecting error(연결 오류)"와 "Failed to instantiate an SSH connection to storage(스토리지에 대한 SSH 연결을 인스턴스화하지 못했습니다)" 또는 "Failed to instantiate a connection to VirtualCenter(VirtualCenter 연결을 인스턴스화하지 못했습니다)"라는 오류 메시지</block>
   <block id="f5e86717b7f98bd7a5fa01557cb08665" category="cell">가능한 원인: * 잘못된 자격 증명. * 잘못된 IP 주소입니다. * 네트워크 문제. * 스토리지가 중단되거나 응답하지 않을 수 있습니다. 가능한 해결 방법: * 입력한 자격 증명 및 IP 주소를 확인합니다. * SSH 클라이언트를 사용하여 스토리지와 통신을 시도합니다.</block>
   <block id="d88662e1a105ca69f2e4f75dda790104" category="summary">일반 데이터 수집기 지침</block>
-  <block id="6fb5f9ef43ff68eda49ae0153f4e20c7" category="paragraph">Cloud Insights 환경에서 데이터 센터에 있는 디바이스의 데이터를 수집하도록 데이터 Collector를 구성합니다.</block>
   <block id="2214d2294c225c2125b0860b83519fed" category="list-text">데이터 수집을 시작하려면 먼저 획득 장치를 구성해야 합니다.</block>
   <block id="e1408e9d63eaa4ab5d669ec525031645" category="list-text">데이터를 수집하는 장치에 대한 자격 증명이 필요합니다.</block>
   <block id="a7470cf0d04f7133bf593832f6b10367" category="list-text">데이터를 수집하는 모든 장치에는 장치 네트워크 주소, 계정 정보 및 암호가 필요합니다.</block>
@@ -4967,7 +4893,6 @@
   <block id="307d85ae67db3542c6f899d7bc164528" category="cell">사용자 디렉토리 수집기를 구성하기 전에 AD 서버 암호화를 비활성화하십시오. 사용자 세부 정보를 가져오면 13개월 동안 표시됩니다. 사용자 세부 정보를 가져온 후 AD 서버의 연결이 끊기면 AD에서 새로 추가된 사용자를 가져오지 않습니다. 다시 가져오려면 사용자 디렉토리 수집기를 AD에 연결해야 합니다.</block>
   <block id="f25f4da5abc374ffca5bdff0513c85b9" category="summary">Data Collector 획득 상태</block>
   <block id="83da84ba526ae13c937b4eca7d4d6997" category="doc">데이터 수집기 획득 상태를 확인하는 중입니다</block>
-  <block id="9659bb352bce7bbad8d32a5d1436378d" category="paragraph">데이터 수집기는 Cloud Insights의 주요 정보 소스이기 때문에 데이터 수집기가 실행 상태를 유지해야 합니다.</block>
   <block id="d6937e3df97b816e56ded218889958b1" category="paragraph">데이터 수집기 상태는 자산 페이지의 오른쪽 상단 모서리에 "Acquired N minutes ago(N분 전 획득)" 메시지로 표시됩니다. 여기서 N은 자산의 데이터 수집기의 가장 최근 획득 시간을 나타냅니다. 획득 시간/날짜도 표시됩니다.</block>
   <block id="64253e1fcc0aae98a2a4e076304feca3" category="paragraph">메시지를 클릭하면 데이터 수집기 이름, 상태 및 마지막으로 성공한 획득 시간이 있는 테이블이 표시됩니다. 관리자로 로그인한 경우 테이블에서 데이터 수집기 이름 링크를 클릭하면 해당 데이터 수집기에 대한 세부 정보 페이지로 이동합니다.</block>
   <block id="b33554a1697b5000df418d400a57bdd1" category="doc">구성 및 지원 장치</block>
@@ -5020,14 +4945,9 @@
   <block id="50a6705375aa0523ca8f305c76db5172" category="admonition">Hyper-V 데이터 수집기는 Windows 획득 장치가 필요합니다.</block>
   <block id="f0865641bccffbd295dc7ee0faaa36e6" category="cell">하이퍼바이저의 관리자 사용자 이름입니다</block>
   <block id="6b0e1ba821d4c57e9bb878372d7ac447" category="cell">하이퍼바이저의 암호입니다</block>
-  <block id="81c7383b650665d348221da3b0b08e7f" category="summary">Cloud Insights에는 다양한 작업을 수행하는 방법을 보여주는 자습서가 있습니다.</block>
   <block id="5b425cd08035f29c3dad5d45f1d2ea6e" category="doc">피처 튜터리얼</block>
-  <block id="66dc6c98ce15c9bec5a1bac245e6f799" category="paragraph">Cloud Insights에는 데이터를 빠르고 쉽게 찾고, 문제를 해결하고, 기업 환경에 대한 통찰력을 제공할 수 있는 유용한 기능이 포함되어 있습니다. 강력한 쿼리를 사용하여 데이터를 쉽게 찾고, 대시보드에서 데이터를 시각화하고, 설정한 데이터 임계값에 대한 전자 메일 알림을 보낼 수 있습니다.</block>
-  <block id="6a724de2bb90dc111e97626ecb3108c5" category="paragraph">Cloud Insights에는 이러한 기능을 이해하고 비즈니스 통찰력 전략을 보다 잘 구현할 수 있도록 도와주는 여러 비디오 자습서가 포함되어 있습니다. Cloud Insights 환경에 액세스할 수 있는 모든 사용자는 이러한 자습서를 활용할 수 있습니다.</block>
   <block id="0b79795d3efc95b9976c7c5b933afce2" category="section-title">소개</block>
-  <block id="99ef70f6f3250f1fadde641675fed420" category="paragraph">Cloud Insights의 작동 방식을 설명하는 간단한 자습서를 시청하십시오.</block>
   <block id="7dc1d63676b307452b778906ec63a727" category="section-title">체크리스트 및 비디오 자습서</block>
-  <block id="6b8fe8afd1e5e4ce5664f3b9e282dece" category="paragraph">Cloud Insights 사이트에 표시되는 * 시작 체크리스트 * 에는 몇 가지 유용한 작업과 개념 목록이 포함되어 있습니다. 체크리스트에서 항목을 선택하면 해당 개념에 적합한 Cloud Insights 페이지로 이동합니다. 예를 들어, _대시보드 만들기_항목을 클릭하면 Cloud Insights* 대시보드* 페이지가 열립니다.</block>
   <block id="8d72a33fb7e1e81326ed633058c4c3c6" category="paragraph"><block ref="8d72a33fb7e1e81326ed633058c4c3c6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="76139ab832813477c275f09a383293c0" category="paragraph">페이지 상단에는 대시보드를 만드는 방법을 보여주는 비디오 자습서에 대한 링크가 있습니다. 동영상을 원하는 횟수만큼 볼 수 있습니다. 해당 비디오에 대해 이 _link를 다시 표시하지 않습니다. 비디오를 해제할 때까지 대시보드 페이지로 이동할 때마다 사용할 수 있습니다.</block>
   <block id="221ebbda47c384ed7364c0d57a0a4169" category="inline-image-macro">비디오 링크 보기</block>
@@ -5035,7 +4955,6 @@
   <block id="0aac9dc0b59278dac24dcb96f42f6674" category="paragraph">비디오를 한 번 이상 시청한 후 체크리스트의 _ 대시보드 생성 _ 항목이 체크 아웃되어 튜토리얼을 완료했음을 나타냅니다. 그런 다음 다음 다음 자습서로 진행할 수 있습니다.</block>
   <block id="02bf91ef19eb660db8593e97292dde1c" category="admonition">원하는 순서대로 튜터리얼을 볼 수 있습니다.</block>
   <block id="2d7a0a906729c332280875fa9c1ea09c" category="section-title">점검 목록을 해제합니다</block>
-  <block id="bbb4a1b3033324321c2b07a4e4939be7" category="paragraph">점검 목록 맨 아래에 있는 _다시 표시하지 않음_링크를 클릭할 때까지 시작 점검 목록이 사이트에 표시됩니다. 체크리스트를 누락한 후에도 메시지 머리글 표시줄에서 각 항목을 해제할 때까지 각 해당 Cloud Insights 페이지에서 자습서를 계속 사용할 수 있습니다.</block>
   <block id="ec7cecc5c967770303bd0879fae9fa97" category="section-title">자습서를 봅니다</block>
   <block id="dd0d7945a3c6cc8c8a340c913a130d8d" category="section-title">데이터 쿼리</block>
   <block id="730fe644f1d87eaec727a65945705b30" category="section-title">장치 확인</block>
@@ -5864,7 +5783,6 @@
   <block id="b0ca248073a023baf8a5d5ba65f8ddc0" category="cell">데이터 소스를 편집하여 VPLEX Management Console의 Performance Remote IP 주소를 설정합니다.</block>
   <block id="e12383dace0b52ba802ab9584de764cd" category="cell">오류: 디렉터에서 보고된 성능 데이터가 없습니다</block>
   <block id="0ac6394c2676e3eb8512b9aaf28e3faf" category="cell">• 시스템 성능 모니터가 올바르게 실행되고 있는지 확인하십시오. • 시스템 성능 모니터 로그 파일을 업데이트하려면 EMC 지원 부서에 문의하십시오</block>
-  <block id="07d8a20311bb7ef0fdd0a319b9667a65" category="summary">Cloud Insights의 자산 페이지 요약 섹션 개요</block>
   <block id="29128cb5215fb2e80e1ee7a20fe86126" category="doc">자산 페이지 요약 섹션</block>
   <block id="1928ab7a05e24c9e7bde67fb9a528d0d" category="paragraph">자산 페이지의 요약 섹션에는 메트릭이나 성능 정책이 우려할 만한 원인인지 여부를 비롯한 자산에 대한 일반 정보가 표시됩니다. 잠재적 문제 영역은 빨간색 원으로 표시됩니다.</block>
   <block id="ce7951793151a0f69487b414bdd8b498" category="paragraph">참고: 요약 섹션에 표시되는 정보는 보고 있는 자산의 유형에 따라 달라집니다.</block>
@@ -5921,7 +5839,6 @@
   <block id="67f88e9638429025aedc9459c104dc99" category="cell">성능 컬렉션에서 포함하거나 제외할 장치 ID의 쉼표로 구분된 목록입니다</block>
   <block id="13cb776e94eedbe31790c3da868fce4f" category="cell">오류 포함: CMUC00192E, CMUC00191E 또는 CMUC00190E</block>
   <block id="b18a21f855b9b4e7ca0fae5355812eb5" category="cell">오류: * 프로그램을 실행할 수 없음 * 명령 실행 중 오류</block>
-  <block id="55d1aacd9076657a9c3f2551a759f3f7" category="summary">Cloud Insights의 자산 페이지 관련 경고 섹션 개요</block>
   <block id="1b7dc1deafc07ca39a6334e1152f20e6" category="doc">자산 페이지 관련 경고 섹션</block>
   <block id="3608951e73671567ed9225929310279b" category="paragraph">자산 페이지의 관련 경고 섹션을 사용하면 자산에 할당된 모니터로 인해 사용자 환경에서 발생하는 모든 경고를 볼 수 있습니다. 모니터는 사용자가 설정한 조건에 따라 알림을 생성하며, 이를 통해 영향을 파악하고 문제의 영향과 근본 원인을 빠르고 효과적으로 수정할 수 있습니다.</block>
   <block id="1da67e7bef682d4c0fcc23895b1a2b8e" category="paragraph">다음 예에서는 자산 페이지에 표시되는 일반적인 관련 경고 섹션을 보여 줍니다.</block>
@@ -6110,7 +6027,6 @@
   <block id="c3953a499e26fb5cad07e67c40f3db25" category="paragraph">그러나 환경에 있는 개별 서브넷의 노드만 일시적으로 보려면 변수를 특정 에이전트 노드 IP 또는 IP로 설정하거나 변경할 수 있습니다. 여기서는 "123" 서브넷의 노드만 보고 있습니다.</block>
   <block id="5246fe894302a8a0c6ddc8e1a8eabbac" category="inline-image-macro">변수 필터 후 상담원 노드</block>
   <block id="56fe99e38514c0cce0008ef626b7a0cf" category="paragraph"><block ref="56fe99e38514c0cce0008ef626b7a0cf" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ef91a7cc72502b96c9cf6aab818dfd2d" category="paragraph">변수 필드에 _ *.vendor_를 지정하여 오브젝트 유형(예: "vendor" 특성이 있는 오브젝트)과 관계없이 특정 특성을 가진 _ALL_OBJECT에 필터를 설정할 수도 있습니다. "*."를 입력할 필요가 없습니다. 와일드카드 옵션을 선택하면 Cloud Insights에서 이를 제공합니다.</block>
   <block id="ed7dd290eed78fda8a7e6e57c0454d62" category="inline-image-macro">공급업체의 특성 변수</block>
   <block id="bf22e0e1581a335446f830bdd58ad47d" category="paragraph"><block ref="bf22e0e1581a335446f830bdd58ad47d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="88c2cb6ab02290c4fc8aef63c5b379a8" category="paragraph">변수 값에 대한 선택 항목 목록을 드롭다운하면 결과가 필터링되어 대시보드의 개체를 기반으로 사용 가능한 공급업체만 표시됩니다.</block>
@@ -6160,8 +6076,6 @@
   <block id="670616244b43ae6baa3f7977bae769d9" category="inline-image-macro">포맷이 있는 단일 값 위젯 및 포맷이 없는 위젯</block>
   <block id="7cf514f5919cb28bfec05b4c4f4c46c6" category="paragraph">단일 값 위젯 또는 게이지 위젯에서 링크를 클릭하면 위젯의 첫 번째 쿼리에 해당하는 쿼리 페이지가 표시됩니다.</block>
   <block id="8887fb0da398cbd5a40ebbe4bb001e9e" category="section-title">데이터를 표시할 단위 선택</block>
-  <block id="544d699124d6f6d0209bb6641b0b3bd4" category="paragraph">대시보드의 대부분의 위젯에서 값을 표시할 단위를 지정할 수 있습니다(예: _Megabytes_, _수천_, _percentage_, _milliseconds(ms)_, 등 대부분의 경우 Cloud Insights는 획득 중인 데이터에 가장 적합한 형식을 알고 있습니다. 최상의 형식을 모르는 경우 원하는 형식을 설정할 수 있습니다.</block>
-  <block id="cc55a3a8eac56ea30ca27b963b224a0c" category="paragraph">아래 선형 차트 예에서 위젯에 대해 선택한 데이터는 _ bytes _ (기본 IEC 데이터 단위: 아래 표 참조)로 알려져 있으므로 기본 단위는 자동으로 'byte (B)'로 선택됩니다. 그러나 데이터 값이 기가바이트(GiB)로 표시될 정도로 크므로 Cloud Insights는 기본적으로 값을 GiB로 자동 포맷합니다. 그래프의 Y축은 표시 단위로 'GiB'를 나타내고, 모든 값은 해당 단위를 기준으로 표시됩니다.</block>
   <block id="9c5fc6548d2d02da447f14ea71304a18" category="inline-image-macro">기본 단위 바이트(GB), 너비 = 640</block>
   <block id="6dfd8abfbea3a77fb93a2f7c41bb1321" category="paragraph"><block ref="6dfd8abfbea3a77fb93a2f7c41bb1321" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c57c37eff4dd444e95f9c9552b8b7f60" category="paragraph">그래프를 다른 단위로 표시하려면 값을 표시할 다른 형식을 선택할 수 있습니다. 이 예제의 기본 단위는 _byte_이므로 지원되는 "byte-based" 형식 중 하나를 선택할 수 있습니다: bit (b), byte (B), kibibyte (KiB), mibibyte (MiB), gibibibyte (GiB). Y축 레이블과 값은 선택한 형식에 따라 변경됩니다.</block>
@@ -6173,8 +6087,6 @@
   <block id="de41ef208cfaf87a5a5ff3ac0c977f7b" category="paragraph"><block ref="de41ef208cfaf87a5a5ff3ac0c977f7b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="63887a8f357f208852bb207d3e2a20a0" category="paragraph">설정을 지우고 다시 시작하려면 * 기본값 재설정 * 을 클릭합니다.</block>
   <block id="37e0d3752b5baa80b22de7d284e9c574" category="section-title">자동 서식 에 대한 단어</block>
-  <block id="e93bbb02ffa04092e4c539a2a5763bde" category="paragraph">대부분의 메트릭은 1,234,567,890바이트와 같이 가장 작은 단위의 데이터 수집기에서 보고됩니다. 기본적으로 Cloud Insights는 읽을 수 있는 디스플레이 값의 형식을 자동으로 지정합니다. 예를 들어, 1,234,567,890바이트의 데이터 값은 1.23_Gibytes_로 자동 포맷됩니다. 이를 _Me비바이트_와 같은 다른 형식으로 표시하도록 선택할 수 있습니다. 그에 따라 값이 표시됩니다.</block>
-  <block id="e774349e9e2fc82d40139ee4ff483f88" category="admonition">Cloud Insights는 미국 영어 번호 명명 표준을 사용합니다. 미국 "십억"은 "천 백만"에 해당합니다.</block>
   <block id="8a673ad2bbf188cd3419def00657255d" category="section-title">여러 쿼리가 있는 위젯</block>
   <block id="9f663564e5048592524182394ba9244c" category="paragraph">두 개의 쿼리가 있는 시간 시리즈 위젯(예: 선, 스플라인, 영역, 스택 영역)이 둘 다 기본 Y축을 플롯하는 경우 기본 단위는 Y축 상단에 표시되지 않습니다. 하지만 위젯에 기본 Y축에 쿼리가 있고 보조 Y축에 쿼리가 있는 경우 각 항목의 기본 단위가 표시됩니다.</block>
   <block id="3842d9022c9b5345af18ad89f0ed6f04" category="inline-image-macro">두 Y축 모두에 단위</block>
@@ -6213,7 +6125,6 @@
   <block id="21ff05570d361fe86c0060a77c3e509b" category="cell">1시간</block>
   <block id="b7ead3a19a9e810bd9a56c2d0ba0970d" category="paragraph">각 위젯은 위젯의 오른쪽 상단 모서리에 자동 새로 고침 간격을 표시합니다.</block>
   <block id="2d5591e725889a349c977cc4e7cae6db" category="paragraph">사용자 지정 대시보드 시간 범위에는 자동 새로 고침을 사용할 수 없습니다.</block>
-  <block id="b9aa7ebd34479fa35d4742937dc6d82d" category="paragraph">TV 모드 * 와 함께 사용할 경우 자동 새로 고침을 통해 대시보드 또는 자산 페이지에 거의 실시간으로 데이터를 표시할 수 있습니다. TV 모드는 간결한 화면을 제공합니다. 탐색 메뉴는 숨겨져 있으며, 편집 단추처럼 데이터 디스플레이에 더 많은 화면 공간을 제공합니다. TV 모드는 인증 보안 프로토콜에 의해 수동 또는 자동으로 로그아웃될 때까지 디스플레이를 라이브로 유지하는 일반적인 Cloud Insights 시간 제한을 무시합니다.</block>
   <block id="ab725dcaf8aab4f9267b993fc1b48570" category="paragraph">오른쪽 상단의 일시 중지 버튼을 클릭하여 자동 새로 고침을 일시적으로 중단할 수 있습니다. 일시 중지된 동안 대시보드 시간 범위 필드에 일시 중지된 데이터의 활성 시간 범위가 표시됩니다. 자동 새로 고침이 일시 중지되어 있는 동안 데이터가 계속 수집되고 업데이트됩니다. 데이터 자동 새로 고침을 계속하려면 재개 버튼을 클릭합니다.</block>
   <block id="8ab7fb1354818b117ddd5a7e3a5381e9" category="inline-image-macro">자동 새로 고침이 일시 중지되었습니다</block>
   <block id="8ce131e8456d9b17b2e6beb2825e1f49" category="paragraph"><block ref="8ce131e8456d9b17b2e6beb2825e1f49" category="inline-image-macro-rx" type="image"></block></block>
@@ -6227,14 +6138,12 @@
   <block id="be8dec6767693b950aba100386430036" category="list-text">단일 대시보드를 추가하려면 대시보드 오른쪽에 있는 메뉴를 클릭하고 _Add to Group_을 선택합니다.</block>
   <block id="b34295eda497f890ecd6d31542fb89cb" category="list-text">그룹에 여러 개의 대시보드를 추가하려면 각 대시보드 옆에 있는 확인란을 클릭하여 선택한 다음 * Bulk Actions * 버튼을 클릭하고 _Add to Group_을 선택합니다.</block>
   <block id="c9ddb140b7bb858e872e0d9eb3ac3255" category="paragraph">_ Remove from Group _ 을(를) 선택하여 동일한 방식으로 현재 그룹에서 대시보드를 제거합니다. 모든 대시보드 또는 _내 대시보드_그룹에서 대시보드를 제거할 수 없습니다.</block>
-  <block id="c4a3d911009a39f37f83869783055226" category="admonition">그룹에서 대시보드를 제거해도 Cloud Insights에서 대시보드는 삭제되지 않습니다. 대시보드를 완전히 제거하려면 대시보드를 선택하고 _Delete_를 클릭합니다. 이렇게 하면 해당 그룹이 속해 있는 모든 그룹에서 해당 그룹이 제거되고 더 이상 모든 사용자가 사용할 수 없게 됩니다.</block>
   <block id="8586ee80873d7b4eda60b14fe2702a4a" category="section-title">즐겨찾기 대시보드를 고정합니다</block>
   <block id="1637020c87c8643cd14513152af85aac" category="paragraph">대시보드 목록의 맨 위에 자주 사용하는 대시보드를 고정하여 더 세부적으로 관리할 수 있습니다. 대시보드를 고정하려면 목록에서 대시보드 위로 마우스를 가져가면 표시되는 압정 단추를 클릭하면 됩니다.</block>
   <block id="f1008575ca85fdeed9dfc1def97f3af9" category="paragraph">대시보드 핀/고정 해제는 개별 사용자 기본 설정이며 대시보드가 속한 그룹(또는 그룹)과 무관합니다.</block>
   <block id="d5c93b4be3bb6bac0783043d7b1e5c06" category="inline-image-macro">고정된 대시보드</block>
   <block id="3521a860e5b0bdf28430a056841ef3b3" category="paragraph"><block ref="3521a860e5b0bdf28430a056841ef3b3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e1043b98a3cb90eb47cd13ebba153f39" category="section-title">어두운 테마</block>
-  <block id="3165b1e68882eb4c8b5a4eb378f539a0" category="paragraph">어두운 텍스트가 있는 밝은 배경을 사용하여 대부분의 화면을 표시하는 밝은 테마(기본값)나 밝은 텍스트가 있는 어두운 배경을 사용하여 대부분의 화면을 표시하는 어두운 테마를 사용하여 Cloud Insights를 표시하도록 선택할 수 있습니다.</block>
   <block id="13952a31cfc47a6b1bb37f7aa091cd46" category="paragraph">밝은 테마와 어두운 테마 사이를 전환하려면 화면 오른쪽 위에 있는 사용자 이름 단추를 클릭하고 원하는 테마를 선택합니다.</block>
   <block id="c8fd30c576e80caca5481c6f50542358" category="inline-image-macro">밝은 테마와 어두운 테마 간에 전환합니다</block>
   <block id="e0681ae9763ce64f8166eea32156ceb2" category="paragraph"><block ref="e0681ae9763ce64f8166eea32156ceb2" category="inline-image-macro-rx" type="image"></block></block>
@@ -6277,7 +6186,6 @@
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
-  <block id="4e9ba34cd64303c28d17d7ef9da12d0b" category="inline-link-macro">Cloud Insights에 대한 고지 사항</block>
   <block id="92726ab5faeb2cb9208eaac9af0346bd" category="doc">사용자 관리</block>
   <block id="6ebd484a6c09e27c3b5f9d6a61ad9a6a" category="paragraph">Cloud Insights의 사용자 관리 페이지로 전달됩니다.</block>
   <block id="65e164b1fa429ad3c8da14d927b960f7" category="list-text">각 사용자에 대해 원하는 역할을 선택합니다.</block>
@@ -6417,11 +6325,7 @@
   <block id="d40435902e9d2aff211851b4be9e2a25" category="paragraph">대시보드의 위젯은 범례와 함께 또는 범례 없이 표시할 수 있습니다.</block>
   <block id="82908db5a2e57cb0c3c9c7daae713304" category="paragraph">대시보드를 표시할 때 위젯에서 * 옵션 * 버튼을 클릭하고 메뉴에서 * 범례 표시 * 를 선택하여 위젯의 범례를 설정하거나 해제할 수 있습니다.</block>
   <block id="1ca8bb723c638279d7c5ddb2b353ea54" category="paragraph">범례가 표시될 때 범례가 나타내는 자산의 랜딩 페이지를 탐색할 수 있으면 범례가 해당 자산 페이지에 대한 링크로 표시됩니다.</block>
-  <block id="3ddf2898e2fb1338de74883b4c68f0b1" category="summary">Cloud Insights는 NetApp Active IQ에서 위험 데이터를 수집합니다</block>
   <block id="df0ddcb04f0e5278d49d2c87dfa7f7fc" category="paragraph">넷엡 <block ref="5d418eb60d51fa035e4b287bd4191a07" category="inline-link-macro-rx"></block> 하드웨어/소프트웨어 시스템의 NetApp 고객에게 일련의 시각화, 분석 및 기타 지원 관련 서비스를 제공합니다. Active IQ에서 보고하는 데이터는 시스템 문제 해결을 개선하고 장치와 관련된 최적화 및 예측 분석에 대한 통찰력을 제공할 수 있습니다.</block>
-  <block id="35b5dc06126b83d7f3bd5d91c90bc273" category="paragraph">Cloud Insights은 Active IQ에서 모니터링 및 보고하는 모든 NetApp clustered Data ONTAP 스토리지 시스템에 대해 * 위험 * 을 수집합니다. 스토리지 시스템에 대해 보고된 위험은 Cloud Insights이 해당 디바이스에서 데이터를 수집하는 과정에서 자동으로 수집합니다. Active IQ 위험 정보를 수집하려면 적절한 데이터 수집기를 Cloud Insights에 추가해야 합니다.</block>
-  <block id="36a3be21cb3190ce7322960932796541" category="paragraph">Cloud Insights는 Active IQ에서 모니터링 및 보고하지 않은 ONTAP 시스템에 대한 위험 데이터를 표시하지 않습니다.</block>
-  <block id="7b46c393e53a5e3f798e6fec0937030a" category="paragraph">보고된 위험은 _storage_and_storage node_asset 랜딩 페이지의 Cloud Insights에서 "위험" 표에 나와 있습니다. 이 표에는 위험 세부 정보, 위험 범주 및 잠재적 영향이 나와 있으며, 스토리지 노드의 모든 위험을 요약하는 Active IQ 페이지 링크가 제공됩니다(NetApp 지원 어카운트 로그인 필요).</block>
   <block id="44def9cfd3c785a71c36d95e24981147" category="inline-image-macro">Active IQ 위험 표</block>
   <block id="253139fff686e1ef9f39ced79055cc70" category="paragraph"><block ref="253139fff686e1ef9f39ced79055cc70" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8887b934719a6de0be9e0e43f0ab23d0" category="paragraph">보고된 위험의 수도 랜딩 페이지의 요약 위젯에 표시되며 해당 Active IQ 페이지에 대한 링크도 표시됩니다. storage_landing 페이지에서 count는 모든 기본 스토리지 노드의 위험을 합한 값입니다.</block>
@@ -6429,7 +6333,6 @@
   <block id="1be3faf6a174e90a1b900868f94e4600" category="paragraph"><block ref="1be3faf6a174e90a1b900868f94e4600" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4a45597eae979dc62d93cd1d748058bd" category="section-title">Active IQ 페이지를 엽니다</block>
   <block id="487f4fcccb6a34d5590990b8e54ace74" category="paragraph">Active IQ 페이지에 대한 링크를 클릭할 때 현재 Active IQ 계정에 로그인되어 있지 않은 경우 다음 단계를 수행하여 스토리지 노드의 Active IQ 페이지를 표시해야 합니다.</block>
-  <block id="85d55fc2c50a3ced7f7d81d3dc3040a6" category="list-text">Cloud Insights 요약 위젯 또는 위험 테이블에서 "Active IQ" 링크를 클릭합니다.</block>
   <block id="cd2403e73e741b8001cced6aa04fa472" category="list-text">NetApp Support 계정에 로그인하십시오. Active IQ의 스토리지 노드 페이지로 직접 이동됩니다.</block>
   <block id="62fcdd34f555d8c4a7cdda3b94732063" category="section-title">위험을 쿼리하는 중입니다</block>
   <block id="0ba8adc53c16a6ffe145978e834b02f8" category="section-title">대시보드</block>
@@ -6449,7 +6352,6 @@
   <block id="4f4f1acccf64ba28d2afa3aec1fb206b" category="cell">바이러스 검사</block>
   <block id="f903a03dee9b7e1bc20944e4094e208c" category="cell">설치하는 동안 모든 바이러스 스캐너를 완전히 비활성화해야 합니다. 설치 후 획득 장치 소프트웨어에서 사용하는 경로는 바이러스 검사에서 제외되어야 합니다.</block>
   <block id="00aa35cd2ad7f27d6f122e0e11fbfc82" category="section-title">사이징 관련</block>
-  <block id="5a54a6a63c3925e4e34795f96e2f4aec" category="paragraph">8GB 메모리와 50GB의 디스크 공간으로 Cloud Insights 획득 장치를 시작할 수 있지만, 대규모 환경에서는 다음과 같은 질문을 스스로에게 해야 합니다.</block>
   <block id="f44484d5ce5419fb11093a3c170b223c" category="paragraph">다음 사항을 예상하십니까?</block>
   <block id="d3dc1fc44d23379b3a3e3c6e5eaed716" category="list-text">이 획득 장치에서 2,500개 이상의 가상 머신 또는 10개의 대규모(&gt;2개 노드) ONTAP 클러스터, Symmetrix 또는 HDS/HPE VSP/XP 스토리지를 검색합니까?</block>
   <block id="e0dc2ed956b3711e722d965954939344" category="list-text">이 획득 장치에 75개 이상의 총 데이터 수집기를 배포하시겠습니까?</block>
@@ -6457,7 +6359,6 @@
   <block id="11bb1da5c9cf0248245ce5b24119d183" category="paragraph">사이징에 대한 추가 질문은 NetApp 지원에 문의하십시오.</block>
   <block id="09d6123310780f93d8f4d27e5bea4c38" category="summary">요약.</block>
   <block id="d094b5589a83ff9dbfcc2d0e99295078" category="doc">구성된 데이터 수집기 관리</block>
-  <block id="53b9802b3b72e00a64f054ac84f78c11" category="paragraph">설치된 데이터 수집기 페이지에서는 Cloud Insights용으로 구성된 데이터 수집기에 액세스할 수 있습니다. 이 페이지를 사용하여 기존 데이터 수집기를 수정할 수 있습니다.</block>
   <block id="b931042a6d27500a3c3952e7af9907a5" category="paragraph">Available Data Collector 화면이 표시됩니다.</block>
   <block id="e57a6ec1c32ee71fdeae09f16bf7524f" category="list-text">설치된 데이터 수집기 * 를 클릭합니다</block>
   <block id="25d0acec025a9863386eb668b19dff06" category="paragraph">설치된 모든 데이터 수집기 목록이 표시됩니다. 이 목록은 Collector 이름, 상태, 수집기가 액세스하는 IP 주소 및 장치에서 데이터를 마지막으로 획득한 시점을 제공합니다. 이 화면에서 수행할 수 있는 작업은 다음과 같습니다.</block>
@@ -6640,7 +6541,6 @@
   <block id="14590850b4107a6f92feb1af739b82eb" category="sidebar">인형</block>
   <block id="15ec8934d96530d4c5f4a3b0f701f745" category="sidebar">RethinkDB를 참조하십시오</block>
   <block id="e229d51ca45046e23340982a0d911a30" category="section-title">감사 데이터 보존</block>
-  <block id="c5ba523259d5f0a8abbc98e09089879a" category="paragraph">Cloud Insights이 감사 데이터를 보존하는 시간은 귀하의 에디션을 기준으로 합니다.</block>
   <block id="6140d54709a2f0707aaa20367fd479a2" category="list-text">Basic Edition: 감사 데이터는 30일 동안 보존됩니다</block>
   <block id="ef14a516a82a51d74eaeb8e2193667cb" category="list-text">Standard 및 Premium Edition: 감사 데이터는 1년 + 1일 동안 보존됩니다</block>
   <block id="7ad87c3be379b9de0a9009199fb5401c" category="paragraph">보존 시간보다 오래된 감사 항목은 자동으로 제거됩니다. 사용자 조작이 필요하지 않습니다.</block>
@@ -6679,7 +6579,6 @@
   <block id="92bc1b7a13a5372aed9762b4aaea086f" category="paragraph">Kubernetes 환경을 자세히 살펴보거나 문제를 해결하려면 페이지의 링크를 클릭하십시오.</block>
   <block id="f8a3f6c3840b144728e1066d84db53ec" category="section-title">선형 차트 보간</block>
   <block id="d1458c295da095c4f0b8cdf2e41ceaf6" category="paragraph">여러 데이터 수집기는 서로 다른 간격으로 데이터를 폴링합니다. 예를 들어, 데이터 수집기 A는 15분마다 폴링하는 반면 데이터 수집기 B는 5분마다 폴링합니다. 선형 차트 위젯(스플라인, 영역 및 누적 영역형 차트)이 여러 데이터 수집기에서 단일 선으로 이 데이터를 집계하는 경우(예: 위젯이 "모두"로 그룹화되는 경우) 그리고 5분마다 라인을 새로 고치면 수집기 B의 데이터가 정확하게 표시될 수 있으며 콜렉터 A의 데이터에 차이가 있을 수 있으므로 콜렉터 A가 다시 폴링을 할 때까지 집계에 영향을 줄 수 있습니다.</block>
-  <block id="ccf8880e1018ebb2fd1bb2e959e62092" category="paragraph">이를 완화하기 위해 Cloud Insights는 집계 시 데이터를 보간하고, 데이터 수집기가 다시 폴링할 때까지 주변 데이터 요소를 사용하여 데이터를 "최상의 추측"으로 만듭니다. 위젯의 그룹화를 조정하여 언제든지 각 데이터 수집기의 개체 데이터를 개별적으로 볼 수 있습니다.</block>
   <block id="c1f58328aeef13bbe14c188aa6c895ea" category="paragraph">다음은 보고와 관련된 문제 해결을 위한 제안 사항입니다.</block>
   <block id="f6742e49587a771a1225e7c6e472c682" category="cell">이메일을 통해 보고서를 보내도록 예약하는 경우 로그인한 사용자의 이름이 이메일의 "받는 사람" 필드에 미리 채워집니다. 그러나 이름은 "성 이름"(이름, 공백, 성) 형식입니다. 이 주소는 유효한 이메일 주소가 아니므로 예약된 보고서가 실행될 때 이메일이 전송되지 않습니다.</block>
   <block id="155db2ed9995e9882b3be492b37935dc" category="cell">이메일을 통해 보고서를 보내도록 예약할 때 미리 채워진 이름을 지우고 "받는 사람" 필드에 올바른 형식의 유효한 이메일 주소를 입력합니다.</block>
@@ -6746,20 +6645,15 @@
   <block id="45268bdcc9ffe3a5807e75085e768efb" category="cell">API 유형</block>
   <block id="c73695e7529146d82731a287d36e3f1d" category="cell">로그 수집</block>
   <block id="dc1a2dd04ef0a485bbca321805f8ea84" category="inline-link-macro">기능 세트 역할</block>
-  <block id="9229d75b73e189809aaf32ca1941e5cb" category="paragraph">Cloud Insights도 있습니다 <block ref="ca56f933f1431ce18e092150c84b745d" category="inline-link-macro-rx"></block> 에서 액세스할 수 있는 API를 결정합니다. 사용자 및 게스트 역할은 관리자 역할보다 권한이 적습니다. 예를 들어 Monitor and Optimize에서 관리자 역할이 있지만 Reporting에서 사용자 역할은 데이터 웨어하우스를 제외한 모든 API 유형을 관리할 수 있습니다.</block>
   <block id="990550983c2107ed5ccd87b4a6690b0a" category="inline-image-macro">API 유형</block>
   <block id="e86bb8cbf77ec00646c7b5fe6b42e633" category="paragraph"><block ref="e86bb8cbf77ec00646c7b5fe6b42e633" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f229a25d4d4958d97a50dc8a836a921f" category="paragraph">API 설명서는 Swagger 기반의 API에 대한 간단한 설명과 사용 정보를 제공하며, 사용자 환경에서 사용할 수 있습니다. 사용자 역할 및/또는 Cloud Insights 버전에 따라 사용 가능한 API 유형이 다를 수 있습니다.</block>
-  <block id="9bda043a75ddd802178719c5bb4e0e71" category="paragraph">Cloud Insights API를 사용하기 전에 하나 이상의 * API 액세스 토큰 * 을 만들어야 합니다. 액세스 토큰은 지정된 API 유형에 사용되며 읽기 및/또는 쓰기 권한을 부여할 수 있습니다. 각 액세스 토큰의 만료일을 설정할 수도 있습니다. 지정된 유형의 모든 API는 액세스 토큰에 대해 유효합니다. 각 토큰은 사용자 이름 또는 암호의 무효입니다.</block>
   <block id="815a8361cf9eb2836d28b11b65b2dc3b" category="list-text">API 유형을 선택합니다</block>
-  <block id="9eaefcbfb99d876f3642ba3d021c04d6" category="paragraph">Cloud Insights API는 범주 기반이며 현재 다음 유형이 포함되어 있습니다.</block>
   <block id="16d532fd527f8b9de1c866f621fb7569" category="list-text">자산 유형에 자산, 쿼리 및 검색 API가 포함되어 있습니다.</block>
   <block id="c7ff46f17aacbcc8f9caba752c2fd410" category="list-text">데이터 수집 형식은 데이터 수집기를 검색하고 관리하는 데 사용됩니다.</block>
   <block id="c13a40ffc26f5f762f6de126cf232cf5" category="list-text">데이터 수집 유형은 텔레그라프 에이전트와 같은 수집 데이터와 사용자 지정 메트릭을 검색 및 관리하는 데 사용됩니다</block>
   <block id="e2838ba9f29d27f412035bd037388732" category="list-text">로그 수집은 로그 데이터를 검색하고 관리하는 데 사용됩니다</block>
   <block id="133f61531451649a036c6c806600058c" category="paragraph">시간이 지나면 추가 유형 및/또는 API를 사용할 수 있습니다. 최신 API 정보는 에서 확인할 수 있습니다 <block ref="26737cef142923769504b229d3be204d" category="inline-link-macro-rx"></block>.</block>
   <block id="8811c3ab0c7b0cc46d2ac67e164d0fc9" category="paragraph">성능 메트릭에는 설명 및 유형이 있으며 성능 요약 컬렉션이 포함되어 있습니다. 예: 지연 시간, 트래픽 및 속도.</block>
-  <block id="2bf7ed4a0e334f4b972f700945f47a56" category="paragraph">각 성능 데이터 오브젝트 유형에는 고유한 성능 메트릭 세트가 있습니다. 예를 들어, 가상 머신 성능 개체는 성능 메트릭으로 "diskThroughput"을 지원합니다. 지원되는 각 성능 메트릭은 메트릭 사전에 나와 있는 특정 "성능 범주"입니다. Cloud Insights는 이 문서 뒷부분의 여러 성능 메트릭 유형을 지원합니다. 각 성능 메트릭 사전에는 이 성능 메트릭에 대한 사람이 읽을 수 있는 설명과 성능 요약 카운터 항목 집합인 "설명" 필드도 있습니다.</block>
   <block id="9d31f56324b0322ffe68df1873845bca" category="paragraph">검색 API는 시스템에 대한 간단한 진입점입니다. API에 대한 유일한 입력 매개 변수는 자유 형식 문자열이며 결과 JSON에는 분류된 결과 목록이 포함되어 있습니다. 유형은 스토리지, 호스트, 데이터 저장소 등과 같이 인벤토리에서 서로 다른 자산 유형입니다. 각 형식에는 검색 조건과 일치하는 형식의 개체 목록이 포함됩니다.</block>
   <block id="20fdb910f7dde76d54b3392d04f062a5" category="section-title">API 토큰 비활성화 또는 해지</block>
   <block id="e5f3c9e3c596a48a99e4d03c8e19c62a" category="paragraph">API 토큰을 일시적으로 비활성화하려면 API 토큰 목록 페이지에서 API에 대한 "점 3개" 메뉴를 클릭하고 _Disable_을 선택합니다. 언제든지 같은 메뉴를 사용하여 _Enable_을 선택하여 토큰을 다시 활성화할 수 있습니다.</block>
@@ -6796,7 +6690,6 @@
   <block id="566a4c81478be8a9ccd7d6589cefe57c" category="list-text">EMEA: EU-CENTRAL-1</block>
   <block id="7b1afe899e5efa6ba9f4935be9f98d92" category="list-text">APAC: AP-남동-2</block>
   <block id="a042a0a750858e6060db4dfe64a00752" category="summary">로그 탐색기는 다양한 시스템 로그를 통해 문제를 조사할 수 있는 강력한 도구입니다.</block>
-  <block id="8525c63db9fcf944b97e51df898b6440" category="paragraph">Cloud Insights 로그 탐색기는 시스템 로그를 쿼리하는 강력한 도구입니다. 또한 조사에 도움이 될 뿐 아니라 특정 로그 트리거가 활성화될 때 경고를 제공하기 위해 로그 쿼리를 모니터에 저장할 수도 있습니다.</block>
   <block id="20d54bcfce082123adf73a66c93e11f1" category="admonition">쿼리에 사용할 수 있는 로그 유형은 사용자 환경에 따라 다를 수 있습니다. 시간이 지남에 따라 추가 로그 유형을 추가할 수 있습니다.</block>
   <block id="bf74dd0ba8bacde3d960739103ba63c6" category="paragraph">목록에서 사용 가능한 로그를 선택합니다.</block>
   <block id="d64c94573b121a79214c7bf24c4a546d" category="paragraph">모범 사례: AWS Predefined_AmazonEC2ReadOnlyAccess_policy를 EC2 기본 계정에 할당하는 것이 좋습니다. 또한 데이터 소스에서 구성된 사용자는 AWS를 쿼리하기 위해 미리 정의된 _AWSOrganizationReadOnlyAccess_policy 이상을 할당해야 합니다.</block>
@@ -6807,14 +6700,12 @@
   <block id="c75d4b042f6604bc016e5b15ff4dea18" category="summary">Cloud Insights는 Kubernetes에서 통합 데이터를 수집하는 에이전트로 Teleraf를 지원합니다.</block>
   <block id="08c320e9abdbb73b135ebdf6b73de8ef" category="list-text">* 해제됨 *: 경고가 거짓 긍정 또는 예상된 동작으로 무시되었습니다.</block>
   <block id="876a3f6e99a6a623eff957c61ab96f8a" category="paragraph">Cloud Insights는 다양하고 흥미로운 새로운 미리 보기 기능을 정기적으로 강조하고 있습니다. 이러한 기능 중 하나 이상을 미리 보려면 에 문의하십시오 <block ref="16ff11ed878ec2cb7f479192bb9f1a7d" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
-  <block id="0c352b5d8cf5928163a8ab955706157d" category="paragraph">토큰은 고객의 관점에서 API에 대한 범용 액세스를 허용하며, 자신의 테넌트의 범위에서 API에 대한 액세스를 관리합니다. 고객 관리자는 Cloud Insights 백 엔드 직원의 직접적인 개입 없이 이러한 토큰을 부여 및 취소할 수 있습니다.</block>
   <block id="827fb03d4709eeb5398e14962ee560c2" category="paragraph">여기서 _&lt;API_Access_Token&gt;_은 API 액세스 생성 중에 저장한 토큰입니다.</block>
   <block id="cc259063b1a06b482634601b8fc9068b" category="paragraph">를 클릭합니다 <block ref="4379d12a92ab7b417b2efd216b13a5b7" category="inline-link-macro-rx"></block> 데이터 수집기는 외부 수집 장치를 설치할 필요가 없으므로 문제 해결, 유지 관리 및 초기 배포를 간소화할 수 있습니다.</block>
   <block id="d7652c841f9f6f67155b6c416335e932" category="paragraph">그 결과로 생성되는 역할 및 사용자 로그인은 다음과 같습니다. 실제 출력은 다음과 같이 다를 수 있습니다.</block>
   <block id="9b207ebd40869bfc10be14cb4279b22c" category="paragraph">보조 계정 소유자 * 로 추가하는 등 기존 사용자의 역할을 수정하려면 다음 단계를 따르십시오.</block>
   <block id="bb10192e5b1a488b6e0bf0a436918863" category="list-text">관리자 &gt; 사용자 관리 * 를 클릭합니다. 화면에 시스템의 모든 계정 목록이 표시됩니다.</block>
   <block id="27821658abae724fdd49cbd24489bb01" category="list-text">변경할 계정의 사용자 이름을 클릭합니다.</block>
-  <block id="fb00f883d7bba803b24e9d29087a3f05" category="list-text">필요에 따라 각 Cloud Insights 기능 세트에서 사용자의 역할을 수정합니다.</block>
   <block id="fbf90baf7d2aee8b9e682b8648241121" category="list-text">변경 내용 저장 _ 을(를) 클릭합니다.</block>
   <block id="45d8ada80e1217d6ce7177e21f1e6c70" category="section-title">보조 계정 소유자를 지정합니다</block>
   <block id="9ee18dbf71b3091f256475408a6072d3" category="list-text">관리자 &gt; 사용자 관리 * 를 클릭합니다.</block>
@@ -7200,7 +7091,6 @@
   <block id="e31fe47af805d4bd3f7f8847ce8bdf7a" category="list-text">C:\Program Files\Telegraf\Telegraf.d_의 각 Telegraf 구성 파일에 대해 이전 API 토큰의 모든 인스턴스를 새 API 토큰으로 교체합니다.</block>
   <block id="68f0f62deae94ea2573e440bd6203542" category="summary">미리 보기 기능은 제한된 용량으로 사용할 수 있으며, 아직 준비 상태가 아닌 기능을 강조합니다.</block>
   <block id="b865b0f0f94674aa0d7878e2253f2c1b" category="doc">피처 및 기능 미리보기</block>
-  <block id="f06798e708a78e76d30364617ea53340" category="paragraph">Cloud Insights는 _Preview_매너 방식으로 새로운 기능과 특징을 강조합니다. 미리 보기 기능은 제한된 환경 또는 제한된 용량에서 사용할 수 있습니다.</block>
   <block id="1faeb81be1b403bf2b660e33e3c7e5f7" category="paragraph">이러한 기능 중 하나 이상을 미리 보려면 에 문의하십시오 <block ref="16ff11ed878ec2cb7f479192bb9f1a7d" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="d07e55df7f133c0213955a67c979d808" category="admonition">ONTAP 데이터 수집기 알림은 클러스터/데이터 수집기와 관련된 특정 모니터 알림보다 우선합니다. Data Collector 자체에 대해 설정한 받는 사람 목록에는 데이터 수집기 경고가 표시됩니다. 활성 데이터 수집기 경고가 없는 경우 모니터에서 생성된 알림이 특정 모니터 수신자에게 전송됩니다.</block>
   <block id="9e3717c8a856a8fff78d3ed35be3524a" category="section-title">로그 모니터</block>
@@ -7244,13 +7134,11 @@
   <block id="93b6b2ecbe8e38118f0e38a7f128eb90" category="paragraph">다양한 Insights를 사용할 수 있습니다. 대시보드 &gt; 인사이트 * 로 이동하여 심층 분석을 시작합니다. 기본 탭에서 활성 Insights(현재 발생하고 있는 Insights)를 보거나 _Inactive Insights_탭에서 비활성 Insights를 볼 수 있습니다. Inactive Insights는 이전에 활성화되었지만 더 이상 발생하지 않는 Insights입니다.</block>
   <block id="fe9a216d65384f5afb0047e612bf386e" category="section-title">Insight 유형</block>
   <block id="9e9013279f80acdb151d7cad5bc3f7d8" category="section-title">스트레스 상태의 공유 리소스</block>
-  <block id="5f002a5fdb5afaacfc165c3a324751d5" category="paragraph">워크로드가 큰 경우 공유 리소스에 있는 다른 워크로드의 성능이 저하될 수 있습니다. 이렇게 하면 공유 리소스가 스트레스를 받게 됩니다. Cloud Insights는 사용자 환경의 리소스 포화 및 영향을 조사하는 데 도움이 되는 도구를 제공합니다. <block ref="de4400096db30b5f709799778e050e2c" category="inline-link-macro-rx"></block></block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link-macro">자세한 정보</block>
   <block id="c1c7efc58c7b64cc21f3ae15934e8271" category="section-title">공간이 부족되는 Kubernetes 네임스페이스</block>
   <block id="806f6dbcc954f0a88489885f517d1d1d" category="paragraph">Space Insight가 없는 Kubernetes 네임스페이스 에서는 공간이 부족할 위험이 있는 Kubernetes 네임스페이스의 워크로드를 볼 수 있으며 각 공간이 가득 채워지기 전의 남은 일 수에 대한 추정치가 있습니다. <block ref="604196d3b206e62dba15152db76beddc" category="inline-link-macro-rx"></block></block>
   <block id="851540d32e033a0c14b63879881da871" category="summary">통찰력은 Kubernetes 공간이 가득 찰 가능성을 예측하는 데 도움이 될 수 있습니다.</block>
   <block id="4fef891481b95674ba195bcf5ebf7efb" category="doc">인사이트: Kubernetes 네임스페이스가 공간 부족입니다</block>
-  <block id="8754218641c0cb64c48e8a8cc68703c4" category="paragraph">귀사의 환경에서 공간이 부족하게 되는 것은 결코 좋은 일이 아닙니다. Cloud Insights를 사용하면 Kubernetes 영구 볼륨이 꽉 차게 되기 전의 시간을 예측할 수 있습니다.</block>
   <block id="8dc9b2ee1508011b53e7f0f04a3b46a8" category="paragraph">Space_Insight에서 실행되는 _Kubernetes 네임스페이스 를 사용하면 공간이 부족할 위험이 있는 Kubernetes 네임스페이스의 워크로드를 확인할 수 있으며, 각 영구 볼륨이 꽉 차게 되기 전의 남은 일 수에 대한 추정치가 있습니다.</block>
   <block id="f2c0221f294a823d827a375c35966fc9" category="paragraph">이 Insight는 * 대시보드 &gt; 인사이트 * 로 이동하여 볼 수 있습니다.</block>
   <block id="6f6740f128ff4e7b81b3e550f00f9705" category="inline-image-macro">공간이 부족할 위험이 있는 K8s 네임스페이스의 워크로드 목록</block>
@@ -7263,7 +7151,6 @@
   <block id="95458ffe03f081fb38d0e5630d7836c6" category="list-text">백엔드 스토리지 리소스가 영향을 받으며, 현재 사용 중인 용량이 총 용량을 초과하게 됩니다. 이 링크를 클릭하면 백엔드 볼륨에 대한 상세 랜딩 페이지가 표시됩니다.</block>
   <block id="9b6de7d57253456e4f416bcef90b76e5" category="inline-image-macro">세부 정보를 보여주는 워크로드 표</block>
   <block id="e589c155ffae6696761533f45ef69b7c" category="paragraph"><block ref="e589c155ffae6696761533f45ef69b7c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d6fe83f2685cfec3bef24ac55c5aa793" category="paragraph">Insight(인사이트) 페이지에서 * + Show Recommendations(권장 사항 표시) * 를 클릭하여 가능한 해결책을 확인합니다. 공간이 부족할 때 가장 쉬운 옵션은 항상 더 많은 용량을 추가하는 것입니다. Cloud Insights는 타겟 60일 예측에 소요되는 시간을 늘리기 위해 추가할 최적의 용량을 표시합니다. 다른 권장 사항도 나와 있습니다.</block>
   <block id="501f2f9df98b83cc872cd59f0493d08d" category="inline-image-macro">60일 TTF로 되돌리기 위한 추가 용량</block>
   <block id="1349caff32af26b4b92540943cbbecc2" category="paragraph"><block ref="1349caff32af26b4b92540943cbbecc2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="103ede5225263a5f8e396b6adb9b4898" category="paragraph">또한 이 Insight에 대한 편리한 링크를 복사하여 페이지에 책갈피를 지정하거나 팀과 쉽게 공유할 수도 있습니다.</block>
@@ -7400,11 +7287,9 @@
   <block id="dfb65f9e847424acb7569e9d1d256de5" category="section-title">SMB용 사용자를 수동으로 복원합니다</block>
   <block id="2a0a63dd16c8b87a179a933b2e9eb92e" category="paragraph"><block ref="2a0a63dd16c8b87a179a933b2e9eb92e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ab7edf5d95e4001229e2908ae791460a" category="section-title">학습 센터</block>
-  <block id="b81816f08eee3d7d65d91572590180d0" category="paragraph">서브스크립션에 관계없이 * 도움말 &gt; 지원 * 은 Cloud Insights를 최대한 활용할 수 있도록 여러 NetApp University 과정 오퍼링에 대한 링크를 제공합니다. 확인해 보세요!</block>
   <block id="87d26f2a744f5c5f07151656de6a1390" category="summary">ONTAP Essentials는 환경에 대한 자세한 개요를 제공하는 일련의 대시보드와 워크플로우입니다.</block>
   <block id="f7e8a669ab2a5aca497e3123c1f3935b" category="doc">ONTAP 핵심 요소</block>
   <block id="7aaa3b04c62b1d6b52635ad40e8ff0a2" category="paragraph">ONTAP Essentials는 ONTAP 인벤토리 및 워크로드를 상세하게 보여주는 대시보드 및 워크플로 집합입니다. ONTAP Essentials에서 작업할 때 사용되는 용어는 다음과 같습니다.</block>
-  <block id="a13907a785102ea69b2891d9e6233f6f" category="paragraph">탐색을 시작하려면 기본 Cloud Insights 메뉴에서 * ONTAP Essentials * 를 선택합니다.</block>
   <block id="da61c5d249c3bbc25d9cee2d6d64b53a" category="inline-image-macro">ONTAP Essentials에 대한 개요 대시보드</block>
   <block id="f0104a81a8bbf75874c8612df2bea3f7" category="paragraph"><block ref="f0104a81a8bbf75874c8612df2bea3f7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e8bfd68d700d556e8faa4883b15480df" category="paragraph">참고: "일 대 전체" 숫자 "0"(영)은 전체 일 수가 90일 이상 예상됨을 나타냅니다. 즉, 시스템이 곧 공간이 부족해질 위험이 없습니다.</block>
@@ -7473,20 +7358,12 @@
   <block id="d157607d4f3b74d5627170cf0c710ee9" category="admonition">Dell EMC ECS는 다른 물리적 TB에서 관리 단위 비율로 측정됩니다. 40TB의 포맷되지 않은 ECS 용량마다 1개의 용량이 충전됩니다 <block ref="1802ea889a272a3510701d2ff63bbea6" category="inline-link-macro-rx"></block>.</block>
   <block id="719cb8a818a4675afed135a249f933cf" category="admonition">Hitachi Content Platform은 다른 원시 TB에서 관리 단위 비율로 측정되고 있습니다. 40TB의 포맷되지 않은 HCP 용량은 1로 부과됩니다 <block ref="1802ea889a272a3510701d2ff63bbea6" category="inline-link-macro-rx"></block>.</block>
   <block id="75538d7973020af3db4059fd4aefea12" category="admonition">IBM Cleversafe는 관리 단위 비율과 다른 원시 TB로 측정되었습니다. 40TB의 포맷되지 않은 IBM Cleversafe 용량마다 1로 비용이 청구됩니다 <block ref="1802ea889a272a3510701d2ff63bbea6" category="inline-link-macro-rx"></block>.</block>
-  <block id="33b1e192582408583865dca3abd0c740" category="cell">어떤 필터에 해당됩니까?</block>
-  <block id="8c553135b1cf58374ff9e4c775f2f164" category="cell">어떤 필터에는 적용되지 않습니다</block>
-  <block id="eaaa45bccc15257d9f55e54b64c70aba" category="cell">* (별표)</block>
-  <block id="df292297b638e12c44f52c855ad511fb" category="cell">자동 * 03172022</block>
-  <block id="b95e1188e58582673c69e6683b36a626" category="cell">사용자, 경로, 엔티티 유형, 장치 유형, 볼륨, 원래 경로</block>
   <block id="de49d77f1ec8a76ce0ab6d070d1a883c" category="cell">"Auto"로 시작하고 "03172022"로 끝나는 모든 리소스를 반환합니다.</block>
   <block id="3518217f55c95e834c4ea7984f8aa0cd" category="cell">AutoSabotageUser1_03172022?</block>
   <block id="4e264b37a7e8d68a4e163769aad53d58" category="cell">사용자, 엔티티 유형, 장치, 볼륨</block>
-  <block id="d3d8e64d1f98a044ea17ac6dc3edc1da" category="cell">AutoSabotageUser1_03172022A, AutoSabotageUser1_03172022AB, AutoSabotageUser1_031720225 등을 반환합니다</block>
   <block id="3adefd54fc738f8196af6304ed8929ac" category="cell">AutoSabotageUser1_03172022 또는 AutoRansomUser4_03162022</block>
-  <block id="815a68f09aeea81a589436dc96205729" category="cell">사용자, 도메인, 사용자 이름, 경로, 엔티티 유형, 장치, 원래 경로</block>
   <block id="0a01700b4705c6c47c24699ad7d4a4cb" category="cell">AutoSabotageUser1_03172022 또는 AutoRansomUser4_03162022 중 하나를 반환합니다</block>
   <block id="0ca071eb91357e8d4685daee24bd3360" category="cell">AutoRansomUser4_03162022가 아닙니다</block>
-  <block id="323be35d43a1b0a294bddc8533167538" category="cell">사용자, 도메인, 사용자 이름, 경로, 엔티티 유형, 원래 경로, 볼륨</block>
   <block id="e0c965c954b5a9fdc33c5b0516799f7d" category="cell">"AutoRansomUser4_03162022"로 시작하지 않는 모든 항목을 반환합니다.</block>
   <block id="eae639a70006feff484a39363c977e24" category="cell">도메인</block>
   <block id="64048c881c93933680d02730e9d9ce63" category="paragraph">/ 을(를) 사용하거나 사용하지 않고 검색 결과는 다릅니다</block>
@@ -7568,7 +7445,6 @@
   <block id="ddaf3f263ed6f7d926e96caad7b5d807" category="paragraph">IAM role_InstanceS3ReadOnly_를 S3 인스턴스에 연결하면 IAM 역할 이름으로 인스턴스 메타데이터를 통해 임시 자격 증명을 검색하고 이 S3 인스턴스에서 실행되는 모든 응용 프로그램에서 이 자격 증명을 사용하여 AWS 리소스에 액세스할 수 있습니다.</block>
   <block id="b58d88529471c847df19b1d8e63b1fe9" category="list-text">기본 계정 ID가 하위 계정에서 S3 세부 정보에 액세스할 수 있도록 각 하위 계정에 AWS 역할을 구성해야 합니다.</block>
   <block id="38cfe5a8a180b915d5558a3770b76e3e" category="paragraph">모범 사례: AWS Predefined_AmazonS3ReadOnlyAccess_policy를 S3 메인 계정에 할당하는 것이 좋습니다. 또한 데이터 소스에서 구성된 사용자는 AWS를 쿼리하기 위해 미리 정의된 _AWSOrganizationReadOnlyAccess_policy 이상을 할당해야 합니다.</block>
-  <block id="3e58ddc58d5563a5027058f56555ea62" category="paragraph">Cloud Insights가 주요 컴퓨팅 워크로드를 발견하지 못하면 볼륨 또는 내부 볼륨 자체가 워크로드라는 것을 알게 됩니다. 이는 까다롭고 영향을 받는 작업 부하에 모두 적용됩니다.</block>
   <block id="b6679962f8c42c1ba1776113605353b7" category="section-title">필수 성능 메트릭</block>
   <block id="20d28687278d151933891014ac36ae04" category="list-text">SMB2.ops [공유]</block>
   <block id="dadc05c753e1aa1130d425a298bf1e99" category="list-text">NFS3.ops [share]</block>
@@ -7633,7 +7509,6 @@
   <block id="493c4ff608e06cc5a02d0561f6bb02a3" category="paragraph">OpenShift는 일부 Kubernetes 구성 요소에 대한 액세스를 차단할 수 있는 수준 높은 보안을 구현할 수 있습니다.</block>
   <block id="b1709369b19b51deac976f5fc9dce527" category="inline-xref">업그레이드 중</block>
   <block id="b56f48fe0a536b86709924e6707beb7d" category="section-title">전체 인프라의 토폴로지 뷰를 사용할 수 있습니까? Cloud Insights에 "엔드 투 엔드 가시성"이 표시됩니까?</block>
-  <block id="e89de726c7174f2e5799c51b43bdda84" category="paragraph">Cloud Insights에서 * monitoring.count * 열을 스토리지 또는 스토리지 노드 쿼리에 추가할 수 있습니다. 반환된 결과에 Active IQ가 모니터링된 스토리지 시스템이 포함된 경우 monitoring.count 열에 스토리지 시스템 또는 노드의 위험 수가 표시됩니다.</block>
   <block id="92094f10227c0d6e4da9a65b1cc23700" category="cell">설치를 위해 '압축 해제'가 필요합니다. 또한 설치, 스크립트 실행 및 제거에 'SUDO su –' 명령이 필요합니다.</block>
   <block id="e58c27818bf68b1f92513ad4f99972c4" category="inline-xref">맨 위로</block>
   <block id="9bf2c4cb7192740e06519a5e67f22e59" category="paragraph"><block ref="5166de7f06aaa174e185aec47426a1b7" category="inline-xref-macro-rx"></block></block>
@@ -7749,7 +7624,6 @@
   <block id="acf6b70a4e6ba36ec7116e8e7747c507" category="paragraph">한 자산에서 동일한 주석을 업데이트하는 여러 규칙을 실행할 때 첫 번째 규칙(위에서 아래로 실행)이 주석을 적용하고 자산을 업데이트한 다음 두 번째 규칙이 적용되지만 이전 규칙에 의해 이미 설정된 주석은 변경되지 않습니다.</block>
   <block id="15ac0cdbe87a38b3f0c5588fd122123c" category="list-text">* 노이즈 감소 * - 사용자가 최근 2시간 내에 생성한 파일을 필터링합니다. 사용자가 액세스하는 임시 파일(예: .tmp 파일)을 필터링하는 데에도 사용됩니다.</block>
   <block id="b94c2ef661065c39f8d83558c3eafe45" category="section-title">법의학적 활동 기록 데이터 정렬</block>
-  <block id="530784dc2e1fded20e31ab140fb699c9" category="section-title">모든 활동 내보내기</block>
   <block id="db7f539a64befdbef8a36c1e95be3922" category="section-title">모든 활동에 대한 열 선택</block>
   <block id="e6c7e24b363310e398fd7191b14a5729" category="section-title">활동 기록 보존</block>
   <block id="19d8a8363cc18927f8f792b40e752c60" category="section-title">포렌식 페이지의 필터 적용 가능성</block>
@@ -7859,7 +7733,6 @@
   <block id="e683c12dcf92dc441c52b41d48fae3bd" category="cell">필터링할 VM 목록(쉼표로 구분됨 또는 값에 쉼표가 사용된 경우 세미콜론으로 구분)</block>
   <block id="8d9973d4d778ded1eba118da9ff38733" category="cell">Unisphere 성능 폴링 간격(초)</block>
   <block id="f1ef5b6a9704d8b164ef33c20e11ce70" category="cell">기본값은 300초입니다</block>
-  <block id="dea5f9ab95bb253b826201d228922448" category="paragraph">Data Collector 지원 매트릭스는 공급업체 및 모델 정보를 포함하여 Cloud Insights에서 지원하는 Data Collector에 대한 참조를 제공합니다.</block>
   <block id="3337a607cd5a33d6b8d3f27ce7da458d" category="cell">API 버전</block>
   <block id="25ac429f9072293d27a836ee2a148f47" category="cell">모델</block>
   <block id="798084429970e88fa1f49f12b5f60f32" category="cell">펌웨어 버전입니다</block>
@@ -8453,14 +8326,10 @@
   <block id="01cba5236d5d580a0466283128eeaca6" category="cell">기본값은 8080입니다.</block>
   <block id="54dac5afe1fcac2f65c059fc97b44a58" category="inline-link-macro">사용되지 않음</block>
   <block id="39fdcbcd2a4c753babbc68973712e367" category="summary">단일 제어 플레인에서 하이브리드 멀티 클라우드 데이터 자산을 구축, 보호 및 제어합니다.</block>
-  <block id="7ce49ad36572c616df2b7b18f0f3c2d5" category="doc">Cloud Insights는 BlueXP의 일부입니다</block>
-  <block id="76609753d56a9030bf88cac400655be7" category="paragraph">BlueXP를 사용하면 단일 인터페이스에서 모든 NetApp 스토리지 및 데이터 자산을 관리할 수 있습니다. BlueXP에서는 많은 새로운 스토리지 서비스와 이전에 별도의 UI를 통해 독립 실행형 서비스로만 제공되었던 데이터 서비스를 찾을 수 있습니다. Cloud Insights는 이러한 서비스 중 하나입니다.</block>
   <block id="fa0f9b91b9b3862eb566219b032aa9f6" category="inline-link-macro">_미리보기 _</block>
   <block id="8a281fcc91b3d1c2a8f6a3503b98db32" category="admonition">BlueXP 탐색 메뉴 통합은 로 간주됩니다 <block ref="27c8300c0999ba5a7834ba70e02e86cc" category="inline-link-macro-rx"></block> 변경될 수 있습니다.</block>
-  <block id="6486ea659268f29cee1791885ddfd7c8" category="paragraph">직관적인 새 메뉴 BlueXP의 탐색 메뉴에 있는 데이터 서비스는 범주별로 구성되며 기능에 따라 이름이 지정됩니다. 예를 들어 "Cloud Insights(관찰)" 기능 세트는 "관찰 가능성" 메뉴에 있습니다. Cloud Insights를 탐색 중인 동안 탐색 메뉴 상단에 "관찰 가능성" 섹션이 나타납니다. 이는 각 BlueXP 서비스에 대해 설명합니다.</block>
   <block id="dc2328c73b90d6c1704bed2d775bd562" category="inline-image-macro">BlueXP NAV 메뉴 맨 위 및 아래의 다른 NetApp 서비스에 관찰 가능성을 표시합니다</block>
   <block id="070ed5b249a03236a4b58ef440cd9a27" category="paragraph"><block ref="070ed5b249a03236a4b58ef440cd9a27" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e82617a45c06fc64ba2c7a8022ad2c26" category="admonition">이 문서 전체에서 "Cloud Insights" 및 "관찰 가능성"이라는 용어가 상호 교환적으로 사용될 수 있습니다.</block>
   <block id="27a7deb0ec1bdff43e3eb6bbcee65f55" category="paragraph">마우스를 가져가면 추가 정보가 표시됩니다.</block>
   <block id="03aa38861ba70a29a2ebce320835a31b" category="paragraph">BlueXP 웹 사이트에서 BlueXP에 대해 자세히 알아볼 수 있습니다.</block>
   <block id="643c94a9b7fa8044a23bb9cbc6ebffbe" category="section-title">표 위젯 포맷팅</block>
@@ -8472,9 +8341,7 @@
   <block id="48fa2d7c6bf8f4ad6180294f8bb01471" category="paragraph">조건 서식을 색, 아이콘 또는 둘 모두로 표시할지 여부를 선택할 수 있습니다.</block>
   <block id="94eb3621c8500b8badf206c854e5b5f5" category="cell">qtree입니다</block>
   <block id="e8cdc72b15f2eb76eb1815f526758f2e" category="doc">인사이트: 고부하로 인해 발생합니다</block>
-  <block id="b6178403f1fb13fa361db9ac6d3f0273" category="paragraph">워크로드가 큰 경우 공유 리소스에 있는 다른 워크로드의 성능이 저하될 수 있습니다. Cloud Insights는 사용자 환경의 리소스 포화 및 영향을 조사하는 데 도움이 되는 도구를 제공합니다.</block>
   <block id="7dbc3325f8c8ce0b9644c6385df9308d" category="paragraph">Impact영향을 주는 * 또는 _greedy_resource는 다른 리소스에 부정적인 영향을 주는 * 입니다. 예를 들어, IOPS가 매우 높은 볼륨은 다른 볼륨(예 _영향받는_또는 _성능이 저하된_리소스). 영향을 받는 효과적인 리소스는 스토리지 풀 또는 볼륨 등 동일한 공유 리소스를 활용하는 "피어"입니다.</block>
-  <block id="e6a3a9e372453a57b268bcc244809130" category="paragraph">많은 비용이 드는 워크로드 * 는 현재 공유 스토리지 풀의 다른 리소스에 영향을 미치는 것으로 확인된 워크로드입니다. 이러한 워크로드는 높은 IOPS를 유도하여 영향을 받는 워크로드의 IOPS를 줄입니다. Cloud Insights에서 이러한 워크로드는 * 까다로운 워크로드 * 로 식별됩니다.</block>
   <block id="684e1f5d1d8f7ac135116fe2276f6ffa" category="paragraph">영향을 받는 워크로드 * 는 공유 스토리지 풀에서 많은 비용이 소모되는 워크로드의 영향을 받는 워크로드입니다. 이러한 워크로드는 까다로운 워크로드로 인해 IOPS 및/또는 지연 시간이 감소되고 있습니다.</block>
   <block id="3367fa0ed89a38c283ceec91a93c76d8" category="paragraph">경합 * 은 IOPS가 공유 스토리지 풀의 다른 리소스 또는 워크로드에 영향을 미치는 것으로 확인될 때 발생합니다.</block>
   <block id="37a9aae3864b377f0900828ee037f208" category="section-title">많이 사용하는 워크로드</block>
@@ -8554,7 +8421,6 @@
   <block id="3a0f609bf65bf53f905fdcfae464bcae" category="cell">새 플러그인을 구성하고 Telegraf를 다시 시작한 후 Teleraf가 시작되지 않습니다. 로그에 다음과 유사한 오류가 표시됩니다. "[텔레그라프] 에이전트 실행 중 오류: 구성 파일 /etc/Telegraf/Telegraf.d/클라우드.conf: plugin outputs.http: line &lt;linenumber&gt;: 구성에서 ["use_system_proxy"] 필드를 지정했지만 사용되지 않았습니다."</block>
   <block id="90388b17e672eeaae8e092ebd4bf6362" category="cell">이전 설치에서 설치 프로그램 스크립트를 실행했는데 에이전트가 데이터를 전송하지 않습니다</block>
   <block id="7cc579c6f20ffbe0b9452d6f5fff9167" category="cell">Telegraf 에이전트를 제거한 다음 설치 스크립트를 다시 실행합니다. 해당 플랫폼에 대해 이 페이지의 * 에이전트 업그레이드 * 단계를 따릅니다.</block>
-  <block id="6ff3c19fa7be83723b830f7a88ebff57" category="cell">공격이 감지된 후 24시간 이내에 이메일 경고가 수신됩니다. UI에서 알림은 Cloud Insights 워크로드 보안에서 이메일을 수신하기 24시간 전에 표시됩니다.</block>
   <block id="9608ad0a6050ac9fa535a95a22aa7db4" category="list-text">물리적 용량 – FSx 파일 시스템에 할당된 모든 SSD 스토리지에 대한 기본 2 합계.</block>
   <block id="dc17e2eb752d75a670b36698bc346864" category="list-text">IOPS – 이 스토리지 풀에 할당된 모든 볼륨의 IOPS 합계입니다.</block>
   <block id="056a8b3d2b7210d266cc3fdb33710dc2" category="list-text">처리량 – 이 스토리지 풀에 할당된 모든 볼륨의 총 처리량입니다.</block>
@@ -8715,12 +8581,10 @@
   <block id="2cdbeeb863ed7a8522ac9190b6294a61" category="paragraph">온보딩 중에 데이터 수집기를 선택할 때 * 프록시 설정 * 링크를 클릭하거나 * 도움말 &gt; 지원 * 페이지의 _프록시 설정_ 아래에 있는 링크를 클릭하여 프록시 끝점을 볼 수 있습니다. 다음과 같은 테이블이 표시됩니다. 작업 환경에 워크로드 보안이 있는 경우 구성된 엔드포인트 URL도 이 목록에 표시됩니다.</block>
   <block id="a7ef8f0bed1d94220b7abd3877b10643" category="doc">워크로드 보안 에이전트 요구 사항</block>
   <block id="78280ee4e050e617aae8c514d1f4d00a" category="cell">100Mbps~1Gbps 이더넷 연결, 정적 IP 주소, 모든 디바이스에 대한 IP 연결 및 워크로드 보안 인스턴스(80 또는 443)에 대한 필수 포트.</block>
-  <block id="380053981c7042c95864932736052cac" category="paragraph">참고: 워크로드 보안 에이전트는 Cloud Insights 획득 장치 및/또는 에이전트와 동일한 시스템에 설치할 수 있습니다. 그러나 별도의 컴퓨터에 설치하는 것이 가장 좋습니다. 동일한 시스템에 설치된 경우 아래와 같이 디스크 공간을 할당하십시오.</block>
   <block id="2d69c680da957bdb43dc65f6b48df46d" category="paragraph">미국 * 기반 * 워크로드 보안 환경:</block>
   <block id="cd901a4d0c763788558340776fd2cdb5" category="paragraph">유럽 기반 * 워크로드 보안 환경:</block>
   <block id="fa226e3679ae6b7dab2869292b192728" category="paragraph">APAC 기반 * 워크로드 보안 환경의 경우:</block>
   <block id="2c5dab3d48c104492de8592e45b7fe9f" category="paragraph">작업 환경에 워크로드 보안이 있는 경우 구성된 엔드포인트 URL도 이 목록에 표시됩니다.</block>
-  <block id="5711e9cabb01e59f7ce2f48ba56a6e96" category="paragraph">사용자가 액세스할 수 있는 API 유형도 에 따라 다릅니다 <block ref="ead2141fb682d81a2f0b1deca7bb95c5" category="inline-link-macro-rx"></block> 각 Cloud Insights 기능 세트(모니터링, 워크로드 보안, 보고)에 있습니다.</block>
   <block id="db2b463a10fb6295be04f3c3bae06fde" category="paragraph">워크로드 보안은 스냅샷 삭제 설정에 따라 하루에 한 번씩 스냅샷을 자동으로 삭제합니다.</block>
   <block id="1e66f3ea1e335e37bed1a50e1a8bb94c" category="summary">워크로드 보안 사용자 계정은 Cloud Insights 사용자 관리를 통해 관리됩니다</block>
   <block id="b6ddb5866df8e3256ac245cbce10a9a2" category="paragraph">워크로드 보안 사용자 계정은 Cloud Insights를 통해 관리됩니다.</block>
@@ -8781,7 +8645,6 @@
   <block id="63deecc7a53992db1697a520a67af0bd" category="cell">워크로드 보안을 활성화한 후 ONTAP 성능에 영향을 미침: 지연 시간이 산발적으로 높고 IOPS가 산발적으로 낮아지는 경우</block>
   <block id="0631a8aa5414db88c4ba11ffa8ff89e8" category="cell">NFS 서비스만 구성하여 새로운 SVM으로 시작하십시오. 워크로드 보안에서 ONTAP SVM 데이터 수집기 추가 CIFS는 SVM을 위한 허용 프로토콜로 구성된 동시에 워크로드 보안에서 ONTAP SVM Data Collector를 추가합니다. 워크로드 보안의 데이터 수집기에 오류가 표시될 때까지 기다립니다. SVM에 CIFS 서버가 구성되어 있지 않으므로 왼쪽에 표시된 이 오류는 워크로드 보안으로 표시됩니다. ONTAP SVM 데이터 수집기를 편집하고 CIFS를 허용된 프로토콜로 선택 취소하십시오. 데이터 수집기를 저장합니다. NFS 프로토콜만 활성화된 상태에서 실행됩니다.</block>
   <block id="b451cdd4206327fd0afecbb2df7b2bec" category="doc">스토리지 워크로드 보안 정보</block>
-  <block id="7d29e14ab81a7f2d743b14063e512bf7" category="paragraph">Cloud Insights 스토리지 워크로드 보안(이전의 Cloud Secure)은 내부자 위협에 대한 실행 가능한 인텔리전스로 데이터를 보호합니다. 또한 하이브리드 클라우드 환경 전반에서 모든 기업 데이터 액세스에 대한 중앙 집중식 가시성과 제어를 제공하여 보안 및 규정 준수 목표를 충족할 수 있습니다.</block>
   <block id="6bb784bfbef2792b99ae322d0ce648b6" category="paragraph">데이터 액세스 및 제어에 대한 시기 적절하고 정확한 가시성을 제공하지 못하는 도구 및 수동 프로세스를 대체합니다. 워크로드 보안은 클라우드 및 사내 스토리지 시스템 모두에서 고유하게 작동하며 악의적인 사용자 동작에 대한 실시간 경고를 제공합니다.</block>
   <block id="4d8cd5134c1193f4d301c7e6bcaa38a7" category="inline-link-macro">워크로드 보안 공지(이전의 Cloud Secure)</block>
   <block id="58ecb418298e803c7a0ae49007466440" category="paragraph">모든 활동 페이지에서는 워크로드 보안 환경의 엔터티에 대해 수행되는 작업을 이해할 수 있습니다.</block>
@@ -8799,7 +8662,6 @@
   <block id="03d2c7455bd90d94b2c2a27995cee3a6" category="list-text">워크로드 보안 수집기는 클러스터 IP를 통해 추가해야 합니다.</block>
   <block id="8d490c030112e962535224e18e452ee2" category="paragraph">사용자에게 부여된 권한으로 사용자 지정 사용자(예: _CsUser_)를 사용하는 경우, 아래 단계를 따라 워크로드 보안에 권한을 부여하여 ONTAP에서 ARP 관련 정보를 수집합니다.</block>
   <block id="56684562f1f82eb99e69650845acd6ad" category="paragraph">SVM이 워크로드 보안에 의해 모니터링되지 않지만 ONTAP에서 생성된 ARP 이벤트가 있는 경우, 해당 이벤트는 워크로드 보안에서 계속 수신되고 표시됩니다. 그러나 알림과 관련된 Forensic 정보 및 사용자 매핑은 캡처되거나 표시되지 않습니다.</block>
-  <block id="bd8fcf14aeb2fa880d8470e2c4fee0a5" category="cell">ONTAP가 _랜섬웨어 탐지_이벤트를 Cloud Insights 워크로드 보안(예: 워크로드 보안)으로 전송하면 이메일이 전송됩니다. 이벤트에는 공격 목록과 타임 스탬프가 포함됩니다. 워크로드 보안 UI는 첫 번째 공격 파일의 경고 타임스탬프를 표시합니다. ONTAP는 특정 수의 파일이 인코딩될 때 _ 랜섬웨어 탐지 _ 이벤트를 Cloud Insights로 전송합니다. 따라서 알림이 UI에 표시되는 시간과 이메일을 보낸 시간 사이에 차이가 있을 수 있습니다.</block>
   <block id="9655cd831b69781db448703e74b15bf4" category="sidebar">워크로드 보안 정보</block>
   <block id="db6129c16869ab28d6476f3e30e7d24e" category="sidebar">워크로드 보안 시작</block>
   <block id="fe6cdf9e3b45ba510d852c0481680e2f" category="sidebar">워크로드 보안 에이전트 구성</block>
@@ -8818,7 +8680,6 @@
   <block id="9406d81673e1646c43299c62b0289100" category="sidebar">Isilon/PowerScale REST</block>
   <block id="601e2f4bdb8c8d256c0862eb39ab26dd" category="list-text">설정 중인 프록시에 인증(사용자 이름/암호)이 없으면 다음 명령을 실행합니다.</block>
   <block id="aec78dde754edc4769d775d718da8408" category="list-text">설정 중인 프록시에 인증(사용자 이름/암호)이 있는 경우 다음 명령을 실행합니다.</block>
-  <block id="79c7ccf004cab46d7dd6a51e885aae3f" category="paragraph">NetApp은 다양한 방법으로 Cloud Insights를 지원합니다. 기술 자료(KB) 기사 또는 NetApp 커뮤니티 등 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. Cloud Insights 에디션(기본 *, 표준, 프리미엄)을 구독하는 사용자는 전화 또는 웹 발권 서비스를 통해 기술 지원을 받을 수 있습니다. NSS(NetApp Support Site) SSO 계정은 케이스 관리와 함께 웹 티켓에 필요합니다.</block>
   <block id="54b9dfbc2f7a4721e38bff7e643a574c" category="paragraph">모든 NetApp 스토리지 시스템에 적어도 프리미엄 지원 수준이 적용되는 한 * Support는 Basic Edition에서 제공됩니다.</block>
   <block id="575b95a19de7e191bf400580ceab0b27" category="cell">Solutions Enabler 서버의 데몬 구성 파일에 사용 권한이 선언되지 않은 경우 이 메시지가 표시될 수 있습니다(참조) <block ref="48ee54aab4fee6d43a8bd3ed26dff2b5" category="inline-xref-macro-rx"></block> 위) SE 클라이언트 버전이 SE 서버 버전과 일치하는 것으로 가정합니다. 이 오류는 /var/symapi/config/daemon_users 구성 파일에서 필요한 데몬 권한으로 _cisys_user(Solutions Enabler 명령을 실행하는)를 구성하지 않은 경우에도 발생할 수 있습니다. 이 문제를 해결하려면 /var/symapi/config/daemon_users 파일을 편집하고 isys 사용자에게 storapid 데몬에 대해 지정된 &lt;all&gt; 권한이 있는지 확인합니다. 예: 14:11:25#tail/var/symapi/config/daemon_users... 시스의 storapid &lt;all&gt;입니다</block>
   <block id="347129195bfdcce2fcf0d362a84ed033" category="inline-link-macro">Knowledgbase를 참조하십시오</block>
@@ -8912,10 +8773,8 @@
   <block id="c848dd7c163b8af16c0a29a9cf8b2578" category="inline-image-macro">Storage(저장소) 탭</block>
   <block id="13c8c56ee088f3e66c6a2dc2117add80" category="paragraph">스토리지 VM 세부 정보에는 감사 및 SSH 정보가 표시됩니다.<block ref="0e7da2c2237a480e976d46827598a2be" category="inline-image-macro-rx" type="image"></block></block>
   <block id="598b6b9767b632d5f8782aee146b8657" category="inline-image-macro">랜섬웨어 방지 탭</block>
-  <block id="1da8d683ba248a66e7f1920206b6497b" category="paragraph">안티 랜섬웨어에 대한 세부 정보는 스토리지 VM이 ONTAP의 안티 랜섬웨어 보호 또는 Cloud Insights 워크로드 보안으로 보호되는지 여부를 보여줍니다. ONTAP ARP 열은 ONTAP 시스템에 구성된 ONTAP의 온보드 Anti-랜섬웨어 방지 프로그램의 현재 상태를 표시합니다. Cloud Insights 워크로드 보안은 해당 열에서 "보호"를 선택하여 활성화할 수 있습니다.<block ref="cd09409d17429adfa1d9264e8890d599" category="inline-image-macro-rx" type="image"></block></block>
   <block id="39f24b5dfbebdf196cf3620d23c570e9" category="inline-image-macro">ONTAP 핵심 경고 목록</block>
   <block id="cfe004eb013b3b1ab9775c51e75f954d" category="paragraph"><block ref="cfe004eb013b3b1ab9775c51e75f954d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="790c40cc1a1c9962041f45f681e47393" category="admonition">워크로드 보안은 Cloud Insights Federal Edition에서 사용할 수 없습니다.</block>
   <block id="c579fb48f9c33179f548470338a589f8" category="section-title">용량 데이터 모델</block>
   <block id="171f897b82746fe136ca00d1742ea44a" category="paragraph">볼륨, 애플리케이션 볼륨, 내부 볼륨, 스위치, 애플리케이션 및 성능에 대한 질문에 VM, VMDK, ESX 대 VM, 호스트 및 애플리케이션 노드 이러한 보고서의 대부분은 _hourly_data, _Daily_data 또는 둘 다 해당됩니다. 이 데이터 모델을 사용하면 다음과 같은 여러 유형의 성과 관리 질문에 대한 답변을 제공하는 보고서를 작성할 수 있습니다.</block>
   <block id="d972e288b86634fdb9a758828b4d511a" category="cell">ONTAP 콜드 스토리지 재확보</block>
@@ -8951,8 +8810,6 @@
   <block id="0407a7c5b366f01d5671805c1f907afe" category="inline-image-macro">Cognos 왼쪽 상단 메뉴</block>
   <block id="837aabd72a7904f0806179e23fe0d6e5" category="paragraph"><block ref="837aabd72a7904f0806179e23fe0d6e5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0e816756750f33badae1d375877be4d7" category="list-text">팀 컨텐츠 _ * 에서 새 폴더를 만듭니다</block>
-  <block id="5452e6774adb97c1d8607e2b1af1851a" category="paragraph">Cloud Insights에서 도움말 &gt; 지원 * 을 클릭하여 지원 옵션에 액세스할 수 있습니다. 사용 가능한 지원 옵션은 Cloud Insights 버전에 따라 다릅니다.</block>
-  <block id="3c99b9f872acb5e317804aaff9d10cfb" category="admonition">Cloud Insights 연방 버전에서는 라이브 채팅 지원 옵션을 사용할 수 없습니다.</block>
   <block id="4b1a441cee8ab7a3e24907f03ffb3043" category="summary">Kubernetes 워크로드 종속성 및 흐름을 소개하고 네트워크 및 성능 문제를 강조합니다</block>
   <block id="75ff8d1aa96e6d68f1ba6bda0e071dc8" category="doc">Kubernetes 성능 모니터링 및 맵</block>
   <block id="31fde7b05ac8952dacf4af8a704074ec" category="inline-link-macro">미리보기</block>
@@ -8964,7 +8821,6 @@
   <block id="629532624af8fab6b66dfadc2398dfe1" category="paragraph"><block ref="629532624af8fab6b66dfadc2398dfe1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8c2288858ee6061ed208feb40c842e9a" category="section-title">모니터</block>
   <block id="4cbba110d06cbe92766e7957041807de" category="inline-link-macro">모니터</block>
-  <block id="398ef11564cb3ebb8d3480da183b89bb" category="paragraph">워크로드 맵은 을 사용합니다 <block ref="8c1e0925f4a3d217ad73e0845030a6c1" category="inline-link-macro-rx"></block> 정보를 도출합니다. Cloud Insights에서는 다양한 기본 Kubernetes Monitor를 제공합니다(기본적으로 _일시 중지됨_일 수 있음). 원하는 모니터를 _Resume_(예: 활성화)하거나, Kubernetes 객체에 대한 사용자 지정 모니터를 생성할 수 있습니다. 이 경우 워크로드 맵도 사용됩니다.</block>
   <block id="cfd443d1fe6acb5a33edeb19eee876d8" category="section-title">지도</block>
   <block id="7e31e16b7e4d0bdec82f97e29845098b" category="inline-image-macro">워크로드 맵 워크로드의 예</block>
   <block id="05790ee528b0026e6b4e1c22baf014ea" category="paragraph"><block ref="05790ee528b0026e6b4e1c22baf014ea" category="inline-image-macro-rx" type="image"></block></block>
@@ -8980,7 +8836,6 @@
   <block id="ab65509e81982c2ab448e5662c4ee09d" category="paragraph">색상으로 표시된 원은 워크로드에 대한 경고 또는 위험 수준 경고를 나타냅니다. 원 위로 마우스를 가져가면 문제 요약이 표시됩니다. 원을 클릭하여 자세히 표시된 슬라이드 아웃 패널을 엽니다.</block>
   <block id="1c33583ae1317aec595232a0f94991fd" category="inline-image-macro">워크로드 Slideout 세부 정보 및 알림</block>
   <block id="219e34cfe0519a78647d5d9fbcaf4c78" category="paragraph"><block ref="219e34cfe0519a78647d5d9fbcaf4c78" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a3b909b3fe9805c43492b38e32cc76dd" category="paragraph">다른 Cloud Insights 기능과 마찬가지로 원하는 특정 오브젝트 또는 워크로드 특성에 초점을 맞춰 필터를 쉽게 설정할 수 있습니다.</block>
   <block id="e4fe29302896c288d2a9ee7fe931c67b" category="inline-image-macro">워크로드 맵 필터링</block>
   <block id="45a01cb04b2dc86e6def6376c184f9a1" category="paragraph"><block ref="45a01cb04b2dc86e6def6376c184f9a1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1da4b5e074a63813b09ebd31c36c3b70" category="section-title">워크로드 레이블</block>
@@ -9031,9 +8886,7 @@
   <block id="48bcae107d50992efecf85a6c4736dba" category="paragraph"><block ref="042d6428eca469dceeec3a1b4202ab56" category="inline-image-macro-rx" type="image"></block>
 <block ref="9aede4345f2bc9132f2c99c71d833e20" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5ad69c2277563fc580296910106cfd2f" category="paragraph">보고 인터페이스로 이동합니다. Cloud Insights는 보고 엔진에 IBM Cognos Analytics를 사용합니다.</block>
-  <block id="e497269a2941afd9840d0178bcec0d65" category="admonition">조건부 서식은 현재 Cloud Insights Federal Edition에서 사용할 수 없습니다.</block>
   <block id="7dc3d22c559fc9f6b251de846b6d601b" category="paragraph">조건부 서식은 표의 각 열에 대해 별도로 설정됩니다. 예를 들어 용량 열에 대한 임계값 집합 하나와 처리량 열에 대한 임계값 집합을 선택할 수 있습니다.</block>
-  <block id="04e933e576c69389922d790b28b832e2" category="admonition">ActiveIQ는 Cloud Insights 연방판에서는 사용할 수 없습니다.</block>
   <block id="e2eb5a26f8f8c6cd350884687bbcf0fd" category="paragraph">중요한 데이터를 보호하려면 설치 또는 업그레이드 후에 기본 키와 _Acquisition_user 암호를 변경하는 것이 좋습니다.</block>
   <block id="d39add7e6bc84e58e3541f2c6e6019d4" category="list-text">획득 장치 소프트웨어(SecurityAdmin 도구 포함)를 설치하려면 AU 시스템에 대한 관리자 권한이 있어야 합니다.</block>
   <block id="81c4b8e957fe3d7a1f7f310a21a6029d" category="list-text">나중에 SecurityAdmin 도구에 액세스해야 하는 관리자가 아닌 사용자가 있는 경우 _cisys_group에 추가해야 합니다. AU 설치 중에 _cisys_group이 생성됩니다.</block>
@@ -9081,7 +8934,6 @@
   <block id="2ed6d0911bda563375b8a7f38ece8cba" category="paragraph">프록시를 업데이트하려면 명령은 입니다</block>
   <block id="9d6898c9d6fff2bd62d85b66643bb3d1" category="doc">인사이트: ONTAP 냉장 보관 확보</block>
   <block id="0d76fbb36f181c92649274af9d5b537e" category="paragraph">Reclaim ONTAP 냉장 보관_Insight는 ONTAP 시스템의 볼륨에 대한 콜드 용량, 잠재적 비용/전력 절감 및 권장 조치 항목에 대한 데이터를 제공합니다.</block>
-  <block id="62cbec5499f7528b78b111c904e78b71" category="paragraph">이러한 Insights를 보려면 * 대시보드 &gt; 인사이트 * 로 이동하여 _Reclaim ONTAP 냉장 보관_Insight를 살펴봅니다. 이 Insight는 Cloud Insights가 냉장 보관을 감지한 경우에만 영향을 받는 저장소를 나열합니다. 그렇지 않으면 "모두 지우기" 메시지가 표시됩니다.</block>
   <block id="da69b960f5bb93c02fdd4886868836f6" category="inline-image-macro">콜드 데이터가 있는 3개 스토리지를 보여 주는 Insight 목록입니다</block>
   <block id="7718245a70dcc6279bf8af86a72c2e35" category="paragraph"><block ref="7718245a70dcc6279bf8af86a72c2e35" category="inline-image-macro-rx" type="image"></block></block>
   <block id="930fd15ae62cafe82d62d6912f307087" category="paragraph">Insight 설명은 "콜드" 데이터로 감지된 데이터의 양과 데이터가 상주하는 스토리지를 빠르게 표시합니다. 또한, 콜드 데이터가 포함된 워크로드 수도 제공합니다.</block>
@@ -9093,7 +8945,6 @@
   <block id="42bb4c2dadbccfef009beef19eb60c44" category="paragraph">사용 중이 아닌 워크로드를 확인하고 아카이빙을 고려하거나 스토리지 시스템에서 제거합니다.</block>
   <block id="30dc3fa30dc934a0d0aa98e3789e46c2" category="list-text">NetApp의 Fabric Pool 솔루션을 고려해 보십시오</block>
   <block id="db08e6b1d619064fa3fd2035f5926d18" category="paragraph">Reclaim ONTAP 냉장 보관_Insight는 ONTAP 시스템의 볼륨에 대한 콜드 용량, 잠재적 비용/전력 절감 및 권장 조치 항목에 대한 데이터를 제공합니다. <block ref="82cab8f639b07ead699dc071830d992e" category="inline-link-macro-rx"></block></block>
-  <block id="3a4ab80b2583f296b4bc5d2e0c2c4b5d" category="admonition">이것은 _Preview_feature 이며 개선 사항이 있을 때 시간이 지남에 따라 변경될 수 있습니다. <block ref="ee58f03d7eaea0665aa8a572992ca1b8" category="inline-link-macro-rx"></block> Cloud Insights 미리보기 기능 정보.</block>
   <block id="ec1ac4271fbf56890989ecb3a691d684" category="list-text">메뉴 &gt; 콘텐츠 &gt; 팀 콘텐츠 &gt; 보고서 * 로 이동합니다</block>
   <block id="a59e6206d800a2b43147a3078e8831f3" category="list-text">화면 오른쪽 상단에서 * [New +] * 를 선택합니다</block>
   <block id="ab8be94533c1cad6ab42818425762606" category="list-text">Report * 를 선택합니다</block>
@@ -9110,9 +8961,7 @@
   <block id="40cbfe4ff90102c4f28a5dd9034c30ca" category="list-text">Run * (실행 *) 메뉴에서 출력 유형을 선택하여 보고서를 실행합니다.</block>
   <block id="8ed7b905a59e5488e500fdbff4d3cf32" category="inline-image-macro">보고서 출력 선택</block>
   <block id="c0404d66fec1056cbbdcf7bc76589700" category="paragraph"><block ref="c0404d66fec1056cbbdcf7bc76589700" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f6706b55dc0bef6b9951c40daa3a0ee2" category="admonition">스토리지 워크로드 보안은 Cloud Insights Federal Edition에서 사용할 수 없습니다.</block>
   <block id="af5f3409a3cec43a03f959371f642cae" category="admonition">대부분의 시스템 모니터는 기본적으로 _Paused_상태입니다. 모니터의 _Resume_옵션을 선택하여 시스템 모니터를 활성화할 수 있습니다. Data Collector에서 _고급 카운터 데이터 수집_ 및 _ONTAP EMS 로그 수집 활성화_가 활성화되어 있는지 확인합니다. 이러한 옵션은 _고급 구성_ 아래의 ONTAP 데이터 수집기에서 찾을 수 있습니다.<block ref="c9fb5b808ac97b65ea1073e21fb359f9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="13c40afab8bb116e2a274838e229f575" category="paragraph">활동 기록 테이블 위에 있는 _Export_ 단추를 클릭하여 활동 기록을 .csv 파일로 내보낼 수 있습니다. 상위 100,000개의 레코드만 내보내집니다. 데이터 양에 따라 내보내기가 완료될 때까지 몇 초에서 몇 분 정도 걸릴 수 있습니다.</block>
   <block id="75089fe944982f39be6142328f8b77cf" category="paragraph">Windows 및 Linux용 에이전트를 설치하는 동안 체크섬 값을 제공하도록 요청했으며 이는 좋은 생각이라고 생각합니다. 주요 내용은 다음과 같습니다.</block>
   <block id="2ddc4416c197500bc7619829b98c8b77" category="doc">데이터 수집을 위한 에이전트 구성(Windows/Linux)</block>
   <block id="72213a3f462eab56462e1fd1892f6fc0" category="list-text">호스트에 적합한 플랫폼 선택(Windows, Linux)</block>
@@ -9270,8 +9119,6 @@
   <block id="a2792f9c8cd4eac5285b213778bf54bd" category="paragraph"><block ref="a2792f9c8cd4eac5285b213778bf54bd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4626ec11333b1630cfeee22687c063f2" category="paragraph">를 클릭합니다 <block ref="bfbd4b14aa5d5e760ae10e06c192ceef" category="inline-link-macro-rx"></block> Kubernetes 워크로드 간의 종속성을 매핑하여 문제 해결을 간소화합니다. Kubernetes 네트워크 성능 지연 시간 및 이상 징후를 실시간으로 파악하여 사용자에게 영향을 미치기 전에 성능 문제를 식별할 수 있습니다. 이 기능은 조직이 Kubernetes 트래픽 흐름을 분석하고 감사하여 전체 비용을 절감할 수 있도록 도와줍니다.</block>
   <block id="da9f9625eb860a1ad92687973f4b6f55" category="section-title">추가 Federal Edition 요구 사항</block>
-  <block id="dff4dc08edcbd6b7929f7f987fa14f17" category="list-text">Cloud Insights Federal Edition 클러스터에 획득 장치를 설치하는 경우 기본 운영 체제에 충분한 엔트로피 소스가 있어야 합니다. Linux 시스템에서는 일반적으로 _rng-tools_를 설치하거나 하드웨어 RNG(Random Number Generation)를 사용하여 이 작업을 수행합니다. 획득 장치 시스템에서 이 요구 사항이 충족되는지 확인하는 것은 고객의 책임입니다.</block>
-  <block id="4b051b13595634958e002ebbf8d92506" category="summary">Cloud Insights는 프런트엔드 및 백엔드 가상화 스토리지에 대한 뷰를 제공할 수 있습니다.</block>
   <block id="f489c820bd49075e9fac81860fe93688" category="section-title">Table Widget의 가상화</block>
   <block id="b54537489c4ac4c2d2a2fc686c6b85a7" category="paragraph">스토리지 가상화를 확인하는 가장 쉬운 방법 중 하나는 가상화된 유형을 보여주는 대시보드 표 위젯을 생성하는 것입니다. 위젯에 대한 쿼리를 작성할 때 "virtualizedType"을 그룹화 또는 필터에 추가하기만 하면 됩니다.</block>
   <block id="faffd9673a91f79b7697893831a280c9" category="inline-image-macro">스토리지 가상화 유형을 표시하는 기본 쿼리입니다</block>
@@ -9340,7 +9187,6 @@
   <block id="5b5c93dfe04a64ec52da6b4603542b2d" category="paragraph">지도에는 서비스/작업 부하 및 상호 관계가 표시됩니다. 화살표는 교통 방향을 표시합니다. 작업 부하 위로 마우스를 가져가면 다음 예에서와 같이 해당 작업 부하에 대한 요약 정보가 표시됩니다.</block>
   <block id="85adf3862ca2037a273ff3441c2be5f9" category="list-text">레이블은 POD의 워크로드 레이블에서 파생됩니다</block>
   <block id="cf568df890526e57bf700e2dc4b65a7c" category="list-text">소스가 Kubernetes 클러스터 외부에 있는 경우:</block>
-  <block id="87ff7926a3611a5c9e94e85db4fa5bea" category="list-text">Cloud Insights는 DNS 확인된 이름을 구문 분석하여 서비스 유형을 추출하려고 시도합니다.</block>
   <block id="bd1a60f90cea9c1c50d2670c398e61e4" category="paragraph">예를 들어, DNS Resolved 이름이 _s3.eu-north-1.amazonaws.com _ 인 경우 Resolved 이름은 서비스 유형으로 get_s3_로 구문 분석됩니다.</block>
   <block id="500b3306f51ddde04e4c6da822f4a0e1" category="section-title">깊이 잠들어 보세요</block>
   <block id="85b2e2afff81bc570758ed245f94e0ab" category="paragraph">워크로드를 마우스 오른쪽 버튼으로 클릭하면 더 자세히 살펴볼 수 있는 추가 옵션이 제공됩니다. 예를 들어, 여기에서 해당 워크로드의 연결을 확대하여 볼 수 있습니다.</block>
@@ -9352,7 +9198,6 @@
   <block id="bc73b2df84aeadcf404198608adc15f8" category="paragraph">마지막으로, _자산 페이지로 이동 _ 을(를) 선택하면 워크로드에 대한 상세 자산 랜딩 페이지가 열립니다.</block>
   <block id="1f77b1ef877148b891f2cb01d5adad8a" category="inline-image-macro">워크로드 자산 페이지</block>
   <block id="208df78ccb496daba189129b4e1d9439" category="paragraph"><block ref="208df78ccb496daba189129b4e1d9439" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2ec69e962ebca3d9f0e5279aa138f19a" category="paragraph">아래 개체 유형에 대해 Cloud Insights 메트릭 알림을 생성할 수 있습니다. 데이터가 기본 개체 유형별로 그룹화되어 있는지 확인합니다.</block>
   <block id="be00894fb094481f332cdeb18d58160f" category="section-title">Kubernetes 데이터에 대한 리포팅</block>
   <block id="aa0a317cf28a0f0d299d7319c70613b5" category="paragraph">PV(영구적 볼륨), PVC, 워크로드, 클러스터, 네임스페이스를 비롯한 Cloud Insights에서 수집된 Kubernetes 데이터를 이제 보고, 차지백, 추세, 예측, TTF 계산, 기타 Kubernetes 메트릭의 비즈니스 보고 기능을 제공합니다.</block>
   <block id="3b1c56e7c6b15724089ac1fbd8291af2" category="section-title">Agent 및 Data Collector 업그레이드 알림 수신</block>
@@ -9360,7 +9205,6 @@
   <block id="2ea94aba509e4f34b59231b813dd33f2" category="list-text">"업그레이드 알림 사용" 확인란이 활성화됩니다.</block>
   <block id="f7e530357a9fe13372b34f49bcbf5513" category="list-text">에이전트 및 Data Collector 업그레이드 e-메일 알림은 예정된 업그레이드 하루 전에 e-메일 ID로 전송됩니다.</block>
   <block id="be8e3ac01b05912cba21f26369a5a852" category="cell">"Data Collector 상태 알림"에 이메일 ID가 있지만 알림을 받지 않습니다.</block>
-  <block id="9080956b20cd0e2cc8124ec3684655c3" category="cell">알림 이메일은 NetApp Cloud Insights 도메인, 즉 _accounts@service.cloudinsights.netapp.com_ 에서 전송됩니다. 일부 회사는 외부 도메인에서 들어오는 이메일을 차단합니다. NetApp Cloud Insights 도메인의 외부 알림이 화이트리스트되었는지 확인합니다.</block>
   <block id="8816114441548a7f4d390de764f25ad9" category="paragraph">특정 장치 또는 모든 장치에 정책을 설정할 수 있습니다. 응답 정책을 설정하려면 * Admin &gt; Automated Response Policies * 를 선택하고 해당 * + Policy * 버튼을 클릭합니다. 공격에 대한 정책 또는 경고에 대한 정책을 만들 수 있습니다.</block>
   <block id="7ee8aae70113b376d8eb550719ded4da" category="paragraph"><block ref="7ee8aae70113b376d8eb550719ded4da" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a3212607b61ab6e23624ab9cfe54fd1a" category="section-title">평가판</block>
@@ -9391,13 +9235,6 @@
   <block id="176f2e3b515143c4119028872457ab70" category="list-text">RHEL/CentOS:/var/log/Telegraf/telegraf.log</block>
   <block id="dba98037ac90ffd514afa8ae59edc426" category="list-text">Ubuntu/Debian:/var/log/Telegraf/telegraf.log</block>
   <block id="e6c0bd06ad9776dae0a5cf43e60b0ff4" category="list-text">Windows:C:\Program Files\Telegraf\telegraf.log</block>
-  <block id="2fdbb1db4127b83dadc134e367935c11" category="cell">검색 문자열의 별표(\ *)는 모든 항목을 검색합니다. 그러나 _ * &lt;searchTerm&gt;_OR_ * &lt;searchTerm&gt; *_과 같은 선행 와일드카드 문자열은 느린 쿼리를 만듭니다.
-보다 나은 성능을 얻으려면 접두사 문자열을 대신 _&lt;searchTerm&gt;*_ 형식으로 사용합니다(즉, 별표(*)_after_a 검색 용어를 추가합니다).
-예: _ * testvolume_or_ * test * volume_ 대신 _testvolume *_ 문자열을 사용하십시오.
-
-접두어 기반 검색을 사용하여 지정된 폴더 아래에 있는 모든 활동을 반복(계층적 검색)합니다. 예: _/path1/path2/path3_ 또는 _ "/path1/path2/path3" _/path1/path2/path3_ 아래에 모든 활동이 재귀적으로 나열됩니다.
-또는 모든 활동 탭의 "필터에 추가" 옵션을 사용합니다.</block>
-  <block id="119a624f6eb573c06e0ae3a7429c9891" category="list-text">* 채팅 * - NetApp 지원 담당자와 연결하여 지원을 받을 수 있습니다(평일에만 해당). 채팅은 Cloud Insights 화면 오른쪽 상단의 * 도움말 &gt; 라이브 채팅 * 메뉴 옵션에서 사용할 수 있습니다.</block>
   <block id="43087b2e6dfc2a4eecd03be4305fb0cb" category="cell">메트릭 수집 간격(초)(최대 = 60초)</block>
   <block id="c65b3d448a7cc9416a433ee0c45038b9" category="summary">AU 소프트웨어가 수동으로 업데이트되도록 Cloud Insights를 구성하여 사용자 환경에 설치된 소프트웨어를 보다 효과적으로 제어할 수 있습니다.</block>
   <block id="a7c522a068ca75556dee476101135cc4" category="doc">획득 장치 소프트웨어 수동 설치</block>
@@ -9447,7 +9284,6 @@
   <block id="ae8f504ff2e83723f08fc4f873fcdca5" category="paragraph">공유 리소스의 까다롭고 영향을 받는 워크로드를 확인하려면 * 대시보드 &gt; 인사이트 * 를 클릭하고 스트레스 * 인사이트 에서 * 공유 리소스 를 선택합니다.</block>
   <block id="923231dd5cc497f857ab7bc31259567c" category="inline-image-macro">인사이트 메뉴</block>
   <block id="4ad858c99ade794af9d0e0a1491e01bc" category="paragraph"><block ref="4ad858c99ade794af9d0e0a1491e01bc" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0111ce9fed5023fdfdac30af08350a0d" category="paragraph">Cloud Insights 포화 상태가 감지된 모든 작업 부하 목록을 표시합니다. Cloud Insights는 하나 이상의 _처리량이 많은 리소스_ * 또는 * _영향을 받는 리소스_가 감지된 작업 부하를 표시합니다.</block>
   <block id="6345c18147755da14a72a1bcc448c878" category="paragraph"><block ref="6345c18147755da14a72a1bcc448c878" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bea93c5448a53dbeae5f078ae207efa5" category="paragraph"><block ref="416a8d7353098379fdb36ba6e8aa6da8" category="inline-image-macro-rx" type="image"></block>
 <block ref="abda75af4f4de4a9d5c96cfad5c94c77" category="inline-image-macro-rx" type="image"></block></block>
@@ -11031,7 +10867,6 @@ VMware vCenter Server 8.0.1 빌드 - 21860503</block>
   <block id="a86bd6cf348747cd34bce0fd7d6a84a9" category="paragraph">이 Data Collector에 대한 추가 정보는 에서 확인할 수 있습니다 <block ref="d34993add17c6dd464dba2ccd7f99cbb" category="inline-link-macro-rx"></block> 페이지 또는 에 있습니다 <block ref="9dd2beb67fe62b2f58f66806d3cbe842" category="inline-link-macro-rx"></block>.</block>
   <block id="47c66df8007a6168673191bfaef7dfab" category="paragraph">추가 정보는 에서 찾을 수 있습니다 <block ref="d34993add17c6dd464dba2ccd7f99cbb" category="inline-link-macro-rx"></block> 페이지 또는 에 있습니다 <block ref="9dd2beb67fe62b2f58f66806d3cbe842" category="inline-link-macro-rx"></block>.</block>
   <block id="e07849f7cb6b62fcc60bd889bb8954df" category="paragraph">이 데이터 수집기에 대한 추가 정보는 에서 찾을 수 있습니다 <block ref="d34993add17c6dd464dba2ccd7f99cbb" category="inline-link-macro-rx"></block> 페이지 또는 에 있습니다 <block ref="9dd2beb67fe62b2f58f66806d3cbe842" category="inline-link-macro-rx"></block>.</block>
-  <block id="4a186b8a397cc2aad62c7d9c7e9d9a66" category="paragraph">에서 지원되는 Data Collector에 대한 정보와 세부 정보를 보거나 다운로드할 수 있습니다 <block ref="1300170f2732d2d2d53f76de553810b4" category="inline-link-macro-rx"></block>.</block>
   <block id="c00642d871f5ba7dbc50bbe96271824a" category="cell">3.1.1(MU1)
 3.1.2(MU3)
 3.1.3(MU1)
@@ -11294,7 +11129,6 @@ V9.2.4.2</block>
   <block id="8cc6fe8efec4a3d6fc5ed7b779e8c094" category="list-text">"failed"라는 단어가 포함되지만 "FailedMount"라는 특정 이유가 있는 것은 아닌 _REASON_을 사용하여 로그 항목을 필터링합니다.</block>
   <block id="0d08e6b786ad26cf3562710d1355fea7" category="list-text">"모니터링"이라는 단어를 포함하여 _metadata.namespace_ 을 포함하는 모든 항목을 포함하지만 "CM 모니터링" 또는 "예 모니터링"의 특정 네임스페이스는 제외합니다.</block>
   <block id="2b54fd64a2706073e8bc271891bd6d2d" category="paragraph">위의 경우 "cm-모니터링"과 "예-모니터링"은 모두 대시("-")를 포함하므로 문자열을 큰따옴표로 포함하거나 구문 분석 오류가 표시됩니다. 대시, 공백 등이 포함되지 않은 문자열은 따옴표로 묶을 필요가 없습니다. 확실하지 않은 경우 문자열을 따옴표로 묶어 보십시오.</block>
-  <block id="b61d5955be1f96c1051d023bbbb0885a" category="list-text">특정 기간 내에 발생한 로그 결과만 표시하도록 그래프를 확대했습니다. 여기에 표시된 시간 범위는 현재 확대/축소 수준을 반영합니다. 확대/축소 수준을 현재 Cloud Insights 시간 범위로 다시 설정하려면 _확대/축소 재설정_ 버튼을 선택합니다.</block>
   <block id="e9c3a605437c1d21260249137747effc" category="list-text">차트 결과는 _source_field별로 그룹화되어 있습니다. 차트는 각 열의 결과를 색상으로 그룹화하여 표시합니다. 차트의 열 위로 마우스를 이동하면 특정 항목에 대한 세부 정보가 표시됩니다.</block>
   <block id="ddebec2cff3de7b17694a2b5c55254a5" category="inline-image-macro">그룹화된 호버 세부 정보</block>
   <block id="540bd2dacf8012f1036c7cbb4c950e57" category="paragraph"><block ref="540bd2dacf8012f1036c7cbb4c950e57" category="inline-image-macro-rx" type="image"></block></block>
@@ -11622,13 +11456,9 @@ CHE: 권한이 거부되었습니다. 무시됨 \n "func="gosnowflake.(* default
   <block id="23639e5972e5f3878de9fd64c5a01f73" category="paragraph">모듈 옆에 있는 확인란을 선택하여 예상 비용에서 전체 모듈의 MU를 추가하거나 제거합니다.</block>
   <block id="3406a9b7847cf7a53e580c01031639d0" category="paragraph">Estimator를 사용하면 현재 구독 기간을 유지하고 라이선스가 부여된 관리 유닛 수를 늘리는 추가 기능 또는 현재 구독 시 구입할 갱신 구독의 갱신 옵션을 확인할 수 있습니다 기간 종료.</block>
   <block id="51551d892e3008a0a15372506e7c3778" category="section-title">도메인별 액세스 제한</block>
-  <block id="3a61360418d262f9d84cc867c9f6dafd" category="paragraph">Cloud Insights는 사용자가 지정한 도메인에만 대한 사용자 액세스를 제한할 수 있습니다. 관리자 &gt; 사용자 관리 * 페이지에서 "도메인 제한"을 선택합니다.</block>
   <block id="c55e947bf98f22cc4e8f7588d8766267" category="inline-image-macro">도메인을 기본 도메인으로만 제한, 기본값 및 사용자가 지정한 추가 도메인으로 제한 또는 제한 없음</block>
   <block id="3918febcb400c73584a46d9496f559c5" category="paragraph"><block ref="3918febcb400c73584a46d9496f559c5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d8aa9f67356322fd8d0293bb016de3df" category="paragraph">다음과 같은 선택 사항이 제시됩니다.</block>
-  <block id="1851aec30e57598577c5ea29624fe8f4" category="list-text">제한 없음: Cloud Insights는 도메인에 관계없이 사용자가 계속 액세스할 수 있습니다.</block>
-  <block id="3fd4ae48fb6a82b317e55d474c186cee" category="list-text">기본 도메인으로 액세스 제한: 기본 도메인은 Cloud Insights 환경 계정 소유자가 사용하는 도메인입니다. 이러한 도메인은 항상 액세스할 수 있습니다.</block>
-  <block id="846c4bffd2bae99bec40857d4f18da12" category="list-text">기본 및 지정한 도메인으로 액세스를 제한합니다. 기본 도메인 외에 Cloud Insights 환경에 액세스할 수 있는 모든 도메인을 나열합니다.</block>
   <block id="b0ec3d3ab3b33bd69418a7bd9e4d8f9e" category="section-title">2023년 10월</block>
   <block id="e76d326e7377a93bd9d473077ecdd257" category="section-title">지정된 도메인에 대한 액세스를 제한합니다</block>
   <block id="e391d7f1ca15dcf0f9409952796c6e9f" category="inline-link-macro">Cloud Insights 액세스를 제한합니다</block>
@@ -11646,10 +11476,8 @@ CHE: 권한이 거부되었습니다. 무시됨 \n "func="gosnowflake.(* default
   <block id="ad61c1ba38ff9af26797e324a38dc514" category="inline-link-macro">역할 및 규칙</block>
   <block id="7f6383a46fdc2ac52c791c8ea4cf03b6" category="summary">데이터 보존 시간 및 다운샘플링에 대해 설명합니다</block>
   <block id="2acd8b96cc968efd569f0e0169390b9b" category="doc">데이터 보존 및 다운샘플링 데이터</block>
-  <block id="8221571bdb4085e5cf8534456c5e5750" category="paragraph">Cloud Insights는 활성 구독한 Edition에 의해 결정된 시간 동안 데이터를 유지합니다.</block>
   <block id="025025548582d3777fd0b072c16e2656" category="cell">13개월</block>
   <block id="a4d110a0ddc628e94b4e9223300af49b" category="inline-link-macro">에디션 및 가격</block>
-  <block id="8a5a5004d445ce710c5fb829b859257b" category="paragraph">각 에디션에서 사용할 수 있는 전체 기능 목록은 Cloud Insights에서 확인할 수 있습니다 <block ref="9f9283f57379e70b90560c22a58eac88" category="inline-link-macro-rx"></block> 페이지.</block>
   <block id="62a2ac40719f6cb31d5e1ad43d9d8a19" category="list-text">Explore -&gt;+New Metric Query * 로 이동합니다.</block>
   <block id="9ec73c52f582999e7cc8d920ca844c81" category="list-text">드롭다운에서 _Storage_를 선택합니다.</block>
   <block id="4c6af067d4990a4c05731f55b8095467" category="list-text">기어를 클릭하고 _IsActive_를 열로 추가합니다.</block>
@@ -11683,12 +11511,8 @@ CHE: 권한이 거부되었습니다. 무시됨 \n "func="gosnowflake.(* default
   <block id="658caf28e4d04a4c56e83fd4c34621bd" category="list-text">여러 데이터 수집기에 대한 정보를 동시에 편집할 수 있습니다. 관측성 &gt; 수집기 * 페이지에서 각 항목의 왼쪽 확인란을 선택하고 * Bulk Actions * 버튼을 클릭하여 수정할 데이터 수집기를 선택합니다. 편집 * 을 선택하고 필요한 필드를 수정합니다.</block>
   <block id="601816c89a0810f8802681f16fb50cc5" category="list-text">워크로드 보안 메뉴에서 다음을 클릭합니다.
 * Collectors &gt; 사용자 디렉토리 수집기 &gt; + 사용자 디렉토리 수집기 * 를 선택하고 * Active Directory * 를 선택합니다</block>
-  <block id="6c9b3e4dd62551cbb0cf3069e831b84b" category="list-text">Cloud Insights 메뉴에서 * 관측성 &gt; 수집기 * 를 클릭합니다</block>
-  <block id="2b7c39a8b273585cdba65d37a11b97e0" category="list-text">Cloud Insights 메뉴에서 * 관측성 &gt; 수집기 * 를 클릭하여 설치된 데이터 수집기 목록을 엽니다.</block>
-  <block id="41e52ba1f9b8b7cdf15e151317830ed2" category="list-text">Cloud Insights 메뉴에서 * 관측성 &gt; 수집기 * 를 클릭합니다.</block>
   <block id="4b079dc3088a9e53c6c6851870343850" category="list-text">Workload Security &gt; Collector &gt; Agents * 를 클릭합니다</block>
   <block id="e65f7cc9f07286d1ff22f4c88e1d6fdb" category="list-text">구성한 수집기의 상태를 확인하려면 * Workload Security &gt; Collectors * 를 클릭하십시오.</block>
-  <block id="efe524f42d2c837542d4da8626dd93a7" category="list-text">Cloud Insights 메뉴에서 * 관측성 &gt; 수집기 * 를 클릭합니다</block>
   <block id="a5436f2e1642a935e668be1ae1bc7cb4" category="list-text">Workload Security * Collector * 로 이동한 후 * Agents * 탭을 클릭합니다.</block>
   <block id="3db8e6e28be63b5639b42d1210ec94f9" category="list-text">Collector * 를 클릭하고 구성할 데이터 수집기를 선택합니다.</block>
   <block id="2b38e4e9371e68c324f4d975aeec0b8b" category="doc">허용된 파일 형식 정책</block>
@@ -11757,7 +11581,6 @@ CHE: 권한이 거부되었습니다. 무시됨 \n "func="gosnowflake.(* default
   <block id="fc0a37407f79a45598558116e07830ba" category="paragraph">이제 컬렉터의 kebab 메뉴에 2개의 새 작업이 표시됩니다(일시 중지 및 다시 시작).</block>
   <block id="12a77ef251456c14c7516a531e07f62b" category="paragraph">Collector가 일시 중지된 동안 ONTAP에 새 볼륨 등이 생성되면 워크로드 보안이 데이터를 수집하지 않고 해당 볼륨 등이 대시보드나 테이블에 반영되지 않습니다.</block>
   <block id="ac08b45e1e6b3f3cb0a5ffc7cb738447" category="cell">일시 중지된 수집기에 구성된 설정에 따라 스냅샷 삭제가 수행되지 않습니다.</block>
-  <block id="301be6cbe57eeb518e76a0dacc06942b" category="cell">ONTAP ARP와 같은 EMS 이벤트는 일시 중지된 Collector에서 처리되지 않습니다. 즉, ONTAP에서 랜섬웨어 공격을 식별하면 Cloud Insights 워크로드 보안으로 이 이벤트를 파악할 수 없습니다.</block>
   <block id="7e41836b686c17a31fd348a24ad244d1" category="cell">일시 중지된 수집기에 대해 상태 알림 이메일이 전송되지 않습니다.</block>
   <block id="3683774ed8a4e1ec359bda17c740e07d" category="cell">수동 또는 자동 작업(예: 스냅샷 또는 사용자 차단)은 일시 중지된 수집기에서 지원되지 않습니다.</block>
   <block id="fa80f305470263b5f75374e020afeacd" category="cell">에이전트 또는 수집기 업그레이드, 에이전트 VM 다시 시작/재부팅 또는 에이전트 서비스 다시 시작 시 일시 중지된 수집기는 _Paused_state에 남아 있습니다.</block>
@@ -11827,7 +11650,6 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
   <block id="3fc1bb029faccb362d05bb964b9a5532" category="admonition">권장 옵션은 입니다 <block ref="fab3704c9565365da788d72b33d2f55f" category="inline-link-macro-rx"></block> 파일을 작성하기 전에.]</block>
   <block id="77b868151a2234cc10d342f43b6cbb14" category="inline-link-macro">수집기를 다시 시작합니다</block>
   <block id="60d7b95e24d1ecfc57f6986cabb1871a" category="paragraph">워크로드 보안에서 수집기가 _running_state에 있으면 데이터 수집기를 일시 중지할 수 있습니다. 수집기에 대한 "세 개의 점" 메뉴를 열고 일시 중지를 선택합니다. Collector가 일시 중지되는 동안 ONTAP에서 수집된 데이터는 없고 Collector에서 ONTAP로 전송되는 데이터는 없습니다. 다시 수집을 시작하려면 다시 시작을 선택하십시오.</block>
-  <block id="cb4cb59ec3d83f1c614ac2210509e260" category="paragraph">Data Collector가 _running_state인 경우 수집을 일시 중지할 수 있습니다. 수집기에 대한 "세 개의 점" 메뉴를 열고 일시 중지를 선택합니다. Collector가 일시 중지되는 동안 ONTAP에서 수집된 데이터는 없고 Collector에서 ONTAP로 전송되는 데이터는 없습니다. 즉, Fpolicy 이벤트가 ONTAP에서 데이터 수집기로, 그리고 거기서 Cloud Insights로 전달되지 않습니다.</block>
   <block id="7cf0ebff62dd478662f71d56cd0334d1" category="list-text">다음 단계를 수행하기 전에 수집기를 일시 중지한 경우 을 참조하십시오 <block ref="277e805b18142e57dd69c30e47ad86c3" category="inline-link-macro-rx"></block>.</block>
   <block id="17f6f686e23fbca9f92a7a9926136c2d" category="cell">성능 수집이 "SNMP 요청 전송 중 시간 초과"와 함께 실패합니다.</block>
   <block id="212277044ae3f4c8673a76ebbe182cbd" category="cell">쿼리 변수 및 스위치 구성에 따라 일부 쿼리가 기본 시간 제한을 초과할 수 있습니다.  <block ref="0374e985eaa396deda9975ede578752d" category="inline-link-macro-rx"></block>.</block>
@@ -11922,7 +11744,6 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
   <block id="fbfc60b12bca0c131c59f525f76f22bf" category="summary">워크로드 보안은 ONTAP와 통합되어 액세스 거부 이벤트를 수신하고 추가적인 분석 및 자동 응답 계층을 제공합니다.</block>
   <block id="3ba4371c57b90b9ee49e030d7db47a1f" category="doc">ONTAP 액세스와의 통합이 거부되었습니다</block>
   <block id="c74fa865502a71610c2bcdb74da1afac" category="paragraph">ONTAP 액세스 거부 기능은 NAS 환경(NFS 및 SMB)에서 워크로드 분석을 사용하여 실패한 파일 작업을 사전에 감지하여 경고합니다(예: 권한이 없는 작업을 수행하려는 사용자). 특히 보안 관련 오류의 경우 이러한 파일 작업 알림 실패 시 초기에 내부자 공격을 차단하는 데 도움이 됩니다.</block>
-  <block id="454eafdb8e7a9a5507e578af411d82d5" category="paragraph">Cloud Insights 워크로드 보안은 ONTAP와 통합되어 액세스 거부 이벤트를 수신하고 추가적인 분석 및 자동 응답 계층을 제공합니다.</block>
   <block id="265cb660bad001dd1edf92723a8d4d4e" category="list-text">최소 ONTAP 버전: 9.13.0.</block>
   <block id="b125c8dabe7599cb2999397450c6d677" category="list-text">워크로드 보안 관리자는 고급 구성 아래에서 _액세스 거부 이벤트 모니터링_ 확인란을 선택하여 새 수집기를 추가하거나 기존 수집기를 편집하는 동안 액세스 거부 기능을 활성화해야 합니다.</block>
   <block id="1a4be5ca764787caaf41b91668c3ea9f" category="inline-image-macro">ONTAP Collector 고급 구성에서 액세스 거부됨 을 설정합니다</block>
@@ -11977,13 +11798,6 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
   <block id="466b14af7b02408eac035880aecf9915" category="paragraph">클러스터 스위치 데이터를 수집하는 경우:</block>
   <block id="fcf3c8b7073234871f47a3a68559837a" category="inline-link-macro">여기(Linux)</block>
   <block id="5543adb6f73fddb3a3944d6d35b0de3e" category="inline-link-macro">여기(Windows)</block>
-  <block id="a619708c636cd548a93f5ec4dde89bb3" category="cell">100Mbps/1Gbps 이더넷 연결, 정적 IP 주소, 획득 장치에서 * .cloudinsights.netapp.com 또는 Cloud Insights 환경(예: \https://&lt;environment_id&gt; .c01.cloudinsights.netapp.com)으로의 포트 80 또는 443 연결이 필요합니다. 획득 장치와 각 Data Collector 사이의 요구 사항은 의 지침을 참조하십시오 <block ref="be56515064596049a4b61d9d1a149cf9" category="inline-link-macro-rx"></block>.
-
-조직에서 인터넷 액세스를 위해 프록시 사용을 요구하는 경우 조직의 프록시 동작을 이해하고 Cloud Insights가 작동하려면 특정 예외를 찾아야 할 수 있습니다. 예를 들어, 조직에서 기본적으로 액세스를 차단하며 특정 웹 사이트/도메인에 대한 액세스는 예외로 허용됩니까? 이 경우 예외 목록에 다음 도메인을 추가해야 합니다.
-
-*.cloudinsights.netapp.com 참조하십시오
-
-자세한 내용은 프록시 정보 를 참조하십시오 <block ref="05c875968683001fc59f206218314b72" category="inline-link-macro-rx"></block> 또는 <block ref="554efdd06704a764ab0a7e3947e279ff" category="inline-link-macro-rx"></block>.</block>
   <block id="b30a6e7a75eaf5af9f2106e8d96d324b" category="paragraph">cluster_credentials를 사용하는 CsUser의 경우 ONTAP 명령줄에서 다음 명령을 실행합니다. _csrestrole_은(는) 사용자 지정 역할이고 _csUser_는 ONTAP 사용자 지정 사용자입니다.</block>
   <block id="d7a15f16d93378f9428254d47703abd2" category="section-title">2024년 3월</block>
   <block id="375ee0c976167dd35b8f93758415f360" category="section-title">워크로드 보안 에이전트 세부 정보</block>
@@ -12287,26 +12101,19 @@ InternalVolumes: Rest가 vol0을 더 이상 보고하지 않습니다.
 스토리지 가상 시스템: REST는 더 이상 '데이터'(예: '클러스터', 'GMT', '노드')가 아닌 SVM 유형을 보고하지 않습니다.
 
 또한 기본 성능 폴링 기간이 15분에서 5분으로 변경되어 데이터가 있는 그래프의 모양이 변경될 수 있습니다.  폴링 빈도가 높으면 더 많은 데이터 포인트를 표시할 수 있습니다.</block>
-  <block id="07564ad1af1bd4ed017ae241054bd345" category="paragraph">Cloud Insights는 계정 소유자, 관리자, 사용자 및 게스트의 최대 4개의 사용자 계정 역할을 제공합니다. 각 계정에는 아래 표에 명시된 특정 권한 수준이 할당됩니다.  사용자는 둘 중 하나입니다 <block ref="6a05e97c185d2e103748dff93c559f3b" category="inline-link-macro-rx"></block> Cloud Insights에 로그인하여 특정 역할을 할당하거나 을 통해 로그인할 수 있습니다 <block ref="47c69771a9bdd41067d8486727a07273" category="inline-link-macro-rx"></block> 기본 역할을 사용합니다. SSO 인증은 Cloud Insights 프리미엄 에디션의 기능으로 제공됩니다.</block>
   <block id="2e28d2e91336191eb4cfb9f135bf4ce2" category="paragraph">새 사용자 계정은 BlueXP를 통해 생성됩니다. 사용자는 이메일을 통해 보낸 초대에 응답할 수 있지만 BlueXP 계정이 없는 경우 사용자는 BlueXP 초대를 수락할 수 있도록 BlueXP에 등록해야 합니다.</block>
   <block id="d26ae26dfaa208a028ca6437966e9b43" category="section-title">ID 페더레이션이란 무엇입니까?</block>
   <block id="08f656c4c33fd00fad5ab1ef569dae11" category="list-text">사용자는 모든 NetApp BlueXP 서비스(단일 사인온)에 한 번 로그인합니다.</block>
   <block id="02f6b1d6847323521b6d5dfdeb3f5dbf" category="paragraph">모든 클라우드 서비스의 NetApp BlueXP에서 사용자 계정을 관리합니다. 기본적으로 인증은 BlueXP 로컬 사용자 프로필을 통해 수행됩니다. 다음은 이 프로세스에 대한 간단한 개요입니다.</block>
   <block id="58ccf39c430354a2330777ebbfdc320c" category="inline-image-macro">로컬을 사용한 BlueXP 인증</block>
   <block id="6e7c9d2ac3ef07c7bcfe628147140973" category="paragraph"><block ref="6e7c9d2ac3ef07c7bcfe628147140973" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1efb7531b4ff57cf7e5dad319f452ce8" category="paragraph">그러나 일부 고객은 자체 ID 공급자를 사용하여 Cloud Insights 및 다른 NetApp BlueXP 서비스에 대한 사용자를 인증하려고 합니다. ID 페더레이션을 사용하면 NetApp BlueXP 계정은 회사 디렉터리의 자격 증명을 사용하여 인증됩니다.</block>
   <block id="34dde67853699a7c5e92b37ac717d586" category="inline-image-macro">Federation을 사용한 BlueXP 인증</block>
   <block id="14bf8864e0c03f214a9531c84f7509ff" category="paragraph"><block ref="14bf8864e0c03f214a9531c84f7509ff" category="inline-image-macro-rx" type="image"></block></block>
   <block id="41f5e02dabb202e2e56ff56a913cc88b" category="section-title">ID 페더레이션을 사용하도록 설정하는 중입니다</block>
   <block id="76ef581d75f4d1e4d3bdceeb091433ef" category="inline-link-macro">BlueXP Federation 지침</block>
   <block id="f68beb94c4510489905761611b802b02" category="paragraph">BlueXP는 Auth0을 사용하여 Identity Federation을 구현하고 ADFS(Active Directory Federation Services) 및 Microsoft Azure AD(Active Directory) 등의 서비스와 통합됩니다. ID 페더레이션을 구성하려면 을 참조하십시오 <block ref="dcb213271585f680aa429c2cd0d8d64f" category="inline-link-macro-rx"></block>.</block>
-  <block id="e806ab1149571cd13505dfbc97c18648" category="admonition">Cloud Insights에서 SSO를 사용하려면 먼저 BlueXP ID 페더레이션을 구성해야 합니다.</block>
-  <block id="3d447ee9850a212906099a2f2e71dd7b" category="paragraph">BlueXP의 변화하는 ID 페더레이션이 Cloud Insights뿐만 아니라 모든 NetApp BlueXP 서비스에도 적용된다는 것을 이해하는 것이 중요합니다. 고객은 자신이 소유한 각 BlueXP 제품의 NetApp 팀과 이 변경 사항에 대해 논의하여 사용 중인 구성이 ID Federation과 연동되는지 또는 계정을 조정해야 하는 경우. 고객은 ID 페더레이션의 변경에 내부 SSO 팀을 참여시켜야 합니다.</block>
   <block id="9ebe3356d760f8536e9bb24151537fda" category="paragraph">또한 ID 페더레이션이 활성화되면 회사 ID 공급자를 변경(SAML에서 Microsoft AD로 이동)할 때 사용자 프로필을 업데이트하기 위해 BlueXP의 문제 해결/변경/주의가 필요할 수 있음을 인지해야 합니다.</block>
   <block id="5688f19f1e497727b537222451f54cc6" category="paragraph">이 문제나 다른 페더레이션 문제에 대해 에서 지원 티켓을 열 수 있습니다<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block> "bluexp.netapp.com &gt; Federation Issues" 범주를 선택합니다.</block>
-  <block id="1290a9c844484dfb0ecb66679bb02236" category="admonition">_SSO 사용자 자동 프로비저닝 _ 은(는) Cloud Insights 프리미엄 에디션에서 사용할 수 있으며 Cloud Insights에 대해 사용하려면 먼저 구성해야 합니다. SSO 사용자 자동 프로비저닝 구성에는 이 포함됩니다 <block ref="822fb5372050010317b40dcb63a546f0" category="inline-link-macro-rx"></block> 위의 섹션에 설명된 것처럼 NetApp BlueXP를 이용함으로써 페더레이션을 사용하면 SAML(Security Assertion Markup Language) 및 OIDC(OpenID Connect)와 같은 공개 표준을 사용하여 기업 디렉터리의 자격 증명을 사용하여 NetApp BlueXP 계정에 액세스할 수 있습니다.</block>
-  <block id="5f47dcd3204dc1bc6c36abf1ce4be4cc" category="paragraph">SSO 사용자 자동 프로비저닝 _ 을(를) 구성하려면 * 관리자 &gt; 사용자 관리 * 페이지에서 먼저 BlueXP ID 페더레이션을 설정해야 합니다. 배너에서 * Set Up Federation * 링크를 선택하여 BlueXP Federation으로 이동합니다. 구성이 완료되면 Cloud Insights 관리자가 SSO 사용자 로그인을 활성화할 수 있습니다. 관리자가 _SSO 사용자 자동 프로비저닝_ 을(를) 사용하도록 설정할 경우, 모든 SSO 사용자(예: 게스트 또는 사용자)의 기본 역할을 선택합니다. SSO를 통해 로그인하는 사용자는 이 기본 역할을 갖게 됩니다.</block>
-  <block id="bbeb55e7d4d240b66f4ca24218cf7de0" category="admonition">NetApp BlueXP의 사용자 로그인 시간 제한은 7일이므로 Cloud Insights도 이 이벤트를 사용하여 로그아웃해야 합니다. 다시 로그인하면 대시보드가 계속 표시됩니다.</block>
   <block id="d30a0cd77a13a9c540651e05cf93b85c" category="cell">이미지가 없거나 잘못된 구성으로 인해 NetApp-ci-kube-상태 메트릭 Pod가 시작되지 않거나 준비되지 않았습니다. 이제 StatefulSet이 중단되고 구성 변경 사항이 NetApp-ci-kube-state-metrics Pod에 적용되지 않습니다.</block>
   <block id="54ddc3c7d064822eed932015d8740336" category="inline-link-macro">고장</block>
   <block id="24842c3920322c32befcba0bfb6c67b4" category="cell">StatefulSet 은 에 있습니다 <block ref="01cb4c066842f659530df33ef9ef5308" category="inline-link-macro-rx"></block> 상태. 구성 문제를 해결한 후에는 NetApp-ci-kube-state-metrics Pod를 바운스하게 만들 수 있습니다.</block>
@@ -12514,7 +12321,6 @@ Firefox에서 쿠키 예외는 간단히 _auth0.com _ 및 _netapp.com _ 로 지�
     - "auunitaddauto-IP &lt;ip&gt;" 명령을 실행합니다. &lt;ip&gt;를 올바른 IP로 교체합니다.</block>
   <block id="106b0b60f6d1a63a5d090bb5d33b4b6a" category="list-text">* 게이지 위젯 *: 기존(솔리드) 게이지 또는 글머리 기호 게이지에 단일 값 데이터를 표시하고 "경고" 또는 "위험" 값을 기준으로 색상을 표시합니다 <block ref="ce9cfc657985aa685104d6bcb1ead4a8" category="inline-link-macro-rx"></block>.</block>
   <block id="9a5d498bf9b8403940f19e1ef7148f1d" category="list-text">에 대한 링크가 있는 요소의 경로입니다 <block ref="633539366fa6408c302917ca137b4662" category="inline-link-macro-rx"></block></block>
-  <block id="476381b52fc0e8c9c312bfbd66594653" category="paragraph">Cloud Insights는 평가판 모드로 실행할 때 셀프 서비스 및 이메일 지원을 제공합니다. 서비스에 가입한 후에는 지원 권한을 활성화하는 것이 좋습니다. 지원 권한을 활성화하면 온라인 채팅, 웹 티켓 시스템 및 전화를 통해 기술 지원에 액세스할 수 있습니다. 기본 지원 모드는 등록이 완료될 때까지 셀프 서비스로 설정됩니다. 을 참조하십시오 <block ref="055db438ec51479bd53b937469434a7e" category="inline-xref-macro-rx"></block> 아래에 있습니다.</block>
   <block id="ad99b83e7b10ea825777161cb8f5594b" category="cell">* 입력한 자격 증명 및 IP 주소를 확인합니다.
 * 웹 관리 콘솔\https://&lt;ip&gt;:8452/DS8000/콘솔을 통해 어레이와 통신하십시오.  &lt;ip&gt;를 데이터 수집기가 구성된 IP로 교체합니다.</block>
   <block id="bc47800fe62365013d4adf7232c1c738" category="paragraph">의 사용 권한 섹션을 검토하십시오 <block ref="c5b253e6d28e76aaaf37feb5e0119ce8" category="inline-link-macro-rx"></block> 페이지를 참조하십시오.</block>
@@ -12779,19 +12585,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="21375ff3b38428634b0bb8f11745059a" category="paragraph">이 오류는 수집기 설치 파일이 "/tmp/collectors" 디렉토리에 없거나 액세스할 수 없는 경우에 발생합니다. 설치 프로그램 파일이 다운로드되었고 디렉터리 "Collector" 및 설치 관리자 zip 파일이 cssys:cssys에 의해 소유되었는지 확인하고 에이전트 서비스를 다시 시작합니다. "systemctl restart cloudsecure-agent.service”</block>
   <block id="c10b2daccdd9136337eaaa94938222bc" category="paragraph">이 오류는 모든 필수 API 범주를 선택하지 않고 API 액세스 토큰이 생성된 경우 표시됩니다. 필요한 모든 API 범주를 선택하여 새 API 액세스 토큰을 생성합니다.</block>
   <block id="1fb20c216d1008aa26dd3559c9f0c877" category="cell">Forensic UI에서 _PATH_FILTER를 사용할 때 데이터가 느리게 로드되고 있습니다.</block>
-  <block id="4ef9ea59ad225f2c525fb8c4286f39e1" category="cell">경로가 _/AAA/BBB/CCC/DDD_인 경우 다음을 검색하는 대신 다음을 수행합니다.
-
-AAA/BBB/CCC *
-
-또는
-
-AAA/BBB/C *
-
-다음을 검색해 보십시오.
-
-AAA/BBB/CCC/ *
-
-이 검색을 사용하면 데이터를 더 빨리 로드할 수 있습니다.</block>
   <block id="f4635255d83c947a8f5c0873878fce73" category="cell">SVM 모드를 선택하면 Data Collector에서 오류가 발생합니다.</block>
   <block id="e01a5196bbb9ef19ecab5eb2b9c9a7a8" category="cell">SVM 모드로 연결하는 동안 SVM 관리 IP 대신 클러스터 관리 IP를 사용하여 연결하면 연결 오류가 발생합니다. 올바른 SVM IP를 사용하는지 확인하십시오.</block>
   <block id="6a5710d8de4bc30f9d19e0130e1b9cc1" category="inline-image-macro">API 수동 설치</block>
@@ -12854,7 +12647,6 @@ AAA/BBB/CCC/ *
   <block id="88de6acb1a05ed53be1eb11796125d52" category="inline-image-macro">현재 대시보드와 동일한 그룹에 있는 다른 대시보드를 선택하려면 드롭다운 메뉴를 사용합니다</block>
   <block id="ebde4cb30069bf7811bcab479a98b1de" category="paragraph"><block ref="ebde4cb30069bf7811bcab479a98b1de" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cf0b6689b45787134fc0c6f10cd64fd2" category="paragraph">Cloud Insights에 사용되는 개체 아이콘입니다.</block>
-  <block id="f1d16f360380bc347a5a9e8768937aa7" category="paragraph"><block ref="f1d16f360380bc347a5a9e8768937aa7" category="inline-link-macro-rx"></block></block>
   <block id="536041084bffaf10e48c1cc03ccee7a2" category="paragraph"><block ref="536041084bffaf10e48c1cc03ccee7a2" category="inline-link-macro-rx"></block></block>
   <block id="4d0f1a88ac64f025d3fa96e291e7a276" category="section-title">인프라 아이콘:</block>
   <block id="2a8b7bf5296e8ac5b8214e85ec2bab16" category="inline-image-macro">인프라 아이콘 참조</block>
@@ -12881,7 +12673,6 @@ AAA/BBB/CCC/ *
   <block id="b05f0d41b637f86ee2555bfc971f76bf" category="cell">파일 개수</block>
   <block id="792171f0bd1e324307f6b4ba189249a8" category="list-text">추가 구성 필드를 추가하려면 * 고급 구성 * 을 클릭합니다. (일부 데이터 수집기는 고급 구성이 필요하지 않습니다.)</block>
   <block id="4279b596662924e6b4010f919f84d17c" category="list-text">구성 테스트 * 를 클릭하여 데이터 수집기가 올바르게 구성되었는지 확인합니다.</block>
-  <block id="fde3f7c671a4c40a9d5099c319bbabaa" category="list-text">[수집기 추가]를 클릭하여 구성을 저장하고 데이터 수집기를 Cloud Insights 테넌트에 추가합니다.</block>
   <block id="de0a3477c1c391a811d9b2911a84fb19" category="paragraph">서비스의 데이터가 대시보드에 표시되거나 쿼리에 사용 가능하려면 폴링 기간을 최대 2회 정도 소요될 수 있습니다.</block>
   <block id="3d9f514d46849760ef1b1412e314fd99" category="paragraph">오류:</block>
   <block id="0764744c95ee6244fcf44e9abace1780" category="list-text">에이전트가 실행되고 있지</block>
@@ -12940,12 +12731,9 @@ AAA/BBB/CCC/ *
   <block id="580c0c98d8c4eb79fb929b7b1eb5f4f2" category="paragraph">SVM Data Collector는 이제 ONTAP 9.15.1 이상의 * NFS 4.1 * 을 포함한 최대 NFS 버전을 지원합니다.</block>
   <block id="be2f9224b979c292cb15fb8ca6626094" category="summary">메트릭 이상 징후를 모니터링합니다</block>
   <block id="de4898eb228c5960d7add96b5bd2ad82" category="doc">이상 징후 감지 모니터</block>
-  <block id="cbcb7e323368454d1aaea827422f8ab4" category="paragraph">이상 징후 탐지를 통해 사용자 환경에서 발생한 데이터 패턴의 예기치 않은 변화에 대한 통찰력을 제공합니다. 예를 들어, 개체에서 수요일에 특정 시간에 특정 수준의 지연 시간을 경험하지만 이후 수요일에 해당 수준보다 지연 시간이 급증하는 경우, 해당 환경에서 개체의 동작 패턴이 변경되면 발생합니다. 이러한 스파이크는 이상 증상으로 간주될 것입니다. Cloud Insights를 사용하면 이와 같은 이상 상황이 발생할 경우 경고를 보내는 모니터를 만들 수 있습니다.</block>
-  <block id="6ee4ef3e25dbca514480336d70c68b6f" category="paragraph">이상 징후 탐지는 반복적이고 예측 가능한 패턴을 보이는 개체 메트릭에 적합합니다. 이러한 개체 메트릭이 예상 수준보다 높거나 낮으면 Cloud Insights에서 알림을 생성하여 즉시 조사할 수 있습니다.</block>
   <block id="f9e98659236dd136d51fbe90184c9350" category="inline-image-macro">감지된 이상 현상을 보여 주는 그래프</block>
   <block id="6d45093f10be1c53f9db64c498f5d580" category="paragraph"><block ref="6d45093f10be1c53f9db64c498f5d580" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2d2575e3b331dd7b57d604dc713e48c2" category="section-title">이상 탐지란 무엇입니까?</block>
-  <block id="9191e0d6339fc5dc7a81e5a8c55ed26b" category="paragraph">이상 현상은 메트릭의 평균 값이 이전 몇 주 동안 해당 메트릭의 가중치 평균에서 벗어난 표준 편차 수일 때 발생하며 최근 몇 주가 이전 주보다 가중치가 더 높은 경우에 발생합니다. Cloud Insights를 사용하면 데이터를 모니터링하고 이상 징후가 감지될 경우 경고할 수 있습니다. 감지의 "감도" 수준을 설정할 수 있습니다. 예를 들어, 평균 값이 평균에서 더 적은 표준 편차가 발생하여 더 많은 알림이 생성되는 경우 감도가 더 높을 수 있습니다. 반대로 민감도가 낮을수록 평균보다 표준 편차가 크면 알림 수가 줄어듭니다.</block>
   <block id="833e967d7ee3cf2f23601ccdafe6306f" category="section-title">이상 징후 감지 모니터링은 임계값 모니터링과 다릅니다.</block>
   <block id="707a70f8b64924d439fa4e0679dc94e9" category="list-text">* 임계값 기반 모니터링 * 은 특정 메트릭에 대해 사전 정의된 임계값이 있을 때 작동합니다. 즉, 기대되는 바를 명확하게 이해할 수 있는 경우(예: 정상 범위 이내)</block>
   <block id="c1045d44e2c7b706bb670c2d93126209" category="inline-image-macro">미터법 모니터는 작동 범위를 알고 있을 때 사용합니다</block>
@@ -13012,7 +12800,6 @@ AAA/BBB/CCC/ *
   <block id="51408f1c75ab7bcc90f67b3ab1801733" category="cell">API 토큰</block>
   <block id="b3aa21e2b7855df7d2d86e0bcb7a55d9" category="section-title">구독이 만료된 경우 어떻게 해야 합니까?</block>
   <block id="c3ef097c271469a3ca9718d35396087c" category="paragraph">워크로드 보안은 관측성 측정과 동일한 접근 방식을 사용하여 클러스터에 의해 측정됩니다.</block>
-  <block id="b740b52e59449de8ca69c0abf8f65235" category="paragraph">Cloud Insights에서 감지하는 사용량이 많은 워크로드는 Stress_Insight의 _Shared Resources 에 표시됩니다. 이 Insights를 보려면 * 관측성 &gt; Infrastructure Insights * 로 이동하십시오.</block>
   <block id="559b55d2ef8b4ca8873098ababc8733e" category="inline-image-macro">리소스를 공유합니다</block>
   <block id="104a62c301b2c9494638e2812254d98d" category="paragraph"><block ref="104a62c301b2c9494638e2812254d98d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5c2ddd5fbb490260fb0b081ca3636f47" category="inline-xref">1c단계</block>
@@ -13458,4 +13245,224 @@ AAA/BBB/CCC/ *
   <block id="872c0f593dab2b44f4dff49641e77590" category="list-text">최대 1,000개의 최근 알림 목록이 표시됩니다. 필드의 열 머리글을 클릭하여 모든 필드에서 이 목록을 정렬할 수 있습니다. 목록에 다음 정보가 표시됩니다. 이러한 열 중 일부만 기본적으로 표시됩니다. "기어" 아이콘을 클릭하여 표시할 열을 선택할 수 있습니다.</block>
   <block id="88a839c0b82eee34733678fcc5ffb8bd" category="cell">Fluent Bit이 시작되지 않고 데이터베이스를 열거나 만들려고 하면 runPrivileged를 true로 설정합니다.</block>
   <block id="ab5cb6794af58d6cd4132b44aa3d3d04" category="sidebar">Data Infrastructure Insights에 등록 합니다</block>
+  <block id="30accaf6a3626f10ec929da93cbf92a5" category="summary">Data Infrastructure Insights API를 사용하면 모니터링 및 보고 시스템과 같은 다른 애플리케이션과 통합할 수 있습니다.</block>
+  <block id="6d6db1bb67f06328b211ea82a7f47cbd" category="doc">Data Infrastructure Insights API를 참조하십시오</block>
+  <block id="eac3abc77b1aae81a7bfc1ff05078f3c" category="paragraph">Data Infrastructure Insights API를 사용하면 NetApp 고객 및 독립 소프트웨어 공급업체(ISV)가 CMDB 또는 기타 티켓팅 시스템과 같은 다른 애플리케이션과 Data Infrastructure Insights를 통합할 수 있습니다.</block>
+  <block id="4ca8e0cdf82e94476f54fca7c9b08a02" category="paragraph">Data Infrastructure Insights API는 현재 에디션을 기반으로 사용할 수 있습니다.</block>
+  <block id="78b105b7e2a3c96f1ef28d2a96f59830" category="paragraph">또한 Data Infrastructure Insights<block ref="ca56f933f1431ce18e092150c84b745d" category="inline-link-macro-rx"></block>에 따라 액세스 가능한 API가 결정됩니다. 사용자 및 게스트 역할은 관리자 역할보다 권한이 적습니다. 예를 들어 Monitor and Optimize에서 관리자 역할이 있지만 Reporting에서 사용자 역할은 데이터 웨어하우스를 제외한 모든 API 유형을 관리할 수 있습니다.</block>
+  <block id="da9fb37ca66951f2715562f74dd167af" category="list-text">API 토큰 관리는 관리자 역할을 가진 Data Infrastructure Insights 사용자가 수행합니다.</block>
+  <block id="e72088ab32f20f058f4f46fe9cad2b0c" category="paragraph">최신 API 정보는 Data Infrastructure Insights에 로그인하여 * Admin &gt; API acccess * 로 이동하여 확인할 수 있습니다. API Documentation * 링크를 클릭합니다.</block>
+  <block id="30a47f88beaa0845897dd8164cdcdd08" category="paragraph">API 설명서는 Swagger 기반의 API에 대한 간단한 설명과 사용 정보를 제공하며, 사용자 환경에서 사용할 수 있습니다. 사용자 역할 및/또는 Data Infrastructure Insights 버전에 따라 사용 가능한 API 유형이 다를 수 있습니다.</block>
+  <block id="d8a31e083fdfb77629ea20abe7a2af70" category="paragraph">Data Infrastructure Insights API를 사용하기 전에 하나 이상의 * API 액세스 토큰 * 을 생성해야 합니다. 액세스 토큰은 지정된 API 유형에 사용되며 읽기 및/또는 쓰기 권한을 부여할 수 있습니다. 각 액세스 토큰의 만료일을 설정할 수도 있습니다. 지정된 유형의 모든 API는 액세스 토큰에 대해 유효합니다. 각 토큰은 사용자 이름 또는 암호의 무효입니다.</block>
+  <block id="2ad881941db239e74f1523da2782c39a" category="paragraph">토큰은 고객의 관점에서 API에 대한 범용 액세스를 허용하며, 자신의 테넌트의 범위에서 API에 대한 액세스를 관리합니다. 고객 관리자는 Data Infrastructure Insights 백 엔드 직원의 직접적인 개입 없이 이러한 토큰을 부여 및 취소할 수 있습니다.</block>
+  <block id="14b84a3791e7a10fe4d65ea9a7ff7363" category="paragraph">Data Infrastructure Insights API는 범주를 기반으로 하며 현재 다음 유형이 포함되어 있습니다.</block>
+  <block id="90782e54bcf29265124126b5b3be24ad" category="list-text">쿼리: Data Infrastructure Insights 쿼리를 검색 및 관리합니다.</block>
+  <block id="63c9291ffc47b71cb537e7ecab415dab" category="paragraph">사용자가 액세스할 수 있는 API 유형은 <block ref="ead2141fb682d81a2f0b1deca7bb95c5" category="inline-link-macro-rx"></block>각 Data Infrastructure Insights 기능 세트(모니터링, 워크로드 보안, 보고)에 있는 유형에 따라서도 달라집니다.</block>
+  <block id="475ea4ca6d29c1eb379b49090f81aea7" category="paragraph">이 섹션에서는 Data Infrastructure Insights 개체의 계층 구조를 이동하는 방법을 설명합니다.</block>
+  <block id="cc3cee81cef851f2f036f9ae6b1ac477" category="paragraph">성능 데이터는 여러 장치에 걸쳐 별도의 샘플로 수집됩니다. Data Infrastructure Insights는 1시간마다(기본값) 성능 샘플을 집계하고 요약합니다.</block>
+  <block id="1852e85c98f9e7216ff053507e056147" category="paragraph">각 성능 데이터 오브젝트 유형에는 고유한 성능 메트릭 세트가 있습니다. 예를 들어, 가상 머신 성능 개체는 성능 메트릭으로 "diskThroughput"을 지원합니다. 지원되는 각 성능 메트릭은 메트릭 사전에 나와 있는 특정 "성능 범주"입니다. Data Infrastructure Insights는 이 문서의 뒷부분에 나열된 몇 가지 성능 메트릭 유형을 지원합니다. 각 성능 메트릭 사전에는 이 성능 메트릭에 대한 사람이 읽을 수 있는 설명과 성능 요약 카운터 항목 집합인 "설명" 필드도 있습니다.</block>
+  <block id="257f0ceb0672288b52ab4e080578e700" category="paragraph">Data Infrastructure Insights는 확장 가능한(광범위한 개방형) 솔루션으로서 타사 오케스트레이션, 비즈니스 관리, 변경 제어 및 티켓팅 시스템뿐만 아니라 사용자 지정 CMDB 통합과도 통합할 수 있습니다.</block>
+  <block id="c92924fbf7861a093c4349a94f8bcf0e" category="doc">데이터 인프라 Insights는 BlueXP 의 일부입니다</block>
+  <block id="e5e173192c2f69b363ad91f5ed6b33d3" category="paragraph">BlueXP를 사용하면 단일 인터페이스에서 모든 NetApp 스토리지 및 데이터 자산을 관리할 수 있습니다. BlueXP에서는 많은 새로운 스토리지 서비스와 이전에 별도의 UI를 통해 독립 실행형 서비스로만 제공되었던 데이터 서비스를 찾을 수 있습니다. Data Infrastructure Insights(이전의 Cloud Insights)는 이러한 서비스 중 하나입니다.</block>
+  <block id="fde977b4517b5a88b8ee2d3fcd1c0fd8" category="paragraph">직관적인 새 메뉴 BlueXP의 탐색 메뉴에 있는 데이터 서비스는 범주별로 구성되며 기능에 따라 이름이 지정됩니다. 예를 들어, 'Data Infrastructure Insights' 기능 세트는 "관측성" 메뉴에 있습니다. Data Infrastructure Insights를 탐색하는 동안 탐색 메뉴 상단에 "관측성" 섹션이 나타납니다. 이는 각 BlueXP 서비스에 대해 설명합니다.</block>
+  <block id="9ecae0812a01df2d2809eccbaae9fb2d" category="admonition">이 설명서 전체에서 "Data Infrastructure Insights"와 "관찰 가능성"이라는 용어는 같은 의미로 사용할 수 있습니다.</block>
+  <block id="fed6c86359bd4096089340c1d5328e42" category="cell">100Mbps/1Gbps 이더넷 연결, 정적 IP 주소, 획득 장치에서 *.cloudinsights.NetApp.com 또는 데이터 인프라 인사이트 환경(예: \https://&lt;environment_id&gt;.c01.cloudinsights.NetApp.com)으로의 포트 80 또는 443 연결이 필요합니다. 획득 장치와 각 데이터 수집기 사이의 요구 사항은 에 대한 지침을 <block ref="be56515064596049a4b61d9d1a149cf9" category="inline-link-macro-rx"></block>참조하십시오. 조직에서 인터넷 액세스에 프록시 사용을 요구하는 경우 조직의 프록시 동작을 이해하고 Data Infrastructure Insights가 작동하려면 특정 예외를 찾아야 할 수 있습니다. 예를 들어, 조직에서 기본적으로 액세스를 차단하며 특정 웹 사이트/도메인에 대한 액세스는 예외로 허용됩니까? 이 경우 예외 목록에 다음 도메인을 추가해야 합니다. *.cloudinsights.NetApp.com 자세한 내용은 프록시 <block ref="05c875968683001fc59f206218314b72" category="inline-link-macro-rx"></block> 또는 에 대해 읽어보십시오<block ref="554efdd06704a764ab0a7e3947e279ff" category="inline-link-macro-rx"></block>.</block>
+  <block id="c0775283da3261d158df55d820b4e47b" category="paragraph">8GB 메모리와 50GB의 디스크 공간만 갖춘 Data Infrastructure Insights Acquisition Unit을 시작할 수 있지만 대규모 환경에서는 다음과 같은 질문을 해야 합니다.</block>
+  <block id="cde8307fb591a6c3934539dcb5919f06" category="list-text">Data Infrastructure Insights Federal Edition 클러스터에 Acquisition Unit을 설치하는 경우 기본 운영 체제에 적절한 엔트로피 소스가 있어야 합니다. Linux 시스템에서는 일반적으로 _rng-tools_를 설치하거나 하드웨어 RNG(Random Number Generation)를 사용하여 이 작업을 수행합니다. 획득 장치 시스템에서 이 요구 사항이 충족되는지 확인하는 것은 고객의 책임입니다.</block>
+  <block id="96cb7682ad0362f3aff6ef6f90dd2520" category="summary">Data Infrastructure Insights는 NetApp Active IQ에서 위험 데이터를 수집합니다</block>
+  <block id="ace71aa31322ae1c7e3740649676adf8" category="admonition">ActiveIQ는 Data Infrastructure Insights Federal Edition에서 사용할 수 없습니다.</block>
+  <block id="97ba27a6c978c304ea9138ee01781875" category="paragraph">데이터 인프라 Insights는 Active IQ에서 모니터링 및 보고하는 NetApp clustered Data ONTAP 스토리지 시스템의 * 위험 * 을 수집합니다. 스토리지 시스템에 대해 보고된 위험은 해당 장치에서 데이터 수집의 일부로 Data Infrastructure Insights에 의해 자동으로 수집됩니다. Active IQ 위험 정보를 수집하려면 데이터 인프라 인사이트 에 적절한 데이터 수집기를 추가해야 합니다.</block>
+  <block id="bfdb97c5bb51966044d87207708e9888" category="paragraph">Data Infrastructure Insights에는 Active IQ에서 모니터링 및 보고하지 않는 ONTAP 시스템의 위험 데이터가 표시되지 않습니다.</block>
+  <block id="a98980e7429cd68c3207593853e627fe" category="paragraph">보고된 위험은 _STORAGE_AND_STORAGE NODE_ASSET 랜딩 페이지의 "위험" 표에 나와 있습니다. 이 표에는 위험 세부 정보, 위험 범주 및 잠재적 영향이 나와 있으며, 스토리지 노드의 모든 위험을 요약하는 Active IQ 페이지 링크가 제공됩니다(NetApp 지원 어카운트 로그인 필요).</block>
+  <block id="ae19f5b6992b8d45f55c8e5baa5492c8" category="list-text">데이터 인프라 인사이트 요약 위젯 또는 위험 표에서 "Active IQ" 링크를 클릭합니다.</block>
+  <block id="32a5da80264ae98c83852181734d819d" category="paragraph">Data Infrastructure Insights에서 스토리지 또는 스토리지 노드 쿼리에 * monitoring.count * 열을 추가할 수 있습니다. 반환된 결과에 Active IQ가 모니터링된 스토리지 시스템이 포함된 경우 monitoring.count 열에 스토리지 시스템 또는 노드의 위험 수가 표시됩니다.</block>
+  <block id="c70b857b688fa0886bd92f47efc9aee9" category="paragraph">이상 징후 탐지를 통해 사용자 환경에서 발생한 데이터 패턴의 예기치 않은 변화에 대한 통찰력을 제공합니다. 예를 들어, 개체에서 수요일에 특정 시간에 특정 수준의 지연 시간을 경험하지만 이후 수요일에 해당 수준보다 지연 시간이 급증하는 경우, 해당 환경에서 개체의 동작 패턴이 변경되면 발생합니다. 이러한 스파이크는 이상 증상으로 간주될 것입니다. Data Infrastructure Insights를 사용하면 이와 같은 이상 현상이 발생할 경우 모니터를 생성하여 경고를 표시할 수 있습니다.</block>
+  <block id="a9c58deb51d9ab3f5cb1d229a9ac4c1a" category="paragraph">이상 징후 탐지는 반복적이고 예측 가능한 패턴을 보이는 개체 메트릭에 적합합니다. 이러한 오브젝트 메트릭이 예상 수준보다 높거나 낮으면 Data Infrastructure Insights에서 알림을 생성하여 빠르게 조사할 수 있습니다.</block>
+  <block id="27d62d3d84eed52cb789a9ff7cafd3e4" category="paragraph">이상 현상은 메트릭의 평균 값이 이전 몇 주 동안 해당 메트릭의 가중치 평균에서 벗어난 표준 편차 수일 때 발생하며 최근 몇 주가 이전 주보다 가중치가 더 높은 경우에 발생합니다. Data Infrastructure Insights는 데이터를 모니터링하고 이상 징후가 감지될 경우 경고하는 기능을 제공합니다. 감지의 "감도" 수준을 설정할 수 있습니다. 예를 들어, 평균 값이 평균에서 더 적은 표준 편차가 발생하여 더 많은 알림이 생성되는 경우 감도가 더 높을 수 있습니다. 반대로 민감도가 낮을수록 평균보다 표준 편차가 크면 알림 수가 줄어듭니다.</block>
+  <block id="4fa35f12de5375907e8ec16299aec762" category="summary">Data Infrastructure Insights의 자산 페이지 관련 경고 섹션에 대한 개요</block>
+  <block id="03d9b057f92af8e6f6c95a445dacda02" category="paragraph">Data Infrastructure Insights는 다음 자산에 대한 자산 페이지를 제공합니다.</block>
+  <block id="9dc6acc34988c6b63dea4000b689a580" category="summary">Data Infrastructure Insights의 자산 페이지 요약 섹션 개요</block>
+  <block id="04cc60c8bfb31fe4074db1390eebfa0d" category="paragraph">Data Infrastructure Insights를 사용자 정의하여 회사 요구사항에 대한 데이터를 추적할 때 주석이라는 특수 메모를 정의하고 자산에 할당할 수 있습니다. 자산 페이지의 사용자 데이터 섹션에는 자산에 할당된 주석이 표시되며 해당 자산에 할당된 주석을 변경할 수도 있습니다.</block>
+  <block id="b4fcf782325af2dd362e41537f96c462" category="summary">감사는 Data Infrastructure Insights 시스템의 시스템 및 사용자 활동에 대한 보기를 제공합니다.</block>
+  <block id="f23941203be0c6dbfd9be4fa378f54f1" category="paragraph">예상되는 변경 사항(추적 대상) 또는 예상치 못한 변경 사항(문제 해결)을 모두 식별하려면 Data Infrastructure Insights 시스템 이벤트 및 사용자 활동의 감사 추적을 볼 수 있습니다.</block>
+  <block id="8fdc810ef5bd420752b7e9ed201788fa" category="list-text">* 역할 * - Data Infrastructure Insights에서 사용자의 역할(게스트, 사용자, 관리자)</block>
+  <block id="8b967231ec2e102ec5001f95b74a1fbd" category="paragraph">Data Infrastructure Insights에서 감사한 이벤트와 작업은 다음과 같은 광범위한 영역으로 분류될 수 있습니다.</block>
+  <block id="2b73bb47d0764b36c7237f0d7626ee2f" category="list-text">감사 페이지에서 원하는 시간 범위와 원하는 필터를 설정합니다. Data Infrastructure Insights는 사용자가 설정한 필터링 및 시간 범위와 일치하는 감사 항목만 내보냅니다.</block>
+  <block id="f16df2bb3736cac60f6b4d0b1344f646" category="paragraph">Data Infrastructure Insights가 감사 데이터를 유지하는 시간은 다음 에디션을 기준으로 합니다.</block>
+  <block id="645b54d937d4f7925b22329fd049cd0d" category="paragraph">참고: 워크로드 보안 에이전트는 Data Infrastructure Insights 수집 장치 및/또는 에이전트와 동일한 시스템에 설치할 수 있습니다. 그러나 별도의 컴퓨터에 설치하는 것이 가장 좋습니다. 동일한 시스템에 설치된 경우 아래와 같이 디스크 공간을 할당하십시오.</block>
+  <block id="e3af7e29e4f0d53ce53a1e5fef5c3577" category="cell">Data Infrastructure Insights에 액세스</block>
+  <block id="95524184da43a6b53391528cc33e5efd" category="cell">공격이 감지된 후 24시간 이내에 이메일 경고가 수신됩니다. UI에 Data Infrastructure Insights 워크로드 보안이 이메일을 수신하기 24시간 전에 경고가 표시됩니다.</block>
+  <block id="e82a63ea247ecd6c098c0cfc9ffdb493" category="cell">ONTAP이 Data Infrastructure Insights 워크로드 보안(예: 워크로드 보안)으로 _ Ransomware detected_Event를 전송하면 이메일이 전송됩니다. 이벤트에는 공격 목록과 타임 스탬프가 포함됩니다. 워크로드 보안 UI는 첫 번째 공격 파일의 경고 타임스탬프를 표시합니다. ONTAP은 특정 개수의 파일이 인코딩될 때 _Ransomware Detected_Event를 데이터 인프라 인사이트 로 전송합니다. 따라서 알림이 UI에 표시되는 시간과 이메일을 보낸 시간 사이에 차이가 있을 수 있습니다.</block>
+  <block id="da394a4a6384221c7a1e0ae64cf23d6c" category="paragraph">Data Infrastructure Insights는 데이터 수집기에서 데이터 수집기마다 다른 이름을 사용하여 카운터와 메트릭을 획득합니다.</block>
+  <block id="bafc7a119d4f6fbf1cb4ea645eaee406" category="paragraph">대시보드 위젯에 대한 적절한 메트릭이나 카운터를 검색할 때 원하는 메트릭이 생각하려는 메트릭과 다른 이름으로 표시될 수 있다는 점에 유의하십시오. Data Infrastructure Insights의 드롭다운 목록은 일반적으로 알파벳이지만, 경우에 따라 목록에 해당 용어가 표시되지 않을 수 있습니다. 예를 들어 "물리적 용량" 및 "사용된 용량"과 같은 용어는 대부분의 목록에 함께 나타나지 않습니다.</block>
+  <block id="f7c36dece720648d179dbf6c974f9288" category="paragraph">Data Infrastructure Insights는 위젯(특히 Kubernetes, ONTAP 고급 데이터, Telegraf 플러그인 등 "사용자 지정" 또는 통합 메트릭이라는 메트릭)의 특정 메트릭에 대해 다양한 * 변환 * 옵션을 제공하므로 데이터를 다양한 방식으로 표시할 수 있습니다. 변환될 수 있는 메트릭을 위젯에 추가하면 다음과 같은 변환 선택 사항을 제공하는 드롭다운이 표시됩니다.</block>
+  <block id="60f699add32c184545decef7c7e6e8f3" category="paragraph">변수 필드에 _ *.vendor_를 지정하여 오브젝트 유형(예: "vendor" 특성이 있는 오브젝트)과 관계없이 특정 특성을 가진 _ALL_OBJECT에 필터를 설정할 수도 있습니다. 와일드카드 옵션을 선택한 경우 "*."를 입력할 필요가 없습니다. 데이터 인프라 통찰력에서 이 정보를 제공합니다.</block>
+  <block id="5fd3ff776b149305fbc059482c2bb581" category="admonition">조건부 서식은 현재 Data Infrastructure Insights Federal Edition에서 사용할 수 없습니다.</block>
+  <block id="ebdf6cc1f9a2296098a5c3a29513f211" category="paragraph">대시보드의 대부분의 위젯에서는 값을 표시할 단위를 지정할 수 있습니다(예: _Megabytes_,_수천_,_백분율_,_밀리초(ms)_). 대부분의 경우 Data Infrastructure Insights는 가져오는 데이터에 가장 적합한 형식을 알고 있습니다. 최상의 형식을 모르는 경우 원하는 형식을 설정할 수 있습니다.</block>
+  <block id="455c7999478315ac7aeeb66129a754d6" category="paragraph">아래 선형 차트 예에서 위젯에 대해 선택한 데이터는 _ bytes _ (기본 IEC 데이터 단위: 아래 표 참조)로 알려져 있으므로 기본 단위는 자동으로 'byte (B)'로 선택됩니다. 그러나 데이터 값이 기비바이트(GiB)로 표시될 만큼 크기 때문에 Data Infrastructure Insights는 기본적으로 값을 GiB로 자동 포맷합니다. 그래프의 Y축은 표시 단위로 'GiB'를 나타내고, 모든 값은 해당 단위를 기준으로 표시됩니다.</block>
+  <block id="b5714fdf5f2bd38ef2ca9a775feaa547" category="paragraph">대부분의 메트릭은 1,234,567,890바이트와 같이 가장 작은 단위의 데이터 수집기에서 보고됩니다. 기본적으로 Data Infrastructure Insights는 가장 읽기 쉬운 표시를 위해 값의 형식을 자동으로 지정합니다. 예를 들어, 1,234,567,890바이트의 데이터 값은 1.23_Gibytes_로 자동 포맷됩니다. 이를 _Me비바이트_와 같은 다른 형식으로 표시하도록 선택할 수 있습니다. 그에 따라 값이 표시됩니다.</block>
+  <block id="17293d484736accbabc794ff8791d5a6" category="admonition">Data Infrastructure Insights는 미국 영어 번호 명명 표준을 사용합니다. 미국 "십억"은 "천 백만"에 해당합니다.</block>
+  <block id="86a98ce9895b65a865ec666b2d4a77a5" category="paragraph">TV 모드 * 와 함께 사용할 경우 자동 새로 고침을 통해 대시보드 또는 자산 페이지에 거의 실시간으로 데이터를 표시할 수 있습니다. TV 모드는 간결한 화면을 제공합니다. 탐색 메뉴는 숨겨져 있으며, 편집 단추처럼 데이터 디스플레이에 더 많은 화면 공간을 제공합니다. TV 모드는 일반적인 Data Infrastructure Insights 시간 제한을 무시하고 인증 보안 프로토콜에 의해 수동으로 또는 자동으로 로그아웃될 때까지 디스플레이를 활성 상태로 유지합니다.</block>
+  <block id="e1ce05359ad592db56c9190034f73bb2" category="admonition">NetApp BlueXP 의 사용자 로그인 시간 제한은 7일이므로 Data Infrastructure Insights는 이 이벤트에서도 로그아웃해야 합니다. 다시 로그인하면 대시보드가 계속 표시됩니다.</block>
+  <block id="71ea5681f65d3bf2b206c41c61e6bcaf" category="admonition">그룹에서 대시보드를 제거해도 Data Infrastructure Insights에서 대시보드는 삭제되지 않습니다. 대시보드를 완전히 제거하려면 대시보드를 선택하고 _Delete_를 클릭합니다. 이렇게 하면 해당 그룹이 속해 있는 모든 그룹에서 해당 그룹이 제거되고 더 이상 모든 사용자가 사용할 수 없게 됩니다.</block>
+  <block id="08b3ee3cd6628de2689b09d4f2d6c1ba" category="paragraph">밝은 테마(기본값)를 사용하여 데이터 인프라 인사이트(Data Infrastructure Insights)를 표시하도록 선택할 수 있습니다. 이 테마는 어두운 텍스트가 있는 밝은 배경을 사용하여 대부분의 화면을 표시하며 어두운 테마는 밝은 텍스트가 있는 어두운 배경을 사용합니다.</block>
+  <block id="4f10509c2a32107a6208072023436244" category="paragraph">이러한 문제를 완화하기 위해 Data Infrastructure Insights는 데이터 수집기가 다시 폴링할 때까지 주변 데이터 포인트를 사용하여 데이터에 대해 "최상의 추측"을 수행합니다. 위젯의 그룹화를 조정하여 언제든지 각 데이터 수집기의 개체 데이터를 개별적으로 볼 수 있습니다.</block>
+  <block id="f76c5114e30bafab7ce8af90f1b06ba4" category="summary">Data Infrastructure Insights의 대시보드 개요</block>
+  <block id="bec89705ab499dea383ff97a344267a6" category="paragraph">Data Infrastructure Insights는 다양한 위젯을 사용하여 사용자 지정 대시보드를 생성할 수 있도록 함으로써 사용자가 인프라 데이터의 운영 뷰를 생성할 수 있는 유연성을 제공하며, 각 위젯은 데이터를 표시하고 차트화할 수 있는 광범위한 유연성을 제공합니다.</block>
+  <block id="2f91211499a7c569b583d094d99ecfc3" category="paragraph">데이터 수집기는 Data Infrastructure Insights의 주요 정보 소스이므로 반드시 실행 상태를 유지해야 합니다.</block>
+  <block id="0991641b2530dee080547302dd0fbf33" category="paragraph">Data Infrastructure Insights를 사용하여 모니터링할 모든 장치를 식별해야 합니다. 작업 환경의 성능 및 재고를 정확하게 추적하려면 식별이 필요합니다. 일반적으로 사용자 환경에서 검색된 대부분의 장치는 _ 자동 장치 해상도 _ 를 통해 식별됩니다.</block>
+  <block id="1b08d73e9563bd969f039d26e1dd84fe" category="paragraph">차례로 생성된 규칙은 사용자 환경에 추가되는 것과 유사한 특성을 가진 새 디바이스를 자동으로 식별합니다. 경우에 따라 장치 해결을 통해 Data Infrastructure Insights 내에서 검색되지 않은 장치에 대한 장치 해결 규칙을 우회하여 수동으로 식별할 수도 있습니다.</block>
+  <block id="1fe81f9f4710db3289870fa8fd04a6bb" category="paragraph">정규식 방법을 소스 명명 전략으로 선택한 경우 정규식 예제를 Data Infrastructure Insights 자동 해결 방법에 사용되는 고유한 식에 대한 가이드로 사용할 수 있습니다.</block>
+  <block id="8361374e32f98fd9d4ef699c1b3d79d7" category="paragraph">Data Infrastructure Insights 자동 확인에 대한 정규식을 만들 때 _format_ 필드에 값을 입력하여 출력 형식을 구성할 수 있습니다.</block>
+  <block id="9b78512c0541901505da8a15cf49b9ca" category="paragraph">* RegExp: * ([[_]+) _ ([AB]). * 데이터 인프라 통찰력의 형식:\1-\2([_]+)_([_]+)_([_]+). * 데이터 인프라 통찰력의 형식:\1-\2-\3</block>
+  <block id="08b3c5691f5c3cb584dc1a3ec5321962" category="summary">Data Infrastructure Insights에는 다양한 작업을 수행하는 방법을 보여 주는 자습서가 포함되어 있습니다.</block>
+  <block id="c11546e49fdd67698723459cc158d58e" category="paragraph">Data Infrastructure Insights에는 데이터를 빠르고 쉽게 찾고, 문제를 해결하고, 기업 환경에 대한 통찰력을 제공할 수 있는 유용한 기능이 포함되어 있습니다. 강력한 쿼리를 사용하여 데이터를 쉽게 찾고, 대시보드에서 데이터를 시각화하고, 설정한 데이터 임계값에 대한 전자 메일 알림을 보낼 수 있습니다.</block>
+  <block id="5411eb93161338db91098dc2c3e9a63f" category="paragraph">Data Infrastructure Insights에는 이러한 기능을 이해하고 비즈니스 통찰력 전략을 보다 잘 구현하는 데 도움이 되는 다양한 비디오 자습서가 포함되어 있습니다. Data Infrastructure Insights 환경에 액세스할 수 있는 모든 사용자는 이 자습서를 활용할 수 있습니다.</block>
+  <block id="1a2d0d51ce048c550f58a12da3a8a0b7" category="paragraph">Data Infrastructure Insights의 작동 방식을 설명하는 간단한 자습서를 시청하십시오.</block>
+  <block id="bb32edd6cfeb5b70b9425ab7efaffc7d" category="paragraph">Data Infrastructure Insights 사이트에 표시되는 * 시작 체크리스트 * 에는 몇 가지 유용한 작업 및 개념 목록이 포함되어 있습니다. 체크리스트에서 항목을 선택하면 해당 개념에 대한 적절한 Data Infrastructure Insights 페이지로 이동합니다. 예를 들어, _Create a Dashboard_item을 클릭하면 Data Infrastructure Insights * Dashboards * 페이지가 열립니다.</block>
+  <block id="9fd687d950079f0d903acce7d665006e" category="paragraph">점검 목록 맨 아래에 있는 _다시 표시하지 않음_링크를 클릭할 때까지 시작 점검 목록이 사이트에 표시됩니다. 체크리스트를 없앤 후에도 메시지 헤더 표시줄에서 각 자습서를 해제할 때까지 해당하는 각 Data Infrastructure Insights 페이지에서 자습서를 계속 사용할 수 있습니다.</block>
+  <block id="1f04a48525a16838ed1c5c801491f4f1" category="paragraph">워크로드가 큰 경우 공유 리소스에 있는 다른 워크로드의 성능이 저하될 수 있습니다. Data Infrastructure Insights는 리소스 포화 및 환경의 영향을 조사하는 데 도움이 되는 툴을 제공합니다.</block>
+  <block id="b0c034e2b0d7556fe8093122404f5738" category="paragraph">많은 비용이 드는 워크로드 * 는 현재 공유 스토리지 풀의 다른 리소스에 영향을 미치는 것으로 확인된 워크로드입니다. 이러한 워크로드는 높은 IOPS를 유도하여 영향을 받는 워크로드의 IOPS를 줄입니다. Data Infrastructure Insights에서는 이러한 워크로드를 * 까다로운 워크로드 * 로 식별합니다.</block>
+  <block id="d1e1350fdee8d58e193ad9e5e0aa7df2" category="paragraph">Data Infrastructure Insights에서 감지한 고소비량의 워크로드는 Stress_Insight의 _Shared Resources 에 표시됩니다. 이 Insights를 보려면 * 관측성 &gt; Infrastructure Insights * 로 이동하십시오.</block>
+  <block id="e0a8be8ea7c8fce4e34080342408d903" category="paragraph">Data Infrastructure Insights는 데이터에 대한 비즈니스 통찰력을 제공하기 위해 여러 가지 권장 대시보드를 제공합니다. 각 대시보드에는 특정 질문에 답하거나 현재 사용자 환경에서 수집 중인 데이터와 관련된 특정 문제를 해결하는 데 도움이 되도록 설계된 위젯이 포함되어 있습니다.</block>
+  <block id="d3997e2a8704f771b1f9fdb009a6d9af" category="paragraph">워크로드 맵은 을 사용하여 <block ref="8c1e0925f4a3d217ad73e0845030a6c1" category="inline-link-macro-rx"></block>정보를 파생시킵니다. Data Infrastructure Insights는 다양한 기본 Kubernetes Monitor를 제공합니다(이는 기본적으로 _ Paused _ 일 수 있습니다. 원하는 모니터를 _Resume_(예: 활성화)하거나, Kubernetes 객체에 대한 사용자 지정 모니터를 생성할 수 있습니다. 이 경우 워크로드 맵도 사용됩니다.</block>
+  <block id="e5291f595dadb4bdc89d9490c1224ac5" category="paragraph">아래의 모든 오브젝트 유형에 대해 Data Infrastructure Insights 메트릭 경고를 생성할 수 있습니다. 데이터가 기본 개체 유형별로 그룹화되어 있는지 확인합니다.</block>
+  <block id="047cbc9feb93921ae5115af0b77d3816" category="paragraph">다른 Data Infrastructure Insights 기능과 마찬가지로 필터를 쉽게 설정하여 원하는 특정 오브젝트 또는 워크로드 특성에 집중할 수 있습니다.</block>
+  <block id="d5877647261e64358d30b275317b769a" category="list-text">Data Infrastructure Insights는 DNS 확인된 이름을 구문 분석하여 서비스 유형을 추출합니다.</block>
+  <block id="829f5504de06d7e8f69dc7b22c656476" category="paragraph">Data Infrastructure Insights 로그 탐색기는 시스템 로그를 쿼리하는 강력한 도구입니다. 또한 조사에 도움이 될 뿐 아니라 특정 로그 트리거가 활성화될 때 경고를 제공하기 위해 로그 쿼리를 모니터에 저장할 수도 있습니다.</block>
+  <block id="19775d2342d78d4a68c894fc09c655f3" category="admonition">필터 필드에 원하는 텍스트를 입력할 수 있습니다. Data Infrastructure Insights에서 입력할 때 해당 문자열이 포함된 와일드카드 검색을 생성하라는 메시지를 표시합니다.</block>
+  <block id="acf1da50348742e50e4292ba030599a2" category="list-text">특정 기간 내에 발생한 로그 결과만 표시하도록 그래프를 확대했습니다. 여기에 표시된 시간 범위는 현재 확대/축소 수준을 반영합니다. 확대/축소 재설정 _ 버튼을 선택하여 확대/축소 수준을 현재 Data Infrastructure Insights 시간 범위로 다시 설정합니다.</block>
+  <block id="1ddb69e4f388391f07257df72c44f86c" category="paragraph">탐색을 시작하려면 기본 데이터 인프라 인사이트 메뉴에서 * ONTAP 필수 * 를 선택합니다.</block>
+  <block id="848315f653219ceef8d2a4e0d76f64d8" category="paragraph">안티 랜섬웨어 세부 정보는 스토리지 VM이 ONTAP의 랜섬웨어 방지 보호 또는 데이터 인프라 인사이트 워크로드 보안으로 보호되는지 여부를 보여줍니다. ONTAP ARP 열은 ONTAP 시스템에 구성된 ONTAP의 온보드 Anti-랜섬웨어 방지 프로그램의 현재 상태를 표시합니다. Data Infrastructure Insights 워크로드 보안은 해당 열에서 "보호"를 선택하여 활성화할 수 있습니다. <block ref="cd09409d17429adfa1d9264e8890d599" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8a0d14c15291ab894b50ee0f241e5564" category="paragraph">Data Infrastructure Insights에서는 새로운 기능을 _Preview_방식으로 강조합니다. 미리 보기 기능은 제한된 환경 또는 제한된 용량에서 사용할 수 있습니다.</block>
+  <block id="fbecb4e743bc1aa59e79031c4717bf84" category="paragraph">Data Infrastructure Insights에서 * 도움말 &gt; 지원 * 을 클릭하여 지원 옵션에 액세스할 수 있습니다. 사용 가능한 지원 옵션은 Data Infrastructure Insights Edition에 따라 다릅니다.</block>
+  <block id="7b205ab2cecff2344de68946f6fcafe2" category="paragraph">Data Infrastructure Insights는 평가판 모드에서 실행할 때 셀프 서비스 및 이메일 지원을 제공합니다. 서비스에 가입한 후에는 지원 권한을 활성화하는 것이 좋습니다. 지원 권한을 활성화하면 온라인 채팅, 웹 티켓 시스템 및 전화를 통해 기술 지원에 액세스할 수 있습니다. 기본 지원 모드는 등록이 완료될 때까지 셀프 서비스로 설정됩니다. <block ref="055db438ec51479bd53b937469434a7e" category="inline-xref-macro-rx"></block>아래를 참조하십시오.</block>
+  <block id="933754a1936f865bf848ed02693c2c26" category="paragraph">최초 구독 프로세스 중에 Data Infrastructure Insights 인스턴스에서 "950"부터 20자릿수의 NetApp 일련 번호가 생성됩니다. 이 NetApp 일련 번호는 귀사의 계정과 연결된 Data Infrastructure Insights 가입을 나타냅니다. 지원 자격을 활성화하려면 NetApp 일련 번호를 등록해야 합니다. NetApp에서는 두 가지 지원 등록 옵션을 제공합니다.</block>
+  <block id="28fdcbdc93339227400a48d5f1095939" category="list-text">"이미 NetApp 고객으로 등록되어 있습니다."를 선택하고 _데이터 인프라 인사이트_ 를 제품군으로 선택합니다. 청구 공급자(NetApp 또는 AWS)를 선택하고 Data Infrastructure Insights 사용자 인터페이스의 "도움말 &gt; 지원" 메뉴를 참조하여 일련 번호와 NetApp 구독 이름 또는 AWS 고객 ID를 제공하십시오.</block>
+  <block id="1fc262220817b8bd9b66b826a0b977f6" category="list-text">Data Infrastructure Insights NetApp 일련 번호에 대한 일회성 등록입니다.</block>
+  <block id="d0666b8b7ae744d105cb544ddc03d8c8" category="list-text">Data Infrastructure Insights _ 을(를) 제품 라인으로 선택합니다. 청구 공급자(NetApp 또는 AWS)를 선택하고 Data Infrastructure Insights 사용자 인터페이스의 "도움말 &gt; 지원" 메뉴를 참조하여 일련 번호와 NetApp 구독 이름 또는 AWS 고객 ID를 제공하십시오.</block>
+  <block id="d41c7a89c53943f7c86e80fe6a27b4dc" category="list-text">또한 새로운 NetApp 고객은 NSS(NetApp Support Site) 사용자 계정을 생성하여 향후 등록을 해야 하며 기술 지원 채팅 및 웹 티켓 지원을 위한 지원 포털에 액세스해야 합니다. 이 링크는 에<block ref="4b0df7f6652ef877e322a199d6b6edce" category="inline-link-rx"></block>있습니다. 프로세스를 신속하게 처리하기 위해 새로 등록된 Data Infrastructure Insights 일련 번호를 제공할 수 있습니다.</block>
+  <block id="3757ee6dbdcabe2780104f98224939d5" category="list-text">Data Infrastructure Insights NetApp 일련 번호는 1회 등록입니다.</block>
+  <block id="1c571e65fbdab33b85ec4c8a56603087" category="paragraph">NetApp는 다양한 방식으로 데이터 인프라 인사이트를 지원합니다. 기술 자료(KB) 기사 또는 NetApp 커뮤니티 등 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. Data Infrastructure Insights 에디션(Basic *, Standard, Premium)을 구독하는 사용자의 경우 전화 또는 웹 티켓팅을 통해 기술 지원을 받을 수 있습니다. NSS(NetApp Support Site) SSO 계정은 케이스 관리와 함께 웹 티켓에 필요합니다.</block>
+  <block id="6d1e73b5dbcd7708fd39eecb9fec99a8" category="paragraph">커뮤니티 링크를 클릭하면 NetApp Data Infrastructure Insights 커뮤니티로 이동하여 동료 및 전문가와 교류할 수 있습니다.</block>
+  <block id="adbe0a8623b0464eb83d4da31c8e858e" category="paragraph"><block ref="845d40e8369612c1d8dd285f0ebc254e" category="inline-link-macro-rx"></block>데이터 인프라 인사이트를 개선하는 데 도움이 되는 링크도 있습니다.</block>
+  <block id="24b17ddd1757d7b4e6373b656d50555a" category="paragraph">위의 자체 지원 옵션 외에도, 모니터링되는 NetApp 제품 또는 서비스에 대해 Data Infrastructure Insights에 가입하거나 유료 지원이 있는 경우 NetApp 지원 엔지니어와 협력하여 문제를 해결할 수 있습니다.</block>
+  <block id="c600d309e84c1e4729095d87bd1b6d07" category="paragraph">지원 세션 중에 NetApp 지원 엔지니어가 데이터 인프라 인사이트 환경에 액세스할 수 있도록 확인란을 선택하는 것이 좋습니다. 그러면 엔지니어가 문제를 해결하고 신속하게 해결할 수 있습니다. 문제가 해결되거나 지원 세션이 종료된 경우 확인란을 선택 취소할 수 있습니다.</block>
+  <block id="26bf81182a5b7a20da27b311cdf97f3d" category="paragraph">다음 방법 중 하나를 사용하여 지원을 요청할 수 있습니다. 다음 지원 옵션을 사용하려면 활성 Data Infrastructure Insights에 가입되어 있어야 합니다.</block>
+  <block id="2911a8a094a0fc515bf83ad1a0cf9eba" category="list-text">* 채팅 * - NetApp 지원 담당자와 연결하여 지원을 받을 수 있습니다(평일에만 해당). 채팅은 Data Infrastructure Insights 화면의 오른쪽 위에 있는 * 도움말 &gt; 라이브 채팅 * 메뉴 옵션에서 확인할 수 있습니다.</block>
+  <block id="30a12dfd5908adfdb9f06395cb4b5c34" category="paragraph">Data Infrastructure Insights 일련 번호는 서비스 내에 * 도움말 &gt; 지원 * 메뉴를 통해 표시됩니다. 서비스에 액세스하는 데 문제가 있고 이전에 NetApp에 일련 번호를 등록한 경우 다음과 같이 NetApp Support 사이트에서 Data Infrastructure Insights 일련 번호 목록을 볼 수도 있습니다.</block>
+  <block id="77cb462f113aa28274c4c9d4a0bd4124" category="list-text">Products &gt; My Products 메뉴 탭에서 제품군 "SaaS Data Infrastructure Insights"를 사용하여 등록된 모든 일련 번호를 찾습니다.</block>
+  <block id="e586db5530b7590b2a2bcfd037d854f9" category="section-title">Data Infrastructure Insights Data Collector 지원 매트릭스</block>
+  <block id="dadb39addfd4b0487871de7e7f6f610f" category="inline-link-macro">* Data Infrastructure Insights 데이터 수집기 지원 매트릭스 *, 역할 = "외부"</block>
+  <block id="930bcbbcfc7ac73403055e452c530c48" category="paragraph">에서 지원되는 데이터 수집기에 대한 정보 및 세부 정보를 보거나 다운로드할 수 <block ref="ebae36c5cd2a39aad37989cf18f531f5" category="inline-link-macro-rx"></block>있습니다.</block>
+  <block id="c654b625e718b4552b4ca2d5a4ebbfe8" category="paragraph">구독과 관계없이 * 도움말 &gt; 지원 * 은 데이터 인프라 Insights를 최대한 활용할 수 있도록 여러 NetApp University 과정 오퍼링에 연결됩니다. 확인해 보세요!</block>
+  <block id="d3dd939f36c39f480cbad87a65a11454" category="summary">Data Infrastructure Insights는 프런트 엔드 및 백 엔드 가상화 스토리지에 대한 뷰를 제공합니다.</block>
+  <block id="b0f7ed48c6b5779233c24d5ec4c3162f" category="paragraph">Data Infrastructure Insights는 로컬 스토리지가 있는 스토리지 어레이 또는 다른 스토리지 어레이의 가상화를 통해 구분할 수 있습니다. 이를 통해 비용을 관련시키고 프런트 엔드와 성능을 인프라 백 엔드와 구별할 수 있습니다.</block>
+  <block id="65a30f6e274195824462ed6f772b7d84" category="summary">이 섹션에서는 Data Infrastructure Insights 환경의 문제를 해결하는 데 도움이 되는 팁과 요령을 알아봅니다.</block>
+  <block id="bf51213a7e7e4a64b72df7743f4ba9a8" category="doc">Data Infrastructure Insights 문제 해결</block>
+  <block id="fb777b762061c712e819d8df2fb3f217" category="paragraph">이 섹션의 항목에서는 Data Infrastructure Insights 환경에 문제가 발생할 경우 문제 해결을 위한 조언을 제공합니다.</block>
+  <block id="aa7aad98c338c5186d969cd18fc94b86" category="paragraph"><block ref="f3a940944ed2b77ff0757ee9675312e7" category="inline-link-macro-rx"></block>Data Infrastructure Insights * 도움말 &gt; Support * 페이지에서 자세한 문제 해결 및 기타  정보를 확인할 수 있습니다.</block>
+  <block id="51eee046c9fbdc20d91f82f659d9904f" category="paragraph">Data Infrastructure Insights는 설정된 기간(에디션당) 동안 데이터를 유지하므로 수천 개의 데이터 포인트를 처리할 수 있습니다. 따라서 차트 및 표에 표시되기 전에 데이터를 다운샘플링할 수 있습니다.</block>
+  <block id="79f48f9e4032922de4c24d6a18806c0c" category="paragraph">Data Infrastructure Insights는 현재 구독된 에디션에 의해 결정된 시간 동안 데이터를 보존합니다.</block>
+  <block id="cc0d9aba6833845d2acc4d718cf71f18" category="paragraph">각 에디션에서 사용할 수 있는 전체 기능 목록은 Data Infrastructure Insights <block ref="9f9283f57379e70b90560c22a58eac88" category="inline-link-macro-rx"></block> 페이지를 참조하십시오.</block>
+  <block id="36620239c4ba71c5e4e55b18e3e120dc" category="paragraph">그러나 자산 페이지 시간 선택기에서 30d를 선택하거나 7일을 초과하는 사용자 지정 시간 범위를 설정하여 데이터를 보는 경우(또는 Data Infrastructure Insights가 선택한 기간 동안 1,000개가 넘는 데이터 샘플을 수집한 경우) 데이터가 표시되기 전에 다운샘플링됩니다. 다운샘플링된 차트를 확대하면 디스플레이에 근사화된 데이터가 계속 표시됩니다.</block>
+  <block id="eaef26e21c378acc34beea5769c44ab6" category="summary">Data Infrastructure Insights는 권한 수준이 서로 다른 여러 사용자 계정을 제공합니다.</block>
+  <block id="38ad10c8a82fc90c1f820cb0f67d88cc" category="paragraph">Data Infrastructure Insights는 최대 4개의 사용자 계정 역할(계정 소유자, 관리자, 사용자 및 게스트)을 제공합니다. 각 계정에는 아래 표에 명시된 특정 권한 수준이 할당됩니다. 사용자는 <block ref="6a05e97c185d2e103748dff93c559f3b" category="inline-link-macro-rx"></block>Data Infrastructure Insights에서 특정 역할을 할당하거나 <block ref="47c69771a9bdd41067d8486727a07273" category="inline-link-macro-rx"></block>기본 역할을 사용하여 을 통해 로그인할 수 있습니다. SSO 인증은 Data Infrastructure Insights Premium Edition의 기능으로 제공됩니다.</block>
+  <block id="08a5e69701e67efa7bf0e0c030874036" category="paragraph">관리자 권한이 있는 계정을 사용하여 사용자 계정을 만들거나 수정합니다. 각 사용자 계정에는 다음 권한 수준에서 각 Data Infrastructure Insights 기능에 대한 역할이 할당됩니다.</block>
+  <block id="1a952bb523eee92fd4b21dde78f30684" category="section-title">사용자 역할별 Data Infrastructure Insights 권한</block>
+  <block id="ae310c96bbba9741ce44a3d1e9e360c1" category="paragraph">다음 표에서는 각 사용자 역할에 부여된 Data Infrastructure Insights 권한을 보여 줍니다.</block>
+  <block id="fbf94f38d1dfbd681591f8f229eda4d3" category="list-text">Data Infrastructure Insights에 로그인합니다</block>
+  <block id="42f0f86c0ee77ee914a985ccce2df046" category="list-text">Data Infrastructure Insights의 각 기능에 대한 사용자 역할을 선택합니다.</block>
+  <block id="4e8586ec25981c373557827121a111f8" category="paragraph">초대가 사용자에게 전송됩니다. 사용자는 14일 내에 초대를 수락할 수 있습니다. 사용자가 초대를 수락하면 해당 사용자가 NetApp Cloud Portal로 이동하게 되며 초대장의 이메일 주소를 사용하여 등록하게 됩니다. 이메일 주소에 대한 기존 계정이 있는 경우 간단하게 로그인한 다음 Data Infrastructure Insights 환경에 액세스할 수 있습니다.</block>
+  <block id="6dc098ac9daa4bc608fd53c820702a24" category="list-text">필요에 따라 각 Data Infrastructure Insights 기능 세트에서 사용자 역할을 수정합니다.</block>
+  <block id="b91f238d3629ac342537c056fa4a1a9a" category="paragraph">관리자 역할을 가진 사용자는 사용자 이름을 클릭하고 대화 상자에서 _사용자 삭제_를 클릭하여 사용자(예: 더 이상 회사에 없는 사용자)를 삭제할 수 있습니다. 사용자가 Data Infrastructure Insights 환경에서 제거됩니다.</block>
+  <block id="b658b4e68b6ec616e6da1da1a58e2519" category="paragraph">사용자가 생성한 대시보드, 쿼리 등은 사용자가 제거된 후에도 Data Infrastructure Insights 환경에서 계속 사용할 수 있습니다.</block>
+  <block id="8307f5e5195927d36157a98119d50cb2" category="paragraph">그러나 일부 고객은 자신의 ID 공급자를 사용하여 Data Infrastructure Insights 및 기타 NetApp BlueXP  서비스에 대한 사용자를 인증하려고 합니다. ID 페더레이션을 사용하면 NetApp BlueXP 계정은 회사 디렉터리의 자격 증명을 사용하여 인증됩니다.</block>
+  <block id="7492f425dcc16dfdb3bf6df60569e6fb" category="paragraph">위 다이어그램에서 사용자가 Data Infrastructure Insights에 액세스할 때 해당 사용자는 인증을 위해 고객의 ID 관리 시스템으로 연결됩니다. 계정이 인증되면 사용자는 Data Infrastructure Insights 테넌트 URL로 연결됩니다.</block>
+  <block id="885922ff1b836c95f53f6ede8cf15917" category="admonition">데이터 인프라 Insights에서 SSO를 사용하려면 먼저 BlueXP  ID 페더레이션을 구성해야 합니다.</block>
+  <block id="5bb414ee12d60beb5148ebd546560765" category="paragraph">BlueXP 에서 변경되는 ID 페더레이션은 데이터 인프라 통찰력뿐만 아니라 모든 NetApp BlueXP  서비스에도 적용된다는 것을 이해하는 것이 중요합니다. 고객은 자신이 소유한 각 BlueXP 제품의 NetApp 팀과 이 변경 사항에 대해 논의하여 사용 중인 구성이 ID Federation과 연동되는지 또는 계정을 조정해야 하는 경우. 고객은 ID 페더레이션의 변경에 내부 SSO 팀을 참여시켜야 합니다.</block>
+  <block id="5ca34449651a28aef2f66150bbdab559" category="paragraph">관리자는 사용자를 초대하는 것 외에도 사내 도메인의 모든 사용자를 개별적으로 초대하지 않고도 * SSO(Single Sign-On) 사용자 자동 프로비저닝 * 에 대한 Data Infrastructure Insights 액세스를 활성화할 수 있습니다. SSO를 사용하면 동일한 도메인 이메일 주소를 가진 모든 사용자가 회사 자격 증명을 사용하여 Data Infrastructure Insights에 로그인할 수 있습니다.</block>
+  <block id="700b1528a54f585af4e6babcff795f22" category="admonition">_SSO 사용자 자동 프로비저닝 _ 은(는) Data Infrastructure Insights Premium Edition에서 사용할 수 있으며, Data Infrastructure Insights에서 사용하려면 먼저 구성해야 합니다. SSO 사용자 자동 프로비저닝 구성에는 <block ref="822fb5372050010317b40dcb63a546f0" category="inline-link-macro-rx"></block>위의 섹션에 설명된 대로 NetApp BlueXP 를 통해 포함됩니다. 페더레이션을 사용하면 SAML(Security Assertion Markup Language) 및 OIDC(OpenID Connect)와 같은 공개 표준을 사용하여 기업 디렉터리의 자격 증명을 사용하여 NetApp BlueXP 계정에 액세스할 수 있습니다.</block>
+  <block id="3e1bcd2d4d8f98d94d9ab44d7d7c4163" category="paragraph">SSO 사용자 자동 프로비저닝 _ 을(를) 구성하려면 * 관리자 &gt; 사용자 관리 * 페이지에서 먼저 BlueXP ID 페더레이션을 설정해야 합니다. 배너에서 * Set Up Federation * 링크를 선택하여 BlueXP Federation으로 이동합니다. 구성이 완료되면 Data Infrastructure Insights 관리자가 SSO 사용자 로그인을 활성화할 수 있습니다. 관리자가 _SSO 사용자 자동 프로비저닝_ 을(를) 사용하도록 설정할 경우, 모든 SSO 사용자(예: 게스트 또는 사용자)의 기본 역할을 선택합니다. SSO를 통해 로그인하는 사용자는 이 기본 역할을 갖게 됩니다.</block>
+  <block id="a813fe1072f1f4f8421f847135972e39" category="paragraph">관리자가 단일 사용자를 기본 SSO 역할(예: 관리자로 설정)에서 승격하려고 하는 경우가 있습니다. 사용자는 * Admin &gt; User Management * 페이지에서 오른쪽 메뉴를 클릭하고 _Assign Role_을 선택하여 이 작업을 수행할 수 있습니다. 이러한 방식으로 명시적 역할이 할당된 사용자는 _ SSO 사용자 자동 프로비저닝 _ 이(가) 이후에 비활성화되더라도 계속해서 Data Infrastructure Insights에 액세스할 수 있습니다.</block>
+  <block id="e6a5ee339593ea08e7a930351bd4611c" category="paragraph">사용자에게 더 이상 상승된 역할이 필요하지 않으면 메뉴를 클릭하여 사용자 _ 제거 _ 를 수행할 수 있습니다. 사용자가 목록에서 제거됩니다. SSO 사용자 자동 프로비저닝 _ 이(가) 활성화된 경우 기본 역할을 사용하여 SSO를 통해 Data Infrastructure Insights에 계속 로그인할 수 있습니다.</block>
+  <block id="ea316b44bce3dbed4c9c0c2ef4e40ce7" category="list-text">조직에 둘 이상의 Data Infrastructure Insights 테넌트가 있습니다</block>
+  <block id="2c58d9c85b99af40847a1bfe252c399c" category="list-text">조직에서는 페더레이션 도메인의 모든 사용자가 Data Infrastructure Insights 테넌트에 대한 일정 수준의 자동 액세스 권한을 갖기를 원하지 않습니다. _ 이 시점에는 _ 옵션을 사용하여 그룹을 사용하여 역할 액세스를 제어할 수 없습니다.</block>
+  <block id="cdac881f9fbd9635a12d04d6b9197cf4" category="paragraph">Data Infrastructure Insights는 사용자가 지정한 도메인에만 대한 사용자 액세스를 제한할 수 있습니다. 관리자 &gt; 사용자 관리 * 페이지에서 "도메인 제한"을 선택합니다.</block>
+  <block id="aa14d82c6e0f87197739b59836fd6bc1" category="list-text">제한 없음:Data Infrastructure Insights는 도메인에 관계없이 사용자가 계속 액세스할 수 있습니다.</block>
+  <block id="6382687621125dc6ec018be8007b94d0" category="list-text">기본 도메인에 대한 액세스 제한: 기본 도메인은 Data Infrastructure Insights 환경 계정 소유자가 사용하는 도메인입니다. 이러한 도메인은 항상 액세스할 수 있습니다.</block>
+  <block id="da7c34be0a4d8b37b17232f75362b9ff" category="list-text">기본 및 지정한 도메인으로 액세스를 제한합니다. 기본 도메인 외에 Data Infrastructure Insights 환경에 액세스할 수 있는 모든 도메인을 나열합니다.</block>
+  <block id="12ad5320cf231ab684b9cf1b739d799f" category="paragraph">Data Infrastructure Insights 워크로드 보안은 ONTAP과 통합되어 액세스 거부 이벤트를 수신하고 추가적인 분석 및 자동 응답 계층을 제공합니다.</block>
+  <block id="d91922a1bdba61ab374e14011d46cddf" category="paragraph">Data Infrastructure Insights 스토리지 워크로드 보안(이전의 Cloud Secure)은 내부자 위협에 대한 실행 가능한 인텔리전스를 사용하여 데이터를 보호하는 데 도움이 됩니다. 또한 하이브리드 클라우드 환경 전반에서 모든 기업 데이터 액세스에 대한 중앙 집중식 가시성과 제어를 제공하여 보안 및 규정 준수 목표를 충족할 수 있습니다.</block>
+  <block id="f685e8c506c41657d74fe2fe7ec4ca60" category="admonition">Data Infrastructure Insights Federal Edition에서는 워크로드 보안을 사용할 수 없습니다.</block>
+  <block id="3cd7d46a06774e1cc6f2ece4407891a3" category="cell">알림 이메일은 NetApp Data Infrastructure Insights 도메인, 즉 _accounts@service.clou dinsights.NetApp.com_에서 발송되었습니다. 일부 회사는 외부 도메인에서 보낸 전자 메일을 차단합니다. NetApp Data Infrastructure Insights 도메인의 외부 알림을 화이트리스트로 등록했는지 확인합니다.</block>
+  <block id="3a6b9b02361ff37889bb4453f5ce5933" category="doc">Data Infrastructure Insights 데이터 수집기 목록</block>
+  <block id="4a67aaff87a4b62a93d49b26e8eab486" category="paragraph">Data Infrastructure Insights는 여러 공급업체 및 서비스에서 제공하는 다양한 데이터 수집기를 지원합니다.</block>
+  <block id="0469e242e5d1ebfd7553d7a981ac63a5" category="paragraph">Data Infrastructure Insights에서 지원하는 데이터 수집기의 사전순 목록:</block>
+  <block id="5988d58aa29664a0117f2c6b8e13d96b" category="list-text">활동을 수행하는 사용자의 * 도메인 *. 필터링할 * 정확한 도메인 * 을 제공해야 합니다. 부분 도메인 또는 부분 도메인 앞에 와일드카드() ' * ')가 있거나 접미사가 붙은 부분 도메인 검색은 작동하지 않습니다. _None_은(는) 누락된 도메인을 검색하기 위해 지정할 수 있습니다.</block>
+  <block id="28894211649d8f9f99c54dc12f77784e" category="list-text">*Entity Type*, entity(파일) 확장자를 사용하는 경우 - 따옴표 안에 정확한 엔터티 유형을 지정하는 것이 좋습니다. 예: _ "txt" _.</block>
+  <block id="cfacc3a890c7b76e916de509a258355f" category="list-text">*엔터티의 경로 * - 디렉터리 경로 필터(경로 문자열 / 로 끝나는)를 최대 4개까지 입력하여 더 빠른 결과를 얻을 수 있습니다. 예: _/home/userX/nested1/nested2/_or_"/home/userX/nested1/nested2/"_. 자세한 내용은 아래 표를 참조하십시오.</block>
+  <block id="b8859d75b29f26c843546ce2c6d19fbd" category="list-text">* 사용자 * 활동 수행 - 따옴표 안에 정확한 사용자를 지정하는 것이 좋습니다. eample의 경우 _ "관리자" _.</block>
+  <block id="98979e670bd293d9570a2b24562e08a2" category="section-title">활동 포렌식 필터 예:</block>
+  <block id="0930b50f995b3a6af46dc5f205e5c2be" category="cell">사용자가 필터 식을 적용했습니다</block>
+  <block id="13876d45cb0b459833e4aebb72877939" category="cell">예상 결과</block>
+  <block id="b77349ead71592d04cbccd89fee71c70" category="cell">성능 평가</block>
+  <block id="f2e392688127fe27ba86956a289d1516" category="cell">경로 = /home/userX/nested1/nested2/ 또는 /home/userX/nested1/nested2/ * 또는 "/home/userX/nested1/nested2/"</block>
+  <block id="1fec62ac6ef0096301dec6c9552701f7" category="cell">지정된 디렉토리 아래의 모든 파일과 폴더의 반복적인 조회</block>
+  <block id="e16b5b7f26f54214445cbe38d72c2828" category="cell">빠릅니다</block>
+  <block id="f6a092f816e6eb604694d6a921395ccb" category="cell">디렉터리 검색은 최대 4개의 디렉터리가 빠릅니다.</block>
+  <block id="aec252fe472926926066b015c61018d2" category="cell">경로 = /home/userX/nested1/ 또는 /home/userX/nested1/ * 또는 "/home/userX/nested1/"</block>
+  <block id="83f594a149a47f77a9d0ffd06bd887fa" category="cell">경로 = /home/userX/nested1/test * 또는 /home/userX/nested1/test</block>
+  <block id="840207e609d7b9a7b687b3b2712e903d" category="cell">지정된 경로 regex 아래의 모든 파일과 폴더의 반복적인 조회(테스트 * 는 파일 또는 디렉토리 또는 둘 다를 의미할 수 있음)</block>
+  <block id="e7b02c274fe199317927b2a2d54e280e" category="cell">느린 속도</block>
+  <block id="4b88bc6659fa6ffa1353db049ea38556" category="cell">디렉터리+파일 정규식 검색은 디렉터리 검색보다 검색 속도가 느립니다.</block>
+  <block id="5ebfaf9d735f32f7095e67382caa89fa" category="cell">경로 = /home/userX/nested1/nested2/nested3/ 또는 /home/userX/nested1/nested2/nested3/ * 또는 "/home/userX/nested1/nested2/nested3/"</block>
+  <block id="1bd0462f5987c1382af61035c6ea62ff" category="cell">4개 이상의 디렉터리 검색은 검색 속도가 느립니다.</block>
+  <block id="60f679d95b13137d0f02dac90990fa24" category="cell">경로 = \ * userX/nested1/test *</block>
+  <block id="42779f1f471dcd0efc744707a9d12fb3" category="cell">지정된 와일드카드 경로 문자열(test * 는 파일 또는 디렉터리 또는 둘 모두를 의미할 수 있음)에 있는 모든 파일과 폴더의 반복적인 조회</block>
+  <block id="53ad658aa3b68ee6f8ac34262f27efc5" category="cell">가장 느립니다</block>
+  <block id="baf0959545ccd91564d61f6f09d3d6fc" category="cell">선행 와일드카드 검색은 가장 느린 검색입니다.</block>
+  <block id="2127f473d96f54c997a492a6ca024c5b" category="cell">기타 모든 비 경로 기반 필터. 사용자 및 엔터티 유형 필터는 따옴표로 묶는 것이 좋습니다. 예: User="Administrator" Entity Type="txt"</block>
+  <block id="9b9935ad5969c28de13381a2e512b47c" category="paragraph">참고:</block>
+  <block id="d8255e556913387acdb6c6f885c59f99" category="list-text">선택한 시간 범위가 3일 이상인 경우 모든 활동 아이콘 옆에 표시된 활동 수는 30분으로 반올림됩니다. 예: _9월 1일 오전 10시 15분부터 9월 7일 오전 10시 15분까지의 시간 범위에는 9월 1일 오전 10시부터 9월 7일 오전 10시 30분까지 활동 카운트가 표시됩니다.</block>
+  <block id="3ba96afd89f810071e642a2580c035d0" category="list-text">마찬가지로, 선택한 시간 범위가 3일 이상이면 활동 유형, 활동 유형, 활동 기록 그래프에 표시된 카운트 메트릭도 30분으로 반올림됩니다.</block>
+  <block id="5203772926767a923fffeec0454915d0" category="section-title">비동기 내보내기에 대한 사용자 안내서</block>
+  <block id="e51ee07acf4b7676b7e8d7d9ddfcc237" category="paragraph">스토리지 워크로드 보안의 비동기식 내보내기 기능은 대규모 데이터 내보내기를 처리하도록 설계되었습니다.</block>
+  <block id="34e6887c3fe7a34ac28d932e0916f098" category="section-title">단계별 가이드: 비동기 내보내기를 사용하여 데이터 내보내기</block>
+  <block id="b9f86bbacfbca9956a57372b5ce15f68" category="list-text">* 내보내기 시작 * : 내보내기에 대해 원하는 시간 기간과 필터를 선택하고 내보내기 버튼을 클릭합니다.</block>
+  <block id="5addbd908b76e38709a3256b2eba74c5" category="list-text">* 내보내기가 완료될 때까지 대기 *: 처리 시간은 몇 분에서 몇 시간까지 소요될 수 있습니다. 포렌식 페이지를 몇 번 새로 고쳐야 할 수 있습니다. 내보내기 작업이 완료되면 "마지막 내보내기 CSV 파일 다운로드" 버튼이 활성화됩니다.</block>
+  <block id="fb56822932e96a02d5b71841b0bb86a7" category="list-text">* 다운로드 *: "마지막 생성 내보내기 파일 다운로드" 버튼을 클릭하여 .zip 형식으로 내보낸 데이터를 가져옵니다. 이 데이터는 사용자가 다른 비동기 내보내기를 시작하거나 3일이 경과할 때까지 다운로드할 수 있습니다. 이 버튼은 다른 비동기 내보내기가 시작될 때까지 활성화된 상태로 유지됩니다.</block>
+  <block id="8ab0a5a1cd44cd0d41ee8657d513b901" category="list-text">* 제한 사항 *:</block>
+  <block id="60ace3612e0acf6a0941aadafd7b24ab" category="list-text">비동기 다운로드 수는 현재 사용자당 1개, 테넌트당 3개로 제한됩니다.</block>
+  <block id="db0adf696c53371ef4510888d244f184" category="list-text">내보낸 데이터는 최대 100만 개의 레코드로 제한됩니다.</block>
+  <block id="5ac805f98623b1f23909793e4ff3a262" category="cell">이 필터에 적용 가능합니다</block>
+  <block id="b1b275726951e4adc620b69d947baf49" category="cell">이러한 필터에는 적용되지 않습니다</block>
+  <block id="0a3087cfc2ea9ac71095f821d14ee027" category="cell">Auto * 03172022 검색 텍스트에 하이픈 또는 밑줄이 포함된 경우 대괄호로 표현식을 지정합니다. 예: svm-123 검색에는 (svm *)</block>
+  <block id="a95d3431c2b5559d818d2555fcc3e835" category="cell">사용자, 경로, 엔터티 유형, 장치, 볼륨, 원래 경로</block>
+  <block id="a28771ee6ad9a7771a86f5d6ceeed78e" category="cell">AutoSabotageUser1_03172022A, AutoSabotageUser1_03172022B, AutoSabotageUser1_031720225 등을 반환합니다</block>
+  <block id="c7cf1f6ecae876f330364b876e6cbc83" category="cell">사용자, 도메인, 경로, 엔터티 유형, 원래 경로</block>
+  <block id="317a59d89beb67b7ebe23ef56d3b409e" category="cell">사용자, 도메인, 경로, 엔터티 유형, 원래 경로</block>
+  <block id="a4bef4c7f69527b57f21a4e1042859e6" category="cell">검색 문자열의 별표(\ *)는 모든 항목을 검색합니다. 그러나 _ * &lt;searchTerm&gt;_또는 _ * &lt;searchTerm&gt; * _ 과(와) 같은 선행 와일드카드 문자열은 쿼리 속도를 느리게 만듭니다. 보다 나은 성능을 얻으려면 접두사 문자열을 대신 _&lt;searchTerm&gt;*_ 형식으로 사용합니다(즉, 별표(*)_after_a 검색 용어를 추가합니다). 예: _ * testvolume_or_ * test * volume_ 대신 _testvolume *_ 문자열을 사용하십시오. 디렉토리 검색을 사용하여 지정된 폴더 아래의 모든 활동을 재귀적으로 봅니다(계층 검색). 예: /path1/path2/path3/ 또는 "/path1/path2/path3/"는 /path1/path2/path3 아래의 모든 활동을 재귀적으로 나열합니다. 또는 All Activity(모든 활동) 탭 아래의 "Add to Filter(필터에 추가)" 옵션을 사용합니다.</block>
+  <block id="5476c41b7c022f91a0f9bbdf0fc8ce23" category="cell">더 빠른 결과를 위해 디렉토리 경로 필터(경로 문자열 / 로 끝나는)를 최대 4개까지 사용하는 것이 좋습니다. 예를 들어 디렉토리 경로가 /aa/bbb/ccc/ddd인 경우 /aa/bb/ccc/dd/ 또는 "/aa/bbb/ccc/dd/"를 검색하여 데이터를 더 빨리 로드합니다.</block>
+  <block id="aed35f9a809126ef92adc8485610871c" category="paragraph">귀사의 환경에서 공간이 부족하게 되는 것은 결코 좋은 일이 아닙니다. Data Infrastructure Insights를 사용하면 Kubernetes 영구 볼륨이 가득 차기 전의 시간을 예측할 수 있습니다.</block>
+  <block id="35e8ae7798ae468988eef02594bca5d5" category="paragraph">Insight(인사이트) 페이지에서 * + Show Recommendations(권장 사항 표시) * 를 클릭하여 가능한 해결책을 확인합니다. 공간 부족 시 가장 쉬운 옵션은 항상 용량을 추가하는 것입니다. Data Infrastructure Insights에서는 목표 60일 예측에 전체 시간을 늘려 줄 수 있는 최적의 용량을 보여줍니다. 다른 권장 사항도 나와 있습니다.</block>
+  <block id="fcea8b8d2049d69d4ebdf1d180a93db4" category="paragraph">워크로드가 큰 경우 공유 리소스에 있는 다른 워크로드의 성능이 저하될 수 있습니다. 이렇게 하면 공유 리소스가 스트레스를 받게 됩니다. Data Infrastructure Insights는 리소스 포화 및 환경의 영향을 조사하는 데 도움이 되는 툴을 제공합니다. <block ref="de4400096db30b5f709799778e050e2c" category="inline-link-macro-rx"></block></block>
+  <block id="102e3d38f56cb877356cf974fdeb3270" category="admonition">이것은 _Preview_feature 이며 개선 사항이 있을 때 시간이 지남에 따라 변경될 수 있습니다. <block ref="ee58f03d7eaea0665aa8a572992ca1b8" category="inline-link-macro-rx"></block> Data Infrastructure Insights Preview 기능 정보</block>
+  <block id="385dd98ce9aff23db04e71230c28efd7" category="paragraph">이러한 Insights를 보려면 * 대시보드 &gt; 인사이트 * 로 이동하여 _Reclaim ONTAP 냉장 보관_Insight를 살펴봅니다. 이 Insight는 Data Infrastructure Insights가 콜드 스토리지를 감지한 경우에만 영향을 받는 스토리지를 나열하며, 그렇지 않으면 "모두 지우기" 메시지가 표시됩니다.</block>
+  <block id="900274161abd76427edc29ac0bef953a" category="paragraph">워크로드가 큰 경우 공유 리소스에 있는 다른 워크로드의 성능이 저하될 수 있습니다. 이렇게 하면 공유 리소스가 스트레스를 받게 됩니다. Data Infrastructure Insights는 리소스 포화 및 환경의 영향을 조사하는 데 도움이 되는 툴을 제공합니다.</block>
+  <block id="f4addcedcbf7b58a235a6de1cfeb96b7" category="paragraph">Data Infrastructure Insights에서 주요 컴퓨팅 워크로드를 찾지 못한 경우 볼륨 또는 내부 볼륨 자체가 워크로드로 인식됩니다. 이는 까다롭고 영향을 받는 작업 부하에 모두 적용됩니다.</block>
+  <block id="decacd0d9c5727c8132dacde092c0382" category="paragraph">Data Infrastructure Insights에는 포화가 감지된 모든 워크로드의 목록이 표시됩니다. Data Infrastructure Insights는 하나 이상의 _까다로운 리소스_ * 또는 *_영향을 받은 리소스_ 가 감지된 워크로드를 표시합니다.</block>
+  <block id="c7f50a9f133f1f71a9f91fe12f7c7f7e" category="inline-link-macro">데이터 인프라 인사이트(이전의 Cloud Insights)를 위한 고지 사항</block>
+  <block id="552bbf7b91025a7ce4d57570549e5d96" category="paragraph"><block ref="552bbf7b91025a7ce4d57570549e5d96" category="inline-link-macro-rx"></block></block>
+  <block id="cd7e7970b42b429cc98a79d8c1b34bf7" category="paragraph">데이터 수집기 지원 매트릭스는 공급업체 및 모델 정보를 포함하여 Data Infrastructure Insights에서 지원하는 데이터 수집기에 대한 참조를 제공합니다.</block>
+  <block id="0ba16e92a6a7d9434b114d6048c1b883" category="list-text">Data Infrastructure Insights 환경에 관리자 또는 계정 소유자로 로그인합니다.</block>
+  <block id="37387a4cc8252dafbc2c17f057568ef6" category="paragraph">Data Collector가 _running_state인 경우 수집을 일시 중지할 수 있습니다. 수집기에 대한 "세 개의 점" 메뉴를 열고 일시 중지를 선택합니다. Collector가 일시 중지되는 동안 ONTAP에서 수집된 데이터는 없고 Collector에서 ONTAP로 전송되는 데이터는 없습니다. 즉, Fpolicy 이벤트가 ONTAP에서 데이터 수집기로, 그리고 그 안에서 데이터 인프라 Insights로 이동하지 않습니다.</block>
+  <block id="4a0a97ef2afa5a536e5dc77411dedca9" category="list-text">ONTAP ARP와 같은 EMS 이벤트는 일시 중지된 Collector에서 처리되지 않습니다. 즉, ONTAP에서 랜섬웨어 공격을 식별하면 Data Infrastructure Insights 워크로드 보안이 해당 이벤트를 파악할 수 없습니다.</block>
+  <block id="4f6d8fa52629afca87f28620c31656dd" category="paragraph">데이터 센터의 장치에서 데이터를 수집하도록 Data Infrastructure Insights 환경에서 Data Collector를 구성합니다.</block>
+  <block id="a9ad83475759029dd2514bbade586aaa" category="list-text">Data Infrastructure Insights 메뉴에서 * 관측성 &gt; Collectors * 를 클릭합니다</block>
+  <block id="f6e6a6c23499143c06e6a6eb38dceb0a" category="list-text">Collector 추가 * 를 클릭하여 구성을 저장하고 Data Infrastructure Insights 테넌트에 데이터 수집기를 추가합니다.</block>
+  <block id="7eb15f142a33487f87761b2be5f0c0c6" category="paragraph">설치된 데이터 수집기 페이지에서는 Data Infrastructure Insights에 대해 구성된 데이터 수집기에 액세스할 수 있습니다. 이 페이지를 사용하여 기존 데이터 수집기를 수정할 수 있습니다.</block>
+  <block id="2c000eb53a0410e6ec55bf0a669d2f86" category="list-text">Data Infrastructure Insights 메뉴에서 * 관측성 &gt; Collectors * 를 클릭합니다</block>
+  <block id="b23f93b206dc7149eff63aba0082e7bc" category="list-text">Data Infrastructure Insights 메뉴에서 * 관측성 &gt; 수집기 * 를 클릭하여 설치된 Data Collector 목록을 엽니다.</block>
+  <block id="50356cf9fa0a08b9ec2e7091b8a2923c" category="list-text">Data Infrastructure Insights 메뉴에서 * 관측성 &gt; Collectors * 를 클릭합니다.</block>
 </blocks>

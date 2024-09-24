@@ -21,9 +21,6 @@ keywords: agent, Linux, requirements, docker, browsers, permissions, Network, Cl
 [role="lead"]
 반드시 해야 합니다 link:task_cs_add_agent.html["Agent를 설치합니다"] 데이터 수집기에서 정보를 얻기 위해 Agent를 설치하기 전에 운영 체제, CPU, 메모리 및 디스크 공간 요구 사항을 충족하는지 확인해야 합니다.
 
-
-NOTE: 스토리지 워크로드 보안은 Cloud Insights Federal Edition에서 사용할 수 없습니다.
-
 [cols="36,60"]
 |===
 | 구성 요소 | Linux 요구 사항 
@@ -52,7 +49,7 @@ NOTE: 스토리지 워크로드 보안은 Cloud Insights Federal Edition에서 �
 
 | 네트워크 | 100Mbps~1Gbps 이더넷 연결, 정적 IP 주소, 모든 디바이스에 대한 IP 연결 및 워크로드 보안 인스턴스(80 또는 443)에 대한 필수 포트. 
 |===
-참고: 워크로드 보안 에이전트는 Cloud Insights 획득 장치 및/또는 에이전트와 동일한 시스템에 설치할 수 있습니다. 그러나 별도의 컴퓨터에 설치하는 것이 가장 좋습니다. 동일한 시스템에 설치된 경우 아래와 같이 디스크 공간을 할당하십시오.
+참고: 워크로드 보안 에이전트는 Data Infrastructure Insights 수집 장치 및/또는 에이전트와 동일한 시스템에 설치할 수 있습니다. 그러나 별도의 컴퓨터에 설치하는 것이 가장 좋습니다. 동일한 시스템에 설치된 경우 아래와 같이 디스크 공간을 할당하십시오.
 
 |===
 
@@ -77,7 +74,7 @@ NOTE: 스토리지 워크로드 보안은 Cloud Insights Federal Edition에서 �
 | 프로토콜 | 포트 | 출처 | 목적지 | 설명 
 
 
-| TCP | 443 | 워크로드 보안 에이전트 | site_name> .cs01.cloudinsights.netapp.com <site_name> .c01.cloudinsights.netapp.com <site_name> .c02.cloudinsights.netapp.com 을 참조하십시오 | Cloud Insights에 대한 액세스 
+| TCP | 443 | 워크로드 보안 에이전트 | site_name> .cs01.cloudinsights.netapp.com <site_name> .c01.cloudinsights.netapp.com <site_name> .c02.cloudinsights.netapp.com 을 참조하십시오 | Data Infrastructure Insights에 액세스 
 
 
 | TCP | 443 | 워크로드 보안 에이전트 | gateway.c01.cloudinsights.netapp.com agentlogin.cs01.cloudinsights.netapp.com | 인증 서비스에 대한 액세스 
@@ -89,7 +86,7 @@ NOTE: 스토리지 워크로드 보안은 Cloud Insights Federal Edition에서 �
 | 프로토콜 | 포트 | 출처 | 목적지 | 설명 
 
 
-| TCP | 443 | 워크로드 보안 에이전트 | site_name> .cs01-eu-1.cloudinsights.netapp.com <site_name> .c01-eu-1.cloudinsights.netapp.com <site_name> .c02-eu-1.cloudinsights.netapp.com 을 참조하십시오 | Cloud Insights에 대한 액세스 
+| TCP | 443 | 워크로드 보안 에이전트 | site_name> .cs01-eu-1.cloudinsights.netapp.com <site_name> .c01-eu-1.cloudinsights.netapp.com <site_name> .c02-eu-1.cloudinsights.netapp.com 을 참조하십시오 | Data Infrastructure Insights에 액세스 
 
 
 | TCP | 443 | 워크로드 보안 에이전트 | gateway.c01.cloudinsights.netapp.com agentlogin.cs01-eu-1.cloudinsights.netapp.com | 인증 서비스에 대한 액세스 
@@ -101,7 +98,7 @@ APAC 기반 * 워크로드 보안 환경의 경우:
 | 프로토콜 | 포트 | 출처 | 목적지 | 설명 
 
 
-| TCP | 443 | 워크로드 보안 에이전트 | site_name> .cs01-ap-1.cloudinsights.netapp.com <site_name> .c01-ap-1.cloudinsights.netapp.com <site_name> .c02-ap-1.cloudinsights.netapp.com 을 참조하십시오 | Cloud Insights에 대한 액세스 
+| TCP | 443 | 워크로드 보안 에이전트 | site_name> .cs01-ap-1.cloudinsights.netapp.com <site_name> .c01-ap-1.cloudinsights.netapp.com <site_name> .c02-ap-1.cloudinsights.netapp.com 을 참조하십시오 | Data Infrastructure Insights에 액세스 
 
 
 | TCP | 443 | 워크로드 보안 에이전트 | gateway.c01.cloudinsights.netapp.com agentlogin.cs01-ap-1.cloudinsights.netapp.com | 인증 서비스에 대한 액세스 

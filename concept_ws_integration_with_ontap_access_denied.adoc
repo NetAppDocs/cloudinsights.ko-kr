@@ -21,7 +21,7 @@ keywords: ransomware, ARP, Protection, Security, access
 [role="lead"]
 ONTAP 액세스 거부 기능은 NAS 환경(NFS 및 SMB)에서 워크로드 분석을 사용하여 실패한 파일 작업을 사전에 감지하여 경고합니다(예: 권한이 없는 작업을 수행하려는 사용자). 특히 보안 관련 오류의 경우 이러한 파일 작업 알림 실패 시 초기에 내부자 공격을 차단하는 데 도움이 됩니다.
 
-Cloud Insights 워크로드 보안은 ONTAP와 통합되어 액세스 거부 이벤트를 수신하고 추가적인 분석 및 자동 응답 계층을 제공합니다.
+Data Infrastructure Insights 워크로드 보안은 ONTAP과 통합되어 액세스 거부 이벤트를 수신하고 추가적인 분석 및 자동 응답 계층을 제공합니다.
 
 필수 구성 요소
 

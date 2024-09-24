@@ -16,9 +16,6 @@ summary: '잠재적 공격(예: 랜섬웨어) 및/또는 활동 경고에 대해
 [role="lead"]
 응답 정책은 공격 또는 비정상적인 사용자 동작이 발생하는 경우 스냅샷을 생성하거나 사용자 액세스를 제한하는 등의 작업을 트리거합니다.
 
-
-NOTE: 워크로드 보안은 Cloud Insights Federal Edition에서 사용할 수 없습니다.
-
 특정 장치 또는 모든 장치에 정책을 설정할 수 있습니다. 응답 정책을 설정하려면 * Admin > Automated Response Policies * 를 선택하고 해당 * + Policy * 버튼을 클릭합니다. 공격에 대한 정책 또는 경고에 대한 정책을 만들 수 있습니다.
 
 image:Automated_Response_Screenshot.png["공격 정책 생성"]

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: API_Overview.html 
 keywords: API, customer API, premium, JSON, Swagger, Access Token, token, rotate, expired 
-summary: Cloud Insights API를 사용하면 모니터링 및 보고 시스템과 같은 다른 애플리케이션과 통합할 수 있습니다. 
+summary: Data Infrastructure Insights API를 사용하면 모니터링 및 보고 시스템과 같은 다른 애플리케이션과 통합할 수 있습니다. 
 ---
-= Cloud Insights API를 참조하십시오
+= Data Infrastructure Insights API를 참조하십시오
 :toc: macro
 :hardbreaks:
 :toclevels: 2
@@ -19,9 +19,9 @@ summary: Cloud Insights API를 사용하면 모니터링 및 보고 시스템과
 
 
 [role="lead"]
-Cloud Insights API를 통해 NetApp 고객 및 ISV(독립 소프트웨어 공급업체)는 Cloud Insights를 CMDB 또는 기타 티켓 시스템과 같은 다른 애플리케이션과 통합할 수 있습니다.
+Data Infrastructure Insights API를 사용하면 NetApp 고객 및 독립 소프트웨어 공급업체(ISV)가 CMDB 또는 기타 티켓팅 시스템과 같은 다른 애플리케이션과 Data Infrastructure Insights를 통합할 수 있습니다.
 
-Cloud Insights API는 현재 버전을 기반으로 사용할 수 있습니다.
+Data Infrastructure Insights API는 현재 에디션을 기반으로 사용할 수 있습니다.
 
 [cols="<,^s,^s,^s"]
 |===
@@ -45,25 +45,25 @@ Cloud Insights API는 현재 버전을 기반으로 사용할 수 있습니다.
 
 | 로그 수집 |  | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] 
 |===
-Cloud Insights도 있습니다 link:https://docs.netapp.com/us-en/cloudinsights/concept_user_roles.html#permission-levels["기능 세트 역할"] 에서 액세스할 수 있는 API를 결정합니다. 사용자 및 게스트 역할은 관리자 역할보다 권한이 적습니다. 예를 들어 Monitor and Optimize에서 관리자 역할이 있지만 Reporting에서 사용자 역할은 데이터 웨어하우스를 제외한 모든 API 유형을 관리할 수 있습니다.
+또한 Data Infrastructure Insightslink:https://docs.netapp.com/us-en/cloudinsights/concept_user_roles.html#permission-levels["기능 세트 역할"]에 따라 액세스 가능한 API가 결정됩니다. 사용자 및 게스트 역할은 관리자 역할보다 권한이 적습니다. 예를 들어 Monitor and Optimize에서 관리자 역할이 있지만 Reporting에서 사용자 역할은 데이터 웨어하우스를 제외한 모든 API 유형을 관리할 수 있습니다.
 
 
 
 == API 액세스에 대한 요구 사항
 
 * 액세스 권한을 부여하기 위해 API 액세스 토큰 모델이 사용됩니다.
-* API 토큰 관리는 관리자 역할을 가진 Cloud Insights 사용자가 수행합니다.
+* API 토큰 관리는 관리자 역할을 가진 Data Infrastructure Insights 사용자가 수행합니다.
 
 
 
 
 == API 설명서(Swagger)
 
-최신 API 정보는 Cloud Insights에 로그인하고 * 관리자 > API 액세스 * 로 이동하여 확인할 수 있습니다. API Documentation * 링크를 클릭합니다.
+최신 API 정보는 Data Infrastructure Insights에 로그인하여 * Admin > API acccess * 로 이동하여 확인할 수 있습니다. API Documentation * 링크를 클릭합니다.
 
 image:API_Swagger_Types.png["API 유형"]
 
-API 설명서는 Swagger 기반의 API에 대한 간단한 설명과 사용 정보를 제공하며, 사용자 환경에서 사용할 수 있습니다. 사용자 역할 및/또는 Cloud Insights 버전에 따라 사용 가능한 API 유형이 다를 수 있습니다.
+API 설명서는 Swagger 기반의 API에 대한 간단한 설명과 사용 정보를 제공하며, 사용자 환경에서 사용할 수 있습니다. 사용자 역할 및/또는 Data Infrastructure Insights 버전에 따라 사용 가능한 API 유형이 다를 수 있습니다.
 
 image:API_Swagger_Example.png["API Swagger 예"]
 
@@ -71,7 +71,7 @@ image:API_Swagger_Example.png["API Swagger 예"]
 
 == API 액세스 토큰
 
-Cloud Insights API를 사용하기 전에 하나 이상의 * API 액세스 토큰 * 을 만들어야 합니다. 액세스 토큰은 지정된 API 유형에 사용되며 읽기 및/또는 쓰기 권한을 부여할 수 있습니다. 각 액세스 토큰의 만료일을 설정할 수도 있습니다. 지정된 유형의 모든 API는 액세스 토큰에 대해 유효합니다. 각 토큰은 사용자 이름 또는 암호의 무효입니다.
+Data Infrastructure Insights API를 사용하기 전에 하나 이상의 * API 액세스 토큰 * 을 생성해야 합니다. 액세스 토큰은 지정된 API 유형에 사용되며 읽기 및/또는 쓰기 권한을 부여할 수 있습니다. 각 액세스 토큰의 만료일을 설정할 수도 있습니다. 지정된 유형의 모든 API는 액세스 토큰에 대해 유효합니다. 각 토큰은 사용자 이름 또는 암호의 무효입니다.
 
 액세스 토큰을 만들려면 다음을 수행합니다.
 
@@ -91,7 +91,7 @@ NOTE: 토큰은 클립보드로 복사하고 생성 과정 중에 저장하는 �
 
 토큰을 비활성화, 활성화 및 취소할 수 있습니다. 비활성화된 토큰을 활성화할 수 있습니다.
 
-토큰은 고객의 관점에서 API에 대한 범용 액세스를 허용하며, 자신의 테넌트의 범위에서 API에 대한 액세스를 관리합니다. 고객 관리자는 Cloud Insights 백 엔드 직원의 직접적인 개입 없이 이러한 토큰을 부여 및 취소할 수 있습니다.
+토큰은 고객의 관점에서 API에 대한 범용 액세스를 허용하며, 자신의 테넌트의 범위에서 API에 대한 액세스를 관리합니다. 고객 관리자는 Data Infrastructure Insights 백 엔드 직원의 직접적인 개입 없이 이러한 토큰을 부여 및 취소할 수 있습니다.
 
 응용 프로그램은 사용자가 액세스를 성공적으로 인증 및 승인한 후 액세스 토큰을 받은 다음 대상 API를 호출할 때 액세스 토큰을 자격 증명으로 전달합니다. 전달된 토큰은 API에 토큰의 베어러가 API에 액세스할 수 있는 권한이 있음을 알리고 권한 부여 중에 부여된 범위에 의해 지정된 특정 작업을 수행하도록 합니다.
 
@@ -108,12 +108,12 @@ NOTE: 토큰은 클립보드로 복사하고 생성 과정 중에 저장하는 �
 
 == API 유형
 
-Cloud Insights API는 범주 기반이며 현재 다음 유형이 포함되어 있습니다.
+Data Infrastructure Insights API는 범주를 기반으로 하며 현재 다음 유형이 포함되어 있습니다.
 
 * 자산 유형에 자산, 쿼리 및 검색 API가 포함되어 있습니다.
 +
 ** 자산: 최상위 객체를 열거하고 특정 오브젝트 또는 오브젝트 계층을 검색합니다.
-** 쿼리: Cloud Insights 쿼리 검색 및 관리
+** 쿼리: Data Infrastructure Insights 쿼리를 검색 및 관리합니다.
 ** 가져오기: 주석이나 응용 프로그램을 가져와 개체에 할당합니다
 ** 검색: 개체의 고유 ID 또는 전체 이름을 모르는 상태에서 특정 개체를 찾습니다.
 
@@ -125,13 +125,13 @@ Cloud Insights API는 범주 기반이며 현재 다음 유형이 포함되어 �
 
 시간이 지나면 추가 유형 및/또는 API를 사용할 수 있습니다. 최신 API 정보는 에서 확인할 수 있습니다 link:#api-documentation-swagger["API Swagger 문서"].
 
-사용자가 액세스할 수 있는 API 유형도 에 따라 다릅니다 link:concept_user_roles.html["사용자 역할"] 각 Cloud Insights 기능 세트(모니터링, 워크로드 보안, 보고)에 있습니다.
+사용자가 액세스할 수 있는 API 유형은 link:concept_user_roles.html["사용자 역할"]각 Data Infrastructure Insights 기능 세트(모니터링, 워크로드 보안, 보고)에 있는 유형에 따라서도 달라집니다.
 
 
 
 == 재고 탐색
 
-이 섹션에서는 Cloud Insights 개체의 계층 구조를 이동하는 방법을 설명합니다.
+이 섹션에서는 Data Infrastructure Insights 개체의 계층 구조를 이동하는 방법을 설명합니다.
 
 
 
@@ -178,7 +178,7 @@ image:expands.gif["예제를 확장합니다"]
 
 == 성능 데이터
 
-성능 데이터는 여러 장치에 걸쳐 별도의 샘플로 수집됩니다. 매 시간(기본값)마다 Cloud Insights는 성능 샘플을 집계하고 요약합니다.
+성능 데이터는 여러 장치에 걸쳐 별도의 샘플로 수집됩니다. Data Infrastructure Insights는 1시간마다(기본값) 성능 샘플을 집계하고 요약합니다.
 
 API를 사용하면 샘플과 요약된 데이터에 모두 액세스할 수 있습니다. 성능 데이터가 있는 개체의 경우 성능 요약을 _EXPORTED=performance_로 사용할 수 있습니다. 성능 기록 시간 시리즈는 nested_expand=performance.history_를 통해 사용할 수 있습니다.
 
@@ -203,7 +203,7 @@ image:API_Performance.png["API 성능 예"]
 * 다른 모든 사전 키("diskThroughput" 등)는 성능 메트릭의 이름입니다.
 
 
-각 성능 데이터 오브젝트 유형에는 고유한 성능 메트릭 세트가 있습니다. 예를 들어, 가상 머신 성능 개체는 성능 메트릭으로 "diskThroughput"을 지원합니다. 지원되는 각 성능 메트릭은 메트릭 사전에 나와 있는 특정 "성능 범주"입니다. Cloud Insights는 이 문서 뒷부분의 여러 성능 메트릭 유형을 지원합니다. 각 성능 메트릭 사전에는 이 성능 메트릭에 대한 사람이 읽을 수 있는 설명과 성능 요약 카운터 항목 집합인 "설명" 필드도 있습니다.
+각 성능 데이터 오브젝트 유형에는 고유한 성능 메트릭 세트가 있습니다. 예를 들어, 가상 머신 성능 개체는 성능 메트릭으로 "diskThroughput"을 지원합니다. 지원되는 각 성능 메트릭은 메트릭 사전에 나와 있는 특정 "성능 범주"입니다. Data Infrastructure Insights는 이 문서의 뒷부분에 나열된 몇 가지 성능 메트릭 유형을 지원합니다. 각 성능 메트릭 사전에는 이 성능 메트릭에 대한 사람이 읽을 수 있는 설명과 성능 요약 카운터 항목 집합인 "설명" 필드도 있습니다.
 
 성능 요약 카운터는 성능 카운터의 요약입니다. 카운터에 대한 최소, 최대 및 평균 등의 일반적인 집계 값과 최근 관찰 값, 요약 데이터에 대한 시간 범위, 카운터에 대한 단위 유형 및 데이터에 대한 임계값을 제공합니다. 임계값은 선택 사항이므로 나머지 속성은 필수입니다.
 
@@ -269,7 +269,7 @@ image:StoragePoolCapacity.png["스토리지 풀 용량 예"]
 
 검색 API는 시스템에 대한 간단한 진입점입니다. API에 대한 유일한 입력 매개 변수는 자유 형식 문자열이며 결과 JSON에는 분류된 결과 목록이 포함되어 있습니다. 유형은 스토리지, 호스트, 데이터 저장소 등과 같이 인벤토리에서 서로 다른 자산 유형입니다. 각 형식에는 검색 조건과 일치하는 형식의 개체 목록이 포함됩니다.
 
-Cloud Insights는 타사 오케스트레이션, 비즈니스 관리, 변경 제어 및 티켓 시스템과 사용자 정의 CMDB 통합을 지원하는 확장 가능한 개방형 솔루션입니다.
+Data Infrastructure Insights는 확장 가능한(광범위한 개방형) 솔루션으로서 타사 오케스트레이션, 비즈니스 관리, 변경 제어 및 티켓팅 시스템뿐만 아니라 사용자 지정 CMDB 통합과도 통합할 수 있습니다.
 
 Cloud Insight의 RESTful API는 데이터를 간단하고 효과적으로 이동할 수 있을 뿐 아니라 사용자가 데이터에 원활하게 액세스할 수 있도록 하는 기본적인 통합 지점입니다.
 

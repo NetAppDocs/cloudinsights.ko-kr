@@ -34,7 +34,7 @@ ONTAP Essentials를 사용하려면 지난 7일 이내에 수집된 데이터를
 
 == 개요
 
-탐색을 시작하려면 기본 Cloud Insights 메뉴에서 * ONTAP Essentials * 를 선택합니다.
+탐색을 시작하려면 기본 데이터 인프라 인사이트 메뉴에서 * ONTAP 필수 * 를 선택합니다.
 
 image:OE_Overview.png["ONTAP Essentials에 대한 개요 대시보드"]
 
@@ -152,7 +152,7 @@ SVM의 경우 보안 대시보드에서 다음 모니터를 확인합니다.
 
 스토리지 VM 세부 정보에는 감사 및 SSH 정보가 표시됩니다.image:OE_Storage_Slideout.png["Storage(저장소) 탭"]
 
-안티 랜섬웨어에 대한 세부 정보는 스토리지 VM이 ONTAP의 안티 랜섬웨어 보호 또는 Cloud Insights 워크로드 보안으로 보호되는지 여부를 보여줍니다. ONTAP ARP 열은 ONTAP 시스템에 구성된 ONTAP의 온보드 Anti-랜섬웨어 방지 프로그램의 현재 상태를 표시합니다. Cloud Insights 워크로드 보안은 해당 열에서 "보호"를 선택하여 활성화할 수 있습니다.image:OE_Anti-Ransomware_Slideout.png["랜섬웨어 방지 탭"]
+안티 랜섬웨어 세부 정보는 스토리지 VM이 ONTAP의 랜섬웨어 방지 보호 또는 데이터 인프라 인사이트 워크로드 보안으로 보호되는지 여부를 보여줍니다. ONTAP ARP 열은 ONTAP 시스템에 구성된 ONTAP의 온보드 Anti-랜섬웨어 방지 프로그램의 현재 상태를 표시합니다. Data Infrastructure Insights 워크로드 보안은 해당 열에서 "보호"를 선택하여 활성화할 수 있습니다. image:OE_Anti-Ransomware_Slideout.png["랜섬웨어 방지 탭"]
 
 
 

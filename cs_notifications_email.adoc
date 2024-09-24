@@ -22,9 +22,6 @@ keywords: email, notifications, alerts, warnings, attacks
 워크로드 보안 경고 수신자를 구성하려면 * Admin > Notifications * 를 클릭하고 각 수신자의 적절한 섹션에 이메일 주소를 입력합니다.
 
 
-NOTE: 워크로드 보안은 Cloud Insights Federal Edition에서 사용할 수 없습니다.
-
-
 
 == 잠재적 공격 경고 및 경고
 
@@ -66,5 +63,5 @@ _Warning_notifications를 보내려면 _Send Warning Alerts_ 섹션에 받는 �
 | * 문제: * | * 사용해 보세요. * 
 
 
-| "Data Collector 상태 알림"에 이메일 ID가 있지만 알림을 받지 않습니다. | 알림 이메일은 NetApp Cloud Insights 도메인, 즉 _accounts@service.cloudinsights.netapp.com_ 에서 전송됩니다. 일부 회사는 외부 도메인에서 들어오는 이메일을 차단합니다. NetApp Cloud Insights 도메인의 외부 알림이 화이트리스트되었는지 확인합니다. 
+| "Data Collector 상태 알림"에 이메일 ID가 있지만 알림을 받지 않습니다. | 알림 이메일은 NetApp Data Infrastructure Insights 도메인, 즉 _accounts@service.clou dinsights.NetApp.com_에서 발송되었습니다. 일부 회사는 외부 도메인에서 보낸 전자 메일을 차단합니다. NetApp Data Infrastructure Insights 도메인의 외부 알림을 화이트리스트로 등록했는지 확인합니다. 
 |===

@@ -19,7 +19,7 @@ summary: 통찰력은 Kubernetes 공간이 가득 찰 가능성을 예측하는 
 
 
 [role="lead"]
-귀사의 환경에서 공간이 부족하게 되는 것은 결코 좋은 일이 아닙니다. Cloud Insights를 사용하면 Kubernetes 영구 볼륨이 꽉 차게 되기 전의 시간을 예측할 수 있습니다.
+귀사의 환경에서 공간이 부족하게 되는 것은 결코 좋은 일이 아닙니다. Data Infrastructure Insights를 사용하면 Kubernetes 영구 볼륨이 가득 차기 전의 시간을 예측할 수 있습니다.
 
 Space_Insight에서 실행되는 _Kubernetes 네임스페이스 를 사용하면 공간이 부족할 위험이 있는 Kubernetes 네임스페이스의 워크로드를 확인할 수 있으며, 각 영구 볼륨이 꽉 차게 되기 전의 남은 일 수에 대한 추정치가 있습니다.
 
@@ -42,7 +42,7 @@ image:K8sRunningOutOfSpaceWorkloadTable.png["세부 정보를 보여주는 워�
 
 === 공간이 부족할 경우 어떻게 해야 합니까?
 
-Insight(인사이트) 페이지에서 * + Show Recommendations(권장 사항 표시) * 를 클릭하여 가능한 해결책을 확인합니다. 공간이 부족할 때 가장 쉬운 옵션은 항상 더 많은 용량을 추가하는 것입니다. Cloud Insights는 타겟 60일 예측에 소요되는 시간을 늘리기 위해 추가할 최적의 용량을 표시합니다. 다른 권장 사항도 나와 있습니다.
+Insight(인사이트) 페이지에서 * + Show Recommendations(권장 사항 표시) * 를 클릭하여 가능한 해결책을 확인합니다. 공간 부족 시 가장 쉬운 옵션은 항상 용량을 추가하는 것입니다. Data Infrastructure Insights에서는 목표 60일 예측에 전체 시간을 늘려 줄 수 있는 최적의 용량을 보여줍니다. 다른 권장 사항도 나와 있습니다.
 
 image:K8sRunningOutOfSpaceRecommendations.png["60일 TTF로 되돌리기 위한 추가 용량"]
 

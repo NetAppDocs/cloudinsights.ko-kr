@@ -19,13 +19,13 @@ keywords: time-to-live, TTL, downsampling, downsample, retention
 
 
 [role="lead"]
-Cloud Insights는 설정된 기간(Edition당)에 대한 데이터를 유지하므로 수천 개의 데이터 포인트를 처리할 수 있습니다. 따라서 차트 및 표에 표시되기 전에 데이터를 다운샘플링할 수 있습니다.
+Data Infrastructure Insights는 설정된 기간(에디션당) 동안 데이터를 유지하므로 수천 개의 데이터 포인트를 처리할 수 있습니다. 따라서 차트 및 표에 표시되기 전에 데이터를 다운샘플링할 수 있습니다.
 
 
 
 == 데이터 보존
 
-Cloud Insights는 활성 구독한 Edition에 의해 결정된 시간 동안 데이터를 유지합니다.
+Data Infrastructure Insights는 현재 구독된 에디션에 의해 결정된 시간 동안 데이터를 보존합니다.
 
 |===
 | 발행 | 데이터 보존 
@@ -36,7 +36,7 @@ Cloud Insights는 활성 구독한 Edition에 의해 결정된 시간 동안 데
 
 | 프리미엄 | 13개월 
 |===
-각 에디션에서 사용할 수 있는 전체 기능 목록은 Cloud Insights에서 확인할 수 있습니다 link:https://bluexp.netapp.com/cloud-insights-pricing["에디션 및 가격"] 페이지.
+각 에디션에서 사용할 수 있는 전체 기능 목록은 Data Infrastructure Insights link:https://bluexp.netapp.com/cloud-insights-pricing["에디션 및 가격"] 페이지를 참조하십시오.
 
 
 
@@ -69,7 +69,7 @@ Cloud Insights는 활성 구독한 Edition에 의해 결정된 시간 동안 데
 
 image:Charts_NoDownsample.png["다운샘플링 없음"]
 
-그러나 자산 페이지 시간 선택기에서 30d 중 하나를 선택하여 데이터를 보는 경우 또는 7일 이상의 사용자 지정 시간 범위를 설정하여(또는 Cloud Insights가 선택한 기간 동안 1,000개 이상의 데이터 샘플을 수집한 경우) 데이터가 표시되기 전에 다운샘플링됩니다. 다운샘플링된 차트를 확대하면 디스플레이에 근사화된 데이터가 계속 표시됩니다.
+그러나 자산 페이지 시간 선택기에서 30d를 선택하거나 7일을 초과하는 사용자 지정 시간 범위를 설정하여 데이터를 보는 경우(또는 Data Infrastructure Insights가 선택한 기간 동안 1,000개가 넘는 데이터 샘플을 수집한 경우) 데이터가 표시되기 전에 다운샘플링됩니다. 다운샘플링된 차트를 확대하면 디스플레이에 근사화된 데이터가 계속 표시됩니다.
 
 
 NOTE: 다운샘플링된 차트를 확대할 때 확대/축소는 디지털 확대/축소입니다. 디스플레이에 근사치 데이터가 계속 표시됩니다.

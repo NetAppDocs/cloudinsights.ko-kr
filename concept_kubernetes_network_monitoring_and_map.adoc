@@ -38,9 +38,9 @@ image:ServiceMap_NKMO_Deployment_Options.png["NKMO Stup 중 지도 옵션을 선
 
 == 모니터
 
-워크로드 맵은 을 사용합니다 link:task_create_monitor.html["모니터"] 정보를 도출합니다. Cloud Insights에서는 다양한 기본 Kubernetes Monitor를 제공합니다(기본적으로 _일시 중지됨_일 수 있음). 원하는 모니터를 _Resume_(예: 활성화)하거나, Kubernetes 객체에 대한 사용자 지정 모니터를 생성할 수 있습니다. 이 경우 워크로드 맵도 사용됩니다.
+워크로드 맵은 을 사용하여 link:task_create_monitor.html["모니터"]정보를 파생시킵니다. Data Infrastructure Insights는 다양한 기본 Kubernetes Monitor를 제공합니다(이는 기본적으로 _ Paused _ 일 수 있습니다. 원하는 모니터를 _Resume_(예: 활성화)하거나, Kubernetes 객체에 대한 사용자 지정 모니터를 생성할 수 있습니다. 이 경우 워크로드 맵도 사용됩니다.
 
-아래 개체 유형에 대해 Cloud Insights 메트릭 알림을 생성할 수 있습니다. 데이터가 기본 개체 유형별로 그룹화되어 있는지 확인합니다.
+아래의 모든 오브젝트 유형에 대해 Data Infrastructure Insights 메트릭 경고를 생성할 수 있습니다. 데이터가 기본 개체 유형별로 그룹화되어 있는지 확인합니다.
 
 * Kubernetes 워크로드
 * Kubernetes 발병
@@ -83,7 +83,7 @@ image:Workload_Map_Slideout_with_Alert.png["워크로드 Slideout 세부 정보 
 
 == 찾기 및 필터링
 
-다른 Cloud Insights 기능과 마찬가지로 원하는 특정 오브젝트 또는 워크로드 특성에 초점을 맞춰 필터를 쉽게 설정할 수 있습니다.
+다른 Data Infrastructure Insights 기능과 마찬가지로 필터를 쉽게 설정하여 원하는 특정 오브젝트 또는 워크로드 특성에 집중할 수 있습니다.
 
 image:Workload_Map_Filtering.png["워크로드 맵 필터링"]
 
@@ -117,7 +117,7 @@ image:Workload_Map_Find_Highlighting.png["찾기 상자에 입력하면 워크�
 
 * 소스가 Kubernetes 클러스터 외부에 있는 경우:
 +
-** Cloud Insights는 DNS 확인된 이름을 구문 분석하여 서비스 유형을 추출하려고 시도합니다.
+** Data Infrastructure Insights는 DNS 확인된 이름을 구문 분석하여 서비스 유형을 추출합니다.
 +
 예를 들어, DNS Resolved 이름이 _s3.eu-north-1.amazonaws.com _ 인 경우 Resolved 이름은 서비스 유형으로 get_s3_로 구문 분석됩니다.
 

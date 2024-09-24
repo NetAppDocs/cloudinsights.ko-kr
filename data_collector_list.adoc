@@ -4,7 +4,7 @@ permalink: data_collector_list.html
 summary: 지원되는 데이터 수집기 목록입니다. 
 keywords: data collector, vendor, infrastructure, integration, service 
 ---
-= Cloud Insights 데이터 수집기 목록
+= Data Infrastructure Insights 데이터 수집기 목록
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,7 +19,7 @@ keywords: data collector, vendor, infrastructure, integration, service
 
 
 [role="lead"]
-Cloud Insights는 다양한 공급업체 및 서비스의 다양한 데이터 Collector를 지원합니다.
+Data Infrastructure Insights는 여러 공급업체 및 서비스에서 제공하는 다양한 데이터 수집기를 지원합니다.
 
 데이터 수집기 는 다음 유형에 따라 분류됩니다.
 
@@ -27,7 +27,7 @@ Cloud Insights는 다양한 공급업체 및 서비스의 다양한 데이터 Co
 * 서비스: Kubernetes 또는 Docker와 같은 서비스에서 구입 통합 _ 이라고도 합니다.
 
 
-Cloud Insights에서 지원하는 데이터 수집기 목록 사전순:
+Data Infrastructure Insights에서 지원하는 데이터 수집기의 사전순 목록:
 
 [cols="<,<"]
 |===
