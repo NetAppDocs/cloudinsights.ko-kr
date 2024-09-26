@@ -4,7 +4,7 @@ permalink: reporting_schema_diagrams.html
 keywords: Schema, DB Schema, premium, dwh, data warehouse 
 summary: 보고 스키마 다이어그램 
 ---
-= Cloud Insights 보고 스키마 다이어그램
+= Data Infrastructure Insights 보고 스키마 다이어그램
 :toc: macro
 :hardbreaks:
 :allow-uri-read: 
@@ -21,7 +21,7 @@ summary: 보고 스키마 다이어그램
 이 문서에서는 보고 데이터베이스에 대한 스키마 다이어그램을 제공합니다. 이 포함된 파일을 다운로드할 수도 있습니다 link:ci_reporting_database_schema.pdf["스키마 테이블"].
 
 
-NOTE: 보고 기능은 Cloud Insights에서 사용할 수 있습니다 link:concept_subscribing_to_cloud_insights.html["Premium Edition을 참조하십시오"].
+NOTE: 보고 기능은 Data Infrastructure Insights에서 사용할 수 link:concept_subscribing_to_cloud_insights.html["Premium Edition을 참조하십시오"]있습니다.
 
 
 

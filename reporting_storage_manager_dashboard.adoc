@@ -22,7 +22,7 @@ keywords: reporting, cognos, data warehouse, dwh, smd, storage manager dashboard
 Storage Manager 대시보드에서는 시간에 따른 리소스 사용을 허용 가능한 범위 및 이전 활동 일수와 비교하고 대조할 수 있는 중앙 집중식 시각화를 제공합니다. 스토리지 서비스의 핵심 성능 메트릭만 표시되어 있으므로 데이터 센터 유지보수 방법을 결정할 수 있습니다.
 
 
-NOTE: 보고 기능은 Cloud Insights에서 사용할 수 있습니다 link:concept_subscribing_to_cloud_insights.html["Premium Edition을 참조하십시오"].
+NOTE: 보고 기능은 Data Infrastructure Insights에서 사용할 수 link:concept_subscribing_to_cloud_insights.html["Premium Edition을 참조하십시오"]있습니다.
 
 
 

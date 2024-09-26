@@ -27,7 +27,7 @@ summary: 워크로드 보안 에이전트 추가
 
 * 설치, 스크립트 실행 및 제거에 sudo 권한이 필요합니다.
 * 에이전트를 설치하는 동안 로컬 user_cssys_와 로컬 group_cssys_가 시스템에 생성됩니다. 권한 설정에서 로컬 사용자 생성을 허용하지 않고 대신 Active Directory가 필요한 경우 사용자 이름이 _cssys_인 사용자를 Active Directory 서버에 만들어야 합니다.
-* Cloud Insights 보안에 대해 알아볼 수 있습니다 link:security_overview.html["여기"].
+* Data Infrastructure Insights 보안에 대해 알아볼 수 link:security_overview.html["여기"]있습니다.
 
 
 
@@ -94,7 +94,7 @@ image::new-agent-detect.png[에이전트 설치 성공 메시지]
 
 == 현재 버전에서 에이전트 "고정"
 
-기본적으로 Cloud Insights 워크로드 보안은 에이전트를 자동으로 업데이트합니다. 일부 고객은 다음 중 하나가 발생할 때까지 Agent를 현재 버전으로 유지하는 자동 업데이트를 일시 중지할 수 있습니다.
+기본적으로 Data Infrastructure Insights 워크로드 보안은 에이전트를 자동으로 업데이트합니다. 일부 고객은 다음 중 하나가 발생할 때까지 Agent를 현재 버전으로 유지하는 자동 업데이트를 일시 중지할 수 있습니다.
 
 * 고객이 Agent 자동 업데이트를 재개합니다.
 * 30일이 지났습니다. 30일은 Agent가 일시 중지된 날이 아니라 가장 최근의 Agent 업데이트 날짜부터 시작됩니다.
@@ -152,7 +152,7 @@ image:ws_agent_version.png["상담원 테이블에 표시된 WS 상담원 버전
 | 에이전트를 설치하는 동안 압축 해제 후 설치가 중단됩니다. | "chmod 755-rf" 명령이 실패했습니다. 작업 디렉토리에 파일이 있고 다른 사용자에게 속해 있으며 해당 파일의 사용 권한을 변경할 수 없는 루트가 아닌 sudo 사용자가 에이전트 설치 명령을 실행하는 경우 명령이 실패합니다. chmod 명령이 실패하여 나머지 설치가 실행되지 않습니다. "cloudsecure"라는 새 디렉토리를 생성합니다. 해당 디렉토리로 이동합니다. 전체 "토큰 =……"을 복사하여 붙여 넣습니다. … / cloudsecure-agent-install.sh" 설치 명령을 입력하고 Enter 키를 누릅니다. 4.설치를 계속할 수 있어야 합니다. 
 
 
-| Agent가 여전히 SaaS에 연결할 수 없는 경우 NetApp Support로 사례를 여십시오. Cloud Insights 일련 번호를 제공하여 케이스를 열고 기록해 둔 대로 케이스에 로그를 첨부합니다. | 케이스에 로그를 첨부하려면 1. 루트 권한으로 다음 스크립트를 실행하고 출력 파일(cloudsecure-agent-symptoms.zip)을 공유합니다. a. /opt/netapp/cloudsecure/agent/bin/cloudsecure-agent-symptom-collector.sh 2. 루트 권한으로 다음 명령을 하나씩 실행하고 출력을 공유합니다. a. ID cssys b. 그룹 cssys c. CAT/etc/OS - 릴리스 
+| Agent가 여전히 SaaS에 연결할 수 없는 경우 NetApp Support로 사례를 여십시오. Data Infrastructure Insights 일련 번호를 제공하여 케이스를 생성하고 언급된 대로 로그에 로그를 첨부합니다. | 케이스에 로그를 첨부하려면 1. 루트 권한으로 다음 스크립트를 실행하고 출력 파일(cloudsecure-agent-symptoms.zip)을 공유합니다. a. /opt/netapp/cloudsecure/agent/bin/cloudsecure-agent-symptom-collector.sh 2. 루트 권한으로 다음 명령을 하나씩 실행하고 출력을 공유합니다. a. ID cssys b. 그룹 cssys c. CAT/etc/OS - 릴리스 
 
 
 | cloudsecure-agent-symptom-collector.sh 스크립트가 실패하고 다음 오류가 표시됩니다. [root@machine tmp]#/opt/netapp/cloudsecure/agent/bin/cloudsecure-agent-symptom-collector.sh 서비스 로그 수집 애플리케이션 로그 수집 에이전트 상태 스냅샷 생성 에이전트 디렉토리 구조 스냅샷 생성……………… . ………………………… . /opt/netapp/cloudsecure/agent/bin/cloudsecure-agent-symptom-collector.sh:line 52:zip: 명령을 찾을 수 없음 오류: /tmp/cloudsecure-agent-symptoms.zip 생성하지 못했습니다 | zip 도구가 설치되지 않았습니다. "yum install zip" 명령을 실행하여 zip 툴을 설치합니다. 그런 다음 cloudsecure-agent-symptom-collector.sh 를 다시 실행합니다. 

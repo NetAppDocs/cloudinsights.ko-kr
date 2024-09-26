@@ -2,27 +2,24 @@
 sidebar: sidebar 
 permalink: task_annotation_import.html 
 keywords: annotations, import, api 
-summary: Cloud Insights API를 사용하여 주석 및 애플리케이션을 가져올 수 있습니다. 
+summary: Data Infrastructure Insights API를 사용하여 주석과 애플리케이션을 가져올 수 있습니다. 
 ---
 = 주석 불러오기
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
-Cloud Insights에는 CSV 파일에서 주석이나 응용 프로그램을 가져오고 지정한 개체에 지정하기 위한 API가 포함되어 있습니다.
+Data Infrastructure Insights에는 CSV 파일에서 주석 또는 애플리케이션을 가져오고 사용자가 지정한 오브젝트에 할당하는 API가 포함되어 있습니다.
 
 
-NOTE: Cloud Insights API는 * Cloud Insights 프리미엄 에디션 * 에서 사용할 수 있습니다.
+NOTE: Data Infrastructure Insights API는 * Data Infrastructure Insights Premium Edition * 에서 사용할 수 있습니다.
 
 
 

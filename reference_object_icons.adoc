@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference_object_icons.html 
-summary: Cloud Insights 객체 아이콘 참조. 
+summary: Data Infrastructure Insights 오브젝트 아이콘 참조. 
 keywords: icons, assets, objects, reference, map 
 ---
 = 개체 아이콘 참조
@@ -9,7 +9,7 @@ keywords: icons, assets, objects, reference, map
 
 
 [role="lead"]
-Cloud Insights에 사용되는 개체 아이콘입니다.
+Data Infrastructure Insights에 사용되는 오브젝트 아이콘입니다.
 
 
 

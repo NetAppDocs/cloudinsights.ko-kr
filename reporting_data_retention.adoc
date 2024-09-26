@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reporting_data_retention.html 
-summary: 보고를 위한 Cloud Insights 데이터 보존 
+summary: Data Infrastructure Insights 보고 대상 데이터 보존 
 keywords: reporting, cognos, data warehouse, dwh, managing, customizing, copying, retention 
 ---
 = 보고를 위해 기록 데이터를 보관하는 방법
@@ -19,7 +19,7 @@ keywords: reporting, cognos, data warehouse, dwh, managing, customizing, copying
 
 
 [role="lead"]
-Cloud Insights는 다음 표와 같이 데이터 마트와 데이터 세분화를 기반으로 보고에 사용할 기록 데이터를 보유합니다.
+Data Infrastructure Insights는 다음 표에 나와 있는 것처럼 데이터 마트와 데이터의 세분성을 기반으로 보고에 사용할 기간별 데이터를 보존합니다.
 
 |===
 

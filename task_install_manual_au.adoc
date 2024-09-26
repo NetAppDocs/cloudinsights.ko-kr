@@ -2,26 +2,23 @@
 sidebar: sidebar 
 permalink: task_install_manual_au.html 
 keywords: Acquisition Unit, AU, install, configure, Linux, add, remove, uninstall, delete, deleting, move, moving, manual, AU, Patch 
-summary: AU 소프트웨어가 수동으로 업데이트되도록 Cloud Insights를 구성하여 사용자 환경에 설치된 소프트웨어를 보다 효과적으로 제어할 수 있습니다. 
+summary: Data Infrastructure Insights는 AU 소프트웨어를 수동으로 업데이트하도록 구성하여 환경에 설치된 소프트웨어를 보다 효과적으로 제어할 수 있습니다. 
 ---
 = 획득 장치 소프트웨어 수동 설치
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
-기본적으로 Cloud Insights는 업데이트가 배포되면 자동으로 획득 장치(AU) 소프트웨어를 업데이트합니다. 그러나 보안 제어 환경에서는 자동 업데이트가 불가능하거나 불가능할 수 있습니다.  이러한 경우 AU 소프트웨어를 수동으로 업데이트하도록 Cloud Insights를 구성하여 사용자 환경에 설치된 소프트웨어를 보다 효과적으로 제어할 수 있습니다.
+기본적으로 Data Infrastructure Insights는 업데이트가 배포될 때 AU(Acquisition Unit) 소프트웨어를 자동으로 업데이트합니다. 그러나 보안 제어 환경에서는 자동 업데이트가 불가능하거나 불가능할 수 있습니다. 이 경우 AU 소프트웨어를 수동으로 업데이트하도록 Data Infrastructure Insights를 구성하여 환경에 설치된 소프트웨어를 보다 효과적으로 제어할 수 있습니다.
 
-AU 소프트웨어를 수동으로 다운로드하고 설치하려면 다음 단계를 수행하십시오. Cloud Insights는 이러한 여러 단계에 사용할 수 있는 유용한 Swagger 설명서 페이지를 제공하거나, 고유의 API 스크립트/명령을 사용할 수 있습니다. 관리자 > API 액세스로 이동하고 “API 설명서” 링크를 클릭합니다.
+AU 소프트웨어를 수동으로 다운로드하고 설치하려면 다음 단계를 수행하십시오. Data Infrastructure Insights는 이러한 많은 단계에 사용할 수 있는 유용한 Swagger 문서 페이지를 제공하거나 자체 API 스크립트/명령을 사용할 수 있습니다. 관리자 > API 액세스로 이동하고 “API 설명서” 링크를 클릭합니다.
 
 이 프로세스는 Linux와 Windows에서 유사합니다.
 
@@ -29,7 +26,7 @@ AU 소프트웨어를 수동으로 다운로드하고 설치하려면 다음 단
 
 == Linux에서 새 AU 설치 수행:
 
-. Cloud Insights에서 API 토큰을 생성합니다.
+. Data Infrastructure Insights에서 API 토큰을 생성합니다.
 +
 .. Admin > API Access * 로 이동하여 * + API Access Token * 을 선택합니다.
 +
@@ -47,7 +44,7 @@ AU 소프트웨어를 수동으로 다운로드하고 설치하려면 다음 단
 
 image:Manual_AU_Create_API_Token.png["API 토큰을 생성합니다"]
 
-. Swagger(관리자 > API 액세스 > API 설명서)에서 토큰을 사용하여 Cloud Insights API를 승인합니다
+. Swagger(관리자 > API 액세스 > API Documentation)에서 토큰을 사용하여 Data Infrastructure Insights API를 인증합니다
 +
 .. Swagger 화면의 오른쪽 상단에서 _authorize_를 클릭합니다
 .. 위에서 복사한 토큰을 고객 APIKey 필드에 붙여 넣습니다
@@ -82,7 +79,7 @@ NOTE: 최신 버전을 다운로드하지 않는 경우 NetApp에서 다운로�
 
 IMPORTANT: 다음 단계에서는 임시 토큰을 사용해야 합니다. 위에서 생성한 API 액세스 토큰을 사용하지 마십시오.
 
-. Cloud Insights API 스위거에서 _/au/oneTimeToken_API를 사용하여 일회성 토큰을 생성합니다.
+. Data Infrastructure Insights API Swagger에서 _/au/oneTimeToken_API를 사용하여 일회성 토큰을 생성합니다.
 +
 .. 결과 1회 사용 토큰을 복사합니다.
 
@@ -151,7 +148,7 @@ drwxrwx--- 2 test-user2 test-group-1  4096 Feb 16 10:10 datasources-war-<version
 +
 참고: 다른 사용자 지정 사용자를 사용하여 설치할 계획이라면 그룹 권한이 소유자와 그룹 모두에 대해 읽기 및 쓰기로 설정되어 있는지 확인합니다(chmod 660 ....).
 
-. AU를 다시 시작합니다. Cloud Insights에서 관측성 > 수집기 로 이동하고 Acquisition Units (획득 단위) 탭을 선택합니다. AU의 오른쪽에 있는 "세 개의 점" 메뉴에서 다시 시작 을 선택합니다.
+. AU를 다시 시작합니다. Data Infrastructure Insights에서 관측성 > 수집기 로 이동하고 Acquisition Units 탭을 선택합니다. AU의 오른쪽에 있는 "세 개의 점" 메뉴에서 다시 시작 을 선택합니다.
 
 
 
@@ -194,7 +191,7 @@ drwxrwx--- 2 test-user2 test-group-1  4096 Feb 16 10:10 <patch_file_name>.zip
 +
 참고: 다른 사용자 지정 사용자를 사용하여 설치할 계획이라면 그룹 권한이 소유자와 그룹 모두에 대해 읽기 및 쓰기로 설정되어 있는지 확인합니다(chmod 660 ....).
 
-. AU를 다시 시작합니다. Cloud Insights에서 관측성 > 수집기 로 이동하고 Acquisition Units (획득 단위) 탭을 선택합니다. AU의 오른쪽에 있는 "세 개의 점" 메뉴에서 다시 시작 을 선택합니다.
+. AU를 다시 시작합니다. Data Infrastructure Insights에서 관측성 > 수집기 로 이동하고 Acquisition Units 탭을 선택합니다. AU의 오른쪽에 있는 "세 개의 점" 메뉴에서 다시 시작 을 선택합니다.
 
 
 
@@ -203,7 +200,7 @@ drwxrwx--- 2 test-user2 test-group-1  4096 Feb 16 10:10 <patch_file_name>.zip
 
 UNIX 셸 스크립트를 제공할 경우 획득 장치에서 이를 실행하여 키 관리 시스템에서 * 개인 키 * 및 * 공개 키 * 를 검색할 수 있습니다.
 
-키를 검색하기 위해 Cloud Insights는 스크립트를 실행하고 두 개의 매개 변수(_key id_and_key type_)를 전달합니다. _Key id_를 사용하여 키 관리 시스템의 키를 식별할 수 있습니다. _키 유형 _ 은(는) "public" 또는 "private"입니다. 키 유형이 "public"인 경우 스크립트는 공개 키를 반환해야 합니다. 키 유형이 "private"인 경우 개인 키를 반환해야 합니다.
+키를 검색하기 위해 Data Infrastructure Insights에서 스크립트를 실행하고 두 가지 매개 변수(_key id_and_key type_)를 전달합니다. _Key id_를 사용하여 키 관리 시스템의 키를 식별할 수 있습니다. _키 유형 _ 은(는) "public" 또는 "private"입니다. 키 유형이 "public"인 경우 스크립트는 공개 키를 반환해야 합니다. 키 유형이 "private"인 경우 개인 키를 반환해야 합니다.
 
 키를 다시 획득 장치로 보내려면 스크립트는 키를 표준 출력으로 인쇄해야 합니다. 스크립트는 PRINT_ONLY_THE 키를 표준 출력으로 가져와야 합니다. 다른 텍스트는 표준 출력으로 인쇄해서는 안 됩니다. 요청된 키가 표준 출력으로 인쇄되면 스크립트는 종료 코드가 0인 상태에서 종료되어야 합니다. 다른 반환 코드는 오류로 간주됩니다.
 

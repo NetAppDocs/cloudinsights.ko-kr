@@ -19,7 +19,7 @@ summary: Kubernetes 랜딩 페이지가 설명했습니다
 
 
 [role="lead"]
-Cloud Insights Kubernetes Explorer는 Kubernetes 클러스터의 전반적인 상태 및 사용을 표시하는 강력한 도구이며 사용자는 조사 영역을 쉽게 드릴다운할 수 있습니다.
+Data Infrastructure Insights Kubernetes Explorer는 Kubernetes 클러스터의 전체 상태 및 사용량을 보여주기 위한 강력한 툴이며 조사 영역을 쉽게 드릴다운할 수 있습니다.
 
 대시보드 > Kubernetes Explorer * 를 클릭하면 Kubernetes 클러스터 목록 페이지가 열립니다. 이 개요 페이지에는 사용자 환경의 Kubernetes 클러스터 테이블이 포함되어 있습니다.
 

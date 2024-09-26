@@ -5,17 +5,14 @@ keywords: k8s, pods, clusters, nodes. troubleshooting, planning
 summary: Kubernetes 노드 세부 정보 페이지는 백엔드 PV 및 Pod 스토리지에 대한 통찰력을 제공합니다. 
 ---
 = Kubernetes 노드 세부 정보 페이지
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
@@ -27,9 +24,9 @@ image:KubernetesNodeFiltering.png["필터링을 보여 주는 Kubernetes 노드 
 
 == 노드 Pod 및 영구 볼륨 탐색
 
-Cloud Insights는 Kubernetes 환경의 백엔드 스토리지에 대한 가시성을 제공하므로 Kubernetes Pod 및 PVS(Persistent Volumes)에 대한 통찰력을 얻을 수 있습니다. PV 카운터를 통해 단일 Pod에서 PV로, 그리고 백엔드 스토리지 장치로 가는 모든 방법으로 IOPS, 지연 시간 및 처리량과 같은 PV 카운터를 추적할 수 있습니다.
+Data Infrastructure Insights는 Kubernetes 환경의 백 엔드 스토리지에 대한 가시성을 제공하여 Kubernetes Pod 및 PVS(Persistent Volumes)를 개선합니다. PV 카운터를 통해 단일 Pod에서 PV로, 그리고 백엔드 스토리지 장치로 가는 모든 방법으로 IOPS, 지연 시간 및 처리량과 같은 PV 카운터를 추적할 수 있습니다.
 
-PV 레벨에서 Cloud Insights는 백엔드(PV 유형에 따라 내부 볼륨 또는 볼륨) 용량 정보(합계, 사용, 사용된 비율)와 내부 볼륨 스냅샷 수를 수집합니다. Pod에서 스토리지 수준까지 백엔드 용량과 내부 볼륨 스냅샷 수를 수집합니다.
+PV 수준에서 Data Infrastructure Insights는 백엔드(PV 유형에 따른 내부 볼륨 또는 볼륨) 용량 정보(총 용량, 사용된 용량, 사용된 비율)와 내부 볼륨 스냅샷 수를 수집합니다. Pod에서 스토리지 수준까지 백엔드 용량과 내부 볼륨 스냅샷 수를 수집합니다.
 
 볼륨 또는 내부 볼륨 랜딩 페이지에는 다음 두 개의 표가 표시됩니다.
 

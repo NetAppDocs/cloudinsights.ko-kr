@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: reporting_user_roles.html 
-summary: Cloud Insights 보고를 사용하여 수행할 수 있는 작업은 사용자 역할에 따라 다릅니다. 
+summary: Data Infrastructure Insights Reporting으로 수행할 수 있는 작업은 사용자 역할에 따라 다릅니다. 
 keywords: reporting, cognos, data warehouse, dwh, users, roles, user roles 
 ---
-= Cloud Insights 보고 사용자 역할
+= Data Infrastructure Insights 보고 사용자 역할
 :toc: macro
 :hardbreaks:
 :toclevels: 2
@@ -19,14 +19,14 @@ keywords: reporting, cognos, data warehouse, dwh, users, roles, user roles
 
 
 [role="lead"]
-보고 기능이 있는 Cloud Insights 프리미엄 에디션이 있는 경우 사용자 환경의 모든 Cloud Insights 사용자는 보고 응용 프로그램(즉 Cognos)를 참조하십시오. 메뉴에서 * Reports * 링크를 클릭하면 자동으로 Reporting에 로그인됩니다.
+Data Infrastructure Insights Premium Edition with Reporting이 있는 경우 사용자 환경의 모든 Data Infrastructure Insights 사용자는 보고 애플리케이션(예: Cognos)에 대한 SSO(Single Sign-On)도 로그인할 수 있습니다. 메뉴에서 * Reports * 링크를 클릭하면 자동으로 Reporting에 로그인됩니다.
 
-Cloud Insights의 사용자 역할에 따라 보고 사용자 역할이 결정됩니다.
+Data Infrastructure Insights의 사용자 역할에 따라 보고 사용자 역할이 결정됩니다.
 
 |===
 
 
-| Cloud Insights 역할 | 보고 역할 | 보고 권한 
+| Data Infrastructure Insights 역할 | 보고 역할 | 보고 권한 
 
 
 | 게스트 | 소비자 | 에서는 보고서를 보고 일정을 잡고 실행할 수 있으며 언어 및 표준 시간대와 같은 개인 기본 설정을 설정할 수 있습니다. 소비자는 보고서를 만들거나 관리 작업을 수행할 수 없습니다. 
@@ -88,7 +88,7 @@ Cloud Insights의 사용자 역할에 따라 보고 사용자 역할이 결정�
 == 보고(Cognos) 전자 메일 기본 설정 지정
 
 
-NOTE: Cloud Insights 보고(예: Cognos 응용 프로그램) 내에서 사용자 전자 메일 기본 설정을 변경하는 경우 해당 기본 설정은 현재 세션 _ 에 대해서만 활성화됩니다. Cognos에서 로그아웃했다가 다시 로그인하면 이메일 기본 설정이 재설정됩니다.
+NOTE: Data Infrastructure Insights 보고(즉, Cognos 애플리케이션)에서 사용자 이메일 기본 설정을 변경하면 현재 세션에 대해서만 해당 기본 설정이 활성_됩니다. Cognos에서 로그아웃했다가 다시 로그인하면 이메일 기본 설정이 재설정됩니다.
 
 
 
@@ -111,6 +111,6 @@ image:Reporting_Menu.png["Cognos 왼쪽 상단 메뉴"]
 . 메뉴 오른쪽 상단에서 "복사 또는 이동"을 선택합니다.
 . 팀 내용 _ 에서 새로 만든 폴더로 이동합니다
 . "복사 대상" 또는 "이동 대상" 버튼을 사용하여 새로 만든 폴더에 보고서를 붙여 넣습니다
-. Cognos에서 SSO가 활성화되면 계정을 만드는 데 사용되는 전자 메일 주소를 사용하여 Cloud Insights에 로그인합니다.
+. Cognos에 대해 SSO가 활성화되면 계정을 생성하는 데 사용된 이메일 주소로 Data Infrastructure Insights에 로그인합니다.
 . Cognos 내의 _Team Content_폴더로 이동하고 이전에 저장된 보고서를 다시 _My Content_로 복사 또는 이동합니다.
 

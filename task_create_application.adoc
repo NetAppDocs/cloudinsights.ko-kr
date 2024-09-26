@@ -5,17 +5,14 @@ summary: 필요에 따라 환경 자산에 적용할 애플리케이션을 정�
 keywords: application, create application, 
 ---
 = 응용 프로그램 만들기
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
@@ -28,7 +25,7 @@ keywords: application, create application,
 Cloud Insights를 사용하면 사용 또는 비용 보고와 같은 애플리케이션에 연결된 자산의 데이터를 추적할 수 있습니다.
 
 .단계
-. Cloud Insights 메뉴에서 * 관리 > 응용 프로그램 * 을 클릭합니다.
+. Cloud Insights 메뉴에서 * 관측성 > 보강하기 > 애플리케이션 * 을 클릭합니다. 를 선택합니다
 +
 응용 프로그램 추가 대화 상자가 표시됩니다.
 
