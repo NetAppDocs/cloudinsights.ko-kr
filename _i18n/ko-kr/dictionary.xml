@@ -4282,9 +4282,7 @@
   <block id="34ae1a7b1b914e59ce0a8fde553aaca7" category="list-text">메시지가 나타나면 Agent 또는 Acquisition Unit(획득 장치)을 설치합니다</block>
   <block id="5e80381d4063fd3519fda3181ce1160c" category="list-text">Data Collector를 구성합니다</block>
   <block id="e42dae64f8e80d611352315992a2460d" category="doc">응용 프로그램 만들기</block>
-  <block id="a2f4ff91518afeccf570d0fb794c2f7f" category="paragraph">사용자 환경에서 실행 중인 특정 애플리케이션과 관련된 데이터를 추적하려면 Cloud Insights에서 애플리케이션을 정의할 수 있습니다.</block>
   <block id="598c4639acaf0f3c5a419f9cf865ef56" category="paragraph">애플리케이션을 업무 엔티티에 연결하려면 애플리케이션을 정의하기 전에 업무 엔티티를 생성해야 합니다.</block>
-  <block id="2aa126063928df72d8a5e53cda4a3e12" category="paragraph">Cloud Insights를 사용하면 사용 또는 비용 보고와 같은 애플리케이션에 연결된 자산의 데이터를 추적할 수 있습니다.</block>
   <block id="b32a7920a5087ed62d85b129fb5ce33b" category="list-text">응용 프로그램의 고유한 이름을 입력합니다.</block>
   <block id="c418529bd36204e932f103b225c97cb8" category="list-text">응용 프로그램의 우선 순위를 선택합니다.</block>
   <block id="9bf2dd1afa4d073358de477920a2956b" category="section-title">자산에 애플리케이션 할당</block>
@@ -6055,10 +6053,8 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
   <block id="92726ab5faeb2cb9208eaac9af0346bd" category="doc">사용자 관리</block>
-  <block id="6ebd484a6c09e27c3b5f9d6a61ad9a6a" category="paragraph">Cloud Insights의 사용자 관리 페이지로 전달됩니다.</block>
   <block id="65e164b1fa429ad3c8da14d927b960f7" category="list-text">각 사용자에 대해 원하는 역할을 선택합니다.</block>
   <block id="811b5ad1e386d9637dbe52f536822854" category="paragraph">새 사용자를 추가하는 동안 원하는 역할(일반적으로 사용자 또는 게스트)을 선택하기만 하면 됩니다.</block>
-  <block id="faac345f3f122d78da73c0bf89c5d9f3" category="paragraph">사용자 계정 및 역할에 대한 자세한 내용은 Cloud Insights에서 확인할 수 있습니다 <block ref="3bb7d59230d413058ffce58eae85db7e" category="inline-link-macro-rx"></block> 문서화:</block>
   <block id="6dd8ee72ccf8a331a802250c0bcb10a5" category="summary">Brocade Sphereon/Intrepid 스위치 데이터 수집기 구성</block>
   <block id="5d1930cdfe5bb59530a9a4681d02190e" category="paragraph">이 데이터 수집기를 구성하려면 다음 요구 사항을 충족해야 합니다.</block>
   <block id="37f82cd9715f814b8b75b467641e8d9b" category="list-text">SNMP V1 또는 SNMP V2를 사용하는 경우 읽기 전용 커뮤니티 문자열입니다.</block>
@@ -8407,9 +8403,6 @@
   <block id="fa226e3679ae6b7dab2869292b192728" category="paragraph">APAC 기반 * 워크로드 보안 환경의 경우:</block>
   <block id="2c5dab3d48c104492de8592e45b7fe9f" category="paragraph">작업 환경에 워크로드 보안이 있는 경우 구성된 엔드포인트 URL도 이 목록에 표시됩니다.</block>
   <block id="db2b463a10fb6295be04f3c3bae06fde" category="paragraph">워크로드 보안은 스냅샷 삭제 설정에 따라 하루에 한 번씩 스냅샷을 자동으로 삭제합니다.</block>
-  <block id="1e66f3ea1e335e37bed1a50e1a8bb94c" category="summary">워크로드 보안 사용자 계정은 Cloud Insights 사용자 관리를 통해 관리됩니다</block>
-  <block id="b6ddb5866df8e3256ac245cbce10a9a2" category="paragraph">워크로드 보안 사용자 계정은 Cloud Insights를 통해 관리됩니다.</block>
-  <block id="c407c269e51ab79aa3aca330eca9d8ee" category="paragraph">Cloud Insights는 계정 소유자, 관리자, 사용자 및 게스트의 네 가지 사용자 계정 수준을 제공합니다. 각 계정에는 특정 권한 수준이 할당됩니다. 관리자 권한이 있는 사용자 계정은 사용자를 생성 또는 수정하고 각 사용자에게 다음 워크로드 보안 역할 중 하나를 할당할 수 있습니다.</block>
   <block id="b77a904f25ddc84b77fcb809d8f2f86b" category="cell">워크로드 보안 액세스</block>
   <block id="e234e3c5cb64670391b843b3fc72500e" category="cell">알림, Forensics, 데이터 수집기, 자동화된 응답 정책 및 워크로드 보안을 위한 API를 비롯한 모든 워크로드 보안 기능을 수행할 수 있습니다. 관리자는 다른 사용자를 초대할 수도 있지만 워크로드 보안 역할만 할당할 수 있습니다.</block>
   <block id="5a26acadc0fa5b833d36974bd6536459" category="list-text">워크로드 보안에 로그인합니다</block>
@@ -11528,7 +11521,6 @@ Linux의 경우 다음과 같은 방법으로 디스크 공간을 할당해야 �
   <block id="343a405f2f06197f662e42373c7fb059" category="list-text">SMB 프로토콜 버전 3.1 이하</block>
   <block id="33443a936cc78a75cfb9473405764a37" category="section-title">NetApp 보안 권고</block>
   <block id="eaf8ac7783e69f8aba13d1bece2acbd5" category="paragraph">NetApp의 사용 가능한 보안 보고서를 볼 수 있습니다 <block ref="c748e422d42ad69f84a6f8d804551466" category="inline-link-macro-rx"></block>.</block>
-  <block id="570e0fa2a37c6838af341575ad05aec5" category="summary">필요에 따라 환경 자산에 적용할 애플리케이션을 정의합니다.</block>
   <block id="0f21fa822dc46792cc163d7e77fe6c2c" category="paragraph">이벤트 내보내기 포드의 이름을 검색합니다.</block>
   <block id="9df5220f9f1e94f2849e58be10655af5" category="paragraph">"netapp-ci-event-exporter" 또는 "event-exporter"여야 합니다.  그런 다음 모니터링 에이전트를 편집합니다<block ref="254deec50834604297ddd3caab0d8ce7" prefix=" " category="inline-code"></block>를 입력하고 log_file 의 값을 이전 단계에서 찾은 적절한 이벤트 내보내기 포드 이름을 반영하도록 설정합니다.  보다 구체적으로 log_file을 "/var/log/containers/netapp-ci-event-exporter.log" 또는 "/var/log/containers/event-exporter *.log"로 설정해야 합니다.</block>
   <block id="d8c9294ea12d1c7d12e34008f3ecee39" category="section-title">비밀에 대한 참고 사항</block>
@@ -13332,7 +13324,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="429e5ff0d154ea9f0d8b69e75866a8b4" category="list-text">Query * 를 클릭하고 Data Infrastructure Insights에서 주석이 적용되는 자산을 식별하는 데 사용하는 쿼리를 선택합니다.</block>
   <block id="a1301e0af88fd655ae64d39d2d7a0e93" category="admonition">대규모 Data Infrastructure Insights 환경에서는 주석 규칙을 실행하는 데 시간이 오래 걸리는 것처럼 보일 수 있습니다. 이는 인덱서가 먼저 실행되고 규칙을 실행하기 전에 완료되어야 하기 때문입니다. 인덱서는 Data Infrastructure Insights에서 데이터에서 새 개체 또는 업데이트된 개체 및 카운터를 검색하거나 필터링할 수 있는 기능을 제공합니다. 규칙 엔진은 인덱서가 업데이트를 완료할 때까지 기다렸다가 규칙을 적용합니다.</block>
   <block id="df92eb52ff49723465239116d2f4aed4" category="list-text">Data Infrastructure Insights 메뉴에서 * 관리 &gt; 주석 규칙 * 을 클릭합니다.</block>
-  <block id="0809c964b790df4295890dec5b75e498" category="list-text">Cloud Insights 메뉴에서 * 관측성 &gt; 보강하기 &gt; 애플리케이션 * 을 클릭합니다. 를 선택합니다</block>
   <block id="bd49848e16630c106919628a09948a9c" category="admonition">모니터 및 경고는 모든 Data Infrastructure Insights 에디션에서 사용할 수 있지만 Basic Edition에는 다음 사항이 적용됩니다. * 한 번에 최대 5개의 사용자 지정 모니터만 활성화할 수 있습니다. 5개 이상의 모니터는 에서 생성되거나 _Paused_state로 이동됩니다. * VMDK, 가상 머신, 호스트 및 데이터 저장소 메트릭 모니터는 지원되지 않습니다. 이러한 메트릭에 대해 생성된 모니터가 있는 경우 일시 중지되고 Basic Edition으로 다운그레이드할 때 다시 시작할 수 없습니다.</block>
   <block id="80645013d90d9d1449dffdd829fc24a4" category="paragraph">Data Infrastructure Insights는 귀사의 환경에 다양한 솔루션을 <block ref="c48a3e56f23a81aaf8fad75ccfbc3d89" category="inline-link-macro-rx"></block>제공합니다.</block>
   <block id="a46093383ff280c45e2e0a8cf945ef64" category="paragraph">Data Infrastructure Insights 경고는 사용자 환경의 데이터 포인트와 추세를 강조하도록 설계되었으며, Data Infrastructure Insights를 사용하면 유효한 이메일 주소를 경고 수신자로 입력할 수 있습니다. 보안 환경에서 작업하는 경우 알림을 받는 사람 또는 알림에 액세스할 수 있는 사람을 특히 주의하십시오.</block>
@@ -13438,4 +13429,13 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="5a550f6f445193e3c7e81200a2c9d8de" category="cell">모든 고객 클러스터에서 클러스터를 고유하게 식별하는 자유 텍스트 필드입니다. Data Infrastructure Insights 테넌트 전체에서 고유해야 합니다. 기본값은 고객이 "클러스터 이름" 필드의 UI에 입력하는 것입니다</block>
   <block id="3ea40c0971a5d2af49b6f75088f94403" category="section-title">MetroCluster의 권장 구성</block>
   <block id="eff16f7e2ed55dec2fc30b6481ebf593" category="paragraph">다음은 MetroCluster에 권장됩니다.</block>
+  <block id="f80f3d49464581261837031819491342" category="summary">필요에 따라 사용자 환경의 자산에 적용할 애플리케이션을 정의합니다.</block>
+  <block id="b13c7fc8e7d731532637ee70388e60c6" category="paragraph">사용자 환경에서 실행 중인 특정 애플리케이션과 연결된 데이터를 추적하려면 Data Infrastructure Insights에서 애플리케이션을 정의할 수 있습니다.</block>
+  <block id="ba52eab802a385ced7d6e9782614bf0b" category="paragraph">Data Infrastructure Insights를 사용하면 사용량 또는 비용 보고와 같은 항목에 대한 애플리케이션과 연결된 자산에서 데이터를 추적할 수 있습니다.</block>
+  <block id="91ee28fc3faa982ecdc71598fe7ce8b9" category="list-text">Data Infrastructure Insights 메뉴에서 * 관측성 &gt; 보강하기 &gt; 애플리케이션 * 을 클릭합니다. 를 선택합니다</block>
+  <block id="90fbffa9ff3e21a719cc9451531fc673" category="summary">워크로드 보안 사용자 계정은 Data Infrastructure Insights 사용자 관리를 통해 관리됩니다</block>
+  <block id="6afa550edbd038252585482045e7d48e" category="paragraph">워크로드 보안 사용자 계정은 Data Infrastructure Insights를 통해 관리됩니다.</block>
+  <block id="02598d7e3c811d7e921678ae0729a2a6" category="paragraph">Data Infrastructure Insights는 계정 소유자, 관리자, 사용자 및 게스트의 4가지 사용자 계정 수준을 제공합니다. 각 계정에는 특정 권한 수준이 할당됩니다. 관리자 권한이 있는 사용자 계정은 사용자를 생성 또는 수정하고 각 사용자에게 다음 워크로드 보안 역할 중 하나를 할당할 수 있습니다.</block>
+  <block id="de07c612d573c4710cb7e561e6de98b4" category="paragraph">Data Infrastructure Insights의 사용자 관리 페이지로 전달됩니다.</block>
+  <block id="1c823102aa56424a5f80a9b5c5c2fdff" category="paragraph">사용자 계정 및 역할에 대한 자세한 내용은 Data Infrastructure Insights <block ref="3bb7d59230d413058ffce58eae85db7e" category="inline-link-macro-rx"></block> 설명서를 참조하십시오.</block>
 </blocks>
