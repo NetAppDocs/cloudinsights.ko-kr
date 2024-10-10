@@ -11924,7 +11924,6 @@ InternalVolumes: Rest가 vol0을 더 이상 보고하지 않습니다.
   <block id="12ddfc86083937d7a126f2fd8615aa6b" category="section-title">모듈 평가</block>
   <block id="76064df620f99261dce25de296d7e769" category="paragraph">모듈 평가 * 를 활용할 수도 있습니다. 예를 들어, 인프라 관측성을 이미 구독하고 있지만 Kubernetes를 환경에 추가하고 있는 경우, NetApp Kubernetes 모니터링 운영자를 설치하는 시점부터 Kubernetes 관측성 30일 평가를 자동으로 시작합니다. 평가 기간이 끝날 때까지만 Kubernetes 관측성 관리형 유닛 사용에 대한 요금이 부과됩니다.</block>
   <block id="dcfe192ef3f3cab1ff1183df37b17e47" category="admonition">평가 후 새 관리형 유닛(MU) 사용에 대한 비용이 청구되므로 이에 따라 계획을 세워야 합니다. 모듈 평가가 종료되면 서비스 중단을 방지하기 위해 MU를 더 추가해야 하는 경우 알림이 표시됩니다.</block>
-  <block id="8fe818ace86e2479958161998bd57015" category="paragraph">모듈 평가 중에는 모듈에 사용된 리소스에 대한 MU 사용량이 변경되지 않습니다. 그러나 _Summary_tab에 있는 * Estimator * 를 열어 평가 후 MU 비용이 어떻게 부과되는지 확인하고 향후 필요한 MU의 수를 사용하여 "What if" 시나리오를 연습할 수 있습니다. 추정기를 종료하여 숫자를 재설정합니다.</block>
   <block id="bb2065e29292a8686e6f017d42762298" category="paragraph">고객은 구독당 한 번만 모듈 평가를 받을 수 있습니다.</block>
   <block id="d0016e09a888d8ae5f9a3507bcdda17c" category="paragraph"><block ref="d0016e09a888d8ae5f9a3507bcdda17c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fada1c7705d134b1361677f79eef7e6a" category="list-text">* Count *: 지정된 기간 내에 데이터를 보고한 개체의 _ count_을 표시합니다. 대시보드 시간 범위에 따라 _Entire Time Window_를 선택할 수 있습니다.</block>
@@ -12646,7 +12645,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="267ff18a74a9df19266142dc71925a29" category="section-title">가입 * 이 만료된 경우 어떻게 해야 합니까?</block>
   <block id="5ee83dda0a980eba56098446eee3b5e4" category="admonition">Data Infrastructure Insights 데이터는 유예 기간 후 30일 동안 그대로 유지됩니다. 이 시간 내에 구독을 갱신하면 유예 기간이 경과할 때까지 모든 데이터를 사용할 수 있습니다.</block>
   <block id="ed1fbcb7f668aa56f9f3d98fe312ea0c" category="admonition">A_Module Evaluation_은(는)_Trial_이 아닙니다. - Dell은 고객에게 Data Infrastructure Insights 서비스를 사용하여 적합성 및 구매 가능성을 확인하는 무료 평가판 기간을 제공할 때 이 용어 평가판을 사용합니다. 모듈 평가는 다릅니다. 유료 고객이 최근 몇 달 동안 유료 구독에 사용하지 않았던 Data Infrastructure Insights 모듈을 사용해 볼 수 있도록 하는 것입니다. 평가가 활성화되면 새로 구성된 모듈에 대한 요금이 면제됩니다. 작업 중인 고객 환경은 아직 구독 중이며 무료 평가판으로 전환되지 않았습니다. 구독이 변경되지 않았습니다.</block>
-  <block id="8155adb227486698b8e777b82a8fc369" category="paragraph">Data Infrastructure Insights 인프라 관측성 및 Kubernetes 관측성 은 * Managed Unit * 에 따라 측정됩니다. 관리되는 유닛의 사용은 인프라 환경에서 관리되는 * 호스트 또는 가상 머신 * 수와 * 포맷되지 않은 용량 * 의 양에 따라 계산됩니다.</block>
   <block id="daba1c6ff8590913bcb10d43d3bfcf13" category="admonition">기존 워크로드 보안 서브스크립션의 MU 사용량이 조정되어 노드 사용량이 관리되는 유닛을 소비하지 않습니다. Data Infrastructure Insights는 사용이 허가된 사용에 대한 준수를 보장하기 위해 사용량을 측정합니다.</block>
   <block id="0313fe3f07d732172e3b8700c1cea6f1" category="paragraph">NetApp 세일즈 담당자에게 데이터 인프라 인사이트 * 일련 번호 * 를 제공하여 유료 구독을 데이터 인프라 인사이트 환경에 적용할 수 있도록 해야 합니다. 일련 번호는 Data Infrastructure Insights 평가판 환경을 고유하게 식별하며 * Admin &gt; Subscription * 페이지에서 찾을 수 있습니다.</block>
   <block id="75df7bd83cb6391af3c2bb23c74cb72d" category="admonition">기존 Data Infrastructure Insights 평가판 계정에 AWS Marketplace 구독을 적용하려면 계정 소유자 또는 관리자여야 합니다. 또한 AWS(Amazon Web Services) 계정이 있어야 합니다.</block>
@@ -13441,4 +13439,16 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="d2402cb2e8bc53d6f0ea3a592a927071" category="cell">다음과 유사한 Telegraf의 경고 메시지가 표시됩니다. _W! [input.diskio] "vdc"에 대한 디스크 이름을 수집할 수 없습니다. /dev/vdc 읽기 오류: 해당 파일 또는 디렉토리 _</block>
   <block id="d167beea70a778e86c7a57bc2bd4338a" category="inline-link-macro">오퍼레이터 구성 옵션</block>
   <block id="9de6368f45ca30e61d7d6eb11d0da5a5" category="cell">Kubernetes 모니터링 운영자의 경우 이러한 경고 메시지는 양호하며 무시해도 됩니다. 또는 AgentConfiguration에서 Telegraf 섹션을 편집하고 runPrivileged 를 true 로 설정합니다. 자세한 내용은 를 <block ref="ebda7113c4f0b0fd6090a6c2a6162dc1" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="c2a794ea709fc6031fad37bbb11353ed" category="paragraph">모듈 평가 중에는 모듈에 사용된 리소스에 대한 MU 사용료가 청구되지 않지만 * Estimator * (_Summary_tab)를 열어 평가 후 MU가 청구되는 방식을 확인하고 향후 필요한 MU의 수를 포함하는 "What if" 시나리오를 연습할 수 있습니다. 추정기를 종료하여 숫자를 재설정합니다.</block>
+  <block id="6b3c6b1f0dcfdec2952b9d7ebe9ff11f" category="paragraph">Data Infrastructure Insights 관측성은 다음 두 가지 방식 중 하나로 측정됩니다.</block>
+  <block id="5e787d0212aa58a0466b454df1baca59" category="list-text">용량 측정</block>
+  <block id="662fe1d2a1a3efd75d89fbc577bfbc93" category="list-text">관리 단위 미터링(레거시)</block>
+  <block id="507a2c5714efe8c42af4cb4e8c6a1db9" category="paragraph">구독은 기존 구독이 있는지 또는 새 구독을 시작하는지에 따라 이러한 방법 중 하나로 측정됩니다.</block>
+  <block id="45dfbbe96d29f311a340f91e2da71bef" category="paragraph">Data Infrastructure Insights 관측성 은 사용자 환경의 스토리지 계층에 따라 사용량을 측정합니다. 다음 범주 중 하나 이상에 해당하는 저장소가 있을 수 있습니다.</block>
+  <block id="6e52566e82d306ca143ec27c3c65784e" category="list-text">1차 원시 값</block>
+  <block id="c3a44b5ae4d0db1da47414cf32828287" category="list-text">객체 원시</block>
+  <block id="49a22ea7d938494c1ed0f89b1259e69d" category="list-text">클라우드 소비</block>
+  <block id="9530a67a23d320926f20ff19d1667b8c" category="paragraph">각 계층은 서로 다른 속도로 측정되며, 전체 합계는 _ 유효 권한 _ 을(를) 제공하기 위해 계산됩니다. 유효 사용량을 계산하는 공식은 다음과 같습니다.</block>
+  <block id="f00305fde34ce30d58eb994d36b91d7f" category="admonition">관리되는 유닛의 합계는 요약 섹션의 데이터 수집기 수와 약간 다를 수 있습니다. 관리 단위 수가 가장 가까운 관리 단위로 반올림되기 때문입니다. Data Collector 목록에서 이러한 숫자의 합계는 상태 섹션의 총 관리 단위 수보다 약간 높을 수 있습니다. 요약 섹션에는 구독에 대한 실제 관리 단위 수가 반영됩니다. 이를 지원하기 위해 DII는 _subscribed_quantities를 기준으로 단일 * 유효 권한 * 번호를 계산합니다. 그런 다음 _discovered_storage를 기준으로 동일한 수를 계산하고 유효 용량이 유효 권한보다 큰 경우에만 위반을 선언합니다. 따라서 각 계층에 대해 구독된 양과는 다른 수량을 유연하게 모니터링할 수 있습니다. DII에서는 검색된 총 스토리지가 구독된 유효 사용 권한 내에 있는 동안 이러한 수량을 모니터링할 수 있습니다.</block>
+  <block id="f2dddeb36ea97f1d320b0c83ef58c28c" category="paragraph">Data Infrastructure Insights 인프라 관측성 및 Kubernetes 관측성 수는 * 관리형 유닛 * 당 사용량을 측정합니다. 관리되는 유닛의 사용은 인프라 환경에서 관리되는 * 호스트 또는 가상 머신 * 수와 * 포맷되지 않은 용량 * 의 양에 따라 계산됩니다.</block>
 </blocks>
