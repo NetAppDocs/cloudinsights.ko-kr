@@ -239,7 +239,7 @@ ONTAP SVM 구성 페이지가 표시됩니다. 각 필드에 필요한 데이터
 
 == 서비스 정책
 
-ONTAP 버전 9.9.1의 서비스 정책을 사용하는 경우 데이터 소스 수집기에 연결하려면 데이터 서비스 _data-nfs_ 및/또는 _data-cifs_와 함께 _data-fPolicy-client_service가 필요합니다.
+ONTAP* 버전 9.9.1 이상 * 과 함께 서비스 정책을 사용하는 경우 데이터 소스 수집기에 연결하려면 _data-FPolicy-client_service가 data service_data-nfs_ 및 /or_data-cifs_와 함께 필요합니다.
 
 예:
 
