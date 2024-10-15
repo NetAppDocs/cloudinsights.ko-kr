@@ -4,8 +4,7 @@ permalink: concept_cs_api.html
 keywords: api, access, token, swagger 
 summary: 워크로드 보안에는 CMDB와 같은 다른 애플리케이션과의 통합을 위한 강력한 API가 포함됩니다. 
 ---
-= 워크로드 보안 API
-:hardbreaks:
+= 워크로드 보안 API: 파손:
 :allow-uri-read: 
 :nofooter: 
 :icons: font

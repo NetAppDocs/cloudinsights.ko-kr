@@ -4,13 +4,12 @@ permalink: cs_alert_data.html
 keywords: alert, attack, ransomware, activity, security, abnormal 
 summary: 워크로드 보안은 비정상적인 사용자 활동이나 잠재적인 공격 발생 시 알림을 생성합니다. 경고 페이지에는 빠르고 쉽게 조사할 수 있도록 이러한 활동이 나열됩니다. 
 ---
-= 경고
-:hardbreaks:
+= 알림:하드브레이크:
 :allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media
+:imagesdir: ./media/
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: data collector, ONTAP, NetApp, SVM, cloud ontap, firewall
 summary: 워크로드 보안 데이터 수집기 추가 
 ---
 = ONTAP SVM Data Collector 구성
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

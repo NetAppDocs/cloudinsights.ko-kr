@@ -1,0 +1,109 @@
+---
+sidebar: sidebar 
+permalink: infrastructure_change_analytics.html 
+keywords: changes, management, analysis, infra, infrastructure 
+summary: Cloud Insights는 인프라 변경 사항을 추적하여 분석과 문제 해결이 용이합니다. 
+---
+= 인프라 변경 분석
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+인프라 변경 분석을 사용하면 환경의 인프라(스토리지, 스위치 등)에 대한 최근 변경사항을 한눈에 파악할 수 있습니다. 변경 분석을 사용하면 구성 변경을 추적하고 예상 문제와 예상치 못한 문제를 모두 상세하게 파악할 수 있습니다.
+
+
+
+== 인프라 변경 분석은 어떻게 도움이 됩니까?
+
+어떤 환경에서든 잘못 구성된 변경, 전원 손실 등으로 인해 스토리지 또는 장치가 변경될 수 있습니다. Change Analytics는 단일 창을 통해 장치 상태를 보고 가동 중단이나 계획된 변경과 상호 연관시킬 수 있도록 지원합니다. 변경 사항은 각 재고 폴링(새 수집기의 첫 번째 폴링 이후)에서 계산됩니다.
+
+인프라 변경을 분석하려면 * 관측성 > Change Analysis * 로 이동합니다. 현재 시간 범위에 대한 알림 및 구성 변경 사항이 나열됩니다. 경고 행에는 현재 경고 상태(활성 또는 해결됨)가 표시됩니다.
+
+image:infraChange_list_example.png["인프라 변경 분석 기본 화면"]..
+
+목록에서 항목을 선택하면 경고 또는 변경에 대한 세부 정보를 제공하는 슬라이드 아웃 창이 열립니다.
+
+image:infraChange_config_detail.png["구성 변경 세부 정보 창의 예"]
+
+
+
+== 필터링
+
+Cloud Insights의 모든 기능과 마찬가지로 변경 목록을 필터링하는 것도 직관적입니다. 페이지 상단에서 특정 자산 유형(_triggered on: type_)을 필터링하거나 원하는 경우 특정 이름의 자산만 필터링하거나(_triggered on: name_) {+] 버튼을 선택하여 필터를 추가할 수 있습니다.
+
+image:infraChange_filter_dropdown.png["인프라 변경 필터링 드롭다운"]
+
+필터 설정 아래의 상태 섹션에서 주요 알림 또는 변경 사항으로 바로 이동할 수도 있습니다. 여기에는 알림이 가장 많은 현재 상위 3개 리소스가 포함됩니다.
+
+image:Change_Analysis_filters_and_status.png["알림 및 변경 사항에 대한 상태 및 빠른 링크"]
+
+
+
+== 어떤 객체가 변경 사항을 분석합니까?
+
+다음 표에는 인프라 변경 분석에 포함된 개체와 특성이 나열되어 있습니다.
+
+|===
+
+
+| 개체 유형 | 속성 | 확장 속성 
+
+
+| 디스크 | diskSize.total isVirtual diskGroup 속도 유형 위치 일련 번호 역할 상태 공급업체 모델 storage.name storagePools.name 이름입니다 | 암호화 
+
+
+| 스토리지 | datasources.name 제품군 IP IsActive 마이크로 코드 버전 모델 이름 프로토콜 SerialNumber 공급업체 |  
+
+
+| 스토리지노드 | 이름 storage.name nodeVersion 모델 SerialNumber numberOfProcessors 상태 partner.name 캐시 메모리입니다 | 관리 IpAddresses parentSerialNumber SiteName 
+
+
+| 스토리지 풀 | 이름 유형 isAutoTiering 가상화 이중화 공급업체FlashPools storage.vendor storage.ip storage.model storage.family storage.name storageNodes.name capacity.total(동적 특성) | isCompactionSavingsEnabled isEncrypted objectStoreName objectStoreProviderType objectStoreSizeLimit objectStoreTieringFullnessThreshold objectStoreS3Name objectStoreServer입니다 
+
+
+| qtree입니다 | datasources.name securityStyle isOplocksEnabled shares.name storage.name internalVolume.storagePool.name internalVolume.name storageVirtualMachine.name internalVolume.virtualStorage simpleName StatusText 이름을 입력합니다 |  
+
+
+| 스토리지가상머신 | 이름 storage.name 상태 유형 IPspace 프로토콜 internalVolumeLimit 주석 |  
+
+
+| 볼륨 | 이름 simpleName label type storage.name storage.vendor storage.ip storage.model storage.family isAutoTiering isThinProvisioned diskGroup isMainframe ismeta isReplicaSource isSnapshot isVirtual internalVolume.name storagePools.usesFlashPools internalVolume.virtualStorage storageNodes.name storageNodes.partner.name storageVirtualMachine.name storagePools.minDiskSize.total storagePools.minDiskSpeed storagePools.name storagePools.minDiskPools. storagePools. storagePools. storagePools. storagePools | storageGroups isEncrypted isCompressionEnabled qosBurstIOPS qosLimitIOPS qosLimitMBPS qosMinIOPS qosPolicy qosLimitRaw 
+
+
+| 내부 볼륨 | flashPoolEligibility name simpleName spaceGuarantee 상태 유형 virtualStorage replicaSources.name storageNodes.name storageNodes.partner.name storageVirtualMachine.name StoragePool.diskSize.total storagePool.usesFlashPools storage.vendor storage.ip storage.model storage.famage.speed storagePool.name StoragePool.disks.type storage.name capacity.isThinProvisioned | qosPolicy qosLimitRaw qosLimitIOPS qosLimitMBPS 코멘트 암호화 adaptiveQosPolicy junctionPath objectStoreTieringPolicy tieringMinimumCoolingDays 
+
+
+| 가상머신 | 이름 dnsName IP OS 메모리 프로세서 guestState powerState host.name host.clusterName host.ip host.os dataStore.name | instanceType publicIps securityGroups virtualCenterIp 
+
+
+| 데이터 저장소 | 이름 virtualCenterIp | 유형 
+
+
+| 호스트 | 이름 모델 IP IsActive OS 제조업체 cpuCount 메모리 isHypervisor 클러스터 이름 | 가상화 센터 Ip 
+
+
+| VMDK(VirtualMachineDisk) | 이름 형식은 dataStore.name isRdm virtualMachine.host.name virtualMachine.name 입니다 | 스냅샷 
+
+
+| 포트 | 이름 IsActive WWN 유형 portIndex 블레이드 속도 gbicType connectedPorts.device.name connectedPorts.device.type connectedPorts.name connectedPorts.nodeWwn connectedPorts.wwn controller device.name device. type fabrics.name fabilities.vsanId nodeWwn | 설명 
+|===
+<<<<<head Data Infrastructure Insights에는 다음 로그에 대해 생성된 경고와 변경 사항이 나열됩니다.
+
+[]
+====
+Data Infrastructure Insights에는 다음 로그에 대해 생성된 경고 및 변경 사항이 나열됩니다.>>>>>> 2d5e94be3615a400bce1e7a050d2d523c06b5b8
+
+* 로그.vmware.events
+* Logs.NetApp.EMS 를 참조하십시오
+
+
+메트릭 모니터는 위 목록에서 개체 및 속성을 조사합니다. Change Analytics가 추적하려면 모니터에서 _Group by_option에서 이 옵션을 선택해야 합니다.
+
+====

@@ -4,13 +4,12 @@ permalink: cs_restrict_user_access.html
 keywords: alert, snapshot,  attack 
 summary: 워크로드 보안을 사용하면 사보타업 혐의가 있는 경우 사용자 액세스를 제한할 수 있습니다 
 ---
-= 사용자 액세스 차단
-:hardbreaks:
+= 사용자 액세스 차단: 하드브레이크:
 :allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media
+:imagesdir: ./media/
 
 
 [role="lead"]
