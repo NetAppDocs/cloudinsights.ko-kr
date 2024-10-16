@@ -18,31 +18,7 @@ summary: Data Infrastructure Insights API를 사용하면 모니터링 및 보�
 [role="lead"]
 Data Infrastructure Insights API를 사용하면 NetApp 고객 및 독립 소프트웨어 공급업체(ISV)가 CMDB 또는 기타 티켓팅 시스템과 같은 다른 애플리케이션과 Data Infrastructure Insights를 통합할 수 있습니다.
 
-Data Infrastructure Insights API는 현재 에디션을 기반으로 사용할 수 있습니다.
-
-[cols="<,^s,^s,^s"]
-|===
-| API 유형 | 기본 | 표준 | 프리미엄 
-
-
-| 획득 장치 | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] 
-
-
-| 데이터 수집 | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] 
-
-
-| 경고 |  | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] 
-
-
-| 자산 |  | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] 
-
-
-| 데이터 수집 |  | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] 
-
-
-| 로그 수집 |  | image:SmallCheckMark.png["체크 표시"] | image:SmallCheckMark.png["체크 표시"] 
-|===
-또한 Data Infrastructure Insightslink:https://docs.netapp.com/us-en/cloudinsights/concept_user_roles.html#permission-levels["기능 세트 역할"]에 따라 액세스 가능한 API가 결정됩니다. 사용자 및 게스트 역할은 관리자 역할보다 권한이 적습니다. 예를 들어 Monitor and Optimize에서 관리자 역할이 있지만 Reporting에서 사용자 역할은 데이터 웨어하우스를 제외한 모든 API 유형을 관리할 수 있습니다.
+Data Infrastructure Insightslink:https://docs.netapp.com/us-en/cloudinsights/concept_user_roles.html#permission-levels["기능 세트 역할"]에 따라 액세스할 수 있는 API가 결정됩니다. 사용자 및 게스트 역할은 관리자 역할보다 권한이 적습니다. 예를 들어 Monitor and Optimize에서 관리자 역할이 있지만 Reporting에서 사용자 역할은 데이터 웨어하우스를 제외한 모든 API 유형을 관리할 수 있습니다.
 
 
 

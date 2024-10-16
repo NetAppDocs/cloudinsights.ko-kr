@@ -6483,7 +6483,6 @@
   <block id="3d64508ab84203107071583e56c26993" category="list-text">Broadcom Fibre Channel 스위치 데이터 수집기는 각 인벤토리 폴링에서 실행되는 CLI 명령 수를 줄이도록 최적화되었습니다.</block>
   <block id="ceecc9f892b56b1081be5d007d545aab" category="cell">보고 API 토큰 관리, 보고서 구성, 보고 작업 종료 및 재시작 등의 모든 관리 작업을 포함한 모든 사용자/작성자 기능을 수행할 수 있습니다. 관리자는 다른 사용자를 초대할 수도 있지만 보고 역할만 할당할 수 있습니다.</block>
   <block id="45268bdcc9ffe3a5807e75085e768efb" category="cell">API 유형</block>
-  <block id="c73695e7529146d82731a287d36e3f1d" category="cell">로그 수집</block>
   <block id="dc1a2dd04ef0a485bbca321805f8ea84" category="inline-link-macro">기능 세트 역할</block>
   <block id="990550983c2107ed5ccd87b4a6690b0a" category="inline-image-macro">API 유형</block>
   <block id="e86bb8cbf77ec00646c7b5fe6b42e633" category="paragraph"><block ref="e86bb8cbf77ec00646c7b5fe6b42e633" category="inline-image-macro-rx" type="image"></block></block>
@@ -12988,8 +12987,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="30accaf6a3626f10ec929da93cbf92a5" category="summary">Data Infrastructure Insights API를 사용하면 모니터링 및 보고 시스템과 같은 다른 애플리케이션과 통합할 수 있습니다.</block>
   <block id="6d6db1bb67f06328b211ea82a7f47cbd" category="doc">Data Infrastructure Insights API를 참조하십시오</block>
   <block id="eac3abc77b1aae81a7bfc1ff05078f3c" category="paragraph">Data Infrastructure Insights API를 사용하면 NetApp 고객 및 독립 소프트웨어 공급업체(ISV)가 CMDB 또는 기타 티켓팅 시스템과 같은 다른 애플리케이션과 Data Infrastructure Insights를 통합할 수 있습니다.</block>
-  <block id="4ca8e0cdf82e94476f54fca7c9b08a02" category="paragraph">Data Infrastructure Insights API는 현재 에디션을 기반으로 사용할 수 있습니다.</block>
-  <block id="78b105b7e2a3c96f1ef28d2a96f59830" category="paragraph">또한 Data Infrastructure Insights<block ref="ca56f933f1431ce18e092150c84b745d" category="inline-link-macro-rx"></block>에 따라 액세스 가능한 API가 결정됩니다. 사용자 및 게스트 역할은 관리자 역할보다 권한이 적습니다. 예를 들어 Monitor and Optimize에서 관리자 역할이 있지만 Reporting에서 사용자 역할은 데이터 웨어하우스를 제외한 모든 API 유형을 관리할 수 있습니다.</block>
   <block id="da9fb37ca66951f2715562f74dd167af" category="list-text">API 토큰 관리는 관리자 역할을 가진 Data Infrastructure Insights 사용자가 수행합니다.</block>
   <block id="e72088ab32f20f058f4f46fe9cad2b0c" category="paragraph">최신 API 정보는 Data Infrastructure Insights에 로그인하여 * Admin &gt; API acccess * 로 이동하여 확인할 수 있습니다. API Documentation * 링크를 클릭합니다.</block>
   <block id="30a47f88beaa0845897dd8164cdcdd08" category="paragraph">API 설명서는 Swagger 기반의 API에 대한 간단한 설명과 사용 정보를 제공하며, 사용자 환경에서 사용할 수 있습니다. 사용자 역할 및/또는 Data Infrastructure Insights 버전에 따라 사용 가능한 API 유형이 다를 수 있습니다.</block>
@@ -13082,7 +13079,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="d0666b8b7ae744d105cb544ddc03d8c8" category="list-text">Data Infrastructure Insights _ 을(를) 제품 라인으로 선택합니다. 청구 공급자(NetApp 또는 AWS)를 선택하고 Data Infrastructure Insights 사용자 인터페이스의 "도움말 &gt; 지원" 메뉴를 참조하여 일련 번호와 NetApp 구독 이름 또는 AWS 고객 ID를 제공하십시오.</block>
   <block id="d41c7a89c53943f7c86e80fe6a27b4dc" category="list-text">또한 새로운 NetApp 고객은 NSS(NetApp Support Site) 사용자 계정을 생성하여 향후 등록을 해야 하며 기술 지원 채팅 및 웹 티켓 지원을 위한 지원 포털에 액세스해야 합니다. 이 링크는 에<block ref="4b0df7f6652ef877e322a199d6b6edce" category="inline-link-rx"></block>있습니다. 프로세스를 신속하게 처리하기 위해 새로 등록된 Data Infrastructure Insights 일련 번호를 제공할 수 있습니다.</block>
   <block id="3757ee6dbdcabe2780104f98224939d5" category="list-text">Data Infrastructure Insights NetApp 일련 번호는 1회 등록입니다.</block>
-  <block id="1c571e65fbdab33b85ec4c8a56603087" category="paragraph">NetApp는 다양한 방식으로 데이터 인프라 인사이트를 지원합니다. 기술 자료(KB) 기사 또는 NetApp 커뮤니티 등 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. Data Infrastructure Insights 에디션(Basic *, Standard, Premium)을 구독하는 사용자의 경우 전화 또는 웹 티켓팅을 통해 기술 지원을 받을 수 있습니다. NSS(NetApp Support Site) SSO 계정은 케이스 관리와 함께 웹 티켓에 필요합니다.</block>
   <block id="6d1e73b5dbcd7708fd39eecb9fec99a8" category="paragraph">커뮤니티 링크를 클릭하면 NetApp Data Infrastructure Insights 커뮤니티로 이동하여 동료 및 전문가와 교류할 수 있습니다.</block>
   <block id="adbe0a8623b0464eb83d4da31c8e858e" category="paragraph"><block ref="845d40e8369612c1d8dd285f0ebc254e" category="inline-link-macro-rx"></block>데이터 인프라 인사이트를 개선하는 데 도움이 되는 링크도 있습니다.</block>
   <block id="24b17ddd1757d7b4e6373b656d50555a" category="paragraph">위의 자체 지원 옵션 외에도, 모니터링되는 NetApp 제품 또는 서비스에 대해 Data Infrastructure Insights에 가입하거나 유료 지원이 있는 경우 NetApp 지원 엔지니어와 협력하여 문제를 해결할 수 있습니다.</block>
@@ -13510,4 +13506,7 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="89a6e68ed7edbbdfb7886ea0a445b999" category="doc">NetApp ONTAP REST 데이터 수집기:하드브레이크:</block>
   <block id="56868b2777c66c74c7926c97d5cbfc1e" category="doc">워크로드 보안 에이전트 및 수집기 수동 설치: 하드브레이크:</block>
   <block id="11ad95cf52a6f6d0f02121ba7f3398ce" category="admonition">보고 권한 또는 보안을 변경하기 전에 "내 콘텐츠" 보고서를 "팀 콘텐츠" 폴더에 복사하여 보고서가 저장되도록 해야 합니다.</block>
+  <block id="7d18259ee7e2ef822cedec281a19a33d" category="paragraph">Data Infrastructure Insights<block ref="ca56f933f1431ce18e092150c84b745d" category="inline-link-macro-rx"></block>에 따라 액세스할 수 있는 API가 결정됩니다. 사용자 및 게스트 역할은 관리자 역할보다 권한이 적습니다. 예를 들어 Monitor and Optimize에서 관리자 역할이 있지만 Reporting에서 사용자 역할은 데이터 웨어하우스를 제외한 모든 API 유형을 관리할 수 있습니다.</block>
+  <block id="1f3c67de4e7c07c414ec4689b1724561" category="paragraph">NetApp는 다양한 방식으로 데이터 인프라 인사이트를 지원합니다. 기술 자료(KB) 기사 또는 NetApp 커뮤니티 등 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. Data Infrastructure Insights에 가입한 사용자의 경우 전화 또는 웹 티켓을 통해 기술 지원을 받을 수 있습니다. NSS(NetApp Support Site) SSO 계정은 케이스 관리와 함께 웹 티켓에 필요합니다.</block>
+  <block id="3b2314bf0168715cc6642c0246916477" category="paragraph">많은 NetApp 오퍼링에서 Data Infrastructure Insights Basic Edition이 패키지의 일부로 포함됩니다. Premium Edition으로 업그레이드하려면 영업 담당자에게 문의하십시오.</block>
 </blocks>

@@ -75,9 +75,11 @@ image:SupportPage_SN_Section-NA.png["SN_화면"]
 
 == 지원 정보 얻기
 
-NetApp는 다양한 방식으로 데이터 인프라 인사이트를 지원합니다. 기술 자료(KB) 기사 또는 NetApp 커뮤니티 등 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. Data Infrastructure Insights 에디션(Basic *, Standard, Premium)을 구독하는 사용자의 경우 전화 또는 웹 티켓팅을 통해 기술 지원을 받을 수 있습니다. NSS(NetApp Support Site) SSO 계정은 케이스 관리와 함께 웹 티켓에 필요합니다.
+NetApp는 다양한 방식으로 데이터 인프라 인사이트를 지원합니다. 기술 자료(KB) 기사 또는 NetApp 커뮤니티 등 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. Data Infrastructure Insights에 가입한 사용자의 경우 전화 또는 웹 티켓을 통해 기술 지원을 받을 수 있습니다. NSS(NetApp Support Site) SSO 계정은 케이스 관리와 함께 웹 티켓에 필요합니다.
 
 모든 NetApp 스토리지 시스템에 적어도 프리미엄 지원 수준이 적용되는 한 * Support는 Basic Edition에서 제공됩니다.
+
+많은 NetApp 오퍼링에서 Data Infrastructure Insights Basic Edition이 패키지의 일부로 포함됩니다. Premium Edition으로 업그레이드하려면 영업 담당자에게 문의하십시오.
 
 
 
