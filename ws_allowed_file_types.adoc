@@ -5,12 +5,7 @@ keywords: workload security, cloud secure, include list, allowed, file types, ra
 summary: 허용된 파일 형식 목록에 파일 확장명을 추가하여 경고를 줄입니다. 
 ---
 = 허용된 파일 형식 정책
-:hardbreaks:
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ./media/
 
 
 [role="lead"]

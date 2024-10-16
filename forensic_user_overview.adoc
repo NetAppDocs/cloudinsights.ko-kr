@@ -4,7 +4,8 @@ permalink: forensic_user_overview.html
 keywords: Forensic, user, user, activity 
 summary: 포렌식 사용자 세부 정보 
 ---
-= 포렌식 사용자 개요: 하드브레이크:
+= Forensic 사용자 개요
+:hardbreaks:
 :allow-uri-read: 
 :nofooter: 
 :icons: font

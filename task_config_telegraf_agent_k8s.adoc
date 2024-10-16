@@ -4,7 +4,8 @@ permalink: task_config_telegraf_agent_k8s.html
 keywords: kubernetes, Kubernetes, k8s, telegraf, installation, install, agent, telegraf agent, eks, operator 
 summary: Kubernetes 모니터링 운영자는 Data Infrastructure Insights에 사용할 Kubernetes 데이터를 수집합니다. 
 ---
-= Kubernetes Monitoring Operator 설치 및 구성: 하드브레이크:
+= Kubernetes Monitoring Operator 설치 및 구성
+:hardbreaks:
 :toclevels: 2
 :allow-uri-read: 
 :nofooter: 
@@ -258,11 +259,6 @@ NetApp 모니터링 오퍼레이터 설치 타일에서 "이미지 풀 스니펫
 네트워크 성능 및 맵
 
 * CI-NET-관찰자
-
-
-변경 분석
-
-* ci-k8s-변경 관찰자
 
 
 회사 정책에 따라 운영 Docker 이미지를 프라이빗/로컬/엔터프라이즈 Docker 저장소로 밀어 넣습니다. 리포지토리에 있는 이러한 이미지에 대한 이미지 태그와 디렉터리 경로가 Data Infrastructure Insights 리포지토리에 있는 이미지와 일치하는지 확인합니다.

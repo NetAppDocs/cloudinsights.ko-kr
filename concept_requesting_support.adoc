@@ -5,14 +5,17 @@ summary: 기술 자료 문서를 보거나 NetApp 커뮤니티에 연결하거�
 keywords: support, knowledgebase, documentation, community, chat, videos, help, contact, intercom 
 ---
 = 지원을 요청하는 중입니다
+:toc: macro
 :hardbreaks:
 :toclevels: 2
 :allow-uri-read: 
+:toc: 
 :toclevels: 2
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
+:toc-position: content
 
 
 

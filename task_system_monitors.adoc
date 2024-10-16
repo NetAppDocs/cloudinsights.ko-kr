@@ -5,14 +5,17 @@ keywords: monitors, alerts, log, metric
 summary: 성능 또는 인벤토리 임계값과 메트릭 또는 로그 조건에 대해 경고하는 모니터를 생성합니다. 
 ---
 = 시스템 모니터
+:toc: macro
 :hardbreaks:
 :toclevels: 2
 :allow-uri-read: 
+:toc: 
 :toclevels: 2
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
+:toc-position: content
 
 
 [role="lead"]

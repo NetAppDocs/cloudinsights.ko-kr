@@ -13441,72 +13441,14 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="f00305fde34ce30d58eb994d36b91d7f" category="admonition">관리되는 유닛의 합계는 요약 섹션의 데이터 수집기 수와 약간 다를 수 있습니다. 관리 단위 수가 가장 가까운 관리 단위로 반올림되기 때문입니다. Data Collector 목록에서 이러한 숫자의 합계는 상태 섹션의 총 관리 단위 수보다 약간 높을 수 있습니다. 요약 섹션에는 구독에 대한 실제 관리 단위 수가 반영됩니다. 이를 지원하기 위해 DII는 _subscribed_quantities를 기준으로 단일 * 유효 권한 * 번호를 계산합니다. 그런 다음 _discovered_storage를 기준으로 동일한 수를 계산하고 유효 용량이 유효 권한보다 큰 경우에만 위반을 선언합니다. 따라서 각 계층에 대해 구독된 양과는 다른 수량을 유연하게 모니터링할 수 있습니다. DII에서는 검색된 총 스토리지가 구독된 유효 사용 권한 내에 있는 동안 이러한 수량을 모니터링할 수 있습니다.</block>
   <block id="f2dddeb36ea97f1d320b0c83ef58c28c" category="paragraph">Data Infrastructure Insights 인프라 관측성 및 Kubernetes 관측성 수는 * 관리형 유닛 * 당 사용량을 측정합니다. 관리되는 유닛의 사용은 인프라 환경에서 관리되는 * 호스트 또는 가상 머신 * 수와 * 포맷되지 않은 용량 * 의 양에 따라 계산됩니다.</block>
   <block id="4cb8e0d8b1d299b402fd5ddce7d39cd5" category="paragraph">ONTAP* 버전 9.9.1 이상 * 과 함께 서비스 정책을 사용하는 경우 데이터 소스 수집기에 연결하려면 _data-FPolicy-client_service가 data service_data-nfs_ 및 /or_data-cifs_와 함께 필요합니다.</block>
-  <block id="fcef7a70b7e9119c20e30e9ab1556015" category="paragraph">회사 환경에서 사용되는 애플리케이션을 이해하면 자산 사용량과 비용을 추적할 수 있습니다.</block>
-  <block id="159323715ecc1d8fcad837d9c9c4d406" category="doc">워크로드 보안 API: 파손:</block>
-  <block id="48e1b88553e176ff4b0d72847caa479e" category="doc">알림:하드브레이크:</block>
-  <block id="32cefbb29da0cc11665c898601ad0126" category="doc">자동화된 대응 정책: 하드브레이크:</block>
-  <block id="04b7ceed12fc64983e08bfb1ca5c75c8" category="doc">사용자 액세스 차단: 하드브레이크:</block>
-  <block id="0fbc3e2fe123644bc4fb286ec3eba14e" category="doc">포렌식 사용자 개요: 하드브레이크:</block>
-  <block id="a6a9e422cc6712614bdeb1c7c082055f" category="summary">Cloud Insights는 인프라 변경 사항을 추적하여 분석과 문제 해결이 용이합니다.</block>
-  <block id="d649532ab115aad7a384e236d1028844" category="doc">인프라 변경 분석</block>
-  <block id="997466d044b252bcf172645985a47372" category="paragraph">인프라 변경 분석을 사용하면 환경의 인프라(스토리지, 스위치 등)에 대한 최근 변경사항을 한눈에 파악할 수 있습니다. 변경 분석을 사용하면 구성 변경을 추적하고 예상 문제와 예상치 못한 문제를 모두 상세하게 파악할 수 있습니다.</block>
-  <block id="2309f522d85e82b60b3b59f8e753778b" category="section-title">인프라 변경 분석은 어떻게 도움이 됩니까?</block>
-  <block id="3216da7ed32569fc5fa15ade122a1b26" category="paragraph">어떤 환경에서든 잘못 구성된 변경, 전원 손실 등으로 인해 스토리지 또는 장치가 변경될 수 있습니다. Change Analytics는 단일 창을 통해 장치 상태를 보고 가동 중단이나 계획된 변경과 상호 연관시킬 수 있도록 지원합니다. 변경 사항은 각 재고 폴링(새 수집기의 첫 번째 폴링 이후)에서 계산됩니다.</block>
-  <block id="1c6509b652f7545660bff48c66566fec" category="paragraph">인프라 변경을 분석하려면 * 관측성 &gt; Change Analysis * 로 이동합니다. 현재 시간 범위에 대한 알림 및 구성 변경 사항이 나열됩니다. 경고 행에는 현재 경고 상태(활성 또는 해결됨)가 표시됩니다.</block>
-  <block id="48bbecb173ed1c0caf1522961ed271c1" category="inline-image-macro">인프라 변경 분석 기본 화면</block>
-  <block id="06d8bb0704add4e2715c22018e610f73" category="paragraph"><block ref="197eeda000b01cb315c8b2c17a24ba41" category="inline-image-macro-rx" type="image"></block>..</block>
-  <block id="f20ff884eb3f78de6a242bafa4e10807" category="paragraph">목록에서 항목을 선택하면 경고 또는 변경에 대한 세부 정보를 제공하는 슬라이드 아웃 창이 열립니다.</block>
-  <block id="87349240d4ace40c54355981baaf30a6" category="inline-image-macro">구성 변경 세부 정보 창의 예</block>
-  <block id="3e1b7ed4f9a6d715199155e12807fd85" category="paragraph"><block ref="3e1b7ed4f9a6d715199155e12807fd85" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4c492a69b6ced7c7862c68bf201a27f8" category="paragraph">Cloud Insights의 모든 기능과 마찬가지로 변경 목록을 필터링하는 것도 직관적입니다. 페이지 상단에서 특정 자산 유형(_triggered on: type_)을 필터링하거나 원하는 경우 특정 이름의 자산만 필터링하거나(_triggered on: name_) {+] 버튼을 선택하여 필터를 추가할 수 있습니다.</block>
-  <block id="3d18ed1b0765c3ff3a8b70a5e01f1145" category="inline-image-macro">인프라 변경 필터링 드롭다운</block>
-  <block id="39aef14303366c760b69423a359db8c5" category="paragraph"><block ref="39aef14303366c760b69423a359db8c5" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3c23c4d2f8805d5407d1c75a5768fb8a" category="paragraph">필터 설정 아래의 상태 섹션에서 주요 알림 또는 변경 사항으로 바로 이동할 수도 있습니다. 여기에는 알림이 가장 많은 현재 상위 3개 리소스가 포함됩니다.</block>
-  <block id="25f02ce36b100468e64ed54f3c3363ee" category="inline-image-macro">알림 및 변경 사항에 대한 상태 및 빠른 링크</block>
-  <block id="882b696f70983281eeb19bc55ebc780c" category="paragraph"><block ref="882b696f70983281eeb19bc55ebc780c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="50bcf8de16583b6a1faf9be5623c2cba" category="section-title">어떤 객체가 변경 사항을 분석합니까?</block>
-  <block id="f7ebe84da89ad9a2837d074c206d9a87" category="paragraph">다음 표에는 인프라 변경 분석에 포함된 개체와 특성이 나열되어 있습니다.</block>
-  <block id="f2eefee9325c4a73a639ac4e71a791da" category="cell">확장 속성</block>
-  <block id="4d0789af18c097c73fcd9996c209e1e6" category="cell">diskSize.total isVirtual diskGroup 속도 유형 위치 일련 번호 역할 상태 공급업체 모델 storage.name storagePools.name 이름입니다</block>
-  <block id="a9986c0a5945531e535ac282c2a8121e" category="cell">암호화</block>
-  <block id="e391f3304128a83d3518a1c4e35d2608" category="cell">datasources.name 제품군 IP IsActive 마이크로 코드 버전 모델 이름 프로토콜 SerialNumber 공급업체</block>
-  <block id="198133b0776d728b17d5105bbb0ac5aa" category="cell">이름 storage.name nodeVersion 모델 SerialNumber numberOfProcessors 상태 partner.name 캐시 메모리입니다</block>
-  <block id="af00b3e9fc6ed83402400634fffcef0d" category="cell">관리 IpAddresses parentSerialNumber SiteName</block>
-  <block id="e1f85d77e8208d60c3c781157f81a728" category="cell">이름 유형 isAutoTiering 가상화 이중화 공급업체FlashPools storage.vendor storage.ip storage.model storage.family storage.name storageNodes.name capacity.total(동적 특성)</block>
-  <block id="4e5fc0aadbf1d8d41eb0ae9e5c6f422a" category="cell">isCompactionSavingsEnabled isEncrypted objectStoreName objectStoreProviderType objectStoreSizeLimit objectStoreTieringFullnessThreshold objectStoreS3Name objectStoreServer입니다</block>
-  <block id="5eb77d34ea21d5e1cf90033426998666" category="cell">datasources.name securityStyle isOplocksEnabled shares.name storage.name internalVolume.storagePool.name internalVolume.name storageVirtualMachine.name internalVolume.virtualStorage simpleName StatusText 이름을 입력합니다</block>
-  <block id="d6aba08882d71471c2b6b52815ea184f" category="cell">스토리지가상머신</block>
-  <block id="5c3f6a7f7c6fdff5f1351a9949951514" category="cell">이름 storage.name 상태 유형 IPspace 프로토콜 internalVolumeLimit 주석</block>
-  <block id="ab85afd2efdf6ae9720b28e9649513d8" category="cell">이름 simpleName label type storage.name storage.vendor storage.ip storage.model storage.family isAutoTiering isThinProvisioned diskGroup isMainframe ismeta isReplicaSource isSnapshot isVirtual internalVolume.name storagePools.usesFlashPools internalVolume.virtualStorage storageNodes.name storageNodes.partner.name storageVirtualMachine.name storagePools.minDiskSize.total storagePools.minDiskSpeed storagePools.name storagePools.minDiskPools. storagePools. storagePools. storagePools. storagePools</block>
-  <block id="07d55762b61402e9f236688ff661747d" category="cell">storageGroups isEncrypted isCompressionEnabled qosBurstIOPS qosLimitIOPS qosLimitMBPS qosMinIOPS qosPolicy qosLimitRaw</block>
-  <block id="c756c59e28aa8e347b00a3bd0fe08bd9" category="cell">flashPoolEligibility name simpleName spaceGuarantee 상태 유형 virtualStorage replicaSources.name storageNodes.name storageNodes.partner.name storageVirtualMachine.name StoragePool.diskSize.total storagePool.usesFlashPools storage.vendor storage.ip storage.model storage.famage.speed storagePool.name StoragePool.disks.type storage.name capacity.isThinProvisioned</block>
-  <block id="1d7292d0a7e1e47f2ee3b03c79eebdf8" category="cell">qosPolicy qosLimitRaw qosLimitIOPS qosLimitMBPS 코멘트 암호화 adaptiveQosPolicy junctionPath objectStoreTieringPolicy tieringMinimumCoolingDays</block>
-  <block id="0775662a98ec14ff846583c9cd6761a5" category="cell">이름 dnsName IP OS 메모리 프로세서 guestState powerState host.name host.clusterName host.ip host.os dataStore.name</block>
-  <block id="cdae133139543d7031e5fa681b3189c6" category="cell">instanceType publicIps securityGroups virtualCenterIp</block>
-  <block id="825c5fc312927882b716b6c2da3b816d" category="cell">데이터 저장소</block>
-  <block id="26b3b9ba946886eaef175c67e9696e69" category="cell">이름 virtualCenterIp</block>
-  <block id="599dcce2998a6b40b1e38e8c6006cb0a" category="cell">유형</block>
-  <block id="b4a606c5f87b63f4f7157dc4fb92c30b" category="cell">이름 모델 IP IsActive OS 제조업체 cpuCount 메모리 isHypervisor 클러스터 이름</block>
-  <block id="b794217d3ee3c8ed6935fef3569befb9" category="cell">가상화 센터 Ip</block>
-  <block id="8bcb15bb664a03c6a9d894c33fe5f07c" category="cell">VMDK(VirtualMachineDisk)</block>
-  <block id="12ac32cb82500ccb5cd4fac54ef6d4d8" category="cell">이름 형식은 dataStore.name isRdm virtualMachine.host.name virtualMachine.name 입니다</block>
-  <block id="930b37d278565ffa7ba9e1e20ed02df4" category="cell">스냅샷</block>
-  <block id="44b32834b64ca3490fec05e69b5b0897" category="cell">이름 IsActive WWN 유형 portIndex 블레이드 속도 gbicType connectedPorts.device.name connectedPorts.device.type connectedPorts.name connectedPorts.nodeWwn connectedPorts.wwn controller device.name device. type fabrics.name fabilities.vsanId nodeWwn</block>
-  <block id="67daf92c833c41c95db874e18fcb2786" category="cell">설명</block>
-  <block id="aa4237e942403057a55c170360da8347" category="paragraph">&lt;&lt;&lt;&lt;&lt;head Data Infrastructure Insights에는 다음 로그에 대해 생성된 경고와 변경 사항이 나열됩니다.</block>
-  <block id="9d8153be52deeed49e78d2a079b21fe5" category="paragraph">Data Infrastructure Insights에는 다음 로그에 대해 생성된 경고 및 변경 사항이 나열됩니다.&gt;&gt;&gt;&gt;&gt;&gt; 2d5e94be3615a400bce1e7a050d2d523c06b5b8</block>
-  <block id="09a1f59ca2813556e3c9cc6b5d8ec1a1" category="list-text">로그.vmware.events</block>
-  <block id="32e5b85eb2266a4723d9c5067a92e3d0" category="list-text">Logs.NetApp.EMS 를 참조하십시오</block>
-  <block id="a1a1048ea48921a7bd280fbc92eebf07" category="paragraph">메트릭 모니터는 위 목록에서 개체 및 속성을 조사합니다. Change Analytics가 추적하려면 모니터에서 _Group by_option에서 이 옵션을 선택해야 합니다.</block>
-  <block id="1e3299dcf38c1e3bb2a16a39942989bb" category="doc">Kubernetes Monitoring Operator 설치 및 구성: 하드브레이크:</block>
-  <block id="3e021c6004e444ced45e08a6ac9e1e61" category="paragraph">변경 분석</block>
-  <block id="25a317566de430ddfd2c6f4b3fdea612" category="list-text">ci-k8s-변경 관찰자</block>
-  <block id="a21e71e8b6b5d3e4af611be860082f95" category="doc">Data Collector: Kubernetes: 어려움:</block>
-  <block id="47740590cbaabba0f1b4f325ae5fe6de" category="doc">NetApp 일반 DB 호스트 확인자:하드브레이크:</block>
-  <block id="89a6e68ed7edbbdfb7886ea0a445b999" category="doc">NetApp ONTAP REST 데이터 수집기:하드브레이크:</block>
-  <block id="56868b2777c66c74c7926c97d5cbfc1e" category="doc">워크로드 보안 에이전트 및 수집기 수동 설치: 하드브레이크:</block>
   <block id="11ad95cf52a6f6d0f02121ba7f3398ce" category="admonition">보고 권한 또는 보안을 변경하기 전에 "내 콘텐츠" 보고서를 "팀 콘텐츠" 폴더에 복사하여 보고서가 저장되도록 해야 합니다.</block>
   <block id="7d18259ee7e2ef822cedec281a19a33d" category="paragraph">Data Infrastructure Insights<block ref="ca56f933f1431ce18e092150c84b745d" category="inline-link-macro-rx"></block>에 따라 액세스할 수 있는 API가 결정됩니다. 사용자 및 게스트 역할은 관리자 역할보다 권한이 적습니다. 예를 들어 Monitor and Optimize에서 관리자 역할이 있지만 Reporting에서 사용자 역할은 데이터 웨어하우스를 제외한 모든 API 유형을 관리할 수 있습니다.</block>
   <block id="1f3c67de4e7c07c414ec4689b1724561" category="paragraph">NetApp는 다양한 방식으로 데이터 인프라 인사이트를 지원합니다. 기술 자료(KB) 기사 또는 NetApp 커뮤니티 등 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. Data Infrastructure Insights에 가입한 사용자의 경우 전화 또는 웹 티켓을 통해 기술 지원을 받을 수 있습니다. NSS(NetApp Support Site) SSO 계정은 케이스 관리와 함께 웹 티켓에 필요합니다.</block>
   <block id="3b2314bf0168715cc6642c0246916477" category="paragraph">많은 NetApp 오퍼링에서 Data Infrastructure Insights Basic Edition이 패키지의 일부로 포함됩니다. Premium Edition으로 업그레이드하려면 영업 담당자에게 문의하십시오.</block>
+  <block id="0165cb96455a1e606acc88df8cbdf5ca" category="doc">Forensic 사용자 개요</block>
+  <block id="c7e254ef92577e872c85b9cc18b384ea" category="doc">Kubernetes Monitoring Operator 설치 및 구성</block>
+  <block id="3ce5067a26bb6509b15cfb6487590ed5" category="doc">데이터 수집기: Kubernetes</block>
+  <block id="7ca1df328d6c4c2791d1be4c81d122dc" category="doc">NetApp 일반 DB 호스트 확인자</block>
+  <block id="e61b2d254813ba4e2bc2a8a223f0e0eb" category="doc">NetApp ONTAP REST 데이터 수집기</block>
+  <block id="5ecfbb1f5f3536161517dc33155eaa58" category="doc">워크로드 보안 에이전트 및 수집기를 수동으로 설치합니다</block>
 </blocks>

@@ -4,12 +4,13 @@ permalink: cs_automated_response_policies.html
 keywords: alert, snapshot, ransomware, attack 
 summary: '잠재적 공격(예: 랜섬웨어) 및/또는 활동 경고에 대해 자동화된 응답 정책을 설정할 수 있습니다' 
 ---
-= 자동화된 대응 정책: 하드브레이크:
+= 자동 응답 정책
+:hardbreaks:
 :allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ./media
 
 
 [role="lead"]

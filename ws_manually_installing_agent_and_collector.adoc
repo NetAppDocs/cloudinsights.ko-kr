@@ -4,7 +4,8 @@ permalink: ws_manually_installing_agent_and_collector.html
 keywords: install, configure, agent, collector, workload, security, cloud secure 
 summary: 작업 부하 보안 에이전트는 수동으로 설치 또는 업데이트할 수 있으므로 사용자 환경에 설치된 소프트웨어를 보다 효율적으로 제어할 수 있습니다. 
 ---
-= 워크로드 보안 에이전트 및 수집기 수동 설치: 하드브레이크:
+= 워크로드 보안 에이전트 및 수집기를 수동으로 설치합니다
+:hardbreaks:
 :toclevels: 2
 :allow-uri-read: 
 :toclevels: 2

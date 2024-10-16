@@ -5,14 +5,17 @@ keywords: telegraf, agent, telegraf agent
 summary: Data Infrastructure Insights는 Telegraf를 통합 데이터 수집을 위한 에이전트로 지원하며 Windows 또는 Linux에서 구성할 수 있습니다. 
 ---
 = 데이터 수집을 위한 에이전트 구성(Windows/Linux)
+:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
+:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
+:toc-position: content
 
 
 [role="lead"]
