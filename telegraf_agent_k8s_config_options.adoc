@@ -87,7 +87,7 @@ summary: NetApp Kubernetes Monitoring Operator는 다양한 구성 옵션을 제
 |  | rsMemRequest입니다 | Telegraf RS에 대한 메모리 요청 
 
 
-|  | runPrivileged(권한이 | 권한 모드에서 Telegraf 컨테이너를 실행합니다. k8s 노드에서 SELinux가 설정된 경우 이 값을 TRUE로 설정합니다 
+|  | runPrivileged(권한이 | 권한 부여 모드에서 Telegraf DemonSet's_Telegraf-mountstats-poller_container를 실행합니다. Kubernetes 노드에서 SELinux가 활성화된 경우 이 값을 true로 설정합니다. 
 
 
 |  | BatchSize(부atchSize) | 을 참조하십시오 link:https://github.com/influxdata/telegraf/blob/master/docs/CONFIGURATION.md#agent["Telegraf 구성 문서"] 
@@ -179,7 +179,10 @@ persistentvolumeclaims=[*], persistentvolumes=[*], pod=[*], replicasets=[*], res
 |  | runPrivileged(권한이 | Fluent Bit이 시작되지 않고 데이터베이스를 열거나 만들려고 하면 runPrivileged를 true로 설정합니다. 
 
 
-| 워크로드 맵 |  | 작업자의 작업량 맵 수집 및 설치를 사용자 정의할 수 있는 구성 옵션입니다 
+|  | runDsPrivileged입니다 | 권한 있는 모드에서 Telegraf DemonSet의 Telegraf 컨테이너를 실행하려면 runDsPrivileged를 true로 설정합니다. 
+
+
+| 워크로드 맵 |  | 작업량 맵 수집 및 작업자의 설치를 사용자 지정할 수 있는 구성 옵션입니다. 
 
 
 |  | cpuLimit | 순 관찰자 DS에 대한 CPU 제한입니다 

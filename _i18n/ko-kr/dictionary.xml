@@ -8143,13 +8143,7 @@
   <block id="2c56c637347a0a87008437d711d16263" category="cell">Isilon에 사용되는 암호입니다</block>
   <block id="01cba5236d5d580a0466283128eeaca6" category="cell">기본값은 8080입니다.</block>
   <block id="54dac5afe1fcac2f65c059fc97b44a58" category="inline-link-macro">사용되지 않음</block>
-  <block id="39fdcbcd2a4c753babbc68973712e367" category="summary">단일 제어 플레인에서 하이브리드 멀티 클라우드 데이터 자산을 구축, 보호 및 제어합니다.</block>
   <block id="fa0f9b91b9b3862eb566219b032aa9f6" category="inline-link-macro">_미리보기 _</block>
-  <block id="8a281fcc91b3d1c2a8f6a3503b98db32" category="admonition">BlueXP 탐색 메뉴 통합은 로 간주됩니다 <block ref="27c8300c0999ba5a7834ba70e02e86cc" category="inline-link-macro-rx"></block> 변경될 수 있습니다.</block>
-  <block id="dc2328c73b90d6c1704bed2d775bd562" category="inline-image-macro">BlueXP NAV 메뉴 맨 위 및 아래의 다른 NetApp 서비스에 관찰 가능성을 표시합니다</block>
-  <block id="070ed5b249a03236a4b58ef440cd9a27" category="paragraph"><block ref="070ed5b249a03236a4b58ef440cd9a27" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="27a7deb0ec1bdff43e3eb6bbcee65f55" category="paragraph">마우스를 가져가면 추가 정보가 표시됩니다.</block>
-  <block id="03aa38861ba70a29a2ebce320835a31b" category="paragraph">BlueXP 웹 사이트에서 BlueXP에 대해 자세히 알아볼 수 있습니다.</block>
   <block id="643c94a9b7fa8044a23bb9cbc6ebffbe" category="section-title">표 위젯 포맷팅</block>
   <block id="9e2381c8e7ac28deb699317b34df149b" category="paragraph">단일 값 및 게이지 위젯과 마찬가지로 표 위젯에서 조건부 서식을 설정하여 색 및/또는 특수 아이콘으로 데이터를 강조 표시할 수 있습니다.</block>
   <block id="1631a79ea8e49d2933f6cfd9657b3f26" category="paragraph">열의 단위 표시를 변경하면 조건부 서식이 그대로 유지되고 값의 변경 내용이 반영됩니다. 아래 이미지는 표시 단위가 다르지만 동일한 조건부 서식을 보여줍니다.</block>
@@ -8809,7 +8803,6 @@
   <block id="b3e9404f7fb1acb7c3d66e587a4c411b" category="cell">rsMemRequest입니다</block>
   <block id="dce1fa2cb47347aa09d7dceac624c5f7" category="cell">Telegraf RS에 대한 메모리 요청</block>
   <block id="6fd605953233d5564943f85815683d62" category="cell">runPrivileged(권한이</block>
-  <block id="06b131db41fa22ef6ac7de5a7eae4aef" category="cell">권한 모드에서 Telegraf 컨테이너를 실행합니다. k8s 노드에서 SELinux가 설정된 경우 이 값을 TRUE로 설정합니다</block>
   <block id="986b07451fa1766c43f2eead1470731c" category="cell">BatchSize(부atchSize)</block>
   <block id="f73038607dbfd988c8ed06aa707b67b6" category="inline-link-macro">Telegraf 구성 문서</block>
   <block id="4a686d41d5d06d7af488bce13a4b6b1c" category="cell">을 참조하십시오 <block ref="1220f98ff4e67fb30a54b092e87489e7" category="inline-link-macro-rx"></block></block>
@@ -8837,7 +8830,6 @@
   <block id="a28f540659f42fa52be34b45558bb6c6" category="cell">dnsMode를 선택합니다</block>
   <block id="5c0864cc25dbf397d47948de9ac342f1" category="cell">TCP/UDP, DNS 모드</block>
   <block id="6f70b1b29646b4f3864aa8abbbca1c59" category="cell">워크로드 맵</block>
-  <block id="061016eea4bb256a8b08c9190fbefeec" category="cell">작업자의 작업량 맵 수집 및 설치를 사용자 정의할 수 있는 구성 옵션입니다</block>
   <block id="8804d25db5f16b9db006116b6edf45bc" category="cell">cpuLimit</block>
   <block id="65a010afe1e2186ecb5c9ef8cf978e2d" category="cell">MemLimit</block>
   <block id="967cc12aa2f5f95e9e26d28fae3bd7b3" category="cell">net observer DS에 대한 CPU 요청입니다</block>
@@ -12999,10 +12991,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="cc3cee81cef851f2f036f9ae6b1ac477" category="paragraph">성능 데이터는 여러 장치에 걸쳐 별도의 샘플로 수집됩니다. Data Infrastructure Insights는 1시간마다(기본값) 성능 샘플을 집계하고 요약합니다.</block>
   <block id="1852e85c98f9e7216ff053507e056147" category="paragraph">각 성능 데이터 오브젝트 유형에는 고유한 성능 메트릭 세트가 있습니다. 예를 들어, 가상 머신 성능 개체는 성능 메트릭으로 "diskThroughput"을 지원합니다. 지원되는 각 성능 메트릭은 메트릭 사전에 나와 있는 특정 "성능 범주"입니다. Data Infrastructure Insights는 이 문서의 뒷부분에 나열된 몇 가지 성능 메트릭 유형을 지원합니다. 각 성능 메트릭 사전에는 이 성능 메트릭에 대한 사람이 읽을 수 있는 설명과 성능 요약 카운터 항목 집합인 "설명" 필드도 있습니다.</block>
   <block id="257f0ceb0672288b52ab4e080578e700" category="paragraph">Data Infrastructure Insights는 확장 가능한(광범위한 개방형) 솔루션으로서 타사 오케스트레이션, 비즈니스 관리, 변경 제어 및 티켓팅 시스템뿐만 아니라 사용자 지정 CMDB 통합과도 통합할 수 있습니다.</block>
-  <block id="c92924fbf7861a093c4349a94f8bcf0e" category="doc">데이터 인프라 Insights는 BlueXP 의 일부입니다</block>
-  <block id="e5e173192c2f69b363ad91f5ed6b33d3" category="paragraph">BlueXP를 사용하면 단일 인터페이스에서 모든 NetApp 스토리지 및 데이터 자산을 관리할 수 있습니다. BlueXP에서는 많은 새로운 스토리지 서비스와 이전에 별도의 UI를 통해 독립 실행형 서비스로만 제공되었던 데이터 서비스를 찾을 수 있습니다. Data Infrastructure Insights(이전의 Cloud Insights)는 이러한 서비스 중 하나입니다.</block>
-  <block id="fde977b4517b5a88b8ee2d3fcd1c0fd8" category="paragraph">직관적인 새 메뉴 BlueXP의 탐색 메뉴에 있는 데이터 서비스는 범주별로 구성되며 기능에 따라 이름이 지정됩니다. 예를 들어, 'Data Infrastructure Insights' 기능 세트는 "관측성" 메뉴에 있습니다. Data Infrastructure Insights를 탐색하는 동안 탐색 메뉴 상단에 "관측성" 섹션이 나타납니다. 이는 각 BlueXP 서비스에 대해 설명합니다.</block>
-  <block id="9ecae0812a01df2d2809eccbaae9fb2d" category="admonition">이 설명서 전체에서 "Data Infrastructure Insights"와 "관찰 가능성"이라는 용어는 같은 의미로 사용할 수 있습니다.</block>
   <block id="c0775283da3261d158df55d820b4e47b" category="paragraph">8GB 메모리와 50GB의 디스크 공간만 갖춘 Data Infrastructure Insights Acquisition Unit을 시작할 수 있지만 대규모 환경에서는 다음과 같은 질문을 해야 합니다.</block>
   <block id="cde8307fb591a6c3934539dcb5919f06" category="list-text">Data Infrastructure Insights Federal Edition 클러스터에 Acquisition Unit을 설치하는 경우 기본 운영 체제에 적절한 엔트로피 소스가 있어야 합니다. Linux 시스템에서는 일반적으로 _rng-tools_를 설치하거나 하드웨어 RNG(Random Number Generation)를 사용하여 이 작업을 수행합니다. 획득 장치 시스템에서 이 요구 사항이 충족되는지 확인하는 것은 고객의 책임입니다.</block>
   <block id="96cb7682ad0362f3aff6ef6f90dd2520" category="summary">Data Infrastructure Insights는 NetApp Active IQ에서 위험 데이터를 수집합니다</block>
@@ -13427,7 +13415,6 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="631118e6a302427a45c08e77b6d37e3b" category="cell">획득 장치 서버/VM이 포트 443을 통한 SSL 연결을 통해 데이터 인프라 인사이트 환경(&lt;environment-name&gt;.c01.cloudinsights.NetApp.com)에 액세스할 수 있는지 확인합니다. 다음 명령을 실행하십시오. _ping &lt;environment-name&gt; &lt;environment-name&gt;.c01.cloudinsights..com__traceroute &lt;environment-name&gt;.c01.cloudinsights.NetApp.com__curl\https://NetApp.c01.coudinsights.NetApp.com__wget.saves를 사용하여 &lt;environment-name&gt; 포트 443 에서 NetApp으로 이동할 수 있습니다.</block>
   <block id="d2402cb2e8bc53d6f0ea3a592a927071" category="cell">다음과 유사한 Telegraf의 경고 메시지가 표시됩니다. _W! [input.diskio] "vdc"에 대한 디스크 이름을 수집할 수 없습니다. /dev/vdc 읽기 오류: 해당 파일 또는 디렉토리 _</block>
   <block id="d167beea70a778e86c7a57bc2bd4338a" category="inline-link-macro">오퍼레이터 구성 옵션</block>
-  <block id="9de6368f45ca30e61d7d6eb11d0da5a5" category="cell">Kubernetes 모니터링 운영자의 경우 이러한 경고 메시지는 양호하며 무시해도 됩니다. 또는 AgentConfiguration에서 Telegraf 섹션을 편집하고 runPrivileged 를 true 로 설정합니다. 자세한 내용은 를 <block ref="ebda7113c4f0b0fd6090a6c2a6162dc1" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="c2a794ea709fc6031fad37bbb11353ed" category="paragraph">모듈 평가 중에는 모듈에 사용된 리소스에 대한 MU 사용료가 청구되지 않지만 * Estimator * (_Summary_tab)를 열어 평가 후 MU가 청구되는 방식을 확인하고 향후 필요한 MU의 수를 포함하는 "What if" 시나리오를 연습할 수 있습니다. 추정기를 종료하여 숫자를 재설정합니다.</block>
   <block id="6b3c6b1f0dcfdec2952b9d7ebe9ff11f" category="paragraph">Data Infrastructure Insights 관측성은 다음 두 가지 방식 중 하나로 측정됩니다.</block>
   <block id="5e787d0212aa58a0466b454df1baca59" category="list-text">용량 측정</block>
@@ -13451,4 +13438,9 @@ SELinux를 실행하는 경우 획득 장치 시스템에서 다음 명령을 �
   <block id="7ca1df328d6c4c2791d1be4c81d122dc" category="doc">NetApp 일반 DB 호스트 확인자</block>
   <block id="e61b2d254813ba4e2bc2a8a223f0e0eb" category="doc">NetApp ONTAP REST 데이터 수집기</block>
   <block id="5ecfbb1f5f3536161517dc33155eaa58" category="doc">워크로드 보안 에이전트 및 수집기를 수동으로 설치합니다</block>
+  <block id="1f3c6b9eb496e3586cb89ac14caca626" category="cell">Kubernetes 모니터링 운영자의 경우 이러한 경고 메시지는 양호하며 무시해도 됩니다.  또는 AgentConfiguration에서 Telegraf 섹션을 편집하고 _runDsPrivileged_를 true 로 설정합니다. 자세한 내용은 를 <block ref="ebda7113c4f0b0fd6090a6c2a6162dc1" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="03d93e1826c4b75f5882487510637b6a" category="cell">권한 부여 모드에서 Telegraf DemonSet's_Telegraf-mountstats-poller_container를 실행합니다. Kubernetes 노드에서 SELinux가 활성화된 경우 이 값을 true로 설정합니다.</block>
+  <block id="324bdfa0e3afdc96a6b7ec1a6d383285" category="cell">runDsPrivileged입니다</block>
+  <block id="853d5e0ee500d0a29752a0f7c287f08d" category="cell">권한 있는 모드에서 Telegraf DemonSet의 Telegraf 컨테이너를 실행하려면 runDsPrivileged를 true로 설정합니다.</block>
+  <block id="f39ed19a7c5e5e2b0cff68ee1bedc0ef" category="cell">작업량 맵 수집 및 작업자의 설치를 사용자 지정할 수 있는 구성 옵션입니다.</block>
 </blocks>
