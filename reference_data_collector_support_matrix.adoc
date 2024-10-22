@@ -5,27 +5,19 @@ summary: Data Collector 지원 매트릭스에는 지원되는 데이터 수집�
 keywords: support matrix, vendor, NetApp, IBM, EMC, Dell, HP, Hitachi, VMware, Huawei, OpenStack, 
 ---
 = Data Infrastructure Insights Data Collector 지원 매트릭스
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:firstname: [.lead]
-:author: [.lead]
-:authorinitials: [
-:authors: [.lead]
-:toc-position: content
 
 
+[role="lead"]
 데이터 수집기 지원 매트릭스는 공급업체 및 모델 정보를 포함하여 Data Infrastructure Insights에서 지원하는 데이터 수집기에 대한 참조를 제공합니다.
 
-
-toc::[]
 
 
 == HP Enterprise 3PAR/Alletra 9000/Primera StoreServ 스토리지
@@ -675,20 +667,17 @@ InServ V400 | 3.1.1(MU1)
 
 | 3PAR CLI | SSH를 클릭합니다 | SSH를 클릭합니다 | 22 |  | 참 | 거짓 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Amazon AWS EC2
 
 이 데이터 수집기에서 지원하는 모델 및 버전:
 
-|===
-| API 버전 
+API 버전:
+
+* 2014년 10월 1일
 
 
-| 2014년 10월 1일 
-|===
 이 데이터 수집기에서 지원하는 제품:
 
 |===
@@ -960,8 +949,6 @@ InServ V400 | 3.1.1(MU1)
 
 | EC2 API를 참조하십시오 | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Amazon AWS S3
@@ -1119,8 +1106,6 @@ InServ V400 | 3.1.1(MU1)
 
 | S3 API를 지원합니다 | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Microsoft Azure NetApp Files를 참조하십시오
@@ -1422,8 +1407,6 @@ InServ V400 | 3.1.1(MU1)
 
 | Azure NetApp Files REST API | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Brocade 파이버 채널 스위치
@@ -1845,8 +1828,6 @@ v9.1.1b
 
 | 데이터 소스 마법사 구성 | 수동 입력 |  |  |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Brocade Network Advisor HTTP입니다
@@ -2118,8 +2099,6 @@ v9.0.1e1
 
 | Brocade Network Advisor REST API | HTTP/HTTPS | HTTP/HTTPS | 80/443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Brocade FOS REST
@@ -2447,8 +2426,6 @@ v9.1.1b
 
 | Brocade FOS REST API | HTTPS |  | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Cisco MDS 및 Nexus 패브릭 스위치
@@ -2868,8 +2845,6 @@ UCS-FI-6454 | 3.3(1c)
 
 | Cisco SNMP를 참조하십시오 | SNMP를 선택합니다 | SNMPv1(재고만), SNMPv2, SNMPv3 | 161 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == 결속력
@@ -3182,8 +3157,6 @@ UCS-C240M5H10 | 6.5.1f_release - 20210913_13f6a4bf
 
 | Cohesity REST API입니다 | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == EMC Celerra(SSH)
@@ -3478,8 +3451,6 @@ VNX7600 을 참조하십시오 | 5.5.38-1 을 참조하십시오
 
 | Celerra CLI를 참조하십시오 | SSH를 클릭합니다 | SSH를 클릭합니다 |  |  | 참 | 거짓 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == EMC CLARiX(NaviCLI)
@@ -4044,8 +4015,6 @@ VNX8000 을 참조하십시오 | 04.28.000.5.710
 
 | Navi CLI를 참조하십시오 | CLI를 참조하십시오 |  | 6389,2162,2163,443(HTTPS) / 80(HTTP) |  | 참 | 참 | 참 | 거짓 
 |===
-<<top,맨 위로>>
-
 
 
 == EMC Data Domain(SSH)
@@ -4365,8 +4334,6 @@ DD9900입니다 | 6.1.2.051-633576
 
 | Data Domain CLI를 참조하십시오 | SSH를 클릭합니다 | SSH를 클릭합니다 | 22 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == EMC ECS
@@ -4650,8 +4617,6 @@ DD9900입니다 | 6.1.2.051-633576
 
 | EMC ECS REST API를 참조하십시오 | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Dell EMC Isilon 및 PowerScale REST
@@ -5256,8 +5221,6 @@ v8.1.2.0
 
 | EMC Isilon 및 PowerScale REST API | HTTPS |  | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Dell EMC Isilon/PowerScale(CLI)
@@ -5781,8 +5744,6 @@ v8.1.2.0
 
 | Isilon SSH | SSH를 클릭합니다 | SSH를 클릭합니다 | 22 |  | 참 | 거짓 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == EMC PowerStore REST
@@ -6304,8 +6265,6 @@ PowerStore 9200T | 2.0.1.3
 
 | EMC PowerStore REST API를 참조하십시오 | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == EMC RecoverPoint(HTTP)
@@ -6437,8 +6396,6 @@ PowerStore 9200T | 2.0.1.3
 
 | RecoverPoint REST API | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == EMC ScaleIO 및 PowerFlex REST
@@ -6739,8 +6696,6 @@ R3_6.700.103을 참조하십시오
 
 | EMC ScaleIO 및 PowerFlex REST API | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == EMC Symmetrix CLI를 참조하십시오
@@ -7504,8 +7459,6 @@ VMAX950F 를 참조하십시오 | 5773.198.142(168D0000) 빌드 5
 
 | Symmetrix SMI-S입니다 | SMI-S | HTTP/HTTPS | 5988/5989 |  | 참 | 거짓 | 거짓 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Dell Unisphere REST입니다
@@ -7931,8 +7884,6 @@ VMAX950F 를 참조하십시오 | 5978.479.479 빌드 350
 
 | Dell Unisphere API를 참조하십시오 | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == EMC VNX(SSH)
@@ -8450,8 +8401,6 @@ VNX5800 을 참조하십시오 | 05.33.009.5.231
 
 | VNX SSH 및 CLI | SSH를 클릭합니다 | SSH를 클릭합니다 | 22 |  | 참 | 거짓 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == EMC VNXe 및 Unity Unisphere(CLI)
@@ -9011,8 +8960,6 @@ VNXe3200 | 3.1.17.10223906
 
 | VNXe 및 Unisphere CLI | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == EMC VPLEX를 참조하십시오
@@ -9331,8 +9278,6 @@ VNXe3200 | 3.1.17.10223906
 
 | EMC VPLEX API를 참조하십시오 | HTTP/HTTPS | HTTP/HTTPS | 80/443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == EMC XtremIO(HTTP)
@@ -9791,8 +9736,6 @@ Brick 3개 및 251TB
 
 | EMC XtremIO REST API | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == NetApp E-Series를 통해 비즈니스 이점을 제공합니다
@@ -10377,20 +10320,17 @@ Brick 3개 및 251TB
 
 | SANtricity API를 참조하십시오 | RMI | TCP |  |  | 참 | 참 | 거짓 | 거짓 
 |===
-<<top,맨 위로>>
-
 
 
 == Google 클라우드 컴퓨팅
 
 이 데이터 수집기에서 지원하는 모델 및 버전:
 
-|===
-| API 버전 
+API 버전:
+
+* V1
 
 
-| V1 
-|===
 이 데이터 수집기에서 지원하는 제품:
 
 |===
@@ -10629,8 +10569,6 @@ Brick 3개 및 251TB
 
 | Google Compute Platform REST API를 참조하십시오 | HTTPS |  | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == HDS HCP(HTTPS)
@@ -10837,8 +10775,6 @@ Brick 3개 및 251TB
 
 | HDS HCP REST API | HTTPS | HTTPS | 9090 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == HiCommand 장치 관리자
@@ -11404,8 +11340,6 @@ SVP: 90-08-83/00
 
 | HiCommand 장치 관리자 XML API | HDS XML API입니다 | HTTP/HTTPS | 2001년 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Hitachi Ops 센터
@@ -11848,8 +11782,6 @@ VSP G800을 참조하십시오 | 80-06-92-00/00:01-65-03/05
 
 | Hitachi Ops Center REST API를 사용할 수 있습니다 | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == HDS HNAS(CLI)
@@ -12142,8 +12074,6 @@ N800을 참조하십시오 | 13.9.6918.05
 
 | HDS HNAS CLI를 참조하십시오 | SSH를 클릭합니다 | SSH를 클릭합니다 | 22 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == HPE Nimble/Alletra 6000 스토리지
@@ -12612,8 +12542,6 @@ HF60을 참조하십시오 | 5.0.10.0-742719-OPT
 
 | HP Nimble REST API입니다 | HTTPS | HTTPS | 5392 |  | 참 | 거짓 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Huawei OceanStor(REST/HTTPS)
@@ -13132,8 +13060,6 @@ V600R005C03을 참조하십시오
 
 | Huawei OceanStor 성능 REST API | HTTPS | HTTPS | 8088 |  | 참 | 거짓 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == IBM Cleversafe
@@ -13324,8 +13250,6 @@ V600R005C03을 참조하십시오
 
 | IBM Cleversafe REST API | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == IBM DS 8K(DSCLI)
@@ -13721,8 +13645,6 @@ V600R005C03을 참조하십시오
 
 | IBM DS CLI를 참조하십시오 | DSNI | DSNI |  |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == IBM PowerVM(SSH)
@@ -13904,8 +13826,6 @@ V600R005C03을 참조하십시오
 
 | IBM Hardware Management Console SSH 액세스 | SSH를 클릭합니다 | SSH를 클릭합니다 | 22 |  | 참 | 거짓 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == IBM SVC(CLI)
@@ -14494,8 +14414,6 @@ V600R005C03을 참조하십시오
 
 | IBM SVC CLI를 참조하십시오 | SSH를 클릭합니다 | SSH를 클릭합니다 | 22 |  | 참 | 거짓 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == IBM XIV 및 A9000(XIVCLI)
@@ -14907,8 +14825,6 @@ A14를 참조하십시오 | 10.2.4.e
 
 | IBM XIV CLI | XIV CLI | TCP | 7778 |  | 참 | 거짓 | 참 | 거짓 
 |===
-<<top,맨 위로>>
-
 
 
 == Infinidat(HTTP)
@@ -15235,20 +15151,17 @@ F6304를 참조하십시오 | 6.0.31.0
 
 | Infinidat REST API를 참조하십시오 | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Microsoft Azure 컴퓨팅
 
 이 데이터 수집기에서 지원하는 모델 및 버전:
 
-|===
-| API 버전 
+API 버전:
+
+* 2018년 6월 1일
 
 
-| 2018년 6월 1일 
-|===
 이 데이터 수집기에서 지원하는 제품:
 
 |===
@@ -15484,8 +15397,6 @@ F6304를 참조하십시오 | 6.0.31.0
 
 | Microsoft Azure 컴퓨팅 REST API | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Microsoft Hyper-V를 참조하십시오
@@ -15883,8 +15794,6 @@ F6304를 참조하십시오 | 6.0.31.0
 
 | WMI를 선택합니다 | WMI를 선택합니다 | WMI를 선택합니다 | 135번 |  | 참 | 거짓 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == NetApp 7 모드
@@ -16784,8 +16693,6 @@ Data ONTAP 릴리즈 8.2.5 7-Mode
 
 | NetApp 7 모드 ZAPI | 없습니다 | 없습니다 |  |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == NetApp Cloud Volumes Service를 참조하십시오
@@ -16973,8 +16880,6 @@ Data ONTAP 릴리즈 8.2.5 7-Mode
 
 | Cloud Volumes Service REST API | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == NetApp ONTAP용 Amazon FSx
@@ -17615,8 +17520,6 @@ Data ONTAP 릴리즈 8.2.5 7-Mode
 
 | NetApp ONTAP API를 참조하십시오 | HTTP/HTTPS | HTTP/HTTPS | 80/443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == NetApp clustered Data ONTAP 8.1.1 이상
@@ -19069,8 +18972,6 @@ V6240 | 8.2.3P5
 
 | NetApp ONTAP API를 참조하십시오 | HTTP/HTTPS | HTTP/HTTPS | 80/443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == NetApp SolidFire 8.1 이상
@@ -19666,8 +19567,6 @@ SF9605 를 참조하십시오 | 11.1.0.72
 
 | SolidFire REST API | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == NetApp StorageGRID(HTTPS)
@@ -19976,8 +19875,6 @@ SF9605 를 참조하십시오 | 11.1.0.72
 
 | StorageGRID REST API를 참조하십시오 | HTTPS | HTTPS | 443 |  | 참 | 거짓 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Nutanix 스토리지(REST)
@@ -20538,8 +20435,6 @@ NX-8150-G8을 참조하십시오 | 6.5.1.6
 
 | Nutanix REST API를 참조하십시오 | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == OpenStack(REST API/SSH)
@@ -20820,8 +20715,6 @@ NX-8150-G8을 참조하십시오 | 6.5.1.6
 
 | OpenStack SSH를 참조하십시오 | SSH를 클릭합니다 | SSH를 클릭합니다 | 22 |  | 참 | 거짓 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Oracle ZFS(HTTPS)
@@ -21338,8 +21231,6 @@ Sun ZFS Storage 7450 | 1-1.1
 
 | Oracle ZFS REST API | HTTP/HTTPS | HTTP/HTTPS | 215 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Pure Storage FlashArray(HTTP)
@@ -21832,8 +21723,6 @@ FA-X70을 참조하십시오 | 4.8.8
 
 | Pure Storage REST API | HTTP/HTTPS | HTTP/HTTPS | 80/443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Red Hat RHV(REST)
@@ -22075,8 +21964,6 @@ FA-X70을 참조하십시오 | 4.8.8
 
 | Red Hat RHEV REST API | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == Rubrik 스토리지
@@ -22367,8 +22254,6 @@ FA-X70을 참조하십시오 | 4.8.8
 
 | Rubrik 스토리지 REST API | HTTPS | HTTPS | 443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == NetApp HCI 가상 센터
@@ -22834,22 +22719,19 @@ VMware vCenter Server 8.0.1 빌드 - 21815093
 
 | VMware REST API | 웹 서비스 | HTTP/HTTPS | 80/443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == AWS 기반 VMware 클라우드
 
 이 데이터 수집기에서 지원하는 모델 및 버전:
 
-|===
-| API 버전 
+API 버전:
+
+* VMware vCenter Server 7.0.3 빌드 - 20532039
+* VMware vCenter Server 7.0.3 빌드 - 20870699
+* VMware vCenter Server 8.0.0 빌드 - 21709157
 
 
-| VMware vCenter Server 7.0.3 빌드 - 20532039
-VMware vCenter Server 7.0.3 빌드 - 20870699
-VMware vCenter Server 8.0.0 빌드 - 21709157 
-|===
 이 데이터 수집기에서 지원하는 제품:
 
 |===
@@ -23226,104 +23108,101 @@ VMware vCenter Server 8.0.0 빌드 - 21709157
 
 | VMware REST API | 웹 서비스 | HTTP/HTTPS | 80/443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
-
 
 
 == VMware vSphere(웹 서비스)
 
 이 데이터 수집기에서 지원하는 모델 및 버전:
 
-|===
-| API 버전 
+API 버전:
+
+* VMware ESXi 6.0.0 빌드 - 10719132
+* VMware ESXi 6.0.0 빌드 - 2494585
+* VMware ESXi 6.0.0 빌드 - 5572656
+* VMware ESXi 6.0.0 빌드 - 9313334
+* VMware ESXi 6.5.0 빌드 - 14990892
+* VMware ESXi 6.5.0 빌드 - 5969303
+* VMware ESXi 7.0.0 빌드 - 15843807
+* VMware ESXi 7.0.3 빌드 - 20036589
+* VMware ESXi 7.0.3 빌드 - 20328353
+* VMware ESXi 7.0.3 빌드 - 20842708
+* VMware vCenter Server 5.0.0 빌드 - 3073236
+* VMware vCenter Server 5.0.0 빌드 - 455964
+* VMware vCenter Server 5.0.0 빌드 - 623373
+* VMware vCenter Server 5.1.0 빌드 - 3814779
+* VMware vCenter Server 5.5.0 빌드 - 1750787
+* VMware vCenter Server 5.5.0 빌드 - 2442329
+* VMware vCenter Server 5.5.0 빌드 - 3000241
+* VMware vCenter Server 5.5.0 빌드 - 3252642
+* VMware vCenter Server 5.5.0 빌드 - 3721164
+* VMware vCenter Server 5.5.0 빌드 - 4180647
+* VMware vCenter Server 5.5.0 빌드 - 6516310
+* VMware vCenter Server 5.5.0 빌드 - 9911218
+* VMware vCenter Server 6.0.0 빌드 - 13638472
+* VMware vCenter Server 6.0.0 빌드 - 14510545
+* VMware vCenter Server 6.0.0 빌드 - 2776511
+* VMware vCenter Server 6.0.0 빌드 - 3634793
+* VMware vCenter Server 6.0.0 빌드 - 3634794
+* VMware vCenter Server 6.0.0 빌드 - 5960847
+* VMware vCenter Server 6.0.0 빌드 - 7924803
+* VMware vCenter Server 6.0.0 빌드 - 8803875
+* VMware vCenter Server 6.0.0 빌드 - 9313458
+* VMware vCenter Server 6.5.0 빌드 - 1096411
+* VMware vCenter Server 6.5.0 빌드 - 15679215
+* VMware vCenter Server 6.5.0 빌드 - 17590285
+* VMware vCenter Server 6.5.0 빌드 - 17994927
+* VMware vCenter Server 6.5.0 빌드 - 18499837
+* VMware vCenter Server 6.5.0 빌드 - 18711281
+* VMware vCenter Server 6.5.0 빌드 - 19261680
+* VMware vCenter Server 6.5.0 빌드 - 20510539
+* VMware vCenter Server 6.5.0 빌드 - 7119157
+* VMware vCenter Server 6.7.0 빌드 - 10244857
+* VMware vCenter Server 6.7.0 빌드 - 11727113
+* VMware vCenter Server 6.7.0 빌드 - 13007421
+* VMware vCenter Server 6.7.0 빌드 - 13639324
+* VMware vCenter Server 6.7.0 빌드 - 14368073
+* VMware vCenter Server 6.7.0 빌드 - 15129973
+* VMware vCenter Server 6.7.0 빌드 - 15679289
+* VMware vCenter Server 6.7.0 빌드 - 17137327
+* VMware vCenter Server 6.7.0 빌드 - 18010599
+* VMware vCenter Server 6.7.0 빌드 - 18485185
+* VMware vCenter Server 6.7.0 빌드 - 18831049
+* VMware vCenter Server 6.7.0 빌드 - 19299595
+* VMware vCenter Server 6.7.0 빌드 - 19832247
+* VMware vCenter Server 6.7.0 빌드 - 19832280
+* VMware vCenter Server 6.7.0 빌드 - 20504301
+* VMware vCenter Server 6.7.0 빌드 - 20504362
+* VMware vCenter Server 6.7.0 빌드 - 8170161
+* VMware vCenter Server 6.7.0 빌드 - 9433931
+* VMware vCenter Server 7.0.0 빌드 - 16620013
+* VMware vCenter Server 7.0.0 빌드 - 16749670
+* VMware vCenter Server 7.0.1 빌드 - 17491160
+* VMware vCenter Server 7.0.2 빌드 - 17694817
+* VMware vCenter Server 7.0.2 빌드 - 17958471
+* VMware vCenter Server 7.0.2 빌드 - 18356314
+* VMware vCenter Server 7.0.2 빌드 - 18455184
+* VMware vCenter Server 7.0.3 빌드 - 18700403
+* VMware vCenter Server 7.0.3 빌드 - 18778458
+* VMware vCenter Server 7.0.3 빌드 - 19234570
+* VMware vCenter Server 7.0.3 빌드 - 19480866
+* VMware vCenter Server 7.0.3 빌드 - 19717403
+* VMware vCenter Server 7.0.3 빌드 - 20051473
+* VMware vCenter Server 7.0.3 빌드 - 20150588
+* VMware vCenter Server 7.0.3 빌드 - 20395099
+* VMware vCenter Server 7.0.3 빌드 - 20845200
+* VMware vCenter Server 7.0.3 빌드 - 20990077
+* VMware vCenter Server 7.0.3 빌드 - 21290409
+* VMware vCenter Server 7.0.3 빌드 - 21477706
+* VMware vCenter Server 7.0.3 빌드 - 21784236
+* VMware vCenter Server 7.0.3 빌드 - 21958406
+* VMware vCenter Server 8.0.0 빌드 - 20920323
+* VMware vCenter Server 8.0.0 빌드 - 21216066
+* VMware vCenter Server 8.0.0 빌드 - 21457384
+* VMware vCenter Server 8.0.1 빌드 - 21560480
+* VMware vCenter Server 8.0.1 빌드 - 21815093
+* VMware vCenter Server 8.0.1 빌드 - 21860503
 
 
-| VMware ESXi 6.0.0 빌드 - 10719132
-VMware ESXi 6.0.0 빌드 - 2494585
-VMware ESXi 6.0.0 빌드 - 5572656
-VMware ESXi 6.0.0 빌드 - 9313334
-VMware ESXi 6.5.0 빌드 - 14990892
-VMware ESXi 6.5.0 빌드 - 5969303
-VMware ESXi 7.0.0 빌드 - 15843807
-VMware ESXi 7.0.3 빌드 - 20036589
-VMware ESXi 7.0.3 빌드 - 20328353
-VMware ESXi 7.0.3 빌드 - 20842708
-VMware vCenter Server 5.0.0 빌드 - 3073236
-VMware vCenter Server 5.0.0 빌드 - 455964
-VMware vCenter Server 5.0.0 빌드 - 623373
-VMware vCenter Server 5.1.0 빌드 - 3814779
-VMware vCenter Server 5.5.0 빌드 - 1750787
-VMware vCenter Server 5.5.0 빌드 - 2442329
-VMware vCenter Server 5.5.0 빌드 - 3000241
-VMware vCenter Server 5.5.0 빌드 - 3252642
-VMware vCenter Server 5.5.0 빌드 - 3721164
-VMware vCenter Server 5.5.0 빌드 - 4180647
-VMware vCenter Server 5.5.0 빌드 - 6516310
-VMware vCenter Server 5.5.0 빌드 - 9911218
-VMware vCenter Server 6.0.0 빌드 - 13638472
-VMware vCenter Server 6.0.0 빌드 - 14510545
-VMware vCenter Server 6.0.0 빌드 - 2776511
-VMware vCenter Server 6.0.0 빌드 - 3634793
-VMware vCenter Server 6.0.0 빌드 - 3634794
-VMware vCenter Server 6.0.0 빌드 - 5960847
-VMware vCenter Server 6.0.0 빌드 - 7924803
-VMware vCenter Server 6.0.0 빌드 - 8803875
-VMware vCenter Server 6.0.0 빌드 - 9313458
-VMware vCenter Server 6.5.0 빌드 - 1096411
-VMware vCenter Server 6.5.0 빌드 - 15679215
-VMware vCenter Server 6.5.0 빌드 - 17590285
-VMware vCenter Server 6.5.0 빌드 - 17994927
-VMware vCenter Server 6.5.0 빌드 - 18499837
-VMware vCenter Server 6.5.0 빌드 - 18711281
-VMware vCenter Server 6.5.0 빌드 - 19261680
-VMware vCenter Server 6.5.0 빌드 - 20510539
-VMware vCenter Server 6.5.0 빌드 - 7119157
-VMware vCenter Server 6.7.0 빌드 - 10244857
-VMware vCenter Server 6.7.0 빌드 - 11727113
-VMware vCenter Server 6.7.0 빌드 - 13007421
-VMware vCenter Server 6.7.0 빌드 - 13639324
-VMware vCenter Server 6.7.0 빌드 - 14368073
-VMware vCenter Server 6.7.0 빌드 - 15129973
-VMware vCenter Server 6.7.0 빌드 - 15679289
-VMware vCenter Server 6.7.0 빌드 - 17137327
-VMware vCenter Server 6.7.0 빌드 - 18010599
-VMware vCenter Server 6.7.0 빌드 - 18485185
-VMware vCenter Server 6.7.0 빌드 - 18831049
-VMware vCenter Server 6.7.0 빌드 - 19299595
-VMware vCenter Server 6.7.0 빌드 - 19832247
-VMware vCenter Server 6.7.0 빌드 - 19832280
-VMware vCenter Server 6.7.0 빌드 - 20504301
-VMware vCenter Server 6.7.0 빌드 - 20504362
-VMware vCenter Server 6.7.0 빌드 - 8170161
-VMware vCenter Server 6.7.0 빌드 - 9433931
-VMware vCenter Server 7.0.0 빌드 - 16620013
-VMware vCenter Server 7.0.0 빌드 - 16749670
-VMware vCenter Server 7.0.1 빌드 - 17491160
-VMware vCenter Server 7.0.2 빌드 - 17694817
-VMware vCenter Server 7.0.2 빌드 - 17958471
-VMware vCenter Server 7.0.2 빌드 - 18356314
-VMware vCenter Server 7.0.2 빌드 - 18455184
-VMware vCenter Server 7.0.3 빌드 - 18700403
-VMware vCenter Server 7.0.3 빌드 - 18778458
-VMware vCenter Server 7.0.3 빌드 - 19234570
-VMware vCenter Server 7.0.3 빌드 - 19480866
-VMware vCenter Server 7.0.3 빌드 - 19717403
-VMware vCenter Server 7.0.3 빌드 - 20051473
-VMware vCenter Server 7.0.3 빌드 - 20150588
-VMware vCenter Server 7.0.3 빌드 - 20395099
-VMware vCenter Server 7.0.3 빌드 - 20845200
-VMware vCenter Server 7.0.3 빌드 - 20990077
-VMware vCenter Server 7.0.3 빌드 - 21290409
-VMware vCenter Server 7.0.3 빌드 - 21477706
-VMware vCenter Server 7.0.3 빌드 - 21784236
-VMware vCenter Server 7.0.3 빌드 - 21958406
-VMware vCenter Server 8.0.0 빌드 - 20920323
-VMware vCenter Server 8.0.0 빌드 - 21216066
-VMware vCenter Server 8.0.0 빌드 - 21457384
-VMware vCenter Server 8.0.1 빌드 - 21560480
-VMware vCenter Server 8.0.1 빌드 - 21815093
-VMware vCenter Server 8.0.1 빌드 - 21860503 
-|===
 이 데이터 수집기에서 지원하는 제품:
 
 |===
@@ -23814,4 +23693,3 @@ VMware vCenter Server 8.0.1 빌드 - 21860503
 
 | VMware REST API | 웹 서비스 | HTTP/HTTPS | 80/443 |  | 참 | 참 | 참 | 참 
 |===
-<<top,맨 위로>>
